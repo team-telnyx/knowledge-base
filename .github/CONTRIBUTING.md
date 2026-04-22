@@ -1,39 +1,33 @@
-# Contributing to the Telnyx KnowledgeBase
+# Contributing to knowledge-base
 
-Thank you for helping improve our documentation! This repo is the source of truth for all product docs published to [support.telnyx.com](https://support.telnyx.com).
+This repo is a **compiled LLM wiki** produced by [LLMWiki](https://github.com/team-telnyx/LLMWiki) scraping Telnyx's public documentation surfaces. It is **not** the authoring surface for Telnyx product docs.
 
-## Who Can Contribute
+Before opening a PR, check where the fix actually belongs.
 
-### Telnyx Team Members
-- Create, update, and reorganize documentation for the products you own
-- Each engineering squad is responsible for keeping their product docs accurate and up to date
-- **All changes go through pull requests** and require approval before merging
+## Where your change belongs
 
-### External Contributors (Customers & Community)
-We welcome contributions that fix errors in our docs! External contributions are limited to:
-- ✅ Fixing typos, grammar, and formatting
-- ✅ Correcting inaccurate information
-- ✅ Improving clarity of existing content
-- ❌ Creating new files or directories
-- ❌ Deleting files or directories
-- ❌ Restructuring or reorganizing content
+**Upstream source is wrong.** Fix it on support.telnyx.com or developers.telnyx.com. The next LLMWiki sync picks up the change. This is the default path for any content correction.
 
-## How to Contribute
+**Synthesis is wrong** (page misreads the source, broken cross-references, summary contradicts the source): open an issue or PR against [LLMWiki](https://github.com/team-telnyx/LLMWiki), where the prompts and ingest scripts live.
 
-1. **Fork** this repository
-2. **Create a branch** for your changes
-3. **Make your edits** (all docs are in `.md` Markdown format)
-4. **Open a pull request** against `main` with a clear description of what you changed and why
-5. **Wait for review** — all PRs require approval from a maintainer
+**Schema, catalog, or repo structure is wrong:** open an issue or PR here against `SCHEMA.md`, `wiki/index.md`, or the README. These are the changes that belong in this repo.
 
-## Guidelines
+## Hand edits to wiki content
 
-- All documentation files must be in **Markdown (`.md`)** format
-- Keep language clear, concise, and accurate
-- Include code examples where relevant
-- Test any code snippets or API examples before submitting
-- One topic per file — don't combine unrelated product docs
+Hand-editing files under `wiki/**` is **discouraged**. Direct edits get overwritten on the next LLMWiki sync unless the upstream source or LLMWiki prompt also changes, so they paper over symptoms rather than fix root causes.
+
+A direct PR here is acceptable in narrow cases — for example, a time-sensitive factual correction where the upstream fix is being filed in parallel — but it should be the exception, not the workflow. Always file the upstream or LLMWiki fix too.
+
+All content additions and edits must conform to [`SCHEMA.md`](../SCHEMA.md): required frontmatter (`title`, `summary`, `sources`, `updated_at`), kebab-case filenames, stable paths, and standard Markdown relative links (no Obsidian `[[wikilinks]]`).
+
+## External contributors
+
+Corrections from outside Telnyx are welcome. External PRs are limited by [external-pr-check.yml](workflows/external-pr-check.yml) to editing existing files — no creating, deleting, or renaming. If you need to propose new content, open an issue first.
+
+## Review
+
+All PRs — automated or hand-authored, internal or external — require approval from a maintainer.
 
 ## Questions?
 
-If you're unsure whether a change is appropriate, open an issue first to discuss it.
+Open an issue.
