@@ -1,6 +1,6 @@
 ---
 title: JSON Mode and Beyond
-summary: In this tutorial, you'll learn how to: Start building on Telnyx today.
+summary: 'Tutorial on using JSON mode with Telnyx Inference API.'
 sources:
   - url: https://developers.telnyx.com/docs/inference/json-mode/index
     content_hash: 9598fd4e65f7c528ee277398cdee5cf1ef520adff8308a2330060d86d17ea26d

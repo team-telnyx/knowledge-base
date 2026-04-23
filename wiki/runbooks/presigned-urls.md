@@ -1,6 +1,6 @@
 ---
 title: Presigned URLs
-summary: Information on presigned URLs in Telnyx Cloud Storage: Current restrictions and guidance on safe object sharing practices.
+summary: 'Information on presigned URLs in Telnyx Cloud Storage including current restrictions and guidance on safe object sharing.'
 sources:
   - url: https://developers.telnyx.com/docs/cloud-storage/presigned-urls/index
     content_hash: f1bf80fe3b7df4ce97760e24fbb4210d83174a475c3e0bfb82962c82a56b9849

@@ -1,6 +1,6 @@
 ---
 title: Telnyx Node-RED
-summary: **(aka `@telnyx/node-red-telnyx`)**.
+summary: 'Telnyx Node-RED integration (aka @telnyx/node-red-telnyx).'
 sources:
   - url: https://developers.telnyx.com/development/development-tools/node-red/index
     content_hash: 14204a6e5a99ee57e0d06ccf905d6d59780ec7cba82a3e315f27ed4bcea81c5a

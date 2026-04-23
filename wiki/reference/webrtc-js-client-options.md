@@ -1,6 +1,6 @@
 ---
 title: WebRTC JS Client Options
-summary: • `Optional` **anonymous\_login**: `Object`.
+summary: 'WebRTC JS SDK client options interface reference.'
 sources:
   - url: https://developers.telnyx.com/development/webrtc/js-sdk/interfaces/iclientoptions/index
     content_hash: 1bfacce97526c6767a2d6d547edf5e92352a7e712e929a163d0706e4a0e0e82d

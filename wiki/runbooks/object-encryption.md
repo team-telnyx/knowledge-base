@@ -1,6 +1,6 @@
 ---
 title: Object Encryption
-summary: Implementing object encryption in Telnyx Cloud Storage using SSE-C: Step-by-step guide for secure AWS API requests.
+summary: 'Implementing object encryption in Telnyx Cloud Storage using SSE-C with step-by-step guide for secure AWS API requests.'
 sources:
   - url: https://developers.telnyx.com/docs/cloud-storage/object-encryption/index
     content_hash: 3dbcdd11703ef68dff06f0e3307b24b131c047c242d60bebf83f3a8ad4688740

@@ -1,6 +1,6 @@
 ---
 title: Langchain Integration
-summary: *LangChain is a framework for developing applications powered by large language models (LLMs)*.
+summary: 'LangChain framework integration for developing applications powered by LLMs.'
 sources:
   - url: https://developers.telnyx.com/docs/inference/langchain-integration/index
     content_hash: e11f6fff35038cfb2a1189e57d82ed2b9e7b151ff86c8777654c1a061b99468d

@@ -1,6 +1,6 @@
 ---
 title: WebRTC Voice SDKs Commonalities
-summary: ***Broadly speaking***, across all the SDKs —.
+summary: 'Common patterns and concepts across all WebRTC Voice SDKs.'
 sources:
   - url: https://developers.telnyx.com/docs/voice/webrtc/sdk-commonalities/index
     content_hash: 8a7726990048fcd503d2e81e3a49095b75da04f1dcd2301c9ebbbf3ee0d171b0

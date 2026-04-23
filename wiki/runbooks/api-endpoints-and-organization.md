@@ -1,6 +1,6 @@
 ---
 title: API Endpoints and Organization
-summary: Discover Telnyx Cloud Storage API endpoints: Key details on regions, S3 compatibility, and API usage instructions.
+summary: 'Discover Telnyx Cloud Storage API endpoints, regions, S3 compatibility, and API usage instructions.'
 sources:
   - url: https://developers.telnyx.com/docs/cloud-storage/api-endpoints/index
     content_hash: 2ed58874a9257b5f5872d0ace8b930041c4ad103c03aedb9e5014c2179af85e5

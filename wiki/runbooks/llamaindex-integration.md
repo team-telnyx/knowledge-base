@@ -1,6 +1,6 @@
 ---
 title: LlamaIndex Integration
-summary: *LlamaIndex is a simple, flexible data framework for connecting custom data sources to large language models (LLMs)*.
+summary: 'LlamaIndex integration for connecting custom data sources to LLMs.'
 sources:
   - url: https://developers.telnyx.com/docs/inference/llama-index/index
     content_hash: e6084e3cb890219feabeb2c2278d363707a4015d551424c8fd0253755969b524

@@ -1,6 +1,6 @@
 ---
 title: AWS Node.js SDK Example
-summary: **For AWS SDK v3, make sure you set all checksum calculation and validation options to `WHEN_REQUIRED`.**.
+summary: 'AWS Node.js SDK example for Telnyx Cloud Storage. For SDK v3, set checksum options to WHEN_REQUIRED.'
 sources:
   - url: https://developers.telnyx.com/docs/cloud-storage/sdk/node/index
     content_hash: fe45baf2ea131d8a620551282dedb0f77cd28fa1ba19c59931dcb51aada03b1e

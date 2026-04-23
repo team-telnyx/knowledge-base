@@ -1,6 +1,6 @@
 ---
 title: Wireguard Gateway (WGW)
-summary: On naming convention: in the [API Reference](https://developers.telnyx.com/api-reference/wireguard-interfaces/list-all-wireguard-interfaces), certain legacy documentations, and the Mission Control Portal, Wireguard Gateways are referred to as "Wireguard Interfaces".
+summary: 'Wireguard Gateway configuration. Note: legacy docs and Mission Control Portal refer to these as Wireguard Interfaces.'
 sources:
   - url: https://developers.telnyx.com/docs/network/gateways/wireguard-gateway/index
     content_hash: 65d6a1293622c1616216c4fe500d08d9e525f825a23cee5f299b19c8c3cfaaaf

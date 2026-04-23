@@ -1,6 +1,6 @@
 ---
 title: WebRTC JS Call Options
-summary: • `Optional` **audio**: `boolean` | `MediaTrackConstraints`.
+summary: 'WebRTC JS SDK call options interface reference.'
 sources:
   - url: https://developers.telnyx.com/development/webrtc/js-sdk/interfaces/icalloptions/index
     content_hash: 1fce687cfa2b8b8dcf5a70c127f957b7568615dc9a3aaa70fdb98366902dd125

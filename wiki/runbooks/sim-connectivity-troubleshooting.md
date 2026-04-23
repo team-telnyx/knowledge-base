@@ -1,6 +1,6 @@
 ---
 title: SIM Connectivity Troubleshooting
-summary: **Android:** Settings → Mobile Networks → Access Point Names → Add.
+summary: 'Troubleshooting SIM connectivity issues including APN configuration for Android and iOS.'
 sources:
   - url: https://developers.telnyx.com/docs/iot-sim/connectivity-troubleshooting/index
     content_hash: a38cd2860bc0d5cf08584b3eff0d0372b06771dc5266821362ecc47aefe33490

@@ -1,6 +1,6 @@
 ---
 title: AWS Java SDK Example
-summary: **For versions 2.30+, make sure you disable checksum calculation and verification.**.
+summary: 'AWS Java SDK example for Telnyx Cloud Storage. For versions 2.30+, disable checksum calculation and verification.'
 sources:
   - url: https://developers.telnyx.com/docs/cloud-storage/sdk/java/index
     content_hash: 2c78b265b37bd645cce4feabf7b803b73dad0aa0f2a8d449284bf4f97aad7a85

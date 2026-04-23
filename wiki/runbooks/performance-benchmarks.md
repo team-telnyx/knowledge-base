@@ -1,6 +1,6 @@
 ---
 title: Performance Benchmarks
-summary: Understand Telnyx Storage's capabilities: Summary of performance tests showing aggregate throughput for storage operations.
+summary: 'Summary of performance tests showing aggregate throughput for Telnyx Cloud Storage operations.'
 sources:
   - url: https://developers.telnyx.com/docs/cloud-storage/performance-benchmarks/index
     content_hash: 90837e687737e1d8c4f391069956943c968c55ab8214342ad68d6b42304fa9f1
