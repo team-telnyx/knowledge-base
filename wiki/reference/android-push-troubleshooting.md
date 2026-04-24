@@ -1,0 +1,184 @@
+---
+title: Android Push Troubleshooting
+summary: A step-by-step guide on how to debug common issues related to push notifications on Android.
+sources:
+  - url: https://developers.telnyx.com/development/webrtc/android-sdk/push-notification/troubleshooting/index
+    content_hash: a9398bfd817f23bbeaf9806ef1cbb3e02168158601b38809ac34930939aa0e08
+updated_at: 2026-04-10T00:00:00Z
+---
+
+# Android Push Troubleshooting
+
+A step-by-step guide on how to debug common issues related to push notifications on Android
+
+This guide helps you troubleshoot common issues that prevent push notifications from being delivered in the Telnyx WebRTC Android SDK.
+
+## Common Points of Failure
+
+### 1. FCM Token Not Passed to Login
+
+One of the most common issues is that the FCM token is not being passed correctly during the login process.
+
+**How to verify:**
+
+* Check your application logs to ensure the FCM token is being retrieved successfully
+* Verify that the login message contains the FCM token
+* Look for logs similar to: `FCM token received: [your-token]`
+
+**Solution:**
+
+* Make sure you're retrieving the FCM token as shown in the [App Setup](https://developers.telnyx.com/docs/voice/webrtc/android-sdk/push-notification/app-setup) guide
+* Ensure the token is passed to the `connect()` method within the [TelnyxConfig](https://developers.telnyx.com/docs/voice/webrtc/android-sdk/config/txconfig) object (Ether Credential or Token)
+* Verify that the token is not null or empty before passing it
+
+### 2. Incorrect google-services.json Configuration
+
+If your Firebase configuration file is incorrect or outdated, push notifications will not work properly.
+
+**How to verify:**
+
+* Check that the google-services.json file is in the correct location (app module root directory)
+* Verify that the package name in the google-services.json matches your application's package name
+
+**Solution:**
+
+* Download a fresh copy of the google-services.json file from the Firebase Console
+* Make sure you're using the correct Firebase project for your application
+* Follow the [Portal Setup](https://developers.telnyx.com/docs/voice/webrtc/android-sdk/push-notification/portal-setup) guide to properly configure Firebase
+
+### 3. Wrong Push Credential Assigned to SIP Credential
+
+If the push credential is not correctly assigned to your SIP credential, the server won't know where to send push notifications.
+
+**How to verify:**
+
+* Log into the Telnyx Portal and check your SIP Connection settings
+* Verify that the correct Android push credential is selected in the WebRTC tab
+
+**Solution:**
+
+* Follow the steps in the [Portal Setup](https://developers.telnyx.com/docs/voice/webrtc/android-sdk/push-notification/portal-setup) guide to properly assign the push credential
+* Make sure you've selected the correct credential for your application
+
+### 4. Incorrect Push Credential
+
+If your push credential contains incorrect information, push notifications will fail.
+
+**How to verify:**
+
+* Check the push credential in the Telnyx Portal
+* Verify that the server key JSON is correctly formatted and valid
+
+**Solution:**
+
+* Generate a new server key in the Firebase Console
+* Update your push credential in the Telnyx Portal with the new key
+* Test push notifications after updating the credential
+
+### 5. Login Method Limitations
+
+The way you authenticate with the Telnyx WebRTC SDK can affect push notification functionality.
+
+**How to verify:**
+
+* Check which login method you're using: SIP Connection, Generated Credential, or Token
+* Refer to the [Dialing Registered Clients documentation](https://developers.telnyx.com/docs/voice/webrtc/sdk-commonalities#dialing-registered-clients)
+
+**Solution:**
+
+* Be aware that there are limitations on which registered clients can be called
+* Test direct socket-connected calls before attempting push notification calls
+* If using a token-based authentication, ensure the token has the necessary permissions
+
+## Additional Troubleshooting Steps
+
+1. **Check Firebase Console Logs**
+   * Go to the Firebase Console > Your Project > Engage > Messaging
+   * Check for any errors or failed deliveries
+
+2. **Verify Android Manifest Configuration**
+   * Ensure your AndroidManifest.xml has the correct permissions and service declarations
+   * Check that your FirebaseMessagingService is properly registered
+
+3. **Test with Firebase Test Notifications**
+   * Use the Firebase Console to send a test notification to your device
+   * This can help determine if the issue is with Firebase or with Telnyx
+
+4. **Check Network Connectivity**
+   * Ensure your device has a stable internet connection
+   * Firebase Cloud Messaging requires network connectivity to receive notifications
+
+5. **Verify Device Registration**
+   * Make sure your device is properly registered with Firebase
+   * Check that the FCM token is being refreshed when needed
+
+## Testing VoIP Push Notifications
+
+To help troubleshoot push notification issues, we provide a command-line tool that can send test VoIP push notifications directly to your Android device.
+
+### Push Notification Testing Tool
+
+The Telnyx VoIP Push Notification Tester is a Node.js tool located in the `push-notification-tool/` directory of the WebRTC Android SDK repository. This tool allows you to:
+
+* Send test VoIP push notifications using Firebase Cloud Messaging HTTP v1 API
+* Verify that your device can receive push notifications
+* Test different caller information and payload data
+* Work with any Firebase project (not limited to Telnyx projects)
+
+### Using the Testing Tool
+
+1. **Navigate to the tool directory:**
+   ```bash theme={null}
+   cd push-notification-tool
+   ```
+
+2. **Install dependencies:**
+   ```bash theme={null}
+   npm install
+   ```
+
+3. **Run the tool:**
+   ```bash theme={null}
+   npm start
+   ```
+
+4. **Configure the tool with:**
+   * Your device's FCM token
+   * Firebase Project ID (your Firebase project)
+   * Firebase Service Account JSON credentials
+   * Caller name and phone number for testing
+
+The tool will guide you through an interactive setup process and save your configuration for future use.
+
+### What This Tests
+
+This tool tests the push notification delivery path independently of the Telnyx WebRTC SDK. If notifications work with this tool but not through normal calls, the issue is likely in one of the following areas:
+
+* SIP Connection configuration in Telnyx Portal
+* Push credential assignment
+* FCM token registration during SDK login
+* Application's FirebaseMessagingService implementation
+
+If notifications don't work with this tool, the issue is likely:
+
+* Incorrect Firebase configuration
+* Invalid FCM token
+* Network connectivity issues
+* Device-specific notification settings
+
+## Still Having Issues?
+
+If you've gone through all the troubleshooting steps and are still experiencing problems:
+
+1. Check the Telnyx WebRTC SDK documentation for any updates or known issues
+2. Contact Telnyx Support with detailed information about your setup and the issues you're experiencing
+3. Include logs, error messages, and steps to reproduce the problem when contacting support
+
+
+## Related Pages
+
+- [Flutter Push Troubleshooting](../reference/flutter-push-troubleshooting.md)
+- [Troubleshooting](../reference/troubleshooting.md)
+- [Troubleshooting](../reference/troubleshooting-2.md)
+- [Android Push Notifications](../runbooks/android-push-notifications.md)
+- [10DLC Troubleshooting Guide](../runbooks/10dlc-troubleshooting-guide.md)

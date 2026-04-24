@@ -1,10 +1,498 @@
 ---
 title: Telnyx Knowledge Base Index
-updated_at: 2026-04-22T00:00:00Z
+updated_at: 2026-04-23T00:00:00Z
 ---
 
 # Telnyx Knowledge Base Index
 
-Top-level catalog of the Telnyx Knowledge Base. See [`SCHEMA.md`](../SCHEMA.md) for the page and index format, and the [README](../README.md) for an overview.
+Catalog of the Telnyx Knowledge Base. Pages are grouped by category; navigate by following the links below. See [`SCHEMA.md`](../SCHEMA.md) for the page format.
 
-_The catalog will be populated by the ingestion pipeline once content lands. Sectioning and ordering are determined by the pipeline and may evolve._
+## Concepts (9)
+
+- [Edge Compute](concepts/edge-compute.md) — Serverless functions on Telnyx's global edge network.
+- [How to set up a Private Wireless Gateway](concepts/how-to-set-up-a-private-wireless-gateway.md) — Once configured, you can control which external destinations are reachable from devices connected through the PWG, and which are blocked.
+- [Messaging Profiles Overview](concepts/messaging-profiles-overview.md) — Understand Telnyx messaging profiles — the central configuration for your messaging numbers, webhooks, features, and spend limits.
+- [Platform](concepts/platform.md) — You are building on carrier-grade infrastructure.
+- [Speech-to-Text](concepts/speech-to-text.md) — Real-time and batch audio transcription via WebSocket, REST, or in-call.
+- [Telnyx Programmable Networking Overview](concepts/telnyx-programmable-networking-overview.md) — Telnyx programmable networking allows users and their application to access Telnyx SIP and API endpoints ***without traversing the public internet***, therefore offering a path with better latency and throughput.
+- [Text-to-Speech Overview](concepts/text-to-speech-overview.md) — Synthesize natural speech from text via WebSocket streaming, REST API, or in-call playback.
+- [Voice](concepts/voice.md) — Standalone components for building voice AI applications.
+- [Wireless](concepts/wireless.md) — Programmable cellular connectivity — data, voice, and messaging for any device.
+
+## Tutorials (14)
+
+- [Choosing a Sender Type](tutorial/choosing-a-sender-type.md) — Compare long codes, toll-free, short codes, RCS, and alphanumeric sender IDs to find the best messaging channel for your business.
+- [Edge Compute Quick Start](tutorial/edge-compute-quick-start.md) — Deploy serverless functions on Telnyx Edge Compute in under 5 minutes.
+- [Fundamentals - Searching + Ordering Phone Numbers](tutorial/fundamentals-searching-ordering-phone-numbers.md) — The following concepts must be understood to purchase phone numbers.
+- [Getting Started with 10DLC](tutorial/getting-started-with-10dlc.md) — Register your brand and campaign for 10DLC A2P messaging.
+- [Getting started with port-in orders](tutorial/getting-started-with-port-in-orders.md) — Transfer your existing phone numbers to Telnyx by creating and submitting port-in orders.
+- [Inference API Quickstart](tutorial/inference-api-quickstart.md) — Welcome to the Telnyx Inference API! This guide will teach you the basics of chatting with open-source language models running on Telnyx GPUs.
+- [JavaScript Video Tutorial](tutorial/javascript-video-tutorial.md) — Learn how to add video to your web page with Telnyx's easy-to-use JavaScript SDK.
+- [Number Reputation Quickstart](tutorial/number-reputation-quickstart.md) — Step-by-step guide to set up Number Reputation and start monitoring your phone numbers' spam scores.
+- [Port-out orders](tutorial/port-out-orders.md) — Manage port-out requests when another carrier initiates a transfer for phone numbers on your Telnyx account.
+- [Quick Start](tutorial/quick-start.md) — Deploy a LiveKit voice agent on Telnyx and call it from your phone.
+- [Quickstart for Number Lookup](tutorial/quickstart-for-number-lookup.md) — Lookup a phone number and retrieve information.
+- [Quickstart for Telnyx Verify](tutorial/quickstart-for-telnyx-verify.md) — Telnyx Verify helps to deliver a 2FA token to any mobile number and verify that token using Telnyx V2 API.
+- [Quickstart Guide for Programmable Fax](tutorial/quickstart-guide-for-programmable-fax.md) — Telnyx's Programmable Fax service makes it easy to send and receive faxes from your computer or phone.
+- [RCS Getting Started](tutorial/rcs-getting-started.md) — Get started with RCS messaging using the Telnyx RCS API.
+
+## Runbooks (386)
+
+- [10DLC Brand Registration](runbooks/10dlc-brand-registration.md) — Complete guide to registering your business as a 10DLC brand with Telnyx, including entity types, vetting scores, rejection troubleshooting, and SDK examples.
+- [10DLC Campaign Registration](runbooks/10dlc-campaign-registration.md) — Register your 10DLC campaign with TCR, choose the right use case type, write sample messages that pass carrier review, and handle rejections programmatically.
+- [10DLC event notifications](runbooks/10dlc-event-notifications.md) — Configure webhooks to receive real-time notifications about 10DLC brand registrations, campaign status changes, and phone number assignments.
+- [10DLC Phone Number Assignment](runbooks/10dlc-phone-number-assignment.md) — Assign phone numbers to 10DLC campaigns, manage bulk assignments, integrate with number pools, and troubleshoot common assignment failures.
+- [10DLC Rate Limits & Throughput](runbooks/10dlc-rate-limits-throughput.md) — Understand AT&T and T-Mobile 10DLC rate limits by vetting score, campaign type, and carrier.
+- [10DLC Troubleshooting Guide](runbooks/10dlc-troubleshooting-guide.md) — Diagnose and resolve common 10DLC brand registration, campaign approval, phone number assignment, and messaging delivery issues.
+- [Account Levels and Capabilities](runbooks/account-levels-and-capabilities.md) — Understand how Telnyx accounts are categorized and what distinguishes each framework.
+- [Account Signup](runbooks/account-signup.md) — Understand the trust and safety checks applied to every Telnyx signup attempt.
+- [Account Upgrade](runbooks/account-upgrade.md) — Actions required to advance from trial to paid, verified, and enterprise Telnyx accounts.
+- [Action ordering requirements](runbooks/action-ordering-requirements.md) — Complete action requirements for international phone number orders that cannot be fulfilled through standard documentation.
+- [Adaptive jitter buffer for SIP Trunking](runbooks/adaptive-jitter-buffer-for-sip-trunking.md) — Jitter buffering smooths out packet arrival variation on SIP connections to reduce audio artifacts such as choppy or distorted speech.
+- [Advanced Opt-In/Out Management](runbooks/advanced-opt-in-out-management.md) — Configure custom opt-in and opt-out keywords, auto-responses, and country-specific messaging to maintain CTIA & TCPA compliance.
+- [Advanced Orders](runbooks/advanced-orders.md) — Submit and track Advanced Order Requests when phone number searches return zero results - request Telnyx to acquire unavailable numbers on your behalf.
+- [Agent Handoff](runbooks/agent-handoff.md) — Enable seamless AI-to-AI handoffs with specialized assistants working together in a single conversation, providing expert-level support across multiple domains.
+- [AI assistant integrations](runbooks/ai-assistant-integrations.md) — Connect your Telnyx AI assistants with enterprise platforms and developer tools — automate workflows with Salesforce, ServiceNow, and HubSpot, or test and evaluate assistants with Coval.
+- [AI glossary](runbooks/ai-glossary.md) — General terms used in the world of AI.
+- [AI insights use cases](runbooks/ai-insights-use-cases.md) — Industry-specific examples and implementation patterns for AI Insights across healthcare, customer support, sales, e-commerce, and financial services.
+- [AI SMS Outfit Recs with OpenMeteo](runbooks/ai-sms-outfit-recs-with-openmeteo.md) — Telnyx Inference + AI offering SMS outfit recommendations using LLMs like Llama-3.1 based on the weather using OpenMeteo.
+- [AIAssistant](runbooks/aiassistant.md) — The `` verb allows you to start a voice assistant on the call.
+- [AIGather](runbooks/aigather.md) — The `` verb collects specific information from call participants leveraging AI.
+- [Allowed FOC dates](runbooks/allowed-foc-dates.md) — Request and set a specific date for your port order to complete.
+- [Alphanumeric Sender ID](runbooks/alphanumeric-sender-id.md) — Send branded SMS messages using custom alphanumeric sender IDs instead of phone numbers.
+- [Anatomy of a JS SDK Client & Call](runbooks/anatomy-of-a-js-sdk-client-call.md) — While some differences exist between the JS SDK and the mobile SDKs, they follow a similar client lifecycle and call flow.
+- [AnchorSite Configuration](runbooks/anchorsite-configuration.md) — Configure AnchorSite to control which Telnyx PoP handles media routing for SIP calls, with latency-based and manual selection modes.
+- [Android Push Notifications](runbooks/android-push-notifications.md) — Set up Firebase Cloud Messaging and configure the Telnyx Portal to receive push notifications for incoming calls on Android.
+- [Answering Machine Detection](runbooks/answering-machine-detection.md) — Telnyx's Programmable Voice lets you build custom answering machine detection features into your voice applications.
+- [API Endpoints and Organization](runbooks/api-endpoints-and-organization.md) — Discover Telnyx Cloud Storage API endpoints: Key details on regions, S3 compatibility, and API usage instructions.
+- [APIs glossary](runbooks/apis-glossary.md) — General terms used in the world of APIs.
+- [Applications](runbooks/applications.md) — Manage TeXML applications for handling inbound and outbound calls.
+- [Appointment Reminders via SMS](runbooks/appointment-reminders-via-sms.md) — Send automated appointment reminders with the Telnyx Messaging API.
+- [Architecture](runbooks/architecture-2.md) — How the Telnyx LiveKit platform works — agents, autoscaling, and the call flow.
+- [Architecture](runbooks/architecture.md) — How Edge Compute works under the hood.
+- [Async Tools & Deferred Context](runbooks/async-tools-deferred-context.md) — Build responsive AI assistants that continue conversations while waiting for slow backend operations.
+- [AT Commands](runbooks/at-commands.md) — Telnyx provides a comprehensive guide to AT commands for wireless devices.
+- [Attach an AI Assistant to a Call](runbooks/attach-an-ai-assistant-to-a-call.md) — Learn how to attach a pre-configured AI assistant to a live call using the ai_assistant_start command.
+- [Audio Formats](runbooks/audio-formats-2.md) — Supported audio input formats, sample rates, and engine compatibility.
+- [Audio Formats](runbooks/audio-formats.md) — Applies to both `file` (multipart upload) and `file_url` (URL download).
+- [Audio Language Models](runbooks/audio-language-models.md) — In this tutorial, you'll learn how to.
+- [Authentication](runbooks/authentication.md) — Learn how to authenticate with Telnyx Storage using API keys and AWS Signature Version 4 for secure API requests.
+- [Available Models](runbooks/available-models.md) — Models available through the Telnyx Inference API for chat completions, AI Assistants, and more.
+- [AWS Elixir SDK Example](runbooks/aws-elixir-sdk-example.md) — The following example shows how AWS Elixir SDK can be used to interact with Telnyx Cloud Storage.
+- [AWS Golang SDK Example](runbooks/aws-golang-sdk-example.md) — The following example shows how AWS Golang SDK can be used to interact with Telnyx Cloud Storage.
+- [AWS Java SDK Example](runbooks/aws-java-sdk-example.md) — **For versions 2.30+, make sure you disable checksum calculation and verification.**.
+- [AWS .Net SDK Example](runbooks/aws-net-sdk-example.md) — Chunk encoding is not supported by the Cloud Storage API.
+- [AWS Node.js SDK Example](runbooks/aws-node-js-sdk-example.md) — **For AWS SDK v3, make sure you set all checksum calculation and validation options to `WHEN_REQUIRED`.**.
+- [AWS PHP SDK Example](runbooks/aws-php-sdk-example.md) — The following example shows how AWS PHP SDK can be used to interact with Telnyx Cloud Storage.
+- [AWS Polly](runbooks/aws-polly.md) — AWS Polly TTS provider — neural, generative, and long-form synthesis engines.
+- [AWS VXC Setup](runbooks/aws-vxc-setup.md) — We will construct the following architecture.
+- [Azure Speech](runbooks/azure-speech.md) — Azure Speech TTS provider — multilingual neural voices with SSML support.
+- [Azure VXC Setup](runbooks/azure-vxc-setup.md) — We will construct the following architecture.
+- [Best Practices](runbooks/best-practices.md) — Code patterns and configuration guidance for building fast, reliable, and secure edge functions.
+- [Billing](runbooks/billing.md) — Understand Telnyx Cloud Storage billing—Details on charges for storage bytes and API operation counts.
+- [Bindings](runbooks/bindings.md) — Access Telnyx platform services from your edge functions.
+- [Build a REST API](runbooks/build-a-rest-api.md) — Create a JSON API with routing, validation, and error handling.
+- [Build](runbooks/build.md) — Build a voice agent with Telnyx STT, TTS, and LLM and deploy it to the Telnyx platform.
+- [Bulk number orders](runbooks/bulk-number-orders.md) — Order phone numbers in bulk by specifying quantity and search criteria without selecting specific numbers upfront.
+- [Bulk Operations](runbooks/bulk-operations.md) — One-time batch operations on an explicit list of SIMs.
+- [Bundles with porting orders](runbooks/bundles-with-porting-orders.md) — Associate bundles with porting phone numbers so bundle pricing is automatically applied when the port completes.
+- [Call Center Demo](runbooks/call-center-demo.md) — How to build a call center application using Telnyx APIs.
+- [Call Tracking Demo](runbooks/call-tracking-demo.md) — How to build a call tracking application using Telnyx Voice API.
+- [Caller ID Policy](runbooks/caller-id-policy.md) — Telnyx enforces strict caller ID validation to prevent spoofing and ensure compliance with telecommunications regulations.
+- [Calls](runbooks/calls.md) — Initiate and manage TeXML calls programmatically.
+- [Campaign Use Case Examples & Sample Messages](runbooks/campaign-use-case-examples-sample-messages.md) — Compliant sample messages, opt-in language, and content patterns for every 10DLC campaign use case type — ready to use in your TCR registration.
+- [Cancel port order](runbooks/cancel-port-order.md) — Cancel a port-in order that is no longer needed before it completes.
+- [CI/CD](runbooks/ci-cd.md) — Deploy Edge Compute functions automatically with CI/CD pipelines.
+- [Command Retries](runbooks/command-retries.md) — Telnyx's Programmable Voice Resources page explain in detail how to configure your command retries for voice applications.
+- [Commands and Resources](runbooks/commands-and-resources.md) — The following endpoints can be used with the Voice API applications.
+- [Compatibility Matrix](runbooks/compatibility-matrix.md) — Review the comprehensive compatibility matrix for Telnyx Cloud Storage, covering a wide range of API functionalities.
+- [Compatibility with AWS S3](runbooks/compatibility-with-aws-s3.md) — Navigate AWS S3 compatibility in Telnyx Cloud Storage, focusing on supported headers and API methods.
+- [Compatibility](runbooks/compatibility.md) — What works, what's different, and what's not available when using LiveKit on Telnyx vs LiveKit Cloud or self-hosted.
+- [Concurrent Call Limits](runbooks/concurrent-call-limits.md) — Concurrent call limits control the maximum number of simultaneous outbound calls allowed on an account.
+- [Conference participants](runbooks/conference-participants.md) — Manage participants in TeXML conference calls.
+- [Conference](runbooks/conference.md) — The `` verb's `` noun allows you to connect to a conference room.
+- [Conferences](runbooks/conferences.md) — Create and manage TeXML conference calls.
+- [Conferencing Demo](runbooks/conferencing-demo.md) — How to build a conferencing using Telnyx Voice API.
+- [Configurable Spend Limits](runbooks/configurable-spend-limits.md) — Set daily spending limits on messaging profiles to prevent unexpected costs.
+- [Configuration](runbooks/configuration-2.md) — Configuration options for deploying agents on Telnyx.
+- [Configuration](runbooks/configuration-3.md) — Query parameters and voice settings — two configuration surfaces for WebSocket TTS.
+- [Configuration](runbooks/configuration.md) — Function configuration is managed through a func.toml file, which defines your project settings, bindings, and deployment options.
+- [Configure custom LLM providers for AI assistants](runbooks/configure-custom-llm-providers-for-ai-assistants.md) — Configure Azure OpenAI, AWS Bedrock, Baseten, or any OpenAI-compatible endpoint as a custom LLM provider for your Telnyx AI assistants.
+- [Connect to Telnyx](runbooks/connect-to-telnyx.md) — Point your LiveKit CLI and SDKs at the Telnyx platform.
+- [Connect](runbooks/connect.md) — The `` verb starts the service defined in the nested noun in synchronous mode.
+- [Contact center (CCaaS) implementation](runbooks/contact-center-ccaas-implementation.md) — Build a complete contact center solution using Telnyx WebRTC with advanced call control and routing capabilities.
+- [Coverage](runbooks/coverage.md) — Individual networking resource availability is not universal across all Telnyx regions.
+- [Cradlepoint IBR200 Cellular Router Setup Guide](runbooks/cradlepoint-ibr200-cellular-router-setup-guide.md) — Telnyx's Cradlepoint IBR200 Cellular Tutorial provides all the information you need to get started using cellular with your Cradlepoint router.
+- [Create Your Telnyx Account](runbooks/create-your-telnyx-account.md) — Step-by-step guide to create and set up your Telnyx account for accessing APIs and services.
+- [Creating Insights](runbooks/creating-insights.md) — Step-by-step guide to creating AI Insights in the Mission Control Portal to analyze your AI Assistant conversations.
+- [Custom templates for Telnyx Verify](runbooks/custom-templates-for-telnyx-verify.md) — Create and manage custom verification message templates for branded OTP communications with Telnyx Verify.
+- [Data Usage Notifications](runbooks/data-usage-notifications.md) — Set per-SIM usage thresholds and get notified when SIMs approach their limits.
+- [Deploy](runbooks/deploy.md) — Deploy your LiveKit agent to Telnyx infrastructure.
+- [Dial](runbooks/dial.md) — The `` verb transfers an existing call to another destination.
+- [Dialogflow ES](runbooks/dialogflow-es.md) — Telnyx's Dialogflow tutorial will teach you how to create and manage sophisticated voice interactions with your customers.
+- [Documents](runbooks/documents.md) — Upload and manage documents used for regulatory requirements and identity verification.
+- [DTMF Confirmation Verification](runbooks/dtmf-confirmation-verification.md) — Verify phone number ownership with a single keypress.
+- [Dynamic E911](runbooks/dynamic-e911.md) — Dynamic E911 delivers location information to PSAPs during emergency calls.
+- [Dynamic Variables](runbooks/dynamic-variables.md) — Dynamic variables let you configure a template for your agent's behavior.
+- [ElevenLabs](runbooks/elevenlabs.md) — ElevenLabs TTS provider — bring your own ElevenLabs API key.
+- [Email to Fax](runbooks/email-to-fax.md) — Telnyx's Programmable Fax allows you to send faxes from your email.
+- [Embeddings](runbooks/embeddings.md) — In this tutorial, you'll learn how to.
+- [Emptying Buckets](runbooks/emptying-buckets.md) — When a bucket has more than 1000 objects, it's burdensome to empty it synchronously.
+- [End-of-Turn Detection](runbooks/end-of-turn-detection.md) — Flux end-of-turn detection parameters for voice agent turn-taking.
+- [Endpointing](runbooks/endpointing.md) — Silence detection for utterance boundary detection.
+- [Engines & Models](runbooks/engines-models.md) — Available transcription engines and models.
+- [Enqueue](runbooks/enqueue.md) — The `` verb enqueues the current call in a call queue.
+- [Enterprises](runbooks/enterprises.md) — Register your business as an enterprise to use Branded Calling and Number Reputation services.
+- [Environment Variables](runbooks/environment-variables.md) — Define and access environment variables in Edge Compute functions.
+- [Errors](runbooks/errors-2.md) — WebSocket error codes and troubleshooting.
+- [Errors](runbooks/errors.md) — Error codes and troubleshooting for WebSocket STT.
+- [Examples](runbooks/examples-2.md) — Complete code examples for WebSocket STT streaming.
+- [Examples](runbooks/examples-3.md) — REST TTS code examples — OpenAI SDK compatibility, streaming playback, async retrieval.
+- [Examples](runbooks/examples-4.md) — Python and JavaScript WebSocket TTS examples.
+- [Examples](runbooks/examples.md) — Copy-paste code snippets for common edge function patterns.
+- [Execution Model](runbooks/execution-model.md) — How edge functions are invoked, their lifecycle, and concurrency behavior.
+- [External Call Transfers](runbooks/external-call-transfers.md) — External transfers move an inbound PSTN call to an external destination while preserving the original caller's identity.
+- [Failover and Retries](runbooks/failover-and-retries.md) — Telnyx SIP connections automatically retry failed call attempts through different routes and IP addresses.
+- [Fine Tuning](runbooks/fine-tuning.md) — In this tutorial, you'll learn how to.
+- [Flutter Push Notifications](runbooks/flutter-push-notifications.md) — Configure push notifications for the Telnyx Flutter Voice SDK on both Android and iOS.
+- [Framework Support](runbooks/framework-support.md) — Deploy applications built with popular web frameworks on Edge Compute.
+- [Function Calling (Streaming + Parallel Calls)](runbooks/function-calling-streaming-parallel-calls.md) — In the [previous tutorial](function-calling.md), we learned the basics for defining and executing functions using our [chat completions API](https://developers.telnyx.com/api-reference/chat/create-a-chat-completion).
+- [Function Calling](runbooks/function-calling.md) — In this tutorial, you'll learn how to connect large language models to external tools using our [chat completions API](https://developers.telnyx.com/api-reference/chat/create-a-chat-completion).
+- [Gather using AI](runbooks/gather-using-ai.md) — Gather using AI is a powerful functionality that allows you to efficiently collect specific information from call participants.
+- [Gather](runbooks/gather.md) — The `` verb collects DTMF tones during a call.
+- [Geomatch](runbooks/geomatch.md) — Automatically select sender numbers that match recipient area codes for higher engagement and trust.
+- [Getting Started with Android Client SDK](runbooks/getting-started-with-android-client-sdk.md) — Telnyx's Android client SDK is simple to use and makes it easy to get started with video calling.
+- [Getting Started with iOS Client SDK](runbooks/getting-started-with-ios-client-sdk.md) — The Telnyx iOS Client SDK makes it easy to get started with video calling and messaging on your iPhone or iPad.
+- [Getting Started with JavaScript SDK for Video](runbooks/getting-started-with-javascript-sdk-for-video.md) — Telnyx's JavaScript SDK is easy to use and makes it simple to get started with video calling.
+- [Getting Started with Telnyx Programmable Fax](runbooks/getting-started-with-telnyx-programmable-fax.md) — Telnyx's Programmable Fax service makes it easy to send and receive faxes from your computer or mobile device.
+- [Getting Started with Telnyx Voice API](runbooks/getting-started-with-telnyx-voice-api.md) — Complete step-by-step guide to get started with Telnyx Voice API, from account creation to making your first call.
+- [Getting Started with Video](runbooks/getting-started-with-video.md) — Telnyx's video documentation is the perfect place to start learning about our platform.
+- [GL-MiFi 4G Smart Router Setup Guide](runbooks/gl-mifi-4g-smart-router-setup-guide.md) — Telnyx's GLMifi Router provides an easy way to get started with using LTE for your Internet connection.
+- [Global API Gateway](runbooks/global-api-gateway.md) — Route API traffic globally with caching, auth, and rate limiting.
+- [Google VXC Setup](runbooks/google-vxc-setup.md) — We will construct the following architecture on Google Cloud.
+- [Group Messaging](runbooks/group-messaging.md) — Send and receive group MMS messages to multiple recipients using the Telnyx Messaging API.
+- [Hosted SMS](runbooks/hosted-sms.md) — Bring your own phone number onto the Telnyx platform for SMS and MMS while keeping it with your current voice provider.
+- [Hosted STIR/SHAKEN Certificate](runbooks/hosted-stir-shaken-certificate.md) — Use a self-hosted STIR/SHAKEN certificate to sign outbound calls.
+- [HttpRequest](runbooks/httprequest.md) — The `` verb sends a request to the external servers.
+- [HTTPS with Custom Domain](runbooks/https-with-custom-domain.md) — You may use Telnyx storage as the backend to serve your content under domains you control.
+- [Image Resizer](runbooks/image-resizer.md) — Resize and optimize images on-the-fly at the edge.
+- [Importing Assistants from another Provider](runbooks/importing-assistants-from-another-provider.md) — If you have voice assistants with another provider, you can import them to Telnyx in the portal or [via API](https://developers.telnyx.com/api-reference/assistants/import-assistants-from-external-provider#import-assistants-from-external-provider).
+- [In-Call Playback](runbooks/in-call-playback.md) — TTS during live voice calls via Voice API or TeXML.
+- [In-Call Transcription](runbooks/in-call-transcription.md) — Real-time speech-to-text during live Telnyx voice calls via Voice API or TeXML.
+- [Insight Groups](runbooks/insight-groups.md) — Organize AI Insights into reusable groups and configure webhook delivery for automated insights distribution.
+- [Interim Results](runbooks/interim-results.md) — Partial transcription behavior and message flow differences.
+- [Internal Hosted SMS Transfer](runbooks/internal-hosted-sms-transfer.md) — Transfer hosted SMS numbers between Telnyx accounts.
+- [International SMS Compliance Guide](runbooks/international-sms-compliance-guide.md) — Country-specific SMS registration requirements, sender ID rules, opt-in regulations, and content restrictions for the top international messaging destinations.
+- [Internet Gateway (IGW)](runbooks/internet-gateway-igw.md) — This is a beta feature.
+- [Interpreting WebRTC Voice SDKs Debug Data](runbooks/interpreting-webrtc-voice-sdks-debug-data.md) — This is a beta feature with limited availability by SDK type.
+- [Inworld](runbooks/inworld.md) — Inworld TTS provider — Mini (low-latency) and Max (high-quality) models.
+- [iOS Push Notifications](runbooks/ios-push-notifications.md) — Configure APNS VoIP push certificates and the Telnyx Portal to receive push notifications for incoming calls on iOS.
+- [IoT Data Ingestion](runbooks/iot-data-ingestion.md) — Collect and process IoT sensor data globally.
+- [IP Authentication Token](runbooks/ip-authentication-token.md) — The `X-Telnyx-Token` header distinguishes multiple SIP connections sharing the same IP address.
+- [IP Whitelisting](runbooks/ip-whitelisting.md) — Firewall and ACL configuration for Telnyx SIP signaling, media transport, and webhook delivery.
+- [ISV & Reseller 10DLC Onboarding](runbooks/isv-reseller-10dlc-onboarding.md) — Register 10DLC brands and campaigns on behalf of your customers using Telnyx partner campaign APIs.
+- [IVR Demo](runbooks/ivr-demo.md) — How to build an IVR using Telnyx Voice API.
+- [JS SDK Demo App](runbooks/js-sdk-demo-app.md) — To lower onboarding barrier, a JS SDK demo app was built and made accessible at [webrtc.telnyx.com](https://webrtc.telnyx.com).
+- [JSON Mode and Beyond](runbooks/json-mode-and-beyond.md) — In this tutorial, you'll learn how to: Start building on Telnyx today.
+- [Keyword Boosting](runbooks/keyword-boosting.md) — Boost recognition of specific terms (keyterm and keywords parameters).
+- [KokoroTTS](runbooks/kokorotts.md) — Telnyx KokoroTTS — lowest-latency lightweight TTS.
+- [Langchain Integration](runbooks/langchain-integration.md) — *LangChain is a framework for developing applications powered by large language models (LLMs)*.
+- [Language](runbooks/language.md) — Language parameter behavior and engine differences.
+- [Large Language Models (LLM)](runbooks/large-language-models-llm.md) — LLM inference available through Telnyx for LiveKit voice agents.
+- [Lifecycle](runbooks/lifecycle-2.md) — WebSocket endpoint for real-time text-to-speech streaming.
+- [Lifecycle](runbooks/lifecycle.md) — WebSocket endpoint for real-time speech-to-text streaming.
+- [Limits](runbooks/limits-2.md) — Resource limits and quotas for Edge Compute functions.
+- [Limits](runbooks/limits-3.md) — Quotas and limits for LiveKit on Telnyx.
+- [Limits](runbooks/limits.md) — Safeguard Your Data with Telnyx Storage Unveiling Object Encryption Limits.
+- [LlamaIndex Integration](runbooks/llamaindex-integration.md) — *LlamaIndex is a simple, flexible data framework for connecting custom data sources to large language models (LLMs)*.
+- [Local Development](runbooks/local-development.md) — Build, test, and debug Edge Compute functions locally.
+- [Making Bucket Public](runbooks/making-bucket-public.md) — This is currently supported only for buckets located in the US.
+- [Management & Access](runbooks/management-access.md) — What you control and what Telnyx manages on the LiveKit platform.
+- [Media Streaming over Websockets](runbooks/media-streaming-over-websockets.md) — Media Streaming over Websockets.
+- [Memory](runbooks/memory.md) — Memory enables your AI assistant to recall essential details from past conversations.
+- [Message Detail Records](runbooks/message-detail-records.md) — Track message status and delivery with Message Detail Records (MDRs).
+- [Message Encoding](runbooks/message-encoding.md) — Understand SMS encoding types, character limits, segment calculations, and how to optimize message length to reduce costs.
+- [Messages](runbooks/messages-2.md) — WebSocket frame types — client-to-server and server-to-client.
+- [Messages](runbooks/messages.md) — All message types sent and received over the WebSocket connection.
+- [Messaging Error Code Reference](runbooks/messaging-error-code-reference.md) — Complete reference of Telnyx Messaging API error codes with descriptions, causes, and recommended actions.
+- [Messaging + Porting](runbooks/messaging-porting.md) — Track and manage messaging activation when porting US and Canada phone numbers.
+- [Migrate from LiveKit Cloud](runbooks/migrate-from-livekit-cloud.md) — Switch from LiveKit Cloud to Telnyx — change three environment variables, keep everything else.
+- [Migrate from Self-Hosted](runbooks/migrate-from-self-hosted.md) — Stop running LiveKit infrastructure.
+- [Migrating from S3](runbooks/migrating-from-s3.md) — The migration API moves all data from a source AWS S3 bucket to a destination Telnyx Storage bucket without the user incurring a data egress charge by AWS.
+- [Mikrotik wAP LTE Kit - US Tutorial](runbooks/mikrotik-wap-lte-kit-us-tutorial.md) — Telnyx's Mikrotik WAP LTE tutorial is a great resource for anyone looking to get started with wireless networking using Mikrotik hardware.
+- [Minimax](runbooks/minimax.md) — Minimax TTS provider — expressive voices with speed, volume, and pitch control.
+- [MMS converter](runbooks/mms-converter.md) — Optional automatic fallback to SMS when sending MMS to destinations that.
+- [MMS Media & Transcoding](runbooks/mms-media-transcoding.md) — Send MMS messages with media attachments.
+- [Model Config](runbooks/model-config.md) — Pass-through to [Deepgram's pre-recorded API](https://developers.deepgram.com/docs/pre-recorded-audio) query parameters.
+- [Models](runbooks/models.md) — Your choice of `model` determines which audio formats are accepted, what `language` values are valid, and what response fields are available.
+- [Modifying MMS SMIL Template](runbooks/modifying-mms-smil-template.md) — SMIL specifies how MMS media files are laid out in MMS.
+- [Multipart Upload](runbooks/multipart-upload.md) — Large objects should be uploaded to your bucket via multipart upload.
+- [Natural](runbooks/natural.md) — Telnyx Natural — low-latency English TTS backed by Rime Mist.
+- [NaturalHD](runbooks/naturalhd.md) — Telnyx NaturalHD — multilingual TTS backed by Rime Arcana.
+- [Networks](runbooks/networks.md) — A `network` instance is a prerequisite for the creation of all other elements.
+- [Noise suppression for SIP Trunking](runbooks/noise-suppression-for-sip-trunking.md) — Noise suppression enhances call quality by removing background noise from audio streams.
+- [Noise Suppression](runbooks/noise-suppression.md) — In this tutorial, you'll learn how to enable noise suppression for the Voice API and TeXML calls.
+- [Nordic Semiconductor nRF9160 DK Setup Guide](runbooks/nordic-semiconductor-nrf9160-dk-setup-guide.md) — Nordic Semiconductor’s nRF9160 is a powerful Bluetooth Low Energy (BLE) SoC that enables the development of ultra-low power, connected products.
+- [Number Orders](runbooks/number-orders.md) — Tutorial for ordering phone numbers.
+- [Number Pool](runbooks/number-pool.md) — Distribute outbound messaging across multiple phone numbers to maximize deliverability and throughput.
+- [Number Reputation Settings](runbooks/number-reputation-settings.md) — Enable, configure, and manage Number Reputation monitoring for your enterprise.
+- [Number Reputation](runbooks/number-reputation.md) — Monitor and manage the spam reputation of your outbound calling phone numbers with Telnyx Number Reputation.
+- [Number Reservations](runbooks/number-reservations.md) — The Phone Number Reservations API lets you **reserve** phone numbers for 30 minutes.
+- [Number Search](runbooks/number-search.md) — Tutorial to search for available numbers to purchase.
+- [Object Encryption](runbooks/object-encryption.md) — Implementing object encryption in Telnyx Cloud Storage using SSE-C: Step-by-step guide for secure AWS API requests.
+- [Object Lock & Retention](runbooks/object-lock-retention.md) — This is currently supported only for buckets located in the US.
+- [Observability](runbooks/observability.md) — Monitor Edge Compute functions with logs, metrics, and tracing.
+- [On-demand activations](runbooks/on-demand-activations.md) — Port your phone numbers at your convenience with flexible activation windows.
+- [OpenAI API Migration Guide](runbooks/openai-api-migration-guide.md) — OpenAI API Migration Guide.
+- [OTA Updates](runbooks/ota-updates.md) — Over-the-air SIM profile updates — IMSI changes, network settings, and configuration pushes.
+- [Outbound dialer implementation](runbooks/outbound-dialer-implementation.md) — Build an automated outbound dialer system using Telnyx WebRTC and Call Control API for high-volume calling campaigns.
+- [Outbound Voice Profiles](runbooks/outbound-voice-profiles.md) — Outbound voice profiles control routing, billing, and rate limits for outbound SIP calls.
+- [Overview](runbooks/overview-2.md) — File-based speech-to-text via REST.
+- [Overview](runbooks/overview.md) — STT, TTS, and LLM plugin configuration for Telnyx LiveKit agents.
+- [P-Charge-Info Header](runbooks/p-charge-info-header.md) — A SIP header that identifies the billing number (DID) for outbound calls, enabling accurate call attribution and routing through Telnyx SIP trunks.
+- [Paid Account Privileges & Limitations](runbooks/paid-account-privileges-limitations.md) — Capabilities and restrictions applied to paid Telnyx accounts.
+- [Parameters](runbooks/parameters-2.md) — Query parameters for the WebSocket STT endpoint.
+- [Parameters](runbooks/parameters.md) — All parameters are sent as `multipart/form-data`.
+- [Particle Boron LTE Kit Setup Guid](runbooks/particle-boron-lte-kit-setup-guid.md) — Telnyx's Particle Boron LTE kit is the perfect way to get started with LTE development.
+- [Pause](runbooks/pause.md) — The `` verb waits silently for a specified number of seconds or one second by default.
+- [Pepwave Max BR1 Mini LTE Setup Guide](runbooks/pepwave-max-br1-mini-lte-setup-guide.md) — Telnyx's Pepwave MAX BR1 Mini LTE tutorial is a great resource for businesses who need to get up and running quickly with LTE service.
+- [Performance Benchmarks](runbooks/performance-benchmarks.md) — Understand Telnyx Storage's capabilities: Summary of performance tests showing aggregate throughput for storage operations.
+- [Phone Number Messaging Configuration](runbooks/phone-number-messaging-configuration.md) — Configure phone numbers for messaging — assign to messaging profiles, enable messaging features, manage number settings, and troubleshoot common issues.
+- [Phone Number Reputation](runbooks/phone-number-reputation.md) — Associate phone numbers for monitoring, query spam scores and risk levels, and manage ongoing reputation tracking.
+- [Play](runbooks/play.md) — The `` verb plays an MP3 or WAV audio file, which Telnyx fetches back to the caller from the URL you configure.
+- [Port-in blocks](runbooks/port-in-blocks.md) — Port consecutive phone number blocks from another carrier, with control over which numbers activate immediately.
+- [Port-in events](runbooks/port-in-events.md) — View events for your port-in orders and republish notifications for specific events.
+- [Port in extended numbers](runbooks/port-in-extended-numbers.md) — Port phone number extensions (extended numbers) alongside a route number for German porting orders.
+- [Port-in order notifications](runbooks/port-in-order-notifications.md) — We understand the importance of being able to track the progress and status of your port orders.
+- [Port-in requirements](runbooks/port-in-requirements.md) — View and fulfill regulatory requirements on your port-in orders.
+- [Port-out events](runbooks/port-out-events.md) — View events for your port-out orders and republish notifications for specific events.
+- [Port-Out Order Notifications](runbooks/port-out-order-notifications.md) — Stay informed with Telnyx Port Out Notifications for seamless number port-out processes.
+- [Porting additional steps](runbooks/porting-additional-steps.md) — Handle additional steps that may be required before submitting a porting order.
+- [PR Reviewer](runbooks/pr-reviewer.md) — Telnyx Inference tool for automatically reviewing Pull Requests at GitHub.
+- [Presigned URLs](runbooks/presigned-urls.md) — Information on presigned URLs in Telnyx Cloud Storage: Current restrictions and guidance on safe object sharing practices.
+- [Pricing](runbooks/pricing.md) — Usage-based pricing for LiveKit on Telnyx.
+- [Private Wireless Gateway (PGW)](runbooks/private-wireless-gateway-pgw.md) — Private Wireless Gateway (PGW) is an element that routes traffic between a group of Telnyx SIMs and other network elements.
+- [Private Wireless Gateways](runbooks/private-wireless-gateways.md) — Route SIM traffic through your private network instead of the public internet.
+- [Programmable Voice services restrictions for L1 verified accounts](runbooks/programmable-voice-services-restrictions-for-l1-verified-accounts.md) — The accounts with the L1 verification are restricted in the following way.
+- [Public IPs](runbooks/public-ips.md) — Assign public static IPs to SIM cards for inbound connectivity.
+- [Push Notifications Overview](runbooks/push-notifications-overview.md) — How push notifications work with Telnyx WebRTC SDKs to deliver incoming call alerts when your app is backgrounded or terminated.
+- [Queueing Calls](runbooks/queueing-calls.md) — how to use the Telnyx Call Queue API to create and manage call queues using Telnyx Voice API.
+- [Queues](runbooks/queues.md) — Create and manage TeXML queues to handle waiting callers.
+- [Quick Start](runbooks/quick-start.md) — There are four ways to get started on Telnyx cloud storage.
+- [Qwen3TTS](runbooks/qwen3tts.md) — Telnyx Qwen3TTS — voice cloning with 11-language support.
+- [Rate Limiting and Fraud Prevention for Verify](runbooks/rate-limiting-and-fraud-prevention-for-verify.md) — Implement server-side rate limiting, geo-fencing, anomaly detection, and cost controls to protect your Telnyx Verify integration from SMS pumping and toll fraud.
+- [Rate Limiting](runbooks/rate-limiting.md) — Understand Telnyx SMS rate limits by sender type and how to optimize your message throughput.
+- [RCS Capabilities & Deeplinks](runbooks/rcs-capabilities-deeplinks.md) — Query device RCS capabilities before sending and generate deeplinks to start RCS conversations from websites or QR codes.
+- [RCS Deeplinks](runbooks/rcs-deeplinks.md) — Generate RCS deeplinks to start conversations from websites, QR codes, and email campaigns.
+- [RCS with AI Assistant](runbooks/rcs-with-ai-assistant.md) — Build an intelligent RCS agent powered by Telnyx AI Assistant—no custom backend required.
+- [React Native Push Notifications](runbooks/react-native-push-notifications.md) — Configure push notifications for the Telnyx React Native Voice SDK on both Android and iOS.
+- [Real-Time Media Pipeline](runbooks/real-time-media-pipeline.md) — Transform and route media streams at the edge.
+- [Receive a Fax via API](runbooks/receive-a-fax-via-api.md) — Telnyx's Programmable Fax API makes it easy to receive faxes from anywhere in the world.
+- [Receive SMS and MMS Messages](runbooks/receive-sms-and-mms-messages.md) — Receive inbound SMS and MMS messages via webhooks using the Telnyx Messaging API — with auto-reply, MMS media handling, and webhook signature verification.
+- [Receiving RCS Webhooks](runbooks/receiving-rcs-webhooks.md) — Handle RCS webhooks from Telnyx — delivery receipts, inbound messages, read receipts, and suggestion responses.
+- [Receiving Webhooks for Messaging](runbooks/receiving-webhooks-for-messaging.md) — Learn how to receive, verify, and handle messaging webhooks from Telnyx.
+- [Receiving Webhooks for Programmable Fax](runbooks/receiving-webhooks-for-programmable-fax.md) — Telnyx's Programmable Fax API allows you to easily send and receive faxes from your applications.
+- [Receiving Webhooks for Programmable Voice](runbooks/receiving-webhooks-for-programmable-voice.md) — The Telnyx Developer Portal provides documentation and resources for developers building applications on the Telnyx platform.
+- [Receiving Webhooks for Telnyx Verify](runbooks/receiving-webhooks-for-telnyx-verify.md) — You can choose to be notified about events on your send verifications by configuring webhooks on your verify profile.
+- [Record](runbooks/record.md) — The `` verb creates an audio file with the call audio.
+- [Recordings](runbooks/recordings.md) — Access and manage TeXML call recordings.
+- [Redaction](runbooks/redaction.md) — PII redaction in transcription results.
+- [Redirect](runbooks/redirect.md) — The `` verb transfers control of a call to the TeXML document to another TeXML application.
+- [Refer](runbooks/refer.md) — The `` verb in Telnyx allows you to transfer a phone call to another SIP infrastructure during a TeXML call.
+- [Reference Architectures](runbooks/reference-architectures.md) — Proven patterns for building applications on the Telnyx Edge platform.
+- [Regions](runbooks/regions.md) — Available regions for LiveKit on Telnyx.
+- [Regulatory Requirements](runbooks/regulatory-requirements.md) — Tutorial for viewing and fulfilling regulatory requirements on phone number orders.
+- [Reject](runbooks/reject.md) — The `` verb rejects a call to your Telnyx number.
+- [Request](runbooks/request.md) — REST TTS request body fields — text, voice, output type, and provider-specific settings.
+- [Requirement groups](runbooks/requirement-groups.md) — Manage and reuse regulatory requirements across multiple phone number orders by creating requirement groups.
+- [Resemble](runbooks/resemble.md) — Resemble TTS provider — bring your own Resemble API key.
+- [Response Format](runbooks/response-format.md) — Controlled by the `response_format` parameter.
+- [Response](runbooks/response.md) — REST TTS response formats — streaming audio, base64, and async retrieval.
+- [REST API](runbooks/rest-api.md) — Single-request text-to-speech with HTTP chunked streaming — start playing before synthesis finishes.
+- [Rime](runbooks/rime.md) — Rime TTS provider — ArcanaV3 model with speed and format control.
+- [Room and Events](runbooks/room-and-events.md) — Telnyx's video JavaScript SDK lets you manage room events and join/leave notifications.
+- [Round Robin Routing](runbooks/round-robin-routing.md) — Round robin routing distributes inbound calls sequentially across all configured IP addresses in a SIP connection.
+- [Routes & Domains](runbooks/routes-domains.md) — Configure custom domains, URL routing, and placement for Edge Compute functions.
+- [Runtime](runbooks/runtime.md) — The runtime environment and platform APIs available to your edge functions.
+- [Say](runbooks/say.md) — The `` verb speaks the text specified back to the caller, enabling text-to-speech for any application.
+- [Schedule SMS and MMS Messages](runbooks/schedule-sms-and-mms-messages.md) — Schedule SMS and MMS messages for future delivery using the Telnyx Messaging API.
+- [Secrets](runbooks/secrets-2.md) — Manage API keys and sensitive configuration for your agents.
+- [Secrets](runbooks/secrets-3.md) — Manage secrets for TeXML applications.
+- [Secrets](runbooks/secrets.md) — Securely store and access sensitive data in Edge Compute functions.
+- [Send a Fax via API](runbooks/send-a-fax-via-api.md) — Telnyx offers powerful faxing capabilities through our programmable fax API.
+- [Send RCS Messages](runbooks/send-rcs-messages.md) — Send rich RCS messages with text, rich cards, carousels, and suggested actions using the Telnyx RCS API.
+- [Send & Receive MMS](runbooks/send-receive-mms.md) — Send MMS messages with media attachments and handle inbound MMS webhooks with code examples in 7 languages.
+- [Send WhatsApp Messages](runbooks/send-whatsapp-messages.md) — Send template, text, media, interactive, and location messages via the Telnyx WhatsApp API.
+- [Send Your First Message](runbooks/send-your-first-message.md) — Send your first SMS in 5 minutes using the Telnyx Messaging API.
+- [Sending Commands for Programmable Voice](runbooks/sending-commands-for-programmable-voice.md) — Telnyx's Programmable Voice gives developers the ability to send voice commands to Telnyx's voice services.
+- [Sending Commands](runbooks/sending-commands.md) — Telnyx's Programmable Fax offers an easy way to send faxes from your applications.
+- [Sending HTTP requests in TeXML - tutorial](runbooks/sending-http-requests-in-texml-tutorial.md) — Learn how to send HTTP requests using Telnyx Programmable Voice and TeXML.
+- [Short Codes](runbooks/short-codes.md) — Request and configure short codes for high-volume A2P messaging.
+- [SIM Card Groups](runbooks/sim-card-groups.md) — Group-level configuration and policy for SIM cards.
+- [SIM Cards](runbooks/sim-cards.md) — How to order physical SIMs and eSIMs, and what happens after.
+- [SIM Connectivity Troubleshooting](runbooks/sim-connectivity-troubleshooting.md) — **Android:** Settings → Mobile Networks → Access Point Names → Add.
+- [SIM Lifecycle](runbooks/sim-lifecycle.md) — State machine, transitions, and what to know about managing SIM status.
+- [SIM7600-A Raspberry Pi 4G Hat Setup](runbooks/sim7600-a-raspberry-pi-4g-hat-setup.md) — This DevDocs page provides a comprehensive tutorial on how to use the Sim7600A Raspberry Pi 4G Hat with Telnyx wireless services.
+- [SIMs & eSIMs](runbooks/sims-esims.md) — SIM types, lifecycle, resource model, and multi-IMSI networking.
+- [SIP Authentication Methods](runbooks/sip-authentication-methods.md) — Telnyx SIP connections support multiple authentication methods based on network topology and security requirements.
+- [SIP Response Codes](runbooks/sip-response-codes.md) — Telnyx-specific SIP response codes for diagnosing call failures.
+- [SIP Trunking Configuration Guides](runbooks/sip-trunking-configuration-guides.md) — Telnyx's SIP trunking guide will help you configure your sip devices for use with our service.
+- [SIP Trunking Overview](runbooks/sip-trunking-overview.md) — Telnyx SIP trunking uses **SIP Connections** for inbound traffic and authentication, and **Outbound Voice Profiles** for outbound call routing.
+- [SIP URI Calling](runbooks/sip-uri-calling.md) — SIP URI calling enables inbound calls to a SIP username, eliminating the need for a traditional phone number.
+- [SIPREC](runbooks/siprec-2.md) — Manage SIPREC sessions for TeXML calls.
+- [Siprec](runbooks/siprec.md) — The `` instruction starts the SIPREC session on the given call.
+- [Sixfab Cellular IoT HAT Setup](runbooks/sixfab-cellular-iot-hat-setup.md) — Sixfab Cellular IoT Hat is a powerful cellular module for IoT applications.
+- [Sixfab Raspberry Pi 3G/4G Hat](runbooks/sixfab-raspberry-pi-3g-4g-hat.md) — Telnyx's SixFax Raspberry Pi Hat is the perfect way to send and receive faxes on your Raspberry Pi.
+- [Smart Encoding](runbooks/smart-encoding.md) — Automatically substitute Unicode characters with GSM-7 equivalents to reduce SMS segment counts and costs.
+- [SMS Webhook Handler](runbooks/sms-webhook-handler.md) — Process incoming SMS messages and send automated replies.
+- [Sole Proprietor 10DLC Registration](runbooks/sole-proprietor-10dlc-registration.md) — Complete guide to registering Sole Proprietor brands and campaigns via the Telnyx API, including OTP verification flow.
+- [Speech-to-Text (STT)](runbooks/speech-to-text-stt.md) — STT models available through Telnyx for LiveKit voice agents.
+- [Speech-to-Text with Voice API and TeXML](runbooks/speech-to-text-with-voice-api-and-texml.md) — Learn how to get a transcription from your calls using Voice API and TeXML.
+- [SQL DB](runbooks/sql-db.md) — Serverless SQL database at the edge with SQLite compatibility.
+- [SRV Records](runbooks/srv-records.md) — DNS SRV (Service) records enable automatic failover and load distribution for SIP connections by resolving to multiple Telnyx signaling IPs with priority and weight parameters.
+- [SSML Tags](runbooks/ssml-tags.md) — Programmable voice with SSML tags from Telnyx - perfect for your next conference call, voicemail greeting, or even a singing telegram!.
+- [Start](runbooks/start.md) — The `` verb starts the service defined in the nested noun.
+- [Sticky Sender](runbooks/sticky-sender.md) — Maintain consistent sender numbers for recipients across messages to build familiarity and trust.
+- [STIR/SHAKEN Attestation Behavior](runbooks/stir-shaken-attestation-behavior.md) — Attestation levels assigned by Telnyx for outbound calls.
+- [STIR/SHAKEN SIP Header Parameters](runbooks/stir-shaken-sip-header-parameters.md) — Telnyx provides call attestation information through the `verstat` parameter in the `P-Asserted-Identity` SIP header.
+- [Stop](runbooks/stop.md) — The `` verb stops the instruction specified by noun on a call.
+- [Storing call recordings](runbooks/storing-call-recordings.md) — Telnyx's Programmable Voice gives customers the ability to store the recordings on storage owned by them (AWS, GCS).
+- [Stream](runbooks/stream.md) — The `` instruction starts streaming the media from a call to a specific WebSocket address in near-real-time.
+- [Streams](runbooks/streams.md) — Manage media streams for TeXML calls.
+- [Structured data insights](runbooks/structured-data-insights.md) — Create AI Insights with defined JSON schemas for consistent, structured data extraction from conversations.
+- [STUN/TURN Servers](runbooks/stun-turn-servers.md) — STUN (Session Traversal Utilities for NAT) and TURN (Traversal Using Relays around NAT) servers enable NAT traversal for SIP clients behind firewalls and private networks.
+- [Suppression](runbooks/suppression.md) — The `` instruction starts noise suppression on the call to improve audio quality.
+- [Tech Prefix Authentication](runbooks/tech-prefix-authentication.md) — A 4-digit identifier prepended to outbound calls to differentiate multiple SIP connections sharing the same IP address.
+- [Telecom Event Processor](runbooks/telecom-event-processor.md) — Process voice, SMS, and messaging events in real-time.
+- [Telecom glossary](runbooks/telecom-glossary.md) — General terms used in the world of telecom.
+- [Telephony](runbooks/telephony.md) — Connect phone numbers to your LiveKit agents on Telnyx.
+- [Telnyx LiveKit Plugin](runbooks/telnyx-livekit-plugin.md) — Integrate Telnyx STT, TTS, and LLM services into LiveKit agents using the Telnyx LiveKit Plugin.
+- ['Telnyx & LiveKit: SIP Trunk Configuration'](runbooks/telnyx-livekit-sip-trunk-configuration.md) — Telnyx SIP Trunks integrate seamlessly with LiveKit for real-time audio and video applications.
+- [Telnyx SIPREC server (SRS) Configuration Guide](runbooks/telnyx-siprec-server-srs-configuration-guide.md) — Telnyx SIPREC server (SRS) Configuration Guide.
+- [Telnyx](runbooks/telnyx.md) — Telnyx native TTS — 5 models across latency, quality, and language coverage.
+- [Testing and Traffic Distribution for AI Assistants](runbooks/testing-and-traffic-distribution-for-ai-assistants.md) — This guide walks you through testing your AI assistant before production deployment and managing live traffic distribution between different versions.
+- [Testing](runbooks/testing.md) — Test your edge functions locally and in staging before deploying to production.
+- [TeXML and TwiML Compatibility](runbooks/texml-and-twiml-compatibility.md) — Comparison of TeXML and TwiML verb support.
+- [TeXML Answering Machine Detection Support](runbooks/texml-answering-machine-detection-support.md) — Learn how to enable and configure Answering Machine Detection (AMD) for TeXML outbound calls, with synchronous and asynchronous detection modes.
+- [TeXML Bin Dynamic Content](runbooks/texml-bin-dynamic-content.md) — Telnyx's TeXML service provides dynamic text-to-speech translation for your applications.
+- [TeXML Fundamentals](runbooks/texml-fundamentals.md) — TeXML is an XML-based markup language to define call control and processing instructions.
+- [TeXML Instruction Fetching](runbooks/texml-instruction-fetching.md) — How Telnyx fetches TeXML instructions for inbound and outbound calls.
+- [TeXML Interpreter](runbooks/texml-interpreter.md) — TeXML is an XML based data structure used by Telnyx to build quick applications.
+- [Text-to-Speech (TTS)](runbooks/text-to-speech-tts.md) — TTS models and voices available through Telnyx for LiveKit voice agents.
+- [Text-to-Speech](runbooks/text-to-speech.md) — In this tutorial, you will learn how to get a Text-To-Speech service on your calls using Voice API and TeXML.
+- [Third Party S3 Compatible Applications](runbooks/third-party-s3-compatible-applications.md) — Discover the compatibility of Telnyx Storage with S3 third-party applications and access helpful configuration guides.
+- [Toll-Free Verification Troubleshooting](runbooks/toll-free-verification-troubleshooting.md) — Diagnose and resolve toll-free verification rejections, resubmission issues, delivery problems, and throughput limitations for SMS/MMS on toll-free numbers.
+- [Toll-Free Verification with Business Registration Fields](runbooks/toll-free-verification-with-business-registration-fields.md) — New Business Registration Number (BRN) fields for toll-free SMS/MMS verification, including mandatory requirements starting February 2026.
+- [Traffic Policy Profiles](runbooks/traffic-policy-profiles.md) — Control what traffic your SIMs can send and receive — by service, IP range, or domain.
+- [Transcription Settings](runbooks/transcription-settings.md) — Choose and configure speech-to-text (STT) models for AI Assistants, including Deepgram Flux eager end-of-turn for reduced response latency.
+- [Transcription](runbooks/transcription.md) — The `` verb enables real-time speech-to-text transcription for the call.
+- [Transcripts](runbooks/transcripts.md) — Access and manage TeXML call transcriptions.
+- [Trial Account Privileges & Limitations](runbooks/trial-account-privileges-limitations.md) — Capabilities, restrictions, and daily limits applied to Telnyx trial accounts.
+- ['Tutorial: Edge Device Deployment'](runbooks/tutorial-edge-device-deployment.md) — Telnyx's edge deployment guide is the perfect resource for businesses looking to get the most out of their private wireless gateway.
+- [Tutorials](runbooks/tutorials.md) — Step-by-step guides for building real applications on the Telnyx Edge platform.
+- [Two-Factor Authentication (2FA) via SMS](runbooks/two-factor-authentication-2fa-via-sms.md) — Implement SMS-based two-factor authentication with the Telnyx Messaging API.
+- [Ultra](runbooks/ultra.md) — Telnyx Ultra — sub-100ms latency, 44 languages, REST only.
+- [Usage Reports](runbooks/usage-reports.md) — The (v2) Usage Reports API is a single endpoint that enables viewing aggregated usage data across all of a customer's Telnyx products.
+- [Using SIPREC client for Voice API and TeXML calls](runbooks/using-siprec-client-for-voice-api-and-texml-calls.md) — SIPREC client (SRC) is a component within the SIPREC framework.
+- [Using Your Trial Account](runbooks/using-your-trial-account.md) — Recommended process to get the most value from Telnyx trial credits.
+- [Verified Account Privileges & Limitations](runbooks/verified-account-privileges-limitations.md) — Capabilities that remain restricted after verification and how to request enterprise access.
+- [Verify Security Best Practices](runbooks/verify-security-best-practices.md) — Protect your verification flows from fraud, abuse, and common attack vectors with these security best practices for Telnyx Verify.
+- [Versions & Deployments](runbooks/versions-deployments.md) — Manage function versions, rollbacks, and deployment strategies.
+- [Voice API Services in Europe](runbooks/voice-api-services-in-europe.md) — Telnyx's Voice API Services in Europe provides developers with a way to build voice-based applications and services.
+- [Voice API Webhooks](runbooks/voice-api-webhooks.md) — Reference for Voice API webhook events, payloads, configuration, and delivery behavior.
+- [Voice Assistant Quickstart](runbooks/voice-assistant-quickstart.md) — In this tutorial, you'll learn how to configure a voice assistant with Telnyx.
+- [Voice Call Router](runbooks/voice-call-router.md) — Route calls based on time of day and caller location.
+- [Voice Cloning](runbooks/voice-cloning.md) — Create custom AI-generated voices using natural language prompts or clone voices from audio recordings, then use them across Telnyx TTS services.
+- [Voice Design Lab](runbooks/voice-design-lab.md) — Create custom AI-generated voices using natural language prompts or clone voices from audio recordings, then use them across Telnyx TTS services.
+- [Voice Outreach with AI Missions](runbooks/voice-outreach-with-ai-missions.md) — Give your AI agent a mission to research businesses, make phone calls, and report back with results — all tracked and auditable through the Telnyx Missions API.
+- [Voice SDK Authentication via Credential Based SIP Connections](runbooks/voice-sdk-authentication-via-credential-based-sip-connections.md) — The following API request will create a basic credential based SIP connection.
+- [Voice SDK Authentication via JWTs](runbooks/voice-sdk-authentication-via-jwts.md) — The following API request will generate a JWT.
+- [Voice SDK Authentication via Telephony Credentials](runbooks/voice-sdk-authentication-via-telephony-credentials.md) — The following API request will create a telephony credential.
+- [Voicemail Detection on Transfer](runbooks/voicemail-detection-on-transfer.md) — Configure Voice AI Assistants to detect voicemail on transferred calls and respond automatically.
+- [VXC API](runbooks/vxc-api.md) — The API resource in question is `/v2/virtual_cross_connects`.
+- [VXC Cost](runbooks/vxc-cost.md) — You will be charged by Telnyx AND your cloud provider.
+- [WebRTC Voice SDKs Architecture](runbooks/webrtc-voice-sdks-architecture.md) — To properly architect solutions and/or troubleshoot issues, one must understand how WebRTC Voice SDK fits among Telnyx's product portfolio.
+- [WebRTC Voice SDKs Call Detail Records](runbooks/webrtc-voice-sdks-call-detail-records.md) — Every call between a voice SDK client and Telnyx produces a `webrtc` detail record.
+- [WebRTC Voice SDKs Commonalities](runbooks/webrtc-voice-sdks-commonalities.md) — ***Broadly speaking***, across all the SDKs —.
+- [WebRTC Voice SDKs Debug Data](runbooks/webrtc-voice-sdks-debug-data.md) — This is a beta feature.
+- [WebRTC Voice SDKs Fundamentals](runbooks/webrtc-voice-sdks-fundamentals.md) — These SDKs enable client-side applications to instantiate and control a Telnyx call leg.
+- [Wireguard Gateway (WGW)](runbooks/wireguard-gateway-wgw.md) — On naming convention: in the [API Reference](https://developers.telnyx.com/api-reference/wireguard-interfaces/list-all-wireguard-interfaces), certain legacy documentations, and the Mission Control Portal, Wireguard Gateways are referred to as "Wireguard Interfaces".
+- [Wireguard Peer Config on Linux](runbooks/wireguard-peer-config-on-linux.md) — You come from [here](https://developers.telnyx.com/docs/network/gateways/wireguard-gateway) and have a `.conf` file ready.
+- [Wireguard Peer Config on MacOS](runbooks/wireguard-peer-config-on-macos.md) — You come from [here](https://developers.telnyx.com/docs/network/gateways/wireguard-gateway) and have a `.conf` file ready.
+- [Wireguard Peer Config on Windows](runbooks/wireguard-peer-config-on-windows.md) — You come from [here](https://developers.telnyx.com/docs/network/gateways/wireguard-gateway) and have a `.conf` file ready.
+- [Wireless Blocklists](runbooks/wireless-blocklists.md) — Prevent SIMs from connecting to specific networks by country, MCC, or PLMN.
+- [Wireless Detail Records](runbooks/wireless-detail-records.md) — Export per-session data usage records for billing, auditing, and troubleshooting.
+- [Workflow](runbooks/workflow.md) — Manage AI assistant workflows with visual flowcharts.
+- [Zapier Integration](runbooks/zapier-integration.md) — Connect Telnyx SMS to 7,000+ apps with Zapier.
+
+## Reference (69)
+
+- [Agent Skills](reference/agent-skills.md) — Agent Skills enable Claude Code and other AI coding agents to build Telnyx integrations using natural language.
+- [Android Portal Setup](reference/android-portal-setup.md) — A step-by-step guide to setting up push notifications in Android.
+- [Android Push Troubleshooting](reference/android-push-troubleshooting.md) — A step-by-step guide on how to debug common issues related to push notifications on Android.
+- [API Authentication](reference/api-authentication.md) — Authentication methods and security best practices for all Telnyx APIs.
+- [API error codes](reference/api-error-codes.md) — Comprehensive reference of all Telnyx API error codes with descriptions and solutions.
+- [API Reliability & Retries](reference/api-reliability-retries.md) — Best practices for handling API errors, implementing retries, and building resilient integrations across all Telnyx services.
+- [Call Control migration to Voice API](reference/call-control-migration-to-voice-api.md) — Telnyx's call control migration guide will help you transition from our v1 API to v2.
+- [CLI Authentication](reference/cli-authentication.md) — Configure your API key for the Telnyx CLI.
+- [Command Reference](reference/command-reference.md) — Complete reference for all Telnyx CLI commands.
+- [Create and Manage API Keys](reference/create-and-manage-api-keys.md) — Step-by-step guide to create, manage, and secure your Telnyx API keys for all services.
+- [Development](reference/development.md) — Essential tools, SDKs, and resources for building with Telnyx APIs and services.
+- [Flutter Push Notification App Setup](reference/flutter-push-notification-app-setup.md) — A step-by-step guide to setting up push notifications in Flutter.
+- [Flutter Push Notification Portal Setup](reference/flutter-push-notification-portal-setup.md) — A step-by-step guide to setting up push notifications in Flutter.
+- [Flutter Push Troubleshooting](reference/flutter-push-troubleshooting.md) — A step-by-step guide on how to debug common issues related to push notifications for Flutter.
+- [Flutter WebRTC SDK Message](reference/flutter-webrtc-sdk-message.md) — The TelnyxRTC Flutter Message represents a message received from the Telnyx Socket that the client can react to.
+- [Flutter WebRTC SDK Socket Error Handler](reference/flutter-webrtc-sdk-socket-error-handler.md) — The event handler that is used as a callback function when errors are received from the Telnyx Websocket Connection.
+- [Flutter WebRTC SDK Socket Error Message](reference/flutter-webrtc-sdk-socket-error-message.md) — The TelnyxRTC Flutter Error represents an error received from the Telnyx Socket that the client can react and handle.
+- [Flutter WebRTC SDK Socket Message Handler](reference/flutter-webrtc-sdk-socket-message-handler.md) — The event handler that is used as a callback function when messages are received from the Telnyx Websocket Connection.
+- [How to Register for 10DLC via CLI](reference/how-to-register-for-10dlc-via-cli.md) — Register your business for US A2P messaging using the Telnyx CLI.
+- [Install Legacy CLI](reference/install-legacy-cli.md) — Install the legacy Node.js CLI (@telnyx/api-cli).
+- [Install the Telnyx CLI](reference/install-the-telnyx-cli.md) — Install the Telnyx CLI on macOS, Windows, or Linux.
+- [iOS Portal Setup](reference/ios-portal-setup.md) — A step-by-step guide to setting up push notifications in iOS.
+- [iOS Push Notification Setup](reference/ios-push-notification-setup.md) — A step-by-step guide to setting up push notifications in iOS.
+- [JavaScript quickstart](reference/javascript-quickstart.md) — Get started with the Telnyx JavaScript SDK for WebRTC voice calls in web browsers.
+- [Legacy CLI Authentication](reference/legacy-cli-authentication.md) — Configure API keys and manage multiple profiles in the legacy CLI.
+- [Legacy CLI (@telnyx/api-cli)](reference/legacy-cli-telnyx-api-cli.md) — Documentation for the deprecated Node.js CLI.
+- [Legacy Command Reference](reference/legacy-command-reference.md) — Complete reference for legacy CLI commands (@telnyx/api-cli).
+- [Messaging migration to SMS/MMS API](reference/messaging-migration-to-sms-mms-api.md) — Telnyx provides developers with an easy to follow messaging migration guide when upgrading from Api v1 to Api v2.
+- [ngrok](reference/ngrok.md) — Telnyx's ngrok setup guide allows developers to easily create secure tunnels to their local development environment.
+- [Parameters & Field Names](reference/parameters-field-names.md) — Comprehensive guide to Telnyx API parameter and field naming conventions, data types, and formatting standards.
+- [Portal Setup](reference/portal-setup.md) — Configure push notifications for React Native applications in the Telnyx Portal.
+- [Postman Setup](reference/postman-setup.md) — Postman Setup for using Telnyx APIs.
+- [Rate Limiting](reference/rate-limiting.md) — Understanding Telnyx API rate limits, headers, and best practices for handling rate limit responses across all services.
+- [React quickstart](reference/react-quickstart.md) — Get started with the Telnyx React SDK for building WebRTC voice applications in React.
+- [Request & Response Handling](reference/request-response-handling.md) — Universal patterns for making requests and handling responses across all Telnyx APIs.
+- [Scripting & Automation](reference/scripting-automation.md) — Output formats, filtering, and scripting with the Telnyx CLI.
+- [Telnyx CLI Quickstart](reference/telnyx-cli-quickstart.md) — Get up and running with the Telnyx CLI in 5 minutes.
+- [Telnyx CLI](reference/telnyx-cli.md) — Command-line interface for Telnyx APIs.
+- [Telnyx Local Model Context Protocol (MCP) Server](reference/telnyx-local-model-context-protocol-mcp-server.md) — Integrate Telnyx services with Claude and other AI assistants.
+- [Telnyx Node-RED](reference/telnyx-node-red.md) — **(aka `@telnyx/node-red-telnyx`)**.
+- [Telnyx Remote Model Context Protocol (MCP)](reference/telnyx-remote-model-context-protocol-mcp.md) — Integrate Telnyx services with Claude and other AI assistants without running a local MCP server.
+- [Troubleshooting](reference/troubleshooting-2.md) — A step-by-step guide to setting up push notifications in iOS.
+- [Troubleshooting](reference/troubleshooting.md) — Common issues and solutions for the Telnyx CLI.
+- [Twilio Migration Guide](reference/twilio-migration-guide.md) — Telnyx's Programmable Fax system for migrating from Twilio.
+- [Webhook Fundamentals - Complete Guide to Telnyx Webhooks](reference/webhook-fundamentals-complete-guide-to-telnyx-webhooks.md) — Learn how to receive, handle, and secure webhooks from Telnyx APIs.
+- [WebRTC Android Call](reference/webrtc-android-call.md) — A Call is the representation of an audio or video call between two devices, SIP clients or phone numbers.
+- [WebRTC Android ChangeLog](reference/webrtc-android-changelog.md) — A comprehensive record of all updates, enhancements, and bug fixes.
+- [WebRTC Android Client](reference/webrtc-android-client.md) — The TelnyxClient connects your application to the Telnyx backend, enabling you to make outgoing calls and handle incoming calls.
+- [WebRTC Android Config](reference/webrtc-android-config.md) — Telnyx Config handle the properties provided when logging into the TelnyxClient with SIP details.
+- [WebRTC Android ReceivedMessageBody](reference/webrtc-android-receivedmessagebody.md) — A data class the represents the structure of every message received via the socket connection.
+- [WebRTC Android SDK Error Handling](reference/webrtc-android-sdk-error-handling.md) — A complete guide to error handling for the Android Voice SDK.
+- [WebRTC Android SocketResponse](reference/webrtc-android-socketresponse.md) — Data class used with communication between socket connection and TelnyxClient.
+- [WebRTC Flutter Call](reference/webrtc-flutter-call.md) — A Call is the representation of an audio or video call between two devices, SIP clients or phone numbers.
+- [WebRTC Flutter ChangeLog](reference/webrtc-flutter-changelog.md) — A comprehensive record of all updates, enhancements, and bug fixes.
+- [WebRTC Flutter Client Configuration](reference/webrtc-flutter-client-configuration.md) — This structure is intended to be used for Telnyx SDK configurations when connecting to the TelnyxClient on the Flutter SDK.
+- [WebRTC Flutter Client Push Notifications Configuration](reference/webrtc-flutter-client-push-notifications-configuration.md) — This class contains all the properties related to Push Notifications.
+- [WebRTC Flutter Client](reference/webrtc-flutter-client.md) — The TelnyxRTC client connects your application to the Telnyx backend, enabling you to make outgoing calls and handle incoming calls.
+- [WebRTC Flutter Incoming Invite Object](reference/webrtc-flutter-incoming-invite-object.md) — Contains the required information of the current Call that can be reacted to (answered, declined, etc.).
+- [WebRTC Flutter SDK Error Handling](reference/webrtc-flutter-sdk-error-handling.md) — A complete guide to error handling for the Flutter Voice SDK.
+- [WebRTC iOS SDK Error Handling](reference/webrtc-ios-sdk-error-handling.md) — A comprehensive record of all updates, enhancements, and bug fixes.
+- [WebRTC JS Call Options](reference/webrtc-js-call-options.md) — • `Optional` **audio**: `boolean` | `MediaTrackConstraints`.
+- [WebRTC JS Call](reference/webrtc-js-call.md) — A Call is the representation of an audio or video call between two browsers, SIP clients or phone numbers.
+- [WebRTC JS ChangeLog](reference/webrtc-js-changelog.md) — A comprehensive record of all updates, enhancements, and bug fixes.
+- [WebRTC JS Client Options](reference/webrtc-js-client-options.md) — • `Optional` **anonymous\_login**: `Object`.
+- [WebRTC JS Client](reference/webrtc-js-client.md) — The TelnyxRTC client connects your application to the Telnyx backend, enabling you to make outgoing calls and handle incoming calls.
+- [WebRTC JS Notification](reference/webrtc-js-notification.md) — An event dispatched by Telnyx to notify the client of changes to the session or call.
+- [WebRTC Stats](reference/webrtc-stats-2.md) — A comprehensive record of all updates, enhancements, and bug fixes related to WebRTC statistics.
+- [WebRTC Stats](reference/webrtc-stats-3.md) — A comprehensive record of all updates, enhancements, and bug fixes related to WebRTC statistics.
+- [WebRTC Stats](reference/webrtc-stats.md) — A comprehensive record of all updates, enhancements, and bug fixes related to WebRTC statistics.
