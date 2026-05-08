@@ -49,3 +49,7 @@ cd knowledge-base
 ```
 
 No build step — the repo is pure content.
+
+## Contributing
+
+See the guidelines above — most content changes should go upstream. For synthesis corrections, open an issue or PR.
