@@ -5,11 +5,8 @@ summary: A consolidated reference of key AI, API, and telecom terms from Telnyx 
   applications.
 sources:
 - url: https://developers.telnyx.com/docs/glossary/ai-glossary
-  content_hash: 5a8fab8edfbbc4d29e14d72a9f615bb5e403648703ae8a9c3d7e901fefeef7f6
 - url: https://developers.telnyx.com/docs/glossary/api-glossary
-  content_hash: dae3447a1cf2e37d99c0c1437f924c093c526ce954c158981693738dd2c87f68
 - url: https://developers.telnyx.com/docs/glossary/telecom-glossary
-  content_hash: fa787dae70506d564c3ab14d32bb0da8f3793ef7036f46d1cfc2925b6af5303d
 updated_at: 2026-05-14T09:49:05Z
 ---
 

@@ -6,21 +6,13 @@ summary: This guide explains how to port numbers to Telnyx from reseller-backed 
   specifics, timelines, common rejection reasons, and country documentation requirements.
 sources:
 - url: https://support.telnyx.com/en/articles/10715399-porting-away-from-skype
-  content_hash: c6c29c49f44d2c985f38848316df4cf18ce3784f1b1e7a137cce1effc497ac54
 - url: https://support.telnyx.com/en/articles/14708128-porting-numbers-away-from-aircall-to-telnyx
-  content_hash: 4c4089c00d134dd3936cc5a6ffe4fbbbff32395cde5ed1bd68a2255421a44af8
 - url: https://support.telnyx.com/en/articles/14708129-porting-numbers-away-from-intercom-to-telnyx
-  content_hash: bd6d4896dfb0333528e3b92beff28e7e9bac7ae1a419d8b32a8cb4dc4828756f
 - url: https://support.telnyx.com/en/articles/14708130-porting-numbers-away-from-resellers-aircall-intercom-ringcentral-vonage-etc
-  content_hash: 215326da17500f8a6256780be4ad0a09030e3140ba1ab4e60803465a015e75e0
 - url: https://support.telnyx.com/en/articles/13194814-french-guiana-number-porting
-  content_hash: ad1a3e3ca988eae2a645c160e8be6536cca8e8b708a8cdc304794fe67ecc4c5c
 - url: https://support.telnyx.com/en/articles/13194884-mayotte-number-porting
-  content_hash: ddfcad14a4b4e2282dfcff11049d86e6e695257c3fa6556fa0f126fa25014bec
 - url: https://support.telnyx.com/en/articles/13194922-reunion-number-porting
-  content_hash: 75619dd097b774ecc2bf42177324774abc4f49c7bf4ef048e82db17934e5875f
 - url: https://support.telnyx.com/en/articles/13194951-saint-barth-and-saint-martin-number-porting
-  content_hash: 2ae39411dc4c7c2d031334a81d9bf533a5076628e27f726f49b991688e998bc8
 updated_at: 2026-05-14T11:33:13Z
 ---
 

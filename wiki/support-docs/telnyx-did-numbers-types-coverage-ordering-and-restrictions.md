@@ -5,19 +5,12 @@ summary: Learn what DID numbers are, the number types Telnyx offers (local, toll
   tied to account verification and signup details.
 sources:
 - url: https://support.telnyx.com/en/articles/1130699-did-numbers-that-telnyx-offers
-  content_hash: 4ab2ed61d38ac4566f502bd3436a6df718e76c63c73f8b43f6f53da978ed16a8
 - url: https://support.telnyx.com/en/articles/1130702-where-can-i-buy-dids-in-the-us-canada
-  content_hash: 0cff38cd471b69372650ad4e76015546822bc489707dc2042376905a613897f8
 - url: https://support.telnyx.com/en/articles/1130704-what-is-a-did
-  content_hash: 2adbabd42c33503aa1d5e3037c0f0166680cab1f30ca8110e80363a2bc945afd
 - url: https://support.telnyx.com/en/articles/1130664-countries-that-telnyx-offers-termination-in
-  content_hash: dcbe33aa53091443a5897b6f84f6b8e0ca75a02aceeb40b307390dc71d9b7b9b
 - url: https://support.telnyx.com/en/articles/10715715-phone-number-ordering-restrictions
-  content_hash: b3f59ca610bd79a3198efcdce5cad274c9c3ccb4cd51d8ebcc54eae4f05e19cc
 - url: https://support.telnyx.com/en/articles/1458084-global-number-types
-  content_hash: d7659c02143ca6f8fb165a1b580165a8270985091fd7c1ce0867a5b5e23e0453
 - url: https://support.telnyx.com/en/articles/1424680-international-coverage
-  content_hash: 07f397ad82d8f5deb6554408df4a319fc20feb2ed30c7a86807d9c913f5a007e
 updated_at: 2026-05-14T11:38:09Z
 ---
 

@@ -5,29 +5,17 @@ summary: End-to-end guide to registering brands and campaigns for US A2P 10DLC w
   language, submission timelines, number assignment, testing options, and troubleshooting.
 sources:
 - url: https://support.telnyx.com/en/articles/10646301-telnyx-10dlc-process
-  content_hash: 07f91a97a3331277fd2fe0d2ef7e37178432594c87aa13969aef8b5e27450bbd
 - url: https://support.telnyx.com/en/articles/10562019-guide-to-10dlc-message-flow-field
-  content_hash: 52724a201fd5374074a0eb90e9410468b85a7658feedbe8a9d47840d78861363
 - url: https://support.telnyx.com/en/articles/10645338-10dlc-keywords-and-confirmation-messages
-  content_hash: 517aa55bed935632cdb945d6eef7257cf50aa3e98ea893be02332ddfbddd55c8
 - url: https://support.telnyx.com/en/articles/10645583-10dlc-privacy-policy
-  content_hash: d42dcbd08bb330e0aa10504286cf75d33dcd7460d03daf8b7b267d00291933e2
 - url: https://support.telnyx.com/en/articles/10684248-10dlc-use-cases
-  content_hash: 1642b9aa15da6996121686960f14303b8ae52ce210e2da3f8d83db58714cc412
 - url: https://support.telnyx.com/en/articles/10684260-10dlc-opt-in-form
-  content_hash: 5cd5bf1f1948371f446ccefb780d5b4531e62671f2dd0c26d25bd27e63771881
 - url: https://support.telnyx.com/en/articles/11072276-10dlc-number-assignment-status
-  content_hash: 53303949333d229d69795898d3f2e3a769040e9e5f3aaf22103e4b319c3cc0f9
 - url: https://support.telnyx.com/en/articles/11421359-10dlc-for-chiropractors
-  content_hash: 54651f622c365df6722b1c021dfed1349e1958ce387be017a8f2734d21580362
 - url: https://support.telnyx.com/en/articles/11788086-10dlc-authentication-for-publicly-traded-brands
-  content_hash: 37a982b9ca22d0b1038b557daa06ea985e56d652c8f54943f3bcac05661038ac
 - url: https://support.telnyx.com/en/articles/13545282-guide-to-sole-proprietor-10dlc-brand-and-campaign-registration
-  content_hash: 25c1106c094619bdd2dc507005df38013bd5d4b5e533642f3494ddd6ee53d1a2
 - url: https://support.telnyx.com/en/articles/12812898-10dlc-mock-brands-and-campaigns
-  content_hash: 4fba36c10f632c6f7e972ccbedc25d5114ab5db663ac39d38c1c8972596a1451
 - url: https://support.telnyx.com/en/articles/10509796-10dlc-registration-deadline-february-3
-  content_hash: 56c3dcab871bcdc0ab6232b281a94221e5d6b99ecaaeafb5f08d32fb2a702826
 updated_at: 2026-05-14T11:21:28Z
 ---
 

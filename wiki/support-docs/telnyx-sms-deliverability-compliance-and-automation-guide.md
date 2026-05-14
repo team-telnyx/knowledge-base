@@ -6,15 +6,10 @@ summary: Practical guidance to maximize SMS deliverability on Telnyx, manage opt
   workflows.
 sources:
 - url: https://support.telnyx.com/en/articles/1130617-sms-long-code-deliverability-best-practices
-  content_hash: 07b2856f2afa4a9adb59d1ce86c089d2e2d080a0155e87e4d4d020baf6a26075
 - url: https://support.telnyx.com/en/articles/1270091-sms-opt-out-keywords-and-stop-words
-  content_hash: f7af4f1a86f999ec2bd84d27e110c87e6ebecc7307ba3a19bf7df4924f090d0b
 - url: https://support.telnyx.com/en/articles/1667062-short-message-peer-to-peer-set-up-guide
-  content_hash: 63dfc4eac60ef67badda87e391bd9cad9b90c54fbd13b4407a3dd9dbf5365eeb
 - url: https://support.telnyx.com/en/articles/10523949-forwarding-sms-mms-automation-using-telnyx-flow
-  content_hash: 9769f6366b7f4f8f658664e205004ff416426e27e5d9909a60b3a2d16e5d353d
 - url: https://support.telnyx.com/en/articles/11358700-what-is-the-u-s-reassigned-numbers-database
-  content_hash: f2d110b06387427c51135fded834c0288430df2acacb87e186d124b5f1d94581
 updated_at: 2026-05-14T11:24:14Z
 ---
 

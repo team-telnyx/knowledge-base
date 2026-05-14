@@ -5,19 +5,12 @@ summary: How to interpret common Telnyx number porting errors, prevent rejection
   and responses.
 sources:
 - url: https://support.telnyx.com/en/articles/1130610-btn-or-atn-mismatch-error
-  content_hash: e55cbc854a0a61a7e57307c6d359ed4c592fb45b6ff14e28a0d8e766c51f8ca9
 - url: https://support.telnyx.com/en/articles/1130616-number-not-portable-tn-not-portable-error
-  content_hash: d3549cdfa65a105c5969b7a57c08b66e36113b7bdc042bc71f8cd56979f812b0
 - url: https://support.telnyx.com/en/articles/1130619-invalid-reseller-error
-  content_hash: 98d357e00ca44c332d96fbfa08393e2b2c465aaaa73bde392c1024cc4624be1b
 - url: https://support.telnyx.com/en/articles/1130623-authorized-name-mismatch-error
-  content_hash: c4d75c0c79b83cc18e1f5a236c1a1359d4636352ea340723ffc4e33a0cd818d1
 - url: https://support.telnyx.com/en/articles/1618776-porting-error-messages
-  content_hash: b9d67ad26ba3f21eb422134ca7aa78068f3d0bf91258d982b1fd69e278e0e274
 - url: https://support.telnyx.com/en/articles/1782930-port-request-rejected
-  content_hash: 910801379e53a43652dc27cd351fa6f1023ba369f8b4dd6469b078a3bc9c8e73
 - url: https://support.telnyx.com/en/articles/2030667-i-received-a-port-out-notification
-  content_hash: e70a362e315b1bd24ec2a4150f4c3ca44bc1b6f2ec99a0dac7ae4c4d44efea85
 updated_at: 2026-05-14T11:32:27Z
 ---
 

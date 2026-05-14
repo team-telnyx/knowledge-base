@@ -5,23 +5,14 @@ summary: Learn how to sign up for Telnyx, understand account frameworks and leve
   and how to control where your data is stored at rest with Data Locality.
 sources:
 - url: https://developers.telnyx.com/docs/account-setup/account-upgrade
-  content_hash: 3f808ba07302802a7cd1a987ecc70eedc3f5445b5c0bddd7b191ac0ff729c4c1
 - url: https://developers.telnyx.com/docs/account-setup/create-account
-  content_hash: f873531ecb0530c75212afed9dd2f8d2f24aa748584d3581d16f1e8261cabfb0
 - url: https://developers.telnyx.com/docs/account-setup/data-locality
-  content_hash: f9cba3a2eda705135574eeae75b772c38ed0788ecde5f0cdbd244d617c408893
 - url: https://developers.telnyx.com/docs/account-setup/levels-and-capabilities
-  content_hash: 930689c5b93fcc6ae8779ac736c4c5a968e52a5d16b7827c321be4797321deb7
 - url: https://developers.telnyx.com/docs/account-setup/levels-and-capabilities/paid
-  content_hash: 70203441c259a2dbdb44a42b3b5fdf35e44c422eb2bb33c04903891bbbb9a7ee
 - url: https://developers.telnyx.com/docs/account-setup/levels-and-capabilities/trial
-  content_hash: 2c06d914371f57bf33923a7bdc567990b76257dfc2c3fa6cdcf74b6787094fe5
 - url: https://developers.telnyx.com/docs/account-setup/levels-and-capabilities/verified
-  content_hash: 108651193bc0bf75c46220c46f85a8a7c8a9b1e7f9f16186bda4875d2b0b9cc4
 - url: https://developers.telnyx.com/docs/account-setup/signup
-  content_hash: 0f65f7ba8a8dd18a82bd769af459ec98a6b840c772ebed9eb8456858ba27db14
 - url: https://developers.telnyx.com/docs/account-setup/using-trial-account
-  content_hash: 3ebe34654a4f52b37a68b203314fb32e1ff2838260413d0f7d477be7568f2282
 updated_at: 2026-05-14T09:43:00Z
 ---
 

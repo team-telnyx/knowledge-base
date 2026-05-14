@@ -6,31 +6,18 @@ summary: Configure FreePBX to place and receive calls with Telnyx using PJSIP (r
   FreeSWITCH, Cisco, Grandstream, Vicidial, and softphones.
 sources:
 - url: https://support.telnyx.com/en/articles/1130620-freepbx-trunk-settings-with-telnyx
-  content_hash: 566e07d3a3f39027e64b72ea20edb3304e0641acd754bfad601776635399ad91
 - url: https://support.telnyx.com/en/articles/1130648-configuring-a-freepbx-v13-credentials-trunk
-  content_hash: ec6e13c20a1e7cf21d9ae768cec03db662ebe4f1cf4a1bba6c4dbf725b556182
 - url: https://support.telnyx.com/en/articles/1277754-freepbx-v13-pjsip-credentials
-  content_hash: 4527776f41e7bd740d8331618ccad43f1fb4ae0251a7500b047c580064867097
 - url: https://support.telnyx.com/en/articles/1130676-configuring-an-asterisk-credentials-trunk
-  content_hash: adf3eff58d267e80905642d3bff1d0461e5f290fceb5e1dd2d95add4b071c535
 - url: https://support.telnyx.com/en/articles/1130668-configuring-a-cisco-cme-credentials-trunk
-  content_hash: 3b7dc4d18433b1b5095cfa6dc1edfdd8968a4db6d07f485ae773b71254f50084
 - url: https://support.telnyx.com/en/articles/1618801-freeswitch-credentials-trunk
-  content_hash: 73bf24ecf0b3fd30e45fdc8f944dc6e33dcd84f9b204f676d1a4549a89ece40c
 - url: https://support.telnyx.com/en/articles/1176353-vicidial-configure-vicidial-credentials
-  content_hash: acc54c5742e78fb56ceaa86e0730df7b00407e8779457f1ba9ff1ca4d910bd9b
 - url: https://support.telnyx.com/en/articles/1130660-configuring-grandstream-gxp16xx-with-telnyx
-  content_hash: 2ff5b44a2ede094400e7a67da7d90de0c9238cc71b90e9da4fadc654a641d746
 - url: https://support.telnyx.com/en/articles/1295514-grandstream-umc6202-auth-setup
-  content_hash: ffd411a3399a6bd44c1928f1e2bf4d8fd6e5ebefbee5575b4c2a148392a54b64
 - url: https://support.telnyx.com/en/articles/1130665-configuring-your-cisco-spa112-122-ata
-  content_hash: 7a2d8f8580d88e7371cf59953c7aa6fad6e2e39a36dfc55f9ddb9e4a03f7a3c6
 - url: https://support.telnyx.com/en/articles/1130645-configuring-bria-solo-a-k-a-x-lite
-  content_hash: 7a4ed58a6b64a4bb92095412c281e6abc2ef3aeee89f811905ef8c982529d372
 - url: https://support.telnyx.com/en/articles/1130674-configuring-linphone-with-telnyx
-  content_hash: 68ec4c01bd1b146596d7a339d414e9c6fd471bf612c683474c077bd79e7c0779
 - url: https://support.telnyx.com/en/articles/12580952-configure-token-authentication-header-x-telnyx-token-in-freepbx
-  content_hash: 01aacb937433577173910762c57a97918b12873f1b87f02e6d792fb833642584
 updated_at: 2026-05-14T11:28:58Z
 ---
 

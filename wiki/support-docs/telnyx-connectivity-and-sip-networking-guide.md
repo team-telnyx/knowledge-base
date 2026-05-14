@@ -8,21 +8,13 @@ summary: 'A practical guide to getting Telnyx voice and programmable services wo
   IP addresses.'
 sources:
 - url: https://support.telnyx.com/en/articles/1130687-whitelisting-telnyx-ip-addresses
-  content_hash: 71e9e1af6659418862cc205553a3921dfa4d63b3c23886b7d7f48e9f7779ea7e
 - url: https://support.telnyx.com/en/articles/10007243-whitelisting-telnyx-media-ip-addresses
-  content_hash: 0eb0936b375412c628f7f735150fd40d2dfb0312e29264d11fe29d29aed75898
 - url: https://support.telnyx.com/en/articles/10666839-how-telnyx-handles-srv-records-for-sip-calls
-  content_hash: b4ad7cafc33277c36c5ba1ae7b2a921f27c5df5b919dadc8c2583398df33b896
 - url: https://support.telnyx.com/en/articles/1371411-aws-virtual-cross-connect-setup
-  content_hash: 28b9bf78ba02cd32650695ed2ecb1cfdfdc654539f803392c0b8fc957f1a7393
 - url: https://support.telnyx.com/en/articles/1176364-sip-connection-failover-guide-ip-fqdn-based
-  content_hash: 7c09859e0a06136572224ffc01b8c0ec57c3a9605037e109c62ae6143796d568
 - url: https://support.telnyx.com/en/articles/1130682-telnyx-stun-and-turn-server
-  content_hash: 1cd0314b9b936f524b5a5c4c970ec44fadc709d0dd19cea88383153bc680ef72
 - url: https://support.telnyx.com/en/articles/1130705-sip-protocols-that-telnyx-uses
-  content_hash: 6dfbf9059d8dbcf88b56efe22a937d38be18ca77324c54dff9e058892c697ba7
 - url: https://support.telnyx.com/en/articles/1130706-sip-connection-number-formats
-  content_hash: 19810851569a905dbffdccbd1f5c31db2c0cd54d0685185ba63d45fcf701e247
 updated_at: 2026-05-14T11:29:44Z
 ---
 

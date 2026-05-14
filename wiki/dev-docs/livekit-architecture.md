@@ -6,7 +6,6 @@ summary: Telnyx LiveKit is a managed, regionalized platform for deploying voice 
   each region.
 sources:
 - url: https://developers.telnyx.com/docs/livekit/architecture
-  content_hash: 8d61c59788b7bc7cae2381344aea167974a79a3bded1b48abba94a0e7f7b63e5
 updated_at: 2026-05-14T09:53:24Z
 ---
 

@@ -5,7 +5,6 @@ summary: How to configure a Cisco Call Manager Express (CME) SIP/IP trunk to Tel
   preferences, NAT handling with SIP Profiles, and inbound DID translation.
 sources:
 - url: https://support.telnyx.com/en/articles/1130612-cisco-configure-a-cisco-cme-ip-trunk
-  content_hash: 3806a4300cffd35bf8a51cdb444a548f0b0ce5b53e6bb6a8aba19b5061ce78b5
 updated_at: 2026-05-14T11:45:08Z
 ---
 

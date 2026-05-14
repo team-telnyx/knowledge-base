@@ -7,23 +7,14 @@ summary: 'End-to-end guide to getting US/CA toll-free numbers verified for messa
   common rejection reasons.'
 sources:
 - url: https://support.telnyx.com/en/articles/10729979-toll-free-verification-request-guide
-  content_hash: a293197fe0b47e72c14be226c88aefc8f2fc13d1038ee29f4f625056c340f9d4
 - url: https://support.telnyx.com/en/articles/11898569-toll-free-opt-in-workflow-description
-  content_hash: 30573e6a5f2bcfb716abb732b1c153ce1d0da06c2c22bf79808acf09f76621c7
 - url: https://support.telnyx.com/en/articles/12650709-how-to-pick-a-toll-free-use-case
-  content_hash: 206304a57044394aac7a609baf4be472c03ceee1447f9d2acf7f69b396d0235a
 - url: https://support.telnyx.com/en/articles/10245573-us-short-code-ordering-process
-  content_hash: 9d57003059a9460ba3ad630ef4e0cda754216dfce3f6c755d1e1628125862564
 - url: https://support.telnyx.com/en/articles/10245615-short-code-brand-and-content-provider-registration-process
-  content_hash: 18cb804b0fc52e6e871630daa35d6bbd8a8a7ebe1637d96a817c20058c94ce82
 - url: https://support.telnyx.com/en/articles/11385511-short-code-compliance-quick-reference-guide
-  content_hash: ff40150b81fc5b308b3ffbaa9121f5c2515b5342592c413d828e48585074f1ec
 - url: https://support.telnyx.com/en/articles/13765655-compliance-catch-up-why-toll-free-verification-now-mirrors-10dlc
-  content_hash: fe9ae21e098ce7a10d9c6517bcf2223babebf93d422f574e38ff4922240f5c7f
 - url: https://support.telnyx.com/en/articles/14286763-forbidden-messaging-use-cases-in-the-us-and-canada-10dlc-toll-free-and-short-code
-  content_hash: 5322f8be78843ac345d3b4ff3cf6b4a18c6d2d92fc4641ab499e878a6a199c99
 - url: https://support.telnyx.com/en/articles/1130703-can-i-call-toll-free-with-my-telnyx-number
-  content_hash: 87a3ef8934a4ea295cfbee20770cfba6e6fbd4cba3b7303f292cf958b925a3e8
 updated_at: 2026-05-14T11:23:21Z
 ---
 

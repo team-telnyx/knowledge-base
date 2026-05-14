@@ -7,15 +7,10 @@ summary: 'A practical guide to managing Telnyx SIP connections in Mission Contro
   using a UAC connection to register Telnyx to your PBX.'
 sources:
 - url: https://support.telnyx.com/en/articles/1130713-what-is-my-sip-account-connection-password
-  content_hash: 44d3f4a69080718311f224009c463508f20eb3192d6c5d3a0822f9556143ec71
 - url: https://support.telnyx.com/en/articles/1130715-register-multiple-devices-on-one-connection
-  content_hash: 68625a20677cffcf6d235aa7885c0e2a5b490766c178b88403926eb54e7ddf6f
 - url: https://support.telnyx.com/en/articles/1130717-limits-on-concurrent-outbound-calls
-  content_hash: cb0e72f0bdfd34b0de5fd3198c1688bb6972f51639ef9e52e95bfcb4b37bd10a
 - url: https://support.telnyx.com/en/articles/1177115-how-to-setup-a-did-to-sip-connection
-  content_hash: 80711528e59b42bc9ac02cbec787f0ea3d21bcd31fa9d1089c08250589d4aa3a
 - url: https://support.telnyx.com/en/articles/14805261-how-to-configure-sip-attach-using-a-uac-connection
-  content_hash: 4ee55a2c30dac1ba0a04834c8702b956f7b7e2749dfc8a1a55cad55ade6f6b5c
 updated_at: 2026-05-14T11:43:00Z
 ---
 

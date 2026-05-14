@@ -7,15 +7,10 @@ summary: A practical guide to understanding common 10DLC carrier error codes, fi
   suspensions due to inactivity.
 sources:
 - url: https://support.telnyx.com/en/articles/10547022-10dlc-carrier-error-codes-explanations
-  content_hash: 9b6044d0b967707a06966ae9c750424519d3d24b6d0118951e910d3ae8f1afb7
 - url: https://support.telnyx.com/en/articles/10715016-10dlc-inaccurate-or-inconsistency-error
-  content_hash: c58866e0f474718c88333b11758004e24d0a2a29cbe655c05b629857b4914695
 - url: https://support.telnyx.com/en/articles/10715184-10dlc-unverified-brand
-  content_hash: c441fd50d954cbcbbb848403634706b3ae5ede5e8e13232933f485d64c65f595
 - url: https://support.telnyx.com/en/articles/10723378-10dlc-campaign-suspended
-  content_hash: 37dc405587bd56e3e374454fbad57992200523b656a9c987ad3e34d2ee3999d9
 - url: https://support.telnyx.com/en/articles/10744086-10dlc-error-806
-  content_hash: df854549a7915277c5db4ee826ccd16ccb0ccdd7353f26fa06513efe8a2fc298
 updated_at: 2026-05-14T11:22:21Z
 ---
 

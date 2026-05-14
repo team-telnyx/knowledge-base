@@ -7,35 +7,20 @@ summary: A single, concise reference that unifies Telnyx-tested SIP trunk settin
   Server, and Yeastar P‑Series.
 sources:
 - url: https://support.telnyx.com/en/articles/1130606-configuring-a-cisco-cube-cucm-ip-trunk
-  content_hash: 9f53070e318f4093db77f45d208a88ba442f8fc6b701289748e7f2d81bf11e1c
 - url: https://support.telnyx.com/en/articles/1130622-configuring-an-elastix-4-pbx-ip-trunk
-  content_hash: dded1de05c3838b03411e9aa62a1144cbda8a24987bf947d3808354093d97c11
 - url: https://support.telnyx.com/en/articles/1130627-configuring-an-avaya-ip-trunk-with-telnyx
-  content_hash: c6c5e5131bc60074f16759deefae79b98a1fcb8c1a915b63451194442070e61c
 - url: https://support.telnyx.com/en/articles/1130628-asterisk-configure-an-asterisk-ip-trunk
-  content_hash: 3b217f8dcda4cc1ce92e979c87da493e275f46181a548436bafb888a7d4e6e9f
 - url: https://support.telnyx.com/en/articles/1130632-configuring-a-vicidial-ip-trunk-with-telnyx
-  content_hash: 5decfe53ed448f801e5c00c5cc5c50eb60e28a09a62e721028c4fb31712a3130
 - url: https://support.telnyx.com/en/articles/1130636-configuring-an-ip-trunk-for-osdial
-  content_hash: dfea424979422c26a7ec8400bf9e4d2b1045dd18b440b4801c1e125d85bf92df
 - url: https://support.telnyx.com/en/articles/1130649-configuring-a-goautodial-pbx-ip-trunk
-  content_hash: fb6206633129388f28a46f38e7577136df001e4cd1c8f241453aa22af2ae7546
 - url: https://support.telnyx.com/en/articles/1130654-configuring-an-elastix-4-pbx-trunk
-  content_hash: 1c36db7486037b6bbefd0e463d6b43e43d8afacc512cba12ab452abf59112d61
 - url: https://support.telnyx.com/en/articles/1130673-configuring-a-cisco-cube-cucm-sip-trunk
-  content_hash: 3821a9503cf5d598ce4e3b201645f3ef0e525c14937189bd5fdc65c84b80eade
 - url: https://support.telnyx.com/en/articles/1616935-freeswitch-ip-trunk-setup
-  content_hash: 491050152de3c00b2555d6274b24f24f56489deec00b596e1874b81a6f3e4559
 - url: https://support.telnyx.com/en/articles/1130698-skype-set-up-skype-for-biz-sip-trunk
-  content_hash: 0dfe7f2b81bbf490e5e98ea38746a59589267cfa143edc01da3463aaf150281e
 - url: https://support.telnyx.com/en/articles/1130695-configuring-telnyx-sip-trunking-with-avaya
-  content_hash: 506da1ae0116580fc385b9c5b3b9bd94bafdcbba149cbf92e629668e4277ad37
 - url: https://support.telnyx.com/en/articles/1130694-configuring-a-goautodial-pbx-sip-trunk
-  content_hash: 94469eae51325a30cf2132a0359c4d9e81acd794edf94a66e65b0aa5fcc53f7b
 - url: https://support.telnyx.com/en/articles/1130631-how-to-configure-a-thirdlane-pbx
-  content_hash: 2fda58148c5886b060222b93e15b0cd1f68ba3ed50540a45090ed5b845aae24e
 - url: https://support.telnyx.com/en/articles/13375115-how-to-configure-yeastar-p-series
-  content_hash: 080d5dbc997c73bc8bd10c55ccff05485fdb594b6476223386102b3a27170f01
 updated_at: 2026-05-14T11:27:37Z
 ---
 

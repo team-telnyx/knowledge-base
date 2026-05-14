@@ -5,29 +5,17 @@ summary: A consolidated guide to Telnyx account levels and verification, Freemiu
   reseller support, and related policies— with links to key portal pages and docs.
 sources:
 - url: https://support.telnyx.com/en/articles/1130595-account-verification
-  content_hash: 5398dd1289c1dd90112e3b6312491be1317b89f730e2c13ef71366e04c802996
 - url: https://support.telnyx.com/en/articles/1130659-billing-increments
-  content_hash: bb6535d6c47699634bb0111cefdcb9d2e34db999376ee2c18127e0817efdc8be
 - url: https://support.telnyx.com/en/articles/1130661-does-telnyx-offer-post-paid-service
-  content_hash: 37a4b06ce0a15179ea4f70e87dd717fe257529c6df3196c3cfb2244ca4fad4c6
 - url: https://support.telnyx.com/en/articles/1130643-is-there-a-cancellation-fee
-  content_hash: ea95ca2c252dd1f1d4cd00e347b26a74701ad459a487113882db46dc918df245
 - url: https://support.telnyx.com/en/articles/1130639-what-is-your-refund-policy
-  content_hash: 665c31f59954b7604eb96861ce4b8ab6b788220da3fd71634a51fc18e69963ea
 - url: https://support.telnyx.com/en/articles/14327893-telnyx-freemium-accounts
-  content_hash: 28eb508f94132dbd78abf967fb73e3538c3649707f539da2ed5984e9b0f50da6
 - url: https://support.telnyx.com/en/articles/1130689-how-do-i-cancel-my-account
-  content_hash: e47ccb5e53a5926dc6a1bc92e9870ad09843a4c3046f8326a715c591a7083803
 - url: https://support.telnyx.com/en/articles/1130658-how-do-i-know-if-a-rate-has-changed
-  content_hash: 2ef517180490806fc48014120ea64631173128d393dd9c8f098a86a013124378
 - url: https://support.telnyx.com/en/articles/1130678-channel-billing-and-how-to-use-it
-  content_hash: ff6d3d7c2c10efda6e1c700c4b6deedc4965872cadd57d4a309eac38fc58ca8a
 - url: https://support.telnyx.com/en/articles/12805746-surcharge-for-high-abandoned-call-rates
-  content_hash: 505234a4862f089b634b3f5f4b3fc8e3b1bd38a016f7f31cbdc9cb4b50bc4fc1
 - url: https://support.telnyx.com/en/articles/1130655-can-i-resell-your-services
-  content_hash: e0405fda4d8c0f371e1a9c3ca467acde8f6d3df87af31b7fef5644ca7f4c98d9
 - url: https://support.telnyx.com/en/articles/1130667-do-you-offer-service-to-call-centers
-  content_hash: 1861fcd9ab1dc4b041f22ec989e86722752da68bd48da9a51589b7f12fb67408
 updated_at: 2026-05-14T11:39:16Z
 ---
 

@@ -5,15 +5,10 @@ summary: Documentation needed to purchase Telnyx DIDs in Bangladesh, Kazakhstan,
   and any country-specific constraints.
 sources:
 - url: https://support.telnyx.com/en/articles/11128583-uzbekistan-did-requirements
-  content_hash: 1cac1a8c3e4fe93a5d080e5fdcb30b4322ba9955fac2689498e67b814ca3c45b
 - url: https://support.telnyx.com/en/articles/14306123-kazakhstan-did-requirements
-  content_hash: 833edb8ce7bc92762f7c18a98cdd9aa502dfc956dc71f212313809139c0b4809
 - url: https://support.telnyx.com/en/articles/11843465-pakistan-did-requirements
-  content_hash: 9f4a442b8a5955977deb48dae48d7a9fe785a56e3d85b33c6b3b3be01b017216
 - url: https://support.telnyx.com/en/articles/12748292-bangladesh-did-requirements
-  content_hash: 2b0c5bf4026ddf2de3c25876e64d383fa357558cba0af734e3235a30b02c5284
 - url: https://support.telnyx.com/en/articles/14489375-turkey-did-requirements
-  content_hash: 42e076d99d5fac1d7601b450e43bf40f4a6435a6c278eb83f7ea64434e24c452
 updated_at: 2026-05-14T11:36:56Z
 ---
 

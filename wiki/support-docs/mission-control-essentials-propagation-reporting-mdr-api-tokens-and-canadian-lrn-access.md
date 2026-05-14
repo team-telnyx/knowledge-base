@@ -7,15 +7,10 @@ summary: A practical guide to operating in the Telnyx Mission Control Portal and
   Canadian LRN data.
 sources:
 - url: https://support.telnyx.com/en/articles/12901901-understanding-configuration-propagation-delays-in-mission-control-portal-and-api
-  content_hash: bfc52e1e583bfcf9e7e95e563ad8be64d2bcd251c00fbcd3e53aaafc0ef2478f
 - url: https://support.telnyx.com/en/articles/1130624-how-do-i-create-an-api-v1-token
-  content_hash: 52f90c332c642cd1885c905aa6ed509eae7ab2dc5d3a79edebf40e628f7875f6
 - url: https://support.telnyx.com/en/articles/1130708-how-to-download-reports-at-telnyx
-  content_hash: 4baf7616ae4d653e83c847b9a096e0ac90a1f81940a8869d5e210e45ac6931d3
 - url: https://support.telnyx.com/en/articles/1130611-understand-telnyx-sms-mdr-report-log
-  content_hash: b697fed5e0cafc6af28e860decf941b94c47e4b9b62cbf8fb22123b7b8bd2008
 - url: https://support.telnyx.com/en/articles/13795700-accessing-canadian-lrn-data
-  content_hash: 97e6f1b0858a3d851319553dddfffc373a668397db4fb665b03a5257a559b89c
 updated_at: 2026-05-14T11:41:00Z
 ---
 

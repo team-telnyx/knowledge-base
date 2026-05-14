@@ -7,21 +7,13 @@ summary: Consolidated Telnyx guidance for acquiring DID numbers across eight mar
   timelines.
 sources:
 - url: https://support.telnyx.com/en/articles/10087877-saudi-arabia-did-requirements
-  content_hash: 2a552ee5f7d2b6410cd62ff5ede10d17311523409de1d583117e621319239d5b
 - url: https://support.telnyx.com/en/articles/10087890-united-arab-emirates-requirements
-  content_hash: 6c5fcbbac28964fe860ec134392b1791bd741afec318389a0fb5ff39605673a2
 - url: https://support.telnyx.com/en/articles/12640555-kuwait-did-requirements
-  content_hash: 7cef017229c767860658c6773ccfc1a8df574c1a5bd1576835751956021150ec
 - url: https://support.telnyx.com/en/articles/14138528-oman-did-requirements
-  content_hash: dd68b6879f7d77c24140aa58ea00025b9b2aeec71d4f1fb48cfaa41bf99ee16f
 - url: https://support.telnyx.com/en/articles/10058901-zambia-did-requirements
-  content_hash: 60afc1829b57e5dd593fe1b696d88bc981734588541f1cfceb0f303c0b691b7c
 - url: https://support.telnyx.com/en/articles/11843417-mozambique-did-requirements
-  content_hash: 87bcb07fa6bf780779ef6c311470e623717f65c17b21788ed3d15cdb1d9ad898
 - url: https://support.telnyx.com/en/articles/13720003-mayotte-did-requirements
-  content_hash: 064cfc701fb3e9a7496d6c68299e5ba787919ab214af27f5ecf9394aaea567b4
 - url: https://support.telnyx.com/en/articles/13720024-reunion-did-requirements
-  content_hash: e991b5b5f1f60d898b0498812b260f231360c85993c180b73973b34075bae1ac
 updated_at: 2026-05-14T11:36:13Z
 ---
 

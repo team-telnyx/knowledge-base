@@ -6,15 +6,10 @@ summary: A concise guide to Telnyx’s SOC certifications, privacy posture, voic
   Texas’s Mini‑TCPA updates for text messaging.
 sources:
 - url: https://support.telnyx.com/en/articles/12397834-understanding-telnyx-soc-compliance-and-certifications
-  content_hash: ce1a46fb6cdc61500b014fa36be4fef9ff54799cac1ab1f79895c3d313f1dd63
 - url: https://support.telnyx.com/en/articles/10806916-understanding-the-fcc-s-eighth-report-and-order-on-third-party-authentication
-  content_hash: a99b27606087d7002b2047e39dcfe625961169e2e6fd7a0c2fd772627f68abd8
 - url: https://support.telnyx.com/en/articles/12933869-understanding-the-fcc-s-new-do-not-originate-dno-requirements-effective-december-15-2025
-  content_hash: 47161a2c5429a1a0c5537425d3d57631406ff48eb0fa046c606d5e405adef26a
 - url: https://support.telnyx.com/en/articles/1130711-does-telnyx-encrypt-communication
-  content_hash: bc75b87c95ae11b0cb265b6af5ce086ce3666a3d1e4fa43ef094e8f74a3a4edf
 - url: https://support.telnyx.com/en/articles/12141904-legal-update-texas-s-mini-tcpa-now-applies-to-texts
-  content_hash: 3d84d9f16afa2941c930560e572b4e15b7686bdedbb8e91829115ac823a05308
 updated_at: 2026-05-14T11:41:52Z
 ---
 

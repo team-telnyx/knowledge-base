@@ -6,15 +6,10 @@ summary: End-to-end guidance for activating a Telnyx eSIM without a QR code and 
   Logs API.
 sources:
 - url: https://support.telnyx.com/en/articles/10067533-manual-esim-activation-guide
-  content_hash: e44efe9b4e14ab4dc2d2b0d6eeab956ed546b214b48332a3612378f9526fe7a0
 - url: https://support.telnyx.com/en/articles/10164784-using-telnyx-sim-with-ubiquiti-unifi-lte-pro
-  content_hash: 8d5d823f42d0ab973dfdaddc588ac7d06aea291b891d5bc690dbf7c172d9fa7f
 - url: https://support.telnyx.com/en/articles/10511105-using-telnyx-sim-with-inrouter300-series-cellular-routers
-  content_hash: 261608ac811f19f5851242c7e529c1dcd5d1e36536b0c0d5ad71e435a0fff59b
 - url: https://support.telnyx.com/en/articles/10511646-using-telnyx-sim-with-teltonika-4g-lte-routers
-  content_hash: e7bfdb58cda562c8b71f77040a3b9151d810529a7af255005a29abad6afb7b77
 - url: https://support.telnyx.com/en/articles/11017501-understanding-wireless-connectivity-states-telnyx-api
-  content_hash: 104e2765e043c96022b6893a0e1ae0e0a796ce2395df3b4bb79de353a4b613fd
 updated_at: 2026-05-14T11:26:21Z
 ---
 
