@@ -1,0 +1,17 @@
+---
+title: Telnyx Knowledge Base Index
+updated_at: 2026-05-14T09:53:24Z
+---
+
+# Telnyx Knowledge Base Index
+
+- [Agent Handoff](agent-handoff--part-1.md) — Agent handoff lets you route a live conversation from one AI assistant to another while preserving full context. Use it to orchestrate a team of specialized agents behind one seamless voice (Unified mode) or as distinct specialists (Distinct mode), with shared memory, tools, integrations, observability, and fine‑grained testing and rollout controls.
+- [Cloud Storage API Endpoints and Organization](cloud-storage-api-endpoints-and-organization.md) — Telnyx Cloud Storage exposes two API suites: an S3‑compatible API served from regional endpoints and a JSON companion API at api.telnyx.com. Use Signature V4 with your Telnyx API key, target the bucket’s home region for most S3 calls, and use the JSON companion for presigned URLs, usage, SSL, and migration.
+- [LiveKit Architecture](livekit-architecture.md) — Telnyx LiveKit is a managed, regionalized platform for deploying voice AI agents at scale. You ship agent code, while Telnyx handles container orchestration, autoscaling, on‑net SIP call delivery, and colocated STT/TTS/LLM inference within each region.
+- [LiveKit on Telnyx \(Beta\)](livekit-on-telnyx-beta.md) — Run the same LiveKit you know on Telnyx’s global infrastructure with integrated telephony and colocated AI (STT, TTS, LLM) for ultra-low-latency voice agents—all on one platform and one bill.
+- [Number Reputation](number-reputation.md) — Telnyx Number Reputation monitors and improves the spam reputation of your outbound US local phone numbers. Powered by Hiya, it provides real-time risk levels, granular scores, and automated rechecks. You’ll first register an Enterprise, accept Terms of Service, upload a Letter of Authorization, then enable monitoring and query results via API.
+- [Telnyx Account Setup, Levels, Upgrades, and Data Locality](telnyx-account-setup-levels-upgrades-and-data-locality.md) — Learn how to sign up for Telnyx, understand account frameworks and levels (Trial, Paid, Verified, Enterprise), upgrade requirements, practical trial usage, and how to control where your data is stored at rest with Data Locality.
+- [Telnyx Edge Compute — Developer Guide](telnyx-edge-compute-developer-guide--part-1.md) — A concise, end-to-end guide to Telnyx Edge Compute: architecture, setup, configuration, runtime model, bindings, KV storage, best practices, CI/CD, limits, and what’s coming next.
+- [Telnyx Number Lookup and Verify: Unified Guide](telnyx-number-lookup-and-verify-unified-guide--part-1.md) — Build phone intelligence and secure user verification flows with Telnyx. This guide combines Number Lookup fundamentals with a practical, security‑hardened Verify implementation, including SMS/Call/Flashcall, DTMF Confirm, custom templates, webhooks, and fraud prevention.
+- [Telnyx Wireless IoT: Complete Guide](telnyx-wireless-iot-complete-guide--part-1.md) — Plan, deploy, and operate Telnyx IoT SIM fleets — from ordering SIMs and configuring devices, to routing traffic with Private Wireless Gateways, enabling VoLTE voice, enforcing policies, monitoring usage, and troubleshooting connectivity.
+- [Unified AI, API, and Telecom Glossary](unified-ai-api-and-telecom-glossary--part-1.md) — A consolidated reference of key AI, API, and telecom terms from Telnyx documentation—merged into one page to help teams build, integrate, and operate communications and AI-driven applications.
