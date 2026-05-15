@@ -1,6 +1,3 @@
-# Telnyx platform service metadata (source repo).
-# Spec: https://platform-handbook.internal.telnyx.com/decision_record/architecture/padr-0001_service_metadata_spec/
-
 names:
   service: knowledge-base-oci
   github: knowledge-base
@@ -14,6 +11,5 @@ project:
 build:
   promote_to_dev:
     mode: always
-  # No ArgoCD service — prod-promote's health check is a no-op on missing services.
   promote_to_prod:
     mode: always
