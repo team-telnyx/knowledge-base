@@ -6,6 +6,9 @@ on:
   pull_request:
     branches: [main]
 
+permissions:
+  contents: read
+
 jobs:
   dockerImage:
     uses: team-telnyx/infra-ci-gha-workflows/.github/workflows/dockerImage.yml@latest
