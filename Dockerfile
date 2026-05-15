@@ -1,8 +1,8 @@
-# knowledge-base-oci — build-time corpus artifact.
+# knowledge-base-oci — content-only OCI artifact carrying the compiled wiki.
 #
-# Final stage is `scratch` because this image is never executed; knowledge-agent
-# COPYs /wiki out of it at build time and discards the rest. Trivy has nothing
-# to scan in the final layer.
+# Final stage is `scratch` because this image is never executed: downstream
+# consumers pull /wiki via `COPY --from=…`. Trivy has nothing to scan in the
+# final layer.
 
 FROM registry.internal.telnyx.com/docker/library/debian:trixie-slim AS builder
 ARG VERSION=unknown

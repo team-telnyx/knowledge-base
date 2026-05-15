@@ -4,8 +4,8 @@
 # `version` mirrors the format infra-ci-action-metadata generates
 # (YYYY.MM.DD.HH.mm.shortsha). The two are computed independently — a
 # minute-boundary race can in principle leave wiki/VERSION one minute ahead of
-# the registry tag. The mismatch is cosmetic: knowledge-agent reads wiki/VERSION
-# for /info reporting, not for content addressing.
+# the registry tag. The mismatch is cosmetic: wiki/VERSION is a provenance
+# marker for consumers, not a content address.
 
 service := knowledge-base-oci
 tag := red

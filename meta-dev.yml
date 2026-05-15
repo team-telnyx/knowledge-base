@@ -14,10 +14,9 @@ project:
 build:
   promote_to_dev:
     mode: always
-  # Prod-promote runs through infra-ci-action-validate's ArgoCD health-check
-  # step, which is graceful on missing services (CouchDB query returns zero
-  # rows → step exits success → promote-to-prod proceeds). knowledge-base-oci
-  # has no ArgoCD service of its own; knowledge-agent COPYs from the prod
-  # registry at build time.
+  # This image has no ArgoCD service of its own — it is a content-only
+  # artifact consumed at build time. The prod-promote step's ArgoCD health
+  # check is graceful on missing services (metadata-DB query returns zero
+  # rows → step exits success → promote-to-prod proceeds).
   promote_to_prod:
     mode: always
