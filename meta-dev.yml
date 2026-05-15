@@ -14,9 +14,6 @@ project:
 build:
   promote_to_dev:
     mode: always
-  # This image has no ArgoCD service of its own — it is a content-only
-  # artifact consumed at build time. The prod-promote step's ArgoCD health
-  # check is graceful on missing services (metadata-DB query returns zero
-  # rows → step exits success → promote-to-prod proceeds).
+  # No ArgoCD service — prod-promote's health check is a no-op on missing services.
   promote_to_prod:
     mode: always
