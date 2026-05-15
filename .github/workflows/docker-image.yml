@@ -1,0 +1,20 @@
+name: Docker Image CI
+
+# Telnyx platform CI. Delegates to the shared workflow which:
+#   • runs `make test` and `make build` (docker build)
+#   • Trivy vulnerability scan + secret detection
+#   • tags + pushes the image to Harbor (registry.internal.telnyx.com)
+#   • promotes per `build.promote_to_*` rules in meta-dev.yml
+#
+# https://github.com/team-telnyx/infra-ci-gha-workflows
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  dockerImage:
+    uses: team-telnyx/infra-ci-gha-workflows/.github/workflows/dockerImage.yml@latest
+    secrets: inherit

@@ -1,0 +1,23 @@
+# Telnyx platform service metadata (source repo).
+# Spec: https://platform-handbook.internal.telnyx.com/decision_record/architecture/padr-0001_service_metadata_spec/
+
+names:
+  service: knowledge-base-oci
+  github: knowledge-base
+
+project:
+  squad: ai.troubleshooting.squad
+  primary_maintainer: jakubo
+  public_api: false
+  private_api: false
+
+build:
+  promote_to_dev:
+    mode: always
+  # Prod-promote runs through infra-ci-action-validate's ArgoCD health-check
+  # step, which is graceful on missing services (CouchDB query returns zero
+  # rows → step exits success → promote-to-prod proceeds). knowledge-base-oci
+  # has no ArgoCD service of its own; knowledge-agent COPYs from the prod
+  # registry at build time.
+  promote_to_prod:
+    mode: always
