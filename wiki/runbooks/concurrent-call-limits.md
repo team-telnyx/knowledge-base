@@ -67,7 +67,7 @@ Maintain an in-memory or database counter to track real-time concurrent usage.
 
 ## Requesting limit increases
 
-For concurrent call limits exceeding 10 channels, contact [support@telnyx.com](mailto:support@telnyx.com). Include the following information in the request:
+For concurrent call limits exceeding 10 channels, contact [help@telnyx.com](mailto:help@telnyx.com). Include the following information in the request:
 
 * Current concurrent call requirement
 * Expected growth trajectory

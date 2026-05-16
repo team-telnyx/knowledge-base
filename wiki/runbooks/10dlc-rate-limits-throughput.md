@@ -198,7 +198,7 @@ graph LR
 
 3. **Request enhanced vetting**
 
-    If your initial score is below 75, consider requesting enhanced vetting for a more thorough review. Contact [Telnyx support](mailto:support@telnyx.com) for guidance.
+    If your initial score is below 75, consider requesting enhanced vetting for a more thorough review. Contact [Telnyx support](mailto:help@telnyx.com) for guidance.
 
 4. **Use multiple numbers for higher aggregate throughput**
 
