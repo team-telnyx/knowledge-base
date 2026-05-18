@@ -288,7 +288,7 @@ After carrier certification, you can customize the HELP and campaign keyword res
 
 **Disabling automatic responses**
 
-    After certification, you can disable automatic responses for HELP and campaign keywords to handle them yourself via webhook. Contact [support@telnyx.com](mailto:support@telnyx.com) to request this change.
+    After certification, you can disable automatic responses for HELP and campaign keywords to handle them yourself via webhook. Contact [help@telnyx.com](mailto:help@telnyx.com) to request this change.
 
     > **Warning:** **STOP responses cannot be disabled.** Opt-out handling is managed at the carrier level. Once a user opts out, they are blocked from receiving messages — you cannot send a custom opt-out confirmation.
 
