@@ -58,7 +58,7 @@ The status code of rate limit responses is [429](https://developer.mozilla.org/e
 
 ### Over Your Rate Limit?
 
-Contact [help@telnyx.com](mailto:help@telnyx.com) if you find you are exceeding the rate limit.
+Contact [support@telnyx.com](mailto:support@telnyx.com) if you find you are exceeding the rate limit.
 
 ## Product-Specific Rate Limits
 
