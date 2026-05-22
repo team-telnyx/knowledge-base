@@ -6,23 +6,14 @@ summary: Consolidated SMS guidelines for Montserrat, Netherlands Antilles, Saint
   MCCs, dial codes, sender ID support, content notes, and any special delivery considerations.
 sources:
 - url: https://support.telnyx.com/en/articles/6677968-montserrat-sms-guidelines
-  content_hash: 682cd5f16743e7d9ee00de9fd687b728254e8e715224ef088fda65ce3b0cac28
 - url: https://support.telnyx.com/en/articles/6678949-netherlands-antilles-sms-guidelines
-  content_hash: c645191a36ea955293d3ff8e6ac84a42e76969871c7fb646693efc9201c2745e
 - url: https://support.telnyx.com/en/articles/6679419-saint-kitts-nevis-sms-guidelines
-  content_hash: 23c139a4ef9290f474ae7c4fc1ca9de121f0caf2c335513658128d172601ec67
 - url: https://support.telnyx.com/en/articles/6679439-saint-lucia-sms-guidelines
-  content_hash: efbcd08af4af4629bb07dd3a43b58475b39036d92bf5d1d44549b90c0097c4ba
 - url: https://support.telnyx.com/en/articles/6679441-saint-pierre-and-miquelon-sms-guidelines
-  content_hash: 71304cc20c56e286e917fa2b277553d3062c09f832de2e981cac46f12d4dd538
 - url: https://support.telnyx.com/en/articles/6679448-svg-sms-guidelines
-  content_hash: d47f6cb4f67eb832cfc281885e5dfb83fd181f79943fc9ce5aaae009833e2815
 - url: https://support.telnyx.com/en/articles/6683379-trinidad-tobago-sms-guidelines
-  content_hash: efadb5b20f11351af16e588652230752b30519f0ea9668f6b8d1d4faeb5fdf28
 - url: https://support.telnyx.com/en/articles/6683396-turks-and-caicos-islands-sms-guidelines
-  content_hash: f6b41a7cfdfecd8aec3b3f353df40b80c7be290bff8ba7bcdfe44edaa0f6bcf0
 - url: https://support.telnyx.com/en/articles/6683477-virgin-islands-british-sms-guidelines
-  content_hash: 4ef7246aa194a7a1952c623a98deeef5362cd1dffef0350eff7be7c777861f5e
 updated_at: 2026-05-21T08:20:23Z
 ---
 

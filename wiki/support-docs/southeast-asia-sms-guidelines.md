@@ -6,27 +6,16 @@ summary: A consolidated view of Telnyx SMS requirements and best practices acros
   specifics—plus where to register and get help.
 sources:
 - url: https://support.telnyx.com/en/articles/6531682-philippines-sms-guidelines
-  content_hash: f7732c379c2f60ff3d7ac5863ba2e613bacb13e8d8839317e79d013102b00d17
 - url: https://support.telnyx.com/en/articles/6600934-brunei-darussalam-sms-guidelines
-  content_hash: d4652aabdb19e043e9907e9f04e9184552c60eb8a8839378436c4e0c8875597d
 - url: https://support.telnyx.com/en/articles/6601049-cambodia-sms-guidelines
-  content_hash: b04ba61a2ae523897a47e363cd5602db0cf3703a056cb5ca6e9d1019b212def2
 - url: https://support.telnyx.com/en/articles/6674396-indonesia-sms-guidelines
-  content_hash: d25f8a4225aa60bc4dc69566ad31a0b781d58e28c6e6ef4c31ca8564b682b460
 - url: https://support.telnyx.com/en/articles/6674798-laos-pdr-sms-guidelines
-  content_hash: 51fff84c0b07599c1eef3cb39141d07ad8b26deb61aa71763338bec4c5b68e98
 - url: https://support.telnyx.com/en/articles/6675110-malaysia-sms-guidelines
-  content_hash: 53b207176a76fa93aa319168f9bb2b0692059dcafe84f35217f1fb8d98aa0269
 - url: https://support.telnyx.com/en/articles/6678010-myanmar-sms-guidelines
-  content_hash: b7307cb717181021a0fc0f2639a11453e489bee23586f0b3506b7a8ebe82532d
 - url: https://support.telnyx.com/en/articles/6680103-singapore-sms-guidelines
-  content_hash: a78d4f5ba63b491828f842fd70b4ec9d504687c8790e333ba3c4fff8ae7c9dd1
 - url: https://support.telnyx.com/en/articles/6683302-thailand-sms-guidelines
-  content_hash: fd5b304944e8510ac7c7162b5f46b43affc8bd65765bf15bfd5e5804b714ab0a
 - url: https://support.telnyx.com/en/articles/6683340-timor-leste-sms-guidelines
-  content_hash: b79deada38dfb851e220f54cbe48a8caef936cdfeb414dd7a94751dee91c83a1
 - url: https://support.telnyx.com/en/articles/6683467-vietnam-sms-guidelines
-  content_hash: a5bf1f9dfbe3a95bb7926ffc0730c35157f11eba68ee6632dea5839c86fe0d29
 updated_at: 2026-05-21T08:28:27Z
 ---
 

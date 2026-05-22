@@ -5,23 +5,14 @@ summary: How to secure Telnyx Mission Control Portal access with two‑factor au
   API credentials (v2 keys and legacy v1 tokens).
 sources:
 - url: https://support.telnyx.com/en/articles/3739748-2fa-totp-setup
-  content_hash: 68bdf0460659faaaa952d7a454d9ce0e4be598946409f9f7e3e123a45e121564
 - url: https://support.telnyx.com/en/articles/4305158-api-keys-and-how-to-use-them
-  content_hash: 0bba799956f6adb4480db915af0ecb483bb05ec618ebf2ac583052cfaa4d2b18
 - url: https://support.telnyx.com/en/articles/5316578-onelogin-saml-identity-setup
-  content_hash: 2740c732142660a5bc2f470e672393a0539587cdb9cda46ae41cf21cd4b37ba3
 - url: https://support.telnyx.com/en/articles/5335562-okta-saml-identity-setup
-  content_hash: 8923c906a6e058c93ad4604657062a497c77867736cbd46802b445d1e5ededc7
 - url: https://support.telnyx.com/en/articles/5341506-lastpass-saml-identity-setup
-  content_hash: 1c561eeb3bcfdfd00f60f43517fd1d21f4f197965896285d710998fc6e6d15dc
 - url: https://support.telnyx.com/en/articles/5355800-azure-ad-saml-identity-setup
-  content_hash: 681f931f771d35d04e5f71d678f56ee72bb0d1e107a1c00109757fb2a81d4541
 - url: https://support.telnyx.com/en/articles/5355953-auth0-sso-integration-with-telnyx
-  content_hash: 9264945f2de52dae9069086743cf2a6bf596951c8b2ebaaea035d3f09f95dee2
 - url: https://support.telnyx.com/en/articles/5361846-gsuite-sso-integration-with-telnyx
-  content_hash: c2a7a13dd34cc33d062ff65c488da8cfa4ba112f6d0508130c7f805d97f6724f
 - url: https://support.telnyx.com/en/articles/1130624-how-do-i-create-an-api-v1-token
-  content_hash: 25bc1657fa86cb22a6786f63553e6ff077636b811a2f3f6ffed7f8549b1f494f
 updated_at: 2026-05-20T14:48:03Z
 ---
 

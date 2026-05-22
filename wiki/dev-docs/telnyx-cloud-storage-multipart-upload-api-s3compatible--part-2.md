@@ -6,17 +6,11 @@ summary: How to perform S3‑compatible multipart uploads with Telnyx Cloud Stor
   provides sample HTTP and XML payloads.
 sources:
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/multipart-operations/abort-multipart-upload
-  content_hash: 76eb089d9ce3fd93434c3048cfed4e7d8173229d9ab04e4931891d9916ded986
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/multipart-operations/complete-multipart-upload/index
-  content_hash: 7d6698408db0dd9aa3c32db1d92b270643d37482eb3152b4501519e78da00fea
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/multipart-operations/create-multipart-upload/index
-  content_hash: edbb9fe698b9dff9fe30625edf2585fc404089488f3a791bb55a2efcd4d5ea3c
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/multipart-operations/list-multipart-uploads
-  content_hash: 72b59313eb749f92336b450a378b4b3b9aa1433299575f9be0b62fba37b623f8
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/multipart-operations/list-parts
-  content_hash: cb6ce45c0f72d7c961dd29cac3afb4dc81cfeb48858669f0a7f4fe7c25c0949a
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/multipart-operations/upload-part/index
-  content_hash: deb426c4d4f0e3e4985c76c64c0635da7b67fbffff48540d980177aebd75871d
 updated_at: 2026-05-19T19:34:26Z
 ---
 

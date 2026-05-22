@@ -6,19 +6,12 @@ summary: 'SIM Card Groups let you define ongoing, inherited policy for all SIMs 
   the SIM lifecycle, and can be tracked via action endpoints.'
 sources:
 - url: https://developers.telnyx.com/docs/iot-sim/sim-card-groups/index
-  content_hash: c0b440d25855adda1798d0411f914fcf2a0b96843e58bea4ce1b0d7000d2542d
 - url: https://developers.telnyx.com/docs/iot-sim/sim-lifecycle
-  content_hash: 8a6c0f9993cb4673e35b3ab8631e531d7343ef5b1b7f21ee555c0db026fc30fa
 - url: https://developers.telnyx.com/docs/iot-sim/messaging-settings/index
-  content_hash: 531afd3a440bc703aedadf8ac6625d2082563dfa1450d562af82dbd3358a56be
 - url: https://developers.telnyx.com/docs/iot-sim/traffic-policy-profiles
-  content_hash: b56a212634e2b2b34c813cf6d8c0820043867fb3509bd77db93eea79246da74a
 - url: https://developers.telnyx.com/docs/iot-sim/ota-updates
-  content_hash: a1f969f94f63eccdd719bdd716c1d522cc70502403c56ec49f3ede85fa9edcb2
 - url: https://developers.telnyx.com/docs/iot-sim/voice-enabled-iot/index
-  content_hash: 5105983b368e344bca9bb439f00de92957621a17397ed21c51290f694e0492d7
 - url: https://developers.telnyx.com/docs/iot-sim/edge-deployment/index
-  content_hash: 5cabb7080540e087099d3a6b9f1267a157bd3cf720f971466970969ef2a67011
 updated_at: 2026-05-20T08:42:56Z
 ---
 

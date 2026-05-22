@@ -6,29 +6,17 @@ summary: Consolidated Telnyx SMS delivery rules for selected East African and We
   caveats, and known content restrictions.
 sources:
 - url: https://support.telnyx.com/en/articles/6601042-burundi-sms-guidelines
-  content_hash: d0c5913f77e7c6e7f385dd8833a2e1ce1207aff4628b75a965c560d5cbb34d93
 - url: https://support.telnyx.com/en/articles/6665699-djibouti-sms-guidelines
-  content_hash: ad32cff0f9fe29482345ea77b4295c7ad2cfb51d80022ec44c6f6f186167dec9
 - url: https://support.telnyx.com/en/articles/6670452-eritrea-sms-guidelines
-  content_hash: 7d30ffb989a86355297c29d56dc3d833d4f4b6dfbe57599d61857a45c17689ef
 - url: https://support.telnyx.com/en/articles/6670465-ethiopia-sms-guidelines
-  content_hash: 9ddc509b0b719fb3bdafb3c9d6da995427bf66d90a78bb1f83cd0041a2e8d500
 - url: https://support.telnyx.com/en/articles/6674630-kenya-sms-guidelines
-  content_hash: 072963c1f548e3ad3c15f46dac16e25a922afb50de9d32562e245e9564c5596a
 - url: https://support.telnyx.com/en/articles/6679407-rwanda-sms-guidelines
-  content_hash: 84889f7db5e6c3312fdbd5dc96e81a62d00d874fd31574a7619bfc904899a22c
 - url: https://support.telnyx.com/en/articles/6680053-seychelles-sms-guidelines
-  content_hash: 42a305c69490dc9164e51fee58961553c8b92730ac969b07f9d4d8bed8af8bbb
 - url: https://support.telnyx.com/en/articles/6680135-somalia-sms-guidelines
-  content_hash: bdfd4284eef16bbad5f7d499b3852faf6d789893fe163ed3ec405fc0d5121fc3
 - url: https://support.telnyx.com/en/articles/6680141-south-sudan-sms-guidelines
-  content_hash: 86a9b261c5703617d20a43eb447c5872f5451fd70d641a0204631212bb08e1c2
 - url: https://support.telnyx.com/en/articles/6683295-tanzania-sms-guidelines
-  content_hash: e961176157c5fa4a0e8faef9eb13c232dcbb45a8585b9cbf56c6855f2988d7d7
 - url: https://support.telnyx.com/en/articles/6683433-uganda-sms-guidelines
-  content_hash: e8364bdedd9caa6015c3276c896640a16c824d53669e8ec29fd48c6cfb4f4ab1
 - url: https://support.telnyx.com/en/articles/6679378-reunion-sms-guidelines
-  content_hash: ecfc7548c61abb158d40bc9be60ad036ffc63041202385645fe4289859d26a39
 updated_at: 2026-05-21T08:23:42Z
 ---
 

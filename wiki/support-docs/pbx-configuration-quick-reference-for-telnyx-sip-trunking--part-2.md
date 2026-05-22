@@ -6,35 +6,20 @@ summary: A consolidated, platform-agnostic quick-start and best‑practice guide
   TLS/SRTP, caller ID/number formats, 3CX compatibility notes, and per‑PBX setup highlights.
 sources:
 - url: https://support.telnyx.com/en/articles/13375115-how-to-configure-yeastar-p-series
-  content_hash: ca8b66dd212ee60aac67452ab468347098667aaccf38192b6f08cf12240618dc
 - url: https://support.telnyx.com/en/articles/3185933-vodia-multi-tenant-pbx-setup
-  content_hash: 9dad394a2f23a7bda745386c3cdc1f5fef79c5be99d90996cfddad040dc0a5af
 - url: https://support.telnyx.com/en/articles/5138185-bicom-pbxware-setup
-  content_hash: dd14b3ae5db0b472b77e401631fc62ce65c472011bcf388bc4447ffbef1aea59
 - url: https://support.telnyx.com/en/articles/5728748-epygi-ip-pbx-telnyx-setup
-  content_hash: b3351c0654fd9c0f3c952ee0bbdad1c060cfc7e72c773548b2f095e3fb94b7b4
 - url: https://support.telnyx.com/en/articles/5754127-xorcom-pbx-sip-trunk
-  content_hash: 119880c00ffca6c847217dbc826da5ec4734b483c51f51573693b665d38d5545
 - url: https://support.telnyx.com/en/articles/5754445-vitalpbx-configuring-your-vitalpbx
-  content_hash: 9b3771307849c84657fc6552cab3ba47eb4f98fb074fe1f6f4a6741e80388e84
 - url: https://support.telnyx.com/en/articles/5790910-positron-ip-pbx
-  content_hash: 27340de0b7342195b4012ac67eafd3f4da6a93f4affce90ea8dccb3837223dee
 - url: https://support.telnyx.com/en/articles/5798240-pbxes-connecting-a-pbxes-trunk-to-telnyx
-  content_hash: d8d55c67a7f75f78892b702d533d8c1ca146874c1baa63d63bf36205729e2b04
 - url: https://support.telnyx.com/en/articles/5799830-wildix-sip-trunk-setup
-  content_hash: 829e62038f5e3df7e38d04d3ef5ad3747b26081a4011d53134f2e89ddcdf7bd4
 - url: https://support.telnyx.com/en/articles/5800936-phonesuite-voiceware
-  content_hash: 49eb366a50fae38c0ce14ebd52542db63ae8267df11eaafe23365bd3072f364c
 - url: https://support.telnyx.com/en/articles/5803103-scoptel-ip-pbx
-  content_hash: 3a5d2f05d3846d79ce1ea1f5e0c2131fed914b73cfdb2bb9db72dd55e9fbb4f3
 - url: https://support.telnyx.com/en/articles/6128008-sipxecs-pbx-setup-config
-  content_hash: 1beed8f31a42eec6d8077583b3e6c3cfd9d7868f31c2c4653c5b5f39b3daf00b
 - url: https://support.telnyx.com/en/articles/6161111-3cx-configuring-a-3cx-v18-pbx
-  content_hash: 5f1c06f9e784a5a550efde4a7a889e939ff8c174bbd62393c20da79ea4fb8325
 - url: https://support.telnyx.com/en/articles/7829412-3cx-and-telnyx-compatibility
-  content_hash: 5a84022998015a0a424d0863ca842a777e3795064eeb5935acf83b084c5c26c6
 - url: https://support.telnyx.com/en/articles/8683996-3cx-configuring-a-3cx-v20-pbx-20-0-update-5-build-20-0-5-551-march-2025-update
-  content_hash: 2960290b1891b0c9bfcdd18277c19049c41c43c560ae980f7b00b9b28859d4b5
 updated_at: 2026-05-20T15:00:35Z
 ---
 

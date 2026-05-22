@@ -6,29 +6,17 @@ summary: This guide consolidates Telnyx’s public requirements and special rule
   timing, address, and documentation caveats.
 sources:
 - url: https://support.telnyx.com/en/articles/3266409-austria-number-porting
-  content_hash: 79bc996454a65afebfbebf9a671d41b0059822301ba111f9e6326871fc27d118
 - url: https://support.telnyx.com/en/articles/3266421-belgium-number-porting
-  content_hash: aa7476011c986d3e363a5b339e70a00c97e140746e7d5bab7a0bba9e40e10ecb
 - url: https://support.telnyx.com/en/articles/3266956-france-number-porting
-  content_hash: b3c5d89b4e7ea12ba25c2fee2b10efc09f7e159c1504536953e6580a90456777
 - url: https://support.telnyx.com/en/articles/3266960-germany-number-porting
-  content_hash: 6ab6d7e94fdf9d633525e48d8d5cb6662c559652e41424697bd999823f105869
 - url: https://support.telnyx.com/en/articles/3266983-ireland-number-porting
-  content_hash: f3b8063c2f4a36712ed011df05ea74bcb7b62dd4fdedc88b13a9a62fa011212c
 - url: https://support.telnyx.com/en/articles/3267012-italy-number-porting
-  content_hash: ce9a3637da3ceb71ea8c86d5653df13c62ada9f9ba576b0edb83e07f74947a38
 - url: https://support.telnyx.com/en/articles/3267124-netherlands-number-porting
-  content_hash: 555d7548afbd48b5c60603830f754d5951a2debed727c9e5229a018fe1eda91f
 - url: https://support.telnyx.com/en/articles/3267595-spain-number-porting
-  content_hash: 5d7a2d8f17dc2a488bed455e8a88a2b09b2eb628059e61c0fe6cb9a6f4810287
 - url: https://support.telnyx.com/en/articles/3267626-switzerland-number-porting
-  content_hash: 6040406676d58d593dacb28d6e9e0a29b1afa8f52e64a41c17681e40e39ee506
 - url: https://support.telnyx.com/en/articles/3267693-united-kingdom-number-porting
-  content_hash: 41c3ee220e804f8de0d6f30466c0c763e8316d2524dd3f872e7aae34d5d0b606
 - url: https://support.telnyx.com/en/articles/5120062-portugal-number-porting
-  content_hash: 936df5f01c9cb0c6503c11a67a0f551a8625fdfed7e9ab68ea1c01736e0267ab
 - url: https://support.telnyx.com/en/articles/5188555-luxembourg-number-porting
-  content_hash: 317d5e3dbb7eded52a44330660b305e78eb2d94fcba1c386ddbc3814bc1a68f7
 updated_at: 2026-05-20T15:47:35Z
 ---
 

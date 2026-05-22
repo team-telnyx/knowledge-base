@@ -6,17 +6,11 @@ summary: Convert text to audio with a single POST request that streams synthesiz
   with Telnyx’s endpoint.
 sources:
 - url: https://developers.telnyx.com/docs/voice/tts/rest-api/index
-  content_hash: 0dffbb7f5a3c9b2b9e4251dd3cc0b645720108a435078b652a1404beefef00c8
 - url: https://developers.telnyx.com/docs/voice/tts/rest-api/api-reference
-  content_hash: ecf72e0af62f083cffb9c30648c84eaa1b0e7e6ed516a8804485ef4f3892d61e
 - url: https://developers.telnyx.com/docs/voice/tts/rest-api/examples
-  content_hash: 17f13471d7b7cea2acf9e43010a94c3d987ebacd62c04f583573ae6dbe43ed13
 - url: https://developers.telnyx.com/docs/voice/tts/rest-api/pricing
-  content_hash: 61090dd1ae926bbdfc576d1480437a4ce5fb5731905ff297c9899dc2c52b3cde
 - url: https://developers.telnyx.com/docs/voice/tts/rest-api/request
-  content_hash: c49b70c0f53c4d4cc689931efd6e0431a43c94d59f74ccee90870a46f7805eb5
 - url: https://developers.telnyx.com/docs/voice/tts/rest-api/response
-  content_hash: d1ab64615afbe40ba60c5393e931d1332b37852072dc8294dcdbfd7afbfc2caa
 updated_at: 2026-05-20T10:19:11Z
 ---
 

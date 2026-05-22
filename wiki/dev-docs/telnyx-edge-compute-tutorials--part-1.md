@@ -5,17 +5,11 @@ summary: Learn Telnyx Edge by building real applications. This guide curates fou
   patterns you’ll reuse across projects and links to quickstarts and references.
 sources:
 - url: https://developers.telnyx.com/docs/edge-compute/demos/index
-  content_hash: 5ea65ece207f150aff2863d1253518a472c63bd2dc715d4c7b3a7e12794df16a
 - url: https://developers.telnyx.com/docs/edge-compute/demos/build-a-rest-api
-  content_hash: e765fba7ddff7436cd737dcdd5023e103d29f768abc3dbaf48ddc656651e115a
 - url: https://developers.telnyx.com/docs/edge-compute/demos/image-resizer
-  content_hash: ec0c36e94f27fff4cef95fbb395e5640b645b7c56ec90a8ee62f8568407a2caa
 - url: https://developers.telnyx.com/docs/edge-compute/demos/sms-webhook-handler
-  content_hash: 28105ddde5f22d2415da1b661df668558d597ef0f292a1a00529acc2ffd1b7d5
 - url: https://developers.telnyx.com/docs/edge-compute/demos/voice-call-router
-  content_hash: 753a96661329d8b0d80ded53a20dc50c27c0bda083510a0683a02a3ef759941e
 - url: https://developers.telnyx.com/docs/edge-compute/examples/index
-  content_hash: c5e15adaa65fb24f03323d1311b2fa9cc0cd3ae66d5e1e42d276ecaf7319d485
 updated_at: 2026-05-20T08:25:26Z
 ---
 

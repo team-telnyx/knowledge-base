@@ -5,29 +5,17 @@ summary: Step-by-step guidance to register Fanvil desk and hospitality phones to
   model-specific tips for X-, XU-, X7-, V-series, H-series, A32i, and X4/X4G devices.
 sources:
 - url: https://support.telnyx.com/en/articles/5811487-fanvil-x4g-telnyx-setup
-  content_hash: 17f2a4970656ea857a6f94f32e0c3b53552d0de1e694b0090126d1a6c99f138f
 - url: https://support.telnyx.com/en/articles/6056428-fanvil-a32i-telnyx-setup
-  content_hash: 938490d773359b1a7d9a22f8d8514837e3fde549b86cbdc2c4519c76b58f65e0
 - url: https://support.telnyx.com/en/articles/6202755-fanvil-h2u-compact-ip
-  content_hash: 22c3e37375854366ab859831dd964953d8c60500e6c4fbfe715c8c07f4805170
 - url: https://support.telnyx.com/en/articles/6202965-fanvil-h3-hotel-ip
-  content_hash: 27c371778821e4cfb8af8c4b8cc5d336cf42757ad5535d29145f3fae62b5151e
 - url: https://support.telnyx.com/en/articles/6203347-fanvil-h3w-h5w-wifi-ip
-  content_hash: 887164a231604129da85f1c7428e538f0e6e0061dc7d64c65a19682566331c0b
 - url: https://support.telnyx.com/en/articles/6203401-fanvil-h5-hotel-ip
-  content_hash: 9d1937c059686aba572c6ea524cf591101f701d33e7a39738bf65fae7f84f398
 - url: https://support.telnyx.com/en/articles/6206533-fanvil-x1-x1p-ip-phone
-  content_hash: 1fd516c709d04f99a615d09c115f86c2c165c6c605b20da6e12edf1d8dd89118
 - url: https://support.telnyx.com/en/articles/6206756-fanvil-x2cp-x2c-x2p-call-center-ip
-  content_hash: 16aabe404b5e8854c2c7bb0a209a3068985b9bddaaa5525a8c24f376463df386
 - url: https://support.telnyx.com/en/articles/6209215-fanvil-x7-series-ip-phones
-  content_hash: 5ac8c1820c5eb192e8489a3e3b1450f37d9a7a8017440f984b2c2fd637442b01
 - url: https://support.telnyx.com/en/articles/6209862-fanvil-v-series-ip-phones
-  content_hash: 4a38f2406562c02c2ab7dc3504e1d75012ee67a0418a62b82173390df985b79c
 - url: https://support.telnyx.com/en/articles/6209971-fanvil-x-series-ip-phone
-  content_hash: 39e097df108211f54aa1c9dd2ede48b23232397350d67a628555ee540267fc1b
 - url: https://support.telnyx.com/en/articles/6210147-fanvil-xu-series-ip-phone
-  content_hash: 7c986534c5902f3be2f138941c826d4f49e2f601808ad826a389fcbd6db9c4e6
 updated_at: 2026-05-20T15:04:34Z
 ---
 

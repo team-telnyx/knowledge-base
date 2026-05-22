@@ -5,11 +5,8 @@ summary: A consolidated glossary of core terms from Telnyx developer documentati
   across domains in one place.
 sources:
 - url: https://developers.telnyx.com/docs/glossary/ai-glossary/index
-  content_hash: 9619f7d52301e2334deb6d40888b1ec15dabc1e55b1be0f526b7e8df4ed33e66
 - url: https://developers.telnyx.com/docs/glossary/api-glossary
-  content_hash: b7f8a0b76ec246ce8bc340b8ac48833aea00dd6715eac88a0c4d044b61e9b3e5
 - url: https://developers.telnyx.com/docs/glossary/telecom-glossary
-  content_hash: 5b7f9dbe655fbf63b528638c106c214c574bef484843017818fddc7a388792bf
 updated_at: 2026-05-20T08:26:54Z
 ---
 

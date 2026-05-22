@@ -7,25 +7,15 @@ summary: A consolidated reference for sending SMS to 10 Asian markets, covering 
   opt-out, and compliance.
 sources:
 - url: https://support.telnyx.com/en/articles/6592387-afghanistan-sms-guidelines
-  content_hash: a14457507030f58de13a90690ea57e908adfd98df7a9bae788e8a0fb0c3d1081
 - url: https://support.telnyx.com/en/articles/6592510-armenia-sms-guidelines
-  content_hash: 7caecaceeae8fded104b17d37a9a1386eec76dcc7b3013150de79db3134e1325
 - url: https://support.telnyx.com/en/articles/6596144-azerbaijan-sms-guidelines
-  content_hash: 6987a2bebc377883a7ca54de88ae6121dbcfba8c1aeed3ce9843f876d545f95b
 - url: https://support.telnyx.com/en/articles/6670856-georgia-sms-guidelines
-  content_hash: ccf7f20146aab1d2b99282fc5aeb3e16d22b1a6c7779b21aeb7684d3c7d19514
 - url: https://support.telnyx.com/en/articles/6674794-kyrgyzstan-sms-guidelines
-  content_hash: 8c1f8738a35226575467eeff4974edffc6e835792a1e4d3f0bd6025109b4c657
 - url: https://support.telnyx.com/en/articles/6683287-tajikistan-sms-guidelines
-  content_hash: 0eef699b99cc4aecbe1a6f0f481adb9159311ca75872b508c0051e13fdda85e6
 - url: https://support.telnyx.com/en/articles/6683390-turkmenistan-sms-guidelines
-  content_hash: 967c1f046e2ea4bdea6166dc7a3e696419b9dfe75d1196f33ccfe52bd149c42a
 - url: https://support.telnyx.com/en/articles/6683454-uzbekistan-sms-guidelines
-  content_hash: 8b02540a2054db00c54eb7f7cf3be2df52ed28c755ce17417af236455f6e0936
 - url: https://support.telnyx.com/en/articles/6678903-nepal-sms-guidelines
-  content_hash: bb5551b5737fab4da32a77fcffb240c9cf1496593cd1d8cd32c8e9ef7262edb6
 - url: https://support.telnyx.com/en/articles/6596425-bhutan-sms-guidelines
-  content_hash: 41541576949f0ed3c9a5bed84476a6a0137bb3eb2bbb2c292ab08a9dc0a3d5cb
 updated_at: 2026-05-21T08:27:01Z
 ---
 

@@ -6,27 +6,16 @@ summary: 'A single reference for building private, secure, and resilient network
   Global Edge Router setup and best practices.'
 sources:
 - url: https://support.telnyx.com/en/articles/10007243-whitelisting-telnyx-media-ip-addresses
-  content_hash: 0eb0936b375412c628f7f735150fd40d2dfb0312e29264d11fe29d29aed75898
 - url: https://support.telnyx.com/en/articles/1130682-telnyx-stun-and-turn-server
-  content_hash: 1cd0314b9b936f524b5a5c4c970ec44fadc709d0dd19cea88383153bc680ef72
 - url: https://support.telnyx.com/en/articles/1130687-whitelisting-telnyx-ip-addresses
-  content_hash: 71e9e1af6659418862cc205553a3921dfa4d63b3c23886b7d7f48e9f7779ea7e
 - url: https://support.telnyx.com/en/articles/1371411-aws-virtual-cross-connect-setup
-  content_hash: c388836c115f095ebcdab284c8855957ff84c2e2f2e283e5c7ae944cb7902ecd
 - url: https://support.telnyx.com/en/articles/2239446-azure-virtual-cross-connect
-  content_hash: c13e4e8b297a01107490aed529df6e9dde481201cf8c6974b3de46ba8a57da1b
 - url: https://support.telnyx.com/en/articles/2239449-google-vpc-telnyx-integration
-  content_hash: 025c57c59f880c77c3d8c632d4e59acaf6fd5439e0875fc9f64ce1541bb03ab1
 - url: https://support.telnyx.com/en/articles/2964210-megaport-configuration-with-telnyx
-  content_hash: 3352b1a8a051e721dd051afb1c7bebf776fb411b84612900c0c4d7eab2bb1bdf
 - url: https://support.telnyx.com/en/articles/8002565-how-to-configure-global-edge-router-with-telnyx
-  content_hash: 242f743d1c29464428ed6fd057c87935eacbc2c9070f3199052104f3b293d705
 - url: https://support.telnyx.com/en/articles/8103257-global-ip-edge-routing
-  content_hash: 5eae451813916c2239a71ac12056626f757820e7e992a7ad7f929c2f0e48c5e7
 - url: https://support.telnyx.com/en/articles/8126141-intro-to-telnyx-edge-router
-  content_hash: 1cf44ddc0f2f9ba9e78881cbfc6a51544651e87f2ad46710954012e3ecc6cdbb
 - url: https://support.telnyx.com/en/collections/5317581-networking-using-telnyx
-  content_hash: 0af3ca0db429c4473c803b0d3607b608fb5c077ad33f20ff1ff987de0e9b94df
 updated_at: 2026-05-20T15:20:29Z
 ---
 

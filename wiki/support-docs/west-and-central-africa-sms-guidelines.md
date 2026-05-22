@@ -6,33 +6,19 @@ summary: Sender ID rules, registration requirements, content restrictions, and o
   is required, plus how to register and best‑practice compliance tips.
 sources:
 - url: https://support.telnyx.com/en/articles/6675247-mali-sms-guidelines
-  content_hash: da7fbd06cc43784acef10a223a9971c63c09c1e9bc830aa3449389b3dbb81693
 - url: https://support.telnyx.com/en/articles/6675690-mauritania-sms-guidelines
-  content_hash: c114e5e78be5309b97b927a534f35a6383bffdf760acbf7f05ef3866f7dcd2d8
 - url: https://support.telnyx.com/en/articles/6679062-niger-sms-guidelines
-  content_hash: 3812fad9c85fdb0100ee6e6cfe96bd297125049c4882ae6fbfad047caf05a7f6
 - url: https://support.telnyx.com/en/articles/6679084-nigeria-sms-guidelines
-  content_hash: 224021b37a35d0b047327b75352f3d6105455d4224953f1bd3040ac8ff88dd78
 - url: https://support.telnyx.com/en/articles/6601061-cameroon-sms-guidelines
-  content_hash: 3e359a64b86c498388a2c31c95bebac74e21398c102c45bf7cf8f82cefc6bfa4
 - url: https://support.telnyx.com/en/articles/6601081-central-african-republic-sms-guidelines
-  content_hash: 79ce90e35c09fdb27dca9582ca5c2ff55cfadd71faa070244a8e61c0136a6e16
 - url: https://support.telnyx.com/en/articles/6601133-chad-sms-guidelines
-  content_hash: bfccae6528488a962da26f9fa229f35102a23d6d00734b028779c25e56f5a2cf
 - url: https://support.telnyx.com/en/articles/6661326-congo-sms-guidelines
-  content_hash: 00b6e3fd75b6d01f22e89105da4d0562a53ed325631a1136257d283317adb3b8
 - url: https://support.telnyx.com/en/articles/6661342-congo-sms-guidelines
-  content_hash: abdb8e837820e77069de1c2e84978fc95295dcaa45170f2c2080b82af69e601f
 - url: https://support.telnyx.com/en/articles/6670834-gabon-sms-guidelines
-  content_hash: 19d9945e181e39339b5a82a422c423fb44674bd8b3ede958c7b9126e167cedae
 - url: https://support.telnyx.com/en/articles/6592456-angola-sms-guidelines
-  content_hash: 60bbd5ab8defbf4a9d139b66a349b5fdb37ccad08498ab2b5a7e984745bad5ce
 - url: https://support.telnyx.com/en/articles/6601152-comoros-sms-guidelines
-  content_hash: 4fe1c0cca48ff70f19619d2e6026fb2035ab13532aba2d5c7a2d0b08a935e10d
 - url: https://support.telnyx.com/en/articles/6670439-equatorial-guinea-sms-guidelines
-  content_hash: 733d8afd6f3b852e918ffecdbda6b93653393aada80af2eaf15e34e65988f65c
 - url: https://support.telnyx.com/en/articles/6680003-sao-tome-and-principe-sms-guidelines
-  content_hash: 34836891e02dcc92d473d3937730adf78a7ee87e04e4e389d72d4f714ca01b23
 updated_at: 2026-05-21T08:22:57Z
 ---
 

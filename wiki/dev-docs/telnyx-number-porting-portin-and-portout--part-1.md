@@ -6,35 +6,20 @@ summary: End‑to‑end guide to porting phone numbers with Telnyx, covering por
   cancellations, notifications, and events.
 sources:
 - url: https://developers.telnyx.com/docs/numbers/porting/allowed-foc-dates
-  content_hash: 69e112782b0e9e9c6688251278767aca9ce5ae1cb1d9410857488d8ccd0f8ed9
 - url: https://developers.telnyx.com/docs/numbers/porting/bundles-porting
-  content_hash: e789c26e2fd8cd1ced96949f2f87738e0e560c9f82f0e0ee45ebf31dda3ad9e1
 - url: https://developers.telnyx.com/docs/numbers/porting/cancel-port-order
-  content_hash: 4fbef8100ce82c79c06638db966c25bd7894e9a2268166d210f0b69790fb31be
 - url: https://developers.telnyx.com/docs/numbers/porting/extensions
-  content_hash: b6044c3a0d4ef6768ec2c71190aff5ba98be0e11b92c72c2abbf121df3783124
 - url: https://developers.telnyx.com/docs/numbers/porting/getting-started/index
-  content_hash: 8ce79bcb8961e8e62453b9b00ba0d43dd5ecb1745c9eddeb0cdab2f2f8db9dc5
 - url: https://developers.telnyx.com/docs/numbers/porting/messaging-porting
-  content_hash: e3f353f73dfd24466f34d052cc55069994dd3ad8ab41a9f0f4a0c8e0e4b195cb
 - url: https://developers.telnyx.com/docs/numbers/porting/on-demand-activations
-  content_hash: b5a564cb0eb0ca13546767cf2f90e539d2c77f4d5e0a3e06a15fc3f9f53f25bf
 - url: https://developers.telnyx.com/docs/numbers/porting/port-in-blocks
-  content_hash: 457bfba37f8919f7f53ca18f419ee1b3d8f077f3ecec25d72077a0b079a4cbae
 - url: https://developers.telnyx.com/docs/numbers/porting/port-in-events
-  content_hash: 17d60f90ce57a4dc8ae137bdb62e6b7733ae7f354556978102076c82ea969486
 - url: https://developers.telnyx.com/docs/numbers/porting/port-in-notifications
-  content_hash: 3bf551d4b41d5a5364ed3c10695744ba90dca47f60160aa9713f1380281b04e9
 - url: https://developers.telnyx.com/docs/numbers/porting/port-in-requirements
-  content_hash: 1b4436a06f1aab5f531bdc006d03a7a03796b54a42a75e90d641d145db3c04bb
 - url: https://developers.telnyx.com/docs/numbers/porting/port-out-events
-  content_hash: ad34b4166c56cb86761de70ace5116521317235798c9cd3b4f277c6f7613cc77
 - url: https://developers.telnyx.com/docs/numbers/porting/port-out-notifications
-  content_hash: ffb18d45817e90a17608b37d56d9735c91849674486073e70c23ecb6e9735cef
 - url: https://developers.telnyx.com/docs/numbers/porting/port-out-quickstart/index
-  content_hash: 0e38e56d785c9864dcaced6781425ec00654695a09106ba9309a7084c7c4abc4
 - url: https://developers.telnyx.com/docs/numbers/porting/porting-additional-steps/index
-  content_hash: 6f897ab75044ffba11235fe79de0a7798935d3eb69781f92cb99c0a894e0bc2e
 updated_at: 2026-05-20T09:24:58Z
 ---
 

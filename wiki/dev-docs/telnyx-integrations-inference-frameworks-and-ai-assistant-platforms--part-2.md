@@ -6,25 +6,15 @@ summary: Connect apps and workflows to Telnyx using OpenAI‑compatible SDKs (Op
   routing, setup snippets, platform credentials, best practices, and troubleshooting.
 sources:
 - url: https://developers.telnyx.com/docs/inference/integrations/index
-  content_hash: 4b60a5df66da0d5c77a1b9c245f8bf4785dfd729398acdac5e9eb06a6b2edff4
 - url: https://developers.telnyx.com/docs/inference/ai-assistants/integrations
-  content_hash: 736fc0db52d3ea5b769039b8e36da4a23ea55115063876b3255c1a94a0f87eb1
 - url: https://developers.telnyx.com/docs/inference/langchain-integration
-  content_hash: 2906e85c049c755f63f95efd8643fe75e55db1ef223d350952876823a0ef3f0a
 - url: https://developers.telnyx.com/docs/inference/llama-index
-  content_hash: 19becb528e62578a86c503e4791f919d3a803fbcca9dcd7e3fac40c40c4ec6c3
 - url: https://developers.telnyx.com/docs/inference/openai
-  content_hash: a64064b571f08a4dfc1aff6f37de63d1bc990e93c343836e6b3efdc9cada5690
 - url: https://developers.telnyx.com/docs/inference/crewai
-  content_hash: 9a8257cd80b4d1cfaae7972b7861a359a1af39880852f3a2a9db7342544e1442
 - url: https://developers.telnyx.com/docs/inference/livekit
-  content_hash: 5328c2500eaddcdd72e1e331e6f204077b88070e01e2001346a8d95be81ba43b
 - url: https://developers.telnyx.com/docs/inference/streaming-functions
-  content_hash: c3feeb248c728bbced5a3c4cee0ef581fd884d8a0b5c8aa45b1ffd65809fa3ca
 - url: https://developers.telnyx.com/docs/inference/ai-outfit-recommender
-  content_hash: 4ba75c47eee628f1855808bab33a188fdf86a1689a3ed3862ff37e245162ae8f
 - url: https://developers.telnyx.com/docs/inference/pr-reviewer
-  content_hash: b79e83243a6486f1635526f7e27456777c2a1a7c8a01eb5baea2a857178a81fc
 updated_at: 2026-05-20T08:37:09Z
 ---
 

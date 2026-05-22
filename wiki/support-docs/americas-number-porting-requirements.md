@@ -6,25 +6,15 @@ summary: A consolidated guide to Telnyx number porting across selected countries
   complete submissions and plan cutovers effectively.
 sources:
 - url: https://support.telnyx.com/en/articles/3266425-brazil-number-porting
-  content_hash: 6bb6c99f8941a17e5f772ade818c446759002e881b4d343f2d68044253cac217
 - url: https://support.telnyx.com/en/articles/3266430-canada-number-porting
-  content_hash: b75e465c8f16b9d4d3c716fdd51d01c464af6628c3abda05377d6eb50f316e44
 - url: https://support.telnyx.com/en/articles/3266652-chile-number-porting
-  content_hash: 48be33d1e15dabb778432d17e94e110d8526bd2ab453da06a022a43ace0d7d73
 - url: https://support.telnyx.com/en/articles/3267101-mexico-number-porting
-  content_hash: 58661b45940efea263d9b158e187cf795cdce0ad9e3c21f4f10bafad9927634b
 - url: https://support.telnyx.com/en/articles/3267250-panama-number-porting
-  content_hash: 84c8729f4eb9d806dc1e24bd5643c3b02a7913afd5fa50066c6e7c40c5e9578f
 - url: https://support.telnyx.com/en/articles/3267436-peru-number-porting
-  content_hash: 26057f4b2709cac5a7329b025d97e048daa7324a3860701439ef4693ac7f12a8
 - url: https://support.telnyx.com/en/articles/3267535-puerto-rico-number-porting
-  content_hash: df7d0a8b4948c1be4cc21eed6c467740f02b74231b8dab95deb73bbd9b69f122
 - url: https://support.telnyx.com/en/articles/3267816-united-states-number-porting
-  content_hash: de646fc7858929cfed2af4de4a9a9350a460539cb1c67cbcc2821dcb78d9f10c
 - url: https://support.telnyx.com/en/articles/5179083-el-salvador-number-porting
-  content_hash: 2338a2d0bbfc61e386734f92b59a4820339d3700a5a467ff49beed230198b6e4
 - url: https://support.telnyx.com/en/articles/5190458-the-dominican-republic-number-porting
-  content_hash: b4b7fc388155e0526b3625f4a4e4d4486c446ceafddcb4c23cf71c04193c8f2b
 updated_at: 2026-05-20T15:53:06Z
 ---
 

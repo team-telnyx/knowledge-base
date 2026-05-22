@@ -7,33 +7,19 @@ summary: This page consolidates key information about Telnyx—what we offer, ho
   find more resources.
 sources:
 - url: https://support.telnyx.com/en/articles/1130595-account-verification
-  content_hash: 81d69a99c9c5c8edf989fba9e2ce867dd1967b4896d383e114fc49919025031d
 - url: https://support.telnyx.com/en/articles/1130599-telnyx-tech-specs
-  content_hash: b01bf96020026f0d41b2b7bab2bc6a64051e93b6bbb58e52783bdd43d985f8ac
 - url: https://support.telnyx.com/en/articles/1130637-what-is-telnyx
-  content_hash: 1f313eb1a175e433fac0f7311de85bcd341a462c4a1bdc11c0f4e6ed1f35cc4f
 - url: https://support.telnyx.com/en/articles/1130638-does-telnyx-provide-any-hardware
-  content_hash: b12625a39cedb162abb3e736606b5b096f595d60c6458596b44fbbb3c621ffcb
 - url: https://support.telnyx.com/en/articles/1130639-what-is-your-refund-policy
-  content_hash: 898500f7983c50015061c8ee0e388082fcd4e2bfecf262c9b766013cfefb1941
 - url: https://support.telnyx.com/en/articles/1130643-is-there-a-cancellation-fee
-  content_hash: e5505cd4bf77c5eb916cb9fdc13b5e99d8a879b9a90c72c4ed2f20055880771d
 - url: https://support.telnyx.com/en/articles/1130644-do-i-have-to-sign-a-contract
-  content_hash: 558d0efd555ab8cf962ec1be40aa2939ceddc1f594bd6b08161eca7c5553af02
 - url: https://support.telnyx.com/en/articles/1130646-where-is-telnyx-located
-  content_hash: 41c0ec2263ae243c9491da73123b8d2729176b298a82edc230deee7a65e587d3
 - url: https://support.telnyx.com/en/articles/1130655-can-i-resell-your-services
-  content_hash: 4886d59ea7057e4e05eea66aae04ff23548b6b3df9839e6d7ffac2d7f9d40ad3
 - url: https://support.telnyx.com/en/articles/1130661-does-telnyx-offer-post-paid-service
-  content_hash: 37a4b06ce0a15179ea4f70e87dd717fe257529c6df3196c3cfb2244ca4fad4c6
 - url: https://support.telnyx.com/en/articles/1130667-do-you-offer-service-to-call-centers
-  content_hash: 1861fcd9ab1dc4b041f22ec989e86722752da68bd48da9a51589b7f12fb67408
 - url: https://support.telnyx.com/en/articles/1130675-what-kind-of-equipment-do-you-use
-  content_hash: bec19d5dfdfab73ca5b131e652a42f07e505bef9816b22109e5edd29dcaeb22c
 - url: https://support.telnyx.com/en/articles/1130689-how-do-i-cancel-my-account
-  content_hash: 27fa99ddac6ca604cb8403c66da78812d235648adb1096e69d6a627e1892e35c
 - url: https://support.telnyx.com/en/articles/1130692-does-telnyx-have-a-blog
-  content_hash: 038028f887a9b838d76cad6f57a7369df22c49e3321d2e7f403bcd4c60bf29cd
 updated_at: 2026-05-20T14:40:10Z
 ---
 

@@ -5,13 +5,9 @@ summary: Build low‑latency, real-time voice apps on Telnyx using WebSocket str
   voices, expressive SSML emotions, and a broad voices catalog.
 sources:
 - url: https://developers.telnyx.com/docs/tts-stt/stt-websocket-streaming
-  content_hash: 74a93f44b5683c5bcbc3204f55297deb949d98356015249efd752bb9d6cb468e
 - url: https://developers.telnyx.com/docs/tts-stt/telnyx-ultra-voices
-  content_hash: d09d7dda27f37d7fd498b48ca0d55b99514c54f4156885de068624ed9c8e5c1c
 - url: https://developers.telnyx.com/docs/tts-stt/tts-available-voices
-  content_hash: 328a9875eeec4fadcce55c786b7ba8c145ad1da4d0d5c31c2212a8a51f691752
 - url: https://developers.telnyx.com/docs/tts-stt/tts-websocket-streaming
-  content_hash: f05c2f74c914fe6f1c3e7759aa9539573b1b6cea263801f848a46ca058a1afe1
 updated_at: 2026-05-20T09:30:18Z
 ---
 

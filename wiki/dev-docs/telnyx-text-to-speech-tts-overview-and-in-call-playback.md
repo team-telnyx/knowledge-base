@@ -5,9 +5,7 @@ summary: 'A concise guide to Telnyx Text-to-Speech: how to generate audio via We
   providers, and options for designing custom voices.'
 sources:
 - url: https://developers.telnyx.com/docs/voice/tts/overview/index
-  content_hash: 2ac1743826e3714db988ee03fff1f97add834e43b200610395b33b05b957991c
 - url: https://developers.telnyx.com/docs/voice/tts/in-call-playback
-  content_hash: 02e185de3ea3d334d6f300ff50c264c1c6851dff03a886120e85b170ab8c69ec
 updated_at: 2026-05-20T10:07:12Z
 ---
 

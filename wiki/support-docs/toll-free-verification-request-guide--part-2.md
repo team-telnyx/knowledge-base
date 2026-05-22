@@ -6,27 +6,16 @@ summary: 'A complete, up-to-date guide to verifying Toll-Free numbers with Telny
   you can get approved and keep traffic compliant and deliverable.'
 sources:
 - url: https://support.telnyx.com/en/articles/10729979-toll-free-verification-request-guide
-  content_hash: 44584fe2bd9466b05a3041955608bbff2bd4e5f40a93c535182671727e290194
 - url: https://support.telnyx.com/en/articles/11898569-toll-free-opt-in-workflow-description
-  content_hash: 0135186e7b4fd205be673cc95b9ad6c8e30e89e905c085cd4157bf7efe3aabc3
 - url: https://support.telnyx.com/en/articles/12650709-how-to-pick-a-toll-free-use-case
-  content_hash: 206304a57044394aac7a609baf4be472c03ceee1447f9d2acf7f69b396d0235a
 - url: https://support.telnyx.com/en/articles/13765655-compliance-catch-up-why-toll-free-verification-now-mirrors-10dlc
-  content_hash: 5ee6a03aefda713deafa0ae83b16bf07fd2dec44809ec471d7c40c5ac40f1e26
 - url: https://support.telnyx.com/en/articles/15138019-toll-free-carrier-rejections
-  content_hash: 90b0c70ada6407870bc07052bff78540976edce04455165db02bf20eca7d547f
 - url: https://support.telnyx.com/en/articles/5353868-toll-free-messaging
-  content_hash: ebc1ea1b7e1300291f098ad0cf9165887a070c6f407aae70dc981af6a7adfd9d
 - url: https://support.telnyx.com/en/articles/6989758-toll-free-opt-out-words
-  content_hash: 55dac840ba20800e1bef10796e05cd09ec25f8054649ed7af83da5a5c785ce79
 - url: https://support.telnyx.com/en/articles/1270091-sms-opt-out-keywords-and-stop-words
-  content_hash: f7af4f1a86f999ec2bd84d27e110c87e6ebecc7307ba3a19bf7df4924f090d0b
 - url: https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging
-  content_hash: 893eb870d30dcd50296b49b25c760fe5992d116c669d492c517d395ff23ef4df
 - url: https://support.telnyx.com/en/articles/12141904-legal-update-texas-s-mini-tcpa-now-applies-to-texts
-  content_hash: 3d84d9f16afa2941c930560e572b4e15b7686bdedbb8e91829115ac823a05308
 - url: https://support.telnyx.com/en/articles/6136385-uk-tps-register-guidelines
-  content_hash: 5ed9f37f1580e1c39cebfc35e7878b652e87711ffe3ba4bc8e87266875cc6256
 updated_at: 2026-05-20T14:20:59Z
 ---
 

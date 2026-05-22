@@ -5,15 +5,10 @@ summary: A practical guide to controlling where Telnyx anchors media (AnchorSite
   and which SIP responses influence failover—plus configuration tips and examples.
 sources:
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/routing/anchorsite-configuration
-  content_hash: 62240b268958631187060f41cf2271d1f9e5daea8f16743e119506bc93702b6f
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/routing/failover-and-retries/index
-  content_hash: 9971cd13087a821f33dc03e62305fa98d36c0478b3c5484b586205d1266cbc55
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/routing/round-robin-routing/index
-  content_hash: e6a1cf34e203a951f342f8105b70bd9d2c82de33e750ae281d429742b933cb41
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/network-configuration/srv-records
-  content_hash: 5c523e2d13018db05758e5766e888ec3b9114b77871390867135e8c2af3e3b6e
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/troubleshooting/response-codes/index
-  content_hash: 63aeadf697eb986750805d618dac769446815cb020aa6cdc717428ee296f4f5b
 updated_at: 2026-05-20T09:49:55Z
 ---
 

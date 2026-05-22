@@ -6,23 +6,14 @@ summary: Learn how to manage Telnyx phone numbers at scale in Mission Control, i
   and deleting numbers, plus quick context on DIDs and HD Voice requirements.
 sources:
 - url: https://support.telnyx.com/en/articles/2807846-bulk-edit-numbers-voice-settings
-  content_hash: d7507ba0b8b3cb99d185080795195e67c8bd792728d39bf060f8b1cadcb1e03b
 - url: https://support.telnyx.com/en/articles/2807910-bulk-edit-numbers-assigning-tags
-  content_hash: d5c576af377bf60790ee4178506218c0a30014720bc109e5b45a283b1f3974f9
 - url: https://support.telnyx.com/en/articles/2819213-bulk-edit-numbers-emergency-services
-  content_hash: cd81d9e335d52853f4361a960e8609180fa5e7652d9c6e1385bedc959442691e
 - url: https://support.telnyx.com/en/articles/2819236-bulk-edit-numbers-delete-numbers
-  content_hash: 688709e1a2254e8a9e498f55b50844ed522e018868593254d205e5122e639be1
 - url: https://support.telnyx.com/en/articles/2819238-bulk-edit-numbers-messaging-profile
-  content_hash: 2f02af34fd9f774ebdbd32c3e40ca61bf7f573e6c9562176498fd3f276d0f247
 - url: https://support.telnyx.com/en/articles/1130699-did-numbers-that-telnyx-offers
-  content_hash: 4ab2ed61d38ac4566f502bd3436a6df718e76c63c73f8b43f6f53da978ed16a8
 - url: https://support.telnyx.com/en/articles/1130702-where-can-i-buy-dids-in-the-us-canada
-  content_hash: 0cff38cd471b69372650ad4e76015546822bc489707dc2042376905a613897f8
 - url: https://support.telnyx.com/en/articles/1130704-what-is-a-did
-  content_hash: 80a9ca46fe8f08981279f6d96889e901f092fbacb69f176bca46c1ea87818be3
 - url: https://support.telnyx.com/en/articles/8394071-hd-voice-number-feature
-  content_hash: 100102b9e260f461b164503b9b2cb6471cdf51897eacd329c46eaa50dd254c80
 updated_at: 2026-05-20T15:38:55Z
 ---
 

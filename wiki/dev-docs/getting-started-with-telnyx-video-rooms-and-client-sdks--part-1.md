@@ -7,17 +7,11 @@ summary: Build real‑time video into web, Android, and iOS apps with Telnyx Vid
   and useful server APIs.
 sources:
 - url: https://developers.telnyx.com/docs/video/get-started/index
-  content_hash: c7d68c97a3e46cefdf4574028c7bd485fe115e5d875ae892cdd79e15fbb060e7
 - url: https://developers.telnyx.com/docs/video/android-client-sdk
-  content_hash: b878e2927d6c3bce1f7ea0ab835de60fde832eede63e0f8f38dec4d64a19fdbe
 - url: https://developers.telnyx.com/docs/video/ios-client-sdk
-  content_hash: 65bdfe9ab62c8f25d745dbceca91dee5fb27086f264273857a87ff69241054b2
 - url: https://developers.telnyx.com/docs/video/javascript-sdk/index
-  content_hash: 9eb0ba633a39e7750af7e5e6a1623da13e57cf109122e2e0566b9ba234b2d898
 - url: https://developers.telnyx.com/docs/video/javascript-sdk/javascript-video-tutorial
-  content_hash: dc31fcec993cc86014f9ff32b2dd46a35926e16027477a29c10a07d9f519d338
 - url: https://developers.telnyx.com/docs/video/javascript-sdk/room-events
-  content_hash: c727756f4294ae3e95732c3e4efbaac94cfcc4f226a7309265fb01d4f100433c
 updated_at: 2026-05-20T09:31:10Z
 ---
 

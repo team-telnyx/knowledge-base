@@ -8,21 +8,13 @@ summary: Consolidated Telnyx SMS guidance for Oceania, covering MCC/dial codes, 
   contacts.
 sources:
 - url: https://support.telnyx.com/en/articles/6531656-australia-sms-guidelines
-  content_hash: 2a8c6f9fd9442d8df64a7d0d20f47d89eda1aff5ba4b5b9c0f461680c65292d8
 - url: https://support.telnyx.com/en/articles/6670784-fiji-sms-guidelines
-  content_hash: 2dca89e5c376d563f8fbaf8cddd77e3644464518f26132eb6e27f0a265c0c8d9
 - url: https://support.telnyx.com/en/articles/6679031-new-caledonia-sms-guidelines
-  content_hash: 9a0c510196f0bf92ef537761ab36087cbabac6b7bfc3d9c004f7bf4fc506b9e3
 - url: https://support.telnyx.com/en/articles/6679036-new-zealand-sms-guidelines
-  content_hash: 1e8fb7539f24c1000b2f2362816985706dca70320b89483db68e416488ed508f
 - url: https://support.telnyx.com/en/articles/6679129-norfolk-island-sms-guidelines
-  content_hash: 4261d0572a0041421ffc31f62ec8e9c2fa66c5ac11514d33b8824c757ae97545
 - url: https://support.telnyx.com/en/articles/6679279-papua-new-guinea-sms-guidelines
-  content_hash: 57a1f8e830367f5014aac199d31e44acee6c6af9d45ac4eb13b52be1f4eed996
 - url: https://support.telnyx.com/en/articles/6680123-solomon-islands-sms-guidelines
-  content_hash: 1d29320cd0298f9dcabc51df97e7ae52a26ba99d7f4ffacd7cde0405b49738d1
 - url: https://support.telnyx.com/en/articles/6683459-vanuatu-sms-guidelines
-  content_hash: 70b735c3e0cf0194339279396fb9859fa86c4f348e2e0cc5cfaa01458d5c79b1
 updated_at: 2026-05-21T08:29:40Z
 ---
 

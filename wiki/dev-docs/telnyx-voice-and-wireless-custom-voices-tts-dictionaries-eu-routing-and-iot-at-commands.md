@@ -6,33 +6,19 @@ summary: A concise guide to building and using custom voices with the Telnyx Voi
   in Europe, and running essential IoT SIM AT commands on Raspberry Pi cellular HATs.
 sources:
 - url: https://developers.telnyx.com/docs/iot-sim/at-commands/index
-  content_hash: 5a67e9168384e250f9b6d80d0409144eeef803c01cca965f68e8720a41af98f9
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/voice-api-services-in-europe/index
-  content_hash: 99e324b1534471f2546b090acd3d5d4395ee54eea801a034230a8ecca278129f
 - url: https://developers.telnyx.com/docs/voice/tts/pronunciation-dictionaries/index
-  content_hash: 1f242ab2cda19d8d4a8af88a813bf5f6913b109860b214a4bddcf13a5fe53247
 - url: https://developers.telnyx.com/docs/voice/voice-design-lab/clone-voice/concepts/index
-  content_hash: 2acaa8dedb7d48f628f0069f99d895cc8ec2714fae84a658317e8407d1962b38
 - url: https://developers.telnyx.com/docs/voice/voice-design-lab/clone-voice/errors
-  content_hash: cb3f767c69c6c55c5d95dfc43be9f981553a3542b2c69292d882193fde8c56c7
 - url: https://developers.telnyx.com/docs/voice/voice-design-lab/clone-voice/parameters
-  content_hash: f830281f241a248c1a58078dd009c53d48efbfb4d5cdb19bab8cf6bf9910194f
 - url: https://developers.telnyx.com/docs/voice/voice-design-lab/clone-voice/quickstart
-  content_hash: d72357abe7e838339c5d38f9af251e87abcc85dcb1769c314d3cf29a5d7f2557
 - url: https://developers.telnyx.com/docs/voice/voice-design-lab/clone-voice/responses
-  content_hash: 83f961e9e984e95f098ec5514b0a3bc94c7317152e220fd8b9edcf26c5b133a3
 - url: https://developers.telnyx.com/docs/voice/voice-design-lab/design-voice/api-details
-  content_hash: 2808a13974ab1f9e5dd8628d3b8e6463e134df1a0d41f1ca2325485923268c01
 - url: https://developers.telnyx.com/docs/voice/voice-design-lab/design-voice/concepts/index
-  content_hash: 8e028d9cba6138e9cc67694d133838c577d4deb854a156fb82291f5cd60a541d
 - url: https://developers.telnyx.com/docs/voice/voice-design-lab/design-voice/prompting-guide
-  content_hash: d08c6b5b17591daf51fc8525f7fffa0c2db9eb40fe54f0d0ef15e2220bf48dae
 - url: https://developers.telnyx.com/docs/voice/voice-design-lab/design-voice/quickstart
-  content_hash: 9565eab9f2858c4875366abe02fd2a7e0b43deeac367a3b828808a2e3e1916ab
 - url: https://developers.telnyx.com/docs/voice/voice-design-lab/index
-  content_hash: b2d078054bfba95b4aee9ce724f9065fe358a6862c6040f1795131fc831896cd
 - url: https://developers.telnyx.com/docs/voice/voice-design-lab/using-custom-voices/index
-  content_hash: 9122e16396e0ed2238aad3df9579dda82ea73e5c4d279436aac279ab1452b37e
 updated_at: 2026-05-20T10:29:04Z
 ---
 

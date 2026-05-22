@@ -7,35 +7,20 @@ summary: 'Real-time speech-to-text over a persistent WebSocket: send binary audi
   pricing, and an end-to-end example.'
 sources:
 - url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/index
-  content_hash: 09b104a25721bd87168490feb07ae4fc9ddfd07304f76b90fbd3642920495125
 - url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/index
-  content_hash: fc286d165d2260a3fa064eeda887950dbbd0f8ad7f956b36a8545a00ca90c864
 - url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/audio-formats
-  content_hash: e0d34a29c46c6372a9356a8036cd49c34b29a8437595b5a7fccde6d8ad981856
 - url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/end-of-turn
-  content_hash: f0e5888926d16fed90a706a9f92bf9bbccb018631fff96bf57e2c057c7fd79f8
 - url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/endpointing
-  content_hash: a1f3a9060786a65476d177e467409af4772ac58717621e2ed6516afcbbfef7b2
 - url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/engines-and-models
-  content_hash: 362de89d372ea0d403ca92a7e0b81c0fa5467fc37ecffdc33d7e334373a9f229
 - url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/interim-results
-  content_hash: 2f41e386c19cbba310b0bbcae1164746c943aa7b110b77386a5fa9f0a0db3d28
 - url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/keyword-boosting
-  content_hash: f129015ff10e07db0d279486c1bb4ea5bb3838675f722a4602b00dfbce74aad6
 - url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/language
-  content_hash: b599a1715663f74d0fc9301d99cf7191bbe144fe3c10c8862f1fdb01582434da
 - url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/redaction
-  content_hash: 733da97cc355231be87e2593047db6221e4e11178a52f4c21e0854de68887075
 - url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/pricing
-  content_hash: 47996e9df70d41e1ad325e83c9168d97a744af63de2c58edee059c87323ca019
 - url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/production-patterns
-  content_hash: e163ee28e71bc85f54ec568e364ea3578a8b6226e9e1d8c16e479bdc441975ee
 - url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/responses
-  content_hash: 506aa628828daa09b9b21ba07591e34c344200416e0338bfd4b29a0008ae374a
 - url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/errors
-  content_hash: d163ced5de0e3ddcb430ba60abd04097868bf969469725ee1db40abee0641695
 - url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/examples
-  content_hash: c4973c5983c7fc8c1f3f27cd789b7ea1f523127d749ee5d1814beb2d40e72687
 updated_at: 2026-05-20T10:05:31Z
 ---
 

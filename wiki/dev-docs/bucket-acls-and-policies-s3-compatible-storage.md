@@ -5,17 +5,11 @@ summary: How to view and update Telnyx S3‑compatible bucket access controls us
   public access checks.
 sources:
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/get-bucket-acl
-  content_hash: ca56825b92b6c41c73c641eec4964cf3411a71a4198f5409b799a0d38fc14ae3
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/put-bucket-acl/index
-  content_hash: 97a1667010203728d9751b55be7ef727d5c897ad6bab3df855ad1d55298a5b87
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/get-bucket-policy
-  content_hash: 1b3ec565a514ba7e38939830177fe651a4783d8c1ec1779ce7a56a7f4face90a
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/put-bucket-policy/index
-  content_hash: 7e600abd20a26051fe87fed576f9e628b4fb27fddc0c7b498d88caa1f7fbed41
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/delete-bucket-policy
-  content_hash: c0b1b8fefce2fed46577b9ba63b3195f70605d0427695b87d58ea5f56e804a35
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/get-bucket-policy-status
-  content_hash: 3e5871c2c8ea78827c257542f4cd932c85200117750b32546e5083e37dcde36a
 updated_at: 2026-05-19T16:01:22Z
 ---
 

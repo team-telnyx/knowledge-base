@@ -7,19 +7,12 @@ summary: Synchronous file or URL transcription via POST /v2/ai/audio/transcripti
   enhancements are available when using Deepgram with model_config.
 sources:
 - url: https://developers.telnyx.com/docs/voice/stt/rest-api/index
-  content_hash: 8591508345dd65a5957d0998c38c5df22cb2f80f4be1acef528ed3637084c692
 - url: https://developers.telnyx.com/docs/voice/stt/rest-api/parameters/index
-  content_hash: b55a1bc0f9e14d4802a09489cc0c646c1d0ab78308712ca6e81bd864dbd17ccb
 - url: https://developers.telnyx.com/docs/voice/stt/rest-api/parameters/audio-formats
-  content_hash: 2d309db757a68a4eaf6eb4f34e9c8e3641734ea45ca0b4bfdcf76c07f400ec39
 - url: https://developers.telnyx.com/docs/voice/stt/rest-api/parameters/model-config
-  content_hash: b0bbc298d96c36add631747576a718456778ea3b38367070d5812280ffe6c372
 - url: https://developers.telnyx.com/docs/voice/stt/rest-api/parameters/models
-  content_hash: bcd9c9f31457ce38c4f4a6e5e65b5f77e8ec7c2fc37956c5d970c58752a7fc7f
 - url: https://developers.telnyx.com/docs/voice/stt/rest-api/parameters/response
-  content_hash: 816aea3669899ee399708ca4ee35bdc2a20454e270ee9a0cc9d6317e5724c410
 - url: https://developers.telnyx.com/docs/voice/stt/rest-api/pricing
-  content_hash: 73196a691155d1090f003d50852add60e74099b4d02f6698ed7e811d5f406fec
 updated_at: 2026-05-20T10:00:56Z
 ---
 

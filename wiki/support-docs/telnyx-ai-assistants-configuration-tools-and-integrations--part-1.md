@@ -7,19 +7,12 @@ summary: End-to-end guide to configuring Telnyx AI Assistants in Mission Control
   guidance.
 sources:
 - url: https://support.telnyx.com/en/articles/12232444-comprehensive-ai-assistants-configuration-walk-through
-  content_hash: da295b7e591d46f557f38a89261715e9dc2918558022b967d9d70a298feaff28
 - url: https://support.telnyx.com/en/articles/12538402-telnyx-vapi-integration
-  content_hash: f3f18221694b4adc3a303b47707bf341e91f450359b978632d0c670a318d269f
 - url: https://support.telnyx.com/en/articles/6837118-elevateai-proof-of-concept-setup-guide
-  content_hash: 0b38896d79229e16ace3215e19a9acce12177aec21274cc28e142eb6e4845350
 - url: https://support.telnyx.com/en/articles/9260287-key-configuration-notes-for-noise-suppression
-  content_hash: 36092e79d5aec26ca42e3005364332db254183a47eb7617e15387d08b40c6c1e
 - url: https://support.telnyx.com/en/articles/9413928-telnyx-flow
-  content_hash: 93a8336c12ddb49e50315a93376191e9a40bcbefde1b2a126930a23fd05da7c3
 - url: https://support.telnyx.com/en/collections/19623087-ai-assistant
-  content_hash: cc2a5003580a55972312e66f093b91bcaee45eda919fc9208e24d6f7cb8c7c87
 - url: https://support.telnyx.com/en/collections/9526270-telnyx-flow
-  content_hash: 0eb5a9c8ea9582c54f99e57190c78c96a20b360ac6e04acfe401906039e5392e
 updated_at: 2026-05-20T15:32:10Z
 ---
 

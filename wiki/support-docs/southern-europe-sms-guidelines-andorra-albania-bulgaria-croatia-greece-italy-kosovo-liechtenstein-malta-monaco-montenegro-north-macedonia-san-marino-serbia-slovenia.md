@@ -7,35 +7,20 @@ summary: Consolidated Telnyx SMS rules for select Southern European and Balkan d
   network-specific caveats, content guidance, and where to get registration help.
 sources:
 - url: https://support.telnyx.com/en/articles/6531722-italy-sms-guidelines
-  content_hash: e326d156b1e925abf8567ea6e7ec80de98a92446cb9ee84d9df3102f1205c8ed
 - url: https://support.telnyx.com/en/articles/6675252-malta-sms-guidelines
-  content_hash: 92c1d8476f9fd1d2a9e5f08b3b16e25e1acbca285ea188962019c45f0339aa94
 - url: https://support.telnyx.com/en/articles/6677954-monaco-sms-guidelines
-  content_hash: 591c838401fb989d61e068290ee1d80036285f7663415907cc3816ccc73bd76f
 - url: https://support.telnyx.com/en/articles/6677964-montenegro-sms-guidelines
-  content_hash: b5b636c986810d684b9bbad0961586619d03e36ba02827576e0f73078c2b0f9e
 - url: https://support.telnyx.com/en/articles/6679992-san-marino-sms-guidelines
-  content_hash: 12798ab5be2d7f2014e6419637b2ebbd0b0c6bdc26f39157fd1767ab434f39cf
 - url: https://support.telnyx.com/en/articles/6563843-croatia-sms-guidelines
-  content_hash: 3988fceeee77cf31fd51d33e49fa96f22de64f0544366f0d4b66aa969f81a3b6
 - url: https://support.telnyx.com/en/articles/6561195-slovenia-sms-guidelines
-  content_hash: c8615cd525e9732d8c2beb2ebb608533635f4594a55066e6ec9d352e7f3b4227
 - url: https://support.telnyx.com/en/articles/6563879-albania-sms-guidelines
-  content_hash: 8119863f2f9b2d4b7e958411d44a8f94a3011aa17cbcb0c859a8b4b7277d7711
 - url: https://support.telnyx.com/en/articles/6563890-andorra-sms-guidelines
-  content_hash: f112ce27f4a0a55df495f585bde14c9b34cb44708548a8f3162ab80cf231092a
 - url: https://support.telnyx.com/en/articles/6563817-greece-sms-guidelines
-  content_hash: 6230a36fd8978aca4557eb6507c69cd35043da9b04d9fca6556756d40962a4c7
 - url: https://support.telnyx.com/en/articles/6563862-bulgaria-sms-guidelines
-  content_hash: 57365fb95710144bd833c95a81261a836e92d6460e4ca890446533f88325c014
 - url: https://support.telnyx.com/en/articles/6674999-liechtenstein-sms-guidelines
-  content_hash: 8b8ac821021e76ee94ee52ebe2241bebb8b1d618c6632748600ff0459ad5bacc
 - url: https://support.telnyx.com/en/articles/6683745-serbia-sms-guidelines
-  content_hash: fd7384455cf0ac4551ab1fc4671bbf3ab5b9fe6a9be253f17b07e389b3d7f352
 - url: https://support.telnyx.com/en/articles/6674651-kosovo-sms-guidelines
-  content_hash: ef3eed5fedfcb9aa72c5a5551312db4cfe221ca620a02dafaa887054a68dc749
 - url: https://support.telnyx.com/en/articles/6675034-macedonia-north-macedonia-sms-guidelines
-  content_hash: 00c11c93b02012c021f7e2fe8f6bdead745d80e4ecc38a459501d2d517f306ac
 updated_at: 2026-05-21T08:13:05Z
 ---
 

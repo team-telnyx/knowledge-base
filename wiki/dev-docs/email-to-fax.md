@@ -6,19 +6,12 @@ summary: Learn how to build an email-to-fax and fax-to-email workflow with Telny
   faxes via API.
 sources:
 - url: https://developers.telnyx.com/docs/programmable-fax/email-to-fax
-  content_hash: 3db7f11c8b4f5ce89bf6cdd603cde34670faf6af9d1cc768d5176c3de0a06e03
 - url: https://developers.telnyx.com/docs/programmable-fax/get-started/index
-  content_hash: 070081f27cf3f6d2eea868257e980fb0db1d7138ac6b814ebc40c55ef846b093
 - url: https://developers.telnyx.com/docs/programmable-fax/quickstart
-  content_hash: a20685c738cf8a3aa024d35cc516323d665b46914ed3355ca09f4739b5c3c465
 - url: https://developers.telnyx.com/docs/programmable-fax/receive-a-fax-api
-  content_hash: b3ee1863f59f7028bce4925188880319ac98f7e1ed7ca6287e0ae07a1b19b7f1
 - url: https://developers.telnyx.com/docs/programmable-fax/receiving-webhooks
-  content_hash: cf2468ba510d6561c317106e3cc08453f97902f0408e7b38b0650111e0e0c8d4
 - url: https://developers.telnyx.com/docs/programmable-fax/send-a-fax-api
-  content_hash: e989d3e50d2f5a01987989298a152c2128b3da2ca6a6bcbd61172375a23ea58c
 - url: https://developers.telnyx.com/docs/programmable-fax/sending-commands
-  content_hash: 094fd2fb0d31bdb03bea2e5ffba282c4ade9d1817d7e92cb31dccb91f3f822ba
 updated_at: 2026-05-20T09:25:36Z
 ---
 

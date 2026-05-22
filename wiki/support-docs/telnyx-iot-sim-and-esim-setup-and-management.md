@@ -6,27 +6,16 @@ summary: End‑to‑end guide to ordering, registering, activating, and managing
   and key FAQs on pricing, coverage, and operations.
 sources:
 - url: https://support.telnyx.com/en/articles/10067533-manual-esim-activation-guide
-  content_hash: e44efe9b4e14ab4dc2d2b0d6eeab956ed546b214b48332a3612378f9526fe7a0
 - url: https://support.telnyx.com/en/articles/3269600-how-to-set-up-a-telnyx-sim-card
-  content_hash: 63aa69d19df376104cb92e83f75fe590256385b368aa95e3c0d33c016ee22ad6
 - url: https://support.telnyx.com/en/articles/3269973-adding-the-telnyx-sim-apn-to-your-device
-  content_hash: d8a344e0df2986de5692c95cee82033f6bb60cd06ae78bc9c0d28a88ab7a1de1
 - url: https://support.telnyx.com/en/articles/3270136-telnyx-global-sims-faqs
-  content_hash: 8d0c3c5dd2ce9a99c7074fccd839c5faa71961c444a55a8aa4b681a85e1b2837
 - url: https://support.telnyx.com/en/articles/4298710-sim-setup-and-configuration
-  content_hash: 144fbafd7931e641fe13eb51ea4b5721c42a69bbb75579b1bd61f0e3ee1eff88
 - url: https://support.telnyx.com/en/articles/8117401-how-to-setup-a-telnyx-esim-via-qr-code
-  content_hash: 9c3930ced4f83e2416f3b2bbde5f51b4768372e9d1fb2545959948fa811ff50a
 - url: https://support.telnyx.com/en/articles/9183726-manual-imsi-selection-on-telnyx-sim
-  content_hash: d75b0632d81dad1dd452d5601d22c5dc856b0743f9d3e6ea6d8260e158533d76
 - url: https://support.telnyx.com/en/articles/5812302-sim-card-location-and-device-details
-  content_hash: da76f81e3858877a36db16f483d82c4bfb15ec325d08b91c073c3bdfa5343164
 - url: https://support.telnyx.com/en/articles/5812328-sim-card-actions
-  content_hash: aec3e8cd9d064bfb362ea88aeb79bf972075a6bb038d2bb68f8e1a1277624186
 - url: https://support.telnyx.com/en/articles/5761437-sim-card-theft-prevention
-  content_hash: a733b19c6cb261f02907aa8478c525cb34b90ed13009ce07c74c421a2b1bb1ff
 - url: https://support.telnyx.com/en/collections/1895859-telnyx-global-iot-sims
-  content_hash: 4c3f80911e18506ecd69f4e6adee729587574f1248c30c171e666be577bc007e
 updated_at: 2026-05-20T15:26:30Z
 ---
 

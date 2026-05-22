@@ -8,29 +8,17 @@ summary: A practical, consolidated setup guide for connecting popular PBXs and S
   references.
 sources:
 - url: https://support.telnyx.com/en/articles/1130606-configuring-a-cisco-cube-cucm-ip-trunk
-  content_hash: 9f53070e318f4093db77f45d208a88ba442f8fc6b701289748e7f2d81bf11e1c
 - url: https://support.telnyx.com/en/articles/1130612-cisco-configure-a-cisco-cme-ip-trunk
-  content_hash: 3806a4300cffd35bf8a51cdb444a548f0b0ce5b53e6bb6a8aba19b5061ce78b5
 - url: https://support.telnyx.com/en/articles/1130668-configuring-a-cisco-cme-credentials-trunk
-  content_hash: 3b7dc4d18433b1b5095cfa6dc1edfdd8968a4db6d07f485ae773b71254f50084
 - url: https://support.telnyx.com/en/articles/1130673-configuring-a-cisco-cube-cucm-sip-trunk
-  content_hash: 3821a9503cf5d598ce4e3b201645f3ef0e525c14937189bd5fdc65c84b80eade
 - url: https://support.telnyx.com/en/articles/1130627-configuring-an-avaya-ip-trunk-with-telnyx
-  content_hash: c6c5e5131bc60074f16759deefae79b98a1fcb8c1a915b63451194442070e61c
 - url: https://support.telnyx.com/en/articles/1130695-configuring-telnyx-sip-trunking-with-avaya
-  content_hash: 02f5d44cb2d3f71bbbb1f41695755d43ff2c13212b3d3f6cb7612fb8776297b5
 - url: https://support.telnyx.com/en/articles/1130631-how-to-configure-a-thirdlane-pbx
-  content_hash: 78e4fae839d64dbcdb85203971bdc39e1047ee77145ff9aa9572430e63f4a7c2
 - url: https://support.telnyx.com/en/articles/1130632-configuring-a-vicidial-ip-trunk-with-telnyx
-  content_hash: 5decfe53ed448f801e5c00c5cc5c50eb60e28a09a62e721028c4fb31712a3130
 - url: https://support.telnyx.com/en/articles/1176353-vicidial-configure-vicidial-credentials
-  content_hash: acc54c5742e78fb56ceaa86e0730df7b00407e8779457f1ba9ff1ca4d910bd9b
 - url: https://support.telnyx.com/en/articles/1130636-configuring-an-ip-trunk-for-osdial
-  content_hash: dfea424979422c26a7ec8400bf9e4d2b1045dd18b440b4801c1e125d85bf92df
 - url: https://support.telnyx.com/en/articles/1130649-configuring-a-goautodial-pbx-ip-trunk
-  content_hash: a898edce72275cfa8708972b43692dc548983b36eb860545e6fe9173fcca1e84
 - url: https://support.telnyx.com/en/articles/1130694-configuring-a-goautodial-pbx-sip-trunk
-  content_hash: 7b74c86a02158305eedc73d5a2e8e828dbc5a8df0a253f6250345afd29d167a1
 updated_at: 2026-05-20T14:57:05Z
 ---
 

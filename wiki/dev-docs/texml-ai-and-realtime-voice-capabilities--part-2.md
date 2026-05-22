@@ -6,23 +6,14 @@ summary: Build natural, interactive voice experiences on Telnyx using TeXML verb
   and call transfers.
 sources:
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/aiassistant
-  content_hash: f10f4c3561eadcf6a96c01be07f43a5b9b596e83b0fa6767bde0c993b8eb999f
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/aigather
-  content_hash: 6b7d27457d6afbe022f10cd6fb869f091663913bde7c6d0a9180faab825a5898
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/conversationrelay
-  content_hash: f024265782dc4e08449f39f6d071d81f84116b0f5224b53f0182e3a7ec1cbef2
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/httprequest
-  content_hash: 0a1072716fca8dcfe298529d3e2858c151e359924f5534013eb4006a21e92ed7
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/refer
-  content_hash: 0059440d5255c9f7c0901c3e80c3ef95330a51f230d03ca13c201eab7108b64f
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/siprec
-  content_hash: 5f68ba1cb2cf7eca555762b38991cdcc70b3b0d37377f69d08769f422faedda4
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/stream
-  content_hash: e25a87117c0cd3a7af06dc3f2ddba6282786c3433ef04d696736d730db496817
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/suppression
-  content_hash: 81813db23a8a46e4bd6080e72cc3b0dccc7e924dc0efeff9f7f069e9ee30fc20
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/transcription
-  content_hash: c37b3aecde59854f5ef3d8d07b58fa9101de6c0ec75288622ee56a386707d27a
 updated_at: 2026-05-20T09:39:10Z
 ---
 

@@ -7,27 +7,16 @@ summary: A consolidated quick-start for configuring popular IP phones, specialty
   plus Yeastar trunk/routing, star codes, dial plans, and troubleshooting tips.
 sources:
 - url: https://support.telnyx.com/en/articles/3074710-yealink-setup-with-telnyx
-  content_hash: 6bd3fdf01af5c0046a02e18c34928eb87a6f1c6fcdc673d892590473d3c714e4
 - url: https://support.telnyx.com/en/articles/5748952-yeastar-s-series-telnyx-sip
-  content_hash: 8097dcf7d76d24b4e3bf670d895e79bc0edeccbf1a3df48b37a1097face8609f
 - url: https://support.telnyx.com/en/articles/5619617-polycom-setup-with-telnyx
-  content_hash: 4dde609c89f8f3fdf539c01bff8eb27664df5b8d4126f2a68809193d78aa221b
 - url: https://support.telnyx.com/en/articles/5820309-cisco-68xx-88xx-setup
-  content_hash: dfc83f4e304b931dbd33cf46203d0a52773c2131f424602ed1c72d36b6b6f086
 - url: https://support.telnyx.com/en/articles/5724344-cisco-linksys-star-codes
-  content_hash: 87d95bc34c050b8c414c2f78ebd45004e206a11c029b45e0c05e48a2a6cec4dd
 - url: https://support.telnyx.com/en/articles/5721953-linksys-dialplan-for-linksys-atas
-  content_hash: c9efcba2bda6a2dd8c951e38d195432299e5b93c48012ad988a913c3aefa4ac6
 - url: https://support.telnyx.com/en/articles/5819923-audiocodes-400hd
-  content_hash: 180199af0742da6a8339523d153a2e1d3671c9da1fafa474a71f2043cc250e8d
 - url: https://support.telnyx.com/en/articles/5790092-algo-8xxx-telnyx-endpoints
-  content_hash: 50d113609f9c0b38057ba419e2c9268248ad9b347a77526b43d9b41cccb5c76e
 - url: https://support.telnyx.com/en/articles/6281943-alcatel-sd601-sd602-sip-door
-  content_hash: 0eb872a1ec009e112693bb3bcffaee93ed382ce678d3c9e429600f86076d7857
 - url: https://support.telnyx.com/en/articles/5808185-buddytalk-bt110-bt120
-  content_hash: 6ebce0de39763da5552ae522fbc45a47c3a704ab762deb790e08f14536065b9e
 - url: https://support.telnyx.com/en/articles/5811761-positron-ip-phone
-  content_hash: 264194ffab910315173f2b03e9acaeb61bb7e93f315e166d1e0b5e7dd92c6549
 updated_at: 2026-05-20T15:12:59Z
 ---
 

@@ -7,25 +7,15 @@ summary: A consolidated guide to register and secure popular SIP desk and confer
   VCS754.
 sources:
 - url: https://support.telnyx.com/en/articles/5815678-snom-c520-telnyx-setup
-  content_hash: 75646789e7e67e4f7651f4605f8a17e73e1e0900c476afeb6c54d617cabb0a81
 - url: https://support.telnyx.com/en/articles/5822706-snom-d7xx-telnyx-setup
-  content_hash: 60621609e8e76ff10958b51baeca7977dee94a7dcb128d851c2c28997433b769
 - url: https://support.telnyx.com/en/articles/5822823-snom-m100-kle-telnyx-setup
-  content_hash: 4ddfcb00aaa75db844aa4d929b20063e4e533db128fab1f2dfd32e45730e52d0
 - url: https://support.telnyx.com/en/articles/6244551-mitel-5320e-5330e-5340e-sip
-  content_hash: 34d9f2aa29af158b48afb3106a695794bae839a0f108802fa1a744be5d498eff
 - url: https://support.telnyx.com/en/articles/6249691-mitel-6800-6900-sip
-  content_hash: dc8bed8636a3a31bb30b16f23eb273a5b64ad82977918eb6a901159f098333ed
 - url: https://support.telnyx.com/en/articles/5807663-panasonic-kx-tgp-550
-  content_hash: 1d878fa381b0d731ad7ccc2cdd136a855809ca306a898b9067c3a24e7f93a519
 - url: https://support.telnyx.com/en/articles/5814406-panasonic-kx-hdv-telnyx-setup
-  content_hash: c9f60161e3540f8faa9c127a80759f73f5f5910f46d7d0d8072010a3b83fea07
 - url: https://support.telnyx.com/en/articles/5807979-konftel-300wx-telnyx-setup
-  content_hash: ee9ad29b8d22624f13d9b9f8f41b4844ed0e1939a28a580f423d301e8a491a19
 - url: https://support.telnyx.com/en/articles/5822579-konftel-300ipx-telnyx-setup
-  content_hash: 61466601dc8f68a93d4785ff0a614d1575b14d2f50618f3cadc5829963f00e98
 - url: https://support.telnyx.com/en/articles/5822901-vtech-vcs754-telnyx-setup
-  content_hash: 2384f691b0153d466bf5fe66241fe7da746474b6e29792b94df3c2544860127a
 updated_at: 2026-05-20T15:11:01Z
 ---
 

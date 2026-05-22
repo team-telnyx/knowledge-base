@@ -6,29 +6,17 @@ summary: A consolidated reference for sending A2P SMS to select European destina
   deadlines in Ireland (2025) and Spain (2026).
 sources:
 - url: https://support.telnyx.com/en/articles/6531704-united-kingdom-sms-guidelines
-  content_hash: 1ae8c508095bca96547c4c528a573bd54c5455fb201f570abfc541856891a8d6
 - url: https://support.telnyx.com/en/articles/6545161-ireland-sms-guidelines
-  content_hash: e732fcf16b3a754f0ba462c75150648e807ab0d73505f04f61a537d4064ed9a6
 - url: https://support.telnyx.com/en/articles/6545130-portugal-sms-guidelines
-  content_hash: a71120ffdf120b6ea67af795a50318d44cb75013ce5309dbe5465b425e11ec66
 - url: https://support.telnyx.com/en/articles/6545140-spain-sms-guidelines
-  content_hash: 86db8581aa957d5625b33b9edead716bd4a7637bca256759518e1d27f11efabc
 - url: https://support.telnyx.com/en/articles/6531603-france-sms-guidelines
-  content_hash: c3606b16b184af3b2257d39faa1a6423b08ae48bce86a74b6525801e93ba825b
 - url: https://support.telnyx.com/en/articles/6531675-belgium-sms-guidelines
-  content_hash: b03b28d6431bd76de198b75bf19307673b98dc66834d14995848cfe25040877b
 - url: https://support.telnyx.com/en/articles/6531581-the-netherlands-sms-guidelines
-  content_hash: 0855d30d56865bcc78a4448c0db2e9dcdb5d1e953352abad43dbf22deb482759
 - url: https://support.telnyx.com/en/articles/6564006-luxembourg-sms-guidelines
-  content_hash: 929b00ff5d568cd32b9ef542114cda1057d0e04a5d9260c0cf90dd5a776ce2c4
 - url: https://support.telnyx.com/en/articles/6670878-gibraltar-sms-guidelines
-  content_hash: 1dccf2ff402cc7a1ce7a2d230122340ece542d2566edc3520f9951d7ff71969d
 - url: https://support.telnyx.com/en/articles/6670869-germany-sms-guidelines
-  content_hash: c9e0221deaf30a8c9333b93259f0e84d17819479ad3c76ee7c325f382f4fe025
 - url: https://support.telnyx.com/en/articles/6561154-switzerland-sms-guidelines
-  content_hash: e006933094b9559e6bfd72ddabe3e8d494da75404dc6aa860a8112f599d5a06b
 - url: https://support.telnyx.com/en/articles/6560660-austria-sms-guidelines
-  content_hash: 2879c3433705f97c5aa18f1278bddb8ddf683c1ae5ba4f209979e3f5c48e5813
 updated_at: 2026-05-21T08:11:43Z
 ---
 

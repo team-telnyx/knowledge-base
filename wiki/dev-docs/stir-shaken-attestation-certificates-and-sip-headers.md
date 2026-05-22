@@ -6,11 +6,8 @@ summary: How Telnyx assigns STIR/SHAKEN attestation on outbound calls, selects s
   on inbound/on‑net calls.
 sources:
 - url: https://developers.telnyx.com/docs/voice/stir-shaken/attestation-behavior/index
-  content_hash: 0104faef2e689b2cd173ab3fde293654fcecb5018e7e0fc50277d0945072ab3f
 - url: https://developers.telnyx.com/docs/voice/stir-shaken/hosted-cert
-  content_hash: 47bace494db47ed79f56d9d140d55a81253b8114549c8918b952cf0c6d6b251b
 - url: https://developers.telnyx.com/docs/voice/stir-shaken/sip-header-parameters
-  content_hash: 5f5ccc790379d334ff80bf1e75477f4bffe6122d4cde1157602c74d3d58e73b4
 updated_at: 2026-05-20T09:51:21Z
 ---
 

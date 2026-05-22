@@ -7,19 +7,12 @@ summary: This page consolidates Telnyx SMS requirements for select East Asian de
   Acceptable Use Policy and local regulations.
 sources:
 - url: https://support.telnyx.com/en/articles/6601144-china-sms-guidelines
-  content_hash: 21c03844e539e93b692d67d93149bf1f13a67c38a2f03a9476a90e7f70903ee6
 - url: https://support.telnyx.com/en/articles/6674367-hong-kong-sms-guidelines
-  content_hash: 5e2267997a3741215d2acd4fcbcf7edf75173afe29cd8046f797df0e614abc94
 - url: https://support.telnyx.com/en/articles/6674476-japan-sms-guidelines
-  content_hash: 631768dffb2b184952813ac9195e9d9d81db736e59a8030c5919d9d665bed92d
 - url: https://support.telnyx.com/en/articles/6675024-macao-sms-guidelines
-  content_hash: 98c6f2ce8cd708e9219c88db0538f4dfeb91ad78dd23013a43d0fe16c7f643c2
 - url: https://support.telnyx.com/en/articles/6677958-mongolia-sms-guidelines
-  content_hash: fc07a16ad456958c3a4eeb40b9946c8e03193c8cd07e2b71c86458a6df01bf08
 - url: https://support.telnyx.com/en/articles/6683277-taiwan-sms-guidelines
-  content_hash: a7c097439fec21529412b170bc51c8e8879bae87830e14e752bb059c60da5edb
 - url: https://support.telnyx.com/en/articles/6683734-korea-sms-guidelines
-  content_hash: 941ef643e806d43bfbdec63394b3f8baea67729514b3505bb9dd15653cbd28f2
 updated_at: 2026-05-21T08:29:07Z
 ---
 

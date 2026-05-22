@@ -7,31 +7,18 @@ summary: All US A2P messaging sent from local 10-digit long code (10DLC) numbers
   tips.
 sources:
 - url: https://support.telnyx.com/en/articles/10509796-10dlc-registration-deadline-february-3
-  content_hash: 56c3dcab871bcdc0ab6232b281a94221e5d6b99ecaaeafb5f08d32fb2a702826
 - url: https://support.telnyx.com/en/articles/10646301-telnyx-10dlc-process
-  content_hash: 07f91a97a3331277fd2fe0d2ef7e37178432594c87aa13969aef8b5e27450bbd
 - url: https://support.telnyx.com/en/articles/10684248-10dlc-use-cases
-  content_hash: 1642b9aa15da6996121686960f14303b8ae52ce210e2da3f8d83db58714cc412
 - url: https://support.telnyx.com/en/articles/10684260-10dlc-opt-in-form
-  content_hash: ebc18383ec12a57fd90c1686f156d82b3328c7505c53046fdb7999ae82dce2a2
 - url: https://support.telnyx.com/en/articles/10645338-10dlc-keywords-and-confirmation-messages
-  content_hash: 517aa55bed935632cdb945d6eef7257cf50aa3e98ea893be02332ddfbddd55c8
 - url: https://support.telnyx.com/en/articles/10645583-10dlc-privacy-policy
-  content_hash: d42dcbd08bb330e0aa10504286cf75d33dcd7460d03daf8b7b267d00291933e2
 - url: https://support.telnyx.com/en/articles/5896911-how-to-create-a-10dlc-brand
-  content_hash: f9c5a17c24934515d5664d936d5250072b6dae72debcdf562669a656085595c1
 - url: https://support.telnyx.com/en/articles/6325731-register-for-10dlc-messaging
-  content_hash: 41b3d9d42f3f05bda073e7efad630e56fbd411ae28934d528f44894c226aa9db
 - url: https://support.telnyx.com/en/articles/6325734-how-to-assign-a-number-to-a-campaign
-  content_hash: 36328b4581d3a63fcbf63cdd83163f2e1a7f5b3b8acc378c785c301d4f07eb07
 - url: https://support.telnyx.com/en/articles/6339152-how-to-create-a-10dlc-campaign
-  content_hash: 1f109a5292115327d38a9154cb49bf4fb36572998a878799e4bb014c82528cdb
 - url: https://support.telnyx.com/en/articles/6339158-bring-campaigns-to-telnyx
-  content_hash: 2ec6095b46f56710ce82d658bb58389efc5083ba146c4bd25d2751da4a6e313f
 - url: https://support.telnyx.com/en/articles/13545282-guide-to-sole-proprietor-10dlc-brand-and-campaign-registration
-  content_hash: e3c89476e3ab511fbbca21c3432b0dc2bd5e8992985711bb44d3a98cd6bdf2f3
 - url: https://support.telnyx.com/en/articles/11788086-10dlc-authentication-for-publicly-traded-brands
-  content_hash: 3b46b15924c5883df3214410e67c0f02bb14ecb0ee3cd1769996715b6c891e90
 updated_at: 2026-05-20T14:06:51Z
 ---
 

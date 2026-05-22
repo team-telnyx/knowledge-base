@@ -5,21 +5,13 @@ summary: 'End‑to‑end guide to Telnyx billing: funding your account, invoices
   Operator Connect and Zoom Phone, and Managed Accounts options for multi-tenant administration.'
 sources:
 - url: https://support.telnyx.com/en/articles/1130678-channel-billing-and-how-to-use-it
-  content_hash: 173e1a524e7c92d0bbd0715b21082800fd0ab963890e718bc0629a3826c89329
 - url: https://support.telnyx.com/en/articles/4280500-billing-setup-billing-groups
-  content_hash: 7085f752419d5075233a33ae3d67a372107ef2024a204baeac5460248b957b5b
 - url: https://support.telnyx.com/en/articles/6987563-invoice-overview
-  content_hash: cea331a7449170378dd8a96b48f83a818539757b262a395e3deb03b9b05f5542
 - url: https://support.telnyx.com/en/articles/7045419-ach-direct-debit-payment-method
-  content_hash: c457c1a29435566cc4843d4501b1f091436d8e826a54cb5ff16af88c38a8f2f5
 - url: https://support.telnyx.com/en/articles/8340760-bundles-bundle-pricing
-  content_hash: d0b82b2eff93f96c95ae39af8fdee467ebe28378ed17d0e3b346fbafbe9a4430
 - url: https://support.telnyx.com/en/articles/8379618-bitcoin-payment-method
-  content_hash: 378d53ebfb9bb214021eafab01e18c578aa10868d36b6218877cd6562bc21468
 - url: https://support.telnyx.com/en/articles/8428806-channel-billing
-  content_hash: accbc5287d6c9785a7314dc031d6a1cb79e7f8d721714a21a934b85a8739adaf
 - url: https://support.telnyx.com/en/articles/4951492-managed-accounts
-  content_hash: 32d5fdbafda931eefd19002e3d21b30e462387f288fa295f5e6c6a213593bb4b
 updated_at: 2026-05-20T14:52:16Z
 ---
 

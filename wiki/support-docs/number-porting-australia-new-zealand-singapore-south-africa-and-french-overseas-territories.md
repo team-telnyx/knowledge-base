@@ -7,25 +7,15 @@ summary: Consolidated requirements, timelines, documents, and key process notes 
   Réunion, Saint Barthélemy & Saint Martin).
 sources:
 - url: https://support.telnyx.com/en/articles/3266212-australia-number-porting
-  content_hash: 55ba641bc203372eeee61b9f14616be615840559e9f7b716afd4c675dc4c42f9
 - url: https://support.telnyx.com/en/articles/3267206-new-zealand-number-porting
-  content_hash: f4bf644c443f7da6ddb12832508e47aae9c5badf880c76da05312965a096e283
 - url: https://support.telnyx.com/en/articles/4400326-south-africa-number-porting
-  content_hash: b925a2ab6991ca4fc58538562d16cf96ff99be4938c29dfb74d435268eabab3f
 - url: https://support.telnyx.com/en/articles/7235002-singapore-number-porting
-  content_hash: d4feb90e9ff61831a3d632f774122ebfbf26e3cc955c68d49739088a3bc20ed2
 - url: https://support.telnyx.com/en/articles/5954701-guadeloupe-number-porting
-  content_hash: 83ccd7ff7aa89556c4537484b248b102893ca312a544bbc9f1dc1d9e67b54e19
 - url: https://support.telnyx.com/en/articles/5954733-martinique-number-porting
-  content_hash: 44ed0d678d6c11a66fcc0eeec4e0e4ca757894b42d6467afca86a534872d174e
 - url: https://support.telnyx.com/en/articles/13194814-french-guiana-number-porting
-  content_hash: ad1a3e3ca988eae2a645c160e8be6536cca8e8b708a8cdc304794fe67ecc4c5c
 - url: https://support.telnyx.com/en/articles/13194884-mayotte-number-porting
-  content_hash: ddfcad14a4b4e2282dfcff11049d86e6e695257c3fa6556fa0f126fa25014bec
 - url: https://support.telnyx.com/en/articles/13194922-reunion-number-porting
-  content_hash: 75619dd097b774ecc2bf42177324774abc4f49c7bf4ef048e82db17934e5875f
 - url: https://support.telnyx.com/en/articles/13194951-saint-barth-and-saint-martin-number-porting
-  content_hash: 2ae39411dc4c7c2d031334a81d9bf533a5076628e27f726f49b991688e998bc8
 updated_at: 2026-05-20T15:54:45Z
 ---
 

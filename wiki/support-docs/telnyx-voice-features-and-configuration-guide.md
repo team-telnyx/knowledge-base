@@ -6,21 +6,13 @@ summary: 'A concise, practical guide to key Telnyx voice capabilities and setup:
   applications.'
 sources:
 - url: https://support.telnyx.com/en/articles/1130710-what-is-dtmf-and-how-to-configure-it-on-telnyx
-  content_hash: eca05760ac52d8939755113da7cac2cb309d80dd4d2a63799b7946e8bce56a88
 - url: https://support.telnyx.com/en/articles/1130677-does-telnyx-support-conference-calls
-  content_hash: 48ed94a538de2afcbf2edd6c99979d2bd18e84f6e857546d4de93687d98bd561
 - url: https://support.telnyx.com/en/articles/1130703-can-i-call-toll-free-with-my-telnyx-number
-  content_hash: 87a3ef8934a4ea295cfbee20770cfba6e6fbd4cba3b7303f292cf958b925a3e8
 - url: https://support.telnyx.com/en/articles/13117410-how-external-call-transfers-work
-  content_hash: e58bb49536560bf0e727e6e9ea7478dfb4ce5578f29b5fb421d269fa39274aef
 - url: https://support.telnyx.com/en/articles/4374050-configuring-call-control-texml-applications-voice-api
-  content_hash: 7fb265531404f200ca6089ea7f6aa3dbcfbac7016ef1d65241ea23dad88bbe80
 - url: https://support.telnyx.com/en/articles/8037040-inbound-call-screening
-  content_hash: bb88f080367abb94e438da1c2c95948b2d5cd8f82ada4e1bb61a04b837aa5803
 - url: https://support.telnyx.com/en/articles/12580667-configure-repeat-call-guard-on-outbound-voice-profiles-beta
-  content_hash: 5d6f46157248ab1f327f97d5be84ed00858bc94461190530a3a0b8f663ad21a8
 - url: https://support.telnyx.com/en/collections/133140-voice-api-essentials
-  content_hash: ceed70d8d1185bedf8a5d4bf2518f0deadb9132aea3c87943cf02d2900e85d78
 updated_at: 2026-05-20T14:31:30Z
 ---
 

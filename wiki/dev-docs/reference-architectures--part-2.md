@@ -7,17 +7,11 @@ summary: Reference architectures show how to combine Telnyx Edge Compute product
   for deploying popular web frameworks with minimal changes.
 sources:
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/index
-  content_hash: 7d7e65f9f9897d0f761c5dd5478fd6bf8118d3a2a13adfd6785108c43d89a51b
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks-support
-  content_hash: 4bfb8d2f48a2bf25dc1cdf6c7ff3877f462bce399fa6cb6714fb6a01a799d61a
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/global-api-gateway
-  content_hash: feb19f82c850c67839e62558955e8d490b00a9691878b900622e4a3de116ac15
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/iot-data-ingestion
-  content_hash: e5a589bf41837d330bcd37a282528d74f0862208f56b05669a4f533667a68c65
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/real-time-media-pipeline
-  content_hash: 64d024d16fda5f13581ce2e2d9cd85d7fd69a1e02b775f56b9b99b347466b5f9
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/telecom-event-processor
-  content_hash: e2fca500731fca2b0229eed00d88f3455bdb35dbcdb780dcd923bdec983840f4
 updated_at: 2026-05-20T08:18:53Z
 ---
 

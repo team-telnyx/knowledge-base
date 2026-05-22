@@ -5,23 +5,14 @@ summary: This guide unifies Telnyx’s FreePBX setup instructions across version
   trunks, plus routing, codecs, and key portal prerequisites.
 sources:
 - url: https://support.telnyx.com/en/articles/1130620-freepbx-trunk-settings-with-telnyx
-  content_hash: 6d02b40af420e0265a85706b341cbf4c256ea2bbfbdd6e77f86854c1527b625b
 - url: https://support.telnyx.com/en/articles/1130648-configuring-a-freepbx-v13-credentials-trunk
-  content_hash: 6f5fd360c6bba3e64d164e9800b9bbec7e9cadfca74c4d020159e692673ef6cc
 - url: https://support.telnyx.com/en/articles/1277754-freepbx-v13-pjsip-credentials
-  content_hash: a9e4fb34039dd08cf312052ab97e06ff5ba9e5054f20862e87d038a36840c03f
 - url: https://support.telnyx.com/en/articles/3284736-freepbx-v14-ip-trunk-chansip
-  content_hash: 2b227aefff2337650a3a436567dc2cdcc17b286e90ee9829b6c14303cdf720cc
 - url: https://support.telnyx.com/en/articles/3284752-freepbx-v14-credentials-chansip
-  content_hash: 67b824fff5335c3074d92b978e672b94f41388b82dc885723377461d9014c140
 - url: https://support.telnyx.com/en/articles/5464056-setting-up-freepbx-v15-with-telnyx-api
-  content_hash: 97de5e0879f887b6a22f314aff94b594af9dec79085fe85d88cd9ba5f2e4d25d
 - url: https://support.telnyx.com/en/articles/5467232-freepbx-v15-ip-trunk-chansip-tutorial
-  content_hash: 414aa6158263bd7c5f844fb2da63a071d4b5afa69476578c1b0db5679aa23751
 - url: https://support.telnyx.com/en/articles/5619595-freepbx-v15-ip-trunk-pjsip
-  content_hash: f2c03f447b72aeb18542cc4b9357bd6fffc0e45ad08d7873529c4d6bf0471020
 - url: https://support.telnyx.com/en/articles/5619597-freepbx-v15-credentials-pjsip
-  content_hash: a29b232c055a8dc44a2598cdb0e3a5c326f76dfc14491084d8c9ff4c9549980d
 updated_at: 2026-05-20T14:53:53Z
 ---
 

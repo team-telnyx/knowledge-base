@@ -5,21 +5,13 @@ summary: A practical guide to avoiding 10DLC campaign declines, documenting comp
   suspended campaigns on Telnyx.
 sources:
 - url: https://support.telnyx.com/en/articles/10547022-10dlc-carrier-error-codes-explanations
-  content_hash: 9b6044d0b967707a06966ae9c750424519d3d24b6d0118951e910d3ae8f1afb7
 - url: https://support.telnyx.com/en/articles/10562019-guide-to-10dlc-message-flow-field
-  content_hash: 52724a201fd5374074a0eb90e9410468b85a7658feedbe8a9d47840d78861363
 - url: https://support.telnyx.com/en/articles/10715016-10dlc-inaccurate-or-inconsistency-error
-  content_hash: c58866e0f474718c88333b11758004e24d0a2a29cbe655c05b629857b4914695
 - url: https://support.telnyx.com/en/articles/10715184-10dlc-unverified-brand
-  content_hash: f648f47c5ea3437cf3f55620791c2f4363f1563426f0ddb8249ba348f03ef69a
 - url: https://support.telnyx.com/en/articles/10723378-10dlc-campaign-suspended
-  content_hash: 37dc405587bd56e3e374454fbad57992200523b656a9c987ad3e34d2ee3999d9
 - url: https://support.telnyx.com/en/articles/10744086-10dlc-error-806
-  content_hash: df854549a7915277c5db4ee826ccd16ccb0ccdd7353f26fa06513efe8a2fc298
 - url: https://support.telnyx.com/en/articles/11072276-10dlc-number-assignment-status
-  content_hash: 7be63f684b68b93446849d31a371a99d5e89179c5f4b75c8fe2e97f6119da1e2
 - url: https://support.telnyx.com/en/articles/8269151-assigning-did-to-a-10dlc-campaign-fails
-  content_hash: 5695a125b887d6ce58992c100db1af80399f925aa5b3dbf4f323ff550d0dc73a
 updated_at: 2026-05-20T14:08:45Z
 ---
 

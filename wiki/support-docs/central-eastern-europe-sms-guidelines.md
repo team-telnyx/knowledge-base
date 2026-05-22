@@ -6,29 +6,17 @@ summary: Consolidated Telnyx SMS delivery rules for Bosnia and Herzegovina, Bela
   operator overwrites, content restrictions, and special procedures.
 sources:
 - url: https://support.telnyx.com/en/articles/6561206-hungary-sms-guidelines
-  content_hash: 159f30c2dfad393eb96a2ac83591d05c3c7c1e33051f9f28b6d7b673c4fb50d1
 - url: https://support.telnyx.com/en/articles/6561237-czech-republic-czechia-sms-guidelines
-  content_hash: cb1b4a016d99f271dc25b8478a9b48c87773706825928d3460df262d84167fcf
 - url: https://support.telnyx.com/en/articles/6561262-romania-sms-guidelines
-  content_hash: a5c652507fa644d0e3916abfe1a3059ea42d6ee6ca5c90353ae0bde4757f7862
 - url: https://support.telnyx.com/en/articles/6680109-slovakia-sms-guidelines
-  content_hash: a98d9439134eaaa15b9fd1dff0c8921ae0d74e27fe89bf3ae0e3a4d244391797
 - url: https://support.telnyx.com/en/articles/6545167-poland-sms-guidelines
-  content_hash: a62cb1d03e40292439d3b86f6166cd65bc5c39fb0997b4acbf82fb6ef9eb51cb
 - url: https://support.telnyx.com/en/articles/6563904-ukraine-sms-guidelines
-  content_hash: fa0daad1fc649cf35dedf4b4e0f3b8ef926e3c59a9f46dcbde8fd55bbffebf43
 - url: https://support.telnyx.com/en/articles/6564053-moldova-sms-guidelines
-  content_hash: 090cbe9e8fff632b39ab198fee215d0d5349630106e1bdd1576b2dd018679d33
 - url: https://support.telnyx.com/en/articles/6596227-belarus-sms-guidelines
-  content_hash: 5bf7e2bd7c2a13c489642c40c98b41ba7101b90b5c2099f5ceced8a26e33bcd6
 - url: https://support.telnyx.com/en/articles/6683563-russian-federation-sms-guidelines
-  content_hash: 8034070eed053f6fbb950fd4f315f97df1ddb87538fdebb05f7aaf22414f5340
 - url: https://support.telnyx.com/en/articles/6596434-bosnia-and-herzegovina-sms-guidelines
-  content_hash: 5b07b15d990fb88a1cda754863a3caf1564d390962310be6411b59fc93bf7e4c
 - url: https://support.telnyx.com/en/articles/6665171-cyprus-sms-guidelines
-  content_hash: a68a4fcf5e36914bc22af0096c286da76c3bbb61ae119235c1bf89623f6825e3
 - url: https://support.telnyx.com/en/articles/6564056-turkey-sms-guidelines
-  content_hash: b0387149bc4e8e3f8e9032e3336fc46b5e0e95badbe3f55d71a9afd3b2226e9a
 updated_at: 2026-05-21T08:15:31Z
 ---
 

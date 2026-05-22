@@ -7,17 +7,11 @@ summary: 'A practical guide to setting up Telnyx SIP trunking: how SIP Connectio
   registration to your PBX.'
 sources:
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/get-started/index
-  content_hash: f4fedec981858f3636d6b8d0530d253de4c1d3235d1cb1be37356df98e80dc5d
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/authentication/credential-types/index
-  content_hash: 25f86281a3ebea807cec851893cf7030defb54f199eab13e5102535bb29b60d8
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/authentication/ip-authentication-token
-  content_hash: ed68d98852df597e3462bc4811ff65be7c2fff7af6c410e443b8023ab67f43db
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/authentication/tech-prefix
-  content_hash: 44d59a75228319bf69146e4d7c46c3c99124f99feb785fa484c61781ed476119
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/network-configuration/ip-whitelisting/index
-  content_hash: 57744e24d234bee6340a665ed812d3c4b67b357c9e55876023cf76dd9ded57ec
 - url: https://developers.telnyx.com/docs/voice/uac-connections/index
-  content_hash: 50f2704b77755ca0010c603c2122437c6786a27c53e89713fa7df0e3f2eb9835
 updated_at: 2026-05-20T09:44:49Z
 ---
 

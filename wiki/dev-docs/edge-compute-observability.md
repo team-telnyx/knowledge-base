@@ -5,15 +5,10 @@ summary: Observability for Telnyx Edge Compute (logs, metrics, tracing) is in de
   today using proven patterns, platform limits, and the telnyx-edge CLI.
 sources:
 - url: https://developers.telnyx.com/docs/edge-compute/observability/index
-  content_hash: 96450a189e21faa161b6a3038ef66bfd4d31aa3e86775c779b61f8260aa9ae25
 - url: https://developers.telnyx.com/docs/edge-compute/reference/cli
-  content_hash: e873ef66291cef81c90ae201f01a1f1df59ff36e5b2556732ca352f31e105d4d
 - url: https://developers.telnyx.com/docs/edge-compute/reference/limits
-  content_hash: cd284e96860e8033eb5d51287ed91e8b1875756e7fe6751aac1199db8cf8b42d
 - url: https://developers.telnyx.com/docs/edge-compute/best-practices
-  content_hash: e66fed94f8f5ca89df7d21b32073bdc8213bf286d3c91404c7b6d60d29cb0d62
 - url: https://developers.telnyx.com/docs/edge-compute/network/index
-  content_hash: 6cb6dc9923a84ff85600c722a2659ccf843c4629973c777d97863266be5900aa
 updated_at: 2026-05-20T08:18:09Z
 ---
 

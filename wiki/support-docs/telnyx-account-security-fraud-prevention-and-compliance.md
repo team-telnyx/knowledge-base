@@ -5,25 +5,15 @@ summary: A practical guide to securing your Telnyx account, preventing fraud and
   SOC reporting, and HIPAA considerations.
 sources:
 - url: https://support.telnyx.com/en/articles/3610162-prevent-telnyx-account-fraud
-  content_hash: d70b36c32a3e6053377e625366ef8d1fd721368350ce2ddee1f3ebebab83ca80
 - url: https://support.telnyx.com/en/articles/4557103-telnyx-privacy-policy
-  content_hash: 84d9ec635a32d61a027ce6aa216b3046e6aced8056e477a5fab024a08955e531
 - url: https://support.telnyx.com/en/articles/7020727-account-compromise-what-to-do
-  content_hash: 0817d08376937539ca56eb8369c672d0c4513168617d95a0833cec36d5f29f7c
 - url: https://support.telnyx.com/en/articles/7984661-how-to-reset-your-password
-  content_hash: e3fe5526133e8f969b8a936500160b3e3d14e5042ce29d58b0bf69536b2fecfd
 - url: https://support.telnyx.com/en/articles/7984783-certificate-error-api-telnyx-com
-  content_hash: 5f83401681efaebe1b22c931276af1ca6c2146041dafbe048556f0e36cba6a5f
 - url: https://support.telnyx.com/en/articles/7915224-blocked-account-guidelines
-  content_hash: a119aef06a5b48a5cdbfa78da4cb8b1596b1695d8a61a19b806f682771d6ee1f
 - url: https://support.telnyx.com/en/articles/8648864-what-happens-with-my-numbers-after-my-account-gets-abolished-for-negative-balance
-  content_hash: 2cba98c3e9f5ffb9f569ab07dfe6261444e5bd6ef2e30a6696002850e1e7b3e1
 - url: https://support.telnyx.com/en/articles/12397834-understanding-telnyx-soc-compliance-and-certifications
-  content_hash: ce1a46fb6cdc61500b014fa36be4fef9ff54799cac1ab1f79895c3d313f1dd63
 - url: https://support.telnyx.com/en/articles/1130713-what-is-my-sip-account-connection-password
-  content_hash: 20e91da4d190b9c44beded3dd5ee2d9bd26ce23101b60fa7a8ad7fcbafadf56f
 - url: https://support.telnyx.com/en/articles/3347891-hipaa-baas-and-the-conduit-exception
-  content_hash: 5b3f170c278b3a458c0eabfa2e2649d04a3fc7a071b70c61ab65bf4412371414
 updated_at: 2026-05-20T14:44:49Z
 ---
 

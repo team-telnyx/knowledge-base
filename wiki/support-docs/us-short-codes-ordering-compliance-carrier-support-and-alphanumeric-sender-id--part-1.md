@@ -7,21 +7,13 @@ summary: End-to-end guide to ordering and migrating US short codes with Telnyx, 
   how Alphanumeric Sender ID works outside the US/Canada.
 sources:
 - url: https://support.telnyx.com/en/articles/10245573-us-short-code-ordering-process
-  content_hash: 9d57003059a9460ba3ad630ef4e0cda754216dfce3f6c755d1e1628125862564
 - url: https://support.telnyx.com/en/articles/10245615-short-code-brand-and-content-provider-registration-process
-  content_hash: 18cb804b0fc52e6e871630daa35d6bbd8a8a7ebe1637d96a817c20058c94ce82
 - url: https://support.telnyx.com/en/articles/11385511-short-code-compliance-quick-reference-guide
-  content_hash: ff40150b81fc5b308b3ffbaa9121f5c2515b5342592c413d828e48585074f1ec
 - url: https://support.telnyx.com/en/articles/4967485-short-code-supported-carriers
-  content_hash: c374a6fca94acf8b3bfe9fbca8d9672b52335b3e9d52e552147d334d688cc5b4
 - url: https://support.telnyx.com/en/articles/9311492-standards-for-us-short-code-keywords-help-stop-and-opt-in-confirmation
-  content_hash: 489d2501cf9bb0fd262d8c86074600bc5ad0da6e389742c399d7e817089208b9
 - url: https://support.telnyx.com/en/articles/9311566-regulatory-guidelines-for-us-short-code-marketing-and-opt-in-procedures
-  content_hash: 9461c8b1a99dbd52556be90b0382712a878204cb61ef93de2b8333eee4ed3756
 - url: https://support.telnyx.com/en/articles/6354449-alphanumeric-sender-id
-  content_hash: 24ff12df9780640cc62c5ed6af29ca0b1f1c08b333db38ceba6ed24c8abaac34
 - url: https://support.telnyx.com/en/articles/4371498-sending-alphanumeric-sms-sender-id
-  content_hash: 32639b43347e9115d075aca59d4bfd3c213dc79a7ab04fa699e6b563b450acf8
 updated_at: 2026-05-20T14:19:13Z
 ---
 

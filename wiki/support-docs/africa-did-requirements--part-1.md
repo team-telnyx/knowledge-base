@@ -5,31 +5,18 @@ summary: A consolidated guide to the identity, address, and letter-of-intent (LO
   any business-use restrictions and address constraints by number type.
 sources:
 - url: https://support.telnyx.com/en/articles/10058901-zambia-did-requirements
-  content_hash: 60afc1829b57e5dd593fe1b696d88bc981734588541f1cfceb0f303c0b691b7c
 - url: https://support.telnyx.com/en/articles/11843417-mozambique-did-requirements
-  content_hash: e72b3644a6ee88233d2397b907a1a1c5ba3181f4ebc58ffafd66baca50627a68
 - url: https://support.telnyx.com/en/articles/5466525-ghana-did-requirements
-  content_hash: 29002c41db1d69bab4db9b77faea7044e13f860792dbc0c7f56a2c5c6e6e6bd2
 - url: https://support.telnyx.com/en/articles/5466736-kenya-did-requirements
-  content_hash: f3375c4c0372af8c18372ecc693cce9fa9e61fb05ba15d88822ffaf0ee371930
 - url: https://support.telnyx.com/en/articles/5467084-uganda-did-requirements
-  content_hash: c9c4a4da636b126f9df0d6712d2e5db9c861450566f7de5ffc238a5949eb7ac0
 - url: https://support.telnyx.com/en/articles/5467173-algeria-did-requirements
-  content_hash: e14ce627bc8798754c059ed19430a590124ac4fa8623c2f8dd12eea77d93e2f3
 - url: https://support.telnyx.com/en/articles/5948771-nigeria-did-requirements
-  content_hash: e0fec888123d743ff965c00acb59d2a96e79da7432a0f00bb44f3c985ba2704b
 - url: https://support.telnyx.com/en/articles/3739576-south-africa-did-requirements
-  content_hash: e0a610c05c730ebf6f497f291efb9158a9d4ff1b5f0f396b3942ca70c2018f39
 - url: https://support.telnyx.com/en/articles/6129696-angola-did-requirements
-  content_hash: 6107a5a1ffc0d830e9a68af8b299bc6122b5d7d244a2c074fca9cb885ba9894a
 - url: https://support.telnyx.com/en/articles/9959295-benin-did-requirements
-  content_hash: 7929aec5341576f8399d872a2e7bec78611f32e08bf12cca0999ebc3860e085b
 - url: https://support.telnyx.com/en/articles/9959347-cameroon-did-requirements
-  content_hash: 562b04f5f303c5c101e76a71413e338a18193783b74cde1e29fd3358a751b256
 - url: https://support.telnyx.com/en/articles/9959375-congo-did-requirements
-  content_hash: e61eafb18314672e27e6f5f29cb97e5161c8c3e4123f63bdfec436497193a4df
 - url: https://support.telnyx.com/en/articles/9961409-rwanda-did-requirements
-  content_hash: 819497484d21c897e4349982dc01d472d592f35564c6f9e2e9baa89cb9aa9d2a
 updated_at: 2026-05-21T08:10:51Z
 ---
 

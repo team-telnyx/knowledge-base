@@ -7,17 +7,11 @@ summary: 'Real-time text-to-speech over a persistent WebSocket: open a connectio
   Includes message schema, examples, errors, and provider notes.'
 sources:
 - url: https://developers.telnyx.com/docs/voice/tts/websocket-streaming/index
-  content_hash: 961f78eff2c46f21f2489e5d97a2f8bc6e7de7c6500028b966e7c793dcb35fde
 - url: https://developers.telnyx.com/docs/voice/tts/websocket-streaming/configuration
-  content_hash: e4b08cad6e3cf31bd2e8fe4b7598bc0a50e14c2da23071c12d2dfef918a40314
 - url: https://developers.telnyx.com/docs/voice/tts/websocket-streaming/errors
-  content_hash: dc5a1758738a13b122701258ed89d92559a5951d4ae89f51b9004258b3f70937
 - url: https://developers.telnyx.com/docs/voice/tts/websocket-streaming/examples
-  content_hash: 3077b4f7e758a7e15deb7e4a4817ddbf41f1f727e6d0bd000b259a3c456212f2
 - url: https://developers.telnyx.com/docs/voice/tts/websocket-streaming/messages
-  content_hash: 2765a04a1ff5fcd189ca12a41b033f8c0c2e29b7e1d0342af17ef00a1195c8e8
 - url: https://developers.telnyx.com/docs/voice/tts/websocket-streaming/parameters/voice-settings
-  content_hash: 014d06f235f63698a14deac4b48a08bd6fa0192916d7b355447fb13769ed4148
 updated_at: 2026-05-20T10:22:43Z
 ---
 

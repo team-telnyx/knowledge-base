@@ -6,21 +6,13 @@ summary: How to address Telnyx S3-compatible buckets, upload large objects, shar
   regional availability notes.
 sources:
 - url: https://developers.telnyx.com/docs/cloud-storage/bucket-addressing
-  content_hash: d5a3b324db89073caa504ef2e470ab6c0c7a94e23134b11713a6ba16ae58f527
 - url: https://developers.telnyx.com/docs/cloud-storage/emptying-bucket/index
-  content_hash: dc3d42f9b415737cc2c42a1ff35152ab302f52eaf5edceab09ef4a377f9e3125
 - url: https://developers.telnyx.com/docs/cloud-storage/lock-and-retention
-  content_hash: 7a28baef0113b6e8e25cf5a44e69410a5d76201a6a16e9d8ed49e520a73f2bbd
 - url: https://developers.telnyx.com/docs/cloud-storage/multipart-upload/index
-  content_hash: b9fa94539b1ddbb7ecb2ccf77e78a3f37b45814d92e8a08def73502414df6862
 - url: https://developers.telnyx.com/docs/cloud-storage/object-encryption
-  content_hash: 394a6f9d2807facfd5e30150d153469fb4ce253e7e93d030f052a4e825d28894
 - url: https://developers.telnyx.com/docs/cloud-storage/presigned-urls
-  content_hash: 7fb6e1a08cc9f0a2f1aab1d364bacbe6694a5365ba15d5d9d4583d7a2e4ce266
 - url: https://developers.telnyx.com/docs/cloud-storage/public-buckets
-  content_hash: 2030436a585b7a67bb7cd7216bf55646be29507888b28a9946f00470a0dd866e
 - url: https://developers.telnyx.com/docs/cloud-storage/ssl-certificates
-  content_hash: 1c24693bb1b725118ab350dedf9ae8d470da4c0fed6cb5d42fb312bf667558ed
 updated_at: 2026-05-19T15:58:39Z
 ---
 

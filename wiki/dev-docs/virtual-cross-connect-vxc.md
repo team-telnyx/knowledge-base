@@ -5,19 +5,12 @@ summary: 'A concise guide to Telnyx Virtual Cross Connects (VXCs): where they’
   to AWS Direct Connect, Google Cloud Interconnect, and Azure ExpressRoute.'
 sources:
 - url: https://developers.telnyx.com/docs/network/vxc/intro/index
-  content_hash: 1d11cedd455256a551c94b81fdbb6c618dc61376dd2a5e9ba060f4af48305ed1
 - url: https://developers.telnyx.com/docs/network/vxc/api
-  content_hash: 6d8435dc53908d88bef74cccc36fe8ee6d4f8dc602de2908a890585500de8599
 - url: https://developers.telnyx.com/docs/network/vxc/aws/index
-  content_hash: fa9169ea7457935d75746c35e506542f7b37ba5c7dce260e0110a00b0b513c24
 - url: https://developers.telnyx.com/docs/network/vxc/azure
-  content_hash: 16ee12fc750117225a360fcdd696332386a5783252a4c4eb26b654845d940838
 - url: https://developers.telnyx.com/docs/network/vxc/cost
-  content_hash: 97f0c3f70d1dec8698518368e2aa02a57274bcd84b2c9e623aaa64697b2db5a3
 - url: https://developers.telnyx.com/docs/network/vxc/coverage
-  content_hash: b6c339231bc10c692aa47e791f56bce50e023dc6142c2fd4a09e18e0056d7f08
 - url: https://developers.telnyx.com/docs/network/vxc/gcp
-  content_hash: 17b1d7fc188d38373353064a4ed534316f6a1668b65ab0c9e56d170cee552dca
 updated_at: 2026-05-20T09:18:09Z
 ---
 

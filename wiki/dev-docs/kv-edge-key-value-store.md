@@ -6,21 +6,13 @@ summary: Telnyx KV is a globally distributed, binary-safe key-value store built 
   or the telnyx-edge CLI, with eventual consistency and free egress.
 sources:
 - url: https://developers.telnyx.com/docs/edge-compute/kv
-  content_hash: 5a1cd7eddf969208a313913c8a3a1a8b9b115510bdc90009498e2bd182c91f3a
 - url: https://developers.telnyx.com/docs/edge-compute/kv/api-reference
-  content_hash: 9e592a2bf61e4d9097ca597d57622db0fcb1d4ca7d81f123f073e614ff3d5faa
 - url: https://developers.telnyx.com/docs/edge-compute/kv/cli
-  content_hash: cef46af7e62fcf59bff692b0708a78fa50b344b7d9d65142cc094c29760737fa
 - url: https://developers.telnyx.com/docs/edge-compute/kv/pricing
-  content_hash: aceb7fbcdcd8fc828cb4e8d0fb48e1e8c2b30c7e799c3eb4ddc47ccba2ce4be5
 - url: https://developers.telnyx.com/docs/edge-compute/kv/quick-start/index
-  content_hash: 6ac32f6799480ec2a8b2f156f813bd0551b12ec529fbc22c48cdf8bdf4e08204
 - url: https://developers.telnyx.com/docs/edge-compute/kv/ttl-and-metadata
-  content_hash: 5bcc7143f0bb8c933d6f9ac581c9f46ff0a614b988fc4e90b9bc33183c903762
 - url: https://developers.telnyx.com/docs/edge-compute/kv/use-cases
-  content_hash: 8ac2275f85cf764b9da32880e0369003695489e081a7b4a30494763c2c8ef79c
 - url: https://developers.telnyx.com/docs/edge-compute/sqldb/index
-  content_hash: 9248ecb5ea8d3e826d968414e82980e35d8712c0c6092d9c01845df1b0918c2a
 updated_at: 2026-05-20T08:26:04Z
 ---
 

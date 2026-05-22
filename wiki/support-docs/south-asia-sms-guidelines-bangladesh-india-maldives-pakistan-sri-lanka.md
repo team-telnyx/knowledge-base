@@ -6,15 +6,10 @@ summary: A consolidated guide to Telnyx SMS rules for Bangladesh, India, Maldive
   Sender ID.
 sources:
 - url: https://support.telnyx.com/en/articles/6596161-bangladesh-sms-guidelines
-  content_hash: b173d813c4eea1fd4e68775fe5a745d4bc34c85a5b1cddca58ee9a89507fb014
 - url: https://support.telnyx.com/en/articles/6674383-india-sms-guidelines
-  content_hash: ed219859b270de805c8ec44907e8284845f9ad574c8de00e582b0fc73c103eff
 - url: https://support.telnyx.com/en/articles/6675222-maldives-sms-guidelines
-  content_hash: f013c24dc419924aecd1d2d6ed35fda07f40ab4b4fbfd4b819895848ed0b9eea
 - url: https://support.telnyx.com/en/articles/6679149-pakistan-sms-guidelines
-  content_hash: e5dbedc0b90d8a7d809b04149860e5aa7362db57490119e71e3ed71a16c51907
 - url: https://support.telnyx.com/en/articles/6680171-sri-lanka-sms-guidelines
-  content_hash: 34db58ffd638b8d077264cf95a4b27b13e5ecbd4047ff47da4ad7d0dd37af90e
 updated_at: 2026-05-21T08:27:41Z
 ---
 

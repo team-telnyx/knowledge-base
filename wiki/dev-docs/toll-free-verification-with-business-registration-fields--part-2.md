@@ -7,9 +7,7 @@ summary: Telnyx toll-free verification now includes mandatory Business Registrat
   for rejections and post-verification delivery issues.
 sources:
 - url: https://developers.telnyx.com/docs/messaging/toll-free-verification/index
-  content_hash: eed1b0b21c0a803b0fbca66cf8a40e345216fe5ba857d02c1240881aa87a82e1
 - url: https://developers.telnyx.com/docs/messaging/toll-free-verification/troubleshooting
-  content_hash: ed027a01b9954dab62c82dda4c5e476109f5031e7ffe3faf78596cba08639df6
 updated_at: 2026-05-20T09:12:49Z
 ---
 

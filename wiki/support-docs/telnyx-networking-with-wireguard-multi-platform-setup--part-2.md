@@ -6,19 +6,12 @@ summary: A consolidated guide to deploy Telnyx Networking (Cloud VPN/Edge Routin
   platform-specific nuances, and simple ways to test connectivity.
 sources:
 - url: https://support.telnyx.com/en/articles/8103288-telnyx-networking-on-aws-lightsail
-  content_hash: 254bf5e167fa9003070f942bc4bb4a211beff4fd9f91b6a9a67edf7481d68312
 - url: https://support.telnyx.com/en/articles/8104274-telnyx-networking-on-ubuntu
-  content_hash: 1ee16c0d7fc1679bbc38742d9ebe1e41f21ed643893e18f44908dc2cce4c355b
 - url: https://support.telnyx.com/en/articles/8104309-telnyx-networking-on-aws-vpc
-  content_hash: ffb5539922fb3477e239a904d7009910166a595be0a3270861d9c3c939844026
 - url: https://support.telnyx.com/en/articles/8104343-telnyx-networking-on-azure-linux-vms
-  content_hash: 3cbd2b05629c7b6ef01df5757a7918593141d76c5fe90b5d9a9b3b8056e8b133
 - url: https://support.telnyx.com/en/articles/8104413-telnyx-networking-on-android-ios
-  content_hash: 6eb5ebb4bfcd656562b3af1c4b1f3813d5179a9ca8c05e2b3f34900d7071e1bf
 - url: https://support.telnyx.com/en/articles/8104436-telnyx-networking-on-oracle-vms
-  content_hash: 8bfad25c1e5317063aeff4dfa3bc75d4a10a4ab10a2da0380bd9fb0b05ea9bf7
 - url: https://support.telnyx.com/en/articles/8201852-telnyx-networking-on-pfsense
-  content_hash: bc6d354532f640d44777442cb4a1c31cc50c5b08a1b07014d195a1a8cc25d3e5
 updated_at: 2026-05-20T15:24:02Z
 ---
 

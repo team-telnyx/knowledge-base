@@ -6,21 +6,13 @@ summary: How to select and configure third‑party text‑to‑speech voices on 
   Resemble, Rime, and xAI.
 sources:
 - url: https://developers.telnyx.com/docs/voice/tts/providers/aws
-  content_hash: 6e68ad17129649ae5ea57c78f2aece6c3f50128f6e892a4d9e0d0087b4627dee
 - url: https://developers.telnyx.com/docs/voice/tts/providers/azure
-  content_hash: c7ea0d7062895098b9c6da9ab0aa409b9c127f2aefc01221ce6f6dadb85bc602
 - url: https://developers.telnyx.com/docs/voice/tts/providers/elevenlabs
-  content_hash: 16df4982b29fddba66dd188144aeb4ae618d5b4d3f1fbcc10ff8b38cb6cc3947
 - url: https://developers.telnyx.com/docs/voice/tts/providers/inworld
-  content_hash: d9c2d4660faca1d7c4b058984cd84a9604f18d5205f6c8906766b204e76dadc4
 - url: https://developers.telnyx.com/docs/voice/tts/providers/minimax
-  content_hash: 84ba4c49065d9a85c27ff1a43b855dcc17fc82962050f11fab6a5a8cc4d66db3
 - url: https://developers.telnyx.com/docs/voice/tts/providers/resemble
-  content_hash: 5dcd3f58bc6589eeb6c538ef50016f859ac51f96e63fb71d4d82ca0359593bfd
 - url: https://developers.telnyx.com/docs/voice/tts/providers/rime
-  content_hash: e9c34e96af0a6af7b48113cf7fd0d102ff7002e2ead36bad8d8fb68d837bb2c7
 - url: https://developers.telnyx.com/docs/voice/tts/providers/xai
-  content_hash: eb7a516104c6049f7b46611ed1ef4814b993c9ed726a581dcbf304c50a85597b
 updated_at: 2026-05-20T10:15:20Z
 ---
 

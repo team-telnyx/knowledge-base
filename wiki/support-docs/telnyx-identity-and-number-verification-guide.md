@@ -6,19 +6,12 @@ summary: 'A practical guide to Telnyx identity and verification tools: verifying
   CLI/CLD validation impacts—across both API and Mission Control Portal paths.'
 sources:
 - url: https://support.telnyx.com/en/articles/12386088-how-to-verify-phone-numbers-behind-an-ivr
-  content_hash: 44437388e6d35cdce46da0db26cf25afb62d80c30ecae1ffb328c69e862f595d
 - url: https://support.telnyx.com/en/articles/13854980-beta-how-to-verify-phone-numbers-using-dtmf-press-1-to-verify
-  content_hash: e341a94ed95d3191bf9aac69be438176f7fb9049b57e7b4bf72e8033b5cf9dc9
 - url: https://support.telnyx.com/en/articles/5367966-introducing-the-verify-api
-  content_hash: 0c05734469ef708e370c9f622e21b40e6de2eda986d641aee6559ecc94844e3a
 - url: https://support.telnyx.com/en/articles/5701653-telnyx-verify-2fa-made-easy
-  content_hash: ac2201395e46f225749a12f39260659c073130a43a716f2a96858b52aded99b6
 - url: https://support.telnyx.com/en/articles/4366901-your-number-lookup-guide
-  content_hash: 5939b3d259d25caf42354ca72481ba9603f80feaeac9e1e05a017de288220983
 - url: https://support.telnyx.com/en/articles/6247033-cli-cld-validation-faq
-  content_hash: 991377ab37de3041ed711fa52b1f77b135ad869a2fc5e7ab5b2039a8ab616606
 - url: https://support.telnyx.com/en/collections/3968260-telnyx-identity-verification-tools
-  content_hash: cc52e5b259243aabae24498466f5998983010078d03118b31185f140db586c31
 updated_at: 2026-05-20T15:33:12Z
 ---
 

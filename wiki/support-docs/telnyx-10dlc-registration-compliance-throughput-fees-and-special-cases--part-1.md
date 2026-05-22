@@ -6,31 +6,18 @@ summary: 'A consolidated guide to A2P 10DLC on Telnyx: who must register, how Br
   example.'
 sources:
 - url: https://support.telnyx.com/en/articles/11421359-10dlc-for-chiropractors
-  content_hash: 180098a86a20eebf82d20f8a3fd3319a45aa6a4346309b5fa6ddb5f6023f5da3
 - url: https://support.telnyx.com/en/articles/12812898-10dlc-mock-brands-and-campaigns
-  content_hash: 7a231be6387689243f529c075579a6218dabc596f5a1e3777d33ba058dcc8ed9
 - url: https://support.telnyx.com/en/articles/3679260-frequently-asked-questions-about-10dlc
-  content_hash: 87cd93a701417906b28510020559da52841b58af8cb556b988eca9d0c531f76a
 - url: https://support.telnyx.com/en/articles/5593977-isvs-10dlc
-  content_hash: eec4125b334eeacb74096e2fb18aa8b0fc457f2d94aaad0b833b02447dc0cbe0
 - url: https://support.telnyx.com/en/articles/5617538-10dlc-shared-campaigns
-  content_hash: 89208147df966b5d330f497179333a88e359027a49227e0e27fbfdcde9d5242a
 - url: https://support.telnyx.com/en/articles/5634625-10dlc-fees-and-charges
-  content_hash: c96c064e8f23c5df43d3fa819a9ba45a9b6c3916df915c335a97e8d9e08bd934
 - url: https://support.telnyx.com/en/articles/5664840-telnyx-10dlc-compliance
-  content_hash: 0cee26744f7dd320379cf174b498d74beee0a5406f5e2b2a7af73f389cf722ca
 - url: https://support.telnyx.com/en/articles/6325747-10dlc-trust-scores-use-cases
-  content_hash: d2af96cc56cdc0abfc084dd6b5514a0f91e5956f744926ba6d330cddcccd2be8
 - url: https://support.telnyx.com/en/articles/6417677-telnyx-10dlc-compliance-directory
-  content_hash: 4f2b7b45cb3b0e1df3924357f45b2de75381a55b9ab431ee9af9a2db9ba083a1
 - url: https://support.telnyx.com/en/articles/7127078-10dlc-campaign-approval-best-practices
-  content_hash: 8b5320478eb2fb9d1c16bf70d3683f984b9d8661e5452d4f7e1fae3432d8ad6c
 - url: https://support.telnyx.com/en/articles/9038141-messaging-10dlc-campaign-checklist
-  content_hash: cd42f265d1f65bb28837b5018c5f0a656ddeba9eccb58c95bd902817c2743b75
 - url: https://support.telnyx.com/en/articles/9940291-10dlc-campaign-compliance-requirements
-  content_hash: 06c9f07c05422c16db8028cf30396fd263fd1264dab3705a84653a354e2a9688
 - url: https://support.telnyx.com/en/articles/14286763-forbidden-messaging-use-cases-in-the-us-and-canada-10dlc-toll-free-and-short-code
-  content_hash: 5322f8be78843ac345d3b4ff3cf6b4a18c6d2d92fc4641ab499e878a6a199c99
 updated_at: 2026-05-20T14:17:37Z
 ---
 

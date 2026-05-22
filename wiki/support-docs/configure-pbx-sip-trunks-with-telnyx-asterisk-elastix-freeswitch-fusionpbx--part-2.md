@@ -5,23 +5,14 @@ summary: End-to-end reference for configuring SIP trunks to Telnyx across popula
   settings, and key UI steps for Asterisk (PJSIP), Elastix 4/5, FreeSWITCH, and FusionPBX.
 sources:
 - url: https://support.telnyx.com/en/articles/1130628-asterisk-configure-an-asterisk-ip-trunk
-  content_hash: 3b217f8dcda4cc1ce92e979c87da493e275f46181a548436bafb888a7d4e6e9f
 - url: https://support.telnyx.com/en/articles/1130676-configuring-an-asterisk-credentials-trunk
-  content_hash: 7cdea4830a2f059adcf4db9b5a3e8481185928acc9e2aa3616264dd74790a988
 - url: https://support.telnyx.com/en/articles/1130622-configuring-an-elastix-4-pbx-ip-trunk
-  content_hash: 4c6826d06f469942d2b15aa3a549ec0526f0655caa97e98d0197c3307cadfdbf
 - url: https://support.telnyx.com/en/articles/1130654-configuring-an-elastix-4-pbx-trunk
-  content_hash: 2eb3c6221a7414a102b11246fae52db85fa1726a4d37a54d8762d1888499aa9d
 - url: https://support.telnyx.com/en/articles/3284033-elastix-5-fqdn-trunk-setup
-  content_hash: e6bc172f62a6c485ed9a3f2cf058975054143b9a85c4a7f67f70462eb43ef65f
 - url: https://support.telnyx.com/en/articles/3284164-elastix-5-credentials-trunk
-  content_hash: 72958bcb69aa49ab61586431ccfe0665ad1efeb5ca48466c02d634dfb62f1260
 - url: https://support.telnyx.com/en/articles/1616935-freeswitch-ip-trunk-setup
-  content_hash: 54f304f4ce582639e3240652718d0530e7e7193a6916d222976a23937db09950
 - url: https://support.telnyx.com/en/articles/1618801-freeswitch-credentials-trunk
-  content_hash: 888dffb21fcc96e834ae7296ea5259bbefe50c2a989d17799f99292e68bb2895
 - url: https://support.telnyx.com/en/articles/3220393-fusionpbx-telnyx-credentials
-  content_hash: 35b4ac6b35471383fade7b260ed27c26510d128abb1915bf31eb63c2cbe23a60
 updated_at: 2026-05-20T14:55:25Z
 ---
 

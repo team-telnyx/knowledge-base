@@ -6,33 +6,19 @@ summary: A practical guide to how Telnyx handles SIP signaling, DNS/SRV resoluti
   and troubleshooting.
 sources:
 - url: https://support.telnyx.com/en/articles/10666839-how-telnyx-handles-srv-records-for-sip-calls
-  content_hash: 0cef1f7259d091dd8343c8d758b0d2fa2b0c2d9bb5bb6134c784337542cb36f2
 - url: https://support.telnyx.com/en/articles/1130705-sip-protocols-that-telnyx-uses
-  content_hash: f72fabffb4f0bf1fec6909eaf338aba39094a0c122afbd248f92445626b1ec5d
 - url: https://support.telnyx.com/en/articles/1130706-sip-connection-number-formats
-  content_hash: ae0249a568c6b4023a64a10eb36a37e2e06ae07df6836ed8b84e8046fdbd3a58
 - url: https://support.telnyx.com/en/articles/1130723-voip-telecommunications-protocols
-  content_hash: 4785f93c7e366ac4c135a982dd1406dea7921fff94dd16aec5199a5696c7603a
 - url: https://support.telnyx.com/en/articles/2925713-sip-uri-calling
-  content_hash: 4b83ab42762f3a83a072070bc3ea1dc1bb667ab4852be20c986cdeac3b4a65a9
 - url: https://support.telnyx.com/en/articles/3192298-audio-and-codecs
-  content_hash: 47e81daed07da1818e15109f33324839bf4e8fbce6e1df6a1477f224b0bf4bd1
 - url: https://support.telnyx.com/en/articles/4304898-sip-trunking-methods-requests-responses
-  content_hash: f394350a1694bd5825c36fc53574213f1bb18aeb3e450f5af3b0a55cbf551209
 - url: https://support.telnyx.com/en/articles/4351104-sip-connection-settings
-  content_hash: 6e9a14bde21a6bd404edbea4275b2cabec87df380f716828bc63fd76fa84453f
 - url: https://support.telnyx.com/en/articles/4404448-sip-connection-inbound-outbound-settings
-  content_hash: f6aaa104aed9a071b32805abcb437662ae2e7f21a73c95bc937aafae9e0032ed
 - url: https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes
-  content_hash: bd541565829c264faa4b8da2da27a220bb6b5bb61b45d5e8c70c2acb346b84a0
 - url: https://support.telnyx.com/en/articles/5271423-guide-to-sip-anchorsite-settings
-  content_hash: 949be043d77cb281bce867aaa5ef90c7051ef00dbd55615b9966c28b7d21255f
 - url: https://support.telnyx.com/en/articles/6902981-understanding-sip-prack-protocol
-  content_hash: 6fa6164cd9b3d6093e2f0b2ca3eacd1c2cafde4ccc18fa2a6efa675a746eca9f
 - url: https://support.telnyx.com/en/articles/9133298-sip-record-route-headers
-  content_hash: fa5e0813406e921edf5ce6ea7b200b37a64f5f94d9cd4b45682591f23438ec67
 - url: https://support.telnyx.com/en/collections/3968237-telnyx-sip-trunking-configurations
-  content_hash: 2785ee7fa081385c678b18f041c58a71d09067754fb5fa8ffde7a8f41a7ed6ff
 updated_at: 2026-05-20T14:34:53Z
 ---
 

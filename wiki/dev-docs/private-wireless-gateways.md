@@ -6,19 +6,12 @@ summary: Private Wireless Gateways (PWG) route all IoT SIM traffic through your 
   to Public IPs, and related controls for access, monitoring, and voice features.
 sources:
 - url: https://developers.telnyx.com/docs/iot-sim/private-wireless-gateways
-  content_hash: b1d6c0c6e436050f2643149f815c3b89f0747b70de9e3ceb9397d6966b669d08
 - url: https://developers.telnyx.com/docs/iot-sim/private-wireless-gateway-how-to/index
-  content_hash: e6edc5c59aa7e3fb5a29725cb30d5d10e5f03df52494eb613d138e73802bd88c
 - url: https://developers.telnyx.com/docs/iot-sim/public-ips/index
-  content_hash: 28e1c919251b38a0ce9d5ae404f2879e312bff54cc74141ca71cfc28d5a4c8d1
 - url: https://developers.telnyx.com/docs/iot-sim/mobile-phone-numbers/index
-  content_hash: e860d2e4770c7a739277c16237ea3d21f62124eeaf59024552335fb0114ba091
 - url: https://developers.telnyx.com/docs/iot-sim/wireless-blocklists
-  content_hash: 12675d7d445bace0a4159ab804c845f29b5c1957159dfdefbe91866347dd60f4
 - url: https://developers.telnyx.com/docs/iot-sim/wireless-detail-records
-  content_hash: 3a759c1b08155ad57278e24f9dd76bf9db982ab60bc5620f2430d52d1b180c83
 - url: https://developers.telnyx.com/docs/iot-sim/call-forwarding-recording
-  content_hash: c92538102d3053cfd1663283512a1498ccb7bcc4efe553e1aab827546e82307d
 updated_at: 2026-05-20T08:39:23Z
 ---
 

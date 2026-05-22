@@ -7,21 +7,13 @@ summary: TeXML is Telnyx’s XML-based markup language for building programmable
   aligns with Twilio’s TwiML for fast migration.
 sources:
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-fundamentals/index
-  content_hash: 44926f6fe1cdd9db555df44e6663d8d682b8d0d09aa667c7871761f5298f3597
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-setup
-  content_hash: cdc8eea33def935c1c4adf405b8ca4050bd9daee2cab77e9a2ed7d982f3c7cae
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-bin-quickstart
-  content_hash: 423683bc710e343878daf7cb12062097ff9dcc03f94be8ef93398906030dee8a
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-bin-dynamic
-  content_hash: bdd4ecaf617ffeb47b5e20f2858f95e8b338f0f50dd6d1f1dd74c6901aa61ce0
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-instruction-fetching
-  content_hash: 30586d67aef7fbe6013710694cba378084f7f5c77c095e5911d8fb45555ffe1c
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-interpreter
-  content_hash: 95b262ca75a1f895956d5675895bcd12649dab5a80c5a39bc6ae5545e10d49e5
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-sending-http-requests
-  content_hash: ef808de2ca1772907239fbb75f9d7e2387cb79e2087b640b617a0f3117cd2612
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-twiml-compatibility
-  content_hash: 0fbd8134313bac0367ec56e73c772504a60d4fa08cae006714ed5bc52de178d7
 updated_at: 2026-05-20T09:36:55Z
 ---
 

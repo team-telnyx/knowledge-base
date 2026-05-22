@@ -6,25 +6,15 @@ summary: Carrier policies for SMS in Denmark, Sweden, Norway, Finland, Iceland, 
   compliant traffic across the region.
 sources:
 - url: https://support.telnyx.com/en/articles/6560665-denmark-sms-guidelines
-  content_hash: 7bc25186aacadf469391851a4c681e08c2e4cc4b5eb8e7a04f10907d766ee858
 - url: https://support.telnyx.com/en/articles/6560689-sweden-sms-guidelines
-  content_hash: 5a1b579d90889e567666a9d10e9d125a8773bdc33893df66760722fe3f808a02
 - url: https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines
-  content_hash: 85cdbdf3d48063fbd244ca573e62b67fe3e6771695602ca3557464ba71e5e149
 - url: https://support.telnyx.com/en/articles/6560706-finland-sms-guidelines
-  content_hash: 2f19b0fa811700783e9150b7fb4446b4e71d66464dda9aad305ed7cdbbc00481
 - url: https://support.telnyx.com/en/articles/6560909-iceland-sms-guidelines
-  content_hash: d0136d05650244d8c58a91bb324120f2c57e1507ae354a9c3216cfff182c24f2
 - url: https://support.telnyx.com/en/articles/6560919-estonia-sms-guidelines
-  content_hash: f982077bffe979e69c915d7169cab09e9fe2fbff604932b7d46b54b687988b91
 - url: https://support.telnyx.com/en/articles/6560973-lithuania-sms-guidelines
-  content_hash: b62393355ec5b8a93f51b60de71b00b421a15297c554bdd8d45f7beba550111c
 - url: https://support.telnyx.com/en/articles/6561115-latvia-sms-guidelines
-  content_hash: 874a8de150557ed46f8f553d63932271a42245ead9681182a9ab5f44d1e12336
 - url: https://support.telnyx.com/en/articles/6670775-faroe-islands-sms-guidelines
-  content_hash: d6f8f9888a2441de5ce2727b090922ec4c703563ae93ae4d1e75726d3e4ad49c
 - url: https://support.telnyx.com/en/articles/6670885-greenland-sms-guidelines
-  content_hash: a0784f20ab470f263c41ca44c524e7461381aa03f22d0d324e5e0264b7585abe
 updated_at: 2026-05-21T08:13:51Z
 ---
 

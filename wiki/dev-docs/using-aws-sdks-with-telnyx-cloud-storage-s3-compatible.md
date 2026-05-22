@@ -6,21 +6,13 @@ summary: How to connect popular AWS SDKs (Node.js, Python, Java, Go, PHP, .NET, 
   and use Telnyx presigned URLs.
 sources:
 - url: https://developers.telnyx.com/docs/cloud-storage/sdk/dotnet
-  content_hash: 483f1695dbcb1a6fbf690730fe21b088bdcab4055a9667b5756e126152d18674
 - url: https://developers.telnyx.com/docs/cloud-storage/sdk/elixir
-  content_hash: 24932b4695c9a69cfbad8addf623462a15d0ad075f39c646b0bdb8277fd907eb
 - url: https://developers.telnyx.com/docs/cloud-storage/sdk/golang
-  content_hash: fe805ed916a0851ea179ff15fd7ec63c92b811faa3c47aa9f9aefcb8323a4f2a
 - url: https://developers.telnyx.com/docs/cloud-storage/sdk/java
-  content_hash: 3a98695238da90c2545a8747d605c4061d83f1ea855739e84c83524731f63a7a
 - url: https://developers.telnyx.com/docs/cloud-storage/sdk/node/index
-  content_hash: b7e40250309bec83e7bc2b84e5dd0c03b500a152d201dbce331d64a20516a010
 - url: https://developers.telnyx.com/docs/cloud-storage/sdk/php
-  content_hash: 20ebc62695aa9410ab08f4d018b16b7451abe13dbbdb6afa10c8cc9bd398c6ea
 - url: https://developers.telnyx.com/docs/cloud-storage/sdk/python
-  content_hash: 03d7506fd43baef1e03aa9fa9caafbb8fd0fcb36a8a45e7a835f5fea5ce862b0
 - url: https://developers.telnyx.com/docs/cloud-storage/sdk/ruby
-  content_hash: dd89cce6b812faa2be0ad7e4d50e275e4eec7563331de9ca7c5baea10b2bdbb8
 updated_at: 2026-05-19T19:35:40Z
 ---
 

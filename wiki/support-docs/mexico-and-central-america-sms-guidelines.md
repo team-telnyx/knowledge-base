@@ -5,21 +5,13 @@ summary: Key SMS rules for Mexico, Belize, Costa Rica, El Salvador, Guatemala, H
   IDs are handled or registered to ensure delivery and compliance.
 sources:
 - url: https://support.telnyx.com/en/articles/6531664-mexico-sms-guidelines
-  content_hash: c43f41dfd20e16a008f2f33a64116d68e87b07c16c1b07a99e1e40b7dc26a2b9
 - url: https://support.telnyx.com/en/articles/6564226-costa-rica-sms-guidelines
-  content_hash: 01c6782166b6cf3dca31835af121e3edd55a7233ecba9c63b894a007bde13157
 - url: https://support.telnyx.com/en/articles/6573677-panama-sms-guidelines
-  content_hash: 8dcd2263f371a0271bb7d90d7338a4e7d4c2cdcc279e21ca448cabd8ecd288ac
 - url: https://support.telnyx.com/en/articles/6574032-guatemala-sms-guidelines
-  content_hash: f2df797ea71c2ed6b528932a0300a2e9a680d4076b9c2b06579ccb36cd6d3322
 - url: https://support.telnyx.com/en/articles/6574037-belize-sms-guidelines
-  content_hash: d60dc3a30cf35ef10dac492e855dc70832f26d04431517adb68e190df177fb4b
 - url: https://support.telnyx.com/en/articles/6574078-el-salvador-sms-guidelines
-  content_hash: 2efa4b90eb25a8cbefcc7b95b1e73e4a4feb14e4b36fa53ffa6a0a42f3c330e8
 - url: https://support.telnyx.com/en/articles/6574081-honduras-sms-guidelines
-  content_hash: d96de2cc9c35b7baca0a28d257059a89aadeb0abda243161ba79872ad87536cc
 - url: https://support.telnyx.com/en/articles/6574098-nicaragua-sms-guidelines
-  content_hash: 500e7f3af22ff6df04d6789b40817b784a96347fab29dc745181a09ea3ddc4e7
 updated_at: 2026-05-21T08:17:43Z
 ---
 

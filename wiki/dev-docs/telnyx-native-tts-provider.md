@@ -6,19 +6,12 @@ summary: Telnyx is the default Text-to-Speech provider on the Telnyx platform, o
   Voices API or design and manage clones in the Voice Design Lab.
 sources:
 - url: https://developers.telnyx.com/docs/voice/tts/providers/telnyx/index
-  content_hash: 5dab36f4ce7f968e4769de9cf2f1ae65a5331f1ed5ed94ecc86c2e1f68fda130
 - url: https://developers.telnyx.com/docs/voice/tts/providers/telnyx/ultra
-  content_hash: 3957e72a9b195d184eef5c84223341906e4357ce022f545f3db60593656d8ea0
 - url: https://developers.telnyx.com/docs/voice/tts/providers/telnyx/natural
-  content_hash: ace36d725bf272ee4199bb982f58c27761db48d253388549567f258927fe04d9
 - url: https://developers.telnyx.com/docs/voice/tts/providers/telnyx/naturalhd
-  content_hash: cfbfa5e4cd6e003cddfdfc73200d98e2536cba54ba64a288e72a8ba41aa8b7cf
 - url: https://developers.telnyx.com/docs/voice/tts/providers/telnyx/kokoro
-  content_hash: ebd593ffb6015c6c229c5a9f9a893f842707ab4358419ffffde415135bea1425
 - url: https://developers.telnyx.com/docs/voice/tts/providers/telnyx/qwen3
-  content_hash: e8cb9655a34b19268facb3a09bb58301da8c477b57a4cd5a1e654ab202d58b97
 - url: https://developers.telnyx.com/docs/voice/tts/providers/telnyx/grok
-  content_hash: 4a1886651879403619493fa50f5d33667aa8a9d904cb752ce851db0071003632
 updated_at: 2026-05-20T10:11:43Z
 ---
 

@@ -7,21 +7,13 @@ summary: A consolidated checklist of country-specific documents, LOA templates, 
   Turkey with Telnyx.
 sources:
 - url: https://support.telnyx.com/en/articles/3266656-croatia-number-porting
-  content_hash: 1ad90c85671ada17b043537c46d34f0428363e9bb4b2923c12f8f0873cd34038
 - url: https://support.telnyx.com/en/articles/3266975-greece-number-porting
-  content_hash: d45393569db0d9da29806d957f8d508264babb232ba8f0ed9ba449b5a7dbdd9b
 - url: https://support.telnyx.com/en/articles/3266993-israel-number-porting
-  content_hash: 8722e647811ddc4dcddb75c80c5714d66356a1b7010f5c19f751ff10905f1ad9
 - url: https://support.telnyx.com/en/articles/3267566-cyprus-number-porting
-  content_hash: f97b55b0334c4155d9fdd13738ef71dfab367a8e56592b0050619643d55412bd
 - url: https://support.telnyx.com/en/articles/5190443-albania-number-porting
-  content_hash: 702479622692c7b186d37bd7f7da94adc0014916027998c3252847480a8b1c46
 - url: https://support.telnyx.com/en/articles/5190478-malta-number-porting
-  content_hash: 58891f284fb42d38c6c056b82243df1d870d7e843d233f1c0832b09ba4399b42
 - url: https://support.telnyx.com/en/articles/6138781-turkey-number-porting
-  content_hash: 840a30665b3db1c585750e5fc207202d95ac401803753c08a600071c8903f3d6
 - url: https://support.telnyx.com/en/articles/9271183-argentina-number-portability
-  content_hash: d2efcfe01a53492392066f824bbddf65b64d630ecd23fa1dcc4fe80b66e6e463
 updated_at: 2026-05-20T15:50:39Z
 ---
 

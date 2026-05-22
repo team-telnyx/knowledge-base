@@ -5,17 +5,11 @@ summary: Consolidated Telnyx SMS guidance for Algeria, Egypt, Libya, Morocco, Tu
   caveats, and how to submit Sender ID registration requests.
 sources:
 - url: https://support.telnyx.com/en/articles/6592441-algeria-sms-guidelines
-  content_hash: f048aac09ce353c6edd0b2324f502c7a3f9e45bb75ca680a7de39d7942d80900
 - url: https://support.telnyx.com/en/articles/6670411-egypt-sms-guidelines
-  content_hash: 484f4d31fa56dc9d6128d3d1079c545598ea7b7f979d3349943196e54e7a2364
 - url: https://support.telnyx.com/en/articles/6674989-libya-sms-guidelines
-  content_hash: 9ad2d481df8edb2ad49098db6dba2602437269287c47d6269214567a566b33bb
 - url: https://support.telnyx.com/en/articles/6677982-morocco-sms-guidelines
-  content_hash: 9f9b5297284570cc27c9f8f3a3be4bdc1eca49999925a92ebbdc97e846da96c6
 - url: https://support.telnyx.com/en/articles/6683385-tunisia-sms-guidelines
-  content_hash: 3567410b22707a9c8737312fd67a77bed098cf3263ac43aa33f2317ce3f049a3
 - url: https://support.telnyx.com/en/articles/6680225-sudan-sms-guidelines
-  content_hash: 431d7f39d36e12526f1be36edf1b5528291db6bf4eca653692c3f8b6ede8e761
 updated_at: 2026-05-21T08:21:11Z
 ---
 

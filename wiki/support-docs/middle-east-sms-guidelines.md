@@ -7,33 +7,19 @@ summary: A consolidated reference for Telnyx SMS compliance across Middle Easter
   rules, network-specific nuances, and how to register an Alphanumeric Sender ID.
 sources:
 - url: https://support.telnyx.com/en/articles/6589557-iraq-sms-guidelines
-  content_hash: 5ace3201f8971b92a93d036740e5c394740c49c2d7546953a8d58445a6a0ce02
 - url: https://support.telnyx.com/en/articles/6596158-bahrain-sms-guidelines
-  content_hash: 129bdb43777079e0ca0bb0f1d57bec1a677bdb6dd6c1b5534a4b59d07055422a
 - url: https://support.telnyx.com/en/articles/6674403-iran-sms-guidelines
-  content_hash: 4b5246bb0229ca0bfd42753e86f038ce24ae816c7a68e683db64d30576ee1fcc
 - url: https://support.telnyx.com/en/articles/6674453-israel-sms-guidelines
-  content_hash: 7ba74b8fe7d8e316cd63860416e103fbccdfe1da2341625acd1f9e5b3ba8e66e
 - url: https://support.telnyx.com/en/articles/6674487-jordan-sms-guidelines
-  content_hash: d8f538dcc346072e5447cee1d946df43b439d6405f2fda7f2d21741fe13cd096
 - url: https://support.telnyx.com/en/articles/6674713-kuwait-sms-guidelines
-  content_hash: ebaad7ed50656186bca5f46ba4a08d04627ec3f7b1180c3d795b39e24422475a
 - url: https://support.telnyx.com/en/articles/6674807-lebanon-sms-guidelines
-  content_hash: 77795d3368e583c93faa4f6bfb3275e1f5efd3f59ae8c48fc09b257c490db007
 - url: https://support.telnyx.com/en/articles/6679138-oman-sms-guidelines
-  content_hash: 546b60b45ef7f4d0eb533ef57c4bc200c50af3cdf184e6fb3d976dae32d871bd
 - url: https://support.telnyx.com/en/articles/6679259-palestinian-territory-sms-guidelines
-  content_hash: e1136d08fe2b86a51fc2788e33051272f28c38a96264537700e117abe7ca72c9
 - url: https://support.telnyx.com/en/articles/6679369-qatar-sms-guidelines
-  content_hash: 4f06032e5b8838dfdc11757f336219bde1e0c5e4e7a3b7ad224a70989ef899d7
 - url: https://support.telnyx.com/en/articles/6680009-saudi-arabia-sms-guidelines
-  content_hash: 6b02940d684cd1f0b340e9ca1190ad4957cf228dc18819f6337de8d7bd89e748
 - url: https://support.telnyx.com/en/articles/6680256-syria-sms-guidelines
-  content_hash: b3f3ee55e45bfdadf49d8998d3bfe9324ec06f358b071b24811d5eccb7aaf3be
 - url: https://support.telnyx.com/en/articles/6683438-united-arab-emirates-sms-guidelines
-  content_hash: 030c335e9dcb9724f4913430d08f11abfa5a92cc5ba64d9c3221bae5a858bb85
 - url: https://support.telnyx.com/en/articles/6683484-yemen-sms-guidelines
-  content_hash: 51119db6921cd5aa8d6be68dcdf71e6d838d8f4ee86801c0362b2a75eff563d2
 updated_at: 2026-05-21T08:25:55Z
 ---
 

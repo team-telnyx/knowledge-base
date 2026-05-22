@@ -6,19 +6,12 @@ summary: End‑to‑end guide to register popular IP phones to Telnyx using a cr
   GXV3370, Gigaset A510/A690/DX800a, FortiFone FON‑570/375/175/H25, and Flyingvoice.
 sources:
 - url: https://support.telnyx.com/en/articles/6187576-grandstream-gxv3370
-  content_hash: f75a754a6be7b66b4e892021cab6bf25785af6a4ab92b7982205bb1a2d62ab26
 - url: https://support.telnyx.com/en/articles/6167480-gigaset-configuring-the-gigaset-dx800a
-  content_hash: 3025cd590ef804154bf22433854e2b11e020dcc1fba90a44f5a4af991e2fc2ee
 - url: https://support.telnyx.com/en/articles/5815209-gigaset-a510-telnyx-setup
-  content_hash: e42db1a297cc98d6d2e762b3152cfa6cf76b0295b47da9bade99793ad60f8fcd
 - url: https://support.telnyx.com/en/articles/6060646-gigaset-a690-as690
-  content_hash: 9dfb013df952192c34f098fd63cf01ca3cb8cabd92a64f93f006ed2e195c803c
 - url: https://support.telnyx.com/en/articles/5811545-fortifone-setup-fon-375-175-h25
-  content_hash: d264a81635e4108ebeb2cce8e195482326b07d6d8aa3cfa3beda8db86d97358c
 - url: https://support.telnyx.com/en/articles/5810226-fortifone-fon-570
-  content_hash: b055019bb46ae732708a7bede0d679feb2a2d1033208c69f11fd8f7eeb3fc19b
 - url: https://support.telnyx.com/en/articles/5810663-flyingvoice-telnyx-setup
-  content_hash: 297be44dbfda67bc514ad7193d3bf0d2562809a05fa5f7b76306576dbc74483d
 updated_at: 2026-05-20T15:09:08Z
 ---
 

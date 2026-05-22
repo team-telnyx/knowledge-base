@@ -6,31 +6,18 @@ summary: A consolidated, field-proven setup guide that distills Telnyx best prac
   SBCs from Oracle, AudioCodes, Ribbon EdgeMarc, Sansay, and BYOC with Genesys Cloud.
 sources:
 - url: https://support.telnyx.com/en/articles/1130665-configuring-your-cisco-spa112-122-ata
-  content_hash: c4325728624fcb8e04536b4e7c8049c6c59e57637f83950715702aba29e64746
 - url: https://support.telnyx.com/en/articles/5733572-mediatrix-c7-4100-telnyx-setup
-  content_hash: 3502e1dfc3ff7807260927643cc7df69868eda74eb078becb6993100818ab1fb
 - url: https://support.telnyx.com/en/articles/5800399-synway-uc-200-telnyx-setup
-  content_hash: f0c8d387b62d7159281ee84e30b6405e14416fb860a454fa65931f2e626aac3a
 - url: https://support.telnyx.com/en/articles/5820183-plantronics-polycom-obi300-setup
-  content_hash: bfc35c1dabfdf39c52b9d5d716c519223864f533dcb97322e9f6cb892335e132
 - url: https://support.telnyx.com/en/articles/6128321-dinstar-c60-setup-config
-  content_hash: de1f339304d492b274b24de066633eda330f163529c28d2fa3b30ee76b2154cf
 - url: https://support.telnyx.com/en/articles/6122586-ubiquiti-trunk-unifi-talk-auth
-  content_hash: 8c65d50a76c815c6f55be14f7cee494051006aa5ad4202a6cc448d32ab3a01ba
 - url: https://support.telnyx.com/en/articles/6303467-ubiquiti-trunk-unifi-talk-ip-auth
-  content_hash: 99f018c153b3358bf05400637cd0861f260a51326de291e52c65c578258be736
 - url: https://support.telnyx.com/en/articles/4194697-oracle-acme-packet-sbc-setup
-  content_hash: 918c23d032497661a47218cc726501110e4edfd3a93f35be1bc136c408ca2ad7
 - url: https://support.telnyx.com/en/articles/4194841-audiocodes-sbc-setup
-  content_hash: 490ed95c00bf064e8ce590a4d7e35ad57d8c518109754287eaeb21111ea7c4a5
 - url: https://support.telnyx.com/en/articles/4215031-ribbon-edgemarc-6000-setup
-  content_hash: e4be48e16b892d6cedaa7ab484e03799d0f4bcba6f8dad5308bf7a67cf4a58ae
 - url: https://support.telnyx.com/en/articles/4301888-sansay-sbc-vsxi-setup
-  content_hash: 3a6016736a376356454514de4c47f347cb91156c944aeca4bf6125c91913e378
 - url: https://support.telnyx.com/en/articles/1130641-telnyx-recommended-hardware-configurations
-  content_hash: bf7fd8f33557ad98ccc94e1aa81cd16197eaa2b8f369268639918b62203691fe
 - url: https://support.telnyx.com/en/articles/8268122-byoc-telnyx-genesys
-  content_hash: ccd7f016f119579449bee4575e7a976e4e734be1e3cebc275fe92752e14ecd28
 updated_at: 2026-05-20T15:17:31Z
 ---
 

@@ -6,21 +6,13 @@ summary: A practical guide to building AI-powered phone experiences on Telnyx. L
   SSML), and protect users with deepfake detection—plus key API calls and webhooks.
 sources:
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/ai-assistant-start
-  content_hash: 935729b032e38560301bf75fc52ae1799fd5184302fd224c88f05735a6e58e71
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/gather-using-ai/index
-  content_hash: d17b526f566259e0e46f037b959216bbcf8a44e4a37521b5bd2b0efbeabf52f2
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/media-streaming
-  content_hash: d6c3a73183ef7dc045d05c03ad29cf800a84e402c0b6c73d98e389b200a52b7d
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/noise-suppression
-  content_hash: d0385b42b214b00cbda771a0671f724e760f90cbb2aa2f27e8e5d54bcd81e963
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/deepfake-detection
-  content_hash: 6b108ff706319fa60a39497e105970f313d7b897740c0af34a21b6203265c1f8
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/speech-to-text/index
-  content_hash: 56af332514e7916c8ab86d19963c873d2dae2ad760b2ea817357aa96108590e8
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/tts
-  content_hash: 7c8e72fa751ece777e8f2ac7052003197d2a14b594125d5f0559e7b1273902a5
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/ssml-tags/index
-  content_hash: cdee1b37fe2bfaf58920935e1538bcad65442f11294e8c586b9018478e948ed3
 updated_at: 2026-05-20T09:33:28Z
 ---
 

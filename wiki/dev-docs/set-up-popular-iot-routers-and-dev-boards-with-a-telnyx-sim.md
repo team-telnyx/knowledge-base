@@ -5,23 +5,14 @@ summary: A single, consolidated guide to configure common routers, gateways, and
   APN settings, default device logins, and essential troubleshooting tips.
 sources:
 - url: https://developers.telnyx.com/docs/iot-sim/cradlepoint-ibr200-cellular/index
-  content_hash: 2dcec4c6721674440c12a2b243b46a2b11605623faf5b3d6789954c802ad47dd
 - url: https://developers.telnyx.com/docs/iot-sim/glmifi-router
-  content_hash: 5f4c3ee6cd20377d81ea1df14d5058714515b09a7f73f178a994bd76bd45bc60
 - url: https://developers.telnyx.com/docs/iot-sim/mikrotik-wap-lte
-  content_hash: 8ad614d11b76a85671b83d2bf4211720dbe03d9035030c25191e24ae418c740e
 - url: https://developers.telnyx.com/docs/iot-sim/nordic-semiconductor
-  content_hash: 4f050a46da1cf860b4629b0544923341c93641020ada74568d64f1b3bc8625b9
 - url: https://developers.telnyx.com/docs/iot-sim/particle-boron-lte-kit
-  content_hash: 50ec3ec57caf9c91cd7cf5f7972742bb760294871ba5dc515bf691a7e73b6bbc
 - url: https://developers.telnyx.com/docs/iot-sim/pepwave-max-br1-mini-lte
-  content_hash: b81b3f4c758e0aecc79ebbe9fc2b1c8feeafa99f3d5c87a02f0f649d83de8c6e
 - url: https://developers.telnyx.com/docs/iot-sim/sim7600-a-rasp-pui-hat/index
-  content_hash: b7df4108d83fe3fd3e0b2764db5872ce9a0cd98b90c60a6f15cf36adaa735dc9
 - url: https://developers.telnyx.com/docs/iot-sim/sixfab-cellular-iot-hat
-  content_hash: d0d6e3463ce437cce100b745c5864059b89ad68eefff703d8e9897ec5f661907
 - url: https://developers.telnyx.com/docs/iot-sim/sixfab-rasp-pi-hat
-  content_hash: c8248b9c31af2cf33f46259082a69b1d66deb44944f198c2bd40c3757669e435
 updated_at: 2026-05-20T08:47:12Z
 ---
 

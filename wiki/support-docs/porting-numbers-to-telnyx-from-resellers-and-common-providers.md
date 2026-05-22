@@ -7,31 +7,18 @@ summary: A consolidated guide to moving phone numbers into Telnyx when your curr
   and how to avoid common rejections.
 sources:
 - url: https://support.telnyx.com/en/articles/14708128-porting-numbers-away-from-aircall-to-telnyx
-  content_hash: 6e7816faa3d0c7a66e1e51e52f1c0e1801d5a0ae83746ee1bea7cef6fef010a1
 - url: https://support.telnyx.com/en/articles/14708129-porting-numbers-away-from-intercom-to-telnyx
-  content_hash: d1670508f21ab3f4eb2f835a02fff75fbf0a2a238af4c5467ced30346e13ddc3
 - url: https://support.telnyx.com/en/articles/14708130-porting-numbers-away-from-resellers-aircall-intercom-ringcentral-vonage-etc
-  content_hash: ef83589b646726b6e0ce648f4c9b66b5ea170a01efd9cb96dc0653ef9f5d6303
 - url: https://support.telnyx.com/en/articles/3947850-porting-away-from-twilio
-  content_hash: 95191fc6d37582620e5c20b3522729afe853c529e85e46d61ca8d78995744213
 - url: https://support.telnyx.com/en/articles/3947875-porting-away-from-bandwidth
-  content_hash: e672cc89b3cfe9038d92fc66629fb2d5779c3ca171270cb557d96e6673a7a5c6
 - url: https://support.telnyx.com/en/articles/5595770-port-away-from-voip-ms
-  content_hash: 94326a5b83b70cb233aa7e1d5244d317d0267e63739ad6ceeef50cd616f156d7
 - url: https://support.telnyx.com/en/articles/14790558-how-to-find-your-porting-pin-or-passcode
-  content_hash: 29e50c89cd41327b37bf1d5f905f0856baca64433285ec235ccc443ffdc52166
 - url: https://support.telnyx.com/en/articles/5386351-automating-ports-with-programmatic-api
-  content_hash: 6372c5313264fb57c12fc03dedc64f4015c468818ca188404c75487abc158fc2
 - url: https://support.telnyx.com/en/articles/8006189-port-out-pin-protection
-  content_hash: 8a90b5d1eda8d5ba219e63adbb62ab6a3979113be6a487a628b520f2a26b8ac7
 - url: https://support.telnyx.com/en/articles/8268276-loa-template-download
-  content_hash: b123eaae4c4c4f7c1d6050d3425d049ea1b1e1a739532edc8f2d220a4683251c
 - url: https://support.telnyx.com/en/articles/8588086-auto-generated-letter-of-authorization-loa
-  content_hash: 460427d5f3cfdd1b6ebca7d4af5a6ddd0b29029d0ee30ef31a61c7ad4c32eb16
 - url: https://support.telnyx.com/en/articles/8673249-us-ca-toll-free-number-porting
-  content_hash: bb759551cc11f3a5c465a3e7fe54d525bf48c5c4fd4ba8cdca09cb3df11caf75
 - url: https://support.telnyx.com/en/articles/8709331-porting-bundles
-  content_hash: 0bff1513da9a66729d67c32d1f7fe5b119151a8689eb9b55adcecd295269a27d
 updated_at: 2026-05-20T15:45:59Z
 ---
 
