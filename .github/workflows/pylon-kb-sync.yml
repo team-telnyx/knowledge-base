@@ -1,0 +1,126 @@
+name: Sync Pylon Knowledge Base
+
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: "Write changes to Pylon"
+        required: true
+        default: "true"
+        type: choice
+        options:
+          - "true"
+          - "false"
+      include_uncategorized:
+        description: "Also sync support-docs/_uncategorized"
+        required: true
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+      include_messaging:
+        description: "Also sync Messaging / WhatsApp roots"
+        required: true
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+      max_articles:
+        description: "Optional write-operation cap for smoke tests"
+        required: false
+        default: ""
+  push:
+    branches:
+      - main
+      - chore/structure-support-docs
+    paths:
+      - "support-docs/**"
+      - "scripts/pylon_sync_kb.py"
+      - ".github/workflows/pylon-kb-sync.yml"
+  pull_request:
+    paths:
+      - "support-docs/**"
+      - "scripts/pylon_sync_kb.py"
+      - ".github/workflows/pylon-kb-sync.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pylon-kb-sync-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    name: Sync support-docs to Pylon
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade markdown
+
+      - name: Decide sync mode
+        id: mode
+        shell: bash
+        run: |
+          set -euo pipefail
+          APPLY="false"
+          INCLUDE_UNCATEGORIZED="false"
+          INCLUDE_MESSAGING="false"
+          MAX_ARTICLES=""
+
+          if [[ "${{ github.event_name }}" == "push" && "${{ github.ref }}" == "refs/heads/main" ]]; then
+            APPLY="true"
+          fi
+
+          # Temporary first-sync path for this setup PR branch. Remove after merge if desired.
+          if [[ "${{ github.event_name }}" == "push" && "${{ github.ref }}" == "refs/heads/chore/structure-support-docs" ]]; then
+            APPLY="true"
+          fi
+
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            APPLY="${{ inputs.apply }}"
+            INCLUDE_UNCATEGORIZED="${{ inputs.include_uncategorized }}"
+            INCLUDE_MESSAGING="${{ inputs.include_messaging }}"
+            MAX_ARTICLES="${{ inputs.max_articles }}"
+          fi
+
+          echo "apply=$APPLY" >> "$GITHUB_OUTPUT"
+          echo "include_uncategorized=$INCLUDE_UNCATEGORIZED" >> "$GITHUB_OUTPUT"
+          echo "include_messaging=$INCLUDE_MESSAGING" >> "$GITHUB_OUTPUT"
+          echo "max_articles=$MAX_ARTICLES" >> "$GITHUB_OUTPUT"
+
+      - name: Sync Pylon KB
+        env:
+          PYLON_API_TOKEN: ${{ secrets.PYLON_API_TOKEN }}
+          PYLON_KNOWLEDGE_BASE_ID: ${{ secrets.PYLON_KNOWLEDGE_BASE_ID }}
+          PYLON_AUTHOR_USER_ID: ${{ secrets.PYLON_AUTHOR_USER_ID }}
+          PYLON_SYNC_DELAY_SECONDS: "0.7"
+        shell: bash
+        run: |
+          set -euo pipefail
+          args=(--source-root support-docs)
+          if [[ "${{ steps.mode.outputs.apply }}" == "true" ]]; then
+            args+=(--apply)
+          fi
+          if [[ "${{ steps.mode.outputs.include_uncategorized }}" == "true" ]]; then
+            args+=(--include-uncategorized)
+          fi
+          if [[ "${{ steps.mode.outputs.include_messaging }}" == "true" ]]; then
+            args+=(--include-messaging)
+          fi
+          if [[ -n "${{ steps.mode.outputs.max_articles }}" ]]; then
+            args+=(--max-articles "${{ steps.mode.outputs.max_articles }}")
+          fi
+          python scripts/pylon_sync_kb.py "${args[@]}"
