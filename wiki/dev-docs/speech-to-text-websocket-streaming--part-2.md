@@ -1,151 +1,227 @@
 ---
 title: Speech-to-Text WebSocket Streaming
-summary: 'Real-time speech-to-text over a persistent WebSocket: send binary audio
-  frames, receive interim and final transcripts. Configure engine, model, format,
-  language, and options via query parameters at connect time. This page covers endpoints,
-  lifecycle, parameters, audio formats, wire protocol, errors, production guidance,
-  pricing, and an end-to-end example.'
+summary: Real-time speech-to-text over a persistent WebSocket connection. Send audio
+  as binary frames, receive JSON transcription results — all configuration is set
+  at connect time via query parameters and cannot be changed mid-session.
 sources:
-- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/index
-- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/index
-- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/audio-formats
-- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/end-of-turn
-- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/endpointing
-- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/engines-and-models
-- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/interim-results
-- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/keyword-boosting
-- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/language
-- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/redaction
-- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/pricing
-- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/production-patterns
-- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/responses
 - url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/errors
+  content_hash: 24bdbc8f31b24bb9025cd06e0720f19213e535dc8d870523544af7fa81582adc
 - url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/examples
-updated_at: 2026-05-20T10:05:31Z
+  content_hash: 4294b110b6684122c3d220b57e8aa132d7bd5aa58ed18701cf2b778384aefe5b
+- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/index
+  content_hash: ce2a470f6e6022a5b6f829b7dfa76ea4087a4926fea0ae45c99dae8679235128
+- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/audio-formats
+  content_hash: 16cf6d4a4b1a8ff2a3c495bc4ab7607d5d75ebf24b681921aeae66315ec4ef19
+- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/end-of-turn
+  content_hash: 159958b703db53e6b7c52a3e07a7b9862add8bdfe847fd467a00ee988a79e002
+- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/endpointing
+  content_hash: eed2b58435f9cc915eaa4310946f0e0cd99e19b16dd208a2a654913c1fa0c045
+- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/engines-and-models
+  content_hash: ffca0d0738cb6f6e6c6a4739ed808032d31b0d81263ce6f7ac29a8a46cdb6afa
+- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/index
+  content_hash: 7ab90b8dbaeeb0f025121ef2b36aade371eef3ee937e5cc8b69751b0d53dea3b
+- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/interim-results
+  content_hash: f3a5dfb61fc2ac35321d8de21b31d417ab94cc2de458034e200eacc5ee20180a
+- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/keyword-boosting
+  content_hash: bdfd68fcd4e84a24eff4c9c912d6ab82bef8b41afe1f00d01925779bf331e75d
+- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/language
+  content_hash: 8bb115e5fcbef787883a74db2a8784f3d6243f3689170ec23866cab65d958fad
+- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/redaction
+  content_hash: 3526be7f342f9303fdefe0ec28ac900ccb0c0c3ce8aabcd4c4e1d25c81f76125
+- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/pricing
+  content_hash: 3b2ed3368ec525b8a13216049e0cc01e57d27701bbcbd21a22b09567ce426568
+- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/production-patterns
+  content_hash: c97293533540b0438a91cc6390ab76366220f19152513ba3e9a3f356fcddd35b
+- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/responses
+  content_hash: e1268df1998d11a2023fcee2c972f9d32c81bafa5c0f70d80bb5dd505c6da612
+updated_at: 2026-06-11T10:46:55Z
 ---
 
 # Speech-to-Text WebSocket Streaming
 
-*Part 2 of 2 — see also: [Part 1](speech-to-text-websocket-streaming--part-1.md)*
+*Part 2 of 3 — see also: [Part 1](speech-to-text-websocket-streaming--part-1.md), [Part 3](speech-to-text-websocket-streaming--part-3.md)*
 
-Real-time speech-to-text over a persistent WebSocket: send binary audio frames, receive interim and final transcripts. Configure engine, model, format, language, and options via query parameters at connect time. This page covers endpoints, lifecycle, parameters, audio formats, wire protocol, errors, production guidance, pricing, and an end-to-end example.
+Real-time speech-to-text over a persistent WebSocket connection. Send audio as binary frames, receive JSON transcription results — all configuration is set at connect time via query parameters and cannot be changed mid-session.
 
-## Endpointing (Deepgram)
+## Language
 
-- Controls how long Deepgram waits after silence before finalizing an utterance.
-- Values:
-  - Integer milliseconds (e.g., 100, 300, 1000): lower = faster but more splits; higher = more complete sentences but higher latency.
-  - "false": disable automatic endpointing; you can manually segment with Finalize or rely on CloseStream for a single final transcript.
-- Interaction: when endpointing triggers, Deepgram typically sends a final transcript, then an utterance_end marker (empty transcript with is_final true) signaling the turn boundary.
+BCP-47 language code. Default: `en-US`. Pass `multi` (or aliases `auto`/`auto_detect`) to enable automatic language detection.
 
-## Language Selection and Auto-Detection
+| Engine | Behavior |
+|---|---|
+| Deepgram | BCP-47 codes. `multi` for multi-language mode. Nova-3 supports `multi` (10 languages in code-switching). Flux supports English, Spanish, French, German, Hindi, Russian, Portuguese, Japanese, Italian, Dutch. |
+| Telnyx | Whisper-based. `auto_detect` disables language hint entirely. |
+| Google | BCP-47 codes. 125+ languages/locales. |
+| Azure | BCP-47 codes. 100+ languages/locales. |
+| xAI | Language codes such as `en`, `fr`, `de`, `ja`. 25 languages. |
+| AssemblyAI | Automatic multilingual detection and code switching across 6 languages. |
+| Speechmatics | Language codes such as `en`, `es`. Bilingual packs use Telnyx shorthand (e.g. `ar_en`, `cmn_en`, `en_ms`, `en_ta`, `cmn_en_ms_ta`) — mapped internally. Does not support `auto`; defaults to `en` if unrecognized. |
+| Soniox | Automatic language detection. The `language` parameter is ignored. |
 
-- Use BCP-47 language codes (e.g., en-US, es, fr). Default is en-US.
-- Auto detection: pass multi (Deepgram). Aliases auto and auto_detect are mapped to multi. Telnyx Whisper-based engine treats auto_detect as disabling the language hint entirely.
-- Engine notes:
-  - Deepgram: BCP-47 codes; multi for multi-language mode; Flux is English-only.
-  - Telnyx (Whisper): 50+ languages; auto_detect disables the hint.
-  - Google and Azure: BCP-47 codes.
-  - xAI: short codes such as en, fr, de, ja.
-  - AssemblyAI: automatic multilingual detection and code switching across supported languages.
-  - Speechmatics: standard codes (e.g., en, es) plus Telnyx shorthand for bilingual/multilingual packs (e.g., ar_en); Telnyx maps shorthand internally; no auto; defaults to en if unrecognized.
-- Common codes include en or en-US, en-GB, es, fr, de, pt-BR, it, ja, zh, hi, ar, ko, and multi (Deepgram auto).
+## Interim Results
 
-## Keyword Boosting (Deepgram)
+**Deepgram, Speechmatics, and Soniox only.** Other engines ignore this parameter.
 
-- keyterm (Nova-3 and Flux): comma-separated boosted terms, e.g., keyterm=Telnyx,SIP,WebRTC
-- keywords (Nova/Nova-2 legacy): terms with optional intensifiers, e.g., keywords=Telnyx:2&keywords=telephony:1
-- Which to use: Flux and Nova-3 → keyterm; Nova/Nova-2 → keywords.
+Controls whether the server sends partial (non-final) transcripts as speech is processed. Default: `false`.
 
-## Redaction (Deepgram)
+- **`interim_results=false`** (default) — Server sends only final transcripts. Each message has `is_final: true`.
+- **`interim_results=true`** — Server sends evolving partial transcripts, followed by a final. Partials have `is_final: false` and are replaced by the next message. Partial transcripts have `confidence: 0.0` — confidence is only meaningful on final results.
 
-- Enable with redact parameter; values: pci (credit cards), ssn (US Social Security numbers), numbers (all numeric sequences). Multiple values are comma-separated.
-- Redaction is applied to interim and final results; redacted content is replaced in the transcript text. There is no way to retrieve un-redacted text within that session.
+```
+{"transcript": "Hello", "is_final": false, "confidence": 0.0}
+{"transcript": "Hello, how", "is_final": false, "confidence": 0.0}
+{"transcript": "Hello, how are you?", "is_final": true, "confidence": 0.98}
+```
 
-## Errors and Close Behavior
+## Endpointing
 
-- Invalid parameters produce an error message and the server closes the connection.
-- Error payload structure includes:
-  - errors[].code (string): see list below
-  - errors[].title (short description)
-  - errors[].detail (human-readable explanation)
-  - errors[].source.parameter (the offending query parameter)
-- Common error codes:
-  - 40001 — invalid input_format value
-  - 40002 — format not supported by the chosen engine
-  - 40003 — sample_rate required but missing (raw encodings or Google with non-WAV/FLAC)
-  - 40004 — sample_rate is not a valid positive integer
-  - 40005 — invalid sample rate for the codec (e.g., amr_nb must be 8000)
-  - 40006 — format not supported by Flux
-  - 40007 — invalid transcription_engine value
+**Deepgram, xAI, Google, Speechmatics, and Soniox.** Other engines ignore this parameter.
 
-## Production Patterns and Operational Guidance
+Controls how long the engine waits after silence before finalizing an utterance. Default: `100` ms.
 
-Connection recovery
-- Treat sessions as disposable; reconnect on network failure, server close, idle timeout, and process restart.
-- On unexpected close: stop sending audio, preserve buffered audio as needed, reconnect, then resume streaming.
-- On parameter errors: log the code/title/detail/parameter and fix configuration before retrying.
-- For graceful shutdown: send CloseStream and wait for final transcripts before closing the socket.
+- **Integer (ms)** — Finalize after this many ms of silence. Lower = faster but more splits.
+- **`"false"`** — Disable endpointing entirely. No automatic utterance boundaries.
 
-Backoff strategy
-- Use bounded exponential backoff with jitter (e.g., 250 ms, 500 ms, 1 s, 2 s, then max ~5 s) and add 0–500 ms random jitter. Reset the counter after a stable connection.
+**Soniox has a different valid range**: when `transcription_engine=Soniox`, this parameter maps to `max_endpoint_delay_ms` and must be between 500 and 3000 ms. Values outside that range are rejected. Soniox endpointing is disabled unless a value in the 500–3000 ms range is provided.
 
-Handling partials
-- When interim_results=true: render is_final=false text as temporary; replace it as newer partials arrive; only commit is_final=true to storage. Treat utterance_end=true as a segment boundary and do not render the empty transcript.
+**Trade-offs:**
+- Low values (50–100 ms) — Fast response. Utterances may split mid-sentence on short pauses. (Deepgram, xAI, Google, Speechmatics only — below Soniox minimum.)
+- High values (300–1000 ms) — More complete sentences. Higher latency before finalization.
+- Soniox range (500–3000 ms) — Minimum 500 ms.
+- Disabled (`"false"`) — No automatic splits. Use `Finalize` control messages to manually trigger boundaries, or rely on `CloseStream` for a single final transcript.
 
-Audio buffering and flow control
-- Send binary frames of ~2–8 KB. Maintain a bounded queue (e.g., 5–10 seconds). Apply backpressure: pause or drop low-priority audio when full. Prefer dropping stale live audio over sending it late.
-- Keep a short rolling buffer only if you need retranscription after reconnect.
+When endpointing triggers, Deepgram sends the final transcript followed by an utterance end event:
 
-Keepalive and heartbeats
-- Deepgram: send {"type":"KeepAlive"} during long silences.
-- Other engines: rely on client ping/pong when available and reconnect on missed heartbeats.
+```
+{"transcript": "Hello, how are you?", "is_final": true}
+{"transcript": "", "is_final": true, "utterance_end": true}
+```
 
-Monitoring
-- Track connection attempts, duration, close code/reason, error codes, audio queue depth, partial-to-final latency, final transcript count, and empty final count. Log chosen engine/model/format/sample_rate/interim_results; never log API keys or user audio.
+## End-of-Turn Detection
 
-Shutdown
-- Drain audio queue, send CloseStream, wait for finals, then close the WebSocket. Use a timeout and mark the transcript incomplete if finals do not arrive in time.
+**Deepgram Flux only.** These parameters return a 400 error on non-Flux models.
 
-## Pricing
+Flux uses a confidence-based system to decide when a speaker has finished their turn.
 
-- Pricing varies by engine and model. Contact Telnyx sales or see the public pricing page for current rates.
+| Parameter | Type | Default | Description |
+|---|---|---|---|
+| `eot_threshold` | float | `0.7` | Confidence threshold (0.5–0.9) for triggering `EndOfTurn`. Higher = fewer false positives, more latency. |
+| `eager_eot_threshold` | float | — | Confidence threshold (0.3–0.9) for early `EagerEndOfTurn`. Not set by default — setting it enables eager mode. Must be ≤ `eot_threshold`. |
+| `eot_timeout_ms` | integer | `5000` | Maximum silence in ms (500–10000) before forcing `EndOfTurn` regardless of confidence. |
 
-## Example: Stream a WAV File in Python
+**Event flow without eager mode:**
 
-import asyncio
-import json
-import websockets
+```
+Speech → silence → confidence ≥ eot_threshold → EndOfTurn
+Speech → silence → timeout (eot_timeout_ms) → EndOfTurn
+```
 
-API_KEY = "YOUR_API_KEY"
-AUDIO_FILE = "audio.wav"
+**Event flow with eager mode:**
 
-async def transcribe():
-    url = (
-        "wss://api.telnyx.com/v2/speech-to-text/transcription"
-        "?transcription_engine=Deepgram"
-        "&model=nova-3"
-        "&input_format=wav"
-        "&interim_results=true"
-    )
-    headers = {"Authorization": f"Bearer {API_KEY}"}
+```
+Speech → silence → confidence ≥ eager_eot_threshold → EagerEndOfTurn
+  → speaker stays silent → confidence ≥ eot_threshold → EndOfTurn
+  → speaker resumes → TurnResumed (cancel speculative work)
+```
 
-    async with websockets.connect(url, extra_headers=headers) as ws:
-        async def listen():
-            async for message in ws:
-                data = json.loads(message)
-                prefix = "FINAL" if data.get("is_final") else "partial"
-                print(f"[{prefix}] {data.get('transcript', '')}")
+**Configuration profiles:**
 
-        listener = asyncio.create_task(listen())
+- **Default** — balanced for general use: `?eot_threshold=0.7&eot_timeout_ms=5000`
+- **Low-latency** — fast response, more false starts: `?eager_eot_threshold=0.4&eot_threshold=0.7&eot_timeout_ms=6000`
+- **High-reliability** — fewer interruptions, more latency: `?eot_threshold=0.85&eot_timeout_ms=8000`
 
-        with open(AUDIO_FILE, "rb") as f:
-            while chunk := f.read(4096):
-                await ws.send(chunk)
-                await asyncio.sleep(0.05)
+Typical `eager_eot_threshold` range: 0.3–0.5 for ~150–250 ms latency savings at the cost of ~50–70% more LLM calls.
 
-        await asyncio.sleep(3)
-        await ws.send(json.dumps({"type": "CloseStream"}))
-        listener.cancel()
+## Keyword Boosting
 
-asyncio.run(transcribe())
+**Deepgram only.** Other engines ignore these parameters.
+
+| Model | Parameter | Format |
+|---|---|---|
+| Flux | `keyterm` | Comma-separated terms, no intensifiers |
+| Nova-3 | `keyterm` | Comma-separated terms, no intensifiers |
+| Nova-2 | `keywords` | `keyword:intensifier` format |
+| Nova | `keywords` | `keyword:intensifier` format |
+
+Examples:
+
+```
+?keyterm=Telnyx,WebRTC,SIP
+?keywords=Telnyx:2&keywords=telephony:1
+```
+
+## Redaction
+
+**Deepgram only.** Other engines ignore this parameter.
+
+Replaces sensitive data in transcripts with placeholder text. Multiple values can be comma-separated.
+
+| Value | Redacts |
+|---|---|
+| `pci` | Credit card numbers |
+| `ssn` | Social Security numbers |
+| `numbers` | All numeric sequences |
+
+Redacted content is replaced in the transcript text. There is no way to get the un-redacted version once redaction is enabled for a session.
+
+```
+{"transcript": "My card number is [REDACTED]", "is_final": true}
+```
+
+## Wire Protocol
+
+### Client → Server
+
+**Audio data** — Binary WebSocket frames containing raw audio bytes. No base64, no JSON wrapping. Recommended chunk size: 2048–8192 bytes.
+
+**Control messages** — JSON text frames with a `type` field:
+
+| Type | Effect | Engine support |
+|---|---|---|
+| `Finalize` | Flush audio buffer, force a final transcript | Deepgram only |
+| `CloseStream` | End session, close connection gracefully | Deepgram, Speechmatics, Soniox |
+| `KeepAlive` | Reset idle timeout | Deepgram only |
+
+Unknown text frames are silently ignored.
+
+### Server → Client
+
+All server messages are JSON text frames.
+
+**Transcription result** — Emitted for each recognized speech segment (partial or final):
+
+| Field | Type | Present | Description |
+|---|---|---|---|
+| `transcript` | string | Always | Transcribed text |
+| `is_final` | boolean | Always | `true` = finalized segment. `false` = interim (may revise). |
+| `speech_final` | boolean | Deepgram | `true` = speaker stopped talking |
+| `confidence` | float | When available | 0.0–1.0 confidence score |
+| `utterance_end` | boolean | Deepgram | `true` = silence-triggered utterance boundary |
+
+**Utterance end** — Emitted on speaker pause (Deepgram). Empty transcript, `is_final: true`.
+
+**Error** — Emitted on validation or connection errors. Connection closes shortly after.
+
+### Message Flow Examples
+
+**`interim_results=false`** (default):
+
+```
+Client:  [binary audio frames]
+Server:  {"transcript": "Hello, how are you today?", "is_final": true, "speech_final": true, "confidence": 0.98}
+Client:  [binary audio frames]
+Server:  {"transcript": "I'm doing well.", "is_final": true, "speech_final": true, "confidence": 0.95}
+Client:  {"type": "CloseStream"}
+         [connection closed]
+```
+
+**`interim_results=true`**:
+
+```
+Client:  [binary audio frames]
+Server:  {"transcript": "Hello", "is_final": false, "speech_final": false}
+Server:  {"transcript": "Hello, how are", "is_final": false, "speech_final": false}
+Server:  {"transcript": "Hello, how are you today?", "is_final": true, "speech_final": true, "confidence": 0.98}
+```
+
+Partials are best-effort and may revise. Only `is_final: true` results are stable.
