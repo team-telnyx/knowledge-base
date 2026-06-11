@@ -131,6 +131,16 @@ def install_workspace(workspace: str, compiled_wiki_root: Path, wiki_root: Path)
     return {"installed_from": src.as_posix(), "installed_to": dest.as_posix()}
 
 
+def remove_workspace_indexes(wiki_root: Path) -> dict[str, object]:
+    """Delete per-workspace index files after the root index has been flattened."""
+
+    removed: list[str] = []
+    for index_path in iter_workspace_indexes(wiki_root):
+        index_path.unlink()
+        removed.append(index_path.as_posix())
+    return {"removed_count": len(removed), "removed": removed}
+
+
 def iter_workspace_indexes(wiki_root: Path) -> Iterable[Path]:
     for path in sorted(wiki_root.glob("*/index.md")):
         if path.parent.name.startswith("."):
@@ -208,6 +218,9 @@ def main() -> None:
     install.add_argument("--compiled-wiki-root", type=Path, required=True)
     install.add_argument("--wiki-root", type=Path, default=Path("wiki"))
 
+    remove_indexes = subparsers.add_parser("remove-workspace-indexes")
+    remove_indexes.add_argument("--wiki-root", type=Path, default=Path("wiki"))
+
     rebuild = subparsers.add_parser("rebuild-root-index")
     rebuild.add_argument("--wiki-root", type=Path, default=Path("wiki"))
 
@@ -218,6 +231,8 @@ def main() -> None:
         result = strip_content_hashlines(args.path)
     elif args.command == "install-workspace":
         result = install_workspace(args.workspace, args.compiled_wiki_root, args.wiki_root)
+    elif args.command == "remove-workspace-indexes":
+        result = remove_workspace_indexes(args.wiki_root)
     elif args.command == "rebuild-root-index":
         result = rebuild_root_index(args.wiki_root)
     else:  # pragma: no cover - argparse enforces this

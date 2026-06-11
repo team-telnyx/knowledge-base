@@ -103,7 +103,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          git add wiki/index.md wiki/support-docs/index.md wiki/support-docs/articles
+          git add wiki/index.md wiki/support-docs/articles
           if git diff --cached --quiet; then
             echo "No wiki corpus changes to commit."
             exit 0
@@ -118,13 +118,13 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if ! git diff --quiet -- wiki/index.md wiki/support-docs/index.md wiki/support-docs/articles; then
+          if ! git diff --quiet -- wiki/index.md wiki/support-docs/articles; then
             echo "Incremental wiki corpus changes are required for this PR."
             echo "Run locally:"
             echo "  git diff --name-only ${{ steps.changes.outputs.base_sha }} ${{ steps.changes.outputs.head_sha }} -- 'support-docs/**/*.md' > changed-support-docs.txt"
             echo "  python scripts/incremental_support_docs_wiki.py --changed-files-file changed-support-docs.txt"
             echo "Then commit the generated wiki changes."
-            git diff --stat -- wiki/index.md wiki/support-docs/index.md wiki/support-docs/articles
+            git diff --stat -- wiki/index.md wiki/support-docs/articles
             exit 1
           fi
           echo "Generated wiki corpus is up to date for changed support docs."

@@ -7,7 +7,7 @@ GitHub/Pylon workflow we only want the changed article represented in the corpus
 
 - added/modified support-doc article -> write one deterministic wiki page
 - deleted support-doc article -> remove that deterministic wiki page, if present
-- update wiki/index.md and wiki/support-docs/index.md by upserting only those links
+- update wiki/index.md by upserting only those links
 
 The existing synthesized LLMWiki corpus remains untouched. New/changed support docs
 land under wiki/support-docs/articles/ so the operation is small and reviewable.
@@ -342,9 +342,6 @@ def main() -> int:
                 written.append(output_path.as_posix())
             if upsert_index_entry(args.wiki_root / "index.md", article.wiki_rel, index_entry(article)):
                 index_updates += 1
-            workspace_rel = Path(article.wiki_rel).relative_to("support-docs").as_posix()
-            if upsert_index_entry(args.wiki_root / "support-docs" / "index.md", workspace_rel, index_entry(article).replace(f"]({article.wiki_rel})", f"]({workspace_rel})")):
-                index_updates += 1
         else:
             wiki_rel = wiki_rel_for_deleted_support_doc(source_path, args.source_root, args.wiki_root, args.output_subdir)
             if not wiki_rel:
@@ -354,9 +351,6 @@ def main() -> int:
                 output_path.unlink()
                 removed.append(output_path.as_posix())
             if remove_index_entry(args.wiki_root / "index.md", wiki_rel):
-                index_updates += 1
-            workspace_rel = Path(wiki_rel).relative_to("support-docs").as_posix()
-            if remove_index_entry(args.wiki_root / "support-docs" / "index.md", workspace_rel):
                 index_updates += 1
 
     summary = {

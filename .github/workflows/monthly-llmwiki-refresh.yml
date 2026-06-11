@@ -1,4 +1,4 @@
-name: Monthly Support Docs LLMWiki Refresh
+name: Monthly LLMWiki Refresh
 
 on:
   schedule:
@@ -10,6 +10,10 @@ on:
         description: "LLMWiki git ref to run"
         required: false
         default: "main"
+      max_pages:
+        description: "Max developers.telnyx.com pages to scrape"
+        required: false
+        default: "5000"
       max_workers:
         description: "Concurrent LLM synthesis workers"
         required: false
@@ -20,17 +24,18 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: monthly-support-docs-llmwiki-refresh
+  group: monthly-llmwiki-refresh
   cancel-in-progress: false
 
 env:
   LLMWIKI_REPO: team-telnyx/LLMWiki
   LLMWIKI_REF: ${{ inputs.llmwiki_ref || 'main' }}
+  MAX_PAGES: ${{ inputs.max_pages || '5000' }}
   MAX_WORKERS: ${{ inputs.max_workers || '4' }}
 
 jobs:
-  support-docs-refresh:
-    name: Full compile support-docs workspace
+  refresh:
+    name: Scrape/compile dev-docs and full-compile support-docs
     runs-on: ubuntu-latest
     timeout-minutes: 360
     steps:
@@ -68,6 +73,15 @@ jobs:
             --source-root support-docs \
             --llmwiki-dir ../LLMWiki | tee support-source-prep.json
 
+      - name: Scrape developers.telnyx.com source snapshot
+        working-directory: ../LLMWiki
+        run: |
+          set -euo pipefail
+          uv run wiki scrape \
+            --source dev-docs \
+            --max-pages "$MAX_PAGES" \
+            2>&1 | tee ../knowledge-base/dev-scrape.log
+
       - name: Full compile support-docs with LLMWiki
         working-directory: ../LLMWiki
         env:
@@ -76,38 +90,66 @@ jobs:
           LLM_PROXY_MODEL_DEFAULT: ${{ secrets.LLM_PROXY_MODEL_DEFAULT }}
         run: |
           set -euo pipefail
-          rm -rf dist/wiki wikis/support-docs/.work
+          rm -rf ../dist-support wikis/support-docs/.work
           uv run wiki compile \
             --wiki-name support-docs \
+            --out-dir ../dist-support \
             --grouping llm \
             --max-workers "$MAX_WORKERS" \
             2>&1 | tee ../knowledge-base/support-compile.log
 
+      - name: Full compile dev-docs with LLMWiki
+        working-directory: ../LLMWiki
+        env:
+          LITELLM_PROXY_API_KEY: ${{ secrets.LITELLM_PROXY_API_KEY }}
+          LITELLM_PROXY_API_BASE: ${{ secrets.LITELLM_PROXY_API_BASE }}
+          LLM_PROXY_MODEL_DEFAULT: ${{ secrets.LLM_PROXY_MODEL_DEFAULT }}
+        run: |
+          set -euo pipefail
+          rm -rf ../dist-dev wikis/dev-docs/.work
+          uv run wiki compile \
+            --wiki-name dev-docs \
+            --out-dir ../dist-dev \
+            --grouping area \
+            --max-workers "$MAX_WORKERS" \
+            2>&1 | tee ../knowledge-base/dev-compile.log
+
       - name: Strip volatile content hashlines
         run: |
           python scripts/monthly_llmwiki_refresh.py strip-content-hashlines \
-            --path ../LLMWiki/dist/wiki/support-docs | tee support-strip-hashlines.json
+            --path ../dist-support/support-docs | tee support-strip-hashlines.json
+          python scripts/monthly_llmwiki_refresh.py strip-content-hashlines \
+            --path ../dist-dev/dev-docs | tee dev-strip-hashlines.json
 
-      - name: Install compiled support-docs workspace
+      - name: Install compiled workspaces and flatten the only committed index
         run: |
           python scripts/monthly_llmwiki_refresh.py install-workspace \
             --workspace support-docs \
-            --compiled-wiki-root ../LLMWiki/dist/wiki \
+            --compiled-wiki-root ../dist-support \
             --wiki-root wiki | tee support-install.json
+          python scripts/monthly_llmwiki_refresh.py install-workspace \
+            --workspace dev-docs \
+            --compiled-wiki-root ../dist-dev \
+            --wiki-root wiki | tee dev-install.json
           python scripts/monthly_llmwiki_refresh.py rebuild-root-index \
-            --wiki-root wiki | tee support-root-index.json
+            --wiki-root wiki | tee root-index.json
+          python scripts/monthly_llmwiki_refresh.py remove-workspace-indexes \
+            --wiki-root wiki | tee remove-workspace-indexes.json
 
       - name: Build PR summary
         id: summary
         shell: bash
         run: |
           set -euo pipefail
+          SCRAPED_COUNT=$(find ../LLMWiki/wikis/dev-docs/sources/dev-docs -name '*.md' | wc -l | tr -d ' ')
           {
             echo "## Summary"
-            echo "- Full LLMWiki recompile for the checked-in support-docs corpus only."
+            echo "- Single monthly LLMWiki refresh for both corpora."
+            echo "- Scraped developers.telnyx.com, prepared checked-in support-docs, then compiled each corpus with its appropriate grouping strategy."
             echo "- Pulled compiler from \`${LLMWIKI_REPO}@${LLMWIKI_REF}\`."
+            echo "- Scraped \`${SCRAPED_COUNT}\` dev-doc Markdown source pages."
             echo "- Stripped generated \`content_hash:\` hashlines before committing, per David O'Connell's recommendation."
-            echo "- Rebuilt \`wiki/index.md\` from workspace indexes while preserving dev-docs entries."
+            echo "- Committed one flattened \`wiki/index.md\`; generated per-workspace indexes are removed before commit."
             echo
             echo "## Compiler SHA"
             echo '```'
@@ -125,26 +167,26 @@ jobs:
             echo "has_changes=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Open monthly support-docs refresh PR
+      - name: Open monthly LLMWiki refresh PR
         if: steps.summary.outputs.has_changes == 'true'
         shell: bash
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          BRANCH="bot/monthly-support-docs-llmwiki-refresh-$(date -u +%Y-%m)-${GITHUB_RUN_ID}"
+          BRANCH="bot/monthly-llmwiki-refresh-$(date -u +%Y-%m)-${GITHUB_RUN_ID}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$BRANCH"
           git add wiki
-          git commit -m "docs: monthly support docs LLMWiki refresh"
+          git commit -m "docs: monthly LLMWiki refresh"
           git push -u origin "$BRANCH"
           gh pr create \
             --base main \
             --head "$BRANCH" \
-            --title "docs: monthly support docs LLMWiki refresh" \
+            --title "docs: monthly LLMWiki refresh" \
             --body-file pr-body.md
 
       - name: No corpus changes
         if: steps.summary.outputs.has_changes != 'true'
-        run: echo "No support-docs wiki changes to publish."
+        run: echo "No wiki corpus changes to publish."
