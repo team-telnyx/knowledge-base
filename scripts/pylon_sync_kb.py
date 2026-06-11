@@ -65,8 +65,6 @@ class PylonClient:
         self.delay_seconds = delay_seconds
 
     def request(self, method: str, path: str, body: dict[str, Any] | None = None) -> dict[str, Any]:
-        if self.delay_seconds:
-            time.sleep(self.delay_seconds)
         data = None
         headers = {
             "Authorization": f"Bearer {self.token}",
@@ -75,14 +73,34 @@ class PylonClient:
         if body is not None:
             data = json.dumps(body, separators=(",", ":")).encode("utf-8")
             headers["Content-Type"] = "application/json"
-        req = urllib.request.Request(f"{API_BASE}{path}", data=data, method=method, headers=headers)
-        try:
-            with urllib.request.urlopen(req, timeout=90) as resp:
-                payload = resp.read().decode("utf-8")
-                return json.loads(payload) if payload else {}
-        except urllib.error.HTTPError as exc:
-            response = exc.read().decode("utf-8", errors="replace")
-            raise RuntimeError(f"Pylon {method} {path} failed with HTTP {exc.code}: {response[:1000]}") from exc
+
+        last_error = ""
+        for attempt in range(1, 7):
+            if self.delay_seconds:
+                time.sleep(self.delay_seconds)
+            req = urllib.request.Request(f"{API_BASE}{path}", data=data, method=method, headers=headers)
+            try:
+                with urllib.request.urlopen(req, timeout=90) as resp:
+                    payload = resp.read().decode("utf-8")
+                    return json.loads(payload) if payload else {}
+            except urllib.error.HTTPError as exc:
+                response = exc.read().decode("utf-8", errors="replace")
+                last_error = f"HTTP {exc.code}: {response[:1000]}"
+                if exc.code == 429 or 500 <= exc.code < 600:
+                    retry_after = exc.headers.get("Retry-After")
+                    try:
+                        sleep_for = float(retry_after) if retry_after else min(60.0, 5.0 * attempt)
+                    except ValueError:
+                        sleep_for = min(60.0, 5.0 * attempt)
+                    print(
+                        f"Pylon {method} {path} returned {exc.code}; retrying in {sleep_for:.1f}s "
+                        f"(attempt {attempt}/6)",
+                        file=sys.stderr,
+                    )
+                    time.sleep(sleep_for)
+                    continue
+                raise RuntimeError(f"Pylon {method} {path} failed with {last_error}") from exc
+        raise RuntimeError(f"Pylon {method} {path} failed after retries with {last_error}")
 
     def list_paginated(self, path: str) -> list[dict[str, Any]]:
         rows: list[dict[str, Any]] = []
