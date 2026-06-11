@@ -6,33 +6,19 @@ summary: 'Covers two major Telnyx Voice capabilities: STIR/SHAKEN call authentic
   model selection, and provider migration).'
 sources:
 - url: https://developers.telnyx.com/docs/voice/stir-shaken/attestation-behavior/index
-  content_hash: e71721006805ece97317b6a2ce287bded0ee694d74cd96070f8efb6ec4546534
 - url: https://developers.telnyx.com/docs/voice/stir-shaken/hosted-cert
-  content_hash: 8a1cedc407a7eeed8a1f689a60c15c545dc6394a4ce0d4d664a31846b54b856b
 - url: https://developers.telnyx.com/docs/voice/stir-shaken/sip-header-parameters
-  content_hash: ddcbe69b5d283081160304794571d8ad56e52cca94e1f55ac224d31fe3f9ac5f
 - url: https://developers.telnyx.com/docs/voice/stt/in-call-transcription/index
-  content_hash: a17bf544d2f5411cb7a1e10bd8204fae4fb499a8debccef66cb9d596da2c280c
 - url: https://developers.telnyx.com/docs/voice/stt/migration
-  content_hash: 8273de02389d2c31f810a359f89523eeb2a64aa43286be196c610a805e479cdc
 - url: https://developers.telnyx.com/docs/voice/stt/models
-  content_hash: 637078dde1176884102bdc0e61dcc482b32bdee3552c24cbf5158b865a6a1426
 - url: https://developers.telnyx.com/docs/voice/stt/overview/index
-  content_hash: 3cd2887c1a24d01ca417a1e3a2f2e7e7db6cd92449fb5a77027b8cadb348015f
 - url: https://developers.telnyx.com/docs/voice/stt/rest-api/index
-  content_hash: 277f6f5e42acfabb557c1b22f1293ce8235db0e343e8af493560f9071b12fa36
 - url: https://developers.telnyx.com/docs/voice/stt/rest-api/parameters/audio-formats
-  content_hash: c75d57b2ceae2c7f6f780f4385e6a545f6dcc11d41a7cca25441d1add888572f
 - url: https://developers.telnyx.com/docs/voice/stt/rest-api/parameters/index
-  content_hash: 3856e7e0bf451af19678e8ba5f19deb2fffe5ebab69aa15c93f0ee331521f964
 - url: https://developers.telnyx.com/docs/voice/stt/rest-api/parameters/model-config
-  content_hash: afd719ffe51051e3855f74439d0eba8bde4e617f527163f25e99321d501562d6
 - url: https://developers.telnyx.com/docs/voice/stt/rest-api/parameters/models
-  content_hash: 262aa6764992fbe5d612843b7bfe1044f0ddfb4a118cb7cb7038d64fb2ae28aa
 - url: https://developers.telnyx.com/docs/voice/stt/rest-api/parameters/response
-  content_hash: 56bd4f643fc6734d46569c545513342da1a4a2e611b863a525edb13ea879d8dc
 - url: https://developers.telnyx.com/docs/voice/stt/rest-api/pricing
-  content_hash: d6959b095ff36f9266a76bb3ba3f39c0cd75fd2f49e2b4bb7e1d3a7b480f23d6
 updated_at: 2026-06-11T10:47:02Z
 ---
 

@@ -6,25 +6,15 @@ summary: Toll-Free numbers on Telnyx require verification before sending outboun
   topics such as opt-out handling, webhook notifications, and number porting.
 sources:
 - url: https://support.telnyx.com/en/articles/10729979-toll-free-verification-request-guide
-  content_hash: b686f9918f8f56de652bf15acf4cbf8e746da09154937eff1d6faa660f34f0aa
 - url: https://support.telnyx.com/en/articles/11898569-toll-free-opt-in-workflow-description
-  content_hash: 0135186e7b4fd205be673cc95b9ad6c8e30e89e905c085cd4157bf7efe3aabc3
 - url: https://support.telnyx.com/en/articles/12650709-how-to-pick-a-toll-free-use-case
-  content_hash: 206304a57044394aac7a609baf4be472c03ceee1447f9d2acf7f69b396d0235a
 - url: https://support.telnyx.com/en/articles/13765655-compliance-catch-up-why-toll-free-verification-now-mirrors-10dlc
-  content_hash: 5ee6a03aefda713deafa0ae83b16bf07fd2dec44809ec471d7c40c5ac40f1e26
 - url: https://support.telnyx.com/en/articles/14286763-forbidden-messaging-use-cases-in-the-us-and-canada-10dlc-toll-free-and-short-code
-  content_hash: 43bdb2eabd3bc3d48a149584065c6066b73726c25ecc0ae49b63f997ae66da3e
 - url: https://support.telnyx.com/en/articles/15138019-toll-free-carrier-rejections
-  content_hash: 2d5cf51c514e71e157dba2fbcf416914b8ce9b9aef54e73d86ac21085db352eb
 - url: https://support.telnyx.com/en/articles/5353868-toll-free-messaging
-  content_hash: da947cbf3c93bc63dd00aca6f9271eb7b8aade9000cd5752e28fb21327517f30
 - url: https://support.telnyx.com/en/articles/6989758-toll-free-opt-out-words
-  content_hash: ffddea700ce5dce3372ec56ece6a70c99416d1eeff831cd3365835e1171b774f
 - url: https://support.telnyx.com/en/articles/8269305-appeal-level-2-verification-status
-  content_hash: 0359479f1a54f703908e8dbe4cd931cde68a43a5469a9a88dd61a6f072e384c3
 - url: https://support.telnyx.com/en/articles/8673249-us-ca-toll-free-number-porting
-  content_hash: 8097a44aff492ea1e8cc159bb25603f72d88dfb326bec5d45ee750403e85a78d
 updated_at: 2026-06-11T11:12:33Z
 ---
 

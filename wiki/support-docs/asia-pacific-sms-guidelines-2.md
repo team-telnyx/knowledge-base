@@ -5,31 +5,18 @@ summary: Country-specific SMS guidelines for destinations across the Asia-Pacifi
   and delivery considerations.
 sources:
 - url: https://support.telnyx.com/en/articles/6592456-angola-sms-guidelines
-  content_hash: 69041587767ba2827e2959cabb72f8b0ef8ed9930ab3e8616315117e1dd3cfdf
 - url: https://support.telnyx.com/en/articles/6600934-brunei-darussalam-sms-guidelines
-  content_hash: 92c453f23399e0ca47b5ba12c0a48f3dbae60217388b62c1a9e50c7d06008a61
 - url: https://support.telnyx.com/en/articles/6674367-hong-kong-sms-guidelines
-  content_hash: f38d47da5d8595e8158722080bda790119852514f1ce2513b28297cae2301e5b
 - url: https://support.telnyx.com/en/articles/6674476-japan-sms-guidelines
-  content_hash: 51eeeee9bcd7a7ce49741f186438b1b0479c4066ea88978176cd3be06dd028af
 - url: https://support.telnyx.com/en/articles/6679031-new-caledonia-sms-guidelines
-  content_hash: 865f59db10b02b8045abd5103efbbf46dcd25a781d30aba7df1418154ba5363f
 - url: https://support.telnyx.com/en/articles/6679036-new-zealand-sms-guidelines
-  content_hash: 178422367dab89c14790ea0012fb376f57c844767451984cf9b3204e62614bea
 - url: https://support.telnyx.com/en/articles/6679161-palau-sms-guidelines
-  content_hash: d2bf99b10cedcd5bbd2e8e699cc4bc36a724d809e6899d50621b8e30a23064ac
 - url: https://support.telnyx.com/en/articles/6680103-singapore-sms-guidelines
-  content_hash: 8ad3383cd3baf2418f080d0eb5e7922880e71cff3e9f2ba7469632389693c22c
 - url: https://support.telnyx.com/en/articles/6683277-taiwan-sms-guidelines
-  content_hash: 1ba7197237ab0b9942de8eed3c482f53e4c00012ba3f9c4215f610e17344cedc
 - url: https://support.telnyx.com/en/articles/6683302-thailand-sms-guidelines
-  content_hash: 172fa22348203377f53724ba5b7121162138d25988dd255cef021424402831e0
 - url: https://support.telnyx.com/en/articles/6683467-vietnam-sms-guidelines
-  content_hash: 92f442dce2fb7d3e67e305edf90c49bdf593761c05e051a3ddb339b786089974
 - url: https://support.telnyx.com/en/articles/6683726-kiribati-sms-guidelines
-  content_hash: 81ba82ed302add12a0c9529f510812de7c7c7e02bed2a844831dc3c09972d964
 - url: https://support.telnyx.com/en/articles/6683734-korea-sms-guidelines
-  content_hash: 5bbd0ce1aef28051e52fa0fe7cd2ccde433c215e66d016eca0077d4154c78660
 updated_at: 2026-06-11T11:22:38Z
 ---
 

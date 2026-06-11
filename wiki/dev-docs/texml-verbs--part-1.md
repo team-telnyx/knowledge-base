@@ -5,29 +5,17 @@ summary: A reference guide to all TeXML verbs — XML instructions used to contr
   and usage examples.
 sources:
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/record
-  content_hash: b1e7de22e5dfc3603f792482827743d971ca13e7c10634433b37dee4d446de5f
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/redirect
-  content_hash: 929bc4cfd1bdf813c8cada583ce1851ef5c4b07b102ab972ebef84b614dd7fa7
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/refer
-  content_hash: 1351d94cb364fcdbffcc10835ec065d6c1246472322c0ec153d48e684ad3461f
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/reject
-  content_hash: a7979c780e2824073f61f514d32e080955b25cf70126c86df66307a58de6807e
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/say
-  content_hash: 5dca362eeb4073803c9cc2ce9b054fb2c12e31682444c23a4cef297cd6fd9315
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/siprec
-  content_hash: 8db4546d370cdd8c57f8dfd03ab1e6b05a3c6e6cfc915bc1d2025510cf76c3b5
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/start
-  content_hash: 44cc81e2b16e50a2d475b14b27d7a8f07c99ee65abf3287513e7aba10c8bd6c5
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/stop
-  content_hash: 416e3d6a516e6c045a3292da6c34566d52ff8e1b6cd88f549a500339f0d4f9a1
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/stream
-  content_hash: 5566b817fbdaea8050ddd33ecea17a6d5e0995b1952459d58865da0a7af44bd3
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/suppression
-  content_hash: da215b7151f18c98dadb14331511e103ef60273a0f2fe66e08a7c372a445187d
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/transcription
-  content_hash: 50ef432defbb70a77cc272ae72ce39a66d03878b97e74f7c443b1ee5e10800a2
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/tts
-  content_hash: 9bbf80ec6aaf63aa519699bfc34010940806a4146e8e413aa4f5b6c58f8e3c44
 updated_at: 2026-06-11T10:44:32Z
 ---
 

@@ -6,29 +6,17 @@ summary: Reference for the Telnyx Cloud Storage S3-compatible API, covering mult
   and responses.
 sources:
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/multipart-operations/abort-multipart-upload
-  content_hash: dea3f1deffdd04005a68935c156addbc8cad07231094c6c9f4f24cc6cd25b546
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/multipart-operations/complete-multipart-upload/index
-  content_hash: b66db916180a1f5b3de32f0d508f5a3cc4c68a1fb6282615b39ca19bb6c10246
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/multipart-operations/create-multipart-upload/index
-  content_hash: 4068d3bcc4747f054dbf6218a165d3a624989fe9e93061b5c1427593d6eb95be
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/multipart-operations/list-multipart-uploads
-  content_hash: ee01f643a0cfee3fd89226bcdff8b2e38f5b8b8db69e6ea112c4d3c0f8094692
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/multipart-operations/list-parts
-  content_hash: 3ed8eb5343215975a6bf98b45663e3c19358810e4ed1b33c59860538f93d4eff
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/multipart-operations/upload-part/index
-  content_hash: 0cfaa46874a1b59f1a4d2176fb26481ddd20777fd2ed78354627ad2d18ee69ef
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/object-operations/delete-object
-  content_hash: 8eda99d92c525547882b14578344e5b17f87693a439987b6b9838dff6dd3bc9f
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/object-operations/delete-object-tagging
-  content_hash: 622705ee5af57f4d136eed587965fc2bb60c10f7887b5ad7623cf5f6ca0d2ef5
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/object-operations/delete-objects
-  content_hash: 5445b19bd980c81c8960a9e399bdcc50359e16d0afe9e05607fd4114fd229664
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/object-operations/get-object
-  content_hash: 366484e0e4a80684a62bdacbebca0a838493f11af9b34ad50763dd7f537ec674
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/object-operations/get-object-acl
-  content_hash: 5bb9cd874e28a6d954106bbaddc015383de9c95b6fbb943c8641baaba8a32dfa
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/object-operations/get-object-tagging
-  content_hash: 6cde84ad935cf8c9111e196507fb1f41b1acfe0bbb977ae242f9255892c641f8
 updated_at: 2026-06-11T10:24:17Z
 ---
 

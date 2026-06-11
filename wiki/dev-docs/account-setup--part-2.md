@@ -5,23 +5,14 @@ summary: How to create a Telnyx account, understand the Trial-Paid-Verified-Ente
   data locality.
 sources:
 - url: https://developers.telnyx.com/docs/account-setup/account-upgrade
-  content_hash: 6fc6483e714d069f3d54c110137f41039c7e735ccf7de5a00501df88fda0401a
 - url: https://developers.telnyx.com/docs/account-setup/create-account
-  content_hash: 685d6e4748abe65bb617357869c041ef2794163305cbab7a9cc9b34c63c333c3
 - url: https://developers.telnyx.com/docs/account-setup/data-locality
-  content_hash: 6dfe2e7310ed18ac10bcd516d71d3bf0a1d630807f0ae28978a759e00d04c968
 - url: https://developers.telnyx.com/docs/account-setup/levels-and-capabilities/index
-  content_hash: 6fe0740e9f547fd386fd3e370a286085eb37a0dc94c7e4f84442566b9d66dcab
 - url: https://developers.telnyx.com/docs/account-setup/levels-and-capabilities/paid
-  content_hash: b6cc578f16726956d109ea96579b0ecc04fdeeb790dbe22b8a0ef0038f2e20c4
 - url: https://developers.telnyx.com/docs/account-setup/levels-and-capabilities/trial
-  content_hash: 09b6fa8b90a8055f10297192686c40927990b84960f408d2db1b089d6cc7af24
 - url: https://developers.telnyx.com/docs/account-setup/levels-and-capabilities/verified
-  content_hash: 2a0a503b45c72adbdc5a65e657693f425554e3e1a368bd820c1e8c02897ee513
 - url: https://developers.telnyx.com/docs/account-setup/signup
-  content_hash: e29e4a1651c9533ae48c954616b75432c2673a9579e8d0d02d557286267374a8
 - url: https://developers.telnyx.com/docs/account-setup/using-trial-account
-  content_hash: cfac7d607f5a2fbccf422b84b62b6a5e2f088e6eb6e6ce86462bed8bacecc08d
 updated_at: 2026-06-11T10:23:30Z
 ---
 

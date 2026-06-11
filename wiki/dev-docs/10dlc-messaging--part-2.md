@@ -7,27 +7,16 @@ summary: 10DLC (10-Digit Long Code) is the industry standard for application-to-
   messaging throughput limits across AT&T, T-Mobile, and other carriers.
 sources:
 - url: https://developers.telnyx.com/docs/messaging/10dlc/10dlc-rate-limits/index
-  content_hash: 9943ccfddd1c957dfe7878e5b4986f8fa9835d971ebd1b91e66f6da6a1a2712d
 - url: https://developers.telnyx.com/docs/messaging/10dlc/brand-registration/index
-  content_hash: 669ecf4a319d95ef7d8118e55118d4f6fa117267b9d14ddf62f6cae43aa0a8c6
 - url: https://developers.telnyx.com/docs/messaging/10dlc/campaign-registration/index
-  content_hash: d844d00c269f33c0327211f2c101598026d3bbb2c11f93b00d4ea81d113bf3ee
 - url: https://developers.telnyx.com/docs/messaging/10dlc/campaign-use-cases
-  content_hash: c73f74bb5dc7965cc6dd20978b78cf8e20385f1e182e850388d958c0d69700c4
 - url: https://developers.telnyx.com/docs/messaging/10dlc/event-notifications/index
-  content_hash: aef723a2d6f3c487373aa6d0158ed211985e6ec1ee5015195bc074b22a4dda5a
 - url: https://developers.telnyx.com/docs/messaging/10dlc/isv-reseller-onboarding
-  content_hash: af3fbd26d75cd780f923a80eb807b01a62035c2e6b93f238fd8c5906deb3a793
 - url: https://developers.telnyx.com/docs/messaging/10dlc/phone-number-assignment
-  content_hash: e7abb4216aadda176b528fc5534f03401c3920a1f26bb71b96f9c5467da1bbe3
 - url: https://developers.telnyx.com/docs/messaging/10dlc/quickstart/index
-  content_hash: d6e1b878528e10807fceeb1eac0dd13795f0fb71164c24bde7c30e4f0fced486
 - url: https://developers.telnyx.com/docs/messaging/10dlc/sole-proprietor/index
-  content_hash: 3a06ac956d054b870c43e88ec1bca52a6e8e6aa911aba3859735a40813023013
 - url: https://developers.telnyx.com/docs/messaging/10dlc/troubleshooting/index
-  content_hash: 216718dde2f7d3ed58832aeb8b1249d7b3d20bdccc6a4a0588225f99cb48a3ef
 - url: https://developers.telnyx.com/docs/messaging/getting-started/choosing-your-sender-type/index
-  content_hash: 754e129874cf330ed7df6e6c4f06b5f1ef44d65a1ed1774f6b453188cdba8a22
 updated_at: 2026-06-11T10:36:45Z
 ---
 

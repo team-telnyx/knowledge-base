@@ -5,37 +5,21 @@ summary: A comprehensive reference for number porting requirements across Europe
   (LOA) templates, porting procedures, and country-specific rules.
 sources:
 - url: https://support.telnyx.com/en/articles/3266409-austria-number-porting
-  content_hash: 82469caddf0b985ff9be106ced7b05eb4963aed5097a16eb9706ae62d5dab023
 - url: https://support.telnyx.com/en/articles/3266421-belgium-number-porting
-  content_hash: 0351c6e3a5e9ab0ef70989a271040350c6ade7bfeac7ffa1ae3f94f55d093e80
 - url: https://support.telnyx.com/en/articles/3266720-denmark-number-porting
-  content_hash: 0dcce4fb29ca472e3489ff1951219e954608410956935eebe45e1afca6f1b5e8
 - url: https://support.telnyx.com/en/articles/3266934-finland-number-porting
-  content_hash: d906bac2ae47ad45de90405df6105f4994a8947416c1ea04a8e59968e45392ba
 - url: https://support.telnyx.com/en/articles/3266956-france-number-porting
-  content_hash: bd375f2bf0a88b526eca1bdc985ddfc4c218ae50c7e16c1b61ada40421baf5b0
 - url: https://support.telnyx.com/en/articles/3266960-germany-number-porting
-  content_hash: 70268072127acd5897ccf0c242036ccef92ad73672f3b63b41749946fc288a20
 - url: https://support.telnyx.com/en/articles/3266983-ireland-number-porting
-  content_hash: 7d2314f80660aeb69419d220d5f5bbd151d0ef33b1bd290b5d46317e80b0f878
 - url: https://support.telnyx.com/en/articles/3267012-italy-number-porting
-  content_hash: b6e30e31e661f8466c8079ee4238ca2f32d8949d8828c3cd28593abfd26e99ef
 - url: https://support.telnyx.com/en/articles/3267124-netherlands-number-porting
-  content_hash: 499404ea49b980c7605fa7d7f974da472fa48569e78cd14247a16348bf0c31d9
 - url: https://support.telnyx.com/en/articles/3267566-cyprus-number-porting
-  content_hash: 825501aa920f46d2378d4b74fc24632fedc4d0c3f10356e9a8acb5cc0696b4e3
 - url: https://support.telnyx.com/en/articles/3267595-spain-number-porting
-  content_hash: 1df43f9d77a27b583eaab7bc08a4be062afbe7d3b739e2e395ebeccd7b8e6707
 - url: https://support.telnyx.com/en/articles/3267626-switzerland-number-porting
-  content_hash: 17a9605b07c1944d81eb45cdbd06f61d6c36e599dc52409dbf680f3aa914c927
 - url: https://support.telnyx.com/en/articles/3267693-united-kingdom-number-porting
-  content_hash: 00c548b19b2ba3e1289e3e74cb5c0988e34ada4953800bbc8f99acde9cdce3b0
 - url: https://support.telnyx.com/en/articles/3275772-sweden-number-porting
-  content_hash: 2081ad7083c6d94cbdca622fa6c4d39f0143a3d7d47c145d447ecec7262437a5
 - url: https://support.telnyx.com/en/articles/4377462-norway-number-porting
-  content_hash: 6f66439e325cecc97a475c8ec20a207def5a8702a71f96633f0b93562d3caeb1
 - url: https://support.telnyx.com/en/articles/5188555-luxembourg-number-porting
-  content_hash: ac2ddf880b45ae74934e26c06e2d35e10cee41fec96bd1bff11f54c147935b87
 updated_at: 2026-06-11T11:16:01Z
 ---
 

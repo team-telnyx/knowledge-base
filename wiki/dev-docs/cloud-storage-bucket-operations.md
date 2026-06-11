@@ -7,27 +7,16 @@ summary: Reference for Telnyx Cloud Storage bucket-level API operations, which a
   PutBucketTagging, PutBucketVersioning).
 sources:
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/get-bucket-policy-status
-  content_hash: e7309c8585a325a9f7646fde8b0bb6a101d716ad9920513678d37588ee7f0bb2
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/get-bucket-tagging
-  content_hash: 36b548778be13b6ce9d0a9f78867813fdbed720b8c9a8ef9ee68617a7b3c2977
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/get-bucket-versioning
-  content_hash: 1e9541fa7be1d5856d41ab3136c0d49215666b92f100910cfb65aff65d270932
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/head-bucket
-  content_hash: b279ec592c25ea35f53ae2c1c2612acd39ed0354fd23f8d06fcdb4f1013c4f89
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/list-bucket
-  content_hash: 1777780a4b3e11bad2be84703a2ad9e5ac7a268aec3dc50790e37893c449a86c
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/put-bucket-acl/index
-  content_hash: 0bd5c06b4e68647c4435e152bd07e9853091e84f3ddefb09edb36c8fcd7493b5
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/put-bucket-cors
-  content_hash: d8e86f79098416ae0aa2ba4c5d5bb8d819014bba29123431be6a00fb94a40a30
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/put-bucket-life-cycle-configuration
-  content_hash: 324262e167065a6081c00b116b4ac42c02d8618710f716ef68346cb3923d5c61
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/put-bucket-policy/index
-  content_hash: 980305a0027e7ed9806ac211c31b4c495764174ab294c1807f34ceccb98f1a31
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/put-bucket-tagging
-  content_hash: a81fe2cdfed2ec445aff513775dc7abff8df667d9647e1c1c1d03b6a2cd0ab8a
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/put-bucket-versioning
-  content_hash: 0601b1a7a12349604de7691cb7a14a3cbc7ed62e51c969c3cff5943a9b0560b2
 updated_at: 2026-06-11T10:23:15Z
 ---
 

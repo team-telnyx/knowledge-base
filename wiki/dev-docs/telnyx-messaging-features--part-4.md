@@ -6,27 +6,16 @@ summary: Covers Telnyx messaging capabilities including MMS SMIL templates, Stic
   and message sending.
 sources:
 - url: https://developers.telnyx.com/docs/messaging/messages/smil-template
-  content_hash: d29aa01a72d9457e2c15bca36d1a114fad0d8a8fd2d7b721484dbeb7d7ea9663
 - url: https://developers.telnyx.com/docs/messaging/messages/sticky-sender/index
-  content_hash: b60693e817349ec8df4be29ac868e8661434934e8c3047b7acc28151d7d666ae
 - url: https://developers.telnyx.com/docs/messaging/messages/url-shortening/index
-  content_hash: 4c488d1b1e1c401b24857bbee9b2dc380feeb3307e7bce07ecaa412fe56d304f
 - url: https://developers.telnyx.com/docs/messaging/messages/zapier-integration
-  content_hash: aad83743cb42ebbc89f6978b6f626af75781bd0d86f1dc76eec2c92463a1daa1
 - url: https://developers.telnyx.com/docs/messaging/toll-free-verification/index
-  content_hash: 4252b4aba3308d22e312c4bfc31ff2bf8b9dad3363bc6fa0d6dd8cc1765f4379
 - url: https://developers.telnyx.com/docs/messaging/toll-free-verification/troubleshooting
-  content_hash: 73f55d4531a2ff98fb6c9a7234dfb34e6b4429f9a1fdbc66b6c62d286cb29463
 - url: https://developers.telnyx.com/docs/messaging/whatsapp/embedded-signup
-  content_hash: 2ed927e07af5e37713ddd6b340998cd8842b6303ef28e2428218537475463b8c
 - url: https://developers.telnyx.com/docs/messaging/whatsapp/embedded-signup/tech-provider
-  content_hash: bb93e5d911b134f7064cd7997b82d901cca70eae5ee880c925434e16bb05f284
 - url: https://developers.telnyx.com/docs/messaging/whatsapp/manage-templates
-  content_hash: ed0efe6efb4a082f13f54662244ee901249886ad4eed11780a77d535efca8e89
 - url: https://developers.telnyx.com/docs/messaging/whatsapp/quickstart/index
-  content_hash: abd0f4264c0b578171e98a4800bc241b283f1640a411eb55d283297c41637ae9
 - url: https://developers.telnyx.com/docs/messaging/whatsapp/send-messages/index
-  content_hash: 6c916c387118b87a1258ad874d5461c0bf493edb141be63764cac4cb36a2cdcb
 updated_at: 2026-06-11T10:38:44Z
 ---
 

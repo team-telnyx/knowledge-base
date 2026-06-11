@@ -6,25 +6,15 @@ summary: A comprehensive guide to Telnyx Programmable Voice features including A
   patterns.
 sources:
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/ai-assistant-start
-  content_hash: 98741f32636161f55901706f46f8e1a44a9f23beb18370224ae446aa9a5bfd6f
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/answering-machine-detection
-  content_hash: d7a369042ca143eb9760583149e142a1545bfb5d5630b46841e04080ab398b40
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/call-center
-  content_hash: 6743698486c30f4d9b6e0f9371ad72d04ae17b4c418bbcf4f1a1a72199ebcf9f
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/call-tracking
-  content_hash: 8762f879ea7719ba40f6a5fa4721b21367249a69fc022fc96c8486d34a5727f8
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/command-retries
-  content_hash: b6066b6a288f076617936c05582dd192c18263aa82d134eb52d14ab3a28b0518
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/conferencing-demo
-  content_hash: 3de81d6148a7dd75fa2e2a36839abfc788546f0cfc98d4d7fbe35bc199cafbd7
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/conversation-relay
-  content_hash: 4b83741b3c773a4d36e4e5341557ead15eccf01625794e18a563f358764f1ecd
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/deepfake-detection
-  content_hash: 25876583acfa3c5273554542ce524d05df1e663e9dd47fbd5d433dbd4ae70aaf
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/dialogflow-es
-  content_hash: 0eccef25db89c30146704f1f025caac64b7b6a7fa062c496cf916f0ab68ba133
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/gather-using-ai/index
-  content_hash: d2375c9c573083bca6581989d01b376e1cd7c24b5ae1c9a835ca334a49ec6df3
 updated_at: 2026-06-11T10:41:58Z
 ---
 

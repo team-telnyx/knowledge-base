@@ -7,27 +7,16 @@ summary: Configure a Telnyx SIP trunk on Fanvil IP phones across the H-series (H
   the web GUI layout and field names vary slightly between firmware generations.
 sources:
 - url: https://support.telnyx.com/en/articles/6056428-fanvil-a32i-telnyx-setup
-  content_hash: b266cd43acfb5779e25efab0594e1eb08f949139781b235260bb08bfb318f057
 - url: https://support.telnyx.com/en/articles/6202755-fanvil-h2u-compact-ip
-  content_hash: 07d2ec29a8dd0d2e63b1d7f16382f063e8c528776fd7fb91bb4920c995382bf2
 - url: https://support.telnyx.com/en/articles/6202965-fanvil-h3-hotel-ip
-  content_hash: df53100fcb255d5491a5b5796b093dcc026d30136bf96134afc27db2b5a033e1
 - url: https://support.telnyx.com/en/articles/6203347-fanvil-h3w-h5w-wifi-ip
-  content_hash: 2b5d57391bb96e78fcd8d615dbc15f709e24d99bc9d6d21ef7615825cb9141c4
 - url: https://support.telnyx.com/en/articles/6203401-fanvil-h5-hotel-ip
-  content_hash: f9428ca288c9a9048b2c312801f718701a19568c6eb93d47729d123512bcc7eb
 - url: https://support.telnyx.com/en/articles/6206533-fanvil-x1-x1p-ip-phone
-  content_hash: 4528c82a0b2952a178b295d713de70572ffd246c75bdd66f095bdc9b5a4daec0
 - url: https://support.telnyx.com/en/articles/6206756-fanvil-x2cp-x2c-x2p-call-center-ip
-  content_hash: 039d146574411cd40dd4fc41cfcb30b160aca4766e751e91bc67aed8fde09d19
 - url: https://support.telnyx.com/en/articles/6209215-fanvil-x7-series-ip-phones
-  content_hash: e96c0c9fd809fd6752ae5534707ed3d8775afeb4de9c39af5608fc65e0cbd421
 - url: https://support.telnyx.com/en/articles/6209862-fanvil-v-series-ip-phones
-  content_hash: f3f12a4367beb8c282d19942ec53b4831f7b58ca92940ae431a92f7cc29c3da1
 - url: https://support.telnyx.com/en/articles/6209971-fanvil-x-series-ip-phone
-  content_hash: c47714052fa3f174a314be35f8ae8737d151c1570d14816914e2092dbd07284c
 - url: https://support.telnyx.com/en/articles/6210147-fanvil-xu-series-ip-phone
-  content_hash: 9eee924d3bce4bce7fa3e6a5560b1be9fa1d5c38a15dce9188a55ceecd36048d
 updated_at: 2026-06-11T11:29:47Z
 ---
 

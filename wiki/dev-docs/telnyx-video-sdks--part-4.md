@@ -6,21 +6,13 @@ summary: Telnyx Video Rooms provide a real-time audio, video, and screen-share p
   with Telnyx.
 sources:
 - url: https://developers.telnyx.com/docs/video/android-client-sdk
-  content_hash: 7230b41146e3a6bdc50ae5c6906c158e5938177ce4916adf38f5246f0379789f
 - url: https://developers.telnyx.com/docs/video/get-started/index
-  content_hash: 4a8b12fd54cb2addeb6012b4c1270463b99c3588387686a479c204346139f963
 - url: https://developers.telnyx.com/docs/video/ios-client-sdk
-  content_hash: aa7c3284af98900dfd128454c2f648435c50ce615b47b6596ce922fea3b2c74b
 - url: https://developers.telnyx.com/docs/video/javascript-sdk/index
-  content_hash: 2795b93096ae650de721364e955a12d28e8e7c18ee96e785b80795ffd89523f1
 - url: https://developers.telnyx.com/docs/video/javascript-sdk/javascript-video-tutorial
-  content_hash: 0bfd39b1a48ae6f3a85d0a8adb4744c20f4e74ab48b38b1624ee3e63edfd5ae8
 - url: https://developers.telnyx.com/docs/video/javascript-sdk/room-events
-  content_hash: a433db2aded6a73e8472b085ebe3c98eac836ab39b4e7ec548b6d6813304d24e
 - url: https://developers.telnyx.com/docs/voice/outbound-voice-profiles
-  content_hash: 990ff92ea817f97ee8ee20fe8e3e95aa4a967e6d550f12368d8d3b1aa57b1cdc
 - url: https://developers.telnyx.com/docs/voice/overview/index
-  content_hash: 021018458a01a48106693b027d7ca00d5e0560ff763aa5557e854994cff10ec9
 updated_at: 2026-06-11T10:40:58Z
 ---
 

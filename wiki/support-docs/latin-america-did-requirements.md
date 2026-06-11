@@ -5,15 +5,10 @@ summary: Requirements for purchasing DID numbers in Latin American countries thr
   type in Brazil, Chile, Colombia, Mexico, and Uruguay.
 sources:
 - url: https://support.telnyx.com/en/articles/3362891-uruguay-did-requirements
-  content_hash: 09e2d965e106dcaf72c6eab5de3888fc59cbdd1684a3c002a9878327db8e50b4
 - url: https://support.telnyx.com/en/articles/5464041-brazil-did-requirements
-  content_hash: 219165cbc16364fe42f7417779292633f46a2d670503c9b4651a2d5a747296e5
 - url: https://support.telnyx.com/en/articles/5464057-chile-did-requirements
-  content_hash: ae359bc0671eb7bd7b9a78e82f7d39a8d339e515af79404b913e71a05b6a918b
 - url: https://support.telnyx.com/en/articles/5464069-colombia-did-requirements
-  content_hash: 5e3d423af6c2a350aeedea2bf7ed59803de60c8e3f54a8643fb68a6d5a900592
 - url: https://support.telnyx.com/en/articles/5466793-mexico-did-requirements
-  content_hash: af07320ec9dc52550d7250c244af921b7c50cbefdc4496166a79885fba36d85e
 updated_at: 2026-06-11T11:17:25Z
 ---
 

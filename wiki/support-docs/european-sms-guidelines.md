@@ -5,33 +5,19 @@ summary: Country-specific SMS guidelines for European destinations on the Telnyx
   URL filtering, and other regulatory considerations.
 sources:
 - url: https://support.telnyx.com/en/articles/6531704-united-kingdom-sms-guidelines
-  content_hash: a996136827a304a171c2072c61ed424bf0d98acc2dcc793f229a37fab4d6655b
 - url: https://support.telnyx.com/en/articles/6545161-ireland-sms-guidelines
-  content_hash: 8a430509e2eafe42c49d6ede0739a849fde6fea76965b55fdc48135ae8b092b8
 - url: https://support.telnyx.com/en/articles/6560665-denmark-sms-guidelines
-  content_hash: 48cdbf4def4bebcb092bdfeb72356e6b6ce289ed8fd6a823015965f9562efcdf
 - url: https://support.telnyx.com/en/articles/6560689-sweden-sms-guidelines
-  content_hash: 554e108df44973a2ebdcf7a0765127724298a604ec11c5042c2a4ffc61e0c9cf
 - url: https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines
-  content_hash: 68deba9fb8d00eaf27beb086323853aac7ad3cbb6c07d0ae3395276184111826
 - url: https://support.telnyx.com/en/articles/6560706-finland-sms-guidelines
-  content_hash: c04931a0f135129f242aae730fa4bb4e517f8066aef69ea6563c7dc213c691c7
 - url: https://support.telnyx.com/en/articles/6560909-iceland-sms-guidelines
-  content_hash: cb2c9051df3ca8988b42358502e644f1f54feb408db50aebcfa1a7332a9f8c75
 - url: https://support.telnyx.com/en/articles/6560919-estonia-sms-guidelines
-  content_hash: 213539a46a382e0ff46cc6b6780e7737acfbd33c62988b8c9abdc7155316f27c
 - url: https://support.telnyx.com/en/articles/6560973-lithuania-sms-guidelines
-  content_hash: 9bbb78fa6698b9a67d2f6ab895caf45dc38f93687078a48826f565921c3954e1
 - url: https://support.telnyx.com/en/articles/6561115-latvia-sms-guidelines
-  content_hash: c64d770583340859f5fbf027b4c37503a41081ca4add30e8b07baed1d5092751
 - url: https://support.telnyx.com/en/articles/6670775-faroe-islands-sms-guidelines
-  content_hash: 80bc4f7ae4193cb20fb9713a5a1549c4f0c7be13d9856fa21182b74067b0ea3f
 - url: https://support.telnyx.com/en/articles/6670885-greenland-sms-guidelines
-  content_hash: 06997ecbdd4190d40ba324a2c67fa6c92a163bd353ce95f21b39fc0c23336a6f
 - url: https://support.telnyx.com/en/articles/6674651-kosovo-sms-guidelines
-  content_hash: c84ccd1e51cf09c643eb1cc92365b27e80000ab0f3e5fce9021b5a3251ce2794
 - url: https://support.telnyx.com/en/articles/6680109-slovakia-sms-guidelines
-  content_hash: cadc91aefedee604d6688509ef691867cc2d869fd385a94e525f8dd209b45bf9
 updated_at: 2026-06-11T11:18:28Z
 ---
 

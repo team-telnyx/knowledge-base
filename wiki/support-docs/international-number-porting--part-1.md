@@ -5,13 +5,9 @@ summary: A guide to porting phone numbers to Telnyx across Australia, New Zealan
   timeframes, document requirements, and the porting process for each country.
 sources:
 - url: https://support.telnyx.com/en/articles/3266212-australia-number-porting
-  content_hash: d316ced3b9476b634d900c855f43dd6a65453dfdd5ac13d6b8a22f0a3c823f98
 - url: https://support.telnyx.com/en/articles/3267206-new-zealand-number-porting
-  content_hash: 8c73f92714578141a5d9f51e4db1a21377ac92db3cbd2d271a2b3eaf3480770e
 - url: https://support.telnyx.com/en/articles/6138781-turkey-number-porting
-  content_hash: a9b670b019c9c33cf59d2ae97475510ef11e007b9f43fb99fd53c55c7b194205
 - url: https://support.telnyx.com/en/articles/7235002-singapore-number-porting
-  content_hash: 33831797f54561ff4c57eca9472e1b684f69a77fe5c77ecdccf6838036d0de6e
 updated_at: 2026-06-11T11:13:46Z
 ---
 

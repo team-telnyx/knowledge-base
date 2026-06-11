@@ -5,41 +5,23 @@ summary: A comprehensive reference for number porting requirements across the Am
   post-porting SIP trunk configuration for Yeastar P-Series PBX systems.
 sources:
 - url: https://support.telnyx.com/en/articles/13194814-french-guiana-number-porting
-  content_hash: 922272283505eec2edcc0f110cec39f5d048d8edbb3a35d4ab8fe2c7cf0feec8
 - url: https://support.telnyx.com/en/articles/13194884-mayotte-number-porting
-  content_hash: e529f953f1d8c13acae3393c31dbb9614db023537c4c339f19f4b21e782b05fd
 - url: https://support.telnyx.com/en/articles/13194922-reunion-number-porting
-  content_hash: 28fc54b0d4b4e8eefb4a9268b31f353dde06220a58d9cad4056e90d0752c60f1
 - url: https://support.telnyx.com/en/articles/13194951-saint-barth-and-saint-martin-number-porting
-  content_hash: 9700779d271dcb3a51b0d5df4b867396bf4de91ca406f26acbec87cc6063a2aa
 - url: https://support.telnyx.com/en/articles/13375115-how-to-configure-yeastar-p-series
-  content_hash: 555ec71758470fd80318df18f7a4a7b6fc341a7bf09fc87b3378850f227525c8
 - url: https://support.telnyx.com/en/articles/3266425-brazil-number-porting
-  content_hash: 6f6440913c69aaebc6a4b869a423397fda8bee4801234acff5ce1a2bf3a5bc6c
 - url: https://support.telnyx.com/en/articles/3266430-canada-number-porting
-  content_hash: ecf43534d4e3dce74b51c077e1f20c1aee18a297f11a4cc7c2b5574fb7ee70ba
 - url: https://support.telnyx.com/en/articles/3266652-chile-number-porting
-  content_hash: e3b80d00ff58011950cdf5f8a6d4df1aab1b762cc34048b3695bb22434387b8d
 - url: https://support.telnyx.com/en/articles/3267101-mexico-number-porting
-  content_hash: 1bdff2a66d9075576b2a5e1372815c0f576f3f677f983c624420ed62d91eee45
 - url: https://support.telnyx.com/en/articles/3267250-panama-number-porting
-  content_hash: eafb267dda7ababe609f8ff1c4adf49ed0311db908ea275b559ebad878a1b987
 - url: https://support.telnyx.com/en/articles/3267436-peru-number-porting
-  content_hash: 91fb2e1f563fd4845fb2c41c738a796c12650a7028991fe58b5ed16cfc0cadc3
 - url: https://support.telnyx.com/en/articles/3267535-puerto-rico-number-porting
-  content_hash: 504b420951be9667264b6a6e9478b6740c99b6d4e39a2cd20343b80aba7a8f31
 - url: https://support.telnyx.com/en/articles/3267816-united-states-number-porting
-  content_hash: aecebd9dc3e233a36036aff60e75d9a30be1438113eafb31fde19e691b505344
 - url: https://support.telnyx.com/en/articles/5179083-el-salvador-number-porting
-  content_hash: b40fce62fdd7a363d1b93064df676f2a53104c0aba43accaf2226c0b4576aaf7
 - url: https://support.telnyx.com/en/articles/5190458-the-dominican-republic-number-porting
-  content_hash: 2c1c49b7152b6f02bc9b2e078e15ffbca3ef35505ee36871a668d7c49c193614
 - url: https://support.telnyx.com/en/articles/5954701-guadeloupe-number-porting
-  content_hash: afc654a6398950beb51f1e936fc111de21f3f8c49a7c1073c9891a489f9001fb
 - url: https://support.telnyx.com/en/articles/5954733-martinique-number-porting
-  content_hash: 015a3123def2a477c8eb86bde7e52b61e7c94b2a6730f39ad1cde38f057213bf
 - url: https://support.telnyx.com/en/articles/9271183-argentina-number-portability
-  content_hash: 57ce5a9361c0150ca57e40789ff04e76049aea23ef11c04280319d8347ab223a
 updated_at: 2026-06-11T11:13:44Z
 ---
 

@@ -5,33 +5,19 @@ summary: Step-by-step guides for connecting a wide range of third-party IP PBX s
   inbound/outbound routing, codecs, and device-specific settings.
 sources:
 - url: https://support.telnyx.com/en/articles/5728748-epygi-ip-pbx-telnyx-setup
-  content_hash: 25d49e9855902939435133009ae7b20cf6c79af06a10b30eef1af170e452b1f4
 - url: https://support.telnyx.com/en/articles/5733572-mediatrix-c7-4100-telnyx-setup
-  content_hash: d0b77aa14c7b4c777f45c0354b8b34c6e1509ae78605214601c0e662a985c2c0
 - url: https://support.telnyx.com/en/articles/5754127-xorcom-pbx-sip-trunk
-  content_hash: 0ddb4a3d82c6a191aadac979a8e035f7bfcb3c8560ecb87a70c5a3b9c7c9d5ac
 - url: https://support.telnyx.com/en/articles/5754445-vitalpbx-configuring-your-vitalpbx
-  content_hash: 48634dc63b5d7a3da0ea43ab68c90b6b1bab937f4e5f2f8a0fd5a792f2bca0c3
 - url: https://support.telnyx.com/en/articles/5790910-positron-ip-pbx
-  content_hash: 82e4b0694df175e3f1ba19831a3ad9d38ea2b8776804402224926a0664d773df
 - url: https://support.telnyx.com/en/articles/5798240-pbxes-connecting-a-pbxes-trunk-to-telnyx
-  content_hash: 563c70c713d9c2b34436152dbb7678b8f8f0c975bd763e1c3b5404504068456c
 - url: https://support.telnyx.com/en/articles/5799830-wildix-sip-trunk-setup
-  content_hash: 40cb6bf14218a1ac093bd6b189eb8c0b4584e450ae4a2b460a2eeb43168b2456
 - url: https://support.telnyx.com/en/articles/5800399-synway-uc-200-telnyx-setup
-  content_hash: f0c8d387b62d7159281ee84e30b6405e14416fb860a454fa65931f2e626aac3a
 - url: https://support.telnyx.com/en/articles/5800936-phonesuite-voiceware
-  content_hash: 600e9b7013a61a5a589ea22c87f5219be419f5ba9c8d74b369d364ae6e462a8d
 - url: https://support.telnyx.com/en/articles/5803103-scoptel-ip-pbx
-  content_hash: 6bbea459aa28c22a6bb993dbde67afa4cf47c69f38282e223869206edd4905d8
 - url: https://support.telnyx.com/en/articles/6128008-sipxecs-pbx-setup-config
-  content_hash: 1d7418bced74ba2b1f3bfa0265c0cc94463dc39e4299d1b6094c0aa5e729b30c
 - url: https://support.telnyx.com/en/articles/6128321-dinstar-c60-setup-config
-  content_hash: 8c3c172f33d52c6bde887f9a1ce2413475c71bb15cff93991fd116fef1c11e43
 - url: https://support.telnyx.com/en/articles/6145484-voice-elements-telnyx-sip
-  content_hash: 2b29770f64d24b3a9847ab26bb375df889ccf88e79ce7ec2453ff18492234a82
 - url: https://support.telnyx.com/en/articles/6303467-ubiquiti-trunk-unifi-talk-ip-auth
-  content_hash: 13adee38a783f3cebe8f38a27c1db77e38a7efa387352a7fb6801fc817796311
 updated_at: 2026-06-11T11:28:51Z
 ---
 

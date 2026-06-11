@@ -5,15 +5,10 @@ summary: How to configure Grandstream IP phones and adapters—including the GXP
   SIP calling and faxing.
 sources:
 - url: https://support.telnyx.com/en/articles/1130660-configuring-grandstream-gxp16xx-with-telnyx
-  content_hash: a651066b20e770d097f2fa88a93cf6985a0b9c4b3295a91fc81a360298814d71
 - url: https://support.telnyx.com/en/articles/5725071-grandstream-ht802-telnyx-setup
-  content_hash: d36408a50b43a803c90740a44fb56ccd93d2c1d9afd32e5992abde8b5ddd7a22
 - url: https://support.telnyx.com/en/articles/5808368-grandstream-dp752
-  content_hash: e813aeefa51a0d10472bcf6d9ebbc12afff274476e69058f07ae50985597d9ba
 - url: https://support.telnyx.com/en/articles/5815720-grandstream-gxp-telnyx-setup
-  content_hash: cf43b29433ed3c67b95ef6c89238d2ec11716db66f6fb79a97a6366185959e41
 - url: https://support.telnyx.com/en/articles/5819218-grandstream-gxp21xx
-  content_hash: 4dab62a704117ec649e0377a0311a8d31690a8de9d164c9193f9bf0221f76659
 updated_at: 2026-06-11T11:31:45Z
 ---
 

@@ -5,35 +5,20 @@ summary: Telnyx supports multiple text-to-speech providers — both native model
   a unique voice format, set of models, audio formats, and voice settings.
 sources:
 - url: https://developers.telnyx.com/docs/voice/tts/providers/aws
-  content_hash: d05a4afe85f843d6710bf894dad997b1074e3d796c95417ea88b85ffe206d865
 - url: https://developers.telnyx.com/docs/voice/tts/providers/azure
-  content_hash: ec654193582d0de541ccd10d2b9c91c46ebe5cde8f1b552d2c2ae98c0c1c409a
 - url: https://developers.telnyx.com/docs/voice/tts/providers/elevenlabs
-  content_hash: 32a948591f660725456b7ce9e639a58557dec9e11546920bbc31b19f464d5f4e
 - url: https://developers.telnyx.com/docs/voice/tts/providers/inworld
-  content_hash: d5255967f509383759422b1889672e345e5df624a4cfa3b626c77b257cbf07c3
 - url: https://developers.telnyx.com/docs/voice/tts/providers/minimax
-  content_hash: b2a79b1c7d96a37478b64c29fe2726e9eb8d8fe7545ebae1b5493c75505f5378
 - url: https://developers.telnyx.com/docs/voice/tts/providers/resemble
-  content_hash: 18fa0871d70a11377bad2bad9c7e67270d840d55e971ce92cf5d7070489e1333
 - url: https://developers.telnyx.com/docs/voice/tts/providers/rime
-  content_hash: 644141bdaf60a8b3e08c6c42c4415d260c1a901cf7f547ede8b79dc965717164
 - url: https://developers.telnyx.com/docs/voice/tts/providers/telnyx/grok
-  content_hash: 74bae8c62d9b96f88cb6c4906a2f6f94e9c7648edd770d690680b0196052a423
 - url: https://developers.telnyx.com/docs/voice/tts/providers/telnyx/index
-  content_hash: c1e50146224fdc6777fcd587538087c7229ba397b8f444876e841e839b5dabdd
 - url: https://developers.telnyx.com/docs/voice/tts/providers/telnyx/kokoro
-  content_hash: 41f6e37a603b4f04f48249564d4849795a849a130d4d97709cb491f8451562a9
 - url: https://developers.telnyx.com/docs/voice/tts/providers/telnyx/natural
-  content_hash: 8af10e9cf2009f34fe647cf6d34d7927f3ab9b94ea37dea97034a1b4b2e54584
 - url: https://developers.telnyx.com/docs/voice/tts/providers/telnyx/naturalhd
-  content_hash: 6bb820b1ff640ca6c0a2f553514fa97505f0421cf49b3996098e1ec45794e426
 - url: https://developers.telnyx.com/docs/voice/tts/providers/telnyx/qwen3
-  content_hash: ba5954984204d13271e9c6acff63722223d58dbf02389747a912a211f10c78b6
 - url: https://developers.telnyx.com/docs/voice/tts/providers/telnyx/ultra
-  content_hash: 24123eae6b0b848336c53d08df750e3a3eae5004b5bdb84a2ab4a6d79218cf3f
 - url: https://developers.telnyx.com/docs/voice/tts/providers/xai
-  content_hash: f1bd1d14cb4623fd04fbdcffca4d08cc7bd93791776595d8ee3f1c7df111c142
 updated_at: 2026-06-11T10:46:51Z
 ---
 

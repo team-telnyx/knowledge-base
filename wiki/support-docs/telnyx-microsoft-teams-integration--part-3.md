@@ -7,13 +7,9 @@ summary: 'Telnyx offers three methods to connect Microsoft Teams to the PSTN: Di
   for TLS and SIP Options warnings.'
 sources:
 - url: https://support.telnyx.com/en/articles/5253876-configuring-telnyx-with-microsoft-teams-direct-routing
-  content_hash: 6c22049e56aeaf66305fdc6f791e3aad63069506ec6fdae47f5c1eb87a10f909
 - url: https://support.telnyx.com/en/articles/6133589-ms-teams-call2teams-telnyx
-  content_hash: 92f97ce4469cd016a8dce219785a39266ac4804c29127c2d5795d706863fdff5
 - url: https://support.telnyx.com/en/articles/7260976-operator-connect-guide-microsoft-teams
-  content_hash: 88027e9394fea6ea14e98bd8746b70dcbc6bbfa80583984a6a9f5bb0ef8a7ed2
 - url: https://support.telnyx.com/en/articles/7048813-tls-sip-warnings-for-teams
-  content_hash: 28acc5d5e1ead9de17e8d34eb52b504d95abfd0702d87aea7eed635c00b3e504
 updated_at: 2026-06-11T11:39:52Z
 ---
 

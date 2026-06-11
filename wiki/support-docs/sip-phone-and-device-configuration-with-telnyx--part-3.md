@@ -7,45 +7,25 @@ summary: A consolidated guide for configuring SIP endpoints from multiple manufa
   navigation, TLS/SRTP encryption, codec selection, and troubleshooting.
 sources:
 - url: https://support.telnyx.com/en/articles/5790092-algo-8xxx-telnyx-endpoints
-  content_hash: 43ca570acdf8ebf6af50947bff040e28e24183f6673051cef18a2161a4d93c5b
 - url: https://support.telnyx.com/en/articles/5807663-panasonic-kx-tgp-550
-  content_hash: 1d878fa381b0d731ad7ccc2cdd136a855809ca306a898b9067c3a24e7f93a519
 - url: https://support.telnyx.com/en/articles/5808185-buddytalk-bt110-bt120
-  content_hash: 866e579aeb36008f61ab49040c70d1429fc218655424cad0ad7fb9f4437c0671
 - url: https://support.telnyx.com/en/articles/5810226-fortifone-fon-570
-  content_hash: 70651e5612d9ba764c99554d14d8bd5a25af6f06b40176de119869f58e7e6c79
 - url: https://support.telnyx.com/en/articles/5810663-flyingvoice-telnyx-setup
-  content_hash: 28d39cec6c3e81af149dac9816f242865cf90f411e6f4e8a740aa625d5645f27
 - url: https://support.telnyx.com/en/articles/5811487-fanvil-x4g-telnyx-setup
-  content_hash: 20dc83f187ac9e5af1b5e71f1714b8c1677cadade2d40fa58903cea1e2541470
 - url: https://support.telnyx.com/en/articles/5811545-fortifone-setup-fon-375-175-h25
-  content_hash: c89aadd3c2d42bdac8e226df1256e84dba0b9f3f4c75e80c2fbc6b8004736abb
 - url: https://support.telnyx.com/en/articles/5811761-positron-ip-phone
-  content_hash: 555b1188c4bc60511fb3439fd6d8ead34b36fa82775e1a2cf3080f387f8eb90c
 - url: https://support.telnyx.com/en/articles/5814406-panasonic-kx-hdv-telnyx-setup
-  content_hash: 7e68027552375addf716c64971fd320a371fb080b3a3242ea44635f5dd2de932
 - url: https://support.telnyx.com/en/articles/5815209-gigaset-a510-telnyx-setup
-  content_hash: 205804c4ccf4a39a3fdefd347884de57d1fbda2c1c84d57cafec40d05c995b07
 - url: https://support.telnyx.com/en/articles/5815678-snom-c520-telnyx-setup
-  content_hash: 2e68c5508cdcfdf14e0d1492c675407ddf6f737af0f227593499e829bc6caa97
 - url: https://support.telnyx.com/en/articles/5819923-audiocodes-400hd
-  content_hash: af10c7110f9cfbe7b52cdc198d2dbb1d576c97dee61451ad82533f7377b32ec2
 - url: https://support.telnyx.com/en/articles/5822579-konftel-300ipx-telnyx-setup
-  content_hash: d8d1a62aaade1a708c7623a567f6a9e9182bfb68e0e769c1db3a2bd3269c1551
 - url: https://support.telnyx.com/en/articles/5822706-snom-d7xx-telnyx-setup
-  content_hash: b7337d44aff1aa006de484a7afcab53c5d1ef7f88df83609ed61bedd7fe3c70c
 - url: https://support.telnyx.com/en/articles/5822823-snom-m100-kle-telnyx-setup
-  content_hash: fc2033a52310b276053c73d5f87dc0ff352440551476cf05e0c6f855b6395e7d
 - url: https://support.telnyx.com/en/articles/5822901-vtech-vcs754-telnyx-setup
-  content_hash: 9fbbdf4f96e4268f208b007991818036a0640422e9ba8b368e4bc7bda6ef9a99
 - url: https://support.telnyx.com/en/articles/6060646-gigaset-a690-as690
-  content_hash: 0410b7c3f4457518fca5fab15bc4d8ed88ab43d5ad379e9817d9e8d07250bd21
 - url: https://support.telnyx.com/en/articles/6244551-mitel-5320e-5330e-5340e-sip
-  content_hash: 30c2edf7512d16a10227ccabf0391943a3e72b2a94b2096d4fd9a192bde7c6f9
 - url: https://support.telnyx.com/en/articles/6249691-mitel-6800-6900-sip
-  content_hash: dc8bed8636a3a31bb30b16f23eb273a5b64ad82977918eb6a901159f098333ed
 - url: https://support.telnyx.com/en/articles/6281943-alcatel-sd601-sd602-sip-door
-  content_hash: b8ca5df7332e282dd6fb657ca84dd5e27971a6c762f083d17a823d2007e6aa82
 updated_at: 2026-06-11T11:33:51Z
 ---
 

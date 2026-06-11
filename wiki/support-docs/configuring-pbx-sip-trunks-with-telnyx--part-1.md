@@ -6,19 +6,12 @@ summary: A consolidated guide for connecting enterprise PBX systems—including 
   NAT traversal, inbound routing, and platform-specific configuration steps.
 sources:
 - url: https://support.telnyx.com/en/articles/1130606-configuring-a-cisco-cube-cucm-ip-trunk
-  content_hash: 1641534c34fa540edb01d95e3810d1502907eabbb59045687ec24538b110abd5
 - url: https://support.telnyx.com/en/articles/1130612-cisco-configure-a-cisco-cme-ip-trunk
-  content_hash: d456c5aa82ab5d1ad33033bd6f9e7f5dff364be03ae17781308423938ed6244f
 - url: https://support.telnyx.com/en/articles/1130627-configuring-an-avaya-ip-trunk-with-telnyx
-  content_hash: 3ffae37ef3a030f05481c2fe063d574bbf1b807f7e82b1534ca750432e9ad3eb
 - url: https://support.telnyx.com/en/articles/1130668-configuring-a-cisco-cme-credentials-trunk
-  content_hash: 6f178599aeb8ccbb3f197b4673b694938ff87948e8efa6d86cf8fb63fb204eb7
 - url: https://support.telnyx.com/en/articles/1130673-configuring-a-cisco-cube-cucm-sip-trunk
-  content_hash: 5684e2b733e7a9c3bf6c2eb157b2d50911a9c9199e79eac6952644941bddfe95
 - url: https://support.telnyx.com/en/articles/1130695-configuring-telnyx-sip-trunking-with-avaya
-  content_hash: d292910b69b74f080522cfb140011099cc87881acf7c7add67a069e9c896efd4
 - url: https://support.telnyx.com/en/articles/1130698-skype-set-up-skype-for-biz-sip-trunk
-  content_hash: 579305b4e90eaf859351c0077e8a7158f84e20d2012faf66abbfbf53639ab7fb
 updated_at: 2026-06-11T11:24:50Z
 ---
 

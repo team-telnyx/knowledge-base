@@ -6,31 +6,18 @@ summary: A comprehensive guide to registering, configuring, and maintaining comp
   and approval best practices.
 sources:
 - url: https://support.telnyx.com/en/articles/10562019-guide-to-10dlc-message-flow-field
-  content_hash: 52724a201fd5374074a0eb90e9410468b85a7658feedbe8a9d47840d78861363
 - url: https://support.telnyx.com/en/articles/10684248-10dlc-use-cases
-  content_hash: 1642b9aa15da6996121686960f14303b8ae52ce210e2da3f8d83db58714cc412
 - url: https://support.telnyx.com/en/articles/10684260-10dlc-opt-in-form
-  content_hash: 8ad5cdae420fd7df4a80633f0af9e3ae25b2442e724a222f7a3e1070264f0351
 - url: https://support.telnyx.com/en/articles/11072276-10dlc-number-assignment-status
-  content_hash: 770ca9ba38e331a0bef2ee21c47f1bcb1145a0bc5ca188b8c03c487ac05a2dab
 - url: https://support.telnyx.com/en/articles/5617538-10dlc-shared-campaigns
-  content_hash: e626ef28a6a0be235fefc591464a31366236db066180b4f1bf535dcad173c9c9
 - url: https://support.telnyx.com/en/articles/6325734-how-to-assign-a-number-to-a-campaign
-  content_hash: 2bd820c19999d71842708f2f7ec38f7c7406888e79ed9c0b45dc2eec3f465904
 - url: https://support.telnyx.com/en/articles/6325747-10dlc-trust-scores-use-cases
-  content_hash: d6bd1ec81d473ca63ef7c249bc414517b46feea43b2132519727076e3bfa6773
 - url: https://support.telnyx.com/en/articles/6339152-how-to-create-a-10dlc-campaign
-  content_hash: ba5b36e22886219329a142b32b5efc7c594b903d68df43b065b45e80b485d78b
 - url: https://support.telnyx.com/en/articles/6339158-bring-campaigns-to-telnyx
-  content_hash: 639b3ec94281b897babf04a81683f8dda03b1be42c8865bc196cdaffea808c7a
 - url: https://support.telnyx.com/en/articles/7127078-10dlc-campaign-approval-best-practices
-  content_hash: e8663aa9412e6dc56b01f487761c2cf0bce4e360dd4cf455c7b9a0d3343fdcac
 - url: https://support.telnyx.com/en/articles/8269151-assigning-did-to-a-10dlc-campaign-fails
-  content_hash: 5695a125b887d6ce58992c100db1af80399f925aa5b3dbf4f323ff550d0dc73a
 - url: https://support.telnyx.com/en/articles/9038141-messaging-10dlc-campaign-checklist
-  content_hash: 1672ce4b25969e32d5e38d4007ed007a55568633b07ad0b102d6ef139f1bcf16
 - url: https://support.telnyx.com/en/articles/9940291-10dlc-campaign-compliance-requirements
-  content_hash: 10cadb4c1a4e41ac2d6f453c897e739d96f4e1efe24ab346ee6fed9dd87bcd25
 updated_at: 2026-06-11T11:11:29Z
 ---
 
