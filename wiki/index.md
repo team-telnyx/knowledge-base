@@ -1,17 +1,9 @@
 ---
-title: Telnyx Knowledge Base Index
-updated_at: 2026-05-08T13:15:36Z
+title: Telnyx Knowledge Base
+updated_at: 2026-05-21T08:30:13Z
 ---
 
-# Telnyx Knowledge Base Index
+# Telnyx Knowledge Base
 
-- [LiveKit on Telnyx (Beta)](livekit-on-telnyx-beta.md) — LiveKit on Telnyx is the same LiveKit you know, hosted on Telnyx’s global infrastructure with built‑in telephony and colocated AI models—so you can build, deploy, and scale voice AI agents with lower latency, simpler operations, and a single bill.
-- [Telnyx AI Assistants and Inference: End-to-End Guide](telnyx-ai-assistants-and-inference-end-to-end-guide--part-1.md) — A practical, end-to-end overview of Telnyx AI Assistants and the Inference platform: build a production voice/chat assistant, add tools and multi-agent handoff, integrate enterprise systems, personalize context, observe and test, connect custom LLMs, run outbound missions, and use the OpenAI-compatible API with popular frameworks.
-- [Telnyx Cloud Storage: S3‑Compatible APIs and JSON Companion](telnyx-cloud-storage-s3compatible-apis-and-json-companion--part-1.md) — Telnyx Cloud Storage provides S3‑compatible buckets with regional endpoints and a JSON companion API for presigned URLs, usage, SSL, and migration. This page explains endpoints, authentication, supported features by region, limits, billing, advanced options (multipart, encryption, public access, custom domains, object lock), SDK/CLI tips, and migration from AWS S3.
-- [Telnyx Edge Compute — Developer Guide](telnyx-edge-compute-developer-guide--part-1.md) — A concise, end-to-end guide to building, configuring, deploying, and operating serverless functions on Telnyx’s global edge. Covers runtime and execution model, configuration (env vars, secrets, bindings), routing, performance and reliability patterns, security guidance, KV storage, CI/CD, limits, tutorials, and upcoming features.
-- [Telnyx Identity: Number Lookup and Verify (Quickstart, Templates, Webhooks, Security)](telnyx-identity-number-lookup-and-verify-quickstart-templates-webhooks-security.md) — End‑to‑end guide to Telnyx Identity: perform Number Lookup, set up and send verifications (SMS, Call, Flashcall, and Telnyx‑exclusive DTMF Confirm), use custom message templates, handle webhooks, and harden your integration against fraud.
-- [Telnyx LiveKit Architecture](telnyx-livekit-architecture.md) — Telnyx LiveKit is a managed platform for deploying voice AI agents at scale—you ship agent code while Telnyx manages containers, autoscaling, SIP connectivity, and GPU-accelerated AI inference that’s colocated with your agent runtime in each region.
-- [Telnyx Number Reputation and Enterprises](telnyx-number-reputation-and-enterprises.md) — Learn how Enterprises power Telnyx Number Reputation and Branded Calling, and how to enable reputation monitoring: accept terms, create an enterprise, upload an LOA, configure auto-refresh, register phone numbers, and query spam risk and scores.
-- [Telnyx Unified Glossary: AI, APIs, and Telecom](telnyx-unified-glossary-ai-apis-and-telecom--part-1.md) — A single, consolidated glossary of AI, API, and telecom terms from Telnyx developer documentation—useful for builders working across AI agents, programmable communications, and networked applications.
-- [Telnyx Wireless for IoT: SIMs, Networking, Voice, Monitoring, and Device Guides](telnyx-wireless-for-iot-sims-networking-voice-monitoring-and-device-guides--part-1.md) — A consolidated guide to building and operating IoT fleets on Telnyx Wireless — covering SIM and eSIM provisioning, lifecycle and group policy, data networking options (public internet and Private Wireless Gateways), traffic filtering and geofencing, usage monitoring and troubleshooting, voice with mobile numbers, AT command basics, and step-by-step device setups.
-- [Telnyx account setup, levels, upgrades, and data locality](telnyx-account-setup-levels-upgrades-and-data-locality.md) — Learn how to create a Telnyx account, understand signup checks, navigate account frameworks, use a trial safely, meet requirements to upgrade to Paid or Verified (and Enterprise), and choose where your data is stored at rest.
+- [dev-docs](dev-docs/index.md) — 102 pages.
+- [support-docs](support-docs/index.md) — 82 pages.
