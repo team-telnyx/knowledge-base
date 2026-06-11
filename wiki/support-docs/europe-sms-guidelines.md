@@ -1,109 +1,135 @@
 ---
 title: 'Europe: SMS Guidelines'
-summary: A consolidated reference for sending A2P SMS to select European destinations
-  via Telnyx. It covers MCC/dial codes, alphanumeric Sender ID rules, registration
-  and brand‑protection programs, content and timing restrictions, and important compliance
-  deadlines in Ireland (2025) and Spain (2026).
+summary: A consolidated reference of Telnyx SMS guidelines for European destinations,
+  covering MCC, dial codes, alphanumeric sender ID support, registration requirements,
+  and content restrictions.
 sources:
-- url: https://support.telnyx.com/en/articles/6531704-united-kingdom-sms-guidelines
-- url: https://support.telnyx.com/en/articles/6545161-ireland-sms-guidelines
-- url: https://support.telnyx.com/en/articles/6545130-portugal-sms-guidelines
-- url: https://support.telnyx.com/en/articles/6545140-spain-sms-guidelines
-- url: https://support.telnyx.com/en/articles/6531603-france-sms-guidelines
-- url: https://support.telnyx.com/en/articles/6531675-belgium-sms-guidelines
-- url: https://support.telnyx.com/en/articles/6531581-the-netherlands-sms-guidelines
-- url: https://support.telnyx.com/en/articles/6564006-luxembourg-sms-guidelines
-- url: https://support.telnyx.com/en/articles/6670878-gibraltar-sms-guidelines
-- url: https://support.telnyx.com/en/articles/6670869-germany-sms-guidelines
-- url: https://support.telnyx.com/en/articles/6561154-switzerland-sms-guidelines
-- url: https://support.telnyx.com/en/articles/6560660-austria-sms-guidelines
-updated_at: 2026-05-21T08:11:43Z
+- url: https://support.telnyx.com/en/articles/6531722-italy-sms-guidelines
+  content_hash: ec2048e1d429237f96809183a7df49dab1e806dfa631bf2b09a4d8ce131e4d11
+- url: https://support.telnyx.com/en/articles/6561195-slovenia-sms-guidelines
+  content_hash: 265edcf7f1ce995276fbc21c457ef0499cbba32815454203b68d9db2a47e3631
+- url: https://support.telnyx.com/en/articles/6561206-hungary-sms-guidelines
+  content_hash: 1a74d15f5ef2455e5560b54008ac36afc228bebbeef60221b10aea93b0400dc7
+- url: https://support.telnyx.com/en/articles/6561237-czech-republic-czechia-sms-guidelines
+  content_hash: 93975b70d391a876eaf8538b57b7b47b8fa5755d0c70b4c5bcc536658a49a37e
+- url: https://support.telnyx.com/en/articles/6561262-romania-sms-guidelines
+  content_hash: c6efa510cb8a3890ebe22448ffc162ddc3098ff5e6fc9175c5588d2fe5d177ab
+- url: https://support.telnyx.com/en/articles/6563817-greece-sms-guidelines
+  content_hash: 9c63f5ecba8124783c2b6778b9a23b13d2000e6860be4de31189720811af2735
+- url: https://support.telnyx.com/en/articles/6563843-croatia-sms-guidelines
+  content_hash: a67eac0596161257011d1b2c7a85cb6072f9993d7a1382b17601e77138e12819
+- url: https://support.telnyx.com/en/articles/6563862-bulgaria-sms-guidelines
+  content_hash: d23970908c2b1bcc93d669936b3b66ac5630c44a87efb683c7ac24b19f2c6836
+- url: https://support.telnyx.com/en/articles/6563879-albania-sms-guidelines
+  content_hash: 7a7b3dc676dcd5c8faf55cb44624805ab2e77bef7506da8e09a7919598d8a660
+- url: https://support.telnyx.com/en/articles/6563890-andorra-sms-guidelines
+  content_hash: f60e1dd2ecf5310636e1f2c3397e979bdf2c70c8287618c7e2d027b80d2eb8ba
+- url: https://support.telnyx.com/en/articles/6665171-cyprus-sms-guidelines
+  content_hash: 92654c63aff93892c37481f07582a5d3432814928d1e4d55d1232f66540337a2
+- url: https://support.telnyx.com/en/articles/6675034-macedonia-north-macedonia-sms-guidelines
+  content_hash: 3278086bc423a4310e7cfdea640209a80f0420610bcfc72339e24d3f4aeb12b9
+- url: https://support.telnyx.com/en/articles/6677964-montenegro-sms-guidelines
+  content_hash: 7537854fcedb50e08605b250d000efe22cf6d7abf2735eda7b14f04de70561dd
+- url: https://support.telnyx.com/en/articles/6683745-serbia-sms-guidelines
+  content_hash: 5ee1143754c04132aa00810d2a0964bf36ad5f7c0d2364fcaecddbc780eaff0c
+updated_at: 2026-06-11T11:19:29Z
 ---
 
 # Europe: SMS Guidelines
 
-A consolidated reference for sending A2P SMS to select European destinations via Telnyx. It covers MCC/dial codes, alphanumeric Sender ID rules, registration and brand‑protection programs, content and timing restrictions, and important compliance deadlines in Ireland (2025) and Spain (2026).
+A consolidated reference of Telnyx SMS guidelines for European destinations, covering MCC, dial codes, alphanumeric sender ID support, registration requirements, and content restrictions.
 
-## Overview
-Most European destinations listed here support alphanumeric Sender IDs without prior registration. Notable exceptions include Belgium (alphas overwritten), France (time-of-day and format rules plus anti‑phishing whitelisting), the United Kingdom (MEF brand protection for certain names), Ireland (mandatory registration phased in during 2025), and Spain (mandatory registration from June 2026). Always ensure your use case complies with local rules and Telnyx’s Acceptable Use Policy for Messaging.
+## Quick Reference Table
 
-## United Kingdom (UK)
-- MCC: 234–235 | Dial code: +44
-- Sender ID: Alphanumeric Sender IDs are supported; no general registration.
-- Brand protection: The MEF Registry protects certain high‑risk/brand Sender IDs against spoofing. Only authorized senders may use protected names; a Letter of Authorization (LOA) is required.
+| Country | MCC | Dial Code | Alpha Sender ID Support | Registration Required? | Content Restrictions |
+|---|---|---|---|---|---|
+| Albania | 276 | 355 | Supported, maintained | No | None |
+| Andorra | 213 | 376 | Supported, maintained | No | None |
+| Bulgaria | 284 | 359 | Partial (network-dependent) | Not possible | None noted |
+| Croatia | 219 | 385 | Supported, maintained | No | None |
+| Cyprus | 357 | 280 | Supported, maintained | No | None |
+| Czech Republic (Czechia) | 230 | 420 | Partial (network-dependent) | Possible for some networks | None noted |
+| Greece | 202 | 30 | Supported with registration | Yes | Opt-in and opt-out recommended |
+| Hungary | 216 | 36 | Not supported (overwritten) | N/A | None noted |
+| Italy | 222 | 39 | Supported, maintained | No | None |
+| Montenegro | 297 | 382 | Supported, maintained | No | None |
+| North Macedonia | 294 | 389 | Supported (occasionally replaced) | No | None |
+| Romania | 226 | 40 | Partial (network-dependent) | No | URLs may be blocked |
+| Serbia | 220 | 381 | Supported with registration | Yes (monthly fees apply) | None noted |
+| Slovenia | 293 | 386 | Supported, maintained | No | None |
 
-## Ireland
-- MCC: 272 | Dial code: +353
-- Registration: ComReg is implementing mandatory registration for alphanumeric Sender IDs.
-  - From July 3, 2025: Unregistered alphanumeric Sender IDs will be overwritten to “Likely Scam”.
-  - From October 3, 2025: Unregistered alphanumeric Sender IDs will be blocked (messages will not deliver).
-- Process: First register as a Sender ID Owner (SIDO) with ComReg and select Telnyx as your Participating Aggregator/OPA. Only the Sender ID owner may register its alphanumeric IDs (ISVs/resellers cannot register on behalf of clients).
-- Help: alpha_sender_id@telnyx.com
-- ComReg SIDO portal: https://www.comreg.ie/industry/electronic-communications/nuisance-communications/sms-sender-id-registry/
+## Full Alphanumeric Sender ID Support
 
-## Spain
-- MCC: 214 | Dial code: +34
-- Registration: Under CNMC Circular 1/2026, alphanumeric Sender IDs must be registered to send SMS to Spain starting June 7, 2026.
-- What to provide (per alias) to alpha_sender_id@telnyx.com:
-  - Company details: legal name, NIF/CIF (or EU‑VAT if outside Spain), registered address.
-  - Legal representative: full name, NIF/passport, mobile number, email.
-  - Sender ID details: exact alias, use case (e.g., transactional/OTP/marketing), planned start/end date (registrations valid max 24 months).
-  - Proof of ownership (one): trademark/trade name certificate (OEPM/EUIPO), company name certificate (Spanish Mercantile Registry), or matching domain ownership (.es or ICANN‑registered domain).
+The following countries support alphanumeric sender IDs without any registration requirement. Sender IDs are maintained as sent and there are no content restrictions:
 
-## France
-- MCC: 208 | Dial code: +33
-- Sender ID: Alphanumeric Sender IDs supported; no general registration.
-- Format: Special characters in alphanumeric Sender IDs are prohibited as of March 1, 2026.
-- Operator handling: For MVNO NRJ (20826) and Truphone (20812), alphanumeric Sender IDs may be replaced by a random local number or a short code.
-- Marketing timing: Promotional/marketing SMS are not allowed on Sundays and French public holidays, and between 22:00 and 08:00. Messages sent during restricted times are queued for later delivery.
-- Opt‑out: Marketing messages must include a clear opt‑out. The fragment “STOP au 36179” must be appended and will be auto‑added if missing.
-- Anti‑phishing: Certain alphanumeric Sender IDs are whitelisted; use requires an LOA.
+- **Albania** (MCC 276, Dial Code 355)
+- **Andorra** (MCC 213, Dial Code 376)
+- **Croatia** (MCC 219, Dial Code 385)
+- **Cyprus** (MCC 357, Dial Code 280)
+- **Italy** (MCC 222, Dial Code 39)
+- **Montenegro** (MCC 297, Dial Code 382)
+- **Slovenia** (MCC 293, Dial Code 386)
 
-## Belgium
-- MCC: 206 | Dial code: +32
-- Sender ID: All alphanumeric Sender IDs are overwritten to a random local long code or a short code to ensure delivery.
+**North Macedonia** (MCC 294, Dial Code 389) also supports alphanumeric sender IDs without registration, but they may occasionally be replaced by a generic alphanumeric sender ID to ensure delivery.
 
-## Germany
-- MCC: 262 | Dial code: +49
-- Sender ID: Alphanumeric Sender IDs supported; no registration required.
-- Content: No additional content restrictions noted.
+## Partial Alphanumeric Sender ID Support
 
-## The Netherlands
-- MCC: 204 | Dial code: +31
-- Sender ID: Alphanumeric Sender IDs supported; no registration required.
-- Content: No additional content restrictions noted.
+### Bulgaria (MCC 284, Dial Code 359)
 
-## Portugal
-- MCC: 268 | Dial code: +351
-- Sender ID: Alphanumeric Sender IDs supported; no registration required.
-- Content: No additional content restrictions noted.
+Alphanumeric sender IDs are partially supported; registration is not possible. Behaviour varies by network:
 
-## Luxembourg
-- MCC: 270 | Dial code: +352
-- Sender ID: Alphanumeric Sender IDs supported; no registration required.
-- Content: No additional content restrictions noted.
+- **Maintained** on Vivacom (28403) and Telenor (28405)
+- **Overwritten** to a random local long code, short code, or generic alphanumeric sender ID on A1 (28401)
 
-## Switzerland
-- MCC: 228 | Dial code: +41
-- Sender ID: Alphanumeric Sender IDs supported; no registration required.
-- Content: No additional content restrictions noted.
+### Czech Republic / Czechia (MCC 230, Dial Code 420)
 
-## Austria
-- MCC: 232 | Dial code: +43
-- Sender ID: Alphanumeric Sender IDs supported; no registration required.
-- Content: No additional content restrictions noted.
+Alphanumeric sender IDs are partially supported. Registration is possible towards T-Mobile (23001) and O2 (23002). Without registration to these networks, alphanumeric sender IDs may be overwritten to a random short code or a generic sender to ensure delivery. Contact [alpha_sender_id@telnyx.com](mailto:alpha_sender_id@telnyx.com) for registration details.
 
-## Gibraltar
-- MCC: 266 | Dial code: +350
-- Sender ID: Alphanumeric Sender IDs supported; no registration required.
-- Content: No additional content restrictions noted.
+### Romania (MCC 226, Dial Code 40)
 
-## Best practices and references
-- Register early where required: Complete Ireland SIDO and Spain alias submissions well in advance of enforcement dates to avoid overwriting or blocking.
-- Use compliant Sender IDs: Avoid special characters in France; be prepared for operator‑side replacement in France (specific MVNOs) and Belgium (system‑wide).
-- Include opt‑out where applicable: In France, ensure “STOP au 36179” is present for marketing messages.
-- Brand protection: If your brand appears in protected/whitelisted programs (UK MEF, France anti‑phishing list), obtain and submit the required LOA before sending.
-- Policy: Review Telnyx’s Acceptable Use Policy for Messaging: https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging
-- Products and definitions: Learn about A2P messaging and short codes:
-  - A2P overview: https://telnyx.com/resources/what-is-a2p-messaging
-  - SMS short codes: https://telnyx.com/products/sms-short-code
+Alphanumeric sender IDs are partially supported:
+
+- **Maintained** on Telekom (22603) and Lycamobile (22616)
+- **Overwritten** to a random short code on Vodafone (22601), Orange (22610), and DigiMobil (22605)
+
+Messages containing URLs can be blocked by local operators. URL whitelisting is possible — contact [alpha_sender_id@telnyx.com](mailto:alpha_sender_id@telnyx.com) for more information.
+
+## Alphanumeric Sender ID Registration Required
+
+### Greece (MCC 202, Dial Code 30)
+
+Alphanumeric sender ID registration is required. All messages from unregistered sender IDs will be rejected.
+
+To register, send the following details along with a copy of your Business Registration to [alpha_sender_id@telnyx.com](mailto:alpha_sender_id@telnyx.com):
+
+1. Sender ID to be registered
+2. Message/content type
+3. Message/content example
+4. Company name (and brand name if different)
+5. Website of brand or company
+6. Company country of origin
+7. Expected volumes per month
+8. Email linked to your Telnyx account
+
+Companies must have a valid business case for the requested alphanumeric sender ID. If the relationship between your company/brand and the requested sender ID is not clear, provide additional supporting documentation detailing your business case.
+
+**Additional recommendations for Greece:**
+
+- Consent (proof of opt-in) should be obtained before sending any marketing SMS
+- Traffic should include clear opt-out options
+
+### Serbia (MCC 220, Dial Code 381)
+
+Alphanumeric sender IDs are supported with registration. Without registration, alpha senders will be overwritten to generic alphanumeric sender IDs. Registration of alphanumeric senders involves monthly fees. Contact [alpha_sender_id@telnyx.com](mailto:alpha_sender_id@telnyx.com) for more information.
+
+## Alphanumeric Sender IDs Not Supported
+
+### Hungary (MCC 216, Dial Code 36)
+
+All alphanumeric sender IDs will be overwritten to either a random local long code or short code to ensure delivery. See [country-specific guidelines for Hungary](https://telnyx.com/country-specific-guidelines) for additional information.
+
+## General Compliance
+
+For all destinations listed above, always refer to the [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging) to ensure compliance with Telnyx messaging requirements.
+
+For alphanumeric sender ID registration inquiries across any destination, contact [alpha_sender_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
