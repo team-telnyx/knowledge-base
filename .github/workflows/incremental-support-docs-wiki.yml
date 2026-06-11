@@ -1,0 +1,130 @@
+name: Incremental Support Docs Wiki Corpus
+
+on:
+  pull_request:
+    paths:
+      - "support-docs/**/*.md"
+      - "scripts/incremental_support_docs_wiki.py"
+      - ".github/workflows/incremental-support-docs-wiki.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "support-docs/**/*.md"
+      - "scripts/incremental_support_docs_wiki.py"
+      - ".github/workflows/incremental-support-docs-wiki.yml"
+  workflow_dispatch:
+    inputs:
+      base_ref:
+        description: "Base ref for changed-file detection"
+        required: false
+        default: ""
+      head_ref:
+        description: "Head ref for changed-file detection"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: incremental-support-docs-wiki-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  incremental-support-docs-wiki:
+    name: Update changed support-doc wiki pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Detect changed support docs
+        id: changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            BASE_SHA="${{ github.event.pull_request.base.sha }}"
+            HEAD_SHA="${{ github.event.pull_request.head.sha }}"
+          elif [[ "${{ github.event_name }}" == "workflow_dispatch" && -n "${{ inputs.base_ref }}" && -n "${{ inputs.head_ref }}" ]]; then
+            BASE_SHA="${{ inputs.base_ref }}"
+            HEAD_SHA="${{ inputs.head_ref }}"
+          else
+            BASE_SHA="${{ github.event.before }}"
+            HEAD_SHA="${{ github.sha }}"
+          fi
+
+          if [[ -z "$BASE_SHA" || "$BASE_SHA" == "0000000000000000000000000000000000000000" ]]; then
+            BASE_SHA="$(git rev-list --max-parents=0 "$HEAD_SHA")"
+          fi
+
+          git diff --name-only --diff-filter=ACMRTD "$BASE_SHA" "$HEAD_SHA" -- 'support-docs/**/*.md' > changed-support-docs.txt
+          COUNT=$(wc -l < changed-support-docs.txt | tr -d ' ')
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "base_sha=$BASE_SHA" >> "$GITHUB_OUTPUT"
+          echo "head_sha=$HEAD_SHA" >> "$GITHUB_OUTPUT"
+          echo "Changed support-doc markdown files: $COUNT"
+          cat changed-support-docs.txt
+
+      - name: Generate incremental wiki corpus updates
+        if: steps.changes.outputs.count != '0'
+        run: |
+          python scripts/incremental_support_docs_wiki.py \
+            --changed-files-file changed-support-docs.txt
+
+      - name: Validate generated markdown
+        if: steps.changes.outputs.count != '0'
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          bad = []
+          for path in Path('wiki').rglob('*.md'):
+              text = path.read_text(encoding='utf-8')
+              if not text.startswith('---\n'):
+                  bad.append(f'{path}: missing frontmatter')
+              if '\n# ' not in text:
+                  bad.append(f'{path}: missing H1')
+          if bad:
+              raise SystemExit('\n'.join(bad))
+          PY
+
+      - name: Commit changes on main
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main' && steps.changes.outputs.count != '0'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add wiki/index.md wiki/support-docs/index.md wiki/support-docs/articles
+          if git diff --cached --quiet; then
+            echo "No wiki corpus changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "docs: update support docs wiki corpus"
+          git push
+
+      - name: Check PR includes generated wiki changes
+        if: github.event_name == 'pull_request' && steps.changes.outputs.count != '0'
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! git diff --quiet -- wiki/index.md wiki/support-docs/index.md wiki/support-docs/articles; then
+            echo "Incremental wiki corpus changes are required for this PR."
+            echo "Run locally:"
+            echo "  git diff --name-only ${{ steps.changes.outputs.base_sha }} ${{ steps.changes.outputs.head_sha }} -- 'support-docs/**/*.md' > changed-support-docs.txt"
+            echo "  python scripts/incremental_support_docs_wiki.py --changed-files-file changed-support-docs.txt"
+            echo "Then commit the generated wiki changes."
+            git diff --stat -- wiki/index.md wiki/support-docs/index.md wiki/support-docs/articles
+            exit 1
+          fi
+          echo "Generated wiki corpus is up to date for changed support docs."
