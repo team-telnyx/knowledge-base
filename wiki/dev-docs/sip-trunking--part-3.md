@@ -6,33 +6,19 @@ summary: Telnyx SIP Trunking provides carrier-grade voice connectivity using SIP
   transfers, and configurable routing with automatic failover.
 sources:
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/emergency-calling-dynamic-e911/index
-  content_hash: 9eb2fe48821c830f63dc0734e6dbff398b9e3b2c6731b4be16518a995f4f2c86
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/features/external-transfers
-  content_hash: 0df4ac40477704bce1951ffc0f6e9d0c0d66aeb9c171cd84ac57c46bb135884a
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/features/jitter-buffer
-  content_hash: 6257d47fdb7d705d255a04e111bf905548a6267d09c97ee632e2e6935214d3b6
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/features/noise-suppression/index
-  content_hash: a68ac69255fe564f1859d60c1b1faae826cddd7258272e05dee44613e4f20211
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/features/sip-uri-calling
-  content_hash: 4b45b1fc043fd33dfdf03cce835b7baacf03eacde4773fb2911b200cf83dc279
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/get-started/index
-  content_hash: 4088d75674f02be51edf153962b16262017f2e333cb110181e0ff86c3fa64857
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/livekit-configuration-guide
-  content_hash: af1ad38a4f37fe678151703eed982474b72377cb42bc0851d12e13a28fec9808
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/network-configuration/ip-whitelisting/index
-  content_hash: 437b009489004c4a93669078625c47e7d7bcff98de193c17eade613518f39a2b
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/network-configuration/srv-records
-  content_hash: fa13c88b62b3e2e2e4ea41e0ae9b87c7d1ef053f68c8969198d5158899f9c719
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/network-configuration/stun-turn-servers
-  content_hash: fb027e19c90bf1c08f40c7a9bf90edadf6b38a675bcc62fd545d1681f5a2ff4f
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/routing/anchorsite-configuration
-  content_hash: 56311f97b6b250e4af9cb9c61d0c4cad3664d4d2536eb8d4773e7d5acae7af0a
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/routing/failover-and-retries/index
-  content_hash: 798b0177d01a4da0305500160f2b542ced47f42330fdecd80713841c935929f2
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/routing/round-robin-routing/index
-  content_hash: 7ee446688bf3dabf8fd77e17a3e53e01add3339fc55500dfcd4566daa0b57451
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/troubleshooting/response-codes/index
-  content_hash: 7ae6b902ba3f38003afa9e50e689249f0393051475ceb27265b0099ef39da6b3
 updated_at: 2026-06-11T10:45:55Z
 ---
 

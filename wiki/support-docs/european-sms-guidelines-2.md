@@ -5,31 +5,18 @@ summary: A consolidated reference for SMS guidelines across European countries s
   requirements, and specific content or routing restrictions.
 sources:
 - url: https://support.telnyx.com/en/articles/6531581-the-netherlands-sms-guidelines
-  content_hash: da9d34dbbd98b9bc36648cd48be422b979e05cf61118122c220ff9ec72762e31
 - url: https://support.telnyx.com/en/articles/6531603-france-sms-guidelines
-  content_hash: 97f064ccd631b467f93583d653cdb82d1c2461e2130029ece4bb372e1d2e73cf
 - url: https://support.telnyx.com/en/articles/6531675-belgium-sms-guidelines
-  content_hash: f3a39b29d75a176c363b0d6fa232d7a1d16eeb2c71d021fe1d920a0b738707af
 - url: https://support.telnyx.com/en/articles/6545130-portugal-sms-guidelines
-  content_hash: ee23fb2a86b31bcdbdf651fc30adbef50c5e39f124d17d250a5bd3580350d7e3
 - url: https://support.telnyx.com/en/articles/6545140-spain-sms-guidelines
-  content_hash: 74cc839a5529d2bcb264415541168828274cb3bb6cc5e93cb164426952d3dd9e
 - url: https://support.telnyx.com/en/articles/6560660-austria-sms-guidelines
-  content_hash: f844781dad024498dc14ae80e5ed77c29be0e65eac4120c0b266f0f9066bba49
 - url: https://support.telnyx.com/en/articles/6561154-switzerland-sms-guidelines
-  content_hash: b49fc2df22b842ed6ec1e9d51e564b1eb77a1abfb609c71a6770411f77611448
 - url: https://support.telnyx.com/en/articles/6564006-luxembourg-sms-guidelines
-  content_hash: 78d938c73cc6c0c18b02c380475e3e5c272821e0ee49d37a6138cd4aef85ee37
 - url: https://support.telnyx.com/en/articles/6670869-germany-sms-guidelines
-  content_hash: 542a92b240be203fe464e053082cbff07c2487b2656d2a4d93b2abaa1691c6de
 - url: https://support.telnyx.com/en/articles/6670878-gibraltar-sms-guidelines
-  content_hash: 69fa292be324a066b039e4987fa5536610cf6415aeb3d1d6370ee9a41737527f
 - url: https://support.telnyx.com/en/articles/6674999-liechtenstein-sms-guidelines
-  content_hash: 31cd185428f452a39abe982c5ce9a4c2b9cb449f346be982eb6d6718fc6dd083
 - url: https://support.telnyx.com/en/articles/6677954-monaco-sms-guidelines
-  content_hash: 94d194ad5e4013013f973ff6bc73fa88daf38e5af1ef921fc5f7727619a151e0
 - url: https://support.telnyx.com/en/articles/6679992-san-marino-sms-guidelines
-  content_hash: 38d572d18fd32666261cfdf0e29c4d73270231b961e841d7aa02ef1de88af8e4
 updated_at: 2026-06-11T11:19:55Z
 ---
 

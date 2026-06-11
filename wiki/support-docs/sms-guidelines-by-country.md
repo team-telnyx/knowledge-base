@@ -5,19 +5,12 @@ summary: Country-specific SMS guidelines including MCC, dial codes, alphanumeric
   messages through Telnyx.
 sources:
 - url: https://support.telnyx.com/en/articles/6531656-australia-sms-guidelines
-  content_hash: 832009226726df127c643f5e83d42bc2616efa0ce65969179228f1d3e384787f
 - url: https://support.telnyx.com/en/articles/6531664-mexico-sms-guidelines
-  content_hash: 95cc49ed6337d00c268e84177dbd8c1a9cbd2f2152067173c3e063ab04f1ef4a
 - url: https://support.telnyx.com/en/articles/6531712-brazil-sms-guidelines
-  content_hash: 76194f4a9c4aa33de03354c7341721fd648a766025ba3c7ebe7c79fa7b90ed8d
 - url: https://support.telnyx.com/en/articles/6564188-argentina-sms-guidelines
-  content_hash: 57942267e7a20b69eda93b169e9eea2808123bd28fb85952446e11e468bdbbf6
 - url: https://support.telnyx.com/en/articles/6564226-costa-rica-sms-guidelines
-  content_hash: ef7d3b7ea4a6b79332ed5e57283f56533f101e353d12f02a5ac86015b64fce9a
 - url: https://support.telnyx.com/en/articles/6564249-bolivia-sms-guidelines
-  content_hash: 1bd9654b413b7772433923d65f716db675acf4cc10c867329e2af2f682013f0e
 - url: https://support.telnyx.com/en/articles/6665730-dominican-republic-sms-guidelines
-  content_hash: 75ff7c08d54a632053d8e7973f6f28ab093847fdce24501f2fdd2c9f73cc0868
 updated_at: 2026-06-11T11:19:10Z
 ---
 

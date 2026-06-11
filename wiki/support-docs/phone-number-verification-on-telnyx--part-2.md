@@ -7,19 +7,12 @@ summary: 'Telnyx offers multiple verification features: Verified Numbers let you
   login.'
 sources:
 - url: https://support.telnyx.com/en/articles/12386088-how-to-verify-phone-numbers-behind-an-ivr
-  content_hash: e9a69a9acd1ccab089c3a1d6138e81c2a73821908ba8feb1a3a75c4c4bd8a245
 - url: https://support.telnyx.com/en/articles/13854980-beta-how-to-verify-phone-numbers-using-dtmf-press-1-to-verify
-  content_hash: 9aabcc488a22709ea2cc80cec9e9d4661723bcc82e09aa2daa0820b199806657
 - url: https://support.telnyx.com/en/articles/3739748-2fa-totp-setup
-  content_hash: f113a7ed6e199ae37151faba0b055d460f53044b520705c62176d963dd581630
 - url: https://support.telnyx.com/en/articles/5367966-introducing-the-verify-api
-  content_hash: cee0692d25130887bdedfecbb3e4a5fba0d8d0af290f222e937ccc629d3e101c
 - url: https://support.telnyx.com/en/articles/5701653-telnyx-verify-2fa-made-easy
-  content_hash: 6694db0932af7533a5e86b20846863796f969a8fe5f2b08b2e6aa4b05bbcfdaf
 - url: https://support.telnyx.com/en/articles/6790265-verified-numbers-faq
-  content_hash: a4a018a51997db5c535a2208f7e7d9d27fe35f91d8c61328f5e4d0c7793ee5a8
 - url: https://support.telnyx.com/en/articles/6988813-verified-numbers
-  content_hash: a5b09b58059e19c33e4972765182cbe21611220ee85d6cf2fc67e6882b4f4f68
 updated_at: 2026-06-11T11:43:04Z
 ---
 

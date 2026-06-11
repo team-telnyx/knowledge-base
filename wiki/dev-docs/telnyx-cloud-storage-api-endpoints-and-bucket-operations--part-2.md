@@ -6,29 +6,17 @@ summary: Telnyx Cloud Storage exposes two API suites—S3-compatible and JSON co
   tagging.
 sources:
 - url: https://developers.telnyx.com/docs/cloud-storage/api-endpoints
-  content_hash: 98f1fa942fcaccc32b04c3177e42a4380bc1193c71cc43b44e778ce07385ec73
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/create-bucket/index
-  content_hash: e2ae6f80201ebc985e167de32e9432cf35490def75af1771e36fbe2e7226ec47
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/delete-bucket
-  content_hash: 50e58fea2ce528d133348d2c55833192d9a9d2b11836843ab84dc56d6ddb61df
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/delete-bucket-cors
-  content_hash: 53d998f51997d9709ff7495cb1d7b2d0e74f528698af38f653fa421e94aadd96
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/delete-bucket-lifecycle
-  content_hash: 60413968890156256ba3bb8875490eca55062fbdc360b30f2413678ad42b8ca6
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/delete-bucket-policy
-  content_hash: 370cee6ec16fd81ab858d9ee781ee4462799150fc094d17332b9830853760098
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/delete-bucket-tagging
-  content_hash: 4333b762f66823aec97427f0e10622e7c6448e092060d6a0fdddbcea995c4a9d
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/get-bucket-acl
-  content_hash: 2c4fdb338a1582bf6eb236385dd3e5bd7723472cfd3f08c31168596201b7a2b1
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/get-bucket-cors
-  content_hash: 071f50de22efcd21410d12535d7fa98280c720586aee4becf607bf0ae7387d10
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/get-bucket-lifecycle-configuration
-  content_hash: 2aac1b025f1dadc5914c689bfd7f8cc277208638d18c085bded70d7ae5717760
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/get-bucket-location
-  content_hash: 14284665f58cb846e491872b0a2e650e02683a5622072d55661ab8f58c9e0e50
 - url: https://developers.telnyx.com/docs/cloud-storage/api-reference/bucket-operations/get-bucket-policy
-  content_hash: 863e1881922140eee15011926cd102b12b4aecd6be50a7d6d3ef172d71529344
 updated_at: 2026-06-11T10:23:43Z
 ---
 

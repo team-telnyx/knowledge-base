@@ -6,31 +6,18 @@ summary: Telnyx Programmable Voice provides tools for building voice application
   with TwiML compatibility.
 sources:
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/siprec-server/index
-  content_hash: 5f20f9da47913df819e8853ce1bec7cc18ca3b72a65481e97e8d8abdb21b434a
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/speech-to-text/index
-  content_hash: aef1769dcaf3a6fe330e8715353328de8017840a5721dd354fc9a3bf06365913
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/ssml-tags/index
-  content_hash: 743eececec66347e73b016b8e53fe085c9add6df952c4b1614da8b9f891f7d60
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/storing-call-recordings
-  content_hash: 6fe6973bbc0653ed56eeb8806cd7baf759741e9dfd020b80b419a85120b8bc7b
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-answering-machine
-  content_hash: 21442960c192f1e45263da4b0688fc7e40876769ca13bb33818906d5cae00636
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-bin-dynamic
-  content_hash: 1e29367f33838ffb5b350698efa550f61e565e89e5f3c84035a686753a439ce1
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-bin-quickstart
-  content_hash: 2a4ce735c57a6005b294b5374901754f96446dcaf05589cd825071a79a3f204a
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-fundamentals/index
-  content_hash: 7d515a5f4f318ce48b9d85f83981ae2336cdb09ad210e839ce53ddd326b0d93b
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-instruction-fetching
-  content_hash: 78104abb8c6285534e3c1bfa5d136d35aadce02101459fc4f5895ca46ec9d2ff
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-interpreter
-  content_hash: 5609b58aa97391f6557c477b6c5103aa53176e6473ae203722d8bd1dee7fca34
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-sending-http-requests
-  content_hash: e14b54eae87e5ce08bd0427af6eecc57ec3adba060f6024566012b78153adb6f
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-setup
-  content_hash: 7394df1156c0c5b3a487f470a9fd996bf976c78e759b5b414defe424c1d2f5c4
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-twiml-compatibility
-  content_hash: 5c10e721340bceb989599c29d93823ad1ac2980c05d2c116d3769e9375b08117
 updated_at: 2026-06-11T10:43:02Z
 ---
 

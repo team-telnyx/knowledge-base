@@ -5,9 +5,7 @@ summary: Learn how to configure Cisco SPA112/122 ATA adapters and Cisco 68xx/88x
   codec selection, and optional TLS encryption.
 sources:
 - url: https://support.telnyx.com/en/articles/1130665-configuring-your-cisco-spa112-122-ata
-  content_hash: 695acd9be6b1d1d8805f7c0a5f4bd3991a090c8a8461266c29eea2a11dccaec8
 - url: https://support.telnyx.com/en/articles/5820309-cisco-68xx-88xx-setup
-  content_hash: 332e265c25d974898756d8eeb8cb1cc186371e5a5bbf8f8972c7a506aca0ccc6
 updated_at: 2026-06-11T11:26:53Z
 ---
 

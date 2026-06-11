@@ -5,35 +5,20 @@ summary: A consolidated reference for phone number porting requirements across v
   (LOA) access, and special conditions for each nation.
 sources:
 - url: https://support.telnyx.com/en/articles/3266656-croatia-number-porting
-  content_hash: f3d4583b94f8340a474bcdd1e4573f370ca355ea7eb89fd6aff2833de8a0b5ac
 - url: https://support.telnyx.com/en/articles/3266975-greece-number-porting
-  content_hash: 10a0f668cb89b1333cdb82a29e2356166adc20daaa2a8ef72ec6e0a1c7480d74
 - url: https://support.telnyx.com/en/articles/3266993-israel-number-porting
-  content_hash: dcc84bee0a1ff874b2e395c5b8a5694379aa05d488a2152863669f4586eb46bb
 - url: https://support.telnyx.com/en/articles/5188524-hungary-number-porting
-  content_hash: f0bdf4b0ee7252556183ec6f362a8b7e2e25e6672b61fbe2f3720e588faa27d2
 - url: https://support.telnyx.com/en/articles/5188540-latvia-number-porting
-  content_hash: 48b3287d4c7d82d6dae7e7be10ed5b4ed0da1464c6c211b8d3c19d5919ffd8ce
 - url: https://support.telnyx.com/en/articles/5188563-norway-number-porting
-  content_hash: a2e678ebd396bf09f73a8dcc79fbcb9c401af7fd86cf67d9feb9e01a8136ed42
 - url: https://support.telnyx.com/en/articles/5188564-romania-number-porting
-  content_hash: 55faa736674786dc4930f46f8708868d09b3fdb25e6b790f3d652e38b04f9f13
 - url: https://support.telnyx.com/en/articles/5188567-slovakia-number-porting
-  content_hash: 5243d141de2e298d153fa2f2cfc06072a963c3a29264935d66062cb0ba701eea
 - url: https://support.telnyx.com/en/articles/5188572-slovenia-number-porting
-  content_hash: b54c23bb61442181ad162bc045b3e34a14c3220f0c75dbb434cc1e7bc87875df
 - url: https://support.telnyx.com/en/articles/5188583-poland-number-porting
-  content_hash: 2d919820c18406e2553bba6d7bf1213f497af881af151241385750f96b70d181
 - url: https://support.telnyx.com/en/articles/5190443-albania-number-porting
-  content_hash: c874c3d594db5fd17b87b7f2235bd4a62bad392774388cc931a38ad42704752d
 - url: https://support.telnyx.com/en/articles/5190455-czech-republic-number-porting
-  content_hash: 597751517e93f82b234561e89ebe6a78422b61b63c581c1f08c02c716eab69f1
 - url: https://support.telnyx.com/en/articles/5190470-lithuania-number-porting
-  content_hash: 5ef1b4257a08ea58c924220dc82228289b00ed79f5a3a4e487a935c690cd8e35
 - url: https://support.telnyx.com/en/articles/5190478-malta-number-porting
-  content_hash: 17b40c60396e882062dcd760939481dead0cf2f49768aba126b706777a0361af
 - url: https://support.telnyx.com/en/articles/5720521-estonia-number-porting
-  content_hash: 872c7f24aca381f323f77aa6806a98e106c7ecb45cb81e4630c870fa4ffd8bda
 updated_at: 2026-06-11T11:15:12Z
 ---
 

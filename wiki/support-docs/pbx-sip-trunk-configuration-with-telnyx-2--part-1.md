@@ -5,21 +5,13 @@ summary: Comprehensive guide for configuring SIP trunks between Telnyx and vario
   FusionPBX — using either IP-based or credentials-based authentication.
 sources:
 - url: https://support.telnyx.com/en/articles/1130628-asterisk-configure-an-asterisk-ip-trunk
-  content_hash: 3b217f8dcda4cc1ce92e979c87da493e275f46181a548436bafb888a7d4e6e9f
 - url: https://support.telnyx.com/en/articles/1130632-configuring-a-vicidial-ip-trunk-with-telnyx
-  content_hash: 571e092cc671b0ddd605cc1281e26d891dbd85c0d6033cefa49898d53fad873d
 - url: https://support.telnyx.com/en/articles/1130636-configuring-an-ip-trunk-for-osdial
-  content_hash: dfea424979422c26a7ec8400bf9e4d2b1045dd18b440b4801c1e125d85bf92df
 - url: https://support.telnyx.com/en/articles/1130676-configuring-an-asterisk-credentials-trunk
-  content_hash: 7cdea4830a2f059adcf4db9b5a3e8481185928acc9e2aa3616264dd74790a988
 - url: https://support.telnyx.com/en/articles/1176353-vicidial-configure-vicidial-credentials
-  content_hash: 142b9376b059e1523c0c1aafae30b5258a259e178de80247258eb56d134fd8df
 - url: https://support.telnyx.com/en/articles/1616935-freeswitch-ip-trunk-setup
-  content_hash: 19ac2b8bc5e75f97b93e2c0de29ff181b685f28a56ffa1b1c036774e7a195f89
 - url: https://support.telnyx.com/en/articles/1618801-freeswitch-credentials-trunk
-  content_hash: d2b04f8499ca8bd387a743c805e5d4aae159fa3771ac8a8fc509b304f68e3ad7
 - url: https://support.telnyx.com/en/articles/3220393-fusionpbx-telnyx-credentials
-  content_hash: 344b4a78795bcc1488a0ae24c40ba79931762e9987ca74be9d7ac992dc156524
 updated_at: 2026-06-11T11:25:51Z
 ---
 

@@ -6,33 +6,19 @@ summary: A comprehensive guide to building, testing, and deploying serverless fu
   reference architectures, and CI/CD deployment pipelines.
 sources:
 - url: https://developers.telnyx.com/docs/edge-compute/demos/build-a-rest-api
-  content_hash: 4a1165b9c15b973912d03e68c9ad878853f5d1c1484320b5749433de86b7ece2
 - url: https://developers.telnyx.com/docs/edge-compute/demos/image-resizer
-  content_hash: 17c212723566d69208c1ac7e7a72f39d2f466d2caf3358c12cfda36bdc44c58c
 - url: https://developers.telnyx.com/docs/edge-compute/demos/index
-  content_hash: e56b0f155ab6790479826995204e40f6a392e7c882bddd0ae9b0b1c7da3e9bc4
 - url: https://developers.telnyx.com/docs/edge-compute/demos/sms-webhook-handler
-  content_hash: e7d1d54e84876ec01362b96b513e8fafd6280af78da4b555e21fe05ec02d6cab
 - url: https://developers.telnyx.com/docs/edge-compute/demos/voice-call-router
-  content_hash: 657c1832646180e3a0103aeb096ab1263058d5f4679a1fbd8566f64fd08861c2
 - url: https://developers.telnyx.com/docs/edge-compute/deploy
-  content_hash: cb8da54f43bf1dff1d8eecbf9ba74ea0f082418b3783a70b04cc49a58c616d05
 - url: https://developers.telnyx.com/docs/edge-compute/development
-  content_hash: 43d9307d3ce0be3c1656163479d4a3245dc3a332b7369a9b5d092a600a1a73dd
 - url: https://developers.telnyx.com/docs/edge-compute/examples/index
-  content_hash: c0bea1a073c097b2890f57ffbed24fa6d075d278858d435b783b6b07da58d2d5
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks-support
-  content_hash: 63295d41eb8c8e328b1b5b9e7c134eb572812291ed38b35f60f3db3b9f765266
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/global-api-gateway
-  content_hash: 8d771d0d30f21f84f93d5a886f0006e31bc06369abbcd7e8cafe9e0a59b785ab
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/index
-  content_hash: d277e2ae0c7db30f2c4869a5abecc838ac50b904c226ffb9182133200beb3276
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/iot-data-ingestion
-  content_hash: 60c36bee09e516502b4cc4e66144e9853c4c6c2bba7d130749b6b3a82dc83596
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/real-time-media-pipeline
-  content_hash: 284d7c5b36a8b8665786caa506fc33582e638221746af0745529330423ad7e02
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/telecom-event-processor
-  content_hash: 5836ef1c324cc6d59a7e3a203e324549a39fc860065377a28e4e03a90ca2fec8
 updated_at: 2026-06-11T10:26:49Z
 ---
 

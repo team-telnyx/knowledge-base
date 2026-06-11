@@ -6,21 +6,13 @@ summary: Telnyx provides private network connectivity through Virtual Cross Conn
   for Linux, macOS, and Windows clients.
 sources:
 - url: https://developers.telnyx.com/docs/network/vxc/azure
-  content_hash: cf592f8687461a1f46f07fe95241acb199d62bb40986b57932f83bde4c2b7aca
 - url: https://developers.telnyx.com/docs/network/vxc/cost
-  content_hash: b54d26125a828e8b063ad2bfbbd839ca57d6a2593148620f2b1fe4ba1c337c5b
 - url: https://developers.telnyx.com/docs/network/vxc/coverage
-  content_hash: bc793073a6b2f3ed535727b3b1fc28309839fec26ebd458952d90609c08615e5
 - url: https://developers.telnyx.com/docs/network/vxc/gcp
-  content_hash: c1f05cd32a55465f372db2b393b56448465c91771387dfa1b577eac3fe71cbe2
 - url: https://developers.telnyx.com/docs/network/vxc/intro/index
-  content_hash: 57114b3546b6bd95e02062bad9bb1459bd96112a29c91a9c3206db7384963b69
 - url: https://developers.telnyx.com/docs/network/wireguard-peer-config/linux
-  content_hash: 8417a3872274ccbd6530290a81396afc04002f67f744675f07c138615196a5ba
 - url: https://developers.telnyx.com/docs/network/wireguard-peer-config/macos
-  content_hash: 8e0eca1f8befece163b6381a971deb70cda8e882ab323ba86cb327ae6aa4cb15
 - url: https://developers.telnyx.com/docs/network/wireguard-peer-config/windows
-  content_hash: 08e66fcdc5bfcfa31a4af758e66b12964075a5b8fd3bd60e4aef2addcaf68b2b
 updated_at: 2026-06-11T10:38:58Z
 ---
 

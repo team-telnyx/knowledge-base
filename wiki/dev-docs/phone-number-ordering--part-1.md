@@ -6,27 +6,16 @@ summary: 'Covers the full lifecycle of purchasing phone numbers on Telnyx: searc
   including document uploads, address verification, and action-based requirements.'
 sources:
 - url: https://developers.telnyx.com/docs/numbers/phone-numbers/action-ordering-requirement
-  content_hash: 194284493f4275a91cd6a69695db20aff80d3695d3556b174c6d96c1ac0f6794
 - url: https://developers.telnyx.com/docs/numbers/phone-numbers/advanced-orders
-  content_hash: 0893f3b3bc0112023a81b0c8347cfe0ad2cbd9868ea3573273e7a78b493492c5
 - url: https://developers.telnyx.com/docs/numbers/phone-numbers/bulk-ordering
-  content_hash: b66e9570f7398ca1d3736b624fb9f1e83a9725588fcbfbb283547944750511e6
 - url: https://developers.telnyx.com/docs/numbers/phone-numbers/buy-phone-number
-  content_hash: 5bab8250056deae19ea7817efc50461181f101f6c31a7cfbd629b0852a5173fa
 - url: https://developers.telnyx.com/docs/numbers/phone-numbers/documents/index
-  content_hash: 3277fcc67447b29b6ae5820f692a92c5706ae74180cc544036bdfc551e0809ca
 - url: https://developers.telnyx.com/docs/numbers/phone-numbers/getting-started/index
-  content_hash: 76945830bfb04d1f8e4bb7165fb475ba0a69484ca57acfec398ce213820e74ed
 - url: https://developers.telnyx.com/docs/numbers/phone-numbers/number-orders
-  content_hash: fc7af7ca383294f80ff65f6f0a31dc8014116fa6bcab42c3f5e75dcba4debbf0
 - url: https://developers.telnyx.com/docs/numbers/phone-numbers/number-reservations/index
-  content_hash: 89086770a905d33690e4408df18db723412b6d373b56f9521039d05ef8080bce
 - url: https://developers.telnyx.com/docs/numbers/phone-numbers/number-search/index
-  content_hash: c1cde34f5be639fad90f9a7ff8bd7b3ae57244ae8abb76feef85ce303e753314
 - url: https://developers.telnyx.com/docs/numbers/phone-numbers/regulatory-requirements/index
-  content_hash: facaf4447ed699744cf225a3cb4adfd40249a2e7096b134fd33e1a5031910be9
 - url: https://developers.telnyx.com/docs/numbers/phone-numbers/requirement-groups
-  content_hash: d58c9e9db27b4afd9fbce178ae2c0f5b1b8519e99c2ec63d4610932d85404ed1
 updated_at: 2026-06-11T10:39:50Z
 ---
 

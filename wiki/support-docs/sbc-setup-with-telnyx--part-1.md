@@ -5,13 +5,9 @@ summary: Configuration guides for integrating Session Border Controllers with Te
   VSXi platforms.
 sources:
 - url: https://support.telnyx.com/en/articles/4194697-oracle-acme-packet-sbc-setup
-  content_hash: 17a4ad3d9e4e4dc656ba81cdbdc56857a52ac80d993e18cf603584098b3c82b4
 - url: https://support.telnyx.com/en/articles/4194841-audiocodes-sbc-setup
-  content_hash: acf0800f8c376a0fe13523dbe4730824101a218751dd027f2259c3299c068607
 - url: https://support.telnyx.com/en/articles/4215031-ribbon-edgemarc-6000-setup
-  content_hash: 70f942677bd9c8d8089ffe8ff16ccff1d2e063654f49ad3635ca54d79a533186
 - url: https://support.telnyx.com/en/articles/4301888-sansay-sbc-vsxi-setup
-  content_hash: 2ce566c068b4c96fa4b9cf387e4a298966157cd524e8990cfab67158529356cb
 updated_at: 2026-06-11T11:43:59Z
 ---
 

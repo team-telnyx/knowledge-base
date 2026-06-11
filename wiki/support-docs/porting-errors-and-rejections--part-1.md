@@ -6,23 +6,14 @@ summary: A comprehensive guide to the error messages, rejection reasons, and res
   and PIN protection settings.
 sources:
 - url: https://support.telnyx.com/en/articles/1130610-btn-or-atn-mismatch-error
-  content_hash: dd197611f6deddd780556f81ed9ca2303f68532e11f7224ad133ea847da91cf8
 - url: https://support.telnyx.com/en/articles/1130616-number-not-portable-tn-not-portable-error
-  content_hash: 87a1abebb1660ce5503a8cbf48c93ac77ab6c074b9c1306c7c7228566464ec66
 - url: https://support.telnyx.com/en/articles/1130619-invalid-reseller-error
-  content_hash: c8d800276ec2262dfe56b49017ccfc90b789d0a5d00071df7e101b1dc7429a3a
 - url: https://support.telnyx.com/en/articles/1130623-authorized-name-mismatch-error
-  content_hash: eaf76d4ba07f4ba2e0753ae24ae4bcd5d0a7e9cf6b03c8364cccafb0edd5a541
 - url: https://support.telnyx.com/en/articles/1618776-porting-error-messages
-  content_hash: e995c27656b18d949682abda7b3fd4feada949a94ad51daa4865edcfc703f237
 - url: https://support.telnyx.com/en/articles/1782930-port-request-rejected
-  content_hash: 0dae4420c866bf253de7684d3430b52bd72bd1fffe9e54e6dd1d648b55cf75ef
 - url: https://support.telnyx.com/en/articles/2030667-i-received-a-port-out-notification
-  content_hash: d7d18abe4b2c5278b6a7afb4f70839b6e137756068c609d6af3be740d232d144
 - url: https://support.telnyx.com/en/articles/2047076-carrier-refusing-to-port-your-number
-  content_hash: a6d6160ebadb7eb87c8497d436dab4b680d50838e8aa193a8eec7e2e93eeeb52
 - url: https://support.telnyx.com/en/articles/8006189-port-out-pin-protection
-  content_hash: eb1d7318d82fd58122691a71778ceb79ca09ec0d9a267c43c8f65346e57588b3
 updated_at: 2026-06-11T11:12:13Z
 ---
 

@@ -5,39 +5,22 @@ summary: Country-specific SMS guidelines for Asia-Pacific destinations on the Te
   restrictions, and compliance recommendations.
 sources:
 - url: https://support.telnyx.com/en/articles/6592387-afghanistan-sms-guidelines
-  content_hash: dc5459d3ea09d257d00806b68dd1c9db375a4f6877304ac310f72b6b86840c4e
 - url: https://support.telnyx.com/en/articles/6601049-cambodia-sms-guidelines
-  content_hash: fbf14ace5cf39102c0e84306455c10a588f784501632315004e9e725ee00b0e7
 - url: https://support.telnyx.com/en/articles/6601144-china-sms-guidelines
-  content_hash: b0a817380cd4b231d0aab587154fef28d1e95e423098d19a7d0f4b920f071b29
 - url: https://support.telnyx.com/en/articles/6670784-fiji-sms-guidelines
-  content_hash: 61ef6441a885f075dab202bda678e7bb1306745308e052f4fc7c136bb7fb64e6
 - url: https://support.telnyx.com/en/articles/6674383-india-sms-guidelines
-  content_hash: ec27a5a0a23528ef258ce86cb5d19f03318e77dd2ec71e056e5bd2fc33ac69c7
 - url: https://support.telnyx.com/en/articles/6674396-indonesia-sms-guidelines
-  content_hash: acaa45beaa4a589c02d3e9e8a815658d931709caeb41596d9988867a6a8feb6c
 - url: https://support.telnyx.com/en/articles/6674798-laos-pdr-sms-guidelines
-  content_hash: b339cb32020b57414b978f8231c26ceb9334e09d969ee9924d210337c013ce44
 - url: https://support.telnyx.com/en/articles/6675024-macao-sms-guidelines
-  content_hash: fb5aa51b6537bdd3e3b0f9bfb3802f35b6dce1d9d2f933447a74a5b931e20c4f
 - url: https://support.telnyx.com/en/articles/6675110-malaysia-sms-guidelines
-  content_hash: 6d2a80375e758f730fbce77163c6a5ff9524537aabed9522e0b7c59502ef91af
 - url: https://support.telnyx.com/en/articles/6675222-maldives-sms-guidelines
-  content_hash: 02f4d0ff6d561aa5489e716bb94493cc98220263dac8649b4bfccdf37bdd31d9
 - url: https://support.telnyx.com/en/articles/6677958-mongolia-sms-guidelines
-  content_hash: 773fc476d73385c3b826cfffb546002d1fceeb540e0d55a8162336fb6de07cf8
 - url: https://support.telnyx.com/en/articles/6678903-nepal-sms-guidelines
-  content_hash: 89c828d0068e70b73d931e6615ab7d9b13ef20742033e34be746fbfbaab450fc
 - url: https://support.telnyx.com/en/articles/6679279-papua-new-guinea-sms-guidelines
-  content_hash: 38b70780bb4a3b1ae830bc201311eb00cb4b7a7eeba4382bc3edab5114dc74f9
 - url: https://support.telnyx.com/en/articles/6680123-solomon-islands-sms-guidelines
-  content_hash: a4ebeec5413d60a708281ff946fa05224b49d2216dded909b119383f3de8663c
 - url: https://support.telnyx.com/en/articles/6680171-sri-lanka-sms-guidelines
-  content_hash: d452fbacef622847fae0147b5ff981bad1b843fb33cc3e6117934ae344a78f78
 - url: https://support.telnyx.com/en/articles/6683287-tajikistan-sms-guidelines
-  content_hash: 41613eb150f97d7b39677b4643ed1a461f9655338cd95a92a81f94d9057dd7b2
 - url: https://support.telnyx.com/en/articles/6683340-timor-leste-sms-guidelines
-  content_hash: b1316ca05507633ce80de3c6ae9488076db673592dbfb24b032ed37a5a5f502c
 updated_at: 2026-06-11T11:21:48Z
 ---
 

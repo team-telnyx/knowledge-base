@@ -6,19 +6,12 @@ summary: KV is a globally distributed key-value store designed for low-latency r
   the same region.
 sources:
 - url: https://developers.telnyx.com/docs/edge-compute/kv
-  content_hash: 06a8fafbac946b328ceb6db7d0098e738c650e3a052e1203bbb9a8b92ad560a5
 - url: https://developers.telnyx.com/docs/edge-compute/kv/api-reference
-  content_hash: cb15957c3d3c33d828942a6733a33913bee2475bbf52557a509776b24570251a
 - url: https://developers.telnyx.com/docs/edge-compute/kv/cli
-  content_hash: 077ad46545b9708a79575647a6369093fa4c805a2b78c635c5503a8ee9bdc3eb
 - url: https://developers.telnyx.com/docs/edge-compute/kv/pricing
-  content_hash: 7a1c57cb3b8a6e91c360e0d829adefee83799c8b8e02268056f8b3b5fb0b2f5d
 - url: https://developers.telnyx.com/docs/edge-compute/kv/quick-start/index
-  content_hash: ada894481f0a920c81e4cee3441ddd9cc80151294814dddf3329cad09616b9eb
 - url: https://developers.telnyx.com/docs/edge-compute/kv/ttl-and-metadata
-  content_hash: 24afb369c1e8504ffd9e68c57560997b23e9b80930e3581f33758174155a0c91
 - url: https://developers.telnyx.com/docs/edge-compute/kv/use-cases
-  content_hash: 971a349602dfb509b45d8e5769ea33e136bc9017f581e9f4b026207300f3b231
 updated_at: 2026-06-11T10:27:17Z
 ---
 

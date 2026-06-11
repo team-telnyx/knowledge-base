@@ -6,23 +6,14 @@ summary: The Telnyx Programmable Voice API enables integration of voice calling 
   SIPREC recording.
 sources:
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/get-started/index
-  content_hash: 1aff4770e2c36445bf357fa1c5b3ea9429008f6ae46badb5b2b3dc5b61bf2cf6
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/ivr-demo/index
-  content_hash: 767bce302b75644cc89089c74d3f8f9caf4807bb77d3a30519e851ffe872a5fd
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/l1-accounts-restirctions
-  content_hash: 3ff04c98d07743ffaee07e4d86d7c56267edc2d3d5a04b3119fff214c16e1cda
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/media-streaming
-  content_hash: c74ae9be7d79bbb244e77e9c11b1c29c83cda46363c0ddedbf4c0440c4cd84af
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/noise-suppression
-  content_hash: 320c0d679347d6572c4caf20bb8a32e5927648b8f56742335417cd41e0d1cec6
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/queueing-calls
-  content_hash: ea469956f06bd7d87c70758b00f28a9bd1a7dd3a92252038464a98e043fe6071
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/receiving-webhooks
-  content_hash: 836b12dcfc601a328715e17d5683c51c71767b1870eaa594bd37da93617aeb46
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/sending-commands
-  content_hash: 58e5f613d082283db1708f20f661e45ea68bfd56984871111cf0dd22487337d0
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/siprec-client
-  content_hash: c732279d415b9114875888de146594a252dfe3ad9e201ed894f7ab273b1b4961
 updated_at: 2026-06-11T10:42:33Z
 ---
 

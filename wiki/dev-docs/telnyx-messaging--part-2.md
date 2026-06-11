@@ -7,27 +7,16 @@ summary: Telnyx Messaging provides a comprehensive API for sending and receiving
   error handling.
 sources:
 - url: https://developers.telnyx.com/docs/messaging/messages/2fa/index
-  content_hash: e660dfc64ea2a2d6911f7d1a970f5a932c04da65aae78776e3c1ca3b18448b6d
 - url: https://developers.telnyx.com/docs/messaging/messages/advanced-opt-in-out/index
-  content_hash: 5fd82d8d9312b6ac6e28c0c73d0a00bf774769a0dd423127c48f73f591d7b3b9
 - url: https://developers.telnyx.com/docs/messaging/messages/alphanumeric-sender-id/index
-  content_hash: abbae58584ee6800d04c5231b8e3b77d97f8af428a35e1c1433eb2378e318112
 - url: https://developers.telnyx.com/docs/messaging/messages/appointment-reminder
-  content_hash: 6985fd062cf97e7e1fbaad7066a3bf2314c4f3753dd0115043ce47f104d1701e
 - url: https://developers.telnyx.com/docs/messaging/messages/configurable-spend-limits/index
-  content_hash: 3debaf7e27ff822d9bbebe435006ae4d2d6d8b93ce63335ec32a07d69af3b79f
 - url: https://developers.telnyx.com/docs/messaging/messages/configuration-and-usage/index
-  content_hash: 1689fb1fb284ac9037440148c10c18cf7db9961ed4a23dc6b836eadbc54eb215
 - url: https://developers.telnyx.com/docs/messaging/messages/error-codes/index
-  content_hash: e1967e40b4a047d11b5125f1a52bc6d4e705bb3c9091fea33b0be3327dce7b6e
 - url: https://developers.telnyx.com/docs/messaging/messages/geomatch
-  content_hash: 482afc03676e3bc869ddc8ddcdc2e664b63ccf582eee0d99dc25181db71831b7
 - url: https://developers.telnyx.com/docs/messaging/messages/group-messaging
-  content_hash: 39a6ee872f771c4a346c0ea1af391c578a9a69489623cf565ace914e877ab528
 - url: https://developers.telnyx.com/docs/messaging/messages/hosted-sms/index
-  content_hash: 183a7b2c87a6b2c0609b46d90d10746ff0ec211ef8ba7a7b4d481130f51b73ba
 - url: https://developers.telnyx.com/docs/messaging/messages/hosted-sms/internal-transfer
-  content_hash: 178148332abbc910363f6baca179c2f8701f9fae87ddda430a5727b8c5bddc83
 updated_at: 2026-06-11T10:36:31Z
 ---
 

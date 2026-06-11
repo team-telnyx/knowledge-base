@@ -6,17 +6,11 @@ summary: A comprehensive guide to ordering, registering, and maintaining complia
   marketing and opt-in requirements.
 sources:
 - url: https://support.telnyx.com/en/articles/10245573-us-short-code-ordering-process
-  content_hash: 9d57003059a9460ba3ad630ef4e0cda754216dfce3f6c755d1e1628125862564
 - url: https://support.telnyx.com/en/articles/10245615-short-code-brand-and-content-provider-registration-process
-  content_hash: 18cb804b0fc52e6e871630daa35d6bbd8a8a7ebe1637d96a817c20058c94ce82
 - url: https://support.telnyx.com/en/articles/11385511-short-code-compliance-quick-reference-guide
-  content_hash: ff40150b81fc5b308b3ffbaa9121f5c2515b5342592c413d828e48585074f1ec
 - url: https://support.telnyx.com/en/articles/4967485-short-code-supported-carriers
-  content_hash: e6d5f36b6c5bbc94e8cf8597ec9c8a0cdc7e0ba565fa935dc0de72c2c652b0f4
 - url: https://support.telnyx.com/en/articles/9311492-standards-for-us-short-code-keywords-help-stop-and-opt-in-confirmation
-  content_hash: 489d2501cf9bb0fd262d8c86074600bc5ad0da6e389742c399d7e817089208b9
 - url: https://support.telnyx.com/en/articles/9311566-regulatory-guidelines-for-us-short-code-marketing-and-opt-in-procedures
-  content_hash: 717a6def14840de67c8aaaa73fc21594877a5146d73db694ef71bce70e05542a
 updated_at: 2026-06-11T11:10:14Z
 ---
 

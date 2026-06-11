@@ -6,29 +6,17 @@ summary: Telnyx provides a programmable Voice API for building voice application
   routing, billing, and caller-ID configuration.
 sources:
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/voice-api-commands-and-resources
-  content_hash: c617d44bc1fc0bc1be420034d4c1026e2c4f016923402abe89323e8f32bf91bd
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/voice-api-fundamentals/index
-  content_hash: ee417d1dfad37fcabbddef493e31af88542396ebe9bf5cfc92fea896734c1897
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/voice-api-services-in-europe/index
-  content_hash: f280e1e698c8ad5e911371a3763705c24114677c2673ef677da1efea29aa9599
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/voice-api-webhooks
-  content_hash: fae3dff7c2e998a65ad96f2be354bc26131290574c75dd9b8842b68a44841d82
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/authentication/credential-types/index
-  content_hash: a7aeea9b623ecf466cf005fc50a4b40a95b3e46d8b2ae7c500f7722e5a422133
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/authentication/ip-authentication-token
-  content_hash: 8ececeb032a8db111dc3b865467daf51793acecaba883c00559689942a405181
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/authentication/tech-prefix
-  content_hash: 05ff85b435e52e5651b44bb9be18489035064b4a685dacc630f9d2f0eeb8bd36
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/configuration-guides/index
-  content_hash: c9f2f43c2f6aad3649093a10343fccaa428a924ff3ec9871617898b52c921fd7
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/configuration/caller-id-policy/index
-  content_hash: f61162327ee18005b2dae39ab0ad69d3388b01111ddb4ab366b79c7d4fde68df
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/configuration/concurrent-limits
-  content_hash: 9d8ef6e984f6b49793df067dd4084a5bf057cbb75167dccb01199ca89c1b19db
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/configuration/outbound-voice-profiles
-  content_hash: 7a13bae241d106ef73ffbde5086251cc04f9dda596ce328b38c3050af8cf1495
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/configuration/p-charge-info-header
-  content_hash: 47531bc230c40949771adb48c4692d4b606e397844d76ac707463b6a4f91b886
 updated_at: 2026-06-11T10:44:15Z
 ---
 

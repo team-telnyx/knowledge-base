@@ -6,25 +6,15 @@ summary: SMS guidelines for African countries on the Telnyx platform, including 
   Comoros, Djibouti, and Eritrea.
 sources:
 - url: https://support.telnyx.com/en/articles/6592441-algeria-sms-guidelines
-  content_hash: bf3b5f614ac27060c43aea5f541632359fc8539f3ebdf8b3feb8f74515d3f6e6
 - url: https://support.telnyx.com/en/articles/6596235-benin-sms-guidelines
-  content_hash: 04beff42a89e11abeb42fa9044f23eaa0079cf177e61003a8a506acea03a0e7a
 - url: https://support.telnyx.com/en/articles/6600928-botswana-sms-guidelines
-  content_hash: daff80eda87dbab9f7c66d2ed1d5ac6c11d8b83f3056152c1873f82971603684
 - url: https://support.telnyx.com/en/articles/6601042-burundi-sms-guidelines
-  content_hash: f8901823f2394c50a084a23b6a3e4bc097da0864a9e9f2c8a641a48f25bca848
 - url: https://support.telnyx.com/en/articles/6601074-cape-verde-sms-guidelines
-  content_hash: 60161c5ea369c04c599034455463beda2bcaf0ea3b8e1e2d915d99963a7d47f3
 - url: https://support.telnyx.com/en/articles/6601081-central-african-republic-sms-guidelines
-  content_hash: 61a2dd903e4f78a66c336d5302b230a883b07131242bba02708aa743877393ad
 - url: https://support.telnyx.com/en/articles/6601133-chad-sms-guidelines
-  content_hash: f551f19ccbc0370fb32a4d2e07092ee929438e1eaeaead6aef7dc8237b20b212
 - url: https://support.telnyx.com/en/articles/6601152-comoros-sms-guidelines
-  content_hash: 6f3f024dea74c0717fed05707933772ef1d85d40e42afd3a1d1ce9969611cb24
 - url: https://support.telnyx.com/en/articles/6665699-djibouti-sms-guidelines
-  content_hash: e6be029da119bedf3d0361f024ce309fabcc57483f11cfd0f49de25465209e44
 - url: https://support.telnyx.com/en/articles/6670452-eritrea-sms-guidelines
-  content_hash: 8f459d1d6e9237a5c63a0c3509009a67bd041fcaaee14abf993eb9d626316e75
 updated_at: 2026-06-11T11:23:31Z
 ---
 

@@ -5,23 +5,14 @@ summary: Requirements for purchasing DID numbers across Middle Eastern and Centr
   needed for each number type.
 sources:
 - url: https://support.telnyx.com/en/articles/12640555-kuwait-did-requirements
-  content_hash: 53c40198b349f628bc337457b30283ca967f8cec9a26ed6b303fd3055b962ed0
 - url: https://support.telnyx.com/en/articles/14138528-oman-did-requirements
-  content_hash: ebc0071457473a1a459bce063e646ada913fb8ca8646b4ac6cca4b3b700b0b49
 - url: https://support.telnyx.com/en/articles/14306123-kazakhstan-did-requirements
-  content_hash: 15663bbffd808d6219875e296cb7c2f510e0dc8e9f86625e4d3c53408826ad1b
 - url: https://support.telnyx.com/en/articles/14489375-turkey-did-requirements
-  content_hash: aa70bcd280c4b6ef4074d305652cf702fc43907d024ce2ca3e67813ac56687a2
 - url: https://support.telnyx.com/en/articles/15445421-iraq-did-requirements
-  content_hash: e35a28d4d25d480e5ea62aa1468f6b8b469949dd4607e85e0eb0316445c5329a
 - url: https://support.telnyx.com/en/articles/15445477-qatar-did-requirements
-  content_hash: 04ddcbf25db36efc5b8917791b89820ad70dc86e565593e78100590b7b917adb
 - url: https://support.telnyx.com/en/articles/15445494-egypt-did-requirements
-  content_hash: 68b6b3a21cc6be4c935d911f7350ad2b41d18890156b710ec52cd6aa80a8845b
 - url: https://support.telnyx.com/en/articles/5466651-israel-did-requirements
-  content_hash: db3b5ea47dc827e563c3368f24f058dd21fe2a2f8defb53dd7f7e2cfcf85f6ea
 - url: https://support.telnyx.com/en/articles/5467173-algeria-did-requirements
-  content_hash: 5ac074023ec8c3f942d369faa73d7c752cd6034ae8b41f0555877f45cd2011ef
 updated_at: 2026-06-11T11:17:01Z
 ---
 

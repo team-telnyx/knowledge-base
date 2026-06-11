@@ -6,11 +6,8 @@ summary: Covers end-to-end setup of Telnyx fax service using T.38 or G711, inclu
   CDR reports.
 sources:
 - url: https://support.telnyx.com/en/articles/1130672-fax-service-with-telnyx-via-t-38-or-g711
-  content_hash: a9cf9639b3f79dfa27d996083e631429c1cdc38ea914f9193a5bfe8102f2d655
 - url: https://support.telnyx.com/en/articles/4967498-fax-api-error-list
-  content_hash: b32f7a926e0dacbd738cc79ac4ca2d23671cf629c3555d0ceaaa3fc30d0201b0
 - url: https://support.telnyx.com/en/collections/3968239-telnyx-fax-configuration-errors
-  content_hash: 7ad64ae96635522587e021df1af9c506992182d8d4c1b9caf9a62d03ede4c739
 updated_at: 2026-06-11T11:37:09Z
 ---
 

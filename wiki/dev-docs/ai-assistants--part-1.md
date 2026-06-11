@@ -6,21 +6,13 @@ summary: Telnyx AI Assistants are configurable voice and text agents that suppor
   from other providers — all orchestrated through the Mission Control Portal or API.
 sources:
 - url: https://developers.telnyx.com/docs/inference/ai-assistants/agent-handoff
-  content_hash: 70a4981634a6392849db64eb9505dc98ed11f2c816e1a5a90809b02d509e14b1
 - url: https://developers.telnyx.com/docs/inference/ai-assistants/agent-observability
-  content_hash: fef9a26ab4abb9421515d4444216948ad9d6348ed5eebc66c50729e9ab27e71a
 - url: https://developers.telnyx.com/docs/inference/ai-assistants/async-tools/index
-  content_hash: 4305d6ceba22801446c835423e7dad2029e48c5d186c3358bde90d33d9cf2d90
 - url: https://developers.telnyx.com/docs/inference/ai-assistants/custom-llm
-  content_hash: 26757cd4f78fd56c2320d158d13becea98fbb06936445b505a2075cdd609a686
 - url: https://developers.telnyx.com/docs/inference/ai-assistants/dynamic-variables
-  content_hash: 3d2eeb67ed78ad9cf2e5fd0a52e0b6b017bf273d08335395bf9df845a2f4bacf
 - url: https://developers.telnyx.com/docs/inference/ai-assistants/importing/index
-  content_hash: c1af4766c041fd4740d0e4a329bb36fb52a550bc0e8b28684ba40e1aa0274ac4
 - url: https://developers.telnyx.com/docs/inference/ai-assistants/integrations
-  content_hash: 4441f80ea6c53c4f58838df0f99b66bd3cc4779b2c8415f970c5a4d17dab9d77
 - url: https://developers.telnyx.com/docs/inference/ai-assistants/memory
-  content_hash: c7ecb160d4f9b143af3c70bcb729def8e69d59ff8b3f872b15654bf3b3971030
 updated_at: 2026-06-11T10:29:30Z
 ---
 
