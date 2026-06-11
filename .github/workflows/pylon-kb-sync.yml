@@ -106,7 +106,7 @@ jobs:
           PYLON_API_TOKEN: ${{ secrets.PYLON_API_TOKEN }}
           PYLON_KNOWLEDGE_BASE_ID: ${{ secrets.PYLON_KNOWLEDGE_BASE_ID }}
           PYLON_AUTHOR_USER_ID: ${{ secrets.PYLON_AUTHOR_USER_ID }}
-          PYLON_SYNC_DELAY_SECONDS: "0.7"
+          PYLON_SYNC_DELAY_SECONDS: "6.2"
         shell: bash
         run: |
           set -euo pipefail
