@@ -310,6 +310,7 @@ def make_plan(
     source_articles: list[SourceArticle],
     pylon_articles: list[dict[str, Any]],
     collection_map: dict[str, str],
+    skip_prefixes: tuple[str, ...],
 ) -> tuple[list[tuple[str, SourceArticle, dict[str, Any] | None]], list[dict[str, Any]], list[str]]:
     by_slug = {str(a.get("slug") or ""): a for a in pylon_articles if a.get("slug")}
     by_marker_path: dict[str, dict[str, Any]] = {}
@@ -350,6 +351,8 @@ def make_plan(
     stale: list[dict[str, Any]] = []
     for article in pylon_articles:
         marker_path, _ = article_marker(article)
+        if marker_path and marker_path.startswith(skip_prefixes):
+            continue
         if marker_path and marker_path not in active_paths and not article.get("is_unlisted"):
             stale.append(article)
     return ops, stale, errors
@@ -364,19 +367,34 @@ def apply_ops(
     stale: list[dict[str, Any]],
     max_articles: int | None,
     create_only: bool,
+    restore_unlisted_managed: bool,
 ) -> dict[str, int]:
-    counts = {"create": 0, "update": 0, "noop": 0, "unlist": 0, "skipped_existing": 0, "skipped_unlist": 0}
+    counts = {"create": 0, "update": 0, "noop": 0, "unlist": 0, "restore": 0, "skipped_existing": 0, "skipped_unlist": 0}
     write_count = 0
     for action, source, existing in ops:
         if action == "noop":
             counts["noop"] += 1
             continue
-        if create_only and action == "update":
-            counts["skipped_existing"] += 1
-            continue
         if max_articles is not None and write_count >= max_articles:
             break
         collection_id = collection_map[source.collection_key]
+        if create_only and action == "update":
+            marker_path, marker_hash = article_marker(existing or {})
+            can_restore = (
+                restore_unlisted_managed
+                and existing is not None
+                and marker_path == source.rel_path
+                and marker_hash == source.source_hash
+                and existing.get("is_unlisted") is True
+            )
+            if can_restore and existing is not None:
+                if client.apply:
+                    client.request("PATCH", f"/knowledge-bases/{kb_id}/articles/{existing['id']}", {"is_published": True, "is_unlisted": False})
+                counts["restore"] += 1
+                write_count += 1
+            else:
+                counts["skipped_existing"] += 1
+            continue
         if action == "create":
             body = {
                 "title": source.title,
@@ -427,6 +445,7 @@ def main() -> int:
     parser.add_argument("--include-uncategorized", action="store_true", help="Sync _uncategorized articles too.")
     parser.add_argument("--include-messaging", action="store_true", help="Sync Messaging and WhatsApp roots too.")
     parser.add_argument("--create-only", action="store_true", help="Create missing Pylon articles only; skip updates to existing articles and skip unlisting stale articles.")
+    parser.add_argument("--restore-unlisted-managed", action="store_true", help="With --create-only, relist managed articles whose source marker path/hash already matches the repo copy.")
     parser.add_argument("--create-missing-collections", action="store_true", help="Create Pylon collections from support-docs/_tree.json when source articles reference collections that do not exist yet.")
     parser.add_argument("--max-articles", type=int, default=None, help="Maximum write operations to perform; useful for smoke tests.")
     parser.add_argument("--delay-seconds", type=float, default=float(os.environ.get("PYLON_SYNC_DELAY_SECONDS", "0.7")))
@@ -459,9 +478,9 @@ def main() -> int:
         if client.apply and collection_counts["create"]:
             collections = client.list_paginated(f"/knowledge-bases/{kb_id}/collections")
             collection_map = map_collections(collections)
-    ops, stale, errors = make_plan(source_articles, pylon_articles, collection_map)
+    ops, stale, errors = make_plan(source_articles, pylon_articles, collection_map, tuple(skip_prefixes))
 
-    counts = apply_ops(client, kb_id, author_user_id, collection_map, ops, stale, args.max_articles, args.create_only)
+    counts = apply_ops(client, kb_id, author_user_id, collection_map, ops, stale, args.max_articles, args.create_only, args.restore_unlisted_managed)
     planned = {"create": 0, "update": 0, "noop": 0, "unlist": len(stale)}
     for action, _, _ in ops:
         planned[action] += 1
@@ -469,6 +488,7 @@ def main() -> int:
     summary = {
         "mode": "apply" if args.apply else "dry-run",
         "create_only": args.create_only,
+        "restore_unlisted_managed": args.restore_unlisted_managed,
         "create_missing_collections": args.create_missing_collections,
         "collections_executed": collection_counts,
         "source_articles": len(source_articles),
