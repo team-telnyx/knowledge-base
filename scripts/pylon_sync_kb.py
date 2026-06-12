@@ -228,13 +228,17 @@ def collection_title_from_key(key: str) -> str:
     return re.sub(r"^\d+-", "", name).replace("-", " ").casefold()
 
 
+def load_tree_records() -> dict[str, dict[str, Any]]:
+    tree_path = Path("support-docs/_tree.json")
+    tree = json.loads(tree_path.read_text(encoding="utf-8")) if tree_path.exists() else {"collections": []}
+    return {str(record["path"]): record for record in tree.get("collections", []) if record.get("path")}
+
+
 def map_collections(collections: list[dict[str, Any]]) -> dict[str, str]:
     by_slug = {str(c.get("slug") or ""): str(c["id"]) for c in collections if c.get("id")}
     by_title = {str(c.get("title") or "").casefold(): str(c["id"]) for c in collections if c.get("id")}
     mapped: dict[str, str] = {}
-    tree_path = Path("support-docs/_tree.json")
-    tree = json.loads(tree_path.read_text(encoding="utf-8")) if tree_path.exists() else {"collections": []}
-    for record in tree.get("collections", []):
+    for record in load_tree_records().values():
         key = record.get("path")
         if not key:
             continue
@@ -254,6 +258,44 @@ def map_collections(collections: list[dict[str, Any]]) -> dict[str, str]:
         if key not in mapped and title in by_title:
             mapped[key] = by_title[title]
     return mapped
+
+
+def create_missing_collections(
+    client: PylonClient,
+    kb_id: str,
+    source_articles: list[SourceArticle],
+    collection_map: dict[str, str],
+) -> dict[str, int]:
+    records = load_tree_records()
+    missing_keys = sorted({source.collection_key for source in source_articles if source.collection_key not in collection_map})
+    counts = {"create": 0, "skip_missing_tree_record": 0, "skip_missing_parent": 0}
+    for key in missing_keys:
+        record = records.get(key)
+        if not record:
+            counts["skip_missing_tree_record"] += 1
+            continue
+        body: dict[str, Any] = {
+            "title": record.get("title") or collection_title_from_key(key).title(),
+        }
+        intercom_id = str(record.get("intercom_collection_id") or "")
+        source_slug = str(record.get("source_slug") or "")
+        if intercom_id and source_slug:
+            body["slug"] = f"{intercom_id}-{source_slug}"
+        elif source_slug:
+            body["slug"] = source_slug
+        else:
+            body["slug"] = slugify(str(body["title"]))
+        parent_path = record.get("parent_path")
+        if parent_path:
+            parent_id = collection_map.get(str(parent_path))
+            if not parent_id:
+                counts["skip_missing_parent"] += 1
+                continue
+            body["parent_collection_id"] = parent_id
+        if client.apply:
+            client.request("POST", f"/knowledge-bases/{kb_id}/collections", body)
+        counts["create"] += 1
+    return counts
 
 
 def article_marker(article: dict[str, Any]) -> tuple[str | None, str | None]:
@@ -385,6 +427,7 @@ def main() -> int:
     parser.add_argument("--include-uncategorized", action="store_true", help="Sync _uncategorized articles too.")
     parser.add_argument("--include-messaging", action="store_true", help="Sync Messaging and WhatsApp roots too.")
     parser.add_argument("--create-only", action="store_true", help="Create missing Pylon articles only; skip updates to existing articles and skip unlisting stale articles.")
+    parser.add_argument("--create-missing-collections", action="store_true", help="Create Pylon collections from support-docs/_tree.json when source articles reference collections that do not exist yet.")
     parser.add_argument("--max-articles", type=int, default=None, help="Maximum write operations to perform; useful for smoke tests.")
     parser.add_argument("--delay-seconds", type=float, default=float(os.environ.get("PYLON_SYNC_DELAY_SECONDS", "0.7")))
     args = parser.parse_args()
@@ -410,6 +453,12 @@ def main() -> int:
     collections = client.list_paginated(f"/knowledge-bases/{kb_id}/collections")
     pylon_articles = client.list_paginated(f"/knowledge-bases/{kb_id}/articles")
     collection_map = map_collections(collections)
+    collection_counts = {"create": 0, "skip_missing_tree_record": 0, "skip_missing_parent": 0}
+    if args.create_missing_collections:
+        collection_counts = create_missing_collections(client, kb_id, source_articles, collection_map)
+        if client.apply and collection_counts["create"]:
+            collections = client.list_paginated(f"/knowledge-bases/{kb_id}/collections")
+            collection_map = map_collections(collections)
     ops, stale, errors = make_plan(source_articles, pylon_articles, collection_map)
 
     counts = apply_ops(client, kb_id, author_user_id, collection_map, ops, stale, args.max_articles, args.create_only)
@@ -420,6 +469,8 @@ def main() -> int:
     summary = {
         "mode": "apply" if args.apply else "dry-run",
         "create_only": args.create_only,
+        "create_missing_collections": args.create_missing_collections,
+        "collections_executed": collection_counts,
         "source_articles": len(source_articles),
         "skip_prefixes": skip_prefixes,
         "pylon_articles_seen": len(pylon_articles),

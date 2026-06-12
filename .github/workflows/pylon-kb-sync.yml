@@ -35,6 +35,14 @@ on:
         options:
           - "false"
           - "true"
+      create_missing_collections:
+        description: "Create missing Pylon collections from support-docs/_tree.json"
+        required: true
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
       max_articles:
         description: "Optional write-operation cap for smoke tests"
         required: false
@@ -87,6 +95,7 @@ jobs:
           INCLUDE_UNCATEGORIZED="false"
           INCLUDE_MESSAGING="false"
           CREATE_ONLY="false"
+          CREATE_MISSING_COLLECTIONS="false"
           MAX_ARTICLES=""
 
           if [[ "${{ github.event_name }}" == "push" && "${{ github.ref }}" == "refs/heads/main" ]]; then
@@ -103,6 +112,7 @@ jobs:
             INCLUDE_UNCATEGORIZED="${{ inputs.include_uncategorized }}"
             INCLUDE_MESSAGING="${{ inputs.include_messaging }}"
             CREATE_ONLY="${{ inputs.create_only }}"
+            CREATE_MISSING_COLLECTIONS="${{ inputs.create_missing_collections }}"
             MAX_ARTICLES="${{ inputs.max_articles }}"
           fi
 
@@ -110,6 +120,7 @@ jobs:
           echo "include_uncategorized=$INCLUDE_UNCATEGORIZED" >> "$GITHUB_OUTPUT"
           echo "include_messaging=$INCLUDE_MESSAGING" >> "$GITHUB_OUTPUT"
           echo "create_only=$CREATE_ONLY" >> "$GITHUB_OUTPUT"
+          echo "create_missing_collections=$CREATE_MISSING_COLLECTIONS" >> "$GITHUB_OUTPUT"
           echo "max_articles=$MAX_ARTICLES" >> "$GITHUB_OUTPUT"
 
       - name: Sync Pylon KB
@@ -133,6 +144,9 @@ jobs:
           fi
           if [[ "${{ steps.mode.outputs.create_only }}" == "true" ]]; then
             args+=(--create-only)
+          fi
+          if [[ "${{ steps.mode.outputs.create_missing_collections }}" == "true" ]]; then
+            args+=(--create-missing-collections)
           fi
           if [[ -n "${{ steps.mode.outputs.max_articles }}" ]]; then
             args+=(--max-articles "${{ steps.mode.outputs.max_articles }}")
