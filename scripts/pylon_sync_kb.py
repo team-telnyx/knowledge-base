@@ -321,12 +321,16 @@ def apply_ops(
     ops: list[tuple[str, SourceArticle, dict[str, Any] | None]],
     stale: list[dict[str, Any]],
     max_articles: int | None,
+    create_only: bool,
 ) -> dict[str, int]:
-    counts = {"create": 0, "update": 0, "noop": 0, "unlist": 0}
+    counts = {"create": 0, "update": 0, "noop": 0, "unlist": 0, "skipped_existing": 0, "skipped_unlist": 0}
     write_count = 0
     for action, source, existing in ops:
         if action == "noop":
             counts["noop"] += 1
+            continue
+        if create_only and action == "update":
+            counts["skipped_existing"] += 1
             continue
         if max_articles is not None and write_count >= max_articles:
             break
@@ -361,6 +365,9 @@ def apply_ops(
                 client.request("PATCH", f"/knowledge-bases/{kb_id}/articles/{existing['id']}", body)
             counts["update"] += 1
             write_count += 1
+    if create_only:
+        counts["skipped_unlist"] = len(stale)
+        return counts
     for article in stale:
         if max_articles is not None and write_count >= max_articles:
             break
@@ -377,6 +384,7 @@ def main() -> int:
     parser.add_argument("--apply", action="store_true", help="Actually write to Pylon. Default is dry-run.")
     parser.add_argument("--include-uncategorized", action="store_true", help="Sync _uncategorized articles too.")
     parser.add_argument("--include-messaging", action="store_true", help="Sync Messaging and WhatsApp roots too.")
+    parser.add_argument("--create-only", action="store_true", help="Create missing Pylon articles only; skip updates to existing articles and skip unlisting stale articles.")
     parser.add_argument("--max-articles", type=int, default=None, help="Maximum write operations to perform; useful for smoke tests.")
     parser.add_argument("--delay-seconds", type=float, default=float(os.environ.get("PYLON_SYNC_DELAY_SECONDS", "0.7")))
     args = parser.parse_args()
@@ -404,13 +412,14 @@ def main() -> int:
     collection_map = map_collections(collections)
     ops, stale, errors = make_plan(source_articles, pylon_articles, collection_map)
 
-    counts = apply_ops(client, kb_id, author_user_id, collection_map, ops, stale, args.max_articles)
+    counts = apply_ops(client, kb_id, author_user_id, collection_map, ops, stale, args.max_articles, args.create_only)
     planned = {"create": 0, "update": 0, "noop": 0, "unlist": len(stale)}
     for action, _, _ in ops:
         planned[action] += 1
 
     summary = {
         "mode": "apply" if args.apply else "dry-run",
+        "create_only": args.create_only,
         "source_articles": len(source_articles),
         "skip_prefixes": skip_prefixes,
         "pylon_articles_seen": len(pylon_articles),
