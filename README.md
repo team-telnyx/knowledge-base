@@ -83,13 +83,15 @@ After the PR is merged:
 5. Managed articles that disappear from the eligible source set are unlisted rather than hard-deleted.
 6. The incremental wiki workflow can commit deterministic `wiki/` updates on `main` when needed.
 
-By default, the Pylon sync skips:
+By default, the automatic Pylon sync publishes eligible categorized support articles and skips `support-docs/_uncategorized/`. Uncategorized articles stay in GitHub until they are reviewed and moved into the correct collection.
 
-- `support-docs/_uncategorized/`
-- Messaging roots such as `133103-telnyx-sms-guide/`
-- WhatsApp roots such as `18868947-whatsapp-business/`
+Messaging and WhatsApp articles live in `support-docs/` too, but they are gated for controlled manual syncs rather than included in the default automatic main-branch sync. When they need to be backfilled, run the workflow manually with:
 
-Those can be included manually through workflow-dispatch inputs when the relevant teams are ready.
+- `include_messaging=true`
+- `create_only=true`
+- `include_uncategorized=false`
+
+That creates missing Messaging/WhatsApp articles without updating existing Pylon articles and without unlisting anything.
 
 ### Adding a new support article
 
@@ -197,8 +199,9 @@ Important behavior:
 - Article creates/updates publish immediately.
 - Idempotency uses hidden GitHub source markers and content hashes.
 - Managed removals unlist articles instead of hard-deleting them.
-- `_uncategorized`, Messaging, and WhatsApp content are skipped by default.
-- Manual workflow dispatch supports dry runs, write runs, inclusion of skipped roots, and max-article caps for smoke tests.
+- `_uncategorized` content is skipped by default until it is reviewed and placed into the right collection.
+- Messaging and WhatsApp content is excluded from the automatic main-branch sync but can be backfilled manually.
+- Manual workflow dispatch supports dry runs, write runs, Messaging/WhatsApp inclusion, create-only backfills, uncategorized inclusion, and max-article caps for smoke tests.
 
 ## Schema and catalog
 
