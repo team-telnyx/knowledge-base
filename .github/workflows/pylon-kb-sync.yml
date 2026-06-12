@@ -35,6 +35,14 @@ on:
         options:
           - "false"
           - "true"
+      restore_unlisted_managed:
+        description: "With create-only, relist managed articles whose source marker/hash already matches"
+        required: true
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
       create_missing_collections:
         description: "Create missing Pylon collections from support-docs/_tree.json"
         required: true
@@ -95,6 +103,7 @@ jobs:
           INCLUDE_UNCATEGORIZED="false"
           INCLUDE_MESSAGING="false"
           CREATE_ONLY="false"
+          RESTORE_UNLISTED_MANAGED="false"
           CREATE_MISSING_COLLECTIONS="false"
           MAX_ARTICLES=""
 
@@ -112,6 +121,7 @@ jobs:
             INCLUDE_UNCATEGORIZED="${{ inputs.include_uncategorized }}"
             INCLUDE_MESSAGING="${{ inputs.include_messaging }}"
             CREATE_ONLY="${{ inputs.create_only }}"
+            RESTORE_UNLISTED_MANAGED="${{ inputs.restore_unlisted_managed }}"
             CREATE_MISSING_COLLECTIONS="${{ inputs.create_missing_collections }}"
             MAX_ARTICLES="${{ inputs.max_articles }}"
           fi
@@ -120,6 +130,7 @@ jobs:
           echo "include_uncategorized=$INCLUDE_UNCATEGORIZED" >> "$GITHUB_OUTPUT"
           echo "include_messaging=$INCLUDE_MESSAGING" >> "$GITHUB_OUTPUT"
           echo "create_only=$CREATE_ONLY" >> "$GITHUB_OUTPUT"
+          echo "restore_unlisted_managed=$RESTORE_UNLISTED_MANAGED" >> "$GITHUB_OUTPUT"
           echo "create_missing_collections=$CREATE_MISSING_COLLECTIONS" >> "$GITHUB_OUTPUT"
           echo "max_articles=$MAX_ARTICLES" >> "$GITHUB_OUTPUT"
 
@@ -144,6 +155,9 @@ jobs:
           fi
           if [[ "${{ steps.mode.outputs.create_only }}" == "true" ]]; then
             args+=(--create-only)
+          fi
+          if [[ "${{ steps.mode.outputs.restore_unlisted_managed }}" == "true" ]]; then
+            args+=(--restore-unlisted-managed)
           fi
           if [[ "${{ steps.mode.outputs.create_missing_collections }}" == "true" ]]; then
             args+=(--create-missing-collections)
