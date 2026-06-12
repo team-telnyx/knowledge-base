@@ -27,6 +27,14 @@ on:
         options:
           - "false"
           - "true"
+      create_only:
+        description: "Create missing articles only; skip updates and unlists"
+        required: true
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
       max_articles:
         description: "Optional write-operation cap for smoke tests"
         required: false
@@ -78,6 +86,7 @@ jobs:
           APPLY="false"
           INCLUDE_UNCATEGORIZED="false"
           INCLUDE_MESSAGING="false"
+          CREATE_ONLY="false"
           MAX_ARTICLES=""
 
           if [[ "${{ github.event_name }}" == "push" && "${{ github.ref }}" == "refs/heads/main" ]]; then
@@ -93,12 +102,14 @@ jobs:
             APPLY="${{ inputs.apply }}"
             INCLUDE_UNCATEGORIZED="${{ inputs.include_uncategorized }}"
             INCLUDE_MESSAGING="${{ inputs.include_messaging }}"
+            CREATE_ONLY="${{ inputs.create_only }}"
             MAX_ARTICLES="${{ inputs.max_articles }}"
           fi
 
           echo "apply=$APPLY" >> "$GITHUB_OUTPUT"
           echo "include_uncategorized=$INCLUDE_UNCATEGORIZED" >> "$GITHUB_OUTPUT"
           echo "include_messaging=$INCLUDE_MESSAGING" >> "$GITHUB_OUTPUT"
+          echo "create_only=$CREATE_ONLY" >> "$GITHUB_OUTPUT"
           echo "max_articles=$MAX_ARTICLES" >> "$GITHUB_OUTPUT"
 
       - name: Sync Pylon KB
@@ -119,6 +130,9 @@ jobs:
           fi
           if [[ "${{ steps.mode.outputs.include_messaging }}" == "true" ]]; then
             args+=(--include-messaging)
+          fi
+          if [[ "${{ steps.mode.outputs.create_only }}" == "true" ]]; then
+            args+=(--create-only)
           fi
           if [[ -n "${{ steps.mode.outputs.max_articles }}" ]]; then
             args+=(--max-articles "${{ steps.mode.outputs.max_articles }}")
