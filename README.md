@@ -23,6 +23,7 @@ The important distinction:
 
 ```text
 SCHEMA.md                         # Canonical generated wiki page + index format
+docs/                             # Human/agent operational guides that are not generated wiki pages
 support-docs/                     # Source of truth for managed Telnyx Support KB articles
 support-docs/_tree.json           # Collection metadata from the support-docs import
 wiki/                             # Compiled LLM wiki consumed by agents/indexers
@@ -211,6 +212,10 @@ Because the wiki is consumed by downstream agents and tools, generated pages fol
 - [`wiki/index.md`](wiki/index.md) is the top-level catalog and entry point for navigating the generated wiki.
 
 Treat `wiki/index.md` as derived. It is rebuilt by automation, not hand-maintained.
+
+## Operational guides
+
+- [`docs/telnyx-noc-deployment-guide.md`](docs/telnyx-noc-deployment-guide.md) documents the full `deploy-noc-main` workflow for NOC services, including generated production PRs that must be merged after the initial deploy-repo bump.
 
 ## Consumers
 
