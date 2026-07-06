@@ -1,0 +1,41 @@
+.default-layout {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  min-height: 100vh;
+}
+
+.default-layout-header {
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  height: 56px;
+  background-color: var(--telnyx-main-primary, #101010);
+  color: var(--telnyx-main-secondary, #fbfbfb);
+}
+
+.default-layout-title {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.default-layout-body {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+}
+
+.default-layout-sidebar {
+  padding: 16px;
+  border-right: 1px solid var(--telnyx-neutrals-outlines, #ebebeb);
+  background-color: var(--telnyx-neutrals-container, #ffffff);
+}
+
+.default-layout-nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.default-layout-content {
+  padding: 24px;
+}
