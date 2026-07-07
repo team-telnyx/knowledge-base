@@ -1,0 +1,99 @@
+# NOTE: staging bucket name (supportstaging.telnyx.com) must be confirmed with infra.
+# NOTE: AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY must be added to repo secrets.
+name: Review App - build and deploy PR Preview
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "website/**"
+      - "support-docs/**"
+
+jobs:
+  build:
+    runs-on: telnyx-2xlarge
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Setup runner
+        uses: ./.github/utils/setup-runner
+
+      - name: Lint
+        working-directory: website
+        run: bun run lint
+
+      - name: Type check
+        working-directory: website
+        run: bun run type-check
+
+      - name: Define deployment URL
+        run: |
+          FOLDER_NAME="pr-${{ github.event.pull_request.number }}/${{ github.event.pull_request.head.sha }}"
+          echo "FOLDER_NAME=$FOLDER_NAME" >> $GITHUB_ENV
+          echo "REVIEW_URL=https://supportstaging.telnyx.com/$FOLDER_NAME/index.html" >> $GITHUB_ENV
+
+      - name: Build the website
+        working-directory: website
+        env:
+          BASE_PATH: "/${{ env.FOLDER_NAME }}"
+        run: bun run build
+
+      - name: Setup S3cmd cli tool
+        uses: ./.github/utils/setup-s3cmd
+        with:
+          access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
+      - name: Deploy files to bucket
+        run: |
+          ~/.local/bin/s3cmd sync ./website/dist/ s3://supportstaging.telnyx.com/${{ env.FOLDER_NAME }}/ \
+            --add-header='Cache-Control: public, must-revalidate' \
+            --acl-public \
+            --no-preserve \
+            --delete-removed \
+            --delete-after \
+            --cf-invalidate-default-index \
+            --recursive;
+
+      - name: Post comment on PR with deployed link
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const prNumber = context.issue.number;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+
+            const newUrl = process.env.REVIEW_URL;
+            const body = `Your PR Preview is deployed! You can view it [here](${newUrl}).`;
+
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner,
+              repo,
+              issue_number: prNumber,
+              per_page: 100,
+            });
+
+            const isBot = (c) => c.user && (c.user.type === 'Bot' || /\[bot\]$/i.test(c.user.login || ''));
+            const previewComments = comments.filter(c => isBot(c) && typeof c.body === 'string' && c.body.trim().startsWith('Your PR Preview'));
+
+            const existing = previewComments.sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))[0];
+
+            if (existing) {
+              await github.rest.issues.deleteComment({
+                owner,
+                repo,
+                comment_id: existing.id,
+              });
+            }
+
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number: prNumber,
+              body,
+            });
