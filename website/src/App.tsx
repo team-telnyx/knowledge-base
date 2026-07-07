@@ -1,9 +1,37 @@
+import { Router, Route, Link } from "wouter";
 import { DefaultLayout } from "./layouts/DefaultLayout";
+import { CollectionPage } from "./pages/CollectionPage";
+import { ArticlePage } from "./pages/ArticlePage";
+import { NotFoundPage } from "./pages/NotFoundPage";
+import { collections } from "./content/manifest";
+
+const basePath = process.env.BASE_PATH || "/";
+
+function HomePage() {
+  const rootCollections = collections.filter((c) => c.parentPath === null);
+  return (
+    <div>
+      <h1>Telnyx Support Knowledge Base</h1>
+      <ul>
+        {rootCollections.map((c) => (
+          <li key={c.path}>
+            <Link to={`/collection/${c.path}`}>{c.title}</Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
 
 export function App() {
   return (
-    <DefaultLayout>
-      <h1>Telnyx Support Knowledge Base</h1>
-    </DefaultLayout>
+    <Router base={basePath}>
+      <DefaultLayout>
+        <Route path="/" component={HomePage} />
+        <Route path="/collection/*" component={CollectionPage} />
+        <Route path="/article/:slug" component={ArticlePage} />
+        <Route path="/:rest*" component={NotFoundPage} />
+      </DefaultLayout>
+    </Router>
   );
 }

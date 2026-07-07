@@ -1,3 +1,5 @@
+import { Search } from "../components/Search";
+import { Sidebar } from "../components/Sidebar";
 import "./DefaultLayout.css";
 
 export function DefaultLayout({ children }: { children: React.ReactNode }) {
@@ -5,12 +7,11 @@ export function DefaultLayout({ children }: { children: React.ReactNode }) {
     <div className="default-layout">
       <header className="default-layout-header">
         <span className="default-layout-title">Telnyx Support</span>
+        <Search />
       </header>
       <div className="default-layout-body">
         <aside className="default-layout-sidebar">
-          <nav>
-            <ul className="default-layout-nav-list" />
-          </nav>
+          <Sidebar />
         </aside>
         <main className="default-layout-content">{children}</main>
       </div>
