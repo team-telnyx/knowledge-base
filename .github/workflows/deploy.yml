@@ -1,0 +1,52 @@
+# NOTE: AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY must be added to repo secrets.
+name: Deploy - build and deploy to production
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "website/**"
+      - "support-docs/**"
+
+jobs:
+  build:
+    runs-on: telnyx-small
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Setup runner
+        uses: ./.github/utils/setup-runner
+
+      - name: Lint
+        working-directory: website
+        run: bun run lint
+
+      - name: Type check
+        working-directory: website
+        run: bun run type-check
+
+      - name: Build the website
+        working-directory: website
+        env:
+          BASE_PATH: "/"
+        run: bun run build
+
+      - name: Setup S3cmd cli tool
+        uses: ./.github/utils/setup-s3cmd
+        with:
+          access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
+      - name: Deploy files to bucket
+        run: |
+          ~/.local/bin/s3cmd sync ./website/dist/ s3://support.telnyx.com/ \
+            --add-header='Cache-Control: public, must-revalidate' \
+            --acl-public \
+            --no-preserve \
+            --delete-removed \
+            --delete-after \
+            --cf-invalidate-default-index \
+            --recursive;
