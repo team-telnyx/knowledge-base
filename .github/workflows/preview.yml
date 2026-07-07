@@ -23,9 +23,9 @@ jobs:
       - name: Setup runner
         uses: ./.github/utils/setup-runner
 
-      - name: Lint
+      - name: Generate content manifest
         working-directory: website
-        run: bun run lint
+        run: bun run gen-content
 
       - name: Type check
         working-directory: website

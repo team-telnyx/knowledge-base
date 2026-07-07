@@ -7,6 +7,7 @@ const NAV_ICON_IMAGE =
 
 export function cleanArticle(raw: string): string {
   const kept: string[] = [];
+  let strippedH1 = false;
   for (const line of raw.split("\n")) {
     const t = line.trim();
     if (t === SKIP_LINK) continue;
@@ -19,6 +20,10 @@ export function cleanArticle(raw: string): string {
     )
       continue;
     if (NAV_ICON_IMAGE.test(t)) continue;
+    if (!strippedH1 && t.startsWith("# ")) {
+      strippedH1 = true;
+      continue;
+    }
     kept.push(line);
   }
   return kept.join("\n").trim();

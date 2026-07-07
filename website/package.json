@@ -9,7 +9,6 @@
     "prebuild": "bun run scripts/build-content.ts",
     "gen-content": "bun run scripts/build-content.ts",
     "preview": "vite preview",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives",
     "type-check": "tsc --noEmit"
   },
   "dependencies": {

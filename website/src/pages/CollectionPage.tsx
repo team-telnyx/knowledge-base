@@ -1,22 +1,15 @@
-import { useLocation, Link } from "wouter";
+import { useParams, Link } from "wouter";
 import { collections, articles } from "../content/manifest";
 import type { Collection } from "../content/types";
 import { Breadcrumbs } from "../components/Breadcrumbs";
-
-function useCollectionPath(): string {
-  const [location] = useLocation();
-  const prefix = "/collection/";
-  if (!location.startsWith(prefix)) return "";
-  const raw = location.slice(prefix.length);
-  return decodeURIComponent(raw);
-}
 
 function findCollection(path: string): Collection | undefined {
   return collections.find((collection) => collection.path === path);
 }
 
 export function CollectionPage() {
-  const collectionPath = useCollectionPath();
+  const { rest } = useParams<{ rest?: string }>();
+  const collectionPath = rest ? decodeURIComponent(rest) : "";
   const collection = findCollection(collectionPath);
 
   if (!collection) {

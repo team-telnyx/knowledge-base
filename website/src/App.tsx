@@ -1,11 +1,12 @@
-import { Router, Route, Link } from "wouter";
+import { Router, Route, Link, Switch } from "wouter";
 import { DefaultLayout } from "./layouts/DefaultLayout";
 import { CollectionPage } from "./pages/CollectionPage";
 import { ArticlePage } from "./pages/ArticlePage";
 import { NotFoundPage } from "./pages/NotFoundPage";
 import { collections } from "./content/manifest";
 
-const basePath = process.env.BASE_PATH || "/";
+const rawBasePath = process.env.BASE_PATH || "/";
+const basePath = rawBasePath === "/" ? "" : rawBasePath;
 
 function HomePage() {
   const rootCollections = collections.filter((c) => c.parentPath === null);
@@ -27,10 +28,12 @@ export function App() {
   return (
     <Router base={basePath}>
       <DefaultLayout>
-        <Route path="/" component={HomePage} />
-        <Route path="/collection/*" component={CollectionPage} />
-        <Route path="/article/:slug" component={ArticlePage} />
-        <Route path="/:rest*" component={NotFoundPage} />
+        <Switch>
+          <Route path="/" component={HomePage} />
+          <Route path="/collection/:rest*" component={CollectionPage} />
+          <Route path="/article/:slug" component={ArticlePage} />
+          <Route path="/:rest*" component={NotFoundPage} />
+        </Switch>
       </DefaultLayout>
     </Router>
   );
