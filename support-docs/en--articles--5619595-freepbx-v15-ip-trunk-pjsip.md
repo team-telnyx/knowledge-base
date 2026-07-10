@@ -1,0 +1,264 @@
+---
+source_url: https://support.telnyx.com/en/articles/5619595-freepbx-v15-ip-trunk-pjsip
+scraped: 2026-07-08
+content_hash: 876c8ea38279e2477e864a58fb9278a688db2847416cc5ce8b49a6a039644341
+---
+
+FreePBX V15: IP Trunk - PJSIP | Telnyx Help Center
+
+[Skip to main content](#main-content)
+
+# FreePBX V15: IP Trunk - PJSIP
+
+In this article we will explain how to configure a FreePBX V15 IP trunk with Telnyx using PJSIP
+
+C
+
+Written by Customer Success
+
+January 10, 2024
+
+Table of contents
+
+[Jump to Instructions](#h_ace0e0da52)
+
+[FreePBX](https://www.freepbx.org/) is a web-based open source GUI (graphical user interface) that controls and manages Asterisk (PBX), an open source communication server. FreePBX is licensed under the GNU General Public License (GPL), an open source license. FreePBX can be installed manually or as part of the pre-configured FreePBX Distro that includes the system OS, Asterisk, FreePBX GUI and assorted dependencies.
+
+You'll need to have created an [IP connection](https://portal.telnyx.com/#/app/connections) on your Telnyx Mission Control Portal account, assigned this connection to a DID and outbound profile in order to make and receive calls.
+
+PJSIP is an Open Source and separate extension of the Asterisk, and Asterisk derived systems. It provides a resource for assigning multiple trunks via SRV addresses, and more options. PJSIP also provides three main components of real-time multimedia application, i.e. signaling, media features, and NAT traversal, among other things that have been taken care of by PJSIP.  
+​  
+We suggest using PJSIP as an upgrade from Chan\_SIP, as Chan\_SIP is outdated, and the majority of users are moving to PJSIP which provides a number of more future proof options, and is still actively being improved by the community. You can find out more about PJSIP [here](https://www.pjsip.org/about.htm).
+
+Additional documentation and resoruces:
+
+* [FreePBX support](https://www.freepbx.org/support/)
+* [FreePBX documentation](https://wiki.freepbx.org/#all-updates)
+
+---
+
+# Instructions for Configuring a FreePBX V15 IP Trunk
+
+In this activity you will:
+
+1. [Install your FreePBX V15](#h_2d665fa141)
+2. [Configure basic settings for your FreePBX](#h_49bb80f8f1)
+3. [Configure SIP settings for your FreePBX](#h_632abb90e1)
+4. [Configure extensions for your FreePBX](#h_6277436173)
+5. [Configure a trunk for your FreePBX](#h_b1edf7a95a)
+6. [Configure PJSIP outbound settings for your FreePBX](#h_0e06ac7b10)
+7. [Set up call routing on your FreePBX](#h_7173d25de2)
+
+**Pre-requisites**
+
+* [Download](https://www.freepbx.org/downloads/) and [install](https://sangomakb.atlassian.net/wiki/spaces/PP/pages/10682958/PBX+Platforms+Home) FreePBX V15
+* [Configure your Telnyx Mission Control Portal](https://support.telnyx.com/en/articles/1176636-get-started-with-a-mission-control-account)
+* RECOMMENDED: [Enable TLS to encrypt your traffic](https://support.telnyx.com/en/articles/1130711-does-telnyx-encrypt-communication)
+
+**Video Walkthrough**
+
+Setting up your Telnyx SIP portal account so you can make and receive calls:
+
+|  |
+| --- |
+| ***Note:*** *Video walkthrough for FreePBX/Telnyx configuration coming soon. Check back as we update our docs.* |
+
+## 1. Install your FreePBX V15
+
+In this section, you'll go through the steps you need to follow to install FreePBX.
+
+1. ### **Once you load the ISO onto your server or virtual machine, you'll have a few options to select for installation. We'll be doing a full install via asterisk 16.**
+
+   ![A loaded virtual machine/server. ](_images/0181966dde309a8c.png)
+2. ### **You'll be prompted for your preferred video method you want to install.**
+
+   ![Video method selection tab. ](_images/36c662dd27d42c62.png)
+3. ### **The installer will now start.**
+
+   ![Active installer. ](_images/8cef83ffa2d55392.png)
+4. ### **The installer will start but you will see it shows the root password is not set. You will need to click on the root password box to set your root password. The installation process can not complete until this is done.**
+
+   
+5. ### **Type in your root password and confirm it a second time and click on the Done option in the top left screen.**
+
+   ![Root password confirmation. ](_images/3eccab3bc7c6c046.png)
+6. ### **At this time the FreePBX package itself can take 15 or more minutes to install and does requires access to the internet so depending on your internet speeds it can take awhile to install so be patient.**
+
+   
+7. ### **Once the install has 100% completed it will give you a reboot option as shown below. Click on reboot your your system is now installed.**
+
+   
+8. ### **Once the process is complete, you'll reach the Linux console/command prompt login. You can log in here using the username "root" without quotes, and the Root password you selected earlier.**
+
+   
+9. ### **After you log in, you should see the IP address of your PBX as shown below. Take note of this IP address as you will need it in the next step.**
+
+   
+10. #### **Enter the IP address of the new PBX into your web browser. The first time you do so, you'll be asked to create the admin username and the admin password. That username and password will be used in the future to access the FreePBX configuration screen.** **Note: These passwords do not change the Root password! They are only used for access to the FreePBX web interface.**
+
+    ![FreePBX support initial setup interface. ](_images/f1b313d0ae2f42a9.png)
+11. ### **Once submitted you can log in to the admin panel with the username and password set up on the step above.**
+
+[Back to Top](#h_ace0e0da52)
+
+## 2. Configuring basic settings for your FreePBX
+
+In this step, you'll configure your FreePBX V15 and connect it to Telnyx. To begin, notice that the main FreePBX screen will offer you four options:
+
+![FreePBX basic settings. ](_images/64054165c00ee9e6.png)
+
+* **FreePBX Administration** will allow you to configure your PBX. Use the admin username and admin password you configured in the step above to login. This section is what most people refer to as "FreePBX."
+
+* **User Control Panel** is where a user can log in to make web calls, set up their phone buttons, view voicemails, send and receive faxes, use SMS & XMPP messaging, view conferences, and more, depending on what you have enabled for the user, see [User Control Panel (UCP) 14+](https://wiki.freepbx.org/pages/viewpage.action?pageId=74318855) for more information.
+
+* **Operator Panel** is a screen that allows an operator to control calls (needs additional licensing)
+
+* **Get Support** takes you to a web page about various official support options for FreePBX.
+
+1. Enter in the username, password and admin email address in order to create your account.
+
+   ![Initial setup settings interface.](_images/f1b313d0ae2f42a9.png)
+2. Once you've created your account, you'll be brought to the dashboard. Select **FreePBX Administration** and enter your username and password.
+3. Follow the process to activate your FreePBX V15.
+
+   ![](_images/d837b94bacf96195.png)
+4. Select your default locales.
+
+   ![Default locales settings. ](_images/22ab76536acbc54d.png)
+5. You'll be presented with some firewall details and other suggestions. You are welcome to set this up based on your requirements.
+6. Once you're back at the dashboard, you'll see more detail.
+
+   ![FreePBX dashboard. ](_images/3411ea2aba205df0.png)
+
+[Back to Top](#h_ace0e0da52)
+
+## 3. Configuring SIP settings for your FreePBX
+
+At this point you can now work on confirming network settings and configuring your [SIP trunks](https://telnyx.com/products/sip-trunks) and extensions.
+
+1. Make your way to **Settings -> Asterisk SIP Settings** in order to confirm your **network settings**.
+2. You'll want to ensure you populate the **external** and **local** network addresses under **General SIP Settings** and  **PJSIP Settings**.
+3. Click **Submit** and then **Apply Config.**
+
+   ![Asterisk SIP settings. ](_images/847163dc3de1f096.png)
+
+[Back to Top](#h_ace0e0da52)
+
+## 4. Configure Extensions for your Free PBX
+
+In this section, you'll configure all your PJSIP extensions.
+
+1. Make your way to **Applications -> Extensions -> Add Extension -> Add New Chan PJSIP Extension.** The **Outbound CID** is the [number you purchased](https://portal.telnyx.com/#/app/numbers/my-numbers) from your Telnyx Mission Control Portal. The extensions secret may need to be populated under the **Other** tab.
+
+   ![Applications settings. ](_images/747c99ce86d00a77.png)
+
+   Note that if you do not set an Outbound CID for your extension, you will need to enable this on your trunk.  
+   ​  
+   This device uses **PJSIP** technology listening on Port 5060 (UDP)  
+   ​
+2. Click **Submit** and **Apply Config.**
+
+   ![PJSIP addition extension. ](_images/22cdfd9140be6e55.png)
+
+For testing purposes, you can now use your SIP client to register with FreePBX using the username, password/secret and local IP address of your FreePBX.
+
+[Back to Top](#h_ace0e0da52)
+
+## 5. Configure a Trunk for your FreePBX
+
+1. Make your way to **Connectivity -> Trunks -> Add Trunk -> Add New PJSIP Trunk.** You'll now be located in the **General** tab.
+2. Enter a Trunk name, your Outbound CID and the maximum channels you'd like for this trunk.
+
+   ![Trunk editing page. ](_images/61547513dae684da.png)
+
+   ***Note****: If you choose not to set an Outbound CID on your trunk, then you must set an Outbound CID on each relevant extension. If you do not set a caller ID on either the trunk or each extension, then your calls will reach our SIP proxy without a valid caller ID. You may instead choose to enable a Caller ID Override in your SIP Connection’s Outbound Options from within the Telnyx Portal. Please review our [caller ID number policy](https://support.telnyx.com/en/articles/3546251-caller-id-number-policy) for accepted formats.*  
+   ​
+3. Proceed to the **Dialed Number Manipulation Rules** tab. Depending on your use case, we've provided a simple dial pattern US numbers below.
+
+   ![Trunk Addition page. ](_images/95b70071373bfb13.png)
+
+   **For US numbers:**
+
+   1. prepend:*1*; match pattern: *NXXNXXXXXX*
+   2. prepend: blank; match pattern: *1NXXNXXXXXX*
+
+   **International:**
+
+   1. prepend: Country Dialing prefix; match pattern: *NXXNXXXXXX*
+   2. prepend:blank; match pattern: (Country Dialing prefix)*NXXNXXXXXX*
+
+[Back to Top](#h_ace0e0da52)
+
+## 6. Configure PJSIP Outbound Settings for your FreePBX
+
+![PJSIP settings in the trunk editing section. ](_images/4f9b661b6021bab5.png)
+
+1. Since you have created an IP based SIP Connection in your Mission Control Portal account, we do not need to specify any registration details.   
+   ​  
+   Make sure to specify:
+
+   1. **Registration** - Select None.
+   2. **SIP Server** - as your preferred Telnyx SIP Proxy (sip.telnyx.com in this instance for USA).
+   3. **SIP Server Port** - as port 5060
+2. Click **Submit** and **Apply Config.**
+3. You might see something like "**WARNING**: This trunk is not used by any routes! This trunk will not be able to be used for outbound calls until a route is setup that uses it."
+4. Click on **Outbound Routes** to setup routing.
+
+[Back to Top](#h_ace0e0da52)
+
+## 7. Set up call routing on your FreePBX
+
+1. Make your way to **Connectivity -> Outbound Routes -> Add Outbound Route**
+
+   ![Outbound routes section. ](_images/34e92c720bf73f3a.png)
+2. In **Route Settings:**
+
+   1. Set the route name
+   2. Ensure Telnyx Trunk is selected for the trunk sequence
+
+      ![Outbound routes for Telnyx trunk. ](_images/53c0f62d4ea72728.png)
+3. In **Dial Patterns:**
+
+   1. Use the dial pattern wizards to make all the dial patterns that apply to you.
+
+      ![Dial patterns for Telnyx. ](_images/7b531459708344c2.png)
+4. Click **Generate Routes, Submit** and **Apply Config.**
+5. Now make your way to **Connectivity -> Inbound Routes -> Add Inbound Route.**
+6. Enter the route name description, DID associated with this route and specify the **extension** that should be associated when calls are received to the DID.
+
+   ![Inbound routes for incoming routes. ](_images/8f92e36017b18b47.png)
+7. Click **Submit** and **Apply Config**.
+
+|  |
+| --- |
+| ***Note:*** *By default, when creating a SIP Connection in the Telnyx Mission Control Portal, the number formats for the ANI and DNIS will be set to E.164. This means Telnyx will send the dialled number in the SIP INVITE to your FreePBX system with 11 digits. As the [DID number](https://telnyx.com/resources/sip-did) above is in 11 digit format, the call will be accepted and routed to the extension. However, you can control the number formats as you desire and can read more about it [here](https://support.telnyx.com/en/articles/1130706-sip-connection-number-formats).* |
+
+That's it, you've now completed the configuration of FreePBX V15 Credentials PJSIP Trunk and can now make and receive calls by using Telnyx as your SIP provider!
+
+[Back to Top](#h_ace0e0da52)
+
+---
+
+## Additional Resources
+
+Review our [getting started with guide](https://support.telnyx.com/en/articles/1176636-get-started-with-a-mission-control-account) to make sure your Telnyx Mission Control Portal account is setup correctly!
+
+Additionally, check out:
+
+* FreePBX's [help section](https://www.freepbx.org/support/) for community or paid support
+* [FreePBX support](https://www.freepbx.org/support/)
+* [FreePBX documentation](https://wiki.freepbx.org/#all-updates)
+
+---
+
+---
+
+Related Articles
+
+[FreePBX Trunk Settings With Telnyx](https://support.telnyx.com/en/articles/1130620-freepbx-trunk-settings-with-telnyx)[Configuring a FreePBX V13 Credentials Trunk](https://support.telnyx.com/en/articles/1130648-configuring-a-freepbx-v13-credentials-trunk)[FreePBX V14: IP Trunk - ChanSIP](https://support.telnyx.com/en/articles/3284736-freepbx-v14-ip-trunk-chansip)[FreePBX V14: Credentials - ChanSIP](https://support.telnyx.com/en/articles/3284752-freepbx-v14-credentials-chansip)[FreePBX V15 IP Trunk - ChanSIP Tutorial](https://support.telnyx.com/en/articles/5467232-freepbx-v15-ip-trunk-chansip-tutorial)
+
+Did this answer your question?
+
+😞😐😃
+
+Table of contents
