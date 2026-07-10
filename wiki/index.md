@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-06-12T14:23:24Z
+updated_at: 2026-07-10T10:47:07Z
 ---
 
 # Telnyx Knowledge Base
@@ -308,5 +308,3 @@ updated_at: 2026-06-12T14:23:24Z
 - [WhatsApp Business Platform \(part 3\)](support-docs/whatsapp-business-platform--part-3.md) — WhatsApp Business Platform is Meta's API-based solution for sending and receiving WhatsApp messages at scale. Telnyx integrates as an official Business Solution Provider (BSP), offering API infrastructure for messaging, template management, phone number registration, webhook delivery, and WhatsApp Business Calling — all through the Telnyx Portal and API.
 - [WhatsApp Business Platform \(part 4\)](support-docs/whatsapp-business-platform--part-4.md) — WhatsApp Business Platform is Meta's API-based solution for sending and receiving WhatsApp messages at scale. Telnyx integrates as an official Business Solution Provider (BSP), offering API infrastructure for messaging, template management, phone number registration, webhook delivery, and WhatsApp Business Calling — all through the Telnyx Portal and API.
 - [WhatsApp Business Platform \(part 5\)](support-docs/whatsapp-business-platform--part-5.md) — WhatsApp Business Platform is Meta's API-based solution for sending and receiving WhatsApp messages at scale. Telnyx integrates as an official Business Solution Provider (BSP), offering API infrastructure for messaging, template management, phone number registration, webhook delivery, and WhatsApp Business Calling — all through the Telnyx Portal and API.
-
-- [The Answer to Life, the Universe, and Everything Else](support-docs/articles/42424242-answer-to-life-the-universe-and-everything.md) — This temporary demo article exists to validate the Telnyx Knowledge Base publishing flow from support-docs/ into the generated Knowledge Agent corpus and the Pylon Knowledge Base.
