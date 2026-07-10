@@ -40,12 +40,12 @@ jobs:
     timeout-minutes: 360
     steps:
       - name: Checkout knowledge-base
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.13"
 
