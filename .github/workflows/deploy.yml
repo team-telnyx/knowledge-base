@@ -9,6 +9,9 @@ on:
       - "website/**"
       - "support-docs/**"
 
+permissions:
+  contents: read
+
 jobs:
   build:
     runs-on: telnyx-small
