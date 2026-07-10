@@ -38,7 +38,7 @@ jobs:
         run: |
           FOLDER_NAME="pr-${{ github.event.pull_request.number }}/${{ github.event.pull_request.head.sha }}"
           echo "FOLDER_NAME=$FOLDER_NAME" >> $GITHUB_ENV
-          echo "REVIEW_URL=https://support.telnyx.com/$FOLDER_NAME/index.html" >> $GITHUB_ENV
+          echo "REVIEW_URL=https://support-v2.telnyx.com/$FOLDER_NAME/index.html" >> $GITHUB_ENV
 
       - name: Build the website
         working-directory: website
