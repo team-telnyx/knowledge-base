@@ -98,20 +98,43 @@ jobs:
               raise SystemExit('\n'.join(bad))
           PY
 
-      - name: Commit changes on main
+      - name: Open generated wiki corpus PR
         if: github.event_name == 'push' && github.ref == 'refs/heads/main' && steps.changes.outputs.count != '0'
         shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          git add wiki/index.md wiki/support-docs/articles
-          if git diff --cached --quiet; then
-            echo "No wiki corpus changes to commit."
+          if git diff --quiet -- wiki/index.md wiki/support-docs/articles; then
+            echo "No wiki corpus changes to publish."
             exit 0
           fi
+
+          BRANCH="bot/incremental-support-docs-wiki-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add wiki/index.md wiki/support-docs/articles
           git commit -m "docs: update support docs wiki corpus"
-          git push
+          git push -u origin "$BRANCH"
+
+          {
+            echo "Generated incremental support-doc wiki corpus updates."
+            echo
+            echo "- Source range: \`${{ steps.changes.outputs.base_sha }}..${{ steps.changes.outputs.head_sha }}\`"
+            echo "- Changed support-doc files: \`${{ steps.changes.outputs.count }}\`"
+            echo
+            echo "## Diff stat"
+            echo '```'
+            git diff --stat origin/main...HEAD -- wiki/index.md wiki/support-docs/articles
+            echo '```'
+          } > pr-body.md
+
+          gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "docs: update support docs wiki corpus" \
+            --body-file pr-body.md
 
       - name: Check PR includes generated wiki changes
         if: github.event_name == 'pull_request' && steps.changes.outputs.count != '0'
