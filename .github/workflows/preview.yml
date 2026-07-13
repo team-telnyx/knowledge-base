@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: telnyx-2xlarge
+    runs-on: telnyx-small
     timeout-minutes: 15
 
     steps:
