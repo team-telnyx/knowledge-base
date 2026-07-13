@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: telnyx-small
+    runs-on: ubuntu-latest
     timeout-minutes: 15
 
     steps:
