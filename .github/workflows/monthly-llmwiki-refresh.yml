@@ -2,8 +2,8 @@ name: Monthly LLMWiki Refresh
 
 on:
   schedule:
-    # First Sunday of each month, odd minute to avoid GitHub's top-of-hour cron rush.
-    - cron: "23 7 1-7 * 0"
+    # Sundays only; schedule-gate below limits automatic runs to the first Sunday.
+    - cron: "23 7 * * 0"
   workflow_dispatch:
     inputs:
       llmwiki_ref:
@@ -34,8 +34,34 @@ env:
   MAX_WORKERS: ${{ inputs.max_workers || '4' }}
 
 jobs:
+  schedule-gate:
+    name: Check monthly schedule window
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.gate.outputs.should_run }}
+    steps:
+      - name: Allow first Sunday or manual dispatch
+        id: gate
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "${{ github.event_name }}" != "schedule" ]]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          day="$(date -u +%d)"
+          if (( 10#$day <= 7 )); then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::Skipping monthly refresh because UTC day ${day} is outside the first-Sunday window."
+          fi
+
   refresh:
     name: Scrape/compile dev-docs and full-compile support-docs
+    needs: schedule-gate
+    if: needs.schedule-gate.outputs.should_run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 360
     steps:
