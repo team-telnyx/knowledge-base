@@ -94,7 +94,7 @@ jobs:
 
       - name: Restore dev-docs scrape cache
         id: devdocs-scrape-cache
-        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: .llmwiki-cache/dev-docs-sources
           key: devdocs-scrape-${{ runner.os }}-${{ env.LLMWIKI_REF }}-${{ env.MAX_PAGES }}-${{ github.run_id }}
@@ -117,7 +117,7 @@ jobs:
 
       - name: Save dev-docs scrape cache
         if: steps.devdocs-scrape-cache.outputs.cache-hit != 'true' && hashFiles('.llmwiki-cache/dev-docs-sources/_manifest.json') != ''
-        uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9
+        uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: .llmwiki-cache/dev-docs-sources
           key: devdocs-scrape-${{ runner.os }}-${{ env.LLMWIKI_REF }}-${{ env.MAX_PAGES }}-${{ github.run_id }}
