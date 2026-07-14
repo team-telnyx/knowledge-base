@@ -4,13 +4,13 @@
 The GitHub Actions jobs intentionally pull the LLMWiki compiler from the
 compiler repo at runtime. This script only handles the artifact-repo concerns:
 
-- prepare checked-in support docs as a compiler source snapshot
 - strip volatile `content_hash:` lines from generated wiki pages
 - install one compiled workspace without touching the other workspace
 - rebuild the flattened top-level wiki index from workspace indexes
+- remove generated per-workspace indexes
 
 Keeping this glue in the artifact repo lets the compiler keep evolving without
-copy/pasting its internals into GitHub Actions. Tiny blast radius, fewer goblins.
+copy/pasting its internals into GitHub Actions.
 """
 
 from __future__ import annotations
@@ -24,10 +24,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterable
 
-FRONTMATTER_RE = re.compile(r"\A---\n(?P<meta>.*?)\n---\n(?P<body>.*)\Z", re.DOTALL)
 CONTENT_HASH_LINE_RE = re.compile(r"^\s*content_hash:\s*[0-9a-fA-F]{64}\s*$")
 INDEX_ENTRY_RE = re.compile(r"^- \[(?P<title>.*?)]\((?P<link>[^)]+)\) — (?P<summary>.*)$")
-SKIP_SOURCE_NAMES = {"_collection.md", "_manifest.md"}
 
 
 @dataclass(frozen=True)
@@ -36,61 +34,6 @@ class IndexEntry:
     title: str
     link: str
     summary: str
-
-
-def parse_frontmatter(text: str) -> tuple[dict[str, str], str]:
-    match = FRONTMATTER_RE.match(text)
-    if not match:
-        return {}, text
-    meta: dict[str, str] = {}
-    for raw_line in match.group("meta").splitlines():
-        if ":" not in raw_line:
-            continue
-        key, value = raw_line.split(":", 1)
-        meta[key.strip()] = value.strip().strip('"')
-    return meta, match.group("body")
-
-
-def prepare_support_sources(source_root: Path, llmwiki_dir: Path) -> dict[str, object]:
-    """Copy checked-in support docs into LLMWiki's expected sources tree.
-
-    LLMWiki's loader only requires `source_url` frontmatter; it recomputes source
-    hashes from body content. We skip collection marker files because the full
-    compiler should synthesize article knowledge, not folder labels.
-    """
-
-    output_root = llmwiki_dir / "wikis" / "support-docs" / "sources" / "support-docs"
-    if output_root.exists():
-        shutil.rmtree(output_root)
-    output_root.mkdir(parents=True, exist_ok=True)
-
-    copied: list[str] = []
-    skipped: list[str] = []
-    for source in sorted(source_root.rglob("*.md")):
-        rel = source.relative_to(source_root)
-        if source.name.startswith("_") or source.name in SKIP_SOURCE_NAMES:
-            skipped.append(rel.as_posix())
-            continue
-        text = source.read_text(encoding="utf-8")
-        meta, _body = parse_frontmatter(text)
-        if not meta.get("source_url"):
-            skipped.append(rel.as_posix())
-            continue
-        dest = output_root / rel
-        dest.parent.mkdir(parents=True, exist_ok=True)
-        dest.write_text(text, encoding="utf-8")
-        copied.append(rel.as_posix())
-
-    manifest = {
-        "source_root": source_root.as_posix(),
-        "output_root": output_root.as_posix(),
-        "copied_count": len(copied),
-        "skipped_count": len(skipped),
-        "copied": copied,
-        "skipped": skipped,
-    }
-    (output_root / "_prepared_manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
-    return manifest
 
 
 def strip_content_hashlines(path: Path) -> dict[str, int]:
@@ -206,10 +149,6 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Monthly LLMWiki refresh helper")
     subparsers = parser.add_subparsers(dest="command", required=True)
 
-    prepare = subparsers.add_parser("prepare-support-sources")
-    prepare.add_argument("--source-root", type=Path, default=Path("support-docs"))
-    prepare.add_argument("--llmwiki-dir", type=Path, required=True)
-
     strip = subparsers.add_parser("strip-content-hashlines")
     strip.add_argument("--path", type=Path, required=True)
 
@@ -225,9 +164,7 @@ def main() -> None:
     rebuild.add_argument("--wiki-root", type=Path, default=Path("wiki"))
 
     args = parser.parse_args()
-    if args.command == "prepare-support-sources":
-        result = prepare_support_sources(args.source_root, args.llmwiki_dir)
-    elif args.command == "strip-content-hashlines":
+    if args.command == "strip-content-hashlines":
         result = strip_content_hashlines(args.path)
     elif args.command == "install-workspace":
         result = install_workspace(args.workspace, args.compiled_wiki_root, args.wiki_root)
