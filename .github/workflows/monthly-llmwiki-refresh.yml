@@ -37,7 +37,7 @@ env:
 jobs:
   schedule-gate:
     name: Check monthly schedule window
-    runs-on: ubuntu-latest
+    runs-on: telnyx-2xsmall
     outputs:
       should_run: ${{ steps.gate.outputs.should_run }}
     steps:
@@ -63,21 +63,19 @@ jobs:
     name: Scrape/compile dev-docs and full-compile support-docs
     needs: schedule-gate
     if: needs.schedule-gate.outputs.should_run == 'true'
-    runs-on: ubuntu-latest
+    runs-on: telnyx-medium
     timeout-minutes: 360
     steps:
       - name: Checkout knowledge-base
-        uses: actions/checkout@v7
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.13"
-
       - name: Install uv
-        uses: astral-sh/setup-uv@v5
+        uses: astral-sh/setup-uv@11f9893b081a58869d3b5fccaea48c9e9e46f990  # v8.3.2
+        with:
+          enable-cache: true
+          python-version: '3.13'
 
       - name: Checkout latest LLMWiki compiler
         shell: bash
@@ -96,7 +94,7 @@ jobs:
 
       - name: Restore dev-docs scrape cache
         id: devdocs-scrape-cache
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9
         with:
           path: .llmwiki-cache/dev-docs-sources
           key: devdocs-scrape-${{ runner.os }}-${{ env.LLMWIKI_REF }}-${{ env.MAX_PAGES }}-${{ github.run_id }}
@@ -119,7 +117,7 @@ jobs:
 
       - name: Save dev-docs scrape cache
         if: steps.devdocs-scrape-cache.outputs.cache-hit != 'true' && hashFiles('.llmwiki-cache/dev-docs-sources/_manifest.json') != ''
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9
         with:
           path: .llmwiki-cache/dev-docs-sources
           key: devdocs-scrape-${{ runner.os }}-${{ env.LLMWIKI_REF }}-${{ env.MAX_PAGES }}-${{ github.run_id }}
