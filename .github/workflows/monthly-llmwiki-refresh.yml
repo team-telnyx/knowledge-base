@@ -32,6 +32,7 @@ env:
   LLMWIKI_REF: ${{ inputs.llmwiki_ref || 'main' }}
   MAX_PAGES: ${{ inputs.max_pages || '5000' }}
   MAX_WORKERS: ${{ inputs.max_workers || '4' }}
+  DEV_DOCS_SOURCES: .llmwiki-cache/dev-docs-sources
 
 jobs:
   schedule-gate:
@@ -93,14 +94,35 @@ jobs:
         working-directory: ../LLMWiki
         run: uv sync
 
+      - name: Restore dev-docs scrape cache
+        id: devdocs-scrape-cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .llmwiki-cache/dev-docs-sources
+          key: devdocs-scrape-${{ runner.os }}-${{ env.LLMWIKI_REF }}-${{ env.MAX_PAGES }}-${{ github.run_id }}
+
       - name: Scrape developers.telnyx.com source snapshot
         working-directory: ../LLMWiki
         run: |
           set -euo pipefail
+          SNAPSHOT="../knowledge-base/${DEV_DOCS_SOURCES}"
+          if [[ -f "${SNAPSHOT}/_manifest.json" ]]; then
+            echo "Using cached dev-docs scrape snapshot at ${SNAPSHOT}"
+            exit 0
+          fi
+
           uv run wiki scrape \
             --source dev-docs \
+            --output-dir "${SNAPSHOT}" \
             --max-pages "$MAX_PAGES" \
             2>&1 | tee ../knowledge-base/dev-scrape.log
+
+      - name: Save dev-docs scrape cache
+        if: steps.devdocs-scrape-cache.outputs.cache-hit != 'true' && hashFiles('.llmwiki-cache/dev-docs-sources/_manifest.json') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: .llmwiki-cache/dev-docs-sources
+          key: devdocs-scrape-${{ runner.os }}-${{ env.LLMWIKI_REF }}-${{ env.MAX_PAGES }}-${{ github.run_id }}
 
       - name: Full compile support-docs with LLMWiki
         working-directory: ../LLMWiki
@@ -130,6 +152,7 @@ jobs:
           rm -rf ../dist-dev wikis/dev-docs/.work
           uv run wiki compile \
             --wiki-name dev-docs \
+            --sources-root "../knowledge-base/${DEV_DOCS_SOURCES}" \
             --out-dir ../dist-dev \
             --grouping area \
             --max-workers "$MAX_WORKERS" \
@@ -162,13 +185,13 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          SCRAPED_COUNT=$(find ../LLMWiki/wikis/dev-docs/sources/dev-docs -name '*.md' | wc -l | tr -d ' ')
+          SCRAPED_COUNT=$(find "${DEV_DOCS_SOURCES}" -name '*.md' | wc -l | tr -d ' ')
           {
             echo "## Summary"
             echo "- Single monthly LLMWiki refresh for both corpora."
             echo "- Scraped developers.telnyx.com and compiled checked-in support-docs source artifacts, then compiled each corpus with its appropriate grouping strategy."
             echo "- Pulled compiler from \`${LLMWIKI_REPO}@${LLMWIKI_REF}\`."
-            echo "- Scraped \`${SCRAPED_COUNT}\` dev-doc Markdown source pages."
+            echo "- Used a dev-docs scrape snapshot containing \`${SCRAPED_COUNT}\` Markdown source pages."
             echo "- Stripped generated \`content_hash:\` hashlines before committing, per David O'Connell's recommendation."
             echo "- Committed one flattened \`wiki/index.md\`; generated per-workspace indexes are removed before commit."
             echo
