@@ -93,12 +93,6 @@ jobs:
         working-directory: ../LLMWiki
         run: uv sync
 
-      - name: Prepare support-docs source snapshot for compiler
-        run: |
-          python scripts/monthly_llmwiki_refresh.py prepare-support-sources \
-            --source-root support-docs \
-            --llmwiki-dir ../LLMWiki | tee support-source-prep.json
-
       - name: Scrape developers.telnyx.com source snapshot
         working-directory: ../LLMWiki
         run: |
@@ -119,6 +113,7 @@ jobs:
           rm -rf ../dist-support wikis/support-docs/.work
           uv run wiki compile \
             --wiki-name support-docs \
+            --sources-root ../knowledge-base/support-docs \
             --out-dir ../dist-support \
             --grouping llm \
             --max-workers "$MAX_WORKERS" \
@@ -171,7 +166,7 @@ jobs:
           {
             echo "## Summary"
             echo "- Single monthly LLMWiki refresh for both corpora."
-            echo "- Scraped developers.telnyx.com, prepared checked-in support-docs, then compiled each corpus with its appropriate grouping strategy."
+            echo "- Scraped developers.telnyx.com and compiled checked-in support-docs source artifacts, then compiled each corpus with its appropriate grouping strategy."
             echo "- Pulled compiler from \`${LLMWIKI_REPO}@${LLMWIKI_REF}\`."
             echo "- Scraped \`${SCRAPED_COUNT}\` dev-doc Markdown source pages."
             echo "- Stripped generated \`content_hash:\` hashlines before committing, per David O'Connell's recommendation."
