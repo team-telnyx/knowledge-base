@@ -1,6 +1,6 @@
 import { useParams, Link } from "wouter";
 import { collections, articles } from "../content/manifest";
-import type { Collection } from "../content/types";
+import type { Article, Collection } from "../content/types";
 import { Breadcrumbs } from "../components/Breadcrumbs";
 
 function findCollection(path: string): Collection | undefined {
@@ -29,7 +29,7 @@ export function CollectionPage() {
 
   const collectionArticles = collection.articleSlugs
     .map((slug) => articles.find((article) => article.slug === slug))
-    .filter((article) => article !== undefined);
+    .filter((article): article is Omit<Article, "body"> => article !== undefined);
 
   return (
     <div className="collection-page">

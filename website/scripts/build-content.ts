@@ -65,7 +65,17 @@ function parentOf(p: string): string | null {
 }
 
 function main() {
-  const tree = readJson<{ collections: TreeCollection[] }>(treePath);
+  const tree = fs.existsSync(treePath)
+    ? readJson<{ collections: TreeCollection[] }>(treePath)
+    : {
+        collections: [
+          {
+            path: "support-articles",
+            title: "Support Articles",
+            source_url: "https://support.telnyx.com/",
+          },
+        ],
+      };
   const manifestData = readJson<ManifestData>(manifestPath);
 
   const collections: Collection[] = tree.collections.map((c) => {
@@ -131,7 +141,8 @@ function main() {
     const { fm, body } = parseFrontmatter(content);
     const cleanedBody = cleanArticle(body);
     const slug = path.basename(relPath, ".md");
-    const collectionPath = path.dirname(relPath).split(path.sep).join("/");
+    const articleDir = path.dirname(relPath).split(path.sep).join("/");
+    const collectionPath = articleDir === "." ? "support-articles" : articleDir;
     const title = firstH1(body) ?? slug;
 
     articles.push({
