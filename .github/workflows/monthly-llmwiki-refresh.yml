@@ -37,7 +37,7 @@ env:
 jobs:
   schedule-gate:
     name: Check monthly schedule window
-    runs-on: telnyx-2xsmall
+    runs-on: telnyx-xsmall
     outputs:
       should_run: ${{ steps.gate.outputs.should_run }}
     steps:
