@@ -32,11 +32,12 @@ env:
   LLMWIKI_REF: ${{ inputs.llmwiki_ref || 'main' }}
   MAX_PAGES: ${{ inputs.max_pages || '5000' }}
   MAX_WORKERS: ${{ inputs.max_workers || '4' }}
+  DEV_DOCS_SOURCES: .llmwiki-cache/dev-docs-sources
 
 jobs:
   schedule-gate:
     name: Check monthly schedule window
-    runs-on: ubuntu-latest
+    runs-on: telnyx-2xsmall
     outputs:
       should_run: ${{ steps.gate.outputs.should_run }}
     steps:
@@ -62,21 +63,19 @@ jobs:
     name: Scrape/compile dev-docs and full-compile support-docs
     needs: schedule-gate
     if: needs.schedule-gate.outputs.should_run == 'true'
-    runs-on: ubuntu-latest
+    runs-on: telnyx-medium
     timeout-minutes: 360
     steps:
       - name: Checkout knowledge-base
-        uses: actions/checkout@v7
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.13"
-
       - name: Install uv
-        uses: astral-sh/setup-uv@v5
+        uses: astral-sh/setup-uv@11f9893b081a58869d3b5fccaea48c9e9e46f990  # v8.3.2
+        with:
+          enable-cache: true
+          python-version: '3.13'
 
       - name: Checkout latest LLMWiki compiler
         shell: bash
@@ -93,14 +92,35 @@ jobs:
         working-directory: ../LLMWiki
         run: uv sync
 
+      - name: Restore dev-docs scrape cache
+        id: devdocs-scrape-cache
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: .llmwiki-cache/dev-docs-sources
+          key: devdocs-scrape-${{ runner.os }}-${{ env.LLMWIKI_REF }}-${{ env.MAX_PAGES }}-${{ github.run_id }}
+
       - name: Scrape developers.telnyx.com source snapshot
         working-directory: ../LLMWiki
         run: |
           set -euo pipefail
+          SNAPSHOT="../knowledge-base/${DEV_DOCS_SOURCES}"
+          if [[ -f "${SNAPSHOT}/_manifest.json" ]]; then
+            echo "Using cached dev-docs scrape snapshot at ${SNAPSHOT}"
+            exit 0
+          fi
+
           uv run wiki scrape \
             --source dev-docs \
+            --output-dir "${SNAPSHOT}" \
             --max-pages "$MAX_PAGES" \
             2>&1 | tee ../knowledge-base/dev-scrape.log
+
+      - name: Save dev-docs scrape cache
+        if: steps.devdocs-scrape-cache.outputs.cache-hit != 'true' && hashFiles('.llmwiki-cache/dev-docs-sources/_manifest.json') != ''
+        uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: .llmwiki-cache/dev-docs-sources
+          key: devdocs-scrape-${{ runner.os }}-${{ env.LLMWIKI_REF }}-${{ env.MAX_PAGES }}-${{ github.run_id }}
 
       - name: Full compile support-docs with LLMWiki
         working-directory: ../LLMWiki
@@ -130,6 +150,7 @@ jobs:
           rm -rf ../dist-dev wikis/dev-docs/.work
           uv run wiki compile \
             --wiki-name dev-docs \
+            --sources-root "../knowledge-base/${DEV_DOCS_SOURCES}" \
             --out-dir ../dist-dev \
             --grouping area \
             --max-workers "$MAX_WORKERS" \
@@ -162,13 +183,13 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          SCRAPED_COUNT=$(find ../LLMWiki/wikis/dev-docs/sources/dev-docs -name '*.md' | wc -l | tr -d ' ')
+          SCRAPED_COUNT=$(find "${DEV_DOCS_SOURCES}" -name '*.md' | wc -l | tr -d ' ')
           {
             echo "## Summary"
             echo "- Single monthly LLMWiki refresh for both corpora."
             echo "- Scraped developers.telnyx.com and compiled checked-in support-docs source artifacts, then compiled each corpus with its appropriate grouping strategy."
             echo "- Pulled compiler from \`${LLMWIKI_REPO}@${LLMWIKI_REF}\`."
-            echo "- Scraped \`${SCRAPED_COUNT}\` dev-doc Markdown source pages."
+            echo "- Used a dev-docs scrape snapshot containing \`${SCRAPED_COUNT}\` Markdown source pages."
             echo "- Stripped generated \`content_hash:\` hashlines before committing, per David O'Connell's recommendation."
             echo "- Committed one flattened \`wiki/index.md\`; generated per-workspace indexes are removed before commit."
             echo
