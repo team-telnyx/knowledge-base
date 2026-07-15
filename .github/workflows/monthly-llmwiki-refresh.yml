@@ -37,7 +37,7 @@ env:
 jobs:
   schedule-gate:
     name: Check monthly schedule window
-    runs-on: telnyx-xsmall
+    runs-on: ubuntu-latest
     outputs:
       should_run: ${{ steps.gate.outputs.should_run }}
     steps:
@@ -63,7 +63,7 @@ jobs:
     name: Scrape/compile dev-docs and full-compile support-docs
     needs: schedule-gate
     if: needs.schedule-gate.outputs.should_run == 'true'
-    runs-on: telnyx-medium
+    runs-on: ubuntu-latest
     timeout-minutes: 360
     steps:
       - name: Checkout knowledge-base
