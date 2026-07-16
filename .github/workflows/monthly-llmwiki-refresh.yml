@@ -135,7 +135,6 @@ jobs:
             --wiki-name support-docs \
             --sources-root ../knowledge-base/support-docs \
             --out-dir ../dist-support \
-            --grouping llm \
             --max-workers "$MAX_WORKERS" \
             2>&1 | tee ../knowledge-base/support-compile.log
 
@@ -152,7 +151,6 @@ jobs:
             --wiki-name dev-docs \
             --sources-root "../knowledge-base/${DEV_DOCS_SOURCES}" \
             --out-dir ../dist-dev \
-            --grouping area \
             --max-workers "$MAX_WORKERS" \
             2>&1 | tee ../knowledge-base/dev-compile.log
 
