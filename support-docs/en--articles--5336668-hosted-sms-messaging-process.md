@@ -120,7 +120,7 @@ Once the order is complete you can view your inventory of hosted messaging numbe
 
 * <https://telnyx.com/release-notes/hosted-sms>
 * <https://developers.telnyx.com/docs/messaging/messages/hosted-sms>
-* <https://telnyx.com/resources/hosted-sms-how-to-guide>
+* <https://telnyx.com/resources/hosted-messaging-telnyx>
 * <https://portal.telnyx.com/#/pricing/messaging>
 
 ---
