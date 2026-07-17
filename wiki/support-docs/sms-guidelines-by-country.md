@@ -1,87 +1,130 @@
 ---
 title: SMS Guidelines by Country
-summary: Country-specific SMS guidelines including MCC, dial codes, alphanumeric sender
-  ID policies, registration requirements, and regulatory considerations for sending
-  messages through Telnyx.
+summary: Consolidated Telnyx SMS guidelines for 15 countries across the Americas,
+  Caribbean, Europe, the Indian Ocean, and the Pacific, including MCC, dial code,
+  and Alphanumeric Sender ID rules for each destination.
 sources:
-- url: https://support.telnyx.com/en/articles/6531656-australia-sms-guidelines
-- url: https://support.telnyx.com/en/articles/6531664-mexico-sms-guidelines
-- url: https://support.telnyx.com/en/articles/6531712-brazil-sms-guidelines
-- url: https://support.telnyx.com/en/articles/6564188-argentina-sms-guidelines
 - url: https://support.telnyx.com/en/articles/6564226-costa-rica-sms-guidelines
-- url: https://support.telnyx.com/en/articles/6564249-bolivia-sms-guidelines
-- url: https://support.telnyx.com/en/articles/6665730-dominican-republic-sms-guidelines
-updated_at: 2026-06-11T11:19:10Z
+- url: https://support.telnyx.com/en/articles/6573677-panama-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6574032-guatemala-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6574081-honduras-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6574098-nicaragua-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6592505-anguilla-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6596149-bahamas-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6665707-dominica-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6670802-french-guyana-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6671856-guyana-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6674464-jamaica-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6675222-maldives-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6675252-malta-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6679161-palau-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6680053-seychelles-sms-guidelines
+updated_at: 2026-07-17T09:11:15Z
 ---
 
 # SMS Guidelines by Country
 
-Country-specific SMS guidelines including MCC, dial codes, alphanumeric sender ID policies, registration requirements, and regulatory considerations for sending messages through Telnyx.
+Consolidated Telnyx SMS guidelines for 15 countries across the Americas, Caribbean, Europe, the Indian Ocean, and the Pacific, including MCC, dial code, and Alphanumeric Sender ID rules for each destination.
 
-## Country Reference
+## Overview
 
-| Country | MCC | Dial Code |
-|---|---|---|
-| Argentina | 722 | 53 |
-| Australia | 505 | 61 |
-| Bolivia | 736 | 591 |
-| Brazil | 724 | 55 |
-| Costa Rica | 712 | 506 |
-| Dominican Republic | 370 | 1809 |
-| Mexico | 334 | 52 |
+This page consolidates Telnyx SMS guidelines for a selection of countries across the Americas, the Caribbean, Europe, the Indian Ocean, and the Pacific. Each entry lists the country, Mobile Country Code (MCC), dial code, and the rules governing Alphanumeric Sender IDs, including whether they are supported, overwritten, or require registration. All destinations also require compliance with the [Acceptable Use Policy for Messaging](acceptable-use-policy-for-messaging.md).
 
-## Alphanumeric Sender ID Policies
+## Americas (Central America & Caribbean)
 
-Alphanumeric sender ID handling varies significantly by destination. Policies fall into the following categories:
+### Costa Rica
+- **MCC:** 712
+- **Dial Code:** 506
+- All Alphanumeric Sender IDs will be overwritten to either a random Local Long Code or [Short Code](https://telnyx.com/products/sms-short-code) to ensure delivery.
 
-### Supported with Mandatory Registration
+### Panama
+- **MCC:** 714
+- **Dial Code:** 507
+- Alphanumeric Sender IDs are not supported. Registration is not possible.
+- All Alphanumeric Sender IDs will be overwritten to either a random Local Long Code or [Short Code](https://telnyx.com/products/sms-short-code) to ensure delivery.
 
-**Australia** requires mandatory registration of alphanumeric sender IDs with the Australia Communications and Media Authority (ACMA). Effective May 8, 2023, all messages sent with non-registered alphanumeric sender IDs are blocked. See the [Australia: Regulatory Requirements](#australia-regulatory-requirements) section below for full details.
+### Guatemala
+- **MCC:** 704
+- **Dial Code:** 502
+- Alphanumeric Sender IDs are not supported. Registration is not possible.
+- All Alphanumeric Sender IDs will be overwritten to either a random Local Long Code or [Short Code](https://telnyx.com/products/sms-short-code) to ensure delivery.
 
-### Supported without Registration (May Be Overwritten)
+### Honduras
+- **MCC:** 708
+- **Dial Code:** 504
+- Alphanumeric Sender IDs are partially supported. Registration is not possible.
+- All Alphanumeric Sender IDs can be overwritten to either a random Local Long Code or Short Code to ensure delivery.
 
-**Dominican Republic** supports alphanumeric sender IDs and no registration is required. However, alphanumeric sender IDs may occasionally be overwritten to a random short code to ensure delivery.
+### Nicaragua
+- **MCC:** 710
+- **Dial Code:** 505
+- All Alphanumeric Sender IDs will be overwritten to either a random Local Long Code or [Short Code](https://telnyx.com/products/sms-short-code) to ensure delivery.
 
-### Overwritten to Local Long Code or Short Code
+### Bahamas
+- **MCC:** 364
+- **Dial Code:** 1242
+- All Alphanumeric Sender IDs will be overwritten to either a random Local Long Code or [Short Code](https://telnyx.com/products/sms-short-code) to ensure delivery.
 
-In the following countries, alphanumeric sender IDs are not preserved on delivery. They will be overwritten to either a random local long code or short code:
+### Anguilla
+- **MCC:** 365
+- **Dial Code:** 1264
+- Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
+- There are no restrictions with regards to content towards this destination.
 
-- Argentina
-- Brazil (registration is not possible)
-- Costa Rica
-- Mexico
+### Dominica
+- **MCC:** 366
+- **Dial Code:** 1767
+- Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
+- There are no restrictions with regards to content towards this destination.
 
-### Not Supported
+### French Guyana
+- **MCC:** 742
+- **Dial Code:** 594
+- Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
+- There are no restrictions with regards to content towards this destination.
 
-**Bolivia** does not support alphanumeric sender IDs. Registration is not possible, and all alphanumeric sender IDs are overwritten to a random local long code or short code.
+### Guyana
+- **MCC:** 738
+- **Dial Code:** 592
+- Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
+- There are no restrictions with regards to content towards this destination.
 
-## Australia: Regulatory Requirements
+### Jamaica
+- **MCC:** 338
+- **Dial Code:** 1876
+- Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
+- There are no restrictions with regards to content towards this destination.
 
-Australia has the most stringent regulatory requirements among the countries covered here. All commercial traffic must comply with the [Australian Spam Act 2003](https://www.acma.gov.au/avoid-sending-spam).
+## Europe
 
-### Upcoming ACMA Regulation Changes
+### Malta
+- **MCC:** 278
+- **Dial Code:** 356
+- Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
+- There are no restrictions with regards to content towards this destination.
 
-New SMS regulations were announced by ACMA on 9 October 2025, with an expected effective date of 1 July 2026. Telnyx will register sender IDs via the ACMA portal, and customers will be required to confirm the registration. If you have previously registered a sender ID with Telnyx, Telnyx will reach out directly with next steps.
+## Indian Ocean
 
-### Alphanumeric Sender ID Registration Process
+### Maldives
+- **MCC:** 472
+- **Dial Code:** 960
+- Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
+- There are no restrictions with regards to content towards this destination.
 
-To register an alphanumeric sender ID for Australia:
+### Seychelles
+- **MCC:** 633
+- **Dial Code:** 248
+- Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
+- There are no restrictions with regards to content towards this destination.
 
-1. Complete the Australia Alpha Sender ID Registration Form and return it to [alpha_sender_id@telnyx.com](mailto:alpha_sender_id@telnyx.com), along with a copy of your Business Registration.
-2. Companies must have a valid business case for the requested alphanumeric sender ID. If the relationship between your company/brand and the requested sender ID is not clear, provide additional supporting documentation detailing your business case.
-3. If the registration is being made on behalf of a customer, a signed Letter of Authorisation (LOA) must be provided to confirm the legitimacy of the request.
+## Pacific
 
-For more information on alphanumeric sender ID registration, contact [alpha_sender_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
+### Palau
+- **MCC:** 552
+- **Dial Code:** 680
+- Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
+- There are no restrictions with regards to content towards this destination.
 
-### Additional Recommendations for Australia
+## Compliance
 
-- Obtain consent (proof of opt-in) before sending any communications, including marketing SMS.
-- Traffic should include clear opt-out options.
-
-## Delivery Receipts
-
-**Brazil** supports SMSC-DLR only. Positive delivery receipts (DLRs) are to be expected, but handset delivery reports are not possible.
-
-## General Compliance
-
-Regardless of destination, all messaging traffic must comply with the [Acceptable Use Policy for Messaging](acceptable-use-policy-for-messaging.md). Always review the policy before sending messages to any country.
+For every destination listed above, senders must always refer to the [Acceptable Use Policy for Messaging](acceptable-use-policy-for-messaging.md) to ensure compliance with Telnyx messaging rules.

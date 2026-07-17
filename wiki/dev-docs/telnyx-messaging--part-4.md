@@ -1,15 +1,29 @@
 ---
 title: Telnyx Messaging
-summary: Telnyx Messaging provides a comprehensive API for sending and receiving SMS
-  and MMS messages, with features including messaging profiles, alphanumeric sender
-  IDs, geomatching, group messaging, two-factor authentication, appointment reminders,
-  advanced opt-in/out handling, configurable spend limits, hosted SMS, and detailed
-  error handling.
+summary: Telnyx Messaging is a unified API for application-to-person (A2P) messaging
+  across 10DLC long codes, toll-free numbers, short codes, alphanumeric sender IDs,
+  RCS, and WhatsApp. This page covers sender type selection, messaging profiles, phone
+  number configuration, 10DLC and toll-free registration, campaign management, message
+  encoding, MMS, rate limiting, number pooling, opt-in/opt-out compliance, webhooks,
+  error codes, spend limits, RCS, WhatsApp Business messaging, hosted SMS, international
+  compliance, and common use cases like 2FA and appointment reminders.
 sources:
+- url: https://developers.telnyx.com/docs/messaging/10dlc/10dlc-rate-limits/index
+- url: https://developers.telnyx.com/docs/messaging/10dlc/brand-registration/index
+- url: https://developers.telnyx.com/docs/messaging/10dlc/campaign-registration/index
+- url: https://developers.telnyx.com/docs/messaging/10dlc/campaign-use-cases
+- url: https://developers.telnyx.com/docs/messaging/10dlc/event-notifications/index
+- url: https://developers.telnyx.com/docs/messaging/10dlc/isv-reseller-onboarding
+- url: https://developers.telnyx.com/docs/messaging/10dlc/phone-number-assignment
+- url: https://developers.telnyx.com/docs/messaging/10dlc/quickstart/index
+- url: https://developers.telnyx.com/docs/messaging/10dlc/sole-proprietor/index
+- url: https://developers.telnyx.com/docs/messaging/10dlc/troubleshooting/index
+- url: https://developers.telnyx.com/docs/messaging/getting-started/choosing-your-sender-type/index
 - url: https://developers.telnyx.com/docs/messaging/messages/2fa/index
 - url: https://developers.telnyx.com/docs/messaging/messages/advanced-opt-in-out/index
 - url: https://developers.telnyx.com/docs/messaging/messages/alphanumeric-sender-id/index
 - url: https://developers.telnyx.com/docs/messaging/messages/appointment-reminder
+- url: https://developers.telnyx.com/docs/messaging/messages/chat-sdk-adapter
 - url: https://developers.telnyx.com/docs/messaging/messages/configurable-spend-limits/index
 - url: https://developers.telnyx.com/docs/messaging/messages/configuration-and-usage/index
 - url: https://developers.telnyx.com/docs/messaging/messages/error-codes/index
@@ -17,112 +31,206 @@ sources:
 - url: https://developers.telnyx.com/docs/messaging/messages/group-messaging
 - url: https://developers.telnyx.com/docs/messaging/messages/hosted-sms/index
 - url: https://developers.telnyx.com/docs/messaging/messages/hosted-sms/internal-transfer
-updated_at: 2026-06-11T10:36:31Z
+- url: https://developers.telnyx.com/docs/messaging/messages/international-sms-compliance
+- url: https://developers.telnyx.com/docs/messaging/messages/message-detail-records/index
+- url: https://developers.telnyx.com/docs/messaging/messages/message-encoding/index
+- url: https://developers.telnyx.com/docs/messaging/messages/messaging-profiles-overview/index
+- url: https://developers.telnyx.com/docs/messaging/messages/mms-converter
+- url: https://developers.telnyx.com/docs/messaging/messages/mms-transcoding/index
+- url: https://developers.telnyx.com/docs/messaging/messages/number-pool/index
+- url: https://developers.telnyx.com/docs/messaging/messages/phone-number-configuration/index
+- url: https://developers.telnyx.com/docs/messaging/messages/rate-limiting/index
+- url: https://developers.telnyx.com/docs/messaging/messages/rcs-ai-assistant
+- url: https://developers.telnyx.com/docs/messaging/messages/rcs-capabilities/index
+- url: https://developers.telnyx.com/docs/messaging/messages/rcs-deeplinks
+- url: https://developers.telnyx.com/docs/messaging/messages/rcs-getting-started/index
+- url: https://developers.telnyx.com/docs/messaging/messages/receive-message
+- url: https://developers.telnyx.com/docs/messaging/messages/receiving-rcs-webhooks/index
+- url: https://developers.telnyx.com/docs/messaging/messages/receiving-webhooks/index
+- url: https://developers.telnyx.com/docs/messaging/messages/schedule-message/index
+- url: https://developers.telnyx.com/docs/messaging/messages/send-an-rcs-message/index
+- url: https://developers.telnyx.com/docs/messaging/messages/send-message/index
+- url: https://developers.telnyx.com/docs/messaging/messages/send-receive-mms/index
+- url: https://developers.telnyx.com/docs/messaging/messages/short-code/index
+- url: https://developers.telnyx.com/docs/messaging/messages/smart-encoding/index
+- url: https://developers.telnyx.com/docs/messaging/messages/smil-template
+- url: https://developers.telnyx.com/docs/messaging/messages/sticky-sender/index
+- url: https://developers.telnyx.com/docs/messaging/messages/url-shortening/index
+- url: https://developers.telnyx.com/docs/messaging/messages/zapier-integration
+- url: https://developers.telnyx.com/docs/messaging/toll-free-verification/index
+- url: https://developers.telnyx.com/docs/messaging/toll-free-verification/troubleshooting
+- url: https://developers.telnyx.com/docs/messaging/whatsapp/embedded-signup
+- url: https://developers.telnyx.com/docs/messaging/whatsapp/embedded-signup/tech-provider
+- url: https://developers.telnyx.com/docs/messaging/whatsapp/manage-templates
+- url: https://developers.telnyx.com/docs/messaging/whatsapp/quickstart/index
+- url: https://developers.telnyx.com/docs/messaging/whatsapp/send-messages/index
+updated_at: 2026-07-17T09:15:02Z
 ---
 
 # Telnyx Messaging
 
-*Part 4 of 4 — see also: [Part 1](telnyx-messaging--part-1.md), [Part 2](telnyx-messaging--part-2.md), [Part 3](telnyx-messaging--part-3.md)*
+*Part 4 of 5 — see also: [Part 1](telnyx-messaging--part-1.md), [Part 2](telnyx-messaging--part-2.md), [Part 3](telnyx-messaging--part-3.md), [Part 5](telnyx-messaging--part-5.md)*
 
-Telnyx Messaging provides a comprehensive API for sending and receiving SMS and MMS messages, with features including messaging profiles, alphanumeric sender IDs, geomatching, group messaging, two-factor authentication, appointment reminders, advanced opt-in/out handling, configurable spend limits, hosted SMS, and detailed error handling.
+Telnyx Messaging is a unified API for application-to-person (A2P) messaging across 10DLC long codes, toll-free numbers, short codes, alphanumeric sender IDs, RCS, and WhatsApp. This page covers sender type selection, messaging profiles, phone number configuration, 10DLC and toll-free registration, campaign management, message encoding, MMS, rate limiting, number pooling, opt-in/opt-out compliance, webhooks, error codes, spend limits, RCS, WhatsApp Business messaging, hosted SMS, international compliance, and common use cases like 2FA and appointment reminders.
 
 ## Error Codes
 
-Errors fall into three categories: **API request errors** (returned immediately), **delivery errors** (reported via webhooks), and **configuration errors** (number/profile issues).
-
 ### Delivery Errors (40xxx)
 
-**Carrier rejections:**
-
 | Code | Error | Action |
-|---|---|---|
+| --- | --- | --- |
 | `40001` | Not routable | Verify recipient can receive SMS/MMS |
-| `40002` | Blocked as spam (temporary) | Reduce sending rate; review content |
-| `40003` | Blocked as spam (permanent) | Use a different number; contact support |
-| `40004` | Rejected by destination | Retry after delay |
-| `40005` | Message expired | Increase validity period |
-| `40006` | Recipient unavailable | Retry with exponential backoff |
-| `40008` | Undeliverable | Check number validity; try alternate route |
-| `40009` | Invalid message body | Check for invalid characters or encoding |
-| `40011` | Rate limit exceeded (upstream) | Reduce sending rate |
-| `40012` | Invalid destination number | Verify E.164 format |
-| `40013` | Invalid source number | Check number is active and messaging-enabled |
-| `40014` | Expired in queue | Check throughput bottlenecks |
-| `40015` | Internal spam filter | Review content; contact support if false positive |
-
-**10DLC-specific errors:**
-
-| Code | Error | Action |
-|---|---|---|
+| `40002` | Blocked as spam (temporary) | Reduce sending rate |
+| `40003` | Blocked as spam (permanent) | Use different sending number |
 | `40010` | Not 10DLC registered | Register for 10DLC |
-| `40016` | T-Mobile sending limit | Reduce rate or improve brand vetting score |
-| `40017` | AT&T spam rejection | Review content; avoid URL shorteners |
-| `40018` | AT&T sending limit | Reduce rate or improve brand vetting score |
-| `40019` | AT&T invalid tag data | Verify campaign and number assignment |
-| `40020` | Artificial traffic inflation | Wait 24 hours; review for fraud patterns |
-
-**Toll-free errors:**
-
-| Code | Error | Action |
-|---|---|---|
-| `40329` | Toll-free not verified | Complete toll-free verification |
-| `40330` | Toll-free not provisioned | Wait for provisioning; contact support |
+| `40016` | T-Mobile sending limit | Reduce rate or improve vetting |
+| `40017` | AT&T spam rejection | Review content |
+| `40018` | AT&T sending limit | Reduce rate or improve vetting |
+| `40020` | Artificial traffic inflation | Wait 24 hours |
 
 ### API Request Errors (403xx)
 
-**Sender/recipient errors:**
-
 | Code | Error | Action |
-|---|---|---|
-| `40300` | Blocked (STOP) | Do not retry; wait for opt-back-in |
-| `40301` | Unsupported message type | Check number type capabilities |
+| --- | --- | --- |
+| `40300` | Blocked (STOP) | Do not retry |
 | `40305` | Invalid 'from' address | Assign number to messaging profile |
-| `40306` | Alpha sender not configured | Configure on messaging profile |
-| `40307` | Alpha sender mismatch | Use exact configured alpha sender |
-| `40308` | Invalid 'from' for MMS | Use MMS-capable number |
-| `40309` | Invalid destination region | Add region to profile whitelist |
 | `40310` | Invalid 'to' address | Verify E.164 format |
-| `40325` | Invalid alpha sender ID | Use 1–11 alphanumeric characters |
-
-**Content errors:**
-
-| Code | Error | Action |
-|---|---|---|
-| `40302` | Message too large | Shorten message or send as MMS |
-| `40304` | Invalid content combination | Use `text` for SMS; `media_urls` for MMS |
-| `40316` | No content | Include `text` and/or `media_urls` |
-| `40317` | Invalid MMS content | Reduce to ≤10 URLs and ≤1 MB total |
-| `40322` | Blocked content | Remove flagged content |
-
-**Profile/configuration errors:**
-
-| Code | Error | Action |
-|---|---|---|
-| `40311` | Invalid profile secret | Check `X-Profile-Secret` header |
-| `40312` | Profile disabled | Re-enable in Mission Control |
-| `40314` | Messaging disabled | Contact support |
-| `40315` | Unhealthy sender | Check number success/spam rates |
-| `40318` | Queue full | Back off and retry after delay |
-| `40331` | Missing whitelist | Add destination regions to profile |
+| `40318` | Queue full | Back off and retry |
 | `40333` | Spend limit reached | Increase limit or wait for reset |
 
-### Number Provisioning Errors (401xx)
-
-| Code | Error | Action |
-|---|---|---|
-| `40100` | Not messaging enabled | Enable messaging in Mission Control |
-| `40150` | Not in voice registry | Contact support |
-| `40151` | Enablement pending elsewhere | Wait for transfer to complete |
-| `40155` | LOA required | Submit LOA through support |
-
-### Retry Guidance
-
-Most delivery errors require you to **change something before retrying** — blindly retrying will not resolve the issue.
+### Retriable vs Permanent
 
 | Category | Codes | Action |
-|---|---|---|
-| **Auto-retriable** | `40006`, `40008` | Carrier-side issue — retry with exponential backoff |
-| **Retriable after intervention** | `40002`, `40005`, `40011`, `40014`, `40016`, `40017`, `40018`, `40318` | Fix rate/content/throughput first, then retry |
-| **Temporary hold** | `40020`, `40320` | Wait (24 hours for `40020`; for provisioning for `40320`) |
-| **Permanent** | `40001`, `40003`, `40010`, `40300`, `40314`, `40322` | Fix root cause before attempting again |
-| **Action required** | `40010`, `40015`, `40019`, `40315`, `40329`, `40333` | Resolve configuration/compliance issue, then send again |
+| --- | --- | --- |
+| Auto-retriable | `40006`, `40008` | Retry with exponential backoff |
+| Retriable after intervention | `40002`, `40005`, `40011`, `40014`, `40016`, `40017`, `40018`, `40318` | Fix rate/content before retrying |
+| Temporary hold | `40020`, `40320` | Wait |
+| Permanent | `40001`, `40003`, `40010`, `40300`, `40314`, `40322` | Do not retry |
+
+## Spend Limits
+
+Messaging profiles can be configured with a daily spending limit. When the limit is reached:
+
+- New messages are rejected with HTTP 429 and error code `40333`
+- A `messaging-profile.spend-limit-reached` webhook is sent
+- An email notification is sent to your account
+
+The running spend total resets automatically at midnight UTC each day.
+
+## RCS Messaging
+
+RCS delivers app-like experiences in the native messaging app with rich cards, carousels, suggested replies, read receipts, and typing indicators. Currently supported on Android devices; Apple announced RCS support in iOS 18.
+
+### Approval Process
+
+RCS requires agent registration and carrier approval (typically 4–6 weeks). During the testing stage, you can invite beta test numbers to test your integration.
+
+### RCS Capabilities
+
+Check whether a recipient's device supports RCS before sending:
+
+| Feature | Use For |
+| --- | --- |
+| `RICHCARD_STANDALONE` | Single rich card support |
+| `RICHCARD_CAROUSEL` | Swipeable carousel cards |
+| `ACTION_OPEN_URL` | Open URL button |
+| `ACTION_DIAL` | Phone call button |
+| `ACTION_VIEW_LOCATION` | View map location |
+| `ACTION_CREATE_CALENDAR_EVENT` | Add calendar event |
+
+### RCS Webhooks
+
+RCS webhooks differ structurally from SMS/MMS:
+
+- Message body is nested under `payload.body.text` (not `payload.text`)
+- Media is under `payload.body.user_file` with GCS URLs
+- Read receipts are supported via `message.read` events
+- Inbound messages route via the RCS Agent's webhook URL; outbound status via messaging profile
+
+## WhatsApp Business Messaging
+
+### Embedded Signup
+
+Connect your Facebook Business Manager to Telnyx and provision WhatsApp Business Account (WABA) resources through a browser-based workflow. The process progresses through states: `initiated` → `facebook_auth` → `waba_created` → `phone_registered` → `verified`.
+
+### Tech Provider Embedded Signup
+
+ISVs and SaaS platforms can embed Meta's WhatsApp onboarding flow directly into their own portal. Two integration paths:
+
+- **Hosted signup (recommended):** Telnyx manages the signup UI and backend processing. Generate a time-limited onboarding URL via `POST /v2/whatsapp/hosted_signups`.
+- **Custom integration:** Embed Meta's Facebook SDK directly for full control over the UX.
+
+### Message Templates
+
+WhatsApp requires pre-approved templates for business-initiated conversations. Templates must be approved by Meta (typically 24–48 hours).
+
+**Template categories:**
+
+| Category | Use Case | Pricing Tier |
+| --- | --- | --- |
+| `AUTHENTICATION` | OTP codes, login verification | Lowest |
+| `UTILITY` | Order updates, shipping, account alerts | Medium |
+| `MARKETING` | Promotions, newsletters, product launches | Highest |
+
+### Sending Messages
+
+All message types use `POST /v2/messages/whatsapp`. The `whatsapp_message` object determines the message type. Supported types: `text`, `template`, `image`, `video`, `document`, `audio`, `sticker`, `location`, `contacts`, `interactive`, `reaction`.
+
+Text, media, and interactive messages can only be sent within a 24-hour conversation window. Outside this window, use an approved template message.
+
+## Hosted SMS
+
+Hosted SMS lets you add messaging capabilities to phone numbers that stay with your current voice provider. Your existing voice service continues uninterrupted — Telnyx handles only SMS/MMS routing.
+
+**Process:** Eligibility check → Create order → Verify ownership via SMS code → Upload LOA and recent provider bill → Telnyx review (1–3 business days).
+
+### Internal Hosted SMS Transfer
+
+Move messaging-enabled numbers between two Telnyx accounts without going through the standard carrier porting process. The current owner has 72 hours to approve or reject; auto-approval occurs if no action is taken. When a number is internally transferred, any 10DLC campaign registrations are automatically deleted.
+
+## Alphanumeric Sender ID
+
+Send SMS using a custom text identifier (1–11 characters, letters/numbers/spaces, must contain at least one letter) instead of a phone number. One-way only — recipients cannot reply.
+
+**Rate limits:** Level 1 (unverified): 6 messages/minute. Level 2 (verified): 60 messages/minute.
+
+Alphanumeric senders cannot send to the US, Canada, or Puerto Rico. Configure a fallback long code for these destinations.
+
+## International SMS Compliance
+
+### Sender ID Types by Country
+
+| Country | Alphanumeric | Long Code | Short Code | Pre-Registration |
+| --- | --- | --- | --- | --- |
+| United States | No | Yes (10DLC) | Yes | 10DLC required |
+| Canada | No | Yes | Yes | Short code approval |
+| United Kingdom | Yes | Yes | Yes | Recommended |
+| Germany | Yes | Yes | Yes | No |
+| France | Yes | Yes | Yes | OACP required |
+| India | Yes (registered) | No | No | DLT mandatory |
+| Australia | Yes | Yes | Yes | Sender ID registration |
+| Brazil | Yes | Yes | Yes | No |
+| Mexico | Yes | Yes | Yes | No |
+
+### India DLT Registration
+
+India requires Distributed Ledger Technology (DLT) registration for all A2P SMS:
+
+1. Entity registration on a DLT platform (JioConnect, Vodafone DLT, Airtel DLT, or BSNL DLT)
+2. Header (sender ID) registration
+3. Template registration — every message template must be pre-approved
+4. Content category — transactional, promotional, or service
+
+Promotional messages to users on the Do Not Disturb (DND) registry will be blocked. Promotional messages are restricted to 9 AM – 9 PM IST.
+
+## URL Shortening
+
+Telnyx provides custom URL shortening to improve brand awareness and bypass spam filters. By default, only URLs from a supported blacklist (bit.ly, tinyurl, etc.) are converted. Disable `replace_blacklist_only` to shorten all domains.
+
+## Zapier Integration
+
+Connect Telnyx SMS to 7,000+ apps without code. Available triggers: "Receive a Message." Available actions: "Send SMS." Limitations include polling delay (up to 15 minutes on free plans), no MMS media support, and no delivery status tracking.
+
+## Vercel Chat SDK Adapter
+
+`@telnyx/chat-sdk-adapter` is the official Telnyx adapter for the Vercel Chat SDK, enabling SMS/MMS bots in Next.js applications. Use a dedicated messaging profile prefixed with `[Chat SDK]` for per-profile analytics, spend limits, and isolated webhook URLs.

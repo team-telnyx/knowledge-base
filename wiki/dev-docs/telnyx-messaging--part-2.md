@@ -1,15 +1,29 @@
 ---
 title: Telnyx Messaging
-summary: Telnyx Messaging provides a comprehensive API for sending and receiving SMS
-  and MMS messages, with features including messaging profiles, alphanumeric sender
-  IDs, geomatching, group messaging, two-factor authentication, appointment reminders,
-  advanced opt-in/out handling, configurable spend limits, hosted SMS, and detailed
-  error handling.
+summary: Telnyx Messaging is a unified API for application-to-person (A2P) messaging
+  across 10DLC long codes, toll-free numbers, short codes, alphanumeric sender IDs,
+  RCS, and WhatsApp. This page covers sender type selection, messaging profiles, phone
+  number configuration, 10DLC and toll-free registration, campaign management, message
+  encoding, MMS, rate limiting, number pooling, opt-in/opt-out compliance, webhooks,
+  error codes, spend limits, RCS, WhatsApp Business messaging, hosted SMS, international
+  compliance, and common use cases like 2FA and appointment reminders.
 sources:
+- url: https://developers.telnyx.com/docs/messaging/10dlc/10dlc-rate-limits/index
+- url: https://developers.telnyx.com/docs/messaging/10dlc/brand-registration/index
+- url: https://developers.telnyx.com/docs/messaging/10dlc/campaign-registration/index
+- url: https://developers.telnyx.com/docs/messaging/10dlc/campaign-use-cases
+- url: https://developers.telnyx.com/docs/messaging/10dlc/event-notifications/index
+- url: https://developers.telnyx.com/docs/messaging/10dlc/isv-reseller-onboarding
+- url: https://developers.telnyx.com/docs/messaging/10dlc/phone-number-assignment
+- url: https://developers.telnyx.com/docs/messaging/10dlc/quickstart/index
+- url: https://developers.telnyx.com/docs/messaging/10dlc/sole-proprietor/index
+- url: https://developers.telnyx.com/docs/messaging/10dlc/troubleshooting/index
+- url: https://developers.telnyx.com/docs/messaging/getting-started/choosing-your-sender-type/index
 - url: https://developers.telnyx.com/docs/messaging/messages/2fa/index
 - url: https://developers.telnyx.com/docs/messaging/messages/advanced-opt-in-out/index
 - url: https://developers.telnyx.com/docs/messaging/messages/alphanumeric-sender-id/index
 - url: https://developers.telnyx.com/docs/messaging/messages/appointment-reminder
+- url: https://developers.telnyx.com/docs/messaging/messages/chat-sdk-adapter
 - url: https://developers.telnyx.com/docs/messaging/messages/configurable-spend-limits/index
 - url: https://developers.telnyx.com/docs/messaging/messages/configuration-and-usage/index
 - url: https://developers.telnyx.com/docs/messaging/messages/error-codes/index
@@ -17,115 +31,232 @@ sources:
 - url: https://developers.telnyx.com/docs/messaging/messages/group-messaging
 - url: https://developers.telnyx.com/docs/messaging/messages/hosted-sms/index
 - url: https://developers.telnyx.com/docs/messaging/messages/hosted-sms/internal-transfer
-updated_at: 2026-06-11T10:36:31Z
+- url: https://developers.telnyx.com/docs/messaging/messages/international-sms-compliance
+- url: https://developers.telnyx.com/docs/messaging/messages/message-detail-records/index
+- url: https://developers.telnyx.com/docs/messaging/messages/message-encoding/index
+- url: https://developers.telnyx.com/docs/messaging/messages/messaging-profiles-overview/index
+- url: https://developers.telnyx.com/docs/messaging/messages/mms-converter
+- url: https://developers.telnyx.com/docs/messaging/messages/mms-transcoding/index
+- url: https://developers.telnyx.com/docs/messaging/messages/number-pool/index
+- url: https://developers.telnyx.com/docs/messaging/messages/phone-number-configuration/index
+- url: https://developers.telnyx.com/docs/messaging/messages/rate-limiting/index
+- url: https://developers.telnyx.com/docs/messaging/messages/rcs-ai-assistant
+- url: https://developers.telnyx.com/docs/messaging/messages/rcs-capabilities/index
+- url: https://developers.telnyx.com/docs/messaging/messages/rcs-deeplinks
+- url: https://developers.telnyx.com/docs/messaging/messages/rcs-getting-started/index
+- url: https://developers.telnyx.com/docs/messaging/messages/receive-message
+- url: https://developers.telnyx.com/docs/messaging/messages/receiving-rcs-webhooks/index
+- url: https://developers.telnyx.com/docs/messaging/messages/receiving-webhooks/index
+- url: https://developers.telnyx.com/docs/messaging/messages/schedule-message/index
+- url: https://developers.telnyx.com/docs/messaging/messages/send-an-rcs-message/index
+- url: https://developers.telnyx.com/docs/messaging/messages/send-message/index
+- url: https://developers.telnyx.com/docs/messaging/messages/send-receive-mms/index
+- url: https://developers.telnyx.com/docs/messaging/messages/short-code/index
+- url: https://developers.telnyx.com/docs/messaging/messages/smart-encoding/index
+- url: https://developers.telnyx.com/docs/messaging/messages/smil-template
+- url: https://developers.telnyx.com/docs/messaging/messages/sticky-sender/index
+- url: https://developers.telnyx.com/docs/messaging/messages/url-shortening/index
+- url: https://developers.telnyx.com/docs/messaging/messages/zapier-integration
+- url: https://developers.telnyx.com/docs/messaging/toll-free-verification/index
+- url: https://developers.telnyx.com/docs/messaging/toll-free-verification/troubleshooting
+- url: https://developers.telnyx.com/docs/messaging/whatsapp/embedded-signup
+- url: https://developers.telnyx.com/docs/messaging/whatsapp/embedded-signup/tech-provider
+- url: https://developers.telnyx.com/docs/messaging/whatsapp/manage-templates
+- url: https://developers.telnyx.com/docs/messaging/whatsapp/quickstart/index
+- url: https://developers.telnyx.com/docs/messaging/whatsapp/send-messages/index
+updated_at: 2026-07-17T09:15:02Z
 ---
 
 # Telnyx Messaging
 
-*Part 2 of 4 — see also: [Part 1](telnyx-messaging--part-1.md), [Part 3](telnyx-messaging--part-3.md), [Part 4](telnyx-messaging--part-4.md)*
+*Part 2 of 5 — see also: [Part 1](telnyx-messaging--part-1.md), [Part 3](telnyx-messaging--part-3.md), [Part 4](telnyx-messaging--part-4.md), [Part 5](telnyx-messaging--part-5.md)*
 
-Telnyx Messaging provides a comprehensive API for sending and receiving SMS and MMS messages, with features including messaging profiles, alphanumeric sender IDs, geomatching, group messaging, two-factor authentication, appointment reminders, advanced opt-in/out handling, configurable spend limits, hosted SMS, and detailed error handling.
+Telnyx Messaging is a unified API for application-to-person (A2P) messaging across 10DLC long codes, toll-free numbers, short codes, alphanumeric sender IDs, RCS, and WhatsApp. This page covers sender type selection, messaging profiles, phone number configuration, 10DLC and toll-free registration, campaign management, message encoding, MMS, rate limiting, number pooling, opt-in/opt-out compliance, webhooks, error codes, spend limits, RCS, WhatsApp Business messaging, hosted SMS, international compliance, and common use cases like 2FA and appointment reminders.
 
-## SMS Two-Factor Authentication
+## 10DLC Registration
 
-Implement SMS-based 2FA using the Telnyx Messaging API. This involves generating a cryptographically secure OTP, sending it via SMS, and verifying it with security best practices.
+10DLC (10-Digit Long Code) is the industry standard for A2P messaging on US long code numbers. Registration provides higher throughput, better deliverability, and reduced carrier filtering.
 
-Consider the [Telnyx Verify API](telnyx-verify-api.md) first — it handles OTP generation, delivery, and verification for you, including retry logic, rate limiting, and multi-channel support (SMS, voice, WhatsApp). Use the DIY approach only if you need full control over the 2FA flow.
+### Registration Flow
 
-### Security Best Practices
+1. **Create Brand** — Register your business identity with The Campaign Registry (TCR). Instant.
+2. **Vet Brand** — Third-party vetting determines your trust score (0–100). 1–7 business days.
+3. **Create Campaign** — Register your messaging use case. Instant (pending carrier approval).
+4. **Assign Numbers** — Link phone numbers to your campaign. Instant.
 
-- **Use cryptographically secure random generation** — never use `Math.random()`, `rand()`, or similar. Use `secrets.choice()` (Python), `crypto.randomBytes()` (Node), `SecureRandom.random_number()` (Ruby), `crypto/rand.Int()` (Go), `SecureRandom.nextInt()` (Java), `RandomNumberGenerator.GetBytes()` (.NET), or `random_int()` (PHP).
-- **Set expiry times** — OTPs should expire after 3–5 minutes. Never allow OTPs to be valid indefinitely.
-- **Limit verification attempts** — allow a maximum of 3 attempts per OTP. After exceeding the limit, invalidate the OTP and require a new one.
-- **Use constant-time comparison** — use `secrets.compare_digest()` (Python), `crypto.timingSafeEqual()` (Node), `subtle.ConstantTimeCompare()` (Go), `MessageDigest.isEqual()` (Java), `CryptographicOperations.FixedTimeEquals()` (.NET), or `hash_equals()` (PHP) to prevent timing attacks.
-- **Rate limit OTP requests** — per phone number: 1 request per 60 seconds; per IP address: 10 per hour; per account: 5 per hour. Return the same response regardless of whether the number exists to prevent enumeration attacks.
-- **Use numeric-only codes** — they are easier to type on mobile, compatible with SMS autofill, and sufficient with attempt limits and expiry (a 6-digit code has 1,000,000 possible values; with a 3-attempt limit, guessing probability is 0.0003%).
-- **Support SMS autofill** — Android (SMS Retriever API): include your app's hash at the end of the message. iOS: automatically detects codes from messages containing "code" or "passcode"; keeping the OTP on its own line helps.
+### Brand Entity Types
 
-## Appointment Reminders
+| Entity Type | API Value | Vetting Required |
+| --- | --- | --- |
+| Private for-profit | `PRIVATE_PROFIT` | Yes |
+| Public for-profit | `PUBLIC_PROFIT` | Yes |
+| Non-profit | `NON_PROFIT` | Yes |
+| Government | `GOVERNMENT` | Yes |
+| Sole Proprietor | `SOLE_PROPRIETOR` | OTP only |
 
-Reduce no-shows by sending automated SMS appointment reminders. This covers scheduling strategies, message templates, opt-out handling, and timing best practices.
+### Vetting Score Impact
 
-### Scheduling Strategies
+Your vetting score (0–100) directly determines your messaging throughput.
 
-- **Telnyx Scheduled Messages** — use the built-in `send_at` parameter. No infrastructure needed. Limited to single scheduled time per API call, max 7 days in advance.
-- **Cron / Job Scheduler** — run a periodic job that queries your database for upcoming appointments. Full control, supports multiple reminder windows, but requires scheduler infrastructure.
-- **Event-Driven Queue** — schedule individual reminder jobs when appointments are created using a task queue (Celery, Bull, Sidekiq). Precise timing and scalable, but requires message queue infrastructure.
+| Score Range | T-Mobile Daily Cap | AT&T SMS TPM | Category |
+| --- | --- | --- | --- |
+| 0–24 | 2,000/day | 1 MPS | Low |
+| 25–49 | 10,000/day | 4 MPS | Medium-Low |
+| 50–74 | 50,000/day | 10 MPS | Medium |
+| 75–89 | 100,000/day | 25 MPS | High |
+| 90–100 | 200,000+/day | 75 MPS | Highest |
 
-### Handling Replies
+### AT&T Message Classes
 
-Set up a webhook to receive replies (e.g., CONFIRM / CANCEL) and update appointment status. Respond with confirmation or cancellation messages accordingly.
+| Class | Use Case | Vetting Score | SMS TPM | MMS TPM |
+| --- | --- | --- | --- | --- |
+| A | Standard (Dedicated) | 75–100 | 4,500 | 2,400 |
+| B | Standard (Mixed/Marketing) | 75–100 | 4,500 | 2,400 |
+| C | Standard (Dedicated) | 50–74 | 2,400 | 1,200 |
+| D | Standard (Mixed/Marketing) | 50–74 | 2,400 | 1,200 |
+| E | Standard (Dedicated) | 1–49 | 240 | 150 |
+| F | Standard (Mixed/Marketing) | 1–49 | 240 | 150 |
+| T | Low Volume Mixed | Any | 75 | 50 |
+| W | Sole Proprietor | N/A | 15 | 50 |
+| K | Political | — | 4,500 | 2,400 |
+| P | Charity / Nonprofit | — | 2,400 | 1,200 |
+| S | Social | — | 9,000 | 2,400 |
+| X | Emergency / Public Safety | — | 4,500 | 2,400 |
+| G | Proxy (per number) | — | 60 | 50 |
+| N | Agents & Franchises (per number) | — | 60 | 50 |
 
-### Opt-Out Handling
+### T-Mobile Brand Tiers
 
-Telnyx automatically handles standard opt-out keywords for US long codes and toll-free numbers. Additionally, track opt-outs in your application database to prevent scheduling reminders for opted-out users.
+| Brand Tier | Vetting Score | Daily SMS Cap |
+| --- | --- | --- |
+| Top | 75–100 | 200,000 |
+| High | 50–74 | 40,000 |
+| Medium | 25–49 | 10,000 |
+| Basic | 1–24 | 2,000 |
+| Sole Proprietor | N/A | 1,000 |
 
-### Timing Best Practices
+T-Mobile caps are per brand, not per campaign. Unvetted brands default to the Basic tier unless listed on the Russell 3000 index.
 
-- **24 hours before** — primary reminder with enough time to cancel/reschedule
-- **2–3 hours before** — final reminder for same-day appointments
-- **Avoid late night/early morning** — only send between 9 AM and 8 PM in the recipient's local time zone
-- For high-value appointments, send two reminders (48/24 hours + 2–3 hours before)
-- Always calculate reminder times in the recipient's local time zone
-- Keep messages under 160 characters when possible to minimize costs
+### Campaign Use Case Types
 
-## Advanced Opt-In/Out
+**Standard use cases:**
 
-Customize keyword triggers and auto-responses on your messaging profile. Configure country-specific responses, custom keywords, and track opt-out behavior via webhooks — all while maintaining CTIA & TCPA compliance.
+| Use Case | Description |
+| --- | --- |
+| `CUSTOMER_CARE` | Support and service messages |
+| `DELIVERY_NOTIFICATION` | Order and shipping updates |
+| `ACCOUNT_NOTIFICATION` | Account alerts and changes |
+| `MARKETING` | Promotional content |
+| `2FA` | Two-factor authentication codes |
+| `SECURITY_ALERT` | Security-related notifications |
+| `POLLING_VOTING` | Surveys and polls |
+| `CHARITY` | Nonprofit fundraising and awareness |
+| `POLITICAL` | Political campaigns and advocacy |
+| `MIXED` | Multiple message types (most common) |
 
-### Operation Types
+**Special use cases:**
 
-| Operation (`op`) | Purpose | Default Keywords |
-|---|---|---|
-| `start` | Opt-in — removes block rule | START, UNSTOP |
-| `stop` | Opt-out — creates block rule | STOP, STOPALL, UNSUBSCRIBE, CANCEL, END, QUIT |
-| `help` | Help — sends info response | HELP |
-| Custom | Any custom keyword response | (none) |
+| Use Case | Description |
+| --- | --- |
+| `LOW_VOLUME` | Under 6,000 messages/month |
+| `SOLE_PROPRIETOR` | Individual/small business without EIN |
+| `EMERGENCY` | Life-threatening alerts |
+| `AGENTS_FRANCHISES` | ISVs sending on behalf of clients |
+| `SWEEPSTAKES` | Contests and giveaways |
 
-Create custom auto-responses via `POST /v2/messaging_profiles/{profile_id}/autoresp_configs`.
+### Sole Proprietor Registration
 
-### Country-Specific Auto-Responses
+Sole Proprietor brands have specific constraints: 1 campaign, 1 phone number, max 3 SP brands per mobile number, low throughput. Registration requires identity verification via SMS OTP before campaigns can be created.
 
-Configure different responses per country using ISO 3166-1 alpha-2 codes. The feature is language agnostic — you can use keywords and responses in any language. The `country_code` field determines which auto-response applies based on the sender's number origin.
+**Fees:**
 
-### Tracking Opt-Out Webhooks
+| Item | Amount | Frequency |
+| --- | --- | --- |
+| Brand Registration | $4.00 | One-time (after verification) |
+| Campaign Vetting | $15.00 | Per submission |
+| Monthly Maintenance | $2.00 | Monthly |
 
-Inbound message webhooks include an `autoresponse_type` field (e.g., `STOP`, `START`, `HELP`) when a user sends an opt-in, opt-out, or help keyword. This field is also available in SMS Logs via Detail Record Search.
+### ISV & Reseller Architecture
 
-### Limitations
+ISVs, resellers, and SaaS platforms sending on behalf of customers need a partner campaign architecture. Telnyx acts as the downstream CSP — campaigns are registered at an upstream CSP and shared to Telnyx for number assignment and messaging.
 
-- **Reserved keywords** — START, STOP, and HELP cannot be reassigned to different operations. You can add additional keywords, but defaults always remain active.
-- **Minimum 20 characters** for auto-response messages on default operations (carrier compliance).
-- **Maximum 20 trigger keywords** per configuration.
-- **Toll-free limitations** — toll-free numbers have a separate carrier-level opt-out system. Both the carrier's NETWORK MSG and your custom response are sent. You cannot prevent the carrier's messages.
-- **Block rule scope** — block rules apply at the messaging profile level, not the individual number level. To manage separate opt-out lists for different programs, use separate messaging profiles.
+**Multi-tenant patterns:**
 
-## Configurable Spend Limits
+- **One brand + campaign per customer** (recommended for agencies): Isolated throughput per customer, independent compliance status.
+- **Shared campaign across customers** (best for SaaS): Simpler setup, but throughput is shared and one customer's violations affect all.
+- **Hybrid** (recommended for growth): High-volume customers get dedicated brands + campaigns; low-volume customers share a platform campaign.
 
-Messaging profiles can be configured with a daily spending limit to prevent unexpected costs. When the limit is reached, outbound messages are rejected until the limit resets at midnight UTC.
+For ISV campaigns, use the `AGENTS_FRANCHISES` use case type. Each campaign undergoes manual review by TCR (5–10 business days).
 
-### Setup
+### Disallowed Use Cases
 
-Enable `daily_spend_limit_enabled` and set a `daily_spend_limit` value (in USD, as a string) on your messaging profile via PATCH request. The limit applies per messaging profile — use separate profiles for different budgets.
+The following use cases will be rejected or result in very low throughput:
 
-### When the Limit Is Reached
+- Unsolicited messaging (cold outreach, lead generation spam)
+- Non-direct lending (3rd party auto loans, payday loans)
+- Indirect debt collection
+- Cannabis or CBD marketing
+- Gambling (unless licensed)
+- SHAFT content (Sex, Hate, Alcohol, Firearms, Tobacco)
+- Sweepstakes and "free giveaway" campaigns
 
-1. New messages are rejected with HTTP `429` and error code `40333`
-2. A `messaging-profile.spend-limit-reached` webhook is sent
-3. An email notification is sent to your account
+## Toll-Free Verification
 
-There may be a short delay between reaching the limit and enforcement. A small number of additional messages may be sent during this window, causing `current_cost` to slightly exceed `configured_limit`.
+Toll-free numbers (800, 888, 877, 866, 855, 844, 833) used for SMS/MMS require carrier verification. Starting February 17, 2026, three Business Registration Number (BRN) fields are required for all new submissions:
 
-### Reset and Override
+- `businessRegistrationNumber` — Official government-issued business registration identifier
+- `businessRegistrationType` — Type or classification (e.g., `EIN`, `CRA`, `ABN`, `VAT`, `SSN`)
+- `businessRegistrationCountry` — ISO 3166-1 alpha-2 country code
 
-- **Automatic daily reset** — the running spend total resets at midnight UTC. Changing the limit values does not reset the running total.
-- **Temporary override** — disable the limit, send urgent messages, then re-enable. Re-enabling does not reset the counter; if current spend exceeds the limit, messages will be blocked again immediately.
-- **Increase the limit** — takes effect immediately.
+**Verification timeline:** 1–2 weeks. Unverified toll-free numbers have limited throughput (~0.25 MPS) and may experience carrier filtering. Verified numbers support up to 20 MPS.
 
-### Best Practices
+## Short Codes
 
-- Set limits on all production profiles
-- Use separate profiles for different use cases (transactional vs. marketing)
-- Set up webhook monitoring for spend limit events
-- Build error handling for error code `40333`
-- Review limits regularly as volume grows
+Short codes are 5- or 6-digit numbers designed for high-volume A2P messaging, offering up to 1,000 MPS. Provisioning takes 8–12 weeks and requires carrier certification. Vanity codes (memorable numbers) are available but subject to availability.
+
+## Sending Messages
+
+### Send Your First Message
+
+```bash
+curl -X POST https://api.telnyx.com/v2/messages \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -d '{
+    "from": "+15551234567",
+    "to": "+15559876543",
+    "text": "Hello, world!"
+  }'
+```
+
+The `from` field determines your sender type automatically:
+
+- Phone number (`+15551234567`) → Long code or toll-free
+- Short code (`12345`) → Short code
+- Alphanumeric (`"MyBrand"`) → Alphanumeric sender ID
+
+### E.164 Format
+
+Always include the `+` prefix, country code, and full number with no spaces or punctuation.
+
+| Country | Format | Example |
+| --- | --- | --- |
+| US/Canada | +1 + 10 digits | `+15551234567` |
+| UK | +44 + 10–11 digits | `+447911123456` |
+| Germany | +49 + 10–11 digits | `+4915123456789` |
+| Australia | +61 + 9 digits | `+61412345678` |
+| Brazil | +55 + 10–11 digits | `+5511987654321` |
+| India | +91 + 10 digits | `+919876543210` |
+
+### Scheduled Messages
+
+Schedule messages for future delivery using the `send_at` parameter:
+
+- `send_at` must be at least 5 minutes and no more than 5 days in the future
+- Scheduling accuracy is up to 1 minute
+- Maximum of 1 million scheduled messages at any given time
+- Cancellation available up to 1 minute before send time
+
+### Group Messaging
+
+Send group MMS to up to 8 recipients per conversation using `/v2/messages/group_mms`. All messages are billed at MMS rates. US and Canada destinations only. Requires v2 webhook version on your messaging profile.

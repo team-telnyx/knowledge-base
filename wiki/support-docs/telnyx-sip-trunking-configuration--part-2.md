@@ -1,177 +1,221 @@
 ---
 title: Telnyx SIP Trunking Configuration
-summary: A comprehensive guide to configuring and managing SIP trunking with Telnyx,
-  covering connection types, authentication methods, inbound/outbound settings, failover
-  and retry logic, SRV record handling, number formats, SIP protocols, STUN/TURN servers,
-  SIP URI calling, response codes, and advanced features such as SHAKEN/STIR, PRACK,
-  and Record-Route headers.
+summary: Telnyx SIP Trunking lets you use Telnyx as your inbound and outbound voice
+  carrier with a compatible softphone, PBX, or contact center platform. This page
+  consolidates the core configuration workflow (account setup, number purchase, SIP
+  connection, authentication method, AnchorSite, and Outbound Voice Profile), explains
+  the ~1–3 second configuration propagation window, and provides step-by-step integration
+  guides for Avaya IP Office and Vicidial (both IP-based and credentials-based), along
+  with pointers to the broader library of vendor configuration guides.
 sources:
-- url: https://support.telnyx.com/en/articles/10666839-how-telnyx-handles-srv-records-for-sip-calls
-- url: https://support.telnyx.com/en/articles/1130682-telnyx-stun-and-turn-server
-- url: https://support.telnyx.com/en/articles/1130705-sip-protocols-that-telnyx-uses
-- url: https://support.telnyx.com/en/articles/1130706-sip-connection-number-formats
-- url: https://support.telnyx.com/en/articles/1130715-register-multiple-devices-on-one-connection
-- url: https://support.telnyx.com/en/articles/1130717-limits-on-concurrent-outbound-calls
-- url: https://support.telnyx.com/en/articles/11358700-what-is-the-u-s-reassigned-numbers-database
-- url: https://support.telnyx.com/en/articles/1176364-sip-connection-failover-guide-ip-fqdn-based
-- url: https://support.telnyx.com/en/articles/2602782-ip-authentication-with-tech-prefix
-- url: https://support.telnyx.com/en/articles/2925713-sip-uri-calling
-- url: https://support.telnyx.com/en/articles/4245868-sip-connection-types
-- url: https://support.telnyx.com/en/articles/4304898-sip-trunking-methods-requests-responses
-- url: https://support.telnyx.com/en/articles/4320364-sip-connection-fail-over-and-retries
-- url: https://support.telnyx.com/en/articles/4351104-sip-connection-settings
-- url: https://support.telnyx.com/en/articles/4363904-sip-registration
-- url: https://support.telnyx.com/en/articles/4404448-sip-connection-inbound-outbound-settings
-- url: https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes
-- url: https://support.telnyx.com/en/articles/4860170-ip-authentication-with-x-telnyx-token
-- url: https://support.telnyx.com/en/articles/6169513-grandstream-grp260x-sip-trunk
-- url: https://support.telnyx.com/en/articles/6902981-understanding-sip-prack-protocol
-- url: https://support.telnyx.com/en/articles/7029684-telephony-credentials-types
-- url: https://support.telnyx.com/en/articles/7421223-shaken-stir-parameters
+- url: https://support.telnyx.com/en/articles/1130627-configuring-an-avaya-ip-trunk-with-telnyx
+- url: https://support.telnyx.com/en/articles/1130632-configuring-a-vicidial-ip-trunk-with-telnyx
+- url: https://support.telnyx.com/en/articles/1130667-do-you-offer-service-to-call-centers
+- url: https://support.telnyx.com/en/articles/1130695-configuring-telnyx-sip-trunking-with-avaya
+- url: https://support.telnyx.com/en/articles/1130713-what-is-my-sip-account-connection-password
+- url: https://support.telnyx.com/en/articles/1176353-vicidial-configure-vicidial-credentials
+- url: https://support.telnyx.com/en/articles/12901901-understanding-configuration-propagation-delays-in-mission-control-portal-and-api
 - url: https://support.telnyx.com/en/articles/8096455-how-to-configure-a-sip-trunk
-- url: https://support.telnyx.com/en/articles/9133298-sip-record-route-headers
-updated_at: 2026-06-11T11:25:41Z
+- url: https://support.telnyx.com/en/collections/3968237-telnyx-sip-trunking-configurations
+updated_at: 2026-07-17T09:03:27Z
 ---
 
 # Telnyx SIP Trunking Configuration
 
-*Part 2 of 4 — see also: [Part 1](telnyx-sip-trunking-configuration--part-1.md), [Part 3](telnyx-sip-trunking-configuration--part-3.md), [Part 4](telnyx-sip-trunking-configuration--part-4.md)*
+*Part 2 of 3 — see also: [Part 1](telnyx-sip-trunking-configuration--part-1.md), [Part 3](telnyx-sip-trunking-configuration--part-3.md)*
 
-A comprehensive guide to configuring and managing SIP trunking with Telnyx, covering connection types, authentication methods, inbound/outbound settings, failover and retry logic, SRV record handling, number formats, SIP protocols, STUN/TURN servers, SIP URI calling, response codes, and advanced features such as SHAKEN/STIR, PRACK, and Record-Route headers.
+Telnyx SIP Trunking lets you use Telnyx as your inbound and outbound voice carrier with a compatible softphone, PBX, or contact center platform. This page consolidates the core configuration workflow (account setup, number purchase, SIP connection, authentication method, AnchorSite, and Outbound Voice Profile), explains the ~1–3 second configuration propagation window, and provides step-by-step integration guides for Avaya IP Office and Vicidial (both IP-based and credentials-based), along with pointers to the broader library of vendor configuration guides.
 
-## SIP Registration
+## Avaya IP Trunk Configuration
 
-SIP Registration tells Telnyx where to send inbound calls for credential-based connections. The process involves:
+Avaya is one of Telnyx's vendors that creates custom integration documentation. There are two supported approaches depending on your Avaya deployment.
 
-1. **User Agent** sends REGISTER to the **SIP Registrar Server**.
-2. Registrar responds with 401 Unauthorized (challenge).
-3. User Agent resends REGISTER with credentials.
-4. On success, Registrar responds 200 OK; the binding table stores the Address of Record (AOR).
+### Configuring an Avaya IP Trunk (generic)
 
-**Key points:**
-- Registration is only required for **inbound** calls. Outbound calls use SIP authentication (407 challenge/response).
-- Use a low expiry refresh (around 180 seconds) so Telnyx maintains a current AOR.
-- For TCP/TLS, Telnyx reuses the TCP connection established by the User Agent (port 5060 for TCP). If the contact header port differs from the source port, Telnyx adds an "alias" to the AOR.
-- The high-volume short-duration product (`siphv.telnyx.com`) does **not** support SIP registration; use `sip.telnyx.com`, `sip.telnyx.ca`, `sip.telnyx.eu`, or `sip.telnyx.com.au` instead.
+**Pre-requisites**
 
-### Failed vs. Successful Registration
+- Completed your Avaya installation and telecommunication-applications deployment.
+- Configured your Telnyx Mission Control Portal.
+- Provisioned a DID from Telnyx.
 
-A failed registration returns repeated **401 Unauthorized** responses (typically due to incorrect username or password). Until registration succeeds, inbound calls cannot be routed because no AOR is on file.
+**Create your SIP line**
 
-For SIP URI calling to credential connections, ensure the contact header username matches the SIP Connection username.
+Under **IP Offices/Line**, add a SIP line with the following configurations.
 
-## Failover and Retries
+**SIP Line**
 
-Telnyx's failover policy ensures calls connect regardless of issues on either side. Key concepts:
+```
+Line Number: 100 (whichever number you have available)
+ITSP Domain Name: sip.telnyx.com
+URI Type: SIP
+Location: Cloud
+Prefix: 1 (whichever prefix you'd like to add)
+In service: Enable
+Check OOS: Enable
+Refresh Method: Auto
+Timer (seconds): On Demand
+```
 
-- **IP1 / IP2** — Primary and secondary signalling IPs of the SIP Region (US: 192.76.120.10 and 64.16.250.10).
-- **Routes** — Each IP (IP auth) or FQDN (FQDN auth) is a route.
-- **Route Preferences** — Sequential (Primary/Secondary/Tertiary) or Round Robin (random order). Number-level settings **override** connection-level settings.
-- **Call Connected** — A call is considered "connected" (not necessarily answered) if it results in: 486 Busy, 404 Not Found, 603 Declined, rings without answer (180/183), or is answered (200 OK).
+**Transport**
 
-To stop retry of inbound INVITEs, return a **603 Declined** response.
+```
+ITSP Proxy Address: sip.telnyx.com
+Layer 4 Protocol: UDP
+Send Port: 5060
+Use Network Topology Info: LAN 2 (whichever LAN you have configured for SIP trunking)
+Explicit DNS Server(s): Add your DNS Server
+```
 
-### Failover Scenarios
+**SIP URI** — add a channel with the following configurations:
 
-**Single-route connection:** Attempt from IP1 → if not connected, retry from IP2.
+```
+Via: 1.2.3.4 (1.2.3.4 = your public IP)
+Local URI: *
+Contact: *
+Display Name: *
+PAI: *
+Registration: 0:
+Incoming Group: 100 (Number added on SIP Line)
+Outgoing Group: 100 (Number added on SIP Line)
+Max Calls per Channel: 10
+```
 
-**Multi-route connection:** Attempt from IP1 to route 1 → IP1 to route 2 → IP1 to route 3 → IP2 to route 1 → IP2 to route 2 → IP2 to route 3.
+**Dial Plan** — under **IP Offices/Short Code**, add a Short Code with the following configurations:
 
-**Credential auth connection:** Attempts go through KSS (SIP registrar) instances — primary KSS, then secondary, then tertiary — each through IP1 or IP2 (whichever the device registered to).
+```
+Code: 9N; (you can use 9 or whatever number you want to dial to differentiate Telnyx trunk)
+Feature: Dial
+Telephone Number: 1N
+Line Group: 100 (number added on SIP Line)
+Locale: United States (US English)
+```
 
-**Call Forward on Failure:** After exhausting connection routes, attempts go to the Call Forward PSTN number through up to 10 termination carriers.
+> **Note:** To make outbound calls, Telnyx requires either a valid caller ID from your device or a caller ID override enabled on your SIP connection. See the [caller ID number policy](https://support.telnyx.com/en/articles/3546251-caller-id-number-policy) for information on enabling a caller ID override from within the Telnyx portal.
 
-**Call Forward Always:** Sends directly to the PSTN number through up to 10 termination carriers.
+### Configuring Telnyx SIP Trunking with Avaya IP Office 10 + Avaya SBC
 
-**SRV records (FQDN connections):** See [Telnyx SIP Trunking Configuration#SRV Record Handling](telnyx-sip-trunking-configuration-srv-record-handling.md) below.
+This configuration covers Avaya IP Office 10 and Avaya Session Border Controller for Enterprise Release 7.1 using UDP.
 
-**Outbound to PSTN:** Attempts through up to 10 termination carriers.
+**Pre-requisites**
 
-### Primary and Secondary Proxies
+- Ensure that your Telnyx Mission Control Portal is configured properly.
+- Provision a DID from Telnyx.
 
-For redundancy, configure both primary and secondary Telnyx SIP proxies:
+> **Important:** Avaya has created a [detailed custom document for integration with Telnyx](https://ipofficekb.avaya.com/businesspartner/ipoffice/mergedProjects/appnotes/2022/Telnyx_IPO11.pdf). If you experience difficulty with this document, please reach out to Telnyx support.
 
-- **Inbound:** Ensure firewalls/ACLs allow traffic from both primary and secondary proxy IPs.
-- **Outbound (IP addresses):** Primary: `192.76.120.10`, Secondary: `64.16.250.10` (US region).
-- **Outbound (FQDN with A record):** Primary: `sip.telnyx.com`, Failover: `sip-anycast2.telnyx.com` (US region).
-- **Outbound (FQDN with SRV — recommended):** Use `sip.telnyx.com`; failover is automatic.
-- For other regions, adjust the domain accordingly (e.g., `sip.telnyx.eu`, `sip.telnyx.ca`, `sip.telnyx.com.au`). See [sip.telnyx.com](https://sip.telnyx.com/) for all regions.
+Additional resources:
 
-## SRV Record Handling
+- [Avaya support](https://support.avaya.com/)
+- [Avaya documentation](https://support.avaya.com/documents/)
+- [Avaya's Telnyx-specific documentation](https://www.dropbox.com/s/dswla4vbjbzdnfd/Application%20Notes%20for%20Configuring%20Telnyx%20SIP%20Trunking%20Service%20with%20Avaya%20IP%20Office%2010%20and%20Avaya%20Session%20Border%20Controller%20for%20Enterprise%20Release%207.1%20Using%20UDP.doc?dl=0)
 
-SRV (Service) records in DNS specify server locations for specific services, enabling load balancing and failover for SIP traffic. Telnyx honors SRV records in two scenarios: SIP FQDN Connections (inbound routing) and Voice API calls to external domains.
+## Vicidial IP Trunk Configuration
 
-Telnyx selects the appropriate SRV record based on the transport protocol used in the SIP request.
+[Vicidial](https://www.vicidial.com/?p=470) is an enterprise-class, open-source contact center suite with over 14,000 registered installations in more than 100 countries. Telnyx supports both IP-based and credentials-based Vicidial trunks.
 
-### RURI With a Port Number
+### Configure the Telnyx Mission Control Portal for Vicidial
 
-If the RURI contains a port (e.g., `sip:+1234567890@sip.example.com:5060`), Telnyx performs an **A-record lookup only**, bypassing SRV.
+**Purchase a number**
 
-### RURI Without a Port Number
+1. Visit the **Numbers** page via the left-hand navigation menu.
+2. Select the **Search Numbers** tab.
+3. Select your search type (NPA-NXX, Region, Toll Free, or Advanced).
+4. Input your search criteria and click **Search**.
+5. Click **+ Add to Cart** to select the number(s) you'd like to purchase.
+6. Open the **Shopping Cart** to view your selected numbers and check out.
+7. Once purchased, your numbers will be visible on the **My Numbers** tab.
 
-If the RURI does not contain a port (e.g., `sip:+1234567890@sip.example.com`), Telnyx performs an **SRV lookup** and routes based on priority and weight. If no SRV record exists, Telnyx falls back to an A-record lookup using the default SIP port (5060 for UDP/TCP, 5061 for TLS). If the first SRV target fails with SIP 503, Telnyx attempts the next highest priority target.
+**Set up a connection**
 
-### Key Considerations
+1. Visit the **Connections** page via the left-hand navigation menu.
+2. Click the **Add Connection** button (top right).
+3. Input a name for the connection.
+4. For an **IP-based trunk**, select **IP Address** as the Authentication Method and input the IP address of your Vicidial instance. For a **credentials-based trunk**, select **Credentials** and input the desired username/password combination.
+5. Click **Create**.
 
-- **Remove port numbers** from dial commands to leverage SRV. Correct: `"to" => "sip:+1234567890@sip.example.com"`. Incorrect: `"to" => "sip:+1234567890@sip.example.com:5060"`.
-- If no SRV or A-record exists, the call fails with **SIP 478 (Unresolvable Destination)**.
-- Ensure SRV targets have properly configured, resolvable A records.
+**Provision your number (assign to a connection)**
 
-## Number Formats
+1. Go back to the **Numbers** page.
+2. Select the **My Numbers** tab.
+3. Click the **Select Connection** drop-down next to your number and select the connection you just created.
 
-SIP Connections allow you to control the format of both the DNIS (dialed number) and ANI (originating number) in inbound SIP INVITEs.
+**Create your outbound profile**
 
-### DNIS Options
+1. Visit the **Outbound** section via the left-hand navigation menu.
+2. Click the **+ Add Outbound Profile** button (top right).
+3. Select the connection you created via the **Select Connection** drop-down.
+4. Choose the **Traffic Type** and **Service Plan** that meet your needs.
+5. Click **Add**.
 
-- **+E.164** — Number with `+` and country code.
-- **E.164** — Number without `+`.
-- **National (10 digits)** — Local 10-digit format.
-- **SIP Username** — Sends the SIP Connection username (credential auth only).
+### Configure Vicidial
 
-### ANI Options
+Log into the Vicidial web portal and go to **Admin → Carriers → Add new carrier**, then enter the following information.
 
-- **+E.164** — Number with `+`.
-- **E.164** — Number without `+`.
-- **National (10 digits)** — Local 10-digit format.
-- **+E.164 / National (10 digits)** — If both origin and dialed number are US-based, sends 10 digits; otherwise sends +E.164.
-- **E.164 / National (10 digits)** — Same logic as above, but without `+` for international.
+**IP-based trunk**
 
-For **outbound** calls, all formats are supported. The Localization Country setting allows dialing with local exit codes and local numbers without the country code prefix.
+| Field | Value |
+| --- | --- |
+| Carrier ID | `TelnyxCarrier` |
+| Name | `telnyxRegistration` |
+| String | leave blank |
+| Template ID | `NONE` |
+| Account Entry | `[telnyx]` |
+| Disallow | All |
+| Allow | `ulaw` |
+| Allow | `g729` |
+| Type | `peer` |
+| Insecure | `port,invite` |
+| Host | `sip.telnyx.com` |
+| dtmf mode | `rfc2833` |
+| Context | `default` |
+| Protocol | `SIP` |
+| Global String | `Telnyx=SIP/telnyx` |
 
-For WebRTC applications using credential authentication, set DNIS to SIP Username and select VP8/9 codecs in the advanced inbound settings for video support.
+**Credentials-based trunk**
 
-## Supported SIP Protocols
+| Field | Value |
+| --- | --- |
+| Carrier ID | `TelnyxCarrier` |
+| Name | `telnyxRegistration` |
+| String | leave blank |
+| Template ID | `NONE` |
+| Account Entry | `[telnyx]` |
+| Disallow | All |
+| Allow | `ulaw` |
+| Allow | `g729` |
+| Type | `friend` |
+| Host | `sip.telnyx.com` |
+| Username | The username you set up in step 1 |
+| Password | The password you set up in step 1 |
+| dtmf mode | `rfc2833` |
+| Context | `default` |
+| Protocol | `SIP` |
+| Global String | `Telnyx=SIP/telnyx` |
 
-Telnyx Mission Control supports three SIP transport protocols:
+**Dial Plan (both variants)**
 
-- **UDP**
-- **TCP**
-- **TLS**
+```
+exten => _91NXXNXXXXXX,1,AGI(agi://127.0.0.1:4577/call_log)
+exten => _91NXXNXXXXXX,2,Dial(${Telnyx}/${EXTEN:1},60,tTor)
+exten => _91NXXNXXXXXX,3,Hangup
+```
 
-The transport protocol is configured within the user agent; credential-based connections do not expose a transport setting because it is defined by the registering device. See [sip.telnyx.com](https://sip.telnyx.com/) for port details.
+In this case, `9` is the prefix that will be dialed to send calls to Telnyx's trunk.
 
-## STUN and TURN Servers
+### Outbound caller ID for Vicidial
 
-Telnyx provides STUN and TURN servers to help navigate NAT issues in VoIP environments:
+Depending on your phone configuration, you may also wish to configure an outbound caller ID in accordance with the [caller ID number policy](https://support.telnyx.com/en/articles/3546251-caller-id-number-policy). You can do this on a per-user or per-campaign basis.
 
-- **STUN server:** `stun.telnyx.com:3478` — Enables devices behind NAT to discover their public IP and port for direct media paths.
-- **TURN server:** `turn.telnyx.com:3478` — Relays data when a direct connection is not possible. Contact Telnyx support for the username and password.
+**Per-user caller ID**
 
-## SIP URI Calling
+1. Open the **Users** tab in the Vicidial administration portal.
+2. Select **Modify** next to the relevant user.
+3. Apply the desired outbound caller ID in the **Outbound CallerID** field.
+4. Click **Submit**.
 
-SIP URI calling allows receiving inbound calls directly to a SIP URI on credential-based connections, removing the need for a phone number. Callers reach you by dialing `your-username@sip.telnyx.com`.
+**Per-campaign caller ID**
 
-### Enabling SIP URI Calling
-
-1. Navigate to **Voice Suite → SIP Trunking**.
-2. Edit the desired connection.
-3. Open **Authentication and routing**.
-4. Under **Receive SIP URI calls**, choose: *From anyone* (unrestricted) or *Only from my Connections* (internal).
-
-This can also be configured via the API by setting `sip_uri_calling_preference` to `"disabled"`, `"unrestricted"`, or `"internal"`.
-
-### Billing
-
-- Calls from unidentified sources: **$0.002/minute**, charged to the connection owner.
-- Calls from a matched Telnyx SIP Connection: treated as **On-Net**, billed per your rate deck.
-- Only SIP usernames beginning with a **non-numeric character** are considered valid (fraud prevention against number spoofing).
+1. Select the **Campaigns** tab in the Vicidial administration portal.
+2. Select **Modify** next to the campaign you want to have the caller ID.
+3. Click the **Detail** tab and apply the desired caller ID in the **Campaign CallerID** field.
+4. Click **Submit**.

@@ -1,48 +1,100 @@
 ---
 title: Telnyx Inference
-summary: Telnyx Inference provides an OpenAI-compatible API for large language model
-  chat completions, function calling, embeddings, and clustering, alongside AI Insights
-  for conversation analysis and Voice AI Assistants for telephony-based conversational
-  agents. This page covers the core API, integrations, data residency, and practical
-  tutorials.
+summary: Telnyx Inference is a developer platform for building AI-powered applications,
+  centered on an OpenAI-compatible chat completions API and a managed Voice AI Assistant
+  product. It offers open-source LLMs hosted on Telnyx GPU infrastructure, embeddings
+  and RAG, fine-tuning, audio language models, function calling, structured output,
+  and integrations with enterprise platforms. The Voice AI Assistant product supports
+  dynamic variables, memory, agent handoff, conversation workflows, multi-participant
+  calls, scheduled events, observability via Langfuse, and AI Insights for conversation
+  analysis.
 sources:
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/agent-handoff
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/agent-observability
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/async-tools/index
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/client-side-tools
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/custom-llm
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/dynamic-variables
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/importing/index
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/integrations
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/memory
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/multi-participant-calls
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/no-code-voice-assistant/index
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/scheduled-events
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/tools-library
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/transcription-settings
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/version-testing-traffic-distribution
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/voicemail-detection-on-transfer
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/workflows
 - url: https://developers.telnyx.com/docs/inference/ai-insights/creating-insights/index
 - url: https://developers.telnyx.com/docs/inference/ai-insights/insight-groups
 - url: https://developers.telnyx.com/docs/inference/ai-insights/structured-insights
+- url: https://developers.telnyx.com/docs/inference/ai-insights/telnyx-managed-insights
 - url: https://developers.telnyx.com/docs/inference/ai-insights/use-cases
 - url: https://developers.telnyx.com/docs/inference/ai-outfit-recommender
+- url: https://developers.telnyx.com/docs/inference/anthropic
+- url: https://developers.telnyx.com/docs/inference/audio-language-models
 - url: https://developers.telnyx.com/docs/inference/clusters
 - url: https://developers.telnyx.com/docs/inference/crewai
-- url: https://developers.telnyx.com/docs/inference/data-residency
-- url: https://developers.telnyx.com/docs/inference/embeddings
+- url: https://developers.telnyx.com/docs/inference/data-residency/index
+- url: https://developers.telnyx.com/docs/inference/embedding-rag/conversation-history/feature-coverage
+- url: https://developers.telnyx.com/docs/inference/embedding-rag/conversation-history/index
+- url: https://developers.telnyx.com/docs/inference/embedding-rag/conversation-history/pricing
+- url: https://developers.telnyx.com/docs/inference/embedding-rag/conversation-history/retention
+- url: https://developers.telnyx.com/docs/inference/embedding-rag/conversation-history/searching
+- url: https://developers.telnyx.com/docs/inference/embedding-rag/index
+- url: https://developers.telnyx.com/docs/inference/embeddings/index
+- url: https://developers.telnyx.com/docs/inference/fine-tuning
 - url: https://developers.telnyx.com/docs/inference/functions
 - url: https://developers.telnyx.com/docs/inference/getting-started/index
-updated_at: 2026-06-11T10:33:19Z
+- url: https://developers.telnyx.com/docs/inference/integrations/index
+- url: https://developers.telnyx.com/docs/inference/json-mode
+- url: https://developers.telnyx.com/docs/inference/langchain-integration
+- url: https://developers.telnyx.com/docs/inference/livekit
+- url: https://developers.telnyx.com/docs/inference/llama-index
+- url: https://developers.telnyx.com/docs/inference/missions/index
+- url: https://developers.telnyx.com/docs/inference/models/index
+- url: https://developers.telnyx.com/docs/inference/models/pricing
+- url: https://developers.telnyx.com/docs/inference/models/regions
+- url: https://developers.telnyx.com/docs/inference/openai
+- url: https://developers.telnyx.com/docs/inference/pr-reviewer
+- url: https://developers.telnyx.com/docs/inference/streaming-functions
+updated_at: 2026-07-17T09:14:08Z
 ---
 
 # Telnyx Inference
 
-*Part 1 of 6 — see also: [Part 2](telnyx-inference--part-2.md), [Part 3](telnyx-inference--part-3.md), [Part 4](telnyx-inference--part-4.md), [Part 5](telnyx-inference--part-5.md), [Part 6](telnyx-inference--part-6.md)*
+*Part 1 of 5 — see also: [Part 2](telnyx-inference--part-2.md), [Part 3](telnyx-inference--part-3.md), [Part 4](telnyx-inference--part-4.md), [Part 5](telnyx-inference--part-5.md)*
 
-Telnyx Inference provides an OpenAI-compatible API for large language model chat completions, function calling, embeddings, and clustering, alongside AI Insights for conversation analysis and Voice AI Assistants for telephony-based conversational agents. This page covers the core API, integrations, data residency, and practical tutorials.
+Telnyx Inference is a developer platform for building AI-powered applications, centered on an OpenAI-compatible chat completions API and a managed Voice AI Assistant product. It offers open-source LLMs hosted on Telnyx GPU infrastructure, embeddings and RAG, fine-tuning, audio language models, function calling, structured output, and integrations with enterprise platforms. The Voice AI Assistant product supports dynamic variables, memory, agent handoff, conversation workflows, multi-participant calls, scheduled events, observability via Langfuse, and AI Insights for conversation analysis.
 
-## Getting Started
+## Overview
 
-### Prerequisites
+Telnyx Inference is a developer platform for building AI-powered applications, with a particular focus on real-time voice agents. The platform exposes an OpenAI-compatible chat completions API, an Anthropic-compatible Messages endpoint, audio language models, embeddings, retrieval-augmented generation (RAG), fine-tuning, and a managed Voice AI Assistant product. All chat models are open-source LLMs hosted on Telnyx GPU infrastructure across four regions (Atlanta, Denver, Paris, Sydney), with routing influenced by the ingress domain you call (`api.telnyx.com`, `api.telnyx.eu`, `api.telnyx.com.au`).
 
-- A [Telnyx account](https://telnyx.com/sign-up)
-- An [API Key](https://portal.telnyx.com/#/app/auth/v2)
-- Python 3.8+
+## Available Models
 
-Install the OpenAI SDK (the Telnyx Inference API is OpenAI-compatible — any OpenAI SDK works with a `base_url` swap):
+Open-source LLMs hosted on Telnyx GPU infrastructure, all accessible via the [Chat Completions API](https://developers.telnyx.com/api-reference/openai-chat/create-a-chat-completion-openai-compatible).
 
-```bash
+| Model ID | Parameters | Context Length | Best For |
+| --- | --- | --- | --- |
+| `moonshotai/Kimi-K2.6` | 1.0T | 256K | Highest intelligence, voice AI (with thinking disabled) **(Recommended)** |
+| `zai-org/GLM-5.2` | 753.9B | 1M | Coding, reasoning, 1M context window |
+| `MiniMaxAI/MiniMax-M3-MXFP8` | 428B | 1M | Cheapest while maintaining high intelligence |
+
+For embeddings, `thenlper/gte-large` (1024 dimensions) is available.
+
+Reasoning models such as `zai-org/GLM-5.2` return their chain-of-thought in a separate `reasoning_content` field on `message` (non-streaming) or `delta` (streaming). Non-reasoning models omit it, so a `getattr(..., "reasoning_content", None)` guard works for every model.
+
+## Inference API Quickstart
+
+The Inference API is OpenAI-compatible. Any OpenAI SDK works with a `base_url` swap.
+
+```
 pip install openai
 ```
 
-### Quick Start
-
-```python
+```
 import os
 from openai import OpenAI
 
@@ -52,181 +104,127 @@ client = OpenAI(
 )
 
 chat_completion = client.chat.completions.create(
-  messages=[
-    {"role": "user", "content": "Tell me about Telnyx"}
-  ],
-  model="zai-org/GLM-5.1-FP8",
+  messages=[{"role": "user", "content": "Tell me about Telnyx"}],
+  model="zai-org/GLM-5.2",
   stream=True
 )
-
-# GLM-5.1 is a reasoning model: it streams its thinking in `reasoning_content`
-# before the final answer in `content`. Print both so you can see the reasoning.
-reasoning_started = False
-content_started = False
-for chunk in chat_completion:
-  delta = chunk.choices[0].delta
-  if getattr(delta, "reasoning_content", None):
-    if not reasoning_started:
-      print("--- reasoning ---")
-      reasoning_started = True
-    print(delta.reasoning_content, end="", flush=True)
-  if delta.content:
-    if not content_started:
-      print("\n--- answer ---")
-      content_started = True
-    print(delta.content, end="", flush=True)
 ```
 
-Reasoning models such as `zai-org/GLM-5.1-FP8` return their chain-of-thought in a separate `reasoning_content` field (on `message` for non-streaming responses, or `delta` when streaming). Models without reasoning simply omit it, so the `getattr(..., "reasoning_content", None)` guard works for every model.
+Every message has a role: **system** (model behavior instructions), **user** (end-user input), **assistant** (model output), or **tool** (function call results). Streaming uses server-sent events, same as OpenAI.
 
-### Core Concepts
+## OpenAI and Anthropic Compatibility
 
-| Concept | Description |
-|---|---|
-| **Messages** | Chat history passed to the model |
-| **Roles** | Every message has a role: `system` (model behavior instructions), `user` (end-user input), `assistant` (model output), or `tool` (function call results) |
-| **Models** | See [Available Models](https://developers.telnyx.com/docs/inference/models) for all hosted LLMs with context lengths and capabilities |
-| **Streaming** | Server-sent events, same as OpenAI |
+### OpenAI Migration
+
+Swap two environment variables and change the model name:
+
+```
+export OPENAI_BASE_URL='https://api.telnyx.com/v2/ai/openai'
+export OPENAI_API_KEY='KEY***'
+```
+
+Telnyx supports the standard OpenAI parameters (`messages`, `model`, `stream`, `max_tokens`, `temperature`, `top_p`, `frequency_penalty`, `presence_penalty`, `n`, `stop`, `logit_bias`, `logprobs`, `top_logprobs`, `seed`, `response_format`, `tool_choice`, `tools`, `function`) plus Telnyx-specific extensions: `retrieval`, `guided_json`, `guided_regex`, `guided_choice`, `min_p`, `use_beam_search`, `best_of`, `length_penalty`, and `early_stopping`. The `user` parameter is not supported.
+
+### Anthropic Migration
+
+The Telnyx Inference API exposes an Anthropic-compatible Messages endpoint at `POST /v2/ai/anthropic/v1/messages`. It accepts the same request body as the [Anthropic Messages API](https://docs.anthropic.com/en/api/messages) and returns the same response shape, including streaming via Anthropic SSE event types (`message_start`, `content_block_start`, `content_block_delta`, `content_block_stop`, `message_delta`, `message_stop`).
+
+The Anthropic SDK sends requests with an `x-api-key` header by default. Telnyx uses `Authorization: Bearer <TELNYX_API_KEY>` instead. Pass the Telnyx key as a `default_headers` override and set the SDK's own `api_key` to any placeholder value — the gateway ignores it.
+
+```
+import os
+from anthropic import Anthropic
+
+client = Anthropic(
+    api_key="unused",
+    base_url="https://api.telnyx.com/v2/ai/anthropic",
+    default_headers={
+        "Authorization": f"Bearer {os.environ['TELNYX_API_KEY']}",
+    },
+)
+```
+
+Telnyx-specific fields accepted alongside the standard Anthropic body include `api_key_ref`, `mcp_servers`, `fallback_config`, `billing_group_id`, `timeout`, `max_retries`, and `service_tier`.
+
+## Framework Integrations
+
+OpenAI-compatible API. Swap `base_url` and `api_key` in any framework that supports OpenAI.
+
+| Framework | Swap Method | Guide |
+| --- | --- | --- |
+| OpenAI SDK | `base_url` in client constructor | [OpenAI Migration](openai-migration.md) |
+| LangChain | `base_url` in `ChatOpenAI` | [LangChain Integration](langchain-integration.md) |
+| LlamaIndex | `api_base` in `OpenAILike` | [LlamaIndex Integration](llamaindex-integration.md) |
+| CrewAI | `OPENAI_BASE_URL` env var or `base_url` in LLM | [CrewAI Integration](crewai-integration.md) |
+| LiveKit | Telnyx as LLM provider | [Telnyx LiveKit Plugin](telnyx-livekit-plugin.md) |
+
+Route all OpenAI SDK calls through Telnyx with no code changes:
+
+```
+export OPENAI_API_KEY=your_telnyx_api_key
+export OPENAI_BASE_URL=https://api.telnyx.com/v2/ai/openai
+```
+
+### LangChain
+
+```
+from langchain_openai import ChatOpenAI
+
+llm = ChatOpenAI(
+    base_url="https://api.telnyx.com/v2/ai/openai",
+    api_key=os.getenv("TELNYX_API_KEY"),
+    model="zai-org/GLM-5.2",
+)
+```
+
+### LlamaIndex
+
+```
+from llama_index.llms.openai_like import OpenAILike
+
+llm = OpenAILike(
+    api_base="https://api.telnyx.com/v2/ai/openai",
+    api_key=os.getenv("TELNYX_API_KEY"),
+    model="zai-org/GLM-5.2",
+    is_chat_model=True,
+)
+```
+
+### CrewAI
+
+```
+from crewai import Agent, Task, Crew, LLM
+
+llm = LLM(
+    model="zai-org/GLM-5.2",
+    base_url="https://api.telnyx.com/v2/ai/openai",
+    api_key=os.getenv("TELNYX_API_KEY"),
+)
+```
+
+### LiveKit
+
+The `livekit-plugins-telnyx` package provides native Telnyx STT and TTS plugins for LiveKit agents. Use `openai.LLM.with_telnyx(model="zai-org/GLM-5.2")` for LLM inference, `telnyx.STT()` for speech-to-text, and `telnyx.TTS(voice="Telnyx.NaturalHD.astra")` for text-to-speech.
 
 ## Function Calling
 
-Using the `tools` field, you can enable a language model to choose functions to call. The chat completions API does not call the function itself — it returns the arguments you need to execute the function yourself. Of the open-source language models hosted on Telnyx, `zai-org/GLM-5.1-FP8` is especially good at calling functions.
+Using the `tools` field, you can enable a language model to choose functions to call. The chat completions API does not call the function itself — it returns the arguments you need to execute the function yourself. Of the open-source models hosted on Telnyx, `zai-org/GLM-5.2` is especially good at calling functions.
 
-### Defining and Calling Functions
+`tool_choice` options are `required` (force the model to choose a tool), `none` (force the model to NOT choose a tool), or `auto` (let the model decide).
 
-```python
-import os, json
-from openai import OpenAI
+### Streaming and Parallel Calls
 
-client = OpenAI(
-  api_key=os.getenv("TELNYX_API_KEY"),
-  base_url="https://api.telnyx.com/v2/ai/openai",
-)
+For low-latency contexts, streaming and parallel calls are especially helpful. The `handle_tool_calls` pattern iterates over streamed chunks, building a local copy of function calls in a `tool_calls` list. The first chunk of a new tool call contains the function `name`, enabling early feedback. As arguments are built from streamed chunks, the code attempts to parse them as JSON; once valid, an async task is scheduled for execution. Telnyx guarantees valid JSON is returned for tool calls.
 
-tools = [
-  {
-    "type": "function",
-    "function": {
-      "name": "get_current_weather",
-      "description": "Get the current weather",
-      "parameters": {
-        "type": "object",
-        "properties": {
-          "location": {"type": "string", "description": "The city and state, e.g. San Francisco, CA"},
-          "unit": {"type": "string", "enum": ["celsius", "fahrenheit"], "description": "The temperature unit to use"},
-        },
-        "required": ["location", "unit"],
-      },
-    }
-  }
-]
+## Structured Output
 
-messages = [{"role": "user", "content": "How is the weather in Chicago?"}]
-chat_completion = client.chat.completions.create(
-  model="zai-org/GLM-5.1-FP8",
-  messages=messages,
-  tools=tools,
-  tool_choice="auto"
-)
-```
+Telnyx supports several structured output modes via `extra_body`:
 
-The `tool_choice` options are:
+- **`guided_choice`** — restrict output to a list of allowed strings (e.g., `["positive", "negative"]`).
+- **`guided_json`** — enforce a JSON Schema (or Pydantic model) on the response.
+- **`response_format: {"type": "json_object"}`** — schema-less JSON mode.
+- **`guided_regex`** — constrain output to match a regular expression (useful for limiting response length).
 
-- `required` — forces the model to choose a tool
-- `none` — forces the model not to choose a tool
-- `auto` — lets the model decide
+## Audio Language Models
 
-### Executing Functions and Returning Results
-
-If the model chooses a function, the response includes a `tool_calls` field. You then execute the function and append the result back as a `tool`-role message:
-
-```python
-assistant_message = chat_completion.choices[0].message
-tool_calls = assistant_message.tool_calls
-if tool_calls:
-    messages.append(assistant_message)
-    available_functions = {"get_current_weather": get_current_weather}
-    for tool_call in tool_calls:
-        function_name = tool_call.function.name
-        function_to_call = available_functions[function_name]
-        function_args = json.loads(tool_call.function.arguments)
-        function_response = function_to_call(**function_args)
-        messages.append({
-            "tool_call_id": tool_call.id,
-            "role": "tool",
-            "name": function_name,
-            "content": function_response,
-        })
-    second_chat_completion = client.chat.completions.create(
-        model="zai-org/GLM-5.1-FP8",
-        messages=messages,
-    )
-    print(second_chat_completion.choices[0].message.content)
-```
-
-### Defining Functions Programmatically
-
-You can generate the JSON tool definition from a Python function signature using Pydantic's `create_model`:
-
-```python
-import inspect
-from pydantic import create_model
-from typing import Literal
-
-def func_to_tool(f):
-    kw = {
-        n: (o.annotation, ... if o.default == inspect.Parameter.empty else o.default)
-        for n, o in inspect.signature(f).parameters.items()
-    }
-    s = create_model(f.__name__, **kw).model_json_schema()
-    return {
-        "type": "function",
-        "function": {
-            "name": s["title"],
-            "description": inspect.getdoc(f),
-            "parameters": s
-        }
-    }
-```
-
-## Embeddings & Document Retrieval
-
-Embeddings are numerical representations of concepts within text, image, or audio data. They encode meaning so that semantically similar content is closer in vector space. This enables semantic search and retrieval-augmented generation (RAG).
-
-### Upload Documents
-
-Upload objects to Telnyx's S3-Compatible storage using the [Cloud Storage quickstart](https://developers.telnyx.com/docs/cloud-storage/quick-start) or the [drag-and-drop interface in the portal](https://portal.telnyx.com/#/storage/buckets).
-
-### Embed Documents
-
-Embed documents via the [embed API](https://developers.telnyx.com/api-reference/embeddings/embed-url-content) or by clicking "Embed for AI Use" in the portal while viewing your storage bucket's contents. Behind the scenes, documents are processed into sections and each section is embedded.
-
-### Chat Over Your Documents
-
-Once documents are embedded, you can use them in the [AI Playground](https://portal.telnyx.com/#/ai/playground) by selecting the bucket from the storage dropdown, or via the chat completions API:
-
-```python
-import os
-from openai import OpenAI
-
-client = OpenAI(
-    api_key=os.getenv("TELNYX_API_KEY"),
-    base_url="https://api.telnyx.com/v2/ai/openai",
-)
-
-question = "<ADD QUESTION HERE>"
-bucket = "<ADD EMBEDDED BUCKET HERE>"
-chat_completion = client.chat.completions.create(
-  messages=[{"role": "user", "content": question}],
-  model="zai-org/GLM-5.1-FP8",
-  stream=True,
-  tools=[{
-    "type": "retrieval",
-    "retrieval": {"bucket_ids": [bucket]}
-  }]
-)
-
-for chunk in chat_completion:
-  if chunk.choices[0].delta.content:
-    print(chunk.choices[0].delta.content, end="", flush=True)
-```
+Audio Language Models are identified in the models API with a `task` type of `audio-text-to-text`. Audio is made available to the model either by passing a link to the audio in a user message or by passing base64-encoded audio directly. Example model: `fixie-ai/ultravox-v0_4_1-llama-3_1-8b`.

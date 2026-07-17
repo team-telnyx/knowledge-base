@@ -1,181 +1,160 @@
 ---
 title: Telnyx Inference
-summary: Telnyx Inference provides an OpenAI-compatible API for large language model
-  chat completions, function calling, embeddings, and clustering, alongside AI Insights
-  for conversation analysis and Voice AI Assistants for telephony-based conversational
-  agents. This page covers the core API, integrations, data residency, and practical
-  tutorials.
+summary: Telnyx Inference is a developer platform for building AI-powered applications,
+  centered on an OpenAI-compatible chat completions API and a managed Voice AI Assistant
+  product. It offers open-source LLMs hosted on Telnyx GPU infrastructure, embeddings
+  and RAG, fine-tuning, audio language models, function calling, structured output,
+  and integrations with enterprise platforms. The Voice AI Assistant product supports
+  dynamic variables, memory, agent handoff, conversation workflows, multi-participant
+  calls, scheduled events, observability via Langfuse, and AI Insights for conversation
+  analysis.
 sources:
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/agent-handoff
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/agent-observability
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/async-tools/index
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/client-side-tools
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/custom-llm
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/dynamic-variables
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/importing/index
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/integrations
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/memory
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/multi-participant-calls
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/no-code-voice-assistant/index
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/scheduled-events
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/tools-library
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/transcription-settings
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/version-testing-traffic-distribution
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/voicemail-detection-on-transfer
+- url: https://developers.telnyx.com/docs/inference/ai-assistants/workflows
 - url: https://developers.telnyx.com/docs/inference/ai-insights/creating-insights/index
 - url: https://developers.telnyx.com/docs/inference/ai-insights/insight-groups
 - url: https://developers.telnyx.com/docs/inference/ai-insights/structured-insights
+- url: https://developers.telnyx.com/docs/inference/ai-insights/telnyx-managed-insights
 - url: https://developers.telnyx.com/docs/inference/ai-insights/use-cases
 - url: https://developers.telnyx.com/docs/inference/ai-outfit-recommender
+- url: https://developers.telnyx.com/docs/inference/anthropic
+- url: https://developers.telnyx.com/docs/inference/audio-language-models
 - url: https://developers.telnyx.com/docs/inference/clusters
 - url: https://developers.telnyx.com/docs/inference/crewai
-- url: https://developers.telnyx.com/docs/inference/data-residency
-- url: https://developers.telnyx.com/docs/inference/embeddings
+- url: https://developers.telnyx.com/docs/inference/data-residency/index
+- url: https://developers.telnyx.com/docs/inference/embedding-rag/conversation-history/feature-coverage
+- url: https://developers.telnyx.com/docs/inference/embedding-rag/conversation-history/index
+- url: https://developers.telnyx.com/docs/inference/embedding-rag/conversation-history/pricing
+- url: https://developers.telnyx.com/docs/inference/embedding-rag/conversation-history/retention
+- url: https://developers.telnyx.com/docs/inference/embedding-rag/conversation-history/searching
+- url: https://developers.telnyx.com/docs/inference/embedding-rag/index
+- url: https://developers.telnyx.com/docs/inference/embeddings/index
+- url: https://developers.telnyx.com/docs/inference/fine-tuning
 - url: https://developers.telnyx.com/docs/inference/functions
 - url: https://developers.telnyx.com/docs/inference/getting-started/index
-updated_at: 2026-06-11T10:33:19Z
+- url: https://developers.telnyx.com/docs/inference/integrations/index
+- url: https://developers.telnyx.com/docs/inference/json-mode
+- url: https://developers.telnyx.com/docs/inference/langchain-integration
+- url: https://developers.telnyx.com/docs/inference/livekit
+- url: https://developers.telnyx.com/docs/inference/llama-index
+- url: https://developers.telnyx.com/docs/inference/missions/index
+- url: https://developers.telnyx.com/docs/inference/models/index
+- url: https://developers.telnyx.com/docs/inference/models/pricing
+- url: https://developers.telnyx.com/docs/inference/models/regions
+- url: https://developers.telnyx.com/docs/inference/openai
+- url: https://developers.telnyx.com/docs/inference/pr-reviewer
+- url: https://developers.telnyx.com/docs/inference/streaming-functions
+updated_at: 2026-07-17T09:14:08Z
 ---
 
 # Telnyx Inference
 
-*Part 2 of 6 — see also: [Part 1](telnyx-inference--part-1.md), [Part 3](telnyx-inference--part-3.md), [Part 4](telnyx-inference--part-4.md), [Part 5](telnyx-inference--part-5.md), [Part 6](telnyx-inference--part-6.md)*
+*Part 2 of 5 — see also: [Part 1](telnyx-inference--part-1.md), [Part 3](telnyx-inference--part-3.md), [Part 4](telnyx-inference--part-4.md), [Part 5](telnyx-inference--part-5.md)*
 
-Telnyx Inference provides an OpenAI-compatible API for large language model chat completions, function calling, embeddings, and clustering, alongside AI Insights for conversation analysis and Voice AI Assistants for telephony-based conversational agents. This page covers the core API, integrations, data residency, and practical tutorials.
+Telnyx Inference is a developer platform for building AI-powered applications, centered on an OpenAI-compatible chat completions API and a managed Voice AI Assistant product. It offers open-source LLMs hosted on Telnyx GPU infrastructure, embeddings and RAG, fine-tuning, audio language models, function calling, structured output, and integrations with enterprise platforms. The Voice AI Assistant product supports dynamic variables, memory, agent handoff, conversation workflows, multi-participant calls, scheduled events, observability via Langfuse, and AI Insights for conversation analysis.
 
-## Clusters & Theme Identification
+## Embeddings and RAG
 
-Clustering analyzes how your embedded data groups together, revealing common themes and niche subtopics. For example, clustering the novel *The Great Gatsby* reveals broad themes (e.g., "Daisy's Past") with more specific subtopics within each.
+### Embeddings
 
-### Compute Clusters
+Upload documents to [Telnyx Storage](https://telnyx.com/products/cloud-storage), then embed them via API or by clicking "Embed for AI Use" in the portal. Documents are processed into sections and each section is embedded based on its contents. Once embedded, you can chat over them in the [AI Playground](https://portal.telnyx.com/#/ai/playground) or via the chat completions API using a `retrieval` tool with `bucket_ids`.
 
-Once your documents are embedded in a storage bucket, compute clusters via API:
+### Clusters
 
-```bash
+After embedding documents, you can [compute clusters](https://developers.telnyx.com/api-reference/clusters/compute-new-clusters#compute-new-clusters) to identify common themes. The `min_cluster_size` and `min_subcluster_size` parameters control how clusters are identified. Top-level clusters identify broad themes; sub-clusters identify more specific topics within a broader theme. Inspect results as JSON via the `task_id` endpoint, or render a graph via the `/graph` endpoint.
+
+### Conversation History
+
+Conversation History stores and indexes conversation records so agents can search previous interactions. Enable `conversation_persistence` on a covered SIP connection resource (`ip_connections`, `credential_connections`, `fqdn_connections`) to store and index voice conversation history. Search via `GET /v2/ai/conversation_histories` with a query (`q`) and `record_type` (use `voice` for SIP call history). Narrow results with `region`, `min_score`, and `filter[field][operator]` parameters.
+
+Pricing has three parts: embed and persist at `$0.0015 / 1K characters` (includes 30 days of retention), storage after 30 days at `$0.60 / GiB-month`, and vector search at `$0.003 / search` (first 10,000 searches per month are free). Default retention is 30 days.
+
+## Fine-Tuning
+
+Upload documents to Telnyx Storage, then fine-tune a language model on them via API or the [fine-tuning tab in the portal](https://portal.telnyx.com/#/ai/fine-tuning). Telnyx supports the standard `.jsonl` training file as input, and will also use AI to generate a training file from your raw documents automatically. Once fine-tuned, use the model in the AI Playground or via the chat completions API.
+
+## Voice AI Assistants
+
+### Quickstart
+
+In the [AI Assistants tab](https://portal.telnyx.com/#/ai/assistants), create a new assistant from a blank template. Configure instructions and greeting (which can use `{{variable}}` placeholders), then configure voice settings (TTS and STT providers, background audio, speaking plan, noise suppression). Assign a phone number and test the assistant.
+
+Telnyx provides system variables for use in instructions and greetings:
+
+| Variable | Description | Example |
+| --- | --- | --- |
+| `{{telnyx_current_time}}` | Current date and time in UTC | `Monday, February 24 2025 04:04:15 PM UTC` |
+| `{{telnyx_conversation_channel}}` | `phone_call`, `web_call`, or `sms_chat` | `phone_call` |
+| `{{telnyx_agent_target}}` | Phone number, SIP URI, or identifier for the agent | `+13128675309` |
+| `{{telnyx_end_user_target}}` | Phone number, SIP URI, or identifier for the end user | `+15551234567` |
+| `{{telnyx_sip_header_user_to_user}}` | User to User SIP header for the call | `cmlkPTM0Nzg1O3A9dQ==;encoding=base64;purpose=call` |
+| `{{telnyx_sip_header_diversion}}` | Diversion SIP header for the call | `<sip:bob@example.com>;reason=user-busy` |
+| `{{call_control_id}}` | Call control ID for the call | `v3:u5OAKGEPT3Dx8SZSSDRWEMdNH2OripQhO` |
+| `{{telnyx_shaken_stir_attestation}}` | SHAKEN/STIR attestation level for inbound calls | `a` |
+
+Telnyx also supports timezone-aware date/time variants (e.g., `{{telnyx_current_time_America/New_York}}`), shorthands (`{{telnyx_current_date}}`, `{{telnyx_current_weekday}}`), and a custom `date` format filter using `strftime` codes.
+
+### Voice Settings
+
+- **TTS providers**: Telnyx, AWS, Azure, ElevenLabs, Inworld. Ultra and xAI Grok voices support Expressive Mode with inline SSML emotion tags and nonverbal cues like `[laughter]`.
+- **STT providers**: Telnyx (whisper), Deepgram, Azure. See [Transcription Settings](transcription-settings.md) for model details.
+- **Background Audio**: Play predefined or custom background audio during calls.
+- **Speaking Plan**: Four pause types — wait seconds (baseline), on punctuation seconds, on no punctuation seconds, on number seconds.
+- **Noise Suppression**: Krisp or DeepFilterNet engines. Enable via `telephony_settings.noise_suppression` in the API.
+
+### Outbound Calls
+
+```
 curl --request POST \
-  --url https://api.telnyx.com/v2/ai/clusters \
+  --url https://api.telnyx.com/v2/texml/ai_calls/<texml_app_id> \
   --header "Authorization: Bearer $TELNYX_API_KEY" \
   --header 'Content-Type: application/json' \
   --data '{
-    "bucket": "cluster-gatsby",
-    "min_cluster_size": 50,
-    "min_subcluster_size": 10
+      "From": "+13128675309",
+      "To": "+15551234567",
+      "AIAssistantId": "assistant-6207ab25-b185-478f-b2ef-85159e226727"
   }'
 ```
 
-The response returns a `task_id`. The `min_cluster_size` and `min_subcluster_size` parameters control granularity:
+### MMS Integration During Voice Calls
 
-- **Top-level clusters** identify broad themes. Choose `min_cluster_size` based on the minimum data points for a broad theme.
-- **Sub-clusters** identify specific topics within a theme. Choose `min_subcluster_size` for minimum data points for a niche subtopic.
+When a user sends an MMS message during an ongoing voice call, the agent can detect it, analyze attached images using vision-capable models, and provide real-time responses. Supported vision models: `Groq/llama-4-maverick-17b-128e-instruct` and `OpenAI/gpt-4o`.
 
-Raising `min_cluster_size` results in broader, more generic clusters. You can compute multiple clusterings on the same data with different parameters.
+### Multi-Participant Calls
 
-### Inspect Clusters
+Multi-participant Voice AI calls let an assistant bring another person into an active call, follow who is speaking, and continue using the same tools and instructions. Add an **Invite** tool so the assistant can invite another participant, and a **Skip Turn** tool so the assistant can stay silent while people talk to each other. Use **Keyterm Boost** on the Voice tab to improve transcription accuracy on participant names.
 
-View cluster structure as JSON:
+### Scheduled Events
 
-```bash
-curl --request GET \
-  --url "https://api.telnyx.com/v2/ai/clusters/{task_id}?show_subclusters=true" \
-  --header "Authorization: Bearer $TELNYX_API_KEY"
-```
+Scheduled events let an AI Assistant kick off an outbound interaction at a fixed point in the future — either a phone call or an SMS message. For phone calls, configure automatic retries with `max_retries_client_errors` (0–10) and `retry_interval_secs` (60–86400). Retryable outcomes are `busy`, `no-answer`, `failed`, and `canceled`. Each phone-call event exposes a `call_attempts` array with one entry per terminal dispatch.
 
-Include `top_n_nodes` to see the most central data points per cluster. Download a graph image:
+### Voicemail Detection on Transfer
 
-```bash
-curl --request GET \
-  --url "https://api.telnyx.com/v2/ai/clusters/{task_id}/graph" \
-  --header "Authorization: Bearer $TELNYX_API_KEY" --output clusters.png
-```
+When a Voice AI Assistant transfers a call, the destination may go to voicemail. Set `detection_mode` to `premium` for ML-based detection. When voicemail is detected, choose `stop_transfer` (cancel and return to caller) or `leave_message_and_stop_transfer` (deliver a TTS message, then cancel). The voicemail message can be custom text or the warm transfer audio instructions.
 
-Pass `cluster_id` to drill into a specific cluster's subclusters.
+## Dynamic Variables
 
-## AI Insights
+Dynamic variables let you configure a template for your agent's behavior. Use `{{variable_name}}` syntax in instructions, greeting, or tools. The lifecycle: **Define** placeholders → **Inject** values via API, webhooks, SIP headers, or defaults → **Resolve** at conversation start → **Use** throughout the conversation.
 
-AI Insights analyze conversations (transcripts, metadata) and extract information based on instructions you define. You create individual insights, then organize them into groups assigned to AI Assistants.
+Resolution precedence (highest to lowest):
 
-### Prerequisites
-
-- Access to the [Mission Control Portal](https://portal.telnyx.com)
-- At least one AI Assistant configured (recommended for testing)
-
-### Creating an Insight
-
-1. Navigate to **AI, Storage and Compute** > **AI Insights** in the portal.
-2. Click **Create Insight**.
-3. Fill in a **Name** (required) and **Instructions** (the prompt describing what to analyze and extract).
-4. Optionally add variables (see below).
-5. Click **Save**.
-
-#### Writing Effective Instructions
-
-Good instructions are clear, specific, and actionable:
-
-- ❌ "Analyze the call" → ✅ "Identify the customer's main complaint and rate the urgency from 1-5"
-- ❌ "Tell me about sentiment" → ✅ "Rate sentiment from 1-10 and provide a one-sentence explanation"
-- ❌ "List products mentioned" → ✅ "List products the customer showed interest in purchasing, noting their budget concerns"
-
-Use naming conventions that indicate **what** is being analyzed ("Customer Sentiment"), **why** it matters ("Escalation Needed"), and **scope** ("Healthcare Compliance").
-
-#### System Variables
-
-Include dynamic variables in instructions to provide conversation context:
-
-| Variable | Description |
-|---|---|
-| `{{telnyx_current_time}}` | Date and time of the conversation |
-| `{{telnyx_conversation_channel}}` | Channel type (`phone_call`, `web_call`, `sms_chat`) |
-| `{{telnyx_agent_target}}` | Assistant's phone number or identifier |
-| `{{telnyx_end_user_target}}` | User's phone number or identifier |
-
-You can also reference [custom dynamic variables](https://developers.telnyx.com/docs/inference/ai-assistants/dynamic-variables) configured for your assistant.
-
-Example with variables:
-
-```
-Analyze this {{telnyx_conversation_channel}} conversation from {{telnyx_current_time}}.
-Identify if the user at {{telnyx_end_user_target}} expressed interest in any of our products or services.
-```
-
-#### Managing Insights
-
-- **Edit**: Click the pencil icon on the insight row.
-- **Copy ID**: Click the copy icon next to the insight ID (format: `cfcc865c-d3d4-4823-8a4b-f0df57d9f56f`). Use this ID with the Memory API or for programmatic access.
-
-## Structured Insights
-
-Structured insights extract data in a predefined JSON schema format, providing consistent, machine-readable results. Use structured insights when you need quantitative metrics, categorical data, boolean flags, consistent format for dashboards/databases, or multiple related fields.
-
-| Use Case | Unstructured | Structured |
-|---|---|---|
-| Open-ended summaries | ✅ | ❌ |
-| Sentiment scoring (1-5) | ❌ | ✅ |
-| Issue categorization | ❌ | ✅ |
-| Descriptive analysis | ✅ | ❌ |
-| Compliance flags | ❌ | ✅ |
-| Dashboard metrics | ❌ | ✅ |
-
-### Creating a Structured Insight
-
-1. Navigate to **AI Insights** and click **Create Insight**.
-2. Enter a name and basic instructions.
-3. Click **Collect as structured data** to reveal the schema configuration.
-4. For each data field, click **Add parameter** and define:
-   - **Name** — the field name in the JSON output
-   - **Type** — the data type
-   - **Required** — whether the field must always be present
-   - **Description** — instructions for extracting this field
-5. Click **Save**.
-
-### Parameter Types
-
-| Type | Use For | Example Output |
-|---|---|---|
-| `string` | Categories, descriptions, identifiers | `{"issue_category": "technical"}` |
-| `enum` | Predefined categories (strict value validation) | `{"sentiment": "positive"}` |
-| `number` | Scores, ratings, counts, percentages | `{"satisfaction_score": 8}` |
-| `integer` | Whole numbers (counts, quantities, IDs) | `{"message_count": 5}` |
-| `boolean` | True/false flags, presence checks | `{"escalation_needed": false}` |
-| `array` | Lists of values | `{"products_mentioned": ["Widget Pro"]}` |
-| `array (string)` | Typed list of text values | `{"issue_keywords": ["billing", "refund"]}` |
-| `array (number)` | Typed list of numeric values | `{"mentioned_prices": [29.99, 49.99]}` |
-| `array (boolean)` | Typed list of true/false flags | `{"feature_preferences": [true, false, true]}` |
-| `object` | Nested structures | `{"customer_info": {"name": "Jane Smith"}}` |
-
-Use `enum` instead of listing valid values in a string description — it provides better accuracy and enforces strict value validation. Use `integer` instead of `number` when you specifically need whole numbers. Typed arrays (`array (string)`, `array (number)`, `array (boolean)`) provide better type safety than the generic `array` type.
-
-### Advanced Mode
-
-Enable **Advanced mode** (checkbox at the top of the structured data section) for additional schema options: custom validation rules, enum constraints for string values, min/max constraints for numbers, pattern matching for strings, and nested object definitions.
-
-### Structured Insight Best Practices
-
-1. **Keep schemas focused** — create multiple focused insights rather than one massive insight capturing everything.
-2. **Make instructions clear** — each parameter description should specify the exact range and meaning (e.g., "Rate from 1-10, where 1 is very negative, 5 is neutral, and 10 is very positive").
-3. **Use enums for categories** — prefer the `enum` type over listing values in a string description.
-4. **Mark optional appropriately** — only mark fields as required if they should always be extractable.
-5. **Provide value ranges** — for numeric fields, specify the range in the description.
-6. **Test with edge cases** — very short conversations, missing information, ambiguous discussions, multiple topics.
+1. **Outbound API call** — pass via `AIAssistantDynamicVariables` parameter.
+2. **Custom SIP Headers** — `X-` prefix headers map to dynamic variables (e.g., `X-Full-Name` → `{{full_name}}`). Telnyx reserves the `X-Telnyx` namespace.
+3. **Dynamic Variables Webhook** — POST to `dynamic_variables_webhook_url` at conversation start. Response can include `dynamic_variables`, `memory`, and `conversation` fields. Default timeout is 1.5 seconds, up to 10 seconds via `dynamic_variables_webhook_timeout_ms`.
+4. **Default values** in the Assistant builder.
+5. **Unset** — variables remain as raw `{{variable_name}}`.

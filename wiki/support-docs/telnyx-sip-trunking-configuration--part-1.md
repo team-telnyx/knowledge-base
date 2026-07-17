@@ -1,148 +1,148 @@
 ---
 title: Telnyx SIP Trunking Configuration
-summary: A comprehensive guide to configuring and managing SIP trunking with Telnyx,
-  covering connection types, authentication methods, inbound/outbound settings, failover
-  and retry logic, SRV record handling, number formats, SIP protocols, STUN/TURN servers,
-  SIP URI calling, response codes, and advanced features such as SHAKEN/STIR, PRACK,
-  and Record-Route headers.
+summary: Telnyx SIP Trunking lets you use Telnyx as your inbound and outbound voice
+  carrier with a compatible softphone, PBX, or contact center platform. This page
+  consolidates the core configuration workflow (account setup, number purchase, SIP
+  connection, authentication method, AnchorSite, and Outbound Voice Profile), explains
+  the ~1–3 second configuration propagation window, and provides step-by-step integration
+  guides for Avaya IP Office and Vicidial (both IP-based and credentials-based), along
+  with pointers to the broader library of vendor configuration guides.
 sources:
-- url: https://support.telnyx.com/en/articles/10666839-how-telnyx-handles-srv-records-for-sip-calls
-- url: https://support.telnyx.com/en/articles/1130682-telnyx-stun-and-turn-server
-- url: https://support.telnyx.com/en/articles/1130705-sip-protocols-that-telnyx-uses
-- url: https://support.telnyx.com/en/articles/1130706-sip-connection-number-formats
-- url: https://support.telnyx.com/en/articles/1130715-register-multiple-devices-on-one-connection
-- url: https://support.telnyx.com/en/articles/1130717-limits-on-concurrent-outbound-calls
-- url: https://support.telnyx.com/en/articles/11358700-what-is-the-u-s-reassigned-numbers-database
-- url: https://support.telnyx.com/en/articles/1176364-sip-connection-failover-guide-ip-fqdn-based
-- url: https://support.telnyx.com/en/articles/2602782-ip-authentication-with-tech-prefix
-- url: https://support.telnyx.com/en/articles/2925713-sip-uri-calling
-- url: https://support.telnyx.com/en/articles/4245868-sip-connection-types
-- url: https://support.telnyx.com/en/articles/4304898-sip-trunking-methods-requests-responses
-- url: https://support.telnyx.com/en/articles/4320364-sip-connection-fail-over-and-retries
-- url: https://support.telnyx.com/en/articles/4351104-sip-connection-settings
-- url: https://support.telnyx.com/en/articles/4363904-sip-registration
-- url: https://support.telnyx.com/en/articles/4404448-sip-connection-inbound-outbound-settings
-- url: https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes
-- url: https://support.telnyx.com/en/articles/4860170-ip-authentication-with-x-telnyx-token
-- url: https://support.telnyx.com/en/articles/6169513-grandstream-grp260x-sip-trunk
-- url: https://support.telnyx.com/en/articles/6902981-understanding-sip-prack-protocol
-- url: https://support.telnyx.com/en/articles/7029684-telephony-credentials-types
-- url: https://support.telnyx.com/en/articles/7421223-shaken-stir-parameters
+- url: https://support.telnyx.com/en/articles/1130627-configuring-an-avaya-ip-trunk-with-telnyx
+- url: https://support.telnyx.com/en/articles/1130632-configuring-a-vicidial-ip-trunk-with-telnyx
+- url: https://support.telnyx.com/en/articles/1130667-do-you-offer-service-to-call-centers
+- url: https://support.telnyx.com/en/articles/1130695-configuring-telnyx-sip-trunking-with-avaya
+- url: https://support.telnyx.com/en/articles/1130713-what-is-my-sip-account-connection-password
+- url: https://support.telnyx.com/en/articles/1176353-vicidial-configure-vicidial-credentials
+- url: https://support.telnyx.com/en/articles/12901901-understanding-configuration-propagation-delays-in-mission-control-portal-and-api
 - url: https://support.telnyx.com/en/articles/8096455-how-to-configure-a-sip-trunk
-- url: https://support.telnyx.com/en/articles/9133298-sip-record-route-headers
-updated_at: 2026-06-11T11:25:41Z
+- url: https://support.telnyx.com/en/collections/3968237-telnyx-sip-trunking-configurations
+updated_at: 2026-07-17T09:03:27Z
 ---
 
 # Telnyx SIP Trunking Configuration
 
-*Part 1 of 4 — see also: [Part 2](telnyx-sip-trunking-configuration--part-2.md), [Part 3](telnyx-sip-trunking-configuration--part-3.md), [Part 4](telnyx-sip-trunking-configuration--part-4.md)*
+*Part 1 of 3 — see also: [Part 2](telnyx-sip-trunking-configuration--part-2.md), [Part 3](telnyx-sip-trunking-configuration--part-3.md)*
 
-A comprehensive guide to configuring and managing SIP trunking with Telnyx, covering connection types, authentication methods, inbound/outbound settings, failover and retry logic, SRV record handling, number formats, SIP protocols, STUN/TURN servers, SIP URI calling, response codes, and advanced features such as SHAKEN/STIR, PRACK, and Record-Route headers.
+Telnyx SIP Trunking lets you use Telnyx as your inbound and outbound voice carrier with a compatible softphone, PBX, or contact center platform. This page consolidates the core configuration workflow (account setup, number purchase, SIP connection, authentication method, AnchorSite, and Outbound Voice Profile), explains the ~1–3 second configuration propagation window, and provides step-by-step integration guides for Avaya IP Office and Vicidial (both IP-based and credentials-based), along with pointers to the broader library of vendor configuration guides.
 
-## SIP Connection Types
+## Overview
 
-Telnyx offers three primary SIP Connection types, each suited to different network environments:
+Telnyx SIP Trunking lets you use Telnyx as your inbound and outbound voice carrier with a compatible softphone, PBX, or contact center platform. This page consolidates the core configuration workflow, the available authentication methods, propagation considerations, and the most common vendor-specific integrations (Avaya, Vicidial, and others) supported by Telnyx.
 
-- **Credentials-based** — Use when your system has a dynamic public IP address. A username and password are generated automatically (editable in the Authentication & Routing section). It is highly recommended to choose a strong password of 12–16+ characters with mixed complexity.
-- **IP Address-based** — Use when you have a static public IP address. Enter the IP and port in the connection settings. Multiple IPs can be added with Sequential or Round Robin routing. If your IP changes, calls will fail.
-- **FQDN-based** — Uses a Fully Qualified Domain Name for inbound routing. Choose an FQDN type (typically A record) and enter the domain. For outbound, select either Credentials or IP Address authentication. Multiple FQDNs and IPs can be assigned with configurable routing priority.
+## Prerequisites
 
-Each SIP Connection receives a universally unique identifier (connection ID), visible below the settings sub-tab, used for API interactions. Connections can be deactivated via the status toggle on the SIP Connections page, which stops all inbound and outbound call processing.
+Before configuring a SIP trunk, ensure the following are in place:
 
-## Authentication Methods
+- A Telnyx Mission Control Portal account. See [Get Started with a Mission Control Account](get-started-with-a-mission-control-account.md).
+- A provisioned DID. See [Requesting Numbers](https://support.telnyx.com/en/articles/3562148-requesting-numbers).
+- A compatible softphone, PBX, or contact center system installed and ready to register.
+- For call centers, Telnyx is an ideal fit — there are at least [32,000 call centers in the United States](https://www.ibisworld.com/industry-statistics/number-of-businesses/telemarketing-call-centers-united-states/) and Telnyx actively supports that customer profile.
 
-Beyond the three connection types, Telnyx supports advanced authentication methods for IP-based connections that share a single IP address across multiple connections:
+## General SIP Trunk Configuration Workflow
 
-### Tech Prefix
+The end-to-end process for standing up a Telnyx SIP trunk is the same regardless of the system you pair it with.
 
-A 4-digit number prefixed to the dialed number (e.g., tech prefix `1234` + number `18005678912` → dial `123418005678912`). Your PBX can auto-prepend this. Without the tech prefix, calls receive a **SIP 407 Proxy Authentication** response. Tech prefixes can also be applied at the number level for granular routing control.
+### Step 1: Create an account and add funds
 
-### X-Telnyx-Token
+Sign up at [telnyx.com/sign-up](https://telnyx.com/sign-up) or log in at [portal.telnyx.com](https://portal.telnyx.com/#/login/sign-in). Add funds via the green "+" icon at the top of the Mission Control portal — as little as $3 may be enough to begin testing, depending on the cost of the number you intend to purchase.
 
-A custom string sent in the `X-Telnyx-Token` SIP header. The token must:
-- Contain only alphanumeric characters and dashes (`-`)
-- Be 12–48 characters long
-- Be globally unique
+### Step 2: Purchase a phone number
 
-The portal suggests a randomly generated token based on the connection name, but you can use a custom string. The SIP INVITE must originate from an IP associated with the connection.
+Navigate to the [search section](https://portal.telnyx.com/#/voice/my-numbers/buy) and use the input fields or filters to narrow your search. See [Search and Buy Numbers](https://support.telnyx.com/en/articles/4380325-search-and-buy-numbers) for a detailed walkthrough.
 
-### P-Charge-Info
+### Step 3: Choose your system
 
-A telephone number associated with the connection must be sent in the `P-Charge-Info` SIP header on the INVITE message.
+Select the softphone, PBX, or compatible system (such as a CRM) you will use to make and receive calls. Telnyx has strong pairings with Zoiper, Linphone, MicroSIP, x-Lite, Twinkle, Blink, and Microsoft Teams (Operator Connect or Direct Routing). For teams with more complex requirements, a PBX such as FreePBX is recommended. Telnyx does not provide the softphone or PBX itself — you take your Telnyx authentication details and plug them into the system of your choice. Browse the [Configuration Guides](https://support.telnyx.com/en/collections/133118-configuration-guides) collection for inspiration.
 
-These methods prevent the "Termination Endpoint" error that occurs when multiple connections share the same IP but lack unique identification.
+### Step 4: Configure your SIP Connection
 
-## SIP Connection Settings
+Create a SIP Connection under [Voice → SIP Trunking](https://portal.telnyx.com/#/voice/connections) by selecting the green "Create SIP Connection" button. Alternatively, in [My Numbers](https://portal.telnyx.com/#/voice/my-numbers) you can select or create a new SIP connection and assign it to your number simultaneously.
 
-SIP Connection settings are organized into five categories: Authentication & Routing Configuration, Webhooks, AnchorSite®, Advanced Settings, and RTCP Settings.
+![Add SIP Connection](_images/5b7495ca3bde38f2.png)
 
-### Webhooks
+*In <https://portal.telnyx.com/#/voice/connections> click "Add SIP Connection".*
 
-Webhook settings send connection events (Call Initiated, Call Answered, Call Bridged, Call Hangup, Call Voicemail Completed) to a specified URL, with a Failover URL as backup. Three API versions are available:
+![Assign SIP Connection to number](_images/e558eb5a5f34e9dc.png)
 
-- **API V1** — No longer recommended.
-- **API V2** — Recommended; JSON payloads over HTTP.
-- **TeXML** — Fetches XML instructions from the webhook URL; form-data over HTTP.
+*In <https://portal.telnyx.com/#/voice/my-numbers> you can click the pencil icon in the SIP Connection column to select or add a new SIP Connection.*
 
-**Important:** Setting a webhook URL treats the call as programmable voice rather than SIP trunking. This may anchor media in a region that doesn't support programmable voice (e.g., Australia). For notification-only use cases, consider removing the webhook URL. A Voice API application must be associated with numbers to issue call control commands.
+SIP Connections configure inbound traffic and authentication. See [SIP Connection: Settings](https://support.telnyx.com/en/articles/4351104-sip-connection-settings) and [SIP Connection: Inbound & Outbound Settings](https://support.telnyx.com/en/articles/4404448-sip-connection-inbound-outbound-settings) for deeper detail.
 
-#### Park Outbound Calls
+#### Choose your authentication method
 
-When enabled, outbound calls are parked (generating SIP 180 Ringing to the caller) while awaiting Voice API commands (answer, play audio, bridge, transfer). The typical use case involves WebRTC clients registering with credential-based connections, where a backend application issues dial and bridge commands after the caller is parked.
+Depending on the softphone or PBX you chose, select one of the following authentication types:
 
-### AnchorSite®
+1. **Credentials (Username & Password)** — Inbound and Outbound
+2. **IP address** — Inbound and Outbound
+3. **FQDN (Inbound) + Credentials (Outbound)**
+4. **FQDN (Inbound) + IP address (Outbound)**
 
-Controls which media server anchors your calls. The default, **Latency**, proactively monitors latency from your endpoints to Telnyx PoPs. To ensure proper latency detection, whitelist Telnyx's [media IP addresses](https://sip.telnyx.com/#media). For credential-based connections, include the SIP Connection **username** in the contact header of your first INVITE so the SIP Proxy can identify your connection and apply the correct AnchorSite.
+When you create a SIP connection with the **Credentials** authentication type, Telnyx generates a random username and password that you can change. We recommend using a random password generator for additional security. To find or update your SIP credentials at any time:
 
-### Advanced Settings
+1. Log in to the [Telnyx Portal](https://portal.telnyx.com).
+2. Navigate to [Voice → SIP Trunking](https://portal.telnyx.com/#/voice/connections).
+3. Find the SIP connection and click the **pencil (edit) icon**.
+4. Open the **Authentication and routing** tab.
+5. Your username and password are displayed here — you can view, copy, or update them at any time.
 
-- **Encode Contact Header** — Encodes the SIP contact header to avoid NAT/ALG issues.
-- **DTMF Types** — RFC 2833 (recommended), Inband (most prone to issues), or SIP Info (out-of-band).
-- **Enable On-Net T.38 Passthrough** — Allows sender and receiver to negotiate T.38 directly.
-- **Enable Comfort Noise for Call on Hold** — Generates comfort noise on hold; if unchecked, you must generate your own noise or music to avoid RTP timeouts.
+#### Choose your AnchorSite
 
-### RTCP Settings
+AnchorSite lets you minimize latency by anchoring calls to a specific part of the Telnyx private network. Choose a specific city, or select **Latency** to let Telnyx route each call via the lowest-latency location automatically.
 
-- **RTCP+1** (default) — Uses the next port after RTP.
-- **RTCP mux** — Multiplexes RTP and RTCP through a single UDP port, simplifying NAT traversal.
-- **Report Frequency** — Interval in seconds between RTCP packets.
-- **RTCP Capture and Storage** — Enables RTCP reporting when checked.
+![AnchorSite section](_images/1cfe990c0dc9c59b.png)
 
-## Inbound SIP Settings
+*Select the "AnchorSite" city that best fits your needs based on the geography of your calls, or select "Latency" for Telnyx to route calls for the lowest latency automatically.*
 
-| Setting | Description |
-|---|---|
-| Number Format (DNIS/ANI) | Controls the number format in FROM/TO and INVITE URI. See [Telnyx SIP Trunking Configuration#Number Formats](telnyx-sip-trunking-configuration-number-formats.md) below. |
-| SIP Transport Protocol | Set signalling transport (IP/FQDN/MS Teams auth only). |
-| SIP Region | Set the Telnyx region for signalling (IP/FQDN/MS Teams auth only). |
-| No Ringback Timeout | How long Telnyx waits for a 180/183 response (default 5s; min 1s, max 2 min). |
-| No Answer Timeout | How long Telnyx waits for a 200 OK (default 5s; min 1s, max 10 min). |
-| SIP Subdomain | Allows calls to a defined subdomain (e.g., `client123.sip.telnyx.com`). |
-| Receive SIP Subdomain Calls | Allow from anyone (public) or only from your connections. |
-| Channel Limit | Max concurrent inbound calls (default: unlimited). |
-| Receive SIP URI Calls | Credential connections only — allow from anyone, only your connections, or disabled. |
-| Encrypted Media | Enables SRTP media encryption on inbound. |
-| Default Ringback Setting | Relays messages/early media from called party to PSTN carrier. |
-| Generate Ringback Tone (183) | Sends instant 183 with SDP and US ringback tone; stops if called party sends early media. |
-| Enable Instant Ringback (180) | Sends instant 180 Ringing; carrier generates ringback. |
-| Offered Audio/Video Codecs | Select and order preferred codecs. |
-| Enable SIP Compact Headers | Reduces bandwidth by compacting SIP headers. |
-| Enable Prack | Enables acknowledgment of provisional 1xx responses. |
-| Receive ISUP Headers into SIP Headers | Converts SS7 ISUP body content into SIP headers. |
-| Enable Shaken/Stir Header | Includes attestation information in webhooks. |
-| Enable 3rd Party Call Control | For Cisco UCM; handles late media negotiation (INVITE without SDP). |
-| Enable Simultaneous Ringing | Multiple SIP devices under the same credentials ring simultaneously. |
+### Step 5: Configure your Outbound Voice Profile
 
-## Outbound SIP Settings
+Your Outbound Voice Profile (OVP) enables outbound calling.
 
-| Setting | Description |
-|---|---|
-| Outbound Voice Profile | Associate an outbound voice profile with the connection. |
-| Localization Country | Dial with local exit codes and local number formats without +country code. Without a country, numbers are validated as US. |
-| Channel Limit for Outbound Calls | Max concurrent outbound calls; excess receives 403. |
-| Caller ID Override | Override caller ID always, for normal calls, or for emergency calls only. |
-| T.38 Re-invite Initiated By | Set to Telnyx (default), Customer, or Disabled for fax. |
-| Encrypted Media | Expects SRTP crypto attributes on outbound INVITEs. |
-| Default Ringback Settings | Passes 18x/early media from PSTN carrier to caller. |
-| Enable Instant Ringback (180) | Sends instant 180; caller generates ringback. |
-| Generate Ringback Tone (183) | Sends 183 with SDP and US ringback tone. |
+1. Go to <https://portal.telnyx.com/#/outbound-profiles> and select the green **Add New Profile** button. Give the profile a name.
+
+![Add New Profile](_images/811580a8f6173480.png)
+
+*In the Mission Control Portal go to Voice > Outbound Voice Profile and select the green "Add New Profile" button in the upper right.*
+
+2. Select all the relevant OVP settings you'd like to use.
+
+![OVP settings](_images/c1864488e0e6982a.png)
+
+*All of the OVP settings you can configure through the portal.*
+
+3. Add a SIP connection to your OVP and save.
+
+![Add SIP connection to OVP](_images/e0e3fa3b00f0b56c.png)
+
+*Add a SIP connection to your OVP to enable two-way calls.*
+
+4. Optionally but recommended, set a daily spend limit to protect against compromise, and save.
+
+![OVP spend limits](_images/70bb257e097f6e82.png)
+
+Use these settings to specify allowed destinations, max daily spends, and max destination rates to keep costs under control.
+
+### Step 6: Plug your Telnyx authentication into your system
+
+Take the authentication method you selected in Step 4 and plug it into the compatible system of your choice. The [Configuration Guides](https://support.telnyx.com/en/collections/133118-configuration-guides) collection contains many examples.
+
+### Step 7: Start calling
+
+Once your system is registered, you can begin making and receiving calls. Follow best practices around do-not-call lists and treat others as you would want to be treated. Repeated nuisance calls are grounds for removal from the Telnyx platform.
+
+## Configuration Propagation Delays
+
+When you make changes in the Mission Control Portal or via the Telnyx API, updates must propagate across Telnyx's globally distributed infrastructure before they become fully effective. Observed propagation timing:
+
+- **Minimum:** ~1 second
+- **Average:** ~1.5 seconds
+- **Maximum:** ~3 seconds
+
+This window applies to **all** configuration updates, including:
+
+- Creating or modifying **On-Demand SIP Credentials**
+- Updating call control settings
+- Modifying connection configurations
+- Editing messaging profiles or number settings
+
+Design your workflows with this in mind. For example, if you create new SIP credentials and attempt to use them immediately, authentication may fail until propagation completes. Adding a small delay before first use — or pre-creating credentials ahead of time — avoids potential issues.

@@ -1,8 +1,9 @@
 ---
 title: Account Setup
-summary: How to create a Telnyx account, understand the Trial-Paid-Verified-Enterprise
-  (TPVE) account levels and their capabilities, upgrade your account, and configure
-  data locality.
+summary: This page covers the full Telnyx account setup workflow, including creating
+  an account, passing trust and safety checks, understanding the TPVE account framework
+  (Trial, Paid, Verified, Enterprise), upgrading between levels, using trial account
+  features, and configuring data locality for stored data.
 sources:
 - url: https://developers.telnyx.com/docs/account-setup/account-upgrade
 - url: https://developers.telnyx.com/docs/account-setup/create-account
@@ -13,48 +14,28 @@ sources:
 - url: https://developers.telnyx.com/docs/account-setup/levels-and-capabilities/verified
 - url: https://developers.telnyx.com/docs/account-setup/signup
 - url: https://developers.telnyx.com/docs/account-setup/using-trial-account
-updated_at: 2026-06-11T10:23:30Z
+updated_at: 2026-07-17T09:12:21Z
 ---
 
 # Account Setup
 
 *Part 2 of 2 — see also: [Part 1](account-setup--part-1.md)*
 
-How to create a Telnyx account, understand the Trial-Paid-Verified-Enterprise (TPVE) account levels and their capabilities, upgrade your account, and configure data locality.
+This page covers the full Telnyx account setup workflow, including creating an account, passing trust and safety checks, understanding the TPVE account framework (Trial, Paid, Verified, Enterprise), upgrading between levels, using trial account features, and configuring data locality for stored data.
 
-## Verified Account Privileges and Limitations
+## Using Your Trial Account
 
-Verified accounts have full access except as specified below. Telnyx reserves the right to modify limitations without notification.
+To make the most of your trial credit and stay within trial limitations:
 
-### Numbers
+1. **Verify a phone number.** A [verified number](https://portal.telnyx.com/#/numbers/verified-numbers) is essential to test Voice and Messaging. Use a mobile phone number that you control. Trial accounts have limits on delivery attempts and the number of changes allowed. Once the allowance is depleted, [upgrade your account](https://developers.telnyx.com/docs/account-setup/account-upgrade).
+2. **Search for and purchase a phone number.** Search results show only local (to the signup origin) numbers in full +E164; other results appear partially redacted. A successful purchase depends on inventory availability, sufficient account balance, and local jurisdiction [documentation rules](https://portal.telnyx.com/#/numbers/requirements). Only one phone number order is allowed during the trial, regardless of the outcome.
+3. **Test calling workflows.** Use one of the following tutorials to place calls:
+   - [SIP Trunking](https://developers.telnyx.com/docs/voice/sip-trunking/get-started)
+   - [Programmable Voice](https://developers.telnyx.com/docs/voice/programmable-voice/get-started)
+   - [TeXML](https://developers.telnyx.com/docs/voice/programmable-voice/texml-setup)
 
-- **Number searching** — No access to number blocks.
-- **Number ordering** — No access to number blocks.
-- **Number porting** — No access to LRN migration.
-
-### Account Features
-
-- **ManagED Accounts** — No access.
-- **Payment methods** — Credit card, PayPal, and BTC.
-- **DDoS mitigation** — No access.
-
-Qualification by the Telnyx sales team is required to upgrade to the enterprise level to gain access to the above restricted features. [Contact Telnyx](https://telnyx.com/contact-us) to start the process.
-
-## Upgrading Your Account
-
-Each account level requires specific criteria to be met:
-
-| Criteria | Trial | Paid | Verified |
-|---|---|---|---|
-| Verified email | X | X | X |
-| Verified mobile number | | X | X |
-| Made a payment with CC/Debit Card | | X | X |
-| Enabled 2FA for the account | | X | X |
-| Provided Service Address | | X | X |
-| Successfully passed KYC | | | X |
-| Successfully passed AI agent eval | | | X |
-
-Identify the desired account level and complete **all** [required actions](https://portal.telnyx.com/#/account/account-levels). For enterprise upgrades, qualification by the Telnyx sales team is required. [Contact Telnyx](https://telnyx.com/contact-us) to begin the process.
+   Regardless of how the call is created, the destination is limited to the verified phone number from Step 1, and inbound calls must also originate from that number.
+4. **Test messaging workflows.** Use the [Send Message](https://developers.telnyx.com/docs/messaging/messages/send-message) tutorial to send SMS. Outbound messages must target the verified phone number you configured, and inbound messages must also originate from that number.
 
 ## Data Locality
 
@@ -63,7 +44,7 @@ Data Locality lets you choose the geographic region where your Telnyx data is st
 ### Available Regions
 
 | Region | Location | Default |
-|---|---|---|
+| --- | --- | --- |
 | US | United States | Yes |
 | EU | Germany | No |
 | APAC | Australia | No |
@@ -91,4 +72,6 @@ Data locality applies to the following data stored at rest:
 3. Scroll to **Data Storage Location** and select a country from the dropdown.
 4. Click **Save Location**.
 
-This setting can only be changed once and cannot be undone. After you save, Telnyx migrates your data to the new location. Some features may become temporarily unavailable during migration — the process can take a few minutes to several hours depending on your data size. All existing accounts default to the US; if you do not change the setting, your data remains in the US.
+This setting can only be changed once and cannot be undone. After you save, Telnyx migrates your data to the new location. Some features may become temporarily unavailable during migration — the process can take a few minutes to several hours depending on your data size.
+
+All existing accounts default to the US. If you do not change the setting, your data remains in the US.

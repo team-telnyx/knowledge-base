@@ -1,15 +1,29 @@
 ---
 title: Telnyx Messaging
-summary: Telnyx Messaging provides a comprehensive API for sending and receiving SMS
-  and MMS messages, with features including messaging profiles, alphanumeric sender
-  IDs, geomatching, group messaging, two-factor authentication, appointment reminders,
-  advanced opt-in/out handling, configurable spend limits, hosted SMS, and detailed
-  error handling.
+summary: Telnyx Messaging is a unified API for application-to-person (A2P) messaging
+  across 10DLC long codes, toll-free numbers, short codes, alphanumeric sender IDs,
+  RCS, and WhatsApp. This page covers sender type selection, messaging profiles, phone
+  number configuration, 10DLC and toll-free registration, campaign management, message
+  encoding, MMS, rate limiting, number pooling, opt-in/opt-out compliance, webhooks,
+  error codes, spend limits, RCS, WhatsApp Business messaging, hosted SMS, international
+  compliance, and common use cases like 2FA and appointment reminders.
 sources:
+- url: https://developers.telnyx.com/docs/messaging/10dlc/10dlc-rate-limits/index
+- url: https://developers.telnyx.com/docs/messaging/10dlc/brand-registration/index
+- url: https://developers.telnyx.com/docs/messaging/10dlc/campaign-registration/index
+- url: https://developers.telnyx.com/docs/messaging/10dlc/campaign-use-cases
+- url: https://developers.telnyx.com/docs/messaging/10dlc/event-notifications/index
+- url: https://developers.telnyx.com/docs/messaging/10dlc/isv-reseller-onboarding
+- url: https://developers.telnyx.com/docs/messaging/10dlc/phone-number-assignment
+- url: https://developers.telnyx.com/docs/messaging/10dlc/quickstart/index
+- url: https://developers.telnyx.com/docs/messaging/10dlc/sole-proprietor/index
+- url: https://developers.telnyx.com/docs/messaging/10dlc/troubleshooting/index
+- url: https://developers.telnyx.com/docs/messaging/getting-started/choosing-your-sender-type/index
 - url: https://developers.telnyx.com/docs/messaging/messages/2fa/index
 - url: https://developers.telnyx.com/docs/messaging/messages/advanced-opt-in-out/index
 - url: https://developers.telnyx.com/docs/messaging/messages/alphanumeric-sender-id/index
 - url: https://developers.telnyx.com/docs/messaging/messages/appointment-reminder
+- url: https://developers.telnyx.com/docs/messaging/messages/chat-sdk-adapter
 - url: https://developers.telnyx.com/docs/messaging/messages/configurable-spend-limits/index
 - url: https://developers.telnyx.com/docs/messaging/messages/configuration-and-usage/index
 - url: https://developers.telnyx.com/docs/messaging/messages/error-codes/index
@@ -17,101 +31,221 @@ sources:
 - url: https://developers.telnyx.com/docs/messaging/messages/group-messaging
 - url: https://developers.telnyx.com/docs/messaging/messages/hosted-sms/index
 - url: https://developers.telnyx.com/docs/messaging/messages/hosted-sms/internal-transfer
-updated_at: 2026-06-11T10:36:31Z
+- url: https://developers.telnyx.com/docs/messaging/messages/international-sms-compliance
+- url: https://developers.telnyx.com/docs/messaging/messages/message-detail-records/index
+- url: https://developers.telnyx.com/docs/messaging/messages/message-encoding/index
+- url: https://developers.telnyx.com/docs/messaging/messages/messaging-profiles-overview/index
+- url: https://developers.telnyx.com/docs/messaging/messages/mms-converter
+- url: https://developers.telnyx.com/docs/messaging/messages/mms-transcoding/index
+- url: https://developers.telnyx.com/docs/messaging/messages/number-pool/index
+- url: https://developers.telnyx.com/docs/messaging/messages/phone-number-configuration/index
+- url: https://developers.telnyx.com/docs/messaging/messages/rate-limiting/index
+- url: https://developers.telnyx.com/docs/messaging/messages/rcs-ai-assistant
+- url: https://developers.telnyx.com/docs/messaging/messages/rcs-capabilities/index
+- url: https://developers.telnyx.com/docs/messaging/messages/rcs-deeplinks
+- url: https://developers.telnyx.com/docs/messaging/messages/rcs-getting-started/index
+- url: https://developers.telnyx.com/docs/messaging/messages/receive-message
+- url: https://developers.telnyx.com/docs/messaging/messages/receiving-rcs-webhooks/index
+- url: https://developers.telnyx.com/docs/messaging/messages/receiving-webhooks/index
+- url: https://developers.telnyx.com/docs/messaging/messages/schedule-message/index
+- url: https://developers.telnyx.com/docs/messaging/messages/send-an-rcs-message/index
+- url: https://developers.telnyx.com/docs/messaging/messages/send-message/index
+- url: https://developers.telnyx.com/docs/messaging/messages/send-receive-mms/index
+- url: https://developers.telnyx.com/docs/messaging/messages/short-code/index
+- url: https://developers.telnyx.com/docs/messaging/messages/smart-encoding/index
+- url: https://developers.telnyx.com/docs/messaging/messages/smil-template
+- url: https://developers.telnyx.com/docs/messaging/messages/sticky-sender/index
+- url: https://developers.telnyx.com/docs/messaging/messages/url-shortening/index
+- url: https://developers.telnyx.com/docs/messaging/messages/zapier-integration
+- url: https://developers.telnyx.com/docs/messaging/toll-free-verification/index
+- url: https://developers.telnyx.com/docs/messaging/toll-free-verification/troubleshooting
+- url: https://developers.telnyx.com/docs/messaging/whatsapp/embedded-signup
+- url: https://developers.telnyx.com/docs/messaging/whatsapp/embedded-signup/tech-provider
+- url: https://developers.telnyx.com/docs/messaging/whatsapp/manage-templates
+- url: https://developers.telnyx.com/docs/messaging/whatsapp/quickstart/index
+- url: https://developers.telnyx.com/docs/messaging/whatsapp/send-messages/index
+updated_at: 2026-07-17T09:15:02Z
 ---
 
 # Telnyx Messaging
 
-*Part 3 of 4 — see also: [Part 1](telnyx-messaging--part-1.md), [Part 2](telnyx-messaging--part-2.md), [Part 4](telnyx-messaging--part-4.md)*
+*Part 3 of 5 — see also: [Part 1](telnyx-messaging--part-1.md), [Part 2](telnyx-messaging--part-2.md), [Part 4](telnyx-messaging--part-4.md), [Part 5](telnyx-messaging--part-5.md)*
 
-Telnyx Messaging provides a comprehensive API for sending and receiving SMS and MMS messages, with features including messaging profiles, alphanumeric sender IDs, geomatching, group messaging, two-factor authentication, appointment reminders, advanced opt-in/out handling, configurable spend limits, hosted SMS, and detailed error handling.
+Telnyx Messaging is a unified API for application-to-person (A2P) messaging across 10DLC long codes, toll-free numbers, short codes, alphanumeric sender IDs, RCS, and WhatsApp. This page covers sender type selection, messaging profiles, phone number configuration, 10DLC and toll-free registration, campaign management, message encoding, MMS, rate limiting, number pooling, opt-in/opt-out compliance, webhooks, error codes, spend limits, RCS, WhatsApp Business messaging, hosted SMS, international compliance, and common use cases like 2FA and appointment reminders.
 
-## Hosted SMS
+## Message Encoding
 
-Hosted SMS lets you add messaging capabilities to phone numbers that stay with your current voice provider. Your voice service continues uninterrupted — Telnyx handles only the SMS and MMS routing. This is ideal for landline numbers needing texting, business numbers where you want to keep your voice provider, or gradual migration.
+SMS messages are encoded into segments of 140 bytes each.
 
-Hosting a number is **not** the same as porting. Your voice service stays with your current provider.
+| Encoding | Bits/Char | Single Segment | Multi-Part Segment |
+| --- | --- | --- | --- |
+| GSM 7-bit | 7 | 160 chars | 153 chars |
+| ASCII 7-bit | 7 | 160 chars | 153 chars |
+| ASCII 8-bit | 8 | 140 chars | 134 chars |
+| UTF-16 | 16 | 70 chars | 67 chars |
 
-### Order Process
+A single non-GSM-7 character (like an emoji or curly quote) switches the entire message to UTF-16, cutting capacity from 160 to 70 characters per segment.
 
-| Step | What Happens | Timeline |
-|---|---|---|
-| 1. Eligibility check | Verify numbers can be hosted | Instant |
-| 2. Create order | Submit a hosted SMS order | Instant |
-| 3. Verify ownership | Confirm you own the numbers via SMS code | 5 minutes |
-| 4. Upload documents | Submit LOA and recent provider bill | Instant |
-| 5. Telnyx review | Team reviews and activates | 1–3 business days |
+### Smart Encoding
 
-### Eligibility Statuses
+Smart encoding automatically replaces Unicode characters with visually similar GSM-7 characters, keeping messages in the more efficient GSM-7 encoding. Enable it on a messaging profile or per-request using the `encoding` parameter (`auto`, `gsm7`, or `ucs2`).
 
-Key statuses include `eligible`, `number_is_not_a_us_number` (only US numbers supported), `number_can_not_be_wireless`, `number_can_not_be_in_telnyx` (already on Telnyx), and various billing/format errors.
+## MMS
 
-### Verification
+MMS is supported on Long Code, Toll-Free, and Short Code numbers in the US and Canada. Include `media_urls` in your message request to send MMS. You can send up to 10 media files per message.
 
-Request verification codes via `POST /v2/messaging_hosted_number_orders/{order_id}/verification_codes`, then submit them via `POST /v2/messaging_hosted_number_orders/{order_id}/validation_codes`. Successful verification changes status to `ownership_successful`.
+### Carrier Size Limits
 
-### Document Upload
+| Carrier | Long Code | Toll-Free | Short Code |
+| --- | --- | --- | --- |
+| AT&T | 1 MB | 600 KB | 600 KB |
+| T-Mobile | 1.5 MB | 600 KB | 1 MB |
+| Verizon | 1 MB | 600 KB | 1.2 MB |
 
-Upload a Letter of Authorization (LOA) and a recent bill as PDFs. Telnyx reviews and activates, typically within 1–3 business days.
+The safe maximum across all carriers and sender types is 600 KB. Enable `mms_transcoding` on your messaging profile to automatically resize oversized media.
 
-### Order Statuses
+### MMS Converter
 
-| Status | Meaning |
-|---|---|
-| `pending` | Awaiting verification and documents |
-| `loa_file_successful` | Documents uploaded successfully |
-| `successful` | Numbers are active |
-| `failed` | Activation failed |
-| `deleted` | Order was cancelled |
+When enabled on a messaging profile via `mms_fall_back_to_sms`, MMS messages are converted to SMS for destinations that don't support MMS. Media URLs appear on their own line after the message body.
 
-### Webhook Notifications
+## Rate Limiting
 
-Hosted SMS orders trigger webhooks including `messaging_hosted_numbers_orders.created`, `.updated`, `.deleted`, and internal transfer-specific events (see below).
+### Account-Level Limits
 
-### Troubleshooting Failed Orders
+| Message Type | Default Rate Limit | Max Queue Length |
+| --- | --- | --- |
+| SMS | 50 messages/second | 720,000 |
+| MMS | 15 messages/second | 216,000 |
+| RCS | 1 message/second | 14,400 |
 
-- **carrier_rejected** — losing carrier rejected the request; contact your voice provider
-- **ineligible_carrier** — carrier doesn't support hosted SMS; consider full porting
-- **failed_carrier_rejected** — specific number rejected; check account ownership
-- **failed_number_already_hosted** — already hosted by another account; contact support
-- **failed_timeout** — activation timed out; create a new order
-- **Verification code not received** — ensure the number can receive SMS; request the code again
-- **LOA rejected** — download the latest template; ensure signer matches account holder
-- **Hosted numbers not visible in Portal** — known limitation; use the API to list hosted numbers
+### Sender-Level Limits
 
-## Internal Hosted SMS Transfer
+| Sender Type | Rate Limit | Per | Max Queue Length |
+| --- | --- | --- | --- |
+| Long Code | 0.1 MPS | Number | 1,440 |
+| Toll-Free | 20 MPS | Number | 288,000 |
+| Short Code | 1,000 MPS | Number | 14,400,000 |
+| Alphanumeric | 0.1 MPS | Sender ID | 1,440 |
 
-Internal Hosted SMS Transfer allows moving messaging-enabled numbers between two Telnyx accounts without standard carrier porting. This is useful when managing multiple accounts, consolidating numbers, or migrating messaging between organizations.
+When you exceed rate limits, excess messages are queued for up to 4 hours. When a queue is full, additional messages return error code `40318`.
 
-Internal transfers are automatically detected when the number(s) in your hosted SMS order already belong to another Telnyx account.
+## Number Pool
 
-### Transfer Flow
+Number Pool automatically distributes outbound messages across multiple phone numbers. Enable it on a messaging profile by setting `number_pool_settings`:
 
-1. **Create hosted SMS order** — the system automatically detects that the number belongs to another Telnyx account and flags it as an internal transfer
-2. **Current owner is notified** — via email and portal notification with approval link
-3. **Approval window (72 hours)** — the current owner can approve or reject; if no action, transfer is auto-approved
-4. **Verify ownership (2FA)** — the receiving account must complete phone number ownership verification
-5. **Upload documents** — submit LOA and recent bill
-6. **Activation** — Telnyx team reviews and activates; the number's `user_id` is updated to the new account
+| Parameter | Description |
+| --- | --- |
+| `long_code_weight` | Weight for long code selection (0 removes from pool) |
+| `toll_free_weight` | Weight for toll-free selection (0 removes from pool) |
+| `skip_unhealthy` | Skip numbers with poor delivery rates |
+| `sticky_sender` | Reuse same number for recipient when possible |
+| `geomatch` | Match sender to recipient's geographic area |
 
-When a number is internally transferred, any **10DLC campaign registrations** are automatically deleted. The receiving account must re-register the number with a campaign after the transfer completes.
+Weights are ratios, not percentages. With `long_code_weight: 5` and `toll_free_weight: 1`, approximately 5 out of every 6 messages use a long code.
 
-### Approve or Reject
+### Sticky Sender
 
-The current owner uses the link in their notification email or the API. The `token` parameter is a one-time use token that expires after 72 hours.
+Maintains the same sender number for each recipient. Mappings expire after 8 days of no messages. Priority order: Sticky Sender → Geomatch → Weight distribution → Skip unhealthy.
 
-| Decision | Result |
-|---|---|
-| Approved | Transfer proceeds; receiving account must complete 2FA and document upload |
-| Rejected | Order marked as `failed`; receiving account is notified |
-| No action (72h) | Transfer is auto-approved; receiving account must still complete verification |
+### Geomatch
 
-### Lifecycle Webhook Events
+Selects a sender number matching the recipient's area code. Supports NANP numbers only (US, Canada, Caribbean). Requires Number Pool to be enabled.
 
-| Event | Fired When |
-|---|---|
-| `messaging_hosted_numbers_orders.internal_transfer_detected` | Order classified as internal transfer |
-| `messaging_hosted_numbers_orders.internal_transfer_approval_requested` | Approval requested, 72h window started |
-| `messaging_hosted_numbers_orders.internal_transfer_approved` | Losing account approved |
-| `messaging_hosted_numbers_orders.internal_transfer_rejected` | Losing account rejected, or receiving account cancelled |
-| `messaging_hosted_numbers_orders.internal_transfer_auto_approved` | 72h elapsed with no response, or bypass allowlist |
+## Opt-In/Opt-Out Management
+
+### Default Behavior
+
+Telnyx handles standard opt-in/out keywords automatically. Block rules operate at the messaging profile level.
+
+**Opt-out keywords:** `STOP`, `STOPALL`, `STOP ALL`, `UNSUBSCRIBE`, `CANCEL`, `END`, `QUIT`
+
+**Opt-in keywords:** `START`, `UNSTOP`
+
+### Custom Auto-Responses
+
+Configure custom keyword responses per country using ISO 3166-1 alpha-2 codes via the `autoresp_configs` endpoint. Default operations (`start`, `stop`, `help`) require a minimum 20 characters for the auto-response message. Each configuration supports a maximum of 20 trigger keywords.
+
+### Toll-Free Limitations
+
+Toll-free numbers have a separate carrier-level opt-out system. The carrier sends its own auto-reply ("NETWORK MSG") that cannot be customized or removed.
+
+## Webhooks
+
+### Webhook URL Hierarchy
+
+1. Per-message URLs (`webhook_url` and `webhook_failover_url` in the send request)
+2. Messaging profile URLs
+3. No webhook (events still available in Message Detail Records)
+
+### Event Types
+
+| Event | Trigger | Direction |
+| --- | --- | --- |
+| `message.received` | Inbound SMS/MMS arrives | Inbound |
+| `message.sent` | Outbound message accepted by carrier | Outbound |
+| `message.finalized` | Terminal delivery state reached | Outbound |
+
+### Delivery Statuses
+
+| Status | Description |
+| --- | --- |
+| `queued` | Message accepted and queued |
+| `sent` | Delivered to carrier gateway |
+| `delivered` | Carrier confirmed delivery to handset |
+| `failed` | Delivery failed |
+| `gw_timeout` | No response from gateway |
+| `dlr_timeout` | No delivery receipt from carrier |
+
+### Retry Policy
+
+- Timeout: 2 seconds (API v2)
+- Retries: Up to 3 attempts per URL with exponential backoff
+- Failover: If all retries fail, Telnyx tries the failover URL
+- Total attempts: Up to 6 (3 primary + 3 failover)
+
+### Signature Verification
+
+All webhooks are signed using Ed25519 public key cryptography. Each request includes `telnyx-signature-ed25519` and `telnyx-timestamp` headers. The signature is computed over `{timestamp}|{json_payload}`. Reject webhooks where the timestamp is more than 5 minutes old.
+
+### Webhook IP Allowlist
+
+`192.76.120.192/27`
+
+## 10DLC Event Notifications
+
+Configure webhooks for brand, campaign, and phone number lifecycle events.
+
+### Brand Events
+
+| Payload Type | Description |
+| --- | --- |
+| `REGISTRATION` | Failures during registration |
+| `REVET` | Revetting request result |
+| `ORDER_EXTERNAL_VETTING` | Vetting order status |
+| `TCR_BRAND_UPDATE` | Notifications from TCR |
+
+### Campaign Events
+
+| Payload Type | Description |
+| --- | --- |
+| `REGISTRATION` | Registration failures |
+| `TELNYX_REVIEW` | Telnyx compliance review (`ACCEPTED`/`REJECTED`) |
+| `NUMBER_POOL_PROVISIONED` | Number pool provisioned |
+| `NUMBER_POOL_DEPROVISIONED` | Number pool deprovisioned |
+| `TCR_EVENT` | TCR notifications |
+| `MNO_REVIEW` | MNO/DCA review results |
+| `TELNYX_EVENT` | System events (e.g., `DORMANT` for suspension) |
+| `VERIFIED` | Campaign fully provisioned with MNOs |
+
+### Phone Number Events
+
+| Payload Type | Description |
+| --- | --- |
+| `ASSIGNMENT` | Phone number assignment process |
+| `DELETION` | Phone number removal process |
+| `STATUS_UPDATE` | Phone number status changed (`ADDED`, `DELETED`, `PENDING`, `FAILED`) |
+
+### Campaign Appeals
+
+- **Native campaigns:** Use the appeal API endpoint or campaign update to re-enter review.
+- **Partner campaigns:** CSP sends a `CAMPAIGN_NUDGE` event to trigger re-review.
