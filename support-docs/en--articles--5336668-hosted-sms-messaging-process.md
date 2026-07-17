@@ -23,7 +23,7 @@ Learn how Telnyx streamlines hosted messaging transfers. See Telnyx guidance and
 
 Hosted sms messaging allows a customer to port and enable messaging with Telnyx for a number, while leaving the voice portion of a number with the current voice provider.
 
-This can only be done with the expressed consent of the authorized end user of the number. A Letter of Authorization ([LOA](https://www.dropbox.com/s/o0w4a64bvxo4wwm/SMS%20Hosting%20LOA%20%281%29.pdf?dl=0)) and invoice from the current messaging provider will be required to submit a hosted messaging request with Telnyx.
+This can only be done with the expressed consent of the authorized end user of the number. A Letter of Authorization ([LOA](https://portal.telnyx.com/downloads/other/Telnyx-LOA.pdf)) and invoice from the current messaging provider will be required to submit a hosted messaging request with Telnyx.
 
 [Blank SMS LOA](https://drive.google.com/file/d/1yxrQSkEIFA5dPzlmRJAtB7QN3iYDzh0z/view)
 
