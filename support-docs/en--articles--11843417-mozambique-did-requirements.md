@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/11843417-mozambique-did-requirements
+title: "Mozambique DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Mozambique numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 9453b4172075c62839fea32d33809ca35a1c4e6a9827686354bc401fa300d679
 ---
 
-Mozambique DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Mozambique DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Mozambique numbers.
+Here you will find a list of detailed requirements for acquiring Mozambique numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-January 22, 2026
 
-Table of contents
 
-# DID Number Requirements for Mozambique
+## DID Number Requirements for Mozambique
 
 In order to purchase a Mozambique number you will need to provide the following:
 
@@ -32,7 +33,7 @@ For **personal identity** verification:
 
 \* Passport or ID copy
 
-\* LOI (Provided by Telnyx - [LOI Template.docx](https://downloads.intercomcdn.com/i/o/ltcafuzd/1974079146/f3eb9460203bfedda610a97379a8/LOI+Template.docx?expires=1783620000&signature=0b544bb852da8623438435d14120359b0ef430e9687979de5b4d105093d434a4&req=dSkgEsl5lIBbX%2FMW3Hu4gYkDxCMSxfjzLWMNiC1aPckVjhW10sWibl32Wapw%0A%2Fg%3D%3D%0A))  
+\* LOI (Provided by Telnyx - [LOI Template.docx](https://downloads.intercomcdn.com/i/o/ltcafuzd/1974079146/f3eb9460203bfedda610a97379a8/LOI+Template.docx?expires=1783620000&signature=0b544bb852da8623438435d14120359b0ef430e9687979de5b4d105093d434a4&req=dSkgEsl5lIBbX%2FMW3Hu4gYkDxCMSxfjzLWMNiC1aPckVjhW10sWibl32Wapw%0A%2Fg%3D%3D%0A))
 ​
 
 For **business identity** verification:
@@ -62,5 +63,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

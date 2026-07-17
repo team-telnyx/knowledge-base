@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4305547-reporting-overview
+title: "Reporting: Overview"
+description: "In this article, I will describe the Reporting Feature on your Telnyx customer portal and what you can do there. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 68cda2fe0ceae3cedef016d7cf3d81c74ec4db8b258605564c526f3c0afbf6f2
 ---
 
-Reporting: Overview | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Reporting: Overview
 
-In this article, I will describe the Reporting Feature on your Telnyx customer portal and what you can do there.
+In this article, I will describe the Reporting Feature on your Telnyx customer portal and what you can do there. See Telnyx guidance and requirements.
 
-Written by Alex Conroy
 
-April 30, 2026
 
-Table of contents
 
-# **How to find the Reporting section**
+## **How to find the Reporting section**
 
 * Log in to <https://portal.telnyx.com/>
 * On the left-hand side of the page click Reporting
@@ -105,5 +106,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

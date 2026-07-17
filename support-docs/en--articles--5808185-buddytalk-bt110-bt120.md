@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5808185-buddytalk-bt110-bt120
+title: "BuddyTalk BT110/BT120"
+description: "Learn how to configure BuddyTalk BT110 to work with Telnyx to make and receive calls. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: c4ffc8280f6b817abf376f133bac44578bc84e601a3b9a94a4bd58cae924ac9c
 ---
 
-BuddyTalk BT110/BT120 | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # BuddyTalk BT110/BT120
 
-Learn how to configure BuddyTalk BT110 to work with Telnyx to make and receive calls.
+Learn how to configure BuddyTalk BT110 to work with Telnyx to make and receive calls. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-July 2, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_bffe0bad15)
 
@@ -42,7 +43,7 @@ Additional documentation:
 
 ---
 
-# Instructions for configuring BuddyTalk BT110/120 to work with Telnyx
+## Instructions for configuring BuddyTalk BT110/120 to work with Telnyx
 
 In this activity you will:
 
@@ -59,9 +60,9 @@ In this activity you will:
 * The Alexa app enabled
 * The BuddyTalk Setup App
 
-  + **Android App:** Google Play Store  
+  + **Android App:** Google Play Store
     \**The App is supported on phones and tablets running Android 4.4.4 and above.*
-  + **iOS App:** [Apple App Store](https://apps.apple.com/us/app/buddytalk-setup/id1434349567)   
+  + **iOS App:** [Apple App Store](https://apps.apple.com/us/app/buddytalk-setup/id1434349567)
     ​*\*The Setup App is supported on phones and tablets running iOS version 12 and above.*
 * Appropriate network setup
 
@@ -98,8 +99,8 @@ In this step, you will set up your Telnyx account in BuddyTalk.
    6. **Outbound proxy (optional):** Toggle this switch to enable outbound proxy
    7. **Proxy (optional):** *sip.telnyx.com*
    8. **Local SIP Port:** *5060*
-   9. **Preferred Transport:** *UDP* (default).   
-      ​  
+   9. **Preferred Transport:** *UDP* (default).
+      ​
       ​**Note that** if you are planning to encrypt calls and have [set up call encryption on your Telnyx portal](#h_e14c90ac20), you should choose *TLS*.
 
    ![Telnyx account in BuddyTalk](_images/5aaf56564f032ccf.png)
@@ -172,5 +173,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,20 +1,22 @@
 ---
 source_url: https://support.telnyx.com/en/articles/10715184-10dlc-unverified-brand
+title: "10DLC Unverified Brand"
+description: "A brand is always unverified for the same reason, either the legal company name, address, See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: f648f47c5ea3437cf3f55620791c2f4363f1563426f0ddb8249ba348f03ef69a
 ---
 
-10DLC Unverified Brand | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # 10DLC Unverified Brand
 
-K
+A brand is always unverified for the same reason, either the legal company name, address, See Telnyx guidance and requirements.
 
-Written by Klane Pedrie
 
-March 27, 2025
 
 A brand is always unverified for the same reason, either the legal company name, address, or EIN has been entered differently than the IRS has it if it is a US Brand. To correct it you need the IRS Form CP-575 known as the EIN Confirmation Letter. You need that because making a small error such as putting "Street" instead of "St." in the address if that is the way the IRS has it can cause the Brand to remain permanently "Unverified".
 

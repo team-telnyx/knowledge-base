@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3739502-luxembourg-did-requirements
+title: "Luxembourg DID Requirements"
+description: "Here you will find detailed requirements to acquire Luxembourg DID numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 7d6b2ad1300e029eba00dd46e8b5da7937a1cd6bc3a65d78b289e2251cb4dc53
 ---
 
-Luxembourg DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Luxembourg DID Requirements
 
-Here you will find detailed requirements to acquire Luxembourg DID numbers.
+Here you will find detailed requirements to acquire Luxembourg DID numbers. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-June 10, 2024
 
-Table of contents
 
-# DID Number Requirements for Luxembourg
+## DID Number Requirements for Luxembourg
 
 In order to purchase a Luxembourg number you will need to provide the following:
 
@@ -70,7 +71,7 @@ For **address** verification:
 
 ## **Toll-Free Numbers in Luxembourg**
 
-For **business identity** verification:  
+For **business identity** verification:
 \* Name, last name
 
 \* Company name
@@ -128,5 +129,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

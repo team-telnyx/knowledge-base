@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/10646301-telnyx-10dlc-process
+title: "Telnyx 10DLC Process"
+description: "Guide to the 10DLC Process for Outbound Texts in the… See Telnyx guidance and requirements Learn more about Telnyx 10DLC Process with Telnyx."
 scraped: 2026-07-08
 content_hash: 8f16d6ffe90e959fcf552dc3a9e51325e6e452045896606b4ac4ee9c4be91c21
 ---
 
-Telnyx 10DLC Process | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Telnyx 10DLC Process
 
-Guide to the 10DLC Process for Outbound Texts in the US
+Guide to the 10DLC Process for Outbound Texts in the… See Telnyx guidance and requirements Learn more about Telnyx 10DLC Process with Telnyx.
 
 K
 
-Written by Klane Pedrie
 
-June 13, 2025
 
-Table of contents
 
 If you are sending **outbound texts from local US numbers to local US numbers**, follow the steps below to comply with 10DLC regulations.
 
@@ -26,7 +27,7 @@ If you are sending **outbound texts from local US numbers to local US numbers**,
 
 ## **1. Create a Brand**
 
-For every perceived sender, you need to create a brand:  
+For every perceived sender, you need to create a brand:
 👉 [How to Create a 10DLC Brand](https://support.telnyx.com/en/articles/5896911-how-to-create-a-10dlc-brand)
 
 * The **brand information must match the IRS Form CP-575** to achieve "Verified" status.
@@ -36,7 +37,7 @@ For every perceived sender, you need to create a brand:
 
 ## **2. Create a Campaign**
 
-Once your brand is **Verified**, create a campaign:  
+Once your brand is **Verified**, create a campaign:
 👉 [How to Create a 10DLC Campaign](https://support.telnyx.com/en/articles/6339152-how-to-create-a-10dlc-campaign)
 
 **Important:**
@@ -80,12 +81,12 @@ Once the campaign is submitted for carrier review and Telnyx receives a response
 
 ## **A. Approved**
 
-* Once approved, you can assign up to **49 numbers** to the campaign and begin messaging.  
+* Once approved, you can assign up to **49 numbers** to the campaign and begin messaging.
   👉 [How to Assign a Number to a Campaign](https://support.telnyx.com/en/articles/6325734-how-to-assign-a-number-to-a-campaign)
 
 ## **B. Declined**
 
-* You'll receive an email explaining **why the campaign was declined**, including error codes.  
+* You'll receive an email explaining **why the campaign was declined**, including error codes.
   👉 [10DLC Carrier Error Codes and Explanations](https://support.telnyx.com/en/articles/10547022-10dlc-carrier-error-codes-explanations)
 
 🔁 Respond on the same email thread with questions or updates for resubmission.
@@ -108,5 +109,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

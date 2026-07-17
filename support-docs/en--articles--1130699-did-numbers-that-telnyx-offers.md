@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130699-did-numbers-that-telnyx-offers
+title: "DID Numbers that Telnyx Offers"
+description: "In this article we will explain the types of DID numbers that Telnyx offers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 52a60beb0ff23ec408ba2d5eb43bef9e9c391d12345a71344eba6c863da955e6
 ---
 
-DID Numbers that Telnyx Offers | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # DID Numbers that Telnyx Offers
 
-In this article we will explain the types of DID numbers that Telnyx offers.
+In this article we will explain the types of DID numbers that Telnyx offers. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-January 10, 2024
 
-Table of contents
 
-# What type of DID numbers does Telnyx offer?
+## What type of DID numbers does Telnyx offer?
 
 We offer domestic DIDs in the United States and Canada as well as toll-free DIDs. International DIDs are available as well!  Search for yourself in the portal, or feel free to reach out!
 
@@ -35,5 +36,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

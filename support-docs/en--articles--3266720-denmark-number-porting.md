@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3266720-denmark-number-porting
+title: "Denmark Number Porting"
+description: "Here you will find a detailed list of requirements for Denmark number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 0dcce4fb29ca472e3489ff1951219e954608410956935eebe45e1afca6f1b5e8
 ---
 
-Denmark Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Denmark Number Porting
 
-Here you will find a detailed list of requirements for Denmark number portability.
+Here you will find a detailed list of requirements for Denmark number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
-# **Local / National and Toll-Free Number types in Denmark**
+## **Local / National and Toll-Free Number types in Denmark**
 
 1. LOA (a local address is mandatory, the signature must be a wet signature)
 2. Local TAX ID / VAT
@@ -39,5 +40,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

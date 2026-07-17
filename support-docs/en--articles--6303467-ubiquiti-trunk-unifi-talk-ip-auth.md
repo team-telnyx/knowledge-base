@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6303467-ubiquiti-trunk-unifi-talk-ip-auth
+title: "Ubiquiti Trunk: Unifi Talk - IP Auth"
+description: "Learn how to configure a Telnyx Trunk with IP authentication with Ubiquiti Unifi Talk PBX. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 654f65a2304a024131c0ce642b246143505d42251bae5910a5bebcd3244f9d29
 ---
 
-Ubiquiti Trunk: Unifi Talk - IP Auth | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Ubiquiti Trunk: Unifi Talk - IP Auth
 
-Learn how to configure a Telnyx Trunk with IP authentication with Ubiquiti Unifi Talk PBX.
+Learn how to configure a Telnyx Trunk with IP authentication with Ubiquiti Unifi Talk PBX. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-June 6, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_a05d35cd22)
 
@@ -38,7 +39,7 @@ The [UniFi Talk PBX](https://help.ui.com/hc/en-us/articles/1500005593742), provi
 
 ---
 
-# Instructions for configuring Unifi Talk PBX with your Telnyx Account
+## Instructions for configuring Unifi Talk PBX with your Telnyx Account
 
 In this activity you will:
 
@@ -202,5 +203,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

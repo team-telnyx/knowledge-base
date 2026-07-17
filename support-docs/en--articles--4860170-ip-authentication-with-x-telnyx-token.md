@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4860170-ip-authentication-with-x-telnyx-token
+title: "Ip Authentication with X-Telnyx-Token"
+description: "In this article we will explain IP authentication with X-Telnyx-Token and when to use them. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 74bfbb9914b72ad8ebfa9f6b1ce99e34b35d13c31d3e6d21491849a52632d56c
 ---
 
-Ip Authentication with X-Telnyx-Token | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Ip Authentication with X-Telnyx-Token
 
-In this article we will explain IP authentication with X-Telnyx-Token and when to use them.
+In this article we will explain IP authentication with X-Telnyx-Token and when to use them. See Telnyx guidance and requirements.
 
-Written by David
 
-January 26, 2026
 
-Table of contents
 
 The token setting can be found under the settings tab of your [SIP Connections](https://portal.telnyx.com/#/voice/connections) Authentication & Routing Configuration section.
 
 ![](_images/8e3293ffa56227f7.png)
 
-# Why incorporate an X-Telnyx-Token?
+## Why incorporate an X-Telnyx-Token?
 
 In situations where you are managing numerous clients through a unified IP phone system, Telnyx enables the creation of multiple IP connections that operate under a single IP to manage client traffic effectively.
 
@@ -53,5 +54,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

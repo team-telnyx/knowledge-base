@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4366901-your-number-lookup-guide
+title: "Your Number Lookup Guide"
+description: "This guide covers how to use the Number Lookup tool in the Telnyx Mission Control Portal to retrieve carrier details… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a5ecd92b7a5789ec646b37632db4606ed7fcc0701d8ccb546a39646a26f6409c
 ---
 
-Your Number Lookup Guide | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Your Number Lookup Guide
 
-This guide covers how to use the Number Lookup tool in the Telnyx Mission Control Portal to retrieve carrier details and Caller ID (CNAM) data.
+This guide covers how to use the Number Lookup tool in the Telnyx Mission Control Portal to retrieve carrier details… See Telnyx guidance and requirements.
 
-Written by Nobin Bera
 
-May 18, 2026
 
-Table of contents
 
 ## **Overview**
 
@@ -38,19 +39,19 @@ Before using Number Lookup, ensure you have:
 
 ## **Using Number Lookup in the Portal**
 
-1. **Sign in** to the [Telnyx portal](https://portal.telnyx.com/)  
+1. **Sign in** to the [Telnyx portal](https://portal.telnyx.com/)
    ​
-2. Navigate to <https://portal.telnyx.com/#/lookup>  
+2. Navigate to <https://portal.telnyx.com/#/lookup>
    ​
-3. Enter the phone number and select a **Lookup Type**:  
+3. Enter the phone number and select a **Lookup Type**:
    ​
 
    * **None:** Basic info (LRN only).
    * **Carrier:** Adds carrier details.
    * **Caller Name:** Adds CNAM.
-   * **Both:** Returns all available data.  
+   * **Both:** Returns all available data.
      ​
-4. Click **Lookup Number**.  
+4. Click **Lookup Number**.
    ​
 
    ![](_images/f8077bed66bbd940.png)
@@ -131,5 +132,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

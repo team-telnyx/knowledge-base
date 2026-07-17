@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8126141-intro-to-telnyx-edge-router
+title: "Intro to Telnyx Edge Router"
+description: "Dive into the Telnyx Edge Router's functionalities and benefits. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 57c113f68e15f1fd4f91d9f7c3c7d83e26f93f54271d5b07842b31ad2b118c2d
 ---
 
-Intro to Telnyx Edge Router | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Intro to Telnyx Edge Router
 
-Dive into the Telnyx Edge Router's functionalities and benefits. Get started now!
+Dive into the Telnyx Edge Router's functionalities and benefits. See Telnyx guidance and requirements.
 
 K
 
-Written by Klane Pedrie
 
-January 11, 2024
 
-Table of contents
 
-# Intro to Telnyx Edge Router
+## Intro to Telnyx Edge Router
 
 ## What is the Telnyx Edge Router
 
@@ -170,5 +171,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

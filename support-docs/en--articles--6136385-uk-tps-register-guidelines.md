@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6136385-uk-tps-register-guidelines
+title: "UK TPS Register: Guidelines"
+description: "The TPS is a list of consumers who do not to receive unsolicited direct marketing calls. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 8a798961c704cd1d7b926726757a20993701385438822810b80f483578273bcf
 ---
 
-UK TPS Register: Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # UK TPS Register: Guidelines
 
-The TPS is a list of consumers who do not to receive unsolicited direct marketing calls. It applies to England, Wales and Northern Ireland.
+The TPS is a list of consumers who do not to receive unsolicited direct marketing calls. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-September 18, 2023
 
-Table of contents
 
-# **UK Telephone Preference Service (TPS) Register**
+## **UK Telephone Preference Service (TPS) Register**
 
 ## **Regulation:**
 
@@ -79,5 +80,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

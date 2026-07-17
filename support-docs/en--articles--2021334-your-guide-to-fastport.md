@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/2021334-your-guide-to-fastport
+title: "Your Guide to FastPort®"
+description: "Here we will walk you through FastPort® and how you can take advantage of it on your Telnyx account. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 6de569eaec21e5ce9c92478b1d2da8da1f26ef196c5f760b3d69b3d8fb2baaff
 ---
 
-Your Guide to FastPort® | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Your Guide to FastPort®
 
-Here we will walk you through FastPort® and how you can take advantage of it on your Telnyx account.
+Here we will walk you through FastPort® and how you can take advantage of it on your Telnyx account. See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-February 4, 2021
 
-Table of contents
 
-# What is FastPort®?
+## What is FastPort®?
 
 FastPort® is a new feature that will streamline your porting experience from start to finish!
 
@@ -55,5 +56,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

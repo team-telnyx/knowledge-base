@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6677958-mongolia-sms-guidelines
+title: "Mongolia: SMS Guidelines"
+description: "SMS Guidelines for Mongolia including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Mongolia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 5f81c4405e62370cde9ce03976902790e9773aef266ce0586f54540c509886d7
 ---
 
-Mongolia: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Mongolia: SMS Guidelines
 
-SMS Guidelines for Mongolia including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Mongolia including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Mongolia: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# SMS Guidelines for Mongolia
+## SMS Guidelines for Mongolia
 
-**MCC:** 428  
-​**Dial Code:** 976  
-​  
+**MCC:** 428
+​**Dial Code:** 976
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

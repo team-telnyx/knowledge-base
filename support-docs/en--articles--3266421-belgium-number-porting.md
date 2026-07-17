@@ -1,36 +1,37 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3266421-belgium-number-porting
+title: "Belgium Number porting"
+description: "Here you will find a detailed list of requirements for Belgium number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ce559d559f35954f1a136b1c00065f02def7bddd006fbc5c2c74b4734aba0093
 ---
 
-Belgium Number porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Belgium Number porting
 
-Here you will find a detailed list of requirements for Belgium number portability.
+Here you will find a detailed list of requirements for Belgium number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
-# **For Local numbers in Belgium**
+## **For Local numbers in Belgium**
 
 1. LOA (Local address required, the area code of the number must match the address to register on file)
 2. VAT / TAX ID
 3. Latest Invoice
 4. Proof of local address
 
-# **For National, Toll-Free numbers in Belgium**
+## **For National, Toll-Free numbers in Belgium**
 
 1. LOA (National address required)
 2. VAT / TAX ID
 3. Latest Invoice
-4. Proof of local address   
+4. Proof of local address
    ​
 
 ## Download Belgium letter of authorization
@@ -46,5 +47,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

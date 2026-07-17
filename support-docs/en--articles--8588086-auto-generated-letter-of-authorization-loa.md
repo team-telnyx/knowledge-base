@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8588086-auto-generated-letter-of-authorization-loa
+title: "Auto-generated Letter of Authorization (LOA)"
+description: "Learn more about using auto-generated LOA's to simplify your porting… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: e07babba9fa1c00e5977e8c398eb9b4beb9ca4d3b4def5f245e3d27659602161
 ---
 
-Auto-generated Letter of Authorization (LOA) | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Auto-generated Letter of Authorization (LOA)
 
-Learn more about using auto-generated LOA's to simplify your porting experience
+Learn more about using auto-generated LOA's to simplify your porting… See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-January 15, 2025
 
-Table of contents
 
 On select port orders, Telnyx provides users with the ability to auto-generate a Letter of Authorization (LOA). This LOA will be pre-populated with the same information entered on the porting order form. These LOA's can be custom branded with your own company logos and information, and the LOA can be easily shared with the authorized user to sign.
 
@@ -24,7 +25,7 @@ This guide will walk you through how to take make the most out of the Auto LOA f
 
 ---
 
-# Eligibility
+## Eligibility
 
 This feature is only available currently for ports that meet the following criteria:
 
@@ -35,7 +36,7 @@ We hope to expand this in the future.
 
 ---
 
-# How to use the "Auto-generate LOA and "Share LOA" features
+## How to use the "Auto-generate LOA and "Share LOA" features
 
 1. Go to the `Port Numbers` page and click on `New Port Request`
 2. Run the portability check on your phone numbers. Hit `Next` to create a port order
@@ -74,7 +75,7 @@ Even though you are creating the porting order, you may not be the individual au
 To use this feature:
 
 1. Click on the Share LOA button
-2. A modal will pop up. Copy the link and sends it to the authorized user.  
+2. A modal will pop up. Copy the link and sends it to the authorized user.
    ​
 
    ![LOA shareable link page.](_images/00a03ca907f3c786.png)
@@ -95,7 +96,7 @@ There will also be email notifications for key LOA events:
 
 ---
 
-# How to customize LOA's with your own company branding
+## How to customize LOA's with your own company branding
 
 By default, the auto-generated LOA is branded with Telnyx's logo and company information. If you would like, you can customize the auto-generated LOA's to reflect your own company's branding and information.
 
@@ -106,7 +107,7 @@ To do so, visit the Customize LOA page in the portal [here](https://portal.telny
 The left side of the page is comprised of all the interactive elements. Fill out the form with your own company name, email address, phone number, and physical address. Once the form is completed, there are 3 buttons that you can press:
 
 1. **Cancel:** LOA template is not created, and you are brought back to the previous page
-2. **Preview:** Before saving the template, you can preview what the LOA will ultimately look like. The preview appears on the right side of the page (example below)  
+2. **Preview:** Before saving the template, you can preview what the LOA will ultimately look like. The preview appears on the right side of the page (example below)
    ​
 
    ![Customizable LOA.](_images/c7ecb95f9fc28410.png)
@@ -127,5 +128,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

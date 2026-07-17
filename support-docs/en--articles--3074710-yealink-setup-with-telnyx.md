@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3074710-yealink-setup-with-telnyx
+title: "Yealink: Setup with Telnyx"
+description: "In this guide we will walk you through configuring a Yealink T Series IP phone with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: caf32f05642449300be9ec019e8b2444c57259a08edd40bfaec35df709870bd5
 ---
 
-Yealink: Setup with Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Yealink: Setup with Telnyx
 
-In this guide we will walk you through configuring a Yealink T Series IP phone with Telnyx.
+In this guide we will walk you through configuring a Yealink T Series IP phone with Telnyx. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-October 23, 2023
 
-Table of contents
 
 [Jump to Instructions](#h_860d1e8063)
 
@@ -33,7 +34,7 @@ Additional documentation:
 
 ---
 
-# Instructions for Configuring your Yealink IP phone
+## Instructions for Configuring your Yealink IP phone
 
 In this activity you will:
 
@@ -65,8 +66,8 @@ When provisioning a Yealink phone manually, there are two methods:
 * Using the phone’s keypad
 * Using the phone’s web interface
 
-We will provide instructions for both methods.   
-​  
+We will provide instructions for both methods.
+​
 ​**Using the phone's keypad**
 
 1. From your phone handset, press the **Menu** button.
@@ -101,8 +102,8 @@ We will provide instructions for both methods.
    3. **Register Name**: Enter the username from your credentials-based Telnyx connection
    4. **User name:** Enter the username from your credentials-based Telnyx connection
    5. **Password:** Enter the password from your credentials based connection.
-   6. **Display Name:** It is shown as the caller ID when placing the outbound calls  
-      ​  
+   6. **Display Name:** It is shown as the caller ID when placing the outbound calls
+      ​
       ​***Note:*** *Before configuring an outbound caller ID, you should be aware of some of the naming conventions standard for caller ID creation:*
 
       * *Your outbound Caller ID Name should be in **capital letters**. This will appears more clearly/visible on some devices.*
@@ -141,5 +142,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

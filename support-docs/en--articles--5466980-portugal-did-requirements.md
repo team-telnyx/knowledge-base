@@ -1,33 +1,34 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5466980-portugal-did-requirements
+title: "Portugal DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Portugal numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 6b72a55d3c19da2251d60034c67b246f32786c2fc6a5b9f7ae9cccb7132fc7a7
 ---
 
-Portugal DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Portugal DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Portugal numbers.
+Here you will find a list of detailed requirements for acquiring Portugal numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-November 11, 2025
 
-Table of contents
 
-# DID Number Requirements for Portugal
+## DID Number Requirements for Portugal
 
 In order to purchase a Portugal number you will need to provide the following:
 
 ## Mandatory Use of Requirement Groups: Portugal
 
-Starting **September 16, 2024**, **Requirement Groups** will be mandatory for ordering phone numbers in **Portugal (PT).**  
+Starting **September 16, 2024**, **Requirement Groups** will be mandatory for ordering phone numbers in **Portugal (PT).**
 ​
 
-Requirement Groups let you manage regulatory requirements by pre-filling necessary information once, allowing for reuse across multiple orders. This change aims to streamline compliance.  
+Requirement Groups let you manage regulatory requirements by pre-filling necessary information once, allowing for reuse across multiple orders. This change aims to streamline compliance.
 ​
 
 For full details on setting up Requirement Groups, please refer to the [guide here](https://support.telnyx.com/en/articles/9801714-requirement-groups-for-ordering-phone-numbers).
@@ -141,5 +142,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

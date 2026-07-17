@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6133589-ms-teams-call2teams-telnyx
+title: "MS Teams: Call2Teams & Telnyx"
+description: "Learn how to set up and configure Call2Teams and connect Microsoft Teams to a PBX/SIP trunk. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 8c4af8388c31a742ff556bcb846af12cfc4b003138588e3ec5876aaef86db615
 ---
 
-MS Teams: Call2Teams & Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # MS Teams: Call2Teams & Telnyx
 
-Learn how to set up and configure Call2Teams and connect Microsoft Teams to a PBX/SIP trunk.
+Learn how to set up and configure Call2Teams and connect Microsoft Teams to a PBX/SIP trunk. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-June 6, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_8d2da11584)
 
@@ -32,7 +33,7 @@ Table of contents
 
 ---
 
-# Instructions for setting up and configuring Call2Teams to work with Telnyx
+## Instructions for setting up and configuring Call2Teams to work with Telnyx
 
 In this activity you will:
 
@@ -48,7 +49,7 @@ In this activity you will:
 * A PC running a Windows OS
 * Create a temporary spare user license on Microsoft 365
 * Global admin access to your Microsoft 365 tenant
-* Create a Call2Teams subscription  
+* Create a Call2Teams subscription
   ​
 
 **Video Walkthrough**
@@ -97,8 +98,8 @@ In this activity, you will set Telnyx as your SIP provider and create your first
    * **Expiry (seconds)**: If you want, click on the padlock, and enter *300*. You can also leave this blank.
    * **Protocol**: *UDP* or *TCP*.
    * **Encrypt Media**: *No*
-   * **Propagate Refer:** *Yes*   
-     ​  
+   * **Propagate Refer:** *Yes*
+     ​
      ​**Note:** Select *Yes* to propagate received SIP REFER messages from Microsoft upstream to this service.
 
      + If set to *No* then transfers are bridged out as new calls.On the 2nd Gen OneClick Teams connector you should select *Yes* if you have users in a Call Center, but otherwise select *No* as this will allow consultative transfers to work better.
@@ -146,8 +147,8 @@ In this section, you'll add users to Call2Teams and associate numbers with them.
       ![Users tab. ](_images/f665e1eb03262640.png)
 3. Click the **Add** button, followed by the **Sync Now** button in the upper right.
 
-That's it! You've finished configuring Call2Teams, and can now start testing calls!  
-​  
+That's it! You've finished configuring Call2Teams, and can now start testing calls!
+​
 ​
 
 [Back to Top](#h_8d2da11584)
@@ -175,5 +176,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

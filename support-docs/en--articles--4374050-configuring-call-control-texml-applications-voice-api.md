@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4374050-configuring-call-control-texml-applications-voice-api
+title: "Configuring Call Control/TeXML Applications - Voice API"
+description: "This article describes the in-depth setup of Call Control / TeXML Applications on our Mission Control Portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: b3a35ac78a793ecd5294a1cc14ac87758b05d6dd76e5bd45f19eabcba1c81225
 ---
 
-Configuring Call Control/TeXML Applications - Voice API | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Configuring Call Control/TeXML Applications - Voice API
 
-This article describes the in-depth setup of Call Control / TeXML Applications on our Mission Control Portal.
+This article describes the in-depth setup of Call Control / TeXML Applications on our Mission Control Portal. See Telnyx guidance and requirements.
 
-Written by David
 
-May 14, 2026
 
-Table of contents
 
-# Configuration of Call Control/TeXML Voice Apps
+## Configuration of Call Control/TeXML Voice Apps
 
 The [Call Control / TeXML](https://portal.telnyx.com/#/app/next/call-control/applications) applications section is located on the left hand side of the portal under Voice > Programmable Voice.
 
@@ -86,7 +87,7 @@ Enable capture of RTCP reports to build QoS Reports (found under Debugging > SIP
 
 ### Call Cost Webhook Event
 
-Specify if the call cost webhook should be sent. By default it's not enabled, clicked the "yes" radio button to enable it.   
+Specify if the call cost webhook should be sent. By default it's not enabled, clicked the "yes" radio button to enable it.
 ​
 
 ![](_images/a93d9efb8a5a9d41.png)
@@ -159,7 +160,7 @@ The application id is used to reference or trigger your API calls programmatical
 
 ## TeXML App Name
 
-Click on " Create TeXML App" and assign a name to this application to better manage the application.  
+Click on " Create TeXML App" and assign a name to this application to better manage the application.
 ​
 
 ![](_images/ba50715e7c7d6c43.png)
@@ -206,7 +207,7 @@ There are three types in this field: RFC 2833, Inband and SIP INFO.
 
 ### Call Cost Webhook Event
 
-Specify if the call cost webhook should be sent. By default it's not enabled, clicked the "yes" radio button to enable it.   
+Specify if the call cost webhook should be sent. By default it's not enabled, clicked the "yes" radio button to enable it.
 ​
 
 ![](_images/e509c2fc6109e61d.png)
@@ -280,5 +281,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

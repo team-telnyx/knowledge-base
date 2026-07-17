@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6589563-suriname-sms-guidelines
+title: "Suriname: SMS Guidelines"
+description: "Sending SMS to Suriname? See Telnyx guidance and requirements Learn more about Suriname: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 8cc4efe0b4ed50ea55da528d8784075cc60cfcf466ef6af872a35ec3a8a1871d
 ---
 
-Suriname: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# Suriname: SMS Guidelines
 
-Sending SMS to Suriname? Check out our comprehensive guidelines to ensure compliance in Suriname.
 
-Written by Telnyx Engineering
 
-November 21, 2023
-
-Table of contents
 
 # Suriname: SMS Guidelines
 
-**MCC:** 746  
-​**Dial Code:** 597  
-​  
+Sending SMS to Suriname? See Telnyx guidance and requirements Learn more about Suriname: SMS Guidelines with Telnyx.
+
+
+
+
+## Suriname: SMS Guidelines
+
+**MCC:** 746
+​**Dial Code:** 597
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

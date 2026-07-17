@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5820183-plantronics-polycom-obi300-setup
+title: "Plantronics/Polycom: OBi300 Setup"
+description: "Learn how to configure a Poly OBi300 VoIP phone so that it uses Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 8cb8e34efefc6cad21cd07e26352af964f782c79363c1739bb6c132af27e7e06
 ---
 
-Plantronics/Polycom: OBi300 Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Plantronics/Polycom: OBi300 Setup
 
-Learn how to configure a Poly OBi300 VoIP phone so that it uses Telnyx.
+Learn how to configure a Poly OBi300 VoIP phone so that it uses Telnyx. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-June 6, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_a306c8ed4f)
 
@@ -38,7 +39,7 @@ Additional documentation:
 
 ---
 
-# Instructions for setting up and configuring the Poly OBi300 VoIP adapter
+## Instructions for setting up and configuring the Poly OBi300 VoIP adapter
 
 In this activity you will:
 
@@ -129,7 +130,7 @@ In this section you can set your Main account/sub\_account credentials like User
 
    ![A profile configured for UDP transport. ](_images/12d72039bc322b1c.png)
 
-   *\*Note that these screenshots show a profile configured for UDP transport.*  
+   *\*Note that these screenshots show a profile configured for UDP transport.*
    ​
 2. Additionally, if you are configuring your account for TLS transport, expand Voice Services and click on the service you're configuring and ensure that:
 
@@ -140,8 +141,8 @@ In this section you can set your Main account/sub\_account credentials like User
 
 ## 5. Configure Audio Codecs
 
-1. Expand **Codecs** and set your codecs in priority sequence that meets your needs.   
-   ​  
+1. Expand **Codecs** and set your codecs in priority sequence that meets your needs.
+   ​
    Telnyx supports the following codecs:
 
    1. ulaw(g711u)
@@ -173,5 +174,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

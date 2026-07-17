@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130636-configuring-an-ip-trunk-for-osdial
+title: "Configuring an IP Trunk for OSDial"
+description: "Learn how to set up a connection between you OS dial server and the Telnyx Mission Control Portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 4eba49622dc7c5bc757cc0e0abab70610355d57f5f368ca976afaf1a884c63d2
 ---
 
-Configuring an IP Trunk for OSDial | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Configuring an IP Trunk for OSDial
 
-Learn how to set up a connection between you OS dial server and the Telnyx Mission Control Portal.
+Learn how to set up a connection between you OS dial server and the Telnyx Mission Control Portal. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_b5c49b03de)
 
@@ -33,7 +34,7 @@ Additional documentation:
 
 ---
 
-# Instructions for configuring an IP trunk between OSDial and Telnyx
+## Instructions for configuring an IP trunk between OSDial and Telnyx
 
 In this activity you will:
 
@@ -73,13 +74,13 @@ In this section, we will create a [SIP trunk](https://telnyx.com/products/sip-tr
    13. **Context:** *default*
    14. **Protocol:** *SIP*
    15. **Global String:** *Telnyx=SIP/telnyx*
-   16. **Dial Plan:** *exten => \_9NXXXXXXXXXX,1,AGI(agi://127.0.0.1:4577/call\_log)  
-       exten => \_9NXXXXXXXXXX,2,Dial(${Telnyx}/${EXTEN:1},60,tTor)  
-       exten => \_9NXXXXXXXXXX,3,Hangup*  
-       ​  
+   16. **Dial Plan:** *exten => \_9NXXXXXXXXXX,1,AGI(agi://127.0.0.1:4577/call\_log)
+       exten => \_9NXXXXXXXXXX,2,Dial(${Telnyx}/${EXTEN:1},60,tTor)
+       exten => \_9NXXXXXXXXXX,3,Hangup*
+       ​
        In this case, 9 is the prefix that will be dialed to send calls to Telnyx's trunk.
 
-That's it! You're now ready to start making calls with OSDial using Telnyx as your service provider.  
+That's it! You're now ready to start making calls with OSDial using Telnyx as your service provider.
 ​
 
 [Back to Top](#h_977c764a75)
@@ -106,5 +107,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

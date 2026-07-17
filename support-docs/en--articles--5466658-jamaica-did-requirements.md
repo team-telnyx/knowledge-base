@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5466658-jamaica-did-requirements
+title: "Jamaica DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Jamaica numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 6fd796c2593106af38bfaffa761488d2f11fab252f01d22a9c4ea393e8796f65
 ---
 
-Jamaica DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Jamaica DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Jamaica numbers.
+Here you will find a list of detailed requirements for acquiring Jamaica numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-August 6, 2025
 
-Table of contents
 
-# DID Number Requirements for Jamaica
+## DID Number Requirements for Jamaica
 
 In order to purchase a Jamaica number you will need to provide the following:
 
@@ -30,7 +31,7 @@ For **personal identity** verification:
 
 For **business identity** verification:
 
-\* Signed LOI (within 1 month)  
+\* Signed LOI (within 1 month)
 ​
 
 For **address** verification:
@@ -96,5 +97,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

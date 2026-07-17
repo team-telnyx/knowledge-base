@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6202755-fanvil-h2u-compact-ip
+title: "Fanvil H2U: Compact IP"
+description: "Learn how to configure a Telnyx SIP trunk on the Fanvil H2U Compact IP… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 4aa4bbd3b66218fc9e7a7f9063586c2bfd57a4cbcf01c7b3f5cd1473994cd1e2
 ---
 
-Fanvil H2U: Compact IP | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Fanvil H2U: Compact IP
 
-Learn how to configure a Telnyx SIP trunk on the Fanvil H2U Compact IP phone
+Learn how to configure a Telnyx SIP trunk on the Fanvil H2U Compact IP… See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_74c1412ea0)
 
@@ -43,7 +44,7 @@ Tiny and stylish, [Fanvil H2U Compact IP phone](https://www.fanvil.com/Product/i
 
 ---
 
-# Instructions for setting up and configuring your Fanvil H2U IP phone
+## Instructions for setting up and configuring your Fanvil H2U IP phone
 
 In this activity you will:
 
@@ -114,7 +115,7 @@ In this section, you'll add codecs to your phone configuration that will support
 
    * *H264*
 
-That's it, you've now completed the configuration of the Fanvil H2U IP phone with your Telnyx account.  
+That's it, you've now completed the configuration of the Fanvil H2U IP phone with your Telnyx account.
 ​
 
 [Back to Top](#h_74c1412ea0)
@@ -142,5 +143,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

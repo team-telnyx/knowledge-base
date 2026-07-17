@@ -1,51 +1,52 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3739447-hong-kong-did-requirements
+title: "Hong Kong DID Requirements"
+description: "Here you will find detailed requirements to acquire Hong Kong numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 860aae9e38940ad88af16ecbd4ecb4fb19dc79f045c5b25513e5dffa34589b53
 ---
 
-Hong Kong DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Hong Kong DID Requirements
 
-Here you will find detailed requirements to acquire Hong Kong numbers.
+Here you will find detailed requirements to acquire Hong Kong numbers. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-June 21, 2024
 
-Table of contents
 
-# DID Number Requirements for Hong Kong
+## DID Number Requirements for Hong Kong
 
 In order to purchase a Hong Kong number you will need to provide the following:
 
 ## **National Numbers in Hong Kong**
 
-​For **business identity** verification:  
+​For **business identity** verification:
 \* Name, last name of an authorized representative
 
-\* Company name  
-\* Contact phone number  
-\* Company registration certificate  
-\* Hong Kong Tripartite Agreement​  
-​  
-For **address** verification:  
-\* Address in Hong Kong (street, building number, postal code, city, and country)  
+\* Company name
+\* Contact phone number
+\* Company registration certificate
+\* Hong Kong Tripartite Agreement​
+​
+For **address** verification:
+\* Address in Hong Kong (street, building number, postal code, city, and country)
 \* Proof of address (dated within 3 months)
 
 ## **Toll-Free Numbers in Hong Kong**
 
-For **business identity** verification:  
+For **business identity** verification:
 \* Name, last name of an authorized representative
 
-\* Company name  
-\* Contact phone number  
-​  
-For **address** verification:  
-\* Address worldwide (street, building number, postal code, city and country)  
+\* Company name
+\* Contact phone number
+​
+For **address** verification:
+\* Address worldwide (street, building number, postal code, city and country)
 \* Proof of address (dated within 3 months)
 
 **Additional Information:**
@@ -97,5 +98,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

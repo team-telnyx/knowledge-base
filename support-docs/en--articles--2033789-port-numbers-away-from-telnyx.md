@@ -1,27 +1,28 @@
 ---
 source_url: https://support.telnyx.com/en/articles/2033789-port-numbers-away-from-telnyx
+title: "Port numbers away from Telnyx"
+description: "Learn how to efficiently port numbers away from Telnyx with their detailed guides and tracking tools for a transparent… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 886437a2c35325fd79bd71f14e0c0b3135a0fef4bb7857741080c62d2dbf3bb1
 ---
 
-Port numbers away from Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Port numbers away from Telnyx
 
-Learn how to efficiently port numbers away from Telnyx with their detailed guides and tracking tools for a transparent port-out process.
+Learn how to efficiently port numbers away from Telnyx with their detailed guides and tracking tools for a transparent… See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-February 7, 2024
 
-Table of contents
 
-Typically when you wish to port a number to your new provider, you must first inform your new provider that you wish to port numbers over to their network. Once your soon-to-be carrier receives this request they will notify Telnyx of your port request and we will work with them to port your number(s) to them.   
+Typically when you wish to port a number to your new provider, you must first inform your new provider that you wish to port numbers over to their network. Once your soon-to-be carrier receives this request they will notify Telnyx of your port request and we will work with them to port your number(s) to them.
 ​
 
-# Porting out your numbers from Telnyx
+## Porting out your numbers from Telnyx
 
 #### **NOTE: Telnyx does not hold and therefore unable to provide specific Customer Service Record (CSR) information.**
 
@@ -54,5 +55,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

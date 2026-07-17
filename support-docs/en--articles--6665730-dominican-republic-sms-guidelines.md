@@ -1,32 +1,33 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6665730-dominican-republic-sms-guidelines
+title: "Dominican Republic: SMS Guidelines"
+description: "Sending SMS to Dominican Republic? See Telnyx guidance and requirements Learn more about Dominican Republic: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 55be1e7f3ec4266b64f6865f512a6965e1855ae4f96c83316a5471e2abf98326
 ---
 
-Dominican Republic: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Dominican Republic: SMS Guidelines
 
-Sending SMS to Dominican Republic? Check out our comprehensive guidelines to ensure compliance in Dominican Republic.
+Sending SMS to Dominican Republic? See Telnyx guidance and requirements Learn more about Dominican Republic: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Dominican Republic: SMS Guidelines**
+## **Dominican Republic: SMS Guidelines**
 
-**MCC:** 370  
-​**Dial Code:** 1809  
-​  
-Alphanumeric Sender IDs are supported. No registration is required.  
-​  
-Occasionally Alphanumeric Sender ID might be overwritten to Random [Short Code](https://telnyx.com/products/sms-short-code) to ensure delivery.  
-​  
+**MCC:** 370
+​**Dial Code:** 1809
+​
+Alphanumeric Sender IDs are supported. No registration is required.
+​
+Occasionally Alphanumeric Sender ID might be overwritten to Random [Short Code](https://telnyx.com/products/sms-short-code) to ensure delivery.
+​
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

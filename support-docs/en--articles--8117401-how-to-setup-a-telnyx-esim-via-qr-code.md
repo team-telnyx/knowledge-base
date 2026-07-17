@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8117401-how-to-setup-a-telnyx-esim-via-qr-code
+title: "How to setup a Telnyx eSIM via QR code"
+description: "Walkthrough on purchasing, activating, and using Telnyx eSIMs for seamless mobile connectivity. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: e47a4c86d008bf60e69a9221f5bf876efdc261e8f70f5b4fefef0d546e409966
 ---
 
-How to setup a Telnyx eSIM via QR code | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How to setup a Telnyx eSIM via QR code
 
-Walkthrough on purchasing, activating, and using Telnyx eSIMs for seamless mobile connectivity.
+Walkthrough on purchasing, activating, and using Telnyx eSIMs for seamless mobile connectivity. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-April 30, 2026
 
-Table of contents
 
-# Welcome to Telnyx eSIMs
+## Welcome to Telnyx eSIMs
 
 Below we'll provide you with a walkthrough guide on how to purchase and activate your Telnyx eSim.
 
@@ -73,5 +74,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

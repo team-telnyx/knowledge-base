@@ -1,20 +1,22 @@
 ---
 source_url: https://support.telnyx.com/en/collections/3968222-telnyx-number-management-guide
+title: "Telnyx Number Management Guide"
+description: "Number searching, ordering, editing, porting and requirements can be found here. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 32ec2f1ccf7a710b361b5283f04c7efdf6b0e3de4098089bd3c884236314652d
 ---
 
-Telnyx Number Management Guide | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
 
 
 
 # Telnyx Number Management Guide
 
-Number searching, ordering, editing, porting and requirements can be found here.
+Number searching, ordering, editing, porting and requirements can be found here. See Telnyx guidance and requirements.
 
-By Telnyx and 14 others15 authors226 articles
 
 [How to Verify Phone Numbers behind an IVRSome phone numbers sit behind an IVR (interactive voice response) system and require dialing an extension to reach the right person. Telnyx now supports verifying numbers behind an IVR automatically…](https://support.telnyx.com/en/articles/12386088-how-to-verify-phone-numbers-behind-an-ivr)
 

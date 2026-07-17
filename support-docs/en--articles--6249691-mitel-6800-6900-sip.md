@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6249691-mitel-6800-6900-sip
+title: "Mitel: 6800/6900 SIP"
+description: "Learn how to set up and configure a Telnyx SIP trunk on any Mitel 6800/6900 series SIP phone. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: dc8bed8636a3a31bb30b16f23eb273a5b64ad82977918eb6a901159f098333ed
 ---
 
-Mitel: 6800/6900 SIP | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Mitel: 6800/6900 SIP
 
-Learn how to set up and configure a Telnyx SIP trunk on any Mitel 6800/6900 series SIP phone.
+Learn how to set up and configure a Telnyx SIP trunk on any Mitel 6800/6900 series SIP phone. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_b563f95000)
 
@@ -35,7 +36,7 @@ Table of contents
 
 ---
 
-# Instructions for setting up and configuring a SIP trunk on the Mitel 6800/6900 SIP Phone
+## Instructions for setting up and configuring a SIP trunk on the Mitel 6800/6900 SIP Phone
 
 **In this activity you will:**
 
@@ -71,8 +72,8 @@ Mitel phone configuration, including [SIP trunking](https://telnyx.com/products/
    1. **IP&MAC Addresses** option (6863i, 6865i, 6905, and 6910 IP Phones)
    2. **Network > IP Address** (6867i, 6869i, 6873i, 6920, 6930, 6940, and 6970 IP Phones)
 3. Take note of the IP address, as you'll need it in a second.
-4. From your computer on the same network, open a browser and enter the phone's IP address into the address bar. This will take you to the Web Configuration Tool's login screen. First time logins will use the default credentials. ***Note that the default admin credentials and the default user credentials are different.***   
-   ​  
+4. From your computer on the same network, open a browser and enter the phone's IP address into the address bar. This will take you to the Web Configuration Tool's login screen. First time logins will use the default credentials. ***Note that the default admin credentials and the default user credentials are different.***
+   ​
    ​**Admin default credentials:**
 
    1. **Username:** *admin*
@@ -229,5 +230,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1311073-spain-did-requirements
+title: "Spain DID Requirements"
+description: "Here you will find a detailed list of requirements to acquire Spain numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ef0fb0b070dfaae2f36d1e7638bf4f76d158e0b1fc287ad5275753beabdc8f10
 ---
 
-Spain DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Spain DID Requirements
 
-Here you will find a detailed list of requirements to acquire Spain numbers.
+Here you will find a detailed list of requirements to acquire Spain numbers. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-May 26, 2026
 
-Table of contents
 
-# DID Number Requirements for Spain
+## DID Number Requirements for Spain
 
 In order to purchase a Spain number you will need to provide the following:
 
@@ -50,9 +51,9 @@ For **address** verification:
 
 \* Address matching DID area code (street, building number, postal code, city, and country)
 
-\* Proof of address (dated within 3 months)  
-​  
-Additional details:   
+\* Proof of address (dated within 3 months)
+​
+Additional details:
 \* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **National Numbers in Spain**
@@ -79,18 +80,18 @@ For **address** verification:
 
 \* Address in Spain (street, building number, postal code, city and country)
 
-\* Proof of address (dated within 3 months)  
-​  
-Additional details:   
-\* End-users must be physically present in the country when purchasing numbers from that country  
+\* Proof of address (dated within 3 months)
+​
+Additional details:
+\* End-users must be physically present in the country when purchasing numbers from that country
 ​
 
 \*Please note that once the documentation is received, it will take approximately 72 hours to validate the information and activate the number for use.
 
 ## **Identity Verification: What "Local" Means**
 
-For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.  
-​  
+For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.
+​
 All identification is subject to review, and we reserve the right to request additional documentation or decline any document we cannot verify or that does not meet applicable legal and regulatory requirements.
 
 ## **Helpful for acquiring Spain DIDs**
@@ -134,5 +135,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

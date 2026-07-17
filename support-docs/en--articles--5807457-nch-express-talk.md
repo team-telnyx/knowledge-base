@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5807457-nch-express-talk
+title: "NCH Express Talk"
+description: "Learn how to set up your NCH Express Talk with Telnyx for seamless VoIP communication. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: fbedaf19b6e35023d00968c24c0cfe8da3de9945a96f0b257c72efbf16db09d9
 ---
 
-NCH Express Talk | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # NCH Express Talk
 
-Learn how to set up your NCH Express Talk with Telnyx for seamless VoIP communication. From configuration to testing.
+Learn how to set up your NCH Express Talk with Telnyx for seamless VoIP communication. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_566ee5892a)
 
@@ -37,7 +38,7 @@ Additional documentation:
 
 ---
 
-# Instructions for configuring Express Talk to work with Telnyx
+## Instructions for configuring Express Talk to work with Telnyx
 
 In this activity you will:
 
@@ -109,5 +110,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

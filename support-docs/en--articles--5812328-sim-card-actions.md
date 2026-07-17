@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5812328-sim-card-actions
+title: "SIM Card Actions"
+description: "Track every update made to your SIM cards with Telnyx's SIM card actions. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 3133c9bbc18ae271dca2d68cf574c0cbb229388f0307e9c9193364cd2b0e82d7
 ---
 
-SIM Card Actions | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# SIM Card Actions
 
-Track every update made to your SIM cards with Telnyx's SIM card actions. Gain full visibility of changes.
 
-Written by David
 
-April 13, 2026
-
-Table of contents
 
 # SIM Card Actions
+
+Track every update made to your SIM cards with Telnyx's SIM card actions. See Telnyx guidance and requirements.
+
+
+
+
+## SIM Card Actions
 
 To ensure full visibility over the state of your [SIM cards](https://telnyx.com/products/iot-sim-card) each update made to them is tracked as an action in the SIM card actions section of the Mission Control portal and API. This section in the portal can be found by drilling into a SIM card in the [SIM cards view](https://portal.telnyx.com/#/app/wireless/sim-cards) and scrolling to the bottom.
 
@@ -47,5 +48,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4967485-short-code-supported-carriers
+title: "Short Code - Supported Carriers"
+description: "Here you will find a global list of carriers that can support short code messages. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: e6d5f36b6c5bbc94e8cf8597ec9c8a0cdc7e0ba565fa935dc0de72c2c652b0f4
 ---
 
-Short Code - Supported Carriers | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Short Code - Supported Carriers
 
-Here you will find a global list of carriers that can support short code messages.
+Here you will find a global list of carriers that can support short code messages. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-May 20, 2025
 
-Table of contents
 
 If you are interested in using a short code through our network, please submit a request here: <https://portal.telnyx.com/#/messaging-short-code>
 
 ​**Please note:** Short-Codes are country-specific. This means that if you are using a [short code](https://telnyx.com/products/sms-short-code) that is registered in the United States, for example, only in-country traffic can be delivered to other United States numbers.
 
-# **List of Carriers that Support Short Code**
+## **List of Carriers that Support Short Code**
 
 This list is subject to change and may be updated occasionally.
 
@@ -135,5 +136,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

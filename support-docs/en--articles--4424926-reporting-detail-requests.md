@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4424926-reporting-detail-requests
+title: "Reporting: Detail Requests"
+description: "This article will showcase the detail requests section in greater detail. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 9e07cd5c96b6fe2ae171841a9a06e0921bd8a237da49f572791d5f3737b9f9a6
 ---
 
-Reporting: Detail Requests | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Reporting: Detail Requests
 
-This article will showcase the detail requests section in greater detail.
+This article will showcase the detail requests section in greater detail. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-April 11, 2026
 
-Table of contents
 
 In this article, I will describe the Reporting Feature on your Telnyx customer portal and what you can do there.
 
-# **Video Walk-through for Reporting Requests**
+## **Video Walk-through for Reporting Requests**
 
 Coming soon! This walk-through will demonstrate the usage of our Reporting tools.
 
@@ -67,5 +68,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

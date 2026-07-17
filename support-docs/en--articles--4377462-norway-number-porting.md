@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4377462-norway-number-porting
+title: "Norway Number Porting"
+description: "A list of requirements for Norway number portability - Get key details here. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 6f66439e325cecc97a475c8ec20a207def5a8702a71f96633f0b93562d3caeb1
 ---
 
-Norway Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Norway Number Porting
 
-A list of requirements for Norway number portability - Get key details here.
+A list of requirements for Norway number portability - Get key details here. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-November 5, 2025
 
-Table of contents
 
-# Porting Numbers to/from Norway
+## Porting Numbers to/from Norway
 
 **Local / National / Toll-Free Numbers**
 
@@ -39,5 +40,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

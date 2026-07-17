@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3267101-mexico-number-porting
+title: "Mexico Number Porting"
+description: "Here you will find a detailed list of requirements for Mexico number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: f88922d6bd59b58df7f4d27f933e84a87d0621b07968ece7c6ed37e378c2e86c
 ---
 
-Mexico Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Mexico Number Porting
 
-Here you will find a detailed list of requirements for Mexico number portability.
+Here you will find a detailed list of requirements for Mexico number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-February 10, 2026
 
-Table of contents
 
-# Requirements
+## Requirements
 
-# Local / National Numbers in Mexico
+## Local / National Numbers in Mexico
 
 1. LOA (NIP (for individual person)) signed by the Authorized Person with a signature matching as closely as possible the one on the ID.
 2. Copy of the National ID / Passport of the Authorized Person.
@@ -45,7 +46,7 @@ Table of contents
 
 Download LOA ([Spanish](https://www.dropbox.com/sh/8f6a7w785g89au6/AABhEVcAvcSAZPfgHk94sUZja/Mexico?dl=0&preview=Telnyx_Mexican_PortabilityForm_Spanish-edit.pdf&subfolder_nav_tracking=1) / [English](https://www.dropbox.com/sh/8f6a7w785g89au6/AABhEVcAvcSAZPfgHk94sUZja/Mexico?dl=0&preview=Telnyx_portabilityForm-edit.pdf&subfolder_nav_tracking=1))
 
-# Porting Hours and Earliest FOC date
+## Porting Hours and Earliest FOC date
 
 ## For local/national/toll-free
 
@@ -80,5 +81,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

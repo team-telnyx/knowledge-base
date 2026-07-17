@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4450150-faqs-about-mms-at-telnyx
+title: "FAQs about MMS at Telnyx"
+description: "Here you will find frequently asked questions about sending and receiving MMS, answered. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 9ff074e9d222aeaeefab4ef8a7b4f48bd3e2475aad3e16d893deda30e649308b
 ---
 
-FAQs about MMS at Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # FAQs about MMS at Telnyx
 
-Here you will find frequently asked questions about sending and receiving MMS, answered.
+Here you will find frequently asked questions about sending and receiving MMS, answered. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-October 30, 2024
 
-Table of contents
 
-# Telnyx MMS: Character Limits, File Types, and Sending Rules
+## Telnyx MMS: Character Limits, File Types, and Sending Rules
 
 ## **What is the character limit for MMS?**
 
@@ -112,5 +113,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

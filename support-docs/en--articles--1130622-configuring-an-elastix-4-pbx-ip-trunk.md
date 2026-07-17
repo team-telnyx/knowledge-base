@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130622-configuring-an-elastix-4-pbx-ip-trunk
+title: "Configuring an Elastix 4 PBX IP Trunk"
+description: "In this article we will explain how to configure an Elastix 4 PBX IP trunk with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 1fec52c3f7c30a2fca63f23c8e09466f17e948e86c57bc45caf608d856c2bc12
 ---
 
-Configuring an Elastix 4 PBX IP Trunk | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Configuring an Elastix 4 PBX IP Trunk
 
-In this article we will explain how to configure an Elastix 4 PBX IP trunk with Telnyx.
+In this article we will explain how to configure an Elastix 4 PBX IP trunk with Telnyx. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-February 1, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_eba03061f6)
 
@@ -32,7 +33,7 @@ Additional documentation:
 
 ---
 
-# Instructions for Configuring Elastix
+## Instructions for Configuring Elastix
 
 In this activity you will:
 
@@ -125,8 +126,8 @@ In this section, you'll configure your Elastix 4 PBX to work with Telnyx. You ca
       ![An interface to add SIP Extension.](_images/557893c8891e5a14.png)
 6. Click **Submit**, then **Apply Config**.
 7. From the left-hand navigation, stay on **PBX > PBX Configurations** and click on **Trunks**.
-8. Add the following settings to you trunk details:  
-   ​  
+8. Add the following settings to you trunk details:
+   ​
    ​**Outgoing SIP Settings for the trunk:**
 
    1. **Host:** *sip.telnyx.com*
@@ -144,9 +145,9 @@ In this section, you'll configure your Elastix 4 PBX to work with Telnyx. You ca
    6. **DTMFmode:** *RFC 2833*
    7. **NAT:** *force\_rport,comedia*
    8. **Registration string:** Leave blank. This is an IP trunk for an IP-based connection so you will not need this.
-   9. **Dialed number manipulation rules:** prepend:*1*; match pattern: *NXXNXXXXXX*  
-      prepend: blank; match pattern: *1NXXNXXXXXX*  
-      ​  
+   9. **Dialed number manipulation rules:** prepend:*1*; match pattern: *NXXNXXXXXX*
+      prepend: blank; match pattern: *1NXXNXXXXXX*
+      ​
       ​***Note:*** *The above dial patterns are for dialing 10 and 11 digit destinations, your own dial patterns may differ.*
 
       ![A page for inbound sip settings for the trunk.](_images/336a3c5e11866825.png)
@@ -212,5 +213,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

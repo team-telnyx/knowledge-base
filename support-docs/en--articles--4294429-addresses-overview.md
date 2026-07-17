@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4294429-addresses-overview
+title: "Addresses Overview"
+description: "This article will explain the \"Addresses\" section of your portal account and it's… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 471cb075fcc6a560aba15f4baaf4d507fc6ab2c3163a2110246be28127e70fdf
 ---
 
-Addresses Overview | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Addresses Overview
 
-This article will explain the "Addresses" section of your portal account and it's functions
+This article will explain the "Addresses" section of your portal account and it's… See Telnyx guidance and requirements.
 
-Written by Dillin
 
-November 4, 2025
 
-Table of contents
 
 The Address section of your Telnyx portal account will contain the addresses you will use for E911 emergency services, and for number ordering regulatory requirements.
 
@@ -43,5 +44,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

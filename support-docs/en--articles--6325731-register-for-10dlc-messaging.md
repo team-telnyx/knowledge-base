@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6325731-register-for-10dlc-messaging
+title: "Register for 10DLC Messaging"
+description: "We break down all of the steps you need to complete in order to comply with 10DLC, and how Telnyx can help. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 07adfb32ad5a545a2aec3befe9bd11adddf13cda460341c6aa3389494c4f63f0
 ---
 
-Register for 10DLC Messaging | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Register for 10DLC Messaging
 
-We break down all of the steps you need to complete in order to comply with 10DLC, and how Telnyx can help.
+We break down all of the steps you need to complete in order to comply with 10DLC, and how Telnyx can help. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-June 6, 2024
 
-Table of contents
 
-# **How to register for 10DLC and start sending messages**
+## **How to register for 10DLC and start sending messages**
 
 All businesses using Telnyx to send application-to-person ([A2P](https://telnyx.com/resources/what-is-a2p-messaging)) messages using 10-digit long code (10DLC) numbers in the US must comply with carrier-led rules by registering their traffic for 10DLC.
 
@@ -45,5 +46,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

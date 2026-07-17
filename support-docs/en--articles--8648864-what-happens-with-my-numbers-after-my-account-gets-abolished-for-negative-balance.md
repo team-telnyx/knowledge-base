@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8648864-what-happens-with-my-numbers-after-my-account-gets-abolished-for-negative-balance
+title: "What happens with my numbers after my account gets"
+description: "This article will help explain what happens after your account is abolished for holding a negative balance. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: de1736f634265c03ed8e4d6aff4aba6a503594a3d0665155f469b5f7b5a95b4a
 ---
 
-What happens with my numbers after my account gets abolished for negative balance? | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # What happens with my numbers after my account gets abolished for negative balance?
 
-This article will help explain what happens after your account is abolished for holding a negative balance.
+This article will help explain what happens after your account is abolished for holding a negative balance. See Telnyx guidance and requirements.
 
-Written by David
 
-January 30, 2026
 
-Table of contents
 
 If your account is left with a negative balance for a period of 1 month, an abolishing process will take place. In this process the numbers in your account will be deleted from the account.
 
-# Telnyx Number Deletion and Recovery Process Explained
+## Telnyx Number Deletion and Recovery Process Explained
 
 After the numbers are deleted from the account they are set to a "hold" status for the next two weeks. While the numbers are in this "hold" status you can still buy them again by looking for them in the "Search and Buy Numbers" section of the portal [here](https://portal.telnyx.com/#/app/numbers/search-numbers). During this period of time, only you will be able to search for and purchase the numbers. No other customer can acquire these numbers.
 
@@ -61,5 +62,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

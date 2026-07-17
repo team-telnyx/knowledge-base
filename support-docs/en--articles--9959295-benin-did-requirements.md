@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/9959295-benin-did-requirements
+title: "Benin DID Requirements"
+description: "Requirements to acquire Benin numbers. See Telnyx guidance and requirements Learn more about Benin DID Requirements with Telnyx."
 scraped: 2026-07-08
 content_hash: 236eb0d78331deb1e511acc7acda7cadcee27db41e46e2eadf966235117821d1
 ---
 
-Benin DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Benin DID Requirements
 
-Requirements to acquire Benin numbers. Start building on Telnyx today.
+Requirements to acquire Benin numbers. See Telnyx guidance and requirements Learn more about Benin DID Requirements with Telnyx.
 
-Written by NumberOps
 
-October 15, 2024
 
-Table of contents
 
-# DID Number Requirements for Benin
+## DID Number Requirements for Benin
 
 In order to purchase a Benin number you will need to provide the following:
 
@@ -63,5 +64,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

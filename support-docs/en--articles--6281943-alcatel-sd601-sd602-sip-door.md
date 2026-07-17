@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6281943-alcatel-sd601-sd602-sip-door
+title: "Alcatel: SD601/SD602 SIP Door"
+description: "Learn how to configure a Telnyx SIP trunk with the Alcatel SD601 and SD 602 SIP door phones. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: b2c5f1894e3cde338f087ca90637a77eefb4da883c0fd4c3073b6bc4e4ba38b1
 ---
 
-Alcatel: SD601/SD602 SIP Door | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Alcatel: SD601/SD602 SIP Door
 
-Learn how to configure a Telnyx SIP trunk with the Alcatel SD601 and SD 602 SIP door phones.
+Learn how to configure a Telnyx SIP trunk with the Alcatel SD601 and SD 602 SIP door phones. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-June 6, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_e5d1b913a9)
 
@@ -50,7 +51,7 @@ The [Alcatel SD601 SIP door phone](https://www.alcatel-home.com/en2/product/alca
 
 ---
 
-# Instructions for configuring a Telnyx SIP trunk with the Alcatel SD60x SIP door phone
+## Instructions for configuring a Telnyx SIP trunk with the Alcatel SD60x SIP door phone
 
 **In this activity you will:**
 
@@ -131,5 +132,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

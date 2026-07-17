@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3266983-ireland-number-porting
+title: "Ireland Number Porting"
+description: "Here you will find all of the requirements for Ireland number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 2ba44d450cf3a4d748b1a957d6f65e1c094870f71f86a64c0f40a5cbdaff24a8
 ---
 
-Ireland Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Ireland Number Porting
 
-Here you will find all of the requirements for Ireland number portability.
+Here you will find all of the requirements for Ireland number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
-# **Local / National / Toll-free (Ireland)**
+## **Local / National / Toll-free (Ireland)**
 
 1. LOA
 2. UAN / Account Number required
@@ -26,8 +27,8 @@ Table of contents
 
 Download LOA **[here](https://www.dropbox.com/s/9f8nesm8873og7d/IRELANDGEOPORTINGFORM-edit.pdf?dl=0)**
 
-A **UAN** is eight digits in length and can be found on the end-user's invoice. If it is not mentioned on the invoice, the end-user must contact their current provider and request it.  
-​  
+A **UAN** is eight digits in length and can be found on the end-user's invoice. If it is not mentioned on the invoice, the end-user must contact their current provider and request it.
+​
 Customers porting away from EIR or OEIR [Open Eir] must ensure with the current provider prior to the port that numbers don't have special services. As these services may be cancelled as a result of the port to Telnyx.
 
 ## Ireland Porting Hours
@@ -43,5 +44,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

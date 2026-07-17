@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1618776-porting-error-messages
+title: "Porting Error Messages"
+description: "Learn more about the various error conditions that may occur with… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 1547d42f6fbe11b633229dd67273051411b7e9e2a97c5839e49d256f7c5fe865
 ---
 
-Porting Error Messages | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Porting Error Messages
 
-Learn more about the various error conditions that may occur with porting
+Learn more about the various error conditions that may occur with… See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-September 27, 2023
 
-Table of contents
 
 There is a wide range of potential error conditions that may occur during the porting process. Below is a list of potential errors with additional information that may be helpful in diagnosing porting problems.
 
-# ACCOUNT\_NUMBER\_MISMATCH
+## ACCOUNT\_NUMBER\_MISMATCH
 
 The account number provided did not match what the losing carrier has on file. For some carriers, the account number may be the same as the Billing Telephone Number (BTN).
 
@@ -117,5 +118,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

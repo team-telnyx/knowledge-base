@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6128008-sipxecs-pbx-setup-config
+title: "sipXecs PBX: Setup & Config"
+description: "Learn how to set up and configure the SIPfoundry sipXecs open source PBX to use Telnyx as the VoIP provider. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: f63b33e423028e35e21773deff2c4cdd9da4a0cf08451d5e2bc5a8ace81114a8
 ---
 
-sipXecs PBX: Setup & Config | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # sipXecs PBX: Setup & Config
 
-Learn how to set up and configure the SIPfoundry sipXecs open source PBX to use Telnyx as the VoIP provider.
+Learn how to set up and configure the SIPfoundry sipXecs open source PBX to use Telnyx as the VoIP provider. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-June 6, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_99d8568e05)
 
@@ -39,7 +40,7 @@ If you are looking for an all-software, open-source, modern communications PBX s
 
 ---
 
-# Instructions for setting up and configuring sipXecs with Telnyx as VoIP provider
+## Instructions for setting up and configuring sipXecs with Telnyx as VoIP provider
 
 In this activity you will:
 
@@ -207,8 +208,8 @@ That's it! You've finished configuring sipXecs, and can now start testing calls!
 
 **Q: *The phone I manually configured isn't working? What's wrong?***
 
-**A:** If you cannot get it working with the information you provided in [section 4](#h_28b2263b50), you likely have some DNS issue. You can perform DNS tests going to **System > DNS** and then select **Advisor**.  
-​  
+**A:** If you cannot get it working with the information you provided in [section 4](#h_28b2263b50), you likely have some DNS issue. You can perform DNS tests going to **System > DNS** and then select **Advisor**.
+​
 ​
 
 [Back to Top](#h_99d8568e05)
@@ -235,5 +236,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

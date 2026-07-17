@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6670775-faroe-islands-sms-guidelines
+title: "Faroe Islands: SMS Guidelines"
+description: "Sending SMS to Faroe Islands? See Telnyx guidance and requirements Learn more about Faroe Islands: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: cde1a6edbaa5d6ccb15dca36474443bd1e24b365ab772ff696a1a2d9e8f3d5a7
 ---
 
-Faroe Islands: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Faroe Islands: SMS Guidelines
 
-Sending SMS to Faroe Islands? Check out our comprehensive guidelines to ensure compliance in Faroe Islands.
+Sending SMS to Faroe Islands? See Telnyx guidance and requirements Learn more about Faroe Islands: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Faroe Islands: SMS Guidelines**
+## **Faroe Islands: SMS Guidelines**
 
-**MCC:** 288  
-​**Dial Code:** 298  
-​  
+**MCC:** 288
+​**Dial Code:** 298
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

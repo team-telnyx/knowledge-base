@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5355800-azure-ad-saml-identity-setup
+title: "Azure AD: SAML Identity Setup"
+description: "Learn how to set up Microsoft Azure Active Directory SAML to utilize Telnyx Portal Single Sign-on capabilities. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 740aff1a43c71a4218d6ee4f347aa75c5e78cf5c8ccae4a73fa0287b7ecc530c
 ---
 
-Azure AD: SAML Identity Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Azure AD: SAML Identity Setup
 
-Learn how to set up Microsoft Azure Active Directory SAML to utilize Telnyx Portal Single Sign-on capabilities.
+Learn how to set up Microsoft Azure Active Directory SAML to utilize Telnyx Portal Single Sign-on capabilities. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-May 20, 2026
 
-Table of contents
 
 [Jump to Instructions](#h_5862e24a4f)
 
@@ -33,7 +34,7 @@ Additional resources:
 
 ---
 
-# Instructions for configuring Azure Active Directory to work as a SAML Identity Provider for Telnyx
+## Instructions for configuring Azure Active Directory to work as a SAML Identity Provider for Telnyx
 
 In this activity you will:
 
@@ -132,7 +133,7 @@ And now, for the drum roll! Let's enable your SSO configuration and get things u
    ![Single sign-on changes section. ](_images/a521794ca2f3529a.png)
 2. Click **Save Changes.**
 
-Your chosen settings are now in effect! This will send all users in your organization an email informing them that SSO is now enabled. Your users will still be able to login using username/password for the next 72 hours. After that, they will be required to use SSO.  
+Your chosen settings are now in effect! This will send all users in your organization an email informing them that SSO is now enabled. Your users will still be able to login using username/password for the next 72 hours. After that, they will be required to use SSO.
 ​
 
 [Back to Top](#h_5862e24a4f)
@@ -143,7 +144,7 @@ Your chosen settings are now in effect! This will send all users in your organiz
 
 **Q. I'm experiencing difficulty with this configuration!**
 
-A. If you experience technical difficulties while attempting to set up your MS Azure AD SSO with Telnyx, its possible your provider is experiencing outages/maintenance. You can check the status of Auth0's features at [https://status.azure.com/en-us/status](https://azure.status.microsoft/en-us/status).  
+A. If you experience technical difficulties while attempting to set up your MS Azure AD SSO with Telnyx, its possible your provider is experiencing outages/maintenance. You can check the status of Auth0's features at [https://status.azure.com/en-us/status](https://azure.status.microsoft/en-us/status).
 ​
 
 [Back to Top](#h_5862e24a4f)
@@ -170,5 +171,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

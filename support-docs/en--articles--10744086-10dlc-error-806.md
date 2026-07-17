@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/10744086-10dlc-error-806
+title: "10DLC Error (806)"
+description: "If you receive this error it relates to the Message Flow field where everything about the opt in workflow is described… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: df854549a7915277c5db4ee826ccd16ccb0ccdd7353f26fa06513efe8a2fc298
 ---
 
-10DLC Error (806) | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # 10DLC Error (806)
 
-K
+If you receive this error it relates to the Message Flow field where everything about the opt in workflow is described… See Telnyx guidance and requirements.
 
-Written by Klane Pedrie
 
-March 10, 2025
 
-Table of contents
 
-# 10DLC Error (806): Unable to verify, needs compliant and accurate CTA information. Update with specific path for mobile opt-in, HELP instructions, STOP instructions, message frequency disclosure, "message and data rates may apply" disclosure and link to the message program privacy policy, or language referring to the privacy policy. (806)
+## 10DLC Error (806): Unable to verify, needs compliant and accurate CTA information. Update with specific path for mobile opt-in, HELP instructions, STOP instructions, message frequency disclosure, "message and data rates may apply" disclosure and link to the message program privacy policy, or language referring to the privacy policy. (806)
 
 If you receive this error it relates to the Message Flow field where everything about the opt in workflow is described and shown.
 
@@ -39,5 +40,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

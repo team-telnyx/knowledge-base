@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1371411-aws-virtual-cross-connect-setup
+title: "AWS: Virtual Cross Connect Setup"
+description: "Learn how to integrate an AWS VPC environment with the Telnyx network backbone. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 6a74d15357d4802ec467514a4998e9355fe46d8693fe704581c6eb0ddd516f82
 ---
 
-AWS: Virtual Cross Connect Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # AWS: Virtual Cross Connect Setup
 
-Learn how to integrate an AWS VPC environment with the Telnyx network backbone.
+Learn how to integrate an AWS VPC environment with the Telnyx network backbone. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_d0dad697c3)
 
@@ -36,7 +37,7 @@ Further documentation:
 
 ---
 
-# Instructions for integrating Telnyx and AWS through a VXC
+## Instructions for integrating Telnyx and AWS through a VXC
 
 In this document, you will:
 
@@ -189,5 +190,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8268276-loa-template-download
+title: "LOA Template Download"
+description: "Learn how to create a PDF in Node.js for Telnyx Porting LOA API. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 90a64cd8661cca0a79b763d35fff23021b632f8426f2c0642484b6fb537c2070
 ---
 
-LOA Template Download | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # LOA Template Download
 
-Learn how to create a PDF in Node.js for Telnyx Porting LOA API. Download the LOA Template PDFs using the Telnyx API for porting numbers.
+Learn how to create a PDF in Node.js for Telnyx Porting LOA API. See Telnyx guidance and requirements.
 
 K
 
-Written by Klane Pedrie
 
-February 1, 2024
 
-Table of contents
 
-# How to Create a PDF in Node.js for Telnyx Porting LOA API
+## How to Create a PDF in Node.js for Telnyx Porting LOA API
 
 If you need to use the Telnyx API capabilities for porting then you will need to be able to download LOA Template PDFs. Here is an example of a request you can send you may start working on functionality for Porting numbers by API. A step you may run into
 
@@ -39,5 +40,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

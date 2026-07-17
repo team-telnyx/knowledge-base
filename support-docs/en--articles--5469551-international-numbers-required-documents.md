@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5469551-international-numbers-required-documents
+title: "International Numbers - Required Documents"
+description: "In this article we will walk you through the required documents for ordering numbers internationally. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 8cdad45c73abc76232839f012aff3cc6330b030877f4ac4b07a0d347ad926aa7
 ---
 
-International Numbers - Required Documents | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # International Numbers - Required Documents
 
-In this article we will walk you through the required documents for ordering numbers internationally.
+In this article we will walk you through the required documents for ordering numbers internationally. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-Updated over 2 weeks ago
 
-Table of contents
 
 You can find country-specific information in our [International DID Requirements](https://support.telnyx.com/en/collections/1511606-international-did-requirements) support section or in your portal [here](https://portal.telnyx.com/#/app/numbers/requirements). While you can place orders for these numbers on your account and they are purchased successfully, inbound calling will not be activated until documentation has been uploaded and verified in the [number order section](https://portal.telnyx.com/#/app/numbers/orders). The verification process can take a few working days and you will be notified as soon as possible by our numbering team ([numbering@telnyx.com](mailto:numbering@telnyx.com)).
 
@@ -24,7 +25,7 @@ You can find country-specific information in our [International DID Requirements
 
 ​
 
-# Required Documents:
+## Required Documents:
 
 ## (Please note the letters in () indicate additional requirements/conditions)
 
@@ -342,5 +343,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

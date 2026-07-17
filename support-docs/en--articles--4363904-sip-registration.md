@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4363904-sip-registration
+title: "SIP Registration"
+description: "This article explains the basic components involved in the SIP Registration process. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 844e2617eb0eeda3fa4c93328213a8fe1cbaa3a93f66d973f020f6c0b0acc936
 ---
 
-SIP Registration | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # SIP Registration
 
-This article explains the basic components involved in the SIP Registration process.
+This article explains the basic components involved in the SIP Registration process. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-July 11, 2024
 
-Table of contents
 
 How do service providers like Telnyx know where their users are located and how to make contact with them? Within the Session Initiation Protocol, there is a process called SIP Registration, which allows service providers to identify the phones of their customers, thus providing them insight into where to send phone calls. In other words, registration is the process by which service providers data mine their customers’ locations.
 
-# **The Components of SIP Registration**
+## **The Components of SIP Registration**
 
 * **User Agent:** The SIP entity that interacts with the user e.g. soft phone.
 * **SIP URI:** The SIP address that identifies a user – it usually consists of a username and domain name, similar to our email addresses. SIP: [bob@yourcompany.com](mailto:bob@yourcompany.com) i.e., SIP:[bob@8.8.8.8](mailto:bob@8.8.8.8)
@@ -104,18 +105,18 @@ It is important to note this when setting up your firewall and port settings. If
 
 **[THIS PRODUCT IS NO LONGER AVAILABLE](https://support.telnyx.com/en/articles/6461350-hvsd-outbound-profile-end)**
 
-Our high volume short duration product (<https://siphv.telnyx.com/>) does not currently support SIP Registration for inbound calls. If you want to receive inbound calls please register with our other FQDN's: sip.telnyx.com, sip.telnyx.ca, sip.telnyx.eu & sip.telnyx.com.au.   
-​  
+Our high volume short duration product (<https://siphv.telnyx.com/>) does not currently support SIP Registration for inbound calls. If you want to receive inbound calls please register with our other FQDN's: sip.telnyx.com, sip.telnyx.ca, sip.telnyx.eu & sip.telnyx.com.au.
+​
 If you attempt to register via our high volume short duration domain, you will receive a **SIP 405 Method Not Allowed** response.
 
 ## **Special Notes on SIP Registration**
 
 ![Breaking Line](_images/682991ade0be9812.png)
 
-Please remember that SIP registration is required only for receiving **inbound calls**. You may come across scenarios where you are able to make outbound calls from your numbers associated with the credential based SIP Connection but outbound calling does not require SIP registration. To receive inbound calls, please ensure your system is registered to our SIP domains and use a low expiry refresh of around 180 seconds. This allows more frequent SIP Register requests so we can know where you are and where to route calls (via the address of record AOR on file). At the same time, you should monitor the trunks status and attempt a soft reload of the system in-case you are seeing the trunk status as down. Once a SIP Registrations expiry time is met, and we do not receive further SIP Register requests, we will no longer hold the AOR on file and can not route inbound calls to you. This is why we recommend a lower expiry time set. Often, a full restart of the phone system can resolve SIP Registration problems as well. It's always a good idea to take a network capture trace on the LAN in order to review the SIP behaviour - we'd be happy to help review the captures if you can share them.   
-​  
-Outbound calling requires **SIP authentication** for credential based SIP Connections. When you make an outbound call from a credential based SIP Connection, our system will issue a SIP 407 proxy authentication response - challenging you to verify who you are. You verify who you are by sending a new SIP INVITE with your SIP Connections credentials (username + password) hashed. Once we can verify the hash, we'll allow your outbound calls to proceed. This is a great [article](https://andrewjprokop.wordpress.com/2015/01/27/understanding-sip-authentication/) that discusses the authentication process in-depth.  
-​  
+Please remember that SIP registration is required only for receiving **inbound calls**. You may come across scenarios where you are able to make outbound calls from your numbers associated with the credential based SIP Connection but outbound calling does not require SIP registration. To receive inbound calls, please ensure your system is registered to our SIP domains and use a low expiry refresh of around 180 seconds. This allows more frequent SIP Register requests so we can know where you are and where to route calls (via the address of record AOR on file). At the same time, you should monitor the trunks status and attempt a soft reload of the system in-case you are seeing the trunk status as down. Once a SIP Registrations expiry time is met, and we do not receive further SIP Register requests, we will no longer hold the AOR on file and can not route inbound calls to you. This is why we recommend a lower expiry time set. Often, a full restart of the phone system can resolve SIP Registration problems as well. It's always a good idea to take a network capture trace on the LAN in order to review the SIP behaviour - we'd be happy to help review the captures if you can share them.
+​
+Outbound calling requires **SIP authentication** for credential based SIP Connections. When you make an outbound call from a credential based SIP Connection, our system will issue a SIP 407 proxy authentication response - challenging you to verify who you are. You verify who you are by sending a new SIP INVITE with your SIP Connections credentials (username + password) hashed. Once we can verify the hash, we'll allow your outbound calls to proceed. This is a great [article](https://andrewjprokop.wordpress.com/2015/01/27/understanding-sip-authentication/) that discusses the authentication process in-depth.
+​
 Again, inbound and outbound are decoupled and use different methods to receive and make calls.
 
 ---
@@ -127,5 +128,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/2042977-porting-in-day-of-port-foc
+title: "Porting In - Day of Port (FOC)"
+description: "In this article we will explain how to ensure your numbers are ready to go on the day of FOC! See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 0babffa2d692bed5dca61707549b1e5e20d4703ba65121827430270010ec6d41
 ---
 
-Porting In - Day of Port (FOC) | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Porting In - Day of Port (FOC)
 
-In this article we will explain how to ensure your numbers are ready to go on the day of FOC!
+In this article we will explain how to ensure your numbers are ready to go on the day of FOC! See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-January 10, 2024
 
-Table of contents
 
-# Requirements for FOC
+## Requirements for FOC
 
 On the day that you numbers are set to be ported (FOC Date) you can run a few checks to ensure that everything is in order and ready to go once your numbers are ported.
 
@@ -46,5 +47,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8797623-supported-emergency-numbers
+title: "Supported Emergency Numbers"
+description: "Here you can find the complete list of emergency numbers supported by Telnyx on the different countries where it… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: b0193503ac71fd8a07940b9caf01d9ba902c3c0604f74015814c081ae7a578f9
 ---
 
-Supported Emergency Numbers | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Supported Emergency Numbers
 
-Here you can find the complete list of emergency numbers supported by Telnyx on the different countries where it supports emergency calls.
+Here you can find the complete list of emergency numbers supported by Telnyx on the different countries where it… See Telnyx guidance and requirements.
 
-Written by David
 
-June 6, 2024
 
-Table of contents
 
-# Telnyx: Emergency Numbers Supported by Country
+## Telnyx: Emergency Numbers Supported by Country
 
 This is the complete list of emergency numbers supported by Telnyx's platform.
 
@@ -326,5 +327,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

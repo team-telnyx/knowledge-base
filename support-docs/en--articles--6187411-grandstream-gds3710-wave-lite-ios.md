@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6187411-grandstream-gds3710-wave-lite-ios
+title: "Grandstream GDS3710: Wave Lite (iOS)"
+description: "Learn how to connect the GDS3710 video door system with the Wave Lite app on your iOS device. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 185bbd5b57221bf56ce7901763da3af821e760f4042c6e09c7bf02acc0bfeb73
 ---
 
-Grandstream GDS3710: Wave Lite (iOS) | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Grandstream GDS3710: Wave Lite (iOS)
 
-Learn how to connect the GDS3710 video door system with the Wave Lite app on your iOS device.
+Learn how to connect the GDS3710 video door system with the Wave Lite app on your iOS device. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-June 6, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_39d50ea962)
 
@@ -41,7 +42,7 @@ The 2-way audio / video streaming and a SIP-based security mechanism lets you st
 
 ---
 
-# Connecting the Grandstream GDS3710 with Wave Lite (iOS)
+## Connecting the Grandstream GDS3710 with Wave Lite (iOS)
 
 In this activity, you will:
 
@@ -99,8 +100,8 @@ In this step, you'll set up a SIP trunk on your Wave Lite app.
 
 1. From your iPhone or iPad, open the Wave Lite app.
 2. Navigate to the **Settings** screen.
-3. In the **Account Settings** > **Generic Account** section. Then tap on **SIP Account**.  
-   ​  
+3. In the **Account Settings** > **Generic Account** section. Then tap on **SIP Account**.
+   ​
    ​***Note:*** *Do not use the VoIP Provider section below this, as Telnyx has not yet been added to the provider list.*
 
    1. **Account Name:** Give your account a name that makes sense for your connection. In the example, we used *TelnyxTrunk*.
@@ -155,7 +156,7 @@ In this section, you'll configure codecs for audio calling.
 
       * *H264*
 
-That's it, you've now completed the configuration of your Grandstream Wave Lite device.  
+That's it, you've now completed the configuration of your Grandstream Wave Lite device.
 ​
 
 ---
@@ -184,5 +185,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

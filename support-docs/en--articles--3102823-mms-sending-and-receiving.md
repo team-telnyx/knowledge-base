@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3102823-mms-sending-and-receiving
+title: "MMS Sending and Receiving"
+description: "In this article we will explain how to send and receive MMS messages using Telnyx API. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 7fdcf852eb9e1cd9c8d0424efc1fe8bc3f033df371f1963d61a2abbbd104d4e7
 ---
 
-MMS Sending and Receiving | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # MMS Sending and Receiving
 
-In this article we will explain how to send and receive MMS messages using Telnyx API.
+In this article we will explain how to send and receive MMS messages using Telnyx API. See Telnyx guidance and requirements.
 
-Written by David
 
-December 27, 2024
 
-Table of contents
 
-# **Efficient MMS Messaging with Telnyx APIs**
+## **Efficient MMS Messaging with Telnyx APIs**
 
 Telnyx offers robust solutions for both sending and receiving MMS messages through its API V1 and API V2. To facilitate a smooth setup, comprehensive quick start guides are available in our developer documentation:
 
@@ -30,38 +31,38 @@ Telnyx offers robust solutions for both sending and receiving MMS messages throu
 #### **Sample API V1 curl request:**
 
 ```
-curl --request POST 'https://sms.telnyx.com/messages' \  
---header 'Accept: application/json' \  
---header 'x-profile-secret: v1 messaging profile secret' \  
---header 'Content-Type: application/json' \  
---data-raw '{  
-  "from": "+your purchased number",  
-  "to": "+the number you want to message",  
-  "body": {  
-  "delivery_status_webhook_url": "your webhook url",  
-  "text": "Did you get this image?",  
-     "subject": "Bear Picture",  
-     "media_urls" : [  
-        {"img": "https://placebear.com/802/503.jpg"}        
-      ]      
-   }  
+curl --request POST 'https://sms.telnyx.com/messages' \
+--header 'Accept: application/json' \
+--header 'x-profile-secret: v1 messaging profile secret' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+  "from": "+your purchased number",
+  "to": "+the number you want to message",
+  "body": {
+  "delivery_status_webhook_url": "your webhook url",
+  "text": "Did you get this image?",
+     "subject": "Bear Picture",
+     "media_urls" : [
+        {"img": "https://placebear.com/802/503.jpg"}
+      ]
+   }
 }'
 ```
 
 #### **Sample API V2 curl request:**
 
 ```
-curl --request POST 'https://api.telnyx.com/v2/messages' \  
---header 'Accept: application/json' \  
---header 'Authorization: Bearer API V2 KEY' \  
---header 'Content-Type: application/json' \  
---data-raw '{  
-  "from": "+your purchased number",  
-  "to": "+the number you want to message",  
-  "webhook_url": "your webhook url",  
-  "text": "Did you get this image?",  
-  "subject": "Bear Picture",  
-  "media_urls" : ["https://placebear.com/802/503.jpg"]  
+curl --request POST 'https://api.telnyx.com/v2/messages' \
+--header 'Accept: application/json' \
+--header 'Authorization: Bearer API V2 KEY' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+  "from": "+your purchased number",
+  "to": "+the number you want to message",
+  "webhook_url": "your webhook url",
+  "text": "Did you get this image?",
+  "subject": "Bear Picture",
+  "media_urls" : ["https://placebear.com/802/503.jpg"]
 }'
 ```
 
@@ -102,5 +103,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

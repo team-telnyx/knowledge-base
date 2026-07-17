@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/12901901-understanding-configuration-propagation-delays-in-mission-control-portal-and-api
+title: "Understanding Configuration Propagation Delays in Mission"
+description: "Learn how Telnyx updates move through the platform and how to optimize design around short propagation windows. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 056e70a4c1d28bc5d0d9d3df1ccdbf278417fe9bf3ba3ed4050e840cc711fe77
 ---
 
-Understanding Configuration Propagation Delays in Mission Control Portal and API | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Understanding Configuration Propagation Delays in Mission Control Portal and API
 
-Learn how Telnyx updates move through the platform and how to optimize design around short propagation windows.
+Learn how Telnyx updates move through the platform and how to optimize design around short propagation windows. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-November 21, 2025
 
-Table of contents
 
 ## Background
 
@@ -48,5 +49,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

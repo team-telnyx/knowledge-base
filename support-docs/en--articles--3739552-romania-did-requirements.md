@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3739552-romania-did-requirements
+title: "Romania DID Requirements"
+description: "Here you will find detailed requirements to acquire numbers in Romania. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: e8b41ff5a070eb3dd95ddf64f06c4c325e7053911067e7914ac36ac422bdaf96
 ---
 
-Romania DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Romania DID Requirements
 
-Here you will find detailed requirements to acquire numbers in Romania.
+Here you will find detailed requirements to acquire numbers in Romania. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-May 26, 2026
 
-Table of contents
 
-# DID Number Requirements for Romania
+## DID Number Requirements for Romania
 
 In order to purchase a Romania number you will need to provide the following:
 
@@ -28,7 +29,7 @@ For **personal identity** verification:
 
 \* Name, last name
 
-\* Contact phone number  
+\* Contact phone number
 \* Local Passport or ID copy
 
 For **business identity** verification:
@@ -37,15 +38,15 @@ For **business identity** verification:
 
 \* Company name
 
-\* Contact phone number  
+\* Contact phone number
 \* Local Company registration certificate
 
 For **address** verification:
 
-\* Address in Romania (street, building number, postal code, city and country)  
-\* Proof of address (dated within 3 months)  
-​  
-Additional details:   
+\* Address in Romania (street, building number, postal code, city and country)
+\* Proof of address (dated within 3 months)
+​
+Additional details:
 \* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **National Numbers in Romania**
@@ -64,15 +65,15 @@ For **business identity** verification:
 
 \* Company name
 
-\* Contact phone number  
+\* Contact phone number
 \* Local Company registration certificate
 
 For **address** verification:
 
-\* Address in Romania (street, building number, postal code, city and country)  
-\* Proof of address (dated within 3 months)  
-​  
-Additional details:   
+\* Address in Romania (street, building number, postal code, city and country)
+\* Proof of address (dated within 3 months)
+​
+Additional details:
 \* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **Toll-Free Numbers in Romania**
@@ -81,7 +82,7 @@ For **personal identity** verification:
 
 \* Name, last name
 
-\* Contact phone number  
+\* Contact phone number
 \* Local Passport or ID copy
 
 For **business identity** verification:
@@ -90,21 +91,21 @@ For **business identity** verification:
 
 \* Company name
 
-\* Contact phone number  
+\* Contact phone number
 \* Local Company registration certificate
 
 For **address** verification:
 
-\* Address in Romania (street, building number, postal code, city and country)  
-\* Proof of address (dated within 3 months)  
-​  
-Additional details:   
+\* Address in Romania (street, building number, postal code, city and country)
+\* Proof of address (dated within 3 months)
+​
+Additional details:
 \* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **Identity Verification: What "Local" Means**
 
-For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.  
-​  
+For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.
+​
 All identification is subject to review, and we reserve the right to request additional documentation or decline any document we cannot verify or that does not meet applicable legal and regulatory requirements.
 
 ## **Helpful for acquiring Romania DIDs**
@@ -148,5 +149,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6417677-telnyx-10dlc-compliance-directory
+title: "Telnyx 10DLC Compliance Directory"
+description: "10DLC allows higher messaging throughput for large SMS campaigns. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: f48d7df8191ef0234ccfba1c83f57402faecfb19a78dbdab6102f25765fb5cb5
 ---
 
-Telnyx 10DLC Compliance Directory | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Telnyx 10DLC Compliance Directory
 
-10DLC allows higher messaging throughput for large SMS campaigns. Learn how Telnyx aids in compliance.
+10DLC allows higher messaging throughput for large SMS campaigns. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-October 3, 2023
 
-Table of contents
 
-# 10DLC Compliance with Telnyx
+## 10DLC Compliance with Telnyx
 
 **What is 10DLC?**
 
@@ -77,5 +78,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

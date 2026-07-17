@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/7048813-tls-sip-warnings-for-teams
+title: "TLS & SIP Warnings for Teams"
+description: "Fix warnings related to TLS connectivity and SIP Options in your existing Microsoft Teams Direct Routing SBC setup. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 954ac0d8be4fccb8eb9caa5fb58a3368d8951a84557eea0b7e111969406da862
 ---
 
-TLS & SIP Warnings for Teams | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # TLS & SIP Warnings for Teams
 
-Fix warnings related to TLS connectivity and SIP Options in your existing Microsoft Teams Direct Routing SBC setup.
+Fix warnings related to TLS connectivity and SIP Options in your existing Microsoft Teams Direct Routing SBC setup. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-January 29, 2026
 
-Table of contents
 
-# TLS Connectivity and SIP Options Warnings for Existing Microsoft Teams Direct Routing SBC Setup
+## TLS Connectivity and SIP Options Warnings for Existing Microsoft Teams Direct Routing SBC Setup
 
 If you already have Microsoft Teams Direct Routing configured with an SBC, you may encounter warnings related to TLS connectivity and SIP Options status.
 
@@ -42,7 +43,7 @@ PowerShell
 
 ## Run PowerShell in Mac
 
-Run Mac Terminal and execute the following command:  
+Run Mac Terminal and execute the following command:
 ​
 
 ```
@@ -65,7 +66,7 @@ A window will pop up for the credentials to be inserted as any other time we log
 
 ### **Add a new Online PSTN Usage**:
 
-Execute the following command:  
+Execute the following command:
 ​
 
 ```
@@ -104,7 +105,7 @@ From now on, on the customer tenant there are no OPTIONS to check, just the voic
 
 ### **Add a new Routing Policy**
 
-To add a new Routing Policy run the following command (tailored to your configuration):  
+To add a new Routing Policy run the following command (tailored to your configuration):
 ​
 
 ```
@@ -125,7 +126,7 @@ You should get an output similar to the one below:
 
 ![Output sequence. ](_images/88920df8f0454aa4.png)
 
-Then, the final steps required to start making calls are all on the user level.  
+Then, the final steps required to start making calls are all on the user level.
 The necessary changes are on the user:
 
 ### **User Policy**
@@ -169,8 +170,8 @@ Get-CsOnlineUser -Identity "<user_email>"
 #### Below you can find an example of an expected output is:
 
 ```
-PS /Users/rita> Get-CsOnlineUser -Identity "rabbani@rita.mstsbc.telnyx.tech"  
-AccountEnabled                         : TrueAlias                                  : rabbaniApplicationAccessPolicy                :AssignedPlan                           : {MCOProfessional, MCOMEETADD, MCOEV, Teams}CallingLineIdentity                    :City                                   :Company                                :Country                                :CountryAbbreviation                    :Department                             :DialPlan                               : PTDisplayName                            : RabbaniEnterpriseVoiceEnabled                 : TrueExternalAccessPolicy                   :FeatureTypes                           : {AudioConferencing, PhoneSystem, Teams}GivenName                              : RabbaniHideFromAddressLists                   :   
+PS /Users/rita> Get-CsOnlineUser -Identity "rabbani@rita.mstsbc.telnyx.tech"
+AccountEnabled                         : TrueAlias                                  : rabbaniApplicationAccessPolicy                :AssignedPlan                           : {MCOProfessional, MCOMEETADD, MCOEV, Teams}CallingLineIdentity                    :City                                   :Company                                :Country                                :CountryAbbreviation                    :Department                             :DialPlan                               : PTDisplayName                            : RabbaniEnterpriseVoiceEnabled                 : TrueExternalAccessPolicy                   :FeatureTypes                           : {AudioConferencing, PhoneSystem, Teams}GivenName                              : RabbaniHideFromAddressLists                   :
 FalseHostingProvider                        : sipfed.online.lync.comIdentity                               : 34eac5d7-a18b-41b6-853d-c3432252654cInterpretedUserType                    : PureOnlineTeamsOnlyUserIsSipEnabled                           : TrueLastName                               :LastSyncTimeStamp                      : 31/01/2023 09:32:28LineUri                                : tel:+18772404795LocationPolicy                         :OnPremEnterpriseVoiceEnabled           : FalseOnPremHostingProvider
 ```
 
@@ -199,5 +200,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

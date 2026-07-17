@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/7915224-blocked-account-guidelines
+title: "Blocked Account Guidelines"
+description: "Guidelines on identifying, resolving, and preventing blocked Telnyx accounts for users. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: e1e0106baa911939b15c357119422ccbf5a247f3e6c9d7e4d4bf488f7dc49177
 ---
 
-Blocked Account Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Blocked Account Guidelines
 
-Guidelines on identifying, resolving, and preventing blocked Telnyx accounts for users.
+Guidelines on identifying, resolving, and preventing blocked Telnyx accounts for users. See Telnyx guidance and requirements.
 
 K
 
-Written by Klane Pedrie
 
-January 29, 2026
 
-Table of contents
 
-# Guidelines for a Telnyx customer whose Account has been Blocked
+## Guidelines for a Telnyx customer whose Account has been Blocked
 
 1. ## Understand the Security Measures:
 
@@ -52,5 +53,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

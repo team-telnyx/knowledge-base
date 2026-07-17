@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6679441-saint-pierre-and-miquelon-sms-guidelines
+title: "Saint Pierre and Miquelon: SMS Guidelines"
+description: "Sending SMS to Saint Pierre? See Telnyx guidance and requirements Learn more about Saint Pierre and Miquelon: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 330750605efa1142112126e9ae8257cfc2cdb241b822e72a280c1dd4f27a6962
 ---
 
-Saint Pierre and Miquelon: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Saint Pierre and Miquelon: SMS Guidelines
 
-Sending SMS to Saint Pierre? Check out our comprehensive guidelines to ensure compliance in Saint Pierre.
+Sending SMS to Saint Pierre? See Telnyx guidance and requirements Learn more about Saint Pierre and Miquelon: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Saint Pierre and Miquelon: SMS Guidelines**
+## **Saint Pierre and Miquelon: SMS Guidelines**
 
-**MCC:** 308  
-​**Dial Code:** 508  
-​  
+**MCC:** 308
+​**Dial Code:** 508
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

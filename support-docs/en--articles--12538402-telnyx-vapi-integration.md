@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/12538402-telnyx-vapi-integration
+title: "Telnyx + Vapi Integration"
+description: "Below we'll cover the entire integration between us and… See Telnyx guidance and requirements Learn more about Telnyx + Vapi Integration with Telnyx."
 scraped: 2026-07-08
 content_hash: 18362aba0f282afd4294867cb422064635c4ecd06134ed782340becfcfe46cac
 ---
 
-Telnyx + Vapi Integration | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Telnyx + Vapi Integration
 
-Below we'll cover the entire integration between us and Vapi
+Below we'll cover the entire integration between us and… See Telnyx guidance and requirements Learn more about Telnyx + Vapi Integration with Telnyx.
 
 Z
 
-Written by Zane Grey
 
-May 20, 2026
 
-Table of contents
 
-# **Telnyx + Vapi Integration**
+## **Telnyx + Vapi Integration**
 
 Use this guide to connect a Telnyx phone number to Vapi so your Vapi assistant can receive inbound calls and, if needed, place outbound calls through Telnyx.
 
@@ -30,9 +31,9 @@ This article is for using a Telnyx number with Vapi. It is not for importing a V
 
 There are two supported setup paths:
 
-1. **Import an existing Telnyx number into Vapi**  
+1. **Import an existing Telnyx number into Vapi**
    Recommended for most customers. You keep the number in Telnyx and add it to Vapi from the Vapi dashboard.
-2. **Use a BYO Telnyx SIP trunk with Vapi**  
+2. **Use a BYO Telnyx SIP trunk with Vapi**
    Use this only when you need custom SIP routing, SIP trunk credentials, or advanced inbound/outbound SIP configuration.
 
 If you are not sure which option to use, start with the imported-number flow.
@@ -83,7 +84,7 @@ Recommended practices:
 * Do not include API keys in screenshots, support tickets, shared documents, or chat messages.
 * Rotate the key if it is exposed.
 * Delete the key if the integration is no longer used.
-* Telnyx API key guidance:  
+* Telnyx API key guidance:
   ​**<https://support.telnyx.com/en/articles/4305158-api-keys-and-how-to-use-them>**
 
 ## **4. Import your Telnyx number into Vapi**
@@ -100,7 +101,7 @@ In the Vapi dashboard:
 
 Once saved, inbound calls to the Telnyx number should route to the assigned Vapi assistant.
 
-Vapi’s Telnyx import guide:  
+Vapi’s Telnyx import guide:
 ​
 
 
@@ -215,5 +216,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

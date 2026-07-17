@@ -1,27 +1,28 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6161111-3cx-configuring-a-3cx-v18-pbx
+title: "3CX: Configuring a 3CX V18 PBX"
+description: "Learn how to configure a 3CX V18 PBX SIP Trunk (Calls & Messaging) with Telnyx through their import provider option… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: f20fd68de5318103f19926242e092400bdea47894173a6d1c07efa08a523f5ec
 ---
 
-3CX: Configuring a 3CX V18 PBX | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # 3CX: Configuring a 3CX V18 PBX
 
-Learn how to configure a 3CX V18 PBX SIP Trunk (Calls & Messaging) with Telnyx through their import provider option using XML
+Learn how to configure a 3CX V18 PBX SIP Trunk (Calls & Messaging) with Telnyx through their import provider option… See Telnyx guidance and requirements.
 
-Written by Dillin
 
-May 20, 2026
 
-Table of contents
 
 [Jump to Instructions](#:~:text=Instructions%20for%20Configuring%20a%203CX%20V18%20PBX%20Trunk)
 
-[3CX](https://www.3cx.com/) is an open standards IP PBX that offers complete Unified Communications, out of the box. Suitable for any business size or industry 3CX can accommodate to your every need; from mobility and status to advanced contact center features and more, at a fraction of the cost.  
-​  
+[3CX](https://www.3cx.com/) is an open standards IP PBX that offers complete Unified Communications, out of the box. Suitable for any business size or industry 3CX can accommodate to your every need; from mobility and status to advanced contact center features and more, at a fraction of the cost.
+​
 3CX makes installation, management and maintenance of your PBX so easy that you can effortlessly manage it yourself, whether on an appliance or server at your premise or in the cloud. This article guides you on how to configure this PBX for making and receiving calls over the internet through a next generation carrier like Telnyx!
 
 |  |
@@ -30,7 +31,7 @@ Table of contents
 
 ---
 
-# Instructions for Configuring a 3CX V18 PBX Trunk
+## Instructions for Configuring a 3CX V18 PBX Trunk
 
 In this guide you will:
 
@@ -65,14 +66,14 @@ In this step, you'll do a basic configuration before creating your Telnyx [SIP t
 1. Log into 3CX with the username and password provided to you during the installation process.
 
    ![3CX Sign in screen](_images/49fc0a3e188e39f2.png)
-2. On the "**Extension Length"** tab, specify your extension length by choosing how many digits your extension should have (default is 3). Note that this CANNOT be changed later.  
+2. On the "**Extension Length"** tab, specify your extension length by choosing how many digits your extension should have (default is 3). Note that this CANNOT be changed later.
    ​
 
    ### Extension Length Tab:
 
    ![Extension length tab](_images/4a43d9f7f30080bf.png)
 3. Click "**Next"**.
-4. On the "**Admin Email"** tab and enter an email you want to use to receive system notifications and other important information.  
+4. On the "**Admin Email"** tab and enter an email you want to use to receive system notifications and other important information.
    ​
 
    ### Admin Email Tab:
@@ -149,7 +150,7 @@ In this step, you'll configure everything needed to start making and receiving c
       1. Select this option if you would prefer to send and receive calls from the public IP address of your 3CX instance.
       2. **Authentication ID:** Leave empty
       3. **Authentication Password:** Leave empty
-      4. **3 Way Authentication:** Do no enable  
+      4. **3 Way Authentication:** Do no enable
          ​
 7. Find the "**Route calls to"** section.
 
@@ -167,7 +168,7 @@ In this step, you'll configure everything needed to start making and receiving c
    2. **Provider URL**: <https://api.telnyx.com/v2/messages>
    3. **Copy webhook URL**: Visit <https://portal.telnyx.com/#/programmable-messaging/profiles> and make sure to copy and paste this URL into your messaging profile that you've created to allow for inbound and outbound messaging.
    4. ![Copying webhook URL](_images/f472da8798c3951d.png)
-   5. Click **OK** when you are happy with the trunk settings.  
+   5. Click **OK** when you are happy with the trunk settings.
       ​
 10. Your Telnyx trunk is now live!
 
@@ -206,8 +207,8 @@ In this step, you'll configure everything needed to start making and receiving c
    3. **Calls to Numbers with a length of :** <leave empty>
 
       ![Applying rules to calls](_images/ecdf9290b2733687.png)
-5. Find the **Make outbound calls on** section. This is where you will configure your routes. You can configure up to 3 routes for calls. The second and third route will be used as backup. For each route, digits can be stripped or added. Strip Digits 0 on Route 1 and Strip Digits 1 digit for remaining 2 routes.  
-   ​  
+5. Find the **Make outbound calls on** section. This is where you will configure your routes. You can configure up to 3 routes for calls. The second and third route will be used as backup. For each route, digits can be stripped or added. Strip Digits 0 on Route 1 and Strip Digits 1 digit for remaining 2 routes.
+   ​
    This is also one of the many ways an **outbound caller ID** can be applied within 3CX. If you choose to apply an outbound caller ID on your Outbound Route, it will be applied to all calls that proceed through this route.
 
    ![Outbound call routing](_images/ee0936a031c45464.png)
@@ -301,5 +302,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

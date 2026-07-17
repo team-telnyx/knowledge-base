@@ -1,27 +1,28 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3199007-guide-to-using-our-traffic-type-feature
+title: "Guide to Using Our Traffic Type Feature"
+description: "In this article we will walk you through using our traffic type feature so you can get started right away. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a6d8cc59763e462c9ba42837c39338f274370b6bcc92894944eab8b941e45d84
 ---
 
-Guide to Using Our Traffic Type Feature | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Guide to Using Our Traffic Type Feature
 
-In this article we will walk you through using our traffic type feature so you can get started right away.
+In this article we will walk you through using our traffic type feature so you can get started right away. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-September 18, 2023
 
-Table of contents
 
-# Traffic Type Feature Overview
+## Traffic Type Feature Overview
 
-The **Telnyx Traffic Type** feature allows users to select if an eligible number will be routed to an end user as Application-to-Person ([A2P](https://telnyx.com/resources/what-is-a2p-messaging)) or Person-to-Person (P2P) traffic.  
-​  
+The **Telnyx Traffic Type** feature allows users to select if an eligible number will be routed to an end user as Application-to-Person ([A2P](https://telnyx.com/resources/what-is-a2p-messaging)) or Person-to-Person (P2P) traffic.
+​
 Selecting a traffic type that aligns with the number's messaging use case will improve message deliverability.
 
 ## A2P Traffic Type
@@ -36,7 +37,7 @@ The P2P traffic type is ideal for two-way communication and allows customers to 
 
 Check out our resource center for more details on A2P vs. P2P [here](https://telnyx.com/resources/sms-numbers-traffic-types).
 
-Not sure which traffic type is best for your use case? [CTIA’s Messaging Principles and Best Practices](https://api.ctia.org/wp-content/uploads/2019/07/190719-CTIA-Messaging-Principles-and-Best-Practices-FINAL.pdf) offer a set of recommendations to help guide your decision.  
+Not sure which traffic type is best for your use case? [CTIA’s Messaging Principles and Best Practices](https://api.ctia.org/wp-content/uploads/2019/07/190719-CTIA-Messaging-Principles-and-Best-Practices-FINAL.pdf) offer a set of recommendations to help guide your decision.
 ​
 
 ---
@@ -48,5 +49,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5271423-guide-to-sip-anchorsite-settings
+title: "Guide to SIP AnchorSite® Settings"
+description: "This article explains the AnchorSite® setting in your SIP Connection settings and how it works. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: c6c6888f3fb3ae5ab22b79ca5f010f3299b59a9d0095483d9949cf551ba9bb37
 ---
 
-Guide to SIP AnchorSite® Settings | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Guide to SIP AnchorSite® Settings
 
-This article explains the AnchorSite® setting in your SIP Connection settings and how it works.
+This article explains the AnchorSite® setting in your SIP Connection settings and how it works. See Telnyx guidance and requirements.
 
-Written by Alex Conroy
 
-April 29, 2026
 
-Table of contents
 
 The **AnchorSite®** setting allows you to select the media server which Telnyx will then use to route your call's media packets. This can be found in the settings of your connections/applications: <https://portal.telnyx.com/#/voice/connections>
 
@@ -24,7 +25,7 @@ The **AnchorSite®** setting allows you to select the media server which Telnyx 
 
 ![](_images/b9e95998b6087cef.png)
 
-# **Fail-over**
+## **Fail-over**
 
 ---
 
@@ -71,5 +72,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

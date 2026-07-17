@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4567969-united-states-n11-codes
+title: "United States - N11 Codes"
+description: "In this guide we will explain N11 codes in the United States and their purpose. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 7c59353c2961de61a6db1ef8a8ebbdf2b9f0f3aeba731f9fcacb977b6e910dfc
 ---
 
-United States - N11 Codes | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # United States - N11 Codes
 
-In this guide we will explain N11 codes in the United States and their purpose.
+In this guide we will explain N11 codes in the United States and their purpose. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-May 25, 2024
 
-Table of contents
 
-# **What Are N11 Codes?**
+## **What Are N11 Codes?**
 
 N11 codes are used to provide three-digit dialing access to special services.
 
@@ -56,5 +57,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

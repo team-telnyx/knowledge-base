@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5807979-konftel-300wx-telnyx-setup
+title: "Konftel 300Wx: Telnyx Setup"
+description: "Effortlessly set up and configure Konftel 300 Series conference phones with Telnyx for enhanced communication solutions. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ee9ad29b8d22624f13d9b9f8f41b4844ed0e1939a28a580f423d301e8a491a19
 ---
 
-Konftel 300Wx: Telnyx Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Konftel 300Wx: Telnyx Setup
 
-Effortlessly set up and configure Konftel 300 Series conference phones with Telnyx for enhanced communication solutions.
+Effortlessly set up and configure Konftel 300 Series conference phones with Telnyx for enhanced communication solutions. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_cab6579182)
 
@@ -36,7 +37,7 @@ Additional documentation:
 
 ---
 
-# Instructions for configuring the Konftel 300Wx conference phone
+## Instructions for configuring the Konftel 300Wx conference phone
 
 In this activity you will
 
@@ -150,5 +151,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

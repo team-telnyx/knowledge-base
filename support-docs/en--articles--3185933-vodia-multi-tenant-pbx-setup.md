@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3185933-vodia-multi-tenant-pbx-setup
+title: "Vodia: Multi-Tenant PBX Setup"
+description: "Configure Vodia Multi-Tenant PBX with Credentials - It's easy and fast, get started today. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 3cc1e80b6e2b5848e832afc6de34d3a49c7c90607fd7e86180814ec1deecdfc9
 ---
 
-Vodia: Multi-Tenant PBX Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Vodia: Multi-Tenant PBX Setup
 
-Configure Vodia Multi-Tenant PBX with Credentials - It's easy and fast, get started today.
+Configure Vodia Multi-Tenant PBX with Credentials - It's easy and fast, get started today. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-June 6, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_4ff0450d5f)
 
@@ -34,7 +35,7 @@ Additional resources:
 
 ---
 
-# Instructions for configuring the Vodia Multi-Tenant PBX
+## Instructions for configuring the Vodia Multi-Tenant PBX
 
 In this activity you will:
 
@@ -87,7 +88,7 @@ In this section, you will route your Telnyx phone number(s) into the Vodia PBX.
    2. Send all calls to a specific account
    3. Send to a 10 Digit DID
    4. Match extension after a prefix
-   5. Use a list of expression  
+   5. Use a list of expression
       ​
 
    For this exercise, we are going choose "Send all calls to a specific account" When you call into the system all calls will go the specified extension.
@@ -101,7 +102,7 @@ In this section, you will route your Telnyx phone number(s) into the Vodia PBX.
    ![DID Management portal on the Vodia PBX. ](_images/f01342e8f420ec37.png)
 5. Navigate to your Telnyx trunk from your Vodia PBX system, scroll down to **Routing/Redirection** and choose *Send all to the destination request URL*.
 
-That's it, you've now completed the configuration of Zoiper 5 and can now make and receive calls by using Telnyx as the SIP provider.  
+That's it, you've now completed the configuration of Zoiper 5 and can now make and receive calls by using Telnyx as the SIP provider.
 ​
 
 [Back to Top](#h_4ff0450d5f)
@@ -129,5 +130,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

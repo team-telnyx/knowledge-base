@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3739523-malta-did-requirements
+title: "Malta DID Requirements"
+description: "Here you will find a detailed list of requirements to acquire Malta numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: c2877655343a9975fc0f531920fa8593da79d2f61f341e7dc95aca61b1a66988
 ---
 
-Malta DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Malta DID Requirements
 
-Here you will find a detailed list of requirements to acquire Malta numbers.
+Here you will find a detailed list of requirements to acquire Malta numbers. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-May 26, 2026
 
-Table of contents
 
-# DID Number Requirements for Malta
+## DID Number Requirements for Malta
 
 In order to purchase a Malta number you will need to provide the following:
 
@@ -46,9 +47,9 @@ For **address** verification:
 
 \* Address in Malta (street, building number, postal code, city and country)
 
-\* Proof of address (dated within 3 months)  
-​  
-Additional details:   
+\* Proof of address (dated within 3 months)
+​
+Additional details:
 \* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **Toll-Free Numbers in Malta**
@@ -73,17 +74,17 @@ For **address** verification:
 
 \* Address in Malta (street, building number, postal code, city and country)
 
-\* Proof of address (dated within 3 months)  
-​  
-Additional details:   
+\* Proof of address (dated within 3 months)
+​
+Additional details:
 \* End-users must be physically present in the country when purchasing numbers from that country
 
 \*\*\*Please note that once the documentation is received it will take approximately 72 hours to validate the information and activate the number for use.
 
 ## **Identity Verification: What "Local" Means**
 
-For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.  
-​  
+For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.
+​
 All identification is subject to review, and we reserve the right to request additional documentation or decline any document we cannot verify or that does not meet applicable legal and regulatory requirements.
 
 ## **Helpful for acquiring Malta DIDs**
@@ -127,5 +128,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

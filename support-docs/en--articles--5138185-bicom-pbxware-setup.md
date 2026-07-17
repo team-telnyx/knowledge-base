@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5138185-bicom-pbxware-setup
+title: "Bicom: PBXware Setup"
+description: "Guide to configure Bicom PBXware with Telnyx as the SMS provider for unified communication. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 5823afdb88ed10b43e9dfd8308ba43b5cdf7649d7a186696cb540eb50c75525b
 ---
 
-Bicom: PBXware Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Bicom: PBXware Setup
 
-Guide to configure Bicom PBXware with Telnyx as the SMS provider for unified communication.
+Guide to configure Bicom PBXware with Telnyx as the SMS provider for unified communication. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_b3ef4bdae2)
 
@@ -41,7 +42,7 @@ Additional documentation and resources:
 
 ---
 
-# Instructions for configuring Bicom PBXware to work with Telnyx
+## Instructions for configuring Bicom PBXware to work with Telnyx
 
 In this activity you will:
 
@@ -92,5 +93,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

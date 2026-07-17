@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/7029684-telephony-credentials-types
+title: "Telephony Credentials: Types"
+description: "This article explains and describes how to setup and use SIP Connection Credentials, See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: f3b17b194c20777fa37028cb8a614c408b47ab4f4514cff0cf5bcc2caf4af740
 ---
 
-Telephony Credentials: Types | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# Telephony Credentials: Types
 
-This article explains and describes how to setup and use SIP Connection Credentials, On-Demand Credentials and JSON Web Tokens.
 
-Written by David
 
-April 29, 2026
-
-Table of contents
 
 # Telephony Credentials: Types
+
+This article explains and describes how to setup and use SIP Connection Credentials, See Telnyx guidance and requirements.
+
+
+
+
+## Telephony Credentials: Types
 
 We offer three different Telephony Credential types to authenticate your calls.
 
@@ -72,13 +73,13 @@ On-Demand Credentials are created programmatically via our RESTful API.
 #### 3. POST the API request
 
 * ```
-  curl -i -X POST \  
-    https://api.telnyx.com/v2/telephony_credentials \  
-    -H 'Authorization: Bearer <YOUR_TOKEN_HERE>' \  
-    -H 'Content-Type: application/json' \  
-    -d '{  
-      "connection_id": "1234567890",  
-      "name": "My-new-credential"  
+  curl -i -X POST \
+    https://api.telnyx.com/v2/telephony_credentials \
+    -H 'Authorization: Bearer <YOUR_TOKEN_HERE>' \
+    -H 'Content-Type: application/json' \
+    -d '{
+      "connection_id": "1234567890",
+      "name": "My-new-credential"
     }'
   ```
 
@@ -153,5 +154,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

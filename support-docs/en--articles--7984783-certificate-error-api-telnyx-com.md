@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/7984783-certificate-error-api-telnyx-com
+title: "Certificate Error: api.telnyx.com"
+description: "In this article, you will get to know how you can install the TLS certificate for… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: b8a0fe4f7ba0cc06092c1f03d8a8abf75fb1478976ea88d3b0f4a47d99208fe5
 ---
 
-Certificate Error: api.telnyx.com | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Certificate Error: api.telnyx.com
 
-In this article, you will get to know how you can install the TLS certificate for Telnyx
+In this article, you will get to know how you can install the TLS certificate for… See Telnyx guidance and requirements.
 
-Written by Alex Conroy
 
-June 6, 2024
 
-Table of contents
 
-# What to do if you get a security certificate error:
+## What to do if you get a security certificate error:
 
 TLDR:
 
@@ -81,19 +82,19 @@ If you (as a customer) are using Java defaults, then you do not need to take act
 
 If you are not using Java default ca certs store, you can import all trusted CA certificates used by Cloudflare using Java's key tool with the following steps:
 
-1. Fetch CAs bundle published by Cloudflare: [https://github.com/cloudflare/cfssl\_trust/blob/master/ca-bundle.crt  
+1. Fetch CAs bundle published by Cloudflare: [https://github.com/cloudflare/cfssl\_trust/blob/master/ca-bundle.crt
    ​](https://github.com/cloudflare/cfssl_trust/blob/master/ca-bundle.crt)
-2. Add those certificates to the Java truststore you use.  
+2. Add those certificates to the Java truststore you use.
    ​
 
    ```
-   # Fetch CA bundle from Cloudflare repo  
-   $ curl -o cf-ca-bundle.crt -L https://raw.githubusercontent.com/cloudflare/cfssl_trust/master/ca-bundle.crt  
-     
-   # Split bundle in individual certs  
-   $ csplit -f cf-ca-cert -z ca-bundle.crt '/-----BEGIN CERTIFICATE-----/' '{*}'  
-     
-   # Import the CA certs into an existing truststore file (eg: myTrustStoreFile). Adjust -storepass apropiately   
+## Fetch CA bundle from Cloudflare repo
+   $ curl -o cf-ca-bundle.crt -L https://raw.githubusercontent.com/cloudflare/cfssl_trust/master/ca-bundle.crt
+
+## Split bundle in individual certs
+   $ csplit -f cf-ca-cert -z ca-bundle.crt '/-----BEGIN CERTIFICATE-----/' '{*}'
+
+## Import the CA certs into an existing truststore file (eg: myTrustStoreFile). Adjust -storepass apropiately
    $ for ca in ls cf-ca-cert*; do keytool -import -storepass changeit -keystore myTrustStoreFile -alias $ca -file $ca -noprompt; done
    ```
 
@@ -102,111 +103,111 @@ If you are not using Java default ca certs store, you can import all trusted CA 
    We will use as an example, the [List notification channels](https://developers.telnyx.com/api/notifications/list-notification-channels) Telnyx API Java example:
 
    ```
-   // App.java  
-     
-   import java.net.*;  
-   import java.net.http.*;  
-   import java.util.*;  
-   import java.nio.charset.StandardCharsets;  
-   import java.util.stream.Collectors;  
-     
-   public class App {  
-     public static void main(String[] args) throws Exception {  
-   var httpClient = HttpClient.newBuilder().build();  
-     
+   // App.java
+
+   import java.net.*;
+   import java.net.http.*;
+   import java.util.*;
+   import java.nio.charset.StandardCharsets;
+   import java.util.stream.Collectors;
+
+   public class App {
+     public static void main(String[] args) throws Exception {
+   var httpClient = HttpClient.newBuilder().build();
+
    HashMap<String, String> params = new HashMap<>();
    ```
 
    ```
-   params.put("page[number]", "1");  
-   params.put("page[size]", "20");  
-   params.put("filter[channel_type_id][eq]", "webhook");  
-     
-   var query = params.keySet().stream()  
-      .map(key -> key + "=" + URLEncoder.encode(params.get(key), StandardCharsets.UTF_8))  
-      .collect(Collectors.joining("&"));  
-     
-   var host = "https://api.telnyx.com";  
-   var pathname = "/v2/notification_channels";  
-   var request = HttpRequest.newBuilder()  
-      .GET()  
-      .uri(URI.create(host + pathname + '?' + query))  
-      .header("Authorization", "Bearer ".concat(System.getenv("TELNYX_TOKEN")))  
-      .build();  
-     
-   var response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());  
-     
-   System.out.println(response.body());  
+   params.put("page[number]", "1");
+   params.put("page[size]", "20");
+   params.put("filter[channel_type_id][eq]", "webhook");
+
+   var query = params.keySet().stream()
+      .map(key -> key + "=" + URLEncoder.encode(params.get(key), StandardCharsets.UTF_8))
+      .collect(Collectors.joining("&"));
+
+   var host = "https://api.telnyx.com";
+   var pathname = "/v2/notification_channels";
+   var request = HttpRequest.newBuilder()
+      .GET()
+      .uri(URI.create(host + pathname + '?' + query))
+      .header("Authorization", "Bearer ".concat(System.getenv("TELNYX_TOKEN")))
+      .build();
+
+   var response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
+
+   System.out.println(response.body());
      }
    ```
 
    ### When we run it with the default Java JRE/JDK CA store, we will get the expected response:
 
    ```
-   # Compile App.java  
-   $ javac App.java  
-     
-   # Run App without creds  
-   $ java App  
-   {  
-     "errors": [  
-   {  
-      "code": "10009",  
-      "title": "Authentication failed",  
-      "detail": "Could not understand the provided credentials.",  
-      "meta": {  
-        "url": "https://developers.telnyx.com/docs/overview/errors/10009"  
-      }  
-   }  
-     ]  
-   }  
-     
-   # Run App with creds  
-   $ export TELNYX_TOKEN="<YOUR_TELNYX_API_TOKEN>"  
-   $ java App  
+## Compile App.java
+   $ javac App.java
+
+## Run App without creds
+   $ java App
+   {
+     "errors": [
+   {
+      "code": "10009",
+      "title": "Authentication failed",
+      "detail": "Could not understand the provided credentials.",
+      "meta": {
+        "url": "https://developers.telnyx.com/docs/overview/errors/10009"
+      }
+   }
+     ]
+   }
+
+## Run App with creds
+   $ export TELNYX_TOKEN="<YOUR_TELNYX_API_TOKEN>"
+   $ java App
    {"data": [], "meta": {"total_pages": 0, "total_results": 0, "page_number": 1, "page_size": 20}}
    ```
 
    ### To see how the error would look like when the truststore doesn't contain the needed CA cert, we can perform the following quick test:
 
    ```
-   # Fetch the default cacerts truststore  
-   ## When using JDK  
-   $ cp ${JAVA_HOME}/lib/security/cacerts ./  
-   ## When using JRE  
-   $ cp ${JAVA_HOME}/jre/lib/security/cacerts ./  
-     
-   # Confirm test App works as expected  
-   $ java -Djavax.net.ssl.trustStore=cacerts -Djavax.net.ssl.trustStorePassword=changeit App  
-   {"data": [], "meta": {"total_pages": 0, "total_results": 0, "page_number": 1, "page_size": 20}}  
-     
-   # Delete relevant certificate from the truststore  
+## Fetch the default cacerts truststore
+   ## When using JDK
+   $ cp ${JAVA_HOME}/lib/security/cacerts ./
+   ## When using JRE
+   $ cp ${JAVA_HOME}/jre/lib/security/cacerts ./
+
+## Confirm test App works as expected
+   $ java -Djavax.net.ssl.trustStore=cacerts -Djavax.net.ssl.trustStorePassword=changeit App
+   {"data": [], "meta": {"total_pages": 0, "total_results": 0, "page_number": 1, "page_size": 20}}
+
+## Delete relevant certificate from the truststore
    $ keytool -delete -alias debian:baltimore_cybertrust_root.pem -storepass changeit -keystore cacerts
    ```
 
    ```
-   # Run App again and it will fail  
-   $ java -Djavax.net.ssl.trustStore=cacerts -Djavax.net.ssl.trustStorePassword=changeit App  
-   Exception in thread "main" javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target  
-        at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:560)  
-        at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:119)  
-        at App.main(App.java:28)  
-   Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target  
-        at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:131)  
-   ...  
-        at java.base/java.lang.Thread.run(Thread.java:831)  
-   Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target  
-        at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:439)  
-   ...  
-       atjava.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1335)  
+## Run App again and it will fail
+   $ java -Djavax.net.ssl.trustStore=cacerts -Djavax.net.ssl.trustStorePassword=changeit App
+   Exception in thread "main" javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+        at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:560)
+        at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:119)
+        at App.main(App.java:28)
+   Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+        at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:131)
+   ...
+        at java.base/java.lang.Thread.run(Thread.java:831)
+   Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+        at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:439)
+   ...
+       atjava.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1335)
    ... 21 more
    ```
 
    ```
-   Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target  
-        at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141)  
-   ...  
-        at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:434)  
+   Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+        at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141)
+   ...
+        at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:434)
    ...26more
    ```
 
@@ -233,5 +234,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/10164784-using-telnyx-sim-with-ubiquiti-unifi-lte-pro
+title: "Using Telnyx SIM with Ubiquiti UniFi LTE Pro"
+description: "A step-by-step guide to setting up the Ubiquiti UniFi LTE Pro with a Telnyx SIM card for reliable cellular backup… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: d345ef29c538bbc71d0d1c8f17af0d7a34aad7ace8f20d7c07b271a26bd484f0
 ---
 
-Using Telnyx SIM with Ubiquiti UniFi LTE Pro | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Using Telnyx SIM with Ubiquiti UniFi LTE Pro
 
-A step-by-step guide to setting up the Ubiquiti UniFi LTE Pro with a Telnyx SIM card for reliable cellular backup connectivity.
+A step-by-step guide to setting up the Ubiquiti UniFi LTE Pro with a Telnyx SIM card for reliable cellular backup… See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-November 20, 2024
 
-Table of contents
 
-# Ubiquiti UniFi LTE Pro Setup Guide
+## Ubiquiti UniFi LTE Pro Setup Guide
 
 The Ubiquiti UniFi LTE Pro provides reliable backup cellular internet connectivity to ensure your UniFi WAN network remains operational. The Pro model supports 4G LTE and WCDMA bands and is compatible with the EU, US, and CA regions. It includes a Nano SIM card slot, which allows for the insertion of a Telnyx SIM card.
 
@@ -113,5 +114,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

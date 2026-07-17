@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5748952-yeastar-s-series-telnyx-sip
+title: "Yeastar S-Series: Telnyx SIP"
+description: "Learn how to configure both a Yeastar S-Series IP or Credentials trunk to work with your Telnyx Mission Control Portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 44c8f2c5602ddfa997d554c287e6766804d6429dade743cf1813f88992666f91
 ---
 
-Yeastar S-Series: Telnyx SIP | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Yeastar S-Series: Telnyx SIP
 
-Learn how to configure both a Yeastar S-Series IP or Credentials trunk to work with your Telnyx Mission Control Portal.
+Learn how to configure both a Yeastar S-Series IP or Credentials trunk to work with your Telnyx Mission Control Portal. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to instructions](#h_4d0e45deda)
 
@@ -38,7 +39,7 @@ Additional documentation:
 
 ---
 
-# Instructions for setting up a VoIP trunk in Yeastar
+## Instructions for setting up a VoIP trunk in Yeastar
 
 In this document, you will:
 
@@ -48,7 +49,7 @@ In this document, you will:
 
 **Video Walkthrough**
 
-Coming soon! Check back frequently as we are updating our documentation.  
+Coming soon! Check back frequently as we are updating our documentation.
 ​
 
 **Pre-Requisites**
@@ -99,7 +100,7 @@ In this step, you'll add a peer SIP trunk in your Yeastar PBX.
 
 ![PBX settings. ](_images/fb42a63d1a6b3164.png)
 
-Once this configuration is complete, skip to [Step 2](#h_8eb21b9e4b).  
+Once this configuration is complete, skip to [Step 2](#h_8eb21b9e4b).
 ​
 
 [Back to Top](#h_4d0e45deda)
@@ -174,7 +175,7 @@ In this step, you'll get Yeastar ready to take incoming calls by configuring an 
 
    ![Inbound Route page.](_images/144ff1170b9f85b1.png)
 
-That's it, you've now set up your SIP trunk in Yeastar PBX and configured it to work with Telnyx.  
+That's it, you've now set up your SIP trunk in Yeastar PBX and configured it to work with Telnyx.
 ​
 
 [Back to Top](#h_4d0e45deda)
@@ -197,5 +198,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

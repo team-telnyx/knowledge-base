@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130637-what-is-telnyx
+title: "What is Telnyx?"
+description: "Wondering exactly what Telnyx is? See Telnyx guidance and requirements Learn more about What is Telnyx? with Telnyx."
 scraped: 2026-07-08
 content_hash: cdc83ffce9f72e3ce27b1bdca05311fdaa7cfa790f0884658d808990846e084b
 ---
 
-What is Telnyx? | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # What is Telnyx?
 
-Wondering exactly what Telnyx is? Here we will give you a brief overview so you can determine if we are the right solution for you.
+Wondering exactly what Telnyx is? See Telnyx guidance and requirements Learn more about What is Telnyx? with Telnyx.
 
-Written by Telnyx Sales
 
-September 4, 2024
 
-Table of contents
 
 ## **What is Telnyx?**
 
@@ -145,5 +146,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

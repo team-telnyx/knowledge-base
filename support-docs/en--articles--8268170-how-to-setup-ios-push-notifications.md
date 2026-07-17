@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8268170-how-to-setup-ios-push-notifications
+title: "How to Setup iOS Push Notifications"
+description: "Resolve the CA error for your webhook URL. See Telnyx guidance and requirements Learn more about How to Setup iOS Push Notifications with Telnyx."
 scraped: 2026-07-08
 content_hash: 82f5445a802d5adcf8d1c85b4f62d223ee1807a51b53b48ce7c5ba2af3d83d2d
 ---
 
-How to Setup iOS Push Notifications | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# How to Setup iOS Push Notifications
 
-Resolve the CA error for your webhook URL. Understand the root cause and solutions.
 
-Written by David
 
-May 20, 2026
-
-Table of contents
 
 # How to Setup iOS Push Notifications
+
+Resolve the CA error for your webhook URL. See Telnyx guidance and requirements Learn more about How to Setup iOS Push Notifications with Telnyx.
+
+
+
+
+## How to Setup iOS Push Notifications
 
 The Telnyx iOS Client WebRTC SDK makes use of APNS in order to deliver push notifications. If you would like to receive notifications when receiving calls on your iOS mobile device you will have to configure a VoIP push certificate.
 
@@ -130,5 +131,3 @@ That’s done. You can now go to your code and start implementing **PushKit** an
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

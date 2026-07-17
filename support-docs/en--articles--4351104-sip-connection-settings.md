@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4351104-sip-connection-settings
+title: "SIP Connection: Settings"
+description: "This article explains the SIP Connection settings in the Mission Control Portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 6c30a0c131a0db8cbbb8e7bf76f1406a64eda0934ed40ca6cd188e9e7da74460
 ---
 
-SIP Connection: Settings | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # SIP Connection: Settings
 
-This article explains the SIP Connection settings in the Mission Control Portal.
+This article explains the SIP Connection settings in the Mission Control Portal. See Telnyx guidance and requirements.
 
-Written by David
 
-May 20, 2026
 
-Table of contents
 
-# Overview of SIP Connections
+## Overview of SIP Connections
 
 To access the settings of a connection, click the small edit icon on the far right of the desired connection at the [SIP Trunking section](https://portal.telnyx.com/#/voice/connections) under the Voice Suite in the Mission Control Portal.
 
@@ -117,15 +118,15 @@ Lastly, there are currently 3 webhook API Versions you can specify:
 * **TeXML**
 
   + When you set park outbound calls with [TeXML](https://developers.telnyx.com/docs/voice/programmable-voice/texml-fundamentals) as the API Version and make an outbound call, Telnyx will create a parked leg for your call and fetch the XML instructions that live on the webhook url you have specified so that TeXML takes over handling your calls.
-  + The callback content-type will be sent as **form-data** over HTTP.  
+  + The callback content-type will be sent as **form-data** over HTTP.
     ​
 
 ## AnchorSite®
 
 The **AnchorSite®** settings allows the user to select the media server in which their calls are anchored. In most cases, the closer the server is to the user geographically, the better the latency. This setting defaults to **Latency** if not modified.
 
-When the [AnchorSite®](https://support.telnyx.com/en/articles/5271423-guide-to-sip-anchorsite-settings) is set to Latency, we will proactively monitor the latency from your endpoints to our points of presence (PoP) to determine where your media should be anchored in order to ensure your packets get off the internet as fast as possible.   
-​  
+When the [AnchorSite®](https://support.telnyx.com/en/articles/5271423-guide-to-sip-anchorsite-settings) is set to Latency, we will proactively monitor the latency from your endpoints to our points of presence (PoP) to determine where your media should be anchored in order to ensure your packets get off the internet as fast as possible.
+​
 Please note, there are limitations to selecting latency depending on the authentication type of your SIP Connection, whereby your calls may be anchored on a media server further away if we are unable to identify the latency between our media servers and the IP's associated with the SIP Connection, through ICMP requests from our network. Please make sure you whitelist our [media IP addresses](https://sip.telnyx.com/#media) on your firewall as these will be used to check latency.
 
 For credential based SIP Connections, please make sure to include the SIP Connections **username** in the contact header in your **first** SIP INVITE. This will allow our SIP Proxy to identify the settings associated with your SIP Connection and ensure the anchorsite selected is chosen. Again, if the username is not included in the first SIP INVITE attempt, there is no way for us to identify your SIP Connection in order to guarantee **AnchorSite®**.
@@ -193,5 +194,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

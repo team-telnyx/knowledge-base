@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/13986481-whatsapp-message-types-explained
+title: "WhatsApp Message Types Explained"
+description: "Understand the difference between template messages and free-form messages, and when to use each conversation type. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: b84d28529808c576a61aeada7084c8b65d5f9d1d15a70b1c8d12042e741b10f8
 ---
 
-WhatsApp Message Types Explained | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # WhatsApp Message Types Explained
 
-Understand the difference between template messages and free-form messages, and when to use each conversation type.
+Understand the difference between template messages and free-form messages, and when to use each conversation type. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-March 16, 2026
 
-Table of contents
 
-# Two Categories of Messages
+## Two Categories of Messages
 
 WhatsApp messages fall into two categories based on how conversations are initiated:
 
@@ -51,7 +52,7 @@ Free-form messages can be sent **only within a 24-hour window** after the custom
 * **Contacts** — Contact cards (1–257 per message)
 * **Interactive** — Quick reply buttons, CTA URL buttons, list messages
 
-# When to Use Which
+## When to Use Which
 
 |  |  |
 | --- | --- |
@@ -73,5 +74,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

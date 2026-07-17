@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/7869213-use-arq-backup-with-telnyx-storage
+title: "Use Arq Backup with Telnyx Storage"
+description: "Discover how to set up Arq Backup with Telnyx Storage for secure and efficient file backup and storage management. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: f21c6f6eba9aef53a2f4d1f77dd69782535f46e253fbe629f09b24146f57ac12
 ---
 
-Use Arq Backup with Telnyx Storage | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Use Arq Backup with Telnyx Storage
 
-Discover how to set up Arq Backup with Telnyx Storage for secure and efficient file backup and storage management.
+Discover how to set up Arq Backup with Telnyx Storage for secure and efficient file backup and storage management. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-June 19, 2024
 
-Table of contents
 
 Arq Backup is a backup software designed for developers that securely backs up their important files and data to various storage providers. It offers features such as incremental backups, versioning, compression, and encryption, as well as customizable backup schedules and a backup health monitor.
 
 ---
 
-# How to configure Arq Backup to work with Telnyx Storage
+## How to configure Arq Backup to work with Telnyx Storage
 
 1. Download and install the latest version of Arq backup [here](https://www.arqbackup.com/)!
 2. Open the Arq Backup application. Then, click on the button to create a **New Storage Location**
@@ -66,5 +67,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

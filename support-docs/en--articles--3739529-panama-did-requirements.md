@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3739529-panama-did-requirements
+title: "Panama DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Panama numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 05fa64e5133d4255c1d783d41b28de42a51096a0b86f3522c36afc67dce0e053
 ---
 
-Panama DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Panama DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Panama numbers.
+Here you will find a list of detailed requirements for acquiring Panama numbers. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-September 29, 2025
 
-Table of contents
 
-# DID Number Requirements for Panama
+## DID Number Requirements for Panama
 
 In order to purchase a Panama number you will need to provide the following:
 
@@ -46,7 +47,7 @@ For **address** verification:
 
 ## **Toll-Free Numbers in Panama**
 
-For **business identity** verification:  
+For **business identity** verification:
 \* Name, last name of an authorized representative
 
 \* Company name
@@ -112,5 +113,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

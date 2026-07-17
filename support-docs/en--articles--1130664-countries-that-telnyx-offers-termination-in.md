@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130664-countries-that-telnyx-offers-termination-in
+title: "Countries that Telnyx Offers Termination in"
+description: "Telnyx offers termination in every country, here you will find how to access pricing for international termination. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: fc029f71a9382687c73108d15b50ca55c8b8fae301d3ad578d93d8891fa9e847
 ---
 
-Countries that Telnyx Offers Termination in | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Countries that Telnyx Offers Termination in
 
-Telnyx offers termination in every country, here you will find how to access pricing for international termination.
+Telnyx offers termination in every country, here you will find how to access pricing for international termination. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-January 29, 2026
 
-Table of contents
 
-# Does Telnyx offer termination in every country?
+## Does Telnyx offer termination in every country?
 
 With Telnyx, you can call whomever, whenever, wherever they are. You can access our [international termination pricing](https://portal.telnyx.com/#/pricing/voice) through your portal account.
 
@@ -35,5 +36,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

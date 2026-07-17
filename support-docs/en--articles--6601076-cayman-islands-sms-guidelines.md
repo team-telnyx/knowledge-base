@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6601076-cayman-islands-sms-guidelines
+title: "Cayman Islands: SMS Guidelines"
+description: "SMS Guidelines for Cayman Islands including MCC and Dial Code. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 6326e2d2f49e21724544b81bb3aef76460d336318a06fcff4e87fc0fc9327624
 ---
 
-Cayman Islands: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Cayman Islands: SMS Guidelines
 
-SMS Guidelines for Cayman Islands including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Cayman Islands including MCC and Dial Code. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **SMS Guidelines for Cayman Islands**
+## **SMS Guidelines for Cayman Islands**
 
-**MCC:** 346  
-​**Dial Code:** 1345  
-​  
+**MCC:** 346
+​**Dial Code:** 1345
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

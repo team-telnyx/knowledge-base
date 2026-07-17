@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130610-btn-or-atn-mismatch-error
+title: "BTN or ATN Mismatch Error"
+description: "In this article we will explain the billing telephone number or account telephone number mismatch error and how to… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: dd197611f6deddd780556f81ed9ca2303f68532e11f7224ad133ea847da91cf8
 ---
 
-BTN or ATN Mismatch Error | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # BTN or ATN Mismatch Error
 
-In this article we will explain the billing telephone number or account telephone number mismatch error and how to solve it.
+In this article we will explain the billing telephone number or account telephone number mismatch error and how to… See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-January 10, 2024
 
-Table of contents
 
-# Billing Telephone Number or Account Telephone Number Mismatch
+## Billing Telephone Number or Account Telephone Number Mismatch
 
 **All Countries**
 
@@ -53,5 +54,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

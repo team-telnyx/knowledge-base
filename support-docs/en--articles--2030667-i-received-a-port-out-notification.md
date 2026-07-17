@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/2030667-i-received-a-port-out-notification
+title: "I Received a Port-Out Notification"
+description: "Wondering why you received a port-out notification? See Telnyx guidance and requirements Learn more about I Received a Port-Out Notification with Telnyx."
 scraped: 2026-07-08
 content_hash: d7d18abe4b2c5278b6a7afb4f70839b6e137756068c609d6af3be740d232d144
 ---
 
-I Received a Port-Out Notification | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # I Received a Port-Out Notification
 
-Wondering why you received a port-out notification? Here we explain how port-out notifications work at Telnyx and what they mean for you.
+Wondering why you received a port-out notification? See Telnyx guidance and requirements Learn more about I Received a Port-Out Notification with Telnyx.
 
-Written by Paul Cross
 
-January 10, 2024
 
-Table of contents
 
-# An Explanation of Port-Out Notifications
+## An Explanation of Port-Out Notifications
 
 When a carrier receives a port-in request they will send the current carrier a port-out notification to let them know that they wish to port-out a number, usually with the authorization of the end-user.
 
@@ -43,5 +44,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

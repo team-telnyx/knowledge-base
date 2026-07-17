@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6596210-barbados-sms-guidelines
+title: "Barbados: SMS Guidelines"
+description: "SMS Guidelines for Barbados including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Barbados: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 44a8603d48cd067a96b5883abb43156fa44612d036c1c46bd8f9f5768bdf47c2
 ---
 
-Barbados: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Barbados: SMS Guidelines
 
-SMS Guidelines for Barbados including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Barbados including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Barbados: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **SMS Guidelines for Barbados**
+## **SMS Guidelines for Barbados**
 
-**MCC:** 342  
-​**Dial Code:** 1246  
-​  
+**MCC:** 342
+​**Dial Code:** 1246
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

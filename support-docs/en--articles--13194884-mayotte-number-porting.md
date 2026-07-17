@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/13194884-mayotte-number-porting
+title: "Mayotte Number Porting"
+description: "Here you will find detailed requirements for Mayotte number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: e529f953f1d8c13acae3393c31dbb9614db023537c4c339f19f4b21e782b05fd
 ---
 
-Mayotte Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Mayotte Number Porting
 
-Here you will find detailed requirements for Mayotte number portability.
+Here you will find detailed requirements for Mayotte number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-December 19, 2025
 
-Table of contents
 
 **Local / National / Toll-Free Numbers**
 
@@ -35,5 +36,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

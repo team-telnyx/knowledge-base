@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130617-sms-long-code-deliverability-best-practices
+title: "SMS Long Code Deliverability Best Practices"
+description: "In this article we will explain what you should do to make sure that your long code SMS messages are consistently… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 323a6b9825f680da66faad141e0ff0383bc3f6d168a68d1cf39ef435eea36127
 ---
 
-SMS Long Code Deliverability Best Practices | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # SMS Long Code Deliverability Best Practices
 
-In this article we will explain what you should do to make sure that your long code SMS messages are consistently delivered.
+In this article we will explain what you should do to make sure that your long code SMS messages are consistently… See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-November 22, 2023
 
-Table of contents
 
-# **Ensuring your outbound SMS messages are delivered successfully**
+## **Ensuring your outbound SMS messages are delivered successfully**
 
 ## Use long codes for unique messages only
 
@@ -50,7 +51,7 @@ Lengthy URLs may not only cause your messages to be split into multiple parts (a
 
 * You should certainly consider the type of url domain you use, since there are URLs which are known to be related to spam or are often attributed to fraudulent activities.
 
-  + Messages with "bitlylinks.com" and "bit.ly" urls will be blocked automatically.   
+  + Messages with "bitlylinks.com" and "bit.ly" urls will be blocked automatically.
     ​
 * Our acceptable usage [policy](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
@@ -67,5 +68,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

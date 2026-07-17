@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3284033-elastix-5-fqdn-trunk-setup
+title: "Elastix 5: FQDN Trunk Setup"
+description: "Here we will explain how you can configure an Elastix 5 PBX IP FQDN trunk with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 5f005b2c76784dddaa5ff5d0cbfe7b96ea7e407396db7f124b0577b3e4b290b7
 ---
 
-Elastix 5: FQDN Trunk Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Elastix 5: FQDN Trunk Setup
 
-Here we will explain how you can configure an Elastix 5 PBX IP FQDN trunk with Telnyx.
+Here we will explain how you can configure an Elastix 5 PBX IP FQDN trunk with Telnyx. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-December 13, 2023
 
-Table of contents
 
 [Jump to Instructions](#h_e6b8065902)
 
@@ -32,7 +33,7 @@ Additional documentation:
 
 ---
 
-# Instructions for Configuring Elastix
+## Instructions for Configuring Elastix
 
 In this activity you will:
 
@@ -220,8 +221,8 @@ In this section, we'll create outbound rules to manage your outgoing calls.
    3. **Calls to numbers with a length of:** Leave empty
 
       !["Apply this rule to these calls" section. ](_images/ecdf9290b2733687.png)
-5. In the **Make outbound calls on** section, we will be configuring routes for your calls. We can configure up to 3. The first will be your primary call route and the second and third will be used as backup.For each route, digits can be stripped or added. Strip Digits 0 on Route 1 and Strip Digits 1 digit for remaining 2 routes.  
-   ​  
+5. In the **Make outbound calls on** section, we will be configuring routes for your calls. We can configure up to 3. The first will be your primary call route and the second and third will be used as backup.For each route, digits can be stripped or added. Strip Digits 0 on Route 1 and Strip Digits 1 digit for remaining 2 routes.
+   ​
    This is also one of the many ways an **outbound caller ID** can be applied within 3CX. If you choose to apply an outbound caller ID on your Outbound Route, it will be applied to all calls that proceed through this route.
 
    !["Make outbound calls" section. ](_images/4bdab2a0eca89da6.png)
@@ -259,5 +260,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

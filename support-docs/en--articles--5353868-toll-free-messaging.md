@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5353868-toll-free-messaging
+title: "Toll-Free Messaging"
+description: "In this article we will explain the importance behind toll-free messaging and use case… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: c9558c8385f7475627120e70c5e5b15c8ca7002e35668a1aa0811b1dfdc6f465
 ---
 
-Toll-Free Messaging | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Toll-Free Messaging
 
-In this article we will explain the importance behind toll-free messaging and use case submission
+In this article we will explain the importance behind toll-free messaging and use case… See Telnyx guidance and requirements.
 
-Written by Alex Conroy
 
-December 1, 2025
 
-Table of contents
 
 For those looking to make large messaging campaigns, Telnyx supports messaging on toll-free numbers. We support SMS. Toll-Free MMS is supported (US and Canada *only*). This article details valid use cases, best practices and the verification process.
 
-# **In this article, find information about**
+## **In this article, find information about**
 
 * [Toll-free messaging use case registration information](#h_05f7302391)
 * [Appropriate message content](#h_dff85cc0ad)
@@ -146,7 +147,7 @@ The Following are examples of content and behaviors that are not permitted using
 
 Additionally, the following practices should also be avoided to ensure high deliverability rates for toll-free messaging campaigns:
 
-* **High Frequency Messages**   
+* **High Frequency Messages**
   Senders should also avoid sending a high frequency of messages to subscribers. Senders may not send more than 10 messages to a recipient in any 24 hour period unless the following conditions are met:
 
   + The recipient has engaged in two-way communication over SMS such as for a chat feature.
@@ -183,7 +184,7 @@ You’ll receive webhook events when the status of your Toll-Free number verific
 * `Waiting For Customer`: Additional information is needed from the customer.
 * `Verified`: The Toll-Free number has been successfully verified.
 
-Each event includes helpful context such as the affected phone number(s), business name, and the reason for the current status (if applicable).  
+Each event includes helpful context such as the affected phone number(s), business name, and the reason for the current status (if applicable).
 ​
 
 ## Sample Webhook Payloads
@@ -191,72 +192,72 @@ Each event includes helpful context such as the affected phone number(s), busine
 #### ✅ Verified
 
 ```
-{  
- "business_name": "Telnyx LLC",  
- "id": "123654d6-e062-5f72-abf9-876354056324",  
- "organization_id": "uhy56356-50e7-4c09-8e89-h47473765dgt",  
- "phone_numbers": [  
-  {  
-   "phone_number": "+18773554398"  
-  }  
- ],  
- "reason": null,  
- "verification_status": "Verified",  
- "webhook_url": "http://example-webhook.com"  
+{
+ "business_name": "Telnyx LLC",
+ "id": "123654d6-e062-5f72-abf9-876354056324",
+ "organization_id": "uhy56356-50e7-4c09-8e89-h47473765dgt",
+ "phone_numbers": [
+  {
+   "phone_number": "+18773554398"
+  }
+ ],
+ "reason": null,
+ "verification_status": "Verified",
+ "webhook_url": "http://example-webhook.com"
 }
 ```
 
 #### ❌ Rejected
 
 ```
-{  
- "business_name": "Telnyx LLC",  
- "id": "123654d6-e062-5f72-abf9-876354056324",  
- "organization_id": "uhy56356-50e7-4c09-8e89-h47473765dgt",  
- "phone_numbers": [  
-  {  
-   "phone_number": "+18773554398"  
-  }  
- ],  
- "reason": "1106 - business information could not be verified - contact, email, address, or url is invalid\n1205 - business website url must display branding,",  
- "verification_status": "Rejected",  
- "webhook_url": "http://example-webhook.com"  
+{
+ "business_name": "Telnyx LLC",
+ "id": "123654d6-e062-5f72-abf9-876354056324",
+ "organization_id": "uhy56356-50e7-4c09-8e89-h47473765dgt",
+ "phone_numbers": [
+  {
+   "phone_number": "+18773554398"
+  }
+ ],
+ "reason": "1106 - business information could not be verified - contact, email, address, or url is invalid\n1205 - business website url must display branding,",
+ "verification_status": "Rejected",
+ "webhook_url": "http://example-webhook.com"
 }
 ```
 
 #### ⏳ Waiting For Vendor
 
 ```
-{  
- "business_name": "Telnyx LLC",  
- "id": "123654d6-e062-5f72-abf9-876354056324",  
- "organization_id": "uhy56356-50e7-4c09-8e89-h47473765dgt",  
- "phone_numbers": [  
-  {   
-   "phone_number": "+18773554398"  
-  }  
- ],  
- "reason": " ",  
- "verification_status": "Waiting For Vendor",  
- "webhook_url": "http://example-webhook.com"  
+{
+ "business_name": "Telnyx LLC",
+ "id": "123654d6-e062-5f72-abf9-876354056324",
+ "organization_id": "uhy56356-50e7-4c09-8e89-h47473765dgt",
+ "phone_numbers": [
+  {
+   "phone_number": "+18773554398"
+  }
+ ],
+ "reason": " ",
+ "verification_status": "Waiting For Vendor",
+ "webhook_url": "http://example-webhook.com"
 }
 ```
 
 #### 📩 Waiting For Customer
 
 ```
-{   
- "business_name": "Telnyx LLC",  
- "id": "123654d6-e062-5f72-abf9-876354056324",  
- "organization_id": "uhy56356-50e7-4c09-8e89-h47473765dgt",  
- "phone_numbers": [  
-  {  
-   "phone_number": "+18773554398"  
-  }  
- ],  
- "reason": "Opt In Work Flow Image Link - does not display compliant CTA Opt In\r\nPlease See this link section 3 for more info - https://support.telnyx.com/en/articles/10729979-toll-free-verification-request-guide ",  
- "verification_status": "Waiting For Customer",  
- "webhook_url": "http://example-webhook.com"   
+{
+ "business_name": "Telnyx LLC",
+ "id": "123654d6-e062-5f72-abf9-876354056324",
+ "organization_id": "uhy56356-50e7-4c09-8e89-h47473765dgt",
+ "phone_numbers": [
+  {
+   "phone_number": "+18773554398"
+  }
+ ],
+ "reason": "Opt In Work Flow Image Link - does not display compliant CTA Opt In\r\nPlease See this link section 3 for more info - https://support.telnyx.com/en/articles/10729979-toll-free-verification-request-guide ",
+ "verification_status": "Waiting For Customer",
+ "webhook_url": "http://example-webhook.com"
 }
 ```
 
@@ -269,5 +270,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

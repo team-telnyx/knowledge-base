@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130649-configuring-a-goautodial-pbx-ip-trunk
+title: "Configuring a GOautodial PBX IP Trunk"
+description: "Learn how to configure a GOautodial V4 PBX IP trunk and upload leads so you can get your agents on the phone quickly. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 278e33a1618ff56bdfaf9c00e36bf9bf1e3ecaf32b29216323704a6fe53c39be
 ---
 
-Configuring a GOautodial PBX IP Trunk | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Configuring a GOautodial PBX IP Trunk
 
-Learn how to configure a GOautodial V4 PBX IP trunk and upload leads so you can get your agents on the phone quickly.
+Learn how to configure a GOautodial V4 PBX IP trunk and upload leads so you can get your agents on the phone quickly. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_c2acc2872a)
 
@@ -42,7 +43,7 @@ Additional documentation:
 
 ---
 
-# Instructions for Configuring GOautodial
+## Instructions for Configuring GOautodial
 
 In this activity you will:
 
@@ -116,24 +117,24 @@ In this section, we use the advanced configuration option to add a dial plan.
    1. **Account Entry:**
 
       ```
-      Account Entry: [telnyx]  
-      disallow=all  
-      allow=ulaw  
-      allow=alaw  
-      type=friend  
-      dtmfmode=rtc2833  
-      qualify=yes  
-      nat=yes  
-      host=sip.telnyx.com  
+      Account Entry: [telnyx]
+      disallow=all
+      allow=ulaw
+      allow=alaw
+      type=friend
+      dtmfmode=rtc2833
+      qualify=yes
+      nat=yes
+      host=sip.telnyx.com
       insecure=invite
       ```
    2. **Dialplan Entry:**
 
       ```
-      exten => _X.,1,AGI(agi://127.0.0.1:4577/call_log)  
-      exten => _NXXNXXXXXX.,1,Dial(SIP/${EXTEN}@telnyx)  
-      exten => _1NXXNXXXXXX.,1,Dial(SIP/${EXTEN}@telnyx)  
-      exten => _6468688074,1,Dial(SIP/8001@default)  
+      exten => _X.,1,AGI(agi://127.0.0.1:4577/call_log)
+      exten => _NXXNXXXXXX.,1,Dial(SIP/${EXTEN}@telnyx)
+      exten => _1NXXNXXXXXX.,1,Dial(SIP/${EXTEN}@telnyx)
+      exten => _6468688074,1,Dial(SIP/8001@default)
       exten => _16468688074,1,Dial(SIP/8001@default)
       ```
 
@@ -164,7 +165,7 @@ Today, manual cold calling is considered inefficient. Your call center's success
    3. **Carrier to use for this Campaign:** *Telnyx*. If this option isn't available, revisit section 1 to ensure that you have added Telnyx as a carrier.
 
       ![An administrator portal to set up an outbound campaign 3. ](_images/90f8e9ae76b97002.png)
-4. Click **Update** once done.  
+4. Click **Update** once done.
    ​
 
 [Back to Top](#h_c2acc2872a)
@@ -254,5 +255,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

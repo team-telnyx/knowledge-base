@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5808368-grandstream-dp752
+title: "Grandstream DP752"
+description: "Learn how to make the most of your Grandstream DP752's capabilities by integrating it with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 0211dcd48b8d7546a5929f9a0be33861a558f311094c3d62e112bae2d3379a0d
 ---
 
-Grandstream DP752 | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Grandstream DP752
 
-Learn how to make the most of your Grandstream DP752's capabilities by integrating it with Telnyx.
+Learn how to make the most of your Grandstream DP752's capabilities by integrating it with Telnyx. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_f189d931af)
 
@@ -39,7 +40,7 @@ Additional documentation:
 
 ---
 
-# Instructions for configuring a Grandstream DP752 to work with Telnyx
+## Instructions for configuring a Grandstream DP752 to work with Telnyx
 
 In this activity you will:
 
@@ -178,5 +179,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

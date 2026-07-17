@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4349113-my-numbers-page
+title: "My Numbers Page"
+description: "This article explains the Numbers page & settings in the Mission Control Portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 561a265372c26656fce423d00c1f3f3855500d1d88532fb1ccf0c503f339e2ec
 ---
 
-My Numbers Page | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # My Numbers Page
 
-This article explains the Numbers page & settings in the Mission Control Portal.
+This article explains the Numbers page & settings in the Mission Control Portal. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-May 1, 2026
 
-Table of contents
 
-# **My Numbers Page**
+## **My Numbers Page**
 
 The purpose of this article is to provide an overview of the [My Numbers Page](https://portal.telnyx.com/#/numbers/my-numbers) found in the Telnyx Portal along with a brief description of all the options available:
 
@@ -166,9 +167,9 @@ You can enable the number to have a **Tech Prefix** to differentiate between oth
 
 ​**Example:**
 
-SIP Connection A: IP Authentication with tech prefix 8888.   
-SIP Connection B: IP Authentication with tech prefix 1234.  
-​  
+SIP Connection A: IP Authentication with tech prefix 8888.
+SIP Connection B: IP Authentication with tech prefix 1234.
+​
 If SIP Connection A dials a number associated with SIP Connection B, where B has the tech prefix feature enabled on the number, the incoming call will be prefixed with 1234+number.
 
 When the feature is disabled on the number, the tech prefix associated with SIP Connection B will not be included in the SIP INVITE.
@@ -200,5 +201,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/13719947-french-guiana-did-requirements
+title: "French Guiana DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring French Guiana numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: d80572572f49f9c617f9de1def292f91cc6ca63d784cf42fa38d9332c57753a7
 ---
 
-French Guiana DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # French Guiana DID Requirements
 
-Here you will find a list of detailed requirements for acquiring French Guiana numbers.
+Here you will find a list of detailed requirements for acquiring French Guiana numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-February 12, 2026
 
-Table of contents
 
-# **DID Number Requirements for** French Guiana
+## **DID Number Requirements for** French Guiana
 
 In order to purchase a French Guiana number you will need to provide the following:
 
@@ -53,5 +54,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

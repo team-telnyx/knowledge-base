@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6601074-cape-verde-sms-guidelines
+title: "Cape Verde: SMS Guidelines"
+description: "SMS Guidelines for Cape Verde including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Cape Verde: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: b31b647ef4b0a6a762ee444f25a1933339c22ba793243c63519a3f9c27d9b0c0
 ---
 
-Cape Verde: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Cape Verde: SMS Guidelines
 
-SMS Guidelines for Cape Verde including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Cape Verde including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Cape Verde: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# SMS Guidelines for Cape Verde
+## SMS Guidelines for Cape Verde
 
-**MCC:** 625  
-​**Dial Code:** 238  
-​  
+**MCC:** 625
+​**Dial Code:** 238
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,22 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/collections/133140-voice-api-essentials
+title: "Voice API Essentials"
+description: "In this collection you will find helpful links that explain the mission control portal features and troubleshooting… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 9631c7f140fe4fd0cfc3da121547d52dc4e586e0b3287801daa4fdaac8252d3d
 ---
 
-Voice API Essentials | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 
 
 # Voice API Essentials
 
-In this collection you will find helpful links that explain the mission control portal features and troubleshooting tips.
+In this collection you will find helpful links that explain the mission control portal features and troubleshooting… See Telnyx guidance and requirements.
 
 K
 
-By Klane and 4 others5 authors15 articles
 
 [## Call Control / TeXML](https://support.telnyx.com/en/collections/2529888-call-control-texml)
 

@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/13986484-whatsapp-pricing-on-telnyx
+title: "WhatsApp Pricing on Telnyx"
+description: "How WhatsApp conversation-based billing works on Telnyx, including categories and billing types. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: c5c2d8afa84fa2f3c8ffc41d130ad99378188500be16a63f43d53f87f776535c
 ---
 
-WhatsApp Pricing on Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # WhatsApp Pricing on Telnyx
 
-How WhatsApp conversation-based billing works on Telnyx, including categories and billing types.
+How WhatsApp conversation-based billing works on Telnyx, including categories and billing types. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-March 19, 2026
 
-Table of contents
 
-# Per-Message Billing
+## Per-Message Billing
 
 As of July 1, 2025, WhatsApp uses a per-message billing model for template messages. Each template message delivered is charged individually based on its category and the recipient's country. Non-template (free-form) messages sent within a customer service window are not charged.
 
-# Message Categories and Rates
+## Message Categories and Rates
 
 Rates vary by message category and the recipient's country. The four categories are:
 
@@ -38,11 +39,11 @@ Marketing templates are typically the most expensive, followed by Utility, then 
 
 **Important:** Marketing and Authentication template messages are billed even when sent within an active customer service window. Only non-template (free-form) replies are free during the service window.
 
-# Service Window
+## Service Window
 
 When a customer messages your business, a 24-hour service window opens. During this window, you can send free-form (non-template) replies at no charge. Template messages sent during this window are still billed per their category.
 
-# How Billing Type is Determined
+## How Billing Type is Determined
 
 Telnyx determines the billing type from the template category and the destination country. The `billing_type` field appears in delivery status webhooks (DLRs) with one of these values:
 
@@ -52,7 +53,7 @@ Telnyx determines the billing type from the template category and the destinatio
 * `whatsapp_authentication_international` — Authentication template, different country from WABA
 * `whatsapp_service` — Non-template reply within service window (free)
 
-# Free Entry Point Conversations
+## Free Entry Point Conversations
 
 Messages that start from certain entry points have special pricing:
 
@@ -61,11 +62,11 @@ Messages that start from certain entry points have special pricing:
 
 Refer to [Meta's pricing documentation](https://developers.facebook.com/docs/whatsapp/pricing) for current free entry point details.
 
-# Viewing Costs
+## Viewing Costs
 
 You can track WhatsApp messaging costs in the Telnyx Portal under **Messaging → Message Detail Records**. Each record includes the `billing_type` field so you can see which category was billed.
 
-# Related Resources
+## Related Resources
 
 * [Send WhatsApp Messages (API Guide)](https://developers.telnyx.com/docs/messaging/whatsapp/send-messages)
 
@@ -78,5 +79,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

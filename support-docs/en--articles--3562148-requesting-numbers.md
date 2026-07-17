@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3562148-requesting-numbers
+title: "Requesting Numbers"
+description: "This article explains the process for requesting numbers of all kinds which may be unavailable to purchase from the… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 95ba15d3fae871168ef6fa2b301b42e845ffb79a3dcdd58125859aa8c72784f1
 ---
 
-Requesting Numbers | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Requesting Numbers
 
-This article explains the process for requesting numbers of all kinds which may be unavailable to purchase from the Mission Control Portal
+This article explains the process for requesting numbers of all kinds which may be unavailable to purchase from the… See Telnyx guidance and requirements.
 
-Written by David Casem
 
-October 7, 2025
 
-Table of contents
 
 At Telnyx, we understand that some numbers may not always be available at the time you make your search, we're always looking to keep our inventory up to date from local numbers in rural rate centers to global numbers in multiple different countries worldwide.
 
@@ -26,7 +27,7 @@ If you haven't seen how easy it is to purchase numbers through your Mission Cont
 
 #
 
-# **Requesting Numbers (DID's)**
+## **Requesting Numbers (DID's)**
 
 ---
 
@@ -56,7 +57,7 @@ A: Absolutely. You can set up webhook and/or email notifications for advanced or
 
 A: In some cases, the Number Operations team needs your regulatory requirements in advance to secure the phone numbers you’ve requested. To provide regulatory requirements (1) create [a requirement group](https://portal.telnyx.com/#/numbers/requirements/requirement-groups) for the phone numbers you are requesting, (2) fill in the requirement group, and (3) [update your Advanced Order](https://portal.telnyx.com/#/numbers/advanced-orders) with that requirement group.
 
-​  
+​
 ​
 
 ---
@@ -68,5 +69,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

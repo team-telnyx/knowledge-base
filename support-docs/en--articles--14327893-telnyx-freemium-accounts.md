@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/14327893-telnyx-freemium-accounts
+title: "Telnyx Freemium Accounts"
+description: "Learn how Telnyx Freemium accounts work, including the $25 AI credit, magic link sign-in, available products, See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ad7238abea6ed8da96bd972277eb0d27db5427016cc58799915a0240041e8dba
 ---
 
-Telnyx Freemium Accounts | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Telnyx Freemium Accounts
 
-Learn how Telnyx Freemium accounts work, including the $25 AI credit, magic link sign-in, available products, how to upgrade to a full account, and common billing questions.
+Learn how Telnyx Freemium accounts work, including the $25 AI credit, magic link sign-in, available products, See Telnyx guidance and requirements.
 
 V
 
-Written by Vicente Delgado
 
-April 13, 2026
 
-Table of contents
 
 ## What is a Freemium Account?
 
@@ -92,16 +93,16 @@ If you want to reuse your email address to create a full Telnyx business account
 
 ## Frequently Asked Questions
 
-**Can I add funds to my Freemium account?**  
+**Can I add funds to my Freemium account?**
 No. Freemium accounts cannot top up their balance. To add funds, you'll need to upgrade to a full Telnyx account.
 
-**Can I use non-AI products on a Freemium account?**  
+**Can I use non-AI products on a Freemium account?**
 No. Freemium accounts are limited to the Telnyx AI product suite and one US local phone number. To use Voice, Messaging, Wireless, or other products, upgrade to a full account.
 
-**What happens when my $25 credit runs out?**  
+**What happens when my $25 credit runs out?**
 Your AI usage will stop once the credit is exhausted. To continue, upgrade to a full Telnyx account and add funds.
 
-**I upgraded — where's my credit?**  
+**I upgraded — where's my credit?**
 After upgrading your account, the $25 AI credit is replaced with a $5 full-credit that can be used with any Telnyx product and service.
 
 ---
@@ -117,5 +118,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

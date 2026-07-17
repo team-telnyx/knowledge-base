@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/15138152-making-calls-with-branded-calling
+title: "Making Calls with Branded Calling"
+description: "Branded Calling helps the people you call recognize your outbound SIP trunking calls by showing approved brand… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: f1b1138d9b58d82736ec9310f1630c2d194efcb23b5e8118c4b41672e1696913
 ---
 
-Making Calls with Branded Calling | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Making Calls with Branded Calling
 
-Written by Telnyx Engineering
 
-May 15, 2026
 
-Table of contents
 
-Branded Calling helps the people you call recognize your outbound SIP trunking calls by showing approved brand information, such as your business name, and where supported, a logo or call reason, on eligible receiving devices and networks.
+Branded Calling helps the people you call recognize your outbound SIP trunking calls by showing approved brand… See Telnyx guidance and requirements.
 
-Branded Calling works with your Telnyx SIP trunking outbound calls.   
-Once your brand and numbers are approved, calls placed through your SIP connections may include your verified branded information, where supported by the receiving carrier and device.  
-​  
+Branded Calling works with your Telnyx SIP trunking outbound calls.
+Once your brand and numbers are approved, calls placed through your SIP connections may include your verified branded information, where supported by the receiving carrier and device.
+​
 ​
 
 **Important:** Branded Calling currently applies to US-to-US calls placed to US mobile numbers serviced by T-Mobile and Verizon only.
@@ -36,15 +37,15 @@ Make sure you have the following ready:
 * Accurate brand information, including the legal business name, display name, business details, and contact information.
 * Display Identity Record details, such as your preferred display name and call reasons.
 * A logo, if supported for your setup. Use a clear, brand-owned image that matches your business identity.
-* Understanding of display limitations. Branded Calling currently applies to US-to-US calls to US mobile numbers serviced by T-Mobile and Verizon.   
+* Understanding of display limitations. Branded Calling currently applies to US-to-US calls to US mobile numbers serviced by T-Mobile and Verizon.
   See [Why Branded Calling may not appear on every call](#h_1438329c93) for details.
 
 ## How Branded Calling works
 
-When you place an outbound call through your Telnyx SIP connection from an approved number, Telnyx attaches verified identity information to the call signaling before routing it to the destination network. This identity information is delivered using industry-standard protocols built on top of STIR/SHAKEN.  
+When you place an outbound call through your Telnyx SIP connection from an approved number, Telnyx attaches verified identity information to the call signaling before routing it to the destination network. This identity information is delivered using industry-standard protocols built on top of STIR/SHAKEN.
 ​
 
-STIR/SHAKEN is the regulatory framework for call authentication in the United States. It uses digital certificates and cryptographic signatures to verify that the calling party is authorized to use the originating phone number.   
+STIR/SHAKEN is the regulatory framework for call authentication in the United States. It uses digital certificates and cryptographic signatures to verify that the calling party is authorized to use the originating phone number.
 Telnyx signs calls according to STIR/SHAKEN attestation levels (A, B, or C) based on the verified relationship between the caller and the calling number.
 
 Branded Calling extends this foundation by adding additional identity fields beyond what standard STIR/SHAKEN provides. These extra fields can include:
@@ -60,25 +61,25 @@ These fields are attached to the call signaling and propagated through the PSTN 
 
 Even when your Display Identity Record (DIR) is approved, your numbers are active, and your call signaling is fully RFC-compliant, the branded information may not reach the recipient's screen. This is an inherent limitation of how Branded Calling works across the telecommunications network:
 
-1. **Receiving carrier support varies.**   
+1. **Receiving carrier support varies.**
    Not all carriers have implemented the infrastructure to consume and render Branded Calling identity fields. A carrier that does not support these extensions will simply ignore them and route the call normally. The call still completes, but no branded information is displayed.
-2. **Device support varies.**   
+2. **Device support varies.**
    Even when the receiving carrier supports Branded Calling, the end user's device must also be capable of rendering the branded information. Older devices, unsupported operating systems, or devices with alternative dialer apps may not display branded content.
-3. **Network path differences.**   
+3. **Network path differences.**
    Calls may traverse different interconnection paths depending on routing, time of day, and carrier agreements. Some paths may pass through intermediate carriers that strip or do not forward the additional identity fields, even though doing so is not compliant with the relevant RFCs.
-4. **Provisioning and propagation delays.**   
+4. **Provisioning and propagation delays.**
    After approval, your branded identity must be provisioned and propagated across carrier databases. Branding may not appear immediately for all destinations.
-5. **Destination and carrier limitations.**   
+5. **Destination and carrier limitations.**
    Branded Calling currently applies to US-to-US calls placed to US mobile numbers serviced by Verizon and T-Mobile only. Calls to landlines, international numbers, or numbers on smaller or regional carriers are unlikely to display branded information.
 
-**In short:** approval means your brand and numbers are eligible to send verified identity information. It does not guarantee that every carrier, device, or network path will present it.   
+**In short:** approval means your brand and numbers are eligible to send verified identity information. It does not guarantee that every carrier, device, or network path will present it.
 This is not a Telnyx limitation. It is a characteristic of how Branded Calling standards are currently implemented across the telecom industry.
 
 ## Set up Branded Calling for your SIP trunking calls
 
 ## 1. Sign in to Mission Control Portal
 
-Sign in to [Mission Control Portal](https://portal.telnyx.com/) with a user that has permission to manage Enterprises and phone numbers.  
+Sign in to [Mission Control Portal](https://portal.telnyx.com/) with a user that has permission to manage Enterprises and phone numbers.
 ​
 
 ## 2. Open the Branded Calling area
@@ -150,8 +151,8 @@ Once the DIR and phone numbers are approved, outbound SIP trunking calls from th
 
 ## 10. Place calls from your SIP connection
 
-After your DIR is approved and phone numbers are active for Branded Calling, place outbound calls through your SIP connection as you normally would.   
-​  
+After your DIR is approved and phone numbers are active for Branded Calling, place outbound calls through your SIP connection as you normally would.
+​
 When you dial from an approved number, Telnyx includes your branded calling information in the call signaling where supported.
 
 No additional SIP headers or configuration changes are required on your SIP connection. Branded Calling is applied automatically based on the approved DIR and number association.
@@ -248,5 +249,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

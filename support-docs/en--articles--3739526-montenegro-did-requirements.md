@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3739526-montenegro-did-requirements
+title: "Montenegro DID Requirements"
+description: "Here you will find a detailed list of requirements for acquiring Montenegro numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 922eb4a3a8bb7113d9b32189fe7337899eeeb3922f70e712affaceb4953f2f27
 ---
 
-Montenegro DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Montenegro DID Requirements
 
-Here you will find a detailed list of requirements for acquiring Montenegro numbers.
+Here you will find a detailed list of requirements for acquiring Montenegro numbers. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-May 15, 2026
 
-Table of contents
 
-# DID Number Requirements for Montenegro
+## DID Number Requirements for Montenegro
 
 In order to purchase a Montenegro number you will need to provide the following:
 
@@ -32,8 +33,8 @@ For **business identity** verification:
 
 For **address** verification:
 
-\* Address worldwide (street, building number, postal code, city and country)  
-​  
+\* Address worldwide (street, building number, postal code, city and country)
+​
 Additional Information:
 
 \* Service usage description
@@ -85,5 +86,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

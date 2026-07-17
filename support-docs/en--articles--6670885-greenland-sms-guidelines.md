@@ -1,31 +1,32 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6670885-greenland-sms-guidelines
+title: "Greenland: SMS Guidelines"
+description: "Sending SMS to Greenland? See Telnyx guidance and requirements Learn more about Greenland: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 4d5b286e38edd092692689c5e26496ab400ce84208b17395a3ee07319be2e402
 ---
 
-Greenland: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# Greenland: SMS Guidelines
 
-Sending SMS to Greenland? Check out our comprehensive guidelines to ensure compliance in Greenland.
 
-Written by Telnyx Engineering
 
-November 21, 2023
-
-Table of contents
 
 # Greenland: SMS Guidelines
 
-**MCC:** 290  
-​**Dial Code:** 299  
-​  
+Sending SMS to Greenland? See Telnyx guidance and requirements Learn more about Greenland: SMS Guidelines with Telnyx.
+
+
+
+
+## Greenland: SMS Guidelines
+
+**MCC:** 290
+​**Dial Code:** 299
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
-The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be directly related to the message content.  
+The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be directly related to the message content.
 ​
 
 There are no restrictions with regards to content towards this destination.
@@ -43,5 +44,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

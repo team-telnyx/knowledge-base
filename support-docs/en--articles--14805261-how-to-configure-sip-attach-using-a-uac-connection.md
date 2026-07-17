@@ -1,25 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/14805261-how-to-configure-sip-attach-using-a-uac-connection
+title: "How to Configure SIP Attach using a UAC Connection"
+description: "SIP Attach lets Telnyx register as a SIP endpoint on your existing PBX or voice system. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: dcc0f0daf8be389cae807ac09dbc9918872f09ebd601eb406d4264b133097b7f
 ---
 
-How to Configure SIP Attach using a UAC Connection | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How to Configure SIP Attach using a UAC Connection
 
-Written by Telnyx Engineering
 
-Updated yesterday
+SIP Attach lets Telnyx register as a SIP endpoint on your existing PBX or voice system. See Telnyx guidance and requirements.
 
-Table of contents
 
-SIP Attach lets Telnyx register as a SIP endpoint on your existing PBX or voice system. This gives your Telnyx resource, such as an AI Assistant, Call Control Application, or SIP-enabled application, native PBX presence.  
-​  
-Under the hood, SIP Attach is configured using a UAC (User Agent Client) Connection. With a UAC Connection, Telnyx registers to your PBX as an extension, so internal callers can reach the Telnyx resource without routing through the PSTN.  
-​  
+SIP Attach lets Telnyx register as a SIP endpoint on your existing PBX or voice system. This gives your Telnyx resource, such as an AI Assistant, Call Control Application, or SIP-enabled application, native PBX presence.
+​
+Under the hood, SIP Attach is configured using a UAC (User Agent Client) Connection. With a UAC Connection, Telnyx registers to your PBX as an extension, so internal callers can reach the Telnyx resource without routing through the PSTN.
+​
 This helps reduce latency and cost while making it easier to connect employee-facing voice agents, internal support flows, and other SIP-enabled Telnyx applications to your existing voice infrastructure.
 
 ---
@@ -37,7 +39,7 @@ This affects how inbound calls are routed (covered in Step 2) and what you need 
 
 ---
 
-# Before You Start
+## Before You Start
 
 ### What you need from your PBX (customer side)
 
@@ -189,8 +191,8 @@ After creating or updating a UAC Connection, registration status may take a few 
 
 #### Disable a connection to force a fresh registration
 
-If you need to force a fresh, clean SIP registration without deleting the connection, temporarily disable the UAC Connection and then re-enable it.  
-​  
+If you need to force a fresh, clean SIP registration without deleting the connection, temporarily disable the UAC Connection and then re-enable it.
+​
 Disabling the connection unregisters the SIP UAC from your PBX. When you re-enable the connection, Telnyx starts a new registration attempt using the current External UAC settings.
 
 ## Delete a connection
@@ -205,7 +207,7 @@ Deleting a connection immediately deregisters from the PBX. Any phone numbers as
 
 ## **Telnyx UAC IP Addresses**
 
-Telnyx uses the following public Anycast IPs for both SIP signaling and RTP media on UAC (SIP Attach) connections.   
+Telnyx uses the following public Anycast IPs for both SIP signaling and RTP media on UAC (SIP Attach) connections.
 The IP depends on the SIP region selected in your UAC Connection settings.
 
 |  |  |
@@ -275,5 +277,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

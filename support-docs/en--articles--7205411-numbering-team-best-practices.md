@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/7205411-numbering-team-best-practices
+title: "Numbering Team Best Practices"
+description: "Effective ways to engage with Telnyx's numbering team for number requests and updates. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 68f25345723651933417c8c67558ee377a89f2b7e771b11521f8cec26515dbb5
 ---
 
-Numbering Team Best Practices | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Numbering Team Best Practices
 
-Effective ways to engage with Telnyx's numbering team for number requests and updates.
+Effective ways to engage with Telnyx's numbering team for number requests and updates. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-May 20, 2026
 
-Table of contents
 
-# **Best Practices for Contacting the Numbering Team**
+## **Best Practices for Contacting the Numbering Team**
 
 ## Before Contacting the Numbering Team
 
@@ -74,5 +75,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

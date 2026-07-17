@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6560919-estonia-sms-guidelines
+title: "Estonia: SMS Guidelines"
+description: "Sending SMS to Estonia? See Telnyx guidance and requirements Learn more about Estonia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 252dbee337f66c30c46feeb48781e6a93738006fe1beaf8115fdc5de70f7f536
 ---
 
-Estonia: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Estonia: SMS Guidelines
 
-Sending SMS to Estonia? Check out our comprehensive guidelines to ensure compliance in Estonia.
+Sending SMS to Estonia? See Telnyx guidance and requirements Learn more about Estonia: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Estonia: SMS Guidelines**
+## **Estonia: SMS Guidelines**
 
-**MCC:** 248  
-​**Dial Code:** 372  
-​  
+**MCC:** 248
+​**Dial Code:** 372
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

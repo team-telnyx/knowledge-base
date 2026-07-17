@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5467032-slovakia-did-requirements
+title: "Slovakia DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Slovakia numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 29e93a56efa456990e4c6ae20fcd504ccad8c781321f1ec733580a4470267b18
 ---
 
-Slovakia DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Slovakia DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Slovakia numbers.
+Here you will find a list of detailed requirements for acquiring Slovakia numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-June 18, 2024
 
-Table of contents
 
-# DID Number Requirements for Slovakia
+## DID Number Requirements for Slovakia
 
 In order to purchase a Slovakia number you will need to provide the following:
 
@@ -109,5 +110,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

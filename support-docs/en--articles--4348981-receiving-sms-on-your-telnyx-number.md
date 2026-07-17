@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4348981-receiving-sms-on-your-telnyx-number
+title: "Receiving SMS on your Telnyx number"
+description: "Begin your journey with Telnyx: Learn how to sign up and set up a Mission Control account effectively. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a83f519fb3c905894c552ceec4d55cfd167d5fe197935ae82ed23cb78f5c1331
 ---
 
-Receiving SMS on your Telnyx number | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Receiving SMS on your Telnyx number
 
-Begin your journey with Telnyx: Learn how to sign up and set up a Mission Control account effectively.
+Begin your journey with Telnyx: Learn how to sign up and set up a Mission Control account effectively. See Telnyx guidance and requirements.
 
-Written by Shubam
 
-December 27, 2024
 
-Table of contents
 
-# **Prerequisites for Receiving SMS**
+## **Prerequisites for Receiving SMS**
 
 Make sure you've configured your account, such as purchasing a number, creating a messaging profile, and associating that messaging profile with that number.
 
@@ -77,5 +78,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,99 +1,100 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3739576-south-africa-did-requirements
+title: "South Africa DID Requirements"
+description: "Here you will find a detailed list of requirements to acquire South Africa numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 308f5bbc982a9c107ea01e5bd4569e541521a3eafc9ef449e93d085ca3e5ce7b
 ---
 
-South Africa DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # South Africa DID Requirements
 
-Here you will find a detailed list of requirements to acquire South Africa numbers.
+Here you will find a detailed list of requirements to acquire South Africa numbers. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-June 28, 2024
 
-Table of contents
 
-# DID Number Requirements for South Africa
+## DID Number Requirements for South Africa
 
 In order to purchase a South Africa number you will need to provide the following:
 
 ## **Local Numbers in South Africa**
 
-For **personal identity** verification:  
-\* Name, last name  
-\* Contact phone number  
-\* Passport or South African ID copy  
-​  
-For **business identity** verification:  
-\* Name, last name of an authorized representative  
-\* Contact phone number  
-\* Passport or South African ID copy of an authorized representative  
-\* Company name  
-\* Company registration certificate  
-​  
-For **address** verification:  
-\* Address matching the DID area code (street, building number, postal code, city and country)  
+For **personal identity** verification:
+\* Name, last name
+\* Contact phone number
+\* Passport or South African ID copy
+​
+For **business identity** verification:
+\* Name, last name of an authorized representative
+\* Contact phone number
+\* Passport or South African ID copy of an authorized representative
+\* Company name
+\* Company registration certificate
+​
+For **address** verification:
+\* Address matching the DID area code (street, building number, postal code, city and country)
 \* Proof of address (dated within 3 months)
 
 ## **National Numbers in South Africa**
 
-For **personal identity** verification  
-\* Name, last name  
-\* Contact phone number  
-\* Passport or South African ID copy  
-​  
-For **business identity** verification:  
-\* Name, last name of an authorized representative  
-\* Contact phone number  
-\* Passport or South African ID copy of an authorized representative  
-\* Company name  
-\* Company registration certificate  
-​  
-For **address** verification:   
-\* Address within the country (street, building number, postal code, city and country)  
+For **personal identity** verification
+\* Name, last name
+\* Contact phone number
+\* Passport or South African ID copy
+​
+For **business identity** verification:
+\* Name, last name of an authorized representative
+\* Contact phone number
+\* Passport or South African ID copy of an authorized representative
+\* Company name
+\* Company registration certificate
+​
+For **address** verification:
+\* Address within the country (street, building number, postal code, city and country)
 \* Proof of address (dated within 3 months)
 
 ## **Mobile Numbers in South Africa**
 
-For **personal identity** verification:  
-\* Name, last name  
-\* Contact phone number  
-\* Passport or ID copy  
-​  
-For **business identity** verification:  
-\* Name, last name of an authorized representative   
-\* Company name  
-\* Contact phone number  
-\* Company registration certificate  
-​  
-For **address** verification:  
-\* Address worldwide (street, building number, postal code, city and country)  
+For **personal identity** verification:
+\* Name, last name
+\* Contact phone number
+\* Passport or ID copy
+​
+For **business identity** verification:
+\* Name, last name of an authorized representative
+\* Company name
+\* Contact phone number
+\* Company registration certificate
+​
+For **address** verification:
+\* Address worldwide (street, building number, postal code, city and country)
 \* Proof of address (dated within 3 months)
 
 ## **Toll-Free Numbers in South Africa**
 
-For **personal identity** verification:  
-\* Name, last name  
-\* Contact phone number  
-\* Passport or South African ID copy  
-\* Signed LOI (dated within 1 month)   
-​  
-For **business identity** verification:  
-\* Name, last name of an authorized representative  
-\* Contact phone number  
-\* Passport or South African ID copy of an authorized representative  
-\* Company name  
-\* Company registration certificate  
-\* Signed LOI (dated within 1 month)   
-​  
-For **address** verification:  
-\* Address worldwide (street, building number, postal code, city and country)  
-\* Proof of address (dated within 3 months)  
+For **personal identity** verification:
+\* Name, last name
+\* Contact phone number
+\* Passport or South African ID copy
+\* Signed LOI (dated within 1 month)
+​
+For **business identity** verification:
+\* Name, last name of an authorized representative
+\* Contact phone number
+\* Passport or South African ID copy of an authorized representative
+\* Company name
+\* Company registration certificate
+\* Signed LOI (dated within 1 month)
+​
+For **address** verification:
+\* Address worldwide (street, building number, postal code, city and country)
+\* Proof of address (dated within 3 months)
 ​
 
 \*Please note that once the documentation is received it will take approximately 72 hours to validate the information and activate the number for use.
@@ -139,5 +140,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

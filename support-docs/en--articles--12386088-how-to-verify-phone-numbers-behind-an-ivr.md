@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/12386088-how-to-verify-phone-numbers-behind-an-ivr
+title: "How to Verify Phone Numbers behind an IVR"
+description: "Some phone numbers sit behind an IVR (interactive voice response) system and require dialing an extension to reach the… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: bf63448370cda1a49d4a8d1d8012abac7438f02fbb3b157cf35a7922e75dde04
 ---
 
-How to Verify Phone Numbers behind an IVR | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How to Verify Phone Numbers behind an IVR
 
-Some phone numbers sit behind an IVR (interactive voice response) system and require dialing an extension to reach the right person. Telnyx now supports verifying numbers behind an IVR automatically through the API and the Mission Control Portal.
+Some phone numbers sit behind an IVR (interactive voice response) system and require dialing an extension to reach the… See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-January 29, 2026
 
-Table of contents
 
 ## Background
 
@@ -103,7 +104,7 @@ Switch to the Verified Numbers Tab.
 
 ![](_images/a5fd1fd7cb94b8a2.png)
 
-Add details of your number and the extension following the format from step 2 above. Select "Call me with a code". You will receive a call, from which the verification code will be read for input to complete verification.  
+Add details of your number and the extension following the format from step 2 above. Select "Call me with a code". You will receive a call, from which the verification code will be read for input to complete verification.
 ​
 
 ![](_images/2983f4c600d2df56.png)
@@ -134,5 +135,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

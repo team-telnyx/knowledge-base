@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130698-skype-set-up-skype-for-biz-sip-trunk
+title: "Skype: Set up Skype for Biz SIP Trunk"
+description: "Learn how to configure a Skype for Business Server SIP Trunk with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 0dfe7f2b81bbf490e5e98ea38746a59589267cfa143edc01da3463aaf150281e
 ---
 
-Skype: Set up Skype for Biz SIP Trunk | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Skype: Set up Skype for Biz SIP Trunk
 
-Learn how to configure a Skype for Business Server SIP Trunk with Telnyx.
+Learn how to configure a Skype for Business Server SIP Trunk with Telnyx. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to instructions](#configure-skype-for-business-server-sip-trunk-with-telnyx)
 
@@ -32,7 +33,7 @@ Table of contents
 
 ---
 
-# Instructions for configuring a Skype for Business Server SIP Trunk with Telnyx
+## Instructions for configuring a Skype for Business Server SIP Trunk with Telnyx
 
 In this activity you will:
 
@@ -87,20 +88,20 @@ In this section, you'll be creating a dial plan, a voice policy, call route, PST
 1. Copy and paste the text following these instructions, or your custom script into a text editor.
 
    ```
-   Write-Host "Starting Telnyx Enterprise Voice example settings..."  
-      
-   #Add PSTN UsageWrite-Host "Adding PSTN Usage..."Set-CsPstnUsage -Force -Usage @{add="US-Basic-PSTN-Usage"}  | Out-Null  
-      
-   #Set Dial In Conference RegionWrite-Host "Setting Dial Plan..."Set-CsDialPlan -Identity "Global" -SimpleName "Global" -DialinConferencingRegion "US"  | Out-Null  
-      
-   #Add Normalization RulesWrite-Host "Adding Normalization Rules..."New-CsVoiceNormalizationRule -Name 'US-National' -Parent Global -Pattern '^1?([2-9]\d\d[2-9]\d{6})\d*(\D+\d+)?$' -Translation '+1$1' -Priority 0 -Description "National number normalization for United States" -WarningAction:SilentlyContinue | Out-NullNew-CsVoiceNormalizationRule -Name 'US-Service' -Parent Global -Pattern '^([2-9]11)$' -Translation '$1' -Priority 1 -Description "Service number normalization for United States" -WarningAction:SilentlyContinue | Out-NullNew-CsVoiceNormalizationRule -Name 'US-International' -Parent Global -Pattern '^(?:\+|011)(1|7|2[07]|3[0-46]|39\d|4[013-9]|5[1-8]|6[0-6]|8[1246]|9[0-58]|2[1235689]\d|24[013-9]|242\d|3[578]\d|42\d|5[09]\d|6[789]\d|8[035789]\d|9[679]\d)(?:0)?(\d{6,14})(\D+\d+)?$' -Translation '+$1$2' -Priority 2 -Description "International number normalization for United States" -WarningAction:SilentlyContinue | Out-Null  
-      
-   #Set Voice PolicyWrite-Host "Setting Voice Policy..."Set-CsVoicePolicy -Identity Global -AllowCallForwarding $true -AllowPSTNReRouting $true -AllowSimulRing $true -EnableBWPolicyOverride $false -EnableCallPark $true -EnableCallTransfer $true -EnableDelegation $true -EnableMaliciousCallTracing $true -EnableTeamCall $true -PstnUsages @{add="US-Basic-PSTN-Usage"}  | Out-Null  
-      
-   #Add Voice RouteWrite-Host "Adding Voice Route..."New-CsVoiceRoute -Identity "US-Basic-Voice-Route" -NumberPattern ^+ -PstnGatewayList @{add="PstnGateway:sip.telnyx.com"} -PstnUsages @{add="US-Basic-PSTN-Usage"} -WarningAction:SilentlyContinue | Out-Null  
-      
-   #Update Trunk ConfigurationWrite-Host "Updating Trunk Configuration..."Set-CsTrunkConfiguration -Identity Global -MaxEarlyDialogs 20 -SRTPMode "Optional" -ConcentratedTopology $true -EnableReferSupport $false  | Out-Null  
-      
+   Write-Host "Starting Telnyx Enterprise Voice example settings..."
+
+   #Add PSTN UsageWrite-Host "Adding PSTN Usage..."Set-CsPstnUsage -Force -Usage @{add="US-Basic-PSTN-Usage"}  | Out-Null
+
+   #Set Dial In Conference RegionWrite-Host "Setting Dial Plan..."Set-CsDialPlan -Identity "Global" -SimpleName "Global" -DialinConferencingRegion "US"  | Out-Null
+
+   #Add Normalization RulesWrite-Host "Adding Normalization Rules..."New-CsVoiceNormalizationRule -Name 'US-National' -Parent Global -Pattern '^1?([2-9]\d\d[2-9]\d{6})\d*(\D+\d+)?$' -Translation '+1$1' -Priority 0 -Description "National number normalization for United States" -WarningAction:SilentlyContinue | Out-NullNew-CsVoiceNormalizationRule -Name 'US-Service' -Parent Global -Pattern '^([2-9]11)$' -Translation '$1' -Priority 1 -Description "Service number normalization for United States" -WarningAction:SilentlyContinue | Out-NullNew-CsVoiceNormalizationRule -Name 'US-International' -Parent Global -Pattern '^(?:\+|011)(1|7|2[07]|3[0-46]|39\d|4[013-9]|5[1-8]|6[0-6]|8[1246]|9[0-58]|2[1235689]\d|24[013-9]|242\d|3[578]\d|42\d|5[09]\d|6[789]\d|8[035789]\d|9[679]\d)(?:0)?(\d{6,14})(\D+\d+)?$' -Translation '+$1$2' -Priority 2 -Description "International number normalization for United States" -WarningAction:SilentlyContinue | Out-Null
+
+   #Set Voice PolicyWrite-Host "Setting Voice Policy..."Set-CsVoicePolicy -Identity Global -AllowCallForwarding $true -AllowPSTNReRouting $true -AllowSimulRing $true -EnableBWPolicyOverride $false -EnableCallPark $true -EnableCallTransfer $true -EnableDelegation $true -EnableMaliciousCallTracing $true -EnableTeamCall $true -PstnUsages @{add="US-Basic-PSTN-Usage"}  | Out-Null
+
+   #Add Voice RouteWrite-Host "Adding Voice Route..."New-CsVoiceRoute -Identity "US-Basic-Voice-Route" -NumberPattern ^+ -PstnGatewayList @{add="PstnGateway:sip.telnyx.com"} -PstnUsages @{add="US-Basic-PSTN-Usage"} -WarningAction:SilentlyContinue | Out-Null
+
+   #Update Trunk ConfigurationWrite-Host "Updating Trunk Configuration..."Set-CsTrunkConfiguration -Identity Global -MaxEarlyDialogs 20 -SRTPMode "Optional" -ConcentratedTopology $true -EnableReferSupport $false  | Out-Null
+
    #Job is doneWrite-Host "Configuration is done!"
    ```
 2. Save it with the extension .ps1
@@ -110,7 +111,7 @@ In this section, you'll be creating a dial plan, a voice policy, call route, PST
 
 ## 3. (Optional) Deploy Cloud Connector Edition
 
-If you need to deploy CCE (Cloud Connector Edition) you should follow the steps in the next article before proceeding:  
+If you need to deploy CCE (Cloud Connector Edition) you should follow the steps in the next article before proceeding:
 ​<https://technet.microsoft.com/en-us/library/mt605228.aspx>
 
 1. Specify the following information in the .ini file:
@@ -150,5 +151,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

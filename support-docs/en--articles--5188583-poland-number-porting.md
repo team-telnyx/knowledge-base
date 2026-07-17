@@ -1,30 +1,31 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5188583-poland-number-porting
+title: "Poland Number Porting"
+description: "Here you will find a detailed list of requirements for Poland number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 905dbc86615062e8c7d2b78bd330ab3b669821f41e840f1cede53b03fbaf055b
 ---
 
-Poland Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Poland Number Porting
 
-Here you will find a detailed list of requirements for Poland number portability.
+Here you will find a detailed list of requirements for Poland number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
-# **For local and national number Types in Poland**
+## **For local and national number Types in Poland**
 
 1. LoA *For local numbers, the address must be within the same area as the phone number to be ported.*
 
 2. VAT / TAX ID (NIP) - For Business
 
-PESEL - For Personal Account   
+PESEL - For Personal Account
 3. Company Registration Certificate - For business only
 
 4. Latest invoice with the current carrier
@@ -44,5 +45,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

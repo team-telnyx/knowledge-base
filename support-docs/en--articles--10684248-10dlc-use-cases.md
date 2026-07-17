@@ -1,20 +1,22 @@
 ---
 source_url: https://support.telnyx.com/en/articles/10684248-10dlc-use-cases
+title: "10DLC Use Cases"
+description: "Standard 10DLC Use… See Telnyx guidance and requirements Learn more about 10DLC Use Cases with Telnyx."
 scraped: 2026-07-08
 content_hash: 1642b9aa15da6996121686960f14303b8ae52ce210e2da3f8d83db58714cc412
 ---
 
-10DLC Use Cases | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # 10DLC Use Cases
 
-K
+Standard 10DLC Use… See Telnyx guidance and requirements Learn more about 10DLC Use Cases with Telnyx.
 
-Written by Klane Pedrie
 
-April 10, 2025
 
 Standard 10DLC Use Cases
 

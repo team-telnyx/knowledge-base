@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5617538-10dlc-shared-campaigns
+title: "10DLC Shared Campaigns"
+description: "Register your campaigns directly with the Campaign Registry and import them to your Telnyx account. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 10a0193d9fcd0a3d206801d8a5129152aa201f1ebe13c729c1b7bd3d13727173
 ---
 
-10DLC Shared Campaigns | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # 10DLC Shared Campaigns
 
-Register your campaigns directly with the Campaign Registry and import them to your Telnyx account.
+Register your campaigns directly with the Campaign Registry and import them to your Telnyx account. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-March 21, 2025
 
-Table of contents
 
 In this article, we're breaking down **shared campaigns**, and showing you how to use them within your Telnyx account.
 
 *Note: Using Shared Campaigns limits the ability of Telnyx to troubleshoot issues with your 10DLC campaigns and throughput. In most cases, we recommend creating your brands and campaigns through the Telnyx portal.*
 
-# **What is a Shared Campaign?**
+## **What is a Shared Campaign?**
 
 A shared campaign is a campaign that is registered directly through The Campaign Registry, instead of being created directly through your Telnyx account. In shared campaigns, a **connectivity partner (CNP)** is selected to provide messaging services.
 
@@ -67,5 +68,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

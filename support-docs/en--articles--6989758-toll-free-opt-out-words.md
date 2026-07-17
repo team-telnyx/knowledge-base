@@ -1,31 +1,32 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6989758-toll-free-opt-out-words
+title: "Toll-Free Opt-Out Words"
+description: "Insights on Telnyx's opt-out process for toll-free numbers and the keywords involved. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: be0038f8f2642ad9878e28153fc69ce237b35c21c49d9b7d9e1688c2ce94487a
 ---
 
-Toll-Free Opt-Out Words | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Toll-Free Opt-Out Words
 
-Insights on Telnyx's opt-out process for toll-free numbers and the keywords involved.
+Insights on Telnyx's opt-out process for toll-free numbers and the keywords involved. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-May 25, 2024
 
-Table of contents
 
-# **How do opt-out/opt-in keywords work with toll free numbers?**
+## **How do opt-out/opt-in keywords work with toll free numbers?**
 
 If you've read our [previous article](https://support.telnyx.com/en/articles/1270091-sms-opt-out-keywords-and-stop-words) on SMS opt-out keywords and stop rules, you'll know that Telnyx will block or allow communications to numbers that have sent stop or start keywords. We deal with handling opt-outs and opt-ins a little differently when it comes to toll free numbers.
 
 **The only keyword recognized for opting out of communications with a Telnyx toll free number is "stop". The only keywords recognized for opting into communications with a Telnyx toll free number are still "start" and "unstop".**
 
-When someone opts out of communications with a Telnyx toll free number, we'll send the following auto response:  
-​  
+When someone opts out of communications with a Telnyx toll free number, we'll send the following auto response:
+​
 "NETWORK MSG: You replied with the word "stop" which blocks all texts sent from this number. Text back "unstop" to receive messages again."
 
 When someone opts in to communications with a Telnyx toll free number, we'll send this auto response:
@@ -47,5 +48,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

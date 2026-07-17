@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5819923-audiocodes-400hd
+title: "Audiocodes 400HD"
+description: "Learn how to set up and configure an Audiocodes 400HD IP phone and connect it to your Telnyx account. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: bd92f60c12b4b0ba4beed66cd2579bdef99d10522c20f47b5a68417af5e9ff83
 ---
 
-Audiocodes 400HD | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Audiocodes 400HD
 
-Learn how to set up and configure an Audiocodes 400HD IP phone and connect it to your Telnyx account.
+Learn how to set up and configure an Audiocodes 400HD IP phone and connect it to your Telnyx account. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_4720699022)
 
@@ -31,7 +32,7 @@ Additional documentation:
 
 ---
 
-# Instructions for configuring the Audiocodes 400HD IP phone to work with Telnyx
+## Instructions for configuring the Audiocodes 400HD IP phone to work with Telnyx
 
 |  |
 | --- |
@@ -147,8 +148,8 @@ In this section, we're going to set up your device to stay awake and ready to re
 
 ## 5. Configure Audio Codecs
 
-Go to **Voice Over IP > Media Streaming** and set your codecs in priority sequence that meets your needs.   
-​  
+Go to **Voice Over IP > Media Streaming** and set your codecs in priority sequence that meets your needs.
+​
 Telnyx supports the following codecs:
 
 1. ulaw(g711u)
@@ -180,5 +181,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

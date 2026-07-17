@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130616-number-not-portable-tn-not-portable-error
+title: "Number Not Portable/TN Not Portable Error"
+description: "Get the specifics for Not Portable and TN Not Portable errors and decipher their meaning. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 87a1abebb1660ce5503a8cbf48c93ac77ab6c074b9c1306c7c7228566464ec66
 ---
 
-Number Not Portable/TN Not Portable Error | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Number Not Portable/TN Not Portable Error
 
-Get the specifics for Not Portable and TN Not Portable errors and decipher their meaning.
+Get the specifics for Not Portable and TN Not Portable errors and decipher their meaning. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-January 10, 2024
 
-Table of contents
 
-# **All Countries**
+## **All Countries**
 
 **Related Errors**
 
@@ -49,5 +50,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

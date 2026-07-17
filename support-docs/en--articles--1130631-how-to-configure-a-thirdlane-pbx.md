@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130631-how-to-configure-a-thirdlane-pbx
+title: "How to configure a Thirdlane PBX"
+description: "In this article we will walk you through how to configure a Thirdlane PBX IP trunk at Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 1e45d5bfb349bef08924720fc68cbcadb76be27962fea1085f8b3cf2864d521c
 ---
 
-How to configure a Thirdlane PBX | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How to configure a Thirdlane PBX
 
-In this article we will walk you through how to configure a Thirdlane PBX IP trunk at Telnyx.
+In this article we will walk you through how to configure a Thirdlane PBX IP trunk at Telnyx. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_76ca35de8c)
 
@@ -32,7 +33,7 @@ Additional documentation:
 
 ---
 
-# Instructions for Configuring a Thirdlane PBX
+## Instructions for Configuring a Thirdlane PBX
 
 In this activity you will:
 
@@ -125,7 +126,7 @@ Before we start adding numbers that will be used to make/receive calls, we're go
    1. **Number of digits to strip:** How many digits will be stripped from the front of a dialed number (for example, if you require users to press 9 to dial out, you'd strip 1 digit - the 9 - from the number before placing the call)
    2. **String to prepend:** The string that will be prepended from the dialed number. This can also be specified in your outbound routes.
    3. **Dial command options:** Prepends specific options to **dial command options** string.
-   4. **SIP Header:** Allows you to add up to 4 custom SIP headers. For example:  
+   4. **SIP Header:** Allows you to add up to 4 custom SIP headers. For example:
       ​
 
       ```
@@ -188,7 +189,7 @@ In this section, you'll specify the inbound route that a caller will take when t
 
    ![Selecting time based routes group for inbound routes. ](_images/3d503099f668b00b.png)
 
-At this point, inbound calling to your DID is now ready to go! Simply ensure you register your client to your PBX with the extensions username and password. The domain will be the public IP of your PBX server.  
+At this point, inbound calling to your DID is now ready to go! Simply ensure you register your client to your PBX with the extensions username and password. The domain will be the public IP of your PBX server.
 ​
 
 [Back to top](#h_76ca35de8c)
@@ -315,5 +316,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

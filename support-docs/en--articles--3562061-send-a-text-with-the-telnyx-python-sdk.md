@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3562061-send-a-text-with-the-telnyx-python-sdk
+title: "Send a Text with the Telnyx Python SDK"
+description: "A quick video walking you through using the Telnyx Python SDK to send messages. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 6569f922cad9f0f1ba66b4caaf30fbf6d3989e385c523da0fe89acb4abe696d0
 ---
 
-Send a Text with the Telnyx Python SDK | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Send a Text with the Telnyx Python SDK
 
-A quick video walking you through using the Telnyx Python SDK to send messages.
+A quick video walking you through using the Telnyx Python SDK to send messages. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-June 6, 2024
 
-Table of contents
 
-# **Video Walk-through to Sending a Text with the Python SDK**
+## **Video Walk-through to Sending a Text with the Python SDK**
 
-Follow the video below to learn how to use the [Telnyx Python SDK](https://developers.telnyx.com/docs/development/developer-setup) to start sending text messages:  
+Follow the video below to learn how to use the [Telnyx Python SDK](https://developers.telnyx.com/docs/development/developer-setup) to start sending text messages:
 ​
 
 ## Additional Python SMS Documentation for Telnyx
@@ -36,5 +37,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

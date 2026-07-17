@@ -1,44 +1,45 @@
 ---
 source_url: https://support.telnyx.com/en/articles/13986485-how-to-set-up-whatsapp-on-telnyx
+title: "How to Set Up WhatsApp on Telnyx"
+description: "Step-by-step guide to setting up WhatsApp Business on Telnyx using the Embedded Signup flow. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: b9ca1b42fad01cb5e8d456c64f5fcffe912ea4340988c5c059337afc0df07b99
 ---
 
-How to Set Up WhatsApp on Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How to Set Up WhatsApp on Telnyx
 
-Step-by-step guide to setting up WhatsApp Business on Telnyx using the Embedded Signup flow.
+Step-by-step guide to setting up WhatsApp Business on Telnyx using the Embedded Signup flow. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-March 16, 2026
 
-Table of contents
 
-# Prerequisites
+## Prerequisites
 
 * A Telnyx account ([portal.telnyx.com](https://portal.telnyx.com))
 * A Meta Business Manager account ([business.facebook.com](https://business.facebook.com))
 * A phone number to register with WhatsApp (cannot be currently used with personal WhatsApp)
 
-# Step 1: Start Embedded Signup
+## Step 1: Start Embedded Signup
 
 1. Log in to the [Telnyx Portal](https://portal.telnyx.com)
 2. Navigate to **Messaging → WhatsApp** in the sidebar
 3. Click **Get Started** or **Add WhatsApp Business Account**
 4. You will be redirected to Facebook/Meta to authenticate
 
-# Step 2: Connect Meta Business Manager
+## Step 2: Connect Meta Business Manager
 
 1. Log in with your Facebook account that has admin access to your Meta Business Manager
 2. Select your existing Meta Business Manager or create a new one
 3. Grant Telnyx the required permissions to manage your WABA
 4. Select or create a WhatsApp Business Account
 
-# Step 3: Register a Phone Number
+## Step 3: Register a Phone Number
 
 1. Enter the phone number you want to use with WhatsApp
 2. Choose a display name for your business (this will be visible to customers)
@@ -50,7 +51,7 @@ Table of contents
 
 **Important:** The phone number cannot be currently active on the WhatsApp consumer app or WhatsApp Business App. If it is, you will need to delete that WhatsApp account first.
 
-# Step 4: Complete Setup
+## Step 4: Complete Setup
 
 Once verification is complete, your WhatsApp Business Account will appear in the Telnyx Portal under **Messaging → WhatsApp**. From here you can:
 
@@ -59,15 +60,15 @@ Once verification is complete, your WhatsApp Business Account will appear in the
 * Manage your business profile via Meta Business Manager (description, address, website, etc.)
 * Create and manage message templates
 
-# Step 5: Create Your First Template
+## Step 5: Create Your First Template
 
 Before you can send business-initiated messages, you need at least one approved template. Use the Telnyx API to create a template and wait for Meta's approval (typically 24–48 hours).
 
-# Step 6: Send Your First Message
+## Step 6: Send Your First Message
 
 Once your template is approved, you can send your first WhatsApp message via the Telnyx API. See the [Quickstart Guide](https://developers.telnyx.com/docs/messaging/whatsapp/quickstart) for a complete walkthrough.
 
-# Troubleshooting
+## Troubleshooting
 
 * **Signup flow fails** — Ensure your Facebook account has admin access to the Meta Business Manager. Try clearing browser cookies and restarting the flow.
 * **Phone verification fails** — Wait a few minutes and try again. If using SMS, try the phone call option instead.
@@ -82,5 +83,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

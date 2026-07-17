@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3739509-malaysia-did-requirements
+title: "Malaysia DID Requirements"
+description: "Here we will provide a detailed list of requirements to acquire Malaysian numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 90a66bb59eb1774bc8574a92cbec25043f183de4fe7b631c26cb72776a939312
 ---
 
-Malaysia DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Malaysia DID Requirements
 
-Here we will provide a detailed list of requirements to acquire Malaysian numbers.
+Here we will provide a detailed list of requirements to acquire Malaysian numbers. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-January 28, 2026
 
-Table of contents
 
-# DID Number Requirements for Malaysia
+## DID Number Requirements for Malaysia
 
 In order to purchase a Malaysia number you will need to provide the following:
 
@@ -30,7 +31,7 @@ For **business identity** verification:
 
 \* Contact phone number
 
-\* Company name  
+\* Company name
 \* Passport or ID copy of an authorized representative
 
 ​
@@ -170,5 +171,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

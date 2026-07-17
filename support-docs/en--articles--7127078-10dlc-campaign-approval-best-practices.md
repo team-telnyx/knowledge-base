@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/7127078-10dlc-campaign-approval-best-practices
+title: "10DLC Campaign Approval Best Practices"
+description: "Follow these best practices to get your 10DLC campaigns approved for the vetting process. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 787e0968c9f64ea62994cd98a05f97ad3f2cc56c53dea6f130a99d03be65f28c
 ---
 
-10DLC Campaign Approval Best Practices | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# 10DLC Campaign Approval Best Practices
 
-Follow these best practices to get your 10DLC campaigns approved for the vetting process.
 
-Written by Telnyx Engineering
 
-September 8, 2023
-
-Table of contents
 
 # 10DLC Campaign Approval Best Practices
+
+Follow these best practices to get your 10DLC campaigns approved for the vetting process. See Telnyx guidance and requirements.
+
+
+
+
+## 10DLC Campaign Approval Best Practices
 
 Effective January 26, 2023, all new Telnyx US 10DLC Campaign registrations (Standard, Low volume standard, and the upcoming Sole Proprietor 2.0) will be subject to a manual vetting process and be charged a $15 campaign verification fee at the time of external vetting. If a campaign is denied by external vetting, additional charges may occur with re-submission.
 
@@ -56,5 +57,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

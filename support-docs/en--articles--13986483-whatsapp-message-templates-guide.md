@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/13986483-whatsapp-message-templates-guide
+title: "WhatsApp Message Templates Guide"
+description: "How WhatsApp message templates work, the approval process, categories, and tips for getting templates approved. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 634a8860642b2ab4a646a4abc5e096ac2d02e3e3e9096a061bc789c933edbc28
 ---
 
-WhatsApp Message Templates Guide | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # WhatsApp Message Templates Guide
 
-How WhatsApp message templates work, the approval process, categories, and tips for getting templates approved.
+How WhatsApp message templates work, the approval process, categories, and tips for getting templates approved. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-March 16, 2026
 
-Table of contents
 
-# What Are Message Templates?
+## What Are Message Templates?
 
 Message templates are pre-approved message formats required by Meta to send business-initiated messages on WhatsApp. Every message sent outside the 24-hour conversation window must use an approved template.
 
-# Template Structure
+## Template Structure
 
 A template consists of these components:
 
@@ -38,7 +39,7 @@ A template consists of these components:
 | Buttons | No | 3 QR / 2 CTA | Quick reply or call-to-action (URL or phone number) |
 | Sample Values | **Strongly recommended** | — | Example values for each variable via the `example` field. Required for approval if template has parameters. |
 
-# Template Categories
+## Template Categories
 
 ## Marketing
 
@@ -54,7 +55,7 @@ For transactional messages: order confirmations, shipping updates, appointment r
 
 For one-time passwords (OTP) and verification codes. Meta provides a pre-built authentication template format. These are typically auto-approved and have the lowest per-conversation cost. The OTP must be in the body as a variable.
 
-# Prerequisites for Template Approval
+## Prerequisites for Template Approval
 
 🔴 **Templates will be rejected if these are not completed first:**
 
@@ -62,7 +63,7 @@ For one-time passwords (OTP) and verification codes. Meta provides a pre-built a
 2. **Business profile** — Fill in the business website (HTTPS), description, industry category, and address.
 3. **Sample values** — Include the `example` field with realistic sample data for each variable in the template. Meta's human reviewers use these to evaluate the rendered message.
 
-# Approval Process
+## Approval Process
 
 1. **Submit** — Create the template via the Telnyx API (`POST` to the Templates endpoint)
 2. **Review** — Meta reviews the template. Authentication templates are typically auto-approved. Marketing and Utility go through human review (24–48 hours).
@@ -70,7 +71,7 @@ For one-time passwords (OTP) and verification codes. Meta provides a pre-built a
 
 Template status values: `PENDING`, `APPROVED`, `REJECTED`, `PAUSED`, `DISABLED`.
 
-# Template Quality and Pacing
+## Template Quality and Pacing
 
 After approval, Meta monitors template performance based on user feedback (blocks, spam reports, engagement). Templates receive a quality rating:
 
@@ -82,7 +83,7 @@ After approval, Meta monitors template performance based on user feedback (block
 
 **Pausing:** If a template receives too much negative feedback, Meta pauses it automatically. Pause durations escalate: 3 hours → 6 hours → permanently disabled.
 
-# Common Rejection Reasons
+## Common Rejection Reasons
 
 * **Missing sample values** — Template has variables but no `example` field. This is the most common rejection cause.
 * **Empty display name** — The phone number doesn't have a display name set or approved.
@@ -100,7 +101,7 @@ After approval, Meta monitors template performance based on user feedback (block
 
 💡 **Tip:** Meta's rejection messages are often generic ("This template was rejected by a Meta team"). Use the list above to troubleshoot. If rejected, fix the most likely cause, edit the template, and resubmit.
 
-# Tips for Approval
+## Tips for Approval
 
 * Always provide sample values in the `example` field for every variable
 * Complete the business profile and display name before submitting any templates
@@ -111,7 +112,7 @@ After approval, Meta monitors template performance based on user feedback (block
 * Use CTA buttons for URLs rather than embedding links in body text
 * New WABAs face stricter review for the first 30 days — start simple
 
-# Related Resources
+## Related Resources
 
 * [Send Template Messages (API Guide)](https://developers.telnyx.com/docs/messaging/whatsapp/send-messages#template-messages)
 
@@ -124,5 +125,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

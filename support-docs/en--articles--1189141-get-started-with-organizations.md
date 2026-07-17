@@ -1,29 +1,30 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1189141-get-started-with-organizations
+title: "Get Started with Organizations"
+description: "This article explains how to create an organization so that you can delegate permissions to sub… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 3ece98c14ea2e3324035cd60d41a5c9d88b8d218e646667da097fcc6997158a4
 ---
 
-Get Started with Organizations | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Get Started with Organizations
 
-This article explains how to create an organization so that you can delegate permissions to sub members
+This article explains how to create an organization so that you can delegate permissions to sub… See Telnyx guidance and requirements.
 
-Written by Dillin
 
-December 31, 2024
 
-Table of contents
 
-# **What are User Organizations?**
+## **What are User Organizations?**
 
 User organizations, also frequently just referred to as "organizations," is a feature that allows multiple user accounts to be tied together into one larger "umbrella" entity. An organization is always headed by a single account, the organization owner.
 
-Sub-accounts, also known as sub-members or sub-users, are limited in their capabilities by a permissions system that controls what resources they can and cannot access on your account. An organization owner is fully privileged by default (and can essentially "do anything" with the account), including managing the permissions of the users in their organization.   
-​  
+Sub-accounts, also known as sub-members or sub-users, are limited in their capabilities by a permissions system that controls what resources they can and cannot access on your account. An organization owner is fully privileged by default (and can essentially "do anything" with the account), including managing the permissions of the users in their organization.
+​
 The permissions are managed on a group-level, rather than an individual level, to ensure that it is easy to assign the same permissions to any number of sub-accounts as needed.
 
 In all cases, user organizations are allowed only one net running balance and payment method - it is not meant to be a system for re-sellers to allow their customers access to their Telnyx account directly. Please check out our [managed accounts](https://support.telnyx.com/en/articles/4951492-managed-accounts) feature instead.
@@ -64,8 +65,8 @@ Invitations can be revoked once sent to prevent using them to sign up to join th
 
 ## **Groups & Permissions**
 
-Once a sub member has accepted an invitation, you can then proceed to creating a permission group in which they can be added to. In this permission group, you define the permissions the user is allowed.   
-​  
+Once a sub member has accepted an invitation, you can then proceed to creating a permission group in which they can be added to. In this permission group, you define the permissions the user is allowed.
+​
 For example, the below permission group is called "billing permissions" and I have one member assigned to it. I will provide this member with billing permissions, so they can assist with payments, downloading invoices, pricing etc.
 
 ![](_images/50e7ec3852250c5d.png)
@@ -175,7 +176,7 @@ A sub-account cannot have it's own payment information either, it instead perfor
 When your sub account does not have the appropriate access or permissions, in this instance to view numbers, you will see this general error display.
 
 * **Your organization owner has not yet granted you permissions for this feature of the application. Please contact your organization owner to discuss which permissions you should have on your sub account.**
-* **You are not authorized to access the requested resource.**  
+* **You are not authorized to access the requested resource.**
   ​**​**
 
 ![Permission Denied Example picture. ](_images/30a89854ca5d8ed1.png)
@@ -253,5 +254,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

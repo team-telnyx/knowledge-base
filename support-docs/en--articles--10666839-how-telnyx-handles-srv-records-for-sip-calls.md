@@ -1,20 +1,22 @@
 ---
 source_url: https://support.telnyx.com/en/articles/10666839-how-telnyx-handles-srv-records-for-sip-calls
+title: "How Telnyx Handles SRV Records for SIP Calls"
+description: "SRV Records for SIP… See Telnyx guidance and requirements Learn more about How Telnyx Handles SRV Records for SIP Calls with Telnyx."
 scraped: 2026-07-08
 content_hash: d2ae9b1cf77ffd7f28098cbfc0026cefa1f52577b088d7fcb213c7da10397d80
 ---
 
-How Telnyx Handles SRV Records for SIP Calls | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How Telnyx Handles SRV Records for SIP Calls
 
-SRV Records for SIP calls
+SRV Records for SIP… See Telnyx guidance and requirements Learn more about How Telnyx Handles SRV Records for SIP Calls with Telnyx.
 
-Written by Cameron Fitzpatrick
 
-April 7, 2026
 
 This guide explains how Telnyx handles SRV records and provides insights into best practices for configuring SIP calls to ensure smooth operation.
 
@@ -43,7 +45,7 @@ When Telnyx receives a request to route a call to an external non Telnyx FQDN, i
 
 If the RURI contains a port number(e.g. `sip:+1234567890@sip.example.com:5060`):
 
-1. **DNS Lookup:** Telnyx performs an A-record lookup, bypassing the SRV record.  
+1. **DNS Lookup:** Telnyx performs an A-record lookup, bypassing the SRV record.
    ​
 2. **Routing:** The call is routed to the IP address returned by the A-record lookup.
 
@@ -53,34 +55,34 @@ If the RURI contains a port number(e.g. `sip:+1234567890@sip.example.com:5060`):
 
 If the RURI does not contain a port number (e.g. `sip:+1234567890@sip.example.com`):
 
-1. **DNS Lookup:** Telnyx performs an SRV-record lookup.  
+1. **DNS Lookup:** Telnyx performs an SRV-record lookup.
    ​
-2. **Routing:** The SRV record dictates the server to which the call should be routed. If no SRV record exists, Telnyx will fall back to an A-record lookup and use the default SIP port (5060 for UDP/TCP or 5061 for TLS). If the first SRV target fails with a SIP 503 response, Telnyx will attempt the next highest priority target in the SRV list  
+2. **Routing:** The SRV record dictates the server to which the call should be routed. If no SRV record exists, Telnyx will fall back to an A-record lookup and use the default SIP port (5060 for UDP/TCP or 5061 for TLS). If the first SRV target fails with a SIP 503 response, Telnyx will attempt the next highest priority target in the SRV list
    ​
 
 ---
 
 ### **Key Considerations for Configuring SIP Calls**
 
-1. **Remove Port Numbers for SRV Record Range**  
-   To leverage SRV records, ensure the to header in your dial command does not include a port number. For example:  
-   ​  
-   - Incorrect: `"to" => "sip:+1234567890@sip.example.com:5060"`  
-   ​  
-   - Correct: `"to" => "sip:+1234567890@sip.example.com"`  
+1. **Remove Port Numbers for SRV Record Range**
+   To leverage SRV records, ensure the to header in your dial command does not include a port number. For example:
    ​
-2. **Fallback Behaviour**  
-   If an SRV record is not found:  
-   ​  
-   - Telnyx attempts an A-record lookup.  
-   ​  
-   - If no A-record exists, the call fails with a `SIP 478 (Unresolvable Destination) response`.  
+   - Incorrect: `"to" => "sip:+1234567890@sip.example.com:5060"`
    ​
-3. **DNS Resolvability**  
-   ​  
-   - Ensure your DNS configuration is correct and resolvable globally.  
-   ​  
-   - Ensure SRV targets are properly configured with resolvable A records.   
+   - Correct: `"to" => "sip:+1234567890@sip.example.com"`
+   ​
+2. **Fallback Behaviour**
+   If an SRV record is not found:
+   ​
+   - Telnyx attempts an A-record lookup.
+   ​
+   - If no A-record exists, the call fails with a `SIP 478 (Unresolvable Destination) response`.
+   ​
+3. **DNS Resolvability**
+   ​
+   - Ensure your DNS configuration is correct and resolvable globally.
+   ​
+   - Ensure SRV targets are properly configured with resolvable A records.
    ​
 
 ---

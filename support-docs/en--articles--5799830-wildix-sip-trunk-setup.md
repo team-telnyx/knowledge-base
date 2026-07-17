@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5799830-wildix-sip-trunk-setup
+title: "Wildix: SIP Trunk Setup"
+description: "Learn how to set up and configure a SIP trunk between Wildix and… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ad7004f7a8714b3d4f105724588b45c256da6e72c6a17a84e779314233b577df
 ---
 
-Wildix: SIP Trunk Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Wildix: SIP Trunk Setup
 
-Learn how to set up and configure a SIP trunk between Wildix and Telnyx
+Learn how to set up and configure a SIP trunk between Wildix and… See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_d9c3c4e6b9)
 
@@ -33,7 +34,7 @@ Additional documentation:
 
 ---
 
-# Instructions for establishing a [SIP trunk](https://telnyx.com/products/sip-trunks) between Wildix and Telnyx
+## Instructions for establishing a [SIP trunk](https://telnyx.com/products/sip-trunks) between Wildix and Telnyx
 
 In this activity you will:
 
@@ -129,5 +130,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

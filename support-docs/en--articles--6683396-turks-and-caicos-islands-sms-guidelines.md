@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6683396-turks-and-caicos-islands-sms-guidelines
+title: "Turks and Caicos Islands: SMS Guidelines"
+description: "Sending SMS to Turks & Caicos Islands? See Telnyx guidance and requirements Learn more about Turks and Caicos Islands: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: f757b6363e376002ab60807f331e789c25452dd461a16c55784d491b899609ca
 ---
 
-Turks and Caicos Islands: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# Turks and Caicos Islands: SMS Guidelines
 
-Sending SMS to Turks & Caicos Islands? Check out our comprehensive guidelines to ensure compliance in Turks & Caicos Islands.
 
-Written by Telnyx Engineering
 
-November 15, 2023
-
-Table of contents
 
 # Turks and Caicos Islands: SMS Guidelines
 
-**MCC:** 376  
-​**Dial Code:** 1649  
-​  
+Sending SMS to Turks & Caicos Islands? See Telnyx guidance and requirements Learn more about Turks and Caicos Islands: SMS Guidelines with Telnyx.
+
+
+
+
+## Turks and Caicos Islands: SMS Guidelines
+
+**MCC:** 376
+​**Dial Code:** 1649
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -88,5 +89,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5464041-brazil-did-requirements
+title: "Brazil DID Requirements"
+description: "Here you will find a detailed list of requirements to acquire numbers in Brazil. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 298d7acb4941cbd96595d1c3baa2d379e97104e21f49c573f3ab0494455fbe6e
 ---
 
-Brazil DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Brazil DID Requirements
 
-Here you will find a detailed list of requirements to acquire numbers in Brazil.
+Here you will find a detailed list of requirements to acquire numbers in Brazil. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-May 15, 2026
 
-Table of contents
 
-# DID Number Requirements for Brazil
+## DID Number Requirements for Brazil
 
 In order to purchase a Brazilian number you will need to provide the following:
 
@@ -60,8 +61,8 @@ For **personal identity** verification:
 
 \* Contact e-mail
 
-\* CPF number  
-\* Passport or ID copy  
+\* CPF number
+\* Passport or ID copy
 ​
 
 For **business identity** verification:
@@ -80,13 +81,13 @@ For **business identity** verification:
 
 \* Passport or ID copy of an authorized representative
 
-\* Company Registration Certificate  
+\* Company Registration Certificate
 ​
 
 For **address** verification:
 
-\* Address in Brazil (street, building number, postal code, city and country)  
-​  
+\* Address in Brazil (street, building number, postal code, city and country)
+​
 \*\*Please note: It could take up to 3 business days to review/approve Brazil orders.
 
 ## **Helpful for acquiring Brazil DIDs**
@@ -132,5 +133,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

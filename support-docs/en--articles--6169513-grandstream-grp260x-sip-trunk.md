@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6169513-grandstream-grp260x-sip-trunk
+title: "Grandstream GRP260x: SIP Trunk"
+description: "Learn how to configure a Telnyx SIP trunk on the Grandstream GRP260x Series IP… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ee2ab10a3b5059edd8c19cb6ca4c4e81c8cb94a40cf9a220b9a0ca41028ccb2f
 ---
 
-Grandstream GRP260x: SIP Trunk | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Grandstream GRP260x: SIP Trunk
 
-Learn how to configure a Telnyx SIP trunk on the Grandstream GRP260x Series IP phones
+Learn how to configure a Telnyx SIP trunk on the Grandstream GRP260x Series IP… See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_31bc93499e)
 
@@ -42,7 +43,7 @@ Part of the GRP series of Carrier-Grade IP Phones, the [Grandstream GRP260x](htt
 
 ---
 
-# Instructions for creating a SIP trunk on your Grandstream GRP 260x device
+## Instructions for creating a SIP trunk on your Grandstream GRP 260x device
 
 In this activity, you will:
 
@@ -85,8 +86,8 @@ The Grandstream GRP 260x web portal has 9 configuration sections. While you may 
 In this step, you'll create and register a SIP trunk that will connect your device to your Telnyx account or sub-account.
 
 1. [Log into the Grandstream web portal](https://documentation.grandstream.com/knowledge-base/grp260x-series-administration-guide/#configuration-via-web-browser).
-2. Navigate to the **Account** settings screen and use the following settings to configure your SIP trunk:  
-   ​  
+2. Navigate to the **Account** settings screen and use the following settings to configure your SIP trunk:
+   ​
    In the **General Settings >** **Account Register** section:
 
    1. **Account Active:** Set as *Yes* if you plan to activate your new trunk as soon as it's set up.
@@ -101,13 +102,13 @@ In this step, you'll create and register a SIP trunk that will connect your devi
       1. Caller ID Name should be in capital letters. This will appears more clearly/visible on some devices.
       2. You must NOT use any special characters, as they will not be displayed. Spaces are allowed.
       3. Some of regular Canadian providers will not show more than 15 characters. We suggest shrinking or adapt your caller ID.
-   9. **Fallback Expiration:** Specifies the duration (in minutes) since failover to the current SIP server or Outbound Proxy before making failback attempts to the primary SIP server or Outbound Proxy.  
+   9. **Fallback Expiration:** Specifies the duration (in minutes) since failover to the current SIP server or Outbound Proxy before making failback attempts to the primary SIP server or Outbound Proxy.
       ​
 
    In the **General Settings >** **Network Settings** section:
 
    1. **Outbound Proxy:** *sip.telnyx.com*
-   2. **Max number of SIP request replies:** Sets the maximum number of retries for the device to send requests to the server. In DNS SRV configuration, if the destination address does not respond, all request messages are resent to the same address according to the configured retry times. Valid range: 1-10.  
+   2. **Max number of SIP request replies:** Sets the maximum number of retries for the device to send requests to the server. In DNS SRV configuration, if the destination address does not respond, all request messages are resent to the same address according to the configured retry times. Valid range: 1-10.
       ​
 
    In the **SIP Settings > Basic Settings** section:
@@ -123,7 +124,7 @@ In this step, you'll create and register a SIP trunk that will connect your devi
    4. **Local SIP port:** UDP will use *5060*, TLS/TCP will use *5061*
 3. Navigate to the Status page where you can check all your account details.
 
-That's it, you've now completed the configuration of your Grandstream GRP260x device.  
+That's it, you've now completed the configuration of your Grandstream GRP260x device.
 ​
 
 [Back to Top](#h_31bc93499e)
@@ -155,5 +156,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,32 +1,33 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6679036-new-zealand-sms-guidelines
+title: "New Zealand: SMS Guidelines"
+description: "SMS Guidelines for New Zealand including MCC and Dial Code. See Telnyx guidance and requirements Learn more about New Zealand: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 8cf8ac10ac74e662456c3013c498a072c38e1d97af235140bbf2917e7c9d6e19
 ---
 
-New Zealand: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # New Zealand: SMS Guidelines
 
-SMS Guidelines for New Zealand including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for New Zealand including MCC and Dial Code. See Telnyx guidance and requirements Learn more about New Zealand: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-February 21, 2025
 
-Table of contents
 
-# **SMS Guidelines for New Zealand**
+## **SMS Guidelines for New Zealand**
 
-**MCC:** 530  
-​**Dial Code:** 64  
-​  
-All Alphanumeric Sender IDs will be overwritten to a random [Short Code](https://telnyx.com/products/sms-short-code) to ensure delivery.  
-​  
-Due to local restrictions, dedicated short codes are the best way to improve delivery towards this destination. Without a dedicated short code, message delivery is to be considered as best-effort delivery only.  
-​  
+**MCC:** 530
+​**Dial Code:** 64
+​
+All Alphanumeric Sender IDs will be overwritten to a random [Short Code](https://telnyx.com/products/sms-short-code) to ensure delivery.
+​
+Due to local restrictions, dedicated short codes are the best way to improve delivery towards this destination. Without a dedicated short code, message delivery is to be considered as best-effort delivery only.
+​
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ## SMS Resources for New Zealand
@@ -41,8 +42,8 @@ Additional SMS resources for New Zealand:
 * [Guide to hosted SMS](https://telnyx.com/resources/hosted-sms-how-to-guide)
 * [Mastering CTIA guidelines](https://telnyx.com/resources/CTIA-SMS-guidelines)
 * [Guide to compliant bulk SMS](https://telnyx.com/resources/bulk-sms-guide)
-* [SMS compliance and regulations](https://telnyx.com/resources/how-to-ensure-compliance-with-sms-regulations)  
-  ​  
+* [SMS compliance and regulations](https://telnyx.com/resources/how-to-ensure-compliance-with-sms-regulations)
+  ​
   ​
 
 ---
@@ -54,5 +55,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

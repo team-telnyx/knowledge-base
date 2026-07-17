@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5464157-dominican-republic-did-requirements
+title: "Dominican Republic DID requirements"
+description: "Here you will find a list of detailed requirements for acquiring Dominican Republic numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 53ad26c8469379cbf9799781b80f12a92ffbc9efc61538fcb808d46447e640a3
 ---
 
-Dominican Republic DID requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Dominican Republic DID requirements
 
-Here you will find a list of detailed requirements for acquiring Dominican Republic numbers.
+Here you will find a list of detailed requirements for acquiring Dominican Republic numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-September 29, 2025
 
-Table of contents
 
-# DID Number Requirements for Dominican Republic
+## DID Number Requirements for Dominican Republic
 
 In order to purchase a Dominican Republic number you will need to provide the following:
 
@@ -89,5 +90,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

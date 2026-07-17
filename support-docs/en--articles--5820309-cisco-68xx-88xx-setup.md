@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5820309-cisco-68xx-88xx-setup
+title: "Cisco: 68xx/88xx Setup"
+description: "Learn how to configure a Cisco 68xx/88xx series IP phone to worth with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 8cb28fc25b31a6e0c7eb27adaa7c2f785d4786dd3a06bc8a7a6b3665e9c5f1c6
 ---
 
-Cisco: 68xx/88xx Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Cisco: 68xx/88xx Setup
 
-Learn how to configure a Cisco 68xx/88xx series IP phone to worth with Telnyx.
+Learn how to configure a Cisco 68xx/88xx series IP phone to worth with Telnyx. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_0a462c8775)
 
@@ -34,7 +35,7 @@ Additional documentation:
 
 ---
 
-# Instructions for setting up and configuring your Cisco 68xx/88xx
+## Instructions for setting up and configuring your Cisco 68xx/88xx
 
 |  |
 | --- |
@@ -104,8 +105,8 @@ In this section, you'll configure your extension and connect your phone to Telny
    4. **Auth ID**: Your Telnyx account ID
 
    ![Subscriber Information section](_images/3fe4346911a93aed.png)
-6. Find the **Audio Configuration** section and set your codecs in priority sequence that meets your needs.   
-   ​  
+6. Find the **Audio Configuration** section and set your codecs in priority sequence that meets your needs.
+   ​
    Telnyx supports the following [audio codecs](https://telnyx.com/resources/codecs-affect-voip-sound-quality):
 
    1. ulaw(g711u)
@@ -134,7 +135,7 @@ If you have configured your profile for TLS call encryption, you'll need to ensu
 
    ![Supplementary Services section](_images/c1de314e27cb4673.png)
 3. You only need to complete this step if your device requires a TLS certificate. Find the certificate [here](https://crt.sh/?id=1199354) if you have not done so already. While still on the **Voice** tab, click on the **Provisioning** sub-tab.
-4. Paste the certificate link in the **Custom CA Rule** field.  
+4. Paste the certificate link in the **Custom CA Rule** field.
    ​
 
    ![Custom CA Rule field](_images/55d0b5d8c8925945.png)
@@ -167,5 +168,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

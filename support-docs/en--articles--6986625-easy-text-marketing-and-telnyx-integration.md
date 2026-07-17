@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6986625-easy-text-marketing-and-telnyx-integration
+title: "Easy Text Marketing and Telnyx Integration"
+description: "Onboarding for Easy Text Marketing (formerly know as Rockstar SMS) SMS customers using Telnyx as their BYOC Carrier. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: c1558adbfdcbab866add42ca5711dd21a76430a43b02bf6b6349f23c1fedbb73
 ---
 
-Easy Text Marketing and Telnyx Integration | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Easy Text Marketing and Telnyx Integration
 
-Onboarding for Easy Text Marketing (formerly know as Rockstar SMS) SMS customers using Telnyx as their BYOC Carrier.
+Onboarding for Easy Text Marketing (formerly know as Rockstar SMS) SMS customers using Telnyx as their BYOC Carrier. See Telnyx guidance and requirements.
 
 K
 
-Written by Klane Pedrie
 
-May 20, 2026
 
-Table of contents
 
-# **Easy Text Marketing and Telnyx Integration**
+## **Easy Text Marketing and Telnyx Integration**
 
 So you want to get rocking sending SMS using the all star pairing of Telnyx and [Easy Text Marketing](https://www.rockstarinfo.com/) to roll your business towards success, that is music to my ears. The following guide should take less than 30 minutes from start to finish, start now so that your customers can stop singing the blues and start rocking with you!
 
@@ -93,5 +94,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

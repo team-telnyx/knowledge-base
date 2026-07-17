@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5190458-the-dominican-republic-number-porting
+title: "The Dominican Republic Number Porting"
+description: "Here you will find a detailed list of requirements for The Dominican Republic number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 2c1c49b7152b6f02bc9b2e078e15ffbca3ef35505ee36871a668d7c49c193614
 ---
 
-The Dominican Republic Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # The Dominican Republic Number Porting
 
-Here you will find a detailed list of requirements for The Dominican Republic number portability.
+Here you will find a detailed list of requirements for The Dominican Republic number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-February 10, 2026
 
-Table of contents
 
-# For Local / National number Types in the Dominican Republic
+## For Local / National number Types in the Dominican Republic
 
 1. LOA (National address required)
 
@@ -45,5 +46,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

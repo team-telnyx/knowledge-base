@@ -1,34 +1,35 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6674383-india-sms-guidelines
+title: "India: SMS Guidelines"
+description: "SMS Guidelines for India including MCC and Dial Code. See Telnyx guidance and requirements Learn more about India: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: dcf0cd096a5f3244b377c5355c0fdcdf747294dd94d1898eda918ac3aa587ada
 ---
 
-India: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # India: SMS Guidelines
 
-SMS Guidelines for India including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for India including MCC and Dial Code. See Telnyx guidance and requirements Learn more about India: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# SMS Guidelines for India
+## SMS Guidelines for India
 
-**MCC:** 404 - 405  
-​**Dial Code:** 91  
-​  
-Alphanumeric Sender IDs are partially supported through registration. Only Local Alpha Sender IDs (Local Entities) can be registered (DLT registration process) while no registration is possible for International Alpha Sender IDs.  
-​  
-International Alphanumeric Sender IDs will be overwritten to random [Short Code](https://telnyx.com/products/sms-short-code) to ensure delivery.  
-​  
-Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).  
-​  
+**MCC:** 404 - 405
+​**Dial Code:** 91
+​
+Alphanumeric Sender IDs are partially supported through registration. Only Local Alpha Sender IDs (Local Entities) can be registered (DLT registration process) while no registration is possible for International Alpha Sender IDs.
+​
+International Alphanumeric Sender IDs will be overwritten to random [Short Code](https://telnyx.com/products/sms-short-code) to ensure delivery.
+​
+Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
+​
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
@@ -42,5 +43,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3506141-croatia-did-requirements
+title: "Croatia DID Requirements"
+description: "In this article you will find a detailed list of requirements to acquire Croatia numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 8c700d906e1800b9e7c721e0792a5c144127a9667dc0a4d1a06980ba21651a50
 ---
 
-Croatia DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Croatia DID Requirements
 
-In this article you will find a detailed list of requirements to acquire Croatia numbers.
+In this article you will find a detailed list of requirements to acquire Croatia numbers. See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-May 30, 2024
 
-Table of contents
 
-# DID Number Requirements for Croatia
+## DID Number Requirements for Croatia
 
 In order to purchase a Croatian number you will need to provide the following:
 
@@ -36,7 +37,7 @@ For **business identity** verification:
 
 \* Company registration certificate
 
-For **address** verification:  
+For **address** verification:
 \* Address matching the DID area code (street, building number, postal code, city, and country)
 
 \* Proof of address (dated within 3 months)
@@ -45,20 +46,20 @@ For **address** verification:
 
 ## **Toll-Free Numbers in Croatia**
 
-For **personal identity** verification:  
-\* Name, last name  
-\* Contact phone number  
-\* Passport or ID copy  
-​  
-For **business identity** verification:  
+For **personal identity** verification:
+\* Name, last name
+\* Contact phone number
+\* Passport or ID copy
+​
+For **business identity** verification:
 \* Name, last name of the legal representative
 
-\* Company name  
-\* Contact phone number  
-\* Passport or ID copy of the legal representative  
-\* Company incorporation certificate  
-​  
-For **address** verification:  
+\* Company name
+\* Contact phone number
+\* Passport or ID copy of the legal representative
+\* Company incorporation certificate
+​
+For **address** verification:
 \* Address in Croatia (street, building number, postal code, city, and country)
 
 \*\*\*Please note that once the documentation is received it will take approximately 72 hours to validate the information and activate the number for use.
@@ -104,5 +105,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8201852-telnyx-networking-on-pfsense
+title: "Telnyx Networking on PfSense"
+description: "Guide on setting up Telnyx networking on pfSense. See Telnyx guidance and requirements Learn more about Telnyx Networking on PfSense with Telnyx."
 scraped: 2026-07-08
 content_hash: e1e64bab71b8a9e2d9bdc64ba5e50b7297078637d60c1f800178c5578a9d2fd4
 ---
 
-Telnyx Networking on PfSense | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Telnyx Networking on PfSense
 
-Guide on setting up Telnyx networking on pfSense. Ensure seamless connectivity!
+Guide on setting up Telnyx networking on pfSense. See Telnyx guidance and requirements Learn more about Telnyx Networking on PfSense with Telnyx.
 
-Written by Telnyx Engineering
 
-December 11, 2023
 
-Table of contents
 
-# PfSense with the Telnyx Network
+## PfSense with the Telnyx Network
 
 ## Step 1: Telnyx Configuration with PfSense
 
@@ -35,38 +36,38 @@ We can also utilize direct API calls to set up everything from above
 1. Create a new Network
 
 ```
-curl --request POST \  
-  --url https://api.telnyx.com/v2/networks \  
-  --header 'Authorization: Bearer <YOUR_TOKEN_HERE>' \  
-  --header 'Content-Type: application/json' \  
-  --data '{  
-    "name": "Test Network"  
+curl --request POST \
+  --url https://api.telnyx.com/v2/networks \
+  --header 'Authorization: Bearer <YOUR_TOKEN_HERE>' \
+  --header 'Content-Type: application/json' \
+  --data '{
+    "name": "Test Network"
 }'
 ```
 
 2. Create a Wireguard Interface
 
 ```
-curl -i -X POST \  
-  https://api.telnyx.com/v2/wireguard_interfaces \  
-  -H 'Authorization: Bearer <YOUR_TOKEN_HERE>' \  
-  -H 'Content-Type: application/json' \  
-  -d '{  
-    "network_id": "<NETWORK_ID_HERE>",  
-    "name": "test interface",  
-    "region_code": "ashburn-va"  
+curl -i -X POST \
+  https://api.telnyx.com/v2/wireguard_interfaces \
+  -H 'Authorization: Bearer <YOUR_TOKEN_HERE>' \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "network_id": "<NETWORK_ID_HERE>",
+    "name": "test interface",
+    "region_code": "ashburn-va"
   }'
 ```
 
 3. Create a Wireguard Peer
 
 ```
-curl -i -X POST \  
-  https://api.telnyx.com/v2/wireguard_peers \  
-  -H 'Authorization: Bearer <YOUR_TOKEN_HERE>' \  
-  -H 'Content-Type: application/json' \  
-  -d '{  
-    "wireguard_interface_id": "<WIREGUARD_INTERFACE_ID_HERE>"  
+curl -i -X POST \
+  https://api.telnyx.com/v2/wireguard_peers \
+  -H 'Authorization: Bearer <YOUR_TOKEN_HERE>' \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "wireguard_interface_id": "<WIREGUARD_INTERFACE_ID_HERE>"
   }'
 ```
 
@@ -135,5 +136,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

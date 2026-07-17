@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5798240-pbxes-connecting-a-pbxes-trunk-to-telnyx
+title: "PBXes: Connecting a PBXes Trunk to Telnyx"
+description: "Connect your PBXes SIP trunk to Telnyx effortlessly. See Telnyx guidance and requirements Learn more about PBXes: Connecting a PBXes Trunk to Telnyx with."
 scraped: 2026-07-08
 content_hash: 42a3b23294002ae7f4e3bb3ed3be410677ac19a4ee974eb3cbb1b6915b7652a1
 ---
 
-PBXes: Connecting a PBXes Trunk to Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # PBXes: Connecting a PBXes Trunk to Telnyx
 
-Connect your PBXes SIP trunk to Telnyx effortlessly. Step-by-step instructions for inbound and outbound routing configurations.
+Connect your PBXes SIP trunk to Telnyx effortlessly. See Telnyx guidance and requirements Learn more about PBXes: Connecting a PBXes Trunk to Telnyx with.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_67de6d5252)
 
@@ -32,7 +33,7 @@ Additional documentation:
 
 ---
 
-# Instructions for configuring PBXes to work with Telnyx
+## Instructions for configuring PBXes to work with Telnyx
 
 In this activity you will:
 
@@ -92,8 +93,8 @@ In this step, you'll create an inbound routing dial rule and an outbound routing
 
 1. Log into your pbxes.com web portal using the login dialogue on the top-right of the page.
 2. Expand **Inbound Routing** in the left-hand menu and click on **Add Route.**
-3. In the **Options** section, you can choose an Outbound Caller ID if you wish.   
-   ​  
+3. In the **Options** section, you can choose an Outbound Caller ID if you wish.
+   ​
    ​***Note*** *the following Caller ID naming conventions:*
 
    1. Call ID name should be in CAPITAL LETTERS. This is easier to read on some devices.
@@ -148,5 +149,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

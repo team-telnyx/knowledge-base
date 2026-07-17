@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5822823-snom-m100-kle-telnyx-setup
+title: "Snom M100 KLE: Telnyx Setup"
+description: "Learn how to set up and configure your Snom M100 KLE base station and connect it to Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: f823eef2d2ed72472cc6ef0fbac0efdbcd1a8579e7707bedd08ce6b4cdf99945
 ---
 
-Snom M100 KLE: Telnyx Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Snom M100 KLE: Telnyx Setup
 
-Learn how to set up and configure your Snom M100 KLE base station and connect it to Telnyx.
+Learn how to set up and configure your Snom M100 KLE base station and connect it to Telnyx. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_eb55fd1e30)
 
@@ -64,7 +65,7 @@ Additional documentation:
 
 ---
 
-# Instructions for configuring the Snom M100 KLE Base Station
+## Instructions for configuring the Snom M100 KLE Base Station
 
 In this activity you will:
 
@@ -153,5 +154,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

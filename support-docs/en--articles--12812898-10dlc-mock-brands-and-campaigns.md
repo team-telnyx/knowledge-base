@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/12812898-10dlc-mock-brands-and-campaigns
+title: "10DLC Mock Brands and Campaigns"
+description: "In this article, we break down creating mock 10DLC brands and campaigns and their purpose. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: bd106bb9b5cb7262013679d900f6eaab74650e6565c5a676a247379f6c7c0d07
 ---
 
-10DLC Mock Brands and Campaigns | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # 10DLC Mock Brands and Campaigns
 
-In this article, we break down creating mock 10DLC brands and campaigns and their purpose.
+In this article, we break down creating mock 10DLC brands and campaigns and their purpose. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-January 19, 2026
 
-Table of contents
 
 If your business wants to try creating brands and campaigns to test API behavior, webhook events, or general 10DLC provisioning pipelines, creating a mock brand and mock campaigns can be useful. Mock brands and mock campaigns can be created at no cost allowing for a free way to test each step of your 10DLC integration. In this guide, we'll show you how to create mock brands and campaigns.
 
@@ -56,5 +57,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

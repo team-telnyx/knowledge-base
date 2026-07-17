@@ -1,33 +1,34 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3739580-switzerland-did-requirements
+title: "Switzerland DID Requirements"
+description: "Here you will find a detailed list off requirements for acquiring Switzerland numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 3a6afe507201db915d9453ac9b2afab031e2b8732280591e5b3a6a1df5403fbb
 ---
 
-Switzerland DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Switzerland DID Requirements
 
-Here you will find a detailed list off requirements for acquiring Switzerland numbers.
+Here you will find a detailed list off requirements for acquiring Switzerland numbers. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-November 11, 2025
 
-Table of contents
 
-# DID Number Requirements for Switzerland
+## DID Number Requirements for Switzerland
 
 In order to purchase a Switzerland number you will need to provide the following:
 
 ## Mandatory Use of Requirement Groups: Switzerland
 
-Starting **September 16, 2024**, **Requirement Groups** will be mandatory for ordering phone numbers in **Switzerland (CH).**  
+Starting **September 16, 2024**, **Requirement Groups** will be mandatory for ordering phone numbers in **Switzerland (CH).**
 ​
 
-Requirement Groups let you manage regulatory requirements by pre-filling necessary information once, allowing for reuse across multiple orders. This change aims to streamline compliance.  
+Requirement Groups let you manage regulatory requirements by pre-filling necessary information once, allowing for reuse across multiple orders. This change aims to streamline compliance.
 ​
 
 For full details on setting up Requirement Groups, please refer to the [guide here](https://support.telnyx.com/en/articles/9801714-requirement-groups-for-ordering-phone-numbers).
@@ -68,15 +69,15 @@ For **business identity** verification:
 
 \* Contact phone number
 
-\* Company name  
+\* Company name
 \* VAT number
 
 \* Company registration certificate (dated within 3 months)
 
 For **address** verification:
 
-\* Address worldwide (street, building number, postal code, city and country)  
-​  
+\* Address worldwide (street, building number, postal code, city and country)
+​
 Additional details:
 
 \*Business use required: Business use is required, private use is not allowed.
@@ -124,5 +125,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6974437-updates-to-global-conversational-rate-deck
+title: "Updates to Global Conversational Rate Deck"
+description: "Learn about upcoming changes to Telnyx's Global Conversational rate deck impacting origination types, prefixes, See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: c6ee2679dd6f9407cfe582f6b212c4c3769befba629137122308cd6afc733986
 ---
 
-Updates to Global Conversational Rate Deck | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Updates to Global Conversational Rate Deck
 
-Learn about upcoming changes to Telnyx's Global Conversational rate deck impacting origination types, prefixes, and pricing.
+Learn about upcoming changes to Telnyx's Global Conversational rate deck impacting origination types, prefixes, See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-September 27, 2023
 
-Table of contents
 
 Over the coming months, we will be introducing changes to our **Global Conversational** rate deck. These changes will affect:
 
@@ -43,7 +44,7 @@ Each notification will be sent **3 days before** the change is live in our rate 
 
 Note: If your Telnyx account has no outbound usage in the 30 days prior to the change, you will not be notified about updates to the rate deck.
 
-# Classification of Origination Types
+## Classification of Origination Types
 
 There are 4 origination types that are in the scope of this change. They are Local, EEA, Non-surcharged and Surcharged.
 
@@ -100,5 +101,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

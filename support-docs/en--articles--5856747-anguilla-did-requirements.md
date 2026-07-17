@@ -1,35 +1,36 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5856747-anguilla-did-requirements
+title: "Anguilla DID Requirements"
+description: "Navigating Anguilla DID acquisition? See Telnyx guidance and requirements Learn more about Anguilla DID Requirements with Telnyx."
 scraped: 2026-07-08
 content_hash: a303a201c189426bf16a89c2104dcb0b9a0d43b81482ed859ca224e5d2a253ce
 ---
 
-Anguilla DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Anguilla DID Requirements
 
-Navigating Anguilla DID acquisition? Learn about essential documentations, including recent LOIs and company details.
+Navigating Anguilla DID acquisition? See Telnyx guidance and requirements Learn more about Anguilla DID Requirements with Telnyx.
 
-Written by NumberOps
 
-May 16, 2024
 
-Table of contents
 
-# DID Number Requirements for Anguilla
+## DID Number Requirements for Anguilla
 
 In order to purchase an Anguilla number you will need to provide the following:
 
 ## **Toll-Free Numbers in Anguilla**
 
-For **business identity** verification:  
+For **business identity** verification:
 \* Company name
 
-\* Signed LOI (dated within 1 month)  
-​  
-For **address** verification:  
+\* Signed LOI (dated within 1 month)
+​
+For **address** verification:
 \* Address worldwide (street, building number, postal code, city, and country)
 
 \*Business use required: Business use is required, private use is not allowed.
@@ -79,5 +80,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

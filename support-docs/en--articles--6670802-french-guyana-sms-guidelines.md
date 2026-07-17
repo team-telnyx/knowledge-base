@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6670802-french-guyana-sms-guidelines
+title: "French Guyana: SMS Guidelines"
+description: "French Guyana SMS: Alphanumeric Sender IDs allowed without registration. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 2853bc09f4f6d0806daba98e8a184fbd1e45e5432ac92a303be51c03e628b3aa
 ---
 
-French Guyana: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # French Guyana: SMS Guidelines
 
-French Guyana SMS: Alphanumeric Sender IDs allowed without registration. No content restrictions. Follow the Acceptable Use Policy.
+French Guyana SMS: Alphanumeric Sender IDs allowed without registration. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-October 3, 2023
 
-Table of contents
 
-# **French Guyana: SMS Guidelines**
+## **French Guyana: SMS Guidelines**
 
-**MCC:** 742  
-​**Dial Code:** 594  
-​  
+**MCC:** 742
+​**Dial Code:** 594
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -38,5 +39,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

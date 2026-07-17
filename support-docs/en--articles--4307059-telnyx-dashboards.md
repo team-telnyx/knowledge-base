@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4307059-telnyx-dashboards
+title: "Telnyx Dashboards"
+description: "Here you will find an overview of Telnyx dashboards and how you can use them. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 32f96c67bebf13183c9b74b9ce5280d8189b82cc9e759c41a378acc6d0653f04
 ---
 
-Telnyx Dashboards | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Telnyx Dashboards
 
-Here you will find an overview of Telnyx dashboards and how you can use them.
+Here you will find an overview of Telnyx dashboards and how you can use them. See Telnyx guidance and requirements.
 
-Written by Shubam
 
-April 30, 2026
 
-Table of contents
 
-# Telnyx Dashboard: Real-Time Voice and SMS Analytics
+## Telnyx Dashboard: Real-Time Voice and SMS Analytics
 
 Telnyx Dashboard is a feature on the portal that provides some key insights about your Voice Calls & SMS trend over a period of time. These trends can help the customer determine, the overall performance of their call/SMS services.
 
@@ -130,5 +131,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

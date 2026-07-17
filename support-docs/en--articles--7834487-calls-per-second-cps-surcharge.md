@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/7834487-calls-per-second-cps-surcharge
+title: "Calls per second (CPS) surcharge"
+description: "Understanding CPS surcharges, their impact, and how Telnyx manages high CPS rates. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 226c0b6842e768bbe0cc9077e7a48edda6f0b4001fe9d34720c3848e6362360d
 ---
 
-Calls per second (CPS) surcharge | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Calls per second (CPS) surcharge
 
-Understanding CPS surcharges, their impact, and how Telnyx manages high CPS rates.
+Understanding CPS surcharges, their impact, and how Telnyx manages high CPS rates. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-Updated over a week ago
 
-Table of contents
 
 Outbound Peak Calls Per Second (CPS) Surcharge
 
@@ -121,5 +122,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130641-telnyx-recommended-hardware-configurations
+title: "Telnyx Recommended Hardware Configurations"
+description: "Here we will explain what hardware configurations we recommend at Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 17a2fab08a540ce5a4e74da2bf6de15a362375aeaefcaa2aa7e6ade3487568c1
 ---
 
-Telnyx Recommended Hardware Configurations | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# Telnyx Recommended Hardware Configurations
 
-Here we will explain what hardware configurations we recommend at Telnyx.
 
-Written by Telnyx Sales
 
-January 10, 2024
-
-Table of contents
 
 # Telnyx Recommended Hardware Configurations
+
+Here we will explain what hardware configurations we recommend at Telnyx. See Telnyx guidance and requirements.
+
+
+
+
+## Telnyx Recommended Hardware Configurations
 
 As long as your hardware is SIP compatible and uses the following [audio codecs](https://telnyx.com/resources/codecs-affect-voip-sound-quality): G729, G711, or Opus, it will work perfectly.
 
@@ -35,5 +36,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

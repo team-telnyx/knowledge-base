@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6665171-cyprus-sms-guidelines
+title: "Cyprus: SMS Guidelines"
+description: "SMS Guidelines for Cyprus including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Cyprus: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: f4931b952f76415e635248300ffdf92f458690fc60bf4de52cc7e00009b97a9f
 ---
 
-Cyprus: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Cyprus: SMS Guidelines
 
-SMS Guidelines for Cyprus including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Cyprus including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Cyprus: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **SMS Guidelines for Cyprus**
+## **SMS Guidelines for Cyprus**
 
-**MCC:** 357  
-​**Dial Code:** 280  
-​  
+**MCC:** 357
+​**Dial Code:** 280
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/13986489-whatsapp-troubleshooting-guide
+title: "WhatsApp Troubleshooting Guide"
+description: "Common WhatsApp issues and how to resolve them: signup, templates, delivery, and quality rating. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ef49ad423dce5870a1ec3750586ab5e0d36e8fe0021539a57a44a99997dfc767
 ---
 
-WhatsApp Troubleshooting Guide | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # WhatsApp Troubleshooting Guide
 
-Common WhatsApp issues and how to resolve them: signup, templates, delivery, and quality rating.
+Common WhatsApp issues and how to resolve them: signup, templates, delivery, and quality rating. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-March 16, 2026
 
-Table of contents
 
-# Signup Issues
+## Signup Issues
 
 ## Embedded Signup flow fails or shows an error
 
@@ -48,7 +49,7 @@ If the display name was skipped during Embedded Signup or was rejected by Meta:
 * Display name review takes up to 48 hours
 * **Do not submit templates until the display name is approved** — they will be rejected
 
-# Template Issues
+## Template Issues
 
 ## Template rejected by Meta
 
@@ -78,7 +79,7 @@ If a template has been pending for more than 48 hours:
 
 Since April 2025, Meta auto-reclassifies templates that don't match their category. The most common change is Utility → Marketing, which affects per-conversation pricing. If a template contains promotional language (discounts, offers, sales, promo codes), submit it as Marketing from the start.
 
-# Message Delivery Issues
+## Message Delivery Issues
 
 ## Error code 40008
 
@@ -119,7 +120,7 @@ Outside this window, only approved template messages can be sent.
 
 Read receipts are only sent if the recipient has read receipts enabled in their WhatsApp settings. Many users disable this. A message can be delivered and read without you receiving a "read" status.
 
-# Quality Rating Issues
+## Quality Rating Issues
 
 ## Quality rating dropped to Yellow or Red
 
@@ -143,7 +144,7 @@ Meta automatically pauses templates with high complaint rates. Pause durations e
 
 During a pause, edit the template content to improve relevance and reduce complaints. Changes take effect within 2 minutes, allowing immediate reuse without waiting for the pause period to end.
 
-# Need More Help?
+## Need More Help?
 
 If you're experiencing an issue not covered here, contact [Telnyx Support](https://support.telnyx.com) with:
 
@@ -162,5 +163,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

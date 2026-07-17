@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6244551-mitel-5320e-5330e-5340e-sip
+title: "Mitel: 5320E/5330E/5340E SIP"
+description: "Learn how to set up and configure a Telnyx SIP trunk on the Mitel 5320E/5330E/5340E SIP phone. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 0a9055abd6122fc1f452ffe8f8e779fca6fce65b7c74b7302a5df00377033830
 ---
 
-Mitel: 5320E/5330E/5340E SIP | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Mitel: 5320E/5330E/5340E SIP
 
-Learn how to set up and configure a Telnyx SIP trunk on the Mitel 5320E/5330E/5340E SIP phone.
+Learn how to set up and configure a Telnyx SIP trunk on the Mitel 5320E/5330E/5340E SIP phone. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_aff4ebca1c)
 
@@ -37,7 +38,7 @@ Table of contents
 
 ---
 
-# Instructions for setting up and configuring a SIP trunk on the Mitel 5320E/5330E/5340E SIP Phone
+## Instructions for setting up and configuring a SIP trunk on the Mitel 5320E/5330E/5340E SIP Phone
 
 **In this activity you will:**
 
@@ -131,5 +132,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

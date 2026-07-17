@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6339158-bring-campaigns-to-telnyx
+title: "Bring Campaigns to Telnyx"
+description: "In this article, we're breaking down shared campaigns, and showing you how to use them within your Telnyx account. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a84db4e63d953a84f22d9d95bc673ca6a21f7f64b9663c891adaf220adfdfd7e
 ---
 
-Bring Campaigns to Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Bring Campaigns to Telnyx
 
-In this article, we're breaking down shared campaigns, and showing you how to use them within your Telnyx account.
+In this article, we're breaking down shared campaigns, and showing you how to use them within your Telnyx account. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-November 5, 2025
 
-Table of contents
 
-# Campaigns Explained
+## Campaigns Explained
 
 *Note: Using Shared Campaigns limits the ability of Telnyx to troubleshoot issues with your 10DLC campaigns and throughput. In most cases, we recommend [creating your brands and campaigns through the Telnyx portal](https://portal.telnyx.com/#/messaging-10dlc/brands).*
 
@@ -65,5 +66,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

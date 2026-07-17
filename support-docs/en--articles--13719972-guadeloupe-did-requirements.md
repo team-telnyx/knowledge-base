@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/13719972-guadeloupe-did-requirements
+title: "Guadeloupe DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Guadeloupe numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 9e8184832ad1811049520f10c5a65de86fc5574d4d96fe7a10e75ca93ba225cc
 ---
 
-Guadeloupe DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Guadeloupe DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Guadeloupe numbers.
+Here you will find a list of detailed requirements for acquiring Guadeloupe numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-February 12, 2026
 
-Table of contents
 
-# **DID Number Requirements for** Guadeloupe
+## **DID Number Requirements for** Guadeloupe
 
 In order to purchase a Guadeloupe number you will need to provide the following:
 
@@ -53,5 +54,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

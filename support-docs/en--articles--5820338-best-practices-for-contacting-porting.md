@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5820338-best-practices-for-contacting-porting
+title: "Best Practices for Contacting Porting"
+description: "Explore the best methods for communication, from chat to support tickets, for swift resolutions. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: bf80ed8805769d323eefa8a6ab909426503566685966b3fbf288cfe80a5ed87d
 ---
 
-Best Practices for Contacting Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# Best Practices for Contacting Porting
 
-Explore the best methods for communication, from chat to support tickets, for swift resolutions.
 
-Written by Patrick Budzinski
 
-May 20, 2024
-
-Table of contents
 
 # Best Practices for Contacting Porting
+
+Explore the best methods for communication, from chat to support tickets, for swift resolutions. See Telnyx guidance and requirements.
+
+
+
+
+## Best Practices for Contacting Porting
 
 Our Porting team is available 9am - 7pm CT, Monday-Friday. All communications outside of that time will be resolved the following business day.
 
@@ -51,5 +52,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

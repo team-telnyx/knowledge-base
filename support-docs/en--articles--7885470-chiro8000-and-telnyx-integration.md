@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/7885470-chiro8000-and-telnyx-integration
+title: "Chiro8000 and Telnyx Integration"
+description: "Connecting the practice management software Chiro8000 with the text messaging capabilities of… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: bfdca35a7ed611068a734e6ccd6cde2182d1bcf4ff98ced56a3183cbe9ae662e
 ---
 
-Chiro8000 and Telnyx Integration | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Chiro8000 and Telnyx Integration
 
-Connecting the practice management software Chiro8000 with the text messaging capabilities of Telnyx
+Connecting the practice management software Chiro8000 with the text messaging capabilities of… See Telnyx guidance and requirements.
 
 K
 
-Written by Klane Pedrie
 
-May 20, 2026
 
-Table of contents
 
-# Chiro8000 and Telnyx Integration
+## Chiro8000 and Telnyx Integration
 
 Connecting the practice management software Chiro8000 with the text messaging capabilities of Telnyx. Chiro8000 is a top notch practice management software used by chiropractors, it is commonly paired with Telnyx to give the software connectivity to the American telephone network.
 
@@ -68,5 +69,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

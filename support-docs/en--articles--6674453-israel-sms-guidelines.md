@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6674453-israel-sms-guidelines
+title: "Israel: SMS Guidelines"
+description: "SMS Guidelines for Israel including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Israel: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 98b8c5555bded763d530720ea314b08cef4bdcce4b1dab277da7e40e2176cbef
 ---
 
-Israel: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Israel: SMS Guidelines
 
-SMS Guidelines for Israel including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Israel including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Israel: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **SMS Guidelines for Israel**
+## **SMS Guidelines for Israel**
 
-**MCC:** 425  
-​**Dial Code:** 972  
-​  
+**MCC:** 425
+​**Dial Code:** 972
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 Religious, gambling, political or adult traffic is prohibited.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

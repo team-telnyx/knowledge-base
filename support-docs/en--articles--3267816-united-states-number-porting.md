@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3267816-united-states-number-porting
+title: "United States Number Porting"
+description: "Here you will find a detailed list of requirements for United States number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: aecebd9dc3e233a36036aff60e75d9a30be1438113eafb31fde19e691b505344
 ---
 
-United States Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # United States Number Porting
 
-Here you will find a detailed list of requirements for United States number portability.
+Here you will find a detailed list of requirements for United States number portability. See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-February 27, 2024
 
-Table of contents
 
-# **Local Numbers in the US**
+## **Local Numbers in the US**
 
 1. LOA (BTN, Account number & Local address required)
 2. Latest Invoice
@@ -56,7 +57,7 @@ Explore the essential [requirements for successful number porting](https://suppo
 
 ### **Best Practices for Porting Support in** US
 
-Examine best practices for effectively [contacting Telnyx's porting support](https://support.telnyx.com/en/articles/5820338-best-practices-for-contacting-porting) to facilitate clear communication and swift issue resolution in US.  
+Examine best practices for effectively [contacting Telnyx's porting support](https://support.telnyx.com/en/articles/5820338-best-practices-for-contacting-porting) to facilitate clear communication and swift issue resolution in US.
 ​
 
 ---
@@ -68,5 +69,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

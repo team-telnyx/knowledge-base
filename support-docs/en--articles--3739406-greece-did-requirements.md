@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3739406-greece-did-requirements
+title: "Greece DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Greece numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: faf15fbf0494e188e3da346f372d30edd9298a15ea719d207f5b2c555372bd2d
 ---
 
-Greece DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Greece DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Greece numbers.
+Here you will find a list of detailed requirements for acquiring Greece numbers. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-May 26, 2026
 
-Table of contents
 
-# DID Number Requirements for Greece
+## DID Number Requirements for Greece
 
 In order to purchase a Greece number you will need to provide the following:
 
@@ -32,7 +33,7 @@ For **personal identity** verification:
 
 \* Local Passport or ID copy
 
-\* VAT number  
+\* VAT number
 ​
 
 For **business identity** verification:
@@ -49,21 +50,21 @@ For **business identity** verification:
 
 \* VAT number of an authorized representative
 
-\* LOA or POA - Letter of Authorization or Power of Attorney needs to be filled in and signed - Document will be provided by Telnyx  
+\* LOA or POA - Letter of Authorization or Power of Attorney needs to be filled in and signed - Document will be provided by Telnyx
 ​
 
 For **address** verification:
 
-\* Address matching the DID area code (street, building number, postal code, city, and country)  
-\* Proof of Address (dated within 3 months)  
-​  
-Additional details:   
+\* Address matching the DID area code (street, building number, postal code, city, and country)
+\* Proof of Address (dated within 3 months)
+​
+Additional details:
 \* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **Identity Verification: What "Local" Means**
 
-For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.  
-​  
+For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.
+​
 All identification is subject to review, and we reserve the right to request additional documentation or decline any document we cannot verify or that does not meet applicable legal and regulatory requirements.
 
 ## **Helpful for acquiring Greece DIDs**
@@ -109,5 +110,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

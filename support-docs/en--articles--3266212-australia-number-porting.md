@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3266212-australia-number-porting
+title: "Australia Number Porting"
+description: "Here you will find a detailed list of requirements for Australia number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: d316ced3b9476b634d900c855f43dd6a65453dfdd5ac13d6b8a22f0a3c823f98
 ---
 
-Australia Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# Australia Number Porting
 
-Here you will find a detailed list of requirements for Australia number portability.
 
-Written by Kim Dorson-King
 
-February 11, 2026
-
-Table of contents
 
 # Australia Number Porting
+
+Here you will find a detailed list of requirements for Australia number portability. See Telnyx guidance and requirements.
+
+
+
+
+## Australia Number Porting
 
 Port your Australian phone numbers to Telnyx. This guide covers requirements, timelines, and the porting process for local, national, toll-free, and mobile numbers in Australia.
 
@@ -178,5 +179,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4425016-reporting-usage-reports
+title: "Reporting: Usage Reports"
+description: "This article will showcase the usage reports section in greater detail. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 30f8aa0b1f0d6ce1149f72ec0dd6c9b5b4f432dbe819431a70552a9b0cc658ea
 ---
 
-Reporting: Usage Reports | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Reporting: Usage Reports
 
-This article will showcase the usage reports section in greater detail.
+This article will showcase the usage reports section in greater detail. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-December 26, 2024
 
-Table of contents
 
 In this article, I will describe the Usage Reports Feature on your Telnyx customer portal and what you can do there.
 
-# **Video Walk-through to Usage Reports**
+## **Video Walk-through to Usage Reports**
 
 Coming soon! This walk-through will demonstrate the usage of our Reporting tools.
 
@@ -53,5 +54,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

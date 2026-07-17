@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5341506-lastpass-saml-identity-setup
+title: "LastPass: SAML Identity Setup"
+description: "Learn how to set up LastPass SAML to utilize Telnyx Portal Single Sign-on capabilities. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 8fb5bf550c5bb983f0eaf401302633fbfd31d0ff124403abe36974275d69ad7c
 ---
 
-LastPass: SAML Identity Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # LastPass: SAML Identity Setup
 
-Learn how to set up LastPass SAML to utilize Telnyx Portal Single Sign-on capabilities.
+Learn how to set up LastPass SAML to utilize Telnyx Portal Single Sign-on capabilities. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-April 8, 2026
 
-Table of contents
 
 [Jump to Instructions](#h_1f8824a8bd)
 
@@ -35,7 +36,7 @@ Additional resources:
 
 ---
 
-# Instructions for setting up LastPass SAML Identity Provider with Telnyx
+## Instructions for setting up LastPass SAML Identity Provider with Telnyx
 
 In this activity you will:
 
@@ -76,8 +77,8 @@ In this section, you'll log into your Telnyx portal and get the necessary config
    ![](_images/0371203040f712f8.png)
 4. You will be presented with the following fields:
 
-   1. **Authentication Provider name** and **Short Name:** Enter the values that make sense for you here.  
-      ​  
+   1. **Authentication Provider name** and **Short Name:** Enter the values that make sense for you here.
+      ​
       ​***Please note*** *that the Short Name will be part of the SSO URLs.*
    2. **Manually enter configuration:** Select this
    3. **IdP Certificate Fingerprint**: Provide the value from the **Certificate Fingerprint:(SHA256)** field you copied from LastPass in [section 1](#h_e123c707ca).
@@ -126,7 +127,7 @@ In this final section, you'll return to LastPass and provide the information you
    ![Enabling single sign on](_images/a521794ca2f3529a.png)
 9. **Click Save Changes**.
 
-Your chosen settings are now in effect! This will send all users in your organization an email informing them that SSO is now enabled. Your users will still be able to login using username/password for the next 72 hours. After that, they will be required to use SSO.  
+Your chosen settings are now in effect! This will send all users in your organization an email informing them that SSO is now enabled. Your users will still be able to login using username/password for the next 72 hours. After that, they will be required to use SSO.
 ​
 
 [Back to Top](#h_1f8824a8bd)
@@ -137,7 +138,7 @@ Your chosen settings are now in effect! This will send all users in your organiz
 
 **Q. I'm experiencing difficulty with this configuration!**
 
-A. If you experience technical difficulties while attempting to set up your LastPass SSO with Telnyx, its possible your provider is experiencing outages/maintenance. You can check the status of LastPass features at <https://status.lastpass.com/>.  
+A. If you experience technical difficulties while attempting to set up your LastPass SSO with Telnyx, its possible your provider is experiencing outages/maintenance. You can check the status of LastPass features at <https://status.lastpass.com/>.
 ​
 
 [Back to Top](#h_1f8824a8bd)
@@ -162,5 +163,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

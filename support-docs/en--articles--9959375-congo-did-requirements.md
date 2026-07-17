@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/9959375-congo-did-requirements
+title: "Congo DID Requirements"
+description: "Requirements to acquire Democratic Republic of the Congo numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a89286eff779b779af98a0dde5ecd0856749e72bbdfa3dfdb5d16f39fe188ec4
 ---
 
-Congo DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Congo DID Requirements
 
-Requirements to acquire Democratic Republic of the Congo numbers. Start building on Telnyx today.
+Requirements to acquire Democratic Republic of the Congo numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-October 15, 2024
 
-Table of contents
 
-# DID Number Requirements for Democratic Republic of the Congo
+## DID Number Requirements for Democratic Republic of the Congo
 
 In order to purchase a Democratic Republic of the Congo number you will need to provide the following:
 
@@ -59,5 +60,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

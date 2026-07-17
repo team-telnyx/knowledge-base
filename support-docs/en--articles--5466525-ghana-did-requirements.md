@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5466525-ghana-did-requirements
+title: "Ghana DID requirements"
+description: "Here you will find a list of detailed requirements for acquiring Ghana numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: d2baf34140e4f2d975d2a3106b45dc9ed76fc8b86a64a71ae5ecd37ca4bd88c8
 ---
 
-Ghana DID requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Ghana DID requirements
 
-Here you will find a list of detailed requirements for acquiring Ghana numbers.
+Here you will find a list of detailed requirements for acquiring Ghana numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-January 22, 2026
 
-Table of contents
 
-# DID Number Requirements for Ghana
+## DID Number Requirements for Ghana
 
 In order to purchase a Ghana number you will need to provide the following:
 
@@ -115,5 +116,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

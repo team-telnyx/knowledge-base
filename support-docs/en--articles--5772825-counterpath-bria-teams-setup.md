@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5772825-counterpath-bria-teams-setup
+title: "CounterPath Bria Teams: Setup"
+description: "Elevate team connectivity with Bria Teams and Telnyx. See Telnyx guidance and requirements Learn more about CounterPath Bria Teams: Setup with Telnyx."
 scraped: 2026-07-08
 content_hash: 98ab1db3ead868d2aacbb7983251754c04a7d9f6be3cdf48c76d6dde72d2c03c
 ---
 
-CounterPath Bria Teams: Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # CounterPath Bria Teams: Setup
 
-Elevate team connectivity with Bria Teams and Telnyx. This tutorial covers everything from linking accounts to configuring dial plans.
+Elevate team connectivity with Bria Teams and Telnyx. See Telnyx guidance and requirements Learn more about CounterPath Bria Teams: Setup with Telnyx.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_246be6708b)
 
@@ -33,7 +34,7 @@ Additional documentation:
 
 ---
 
-# Instructions for integrating your Bria Portal with Telnyx
+## Instructions for integrating your Bria Portal with Telnyx
 
 In this document, you will:
 
@@ -216,5 +217,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

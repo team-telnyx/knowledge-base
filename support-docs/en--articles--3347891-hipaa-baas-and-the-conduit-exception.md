@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3347891-hipaa-baas-and-the-conduit-exception
+title: "HIPAA, BAAs and the Conduit Exception\\*"
+description: "In this article we will explain HIPAA, BAAs and the Conduit Exception and what they mean for you. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 7b77779e6ccdde008cba5d9dcb6513e860368f4b3044696e68de4b70862c965b
 ---
 
-HIPAA, BAAs and the Conduit Exception\* | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # HIPAA, BAAs and the Conduit Exception\*
 
-In this article we will explain HIPAA, BAAs and the Conduit Exception and what they mean for you.
+In this article we will explain HIPAA, BAAs and the Conduit Exception and what they mean for you. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-January 29, 2026
 
-Table of contents
 
-# What is HIPPA and BAA?
+## What is HIPPA and BAA?
 
 The Health Insurance Portability & Accountability Act (HIPAA) governs the confidentiality and security of personal health information (PHI) within the United States for "covered entities" and their "business associates." HIPAA requires covered entities -  such as healthcare providers, hospital systems and pharmacies -  to implement policies and procedures to ensure the protection of this highly sensitive information. Additionally, the HIPAA rules generally require a covered entity to enter into a Business Associate Agreement (BAA) with certain third-party vendors who access, receive, transmit or store the PHI (aka business associates).
 
@@ -41,5 +42,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

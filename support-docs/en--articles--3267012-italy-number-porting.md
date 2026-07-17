@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3267012-italy-number-porting
+title: "Italy Number Porting"
+description: "Here you will find a detailed list of requirements for Italy number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: c8aafcdc42a25b451ec20f6c0356dd92e1d6a9a6b6f8e457493dc3c97682fad4
 ---
 
-Italy Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Italy Number Porting
 
-Here you will find a detailed list of requirements for Italy number portability.
+Here you will find a detailed list of requirements for Italy number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
-# **Local / National Numbers in Italy**
+## **Local / National Numbers in Italy**
 
 1. LOA (Local address required)
 2. Local TAX / VAT ID or company registration number
@@ -49,7 +50,7 @@ Once the losing carrier has given confirmation for porting, the porting request 
 
 Outage during porting may occur.
 
-​  
+​
 ​
 
 ---
@@ -61,5 +62,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

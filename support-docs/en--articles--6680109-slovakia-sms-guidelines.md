@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6680109-slovakia-sms-guidelines
+title: "Slovakia: SMS Guidelines"
+description: "Sending SMS to Slovakia? See Telnyx guidance and requirements Learn more about Slovakia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 1a5f760b6f1d43a4f6be0f875eae5a999ef840cecc9034e4a80b424fbea40b75
 ---
 
-Slovakia: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Slovakia: SMS Guidelines
 
-Sending SMS to Slovakia? Check out our comprehensive guidelines to ensure compliance in Slovakia.
+Sending SMS to Slovakia? See Telnyx guidance and requirements Learn more about Slovakia: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Slovakia: SMS Guidelines**
+## **Slovakia: SMS Guidelines**
 
-**MCC:** 231  
-​**Dial Code:** 421  
-​  
+**MCC:** 231
+​**Dial Code:** 421
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

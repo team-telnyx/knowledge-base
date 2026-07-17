@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8002565-how-to-configure-global-edge-router-with-telnyx
+title: "How to configure Global Edge Router with Telnyx"
+description: "Get access to your global edge network in minutes. See Telnyx guidance and requirements Learn more about How to configure Global Edge Router with Telnyx with."
 scraped: 2026-07-08
 content_hash: f2fd085c1621e356963d62d948471f2eb082d9010b8eb64952a0848446c360a5
 ---
 
-How to configure Global Edge Router with Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How to configure Global Edge Router with Telnyx
 
-Get access to your global edge network in minutes. Start building on Telnyx today.
+Get access to your global edge network in minutes. See Telnyx guidance and requirements Learn more about How to configure Global Edge Router with Telnyx with.
 
-Written by Telnyx Engineering
 
-May 14, 2026
 
-Table of contents
 
 Our latest product, Global Edge Router, gives business access to a global edge network of 25+ points of presence to decrease latency for nightly-available applications and services. Global Edge Router also provides redundancy across cloud providers thanks to [BGP](https://telnyx.com/resources/what-is-bgp)-anycast.
 
-# Telnyx Global Edge Router: Setup Guide
+## Telnyx Global Edge Router: Setup Guide
 
 See how you can get started:
 
@@ -85,5 +86,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

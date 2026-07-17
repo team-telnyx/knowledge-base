@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130677-does-telnyx-support-conference-calls
+title: "Does Telnyx support conference calls?"
+description: "Need conference calling? See Telnyx guidance and requirements Learn more about Does Telnyx support conference calls? with Telnyx."
 scraped: 2026-07-08
 content_hash: 9e15975c7c4f6f351a34d8616548b4829353837b4e0cd1eaaeaf39f7e001f8ea
 ---
 
-Does Telnyx support conference calls? | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Does Telnyx support conference calls?
 
-Need conference calling? Telnyx is compatible with many platforms that allow conference calls.
+Need conference calling? See Telnyx guidance and requirements Learn more about Does Telnyx support conference calls? with Telnyx.
 
-Written by Telnyx Sales
 
-May 1, 2026
 
-Table of contents
 
 Yes — Telnyx supports conference calls. You can create them using Telnyx APIs or by connecting Telnyx to your existing phone system.
 
@@ -35,11 +36,11 @@ You have a few options:
 
 ## Telnyx developer documentation
 
-* **TeXML Conference (simple setup)**  
+* **TeXML Conference (simple setup)**
   ​<https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/conference>
-* **Voice API – Conference commands (advanced control)**  
+* **Voice API – Conference commands (advanced control)**
   ​https://developers.telnyx.com/api-reference/conference-commands
-* **Conferencing tutorial (step-by-step guide)**  
+* **Conferencing tutorial (step-by-step guide)**
   ​<https://developers.telnyx.com/docs/voice/programmable-voice/conferencing-demo>
 
 ---
@@ -59,5 +60,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

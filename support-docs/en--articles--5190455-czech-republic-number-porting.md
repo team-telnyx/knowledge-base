@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5190455-czech-republic-number-porting
+title: "Czech Republic Number Porting"
+description: "Here you will find a detailed list of requirements for Czech Republic number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a00e2d4412cab5f565cf515387f622ce7e5e2b34ad85e29678ebca2d1830a9b7
 ---
 
-Czech Republic Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Czech Republic Number Porting
 
-Here you will find a detailed list of requirements for Czech Republic number portability.
+Here you will find a detailed list of requirements for Czech Republic number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
-# **For Local / National / Toll-Free number Types in Czech Republic**
+## **For Local / National / Toll-Free number Types in Czech Republic**
 
 1. LoA (Local Service address)
 
@@ -47,5 +48,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

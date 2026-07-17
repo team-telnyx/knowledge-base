@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4334722-how-to-leverage-webhooks
+title: "How to Leverage Webhooks"
+description: "This article explains what webhooks are and how to leverage them with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 232a291e341cc6a68113ee69f2128477d41091dd01c41b034e04f330394e56ee
 ---
 
-How to Leverage Webhooks | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How to Leverage Webhooks
 
-This article explains what webhooks are and how to leverage them with Telnyx.
+This article explains what webhooks are and how to leverage them with Telnyx. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-June 6, 2024
 
-Table of contents
 
 A webhook (also called a web callback or HTTP push API) is a way for an app to provide other applications with real-time information. A webhook delivers data to other applications as it happens, meaning you get data immediately.
 
@@ -24,7 +25,7 @@ You can choose to be notified about events that Telnyx sends to you by configuri
 
 **NOTE:** Webhooks will be sent from the IP range of the region where your calls are anchored. Read more about our [anchorsite](https://support.telnyx.com/en/articles/5271423-guide-to-sip-anchorsite-settings) feature which is a setting available on your SIP Connections and Voice Applications to help you control which region your calls can be anchored.
 
-# **Whitelist (Webhooks)**
+## **Whitelist (Webhooks)**
 
 If you use an ACL or Firewall on your network, make sure you whitelist our network IP assignments per region click [here](https://support.telnyx.com/en/articles/1130687-whitelisting-telnyx-ip-addresses#h_5a35a3a298)!
 
@@ -51,55 +52,55 @@ The Telnyx Messaging Services will attempt to notify you about each [status](htt
 Here is an example of a webhook event where a delivery receipt is returned to the sender after sending a message through a Telnyx long code to a T-Mobile long code:
 
 ```
-{  
-   "data":{  
-      "event_type":"message.finalized",  
-      "id":"4ee8c3a6-4995-4309-a3c6-38e3db9ea4be",  
-      "occurred_at":"2019-12-09T21:32:14.148+00:00",  
-      "payload":{  
-         "completed_at":"2019-12-09T21:32:14.148+00:00",  
-         "cost":null,  
-         "direction":"outbound",  
-         "encoding":"GSM-7",  
-         "errors":[  
-         ],  
-         "from":{  
-            "carrier":"T-Mobile USA",  
-            "line_type":"Wireless",  
-            "phone_number":"+13125000000",  
-            "status":"webhook_delivered"  
-         },  
-         "id":"ac012cbf-5e09-46af-a69a-7c0e2d90993c",  
-         "media":[  
-         ],  
-         "messaging_profile_id":"83d2343b-553f-4c5f-b8c8-fd27004f94bf",  
-         "organization_id":"9d76d591-1b7d-405d-8c64-1320ee070245",  
-         "parts":1,  
-         "received_at":"2019-12-09T21:32:13.552+00:00",  
-         "record_type":"message",  
-         "sent_at":"2019-12-09T21:32:13.596+00:00",  
-         "tags":[  
-         ],  
-         "text":"Hello there!",  
-         "to":[  
-            {  
-               "carrier":"T-MOBILE USA, INC.",  
-               "line_type":"Wireless",  
-               "phone_number":"+13125000000",  
-               "status":"delivered"  
-            }  
-         ],  
-         "type":"SMS",  
-         "valid_until":"2019-12-09T22:32:13.552+00:00",  
-         "webhook_failover_url":"",  
-         "webhook_url":"http://webhook.site/af3a92e7-e150-442c-9fe6-61658ce26b1a"  
-      },  
-      "record_type":"event"  
-   },  
-   "meta":{  
-      "attempt":1,  
-      "delivered_to":"http://webhook.site/af3a92e7-e150-442c-9fe6-61658ce26b1a"  
-   }  
+{
+   "data":{
+      "event_type":"message.finalized",
+      "id":"4ee8c3a6-4995-4309-a3c6-38e3db9ea4be",
+      "occurred_at":"2019-12-09T21:32:14.148+00:00",
+      "payload":{
+         "completed_at":"2019-12-09T21:32:14.148+00:00",
+         "cost":null,
+         "direction":"outbound",
+         "encoding":"GSM-7",
+         "errors":[
+         ],
+         "from":{
+            "carrier":"T-Mobile USA",
+            "line_type":"Wireless",
+            "phone_number":"+13125000000",
+            "status":"webhook_delivered"
+         },
+         "id":"ac012cbf-5e09-46af-a69a-7c0e2d90993c",
+         "media":[
+         ],
+         "messaging_profile_id":"83d2343b-553f-4c5f-b8c8-fd27004f94bf",
+         "organization_id":"9d76d591-1b7d-405d-8c64-1320ee070245",
+         "parts":1,
+         "received_at":"2019-12-09T21:32:13.552+00:00",
+         "record_type":"message",
+         "sent_at":"2019-12-09T21:32:13.596+00:00",
+         "tags":[
+         ],
+         "text":"Hello there!",
+         "to":[
+            {
+               "carrier":"T-MOBILE USA, INC.",
+               "line_type":"Wireless",
+               "phone_number":"+13125000000",
+               "status":"delivered"
+            }
+         ],
+         "type":"SMS",
+         "valid_until":"2019-12-09T22:32:13.552+00:00",
+         "webhook_failover_url":"",
+         "webhook_url":"http://webhook.site/af3a92e7-e150-442c-9fe6-61658ce26b1a"
+      },
+      "record_type":"event"
+   },
+   "meta":{
+      "attempt":1,
+      "delivered_to":"http://webhook.site/af3a92e7-e150-442c-9fe6-61658ce26b1a"
+   }
 }
 ```
 
@@ -118,55 +119,55 @@ Telnyx gives you the option of using webhooks to notify you of new inbound messa
 Here is an example of a webhook event where a Telnyx Long Code receives a text message from a T-Mobile long code:
 
 ```
-{  
-   "data":{  
-      "event_type":"message.received",  
-      "id":"b301ed3f-1490-491f-995f-6e64e69674d4",  
-      "occurred_at":"2019-12-09T20:16:07.588+00:00",  
-      "payload":{  
-         "completed_at":null,  
-         "cost":null,  
-         "direction":"inbound",  
-         "encoding":"GSM-7",  
-         "errors":[  
-         ],  
-         "from":{  
-            "carrier":"T-Mobile USA",  
-            "line_type":"long_code",  
-            "phone_number":"+1312500000",  
-            "status":"webhook_delivered"  
-         },  
-         "id":"84cca175-9755-4859-b67f-4730d7f58aa3",  
-         "media":[  
-         ],  
-         "messaging_profile_id":"740572b6-099c-44a1-89b9-6c92163bc68d",  
-         "organization_id":"47a530f8-4362-4526-829b-bcee17fd9f7a",  
-         "parts":1,  
-         "received_at":"2019-12-09T20:16:07.503+00:00",  
-         "record_type":"message",  
-         "sent_at":null,  
-         "tags":[  
-         ],  
-         "text":"Hello from Telnyx!",  
-         "to":[  
-            {  
-               "carrier":"Telnyx",  
-               "line_type":"Wireless",  
-               "phone_number":"+1773005000",  
-               "status":"webhook_delivered"  
-            }  
-         ],  
-         "type":"SMS",  
-         "valid_until":null,  
-         "webhook_failover_url":null,  
-         "webhook_url":"http://webhook.site/04bbd2e3-09b5-4c9e-95de-a1debeb9e675"  
-      },  
-      "record_type":"event"  
-   },  
-   "meta":{  
-      "attempt":1,  
-      "delivered_to":"http://webhook.site/04bbd2e3-09b5-4c9e-95de-a1debeb9e675"  
-   }  
+{
+   "data":{
+      "event_type":"message.received",
+      "id":"b301ed3f-1490-491f-995f-6e64e69674d4",
+      "occurred_at":"2019-12-09T20:16:07.588+00:00",
+      "payload":{
+         "completed_at":null,
+         "cost":null,
+         "direction":"inbound",
+         "encoding":"GSM-7",
+         "errors":[
+         ],
+         "from":{
+            "carrier":"T-Mobile USA",
+            "line_type":"long_code",
+            "phone_number":"+1312500000",
+            "status":"webhook_delivered"
+         },
+         "id":"84cca175-9755-4859-b67f-4730d7f58aa3",
+         "media":[
+         ],
+         "messaging_profile_id":"740572b6-099c-44a1-89b9-6c92163bc68d",
+         "organization_id":"47a530f8-4362-4526-829b-bcee17fd9f7a",
+         "parts":1,
+         "received_at":"2019-12-09T20:16:07.503+00:00",
+         "record_type":"message",
+         "sent_at":null,
+         "tags":[
+         ],
+         "text":"Hello from Telnyx!",
+         "to":[
+            {
+               "carrier":"Telnyx",
+               "line_type":"Wireless",
+               "phone_number":"+1773005000",
+               "status":"webhook_delivered"
+            }
+         ],
+         "type":"SMS",
+         "valid_until":null,
+         "webhook_failover_url":null,
+         "webhook_url":"http://webhook.site/04bbd2e3-09b5-4c9e-95de-a1debeb9e675"
+      },
+      "record_type":"event"
+   },
+   "meta":{
+      "attempt":1,
+      "delivered_to":"http://webhook.site/04bbd2e3-09b5-4c9e-95de-a1debeb9e675"
+   }
 }
 ```
 
@@ -223,5 +224,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

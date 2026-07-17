@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5619617-polycom-setup-with-telnyx
+title: "Polycom: Setup with Telnyx"
+description: "Learn how to configure the Polycom VVX 300-series IP phone with your Telnyx account. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 7bc29a62f486915a7a0e7b5ce12d06cd794f0e33a339793c9612a4661b728cd2
 ---
 
-Polycom: Setup with Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Polycom: Setup with Telnyx
 
-Learn how to configure the Polycom VVX 300-series IP phone with your Telnyx account.
+Learn how to configure the Polycom VVX 300-series IP phone with your Telnyx account. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-June 6, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_0a78797f6f)
 
@@ -33,7 +34,7 @@ Additional documentation and resources:
 
 ---
 
-# Instructions for Configuring your Polycom VVX 300-series IP phone
+## Instructions for Configuring your Polycom VVX 300-series IP phone
 
 In this activity you will:
 
@@ -99,24 +100,24 @@ In this section, you'll configure your IP phone to connect to your Telnyx SIP tr
 
    ![File:VVX311-Lines-Menu.png](_images/6c978819791b2ec7.png)
 2. Each line button you want to use will need to be configured individually but all should generally require the same settings. This example will show you what was required for this specific setup but your requirements may vary.
-3. For each section listed below, you will need to enter this information (red highlighted sections):  
-   ​  
+3. For each section listed below, you will need to enter this information (red highlighted sections):
+   ​
    ​**Identification** section**:**
 
-   1. Display Name: This is your outbound caller ID name.   
-      ​  
+   1. Display Name: This is your outbound caller ID name.
+      ​
       ​***Note:*** *Before configuring an outbound caller ID, you should be aware of some of the naming conventions standard for caller ID creation:*
 
       * *Your outbound Caller ID Name should be in **capital letters**. This will appears more clearly/visible on some devices.*
       * *You **must NOT use any special characters**, as they will not be displayed.*
       * *Some of regular **Canadian providers will not show more than 15 characters**. We suggest shrinking or adapt your caller ID.*
       * ***Spaces are allowed*** *in a caller id name.*
-      * *Be familiar with [Telnyx's caller ID number policy](https://support.telnyx.com/en/articles/3546251-caller-id-number-policy)*  
+      * *Be familiar with [Telnyx's caller ID number policy](https://support.telnyx.com/en/articles/3546251-caller-id-number-policy)*
         ​
    2. **Address:** Your Telnyx account name
    3. **Label:** The name listed next to the line button on your phone
    4. **SRTP settings:** should all be set to *No*
-   5. **Server Auto Discovery:** *Disabled*  
+   5. **Server Auto Discovery:** *Disabled*
       ​
 
    **Server 1** section**:**
@@ -125,13 +126,13 @@ In this section, you'll configure your IP phone to connect to your Telnyx SIP tr
    2. **Port:** *5060*
    3. **Transport:***UDP Only*
    4. **Expires:** *300*, your value may depend on your gateway/router timeout values but this is typically fine
-   5. **Subscription Expire(s):** *300*, same as **Expires**  
+   5. **Subscription Expire(s):** *300*, same as **Expires**
       ​
 
    **Message Center** section**:**
 
    1. **Callback Mode:** *Contact*
-   2. **Callback Contact:** *\*97* to dial the assigned extension's VM box  
+   2. **Callback Contact:** *\*97* to dial the assigned extension's VM box
       ​
 
 [Back to Top](#h_0a78797f6f)
@@ -165,5 +166,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

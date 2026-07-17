@@ -1,29 +1,30 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130599-telnyx-tech-specs
+title: "Telnyx Tech Specs"
+description: "Here you will find out key tech specs at Telnyx and what they mean for our service. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a7909fd9da64db0f973d0c0fd07d8a5b5b2365631813eccf5fbd43753fbcbc9f
 ---
 
-Telnyx Tech Specs | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# Telnyx Tech Specs
 
-Here you will find out key tech specs at Telnyx and what they mean for our service.
 
-Written by Telnyx Sales
 
-January 10, 2024
-
-Table of contents
 
 # Telnyx Tech Specs
 
-Telnyx has several points of presence around the globe.  
-​  
-Depending on your location, we recommend reviewing these websites for the latest and most authoritative information on Telnyx's telephony and network specifications.   
-​  
+Here you will find out key tech specs at Telnyx and what they mean for our service. See Telnyx guidance and requirements.
+
+
+
+
+## Telnyx Tech Specs
+
+Telnyx has several points of presence around the globe.
+​
+Depending on your location, we recommend reviewing these websites for the latest and most authoritative information on Telnyx's telephony and network specifications.
+​
 ​[sip.telnyx.com](https://sip.telnyx.com/)
 
 [sip.telnyx.ca](https://sip.telnyx.ca/)
@@ -75,5 +76,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

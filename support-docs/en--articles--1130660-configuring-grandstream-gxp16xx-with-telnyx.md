@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130660-configuring-grandstream-gxp16xx-with-telnyx
+title: "Configuring Grandstream GXP16XX with Telnyx"
+description: "In this article we will explain how to configure Grandstream GXP1620/GXP1625 and GXP1630 with the Telnyx Mission… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 287d73ba33e32744a96952cb9f413b63fd0aa44e1e64fb3c3a231481654f44c3
 ---
 
-Configuring Grandstream GXP16XX with Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Configuring Grandstream GXP16XX with Telnyx
 
-In this article we will explain how to configure Grandstream GXP1620/GXP1625 and GXP1630 with the Telnyx Mission Control portal.
+In this article we will explain how to configure Grandstream GXP1620/GXP1625 and GXP1630 with the Telnyx Mission… See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-October 18, 2023
 
-Table of contents
 
 [Jump to Instructions](#h_b1174ea24e)
 
@@ -35,7 +36,7 @@ Additional documentation:
 
 ---
 
-# Instructions for configuring your Grandstream GXP 1625
+## Instructions for configuring your Grandstream GXP 1625
 
 In this activity you will:
 
@@ -73,7 +74,7 @@ All the configuration you'll need to do will take place on the web UI, which act
 2. If connected successfully, the UCM6200 series login page. Out of the box, your device will have the following default credentials:
 
    1. **Username**: *admin*
-   2. **Password**: *admin*  
+   2. **Password**: *admin*
       ​*HOWEVER: Units manufactured starting January 2017 have a unique random password printed on the sticker located on the back of the unit.*
 
       ![Grandstream web UI interface. ](_images/75a844fca0f36384.png)
@@ -165,5 +166,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

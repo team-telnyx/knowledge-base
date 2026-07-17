@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6677954-monaco-sms-guidelines
+title: "Monaco: SMS Guidelines"
+description: "SMS Guidelines for Monaco including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Monaco: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 5a6bbdd94f44bd6c72dd27864f9854ed23784f782c695aa57f2b8a532dc3b09b
 ---
 
-Monaco: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Monaco: SMS Guidelines
 
-SMS Guidelines for Monaco including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Monaco including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Monaco: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# SMS Guidelines for Monaco
+## SMS Guidelines for Monaco
 
-**MCC:** 212  
-​**Dial Code:** 377  
-​  
+**MCC:** 212
+​**Dial Code:** 377
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

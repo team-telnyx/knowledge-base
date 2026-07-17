@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4404448-sip-connection-inbound-outbound-settings
+title: "SIP Connection: Inbound & Outbound Settings"
+description: "Master inbound and outbound voice configurations with Telnyx's comprehensive guideline materials. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 84a002ce41a2cc6ea5434f26d6c9f0fbbb242687854168eac4c9dad904d99fea
 ---
 
-SIP Connection: Inbound & Outbound Settings | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # SIP Connection: Inbound & Outbound Settings
 
-Master inbound and outbound voice configurations with Telnyx's comprehensive guideline materials.
+Master inbound and outbound voice configurations with Telnyx's comprehensive guideline materials. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-April 29, 2026
 
-Table of contents
 
-# **SIP Settings**
+## **SIP Settings**
 
 We provide our customers with the ability to enable certain features on their SIP Connection, to allow for more control on your inbound or outbound calls.
 
@@ -85,7 +86,7 @@ The settings available are as follows:
   By default this is unselected. Select yes if you want receive attestation information in the webhooks for incoming calls.
 * ## **Enable 3rd Party Call Control**
 
-  Specifically for Cisco UCM devices but useful in cases where the SIP INVITE doesn't include a SDP (late media negotiation).  
+  Specifically for Cisco UCM devices but useful in cases where the SIP INVITE doesn't include a SDP (late media negotiation).
   ​
 * ## Enable Simultaneous Ringing
 
@@ -134,5 +135,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

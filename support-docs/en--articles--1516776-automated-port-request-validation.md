@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1516776-automated-port-request-validation
+title: "Automated Port Request Validation"
+description: "Learn about how Telnyx automatically validates the information on your port… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: f3d52f613fae9be143f47bb89a984f6ece0f6fc381c0aa16b50a7737e0d13a18
 ---
 
-Automated Port Request Validation | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Automated Port Request Validation
 
-Learn about how Telnyx automatically validates the information on your port request
+Learn about how Telnyx automatically validates the information on your port… See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-July 24, 2023
 
-Table of contents
 
-# **Automated Port Request Validation**
+## **Automated Port Request Validation**
 
-Porting numbers can be frustrating. Seemingly minor inconsistencies in the data provided can cause porting delays or outright rejections. Telnyx has created new functionality that automatically validates your port request with the losing carrier.  
+Porting numbers can be frustrating. Seemingly minor inconsistencies in the data provided can cause porting delays or outright rejections. Telnyx has created new functionality that automatically validates your port request with the losing carrier.
 ​
 
 ## How Does It Work
@@ -46,5 +47,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/2239449-google-vpc-telnyx-integration
+title: "Google VPC: Telnyx Integration"
+description: "This document will provide instructions and guidelines for integrating a Google Cloud environment with the Telnyx… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 06a3f62e21d1f7d27d2e259f7c25cfd81c0ef2f0a77a625b6897187f47877e68
 ---
 
-Google VPC: Telnyx Integration | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Google VPC: Telnyx Integration
 
-This document will provide instructions and guidelines for integrating a Google Cloud environment with the Telnyx network backbone.
+This document will provide instructions and guidelines for integrating a Google Cloud environment with the Telnyx… See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_691dca3fcb)
 
@@ -35,7 +36,7 @@ Further documentation:
 
 ---
 
-# Instructions for integrating Google VPC with Telnyx
+## Instructions for integrating Google VPC with Telnyx
 
 In this activity you will:
 
@@ -133,7 +134,7 @@ Now that everything is configured, let's activate your VXC in Google Cloud.
    ![Cloud router IP portal. ](_images/aeb0077bfbaa277b.png)
 2. Telnyx will approve your request (this may take up to 3 hours).  Order Status will change from **Pending** to **Active** to **Complete.**Once an **Order Status** is complete, the BGP session between Telnyx and Google Cloud will be active.
 3. To receive traffic from Telnyx, your cloud hosts must have public IP addresses configured. Consult your Telnyx representative before clicking 'Enable' if you need assistance.
-4. Under routing status, click the button to enable.  Doing this will transition packet delivery from your Cloud Provider's Internet transit to the private Virtual Cross Connect resulting in a brief traffic disruption.  
+4. Under routing status, click the button to enable.  Doing this will transition packet delivery from your Cloud Provider's Internet transit to the private Virtual Cross Connect resulting in a brief traffic disruption.
    ​
 
    ![Routing status enable button. ](_images/6dced170728dacd3.png)
@@ -162,5 +163,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

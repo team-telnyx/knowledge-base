@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6679279-papua-new-guinea-sms-guidelines
+title: "Papua New Guinea: SMS Guidelines"
+description: "SMS Guidelines for Papua New Guinea including MCC and Dial Code. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 66bb6fd419a6e6f90dfd054433c0193780961742b9e7f71dc6b853d6e03643b3
 ---
 
-Papua New Guinea: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Papua New Guinea: SMS Guidelines
 
-SMS Guidelines for Papua New Guinea including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Papua New Guinea including MCC and Dial Code. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Papua New Guinea: SMS Guidelines**
+## **Papua New Guinea: SMS Guidelines**
 
-**MCC:** 537  
-​**Dial Code:** 675  
-​  
+**MCC:** 537
+​**Dial Code:** 675
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/15395095-understanding-sip-603-carrier-rejections
+title: "Understanding SIP 603+ carrier rejections"
+description: "SIP 603+ is an industry shorthand for a standardized use of the SIP 603 Decline response when a call is blocked on an… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ce6fad672c0115207c418a4a67dde28f35ff6f22f5c7ffe1f24497f85179375c
 ---
 
-Understanding SIP 603+ carrier rejections | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Understanding SIP 603+ carrier rejections
 
-Written by Telnyx Engineering
 
-June 5, 2026
 
-Table of contents
 
-SIP 603+ is an industry shorthand for a standardized use of the SIP 603 Decline response when a call is blocked on an IP network based on reasonable analytics for outbound calls in the U.S. It is not a separate SIP status code, the status code remains 603.
+SIP 603+ is an industry shorthand for a standardized use of the SIP 603 Decline response when a call is blocked on an… See Telnyx guidance and requirements.
 
 The “+” indicates that the response includes additional standardized information, such as the *Network Blocked* reason phrase and related signaling details, to improve transparency and support redress.
 
@@ -88,9 +89,9 @@ Carrier analytics and reputation decisions are not controlled by Telnyx, but the
 
 #### **Use appropriate caller ID**
 
-* Avoid anonymous caller IDs.  
+* Avoid anonymous caller IDs.
   ​
-* Use numbers that you own and that are associated with your account as the number owner. This case will always result in STIR/SHAKEN A attestation which decreases the chances of the carrier blocking the call.  
+* Use numbers that you own and that are associated with your account as the number owner. This case will always result in STIR/SHAKEN A attestation which decreases the chances of the carrier blocking the call.
   ​
 * If you use a non-Telnyx caller ID that has been verified, it will result in STIR/SHAKEN B attestation, which increases the chances of the carrier blocking the call.
 
@@ -136,5 +137,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

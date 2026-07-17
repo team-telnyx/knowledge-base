@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5721766-zoiper-3-telnyx-setup-linux
+title: "Zoiper 3: Telnyx Setup (Linux)"
+description: "How to configure Zoiper 3 to work with the Telnyx Mission Control portal for a Linux operating system. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 17c712f5acabad5f546ec787ed3ec44c4f01bb5a1b08c23ea74c456dbe34b44c
 ---
 
-Zoiper 3: Telnyx Setup (Linux) | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Zoiper 3: Telnyx Setup (Linux)
 
-How to configure Zoiper 3 to work with the Telnyx Mission Control portal for a Linux operating system.
+How to configure Zoiper 3 to work with the Telnyx Mission Control portal for a Linux operating system. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_2d3edf7a01)
 
@@ -30,7 +31,7 @@ For Zoiper documentation, see:
 
 ---
 
-# Instructions for Configuring Zoiper 3 with Telnyx
+## Instructions for Configuring Zoiper 3 with Telnyx
 
 1. [Create your VoIP account on Zoiper 3](#h_4c7b969580)
 2. [Troubleshooting](#h_ce63df2bf2)
@@ -113,5 +114,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

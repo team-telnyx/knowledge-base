@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6339152-how-to-create-a-10dlc-campaign
+title: "How to create a 10DLC campaign"
+description: "Creating a campaign is the second step to becoming compliant with 10DLC rules. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ba5b36e22886219329a142b32b5efc7c594b903d68df43b065b45e80b485d78b
 ---
 
-How to create a 10DLC campaign | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How to create a 10DLC campaign
 
-Creating a campaign is the second step to becoming compliant with 10DLC rules. Read on to learn how you can create campaigns.
+Creating a campaign is the second step to becoming compliant with 10DLC rules. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-April 22, 2025
 
-Table of contents
 
-# **How to create a 10DLC campaign**
+## **How to create a 10DLC campaign**
 
 If your business is sending outbound text messages using 10-digit long code (10DLC) Local phone numbers in the US, you're required to register for 10DLC. In this guide, we'll show you how to complete the second step of this process by registering campaigns, using tools provided in the Telnyx Mission Control Portal.
 
@@ -94,5 +95,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

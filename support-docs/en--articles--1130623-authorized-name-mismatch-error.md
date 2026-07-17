@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130623-authorized-name-mismatch-error
+title: "Authorized Name Mismatch Error"
+description: "In this article we will explain what an authorized name mismatch error means when porting numbers and what you can do… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: eaf76d4ba07f4ba2e0753ae24ae4bcd5d0a7e9cf6b03c8364cccafb0edd5a541
 ---
 
-Authorized Name Mismatch Error | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Authorized Name Mismatch Error
 
-In this article we will explain what an authorized name mismatch error means when porting numbers and what you can do to solve it.
+In this article we will explain what an authorized name mismatch error means when porting numbers and what you can do… See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-January 10, 2024
 
-Table of contents
 
-# **Authorized Name Mismatch Errors When Porting Numbers**
+## **Authorized Name Mismatch Errors When Porting Numbers**
 
 **Related Errors**
 
@@ -47,5 +48,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

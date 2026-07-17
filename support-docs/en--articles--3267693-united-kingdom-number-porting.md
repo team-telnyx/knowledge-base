@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3267693-united-kingdom-number-porting
+title: "United Kingdom Number Porting"
+description: "Here you will find all of the requirements for United Kingdom number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 00c548b19b2ba3e1289e3e74cb5c0988e34ada4953800bbc8f99acde9cdce3b0
 ---
 
-United Kingdom Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # United Kingdom Number Porting
 
-Here you will find all of the requirements for United Kingdom number portability.
+Here you will find all of the requirements for United Kingdom number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-October 9, 2025
 
-Table of contents
 
-# **Local Number**
+## **Local Number**
 
 1. UK template LOA (underlying carrier’s name and/or Cupid code must be mentioned, Line type {single or multi}, a Local address along with a valid postcode is required)
 2. Latest Invoice with the current carrier
@@ -59,11 +60,11 @@ When you wish to port UK numbers, there are different factors that you must cons
      + Are the numbers **Geographic** (linked to a specific area in the UK, requiring a local address), or **Non-Geographic** (not tied to a specific area, requiring a national address)?
   2. **Line Type**
 
-     + Are these numbers part of a **Single Line** (a line terminating on a single socket, with no associated numbers), or a **Multi-Line** (a line terminating on equipment such as a PBX, which may include associated numbers)?  
+     + Are these numbers part of a **Single Line** (a line terminating on a single socket, with no associated numbers), or a **Multi-Line** (a line terminating on equipment such as a PBX, which may include associated numbers)?
        ​
 * **Partial Porting** : Whether partial porting is possible in the UK depends on your current service provider, as this varies from case to case.
 
-  Please note that most UK carriers do not allow number ranges to be split. This means the entire range of numbers (typically, this corresponds to a range where the first number ends in 0 and the last number ends in 9.) usually needs to be ported together, along with any associated DIDs. In most cases, a Main Billing Number (also known as a BTN) cannot be ported while leaving associated numbers active with the current provider. These associated numbers must either be included in the porting request or ceased with the current provider.   
+  Please note that most UK carriers do not allow number ranges to be split. This means the entire range of numbers (typically, this corresponds to a range where the first number ends in 0 and the last number ends in 9.) usually needs to be ported together, along with any associated DIDs. In most cases, a Main Billing Number (also known as a BTN) cannot be ported while leaving associated numbers active with the current provider. These associated numbers must either be included in the porting request or ceased with the current provider.
   ​
 
   The best way to find out if you can partially port your number range is to check directly with your current provider before submitting a request to Telnyx.
@@ -132,5 +133,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

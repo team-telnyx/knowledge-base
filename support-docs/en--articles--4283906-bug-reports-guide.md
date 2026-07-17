@@ -1,29 +1,30 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4283906-bug-reports-guide
+title: "Bug Reports Guide"
+description: "This article explains how to submit a bug report to the Telnyx support team. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 021f3acd5e1875d28b86bcaf8ec6a4700ff656a9446b4efff31027ab2c3e38e0
 ---
 
-Bug Reports Guide | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Bug Reports Guide
 
-This article explains how to submit a bug report to the Telnyx support team.
+This article explains how to submit a bug report to the Telnyx support team. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-May 7, 2026
 
-Table of contents
 
-***Developer: There is no I in TEAM.***  
+***Developer: There is no I in TEAM.***
 ​***Tester: We can’t spell BUGS without U***
 
 ![Breaking Line](_images/682991ade0be9812.png)
 
-# **Explanation of Bug Reports**
+## **Explanation of Bug Reports**
 
 At Telnyx, we're very much engineering focused. We're agile and iterate quickly, shipping improvements and new features regularly.
 
@@ -31,8 +32,8 @@ At Telnyx, we're very much engineering focused. We're agile and iterate quickly,
 
 We're always grateful to our customers when it comes to identifying any and all [improvements](https://support.telnyx.com/en/articles/4283783-feature-requests), especially bugs!
 
-Let us know if you find any by contacting our support team by email **[support@telnyx.com](mailto:support@telnyx.com),** we're always quick on hand to bring this feedback to the attention of our engineers, in order to ensure a better customer experience.   
-​  
+Let us know if you find any by contacting our support team by email **[support@telnyx.com](mailto:support@telnyx.com),** we're always quick on hand to bring this feedback to the attention of our engineers, in order to ensure a better customer experience.
+​
 We always appreciate a detailed description of the bug, as well as any screenshots or videos you may have.
 
 Don't forget! Our [mission control portal](https://portal.telnyx.com/#/login/sign-in) user interface is built on top of our [API](https://developers.telnyx.com), so check out your browsers console logs (front-end issues) or network logs (back-end issues) which can significantly help when it comes to reproducing your concerns.
@@ -130,7 +131,7 @@ Send security reports to **security@telnyx.com** with the subject:
 
 Telnyx will not pursue legal action against researchers who act in good faith, follow this policy, and report findings to Telnyx before any public disclosure.
 
-*Last updated: May 2026 · Questions? security@telnyx.com*  
+*Last updated: May 2026 · Questions? security@telnyx.com*
 ​
 
 ---
@@ -142,5 +143,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

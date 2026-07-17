@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1616935-freeswitch-ip-trunk-setup
+title: "FreeSWITCH: IP Trunk Setup"
+description: "In this article we will walk you through configuring a FreeSWITCH IP Trunk with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 19ac2b8bc5e75f97b93e2c0de29ff181b685f28a56ffa1b1c036774e7a195f89
 ---
 
-FreeSWITCH: IP Trunk Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # FreeSWITCH: IP Trunk Setup
 
-In this article we will walk you through configuring a FreeSWITCH IP Trunk with Telnyx.
+In this article we will walk you through configuring a FreeSWITCH IP Trunk with Telnyx. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-November 22, 2025
 
-Table of contents
 
 [Jump to Instructions](#h_ae423994db)
 
@@ -31,7 +32,7 @@ Additional documentation:
 
 ---
 
-# Instructions For Configuring a FreeSWITCH IP Trunk
+## Instructions For Configuring a FreeSWITCH IP Trunk
 
 **In this guide, you will:**
 
@@ -61,7 +62,7 @@ Once you've configured your Telnyx account, you can now proceed to setup FreePBX
 
 Your new FreeSWITCH instance is preconfigured with default credentials that ***must*** be changed to prevent unauthorized users from registering with your instance and making calls.
 
-1. Open vars.xml:  
+1. Open vars.xml:
    ​`root@ip­172­31­54­222:/# cd /usr/local/freeswitch/conf root@ip­172­31­54­222:/usr/local/freeswitch/conf# vi vars.xml`
 2. Find the line that begins with `<X-PRE-PROCESS cmd="set" data="default_password="`
 3. Change the default password.
@@ -71,13 +72,13 @@ Your new FreeSWITCH instance is preconfigured with default credentials that ***m
 1. Navigate to sip\_profiles/external.xml
 
    ```
-   ...# cd sip_profiles  
+   ...# cd sip_profiles
    .../sip_profiles# vi external.xml
    ```
 2. Uncomment the following lines:
 
    ```
-   <param name="ext-rtp-ip" value="$${external_rtp_ip}"/>  
+   <param name="ext-rtp-ip" value="$${external_rtp_ip}"/>
    <param name="ext-sip-ip" value="$${external_sip_ip}"/>
    ```
 
@@ -88,20 +89,20 @@ There are multiple ways that this can be accomplished, but the easiest way is to
 1. Navigate to the sip\_profiles/telnyx.xml
 
    ```
-   .../sip_profiles# cd external  
+   .../sip_profiles# cd external
    .../sip_profiles/external# vi telnyx.xml
    ```
 2. You'll see something like this:
 
    ```
-   <include>  
-   <gateway name="telnyx">  
-   <param name="proxy" value="sip.telnyx.com"/>  
-   <param name="register" value="false"/>  
-   <param name="caller-id-in-from" value="true"/> <!--Most gateways seem to want this-->  
-   <param name="username" value="not-used"/>  
-   <param name="password" value="not-used"/>  
-   </gateway>  
+   <include>
+   <gateway name="telnyx">
+   <param name="proxy" value="sip.telnyx.com"/>
+   <param name="register" value="false"/>
+   <param name="caller-id-in-from" value="true"/> <!--Most gateways seem to want this-->
+   <param name="username" value="not-used"/>
+   <param name="password" value="not-used"/>
+   </gateway>
    </include>
    ```
 
@@ -113,45 +114,45 @@ Note that this is a sample dialplan, as each dialplan is typically unique. For m
 2. Remove the files located here and create a new inbound dialplan xml. Here is an example of what this will look like:
 
    ```
-   <include>  
-     <extension name="public_did">  
-       <condition field="destination_number" expression="^(1{0,1}\d{10})$">  
-         <action application="set" data="effective_caller_id_number=13125489677"/>                 
-         <!-- Replace 3125489677 with the DID you want as CID -->   
-         <action application="bridge" data="sofia/gateway/telnyx/$1"/>  
-       </condition>  
-     </extension>  
-     
-     <extension name="local.com">  
-       <condition field="destination_number" expression="^(\d{7})$">  
-         <action application="set"  
-   data="effective_caller_id_number=${outbound_caller_id_number}"/>  
-         <action application="set"  
-   data="effective_caller_id_name=${outbound_caller_id_name}"/>  
-         <action application="bridge"  
-   data="sofia/gateway/telnyx/+1${default_areacode}$1"/>  
-       </condition>  
-     </extension>  
-     
-     <extension name="domestic.com">  
-       <condition field="destination_number" expression="^(\d{11})$">  
-         <action application="set"  
-   data="effective_caller_id_number=${outbound_caller_id_number}"/>  
-         <action application="set"  
-   data="effective_caller_id_name=${outbound_caller_id_name}"/>  
-         <action application="bridge" data="sofia/gateway/telnyx/+$1"/>  
-       </condition>  
-     </extension>  
-     
-     <extension name="international.com">  
-       <condition field="destination_number" expression="^(011\d+)$">  
-         <action application="set"  
-   data="effective_caller_id_number=${outbound_caller_id_number}"/>  
-         <action application="set"  
-   data="effective_caller_id_name=${outbound_caller_id_name}"/>  
-         <action application="bridge" data="sofia/gateway/telnyx/+$1"/>  
-       </condition>  
-     </extension>  
+   <include>
+     <extension name="public_did">
+       <condition field="destination_number" expression="^(1{0,1}\d{10})$">
+         <action application="set" data="effective_caller_id_number=13125489677"/>
+         <!-- Replace 3125489677 with the DID you want as CID -->
+         <action application="bridge" data="sofia/gateway/telnyx/$1"/>
+       </condition>
+     </extension>
+
+     <extension name="local.com">
+       <condition field="destination_number" expression="^(\d{7})$">
+         <action application="set"
+   data="effective_caller_id_number=${outbound_caller_id_number}"/>
+         <action application="set"
+   data="effective_caller_id_name=${outbound_caller_id_name}"/>
+         <action application="bridge"
+   data="sofia/gateway/telnyx/+1${default_areacode}$1"/>
+       </condition>
+     </extension>
+
+     <extension name="domestic.com">
+       <condition field="destination_number" expression="^(\d{11})$">
+         <action application="set"
+   data="effective_caller_id_number=${outbound_caller_id_number}"/>
+         <action application="set"
+   data="effective_caller_id_name=${outbound_caller_id_name}"/>
+         <action application="bridge" data="sofia/gateway/telnyx/+$1"/>
+       </condition>
+     </extension>
+
+     <extension name="international.com">
+       <condition field="destination_number" expression="^(011\d+)$">
+         <action application="set"
+   data="effective_caller_id_number=${outbound_caller_id_number}"/>
+         <action application="set"
+   data="effective_caller_id_name=${outbound_caller_id_name}"/>
+         <action application="bridge" data="sofia/gateway/telnyx/+$1"/>
+       </condition>
+     </extension>
    </include>
    ```
 
@@ -168,8 +169,8 @@ The autonat: prefix toggles on the usage of the local-network-acl, if you prefix
 ***Note:*** In case FreeSWITCH fails to recognize your public IP you may "force" it to use a static Public IP by modifying sip\_profiles/external.xml as follows:
 
 ```
-<param name="ext-rtp-ip" value="8.8.8.8"/>  
-<param name="ext-sip-ip" value="8.8.8.8"/>  
+<param name="ext-rtp-ip" value="8.8.8.8"/>
+<param name="ext-sip-ip" value="8.8.8.8"/>
 <!-- Replace 8.8.8.8 with your public IP -->
 ```
 
@@ -195,5 +196,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

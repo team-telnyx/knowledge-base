@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5190478-malta-number-porting
+title: "Malta Number Porting"
+description: "Here you will find a detailed list of requirements for Malta number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 17b40c60396e882062dcd760939481dead0cf2f49768aba126b706777a0361af
 ---
 
-Malta Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Malta Number Porting
 
-Here you will find a detailed list of requirements for Malta number portability.
+Here you will find a detailed list of requirements for Malta number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 15, 2023
 
-Table of contents
 
-# **For Local / National number Types in Malta**
+## **For Local / National number Types in Malta**
 
 1. LoA
 
@@ -69,5 +70,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/14668631-enabling-whatsapp-business-calling-on-telnyx-numbers
+title: "Enabling WhatsApp Business Calling on Telnyx Numbers"
+description: "WhatsApp Business Calling lets your business receive and place voice calls with WhatsApp users using your Telnyx… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: f45a42477bf636183bba2238a7c714a2b65d7bcea090c2c5780887738a4da82a
 ---
 
-Enabling WhatsApp Business Calling on Telnyx Numbers | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Enabling WhatsApp Business Calling on Telnyx Numbers
 
-Written by Telnyx Engineering
 
-May 13, 2026
 
-Table of contents
 
-WhatsApp Business Calling lets your business receive and place voice calls with WhatsApp users using your Telnyx numbers.
+WhatsApp Business Calling lets your business receive and place voice calls with WhatsApp users using your Telnyx… See Telnyx guidance and requirements.
 
 Users can call directly from the WhatsApp app to your numbers and Telnyx will route these calls to your SIP connection or Programmable Voice application.
 
@@ -54,7 +55,7 @@ Businesses already using WhatsApp for customer communication that want to extend
 | User-initiated calls | Available wherever WhatsApp Business is available |
 | Business-initiated calls | Not available for business numbers in: USA, Canada, Egypt, Vietnam, Nigeria (based on the phone number's country code).        ⚠️ **Important:** Before placing a call, you must obtain the user's calling permission. More details on how to obtain permission below. |
 
-# **Enable Whatsapp Business Calling in Mission Control**
+## **Enable Whatsapp Business Calling in Mission Control**
 
 These instructions will help you enable Whatsapp Business Calling in Telnyx Mission Control Portal.
 
@@ -62,31 +63,31 @@ If you already have a Telnyx number configured in the portal for messaging purpo
 
 #### **Step 1 - Connect Your WhatsApp Business Account**
 
-1. In Mission Control, navigate to **Voice Suite → WhatsApp Calling**.  
+1. In Mission Control, navigate to **Voice Suite → WhatsApp Calling**.
    ​
 
    ![](_images/d110c80b55518543.png)
 
    ​
-2. Click **"Connect WhatsApp Business"** which will trigger the embedded signup windows for the integration with Meta.  
+2. Click **"Connect WhatsApp Business"** which will trigger the embedded signup windows for the integration with Meta.
    ​
 
    ![](_images/2d7116fcf9cfcc24.png)
 
    ​
-3. Select the **WhatsApp Business Account (WABA)** you want to associate with WhatsApp Calling.  
-   ​  
+3. Select the **WhatsApp Business Account (WABA)** you want to associate with WhatsApp Calling.
+   ​
    ​
 
    ![](_images/633946f79bd08aad.png)
 
 **Step 2 - Associate your Telnyx number**
 
-1. Select the Telnyx phone number you want to enable for WhatsApp Calling.  
+1. Select the Telnyx phone number you want to enable for WhatsApp Calling.
    ​
 
    ![](_images/df1b804144d9c800.png)
-2. Your Telnyx number must be active and able to receive calls or SMS (mobile numbers only) — Meta will send a verification code to confirm ownership.  
+2. Your Telnyx number must be active and able to receive calls or SMS (mobile numbers only) — Meta will send a verification code to confirm ownership.
    ​
 
    ![](_images/b81f6a7a8470b939.png)
@@ -94,11 +95,11 @@ If you already have a Telnyx number configured in the portal for messaging purpo
 
 #### **Step 3 - Confirm your configuration**
 
-1. Review and confirm your WhatsApp configuration in Telnyx.  
+1. Review and confirm your WhatsApp configuration in Telnyx.
    ​
 
    ![](_images/a8f384e0355c3cdc.png)
-2. You'll see a confirmation screen indicating your Meta account has been successfully connected to Telnyx.  
+2. You'll see a confirmation screen indicating your Meta account has been successfully connected to Telnyx.
    ​
 
    ![](_images/44ba3cb0da289331.png)
@@ -108,8 +109,8 @@ If you already have a Telnyx number configured in the portal for messaging purpo
 
    ![](_images/ce85e38f2726773f.png)
 
-   You can view and edit account details and settings from here.   
-   It can take up to 2 minutes for this information to show up.  
+   You can view and edit account details and settings from here.
+   It can take up to 2 minutes for this information to show up.
    ​
 
    ![](_images/5d18934dc18d9e61.png)
@@ -118,13 +119,13 @@ If you already have a Telnyx number configured in the portal for messaging purpo
 
    #### **Step 4 — Enable WhatsApp Calling in Telnyx**
 
-1. In Mission Control, navigate to **Voice Suite → WhatsApp Calling → WhatsApp Numbers**.  
+1. In Mission Control, navigate to **Voice Suite → WhatsApp Calling → WhatsApp Numbers**.
    ​
 
    ![](_images/06674c2ed3dfebac.png)
 
    ​
-2. Select your number — it should show a **Connected** status.  
+2. Select your number — it should show a **Connected** status.
    ​
 
    ![](_images/893658dbadd451be.png)
@@ -136,7 +137,7 @@ If you already have a Telnyx number configured in the portal for messaging purpo
 
 ---
 
-# **Place and Receive Calls**
+## **Place and Receive Calls**
 
 ## **User-Initiated Calls**
 
@@ -184,7 +185,7 @@ You can obtain calling permission from a WhatsApp user in any of the following w
 
 #### **Send a call permission request to the user**
 
-Send a permission request to the WhatsUp user via the WhatsApp Cloud API, either as a template or free-form message   
+Send a permission request to the WhatsUp user via the WhatsApp Cloud API, either as a template or free-form message
 Keep in mind the following rate limits:
 
 * Maximum **1 request per 24 hours** per user
@@ -203,8 +204,8 @@ More details about the call permission request flow and sample message can be fo
 
 Businesses can configure the phone number call setting to allow callbacks. When enabled, a temporary calling permission is automatically granted after a WhatsApp user calls the business profile.
 
-Go to WhatAapp Manager>Phone on your Meta Business Suite, select your number, go to Call Settings and enable "Allow Callbacks"  
-​  
+Go to WhatAapp Manager>Phone on your Meta Business Suite, select your number, go to Call Settings and enable "Allow Callbacks"
+​
 ​
 
 ![](_images/460a474bc563eda7.png)
@@ -287,5 +288,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

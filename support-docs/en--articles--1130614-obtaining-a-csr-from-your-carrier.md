@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130614-obtaining-a-csr-from-your-carrier
+title: "Obtaining a CSR From Your Carrier"
+description: "Learn How To Obtain a Customer Service Record (CSR) From Your Carrier. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 439dd1e25fc458a9b756b7969077eddfd9953006f14440f722c5d9b91f5409f3
 ---
 
-Obtaining a CSR From Your Carrier | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Obtaining a CSR From Your Carrier
 
-Learn How To Obtain a Customer Service Record (CSR) From Your Carrier.
+Learn How To Obtain a Customer Service Record (CSR) From Your Carrier. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-January 10, 2024
 
-Table of contents
 
-# US Only
+## US Only
 
 ## What is a CSR?
 
@@ -59,5 +60,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8096455-how-to-configure-a-sip-trunk
+title: "How to Configure a SIP Trunk"
+description: "Step-by-step guide on setting up a SIP Trunk with Telnyx using a compatible soft phone or system. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: bf1dcf8032d7628d11cb6f4308573527ea0f1f1fae7258e361622dafe8d029ce
 ---
 
-How to Configure a SIP Trunk | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How to Configure a SIP Trunk
 
-Step-by-step guide on setting up a SIP Trunk with Telnyx using a compatible soft phone or system.
+Step-by-step guide on setting up a SIP Trunk with Telnyx using a compatible soft phone or system. See Telnyx guidance and requirements.
 
 K
 
-Written by Klane Pedrie
 
-May 20, 2026
 
-Table of contents
 
-# How to Configure a SIP Trunk
+## How to Configure a SIP Trunk
 
 Telnyx “[SIP Trunking](https://telnyx.com/products/sip-trunks)” is where you use Telnyx as your outbound and inbound voice carrier with the compatible softphone or system of your choice. To get started testing please follow this guide.
 
@@ -154,5 +155,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

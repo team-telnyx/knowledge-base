@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1176353-vicidial-configure-vicidial-credentials
+title: "Vicidial: Configure Vicidial Credentials"
+description: "This article guides you on how to configure a Vicidial PBX for making and receiving calls over the internet through… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 142b9376b059e1523c0c1aafae30b5258a259e178de80247258eb56d134fd8df
 ---
 
-Vicidial: Configure Vicidial Credentials | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Vicidial: Configure Vicidial Credentials
 
-This article guides you on how to configure a Vicidial PBX for making and receiving calls over the internet through Telnyx!
+This article guides you on how to configure a Vicidial PBX for making and receiving calls over the internet through… See Telnyx guidance and requirements.
 
-Written by Dillin
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_8283fc149c)
 
@@ -31,7 +32,7 @@ Additional documentation:
 
 ---
 
-# Instructions for configuring a Vicidial IP trunk
+## Instructions for configuring a Vicidial IP trunk
 
 In this document you will
 
@@ -108,11 +109,11 @@ Coming soon! Check back frequently as we update our documentation.
    14. **Context:** *default*
    15. **Protocol:** *SIP*
    16. **Global String:** *Telnyx=SIP/telnyx*
-   17. **Dial Plan:**  
-       ​*exten => \_91NXXNXXXXXX,1,AGI(agi://127.0.0.1:4577/call\_log)  
-       exten => \_91NXXNXXXXXX,2,Dial(${Telnyx}/${EXTEN:1},60,tTor)  
-       exten => \_91NXXNXXXXXX,3,Hangup*  
-       ​  
+   17. **Dial Plan:**
+       ​*exten => \_91NXXNXXXXXX,1,AGI(agi://127.0.0.1:4577/call\_log)
+       exten => \_91NXXNXXXXXX,2,Dial(${Telnyx}/${EXTEN:1},60,tTor)
+       exten => \_91NXXNXXXXXX,3,Hangup*
+       ​
        In this case, 9 is the prefix that will be dialed to send calls to Telnyx's trunk.
 
 Depending on your phone configuration, you may also wish to configure an outbound caller ID to be in accordance with our [caller ID number policy](https://support.telnyx.com/en/articles/3546251-caller-id-number-policy). You can do this on a per-user or per-campaign basis.
@@ -155,5 +156,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

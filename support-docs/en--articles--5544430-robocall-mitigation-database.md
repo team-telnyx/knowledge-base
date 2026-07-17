@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5544430-robocall-mitigation-database
+title: "Robocall Mitigation Database"
+description: "In this article we outline the SHAKEN/STIR order taking effect on September 28, 2021, See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a3dbd07e137e53fdd153db793328c9e53ec5a0303a420f64adab82ebcfd5756c
 ---
 
-Robocall Mitigation Database | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Robocall Mitigation Database
 
-In this article we outline the SHAKEN/STIR order taking effect on September 28, 2021, and what it means for Telnyx customers.
+In this article we outline the SHAKEN/STIR order taking effect on September 28, 2021, See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-May 10, 2024
 
-Table of contents
 
-# **Robocall Mitigation Database and Call Blocking**
+## **Robocall Mitigation Database and Call Blocking**
 
 *Disclaimer: The information provided herein is for informational purposes only and should not be construed as legal advice. While we strive to provide accurate and up-to-date information, regulations and legal interpretations may vary and change over time. It is important to consult with qualified legal counsel to address specific legal questions or concerns regarding regulatory compliance.*
 
@@ -56,7 +57,7 @@ For more detailed guidance, see the FCC’s Second Report and Order, paragraphs 
 
 ## **Consulting Legal Counsel**
 
-It is advisable for Telnyx customers and other entities to consult legal counsel to determine if registering with the RMD is required for your entity. Please note that Telnyx has registered with the RMD to ensure uninterrupted service and compliance with FCC regulations.  
+It is advisable for Telnyx customers and other entities to consult legal counsel to determine if registering with the RMD is required for your entity. Please note that Telnyx has registered with the RMD to ensure uninterrupted service and compliance with FCC regulations.
 ​
 
 ---
@@ -68,5 +69,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6056428-fanvil-a32i-telnyx-setup
+title: "Fanvil A32i: Telnyx Setup"
+description: "Learn how to configure a Telnyx SIP trunk on the Fanvil A32i Android Console IP… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 47a579bd64db9c985994600d304247da03150233f2a5e476fcc71b37d15c0d44
 ---
 
-Fanvil A32i: Telnyx Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Fanvil A32i: Telnyx Setup
 
-Learn how to configure a Telnyx SIP trunk on the Fanvil A32i Android Console IP phone
+Learn how to configure a Telnyx SIP trunk on the Fanvil A32i Android Console IP… See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_9b42e0da7f)
 
@@ -49,7 +50,7 @@ big color touch screen, user-friendly interface, A32i can be the most helpful ma
 
 ---
 
-# Instructions for setting up and configuring your Fanvil X4G IP phone
+## Instructions for setting up and configuring your Fanvil X4G IP phone
 
 In this activity you will:
 
@@ -119,7 +120,7 @@ In this section, you'll add codecs to your phone configuration that will support
 
    * *H264*
 
-That's it, you've now completed the configuration of the Fanvil A32i IP phone with your Telnyx account.  
+That's it, you've now completed the configuration of the Fanvil A32i IP phone with your Telnyx account.
 ​
 
 [Back to Top](#h_9b42e0da7f)
@@ -147,5 +148,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

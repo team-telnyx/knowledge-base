@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6209215-fanvil-x7-series-ip-phones
+title: "Fanvil X7 Series: IP Phones"
+description: "Learn how to configure a Telnyx SIP trunk on the Fanvil X7A models/X7/X7C… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: af6b31993be03fb2a546c27e5c677d05dfb6f007b0536d834c5eebf8634f1cc7
 ---
 
-Fanvil X7 Series: IP Phones | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Fanvil X7 Series: IP Phones
 
-Learn how to configure a Telnyx SIP trunk on the Fanvil X7A models/X7/X7C phones
+Learn how to configure a Telnyx SIP trunk on the Fanvil X7A models/X7/X7C… See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_987b5f88b6)
 
@@ -29,7 +30,7 @@ Table of contents
 
 ---
 
-# Instructions for setting up and configuring a SIP trunk on the Fanvil X7 series IP phones
+## Instructions for setting up and configuring a SIP trunk on the Fanvil X7 series IP phones
 
 **In this activity you will:**
 
@@ -107,8 +108,8 @@ If you are encrypting traffic with TLS, you'll need to upload a TLS certificate,
 1. In the **Lines > SIP section,** find the **Advanced Settings** sub-section:
 
    1. **DTMF Type:** *RFC 2833*
-   2. **Transportation Protocol:** Choose *TCP* or *UDP* unless you are encrypting traffic and have set up encryption on your Telnyx portal. In this case, choose *TLS*.  
-      ​  
+   2. **Transportation Protocol:** Choose *TCP* or *UDP* unless you are encrypting traffic and have set up encryption on your Telnyx portal. In this case, choose *TLS*.
+      ​
       ​*Note that if you are encrypting traffic, you'll need to go into **Lines > Dial Peer** and make sure the **Port** setting is changed to* 5061.
    3. **RTP Encryption**: (Optional) Enable this if you're using TLS
    4. **RTP Encryption Key:** (Optional) Obtain a key [here](https://crt.sh/?id=1199354)
@@ -153,5 +154,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8047874-use-syncovery-with-telnyx-storage
+title: "Use Syncovery with Telnyx Storage"
+description: "Explore how to configure Syncovery with Telnyx Storage for seamless file transfer, synchronization, See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 9f59e721dc1f311aa82d4f6bec70d40b591d3dc779001c96a65c45479270ab6f
 ---
 
-Use Syncovery with Telnyx Storage | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Use Syncovery with Telnyx Storage
 
-Explore how to configure Syncovery with Telnyx Storage for seamless file transfer, synchronization, and secure data backup and recovery.
+Explore how to configure Syncovery with Telnyx Storage for seamless file transfer, synchronization, See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-June 6, 2024
 
-Table of contents
 
 [Syncovery](https://www.syncovery.com/) is a versatile file synchronization and backup software that provides users with a range of powerful features for managing their data. By integrating Syncovery with [Telnyx Storage](https://telnyx.com/products/cloud-storage), you can take advantage of Telnyx's reliable and scalable storage solution to ensure the safety and accessibility of your files.
 
 ---
 
-# How to configure Syncovery to work with Telnyx Storage
+## How to configure Syncovery to work with Telnyx Storage
 
 ## Step 1
 
@@ -36,14 +37,14 @@ Table of contents
 
 ## Step 3
 
-**Create a New Profile:** click on the ‘green plus button’ to create a new synchronization or backup profile.  
+**Create a New Profile:** click on the ‘green plus button’ to create a new synchronization or backup profile.
 ​
 
 ![New Profile section of Syncovery. ](_images/567f14e127a5f906.png)
 
 ## Step 4
 
-**Select Source and Destination:** In the profile configuration window, click on the “Internet” button  
+**Select Source and Destination:** In the profile configuration window, click on the “Internet” button
 ​
 
 ![Source and destination profile section of Syncovery. ](_images/48547ad210e82f23.png)
@@ -57,21 +58,21 @@ Table of contents
 3. **Secret key:** Input your Access ID - the access ID is not used by Telnyx Storage, but is needed by Syncovery. Type out anything you want here, as long as it doesn't include spaces, quoting, or special characters of any kind.
 4. **Provider:** Select the “custom” option from the dropdown
 5. **Bucket:** Copy and paste one of our available [API Endpoints](https://developers.telnyx.com/docs/cloud-storage/api-endpoints).
-6. **Folder:** Select the folder to backup on your PC  
+6. **Folder:** Select the folder to backup on your PC
    ​
 
    ![Internet protocol settings section. ](_images/d44de1d00f7fdd23.jpg)
 
 ## Step 6
 
-Select the path you are synchronizing to from the options below; it can be from your local storage - **Browse…, Internet…** or a **Device**  
+Select the path you are synchronizing to from the options below; it can be from your local storage - **Browse…, Internet…** or a **Device**
 ​
 
 ![Browse, internet, and device buttons. ](_images/e30741c2897b9ebf.png)
 
 ## Step 7
 
-To save your new profile, click on **OK**  
+To save your new profile, click on **OK**
 ​
 
 ![Okay button. ](_images/8c283a528946aed1.png)
@@ -84,7 +85,7 @@ Enjoy the convenience and reliability of Syncovery combined with the scalability
 
 **Additional Resources**
 
-For more information on Syncovery and its features, refer to the official [documentation](https://www.syncovery.com/category/documentation/).  
+For more information on Syncovery and its features, refer to the official [documentation](https://www.syncovery.com/category/documentation/).
 ​
 
 ---
@@ -96,5 +97,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

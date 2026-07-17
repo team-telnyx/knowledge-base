@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3296669-iot-sim-card-pricing
+title: "IoT SIM Card Pricing"
+description: "What are the rate plans and associated costs for Telnyx programmable wireless? See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: f163316e5b3694506bb6c1c59cf11290083390fd4eaec10d4399f9469966f83b
 ---
 
-IoT SIM Card Pricing | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # IoT SIM Card Pricing
 
-What are the rate plans and associated costs for Telnyx programmable wireless?
+What are the rate plans and associated costs for Telnyx programmable wireless? See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-June 6, 2024
 
-Table of contents
 
-# There are 3 components to Telnyx IoT pricing:
+## There are 3 components to Telnyx IoT pricing:
 
 1. One-time charge (OTC)
 2. Monthly recurring charges (MRC)
@@ -66,7 +67,7 @@ Let’s take the example of Acme IoT Solutions, a Wireless Customer of Telnyx in
 
 **Between 5GB and 25GB** - This will be charged at the Zone-1:Tier-5 rate of 0.0125
 
-*So, 20,000MB x $0.0125/MB = $250*  
+*So, 20,000MB x $0.0125/MB = $250*
 ​
 
 Total spent for **25GB** usage in **Zone1** -> $7.8 + $15.6 + $29.25+ $45 + $250 = **$347.65**
@@ -189,5 +190,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4305158-api-keys-and-how-to-use-them
+title: "API Keys and How to Use Them"
+description: "In this article we will explain API keys and how to use them with both API v2 and API v1. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 97e515628a8ce56ff65bf3e353d558478b2568bcc9c8ac8851185863bc8cabde
 ---
 
-API Keys and How to Use Them | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # API Keys and How to Use Them
 
-In this article we will explain API keys and how to use them with both API v2 and API v1.
+In this article we will explain API keys and how to use them with both API v2 and API v1. See Telnyx guidance and requirements.
 
-Written by Alex Conroy
 
-January 6, 2026
 
-Table of contents
 
 To use Telnyx v2 API endpoints, you will need an API key. For our API v1 endpoints, you will need an API Token.
 
@@ -24,7 +25,7 @@ This article will explain how to get your API Key for API v2 or API Token for AP
 
 Telnyx uses API Keys or Tokens to authenticate API requests from our customers.
 
-# **Step by Step guide API v2 Key**
+## **Step by Step guide API v2 Key**
 
 * Log in to <https://portal.telnyx.com/>
 * Click on the Account Settings option in the Account Icon on the top-right corner.
@@ -92,5 +93,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/13194951-saint-barth-and-saint-martin-number-porting
+title: "Saint Barth and Saint Martin Number Porting"
+description: "Here you will find detailed requirements for Saint Barth and Saint Martin number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 9700779d271dcb3a51b0d5df4b867396bf4de91ca406f26acbec87cc6063a2aa
 ---
 
-Saint Barth and Saint Martin Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Saint Barth and Saint Martin Number Porting
 
-Here you will find detailed requirements for Saint Barth and Saint Martin number portability.
+Here you will find detailed requirements for Saint Barth and Saint Martin number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-December 19, 2025
 
-Table of contents
 
 **Local / National / Toll-Free Numbers**
 
@@ -35,5 +36,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

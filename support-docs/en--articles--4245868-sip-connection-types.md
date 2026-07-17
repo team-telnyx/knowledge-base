@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4245868-sip-connection-types
+title: "SIP Connection: Types"
+description: "This article explains the different types of SIP Connections available in the Mission Control Portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 6156f3f85046b732c703ca068dc41b3fae4057bce010593b40c5599956e87b2b
 ---
 
-SIP Connection: Types | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # SIP Connection: Types
 
-This article explains the different types of SIP Connections available in the Mission Control Portal.
+This article explains the different types of SIP Connections available in the Mission Control Portal. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-May 20, 2026
 
-Table of contents
 
-# What are the Sip Connection Types?
+## What are the Sip Connection Types?
 
 We offer four different authentication types to register your switch to ours. This article will show you how to configure these types within the Mission Control Portal and explain the various settings that SIP Connections have. (Details on setting up MS Teams SBC can be found here: [https://support.telnyx.com/en/articles/5253876-ms-teams-telnyx-pstn](https://support.telnyx.com/en/articles/5253876-configuring-telnyx-with-microsoft-teams-direct-routing))
 
@@ -123,5 +124,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

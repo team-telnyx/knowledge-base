@@ -1,86 +1,87 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3739452-hungary-did-requirements
+title: "Hungary DID Requirements"
+description: "Here you will find detailed requirements for acquiring Hungary numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: c5bf7e764dc6ca0d3fccf50411f39b4e8e9c0f3cf5ea22149937aba94474b266
 ---
 
-Hungary DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Hungary DID Requirements
 
-Here you will find detailed requirements for acquiring Hungary numbers.
+Here you will find detailed requirements for acquiring Hungary numbers. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-July 31, 2024
 
-Table of contents
 
-# DID Number Requirements for Hungary
+## DID Number Requirements for Hungary
 
 In order to purchase a Hungary number you will need to provide the following:
 
 ## **Local Numbers in Hungary**
 
-For **personal identity** verification:  
-\* Name, last name  
-\* Contact phone number  
-\* Passport or ID copy  
-​  
-For **business identity** verification:  
+For **personal identity** verification:
+\* Name, last name
+\* Contact phone number
+\* Passport or ID copy
+​
+For **business identity** verification:
 \* Name, last name of an authorized representative
 
 \* Company name
 
 \* Contact phone number
 
-\* Company registration certificate  
-​  
-For **address** verification:  
-\* Address matching the DID area code (street, building number, postal code, city, and country)  
+\* Company registration certificate
+​
+For **address** verification:
+\* Address matching the DID area code (street, building number, postal code, city, and country)
 \* Proof of address (dated within 3 months)
 
 ## **National Numbers in Hungary**
 
-For **personal identity** verification:  
-\* Name, last name  
-\* Contact phone number  
-\* Passport or ID copy  
-​  
-For **business identity** verification:  
+For **personal identity** verification:
+\* Name, last name
+\* Contact phone number
+\* Passport or ID copy
+​
+For **business identity** verification:
 \* Name, last name of an authorized representative
 
 \* Company name
 
 \* Contact phone number
 
-\* Company registration certificate  
-​  
-For **address** verification:  
-\* Address in Hungary (street, building number, postal code, city, and country)  
+\* Company registration certificate
+​
+For **address** verification:
+\* Address in Hungary (street, building number, postal code, city, and country)
 \* Proof of address (dated within 3 months)
 
 ## **Toll-Free Numbers in Hungary**
 
-For **personal identity** verification:  
-\* Name, last name  
-\* Contact phone number  
-\* Passport or ID copy  
-​  
-For **business identity** verification:  
+For **personal identity** verification:
+\* Name, last name
+\* Contact phone number
+\* Passport or ID copy
+​
+For **business identity** verification:
 \* Name, last name of an authorized representative
 
 \* Company name
 
 \* Contact phone number
 
-\* Company registration certificate  
-​  
-For **address** verification:  
-\* Address in Hungary (street, building number, postal code, city, and country)  
-\* Proof of address (dated within 3 months)  
+\* Company registration certificate
+​
+For **address** verification:
+\* Address in Hungary (street, building number, postal code, city, and country)
+\* Proof of address (dated within 3 months)
 ​
 
 \*Please note that once the documentation is received it will take approximately 72 hours to validate the information and activate the number for use.
@@ -127,5 +128,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

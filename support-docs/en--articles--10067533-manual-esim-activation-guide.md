@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/10067533-manual-esim-activation-guide
+title: "Manual eSIM activation guide"
+description: "How to activate your eSIM without a QR code. See Telnyx guidance and requirements Learn more about Manual eSIM activation guide with Telnyx."
 scraped: 2026-07-08
 content_hash: f76e95eafd994c4fa390b7dda2873bdad699ab42762529a04dd543a2c7117a8d
 ---
 
-Manual eSIM activation guide | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Manual eSIM activation guide
 
-How to activate your eSIM without a QR code.
+How to activate your eSIM without a QR code. See Telnyx guidance and requirements Learn more about Manual eSIM activation guide with Telnyx.
 
-Written by David
 
-April 8, 2026
 
-Table of contents
 
 Manual eSIM activation is used when QR code scanning isn’t feasible, particularly for devices that don't have cameras like IoT devices, modems, or routers, or if you’re unable to display or print the QR code.
 
@@ -33,7 +34,7 @@ The activation code contains both the SM-DP+ address and matching ID. Manually e
 
 **Note: The manual setup method depends on the modem manufacturer and NOT the eSIM provider.**
 
-# Manual eSIM setup on mobile phones
+## Manual eSIM setup on mobile phones
 
 **For iOS devices**
 
@@ -49,7 +50,7 @@ The activation code contains both the SM-DP+ address and matching ID. Manually e
 3. Manually enter the SM-DP+ address and activation code as prompted.
 4. Follow the instructions to activate the eSIM.
 
-# Manual eSIM setup on modems and routers
+## Manual eSIM setup on modems and routers
 
 Because modems lack screens and cameras, their eSIM activation process is different and may involve entering commands or using a graphical interface.
 
@@ -63,7 +64,7 @@ Open the router’s GUI, go to the cellular settings, and manually enter the SM-
 
 ***These steps vary by modem and manufacturer, so it’s best to consult the specific setup guide provided by your modem’s manufacturer.***
 
-# FAQs
+## FAQs
 
 ## Why would I need to activate my eSIM manually?
 
@@ -104,5 +105,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

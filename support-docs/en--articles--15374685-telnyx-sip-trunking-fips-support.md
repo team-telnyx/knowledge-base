@@ -1,20 +1,24 @@
 ---
 source_url: https://support.telnyx.com/en/articles/15374685-telnyx-sip-trunking-fips-support
+title: "Telnyx SIP Trunking FIPS Support"
+description: "FIPS, or Federal Information Processing Standards, are U.S. See Telnyx guidance and requirements Learn more about Telnyx SIP Trunking FIPS Support with Telnyx."
 scraped: 2026-07-08
 content_hash: 8e7f9b56993b8fe2606624e2f6c80b7f030957bfb427c068fb1fe2b9fa8ac7c1
 ---
 
-Telnyx SIP Trunking FIPS Support | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Telnyx SIP Trunking FIPS Support
 
-Written by Telnyx Engineering
+FIPS, or Federal Information Processing Standards, are U.S. See Telnyx guidance and requirements Learn more about Telnyx SIP Trunking FIPS Support with Telnyx.
 
-June 4, 2026
 
-Table of contents
+
+
 
 ## **Overview**
 
@@ -43,10 +47,10 @@ For example:
 
 At a high level, the Kamailio-based SIP proxy runs on Debian Linux and uses the OpenSSL FIPS module, all of them with latest versions as of June 2026.
 
-Kamailio does not require a separate SIP configuration change for FIPS mode as it uses OpenSSL through its TLS module.  
+Kamailio does not require a separate SIP configuration change for FIPS mode as it uses OpenSSL through its TLS module.
 ​
 
-Customers who require exact platform version details for vendor review, procurement, audit, or security assessment should contact Telnyx Technical Support for more information: [Telnyx Support](mailto:support@telnyx.com)  
+Customers who require exact platform version details for vendor review, procurement, audit, or security assessment should contact Telnyx Technical Support for more information: [Telnyx Support](mailto:support@telnyx.com)
 ​
 
 **Note**: Telnyx supports FIPS-aligned cryptography on supported SIP proxy infrastructure, but the Telnyx SIP Trunking service is not FIPS 140-2 or FIPS 140-3 certified.
@@ -71,10 +75,10 @@ Customers should not require:
 
 ## **Important limitation: SIP Digest authentication**
 
-FIPS support in the SIP proxy stack does not automatically make every part of SIP Trunking fully FIPS compliant.  
+FIPS support in the SIP proxy stack does not automatically make every part of SIP Trunking fully FIPS compliant.
 ​
 
-A key limitation is SIP Digest authentication. Traditional SIP Digest authentication can use MD5, and MD5 is not allowed for FIPS cryptographic use.   
+A key limitation is SIP Digest authentication. Traditional SIP Digest authentication can use MD5, and MD5 is not allowed for FIPS cryptographic use.
 The current FIPS proxy configuration addresses the proxy cryptographic stack, but it does not by itself replace SIP Digest authentication with a FIPS-approved alternative.
 
 Customers with formal FIPS requirements should validate their end-to-end SIP configuration, including authentication behavior, customer equipment, TLS settings, and internal compliance controls.
@@ -117,5 +121,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

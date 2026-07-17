@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5190443-albania-number-porting
+title: "Albania Number Porting"
+description: "Here you will find a detailed list of requirements for Albania number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: c874c3d594db5fd17b87b7f2235bd4a62bad392774388cc931a38ad42704752d
 ---
 
-Albania Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Albania Number Porting
 
-Here you will find a detailed list of requirements for Albania number portability.
+Here you will find a detailed list of requirements for Albania number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 15, 2023
 
-Table of contents
 
-# **For Local / National number Types in Albania**
+## **For Local / National number Types in Albania**
 
 1. LoA
 2. TAX ID / VAT or Company Registration Number
@@ -68,5 +69,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

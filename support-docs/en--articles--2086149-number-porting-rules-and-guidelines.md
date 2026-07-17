@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/2086149-number-porting-rules-and-guidelines
+title: "Number Porting Rules and Guidelines"
+description: "Understand the rules and guidelines for Local Number Portability (LNP) with Telnyx's Carrier Services. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 42f4ac8958e5fbfdd923cc926a7f51efe3285d1bbf59ca3b8d0aae5195fba72a
 ---
 
-Number Porting Rules and Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Number Porting Rules and Guidelines
 
-Understand the rules and guidelines for Local Number Portability (LNP) with Telnyx's Carrier Services.
+Understand the rules and guidelines for Local Number Portability (LNP) with Telnyx's Carrier Services. See Telnyx guidance and requirements.
 
-Written by Patrick Budzinski
 
-January 29, 2026
 
-Table of contents
 
-# Porting Policy & Port-Out Procedures SPID: 073H
+## Porting Policy & Port-Out Procedures SPID: 073H
 
 Telnyx LLC (Telynx) ports telephone numbers in accordance with applicable Regulatory Rules and Industry Guidelines.
 
-**Please submit a TPP (Trading Partner Profile) when submitting your first LNP request. Please email [lnp@telnyx.com](mailto:%20lnp@telnyx.com) to obtain Telnyx TPP**  
+**Please submit a TPP (Trading Partner Profile) when submitting your first LNP request. Please email [lnp@telnyx.com](mailto:%20lnp@telnyx.com) to obtain Telnyx TPP**
 ​
 
 ## Submitting an LSR
@@ -51,7 +52,7 @@ Please allow 48 hours before submitting a status request. We will not respond to
 
 Expedited LSRs are allowed at Telnyx’s discretion.
 
-Email [lnp@telnyx.com](mailto:lnp@telnyx.com) for any changes to the LSR  
+Email [lnp@telnyx.com](mailto:lnp@telnyx.com) for any changes to the LSR
 ​
 
 ## Types of Ports
@@ -67,7 +68,7 @@ As defined by the FCC, simple ports:
 
 ## Non-Simple Port
 
-A non-simple port is any port that does not qualify as a simple port. Ports with more than 20 numbers and multi-line accounts qualify as non-simple ports and may require project management.   
+A non-simple port is any port that does not qualify as a simple port. Ports with more than 20 numbers and multi-line accounts qualify as non-simple ports and may require project management.
 Contact Telnyx for details before submitting the LSR.
 
 Please note that for non-simple ports Telnyx requires all telephone numbers to be listed on a separate, clean sheet of the LSR in a 10-digit format.
@@ -118,27 +119,27 @@ Christmas Day
 
 ## Customer Service Records (CSRs)
 
-We do not provide CSRs.  
+We do not provide CSRs.
 ​
 
 ## Escalation Contacts
 
 ## 1st Level
 
-Contact Name: Telnyx Porting Department  
-Porting Support Number: +1 (888) 980 9750 option 4  
+Contact Name: Telnyx Porting Department
+Porting Support Number: +1 (888) 980 9750 option 4
 Porting Email: [lnp@telnyx.com](mailto:lnp@telnyx.com)
 
 ## 2nd Level
 
-Contact Name: Tony Rizo  
+Contact Name: Tony Rizo
 Contact Description: LNP Team Lead
 
 Email: [tony@telnyx.com](mailto:%20patrickb@telnyx.com)
 
 **3rd Level**
 
-Contact Name: Patrick Budzinski  
+Contact Name: Patrick Budzinski
 Contact Description: Global Manager, Porting and Provisioning
 
 Email: [patrickb@telnyx.com](mailto:patrickb@telnyx.com)
@@ -154,5 +155,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

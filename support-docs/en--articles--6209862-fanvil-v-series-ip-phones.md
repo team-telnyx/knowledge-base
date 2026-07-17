@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6209862-fanvil-v-series-ip-phones
+title: "Fanvil V-Series: IP Phones"
+description: "Learn how to configure a Telnyx SIP trunk on the Fanvil V67/V65/V64/V62… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: d34d15827bcbe63d0f372719ef1d30c3f6abfa6eb3e7b81752194e098d670bbb
 ---
 
-Fanvil V-Series: IP Phones | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Fanvil V-Series: IP Phones
 
-Learn how to configure a Telnyx SIP trunk on the Fanvil V67/V65/V64/V62 phones
+Learn how to configure a Telnyx SIP trunk on the Fanvil V67/V65/V64/V62… See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_6e32dcf3ae)
 
@@ -46,7 +47,7 @@ Table of contents
 
 ---
 
-# Instructions for setting up and configuring a SIP trunk on your Fanvil V-series IP device
+## Instructions for setting up and configuring a SIP trunk on your Fanvil V-series IP device
 
 **In this activity you will:**
 
@@ -124,8 +125,8 @@ If you are encrypting traffic with TLS, you'll need to upload a TLS certificate,
 1. In the **Lines > SIP section,** find the **Advanced Settings** sub-section:
 
    1. **DTMF Type:** *RFC 2833*
-   2. **Transportation Protocol:** Choose *TCP* or *UDP* unless you are encrypting traffic and have set up encryption on your Telnyx portal. In this case, choose *TLS*.  
-      ​  
+   2. **Transportation Protocol:** Choose *TCP* or *UDP* unless you are encrypting traffic and have set up encryption on your Telnyx portal. In this case, choose *TLS*.
+      ​
       ​*Note that if you are encrypting traffic, you'll need to go into **Lines > Dial Peer** and make sure the **Port** setting is changed to* 5061.
    3. **RTP Encryption**: (Optional) Enable this if you're using TLS
    4. **RTP Encryption Key:** (Optional) Obtain a key [here](https://crt.sh/?id=1199354)
@@ -171,5 +172,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

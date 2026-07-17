@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/15668484-calls-per-second-cps-limits
+title: "Calls Per Second (CPS) Limits"
+description: "Calls Per Second… See Telnyx guidance and requirements Learn more about Calls Per Second (CPS) Limits with Telnyx."
 scraped: 2026-07-08
 content_hash: 4fefa00a08c18143b2507c5082b93ff30ea8d22348fd5b332c6578ab74a84f40
 ---
 
-Calls Per Second (CPS) Limits | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Calls Per Second (CPS) Limits
 
-Calls Per Second Limits
+Calls Per Second… See Telnyx guidance and requirements Learn more about Calls Per Second (CPS) Limits with Telnyx.
 
-Written by Telnyx Engineering
 
-Updated over a week ago
 
-Table of contents
 
 This article explains how Telnyx applies Calls Per Second (CPS) limits for SIP Trunking traffic, why these limits exist, how CPS is measured, how to identify when a CPS limit has been reached, and the difference between dials per second and SIP INVITEs per second.
 
@@ -46,7 +47,7 @@ CPS limits are not intended to restrict legitimate high-volume use cases. Custom
 
 On the standard SIP Trunking proxy path, outbound SIP INVITE requests are limited by default to **20 calls per second (CPS)** from the same source IP address.
 
-For credential-authenticated traffic, Telnyx also enforces CPS limits per SIP username.   
+For credential-authenticated traffic, Telnyx also enforces CPS limits per SIP username.
 This prevents customers from exceeding the intended limit by distributing traffic across multiple source IP addresses while using the same SIP credentials.
 
 Depending on the traffic profile, CPS enforcement may apply across multiple dimensions, including:
@@ -56,7 +57,7 @@ Depending on the traffic profile, CPS enforcement may apply across multiple dime
 * Customer-specific CPS overrides
 * Global protection limits on Telnyx proxy infrastructure
 
-Some traffic profiles or approved high-volume deployments may use different CPS limits.   
+Some traffic profiles or approved high-volume deployments may use different CPS limits.
 If your use case requires a higher CPS limit, contact Telnyx Support or your account team to review your traffic profile and available options.
 
 ## **Dials per second vs. SIP INVITEs per second**
@@ -67,7 +68,7 @@ When discussing CPS limits, it is important to distinguish between **dials per s
 
 Dials per second (DPS) refers to the API rate limits applied to Programmable Voice **[Dial](https://developers.telnyx.com/api-reference/call-commands/dial#dial)** command requests.
 
-This is a Programmable Voice / Call Control concept and is separate from SIP Trunking CPS limits.   
+This is a Programmable Voice / Call Control concept and is separate from SIP Trunking CPS limits.
 It is therefore outside the scope of this article and is not affected by SIP Trunking CPS limits.
 
 ## **SIP INVITEs per second**
@@ -102,8 +103,8 @@ If the limit is exceeded during the enforcement interval, excess SIP INVITE requ
 Example:
 
 ```
-Default limit: 20 SIP INVITEs from the same source IP per second  
-Observed traffic: 35 SIP INVITEs from the same source IP in one second  
+Default limit: 20 SIP INVITEs from the same source IP per second
+Observed traffic: 35 SIP INVITEs from the same source IP in one second
 Result: 15 SIP INVITEs will be rejected with SIP 503 CPS Limit reached P05
 ```
 
@@ -178,5 +179,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

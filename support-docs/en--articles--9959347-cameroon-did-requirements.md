@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/9959347-cameroon-did-requirements
+title: "Cameroon DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Cameroon numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: d7dc1d911c782047beb3d8c36ae01efbc1fd17f08f3cc3fd5d39cab0009a8272
 ---
 
-Cameroon DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Cameroon DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Cameroon numbers.
+Here you will find a list of detailed requirements for acquiring Cameroon numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-October 15, 2024
 
-Table of contents
 
 In order to purchase a Cameroon number you will need to provide the following:
 
@@ -50,8 +51,8 @@ For address verification:
 
 \* Worldwide Address (street, building number, postal code, city, and country)
 
-\* Proof of address (dated within 3 months)  
-​  
+\* Proof of address (dated within 3 months)
+​
 Please note that once the documentation is received it will take approximately 72 hours to validate the information and activate the number for use.
 
 ---
@@ -63,5 +64,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

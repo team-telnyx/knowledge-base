@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6563879-albania-sms-guidelines
+title: "Albania: SMS Guidelines"
+description: "SMS Guidelines for Albania including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Albania: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 187f28e5e353cc58ee524c065f2542b0204e89e93c21d1b1058d453b73b5880d
 ---
 
-Albania: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Albania: SMS Guidelines
 
-SMS Guidelines for Albania including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Albania including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Albania: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **SMS Guidelines for Albania**
+## **SMS Guidelines for Albania**
 
-**MCC:** 276  
-​**Dial Code**: 355  
-​  
+**MCC:** 276
+​**Dial Code**: 355
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

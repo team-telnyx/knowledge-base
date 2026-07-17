@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130705-sip-protocols-that-telnyx-uses
+title: "SIP protocols that Telnyx uses"
+description: "Wondering what SIP transport protocols are used at Telnyx? See Telnyx guidance and requirements Learn more about SIP protocols that Telnyx uses with Telnyx."
 scraped: 2026-07-08
 content_hash: 3516665b3824e40ac2019eb4c94243d7ab34424a020809de83417a81b2bd6d5c
 ---
 
-SIP protocols that Telnyx uses | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # SIP protocols that Telnyx uses
 
-Wondering what SIP transport protocols are used at Telnyx? Find out more here.
+Wondering what SIP transport protocols are used at Telnyx? See Telnyx guidance and requirements Learn more about SIP protocols that Telnyx uses with Telnyx.
 
-Written by Telnyx Sales
 
-January 29, 2026
 
-Table of contents
 
-# What SIP transport protocols does Telnyx use?
+## What SIP transport protocols does Telnyx use?
 
 Telnyx Mission Control supports the following SIP protocols:
 
@@ -39,5 +40,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

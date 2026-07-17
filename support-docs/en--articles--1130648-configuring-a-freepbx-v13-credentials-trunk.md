@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130648-configuring-a-freepbx-v13-credentials-trunk
+title: "Configuring a FreePBX V13 Credentials Trunk"
+description: "In this article we will explain how to configure a FreePBX V13 Credentials trunk with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: f77bfd1e316e5148dc2fbc85c8201b0393d964c1b99964c54790f38dc771b1b0
 ---
 
-Configuring a FreePBX V13 Credentials Trunk | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Configuring a FreePBX V13 Credentials Trunk
 
-In this article we will explain how to configure a FreePBX V13 Credentials trunk with Telnyx.
+In this article we will explain how to configure a FreePBX V13 Credentials trunk with Telnyx. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_17c13cc9ea)
 
@@ -35,7 +36,7 @@ Additional documentation and resources:
 
 ---
 
-# Instructions to Configure a FreePBX ChanSIP V13
+## Instructions to Configure a FreePBX ChanSIP V13
 
 |  |
 | --- |
@@ -110,7 +111,7 @@ Once you've loaded the FreePBX ISO onto your server or virtual machine, you'll h
 
 ## 2. Configure your SIP trunk
 
-In this section, you'll set up and configure your [SIP trunk](https://telnyx.com/products/sip-trunks) and connect Telnyx to FreePBX.  
+In this section, you'll set up and configure your [SIP trunk](https://telnyx.com/products/sip-trunks) and connect Telnyx to FreePBX.
 ​
 
 ### **Tab: General SIP Settings**
@@ -120,11 +121,11 @@ In this section, you'll set up and configure your [SIP trunk](https://telnyx.com
 3. Once you've completed this, click **Submit** and then **Apply Config.**
 
    ![General SIP settings interface 1. ](_images/55db9cb34da2bcff.png)
-4. Now go to **Applications -> Extensions > Add Extension > Add New Chan SIP Extension.** The **Outbound CID** is the [number you purchased](https://portal.telnyx.com/#/app/numbers/my-numbers) from your Telnyx Mission Control Portal. The extensions secret may need to be populated under the **Other** tab.  
-   ​  
-   ​***Note that*** *if you do not set an Outbound CID for your Extension, you must enable this on your trunk. See the [Pre-requisites](#h_534d80f29a) section.*  
-   ​  
-   ​***Note:*** *This device uses CHAN\_SIP technology listening on Port 5160 (UDP - this is a NON STANDARD port).*  
+4. Now go to **Applications -> Extensions > Add Extension > Add New Chan SIP Extension.** The **Outbound CID** is the [number you purchased](https://portal.telnyx.com/#/app/numbers/my-numbers) from your Telnyx Mission Control Portal. The extensions secret may need to be populated under the **Other** tab.
+   ​
+   ​***Note that*** *if you do not set an Outbound CID for your Extension, you must enable this on your trunk. See the [Pre-requisites](#h_534d80f29a) section.*
+   ​
+   ​***Note:*** *This device uses CHAN\_SIP technology listening on Port 5160 (UDP - this is a NON STANDARD port).*
    ​
 5. Click **Submit** and **Apply Config.**
 
@@ -137,7 +138,7 @@ In this section, you'll set up and configure your [SIP trunk](https://telnyx.com
 
       ![General SIP settings interface 3.](_images/6c893f0c13e5cc55.png)
 
-      ​***Note:*** *Enter a Trunk name, your Outbound CID and the maximum channels you'd like for this trunk. If you choose not to set an Outbound CID on your trunk, then you must set an Outbound CID on each relevant extension. If you do not set a caller ID on either the trunk or each extension, then your calls will reach our SIP proxy without a valid caller ID. You may instead choose to enable a Caller ID Override in your SIP Connection’s Outbound Options from within the Telnyx Portal. Please review our [caller ID number policy](https://support.telnyx.com/en/articles/3546251-caller-id-number-policy) for accepted formats.*  
+      ​***Note:*** *Enter a Trunk name, your Outbound CID and the maximum channels you'd like for this trunk. If you choose not to set an Outbound CID on your trunk, then you must set an Outbound CID on each relevant extension. If you do not set a caller ID on either the trunk or each extension, then your calls will reach our SIP proxy without a valid caller ID. You may instead choose to enable a Caller ID Override in your SIP Connection’s Outbound Options from within the Telnyx Portal. Please review our [caller ID number policy](https://support.telnyx.com/en/articles/3546251-caller-id-number-policy) for accepted formats.*
       ​
 
    ### **Tab: Dialed Number Manipulation Rules**
@@ -230,13 +231,13 @@ Navigate to **Connectivity -> Outbound Routes.**
    5. **Trunk Sequence for Matched Routes :** Select the trunk you just created in [section 2](#h_fcc442afae).
 
       ![Outbound routes configuration tab 1.](_images/03a0db6e3b8b108c.png)
-2. Now select the **Dial Patterns** tab to the right of the **Route Settings** tab and enter dial patterns exactly as you see in the following image. This pattern allows you to dial 10 Digits (U.S. Calling), 11 Digits (North American Calling).   
-   ​  
+2. Now select the **Dial Patterns** tab to the right of the **Route Settings** tab and enter dial patterns exactly as you see in the following image. This pattern allows you to dial 10 Digits (U.S. Calling), 11 Digits (North American Calling).
+   ​
    ​*If you need dial patterns for a region outside North America, please contact Telnyx support.*
 
    ![Inbound routes configuration tab. ](_images/b1b53778bd839984.png)
 
-   ***Note*** *that our current documentation portal shrinks screenshots, making some detail difficult to see. Right-click on the image above and select "Open image in new tab" from the context menu. This will open the image in a new tab and display it at its full size and resolution.*  
+   ***Note*** *that our current documentation portal shrinks screenshots, making some detail difficult to see. Right-click on the image above and select "Open image in new tab" from the context menu. This will open the image in a new tab and display it at its full size and resolution.*
    ​
 3. Click **Submit**, then **Apply Config**.
 
@@ -244,14 +245,14 @@ Navigate to **Connectivity -> Outbound Routes.**
 
 ## 4. Configure inbound routes
 
-When a call comes in from the outside, it'll need to be directed from sip.telnyx.com to the phone extension you ultimately want it to go, such as a user extension or an IVR extension.   
+When a call comes in from the outside, it'll need to be directed from sip.telnyx.com to the phone extension you ultimately want it to go, such as a user extension or an IVR extension.
 ​
 
 In this section, we'll configure our own inbound routes.
 
 1. Make your way to **Connectivity -> Inbound Routes** and open the **General** tab.
-2. The following image demonstrates an inbound route that will send *ANY* call to a certain extension.   
-   ​  
+2. The following image demonstrates an inbound route that will send *ANY* call to a certain extension.
+   ​
    To direct a specific number to a specific extension you would create a route and set the "[DID Number](https://telnyx.com/resources/sip-did)" field to your 11 digit DID with sip.telnyx.com (for instance : [12172031700](http://#)).
 
 ![Inbound routes configuration tab. ](_images/1a1b59fcbfca0746.png)
@@ -286,5 +287,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1618801-freeswitch-credentials-trunk
+title: "FreeSWITCH: Credentials Trunk"
+description: "Here we will explain how to configure a FreeSWITCH Credentials Trunk with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: fc5abd1292f0d8236346f697539169723a012c9e5d2ba0cf07cb7f87754a6b6e
 ---
 
-FreeSWITCH: Credentials Trunk | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # FreeSWITCH: Credentials Trunk
 
-Here we will explain how to configure a FreeSWITCH Credentials Trunk with Telnyx.
+Here we will explain how to configure a FreeSWITCH Credentials Trunk with Telnyx. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_20180b055c)
 
@@ -31,7 +32,7 @@ Additional documentation:
 
 ---
 
-# Instructions For Configuring a FreeSWITCH IP Trunk
+## Instructions For Configuring a FreeSWITCH IP Trunk
 
 **In this guide, you will:**
 
@@ -56,7 +57,7 @@ Additional documentation:
 You may register to one of the existing extensions; however it is recommended that you change the default password in the **directory/default/1000.xml** file:
 
 ```
-<param name="password" value="abcd1234"/>  
+<param name="password" value="abcd1234"/>
 <!-- Replace abcd1234 with a strong password -->
 ```
 
@@ -73,12 +74,12 @@ Create a file under directory: **sip\_profiles/external** (i.e.: *sip\_profiles/
 File to edit: dialplan/default.xml - add the following to default.xml
 
 ```
-<extension name="dial">  
-        <condition field="destination_number" expression="^(1{0,1}\d{10})$">  
-        <action application="set" data="effective_caller_id_number=13125489677"/>  
-        <!-- Replace 3125489677 with the DID you want as CID -->  
-        <action application="bridge" data="sofia/gateway/telnyx/$1"/>  
-        </condition>  
+<extension name="dial">
+        <condition field="destination_number" expression="^(1{0,1}\d{10})$">
+        <action application="set" data="effective_caller_id_number=13125489677"/>
+        <!-- Replace 3125489677 with the DID you want as CID -->
+        <action application="bridge" data="sofia/gateway/telnyx/$1"/>
+        </condition>
 </extension>
 ```
 
@@ -89,14 +90,14 @@ Create a file under directory: dialplan/public/
 ie. dialplan/public/3125489677.xml - 3125489677.xml is the DID you purchased at Telnyx Mission Control Portal and should contain the following:
 
 ```
-<include>  
-    <extension name="public_did">  
-        <condition field="destination_number" expression="^(13125489677)$">  
-        <!-- Replace 13125489677 with the DID you purchased at the Telnyx Portal -->  
-            <action application="set" data="domain_name=$${domain}"/>  
-            <action application="transfer" data="1000 XML default"/>  
-        </condition>  
-    </extension>  
+<include>
+    <extension name="public_did">
+        <condition field="destination_number" expression="^(13125489677)$">
+        <!-- Replace 13125489677 with the DID you purchased at the Telnyx Portal -->
+            <action application="set" data="domain_name=$${domain}"/>
+            <action application="transfer" data="1000 XML default"/>
+        </condition>
+    </extension>
 </include>
 ```
 
@@ -136,5 +137,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

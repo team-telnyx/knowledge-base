@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6674651-kosovo-sms-guidelines
+title: "Kosovo: SMS Guidelines"
+description: "Sending SMS to Kosovo? See Telnyx guidance and requirements Learn more about Kosovo: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 29053c36621ee1fb6119bc1a7bb923f2438abbe58739b1e795239b8f7941faf6
 ---
 
-Kosovo: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Kosovo: SMS Guidelines
 
-Sending SMS to Kosovo? Check out our comprehensive guidelines to ensure compliance in Kosovo.
+Sending SMS to Kosovo? See Telnyx guidance and requirements Learn more about Kosovo: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Kosovo: SMS Guidelines**
+## **Kosovo: SMS Guidelines**
 
-**MCC:** 221  
-​**Dial Code:** 383  
-​  
+**MCC:** 221
+​**Dial Code:** 383
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

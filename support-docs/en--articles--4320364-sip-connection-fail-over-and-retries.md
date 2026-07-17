@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4320364-sip-connection-fail-over-and-retries
+title: "SIP Connection: Fail-over and Retries"
+description: "In this article we will explain fail-over and retries and how they are used to make Telnyx so reliable. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 14803d517e7ad7548e17a6895b5947b3408d505f0d3f3a4502fe23049762cc2d
 ---
 
-SIP Connection: Fail-over and Retries | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # SIP Connection: Fail-over and Retries
 
-In this article we will explain fail-over and retries and how they are used to make Telnyx so reliable.
+In this article we will explain fail-over and retries and how they are used to make Telnyx so reliable. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-April 29, 2026
 
-Table of contents
 
 The Telnyx Mission Control SIP Connections allow users to define multiple retries in case a call fails to connect. The policy for fail-over and retries is designed to make sure that calls always connect regardless of issues on Telnyx or the user side.
 
 This policy depends on the type of Connection and other settings, and to explain how it works we need to define the following concepts:
 
-# **Fail-over and Retry Concepts**
+## **Fail-over and Retry Concepts**
 
 ![Breaking Line](_images/682991ade0be9812.png)
 
@@ -145,5 +146,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

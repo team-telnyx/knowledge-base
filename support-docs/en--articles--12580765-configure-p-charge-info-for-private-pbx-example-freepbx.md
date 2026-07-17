@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/12580765-configure-p-charge-info-for-private-pbx-example-freepbx
+title: "Configure P-Charge-Info for Private PBX (Example: FreePBX)"
+description: "Learn how to add a P-Charge-Info SIP header for calls made through your private PBX (using FreePBX as an example). See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: da7174659c7bd0bcd083bb2cd33647436f9a3b3694a22e7f1b73a73e19c2ce02
 ---
 
-Configure P-Charge-Info for Private PBX (Example: FreePBX) | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Configure P-Charge-Info for Private PBX (Example: FreePBX)
 
-Learn how to add a P-Charge-Info SIP header for calls made through your private PBX (using FreePBX as an example).
+Learn how to add a P-Charge-Info SIP header for calls made through your private PBX (using FreePBX as an example). See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-October 14, 2025
 
-Table of contents
 
 ## Background
 
-Some carriers and services, including Telnyx, use the **P-Charge-Info** SIP header to identify the billing number associated with a call.  
+Some carriers and services, including Telnyx, use the **P-Charge-Info** SIP header to identify the billing number associated with a call.
 When using a **private PBX** like FreePBX, you can manually configure this header so that calls sent through your SIP trunk include the correct DID (billing number) in the SIP INVITE.
 
 ## Standard Behavior
@@ -131,5 +132,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

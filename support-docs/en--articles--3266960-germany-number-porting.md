@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3266960-germany-number-porting
+title: "Germany Number Porting"
+description: "Here you will find a detailed list of requirements for Germany number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 70268072127acd5897ccf0c242036ccef92ad73672f3b63b41749946fc288a20
 ---
 
-Germany Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Germany Number Porting
 
-Here you will find a detailed list of requirements for Germany number portability.
+Here you will find a detailed list of requirements for Germany number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
 Number portability in Germany follows strict rules and procedures that **must be followed**.
 
@@ -47,7 +48,7 @@ This number is 11 digits long (excluding leading 0/country code). The actual num
 
 ---
 
-# Requirements
+## Requirements
 
 ## **Local / National Numbers in Germany**
 
@@ -106,5 +107,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

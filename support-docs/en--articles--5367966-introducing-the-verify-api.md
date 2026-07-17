@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5367966-introducing-the-verify-api
+title: "Introducing the Verify API"
+description: "This article will explain how to set up Verify API to utilize within the Telnyx Portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 3440bcf49f51b0259633523632b1b70d88eb42b78dee00a21ee952641acbddae
 ---
 
-Introducing the Verify API | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Introducing the Verify API
 
-This article will explain how to set up Verify API to utilize within the Telnyx Portal.
+This article will explain how to set up Verify API to utilize within the Telnyx Portal. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-June 6, 2024
 
-Table of contents
 
 Verify API has reduced all of the unnecessary steps for sending 2FA codes to devices, making it easier than ever to secure login requests, confirm account changes, and authenticate devices.
 
@@ -29,7 +30,7 @@ To get started, you can access our in-depth [documentation](https://developers.t
 
 ---
 
-# **Creating Verify Profile**
+## **Creating Verify Profile**
 
 To begin, navigate to your Telnyx admin portal and click on the **Verify** Icon as shown below.
 
@@ -91,5 +92,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

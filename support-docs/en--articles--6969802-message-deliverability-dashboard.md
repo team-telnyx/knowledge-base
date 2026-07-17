@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6969802-message-deliverability-dashboard
+title: "Message Deliverability Dashboard"
+description: "This article will showcase the message deliverability dashboard in greater detail. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 574ee72183a6a2e690fdef3a2085729ede033df5797c3d0a2dfb5bd89cf2cd9d
 ---
 
-Message Deliverability Dashboard | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# Message Deliverability Dashboard
 
-This article will showcase the message deliverability dashboard in greater detail.
 
-Written by Cameron Fitzpatrick
 
-January 2, 2025
-
-Table of contents
 
 # Message Deliverability Dashboard
+
+This article will showcase the message deliverability dashboard in greater detail. See Telnyx guidance and requirements.
+
+
+
+
+## Message Deliverability Dashboard
 
 The Telnyx Portal now offers a real-time [Message Deliverability dashboard](https://portal.telnyx.com/#/app/reporting/messaging-deliverability) for monitoring and analyzing usage, as well as identifying and troubleshooting potential issues. The report provides deliverability statistics broken out by Messaging Profile, and for the first time provides visibility into the messages that are "In-Flight".
 
@@ -68,5 +69,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

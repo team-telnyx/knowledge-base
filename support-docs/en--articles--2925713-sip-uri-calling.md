@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/2925713-sip-uri-calling
+title: "SIP URI Calling"
+description: "This article demonstrates SIP URI functionality for making inbound calls to SIP Connection. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ba9ec746f1800994db37cd4eed2e074882512c50c48b02b0f67ce5356b07554b
 ---
 
-SIP URI Calling | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # SIP URI Calling
 
-This article demonstrates SIP URI functionality for making inbound calls to SIP Connection.
+This article demonstrates SIP URI functionality for making inbound calls to SIP Connection. See Telnyx guidance and requirements.
 
-Written by Shubam
 
-April 27, 2026
 
-Table of contents
 
-# **What is SIP URI Calling?**
+## **What is SIP URI Calling?**
 
 This feature allows you to receive inbound calls directly to your SIP URI on connections using "credential auth". When SIP URI calling is enabled, callers can reach you by dialing your connection's username, removing the need for a phone number.
 
@@ -31,7 +32,7 @@ To use this feature, you'll need a SIP device or softphone registered with the c
 3. Open the **Authentication and routing** tab.
 4. Under **Receive SIP URI calls**, select your preferred option from the dropdown (e.g., *From anyone* or *Only from my Connections*). *[Screenshot 2: Authentication and routing tab]*
 
-**Note:** This setting was previously located under the **Inbound** tab but has since moved to **Authentication and routing**.  
+**Note:** This setting was previously located under the **Inbound** tab but has since moved to **Authentication and routing**.
 ​
 
 ![](_images/a4daae8b3dd19439.png)
@@ -70,5 +71,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

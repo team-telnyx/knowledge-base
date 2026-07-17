@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3723768-zapier-forward-texts-to-email
+title: "Zapier: Forward Texts to Email"
+description: "In this article we will discuss how to set up text message forwarding to your inbox. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 4901b4f50f6ee3bc7c42102099bd55eebea92567b447ebe6f4be3b4af58f78e2
 ---
 
-Zapier: Forward Texts to Email | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Zapier: Forward Texts to Email
 
-In this article we will discuss how to set up text message forwarding to your inbox.
+In this article we will discuss how to set up text message forwarding to your inbox. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-May 25, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_bc3d87c409)
 
@@ -34,7 +35,7 @@ We all use a lot of apps just to communicate with one another. [Zapier](https://
 
 **IMPORTANT**: We apologise for any inconvenience, the steps outlined in this article do not currently function. Telnyx is aware that the Zap for "Receive a Message" is outdated and working on fixing it again.
 
-# Get set up with the Telnyx Integration on Zapier
+## Get set up with the Telnyx Integration on Zapier
 
 **Prerequisites**
 
@@ -141,5 +142,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

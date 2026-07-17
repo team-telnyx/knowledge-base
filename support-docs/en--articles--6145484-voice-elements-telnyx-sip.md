@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6145484-voice-elements-telnyx-sip
+title: "Voice Elements: Telnyx SIP"
+description: "Voice Elements, a Microsoft .NET development environment released by Inventive Labs Corporation in 2008. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 4833ab5d5f68fdbc4538b5e77352d04f2d47cf6f11d05d4eba0f10a5e5af5699
 ---
 
-Voice Elements: Telnyx SIP | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Voice Elements: Telnyx SIP
 
-Voice Elements, a Microsoft .NET development environment released by Inventive Labs Corporation in 2008.
+Voice Elements, a Microsoft .NET development environment released by Inventive Labs Corporation in 2008. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to instructions](#h_dc214f2b78)
 
@@ -35,7 +36,7 @@ The Voice Elements Dashboard has several SIP and PBX connection options to choos
 
 ---
 
-# Instructions for configuring Voice Elements to use Telnyx as a SIP provider
+## Instructions for configuring Voice Elements to use Telnyx as a SIP provider
 
 In this activity you will:
 
@@ -46,7 +47,7 @@ In this activity you will:
 
 * Your Telnyx Portal must be correctly [set up and configured for use](https://support.telnyx.com/en/articles/1176636-get-started-with-a-mission-control-account)
 * [Download and install](https://www.voiceelements.com/docs/premise-guide/installing-voice-elements-premise-software/) Voice Elements
-* **(Optional)** If you're planning to use TLS encryption, you'll need to enable TLS encryption in your Telnyx portal. To learn more about TLS and other VoIP security topics, see [this article](https://support.telnyx.com/en/articles/4404575-tls-and-srtp).  
+* **(Optional)** If you're planning to use TLS encryption, you'll need to enable TLS encryption in your Telnyx portal. To learn more about TLS and other VoIP security topics, see [this article](https://support.telnyx.com/en/articles/4404575-tls-and-srtp).
   ​
 
 **Video walkthrough**
@@ -110,5 +111,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

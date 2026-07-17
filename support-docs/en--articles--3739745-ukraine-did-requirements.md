@@ -1,43 +1,44 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3739745-ukraine-did-requirements
+title: "Ukraine DID Requirements"
+description: "Here you will find a detailed list of the requirements for acquiring Ukraine numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: b3187153d4c56c653dde1460299e1af27a018213ef5c0dfbf96eb356dda6d08f
 ---
 
-Ukraine DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Ukraine DID Requirements
 
-Here you will find a detailed list of the requirements for acquiring Ukraine numbers.
+Here you will find a detailed list of the requirements for acquiring Ukraine numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-November 5, 2025
 
-Table of contents
 
-# DID Number Requirements for Ukraine
+## DID Number Requirements for Ukraine
 
 In order to purchase an Ukraine number you will need to provide the following:
 
 ## **Local & National Numbers in Ukraine**
 
-For **business identity** verification:   
-\* Name, last name of an authorized representative   
-\* Company name   
-\* Contact phone number   
-\* Passport or ID copy of an authorized representative   
-\* Business Registration Certificate   
-\* Signed LOI (dated within 1 month)  
+For **business identity** verification:
+\* Name, last name of an authorized representative
+\* Company name
+\* Contact phone number
+\* Passport or ID copy of an authorized representative
+\* Business Registration Certificate
+\* Signed LOI (dated within 1 month)
 ​
 
-​For **address** verification:   
-\* Worldwide Address (street, building number, postal code, city, and country)   
-\* Proof of Address matching the address in the Business Registration Certificate (dated within 3 months)   
-​  
-​**\* Business use required:** Business use is required, private use is not allowed.  
+​For **address** verification:
+\* Worldwide Address (street, building number, postal code, city, and country)
+\* Proof of Address matching the address in the Business Registration Certificate (dated within 3 months)
+​
+​**\* Business use required:** Business use is required, private use is not allowed.
 ​
 
 ## **Mobile & Toll-Free Numbers in Ukraine**
@@ -105,5 +106,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

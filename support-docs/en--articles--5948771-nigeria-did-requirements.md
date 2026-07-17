@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5948771-nigeria-did-requirements
+title: "Nigeria DID Requirements"
+description: "Nigeria's DID requirements for toll-free numbers (TFNs) isn't too complex as of 2023. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 514fc8d4f46696b620b6ec16fe4a071e1b24d8ea498097f116e38aba11d4596a
 ---
 
-Nigeria DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Nigeria DID Requirements
 
-Nigeria's DID requirements for toll-free numbers (TFNs) isn't too complex as of 2023. Please reach out if you have specific questions.
+Nigeria's DID requirements for toll-free numbers (TFNs) isn't too complex as of 2023. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-October 15, 2024
 
-Table of contents
 
-# DID Number Requirements for Nigeria
+## DID Number Requirements for Nigeria
 
 In order to purchase a Nigeria number you will need to provide the following:
 
@@ -119,5 +120,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,22 +1,24 @@
 ---
 source_url: https://support.telnyx.com/en/articles/10547022-10dlc-carrier-error-codes-explanations
+title: "10DLC Carrier Error Codes Explanations"
+description: "Explanation for Error Codes for 10DLC Campaign… See Telnyx guidance and requirements Learn more about 10DLC Carrier Error Codes Explanations with Telnyx."
 scraped: 2026-07-08
 content_hash: 9b6044d0b967707a06966ae9c750424519d3d24b6d0118951e910d3ae8f1afb7
 ---
 
-10DLC Carrier Error Codes Explanations | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # 10DLC Carrier Error Codes Explanations
 
-Explanation for Error Codes for 10DLC Campaign Declines
+Explanation for Error Codes for 10DLC Campaign… See Telnyx guidance and requirements Learn more about 10DLC Carrier Error Codes Explanations with Telnyx.
 
 C
 
-Written by Customer Success
 
-December 1, 2025
 
 |  |  |  |
 | --- | --- | --- |

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3267566-cyprus-number-porting
+title: "Cyprus Number Porting"
+description: "List of requirements for Cyprus number portability: Ensure your numbers are portable with this info. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 825501aa920f46d2378d4b74fc24632fedc4d0c3f10356e9a8acb5cc0696b4e3
 ---
 
-Cyprus Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Cyprus Number Porting
 
-List of requirements for Cyprus number portability: Ensure your numbers are portable with this info.
+List of requirements for Cyprus number portability: Ensure your numbers are portable with this info. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
-# **Cyprus Number Porting**
+## **Cyprus Number Porting**
 
 **Local Number types**
 
@@ -51,5 +52,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

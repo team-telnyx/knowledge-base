@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5466736-kenya-did-requirements
+title: "Kenya DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Kenya numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 3d52fa0184205e5faed0dd0f25a439a0d327c8a17df12623da4cf9dc8f599866
 ---
 
-Kenya DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Kenya DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Kenya numbers.
+Here you will find a list of detailed requirements for acquiring Kenya numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-December 18, 2024
 
-Table of contents
 
-# DID Number Requirements for Kenya
+## DID Number Requirements for Kenya
 
 In order to purchase a Kenya number you will need to provide the following:
 
@@ -129,5 +130,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

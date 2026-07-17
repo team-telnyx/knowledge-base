@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5754127-xorcom-pbx-sip-trunk
+title: "Xorcom PBX: SIP Trunk"
+description: "Learn to set up Xorcom CompletePBX and configure SIP trunks with Telnyx's Mission Control Panel. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: acc8f6f0fd89af440ccf6eacb79edeb029b7d7a62c7b6a0d9abdf51ce02ae402
 ---
 
-Xorcom PBX: SIP Trunk | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Xorcom PBX: SIP Trunk
 
-Learn to set up Xorcom CompletePBX and configure SIP trunks with Telnyx's Mission Control Panel.
+Learn to set up Xorcom CompletePBX and configure SIP trunks with Telnyx's Mission Control Panel. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-December 14, 2023
 
-Table of contents
 
 [Jump to Instructions](#h_7831da969f)
 
@@ -26,13 +27,13 @@ Xorcom, designs and manufactures integrated business telephony solutions that su
 
 Further documentation:
 
-* CompletePBX 4.6 technical documentation: <https://files.xorcom.com/techdocs/pm0618-completepbx-reference-guide.pdf>   
-  ​  
+* CompletePBX 4.6 technical documentation: <https://files.xorcom.com/techdocs/pm0618-completepbx-reference-guide.pdf>
+  ​
   Note that version 5.x is currently available, however, Xorcom is updating its product documentation and the version 5 docs are not currently available.
 
 ---
 
-# Instructions For Configuring a Xorcom CompletePBX SIP Trunk
+## Instructions For Configuring a Xorcom CompletePBX SIP Trunk
 
 ## In this guide, you will:
 
@@ -48,14 +49,14 @@ Further documentation:
 
 In this step, you'll configure your first [SIP trunk](https://telnyx.com/products/sip-trunks) in CompletePBX so you can get ready to make and receive calls.
 
-1. From the left navigation bar, click on **PBX** > **External** then click on **Trunks** and configure the following settings:  
-   ​  
+1. From the left navigation bar, click on **PBX** > **External** then click on **Trunks** and configure the following settings:
+   ​
    In the **Technology** section, enter the following:
 
    1. **Technology**: *SIP*
    2. **Description**: Enter a description for this trunk.
-   3. **Trunk CID:** If you enter a CallerID Name, it must be in CAPITAL LETTERS, without any special characters (Spaces are allowed) and NOT longer than 15 characters. The Outbound CallerID Name will only work when you call a Canadian number. For the US, you will need to update your record associated with your CallerID Number, in the CNAM database, by requesting an update to our support.  
-      ​  
+   3. **Trunk CID:** If you enter a CallerID Name, it must be in CAPITAL LETTERS, without any special characters (Spaces are allowed) and NOT longer than 15 characters. The Outbound CallerID Name will only work when you call a Canadian number. For the US, you will need to update your record associated with your CallerID Number, in the CNAM database, by requesting an update to our support.
+      ​
       ​**Note:** If you would like to set your outbound Caller ID Name in the **Trunk CID** fields, it will override everything that your extension/Outbound Routes will try to pass. Enter the Trunk CID and set **Overwrite CID:** *Always*.
 
    In the **Device for Outgoing Calls (Peer)** section, enter the following:
@@ -98,8 +99,8 @@ In this step, you will configure an outbound calling route pattern that Complete
 
    * **Description**: A description that will help you identify the route, such as *"TLS Calling Rule".*
    * **Trunks**: Select the Telnyx trunk you just created in step 1.
-   * **CID**: (Caller ID) If this is not set already in your Telnyx trunk, you can enter your company name here.  
-     ​  
+   * **CID**: (Caller ID) If this is not set already in your Telnyx trunk, you can enter your company name here.
+     ​
      If you enter a CallerID Name, it must be in CAPITAL LETTERS, without any special characters (Spaces are allowed) and NOT longer than 15 characters. The Outbound CallerID Name will only work when you call a Canadian number. For the US, you will need to update your record associated with your CallerID Number, in the CNAM database, by requesting an update to our support.
    * **Overwrite CID**: *Always* if you would like to use this CID associated with this Outbound Route. (Your trunk Overrite CID settings must be set to [NEVER] to use it)
 
@@ -152,5 +153,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

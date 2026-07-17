@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130630-porting-policy-procedure
+title: "Porting Policy & Procedure"
+description: "Navigate Telnyx's porting policies and procedures with ease, ensuring a smooth number porting experience. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 1559ee59b372c1825d8b182149f94199bc4207c8a09ea6b4254f7b64cc03f15c
 ---
 
-Porting Policy & Procedure | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Porting Policy & Procedure
 
-Navigate Telnyx's porting policies and procedures with ease, ensuring a smooth number porting experience.
+Navigate Telnyx's porting policies and procedures with ease, ensuring a smooth number porting experience. See Telnyx guidance and requirements.
 
-Written by Patrick Budzinski
 
-January 23, 2026
 
-Table of contents
 
-# How to Port Into Telnyx
+## How to Port Into Telnyx
 
 For moving numbers from another carrier to Telnyx.
 
@@ -44,8 +45,8 @@ Exceptions
 FOC
 
 * We will notify you once your request is approved by the current carrier.
-* Telnyx will activate your numbers on the assigned FOC date. Most US ports allow 24/5 port activations (M-F).   
-  ​  
+* Telnyx will activate your numbers on the assigned FOC date. Most US ports allow 24/5 port activations (M-F).
+  ​
   ​**How do you know what time you can select?** When selecting your activation date / time, our Portal will intuitively determine available options and present those to you. In rare cases, Telnyx must manually activate the numbers and this must occur during business hours.
 
 Status Updates
@@ -86,7 +87,7 @@ We observe the following US Porting holidays:
 * Thanksgiving Day
 * Christmas Day
 
-\*\**To note, we do see other providers offering more porting holidays (ie. Day after Thanksgiving, Christmas Eve, etc.) and ports around major US holidays could be slightly delayed due to that. We will update you throughout your porting process as to those potential delays*  
+\*\**To note, we do see other providers offering more porting holidays (ie. Day after Thanksgiving, Christmas Eve, etc.) and ports around major US holidays could be slightly delayed due to that. We will update you throughout your porting process as to those potential delays*
 ​
 
 ## The Most Common Causes of Porting Exceptions and Delays
@@ -132,5 +133,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

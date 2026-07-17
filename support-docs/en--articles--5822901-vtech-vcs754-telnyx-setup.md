@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5822901-vtech-vcs754-telnyx-setup
+title: "Vtech VCS754: Telnyx Setup"
+description: "Learn how to configure the Vtech VCS754 ErisStation with Telnyx for enhanced conference calling experiences. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 9eb047188ea5390f331eab907b61b2d550bafca3c2e9df40b04f6cc81f092144
 ---
 
-Vtech VCS754: Telnyx Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Vtech VCS754: Telnyx Setup
 
-Learn how to configure the Vtech VCS754 ErisStation with Telnyx for enhanced conference calling experiences.
+Learn how to configure the Vtech VCS754 ErisStation with Telnyx for enhanced conference calling experiences. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_56aed7a079)
 
@@ -36,7 +37,7 @@ Additional documentation:
 
 ---
 
-# Instructions for configuring the Vtech VCS754 ErisStation conference phone
+## Instructions for configuring the Vtech VCS754 ErisStation conference phone
 
 In this activity you will:
 
@@ -99,8 +100,8 @@ In this step, you'll create a [SIP trunk](https://telnyx.com/products/sip-trunks
 6. Find the Audio section and provide the following information:
 
    1. Ringer Tone: Choose the one you prefer
-   2. **Codec Priority** fields: Set your codecs in priority sequence that meets your needs.   
-      ​  
+   2. **Codec Priority** fields: Set your codecs in priority sequence that meets your needs.
+      ​
       Telnyx supports the following codecs:
 
       1. ulaw(g711u)
@@ -152,5 +153,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

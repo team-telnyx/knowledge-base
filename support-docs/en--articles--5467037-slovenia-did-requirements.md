@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5467037-slovenia-did-requirements
+title: "Slovenia DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Slovenia numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: e30b0262d2c59c4ee9283a6f88cf2c76f69801a244368f5f0cb660736c94b4b1
 ---
 
-Slovenia DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Slovenia DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Slovenia numbers.
+Here you will find a list of detailed requirements for acquiring Slovenia numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-September 29, 2025
 
-Table of contents
 
-# DID Number Requirements for Slovenia
+## DID Number Requirements for Slovenia
 
 In order to purchase a Slovenia number you will need to provide the following:
 
@@ -36,7 +37,7 @@ For **business identity** verification:
 
 For **address** verification:
 
-\* Address matching the DID area code (street, building number, postal code, city, and country)  
+\* Address matching the DID area code (street, building number, postal code, city, and country)
 \* Proof of Address (dated within 3 months)
 
 \*Business use required: Business use is required, private use is not allowed.
@@ -104,5 +105,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

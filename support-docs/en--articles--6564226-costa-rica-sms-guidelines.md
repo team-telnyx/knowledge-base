@@ -1,30 +1,31 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6564226-costa-rica-sms-guidelines
+title: "Costa Rica: SMS Guidelines"
+description: "SMS Guidelines for Costa Rica including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Costa Rica: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 58849092e54a546c5f446a2bba897c276365c47634f7ac74d36c190528678f67
 ---
 
-Costa Rica: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Costa Rica: SMS Guidelines
 
-SMS Guidelines for Costa Rica including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Costa Rica including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Costa Rica: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-February 21, 2025
 
-Table of contents
 
-# **SMS Guidelines for Costa Rica**
+## **SMS Guidelines for Costa Rica**
 
-**MCC:** 712  
-​**Dial Code:** 506  
-​  
-All Alphanumeric Sender IDs will be overwritten to either a random Local Long Code or [Short Code](https://telnyx.com/products/sms-short-code) to ensure delivery.  
-​  
+**MCC:** 712
+​**Dial Code:** 506
+​
+All Alphanumeric Sender IDs will be overwritten to either a random Local Long Code or [Short Code](https://telnyx.com/products/sms-short-code) to ensure delivery.
+​
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
@@ -38,5 +39,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

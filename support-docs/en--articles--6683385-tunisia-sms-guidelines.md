@@ -1,34 +1,35 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6683385-tunisia-sms-guidelines
+title: "Tunisia: SMS Guidelines"
+description: "Sending SMS to Tunisia? See Telnyx guidance and requirements Learn more about Tunisia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 20ffc5b247359fa4e3736ecaea7c223a6ca615feb0d388e4daf5be565408c01b
 ---
 
-Tunisia: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Tunisia: SMS Guidelines
 
-Sending SMS to Tunisia? Check out our comprehensive guidelines to ensure compliance in Tunisia.
+Sending SMS to Tunisia? See Telnyx guidance and requirements Learn more about Tunisia: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-March 21, 2024
 
-Table of contents
 
-# **Tunisia: SMS Guidelines**
+## **Tunisia: SMS Guidelines**
 
-**MCC:** 605  
-​**Dial Code:** 216  
-​  
-Alphanumeric Sender ID registration is required. All messages from unregistered Sender IDs will be rejected.  
-​  
-​**Information on Alphanumeric Sender ID registration:**  
-​  
-Please provide the details below along with a copy of your Business Registration to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com):  
-​  
+**MCC:** 605
+​**Dial Code:** 216
+​
+Alphanumeric Sender ID registration is required. All messages from unregistered Sender IDs will be rejected.
+​
+​**Information on Alphanumeric Sender ID registration:**
+​
+Please provide the details below along with a copy of your Business Registration to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com):
+​
 1) SenderID to be registered
 
 2) Message/Content type
@@ -43,16 +44,16 @@ Please provide the details below along with a copy of your Business Registration
 
 7) Expected volumes per month
 
-8) Email linked to your Telnyx account  
-​  
-Companies must have a valid business case for the requested Alphanumeric Sender ID. If the relationship between your company/brand and the requested Alphanumeric Sender ID is not clear, please provide additional supporting documentation detailing your business case.  
-​  
-​**Additional recommendations:**  
-​  
-Consent (Proof for Opt-in) should be obtained before sending any communications, i.e. Marketing SMS   
-​  
-Traffic should include clear Opt-Out options.  
-​  
+8) Email linked to your Telnyx account
+​
+Companies must have a valid business case for the requested Alphanumeric Sender ID. If the relationship between your company/brand and the requested Alphanumeric Sender ID is not clear, please provide additional supporting documentation detailing your business case.
+​
+​**Additional recommendations:**
+​
+Consent (Proof for Opt-in) should be obtained before sending any communications, i.e. Marketing SMS
+​
+Traffic should include clear Opt-Out options.
+​
 The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be directly related to the message content.
 
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
@@ -68,5 +69,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

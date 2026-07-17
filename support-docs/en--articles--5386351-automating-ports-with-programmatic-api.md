@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5386351-automating-ports-with-programmatic-api
+title: "Automating Ports With Programmatic API"
+description: "Revolutionize your porting process using the Documents API. See Telnyx guidance and requirements Learn more about Automating Ports With Programmatic API with."
 scraped: 2026-07-08
 content_hash: d151b6891dd692d9401e4db6cde2648c6efc9ee177226cf34e95a4439e55244c
 ---
 
-Automating Ports With Programmatic API | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Automating Ports With Programmatic API
 
-Revolutionize your porting process using the Documents API. Start automating porting \today.
+Revolutionize your porting process using the Documents API. See Telnyx guidance and requirements Learn more about Automating Ports With Programmatic API with.
 
-Written by Dillin
 
-June 6, 2024
 
-Table of contents
 
 While Telnyx has always supported the purchasing and porting of numbers through the Telnyx Portal, we have recently introduced new tools to assist with automating this process through our API. You can now [programmatically manage document uploads](https://developers.telnyx.com/api/documents/list-document-links) to completely remove the manual intervention required for porting new numbers. This is particularly useful if you have built custom tools that allow your customers to port numbers through our API.
 
 ​
 
-# Programmatic Number Porting
+## Programmatic Number Porting
 
 In order to validate your port-in, Telnyx requires you to provide a [letter of agency/authorization](https://support.telnyx.com/en/articles/2034326-how-to-fill-out-an-loa) and an invoice from your current provider. Through the Documents API, this process no longer requires the manual management of documents from the Portal.
 
@@ -36,10 +37,10 @@ Now, you can simply [update the porting order](https://developers.telnyx.com/api
 
 You may also choose to configure webhooks to manage your notifications regarding your port-ins. For an overview of this process, please see [our Quickstart guide](https://developers.telnyx.com/docs/numbers/porting/quickstart).
 
-​  
+​
 ​
 
-​  
+​
 ​
 
 ---
@@ -51,5 +52,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

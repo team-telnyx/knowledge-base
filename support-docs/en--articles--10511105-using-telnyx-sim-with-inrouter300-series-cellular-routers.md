@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/10511105-using-telnyx-sim-with-inrouter300-series-cellular-routers
+title: "Using Telnyx SIM with InRouter300 Series Cellular Routers"
+description: "Step-by-step guide to configuring InRouter300 Series routers with a Telnyx SIM for reliable IoT and industrial… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 8e5238077b6d93cb0b3bdbbeff6d577fdd8e490e0d53df8bbbf85ef675205d22
 ---
 
-Using Telnyx SIM with InRouter300 Series Cellular Routers | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Using Telnyx SIM with InRouter300 Series Cellular Routers
 
-Step-by-step guide to configuring InRouter300 Series routers with a Telnyx SIM for reliable IoT and industrial connectivity.
+Step-by-step guide to configuring InRouter300 Series routers with a Telnyx SIM for reliable IoT and industrial… See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-February 5, 2025
 
-Table of contents
 
 The **InRouter300 Series (IR300)** from InHand Networks is a reliable and robust industrial 4G LTE router designed for IoT, industrial automation, and remote networking applications. This guide provides step-by-step instructions to configure the **IR300 Series Cellular Router** with a **Telnyx SIM card**, ensuring seamless connectivity.
 
@@ -24,7 +25,7 @@ The **InRouter300 Series (IR300)** from InHand Networks is a reliable and robust
 
 ---
 
-# **1. Prerequisites**
+## **1. Prerequisites**
 
 Before starting the configuration, ensure you have the following:
 
@@ -41,7 +42,7 @@ Before starting the configuration, ensure you have the following:
 
 ---
 
-# **2. Physical Setup**
+## **2. Physical Setup**
 
 1. **Insert the Telnyx SIM card** into the **SIM slot** of the IR300 router.
 2. Connect your computer to the **LAN port** of the router using an Ethernet cable.
@@ -51,7 +52,7 @@ Before starting the configuration, ensure you have the following:
 
 ---
 
-# **3. Configuring the Cellular Network with Telnyx APN**
+## **3. Configuring the Cellular Network with Telnyx APN**
 
 ## **3.1 Navigate to Cellular Settings**
 
@@ -78,7 +79,7 @@ If using a dual SIM setup for redundancy:
 
 ---
 
-# **4. Verifying Connectivity**
+## **4. Verifying Connectivity**
 
 1. Navigate to **Status > Network Connection**.
 2. Check if the router has obtained an **IP address** from the Telnyx network.
@@ -87,7 +88,7 @@ If using a dual SIM setup for redundancy:
 
 ---
 
-# **5. Additional Configuration (Optional)**
+## **5. Additional Configuration (Optional)**
 
 ## **5.1 Setting Up Static IP Address**
 
@@ -115,7 +116,7 @@ To enhance security:
 
 ---
 
-# **6. Backing Up Configuration for Future Use**
+## **6. Backing Up Configuration for Future Use**
 
 Once the router is fully configured, it is recommended to create a backup:
 
@@ -131,7 +132,7 @@ To restore settings on another router:
 
 ---
 
-# **7. Troubleshooting Common Issues**
+## **7. Troubleshooting Common Issues**
 
 ### **7.1 No Internet Connectivity**
 
@@ -169,5 +170,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

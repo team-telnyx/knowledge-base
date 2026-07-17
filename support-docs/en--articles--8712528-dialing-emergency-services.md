@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8712528-dialing-emergency-services
+title: "Dialing Emergency Services"
+description: "How to dial emergency services to the different countries we support. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 34b213758a47cdb2c0ff5ce6b51280f603140558a17e8fdbc92c5417c9bf2560
 ---
 
-Dialing Emergency Services | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Dialing Emergency Services
 
-How to dial emergency services to the different countries we support. Start building on Telnyx today.
+How to dial emergency services to the different countries we support. See Telnyx guidance and requirements.
 
-Written by David
 
-June 26, 2024
 
-Table of contents
 
-# Telnyx PSTN Replacement: Global Emergency Services Support
+## Telnyx PSTN Replacement: Global Emergency Services Support
 
 Telnyx offers PSTN replacement for several countries, this includes being able to dial to emergency services in each of those countries.
 
@@ -64,8 +65,8 @@ You can still use a tech prefix to dial so long as you're not including anything
 
 ## Make sure you register an Address on the number you'll be using as caller id to dial Emergency Services from.
 
-**It's important to note that in some countries, calling emergency services from a number without a registered Emergency Service Address can result in being fined.**   
-​  
+**It's important to note that in some countries, calling emergency services from a number without a registered Emergency Service Address can result in being fined.**
+​
 ​**The fine in the US, for example is $100 per call.**
 
 So make sure you've registered an address for use in Emergency Services on all numbers you're going to use to use to dial Emergency Services from.
@@ -81,5 +82,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

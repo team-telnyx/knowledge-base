@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/11128583-uzbekistan-did-requirements
+title: "Uzbekistan DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Uzbekistan numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 00f5db51f63a19c98c95be2f0e02b6082fb0717770315178fd7c289b23e00d86
 ---
 
-Uzbekistan DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Uzbekistan DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Uzbekistan numbers.
+Here you will find a list of detailed requirements for acquiring Uzbekistan numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-January 22, 2026
 
-Table of contents
 
-# **DID Number Requirements for Uzbekistan**
+## **DID Number Requirements for Uzbekistan**
 
 In order to purchase a Uzbekistan number you will need to provide the following:
 
@@ -57,5 +58,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

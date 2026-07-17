@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8219294-messaging-in-mission-control
+title: "Messaging in Mission Control"
+description: "Set up your Telnyx Mission Control for messaging. See Telnyx guidance and requirements Learn more about Messaging in Mission Control with Telnyx."
 scraped: 2026-07-08
 content_hash: d7f01efae0adcec53ed25a030b52a1fc875e0efebf81366bf3d73c5e4f437c0d
 ---
 
-Messaging in Mission Control | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Messaging in Mission Control
 
-Set up your Telnyx Mission Control for messaging. Step-by-step guide inside!
+Set up your Telnyx Mission Control for messaging. See Telnyx guidance and requirements Learn more about Messaging in Mission Control with Telnyx.
 
-Written by David
 
-January 2, 2025
 
-Table of contents
 
 This article lists the requirements needed to set up your Telnyx Mission Control Portal account so that it's ready to be configured with your messaging system.
 
-# Telnyx Mission Control for Messaging
+## Telnyx Mission Control for Messaging
 
 We recommend first reading on our [**Acceptable Use Policy for Messaging.**](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging)
 
@@ -30,19 +31,19 @@ Let's get you set up!, you will need:
 
 ## **1. [Level 1 Verification](https://portal.telnyx.com/#/app/account/verifications)**
 
-In order to assign a connection/messaging profile on a DID or a connection on an outbound voice profile, you'll need to be Level 1 verified. More information on account verification can be found [here](https://support.telnyx.com/en/articles/1130595-account-verification).  
+In order to assign a connection/messaging profile on a DID or a connection on an outbound voice profile, you'll need to be Level 1 verified. More information on account verification can be found [here](https://support.telnyx.com/en/articles/1130595-account-verification).
 ​
 
 ## **2. [Payments](https://portal.telnyx.com/#/app/billing/payment)**
 
-You will need to add a payment method to your account in order to top up your balance. This will be necessary to purchase numbers, send messages, make/receive calls etc.   
+You will need to add a payment method to your account in order to top up your balance. This will be necessary to purchase numbers, send messages, make/receive calls etc.
 ​
 
 Further details on how to add a payment method can be found in our Billing [support article.](https://support.telnyx.com/en/articles/4280500-billing-setup-billing-groups)
 
 ## **3. Messaging Profile Setup**
 
-A messaging profile is a record that contains all the basic settings for your messages. Telnyx's messaging features are completely programmatic, as such you will need a webhook URL in order to receive inbound messages and track outbound messages. You can find how to create a messaging profile [here](https://support.telnyx.com/en/articles/3562059-setting-up-a-messaging-profile).  
+A messaging profile is a record that contains all the basic settings for your messages. Telnyx's messaging features are completely programmatic, as such you will need a webhook URL in order to receive inbound messages and track outbound messages. You can find how to create a messaging profile [here](https://support.telnyx.com/en/articles/3562059-setting-up-a-messaging-profile).
 ​
 
 ## **4. [DIDs](https://portal.telnyx.com/#/app/numbers/my-numbers)**
@@ -101,5 +102,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

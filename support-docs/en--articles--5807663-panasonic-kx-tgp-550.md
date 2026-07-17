@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5807663-panasonic-kx-tgp-550
+title: "Panasonic KX-TGP 550"
+description: "Learn how to set up the Panasonic KX-TGP 550 phone and configure it to work with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 64e6002569e983a88bc9d4962a6947b33f45a87353e3c06e0fbee67009e06a4d
 ---
 
-Panasonic KX-TGP 550 | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Panasonic KX-TGP 550
 
-Learn how to set up the Panasonic KX-TGP 550 phone and configure it to work with Telnyx.
+Learn how to set up the Panasonic KX-TGP 550 phone and configure it to work with Telnyx. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_b6d39ff61f)
 
@@ -36,7 +37,7 @@ Additional documentation:
 
 ---
 
-# Instructions for setting up and configuring the KX-TGP 500 phone
+## Instructions for setting up and configuring the KX-TGP 500 phone
 
 In this activity you will:
 
@@ -144,5 +145,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/2239446-azure-virtual-cross-connect
+title: "Azure: Virtual Cross Connect"
+description: "This document will provide instructions and guidelines for integrating an Azure VPC environment with the Telnyx network… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 372d70edce629f978700499923aa4c376c77bb78589b4121fd1ce1a5acc03c35
 ---
 
-Azure: Virtual Cross Connect | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Azure: Virtual Cross Connect
 
-This document will provide instructions and guidelines for integrating an Azure VPC environment with the Telnyx network backbone.
+This document will provide instructions and guidelines for integrating an Azure VPC environment with the Telnyx network… See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_c4436070ec)
 
@@ -30,7 +31,7 @@ Additional documentation:
 
 ---
 
-# Instructions for integrating Azure VPC with Telnyx
+## Instructions for integrating Azure VPC with Telnyx
 
 In this activity you will:
 
@@ -117,8 +118,8 @@ Coming soon! Check back frequently as we are updating our documentation.
 
 ## 3. Turning up Routing and NAT configuration
 
-1. Arrange a Maintenance activity and co-ordinate with TELNYX Network engineering to turn on the Routing. Please [contact our Support Team](https://telnyx.com/contact-us) to assist with this.   
-   ​  
+1. Arrange a Maintenance activity and co-ordinate with TELNYX Network engineering to turn on the Routing. Please [contact our Support Team](https://telnyx.com/contact-us) to assist with this.
+   ​
    ​***Note:*** *This activity has to be co-ordinate with the Network team to complete Back-end configuration during the Maintenance window.*
 2. Once you enable the circuit using the Routing Status slider, you should see a routing table in Express Route similar to the following:
 
@@ -151,5 +152,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

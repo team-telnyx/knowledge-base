@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5188555-luxembourg-number-porting
+title: "Luxembourg Number Porting"
+description: "Here you will find a detailed list of requirements for Luxembourg number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ac2ddf880b45ae74934e26c06e2d35e10cee41fec96bd1bff11f54c147935b87
 ---
 
-Luxembourg Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Luxembourg Number Porting
 
-Here you will find a detailed list of requirements for Luxembourg number portability.
+Here you will find a detailed list of requirements for Luxembourg number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
-# **For Local, National and Toll-free number Types in Luxembourg**
+## **For Local, National and Toll-free number Types in Luxembourg**
 
 1. LoA
 
@@ -41,5 +42,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

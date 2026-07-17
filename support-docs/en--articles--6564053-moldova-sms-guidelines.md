@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6564053-moldova-sms-guidelines
+title: "Moldova: SMS Guidelines"
+description: "SMS Guidelines for Moldova including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Moldova: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: c348cd6a4fc899ebfb900da786373419b4b24908bb2a8f65954e9e3037233266
 ---
 
-Moldova: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Moldova: SMS Guidelines
 
-SMS Guidelines for Moldova including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Moldova including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Moldova: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **SMS Guidelines for Moldova**
+## **SMS Guidelines for Moldova**
 
-**MCC:** 259  
-​**Dial Code:** 373  
-​  
+**MCC:** 259
+​**Dial Code:** 373
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

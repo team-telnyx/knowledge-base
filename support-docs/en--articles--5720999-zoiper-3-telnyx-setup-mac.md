@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5720999-zoiper-3-telnyx-setup-mac
+title: "Zoiper 3: Telnyx Setup (Mac)"
+description: "How to configure Zoiper 3 to work with the Telnyx Mission Control portal for a Mac OS operating system. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 82e79d59dcfaab1b1ace15fa50d6616a577b969ff3cc82dd646fe59e17406090
 ---
 
-Zoiper 3: Telnyx Setup (Mac) | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Zoiper 3: Telnyx Setup (Mac)
 
-How to configure Zoiper 3 to work with the Telnyx Mission Control portal for a Mac OS operating system.
+How to configure Zoiper 3 to work with the Telnyx Mission Control portal for a Mac OS operating system. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_9404c63fcf)
 
@@ -30,7 +31,7 @@ For Zoiper documentation, see:
 
 ---
 
-# Instructions for Configuring Zoiper 3 with Telnyx
+## Instructions for Configuring Zoiper 3 with Telnyx
 
 1. [Create your VoIP account on Zoiper 3](#h_c3a95f8595)
 2. [Troubleshooting](#h_3548b277a8)
@@ -111,5 +112,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8370064-update-webhook-sign-key-guide
+title: "Update Webhook Sign Key Guide"
+description: "This article explains how to rotate the public key that signs webhook events sent by Telnyx in API V2. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: c10c09f4ceaa3e18d312b2a4df5070a8f7d9d662938838bd4e099c81bfaf8450
 ---
 
-Update Webhook Sign Key Guide | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Update Webhook Sign Key Guide
 
-This article explains how to rotate the public key that signs webhook events sent by Telnyx in API V2.
+This article explains how to rotate the public key that signs webhook events sent by Telnyx in API V2. See Telnyx guidance and requirements.
 
-Written by David
 
-October 3, 2023
 
-Table of contents
 
-# How to update the Public Key used to sign webhook events
+## How to update the Public Key used to sign webhook events
 
 Telnyx signs the webhook events it sends to clients so that the authenticity of the request can be verified. Webhook signing in API V2 uses public key encryption.
 
@@ -46,12 +47,12 @@ curl -X POST https://api.telnyx.com/v2/inactive_key -H "Authorization: Bearer $A
 If the request succeeds, you will receive a response similar to this:
 
 ```
-{  
-    "data": {  
-        "id": "a896de0d-b250-450d-8ac4-ca901dcc73d6",  
-        "public": "iGtB96aTJO4SmJPzRPqW20Zc10AWCiN8OQLE5Tg330U=",  
-        "record_type": "public_key"  
-    }  
+{
+    "data": {
+        "id": "a896de0d-b250-450d-8ac4-ca901dcc73d6",
+        "public": "iGtB96aTJO4SmJPzRPqW20Zc10AWCiN8OQLE5Tg330U=",
+        "record_type": "public_key"
+    }
 }
 ```
 
@@ -62,7 +63,7 @@ Take note of the `"id"` field since it will be required in order to activate thi
 Once you are ready to rotate the existing public key, you will activate the key you created in the previous step. To achieve this, run the following curl command in a terminal or import it into Postman:
 
 ```
-curl -X POST https://api.telnyx.com/v2/inactive_key/a896de0d-b250-450d-  
+curl -X POST https://api.telnyx.com/v2/inactive_key/a896de0d-b250-450d-
 8ac4-ca901dcc73d6/activate -H "Authorization: Bearer $API_KEY"
 ```
 
@@ -77,10 +78,10 @@ https://api.telnyx.com/v2/inactive_key/{id}/activate
 If the activation is successful, you will receive a response similar to this:
 
 ```
-{  
-    "data": {  
-        "result": "success"  
-    }  
+{
+    "data": {
+        "result": "success"
+    }
 }
 ```
 
@@ -104,5 +105,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

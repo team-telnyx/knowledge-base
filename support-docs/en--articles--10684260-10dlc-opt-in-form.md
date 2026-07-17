@@ -1,31 +1,33 @@
 ---
 source_url: https://support.telnyx.com/en/articles/10684260-10dlc-opt-in-form
+title: "10DLC Opt in Form"
+description: "If you are utilizing a digital form for your 10dlc opt in then it should look similar to this, See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: c3423c9ca771736e2ff9f524a253e40cb201e2a698f5b72d3b90a54ed4c74cf6
 ---
 
-10DLC Opt in Form | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # 10DLC Opt in Form
 
-K
+If you are utilizing a digital form for your 10dlc opt in then it should look similar to this, See Telnyx guidance and requirements.
 
-Written by Klane Pedrie
 
-September 16, 2025
 
 If you are utilizing a digital form for your 10dlc opt in then it should look similar to this, although there are infinite ways to do it:
 
 ![](_images/064b741afa8cc908.png)
 
-​  
+​
 1) Notice it has all the required disclaimers:
 
 *By providing your phone number, you agree to receive SMS [Use Case(s)] from [Brand Name]. Message frequency may vary. Standard Message and Data Rates may apply. Reply STOP to opt out. Reply HELP for help. We will not share mobile information with third parties for promotional or marketing purposes.*
 
-2) Sms consent checkbox is specific, explicit, and optional:  
+2) Sms consent checkbox is specific, explicit, and optional:
 It is not buried in terms and conditions or combined with other consents like "I agree to the terms and conditions" and it is not a mandatory field.
 
 3) The subscriber knows what to expect.

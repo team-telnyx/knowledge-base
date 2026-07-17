@@ -1,43 +1,44 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3506145-cyprus-did-requirements
+title: "Cyprus DID Requirements"
+description: "Here you will find a detailed list of requirements to acquire Cyprus numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 95b7409ee5cdf2bc4e3857848a0c2af9011e72b0263cede9c586c0131cb20f6c
 ---
 
-Cyprus DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Cyprus DID Requirements
 
-Here you will find a detailed list of requirements to acquire Cyprus numbers.
+Here you will find a detailed list of requirements to acquire Cyprus numbers. See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-February 19, 2025
 
-Table of contents
 
-# DID Number Requirements for Cyprus
+## DID Number Requirements for Cyprus
 
 In order to purchase a Cyprus number you will need to provide the following:
 
 ## **Local Numbers in Cyprus**
 
-For **personal identity** verification:  
-\* Name, last name  
-\* Contact phone number  
-\* Passport or ID copy  
-​  
-For **business identity** verification:  
+For **personal identity** verification:
+\* Name, last name
+\* Contact phone number
+\* Passport or ID copy
+​
+For **business identity** verification:
 \* Name, last name of an authorized representative
 
-\* Company name  
-\* Contact phone number  
-\* Cyprian company registration certificate  
-​  
-For **address** verification:  
-\* Address Worldwide (street, building number, postal code, city, and country)  
+\* Company name
+\* Contact phone number
+\* Cyprian company registration certificate
+​
+For **address** verification:
+\* Address Worldwide (street, building number, postal code, city, and country)
 \* Proof of Address (dated within 3 months)
 
 ## **National Numbers in Cyprus**
@@ -68,20 +69,20 @@ For address verification:
 
 ## **Toll-Free Numbers in Cyprus**
 
-For **personal identity** verification:  
-\* Name, last name  
-\* Contact phone number  
-\* Passport or ID copy  
-​  
-For **business identity** verification:  
+For **personal identity** verification:
+\* Name, last name
+\* Contact phone number
+\* Passport or ID copy
+​
+For **business identity** verification:
 \* Name, last name of an authorized representative
 
-\* Company name  
-\* Contact phone number  
-\* Passport or ID copy of an authorized representative  
-​  
-For **address** verification:  
-\* Address Worldwide (street, building number, postal code, city, and country)  
+\* Company name
+\* Contact phone number
+\* Passport or ID copy of an authorized representative
+​
+For **address** verification:
+\* Address Worldwide (street, building number, postal code, city, and country)
 \* Proof of Address (dated within 3 months)
 
 \*Please note that once the documentation is received it will take approximately 72 hours to validate the information and activate the number for use.
@@ -127,5 +128,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

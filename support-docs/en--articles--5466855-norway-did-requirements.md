@@ -1,33 +1,34 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5466855-norway-did-requirements
+title: "Norway DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Norway numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: b0ba9ca024f30aa3762ad69faff9fde6ac5f0c0060277754170295ce442eebd4
 ---
 
-Norway DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Norway DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Norway numbers.
+Here you will find a list of detailed requirements for acquiring Norway numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-May 26, 2026
 
-Table of contents
 
-# DID Number Requirements for Norway
+## DID Number Requirements for Norway
 
 In order to purchase a Norway number you will need to provide the following:
 
 ## Mandatory Use of Requirement Groups: Norway
 
-Starting **September 16, 2024**, **Requirement Groups** will be mandatory for ordering phone numbers in **Norway (NO).**  
+Starting **September 16, 2024**, **Requirement Groups** will be mandatory for ordering phone numbers in **Norway (NO).**
 ​
 
-Requirement Groups let you manage regulatory requirements by pre-filling necessary information once, allowing for reuse across multiple orders. This change aims to streamline compliance.  
+Requirement Groups let you manage regulatory requirements by pre-filling necessary information once, allowing for reuse across multiple orders. This change aims to streamline compliance.
 ​
 
 For full details on setting up Requirement Groups, please refer to the [guide here](https://support.telnyx.com/en/articles/9801714-requirement-groups-for-ordering-phone-numbers).
@@ -86,16 +87,16 @@ For **business identity** verification:
 
 For **address** verification:
 
-\* Address in Norway (street, building number, postal code, city, and country)  
-\* Proof of address (dated within 3 months)  
-​  
-Additional details:   
+\* Address in Norway (street, building number, postal code, city, and country)
+\* Proof of address (dated within 3 months)
+​
+Additional details:
 \* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **Identity Verification: What "Local" Means**
 
-For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.  
-​  
+For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.
+​
 All identification is subject to review, and we reserve the right to request additional documentation or decline any document we cannot verify or that does not meet applicable legal and regulatory requirements.
 
 ## **Helpful for acquiring Norway DIDs**
@@ -139,5 +140,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

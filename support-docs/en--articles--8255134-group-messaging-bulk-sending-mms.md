@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8255134-group-messaging-bulk-sending-mms
+title: "Group Messaging - Bulk Sending MMS"
+description: "Learn how to utilize Telnyx's API v2 to bulk send MMS to up to 8 recipients. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a9cec5f8e703d7d9dad89cd91cb4abc482072c24d77e5127c981286657c0708f
 ---
 
-Group Messaging - Bulk Sending MMS | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Group Messaging - Bulk Sending MMS
 
-Learn how to utilize Telnyx's API v2 to bulk send MMS to up to 8 recipients.
+Learn how to utilize Telnyx's API v2 to bulk send MMS to up to 8 recipients. See Telnyx guidance and requirements.
 
-Written by Bryan McHugh
 
-December 13, 2025
 
-Table of contents
 
-# **Group messaging with the Telnyx API v2**
+## **Group messaging with the Telnyx API v2**
 
 Group Messaging is a new feature designed specifically for businesses across +1 numbers within US / CAN that are seeking a streamlined, efficient and secure two-way conversations. Group Messaging builds upon the MMS (Multimedia Messaging Service) protocol in order to facilitate multi-party conversations.
 
@@ -32,15 +33,15 @@ Please find our developer documentation below, which can help you with your setu
 Here is an example curl request to send a group MMS message:
 
 ```
-curl -i -X POST \   
-https://api.telnyx.com/v2/messages/group_mms \   
--H 'Authorization: Bearer <YOUR_TOKEN_HERE>' \   
--H 'Content-Type: application/json' \   
--d '{  
-"from": "+13125790427",   
-"to": ["+18655551234", "+13125551234"],   
-"text": "Greetings from Telnyx!",   
-"media_urls": ["http://placekitten.com/320/240"]  
+curl -i -X POST \
+https://api.telnyx.com/v2/messages/group_mms \
+-H 'Authorization: Bearer <YOUR_TOKEN_HERE>' \
+-H 'Content-Type: application/json' \
+-d '{
+"from": "+13125790427",
+"to": ["+18655551234", "+13125551234"],
+"text": "Greetings from Telnyx!",
+"media_urls": ["http://placekitten.com/320/240"]
 }'
 ```
 
@@ -70,5 +71,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

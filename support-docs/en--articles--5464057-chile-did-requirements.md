@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5464057-chile-did-requirements
+title: "Chile DID Requirements"
+description: "Here you will find a detailed list of requirements to acquire numbers in Chile. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: e8415bba9476ad586d0647da7a84f80b40d583fd0734d1591c73244daaa1eca3
 ---
 
-Chile DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Chile DID Requirements
 
-Here you will find a detailed list of requirements to acquire numbers in Chile.
+Here you will find a detailed list of requirements to acquire numbers in Chile. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-October 14, 2025
 
-Table of contents
 
-# DID Number Requirements for Chile
+## DID Number Requirements for Chile
 
 In order to purchase a Chile number you will need to provide the following:
 
@@ -131,5 +132,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

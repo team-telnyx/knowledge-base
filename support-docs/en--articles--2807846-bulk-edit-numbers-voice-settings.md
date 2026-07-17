@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/2807846-bulk-edit-numbers-voice-settings
+title: "Bulk Edit Numbers - Voice Settings"
+description: "Master bulk number editing with Telnyx Mission Control - Save time and edit in bulk. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 3d3cc2355bd987edfb605b6b9f547d1b06d6d0dbf024ca7bff095677590fdf94
 ---
 
-Bulk Edit Numbers - Voice Settings | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Bulk Edit Numbers - Voice Settings
 
-Master bulk number editing with Telnyx Mission Control - Save time and edit in bulk.
+Master bulk number editing with Telnyx Mission Control - Save time and edit in bulk. See Telnyx guidance and requirements.
 
-Written by Shubam
 
-December 26, 2024
 
-Table of contents
 
-# **A step-by-step guide to bulk edit Voice Settings of Selected Numbers**
+## **A step-by-step guide to bulk edit Voice Settings of Selected Numbers**
 
 ## **Step 1**
 
@@ -72,7 +73,7 @@ In the Routing/Billing section, there are 3 selections:
 
 ### **SIP Connections / Applications**
 
-This area provides a drop-down showcasing all your created [SIP Trunk Connections](https://portal.telnyx.com/#/app/connections). You should be able to select your connection and your selection will be applied to all the selected numbers once saved. You can also bulk-remove any SIP connection from selected numbers by selecting No Connection in the drop-down and saving the settings.  
+This area provides a drop-down showcasing all your created [SIP Trunk Connections](https://portal.telnyx.com/#/app/connections). You should be able to select your connection and your selection will be applied to all the selected numbers once saved. You can also bulk-remove any SIP connection from selected numbers by selecting No Connection in the drop-down and saving the settings.
 ​
 
 ![](_images/9d6f722c842b479b.png)
@@ -150,5 +151,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6670750-falkland-islands-sms-guidelines
+title: "Falkland Islands: SMS Guidelines"
+description: "Sending SMS to Falkland? See Telnyx guidance and requirements Learn more about Falkland Islands: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 2194114ab7f979cb77693e5d6330c5e5a1509ba0548e42259cc6bae8aafda34e
 ---
 
-Falkland Islands: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Falkland Islands: SMS Guidelines
 
-Sending SMS to Falkland? Check out our comprehensive guidelines to ensure compliance in Falkland.
+Sending SMS to Falkland? See Telnyx guidance and requirements Learn more about Falkland Islands: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Falkland Islands: SMS Guidelines**
+## **Falkland Islands: SMS Guidelines**
 
-**MCC:** 750  
-​**Dial Code:** 500  
-​  
+**MCC:** 750
+​**Dial Code:** 500
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

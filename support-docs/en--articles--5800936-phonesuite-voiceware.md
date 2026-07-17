@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5800936-phonesuite-voiceware
+title: "PhoneSuite Voiceware"
+description: "Learn how to configure a SIP trunk in PhoneSuite's Voiceware suite and connect it to Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 94099a5178432a48ef6a8d2bc6d1de52023a4b064e1edacaef86e7edac7b445b
 ---
 
-PhoneSuite Voiceware | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # PhoneSuite Voiceware
 
-Learn how to configure a SIP trunk in PhoneSuite's Voiceware suite and connect it to Telnyx.
+Learn how to configure a SIP trunk in PhoneSuite's Voiceware suite and connect it to Telnyx. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_5b8010f066)
 
@@ -32,7 +33,7 @@ Voiceware, which we will demonstrate in this document, is PhoneSuite's software 
 
 ---
 
-# Instructions for configuring PhoneSuite Voiceware to work with Telnyx
+## Instructions for configuring PhoneSuite Voiceware to work with Telnyx
 
 In this activity you will:
 
@@ -53,8 +54,8 @@ The PhoneSuite SIP trunking stress test: Is SIP the right solution for your hote
 
 1. Open your PhoneSuite PBX Voiceware portal and click on the **Advanced** tab and ensure that:
 
-   1. **DTMF Mode:** *Auto*  
-      ​  
+   1. **DTMF Mode:** *Auto*
+      ​
       If it is not, you can set this in your Telnyx Mission Control Portal.
 
    ![PhoneSuite PBX Voiceware portal](_images/5c2a14d93577a0db.png)
@@ -107,5 +108,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

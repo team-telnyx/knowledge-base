@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/13117410-how-external-call-transfers-work
+title: "How External Call Transfers Work"
+description: "The External Call Transfer scenario happens when your SIP endpoint receives an inbound call from PSTN through Telnyx… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 6dc654df5999436515f4571851fc8b2583ca4b201de704bce430f6203d4ee4a5
 ---
 
-How External Call Transfers Work | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How External Call Transfers Work
 
-Written by Telnyx Engineering
 
-April 10, 2026
 
-Table of contents
 
-The External Call Transfer scenario happens when your SIP endpoint receives an inbound call from PSTN through Telnyx and then transfers that call to an outside number, keeping the original PSTN number as the originator.
+The External Call Transfer scenario happens when your SIP endpoint receives an inbound call from PSTN through Telnyx… See Telnyx guidance and requirements.
 
 From a Telnyx perspective, these are two different calls, and the transferred call by itself is considered an outbound call from a non-Telnyx number.
 
@@ -24,13 +25,13 @@ Telnyx has implemented a mechanism to handle External Call Transfer scenarios so
 
 This guide explains how Telnyx validates these transfers to keep your calls secure and properly authenticated.
 
-# Overview
+## Overview
 
 If you receive calls via your SIP endpoint through a Telnyx SIP trunk and need to transfer a caller to an external destination, your endpoint will initiate a **new outbound call** to that number. Telnyx then verifies that this outbound call is tied to the original inbound call.
 
 ---
 
-# How the Flow Works
+## How the Flow Works
 
 How the Flow Works
 
@@ -42,7 +43,7 @@ How the Flow Works
 
 ---
 
-# What Telnyx Checks
+## What Telnyx Checks
 
 To allow the External Call Transfer, Telnyx performs two validations when it receives an outbound call attempt:
 
@@ -53,26 +54,26 @@ To allow the External Call Transfer, Telnyx performs two validations when it rec
 
    1. The new outbound call from A to C must include a SIP Diversion header showing B.
 
-Example of an accepted call flow.   
+Example of an accepted call flow.
 ​
 
 ![](_images/9b78c5084afba321.png)
 
 ---
 
-# When the Transfer Is Rejected
+## When the Transfer Is Rejected
 
-If the Diversion header is missing or incorrect, or Telnyx cannot match the outbound call to an active inbound call, Telnyx will reject the request by default with `403 Unverified origination number D51`.  
+If the Diversion header is missing or incorrect, or Telnyx cannot match the outbound call to an active inbound call, Telnyx will reject the request by default with `403 Unverified origination number D51`.
 This prevents unauthorized or spoofed calls from being placed using your number.
 
-Example of a rejected flow.  
+Example of a rejected flow.
 ​
 
 ![](_images/92156b0216b630f9.png)
 
 ---
 
-# Programmable Voice
+## Programmable Voice
 
 It is possible to transfer an inbound call to the Telnyx network to an external PSTN number using Programmable Voice while preserving the non-Telnyx origination number, and there are different mechanisms to do this:
 
@@ -102,5 +103,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4194697-oracle-acme-packet-sbc-setup
+title: "Oracle: Acme Packet SBC Setup"
+description: "Master Oracle's Acme Packet SBC configuration with Telnyx - Dive In Now! See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 0422e5bf45abeed5643ca0700571e1703339ea4558f8033cb8dcde1441d6db65
 ---
 
-Oracle: Acme Packet SBC Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Oracle: Acme Packet SBC Setup
 
-Master Oracle's Acme Packet SBC configuration with Telnyx - Dive In Now!
+Master Oracle's Acme Packet SBC configuration with Telnyx - Dive In Now! See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_32f70a98cb)
 
@@ -30,7 +31,7 @@ Additional resources:
 
 ---
 
-# Instructions for Configuring an Edge SBC with Telnyx
+## Instructions for Configuring an Edge SBC with Telnyx
 
 In this activity you will:
 
@@ -59,7 +60,7 @@ Setting up your Telnyx SIP portal account so you can make and receive calls:
 
 ## **1. Configure your SIP trunk**
 
-In this section, you'll configure your [SIP trunk](https://telnyx.com/products/sip-trunks) interface. A parameter reference is available below the code snippets. To view all sip-interface parameters, enter a **?** at the system prompt.  
+In this section, you'll configure your [SIP trunk](https://telnyx.com/products/sip-trunks) interface. A parameter reference is available below the code snippets. To view all sip-interface parameters, enter a **?** at the system prompt.
 ​
 
 ### **Configure Terminal Steps:**
@@ -77,25 +78,25 @@ In this section, you'll configure your [SIP trunk](https://telnyx.com/products/s
 3. Type *sip-interface* and press "**Enter"**. The system prompt changes to let you know that you can begin configuring individual parameters.
 
    ```
-   ORACLE(session-router)# sip-interface  
+   ORACLE(session-router)# sip-interface
    ORACLE(sip-interface)#
    ```
 4. Use the following configuration parameters as a guide:
 
    ```
-   sip-interface   
-   state                enabled   
-   realm-id             OUTSIDE   
-   description   
-   sip-port   
-   address              X.X.X.X   
-   port                 5060   
-   transport-protocol   UDP   
-   tls-profile   
-   allow-anonymous      agents-only   
-   ims-aka-profile   
-   carriers   
-   trans-expire         0   
+   sip-interface
+   state                enabled
+   realm-id             OUTSIDE
+   description
+   sip-port
+   address              X.X.X.X
+   port                 5060
+   transport-protocol   UDP
+   tls-profile
+   allow-anonymous      agents-only
+   ims-aka-profile
+   carriers
+   trans-expire         0
    ...
    ```
 
@@ -194,39 +195,39 @@ In this section, you'll configure your [SIP trunk](https://telnyx.com/products/s
 3. Type *sip-interface* and press "**Enter"**. The system prompt changes to let you know that you can begin configuring individual parameters.
 
    ```
-   ORACLE(session-router)# session-agent  
+   ORACLE(session-router)# session-agent
    ORACLE(sip-interface)#
    ```
 4. Use the following configuration parameters as a guide:
 
    ```
-   session-agent   
-   hostname              sip.telnyx.com   
-   ip-address               
-   port                  5060   
-   state enabled   
-   app-protocol          SIP   
-   app-type   
-   transport-method      UDP   
-   realm-id              OUTSIDE   
-   egress-realm-id   
-   description           Telnyx   
-   carriers   
-   allow-next-hop-lp     enabled   
-   constraints           disabled   
+   session-agent
+   hostname              sip.telnyx.com
+   ip-address
+   port                  5060
+   state enabled
+   app-protocol          SIP
+   app-type
+   transport-method      UDP
+   realm-id              OUTSIDE
+   egress-realm-id
+   description           Telnyx
+   carriers
+   allow-next-hop-lp     enabled
+   constraints           disabled
    ...
    ```
 
    * #### **hostname**:
 
-     Enter the name of the host associated with the session agent in either hostname or FQDN format, or as an IP address.  
-     ​  
-     If you enter the host name as an IP address, you do not have to enter an IP address in the optional IP address parameter. If you enter the host name in FQDN format, and you want to specify an IP address, enter it in the optional IP address parameter. Otherwise you can leave the IP address parameter blank to allow a DNS query to resolve the host name.  
-     ​  
-     If the initial DNS query for the session agent fails to get back any addresses, the session agent is put out-of-service. When session agent is pinged, the DNS query is repeated. The ping message is not sent until the DNS query gets back one or more IP addresses. After the query receives some addresses, the ping message is sent. The session agent remains out of service until one of the addresses responds.  
-     ​  
-     ​***Note:*** *The value you enter here must be unique to this session agent. No two session agents can have the same hostname.*  
-     ​  
+     Enter the name of the host associated with the session agent in either hostname or FQDN format, or as an IP address.
+     ​
+     If you enter the host name as an IP address, you do not have to enter an IP address in the optional IP address parameter. If you enter the host name in FQDN format, and you want to specify an IP address, enter it in the optional IP address parameter. Otherwise you can leave the IP address parameter blank to allow a DNS query to resolve the host name.
+     ​
+     If the initial DNS query for the session agent fails to get back any addresses, the session agent is put out-of-service. When session agent is pinged, the DNS query is repeated. The ping message is not sent until the DNS query gets back one or more IP addresses. After the query receives some addresses, the ping message is sent. The session agent remains out of service until one of the addresses responds.
+     ​
+     ​***Note:*** *The value you enter here must be unique to this session agent. No two session agents can have the same hostname.*
+     ​
      The hostnames established in the session agent populate the corresponding fields in other elements.
    * #### **ip-address**:
 
@@ -335,16 +336,16 @@ ORACLE(configure)# session-router
 2. Now type *session-translation* and press "**Enter"**.
 
 ```
-ORACLE(session-router)# session-translation  
+ORACLE(session-router)# session-translation
 ORACLE(session-translation)#
 ```
 
 3. Use the following configuration parameters as a guide. To view all session translation parameters, enter a **?** at the system prompt.
 
 ```
-session-translation   
-id                    includeCallingPlus   
-rules-calling         includePlus  
+session-translation
+id                    includeCallingPlus
+rules-calling         includePlus
 rules-called
 ```
 
@@ -355,19 +356,19 @@ rules-called
 4. In superuser mode, from *session-router,* type *translation-rules* and press "**Enter"**.
 
 ```
-ORACLE(session-router)# translation-rules  
+ORACLE(session-router)# translation-rules
 ORACLE(session-translation)#
 ```
 
 5. Use the following configuration parameters as a guide. To view all session translation parameters, enter a "**?"** at the system prompt. Then define the rule to append "**+1"** to the calling number:
 
 ```
-translation-rules   
-id                    includePlus   
-type                  add   
-add-string            +1   
-add-index             0   
-delete-string   
+translation-rules
+id                    includePlus
+type                  add
+add-string            +1
+add-index             0
+delete-string
 delete-index          0
 ```
 
@@ -396,11 +397,11 @@ delete-index          0
 6. Then apply the translation rule to take effect on the outside realm:
 
 ```
-realm-config   
-identifier            OUTSIDE   
-...   
-in-translationid   
-out-translationid     includeCallingPlus   
+realm-config
+identifier            OUTSIDE
+...
+in-translationid
+out-translationid     includeCallingPlus
 ...
 ```
 
@@ -408,16 +409,16 @@ out-translationid     includeCallingPlus
 
 ## 4. Configure codecs
 
-In the ACME SBC, you can set your [codec policy](https://docs.oracle.com/cd/E95619_01/html/esbc_ecz810_configuration/GUID-49ECD7A3-8663-44ED-ADD4-EB01B76CC527.htm#GUID-9CEACADB-5A28-4367-9B7B-813C75F11289) as you wish. Please see a list of supported codecs on our [website](https://sip.telnyx.com/#codecs).  
+In the ACME SBC, you can set your [codec policy](https://docs.oracle.com/cd/E95619_01/html/esbc_ecz810_configuration/GUID-49ECD7A3-8663-44ED-ADD4-EB01B76CC527.htm#GUID-9CEACADB-5A28-4367-9B7B-813C75F11289) as you wish. Please see a list of supported codecs on our [website](https://sip.telnyx.com/#codecs).
 ​
 
 In the example below, the SBC will change the codec list for all **clients** that make outbound calls through the SBC's realm, such that PCMU will be preferred codec offered.
 
 ```
-realm-config   
-identifier             clients   
-...   
-options                preferred-codec=PCMU   
+realm-config
+identifier             clients
+...
+options                preferred-codec=PCMU
 ...
 ```
 
@@ -442,5 +443,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

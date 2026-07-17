@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6247033-cli-cld-validation-faq
+title: "CLI & CLD Validation FAQ"
+description: "Dive into Telnyx's enhanced CLI & CLD validation mechanism. See Telnyx guidance and requirements Learn more about CLI & CLD Validation FAQ with Telnyx."
 scraped: 2026-07-08
 content_hash: c7fce9b2209c747579a641dd48273b660e4883e177f636661b5ff89676b29192
 ---
 
-CLI & CLD Validation FAQ | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # CLI & CLD Validation FAQ
 
-Dive into Telnyx's enhanced CLI & CLD validation mechanism. Understand call origin and destination in North American numbering databases.
+Dive into Telnyx's enhanced CLI & CLD validation mechanism. See Telnyx guidance and requirements Learn more about CLI & CLD Validation FAQ with Telnyx.
 
-Written by Telnyx Engineering
 
-January 20, 2026
 
-Table of contents
 
-# **CLI & CLD Validation Frequently Asked Questions**
+## **CLI & CLD Validation Frequently Asked Questions**
 
 On June 6th, 2022. Telnyx enhanced its existing validation mechanism by adding checks to North American National Numbering databases for CLI and CLD.
 
@@ -87,5 +88,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

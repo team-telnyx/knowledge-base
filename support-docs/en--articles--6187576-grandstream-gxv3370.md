@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6187576-grandstream-gxv3370
+title: "Grandstream GXV3370"
+description: "Learn how to configure a Telnyx SIP trunk on the Grandstream GVX3370 (Android… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 0545d2f194878387df37cb74f54a44690a1e8e3836661e926797f534a0c7e725
 ---
 
-Grandstream GXV3370 | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Grandstream GXV3370
 
-Learn how to configure a Telnyx SIP trunk on the Grandstream GVX3370 (Android OS)
+Learn how to configure a Telnyx SIP trunk on the Grandstream GVX3370 (Android… See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_4aa8a80ba4)
 
@@ -39,7 +40,7 @@ The GXV3370, which runs on the Android platform, features a 7” 1024×600 capac
 
 ---
 
-# Instructions for creating a SIP trunk on the Grandstream GXV3370 Video Phone
+## Instructions for creating a SIP trunk on the Grandstream GXV3370 Video Phone
 
 In this activity, you will:
 
@@ -56,7 +57,7 @@ In this activity, you will:
 * Create a [credentials-based connection](https://portal.telnyx.com/#/app/connections) on your Telnyx Mission Control Portal
 * RECOMMENDED: [Enable TLS to encrypt your traffic](https://support.telnyx.com/en/articles/1130711-does-telnyx-encrypt-communication)
 * [Ensure your device is on the latest firmware](https://documentation.grandstream.com/knowledge-base/firmware-upgrade-guide/)
-* Use your phone's base or handset to find the device IP address. This IP address will link you to the web portal, where you will complete your configuration. See the [Provisioning section of the Admin Guide](https://documentation.grandstream.com/knowledge-base/gxv3370-administration-guide/#upgrade-and-provisioning-configuration) to find your phone's IP address and obtain the default portal login credentials.  
+* Use your phone's base or handset to find the device IP address. This IP address will link you to the web portal, where you will complete your configuration. See the [Provisioning section of the Admin Guide](https://documentation.grandstream.com/knowledge-base/gxv3370-administration-guide/#upgrade-and-provisioning-configuration) to find your phone's IP address and obtain the default portal login credentials.
   ​
 
 **Video Walkthrough**
@@ -118,7 +119,7 @@ In this section, you'll configure your codecs for audio calling.
 
    1. **Preferred Video Codec:** *H264*
 
-That's it, you've now completed the configuration of your Grandstream GXV3370 Video Phone with your Telnyx account.  
+That's it, you've now completed the configuration of your Grandstream GXV3370 Video Phone with your Telnyx account.
 ​
 
 [Back to Top](#h_4aa8a80ba4)
@@ -149,5 +150,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

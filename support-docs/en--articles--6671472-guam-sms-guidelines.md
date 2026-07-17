@@ -1,32 +1,33 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6671472-guam-sms-guidelines
+title: "Guam: SMS Guidelines"
+description: "SMS Guidelines for Guam including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Guam: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 0b375a977ac5d037b648dd9c377944a84e1972227f716a8e884acc38733192ad
 ---
 
-Guam: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Guam: SMS Guidelines
 
-SMS Guidelines for Guam including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Guam including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Guam: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **SMS Guidelines for Guam**
+## **SMS Guidelines for Guam**
 
-**MCC:** 310  
-​**Dial Code:** 1671  
-​  
-The use of Alphanumeric Sender IDs is not allowed/supported for this destination.  
-​  
-For this destination, only traffic with Long Code is permitted.  
-​  
+**MCC:** 310
+​**Dial Code:** 1671
+​
+The use of Alphanumeric Sender IDs is not allowed/supported for this destination.
+​
+For this destination, only traffic with Long Code is permitted.
+​
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

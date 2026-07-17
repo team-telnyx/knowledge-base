@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5466793-mexico-did-requirements
+title: "Mexico DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Mexico numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: af07320ec9dc52550d7250c244af921b7c50cbefdc4496166a79885fba36d85e
 ---
 
-Mexico DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Mexico DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Mexico numbers.
+Here you will find a list of detailed requirements for acquiring Mexico numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-September 29, 2025
 
-Table of contents
 
-# DID Number Requirements for Mexico
+## DID Number Requirements for Mexico
 
 In order to purchase a Mexico number you will need to provide the following:
 
@@ -103,5 +104,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

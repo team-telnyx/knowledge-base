@@ -1,30 +1,31 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5595770-port-away-from-voip-ms
+title: "Port away from voip.ms"
+description: "Detailed steps to port away from voip.ms to Telnyx with key account information. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 07b7d8ac9dcfd71a76ae92fc494699a0ee884d00f823964f367a5f872f600bf5
 ---
 
-Port away from voip.ms | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Port away from voip.ms
 
-Detailed steps to port away from voip.ms to Telnyx with key account information.
+Detailed steps to port away from voip.ms to Telnyx with key account information. See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-October 30, 2023
 
-Table of contents
 
-# Guide to port away from Voip.ms
+## Guide to port away from Voip.ms
 
 voip.ms is a service provider that leverages different providers depending on the type of phone number, US, Canada, or Toll-free and even internationally.
 
 Porting away from voip.ms is a simple process but there are a few steps that you must first cover to ensure that you have the correct information. We will address these below.
 
-# **Account information**
+## **Account information**
 
 Your account information may vary depending on the type of set-up you have with voip.ms Your voip.ms account may have numbers under a single account's details or if you have sub-accounts then each number or set of numbers may have different information on file.
 
@@ -44,7 +45,7 @@ If you have set-up a PIN number in your voip.ms account before then you will nee
 
 Your voip.ms account number is not listed on your invoice. This should be listed within the portal. However, if you have not implemented a PIN number on your account then generally speaking an account number is not required to port away from voip.ms.
 
-**Phone numbers**  
+**Phone numbers**
 You can find a list of phone numbers that you have with voip.ms via their portal and also on your voip.ms invoice.
 
 Once you have retrieved this information, you will need to fill out a Letter of Authorization with Telnyx. Please see [here](https://support.telnyx.com/en/articles/2034326-how-to-fill-out-an-loa) for more details.
@@ -79,5 +80,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

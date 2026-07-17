@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4425088-reporting-monthly-charges
+title: "Reporting: Monthly Charges"
+description: "This article will showcase the Monthly Charges section in greater… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 10abce55332988e99b8cef4c73b9c9346ec382448d4be760e9b8fd597f28ddde
 ---
 
-Reporting: Monthly Charges | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Reporting: Monthly Charges
 
-This article will showcase the Monthly Charges section in greater detail
+This article will showcase the Monthly Charges section in greater… See Telnyx guidance and requirements.
 
-Written by Dillin
 
-April 30, 2026
 
-Table of contents
 
 In this article, I will describe the Monthly Charges Feature on your Telnyx customer portal and what you can do there.
 
-# **Video Walk-through for Reporting tools**
+## **Video Walk-through for Reporting tools**
 
 Coming soon! This walk-through will demonstrate the usage of our Reporting tools.
 
@@ -117,5 +118,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

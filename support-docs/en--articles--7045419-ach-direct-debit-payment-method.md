@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/7045419-ach-direct-debit-payment-method
+title: "ACH Direct Debit Payment Method"
+description: "Support guide and FAQ's in relation to Automated Clearing House (ACH) payment. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 186c4ee3b92faa02c3cd2906dbf1911b6cbcfb2151f0bfd716b66041b5ae8b7d
 ---
 
-ACH Direct Debit Payment Method | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # ACH Direct Debit Payment Method
 
-Support guide and FAQ's in relation to Automated Clearing House (ACH) payment.
+Support guide and FAQ's in relation to Automated Clearing House (ACH) payment. See Telnyx guidance and requirements.
 
 K
 
-Written by Kev D
 
-December 27, 2025
 
-Table of contents
 
-# ACH Direct Debit Payment Method
+## ACH Direct Debit Payment Method
 
 ## About ACH Direct Debit
 
@@ -64,12 +65,12 @@ Sign into the Telnyx Portal.
 
 #### **Step 2:**
 
-Select ***‘[Manage billing](https://portal.telnyx.com/#/billing/payment)’*** under your profile Settings in the portal.   
+Select ***‘[Manage billing](https://portal.telnyx.com/#/billing/payment)’*** under your profile Settings in the portal.
 ​
 
 ![](_images/922369e9acc97c85.png)
 
-​  
+​
 ​**Step 3**:
 
 Select ***‘Make a Payment’*** to access the payment options.
@@ -181,5 +182,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

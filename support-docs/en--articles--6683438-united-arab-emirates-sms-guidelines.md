@@ -1,59 +1,60 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6683438-united-arab-emirates-sms-guidelines
+title: "United Arab Emirates: SMS Guidelines"
+description: "Sending SMS to United Arab Emirates? See Telnyx guidance and requirements Learn more about United Arab Emirates: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 6c081fe9a1072626ec2ce27546855ef5e7138080c48f61a43bfa7c73ef7f67c5
 ---
 
-United Arab Emirates: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # United Arab Emirates: SMS Guidelines
 
-Sending SMS to United Arab Emirates? Check out our comprehensive guidelines to ensure compliance in United Arab Emirates.
+Sending SMS to United Arab Emirates? See Telnyx guidance and requirements Learn more about United Arab Emirates: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-June 6, 2024
 
-Table of contents
 
-# **United Arab Emirates: SMS Guidelines**
+## **United Arab Emirates: SMS Guidelines**
 
-**MCC:** 424  
-​**Dial Code:** 971  
-​  
-Alphanumeric Sender IDs are supported with registration. Alphanumeric Sender ID registration is required.  
-​  
-​**Information on Alphanumeric Sender ID registration:**  
-​  
-Please complete the attached form (including signature, company letterhead and stamp) and return to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com), along with a copy of your Business Registration or Certificate of Incorporation and the following information:  
-​  
-1) Sender ID to be registered  
-2) Message/Content Type - Transactional/Promotional/Notification  
-3) Message/Content example(s)  
-4) Company name (and Brand name if different)  
+**MCC:** 424
+​**Dial Code:** 971
+​
+Alphanumeric Sender IDs are supported with registration. Alphanumeric Sender ID registration is required.
+​
+​**Information on Alphanumeric Sender ID registration:**
+​
+Please complete the attached form (including signature, company letterhead and stamp) and return to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com), along with a copy of your Business Registration or Certificate of Incorporation and the following information:
+​
+1) Sender ID to be registered
+2) Message/Content Type - Transactional/Promotional/Notification
+3) Message/Content example(s)
+4) Company name (and Brand name if different)
 5) Website of brand or company
 
 6) Company Country of origin
 
 7) Expected volumes per month
 
-8) Email linked to your Telnyx account  
-​  
-​**Additional recommendations:**  
-​  
-For promotional traffic, the suffix "AD" must be added to the Alphanumeric Sender for traffic distinction.  
-​  
-Promotional traffic is not allowed between 09:00 pm and 07:00 local time, all traffic submitted during this time window will be queued and delivery will be attempted outside the time period.  
-​  
-Religious, gambling political or adult traffic is prohibited.  
-​  
-The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be directly related to the message content.  
-​  
-Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).  
-​  
-For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).  
+8) Email linked to your Telnyx account
+​
+​**Additional recommendations:**
+​
+For promotional traffic, the suffix "AD" must be added to the Alphanumeric Sender for traffic distinction.
+​
+Promotional traffic is not allowed between 09:00 pm and 07:00 local time, all traffic submitted during this time window will be queued and delivery will be attempted outside the time period.
+​
+Religious, gambling political or adult traffic is prohibited.
+​
+The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be directly related to the message content.
+​
+Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
+​
+For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 ​
 
 ##
@@ -69,5 +70,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

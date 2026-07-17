@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6592505-anguilla-sms-guidelines
+title: "Anguilla: SMS Guidelines"
+description: "SMS Guidelines for Anguila including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Anguilla: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 76f83ca1c0d2e49c9068fa09b598a0d541cfd6febfdfe4df2b9eedcaf1e84f95
 ---
 
-Anguilla: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Anguilla: SMS Guidelines
 
-SMS Guidelines for Anguila including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Anguila including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Anguilla: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **SMS Guidelines for Anguilla**
+## **SMS Guidelines for Anguilla**
 
-**MCC:** 365  
-​**Dial Code:** 1264  
-​  
+**MCC:** 365
+​**Dial Code:** 1264
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

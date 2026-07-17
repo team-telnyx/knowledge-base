@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5896911-how-to-create-a-10dlc-brand
+title: "How to create a 10DLC brand"
+description: "Creating a brand is the first step to becoming compliant with 10DLC rules. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 24ce24f29ae0ad50ee8429b666d8436473df95655e27374ecd768b5954843800
 ---
 
-How to create a 10DLC brand | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How to create a 10DLC brand
 
-Creating a brand is the first step to becoming compliant with 10DLC rules. Read on to learn how you can create your brand.
+Creating a brand is the first step to becoming compliant with 10DLC rules. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-July 24, 2025
 
-Table of contents
 
-# **How to create a 10DLC brand**
+## **How to create a 10DLC brand**
 
 If your business is sending outbound text messages using 10-digit long code (10DLC) Local phone numbers in the US, you're required to register for 10DLC approval. In this guide, we'll show you how to complete the first step of this process by registering your brand, using tools provided in the Telnyx Mission Control Portal.
 
@@ -114,5 +115,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

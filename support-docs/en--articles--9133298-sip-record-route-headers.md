@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/9133298-sip-record-route-headers
+title: "SIP - Record Route Headers"
+description: "Understanding the Importance of Route Headers. See Telnyx guidance and requirements Learn more about SIP - Record Route Headers with Telnyx."
 scraped: 2026-07-08
 content_hash: 7203a16ce63345259d343e127beaba410ca73e0c7020352c148bd70276fa7fde
 ---
 
-SIP - Record Route Headers | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # SIP - Record Route Headers
 
-Understanding the Importance of Route Headers.
+Understanding the Importance of Route Headers. See Telnyx guidance and requirements Learn more about SIP - Record Route Headers with Telnyx.
 
-Written by Dillin
 
-February 12, 2025
 
-Table of contents
 
 ## **Why Do Some Calls Drop or Fail to Connect?**
 
@@ -87,31 +88,31 @@ To provide a clear understanding, let's illustrate two examples based on the pro
 #### Telnyx SIP INVITE to Customer
 
 ```
-INVITE sip:+12345678901@sip.example.com:5060 SIP/2.0   
-Record-Route: <sip:192.76.120.10;r2=on;lr;ftag=BUXDty7v06tXH>   
-Record-Route: <sip:10.255.0.1;r2=on;lr;ftag=BUXDty7v06tXH>   
-Via: SIP/2.0/UDP 192.76.120.10;branch=z9hG4bK2d69.8e8f5f5fb057db25a37e7b57b6da8e73.0   
-Via: SIP/2.0/UDP 10.13.177.4:6000;received=10.13.177.4;rport=6000;branch=z9hG4bKr588213p7Z0Sp  
-Max-Forwards: 60   
-From: "+19876543210" <sip:+19876543210@sip.telnyx.com>;tag=BUXDty7v06tXH To: <sip:+12345678901@sip.example.com:5060>   
-Call-ID: 684d7abc-1234-4567-891a-444dd7a7b77d   
-CSeq: 12123802 INVITE   
-Content-Type: application/sdp   
+INVITE sip:+12345678901@sip.example.com:5060 SIP/2.0
+Record-Route: <sip:192.76.120.10;r2=on;lr;ftag=BUXDty7v06tXH>
+Record-Route: <sip:10.255.0.1;r2=on;lr;ftag=BUXDty7v06tXH>
+Via: SIP/2.0/UDP 192.76.120.10;branch=z9hG4bK2d69.8e8f5f5fb057db25a37e7b57b6da8e73.0
+Via: SIP/2.0/UDP 10.13.177.4:6000;received=10.13.177.4;rport=6000;branch=z9hG4bKr588213p7Z0Sp
+Max-Forwards: 60
+From: "+19876543210" <sip:+19876543210@sip.telnyx.com>;tag=BUXDty7v06tXH To: <sip:+12345678901@sip.example.com:5060>
+Call-ID: 684d7abc-1234-4567-891a-444dd7a7b77d
+CSeq: 12123802 INVITE
+Content-Type: application/sdp
 ...
 ```
 
 #### Customer's 200 OK Response (Without Record-Route Headers)
 
 ```
-SIP/2.0 200 OK   
-Via: SIP/2.0/UDP 192.76.120.10;branch=z9hG4bK2d69.8e8f5f5fb057db25a37e7b57b6da8e73.0   
-Via: SIP/2.0/UDP 10.13.177.4:6000;received=10.13.177.4;rport=6000;branch=z9hG4bKr588213p7Z0Sp   
-To: sip:+12345678901@sip.example.com:5060;tag=8b240ac5236e0c71   
-From: sip:+19876543210@sip.telnyx.com;tag=BUXDty7v06tXH   
-Call-ID: 684d7abc-1234-4567-891a-444dd7a7b77d   
-CSeq: 12123802 INVITE   
-Contact: <sip:+12345678901@another.example.com:5060>   
-Content-Type: application/sdp   
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.76.120.10;branch=z9hG4bK2d69.8e8f5f5fb057db25a37e7b57b6da8e73.0
+Via: SIP/2.0/UDP 10.13.177.4:6000;received=10.13.177.4;rport=6000;branch=z9hG4bKr588213p7Z0Sp
+To: sip:+12345678901@sip.example.com:5060;tag=8b240ac5236e0c71
+From: sip:+19876543210@sip.telnyx.com;tag=BUXDty7v06tXH
+Call-ID: 684d7abc-1234-4567-891a-444dd7a7b77d
+CSeq: 12123802 INVITE
+Contact: <sip:+12345678901@another.example.com:5060>
+Content-Type: application/sdp
 ...
 ```
 
@@ -124,33 +125,33 @@ Without the Record-Route headers in the 200 OK response, the ACK message sent by
 #### Telnyx SIP INVITE to Customer (Same as Example 1)
 
 ```
-INVITE sip:+12345678901@sip.example.com:5060 SIP/2.0   
-Record-Route: <sip:192.76.120.10;r2=on;lr;ftag=BUXDty7v06tXH>   
-Record-Route: <sip:10.255.0.1;r2=on;lr;ftag=BUXDty7v06tXH>   
-Via: SIP/2.0/UDP 192.76.120.10;branch=z9hG4bK2d69.8e8f5f5fb057db25a37e7b57b6da8e73.0   
-Via: SIP/2.0/UDP 10.13.177.4:6000;received=10.13.177.4;rport=6000;branch=z9hG4bKr588213p7Z0Sp  
-Max-Forwards: 60   
-From: "+19876543210" <sip:+19876543210@sip.telnyx.com>;tag=BUXDty7v06tXH To: <sip:+12345678901@sip.example.com:5060>   
-Call-ID: 684d7abc-1234-4567-891a-444dd7a7b77d   
-CSeq: 12123802 INVITE   
-Content-Type: application/sdp   
+INVITE sip:+12345678901@sip.example.com:5060 SIP/2.0
+Record-Route: <sip:192.76.120.10;r2=on;lr;ftag=BUXDty7v06tXH>
+Record-Route: <sip:10.255.0.1;r2=on;lr;ftag=BUXDty7v06tXH>
+Via: SIP/2.0/UDP 192.76.120.10;branch=z9hG4bK2d69.8e8f5f5fb057db25a37e7b57b6da8e73.0
+Via: SIP/2.0/UDP 10.13.177.4:6000;received=10.13.177.4;rport=6000;branch=z9hG4bKr588213p7Z0Sp
+Max-Forwards: 60
+From: "+19876543210" <sip:+19876543210@sip.telnyx.com>;tag=BUXDty7v06tXH To: <sip:+12345678901@sip.example.com:5060>
+Call-ID: 684d7abc-1234-4567-891a-444dd7a7b77d
+CSeq: 12123802 INVITE
+Content-Type: application/sdp
 ...
 ```
 
 #### Customer's 200 OK Response (With Record-Route Headers)
 
 ```
-SIP/2.0 200 OK  
-Via: SIP/2.0/UDP 192.76.120.10;branch=z9hG4bK2d69.8e8f5f5fb057db25a37e7b57b6da8e73.0  
-Via: SIP/2.0/UDP 10.13.177.4:6000;received=10.13.177.4;rport=6000;branch=z9hG4bKr588213p7Z0Sp  
-Record-Route: <sip:192.76.120.10;r2=on;lr;ftag=BUXDty7v06tXH>  
-Record-Route: <sip:10.255.0.1;r2=on;lr;ftag=BUXDty7v06tXH>  
-To: sip:+12345678901@sip.example.com:5060;tag=8b240ac5236e0c71  
-From: sip:+19876543210@sip.telnyx.com;tag=BUXDty7v06tXH  
-Call-ID: 684d7abc-1234-4567-891a-444dd7a7b77d   
-CSeq: 12123802 INVITE  
-Contact: <sip:+12345678901@another.example.com:5060>   
-Content-Type: application/sdp   
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.76.120.10;branch=z9hG4bK2d69.8e8f5f5fb057db25a37e7b57b6da8e73.0
+Via: SIP/2.0/UDP 10.13.177.4:6000;received=10.13.177.4;rport=6000;branch=z9hG4bKr588213p7Z0Sp
+Record-Route: <sip:192.76.120.10;r2=on;lr;ftag=BUXDty7v06tXH>
+Record-Route: <sip:10.255.0.1;r2=on;lr;ftag=BUXDty7v06tXH>
+To: sip:+12345678901@sip.example.com:5060;tag=8b240ac5236e0c71
+From: sip:+19876543210@sip.telnyx.com;tag=BUXDty7v06tXH
+Call-ID: 684d7abc-1234-4567-891a-444dd7a7b77d
+CSeq: 12123802 INVITE
+Contact: <sip:+12345678901@another.example.com:5060>
+Content-Type: application/sdp
 ...
 ```
 
@@ -165,31 +166,31 @@ By including the Record-Route headers in the 200 OK response, the customer ensur
 This scenario illustrates what happens when a client initiates a SIP INVITE to Telnyx, and subsequent SIP messages (like ACK) fail due to misconfigured or reordered **Route headers** in the client’s response.
 
 ```
-INVITE sip:+12345678901@sip.telnyx.com:5060 SIP/2.0    
-Via: SIP/2.0/UDP 10.1.1.1:5060;branch=z9hG4bKclient1234    
-Max-Forwards: 70    
-From: "+19876543210" <sip:+19876543210@client.example.com>;tag=clienttag123    
-To: <sip:+12345678901@sip.telnyx.com>    
-Call-ID: 1234abcd@client.example.com    
-CSeq: 100 INVITE    
-Contact: <sip:+19876543210@10.1.1.1:5060>    
-Content-Type: application/sdp    
+INVITE sip:+12345678901@sip.telnyx.com:5060 SIP/2.0
+Via: SIP/2.0/UDP 10.1.1.1:5060;branch=z9hG4bKclient1234
+Max-Forwards: 70
+From: "+19876543210" <sip:+19876543210@client.example.com>;tag=clienttag123
+To: <sip:+12345678901@sip.telnyx.com>
+Call-ID: 1234abcd@client.example.com
+CSeq: 100 INVITE
+Contact: <sip:+19876543210@10.1.1.1:5060>
+Content-Type: application/sdp
 ...
 ```
 
 #### Telnyx’s 200 OK Response (With Correct Record-Route Headers)
 
 ```
-SIP/2.0 200 OK    
-Via: SIP/2.0/UDP 10.1.1.1:5060;branch=z9hG4bKclient1234    
-Record-Route: <sip:192.76.120.10;r2=on;lr;ftag=telnyxtag1>    
-Record-Route: <sip:10.255.0.1;r2=on;lr;ftag=telnyxtag2>    
-To: <sip:+12345678901@sip.telnyx.com>;tag=telnyx123    
-From: "+19876543210" <sip:+19876543210@client.example.com>;tag=clienttag123    
-Call-ID: 1234abcd@client.example.com    
-CSeq: 100 INVITE    
-Contact: <sip:+12345678901@telnyx.com:5060>    
-Content-Type: application/sdp    
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.1.1.1:5060;branch=z9hG4bKclient1234
+Record-Route: <sip:192.76.120.10;r2=on;lr;ftag=telnyxtag1>
+Record-Route: <sip:10.255.0.1;r2=on;lr;ftag=telnyxtag2>
+To: <sip:+12345678901@sip.telnyx.com>;tag=telnyx123
+From: "+19876543210" <sip:+19876543210@client.example.com>;tag=clienttag123
+Call-ID: 1234abcd@client.example.com
+CSeq: 100 INVITE
+Contact: <sip:+12345678901@telnyx.com:5060>
+Content-Type: application/sdp
 ...
 ```
 
@@ -198,8 +199,8 @@ In this response, Telnyx includes **Record-Route headers** to ensure subsequent 
 #### **Problematic ACK From Client**
 
 ```
-ACK sip:+12345678901@telnyx-200-ok-contact-header-ip-address:5060 SIP/2.0    
-Route: <sip:10.255.0.1;r2=on;lr;ftag=telnyxtag2>    
+ACK sip:+12345678901@telnyx-200-ok-contact-header-ip-address:5060 SIP/2.0
+Route: <sip:10.255.0.1;r2=on;lr;ftag=telnyxtag2>
 ...
 ```
 
@@ -208,16 +209,16 @@ Route: <sip:10.255.0.1;r2=on;lr;ftag=telnyxtag2>
 The client incorrectly omits or reorders the Route headers. The correct order, based on the reversed Record-Route headers from the 200 OK, should be:
 
 ```
-Route: <sip:192.76.120.10;r2=on;lr;ftag=telnyxtag1>   
+Route: <sip:192.76.120.10;r2=on;lr;ftag=telnyxtag1>
 Route: <sip:10.255.0.1;r2=on;lr;ftag=telnyxtag2>
 ```
 
 **Successful ACK**
 
 ```
-ACK sip:+12345678901@telnyx.com:5060 SIP/2.0    
-Route: <sip:192.76.120.10;r2=on;lr;ftag=telnyxtag1>    
-Route: <sip:10.255.0.1;r2=on;lr;ftag=telnyxtag2>    
+ACK sip:+12345678901@telnyx.com:5060 SIP/2.0
+Route: <sip:192.76.120.10;r2=on;lr;ftag=telnyxtag1>
+Route: <sip:10.255.0.1;r2=on;lr;ftag=telnyxtag2>
 ...
 ```
 
@@ -289,5 +290,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

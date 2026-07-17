@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130717-limits-on-concurrent-outbound-calls
+title: "Limits on Concurrent Outbound Calls"
+description: "Did you reach your limit for active concurrent outbound calls? See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: b4ae87b49df7367c2f8d7d2217db4327fba490003ce0f7cf6976db2204eb40a6
 ---
 
-Limits on Concurrent Outbound Calls | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Limits on Concurrent Outbound Calls
 
-Did you reach your limit for active concurrent outbound calls? Here's what to do to increase your limit.
+Did you reach your limit for active concurrent outbound calls? See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-March 13, 2025
 
-Table of contents
 
-# How many concurrent outbound calls or channels can be active at once?
+## How many concurrent outbound calls or channels can be active at once?
 
 When you have signed up to Telnyx's Mission Control Portal, by default you are set to a global value of 2 concurrent outbound calls. Upon approval for Level 2 verification, this will increase to 10 concurrent calls. We are happy to accommodate more based on your requirements, if you have been Level 2 verified you can reach out to us at [support@telnyx.com](mailto:support@telnyx.com) to increase your limit It is recommend to provide information on your use case should you wish to increase the channels beyond 100.
 
@@ -39,5 +40,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

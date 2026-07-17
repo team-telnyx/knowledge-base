@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4280610-how-to-setup-your-account-settings
+title: "How to setup your Account Settings"
+description: "This article entails the in-depth setup of Account settings on your Mission Control… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 18e2747605baf1f8fe87bc25500c6c3b64965888ccd746b016d455971a26fc45
 ---
 
-How to setup your Account Settings | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How to setup your Account Settings
 
-This article entails the in-depth setup of Account settings on your Mission Control Portal
+This article entails the in-depth setup of Account settings on your Mission Control… See Telnyx guidance and requirements.
 
-Written by Ruchita Jain
 
-May 1, 2026
 
-Table of contents
 
 This article describes the "**Account**" section where you can set up your account information, redeem your promo code or setup your account with 2FA to avoid any security violations.
 
@@ -24,8 +25,8 @@ This article describes the "**Account**" section where you can set up your accou
 
 ## **Configuring Your Account Settings**
 
-The [Account](https://portal.telnyx.com/#/account/general) section is located under profile icon on the top right hand corner of your account. When you click on the top right corner, there will be drop down menu and one of the options will be "Account Settings".   
-​  
+The [Account](https://portal.telnyx.com/#/account/general) section is located under profile icon on the top right hand corner of your account. When you click on the top right corner, there will be drop down menu and one of the options will be "Account Settings".
+​
 Click on this button below and it will directly get you to the Account Profile page.
 
 [Account](https://portal.telnyx.com/#/account/general)
@@ -64,7 +65,7 @@ Add your list of SIP Signals or media IP's that originate traffic to our network
 
 ## **3. Security**
 
-In this section, you have the ability to edit your email, password and set up two factor authentication, among other things.  
+In this section, you have the ability to edit your email, password and set up two factor authentication, among other things.
 ​
 
 ![](_images/8b503389166349e5.png)
@@ -114,5 +115,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

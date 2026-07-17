@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6670869-germany-sms-guidelines
+title: "Germany: SMS Guidelines"
+description: "Sending SMS to Germany? See Telnyx guidance and requirements Learn more about Germany: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: ff9efd4d9411d593c90542bd1fdfe770b0b16343c310d357e4ae22051c500077
 ---
 
-Germany: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Germany: SMS Guidelines
 
-Sending SMS to Germany? Check out our comprehensive guidelines to ensure compliance in Germany.
+Sending SMS to Germany? See Telnyx guidance and requirements Learn more about Germany: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Germany: SMS Guidelines**
+## **Germany: SMS Guidelines**
 
-**MCC:** 262  
-​**Dial Code:** 49  
-​  
+**MCC:** 262
+​**Dial Code:** 49
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

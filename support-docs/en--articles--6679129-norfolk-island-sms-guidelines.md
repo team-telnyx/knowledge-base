@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6679129-norfolk-island-sms-guidelines
+title: "Norfolk Island: SMS Guidelines"
+description: "SMS Guidelines for Norfolk Island including MCC and Dial Code. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a4a032c2f8de544e90c528ab687920bc23582fdc5f12d64946f3655277bb28e4
 ---
 
-Norfolk Island: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Norfolk Island: SMS Guidelines
 
-SMS Guidelines for Norfolk Island including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Norfolk Island including MCC and Dial Code. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **SMS Guidelines for Norfolk Island**
+## **SMS Guidelines for Norfolk Island**
 
-**MCC:** 505  
-​**Dial Code:** 672  
-​  
+**MCC:** 505
+​**Dial Code:** 672
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

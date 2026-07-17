@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8020222-mission-control-portal-ai-chat-support-assistant
+title: "Mission Control Portal - AI Chat Support Assistant"
+description: "Your new Telnyx AI Assistant here to help provide 24/7 support. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 7d6767916d6984495db4ece6185e3c89b947b8de1fe0ec8a558734a0ef338992
 ---
 
-Mission Control Portal - AI Chat Support Assistant | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# Mission Control Portal - AI Chat Support Assistant
 
-Your new Telnyx AI Assistant here to help provide 24/7 support.
 
-Written by Dillin
 
-May 1, 2026
-
-Table of contents
 
 # Mission Control Portal - AI Chat Support Assistant
+
+Your new Telnyx AI Assistant here to help provide 24/7 support. See Telnyx guidance and requirements.
+
+
+
+
+## Mission Control Portal - AI Chat Support Assistant
 
 We are delighted to introduce our latest digital offering, designed to enhance your customer service experience, while providing more efficient and personalised support. The advent of our new AI Assistant accessible through our [Mission Control Portal](https://portal.telnyx.com), marks another evolution in our service provision, complimenting our existing chat support service.
 
@@ -105,5 +106,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

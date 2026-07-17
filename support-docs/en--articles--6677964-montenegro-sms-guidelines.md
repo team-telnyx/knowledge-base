@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6677964-montenegro-sms-guidelines
+title: "Montenegro: SMS Guidelines"
+description: "SMS Guidelines for Montenegro including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Montenegro: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: ba620391a6831b35b0a0983cd4ab1d38249b52b249b7488a455418eafa21dff6
 ---
 
-Montenegro: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Montenegro: SMS Guidelines
 
-SMS Guidelines for Montenegro including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Montenegro including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Montenegro: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **SMS Guidelines for Montenegro**
+## **SMS Guidelines for Montenegro**
 
-**MCC:** 297  
-​**Dial Code:** 382  
-​  
+**MCC:** 297
+​**Dial Code:** 382
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

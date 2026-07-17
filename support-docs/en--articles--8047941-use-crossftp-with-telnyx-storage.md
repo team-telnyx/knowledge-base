@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8047941-use-crossftp-with-telnyx-storage
+title: "Use CrossFTP with Telnyx Storage"
+description: "Learn how to set up CrossFTP, a powerful FTP client, with Telnyx Storage for seamless file transfer and management. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 524e1ef580d538f6f8f1261e1aad74cec627ff3d9089bb496c25c23cae021eed
 ---
 
-Use CrossFTP with Telnyx Storage | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Use CrossFTP with Telnyx Storage
 
-Learn how to set up CrossFTP, a powerful FTP client, with Telnyx Storage for seamless file transfer and management.
+Learn how to set up CrossFTP, a powerful FTP client, with Telnyx Storage for seamless file transfer and management. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-June 6, 2024
 
-Table of contents
 
 [CrossFTP](https://www.crossftp.com) is a feature-rich FTP client that lets users easily connect to FTP servers and transfer files. It provides a user-friendly interface, supports various file transfer protocols, and offers advanced features such as multi-threading, synchronization, and encryption.
 
 ---
 
-# **How to configure CrossFTP to work with Telnyx Storage**
+## **How to configure CrossFTP to work with Telnyx Storage**
 
 ## Step 1
 
@@ -30,7 +31,7 @@ Download and install the latest version of CrossFTP [here!](https://www.crossftp
 
 ## Step 2
 
-Launch the CrossFTP application and click on **"File"** and then **"Site Connect**" to open the Site Manager window.  
+Launch the CrossFTP application and click on **"File"** and then **"Site Connect**" to open the Site Manager window.
 ​
 
 ![Site manager window. ](_images/e9d4a420a306343f.png)
@@ -49,7 +50,7 @@ Select “**S3”** from the ***“Protocol”***dropdown and fill in the fields
 8. **Remote Path:** Copy and paste the name of your bucket. You can get it [here.](https://portal.telnyx.com/#/app/storage/buckets)
 9. **Local Path:** Choose a path from your local storage.
 10. **CNAME:** Leave this field blank
-11. **Comments:** You can add a comment to recall this connection.  
+11. **Comments:** You can add a comment to recall this connection.
     ​
 
     ![Site manager section. ](_images/db980e535087acaf.jpg)
@@ -77,5 +78,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

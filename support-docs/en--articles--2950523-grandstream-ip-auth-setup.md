@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/2950523-grandstream-ip-auth-setup
+title: "Grandstream: IP Auth Setup"
+description: "This article will provide you steps for configuring your Grandstream UMC6202 with Telnyx phone service using… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ff4d207158179f8b539a1e7bed947df43b915f08972493c93e4f766d54a33a7b
 ---
 
-Grandstream: IP Auth Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Grandstream: IP Auth Setup
 
-This article will provide you steps for configuring your Grandstream UMC6202 with Telnyx phone service using IP
+This article will provide you steps for configuring your Grandstream UMC6202 with Telnyx phone service using… See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_c15ad69b21)
 
@@ -38,7 +39,7 @@ Additional documentation and resources:
 
 ---
 
-# Configuring the Grandstream UMC 6202
+## Configuring the Grandstream UMC 6202
 
 In this activity you will:
 
@@ -78,7 +79,7 @@ All the configuration you'll need to do will take place on the web UI, which act
 2. If connected successfully, the UCM6200 series login page. Out of the box, your device will have the following default credentials:
 
    1. **Username**: *admin*
-   2. **Password**: *admin*  
+   2. **Password**: *admin*
       ​*HOWEVER: Units manufactured starting January 2017 have a unique random password printed on the sticker located on the back of the unit. It is highly recommended to change the default password after logging in for the first time. Older units have default password* admin*.*
 
 [Back to Top](#h_c15ad69b21)
@@ -101,7 +102,7 @@ All the configuration you'll need to do will take place on the web UI, which act
 
 ## 3. Create an inbound route
 
-When a call comes in from the outside, it'll need to be directed from sip.telnyx.com to the phone extension you ultimately want it to go, such as a user extension or an IVR extension.   
+When a call comes in from the outside, it'll need to be directed from sip.telnyx.com to the phone extension you ultimately want it to go, such as a user extension or an IVR extension.
 ​
 
 In this section, we'll configure our own inbound routes.
@@ -155,16 +156,16 @@ Now let's configure your outbound caller ID. Grandstream offers many ways to con
 | --- |
 | ***Note:*** *Before configuring an outbound caller ID, you should be aware of some of the naming conventions standard for caller ID creation:*  * *Your outbound Caller ID Name should be in **capital letters**. This will appears more clearly/visible on some devices.* * *You **must NOT use any special characters**, as they will not be displayed.* * *Some of regular **Canadian providers will not show more than 15 characters**. We suggest shrinking or adapt your caller ID.* * ***Spaces are allowed*** *in a caller id name.* * *Be familiar with [Telnyx's caller ID number policy](https://support.telnyx.com/en/articles/3546251-caller-id-number-policy)* |
 
-1. To enable a global outbound CID:   
+1. To enable a global outbound CID:
    From the left-hand navigation, expand **PBX Settings** and click **General Settings** in the sub-menu.
 
    ![Outbound caller ID settings tab. ](_images/c26e5ac929e5eb66.png)
-2. To enable caller IDs for each extension:  
+2. To enable caller IDs for each extension:
    From the left-hand navigation, expand **Extension/Trunk** and click **Extensions** in the sub-menu.
 3. Click on the extension you want to assign a caller ID and provide your caller ID in the **CallerID Number** field.
 
    ![Outbound caller ID number settings tab. ](_images/76d7d440fbd8fc8b.png)
-4. To enable a caller ID on the outbound route:  
+4. To enable a caller ID on the outbound route:
    From the left-hand navigation, expand **Extension/Trunk** and click **Outbound Routes** in the sub-menu.
 5. From here, you can set your caller ID for the entire route in the **Outbound Route CID** field.
 
@@ -199,5 +200,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

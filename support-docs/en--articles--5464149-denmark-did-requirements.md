@@ -1,33 +1,34 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5464149-denmark-did-requirements
+title: "Denmark DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Denmark numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: fe1abfcd693d699d594bfc530a9eece16b395e0996bae1928439811589568029
 ---
 
-Denmark DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Denmark DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Denmark numbers.
+Here you will find a list of detailed requirements for acquiring Denmark numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-November 11, 2025
 
-Table of contents
 
-# DID Number Requirements for Denmark
+## DID Number Requirements for Denmark
 
 In order to purchase a Denmark number you will need to provide the following:
 
 ## Mandatory Use of Requirement Groups: Denmark
 
-Starting **September 16, 2024**, **Requirement Groups** will be mandatory for ordering phone numbers in **Denmark (DK).**  
+Starting **September 16, 2024**, **Requirement Groups** will be mandatory for ordering phone numbers in **Denmark (DK).**
 ​
 
-Requirement Groups let you manage regulatory requirements by pre-filling necessary information once, allowing for reuse across multiple orders. This change aims to streamline compliance.  
+Requirement Groups let you manage regulatory requirements by pre-filling necessary information once, allowing for reuse across multiple orders. This change aims to streamline compliance.
 ​
 
 For full details on setting up Requirement Groups, please refer to the [guide here](https://support.telnyx.com/en/articles/9801714-requirement-groups-for-ordering-phone-numbers).
@@ -84,19 +85,19 @@ Service usage description
 
 ## **Toll-Free Numbers in Denmark**
 
-For **personal identity** verification:  
-\* Name, last name  
-\* Contact phone number  
+For **personal identity** verification:
+\* Name, last name
+\* Contact phone number
 ​
 
-For **business identity** verification:  
+For **business identity** verification:
 \* Name, last name of an authorized representative
 
-\* Company name  
-\* Contact phone number  
+\* Company name
+\* Contact phone number
 ​
 
-For **address** verification:  
+For **address** verification:
 \* Address worldwide (street, building number, postal code, city and country)
 
 ## **Helpful for acquiring Denmark DIDs**
@@ -129,7 +130,7 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [What is direct inward dialing](https://telnyx.com/resources/what-is-direct-inward-dialing)
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
-Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)  
+Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
 ​
 
 ---
@@ -141,5 +142,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

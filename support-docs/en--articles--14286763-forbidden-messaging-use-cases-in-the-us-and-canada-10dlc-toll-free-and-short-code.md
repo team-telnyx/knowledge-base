@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/14286763-forbidden-messaging-use-cases-in-the-us-and-canada-10dlc-toll-free-and-short-code
+title: "Forbidden Messaging Use Cases in the US and Canada (10DLC"
+description: "Mobile carriers and industry guidelines (such as CTIA standards) restrict certain types of messaging traffic across the… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 5322f8be78843ac345d3b4ff3cf6b4a18c6d2d92fc4641ab499e878a6a199c99
 ---
 
-Forbidden Messaging Use Cases in the US and Canada (10DLC, Toll-Free, and Short Code) | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Forbidden Messaging Use Cases in the US and Canada (10DLC, Toll-Free, and Short Code)
 
-C
+Mobile carriers and industry guidelines (such as CTIA standards) restrict certain types of messaging traffic across the… See Telnyx guidance and requirements.
 
-Written by Customer Success
 
-March 26, 2026
 
-Table of contents
 
 ## Overview
 
@@ -159,5 +160,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

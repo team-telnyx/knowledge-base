@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130658-how-do-i-know-if-a-rate-has-changed
+title: "How do I know if a rate has changed?"
+description: "We will explain how to stay on top of rate changes so you will never be caught off-guard. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 720cbe21559e29da2a8cf93453a6642875242c53e34f90e4690af65f3e9d4a01
 ---
 
-How do I know if a rate has changed? | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# How do I know if a rate has changed?
 
-We will explain how to stay on top of rate changes so you will never be caught off-guard.
 
-Written by Telnyx Sales
 
-January 10, 2024
-
-Table of contents
 
 # How do I know if a rate has changed?
+
+We will explain how to stay on top of rate changes so you will never be caught off-guard. See Telnyx guidance and requirements.
+
+
+
+
+## How do I know if a rate has changed?
 
 Whenever a rate has changed with Telnyx, we will send you a brief rate update email. No need to worry, we’ll always keep you updated.
 
@@ -35,5 +36,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

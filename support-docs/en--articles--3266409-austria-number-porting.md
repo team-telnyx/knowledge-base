@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3266409-austria-number-porting
+title: "Austria Number Porting"
+description: "Here you will find detailed requirements for Austria number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 82469caddf0b985ff9be106ced7b05eb4963aed5097a16eb9706ae62d5dab023
 ---
 
-Austria Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Austria Number Porting
 
-Here you will find detailed requirements for Austria number portability.
+Here you will find detailed requirements for Austria number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
-# **Local and National Numbers in Austria**
+## **Local and National Numbers in Austria**
 
 1. LOA (Local address required)
 2. Account Number
@@ -48,5 +49,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

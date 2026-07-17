@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3275772-sweden-number-porting
+title: "Sweden Number Porting"
+description: "Here you will find detailed requirements for Sweden number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 2081ad7083c6d94cbdca622fa6c4d39f0143a3d7d47c145d447ecec7262437a5
 ---
 
-Sweden Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Sweden Number Porting
 
-Here you will find detailed requirements for Sweden number portability.
+Here you will find detailed requirements for Sweden number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
-# **Local, National and Toll-free numbers in Sweden**
+## **Local, National and Toll-free numbers in Sweden**
 
 1. LOA (a local address is mandatory, the signature on the LOA must be a wet signature)
 2. Local TAX ID / VAT (must be 12 characters long)
@@ -37,5 +38,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

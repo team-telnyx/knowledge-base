@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5188563-norway-number-porting
+title: "Norway Number Porting"
+description: "Here you will find a detailed list of requirements for Norway number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a2e678ebd396bf09f73a8dcc79fbcb9c401af7fd86cf67d9feb9e01a8136ed42
 ---
 
-Norway Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Norway Number Porting
 
-Here you will find a detailed list of requirements for Norway number portability.
+Here you will find a detailed list of requirements for Norway number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-September 23, 2024
 
-Table of contents
 
-# **Local / National / Toll-Free Numbers**
+## **Local / National / Toll-Free Numbers**
 
 1. LOA (a local address is mandatory)
 2. Latest Invoice
@@ -71,5 +72,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

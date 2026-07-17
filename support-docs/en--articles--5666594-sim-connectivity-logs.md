@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5666594-sim-connectivity-logs
+title: "SIM Connectivity Logs"
+description: "Master the art of troubleshooting your SIM with Telnyx's guide to connectivity logs. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 15ffdaf7cd36a5a2be0cd8c245eaa53a64320b1a99037c3b9b3f62515db6ffe5
 ---
 
-SIM Connectivity Logs | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # SIM Connectivity Logs
 
-Master the art of troubleshooting your SIM with Telnyx's guide to connectivity logs.
+Master the art of troubleshooting your SIM with Telnyx's guide to connectivity logs. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-December 30, 2024
 
-Table of contents
 
-# **Connectivity Logs**
+## **Connectivity Logs**
 
 Connectivity logs can be viewed both via the Portal and API. Logs can be viewed in the Portal by drilling down into your SIM card.
 
@@ -44,5 +45,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

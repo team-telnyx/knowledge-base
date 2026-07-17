@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6679031-new-caledonia-sms-guidelines
+title: "New Caledonia: SMS Guidelines"
+description: "SMS Guidelines for New Caledonia including MCC and Dial Code. See Telnyx guidance and requirements Learn more about New Caledonia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 81430bf22719fcd741ec035ebc5b4d416977ddb9bb68c6868dc2b70d18d798ed
 ---
 
-New Caledonia: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # New Caledonia: SMS Guidelines
 
-SMS Guidelines for New Caledonia including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for New Caledonia including MCC and Dial Code. See Telnyx guidance and requirements Learn more about New Caledonia: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **SMS Guidelines for New Caledonia**
+## **SMS Guidelines for New Caledonia**
 
-**MCC:** 546  
-​**Dial Code:** 687  
-​  
+**MCC:** 546
+​**Dial Code:** 687
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

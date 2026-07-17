@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6592509-antigua-y-barbuda-sms-guidelines
+title: "Antigua y Barbuda: SMS Guidelines"
+description: "SMS Guidelines for Antigua y Barbuda including MCC and Dial Code. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 0827da4a7e283ef5bf538b7f3e7d35230eb8a85d16bbbeceac6d9432a1d4ec74
 ---
 
-Antigua y Barbuda: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Antigua y Barbuda: SMS Guidelines
 
-SMS Guidelines for Antigua y Barbuda including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Antigua y Barbuda including MCC and Dial Code. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **SMS Guidelines for Antigua y Barbuda**
+## **SMS Guidelines for Antigua y Barbuda**
 
-**MCC:** 344  
-​**Dial Code:** 1268  
-​  
+**MCC:** 344
+​**Dial Code:** 1268
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3220393-fusionpbx-telnyx-credentials
+title: "FusionPBX: Telnyx Credentials"
+description: "Configure FusionPBX 4.4 Trunk credentials with Telnyx - It's fast and easy. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 4ac47c8948d549b9fc5c37bbd9d3460fe19ce5800916a32a7a94b5b6f727b43d
 ---
 
-FusionPBX: Telnyx Credentials | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # FusionPBX: Telnyx Credentials
 
-Configure FusionPBX 4.4 Trunk credentials with Telnyx - It's fast and easy.
+Configure FusionPBX 4.4 Trunk credentials with Telnyx - It's fast and easy. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_cf4a5ee2e4)
 
@@ -33,7 +34,7 @@ Additional resources:
 
 ---
 
-# Instructions for configuring a credentials trunk between FusionPBX and Telnyx
+## Instructions for configuring a credentials trunk between FusionPBX and Telnyx
 
 In this activity you will:
 
@@ -52,15 +53,15 @@ In this activity you will:
   + This includes creating a [credentials-based connection](https://portal.telnyx.com/#/app/connections) on your Telnyx Mission Control Portal account, assigned this connection to a DID and outbound profile in order to make and receive calls
 * RECOMMENDED: [Enable TLS to encrypt your traffic](https://support.telnyx.com/en/articles/1130711-does-telnyx-encrypt-communication)
 * [Download](https://www.fusionpbx.com/download) and [install](https://docs.fusionpbx.com/en/latest/getting_started/quick_install.html) FusionPBX
-* (RECOMMENDED) We recommend using Debian as the operating system version that should be running FusionPBX. The current Debian version that we tested FusionPBX on was Debian-9.9.  
-  ​   
+* (RECOMMENDED) We recommend using Debian as the operating system version that should be running FusionPBX. The current Debian version that we tested FusionPBX on was Debian-9.9.
+  ​
   There are many applications that can be used to set up a Debian Operating System on your computer. In this article we use a program called [VirtualBOX VM](https://www.virtualbox.org/) to set up a Debian Virtual Machine. You can follow [these steps](#h_aa5ccbd9b1) to do so. If you don't want to use a Virtual Machine you can skip these steps and [go straight installation of the FusionPBX.](#install-fusionpbx)
 
 **Video Walkthrough**
 
 Setting up your Telnyx SIP portal account so you can make and receive calls:
 
-Install FusionPBX (From FusionPBX)  
+Install FusionPBX (From FusionPBX)
 ​
 
 |  |
@@ -118,16 +119,16 @@ FusionPBX can be installed on several different operating systems however we rec
 2. ### **Run the following commands as root. This will run a scrip that installs FusionPBX, FreeSWITCH release package and its dependencies, iptables, Fail2ban, NGINX, PHP-FPM, and PostgreSQL.**
 
    ```
-   #upgrade the packages  
-   apt-get update && apt-get upgrade -y  
-     
-   #install packages  
-   apt-get install -y git lsb-release  
-     
-   #get the install script  
-   cd /usr/src && git clone https://github.com/fusionpbx/fusionpbx-install.sh.git  
-     
-   #change the working directory  
+   #upgrade the packages
+   apt-get update && apt-get upgrade -y
+
+   #install packages
+   apt-get install -y git lsb-release
+
+   #get the install script
+   cd /usr/src && git clone https://github.com/fusionpbx/fusionpbx-install.sh.git
+
+   #change the working directory
    cd /usr/src/fusionpbx-install.sh/debian
    ```
 3. ### **At the end of the install script you will be instructed to go to the IP address of the server in your web browser to finish the install in the FusionPBX GUI.**
@@ -182,14 +183,14 @@ Once you have the installation of your FusionPBX set up, It is now time to confi
 1. ### **Now go to the "Accounts" header and select "Extensions".**
 2. ### **Click the "Add" button to add an extension. The following image shows an example of what they should look like.**
 
-   Note: The Telnyx support portal automatically shrinks images, so if you have trouble seeing it, right-click on the image and select Open Image in New Tab to view it in full size.   
+   Note: The Telnyx support portal automatically shrinks images, so if you have trouble seeing it, right-click on the image and select Open Image in New Tab to view it in full size.
    ​
 
    ![Extensions section of the FusionPBX portal. ](_images/7a62853ecad25dfa.png)
 3. ### **Once you've created an extension, you can click into it and change the password that was given to you if you'd like to.**
 
-   Note: Depending on your phone configuration, you may also wish to configure an outbound caller ID. You can apply this via the "Outbound Caller ID Number" field. For more information on the fields below, please visit [FusionPBX's extensions documentation](https://docs.fusionpbx.com/en/latest/accounts/extensions.html).  
-   ​  
+   Note: Depending on your phone configuration, you may also wish to configure an outbound caller ID. You can apply this via the "Outbound Caller ID Number" field. For more information on the fields below, please visit [FusionPBX's extensions documentation](https://docs.fusionpbx.com/en/latest/accounts/extensions.html).
+   ​
    ​*Before configuring an outbound caller ID, you should be aware of some of the naming conventions standard for caller ID creation:*
 
    * #### **Your outbound Caller ID Name should be in "capital letters". This will appears more clearly/visible on some devices.**
@@ -246,8 +247,8 @@ In this step, you will configure an outbound calling route pattern that Complete
 
 ## 7. Register your extensions with a device
 
-1. Go to the **Status** header and select **Registrations**. At this point you will need to register the extensions you created with whatever device you choose.   
-   ​  
+1. Go to the **Status** header and select **Registrations**. At this point you will need to register the extensions you created with whatever device you choose.
+   ​
    In this example, we used [Zoiper](https://support.telnyx.com/en/articles/6133517-zoiper-communicator) and Xlite softphone to register these extensions.
 2. All your registered devices will show up on the registration’s page.
 
@@ -283,5 +284,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

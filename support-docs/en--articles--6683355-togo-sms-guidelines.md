@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6683355-togo-sms-guidelines
+title: "Togo: SMS Guidelines"
+description: "Sending SMS to Togo? See Telnyx guidance and requirements Learn more about Togo: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 65b9ede65c64b02075a31073913c82a20c85d7c178d19ec376f8343c50369cc3
 ---
 
-Togo: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Togo: SMS Guidelines
 
-Sending SMS to Togo? Check out our comprehensive guidelines to ensure compliance in Togo.
+Sending SMS to Togo? See Telnyx guidance and requirements Learn more about Togo: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Togo: SMS Guidelines**
+## **Togo: SMS Guidelines**
 
-**MCC:** 615  
-​**Dial Code:** 228  
-​  
+**MCC:** 615
+​**Dial Code:** 228
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

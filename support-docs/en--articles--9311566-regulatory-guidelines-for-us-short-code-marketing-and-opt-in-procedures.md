@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/9311566-regulatory-guidelines-for-us-short-code-marketing-and-opt-in-procedures
+title: "Regulatory Guidelines for US Short Code Marketing and"
+description: "Call To Action Guidelines for Short Codes. See Telnyx guidance and requirements Learn more about Regulatory Guidelines for US Short Code Marketing and with."
 scraped: 2026-07-08
 content_hash: d306c0738aa6058c47158f63582251be59935c05311286ec3cfb94607a4757d2
 ---
 
-Regulatory Guidelines for US Short Code Marketing and Opt-in Procedures | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Regulatory Guidelines for US Short Code Marketing and Opt-in Procedures
 
-Call To Action Guidelines for Short Codes. Start building on Telnyx today.
+Call To Action Guidelines for Short Codes. See Telnyx guidance and requirements Learn more about Regulatory Guidelines for US Short Code Marketing and with.
 
 K
 
-Written by Klane Pedrie
 
-June 26, 2024
 
-Table of contents
 
-# Regulatory Guidelines for US Short Code Marketing and Opt-in Procedures
+## Regulatory Guidelines for US Short Code Marketing and Opt-in Procedures
 
 To ensure your short code campaign meets Telnyx's expectations, as outlined in our [Acceptable Use Policy](https://telnyx.com/acceptable-use-policy), your company must adhere to carrier compliance mandates, industry benchmarks, and relevant laws.
 
@@ -59,5 +60,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

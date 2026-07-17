@@ -1,20 +1,22 @@
 ---
 source_url: https://support.telnyx.com/en/articles/10058901-zambia-did-requirements
+title: "Zambia DID Requirements"
+description: "Requirements to acquire Zambia numbers. See Telnyx guidance and requirements Learn more about Zambia DID Requirements with Telnyx."
 scraped: 2026-07-08
 content_hash: e4c13a68634e5dc337e2996a49737b36856dabbb0d8052031fe09b043ebb51c2
 ---
 
-Zambia DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Zambia DID Requirements
 
-Requirements to acquire Zambia numbers. Start building on Telnyx today.
+Requirements to acquire Zambia numbers. See Telnyx guidance and requirements Learn more about Zambia DID Requirements with Telnyx.
 
-Written by NumberOps
 
-October 29, 2024
 
 In order to purchase a Zambia number you will need to provide the following:
 

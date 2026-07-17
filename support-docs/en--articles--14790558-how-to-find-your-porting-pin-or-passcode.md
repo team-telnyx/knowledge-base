@@ -1,32 +1,36 @@
 ---
 source_url: https://support.telnyx.com/en/articles/14790558-how-to-find-your-porting-pin-or-passcode
+title: "How to Find Your Porting PIN or Passcode"
+description: "When you port your number to Telnyx, your current carrier may require a PIN, passcode, See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 0a7135f2ec825f2835292daa611265b50e1a34727e6b48a4b769df35ecf80acc
 ---
 
-How to Find Your Porting PIN or Passcode | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How to Find Your Porting PIN or Passcode
 
-Written by Patrick Budzinski
+When you port your number to Telnyx, your current carrier may require a PIN, passcode, See Telnyx guidance and requirements.
 
-April 27, 2026
 
-Table of contents
 
-# What is a Porting PIN?
+
+
+## What is a Porting PIN?
 
 When you port your number to Telnyx, your current carrier may require a PIN, passcode, or transfer code to authorize the move. This is a security feature — it prevents unauthorized number transfers.
 
 **⚠️ Important:** This is NOT your carrier account password or login PIN. It's a separate code specifically for number porting.
 
-# Why Does This Matter?
+## Why Does This Matter?
 
 If the PIN doesn't match your carrier's records, your port will be rejected with `PASSCODE_PIN_INVALID`. This is the #1 cause of porting delays — but it's always fixable.
 
-# How to Get Your PIN
+## How to Get Your PIN
 
 ## AT&T
 
@@ -59,13 +63,13 @@ If the PIN doesn't match your carrier's records, your port will be rejected with
 
 * Call the carrier's business support line and ask: "What is the PIN or passcode needed to port my number to a new carrier?"
 
-# Tips
+## Tips
 
 * Your carrier may have a default PIN (often the last 4 digits of your account number or phone number)
 * Some carriers generate a new PIN each time — don't use an old one
 * If your port keeps getting rejected, ask the carrier to verify what PIN they have on file rather than guessing
 
-# Still Having Issues?
+## Still Having Issues?
 
 Contact our porting team at [porting@telnyx.com](mailto:porting@telnyx.com) with the PIN you're using and your carrier's name. We can work with the carrier directly.
 
@@ -78,5 +82,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

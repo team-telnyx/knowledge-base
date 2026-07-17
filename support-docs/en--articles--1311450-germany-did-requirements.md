@@ -1,103 +1,104 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1311450-germany-did-requirements
+title: "Germany DID Requirements"
+description: "Here you will find detailed requirements for acquiring Germany numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: bd226c0e0d50410523e6d2d650571a2eb346fe6b620f163116b73aa45baf2dfd
 ---
 
-Germany DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Germany DID Requirements
 
-Here you will find detailed requirements for acquiring Germany numbers.
+Here you will find detailed requirements for acquiring Germany numbers. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-May 26, 2026
 
-Table of contents
 
-# DID Number Requirements for Germany
+## DID Number Requirements for Germany
 
 In order to purchase a Germany number you will need to provide the following:
 
 ## **Local Numbers in Germany**
 
-For **personal identity** verification:  
-\* Name, last name  
-\* Contact phone number  
-\* Local Copy of ID or Passport  
-\* Germany registration form (see attachment below)  
-​  
-​For **business identity** verification:  
+For **personal identity** verification:
+\* Name, last name
+\* Contact phone number
+\* Local Copy of ID or Passport
+\* Germany registration form (see attachment below)
+​
+​For **business identity** verification:
 \* Name, last name of an authorized representative
 
-\* Company name  
+\* Company name
 \* Contact phone number
 
-\* Local Company Registration Certificate  
+\* Local Company Registration Certificate
 \* Germany registration form (see attachment below)
 
-*The form should be fully signed and include the representative's name, surname, date, and company's stamp. If the stamp is not available, the company's name should be written by hand on the registration form.*  
-​  
-​For **address** verification:  
-\* Address matching the DID area code (street, building number, postal code, city, and country)  
+*The form should be fully signed and include the representative's name, surname, date, and company's stamp. If the stamp is not available, the company's name should be written by hand on the registration form.*
+​
+​For **address** verification:
+\* Address matching the DID area code (street, building number, postal code, city, and country)
 \* A copy of a utility bill (less than 3 months old)
 
-Additional details:   
-\* End-users must be physically present in the country when purchasing numbers from that country  
+Additional details:
+\* End-users must be physically present in the country when purchasing numbers from that country
 \* Only scanned documents are acceptable for German number registration.
 
 ## **National Numbers in Germany**
 
-For **personal identity** verification:  
-\* Name, last name  
-\* Contact phone number  
-\* Local Copy of ID or Passport  
-\* Germany registration form (see attachment below)  
-​  
-​For **business identity** verification:  
+For **personal identity** verification:
+\* Name, last name
+\* Contact phone number
+\* Local Copy of ID or Passport
+\* Germany registration form (see attachment below)
+​
+​For **business identity** verification:
 \* Name, last name of an authorized representative
 
-\* Company name  
+\* Company name
 \* Contact phone number
 
-\* Local Passport or ID copy of an authorized representative  
-\* Local Company registration certificate  
-\* Germany registration form (see attachment below)  
+\* Local Passport or ID copy of an authorized representative
+\* Local Company registration certificate
+\* Germany registration form (see attachment below)
 ​
 
 *The form should be fully signed and include the representative's name, surname, date, and company stamp. If the stamp is not available, the company's name should be written by hand on the registration form.*
 
-For **address** verification:  
-\* Address in Germany matching the address in the PoA/ID (street, building number, postal code, city, and country)  
+For **address** verification:
+\* Address in Germany matching the address in the PoA/ID (street, building number, postal code, city, and country)
 \* Proof of address (dated within 3 months)
 
-Additional details:   
-\* End-users must be physically present in the country when purchasing numbers from that country  
+Additional details:
+\* End-users must be physically present in the country when purchasing numbers from that country
 \* Only scanned documents are acceptable for German number registration.
 
 ## **Toll-Free Numbers in Germany**
 
-For **business identity** verification:  
-\* Name, last name of an authorized representative  
-\* Company name  
-\* Contact phone number  
-\* Place of birth of an authorized representative  
-\* Local Passport or ID copy of an authorized representative  
-\* Signed LOI (dated within 1 month)  
-\* Power of attorney (*Please Note: This document will be provided by Telnyx)*  
+For **business identity** verification:
+\* Name, last name of an authorized representative
+\* Company name
+\* Contact phone number
+\* Place of birth of an authorized representative
+\* Local Passport or ID copy of an authorized representative
+\* Signed LOI (dated within 1 month)
+\* Power of attorney (*Please Note: This document will be provided by Telnyx)*
 \* Local Company registration certificate
 
-For **address** verification:  
-\* Address in Germany matching the Local Company registration certificate(street, building number, postal code, city and country)  
+For **address** verification:
+\* Address in Germany matching the Local Company registration certificate(street, building number, postal code, city and country)
 \* Proof of address (dated within 3 months)
 
-Additional details:   
-\* End-users must be physically present in the country when purchasing numbers from that country  
-\* Only scanned documents are acceptable for German number registration.  
-\* Service usage description in German  
+Additional details:
+\* End-users must be physically present in the country when purchasing numbers from that country
+\* Only scanned documents are acceptable for German number registration.
+\* Service usage description in German
 \* Marketing details in German
 
 **\* Business use required:** Business use is required for Germany toll-free numbers, private use is not allowed.
@@ -106,8 +107,8 @@ Additional details:
 
 ## **Identity Verification: What "Local" Means**
 
-For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.  
-​  
+For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.
+​
 All identification is subject to review, and we reserve the right to request additional documentation or decline any document we cannot verify or that does not meet applicable legal and regulatory requirements.
 
 ## **Helpful for acquiring Germany DIDs**
@@ -153,5 +154,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,30 +1,31 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6531675-belgium-sms-guidelines
+title: "Belgium: SMS Guidelines"
+description: "SMS Guidelines for Belgium including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Belgium: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 0d91e918809576ba13b6eb2b1ea7a2a743bb78e11ed4819eb7067765683398d3
 ---
 
-Belgium: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Belgium: SMS Guidelines
 
-SMS Guidelines for Belgium including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Belgium including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Belgium: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-February 18, 2025
 
-Table of contents
 
-# **SMS Guidelines for Belgium**
+## **SMS Guidelines for Belgium**
 
-**MCC:** 206  
-​**Dial Code:** 32  
-​  
-All Alphanumeric Sender IDs will be overwritten to either a random Local Long Code or [Short Code](https://telnyx.com/products/sms-short-code) to ensure delivery.  
-​  
+**MCC:** 206
+​**Dial Code:** 32
+​
+All Alphanumeric Sender IDs will be overwritten to either a random Local Long Code or [Short Code](https://telnyx.com/products/sms-short-code) to ensure delivery.
+​
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
@@ -38,5 +39,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

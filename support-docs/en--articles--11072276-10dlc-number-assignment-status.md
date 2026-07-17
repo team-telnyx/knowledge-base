@@ -1,22 +1,24 @@
 ---
 source_url: https://support.telnyx.com/en/articles/11072276-10dlc-number-assignment-status
+title: "10DLC Number Assignment Status"
+description: "Having deliverability issues with a number recently assigned to an approved 10DLC campaign? See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 6b910e3132ebde3ae6d27cd7bb6182af2aa63c5277ead58ec194101a80b78584
 ---
 
-10DLC Number Assignment Status | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # 10DLC Number Assignment Status
 
-Having deliverability issues with a number recently assigned to an approved 10DLC campaign?
+Having deliverability issues with a number recently assigned to an approved 10DLC campaign? See Telnyx guidance and requirements.
 
 K
 
-Written by Klane Pedrie
 
-April 11, 2025
 
 Even if you have taken the step of assigning a number to a 10DLC campaign does not mean you are ready to start sending right away.
 

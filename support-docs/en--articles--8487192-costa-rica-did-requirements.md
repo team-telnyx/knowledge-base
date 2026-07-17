@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8487192-costa-rica-did-requirements
+title: "Costa Rica DID Requirements"
+description: "Here you will find all of the requirements for purchasing numbers in Costa Rica. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 99fc0f1b7172122ae5c16261a204ac30c204591d3d3ccdb3fdb1df40afe5f4db
 ---
 
-Costa Rica DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Costa Rica DID Requirements
 
-Here you will find all of the requirements for purchasing numbers in Costa Rica.
+Here you will find all of the requirements for purchasing numbers in Costa Rica. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-November 24, 2025
 
-Table of contents
 
-# DID Number Requirements for Costa Rica
+## DID Number Requirements for Costa Rica
 
 In order to purchase a Costa Rica number you will need to provide the following:
 
@@ -26,12 +27,12 @@ In order to purchase a Costa Rica number you will need to provide the following:
 
 For **business identity** verification:
 
-\* Name, last name  
-\* Contact phone number  
-\* Company name  
-\* Company incorporation certificate copy  
-​  
-For **address** verification:  
+\* Name, last name
+\* Contact phone number
+\* Company name
+\* Company incorporation certificate copy
+​
+For **address** verification:
 \* Address Worldwide (street, building number, postal code, city and country)
 
 \*Business use required: Business use is required, private use is not allowed.
@@ -50,10 +51,10 @@ For **business identity** verification:
 
 \*Power of attorney
 
-\* Extract from the Commercial Register (Chamber of Commerce)  
-​  
-For **address** verification:  
-\* Address Worldwide (street, building number, postal code, city and country)  
+\* Extract from the Commercial Register (Chamber of Commerce)
+​
+For **address** verification:
+\* Address Worldwide (street, building number, postal code, city and country)
 \* Proof of address (dated within 3 months)
 
 \*Business use required: Business use is required, private use is not allowed.
@@ -99,5 +100,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8228452-email-notification-international-spend-limit
+title: "Email Notification: International Spend Limit"
+description: "In this article we will explain why you may have received this email. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: cca6b730f56e7daac8c6b27f59f409689667bb80b156e2c0a5b906d1d6a03e6f
 ---
 
-Email Notification: International Spend Limit | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Email Notification: International Spend Limit
 
-In this article we will explain why you may have received this email. Start building on Telnyx today.
+In this article we will explain why you may have received this email. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-January 26, 2026
 
-Table of contents
 
-# Managing Your International Spend with Telnyx Notifications
+## Managing Your International Spend with Telnyx Notifications
 
 ## What is the international spend limit?
 
@@ -39,7 +40,7 @@ Table of contents
 
   + For example: Ireland +353 (origination) to Ireland +353 (destination).
   + Or: United States +1 (origination) to United States +1 (destination).
-  + In other words, where the origination country and destination country are the same.   
+  + In other words, where the origination country and destination country are the same.
     ​
 
 ## Will I see an error code that indicates the limit was reached?
@@ -77,5 +78,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

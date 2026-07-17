@@ -1,46 +1,47 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3506111-china-did-requirements
+title: "China DID Requirements"
+description: "Here you will find a detailed list of requirements to acquire China numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 0bdd16b6c7d618ae3913a2c0ada38b04b6b0f3543aabf09b1863df548d200aac
 ---
 
-China DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # China DID Requirements
 
-Here you will find a detailed list of requirements to acquire China numbers.
+Here you will find a detailed list of requirements to acquire China numbers. See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-June 4, 2026
 
-Table of contents
 
-# DID Number Requirements for China
+## DID Number Requirements for China
 
 In order to purchase a Chinese number you will need to provide the following:
 
 ## **Local Numbers in China**
 
-For **business identity** verification:  
+For **business identity** verification:
 \* Name, last name of an authorized representative
 
 \* Company name
 
 \* Contact phone number of an authorized representative
 
-\* Copy of the ID card of an authorized representative with the company stamp  
-\* Picture of the authorized representative holding the ID card  
+\* Copy of the ID card of an authorized representative with the company stamp
+\* Picture of the authorized representative holding the ID card
 \* Chinese Business License with the company stamp (must contain “副本”)
 
-**Additional Information:**  
-\* Signed and stamped Customer Liability Authorization Letter *(This document will be provided by NumberOps)*  
-\* Signed and stamped Network and Information Security Commitment Letter *(This document will be provided by NumberOps)*  
+**Additional Information:**
+\* Signed and stamped Customer Liability Authorization Letter *(This document will be provided by NumberOps)*
+\* Signed and stamped Network and Information Security Commitment Letter *(This document will be provided by NumberOps)*
 \* Signed and stamped Scenario & Script Declaration (Write at least 3 outbound script examples. If no outbound is needed, please write the inbound script - *This document will be provided by NumberOps*)
 
-**\* Business use required:** Business use is required for China Local and Toll-free numbers, private use is not allowed.  
+**\* Business use required:** Business use is required for China Local and Toll-free numbers, private use is not allowed.
 \* A copy of the ID card of the business representative is required. Any other ID (such as Passport or Driver's License) is not acceptable.
 
 ## **Shared Cost Numbers in China**
@@ -114,5 +115,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6561115-latvia-sms-guidelines
+title: "Latvia: SMS Guidelines"
+description: "Sending SMS to Latvia? See Telnyx guidance and requirements Learn more about Latvia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 8c7834c6833823c07548ba474da1ba82d593f209ea7d6a6d1cb435fb3b7f5014
 ---
 
-Latvia: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Latvia: SMS Guidelines
 
-Sending SMS to Latvia? Check out our comprehensive guidelines to ensure compliance in Latvia.
+Sending SMS to Latvia? See Telnyx guidance and requirements Learn more about Latvia: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Latvia: SMS Guidelines**
+## **Latvia: SMS Guidelines**
 
-**MCC:** 247  
-​**Dial Code:** 371  
-​  
+**MCC:** 247
+​**Dial Code:** 371
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

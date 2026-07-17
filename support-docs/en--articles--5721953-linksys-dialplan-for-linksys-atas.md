@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5721953-linksys-dialplan-for-linksys-atas
+title: "Linksys: Dialplan for Linksys ATAs"
+description: "Master the Linksys dialplan digit sequences for ATAs. See Telnyx guidance and requirements Learn more about Linksys: Dialplan for Linksys ATAs with Telnyx."
 scraped: 2026-07-08
 content_hash: c9efcba2bda6a2dd8c951e38d195432299e5b93c48012ad988a913c3aefa4ac6
 ---
 
-Linksys: Dialplan for Linksys ATAs | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Linksys: Dialplan for Linksys ATAs
 
-Master the Linksys dialplan digit sequences for ATAs. Understand how phone digits are interpreted with Telnyx.
+Master the Linksys dialplan digit sequences for ATAs. See Telnyx guidance and requirements Learn more about Linksys: Dialplan for Linksys ATAs with Telnyx.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Dialplan](#h_2cb90844ea)
 
@@ -28,7 +29,7 @@ The basic dial plan provided in the configuration samples for the Linksys ATA de
 
 ---
 
-# How the Telnyx dialplan works with Linksys
+## How the Telnyx dialplan works with Linksys
 
 ## Telnyx recommended dialplan:
 
@@ -58,5 +59,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130634-port-numbers-to-telnyx
+title: "Port numbers to Telnyx"
+description: "Port your numbers to Telnyx with comprehensive guides and support, for a smooth transition to superior… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 05272672fd3a869894c57e52e526163cc1d70059dfd4476445e06869c897ebe4
 ---
 
-Port numbers to Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Port numbers to Telnyx
 
-Port your numbers to Telnyx with comprehensive guides and support, for a smooth transition to superior telecommunication services.
+Port your numbers to Telnyx with comprehensive guides and support, for a smooth transition to superior… See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-March 6, 2025
 
-Table of contents
 
 The Telnyx Mission Control platform allows you to submit ports directly from the online portal and view the status of any existing port requests in real time.
 
 Alternatively, you can port numbers through the [Mission Control API](https://support.telnyx.com/en/articles/1130736-mission-control-api-porting), which can be useful for those who wish to write programs that automate usage of Telnyx features.
 
-# Step-by-Step Guide to Porting
+## Step-by-Step Guide to Porting
 
 To get started, check out this video walkthrough or follow the steps below
 
@@ -97,5 +98,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

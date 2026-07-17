@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6670856-georgia-sms-guidelines
+title: "Georgia: SMS Guidelines"
+description: "Sending SMS to Georgia? See Telnyx guidance and requirements Learn more about Georgia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 261caeb50313268b3e8da204074afc4b83ed3393e201b71dd6163b3cde3a8789
 ---
 
-Georgia: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Georgia: SMS Guidelines
 
-Sending SMS to Georgia? Check out our comprehensive guidelines to ensure compliance in Georgia.
+Sending SMS to Georgia? See Telnyx guidance and requirements Learn more about Georgia: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Georgia: SMS Guidelines**
+## **Georgia: SMS Guidelines**
 
-**MCC:** 282  
-​**Dial Code:** 995  
-​  
+**MCC:** 282
+​**Dial Code:** 995
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

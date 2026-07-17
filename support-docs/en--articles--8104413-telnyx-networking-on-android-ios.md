@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8104413-telnyx-networking-on-android-ios
+title: "Telnyx Networking on Android/iOS"
+description: "Global Edge Router setup using the WireGuard App for the iOS and Android mobile… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: b13ef8e1145bc2d4c0e5d184a8f9f40607618e7a3c836cf9242092e0f36a9264
 ---
 
-Telnyx Networking on Android/iOS | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Telnyx Networking on Android/iOS
 
-Global Edge Router setup using the WireGuard App for the iOS and Android mobile platforms
+Global Edge Router setup using the WireGuard App for the iOS and Android mobile… See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-April 30, 2026
 
-Table of contents
 
 WireGuard has native client installations for both [Android](https://play.google.com/store/apps/details?id=com.wireguard.android) and [iOS](https://apps.apple.com/us/app/wireguard/id1441195209?ls=1) that we can use to test or monitor our Telnyx Edge instances.
 
-# Android/iOS and the Telnyx Network
+## Android/iOS and the Telnyx Network
 
 This is probably the easiest way to test out the service with a simple and effortless 3 steps to follow.
 
@@ -36,7 +37,7 @@ Copy and take note of the Peer Configuration file along with the private key tha
 
 Install the client on your preferred platform; [Android](https://play.google.com/store/apps/details?id=com.wireguard.android) or [iOS](https://apps.apple.com/us/app/wireguard/id1441195209?ls=1)
 
-On the top right, there will be a + button for us to add a peer. Click on it.  
+On the top right, there will be a + button for us to add a peer. Click on it.
 Here we can add the configuration settings that we generated from Step 1.
 
 The interface should look like the following for Android and iOS respectively:
@@ -56,19 +57,19 @@ or you can curl/trace into your server to confirm the Global IP that is configur
 Example Response:
 
 ```
-root@MacBook-Pro % ping 172.27.1.17  
-PING 172.27.1.17 (172.27.1.17): 56 data bytes  
-64 bytes from 172.27.1.17: icmp_seq=0 ttl=53 time=184.512 ms  
-64 bytes from 172.27.1.17: icmp_seq=1 ttl=53 time=183.202 ms  
-64 bytes from 172.27.1.17: icmp_seq=2 ttl=53 time=183.365 ms  
-64 bytes from 172.27.1.17: icmp_seq=3 ttl=53 time=183.040 ms  
-64 bytes from 172.27.1.17: icmp_seq=4 ttl=53 time=183.310 ms  
-64 bytes from 172.27.1.17: icmp_seq=5 ttl=53 time=183.980 ms  
-64 bytes from 172.27.1.17: icmp_seq=6 ttl=53 time=183.457 ms  
-64 bytes from 172.27.1.17: icmp_seq=7 ttl=53 time=183.097 ms  
-^C  
---- 172.27.1.17 ping statistics ---  
-8 packets transmitted, 8 packets received, 0.0% packet loss  
+root@MacBook-Pro % ping 172.27.1.17
+PING 172.27.1.17 (172.27.1.17): 56 data bytes
+64 bytes from 172.27.1.17: icmp_seq=0 ttl=53 time=184.512 ms
+64 bytes from 172.27.1.17: icmp_seq=1 ttl=53 time=183.202 ms
+64 bytes from 172.27.1.17: icmp_seq=2 ttl=53 time=183.365 ms
+64 bytes from 172.27.1.17: icmp_seq=3 ttl=53 time=183.040 ms
+64 bytes from 172.27.1.17: icmp_seq=4 ttl=53 time=183.310 ms
+64 bytes from 172.27.1.17: icmp_seq=5 ttl=53 time=183.980 ms
+64 bytes from 172.27.1.17: icmp_seq=6 ttl=53 time=183.457 ms
+64 bytes from 172.27.1.17: icmp_seq=7 ttl=53 time=183.097 ms
+^C
+--- 172.27.1.17 ping statistics ---
+8 packets transmitted, 8 packets received, 0.0% packet loss
 round-trip min/avg/max/stddev = 183.040/183.495/184.512/0.471 ms
 ```
 
@@ -87,5 +88,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

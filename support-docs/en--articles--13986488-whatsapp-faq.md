@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/13986488-whatsapp-faq
+title: "WhatsApp FAQ"
+description: "Frequently asked questions about WhatsApp Business Platform on Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 3154493d577f0184d1eb3aada07d2d4a697e2aee678a15ce304768eccaf2ff21
 ---
 
-WhatsApp FAQ | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # WhatsApp FAQ
 
-Frequently asked questions about WhatsApp Business Platform on Telnyx.
+Frequently asked questions about WhatsApp Business Platform on Telnyx. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-March 16, 2026
 
-Table of contents
 
-# General
+## General
 
 ## What phone number types can I use with WhatsApp?
 
@@ -36,7 +37,7 @@ WhatsApp Business Platform is available globally wherever WhatsApp operates. You
 
 Yes. A Meta Business Manager account is required to create a WhatsApp Business Account (WABA). You'll connect it during the Embedded Signup flow.
 
-# Messaging
+## Messaging
 
 ## What is the maximum message size?
 
@@ -58,7 +59,7 @@ Telnyx supports these interactive types: quick reply buttons, CTA URL buttons, l
 
 You can send messages programmatically at scale via the API. However, you are subject to Meta's messaging limit tiers (starting at 1,000 unique recipients per 24 hours for new WABAs). You must use approved templates for business-initiated conversations.
 
-# Templates
+## Templates
 
 ## How long does template approval take?
 
@@ -72,7 +73,7 @@ Meta allows up to 6,000 templates per WABA. In practice, keep your template libr
 
 You can edit certain aspects of approved templates (like header media type), but changes to the body or category require re-approval. In many cases, it's easier to create a new template.
 
-# Billing
+## Billing
 
 ## Am I charged per message or per conversation?
 
@@ -86,7 +87,7 @@ Conversations initiated from Click-to-WhatsApp ads or Facebook Page buttons are 
 
 Each delivery status webhook includes a `billing_type` field indicating the conversation category. You can also view costs in the Telnyx Portal under Message Detail Records.
 
-# Technical
+## Technical
 
 ## What API endpoint do I use?
 
@@ -109,5 +110,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

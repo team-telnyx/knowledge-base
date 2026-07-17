@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6203347-fanvil-h3w-h5w-wifi-ip
+title: "Fanvil H3W/H5W: WiFi IP"
+description: "Learn how to configure a Telnyx SIP trunk on the Fanvil H3W/H5W WiFi IP… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: dae55f4971a98e38a4eccf77064103145f495c684a5e4d81af6e6a08c2cc927a
 ---
 
-Fanvil H3W/H5W: WiFi IP | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Fanvil H3W/H5W: WiFi IP
 
-Learn how to configure a Telnyx SIP trunk on the Fanvil H3W/H5W WiFi IP phone
+Learn how to configure a Telnyx SIP trunk on the Fanvil H3W/H5W WiFi IP… See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_0e419796a7)
 
@@ -37,7 +38,7 @@ Table of contents
 
 ---
 
-# Instructions for setting up and configuring your Fanvil H3W/H5W WiFi IP Phone
+## Instructions for setting up and configuring your Fanvil H3W/H5W WiFi IP Phone
 
 In this activity you will:
 
@@ -107,7 +108,7 @@ In this section, you'll add codecs to your phone configuration that will support
 
    * *H264*
 
-That's it, you've now completed the configuration of the Fanvil H3W/H5W WiFi IP Phone with your Telnyx account.  
+That's it, you've now completed the configuration of the Fanvil H3W/H5W WiFi IP Phone with your Telnyx account.
 ​
 
 [Back to Top](#h_0e419796a7)
@@ -138,5 +139,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

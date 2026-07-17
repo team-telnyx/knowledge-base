@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3266934-finland-number-porting
+title: "Finland Number Porting"
+description: "Here you will find all of the requirements for Finland number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: d906bac2ae47ad45de90405df6105f4994a8947416c1ea04a8e59968e45392ba
 ---
 
-Finland Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Finland Number Porting
 
-Here you will find all of the requirements for Finland number portability.
+Here you will find all of the requirements for Finland number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
-# **Finland Local/ National Numbers**
+## **Finland Local/ National Numbers**
 
 1. LOA
 2. VAT/TAX ID or social security number
@@ -50,5 +51,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

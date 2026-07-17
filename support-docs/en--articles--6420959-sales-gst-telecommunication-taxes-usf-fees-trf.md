@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6420959-sales-gst-telecommunication-taxes-usf-fees-trf
+title: "Sales, GST, Telecommunication Taxes, USF Fees & TRF"
+description: "Details of relevant fees and taxes for US Telnyx… See Telnyx guidance and requirements Learn more about Sales, GST, Telecommunication Taxes, USF Fees & TRF."
 scraped: 2026-07-08
 content_hash: 5544e30e66620aa1e16c65320a1b3a3d8fd1d057d1e2f6fc4df04970cf9c41e5
 ---
 
-Sales, GST, Telecommunication Taxes, USF Fees & TRF | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Sales, GST, Telecommunication Taxes, USF Fees & TRF
 
-Details of relevant fees and taxes for US Telnyx customers
+Details of relevant fees and taxes for US Telnyx… See Telnyx guidance and requirements Learn more about Sales, GST, Telecommunication Taxes, USF Fees & TRF.
 
-Written by Telnyx Sales
 
-May 20, 2026
 
-Table of contents
 
 **Contents:**
 
@@ -24,16 +25,16 @@ Table of contents
 2. [USF Fees](#h_66dc72f1d4)
 3. [TRS Fees](#h_2ef0183868)
 
-# Frequently Asked Questions
+## Frequently Asked Questions
 
 ---
 
-# US Sales & Telecommunications Taxes
+## US Sales & Telecommunications Taxes
 
 ## **What are sales & telecommunication taxes?**
 
-Sales & telecommunication taxes are taxes charged on the sale of a product or service. These taxes may be assessed at the State, County, and Municipal jurisdictional levels.  
-​  
+Sales & telecommunication taxes are taxes charged on the sale of a product or service. These taxes may be assessed at the State, County, and Municipal jurisdictional levels.
+​
 Each jurisdiction may categorize Telnyx’s products differently, and these jurisdictions may have different regulations regarding the applicable taxes.
 
 ## **Why is Telnyx charging US Sales or Telecommunication Taxes?**
@@ -91,7 +92,7 @@ Subject to all applicable laws and changes thereof, customers who qualify for ta
 
 No. Per our standard operating procedures, we do not adjust the billing or invoicing of a closed billing period. Your past months' taxes will not be recalculated and charged. No previous invoices will be regenerated.
 
-# USF Fees
+## USF Fees
 
 ### What are USF fees?
 
@@ -117,7 +118,7 @@ Under the dedicated section for tax charges on your Telnyx invoice, you will see
 
 If your company files the FCC Form 499-A and makes USF contributions directly as a provider of telecommunications, your company may qualify for an exemption from USF fee that we impose on USF-assessable services. Please reach out to [tax@telnyx.com](mailto:tax@telnyx.com) with appropriate documents to apply for exemption from USF fee. Also note that you are required to renew this exemption certificate annually.
 
-# TRS Fees
+## TRS Fees
 
 ## About TRS Fees
 
@@ -154,5 +155,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

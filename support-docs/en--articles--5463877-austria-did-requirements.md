@@ -1,44 +1,45 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5463877-austria-did-requirements
+title: "Austria DID Requirements"
+description: "Here you will find all the requirements for acquiring Austrian numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 37abcef13b902f2b473db7a11d8468f1ae9f7ca0141a2978510f745ddd3aa732
 ---
 
-Austria DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Austria DID Requirements
 
-Here you will find all the requirements for acquiring Austrian numbers.
+Here you will find all the requirements for acquiring Austrian numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-May 26, 2026
 
-Table of contents
 
-# DID Number Requirements for Austria
+## DID Number Requirements for Austria
 
 In order to purchase an Austria number you will need to provide the following:
 
 ## **Local Numbers in Austria**
 
-For **personal identity** verification:  
-\* Name, last name  
-\* Contact phone number  
-\* Local Passport or ID copy  
-​  
-For **business identity** verification:  
-\* Name, last name of an authorized representative  
+For **personal identity** verification:
+\* Name, last name
+\* Contact phone number
+\* Local Passport or ID copy
+​
+For **business identity** verification:
+\* Name, last name of an authorized representative
 \* Company name
 
 \* Contact phone number
 
-\* Local Passport or ID copy of an authorized representative  
-\* Local Company registration certificate  
-​  
-For **address** verification:  
+\* Local Passport or ID copy of an authorized representative
+\* Local Company registration certificate
+​
+For **address** verification:
 \* Address matching the DID area code (street, building number, postal code, city and country)
 
 \* Proof of address (dated within 3 months)
@@ -49,26 +50,26 @@ Additional details:
 
 ## **National Numbers in Austria**
 
-For **personal identity** verification:  
-\* Name, last name  
-\* Contact phone number  
-\* Local Passport or ID copy  
-​  
-For **business identity** verification:  
-\* Name, last name  
+For **personal identity** verification:
+\* Name, last name
+\* Contact phone number
+\* Local Passport or ID copy
+​
+For **business identity** verification:
+\* Name, last name
 \* Contact phone number
 
-\* Passport or ID copy  
-\* Company name  
-\* Local Company incorporation certificate   
-​  
-For **address** verification:  
+\* Passport or ID copy
+\* Company name
+\* Local Company incorporation certificate
+​
+For **address** verification:
 \* Address in Austria (street, building number, postal code, city and country)
 
 \* Copy of utility bill (no older than 3 months)
 
-Additional details:   
-\* End-users must be physically present in the country when purchasing numbers from that country  
+Additional details:
+\* End-users must be physically present in the country when purchasing numbers from that country
 ​
 
 ## **Toll-Free and Mobile Numbers in Austria**
@@ -89,18 +90,18 @@ For **business identity** verification:
 
 \* Local Company registration certificate
 
-For **address** verification:  
+For **address** verification:
 \* Address in Austria (street, building number, postal code, city and country)
 
 \* Copy of utility bill (no older than 3 months)
 
-Additional details:   
+Additional details:
 \* End-users must be physically present in the country when purchasing numbers from that country
 
 ## Identity Verification: What "Local" Means
 
-For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.  
-​  
+For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.
+​
 All identification is subject to review, and we reserve the right to request additional documentation or decline any document we cannot verify or that does not meet applicable legal and regulatory requirements.
 
 ## **Helpful for acquiring Austria DIDs**
@@ -146,5 +147,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

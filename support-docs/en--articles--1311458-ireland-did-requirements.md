@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1311458-ireland-did-requirements
+title: "Ireland DID Requirements"
+description: "Here you will find detailed requirements for acquiring Ireland numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 09fe87db0856b0164972bee03f96e2f6da92c9f60018af50e1aec5d47aa38005
 ---
 
-Ireland DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Ireland DID Requirements
 
-Here you will find detailed requirements for acquiring Ireland numbers.
+Here you will find detailed requirements for acquiring Ireland numbers. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-May 26, 2026
 
-Table of contents
 
-# DID Number Requirements for Ireland
+## DID Number Requirements for Ireland
 
 In order to purchase an Ireland number you will need to provide the following:
 
@@ -112,15 +113,15 @@ For **address** verification:
 
 Additional Information:
 
-\* Service usage description  
+\* Service usage description
 \* Business use required: Business use is required for IE mobile numbers, private use is not allowed.
 
 \*Please note that once the documentation is received it will take approximately 72 hours to validate the information and activate the number for use.
 
 ## **Identity Verification: What "Local" Means**
 
-For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.  
-​  
+For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.
+​
 All identification is subject to review, and we reserve the right to request additional documentation or decline any document we cannot verify or that does not meet applicable legal and regulatory requirements.
 
 ## **Helpful for acquiring Ireland DIDs**
@@ -164,5 +165,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

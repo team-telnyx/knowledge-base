@@ -1,30 +1,31 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6670843-gambia-sms-guidelines
+title: "Gambia: SMS Guidelines"
+description: "Sending SMS to Gambia? See Telnyx guidance and requirements Learn more about Gambia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 3c380229445a8e793fdd9cc857072ba2496dcfb32e95966f9e3065b7a6d2cb95
 ---
 
-Gambia: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# Gambia: SMS Guidelines
 
-Sending SMS to Gambia? Check out our comprehensive guidelines to ensure compliance in Gambia.
 
-Written by Telnyx Engineering
 
-November 21, 2023
-
-Table of contents
 
 # Gambia: SMS Guidelines
 
-**MCC:** 628  
-​**Dial Code:** 241  
-​  
-Alphanumeric Sender IDs are supported and will be maintained, no registration is required.  
-​  
+Sending SMS to Gambia? See Telnyx guidance and requirements Learn more about Gambia: SMS Guidelines with Telnyx.
+
+
+
+
+## Gambia: SMS Guidelines
+
+**MCC:** 628
+​**Dial Code:** 241
+​
+Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
+​
 The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be directly related to the message content.
 
 Religious, political or adult traffic is prohibited.
@@ -42,5 +43,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

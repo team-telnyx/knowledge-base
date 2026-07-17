@@ -1,93 +1,94 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3506173-georgia-did-requirements
+title: "Georgia DID Requirements"
+description: "Here you will find a detailed list of requirements to acquire Georgia numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: e52e2edfc8ddc34501c0000835a1f7108df6470460bcf7025c390b2264db8af1
 ---
 
-Georgia DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Georgia DID Requirements
 
-Here you will find a detailed list of requirements to acquire Georgia numbers.
+Here you will find a detailed list of requirements to acquire Georgia numbers. See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-June 5, 2024
 
-Table of contents
 
-# DID Number Requirements for Georgia
+## DID Number Requirements for Georgia
 
 In order to purchase a Georgia number you will need to provide the following:
 
 ## **Local Numbers in Georgia**
 
-For **personal identity** verification:  
-\* Name, last name  
+For **personal identity** verification:
+\* Name, last name
 \* Contact phone number
 
-\* Contact e-mail  
-\* Passport or ID copy  
-\* Georgia registration form  
-​  
-​For **business identity** verification:  
+\* Contact e-mail
+\* Passport or ID copy
+\* Georgia registration form
+​
+​For **business identity** verification:
 \* Name, last name of an authorized representative
 
-\* Company name  
+\* Company name
 \* Contact phone number
 
-\* Contact e-mail  
-\* Company registration certificate  
-\* Georgia registration form  
-​  
-​For **address** verification:  
-\* Address matching the DID area code (street, building number, postal code, city and country)  
+\* Contact e-mail
+\* Company registration certificate
+\* Georgia registration form
+​
+​For **address** verification:
+\* Address matching the DID area code (street, building number, postal code, city and country)
 \* A copy of a utility bill (less than 3 months old)
 
 ## **National Numbers in Georgia**
 
-For **personal identity** verification:  
-\* Name, last name  
-\* Contact phone number  
-\* Passport or ID copy  
-\* Georgia registration form  
-​  
-​For **business identity** verification:  
+For **personal identity** verification:
+\* Name, last name
+\* Contact phone number
+\* Passport or ID copy
+\* Georgia registration form
+​
+​For **business identity** verification:
 \* Name, last name of an authorized representative
 
-\* Company name  
-\* Contact phone number  
-\* Company registration certificate  
-\* Georgia registration form  
-​  
-​For **address** verification:  
+\* Company name
+\* Contact phone number
+\* Company registration certificate
+\* Georgia registration form
+​
+​For **address** verification:
 \* Address worldwide (street, building number, postal code, city, and country)
 
 ## **Toll-Free Numbers in Georgia**
 
-For **personal identity** verification:  
-\* Name, last name of an authorized representative  
+For **personal identity** verification:
+\* Name, last name of an authorized representative
 \* Contact phone number
 
-\* Contact e-mail  
-\* Passport or ID copy  
-\* Georgia registration form  
-​  
-​For **business identity** verification:  
+\* Contact e-mail
+\* Passport or ID copy
+\* Georgia registration form
+​
+​For **business identity** verification:
 \* Name, last name
 
-\* Company name  
+\* Company name
 \* Contact phone number
 
-\* Contact e-mail  
-\* Company registration certificate  
+\* Contact e-mail
+\* Company registration certificate
 \* Georgia registration form
 
-\* Forms holding Terms & Conditions needs to be signed  
-​  
-​For **address** verification:  
+\* Forms holding Terms & Conditions needs to be signed
+​
+​For **address** verification:
 \* Address worldwide (street, building number, postal code, city, and country)
 
 \* Proof of Address (dated within 3 months)
@@ -135,5 +136,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

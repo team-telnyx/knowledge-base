@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6325747-10dlc-trust-scores-use-cases
+title: "10DLC: Trust Scores & Use Cases"
+description: "Master the intricacies of 10DLC messaging. See Telnyx guidance and requirements Learn more about 10DLC: Trust Scores & Use Cases with Telnyx."
 scraped: 2026-07-08
 content_hash: d6bd1ec81d473ca63ef7c249bc414517b46feea43b2132519727076e3bfa6773
 ---
 
-10DLC: Trust Scores & Use Cases | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # 10DLC: Trust Scores & Use Cases
 
-Master the intricacies of 10DLC messaging. Trust scores, campaign use cases: ensure optimal SMS throughput and brand reputation with Telnyx.
+Master the intricacies of 10DLC messaging. See Telnyx guidance and requirements Learn more about 10DLC: Trust Scores & Use Cases with Telnyx.
 
-Written by Telnyx Sales
 
-June 6, 2024
 
-Table of contents
 
-# 10DLC Messaging throughput, Trust Scores, Campaign Use Cases and Vetting
+## 10DLC Messaging throughput, Trust Scores, Campaign Use Cases and Vetting
 
 In the US, [A2P](https://telnyx.com/resources/what-is-a2p-messaging) 10DLC message sending throughput is set based on your Trust Score and your Use Case (“Campaign”) type. In this article you will find a guide of what these are, how they are allocated, and the third parties involved in the process.
 
@@ -53,5 +54,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

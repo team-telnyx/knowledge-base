@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3506082-bosnia-herzegovina-did-requirements
+title: "Bosnia & Herzegovina DID Requirements"
+description: "Here you will find a detailed list of requirements to acquire Bosnia & Herzegovina numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 05c16f37153d04bcc8f476e7268b81302ca17fd7118da40ddc6b6440cc54786c
 ---
 
-Bosnia & Herzegovina DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Bosnia & Herzegovina DID Requirements
 
-Here you will find a detailed list of requirements to acquire Bosnia & Herzegovina numbers.
+Here you will find a detailed list of requirements to acquire Bosnia & Herzegovina numbers. See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-September 29, 2025
 
-Table of contents
 
-# DID Number Requirements for Bosnia & Herzegovina
+## DID Number Requirements for Bosnia & Herzegovina
 
 In order to purchase a Bosnia & Herzegovina number you will need to provide the following:
 
@@ -115,5 +116,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

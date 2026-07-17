@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4320411-more-about-outbound-voice-profiles
+title: "More About Outbound Voice Profiles"
+description: "This article will explain how to set up an outbound voice profile and the different service plans and billing options… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: e4044dcf2c4cb2fdc66ef8bc9531b3d4420740b79f017c4fbce3f5a4373391b6
 ---
 
-More About Outbound Voice Profiles | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # More About Outbound Voice Profiles
 
-This article will explain how to set up an outbound voice profile and the different service plans and billing options available
+This article will explain how to set up an outbound voice profile and the different service plans and billing options… See Telnyx guidance and requirements.
 
-Written by Dillin
 
-May 14, 2026
 
-Table of contents
 
-# What is an Outbound Voice Profile?
+## What is an Outbound Voice Profile?
 
 The Outbound Voice Profile section of your Telnyx portal account is where you will manage the Service Plans, Billing Methods, and Traffic Types for your outbound voice traffic. You can also view your Account Level Outbound Concurrent Call Limit at the top right of the page.
 
@@ -101,5 +102,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/13545282-guide-to-sole-proprietor-10dlc-brand-and-campaign-registration
+title: "Guide to Sole Proprietor 10DLC Brand and Campaign"
+description: "This guide provides a step-by-step walkthrough for registering a Sole Proprietor 10DLC Brand and Campaign in the Telnyx… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 25c1106c094619bdd2dc507005df38013bd5d4b5e533642f3494ddd6ee53d1a2
 ---
 
-Guide to Sole Proprietor 10DLC Brand and Campaign Registration | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Guide to Sole Proprietor 10DLC Brand and Campaign Registration
 
-This guide provides a step-by-step walkthrough for registering a Sole Proprietor 10DLC Brand and Campaign in the Telnyx Mission Control Portal.
+This guide provides a step-by-step walkthrough for registering a Sole Proprietor 10DLC Brand and Campaign in the Telnyx… See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 28, 2026
 
-Table of contents
 
 For small business owners and freelancers without a federal Tax ID (EIN), the Sole Proprietor registration is the required path for sending compliant A2P (Application-to-Person) messages to local US numbers.
 
@@ -123,5 +124,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

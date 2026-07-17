@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130702-where-can-i-buy-dids-in-the-us-canada
+title: "Where can I Buy DIDs in the US & Canada?"
+description: "Need to purchase DIDs in the US or Canada? See Telnyx guidance and requirements Learn more about Where can I Buy DIDs in the US & Canada? with Telnyx."
 scraped: 2026-07-08
 content_hash: 5f537b58f0671121a74311273fd03537b581c23be7c4070b59f8847693e3888c
 ---
 
-Where can I Buy DIDs in the US & Canada? | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Where can I Buy DIDs in the US & Canada?
 
-Need to purchase DIDs in the US or Canada? We can provide numbers in every state and every province.
+Need to purchase DIDs in the US or Canada? See Telnyx guidance and requirements Learn more about Where can I Buy DIDs in the US & Canada? with Telnyx.
 
-Written by Telnyx Sales
 
-January 10, 2024
 
-Table of contents
 
-# In which States/Canadian Provinces can I purchase DIDs?
+## In which States/Canadian Provinces can I purchase DIDs?
 
 We have access to over 15,000 Rate Centers across US and Canada. With Telnyx, you can purchase DIDs from all over the US and Canada.
 
@@ -35,5 +36,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

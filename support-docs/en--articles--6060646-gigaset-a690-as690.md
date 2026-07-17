@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6060646-gigaset-a690-as690
+title: "Gigaset A690/AS690"
+description: "Explore the versatility of the Gigaset A690 IP phone with its ability to make up to 3 parallel calls via internet or… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a59259454cb4717d3302047d60566198e3e99b192af533249111d8bca732b38a
 ---
 
-Gigaset A690/AS690 | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Gigaset A690/AS690
 
-Explore the versatility of the Gigaset A690 IP phone with its ability to make up to 3 parallel calls via internet or traditional landline.
+Explore the versatility of the Gigaset A690 IP phone with its ability to make up to 3 parallel calls via internet or… See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-July 4, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_7f1aec23d7)
 
@@ -42,7 +43,7 @@ Additional documentation:
 
 ---
 
-# Instructions for setting up and configuring your Gigaset A690 IP
+## Instructions for setting up and configuring your Gigaset A690 IP
 
 In this activity you will:
 
@@ -73,7 +74,7 @@ Let's start by making sure your device's base and handset are running the latest
 6. Your unit will check to see if a new firmware version is available. It will give you a message on the firmware status. If new firmware is available, click **OK** to begin the update for your unit's base.
 7. Once the base firmware update has completed, you can update the handset firmware. Press the **Menu** button and navigate to **Settings**. Click **OK**.
 8. From the settings menu, navigate to **Firmware Update** and click **OK**.
-9. From here, navigate to Update and click **OK**. If a new firmware update is available, this begins the update. This update can take up to 30 minutes to complete.  
+9. From here, navigate to Update and click **OK**. If a new firmware update is available, this begins the update. This update can take up to 30 minutes to complete.
    ​
 
 [Back to Top](#h_7f1aec23d7)
@@ -179,5 +180,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1424680-international-coverage
+title: "International Coverage"
+description: "International numbers - Learn about proposed numbers for different countries (in ISO 2 and ISO 3). See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: afc1bdde190fbcb324bd21c9073a907d08bb8d56015f949e47c94309eb2fb41a
 ---
 
-International Coverage | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # International Coverage
 
-International numbers - Learn about proposed numbers for different countries (in ISO 2 and ISO 3).
+International numbers - Learn about proposed numbers for different countries (in ISO 2 and ISO 3). See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-October 10, 2023
 
-Table of contents
 
-# **International Coverage**
+## **International Coverage**
 
 **Telnyx proposes numbers in the following countries :**
 
@@ -172,5 +173,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

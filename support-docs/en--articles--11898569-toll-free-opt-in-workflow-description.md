@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/11898569-toll-free-opt-in-workflow-description
+title: "Toll Free Opt in Workflow Description"
+description: "1. See Telnyx guidance and requirements Learn more about Toll Free Opt in Workflow Description with Telnyx."
 scraped: 2026-07-08
 content_hash: 0135186e7b4fd205be673cc95b9ad6c8e30e89e905c085cd4157bf7efe3aabc3
 ---
 
-Toll Free Opt in Workflow Description | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Toll Free Opt in Workflow Description
 
-K
+1. See Telnyx guidance and requirements Learn more about Toll Free Opt in Workflow Description with Telnyx.
 
-Written by Klane Pedrie
 
-July 31, 2025
 
-Table of contents
 
 ## Your Toll Free Opt in Workflow Description should follow one of four templates.
 
@@ -78,5 +79,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

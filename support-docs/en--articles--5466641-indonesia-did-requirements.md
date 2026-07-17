@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5466641-indonesia-did-requirements
+title: "Indonesia DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Indonesia numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ecaf961b04d02a5a937158087bde3ebd3accd64b3d5c6eed5d21ad04a49b95db
 ---
 
-Indonesia DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Indonesia DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Indonesia numbers.
+Here you will find a list of detailed requirements for acquiring Indonesia numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-September 29, 2025
 
-Table of contents
 
-# DID Number Requirements for Indonesia
+## DID Number Requirements for Indonesia
 
 In order to purchase an Indonesia number you will need to provide the following:
 
@@ -30,8 +31,8 @@ For **personal identity** verification:
 
 \* Contact phone number
 
-\* Local Passport or ID copy  
-\* Local NPWP Card (Tax ID)  
+\* Local Passport or ID copy
+\* Local NPWP Card (Tax ID)
 \* LOI (Provided by NumberOps)
 
 For **business identity** verification:
@@ -42,8 +43,8 @@ For **business identity** verification:
 
 \* Contact phone number
 
-\* Local Passport or ID copy of an authorized representative  
-\* Business Registration Certificate (NIB)  
+\* Local Passport or ID copy of an authorized representative
+\* Business Registration Certificate (NIB)
 \* LOI (Provided by NumberOps)
 
 For **address** verification:
@@ -123,5 +124,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

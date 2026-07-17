@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5790092-algo-8xxx-telnyx-endpoints
+title: "Algo 8xxx: Telnyx Endpoints"
+description: "Learn how to configure your Algo device and register Algo SIP endpoints with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 437d87a2130c38945e696689bb66721353b1ec01d10e713e3ad6d4ee3bd1e9d5
 ---
 
-Algo 8xxx: Telnyx Endpoints | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Algo 8xxx: Telnyx Endpoints
 
-Learn how to configure your Algo device and register Algo SIP endpoints with Telnyx.
+Learn how to configure your Algo device and register Algo SIP endpoints with Telnyx. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_6d2d1486d1)
 
@@ -33,7 +34,7 @@ Additional documentation:
 
 ---
 
-# Instructions for configuring Algo SIP endpoints with Telnyx
+## Instructions for configuring Algo SIP endpoints with Telnyx
 
 In this activity you will:
 
@@ -74,7 +75,7 @@ In this step, you will associate the credentials for your Telnyx SIP account/sub
    2. **Base/Page Extension:** Your account/sub-account username
    3. **Authentication ID:** Your account/sub-account username
    4. **Authentication Password:** Your account/sub-account password
-   5. **Display Name:** Your outbound caller ID. (Devices set to make outgoing calls require a caller ID to be configured on your Telnyx SIP account, as mentioned in the [pre-requisites](#h_1ff6c0a181).)  
+   5. **Display Name:** Your outbound caller ID. (Devices set to make outgoing calls require a caller ID to be configured on your Telnyx SIP account, as mentioned in the [pre-requisites](#h_1ff6c0a181).)
       ​
 
    ***Note that*** *if you want to register additional extensions for ringing, paging and emergency alerting, you will need to use unique credential for the respective extension in the same way. You can use any combination of page, ring, and/or emergency alerts is fine, so long as their credentials are unique!*
@@ -90,8 +91,8 @@ In this step, you will enable and activate TLS for SIP transportation and SRTP e
 1. Select the **Advanced Settings** tab, followed by the **Advanced SIP** tab and enter the following information:
 
    1. **SIP Transportation:** *TLS*
-   2. **SDP SRTP Offer:** *Standard* which ensures mandatory audio encryption for all calls.   
-      ​  
+   2. **SDP SRTP Offer:** *Standard* which ensures mandatory audio encryption for all calls.
+      ​
       ​***Note that*** *if the other party does not support audio encryption, any call attempt to that party will be rejected. If you don't want this to happen, set SDP SRTP Offer to Optional. All calls will be encrypted unless the other party does not support encryption. In that case, the call will not be encrypted.*
 
    ![Advanced SIP Settings. ](_images/f9babf5ba82342cc.jpg)
@@ -201,5 +202,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

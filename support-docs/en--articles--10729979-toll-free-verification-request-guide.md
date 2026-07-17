@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/10729979-toll-free-verification-request-guide
+title: "Toll Free Verification Request Guide"
+description: "Toll Free Verification Request Process, Basic Criteria, Statuses, and Error… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: b5c132e0f2ec2dd4c9495654124e931cd995172b5c8542fb490df84c279c2b63
 ---
 
-Toll Free Verification Request Guide | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Toll Free Verification Request Guide
 
-Toll Free Verification Request Process, Basic Criteria, Statuses, and Error Reasons
+Toll Free Verification Request Process, Basic Criteria, Statuses, and Error… See Telnyx guidance and requirements.
 
 K
 
-Written by Klane Pedrie
 
-November 18, 2025
 
-Table of contents
 
-# **Toll-Free Verification Guide**
+## **Toll-Free Verification Guide**
 
 Before you can send your first outbound message from a Toll-Free phone number you must first "Verify" the number. Toll-Free Verification requires specific data to be submitted to ensure a successful verification process. The provided information helps identify the end business and ensures they have the proper measures in place to send compliant traffic. Below is a detailed guide on what is required for a submission. Incomplete submissions may be rejected if they do not contain the necessary fields.
 
@@ -53,12 +54,12 @@ It is important to know that you if you submit a new Verification Request for an
 ### **1. Business Identification**
 
 * **Business Name:** The business name, website domain, and email domain should match or if they are different, the difference should be explained in the additional information field.
-* **Corporate Website**: Please include a business website or social media page for the business. This is what we are looking for with business websites:  
-  Business Name  
-  Contact Information (address/email/etc)  
-  Products/Services offered by the business  
-  About page  
-  Contact us page  
+* **Corporate Website**: Please include a business website or social media page for the business. This is what we are looking for with business websites:
+  Business Name
+  Contact Information (address/email/etc)
+  Products/Services offered by the business
+  About page
+  Contact us page
   Privacy and Terms page
 * **Email Address**: The website domain should match the domain of the email address provided. Freemail contacts like Gmail can be cause for decline.
 * **Business Address-** Valid business address
@@ -70,7 +71,7 @@ It is important to know that you if you submit a new Verification Request for an
 * **Expected Message Volume-** Approximate based on the available drop down options.
 * **Use Case :** This refers to the specific purpose for which the business intends to use toll-free messaging. Examples include conversational, marketing, transactional notifications, or fraud alerts. If you use a mixed use case then please describe the actual use cases in the Use Case description field. Every sms use case mentioned on the opt in form should be present here in some way. The use cases selected and mentioned anywhere on the VR or opt in form should all be consistent.
 
-  Options:  
+  Options:
   ​
 * 2FA
 * App Notifications
@@ -120,7 +121,7 @@ It is important to know that you if you submit a new Verification Request for an
 
 ### **3. Opt in Workflow Description / Opt-in Image URL:** Provide a link, a link to an image, or a link to a scanned copy of the opt-in.
 
-Ensuring proper SMS consent is critical for verification. The opt-in process must be clearly documented in the Workflow Description explaining how the opt in process works. For example you could say subscribers opt in on my website at <https://exampleurl.com/opt-in>. There are 4 ways users can opt in to receive sms:  
+Ensuring proper SMS consent is critical for verification. The opt-in process must be clearly documented in the Workflow Description explaining how the opt in process works. For example you could say subscribers opt in on my website at <https://exampleurl.com/opt-in>. There are 4 ways users can opt in to receive sms:
 1) Digital
 
 2) Paper
@@ -129,8 +130,8 @@ Ensuring proper SMS consent is critical for verification. The opt-in process mus
 
 4) Inbound Message
 
-For whichever opt in method you select the subscriber must receive these disclaimers at some point before the first message (except for an inbound text opt in which can have the disclaimers in the first message):  
-​  
+For whichever opt in method you select the subscriber must receive these disclaimers at some point before the first message (except for an inbound text opt in which can have the disclaimers in the first message):
+​
 You are subscribing to [brand name] for [use case (transactional or marketing)]. Reply STOP to opt out. Reply HELP for help. Standard message and data rates may apply. Message frequency may vary. View our Terms and Condition [hyperlink]. View our Privacy Policy [hyperlinked].
 
 For a digital opt in you need to include the url or link to a screenshot of the branded opt in form (as much of the form as possible) and how subscribers reach it.
@@ -150,8 +151,8 @@ If Marketing is a selected use case then on the opt in, marketing sms opt in mus
 Opt in form for both transactional and marketing use cases:
 
 * **[Checkbox 1]** By checking this box and submitting this form, you consent to receive transactional text messages for [use case(s)] from (Company Name). Reply STOP to opt out. Reply HELP for help. Standard message and data rates may apply. Message frequency may vary. View our Terms and Condition [hyperlink]. View our Privacy Policy [hyperlinked].
-* **[Checkbox 2]** By checking this box and submitting this form, you consent to receive text messages for marketing from (Company Name). Reply STOP to opt out. Reply HELP for help. Message and data rates may apply. Message frequency may vary. View our Terms and Condition [hyperlink]. View our Privacy Policy [hyperlinked].  
-  ​  
+* **[Checkbox 2]** By checking this box and submitting this form, you consent to receive text messages for marketing from (Company Name). Reply STOP to opt out. Reply HELP for help. Message and data rates may apply. Message frequency may vary. View our Terms and Condition [hyperlink]. View our Privacy Policy [hyperlinked].
+  ​
   Note: In the privacy policy the carriers typically require verbiage to the effect of "We will not share or sell your mobile information with third parties for promotional or marketing purposes."
 
   Note: Checkboxes must be optional and cannot be pre-checked.
@@ -203,7 +204,7 @@ Also in the Use Case summary of the VR it should mention that donations will be 
 
 ### Prohibited
 
-This is not a comprehensive list but we will add to it over time:  
+This is not a comprehensive list but we will add to it over time:
 - Loan soliciting/promotion
 
 - CBD related
@@ -325,5 +326,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

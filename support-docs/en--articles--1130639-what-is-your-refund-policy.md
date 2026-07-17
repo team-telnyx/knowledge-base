@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130639-what-is-your-refund-policy
+title: "What is your refund policy?"
+description: "Here we explain our refund policy and how to request one if necessary. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 0a40baec5893c6c087b4c0032b4dc1fe145dc3a7032ee6263809d2ef0115705c
 ---
 
-What is your refund policy? | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # What is your refund policy?
 
-Here we explain our refund policy and how to request one if necessary.
+Here we explain our refund policy and how to request one if necessary. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-July 17, 2024
 
-Table of contents
 
-# Telnyx's Refund Policy
+## Telnyx's Refund Policy
 
 Telnyx does not offer refunds for payments made using Bitcoin (BTC). Additionally, Telnyx is unable to refund payments that are 180 or more days old, regardless of the payment method used.
 
@@ -37,5 +38,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

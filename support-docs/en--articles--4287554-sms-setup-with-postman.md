@@ -1,34 +1,35 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4287554-sms-setup-with-postman
+title: "SMS Setup with POSTMAN"
+description: "This article gives an overview of how you can get started with Telnyx SMS… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: efd534c93e94647d4c823db9be24069c07f58b9d35ad7b87567980be66a7eddd
 ---
 
-SMS Setup with POSTMAN | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # SMS Setup with POSTMAN
 
-This article gives an overview of how you can get started with Telnyx SMS product
+This article gives an overview of how you can get started with Telnyx SMS… See Telnyx guidance and requirements.
 
-Written by Shubam
 
-June 6, 2024
 
-Table of contents
 
-Make sure you've configured your account, such as purchasing a number, creating a messaging profile, and associating that messaging profile with that number.   
-​  
-More details for [sending SMS using POSTMAN here](https://developers.telnyx.com/docs/messaging/messages/mission-control-portal-set-up) and for [specific error codes](https://developers.telnyx.com/api/errors) here.  
-​  
-POSTMAN is a RESTful HTTP client and can be downloaded from here: <https://www.postman.com/downloads/>  
-​  
+Make sure you've configured your account, such as purchasing a number, creating a messaging profile, and associating that messaging profile with that number.
+​
+More details for [sending SMS using POSTMAN here](https://developers.telnyx.com/docs/messaging/messages/mission-control-portal-set-up) and for [specific error codes](https://developers.telnyx.com/api/errors) here.
+​
+POSTMAN is a RESTful HTTP client and can be downloaded from here: <https://www.postman.com/downloads/>
+​
 ​
 
 ![Breaking Line](_images/682991ade0be9812.png)
 
-# **Sending SMS Via API v1**
+## **Sending SMS Via API v1**
 
 At this stage, you are ready to send SMS.
 
@@ -37,10 +38,10 @@ At this stage, you are ready to send SMS.
 3. In the "Body", you can paste in the following:
 
 ```
-{  
-"from": "+1[your messaging-enabled number]",  
-"to": "+1[intended recipient]",  
-"body": "Hello World"  
+{
+"from": "+1[your messaging-enabled number]",
+"to": "+1[intended recipient]",
+"body": "Hello World"
 }
 ```
 
@@ -75,16 +76,16 @@ For using API V2 to send out SMS, you need to generate V2 key here in the [API K
 * In the "Body", you can paste in the following:
 
 ```
-{  
-"from": "+1[your messaging-enabled number]",  
-"to": "+1[intended recipient]",  
-"text": "Hello World"  
+{
+"from": "+1[your messaging-enabled number]",
+"to": "+1[intended recipient]",
+"text": "Hello World"
 }
 ```
 
 ## **Video demo showing sending SMS via Postman using API V2**
 
-Kudos! now you know how to send SMS using API V2  
+Kudos! now you know how to send SMS using API V2
 ​
 
 ![Breaking Line](_images/682991ade0be9812.png)
@@ -98,5 +99,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

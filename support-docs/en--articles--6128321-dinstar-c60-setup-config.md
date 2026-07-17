@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6128321-dinstar-c60-setup-config
+title: "Dinstar C60: Setup & Config"
+description: "Learn how to set up and configure the Telco AC-211 SIP ATA in order to use it with your Telnyx account. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 8d359aa799a096ab962b3f498de707de20e6a347f98c5bb63ca19a4bae71130c
 ---
 
-Dinstar C60: Setup & Config | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Dinstar C60: Setup & Config
 
-Learn how to set up and configure the Telco AC-211 SIP ATA in order to use it with your Telnyx account.
+Learn how to set up and configure the Telco AC-211 SIP ATA in order to use it with your Telnyx account. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-June 6, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_cd92a12bd5)
 
@@ -41,7 +42,7 @@ Table of contents
 
 ---
 
-# Instructions for setting up and configuring Dinstar C60 series with Telnyx as provider
+## Instructions for setting up and configuring Dinstar C60 series with Telnyx as provider
 
 In this activity you will:
 
@@ -99,7 +100,7 @@ In this section, you'll configure a [SIP trunk](https://telnyx.com/products/sip-
 
    ![Account &gt; Basic Page section.](_images/9138b2cd672bb55d.png)
 
-That's it! You've finished configuring your Dinstar C60 series phone, and can now start testing calls!  
+That's it! You've finished configuring your Dinstar C60 series phone, and can now start testing calls!
 ​
 
 [Back to Top](#h_cd92a12bd5)
@@ -126,5 +127,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

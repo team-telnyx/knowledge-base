@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8292490-real-time-transcription
+title: "Real-Time Transcription"
+description: "Enable real-time transcription for calls with Telnyx. See Telnyx guidance and requirements Learn more about Real-Time Transcription with Telnyx."
 scraped: 2026-07-08
 content_hash: e72e01146ba2d5b54c28f2d8df89d985011e6f1237221f0fc5afbc1115e97ecc
 ---
 
-Real-Time Transcription | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Real-Time Transcription
 
-Enable real-time transcription for calls with Telnyx. Enhance user experience now.
+Enable real-time transcription for calls with Telnyx. See Telnyx guidance and requirements Learn more about Real-Time Transcription with Telnyx.
 
-Written by David
 
-May 20, 2026
 
-Table of contents
 
-# Real Time Transcription with Voice API and TeXML
+## Real Time Transcription with Voice API and TeXML
 
 Real-time transcription for a phone call refers to the process of converting spoken language into written text as the conversation is happening. Unlike traditional transcription services, which typically involve manually transcribing a recording after the call has ended, real-time transcription is automated and occurs instantaneously during the call. This allows participants to see a live, written version of the conversation as it unfolds.
 
@@ -41,7 +42,7 @@ Real-time transcription for a phone call refers to the process of converting spo
 
    language: Set language for transcription.
 
-   transcription\_engine: Options are A or B. A is Google Transcription Engine and is the default, it is also the only engine which can use the feature `interim_results`. B is the Telnyx Transcription Engine which is more accurate and less costly.  
+   transcription\_engine: Options are A or B. A is Google Transcription Engine and is the default, it is also the only engine which can use the feature `interim_results`. B is the Telnyx Transcription Engine which is more accurate and less costly.
    transcription\_tracks: Indicates which leg of the call to transcribe - `inbound`, `outbound` or `both`.
 
    ![Path parameters section.](_images/e462357d8ec15d86.png)
@@ -110,5 +111,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

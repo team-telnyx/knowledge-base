@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1270091-sms-opt-out-keywords-and-stop-words
+title: "SMS Opt-Out Keywords and Stop Words"
+description: "Learn more about how Telnyx processes SMS opt-outs and handles stop… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: f3353731b6e8800f81e58e8ed035f38f04c7d5082aaf9cfd8c430d1baee9ca82
 ---
 
-SMS Opt-Out Keywords and Stop Words | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # SMS Opt-Out Keywords and Stop Words
 
-Learn more about how Telnyx processes SMS opt-outs and handles stop words
+Learn more about how Telnyx processes SMS opt-outs and handles stop… See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-May 20, 2026
 
-Table of contents
 
-# **What are SMS Opt-Out Keywords?**
+## **What are SMS Opt-Out Keywords?**
 
 Telnyx automatically processes incoming messages and recognises **English language** stop words. Stop words are specific words such as STOP or UNSUBSCRIBE that signal that a person no longer wishes to receive messages from you.
 
@@ -90,5 +91,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents
