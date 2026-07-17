@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6187273-grandstream-gds3710-wave-lite-android
+title: "Grandstream GDS3710: Wave Lite (Android)"
+description: "Learn how to connect the GDS3710 video door system with the Wave Lite app on your Android™ device. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 2c6f2795964b687ad3fb071d7e91af432906ec1a9202b64d9b7c5a73b3ee417c
 ---
 
-Grandstream GDS3710: Wave Lite (Android) | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Grandstream GDS3710: Wave Lite (Android)
 
-Learn how to connect the GDS3710 video door system with the Wave Lite app on your Android™ device.
+Learn how to connect the GDS3710 video door system with the Wave Lite app on your Android™ device. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_b4fef01d30)
 
@@ -41,7 +42,7 @@ The 2-way audio / video streaming and a SIP-based security mechanism lets you st
 
 ---
 
-# Connecting the Grandstream GDS3710 with Wave Lite (Android™)
+## Connecting the Grandstream GDS3710 with Wave Lite (Android™)
 
 In this activity, you will:
 
@@ -99,8 +100,8 @@ In this step, you'll set up a SIP trunk on your Wave Lite app.
 
 1. From your Android™ device, open the Wave Lite app.
 2. Navigate to the **Settings** screen.
-3. In the **Account Settings** > **Generic Account** section. Then tap on **SIP Account**.  
-   ​  
+3. In the **Account Settings** > **Generic Account** section. Then tap on **SIP Account**.
+   ​
    ​***Note:*** *Do not use the VoIP Provider section below this, as Telnyx has not yet been added to the provider list.*
 4. Fill out the following:
 
@@ -153,7 +154,7 @@ In this section, you'll configure your codecs for audio calling.
 
       * *H264*
 
-That's it, you've now completed the configuration of your Grandstream Wave Lite device.  
+That's it, you've now completed the configuration of your Grandstream Wave Lite device.
 ​
 
 [Back to Top](#h_b4fef01d30)
@@ -184,5 +185,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

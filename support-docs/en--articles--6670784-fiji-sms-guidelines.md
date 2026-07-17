@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6670784-fiji-sms-guidelines
+title: "Fiji: SMS Guidelines"
+description: "Sending SMS to Fiji? See Telnyx guidance and requirements Learn more about Fiji: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: f4e875939aeaeef5ec7ff1cfe62b9df52ae29383cd28baba027653cb5d26514f
 ---
 
-Fiji: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# Fiji: SMS Guidelines
 
-Sending SMS to Fiji? Check out our comprehensive guidelines to ensure compliance in Fiji.
 
-Written by Telnyx Engineering
 
-November 21, 2023
-
-Table of contents
 
 # Fiji: SMS Guidelines
 
-**MCC:** 542  
-​**Dial Code:** 679  
-​  
+Sending SMS to Fiji? See Telnyx guidance and requirements Learn more about Fiji: SMS Guidelines with Telnyx.
+
+
+
+
+## Fiji: SMS Guidelines
+
+**MCC:** 542
+​**Dial Code:** 679
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

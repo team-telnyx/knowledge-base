@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6592454-american-samoa-sms-guidelines
+title: "American Samoa: SMS Guidelines"
+description: "SMS Guidelines for American Samoa including MCC and Dial Code. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 93408c575e413d282f8ab5c1adcf5b90e7c69cd900a8cb117ef3996d46d38b11
 ---
 
-American Samoa: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # American Samoa: SMS Guidelines
 
-SMS Guidelines for American Samoa including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for American Samoa including MCC and Dial Code. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# SMS Guidelines for American Samoa
+## SMS Guidelines for American Samoa
 
-**MCC**: 311 - 544  
-​**Dial Code**: 684  
-​  
+**MCC**: 311 - 544
+​**Dial Code**: 684
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

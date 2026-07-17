@@ -1,36 +1,37 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4404409-resources-on-your-account
+title: "Resources on Your Account"
+description: "Quick links for other useful resources for your Telnyx Mission Control Account. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 6aead4d6ac2cea57584f04802d857377fb3bc7833531d467351fc1c7a6051539
 ---
 
-Resources on Your Account | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Resources on Your Account
 
-Quick links for other useful resources for your Telnyx Mission Control Account.
+Quick links for other useful resources for your Telnyx Mission Control Account. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-January 30, 2026
 
-Table of contents
 
 This article describe other useful resources which can be accessed from your Telnyx Mission Control Portal account.
 
-# **Useful Mission Control Resources**
+## **Useful Mission Control Resources**
 
 Available on the bottom left hand side of your account, you will see 4 useful resources that you can quickly access.
 
 * ![](_images/66c5113b26cb94aa.png)
 
-  Support - [https://support.telnyx.com/](https://support.telnyx.com/en/) - Where you can access our knowledge base.  
+  Support - [https://support.telnyx.com/](https://support.telnyx.com/en/) - Where you can access our knowledge base.
   ​
-* API Docs - <https://developers.telnyx.com/>- Our developer documentation for our API's and SDK's.  
+* API Docs - <https://developers.telnyx.com/>- Our developer documentation for our API's and SDK's.
   ​
-* Release Notes - <https://telnyx.com/release-notes> - For all the latest news on our recently and historically releases features.   
+* Release Notes - <https://telnyx.com/release-notes> - For all the latest news on our recently and historically releases features.
   ​
 * System Status - <https://status.telnyx.com/> - Subscribe to keep up to date for any incidents.
 
@@ -45,5 +46,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6184147-grandstream-grp2612-sip-trunk
+title: "Grandstream GRP2612: SIP Trunk"
+description: "Learn how to configure a Telnyx SIP trunk on your Grandstream GRP2612/GRP2612P/GRP2612W Series IP phone. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 9b9f42c71ba239b0f983b8e8725f32a9f2a07b616cf53fc7fddae9953448fba1
 ---
 
-Grandstream GRP2612: SIP Trunk | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Grandstream GRP2612: SIP Trunk
 
-Learn how to configure a Telnyx SIP trunk on your Grandstream GRP2612/GRP2612P/GRP2612W Series IP phone.
+Learn how to configure a Telnyx SIP trunk on your Grandstream GRP2612/GRP2612P/GRP2612W Series IP phone. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_ccc918609d)
 
@@ -44,7 +45,7 @@ The Grandstream [GRP2612](https://www.grandstream.com/products/ip-voice-telephon
 
 ---
 
-# Instructions for creating a SIP trunk on your Grandstream GRP2612/GRP2612P/GRP2612W device
+## Instructions for creating a SIP trunk on your Grandstream GRP2612/GRP2612P/GRP2612W device
 
 In this activity, you will:
 
@@ -108,12 +109,12 @@ In this step, you'll create and register a SIP trunk that will connect your devi
       2. You must NOT use any special characters, as they will not be displayed. Spaces are allowed.
       3. Some of regular Canadian providers will not show more than 15 characters. We suggest shrinking or adapt your caller ID.
    2. **Rule:** This will be your rule settings (number, pattern, prefix to add etc.)\
-   3. **Type:** Choose the type of the rule (*pattern*, *block*, *dial now,* *prefix* or *second tone*).  
+   3. **Type:** Choose the type of the rule (*pattern*, *block*, *dial now,* *prefix* or *second tone*).
       ​
 
    ### **In the Account General Settings > Network Settings section:**
 
-   1. **DNS Mode:** This parameter controls how the Search Appliance looks up IP addresses for hostnames.  
+   1. **DNS Mode:** This parameter controls how the Search Appliance looks up IP addresses for hostnames.
       There are four modes: *A Record* (default)*, SRV, NATPTR/SRV, Use Configured IP*.
 
       1. If you want to locate the server by DNS SRV, select *SRV* or *NATPTR/SRV*
@@ -124,7 +125,7 @@ In this step, you'll create and register a SIP trunk that will connect your devi
          * **Backup IP 2**
       3. If SIP server is configured as domain name, phone will not send DNS query, but select *Primary IP* or *Backup IP x* to send SIP message if at least one of them are not empty.
       4. Phone will try to use Primary IP first. After 3 tries without any response, it will switch to Backup IP x, and then it will switch back to Primary IP after 3 re-tries.
-      5. If SIP server is already an IP address, phone will use it directly even *User Configured IP* is selected.  
+      5. If SIP server is already an IP address, phone will use it directly even *User Configured IP* is selected.
          ​
 
    ### **In the Account General Settings > SIP Settings > Basic Settings section:**
@@ -140,7 +141,7 @@ In this step, you'll create and register a SIP trunk that will connect your devi
       4. *Transport* Only (Default)
 3. Navigate to the Status page where you can check all your account details.
 
-That's it, you've now completed the configuration of your Grandstream GRP260x device.  
+That's it, you've now completed the configuration of your Grandstream GRP260x device.
 ​
 
 [Back to Top](#h_ccc918609d)
@@ -174,5 +175,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/14708129-porting-numbers-away-from-intercom-to-telnyx
+title: "Porting Numbers Away from Intercom to Telnyx"
+description: "How to port numbers from Intercom's calling product, including Twilio-backed number instructions and common PIN issues. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 583288b2e14ab3314e3b3b44c9a3bcac897212bf6c286018a5ebc7e7fb6eef4f
 ---
 
-Porting Numbers Away from Intercom to Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Porting Numbers Away from Intercom to Telnyx
 
-How to port numbers from Intercom's calling product, including Twilio-backed number instructions and common PIN issues.
+How to port numbers from Intercom's calling product, including Twilio-backed number instructions and common PIN issues. See Telnyx guidance and requirements.
 
-Written by Patrick Budzinski
 
-April 21, 2026
 
-Table of contents
 
-# Overview
+## Overview
 
 Intercom provides phone numbers as part of its calling product, but like most software platforms, Intercom doesn't own the underlying phone number infrastructure. The numbers are hosted on a carrier (commonly Twilio), which means porting away from Intercom requires carrier-level authorization — not just your Intercom credentials.
 
@@ -80,5 +81,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

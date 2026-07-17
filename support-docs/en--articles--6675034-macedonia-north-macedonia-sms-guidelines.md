@@ -1,32 +1,33 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6675034-macedonia-north-macedonia-sms-guidelines
+title: "Macedonia (North Macedonia): SMS Guidelines"
+description: "Sending SMS to Macedonia? See Telnyx guidance and requirements Learn more about Macedonia (North Macedonia): SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 8713dfb92873f5bbf1ae52a4cb893cfdb1bb8adc10001c5fd0900a352df804e8
 ---
 
-Macedonia (North Macedonia): SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Macedonia (North Macedonia): SMS Guidelines
 
-Sending SMS to Macedonia? Check out our comprehensive guidelines to ensure compliance in Macedonia.
+Sending SMS to Macedonia? See Telnyx guidance and requirements Learn more about Macedonia (North Macedonia): SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Macedonia (North Macedonia): SMS Guidelines**
+## **Macedonia (North Macedonia): SMS Guidelines**
 
-**MCC:** 294  
-​**Dial Code:** 389  
-​  
+**MCC:** 294
+​**Dial Code:** 389
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
-Occasionally Alphanumeric Sender IDs might be replaced by Generic Alphanumeric Sender ID to ensure delivery.  
-​  
+Occasionally Alphanumeric Sender IDs might be replaced by Generic Alphanumeric Sender ID to ensure delivery.
+​
 ​
 
 There are no restrictions with regards to content towards this destination.
@@ -44,5 +45,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

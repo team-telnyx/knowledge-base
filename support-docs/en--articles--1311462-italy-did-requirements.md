@@ -1,33 +1,34 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1311462-italy-did-requirements
+title: "Italy DID Requirements"
+description: "Here you will find all of the requirements for purchasing numbers in Italy. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: f9182d222938729143c63f371ecbf116fb10fe17fa74f5f0ccca96ce69439e6f
 ---
 
-Italy DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Italy DID Requirements
 
-Here you will find all of the requirements for purchasing numbers in Italy.
+Here you will find all of the requirements for purchasing numbers in Italy. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-Updated over 2 weeks ago
 
-Table of contents
 
-# DID Number Requirements for Italy
+## DID Number Requirements for Italy
 
 In order to purchase an Italy number you will need to provide the following:
 
 ## Mandatory Use of Requirement Groups: Italy
 
-Starting **September 16, 2024**, **Requirement Groups** will be mandatory for ordering phone numbers in **Italy (IT).**  
+Starting **September 16, 2024**, **Requirement Groups** will be mandatory for ordering phone numbers in **Italy (IT).**
 ​
 
-Requirement Groups let you manage regulatory requirements by pre-filling necessary information once, allowing for reuse across multiple orders. This change aims to streamline compliance.  
+Requirement Groups let you manage regulatory requirements by pre-filling necessary information once, allowing for reuse across multiple orders. This change aims to streamline compliance.
 ​
 
 For full details on setting up Requirement Groups, please refer to the [guide here](https://support.telnyx.com/en/articles/9801714-requirement-groups-for-ordering-phone-numbers).
@@ -84,8 +85,8 @@ For **personal identity** verification:
 
 \* Date of Birth
 
-\* Place of Birth  
-\* Gender  
+\* Place of Birth
+\* Gender
 \* Nationality
 
 \* Personal Tax Code (For natural persons and sole proprietorships only)
@@ -96,10 +97,10 @@ For **personal identity** verification:
 
 \* Identity Document Issuer
 
-\* Identity Document Number  
+\* Identity Document Number
 \* Identity Document Issuance Date (YYYY-MM-DD)
 
-\* Identity Document Expiration Date (YYYY-MM-DD)  
+\* Identity Document Expiration Date (YYYY-MM-DD)
 \* Contact E-mail
 
 For **business** **identity** verification:
@@ -108,8 +109,8 @@ For **business** **identity** verification:
 
 \* Authorized Representative Date of Birth
 
-\* Authorized Representative Place of Birth  
-\* Authorized Representative Gender  
+\* Authorized Representative Place of Birth
+\* Authorized Representative Gender
 \* Authorized Representative Nationality
 
 \* Local Copy of ID or Passport of an authorized representative (front and back)
@@ -118,11 +119,11 @@ For **business** **identity** verification:
 
 \* Identity Document Issuer
 
-\* Identity Document Number  
+\* Identity Document Number
 \* Identity Document Issuance Date (YYYY-MM-DD)
 
-\* Identity Document Expiration Date (YYYY-MM-DD)  
-\* Authorized Representative Contact E-mail  
+\* Identity Document Expiration Date (YYYY-MM-DD)
+\* Authorized Representative Contact E-mail
 \* Company Name
 
 \* Local Company Registration certificate (For legal entities and sole proprietorships only)
@@ -135,9 +136,9 @@ For **address** verification:
 
 \* Address in Italy (street, building number, postal code, city, and country)
 
-\* Proof of address (dated within 3 months)  
-​  
-Additional details:   
+\* Proof of address (dated within 3 months)
+​
+Additional details:
 \* End-users must be physically present in the country when purchasing numbers from that country
 
 **\*\*All documents must be submitted in .pdf format.**
@@ -170,8 +171,8 @@ Additional details:
 
 ## **Identity Verification: What "Local" Means**
 
-For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.  
-​  
+For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.
+​
 All identification is subject to review, and we reserve the right to request additional documentation or decline any document we cannot verify or that does not meet applicable legal and regulatory requirements.
 
 ## **Helpful for acquiring Italy DIDs**
@@ -204,7 +205,7 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [What is direct inward dialing](https://telnyx.com/resources/what-is-direct-inward-dialing)
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
-Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)  
+Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
 ​
 
 ---
@@ -216,5 +217,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

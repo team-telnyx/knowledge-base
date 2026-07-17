@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6325734-how-to-assign-a-number-to-a-campaign
+title: "How to assign a number to a campaign"
+description: "Assigning numbers to your campaign is the third step to becoming compliant with 10DLC rules. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 4caed8cd015a30d79c2ee940484b391c6429b638ee595e620920bae6fc0fc427
 ---
 
-How to assign a number to a campaign | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How to assign a number to a campaign
 
-Assigning numbers to your campaign is the third step to becoming compliant with 10DLC rules. Read on to learn how you can do this.
+Assigning numbers to your campaign is the third step to becoming compliant with 10DLC rules. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-October 2, 2024
 
-Table of contents
 
-# **How to assign a number to a campaign**
+## **How to assign a number to a campaign**
 
 Once you’ve [set up your campaign](https://support.telnyx.com/en/articles/6339152-how-to-create-a-10dlc-campaign), you need to assign a number(s) to it. Note that this guide assumes you have set up an SMS-capable phone number with Telnyx already. If you haven’t done so, you need to either [purchase](https://support.telnyx.com/en/articles/4380325-search-and-buy-numbers) or [port](https://support.telnyx.com/en/articles/1130634-port-numbers-to-telnyx) one first.
 
@@ -47,5 +48,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

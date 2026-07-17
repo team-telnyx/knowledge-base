@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6184520-grandstream-gxp1700-sip-trunk
+title: "Grandstream GXP1700: SIP Trunk"
+description: "Learn how to configure a Telnyx SIP trunk on your Grandstream GXP1700 Series IP phone. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: e2e6e884b2018d0849a4c4bbdbdb5a6a5f06183786c408d51208f565fa4605af
 ---
 
-Grandstream GXP1700: SIP Trunk | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Grandstream GXP1700: SIP Trunk
 
-Learn how to configure a Telnyx SIP trunk on your Grandstream GXP1700 Series IP phone.
+Learn how to configure a Telnyx SIP trunk on your Grandstream GXP1700 Series IP phone. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_34e62e341d)
 
@@ -42,7 +43,7 @@ Table of contents
 
 ---
 
-# Instructions for creating a SIP trunk on your Grandstream GXP1700 device
+## Instructions for creating a SIP trunk on your Grandstream GXP1700 device
 
 In this activity, you will:
 
@@ -109,7 +110,7 @@ In this step, you'll create and register a SIP trunk that will connect your devi
    3. Fallback Expiration: Specifies the duration (in minutes) since failover to the current SIP server or Outbound Proxy before making failback attempts to the primary SIP server or Outbound Proxy.
 4. ### **In the "Account > Network Settings" section:**
 
-   1. **DNS Mode:** This parameter controls how the Search Appliance looks up IP addresses for hostnames.  
+   1. **DNS Mode:** This parameter controls how the Search Appliance looks up IP addresses for hostnames.
       There are four modes: *A Record* (default)*, SRV, NATPTR/SRV, Use Configured IP*.
 
       1. If you want to locate the server by DNS SRV, select *SRV* or *NATPTR/SRV*
@@ -144,7 +145,7 @@ In this step, you'll create and register a SIP trunk that will connect your devi
       * *ulaw(g711u)*
       * *alaw(g711a)*
       * *g722*
-      * *g729*  
+      * *g729*
         ​**Note:** Using firmware version 1.0.0.43 or higher, users are now able to perform concurrent calls using G.729 codec as well.
 2. Navigate to the **Settings** screen.
 3. In the **Settings > General Settings** section:
@@ -152,7 +153,7 @@ In this step, you'll create and register a SIP trunk that will connect your devi
    1. **STUN Server:** *stun.telnyx.com:3478*
 4. Navigate to the Status page where you can check all your account details.
 
-That's it, you've now completed the configuration of your Grandstream GXP1700 device.  
+That's it, you've now completed the configuration of your Grandstream GXP1700 device.
 ​
 
 [Back to Top](#h_34e62e341d)
@@ -186,5 +187,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3739458-iceland-did-requirements
+title: "Iceland DID Requirements"
+description: "Here you will find a detailed list of requirements for acquiring numbers in Iceland. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 5b3e3543085b392f3a4edc22f0df8bb763baf87e8e437448401d5d8f9f67bb74
 ---
 
-Iceland DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Iceland DID Requirements
 
-Here you will find a detailed list of requirements for acquiring numbers in Iceland.
+Here you will find a detailed list of requirements for acquiring numbers in Iceland. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-June 6, 2024
 
-Table of contents
 
-# DID Number Requirements for Iceland
+## DID Number Requirements for Iceland
 
 In order to purchase an Iceland number you will need to provide the following:
 
@@ -101,5 +102,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

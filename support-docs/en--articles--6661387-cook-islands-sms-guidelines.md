@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6661387-cook-islands-sms-guidelines
+title: "Cook Islands: SMS Guidelines"
+description: "SMS Guidelines for Cook Islands including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Cook Islands: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 8126dafc564f79a57feaf23ed269975dd313593f32fdffafd257e7b326eee511
 ---
 
-Cook Islands: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Cook Islands: SMS Guidelines
 
-SMS Guidelines for Cook Islands including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Cook Islands including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Cook Islands: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 17, 2023
 
-Table of contents
 
-# SMS Guidelines for Cook Islands
+## SMS Guidelines for Cook Islands
 
-**MCC:** 682  
-​**Dial Code:** 548  
-​  
+**MCC:** 682
+​**Dial Code:** 548
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -88,5 +89,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

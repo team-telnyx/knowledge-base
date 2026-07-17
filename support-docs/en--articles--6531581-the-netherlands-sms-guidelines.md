@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6531581-the-netherlands-sms-guidelines
+title: "The Netherlands: SMS Guidelines"
+description: "SMS Guidelines for the Netherlands including MCC and Dial Code. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: cfd50216e5efc7d7a39d54e44e310c01408e6c3286592e1e1a374990f300223d
 ---
 
-The Netherlands: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # The Netherlands: SMS Guidelines
 
-SMS Guidelines for the Netherlands including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for the Netherlands including MCC and Dial Code. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **SMS Guidelines for the Netherlands**
+## **SMS Guidelines for the Netherlands**
 
-**MCC:** 204  
-​**Dial Code:** 31  
-​  
+**MCC:** 204
+​**Dial Code:** 31
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

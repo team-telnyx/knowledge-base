@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/9183726-manual-imsi-selection-on-telnyx-sim
+title: "Manual IMSI Selection on Telnyx SIM"
+description: "⚠️ For engineering use only – perform only if instructed by Telnyx support. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 5f23cc1ee0eda66d7cb583c3aa922c106e1a20bd41c773eaa61db8e80232e151
 ---
 
-Manual IMSI Selection on Telnyx SIM | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Manual IMSI Selection on Telnyx SIM
 
-⚠️ For engineering use only – perform only if instructed by Telnyx support.
+⚠️ For engineering use only – perform only if instructed by Telnyx support. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-July 1, 2025
 
-Table of contents
 
 This guide explains how to manually change the IMSI on a Telnyx IoT SIM using the SIM Toolkit on your device. Manual IMSI switching is intended for advanced troubleshooting and should only be used when explicitly directed by the Telnyx engineering team.
 
@@ -53,7 +54,7 @@ On iOS devices:
 3. Wait a few minutes: once the IMSI is selected, it may take a few minutes for the device to read the new IMSI and attempt to reconnect to the network.
 4. Return to **Selection Mode** and switch back to **Automatic** for normal operation.
 
-(\*) On multi-SIM devices, make sure to select the Telnyx SIM from the list of available SIMs in order to access the SIM Toolkit (STK) associated with it.  
+(\*) On multi-SIM devices, make sure to select the Telnyx SIM from the list of available SIMs in order to access the SIM Toolkit (STK) associated with it.
 ​
 
 ---
@@ -99,5 +100,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

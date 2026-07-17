@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6674999-liechtenstein-sms-guidelines
+title: "Liechtenstein: SMS Guidelines"
+description: "Sending SMS to Liechtenstein? See Telnyx guidance and requirements Learn more about Liechtenstein: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: a481b66a86725ad4a2ac1bfa0ebacf33d7a1d2362ce5223360750a00f8fa780d
 ---
 
-Liechtenstein: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Liechtenstein: SMS Guidelines
 
-Sending SMS to Liechtenstein? Check out our comprehensive guidelines to ensure compliance in Liechtenstein.
+Sending SMS to Liechtenstein? See Telnyx guidance and requirements Learn more about Liechtenstein: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Liechtenstein: SMS Guidelines**
+## **Liechtenstein: SMS Guidelines**
 
-**MCC:** 295  
-​**Dial Code:** 423  
-​  
+**MCC:** 295
+​**Dial Code:** 423
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

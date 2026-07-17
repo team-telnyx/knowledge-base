@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/7020727-account-compromise-what-to-do
+title: "Account Compromise: What to Do"
+description: "Was your account compromised? See Telnyx guidance and requirements Learn more about Account Compromise: What to Do with Telnyx."
 scraped: 2026-07-08
 content_hash: a42f0f8dc117f0c331a7b3e831570a8c807ffe006dfec05b30fc76bd5e76243e
 ---
 
-Account Compromise: What to Do | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Account Compromise: What to Do
 
-Was your account compromised? Here are the steps to take to secure your account.
+Was your account compromised? See Telnyx guidance and requirements Learn more about Account Compromise: What to Do with Telnyx.
 
-Written by David
 
-January 26, 2026
 
-Table of contents
 
-# What to do after my account got compromised?
+## What to do after my account got compromised?
 
 We understand that there are individuals who may attempt to gain unauthorised access to your Telnyx account, which can compromise your security. If you suspect that someone has accessed your account without your permission, there are some important steps you can take to protect your account and prevent future unauthorised access.
 
@@ -49,5 +50,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

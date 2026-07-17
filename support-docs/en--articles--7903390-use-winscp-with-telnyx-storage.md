@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/7903390-use-winscp-with-telnyx-storage
+title: "Use WinSCP with Telnyx Storage"
+description: "Discover how to set up WinSCP with Telnyx Storage for effortless file transfer and efficient storage management. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 1f34f80cc28107d7d93ae6510fadee5d95834b55167bf7a4cbba350c019866ba
 ---
 
-Use WinSCP with Telnyx Storage | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Use WinSCP with Telnyx Storage
 
-Discover how to set up WinSCP with Telnyx Storage for effortless file transfer and efficient storage management.
+Discover how to set up WinSCP with Telnyx Storage for effortless file transfer and efficient storage management. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-June 6, 2024
 
-Table of contents
 
 WinSCP is a popular open-source SFTP, FTP, and SCP client for Windows, providing users with a secure and intuitive way to transfer files between local and remote servers. It offers a user-friendly interface, supports various protocols and encryption methods, and includes features such as file synchronization, scripting, and remote editing for efficient and seamless file management.
 
 ---
 
-# How to configure WinSCP to work with Telnyx Storage
+## How to configure WinSCP to work with Telnyx Storage
 
 1. Download and install the latest version of WinSCP [here](https://winscp.net/eng/index.php)!
 2. If you have used WinSCP before, click on the `New Session` button.
@@ -61,5 +62,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3561993-using-telnyx-fastport
+title: "Using Telnyx FastPort"
+description: "In this article we will walk you through using FastPort so you can save time moving your numbers to Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a3d4279678968caab57b3c7c09b5184b9b5f8f02b921df71904b8ea5e7a27acb
 ---
 
-Using Telnyx FastPort | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Using Telnyx FastPort
 
-In this article we will walk you through using FastPort so you can save time moving your numbers to Telnyx.
+In this article we will walk you through using FastPort so you can save time moving your numbers to Telnyx. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-August 21, 2023
 
-Table of contents
 
-# What is FastPort?
+## What is FastPort?
 
 FastPort® is a new feature that will streamline your porting experience from start to finish!
 
@@ -39,5 +40,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

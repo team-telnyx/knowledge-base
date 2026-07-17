@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8006189-port-out-pin-protection
+title: "Port Out PIN Protection"
+description: "This article explains how to properly set up Port Out PIN protection on your… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 6cec67e3a13a4b7a403aaba4c27f0c6aa1e42ed8a45bb96f80b06168e578ccbd
 ---
 
-Port Out PIN Protection | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Port Out PIN Protection
 
-This article explains how to properly set up Port Out PIN protection on your account
+This article explains how to properly set up Port Out PIN protection on your… See Telnyx guidance and requirements.
 
-Written by Patrick Budzinski
 
-March 20, 2025
 
-Table of contents
 
 The purpose of this article is to provide an overview of the Port Out PIN Settings found in the [Telnyx Portal](https://portal.telnyx.com/#/app/home) along with a brief description of all the options available:
 
@@ -25,7 +26,7 @@ The purpose of this article is to provide an overview of the Port Out PIN Settin
 * Individual PIN Settings
 * Applicable Port Out Orders vs. Non-applicable Port Out Orders
 
-# **What happens if I enable Port Out PIN Protection?**
+## **What happens if I enable Port Out PIN Protection?**
 
 When a Port Out request is created, the PIN provided by the losing carrier will be validated against your account settings. If the PIN matches your Port Out PIN, the order will be successfully created and sent to you, exactly like before, for review. If the Port Out PIN does not match your settings (or is not provided), the order will be automatically rejected. You will be able to view auto-rejected orders on the [Port Out Requests](https://portal.telnyx.com/#/app/numbers/port-outs) page in the Mission Control Portal.
 
@@ -57,15 +58,15 @@ Scroll down to the `Security` section on the page. You should see:
 You can specify Port Out PINs for individual phone numbers. To update the Port Out PIN for a particular phone number:
 
 1. Go to the [My Numbers](https://portal.telnyx.com/#/app/numbers/my-numbers-beta) page in the Portal
-2. On the right side of the table underneath the `Actions` header, click on the `Edit` icon for the phone number you wish to update  
+2. On the right side of the table underneath the `Actions` header, click on the `Edit` icon for the phone number you wish to update
    ​
 
    ![Actions section on the mission control portal. ](_images/6ad4e8797e7bb04f.png)
-3. On the `Settings` tab, scroll down to the `Porting` section. If there is no value for `PIN`, then the default account PIN is applied (see section above `Setting your Default PIN for Phone Numbers`  
+3. On the `Settings` tab, scroll down to the `Porting` section. If there is no value for `PIN`, then the default account PIN is applied (see section above `Setting your Default PIN for Phone Numbers`
    ​
 
    ![Porting section on the mission control portal. ](_images/a6324ae49b65c04e.png)
-4. To update the PIN for that specific phone number, enter in the code in the `PIN` field and click `Save Changes` at the bottom of the page  
+4. To update the PIN for that specific phone number, enter in the code in the `PIN` field and click `Save Changes` at the bottom of the page
    ​
 
    ![PIN section on the mission control portal. ](_images/6975d053ecea36a5.png)
@@ -87,5 +88,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

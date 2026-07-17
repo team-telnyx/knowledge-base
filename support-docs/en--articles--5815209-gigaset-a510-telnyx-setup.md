@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5815209-gigaset-a510-telnyx-setup
+title: "Gigaset A510: Telnyx Setup"
+description: "Learn how to use your Telnyx account to set up and configure a SIP profile on the Gigaset A510 IP… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 53464d4f9a26206eaa43135b9c60e74f36cbbe4e81ae7af374cc6a6216c9335d
 ---
 
-Gigaset A510: Telnyx Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Gigaset A510: Telnyx Setup
 
-Learn how to use your Telnyx account to set up and configure a SIP profile on the Gigaset A510 IP phone
+Learn how to use your Telnyx account to set up and configure a SIP profile on the Gigaset A510 IP… See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_56ca90c02f)
 
@@ -30,7 +31,7 @@ Additional documentation:
 
 ---
 
-# Instructions for setting up and configuring your Gigaset A510 IP
+## Instructions for setting up and configuring your Gigaset A510 IP
 
 In this activity you will:
 
@@ -96,7 +97,7 @@ In this step, you'll obtain the IP address from your A510, which you'll need to 
 
    ![A screenshot of the UDP setup. ](_images/ee1b0373e442fa8f.png)
 
-   *\*Note that this screenshot shows a UDP setup.*  
+   *\*Note that this screenshot shows a UDP setup.*
    ​
 4. Still in the **Telephony** section, click on **Number Assignment** and find the **Handsets** section. Look for the line you just created (It will have the same name as the **Connection Name or Number** field you configured previously.
 
@@ -128,5 +129,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

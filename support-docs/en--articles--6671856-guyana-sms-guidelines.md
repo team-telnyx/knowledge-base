@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6671856-guyana-sms-guidelines
+title: "Guyana: SMS Guidelines"
+description: "SMS Guidelines for Guyana including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Guyana: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 6ff608973ecb3c224708aa5506af1606cd2266cb8658bb3b4a8a4a09e386b49e
 ---
 
-Guyana: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Guyana: SMS Guidelines
 
-SMS Guidelines for Guyana including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Guyana including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Guyana: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **SMS Guidelines for Guyana**
+## **SMS Guidelines for Guyana**
 
-**MCC:** 738  
-​**Dial Code:** 592  
-​  
+**MCC:** 738
+​**Dial Code:** 592
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

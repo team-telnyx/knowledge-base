@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/10723378-10dlc-campaign-suspended
+title: "10DLC Campaign Suspended"
+description: "10DLC Campaign… See Telnyx guidance and requirements Learn more about 10DLC Campaign Suspended with Telnyx."
 scraped: 2026-07-08
 content_hash: 37dc405587bd56e3e374454fbad57992200523b656a9c987ad3e34d2ee3999d9
 ---
 
-10DLC Campaign Suspended | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # 10DLC Campaign Suspended
 
-10DLC Campaign Suspension
+10DLC Campaign… See Telnyx guidance and requirements Learn more about 10DLC Campaign Suspended with Telnyx.
 
 K
 
-Written by Klane Pedrie
 
-November 12, 2025
 
-Table of contents
 
-# Why is my 10DLC / TCR Campaign Suspended?
+## Why is my 10DLC / TCR Campaign Suspended?
 
 If you see that your campaign has a TCR status of "Suspended" that normally means that it is dormant from inactivity. The solution normally is assigning phone numbers to the campaign twice. The first time the campaign will reactivate and the number assignment will fail. The second time the number assignment will work. The reason for this is that T-Mobile charges a $250 per month fine for campaigns they deem as inactive so we proactively put campaigns in a suspended state before they get hit with the fine.
 
@@ -38,8 +39,8 @@ Automatic Suspension Triggers
 
 Your 10DLC campaign will be automatically suspended if all of these conditions are met:
 
-✅ No activity for 15 consecutive days  
-✅ No active phone numbers assigned to the campaign   
+✅ No activity for 15 consecutive days
+✅ No active phone numbers assigned to the campaign
 ✅ Campaign is currently deployed with T-Mobile
 
 Important: This is a protective measure to prevent carrier fines for dormant campaigns.
@@ -56,7 +57,7 @@ Campaigns created in the Telnyx Portal or API: [Update My Campaign API | Telnyx]
 
 Campaigns created in the TCR Portal or API: [Update Single Shared Campaign API | Telnyx](https://developers.telnyx.com/api/messaging/10dlc/update-shared-campaign)
 
-When your campaign is suspended due to inactivity, you will receive a webhook  
+When your campaign is suspended due to inactivity, you will receive a webhook
  notification (if configured) with the following information:
 
 `{ "campaignId": "your-campaign-id", "type": "TELNYX_EVENT", "status": "DORMANT", "description": "Campaign has been marked as dormant" }`
@@ -165,18 +166,18 @@ Frequently Asked Questions
 
 Q: How often does the system check for inactive campaigns? A: The system runs daily to identify and suspend inactive campaigns.
 
-Q: Will I receive a warning before suspension? A: If you have webhooks configured,  
+Q: Will I receive a warning before suspension? A: If you have webhooks configured,
  you'll receive a notification when suspension occurs. We recommend monitoring your campaigns regularly.
 
 Q: Can I prevent my campaign from being suspended? A: Yes, keep at least one active phone number assigned to your campaign.
 
-Q: Is there a fee to reactivate a suspended campaign? A: No, reactivation is free.  
+Q: Is there a fee to reactivate a suspended campaign? A: No, reactivation is free.
  However, leaving campaigns dormant may result in carrier fees.
 
-Q: What happens to my messages during suspension? A: Messages sent from a suspended  
+Q: What happens to my messages during suspension? A: Messages sent from a suspended
  campaign may be blocked or rejected by carriers.
 
-Q: How long does reactivation take? A: Typically 1-5 minutes after reassigning phone  
+Q: How long does reactivation take? A: Typically 1-5 minutes after reassigning phone
  numbers.
 
 ---
@@ -198,5 +199,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

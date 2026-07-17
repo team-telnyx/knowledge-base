@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3267124-netherlands-number-porting
+title: "Netherlands Number Porting"
+description: "Here you will find a detailed list of requirements for Netherlands number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: e85c9d365dee5335030e67a1b8fa0eb4852a68c7e616d88e1f85e6b4c804280a
 ---
 
-Netherlands Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Netherlands Number Porting
 
-Here you will find a detailed list of requirements for Netherlands number portability.
+Here you will find a detailed list of requirements for Netherlands number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
-# **Local Numbers, smart mobile** (+31 97) numbers **in the Netherlands**
+## **Local Numbers, smart mobile** (+31 97) numbers **in the Netherlands**
 
 1. LOA (User’s local address from the same city as the number to be ported)
 2. Latest Invoice
@@ -59,5 +60,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

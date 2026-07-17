@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6560973-lithuania-sms-guidelines
+title: "Lithuania: SMS Guidelines"
+description: "Sending SMS to Lithuania? See Telnyx guidance and requirements Learn more about Lithuania: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: dc70273b60d17efb88c1fb05cdfdc9cae744e9aa82282a427826b0280e2de141
 ---
 
-Lithuania: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# Lithuania: SMS Guidelines
 
-Sending SMS to Lithuania? Check out our comprehensive guidelines to ensure compliance in Lithuania.
 
-Written by Telnyx Engineering
 
-November 21, 2023
-
-Table of contents
 
 # Lithuania: SMS Guidelines
 
-**MCC:** 246  
-​**Dial Code**: 370  
-​  
+Sending SMS to Lithuania? See Telnyx guidance and requirements Learn more about Lithuania: SMS Guidelines with Telnyx.
+
+
+
+
+## Lithuania: SMS Guidelines
+
+**MCC:** 246
+​**Dial Code**: 370
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

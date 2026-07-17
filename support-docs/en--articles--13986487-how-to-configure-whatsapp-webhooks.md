@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/13986487-how-to-configure-whatsapp-webhooks
+title: "How to Configure WhatsApp Webhooks"
+description: "Set up webhook endpoints to receive inbound WhatsApp messages and delivery status updates. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 3165ce048d08e449a328ce473f21437e7ae480a5538c6e42f26e248bbfc6b475
 ---
 
-How to Configure WhatsApp Webhooks | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How to Configure WhatsApp Webhooks
 
-Set up webhook endpoints to receive inbound WhatsApp messages and delivery status updates.
+Set up webhook endpoints to receive inbound WhatsApp messages and delivery status updates. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-March 16, 2026
 
-Table of contents
 
-# Overview
+## Overview
 
 Webhooks let you receive real-time notifications when customers send you WhatsApp messages and when your outbound messages are delivered, read, or fail. Configure your webhook URL through the WABA webhook settings in the Telnyx API or Portal.
 
-# Setting Up Webhooks
+## Setting Up Webhooks
 
 ## Via the Telnyx Portal
 
@@ -36,7 +37,7 @@ Webhooks let you receive real-time notifications when customers send you WhatsAp
 
 Use the WABA webhook configuration endpoint to set your webhook URL programmatically. You can also specify a `webhook_url` per message when sending via `POST /v2/messages/whatsapp`.
 
-# Webhook Events
+## Webhook Events
 
 ## Inbound Messages
 
@@ -62,17 +63,17 @@ For each outbound message, you receive status webhooks as the message progresses
 
 Delivery status webhooks include the `billing_type` field (e.g., `whatsapp_marketing`, `whatsapp_utility`, `whatsapp_service`) so you can track costs.
 
-# Webhook Requirements
+## Webhook Requirements
 
 * **HTTPS** — Your endpoint must use HTTPS with a valid SSL certificate
 * **200 response** — Return a 200 status code within 5 seconds to acknowledge receipt
 * **Idempotency** — You may receive the same webhook multiple times; handle duplicates gracefully using the message ID
 
-# Testing Webhooks
+## Testing Webhooks
 
 For development, you can use tools like [ngrok](https://ngrok.com) or [Hookdeck](https://hookdeck.com) to expose a local endpoint to the internet and inspect incoming webhook payloads.
 
-# Related Resources
+## Related Resources
 
 * [Receiving Webhooks Guide](https://developers.telnyx.com/docs/messaging/messages/receiving-webhooks)
 
@@ -85,5 +86,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

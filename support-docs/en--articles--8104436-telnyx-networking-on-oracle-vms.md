@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8104436-telnyx-networking-on-oracle-vms
+title: "Telnyx Networking on Oracle VMs"
+description: "Guide to set up Telnyx Edge Routing on Oracle VMs using WireGuard for secure connectivity. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 0fbcd8daa03d8e466054990fbd8e83508ffe0f08a1719bdfa8bf2e0055793bf9
 ---
 
-Telnyx Networking on Oracle VMs | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Telnyx Networking on Oracle VMs
 
-Guide to set up Telnyx Edge Routing on Oracle VMs using WireGuard for secure connectivity.
+Guide to set up Telnyx Edge Routing on Oracle VMs using WireGuard for secure connectivity. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-December 13, 2023
 
-Table of contents
 
-# Step 1: Telnyx Configuration with Oracle VMs
+## Step 1: Telnyx Configuration with Oracle VMs
 
 Reference the introduction to Telnyx Networking section located here: [Telnyx Configuration](https://support.telnyx.com/en/articles/8103257-global-ip-edge-routing)
 
@@ -37,16 +38,16 @@ It will guide you through the setup process as well as the installation of WireG
 We will first need to create a configuration file in the `/etc/wireguard` folder called `wg0.conf`. This is where we will place the configuration instructions that we generated from Step 1.
 
 ```
-[Interface]  
-PrivateKey = private key for this machine  
-Address = IP address for WireGuard interface  
-PostUp = iptables -A FORWARD -i wg0 -j ACCEPT; iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE  
-PostDown = iptables -D FORWARD -i wg0 -j ACCEPT; iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE  
-ListenPort = 51280  
-  
-[Peer]  
-PublicKey = public key for peer machine  
-AllowedIPs = IP address for peer WireGuard interface, additional CIDRs  
+[Interface]
+PrivateKey = private key for this machine
+Address = IP address for WireGuard interface
+PostUp = iptables -A FORWARD -i wg0 -j ACCEPT; iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+PostDown = iptables -D FORWARD -i wg0 -j ACCEPT; iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE
+ListenPort = 51280
+
+[Peer]
+PublicKey = public key for peer machine
+AllowedIPs = IP address for peer WireGuard interface, additional CIDRs
 PersistentKeepalive = 1
 ```
 
@@ -69,7 +70,7 @@ If you've tried setting up WireGuard with Oracle Cloud before, you'll probably n
 **We need to update our `wg0.conf` file with the following:**
 
 ```
-PostUp = /etc/wireguard/helper/add-nat-routing.sh  
+PostUp = /etc/wireguard/helper/add-nat-routing.sh
 PostDown = /etc/wireguard/helper/remove-nat-routing.sh
 ```
 
@@ -82,27 +83,27 @@ PostDown = /etc/wireguard/helper/remove-nat-routing.sh
 - add-nat-routing.sh
 
 ```
-#!/bin/bash  
-IPT="/sbin/iptables"  
-IPT6="/sbin/ip6tables"  
-  
-IN_FACE="ens3" # NIC connected to the internet  
-WG_FACE="wg0" # WG NIC  
-SUB_NET="10.66.66.0/24" # WG IPv4 sub/net aka CIDR  
-WG_PORT="59075" # WG udp port  
-SUB_NET_6="fd42:42:42::/64" # WG IPv6 sub/net  
-  
-## IPv4 ##  
-$IPT -t nat -I POSTROUTING 1 -s $SUB_NET -o $IN_FACE -j MASQUERADE  
-$IPT -I INPUT 1 -i $WG_FACE -j ACCEPT  
-$IPT -I FORWARD 1 -i $IN_FACE -o $WG_FACE -j ACCEPT  
-$IPT -I FORWARD 1 -i $WG_FACE -o $IN_FACE -j ACCEPT  
-$IPT -I INPUT 1 -i $IN_FACE -p udp --dport $WG_PORT -j ACCEPT  
-  
-## IPv6 (Uncomment) ##  
-$IPT6 -t nat -I POSTROUTING 1 -s $SUB_NET_6 -o $IN_FACE -j MASQUERADE  
-$IPT6 -I INPUT 1 -i $WG_FACE -j ACCEPT  
-$IPT6 -I FORWARD 1 -i $IN_FACE -o $WG_FACE -j ACCEPT  
+#!/bin/bash
+IPT="/sbin/iptables"
+IPT6="/sbin/ip6tables"
+
+IN_FACE="ens3" # NIC connected to the internet
+WG_FACE="wg0" # WG NIC
+SUB_NET="10.66.66.0/24" # WG IPv4 sub/net aka CIDR
+WG_PORT="59075" # WG udp port
+SUB_NET_6="fd42:42:42::/64" # WG IPv6 sub/net
+
+## IPv4 ##
+$IPT -t nat -I POSTROUTING 1 -s $SUB_NET -o $IN_FACE -j MASQUERADE
+$IPT -I INPUT 1 -i $WG_FACE -j ACCEPT
+$IPT -I FORWARD 1 -i $IN_FACE -o $WG_FACE -j ACCEPT
+$IPT -I FORWARD 1 -i $WG_FACE -o $IN_FACE -j ACCEPT
+$IPT -I INPUT 1 -i $IN_FACE -p udp --dport $WG_PORT -j ACCEPT
+
+## IPv6 (Uncomment) ##
+$IPT6 -t nat -I POSTROUTING 1 -s $SUB_NET_6 -o $IN_FACE -j MASQUERADE
+$IPT6 -I INPUT 1 -i $WG_FACE -j ACCEPT
+$IPT6 -I FORWARD 1 -i $IN_FACE -o $WG_FACE -j ACCEPT
 $IPT6 -I FORWARD 1 -i $WG_FACE -o $IN_FACE -j ACCEPT
 ```
 
@@ -111,26 +112,26 @@ $IPT6 -I FORWARD 1 -i $WG_FACE -o $IN_FACE -j ACCEPT
 - remove-nat-routing.sh
 
 ```
-#!/bin/bash  
-IPT="/sbin/iptables"  
-IPT6="/sbin/ip6tables"  
-  
-IN_FACE="ens3" # NIC connected to the internet  
-WG_FACE="wg0" # WG NIC  
-SUB_NET="10.66.66.0/24" # WG IPv4 sub/net aka CIDR  
-WG_PORT="59075" # WG udp port  
-SUB_NET_6="fd42:42:42::/64" # WG IPv6 sub/net  
-  
-# IPv4 rules #  
-$IPT -t nat -D POSTROUTING -s $SUB_NET -o $IN_FACE -j MASQUERADE  
-$IPT -D INPUT -i $WG_FACE -j ACCEPT  
-$IPT -D FORWARD -i $IN_FACE -o $WG_FACE -j ACCEPT  
-$IPT -D FORWARD -i $WG_FACE -o $IN_FACE -j ACCEPT  
-$IPT -D INPUT -i $IN_FACE -p udp --dport $WG_PORT -j ACCEPT  
-  
-# IPv6 rules (uncomment) #$IPT6 -t nat -D POSTROUTING -s $SUB_NET_6 -o $IN_FACE -j MASQUERADE  
-$IPT6 -D INPUT -i $WG_FACE -j ACCEPT  
-$IPT6 -D FORWARD -i $IN_FACE -o $WG_FACE -j ACCEPT  
+#!/bin/bash
+IPT="/sbin/iptables"
+IPT6="/sbin/ip6tables"
+
+IN_FACE="ens3" # NIC connected to the internet
+WG_FACE="wg0" # WG NIC
+SUB_NET="10.66.66.0/24" # WG IPv4 sub/net aka CIDR
+WG_PORT="59075" # WG udp port
+SUB_NET_6="fd42:42:42::/64" # WG IPv6 sub/net
+
+## IPv4 rules #
+$IPT -t nat -D POSTROUTING -s $SUB_NET -o $IN_FACE -j MASQUERADE
+$IPT -D INPUT -i $WG_FACE -j ACCEPT
+$IPT -D FORWARD -i $IN_FACE -o $WG_FACE -j ACCEPT
+$IPT -D FORWARD -i $WG_FACE -o $IN_FACE -j ACCEPT
+$IPT -D INPUT -i $IN_FACE -p udp --dport $WG_PORT -j ACCEPT
+
+## IPv6 rules (uncomment) #$IPT6 -t nat -D POSTROUTING -s $SUB_NET_6 -o $IN_FACE -j MASQUERADE
+$IPT6 -D INPUT -i $WG_FACE -j ACCEPT
+$IPT6 -D FORWARD -i $IN_FACE -o $WG_FACE -j ACCEPT
 $IPT6 -D FORWARD -i $WG_FACE -o $IN_FACE -j ACCEPT
 ```
 
@@ -149,19 +150,19 @@ or you can curl/trace into your server to confirm the Global IP that is configur
 Example Response:
 
 ```
-root@MacBook-Pro % ping 172.27.1.17  
-PING 172.27.1.17 (172.27.1.17): 56 data bytes  
-64 bytes from 172.27.1.17: icmp_seq=0 ttl=53 time=184.512 ms  
-64 bytes from 172.27.1.17: icmp_seq=1 ttl=53 time=183.202 ms  
-64 bytes from 172.27.1.17: icmp_seq=2 ttl=53 time=183.365 ms  
-64 bytes from 172.27.1.17: icmp_seq=3 ttl=53 time=183.040 ms  
-64 bytes from 172.27.1.17: icmp_seq=4 ttl=53 time=183.310 ms  
-64 bytes from 172.27.1.17: icmp_seq=5 ttl=53 time=183.980 ms  
-64 bytes from 172.27.1.17: icmp_seq=6 ttl=53 time=183.457 ms  
-64 bytes from 172.27.1.17: icmp_seq=7 ttl=53 time=183.097 ms  
-^C  
---- 172.27.1.17 ping statistics ---  
-8 packets transmitted, 8 packets received, 0.0% packet loss  
+root@MacBook-Pro % ping 172.27.1.17
+PING 172.27.1.17 (172.27.1.17): 56 data bytes
+64 bytes from 172.27.1.17: icmp_seq=0 ttl=53 time=184.512 ms
+64 bytes from 172.27.1.17: icmp_seq=1 ttl=53 time=183.202 ms
+64 bytes from 172.27.1.17: icmp_seq=2 ttl=53 time=183.365 ms
+64 bytes from 172.27.1.17: icmp_seq=3 ttl=53 time=183.040 ms
+64 bytes from 172.27.1.17: icmp_seq=4 ttl=53 time=183.310 ms
+64 bytes from 172.27.1.17: icmp_seq=5 ttl=53 time=183.980 ms
+64 bytes from 172.27.1.17: icmp_seq=6 ttl=53 time=183.457 ms
+64 bytes from 172.27.1.17: icmp_seq=7 ttl=53 time=183.097 ms
+^C
+--- 172.27.1.17 ping statistics ---
+8 packets transmitted, 8 packets received, 0.0% packet loss
 round-trip min/avg/max/stddev = 183.040/183.495/184.512/0.471 ms
 ```
 
@@ -180,5 +181,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

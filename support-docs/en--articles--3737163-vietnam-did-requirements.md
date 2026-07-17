@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3737163-vietnam-did-requirements
+title: "Vietnam DID Requirements"
+description: "Here you will find a detailed list of requirements to acquire Vietnam numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: d7bdf854f8eabc3df6bcabd3d2f22058d7f65a744af80c5637f8480036c8b73d
 ---
 
-Vietnam DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Vietnam DID Requirements
 
-Here you will find a detailed list of requirements to acquire Vietnam numbers.
+Here you will find a detailed list of requirements to acquire Vietnam numbers. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-January 31, 2026
 
-Table of contents
 
-# DID Number Requirements for Vietnam
+## DID Number Requirements for Vietnam
 
 In order to purchase a Vietnam number you will need to provide the following:
 
@@ -34,22 +35,22 @@ For **personal identity** verification:
 
 \*Utility Bill, not older than 3 months
 
-​  
-For **business identity** verification:   
-\* Name, last name of an authorized representative   
-\* Contact phone number   
-\* Contact e-mail   
-\* Company name   
-\* Passport or ID copy of an authorized representative   
-\* Company registration certificate   
+​
+For **business identity** verification:
+\* Name, last name of an authorized representative
+\* Contact phone number
+\* Contact e-mail
+\* Company name
+\* Passport or ID copy of an authorized representative
+\* Company registration certificate
 \* Signed LOI (dated within 1 month)
 
 \*Utility Bill, not older than 3 months
 
-​  
-​  
-​  
-For **address** verification:   
+​
+​
+​
+For **address** verification:
 \* Address worldwide (street, building number, postal code, city, and country)
 
 ## **Toll-Free Numbers in Vietnam**
@@ -70,7 +71,7 @@ For **address** verification:
 
 \* Address Worldwide (street, building number, postal code, city and country)
 
-**Additional Information:**   
+**Additional Information:**
 \* Calling card usage not permitted: The number may not be used to offer calling card services.
 
 \*Please note that once the documentation is received it will take approximately 72 hours to validate the information and activate the number for use.
@@ -116,5 +117,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,32 +1,33 @@
 ---
 source_url: https://support.telnyx.com/en/articles/2047076-carrier-refusing-to-port-your-number
+title: "Carrier Refusing to Port Your Number"
+description: "Porting a number away from your provider can sometimes be difficult, learn how to make it easier here. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a6d6160ebadb7eb87c8497d436dab4b680d50838e8aa193a8eec7e2e93eeeb52
 ---
 
-Carrier Refusing to Port Your Number | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Carrier Refusing to Port Your Number
 
-Porting a number away from your provider can sometimes be difficult, learn how to make it easier here.
+Porting a number away from your provider can sometimes be difficult, learn how to make it easier here. See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-August 21, 2023
 
-Table of contents
 
 Porting a number away from your provider can sometimes be a pain! Porting a number away from a provider means loss of business for them, which no business wants.
 
 At Telnyx, we try to work with carriers and verify your information in real-time to help ease the process of moving your numbers to Telnyx from your existing provider. Unfortunately, we do not have relationships with all carriers, so there are some things that may be helpful for you to do in order to speed up the process:
 
-# **Make sure your porting request information is correct.**
+## **Make sure your porting request information is correct.**
 
 One of the main reasons why port requests are rejected by a losing carrier is because the information you submitted is wrong. This may sound like a simple mistake, but it is the most common reason for rejection and sometimes takes weeks to resolve. If you are unsure of your account information, please [request a CSR from your carrier](https://support.telnyx.com/en/articles/1130614-obtaining-a-csr-from-your-carrier).
 
-If you have received a response from our team in relation to a specific rejection reason and want to know what it means check out [Porting Error Messages](https://support.telnyx.com/en/articles/1618776-porting-error-messages).  
+If you have received a response from our team in relation to a specific rejection reason and want to know what it means check out [Porting Error Messages](https://support.telnyx.com/en/articles/1618776-porting-error-messages).
 ​
 
 ## **Call your provider**
@@ -46,5 +47,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3266993-israel-number-porting
+title: "Israel Number Porting"
+description: "Here you will find all of the requirements for Israel number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 1138a174f12bc6efb783cbf70487baae075b3d59b1b1f54bb137ed6fd21c7648
 ---
 
-Israel Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Israel Number Porting
 
-Here you will find all of the requirements for Israel number portability.
+Here you will find all of the requirements for Israel number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-December 5, 2025
 
-Table of contents
 
-# **Local/National/Mobile Numbers in Israel**
+## **Local/National/Mobile Numbers in Israel**
 
 1. LOA
 2. VAT / TAX ID
@@ -41,5 +42,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

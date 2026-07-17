@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/9271183-argentina-number-portability
+title: "Argentina Number Portability"
+description: "Here you will find a list of the requirements for Argentina Number Portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 57ce5a9361c0150ca57e40789ff04e76049aea23ef11c04280319d8347ab223a
 ---
 
-Argentina Number Portability | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Argentina Number Portability
 
-Here you will find a list of the requirements for Argentina Number Portability.
+Here you will find a list of the requirements for Argentina Number Portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-February 10, 2026
 
-Table of contents
 
-# Best Practices for Number Porting Support in Argentina
+## Best Practices for Number Porting Support in Argentina
 
 ### Local / National Numbers
 
@@ -67,5 +68,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

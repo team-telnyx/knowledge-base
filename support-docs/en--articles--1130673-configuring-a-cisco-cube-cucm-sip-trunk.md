@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130673-configuring-a-cisco-cube-cucm-sip-trunk
+title: "Configuring a Cisco CUBE/CUCM SIP Trunk"
+description: "Here we will walk you through configuring a Cisco CUBE/CUCM SIP user/pass trunk with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 3f6d35ac37007822a0be176441a3cb653a9c9e2f81f37cd8ad729e87205cb3fa
 ---
 
-Configuring a Cisco CUBE/CUCM SIP Trunk | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Configuring a Cisco CUBE/CUCM SIP Trunk
 
-Here we will walk you through configuring a Cisco CUBE/CUCM SIP user/pass trunk with Telnyx.
+Here we will walk you through configuring a Cisco CUBE/CUCM SIP user/pass trunk with Telnyx. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-June 6, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_8a6d995b5d)
 
@@ -30,7 +31,7 @@ Additional documentation:
 
 ---
 
-# Instructions for integrating a Cisco CUBE with a Telnyx CUCM SIP trunk
+## Instructions for integrating a Cisco CUBE with a Telnyx CUCM SIP trunk
 
 This guide will help you establish a connection between your CISCO/CUCM server, and your Telnyx Mission Control Portal by showing you a sample trunk configuration. This assumes you've already completed the installation and telecommunication-applications deployment, per the pre-requisites.
 
@@ -70,14 +71,14 @@ This is the layout of our set-up:
 *In global configuration mode*
 
 ```
-dial-peer voice 100 voip        ! 100 is an arbitrary number  
-translation-profile incoming 100  ! Used to translate DID to extension  
-destination-pattern 1[2-9]..[2-9]...... !general pattern for an outgoing 11 digit calling  
-session protocol sipv2  
-voice-class sip profiles 1   ! Refers to a pre-configured SIP Profile, used to modify headers in SIP Messages  
-session target sip.telnyx.com  
-incoming called-number 1[2-9]..[2-9]......   
-dtmf-relay rtp-nte cisco-rtp sip-kpml sip-notify  
+dial-peer voice 100 voip        ! 100 is an arbitrary number
+translation-profile incoming 100  ! Used to translate DID to extension
+destination-pattern 1[2-9]..[2-9]...... !general pattern for an outgoing 11 digit calling
+session protocol sipv2
+voice-class sip profiles 1   ! Refers to a pre-configured SIP Profile, used to modify headers in SIP Messages
+session target sip.telnyx.com
+incoming called-number 1[2-9]..[2-9]......
+dtmf-relay rtp-nte cisco-rtp sip-kpml sip-notify
 voice-class codec 1      ! 1 Refers to a pre-configured ordered list of codecs
 ```
 
@@ -90,10 +91,10 @@ voice-class codec 1      ! 1 Refers to a pre-configured ordered list of codec
 *In global configuration mode*
 
 ```
-voice service voip  
-ip address trusted list  
-ipv4 192.76.120.10  
-ipv4 64.16.240.36  
+voice service voip
+ip address trusted list
+ipv4 192.76.120.10
+ipv4 64.16.240.36
 ipv4 172.0.0.0 !Private IP address of CUCM
 ```
 
@@ -102,12 +103,12 @@ ipv4 172.0.0.0 !Private IP address of CUCM
 *In global configuration mode*
 
 ```
-voice service voip  
-mode border-element  ! Required if operating in CUBE mode, as opposed to CME  
-allow connections sip to sip  ! Permit SIP to SIP calls  
-sip  
-early-offer forced  
-midcall-signaling passthru  
+voice service voip
+mode border-element  ! Required if operating in CUBE mode, as opposed to CME
+allow connections sip to sip  ! Permit SIP to SIP calls
+sip
+early-offer forced
+midcall-signaling passthru
 sip-profiles 1   ! Refers to pre-configured sip profile
 ```
 
@@ -116,9 +117,9 @@ sip-profiles 1   ! Refers to pre-configured sip profile
 *In global configuration mode*
 
 ```
-voice class codec 1  
-codec preference 1 g711ulaw  
-codec preference 2 g711alaw  
+voice class codec 1
+codec preference 1 g711ulaw
+codec preference 2 g711alaw
 codec preference 3 g729br8
 ```
 
@@ -129,14 +130,14 @@ If your CUBE is behind a NAT and does not have an interface with a public IP, yo
 *In global configuration mode*
 
 ```
-voice class sip-profiles 1  
-response ANY sip-header Contact modify "172.x.y.z" "1.2.3.4" !1.2.3.4 Public IP; 172.x.y.z Private IP of the CUBE  
-request ANY sip-header Contact modify "172.x.y.z" "1.2.3.4"   
-response ANY sdp-header Audio-Connection-Info modify "172.x.y.z" "1.2.3.4"  
-response ANY sdp-header Connection-Info modify "172.x.y.z" "1.2.3.4"  
-response ANY sdp-header Session-Owner modify "172.x.y.z" "1.2.3.4"  
-request ANY sdp-header Audio-Connection-Info modify "172.x.y.z" "1.2.3.4"  
-request ANY sdp-header Connection-Info modify "172.x.y.z" "1.2.3.4"  
+voice class sip-profiles 1
+response ANY sip-header Contact modify "172.x.y.z" "1.2.3.4" !1.2.3.4 Public IP; 172.x.y.z Private IP of the CUBE
+request ANY sip-header Contact modify "172.x.y.z" "1.2.3.4"
+response ANY sdp-header Audio-Connection-Info modify "172.x.y.z" "1.2.3.4"
+response ANY sdp-header Connection-Info modify "172.x.y.z" "1.2.3.4"
+response ANY sdp-header Session-Owner modify "172.x.y.z" "1.2.3.4"
+request ANY sdp-header Audio-Connection-Info modify "172.x.y.z" "1.2.3.4"
+request ANY sdp-header Connection-Info modify "172.x.y.z" "1.2.3.4"
 request ANY sdp-header Session-Owner modify "172.x.y.z" "1.2.3.4"
 ```
 
@@ -151,7 +152,7 @@ Additionally, it is advisable to define a loopback interface and configure it wi
 *In global configuration mode*
 
 ```
-interface loopback 0  
+interface loopback 0
 ip address 1.2.3.4 255.255.255.0
 ```
 
@@ -164,7 +165,7 @@ Create a voice translation rule. For example, the rule below translates 13125489
 *In global configuration mode*
 
 ```
-voice translation-rule 100  
+voice translation-rule 100
 rule 1 /13125489677/ /3005/   !  Several rules can be defined. In this case, 3005 is an extension on CUCM
 ```
 
@@ -173,7 +174,7 @@ rule 1 /13125489677/ /3005/   !  Several rules can be defined. In this case, 3
 *In global configuration mode*
 
 ```
-voice translation-profile 100  
+voice translation-profile 100
 translate called 100
 ```
 
@@ -188,10 +189,10 @@ translation-profile incoming 100
 *In global configuration mode*
 
 ```
-dial-peer voice 300 voip  
-destination-pattern 3...           !Matches 3XXX numbers, as translated by the translation profile  
-session protocol sipv2  
-session target ipv4:172.16.8.10  
+dial-peer voice 300 voip
+destination-pattern 3...           !Matches 3XXX numbers, as translated by the translation profile
+session protocol sipv2
+session target ipv4:172.16.8.10
 dtmf-relay rtp-nte cisco-rtp sip-kpml sip-notify
 ```
 
@@ -202,9 +203,9 @@ Configure registration with sip.telnyx.com using username and password set up on
 *In global configuration mode*
 
 ```
-sip-ua  
-credentials username <connection_username> password <connection_password> realm sip.telnyx.com  
-authentication username <connection_username> password <connection_password> realm sip.telnyx.com    
+sip-ua
+credentials username <connection_username> password <connection_password> realm sip.telnyx.com
+authentication username <connection_username> password <connection_password> realm sip.telnyx.com
 registrar dns:sip.telnyx.com
 ```
 
@@ -235,5 +236,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

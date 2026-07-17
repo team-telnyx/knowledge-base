@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4557103-telnyx-privacy-policy
+title: "Telnyx Privacy Policy"
+description: "In this article we will provide details on Telnyx's privacy policy so you can have peace of mind. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 31da0db7e15cdc8b0a2c9177f64cf18ae008f05b40f3ac8717788275b2ede14e
 ---
 
-Telnyx Privacy Policy | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Telnyx Privacy Policy
 
-In this article we will provide details on Telnyx's privacy policy so you can have peace of mind.
+In this article we will provide details on Telnyx's privacy policy so you can have peace of mind. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-May 25, 2024
 
-Table of contents
 
-# **Details on Telnyx's Privacy Policy**
+## **Details on Telnyx's Privacy Policy**
 
 Our privacy policy provides important information about how Telnyx handles personal information in line with the General Data Protection Regulation 2016/679.
 
@@ -39,5 +40,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

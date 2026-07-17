@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130638-does-telnyx-provide-any-hardware
+title: "Does Telnyx provide any hardware?"
+description: "Wondering if Telnyx provides hardware? See Telnyx guidance and requirements Learn more about Does Telnyx provide any hardware? with Telnyx."
 scraped: 2026-07-08
 content_hash: 4ad73c1311a0770bc59961a748908b3816cf6d550ef9556de1989ab3660a099f
 ---
 
-Does Telnyx provide any hardware? | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Does Telnyx provide any hardware?
 
-Wondering if Telnyx provides hardware? Here we will answer that question and what hardware Telnyx is compatible with.
+Wondering if Telnyx provides hardware? See Telnyx guidance and requirements Learn more about Does Telnyx provide any hardware? with Telnyx.
 
-Written by Telnyx Sales
 
-January 10, 2024
 
-Table of contents
 
-# What Hardware does Telnyx provide?
+## What Hardware does Telnyx provide?
 
 Telnyx is a cloud-based platform and we do not provide any hardware; however, we are compatible with almost any SIP-enabled device or platform.
 
@@ -37,5 +38,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

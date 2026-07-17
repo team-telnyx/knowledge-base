@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5724344-cisco-linksys-star-codes
+title: "Cisco/Linksys Star Codes"
+description: "Discover the comprehensive list of Cisco and Linksys star codes. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: def0aeeaff15892676b5831ad5730e756ac5e2eaccd1ac9d9eecfb725be070dd
 ---
 
-Cisco/Linksys Star Codes | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Cisco/Linksys Star Codes
 
-Discover the comprehensive list of Cisco and Linksys star codes. Enhance your calling experience with Telnyx.
+Discover the comprehensive list of Cisco and Linksys star codes. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-September 27, 2023
 
-Table of contents
 
-# **Cisco/Linksys Star Codes**
+## **Cisco/Linksys Star Codes**
 
 |  |  |  |
 | --- | --- | --- |
@@ -88,5 +89,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

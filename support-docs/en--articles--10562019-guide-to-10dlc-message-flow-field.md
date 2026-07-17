@@ -1,22 +1,24 @@
 ---
 source_url: https://support.telnyx.com/en/articles/10562019-guide-to-10dlc-message-flow-field
+title: "Guide to 10DLC Message Flow Field"
+description: "How to fill out the CTA/Message Flow field in your 10dlc campaign… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 52724a201fd5374074a0eb90e9410468b85a7658feedbe8a9d47840d78861363
 ---
 
-Guide to 10DLC Message Flow Field | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Guide to 10DLC Message Flow Field
 
-How to fill out the CTA/Message Flow field in your 10dlc campaign registration
+How to fill out the CTA/Message Flow field in your 10dlc campaign… See Telnyx guidance and requirements.
 
 K
 
-Written by Klane Pedrie
 
-December 15, 2025
 
 The most challenging field on the campaign registration is the message flow field which is where everything about how subscribers opt in to your campaign is documented. You can gather sms opt in in one of four ways: Digital, Verbal, Paper, or by Inbound message. Pick one of those four opt in methods that you want to document in the campaign and follow the corresponding template below but fill in the variables that match the details for your brand and campaign:
 
@@ -99,12 +101,12 @@ Once the customer agrees verbally, the phone number is recorded, and a confirmat
 * *"Thank you for your message to [Brand Name]! We will be with you shortly. Msg freq may vary. Std msg & data rates apply. Reply STOP to opt out, HELP for help. We will not share or sell your mobile information for marketing/promotional purposes."*
 * *Link to where phone number or qr code is advertised or link to screenshot of where phone number or qr code is advertised*
 
-  ​  
-  ​  
-  If you have a marketing use case then marketing must be mentioned on the opt in such as "You are opting in to receive marketing sms from [Brand Name]."  
-  ​  
-  If you have a political or charity use case and there is any fundraising or perceived as there will be fundraising then you must mention "Donations may be solicited." on the opt in.  
-  ​  
+  ​
+  ​
+  If you have a marketing use case then marketing must be mentioned on the opt in such as "You are opting in to receive marketing sms from [Brand Name]."
+  ​
+  If you have a political or charity use case and there is any fundraising or perceived as there will be fundraising then you must mention "Donations may be solicited." on the opt in.
+  ​
   ​
 
 ---

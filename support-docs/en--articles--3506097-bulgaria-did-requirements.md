@@ -1,59 +1,60 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements
+title: "Bulgaria DID Requirements"
+description: "Here you will find a detailed list of requirements for acquiring Bulgaria numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a5359480c15970d199cb67bd3b800e9b733673dfed0970e1e748bfeb9594bb8b
 ---
 
-Bulgaria DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Bulgaria DID Requirements
 
-Here you will find a detailed list of requirements for acquiring Bulgaria numbers.
+Here you will find a detailed list of requirements for acquiring Bulgaria numbers. See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-May 17, 2024
 
-Table of contents
 
-# DID Number Requirements for Bulgaria
+## DID Number Requirements for Bulgaria
 
 In order to purchase a Bulgarian number you will need to provide the following:
 
 ## ​**Local Numbers in Bulgaria**
 
-For **personal identity** verification:  
-\* Name, last name  
-\* Contact phone number  
-\* Passport or ID copy  
-​  
-For **business identity** verification:  
+For **personal identity** verification:
+\* Name, last name
+\* Contact phone number
+\* Passport or ID copy
+​
+For **business identity** verification:
 \* Name, last name of an authorized representative
 
-\* Company name  
-\* Contact phone number  
-\* Company registration certificate  
-​  
-For **address** verification:  
+\* Company name
+\* Contact phone number
+\* Company registration certificate
+​
+For **address** verification:
 \* Address matching the DID area code (street, building number, postal code, city, and country)
 
 \* Proof of address (dated within 3 months)
 
 ## **Toll-Free Numbers in Bulgaria**
 
-For **personal identity** verification:  
-\* Name, last name  
-\* Contact phone number  
-​  
-For **business identity** verification:  
+For **personal identity** verification:
+\* Name, last name
+\* Contact phone number
+​
+For **business identity** verification:
 \* Name, last name of an authorized representative
 
-\* Company name  
-\* Contact phone number  
-​  
-For **address** verification:  
+\* Company name
+\* Contact phone number
+​
+For **address** verification:
 \* Address worldwide (street, building number, postal code, city, and country)
 
 \*\*\*Please note that once the documentation is received it will take approximately 72 hours to validate the information and activate the number for use.
@@ -99,5 +100,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130695-configuring-telnyx-sip-trunking-with-avaya
+title: "Configuring Telnyx SIP Trunking with Avaya"
+description: "Learn how to configure Telnyx SIP Trunking with Avaya IP Office 10 and Avaya Session Border Controller for Enterprise… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 2afba1f11c3ca306f446f08fe6092fc329427530d6143f3ba2451c8dbf69e60f
 ---
 
-Configuring Telnyx SIP Trunking with Avaya | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Configuring Telnyx SIP Trunking with Avaya
 
-Learn how to configure Telnyx SIP Trunking with Avaya IP Office 10 and Avaya Session Border Controller for Enterprise Release 7.1 using UDP
+Learn how to configure Telnyx SIP Trunking with Avaya IP Office 10 and Avaya Session Border Controller for Enterprise… See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-January 29, 2025
 
-Table of contents
 
 [Jump to Instructions](#h_1a09f66b49)
 
@@ -30,17 +31,17 @@ Additional documentation and resources:
 
 ---
 
-# Instructions for configuring Telnyx SIP trunking with Avaya
+## Instructions for configuring Telnyx SIP trunking with Avaya
 
 In this task you will:
 
-1. Configure Telnyx [SIP Trunking](https://telnyx.com/products/sip-trunks) Service with Avaya IP Office 10 and Avaya Session Border Controller for Enterprise Release 7.1 Using UDP  
+1. Configure Telnyx [SIP Trunking](https://telnyx.com/products/sip-trunks) Service with Avaya IP Office 10 and Avaya Session Border Controller for Enterprise Release 7.1 Using UDP
    ​
 
 **Pre-requisites**
 
 * Ensure that your [Telnyx Mission Command Portal is configured properly](https://support.telnyx.com/en/articles/1176636-get-started-with-a-mission-control-account)
-* [Provision a DID from Telnyx](https://portal.telnyx.com/#/app/numbers/search-numbers) ([How do I do this?](https://support.telnyx.com/en/articles/3562148-requesting-numbers))  
+* [Provision a DID from Telnyx](https://portal.telnyx.com/#/app/numbers/search-numbers) ([How do I do this?](https://support.telnyx.com/en/articles/3562148-requesting-numbers))
   ​
 
 **Video walkthrough**
@@ -80,5 +81,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

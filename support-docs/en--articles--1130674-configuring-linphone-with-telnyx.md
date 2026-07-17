@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130674-configuring-linphone-with-telnyx
+title: "Configuring Linphone with Telnyx"
+description: "In this article we will walk you through how to configure Linphone with the Telnyx Mission Control Portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 5a650a855a2422e3a1f1ca87d3d4effc3ab61c7de66d2d84f9237fc9e3a62b9d
 ---
 
-Configuring Linphone with Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Configuring Linphone with Telnyx
 
-In this article we will walk you through how to configure Linphone with the Telnyx Mission Control Portal.
+In this article we will walk you through how to configure Linphone with the Telnyx Mission Control Portal. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-March 3, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_243a357b53)
 
@@ -29,7 +30,7 @@ For Linphone documentation, see:
 
 ---
 
-# Instructions for Configuring Linphone with Telnyx
+## Instructions for Configuring Linphone with Telnyx
 
 1. [Configuring your Linphone](#h_fbaa0b1c3d)
 2. [Configuring your Linphone with encryption](#h_cc01cc6a37)
@@ -116,5 +117,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

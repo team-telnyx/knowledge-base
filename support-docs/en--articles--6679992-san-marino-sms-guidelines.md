@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6679992-san-marino-sms-guidelines
+title: "San Marino: SMS Guidelines"
+description: "Sending SMS to San Marino? See Telnyx guidance and requirements Learn more about San Marino: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 23a92f0aa4803933304771db17a901b30eb74667d6745574ad5088f494000cc5
 ---
 
-San Marino: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # San Marino: SMS Guidelines
 
-Sending SMS to San Marino? Check out our comprehensive guidelines to ensure compliance in San Marino.
+Sending SMS to San Marino? See Telnyx guidance and requirements Learn more about San Marino: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **San Marino: SMS Guidelines**
+## **San Marino: SMS Guidelines**
 
-**MCC:** 292  
-​**Dial Code:** 378  
-​  
+**MCC:** 292
+​**Dial Code:** 378
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

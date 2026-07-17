@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5720521-estonia-number-porting
+title: "Estonia Number Porting"
+description: "Here you will find a detailed list of requirements for Estonia number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 872c7f24aca381f323f77aa6806a98e106c7ecb45cb81e4630c870fa4ffd8bda
 ---
 
-Estonia Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Estonia Number Porting
 
-Here you will find a detailed list of requirements for Estonia number portability.
+Here you will find a detailed list of requirements for Estonia number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
-# **Estonia Number Porting**
+## **Estonia Number Porting**
 
 ## **For Local / National/Toll-Free number Types in Estonia**
 
@@ -43,5 +44,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/10245573-us-short-code-ordering-process
+title: "US Short Code Ordering Process"
+description: "How to order a Short Code via Telnyx in the… See Telnyx guidance and requirements Learn more about US Short Code Ordering Process with Telnyx."
 scraped: 2026-07-08
 content_hash: 9d57003059a9460ba3ad630ef4e0cda754216dfce3f6c755d1e1628125862564
 ---
 
-US Short Code Ordering Process | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # US Short Code Ordering Process
 
-How to order a Short Code via Telnyx in the US
+How to order a Short Code via Telnyx in the… See Telnyx guidance and requirements Learn more about US Short Code Ordering Process with Telnyx.
 
 K
 
-Written by Klane Pedrie
 
-December 16, 2025
 
-Table of contents
 
-# US Short Code Ordering Process
+## US Short Code Ordering Process
 
 ## Short Code Order Types
 
@@ -31,7 +32,7 @@ The ordering process between the two is quite similar, more details below.
 
 ## Ordering a New Random or Vanity Short Code
 
-To order a new Random or Vanity Short code you need to fill out two forms:  
+To order a new Random or Vanity Short code you need to fill out two forms:
 1. Short Code Order Brief, which is for the carriers.
 
 2. Brand Registration Form, which is for the Short Code Registry. This will be revetted every 12 months by the Short Code Registry.
@@ -71,5 +72,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

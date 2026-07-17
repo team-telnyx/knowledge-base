@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6675683-martinique-sms-guidelines
+title: "Martinique: SMS Guidelines"
+description: "SMS Guidelines for Martinique including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Martinique: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 135a1705593f6f0ffb9b40bd6d8d82699b92128d1f2258ac959e1b9d13f79167
 ---
 
-Martinique: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Martinique: SMS Guidelines
 
-SMS Guidelines for Martinique including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Martinique including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Martinique: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **SMS Guidelines for Martinique**
+## **SMS Guidelines for Martinique**
 
-**MCC:** 340  
-​**Dial Code:** 596  
-​  
+**MCC:** 340
+​**Dial Code:** 596
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

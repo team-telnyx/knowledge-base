@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130635-can-i-port-out-my-telnyx-number
+title: "Can I port out my Telnyx number?"
+description: "In this article we will explain how you can port out your Telnyx number. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: cc008d87e7ed790c82632a18b886b72a756e40ff8f3711920edfa2e5e67c8149
 ---
 
-Can I port out my Telnyx number? | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# Can I port out my Telnyx number?
 
-In this article we will explain how you can port out your Telnyx number.
 
-Written by Telnyx Sales
 
-January 10, 2024
-
-Table of contents
 
 # Can I port out my Telnyx number?
+
+In this article we will explain how you can port out your Telnyx number. See Telnyx guidance and requirements.
+
+
+
+
+## Can I port out my Telnyx number?
 
 At Telnyx, we understand that things change for a number of reasons, and we will always accommodate your business’s needs.  If you decide to port out from Telnyx, you need to submit a request with the winning carrier, and the winning carrier needs to contact our porting team through email [lnp@telnyx.com](mailto:lnp@telnyx.com) to process this request.
 
@@ -31,5 +32,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

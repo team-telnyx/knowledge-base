@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes
+title: "Telnyx SIP Response Codes"
+description: "This article highlights the SIP response codes Telnyx uses and their unique meanings! See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: f5f411c9eb9943f39d1f186c1c1b0d61c08172c4938a7d91c126fc18ece6fe72
 ---
 
-Telnyx SIP Response Codes | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Telnyx SIP Response Codes
 
-This article highlights the SIP response codes Telnyx uses and their unique meanings!
+This article highlights the SIP response codes Telnyx uses and their unique meanings! See Telnyx guidance and requirements.
 
-Written by David
 
-May 6, 2026
 
-Table of contents
 
 At Telnyx, we have many different situations and settings that can result in a particular SIP response code sent back to your client. We realized that there are so many situations that may result in the same response code, it was necessary to distinguish them so our customers can have further clarity on why some of their calls did not complete as expected.
 
 The aim of this article is to list all the SIP response codes that can be expected and expand on their meaning, along with providing feedback on how to workaround them. We'll also discuss some special cases and include ISDN cause codes and their related hangup reasons.
 
-# SIP Response Codes
+## SIP Response Codes
 
 The format of the response codes is as follows: D1X, D2X, D3X...D9X
 
@@ -231,7 +232,7 @@ The number of concurrent calls for all numbers under **Global Channel Billing** 
 
 **D57 - 403 HD voice is disabled for this phone number**
 
-This error happens when HD voice is disabled.  
+This error happens when HD voice is disabled.
 You attempted to make a call with HD voice enabled, but this feature is not activated for the phone number you're using.
 
 To resolve, enable HD voice for your phone number in your Telnyx account settings.
@@ -248,7 +249,7 @@ This error occurs when a call to a short or special number is not supported by t
 
 ## D6X
 
-# D60 - 403 Can not make calls to non-verified numbers at this account level
+## D60 - 403 Can not make calls to non-verified numbers at this account level
 
 The user portal level doesn't allow this type of calls, they should upgrade their account to a higher level.
 
@@ -256,7 +257,7 @@ Your account's current tier does not permit calls to non-verified numbers.
 
 To resolve, verify the destination number or upgrade your account to a higher tier that permits these call types.
 
-# D61: "486 Busy Here D61"
+## D61: "486 Busy Here D61"
 
 The user portal level doesn't allow this type of calls, they should upgrade their account to a higher level.
 
@@ -379,7 +380,7 @@ The RURI is too long, at over 512 bytes.
 
 ---
 
-# P15
+## P15
 
 **503 CPS Limit reached**
 
@@ -391,7 +392,7 @@ To resolve, wait a few seconds and retry, reduce your registration request rate,
 
 ---
 
-# P16
+## P16
 
 **403 Forbidden**
 
@@ -439,7 +440,7 @@ A request is received and the Contact lenght is over 512 bytes, so it is rejecte
 
 ---
 
-# R47
+## R47
 
 **403 Too Many Contacts**
 
@@ -527,7 +528,7 @@ Telnyx is unable to connect the call due to termination issues likely with multi
 
 ---
 
-# TM1
+## TM1
 
 **403 No Rates Found**
 
@@ -541,8 +542,8 @@ To resolve, verify the destination number is correct, check if Telnyx offers cov
 
 ## IDSN Cause Codes & Hangup Reasons
 
-ISDN cause codes are used to describe reasons for hang up, they are PSTN based codes which are included in the "Reason" header of SIP response. When the ISDN network or remote user disconnects a call for any reason, the cause might be reported by any ISDN-aware application. They don't necessarily indicate an error as cause codes are shown at the end of normally terminated calls as-well. They are simply guidelines and are implementation-dependent.  
-​  
+ISDN cause codes are used to describe reasons for hang up, they are PSTN based codes which are included in the "Reason" header of SIP response. When the ISDN network or remote user disconnects a call for any reason, the cause might be reported by any ISDN-aware application. They don't necessarily indicate an error as cause codes are shown at the end of normally terminated calls as-well. They are simply guidelines and are implementation-dependent.
+​
 An example is: ***Reason: Q.850;cause=21;text="CALL\_REJECTED"***, where the ISDN cause code is 21 and the hangup reason is call rejected. This generally maps to a SIP 403 response.
 
 Please reference this [page](https://developer.signalwire.com/freeswitch/FreeSWITCH-Explained/Troubleshooting-Debugging/Hangup-Cause-Code-Table_3964945/) which provides a detailed breakdown for each cause code, their relevant hangup reason and associated SIP response mapping.
@@ -591,5 +592,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

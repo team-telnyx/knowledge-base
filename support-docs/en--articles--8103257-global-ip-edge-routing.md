@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8103257-global-ip-edge-routing
+title: "Global IP & Edge Routing"
+description: "Step by step process on how to get started with Telnyx Networking via procurement of Global IPs and setting up Global… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 14cbe94a033607bd07880e7a1046376bfc49a3e0af042442f9f1069c98b79659
 ---
 
-Global IP & Edge Routing | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Global IP & Edge Routing
 
-Step by step process on how to get started with Telnyx Networking via procurement of Global IPs and setting up Global Edge Routing
+Step by step process on how to get started with Telnyx Networking via procurement of Global IPs and setting up Global… See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-October 16, 2025
 
-Table of contents
 
-# Setting up Networking for Global Edge Routing
+## Setting up Networking for Global Edge Routing
 
 ## **NOTE:** Please note that Global IP for customers is currently disabled. At present there are no plans to re-enable it in the near future. **Step 1. Create a Network**
 
@@ -61,5 +62,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

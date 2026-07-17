@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/13986482-whatsapp-24-hour-conversation-window
+title: "WhatsApp 24-Hour Conversation Window"
+description: "How the WhatsApp 24-hour conversation window works, what opens it, and what happens when it expires. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 2fe960b316229561d9e5c4d5e72ed3e97453f4146e10647d69e5a910dd51a413
 ---
 
-WhatsApp 24-Hour Conversation Window | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # WhatsApp 24-Hour Conversation Window
 
-How the WhatsApp 24-hour conversation window works, what opens it, and what happens when it expires.
+How the WhatsApp 24-hour conversation window works, what opens it, and what happens when it expires. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-March 16, 2026
 
-Table of contents
 
-# How the Conversation Window Works
+## How the Conversation Window Works
 
 WhatsApp uses a 24-hour conversation window to control when businesses can send free-form messages. The window opens when a customer messages you, and it lasts for 24 hours from the customer's last message.
 
@@ -47,7 +48,7 @@ Once 24 hours have passed since the customer's last message:
 * You must use an approved **template message** to re-initiate contact
 * The template message opens a new conversation (billed at the template's category rate)
 
-# Conversation Billing
+## Conversation Billing
 
 Each conversation is billed once when it opens. The conversation type determines the rate:
 
@@ -59,7 +60,7 @@ Each conversation is billed once when it opens. The conversation type determines
 | **Utility** | You send a Utility template | 24 hours from template send |
 | **Authentication** | You send an Authentication template | 24 hours from template send |
 
-# Tips
+## Tips
 
 * **Respond promptly** — The 24-hour window starts from the customer's message, not your reply. Delays eat into your free-form messaging time.
 * **Use templates strategically** — If you need to follow up after the window closes, have relevant templates pre-approved and ready.
@@ -74,5 +75,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

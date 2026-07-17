@@ -1,20 +1,22 @@
 ---
 source_url: https://support.telnyx.com/en/articles/9767793-sending-a-test-message-with-learn-and-build
+title: "Sending a Test Message with Learn and Build"
+description: "Looking to send a test message in the Mission Control Portal? See Telnyx guidance and requirements Learn more about Sending a Test Message with Learn and Build."
 scraped: 2026-07-08
 content_hash: c2270abb33939100c6563fcbace8eb2df479bb2916661e941d6464f2306ef095
 ---
 
-Sending a Test Message with Learn and Build | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Sending a Test Message with Learn and Build
 
-Looking to send a test message in the Mission Control Portal? We'll show you how.
+Looking to send a test message in the Mission Control Portal? See Telnyx guidance and requirements Learn more about Sending a Test Message with Learn and Build.
 
-Written by Telnyx Sales
 
-August 21, 2024
 
 Although using the Telnyx SMS API is required for you to scale your text messaging, the Learn and Build feature in the Mission Control Portal enables you to send a text message to test. Here's how:
 

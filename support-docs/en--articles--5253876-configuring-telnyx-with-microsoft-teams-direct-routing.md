@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5253876-configuring-telnyx-with-microsoft-teams-direct-routing
+title: "Configuring Telnyx with Microsoft Teams Direct Routing"
+description: "Unlock seamless integration: Set up Microsoft Teams Direct Routing with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 1be03801953f1d269460483a947264b5655777cfcf345ad1bbb52f53b71d18bd
 ---
 
-Configuring Telnyx with Microsoft Teams Direct Routing | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Configuring Telnyx with Microsoft Teams Direct Routing
 
-Unlock seamless integration: Set up Microsoft Teams Direct Routing with Telnyx. Dive in now!
+Unlock seamless integration: Set up Microsoft Teams Direct Routing with Telnyx. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-February 20, 2026
 
-Table of contents
 
 [Jump to Instructions](#h_73f0b860c1)
 
@@ -33,7 +34,7 @@ Additional resources:
 
 ---
 
-# Instructions for configuring Telnyx with Microsoft Teams Direct Routing
+## Instructions for configuring Telnyx with Microsoft Teams Direct Routing
 
 |  |
 | --- |
@@ -140,9 +141,9 @@ In order to do this, you'll need to make sure you have a Microsoft License and a
 
    ![Information required to verify the domain.](_images/548224c159956c90.png)
 5. Navigate back to your MS Teams SBC SIP Connection settings in your Telnyx Mission Control Portal.
-6. Navigate to the **Domain Validation** header in the top right corner of the window and paste the TXT Value from MS Teams into the **TXT Value** text box.   
-   ​  
-   ​***Note:*** *The TXT Name and TLL fields should match the fields shown in the MS 365 admin center, hence why they cannot be edited.*  
+6. Navigate to the **Domain Validation** header in the top right corner of the window and paste the TXT Value from MS Teams into the **TXT Value** text box.
+   ​
+   ​***Note:*** *The TXT Name and TLL fields should match the fields shown in the MS 365 admin center, hence why they cannot be edited.*
    ​*Also, Any user who tries to set the `txt_name` on a MS DR connection to `*.mstsbc.telnyx.tech` will get an error that says*
 
    ```
@@ -173,8 +174,8 @@ After you have registered a domain name, you’ll need to activate it by adding 
 
    1. **Domain:** Select the Telnyx subdomain (i.e. *yyyy.mstsbc.telnyx.tech*)
    2. Assign E5 license under "Product Licenses".
-3. Click **Add.**   
-   ​  
+3. Click **Add.**
+   ​
    ​***Note*** *that you can remove the E5 license from this user once you're able to add this domain to Direct Routing.*
 
    ![Activating the subdomain](_images/1959f78b8b66f436.png)
@@ -212,8 +213,8 @@ Now you’ll need to create a pass-through voice route.
 1. In the left-hand navigation of you 365 admin portal, navigate to **Voice → Direct Routing**.
 2. When on the Directing Routing page, select the **Voice routes** tab.
 3. Click **Add,** and enter a name and description for your voice route.
-4. Set the priority and specify the dialed number pattern as per Telnyx's number plan.  
-   ​  
+4. Set the priority and specify the dialed number pattern as per Telnyx's number plan.
+   ​
    ​**For US numbers:**
 
    1. prepend:*1*; match pattern: *NXXNXXXXXX*
@@ -249,7 +250,7 @@ In this section, you will add Public Switched Telephone Network (PSTN) usage rec
 
    ![Enrolling SBC’s and adding PSTN usage records in Microsoft Teams.](_images/7448ddf6605aa968.png)
 
-   ​***Note:*** *This example includes “^(.\*)$”, which allows you to dial any destination. We recommend using a different pattern if you want to include restrictions.*  
+   ​***Note:*** *This example includes “^(.\*)$”, which allows you to dial any destination. We recommend using a different pattern if you want to include restrictions.*
    ​
 4. Click **Apply**.
 5. From the left-hand navigation, under **Voice**, click **Voice Routing Policies.**
@@ -291,8 +292,8 @@ Finally, provision a user with an on-premises phone number. You need to go to [a
 
 ![](_images/a2ea30ab2593dc64.png)
 
-Under Account ,   
-- Enable the toggle `Enterprise Voice`  
+Under Account ,
+- Enable the toggle `Enterprise Voice`
 - Click on `Assign a primary phone number`
 
 ![](_images/1ebd04ae03753ee6.png)
@@ -311,8 +312,8 @@ Your setup for Microsoft Teams Direct Routing should now be complete. The last s
 2. Call a Telnyx DID that is assigned to both your new Microsoft Teams SIP Connection and one of your Microsoft Teams users from the PSTN (i.e. a cell phone). Confirm that the call is received in Microsoft Teams and that two-way audio is functioning correctly.
 3. Check the CDRs from the **Reporting** section of your [Telnyx Mission Control Portal](https://portal.telnyx.com/) to validate that both calls went through correctly.
 
-If you encounter any issues during these tests, please contact us at [support@telnyx.com](mailto:support@telnyx.com) with a note of the number dialled and the date/time. We'll do our best to help you resolve the issue.  
-​  
+If you encounter any issues during these tests, please contact us at [support@telnyx.com](mailto:support@telnyx.com) with a note of the number dialled and the date/time. We'll do our best to help you resolve the issue.
+​
 This concludes your set up of Microsoft Teams Direct Routing with Telnyx.
 
 Happy Calling!
@@ -339,5 +340,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

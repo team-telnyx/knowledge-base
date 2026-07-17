@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/11843360-honduras-did-requirements
+title: "Honduras DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Honduras numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: d140a54ecc2eabbf8ed1893797d5a48ed7e260287c071e3ef8a0ba8b85ccda2d
 ---
 
-Honduras DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Honduras DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Honduras numbers.
+Here you will find a list of detailed requirements for acquiring Honduras numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-January 22, 2026
 
-Table of contents
 
-# DID Number Requirements for Honduras
+## DID Number Requirements for Honduras
 
 In order to purchase a Honduras number you will need to provide the following:
 
@@ -57,5 +58,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

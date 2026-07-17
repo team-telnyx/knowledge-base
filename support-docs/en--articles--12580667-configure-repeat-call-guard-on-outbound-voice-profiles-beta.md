@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/12580667-configure-repeat-call-guard-on-outbound-voice-profiles-beta
+title: "Configure Repeat Call Guard on Outbound Voice Profiles"
+description: "Control how many times a destination number can be called within a specific time window. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: fb43cf98394528f486f9c1c354bcdb7bc67058815891be0c1a9d9e142aedade4
 ---
 
-Configure Repeat Call Guard on Outbound Voice Profiles (BETA) | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Configure Repeat Call Guard on Outbound Voice Profiles (BETA)
 
-Control how many times a destination number can be called within a specific time window.
+Control how many times a destination number can be called within a specific time window. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-October 24, 2025
 
-Table of contents
 
 ## Background
 
@@ -66,11 +67,11 @@ You’ll find the **Repeat Call Guard** section **below the Audio File Channel T
 
 Enable the toggle to activate **Repeat Call Guard**.
 
-* **Start Time:** Define when call restrictions start in UTC.  
+* **Start Time:** Define when call restrictions start in UTC.
   Example: `08:00`
-* **End Time:** Define when the restriction window ends in UTC.   
+* **End Time:** Define when the restriction window ends in UTC.
   Example: `18:00`
-* **Calls per CLD:** Set how many times a single destination number can be called on a 24 hour rolling basis within the window.  
+* **Calls per CLD:** Set how many times a single destination number can be called on a 24 hour rolling basis within the window.
   ​
 
 **Note on Rolling Reset:** Repeat Call Guard uses a rolling reset for the call counter within daily active window hours (e.g., 8:00–18:00 UTC). After hitting the max limit (e.g., 3 calls), the counter resets the next rolling 24 hours just after the time of the previous day's *first* allowed call, allowing a fresh slot from that point onward within the window.
@@ -81,7 +82,7 @@ Enable the toggle to activate **Repeat Call Guard**.
 
 ## Step 4: Save Your Settings
 
-Click **Save** to apply the configuration.  
+Click **Save** to apply the configuration.
 Your outbound profile will now enforce the set call limits within the defined time window.
 
 ---
@@ -132,5 +133,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

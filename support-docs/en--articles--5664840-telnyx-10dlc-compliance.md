@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5664840-telnyx-10dlc-compliance
+title: "Telnyx & 10DLC Compliance"
+description: "A2P 10DLC can have a significant impact on how you use Telnyx services. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ec7b612bdbdb4209316d95e83815cd41d0347d83e43fed9c8fa52370395bf13b
 ---
 
-Telnyx & 10DLC Compliance | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Telnyx & 10DLC Compliance
 
-A2P 10DLC can have a significant impact on how you use Telnyx services. Here, we break down the key players, and the role that Telnyx plays.
+A2P 10DLC can have a significant impact on how you use Telnyx services. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-November 7, 2023
 
-Table of contents
 
-# What is 10DLC?
+## What is 10DLC?
 
 10 Digit Long Code (10DLC) is a new industry standard that governs application-to-person ([A2P](https://telnyx.com/resources/what-is-a2p-messaging)) texting using traditional 10-digit phone numbers. By complying with 10DLC, your business can leverage higher messaging throughput levels over 10-digit phone numbers, making them more suitable for running large SMS or MMS campaigns. 10DLC also benefits the recipients of your text message campaigns - by reviewing, vetting, and sanctioning message senders, 10DLC aims to reduce the volume of unwanted spam text messages received by every mobile subscriber in the US.
 
@@ -75,5 +76,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3284588-port-request-statuses
+title: "Port Request Statuses"
+description: "Here you will find explanations of different Port Request statuses via API. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: b334b6b275900e7b374df31481407b799a9ac60ba6a1992283b6bf35de66c042
 ---
 
-Port Request Statuses | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Port Request Statuses
 
-Here you will find explanations of different Port Request statuses via API.
+Here you will find explanations of different Port Request statuses via API. See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-June 6, 2024
 
-Table of contents
 
 Our developer docs provide full information to Porting phone numbers via API with Telnyx. You can find all of the information needed for porting via API in our Developer docs [here](https://developers.telnyx.com/docs/numbers/porting).
 
-# **Different porting statuses and what they mean:**
+## **Different porting statuses and what they mean:**
 
 ## **"draft"**
 
@@ -38,7 +39,7 @@ This is the status of a port request once it has been successfully submitted to 
 
 ## **"exception"**
 
-This is the status of a port request once the port request has been deemed invalid by the losing provider. When a port request is "exception" this means that the losing provider has responded with a rejection. Generally, this means that something that was submitted to Telnyx within the port request differs from the information that is on record with the losing carrier.   
+This is the status of a port request once the port request has been deemed invalid by the losing provider. When a port request is "exception" this means that the losing provider has responded with a rejection. Generally, this means that something that was submitted to Telnyx within the port request differs from the information that is on record with the losing carrier.
 For a full list of rejection reason, please see [Porting Error Messages](https://support.telnyx.com/en/articles/1618776-porting-error-messages)
 
 ## **"foc-date-confirmed"**
@@ -72,5 +73,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,33 +1,34 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5464141-czech-republic-did-requirements
+title: "Czech Republic DID Requirements"
+description: "Understanding Czech Republic DID requirements: From personal to business identity verification details. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 7caeb41441546c4a012a8a9ffc05665785996c004dc28201b4d9f0fc70c31806
 ---
 
-Czech Republic DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Czech Republic DID Requirements
 
-Understanding Czech Republic DID requirements: From personal to business identity verification details.
+Understanding Czech Republic DID requirements: From personal to business identity verification details. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-May 26, 2026
 
-Table of contents
 
-# DID Number Requirements for Czech Republic
+## DID Number Requirements for Czech Republic
 
 In order to purchase a Czech Republic number you will need to provide the following:
 
 ## **Local Numbers in Czech Republic**
 
-For **personal identity** verification:  
+For **personal identity** verification:
 \* Name, last name
 
-\* Contact phone number  
+\* Contact phone number
 \* Local Passport or ID copy
 
 For **business identity** verification:
@@ -36,16 +37,16 @@ For **business identity** verification:
 
 \* Company name
 
-\* Contact phone number  
+\* Contact phone number
 \* Local Company registration certificate
 
 For **address** verification**:**
 
 \* Address matching the DID area code (street, building number, postal code, city, and country)
 
-\* Proof of address (dated within 3 months)  
-​  
-Additional details:   
+\* Proof of address (dated within 3 months)
+​
+Additional details:
 \* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **Toll-Free Numbers in Czech Republic**
@@ -70,15 +71,15 @@ For **address** verification**:**
 
 \* Address in Czech Republic (street, building number, postal code, city, and country)
 
-\* Proof of address (dated within 3 months)  
-​  
-Additional details:   
+\* Proof of address (dated within 3 months)
+​
+Additional details:
 \* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **Identity Verification: What "Local" Means**
 
-For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.  
-​  
+For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.
+​
 All identification is subject to review, and we reserve the right to request additional documentation or decline any document we cannot verify or that does not meet applicable legal and regulatory requirements.
 
 ## **Helpful for acquiring Czech Republic DIDs**
@@ -122,5 +123,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

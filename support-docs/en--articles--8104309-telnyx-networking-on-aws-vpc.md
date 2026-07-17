@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8104309-telnyx-networking-on-aws-vpc
+title: "Telnyx Networking on AWS VPC"
+description: "A step-by-step process to deploy a Virtual Private Server (VPS) on Amazon AWS and configure Telnyx Edge Routing to it. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 2fc6e99c6b5cc4736be40b1b4f492f1fbc086cb2818c04484729184ef5d616d0
 ---
 
-Telnyx Networking on AWS VPC | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Telnyx Networking on AWS VPC
 
-A step-by-step process to deploy a Virtual Private Server (VPS) on Amazon AWS and configure Telnyx Edge Routing to it.
+A step-by-step process to deploy a Virtual Private Server (VPS) on Amazon AWS and configure Telnyx Edge Routing to it. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-December 11, 2023
 
-Table of contents
 
-# AWS VPC and Telnyx Networking
+## AWS VPC and Telnyx Networking
 
 An overview of what we will be going over:
 
@@ -37,8 +38,8 @@ Copy and take note of the Peer Configuration file along with the private key tha
 
 ## Step 2: Install WireGuard
 
-Telnyx Edge Routing supports any distribution that supports WireGuard; as such a good place to start and reference is the [WireGuard installation](https://www.wireguard.com/install/).  
-​  
+Telnyx Edge Routing supports any distribution that supports WireGuard; as such a good place to start and reference is the [WireGuard installation](https://www.wireguard.com/install/).
+​
 Referencing the Ubuntu installation, simply run
 
 ```
@@ -56,13 +57,13 @@ We are ready to configure our instance!
 ## **Step 3: Configuring Telnyx with WireGuard**
 
 ```
-We will first need to create a configuration file in the /etc/wireguar` folder called wg0.conf. This is where we will place the configuration instructions that we generated from Step 1:  
-[Interface]  
-PrivateKey = <private key for this machine>  
-Address = <IP address for WireGuard interface>  
-PostUp = iptables -A FORWARD -i wg0 -j ACCEPT; iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE  
-PostDown = iptables -D FORWARD -i wg0 -j ACCEPT; iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE  
-ListenPort = 51280  
+We will first need to create a configuration file in the /etc/wireguar` folder called wg0.conf. This is where we will place the configuration instructions that we generated from Step 1:
+[Interface]
+PrivateKey = <private key for this machine>
+Address = <IP address for WireGuard interface>
+PostUp = iptables -A FORWARD -i wg0 -j ACCEPT; iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+PostDown = iptables -D FORWARD -i wg0 -j ACCEPT; iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE
+ListenPort = 51280
 [Peer]PublicKey = <public key for peer machine>AllowedIPs = <IP address for peer WireGuard interface>, <additional CIDRs>PersistentKeepalive = 1
 ```
 
@@ -85,19 +86,19 @@ or you can curl/trace into your server to confirm the Global IP that is configur
 Example Response:
 
 ```
-root@MacBook-Pro % ping 172.27.1.17  
-PING 172.27.1.17 (172.27.1.17): 56 data bytes  
-64 bytes from 172.27.1.17: icmp_seq=0 ttl=53 time=184.512 ms  
-64 bytes from 172.27.1.17: icmp_seq=1 ttl=53 time=183.202 ms  
-64 bytes from 172.27.1.17: icmp_seq=2 ttl=53 time=183.365 ms  
-64 bytes from 172.27.1.17: icmp_seq=3 ttl=53 time=183.040 ms  
-64 bytes from 172.27.1.17: icmp_seq=4 ttl=53 time=183.310 ms  
-64 bytes from 172.27.1.17: icmp_seq=5 ttl=53 time=183.980 ms  
-64 bytes from 172.27.1.17: icmp_seq=6 ttl=53 time=183.457 ms  
-64 bytes from 172.27.1.17: icmp_seq=7 ttl=53 time=183.097 ms  
-^C  
---- 172.27.1.17 ping statistics ---  
-8 packets transmitted, 8 packets received, 0.0% packet loss  
+root@MacBook-Pro % ping 172.27.1.17
+PING 172.27.1.17 (172.27.1.17): 56 data bytes
+64 bytes from 172.27.1.17: icmp_seq=0 ttl=53 time=184.512 ms
+64 bytes from 172.27.1.17: icmp_seq=1 ttl=53 time=183.202 ms
+64 bytes from 172.27.1.17: icmp_seq=2 ttl=53 time=183.365 ms
+64 bytes from 172.27.1.17: icmp_seq=3 ttl=53 time=183.040 ms
+64 bytes from 172.27.1.17: icmp_seq=4 ttl=53 time=183.310 ms
+64 bytes from 172.27.1.17: icmp_seq=5 ttl=53 time=183.980 ms
+64 bytes from 172.27.1.17: icmp_seq=6 ttl=53 time=183.457 ms
+64 bytes from 172.27.1.17: icmp_seq=7 ttl=53 time=183.097 ms
+^C
+--- 172.27.1.17 ping statistics ---
+8 packets transmitted, 8 packets received, 0.0% packet loss
 round-trip min/avg/max/stddev = 183.040/183.495/184.512/0.471 ms
 ```
 
@@ -116,5 +117,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

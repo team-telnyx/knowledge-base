@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/14708130-porting-numbers-away-from-resellers-aircall-intercom-ringcentral-vonage-etc
+title: "Porting Numbers Away from Resellers (Aircall, Intercom"
+description: "A complete guide to porting numbers from VoIP resellers — what a reseller is, how to find your underlying carrier, See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 2e82afada0f8eed11baa752dbeda97cbc1f2dfea59da8dd86fff66ab830732a8
 ---
 
-Porting Numbers Away from Resellers (Aircall, Intercom, RingCentral, Vonage, etc.) | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Porting Numbers Away from Resellers (Aircall, Intercom, RingCentral, Vonage, etc.)
 
-A complete guide to porting numbers from VoIP resellers — what a reseller is, how to find your underlying carrier, and carrier-specific PIN and account requirements.
+A complete guide to porting numbers from VoIP resellers — what a reseller is, how to find your underlying carrier, See Telnyx guidance and requirements.
 
-Written by Patrick Budzinski
 
-April 21, 2026
 
-Table of contents
 
-# What Is a Reseller?
+## What Is a Reseller?
 
 A **reseller** is a company that provides phone numbers to customers but doesn't own the underlying network infrastructure. Instead, they lease numbers from a carrier (like Twilio, Bandwidth, or Inteliquent) and resell them under their own brand.
 
@@ -108,5 +109,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

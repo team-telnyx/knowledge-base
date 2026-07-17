@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/9260287-key-configuration-notes-for-noise-suppression
+title: "Key Configuration Notes for Noise Suppression"
+description: "Learn how to implement and manage Noise Suppression with a guide on key configuration options. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: f7b2a3f2c1ae9c4b76c0ff5b5ee0cd24e2d12e48928042f59228168ddb8d549c
 ---
 
-Key Configuration Notes for Noise Suppression | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Key Configuration Notes for Noise Suppression
 
-Learn how to implement and manage Noise Suppression with a guide on key configuration options.
+Learn how to implement and manage Noise Suppression with a guide on key configuration options. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-May 5, 2026
 
-Table of contents
 
 Noise Suppression cleans up audio on your Telnyx voice traffic by removing background noise, isolating the primary speaker, or both.
 
 The result is clearer audio for human listeners, more accurate speech-to-text transcription, and better Voice AI Agent performance.
 
-This article covers how to configure the feature, what each direction setting does, and how to choose the right model for your use case.  
+This article covers how to configure the feature, what each direction setting does, and how to choose the right model for your use case.
 ​
 
 ## **Application Scope**
@@ -135,5 +136,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

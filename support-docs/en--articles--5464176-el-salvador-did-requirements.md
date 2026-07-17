@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5464176-el-salvador-did-requirements
+title: "El Salvador DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring El Salvador numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 05a4e733f0d26385f109989eac3f2fcfc664534d563812512f81be85bd7e8778
 ---
 
-El Salvador DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # El Salvador DID Requirements
 
-Here you will find a list of detailed requirements for acquiring El Salvador numbers.
+Here you will find a list of detailed requirements for acquiring El Salvador numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-May 21, 2024
 
-Table of contents
 
-# DID Number Requirements for El Salvador
+## DID Number Requirements for El Salvador
 
 ## **Local numbers in El Salvador**
 
@@ -65,5 +66,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

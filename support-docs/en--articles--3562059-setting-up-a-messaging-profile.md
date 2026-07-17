@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3562059-setting-up-a-messaging-profile
+title: "Setting Up a Messaging Profile"
+description: "Here we will explain how to get SMS ready with Messaging Profiles on Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 1e8af24eb52bb449831be3a889423fe9f4bd2032e12b6f18cdbb46ab3bc4c239
 ---
 
-Setting Up a Messaging Profile | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Setting Up a Messaging Profile
 
-Here we will explain how to get SMS ready with Messaging Profiles on Telnyx.
+Here we will explain how to get SMS ready with Messaging Profiles on Telnyx. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-September 16, 2024
 
-Table of contents
 
-# **Video Walk-through for Setting up a Messaging Profile**
+## **Video Walk-through for Setting up a Messaging Profile**
 
 Are you ready to start sending SMS with Telnyx? Follow the video below to learn how to set up a Messaging Profile!
 
-# What is a messaging profile?
+## What is a messaging profile?
 
 A Messaging Profile is a configuration to manage your inbound and outbound messaging settings. It's the simplest way to configure how you send and receive messages on your phone number. An SMS-capable phone number is SMS-enabled by assigning it to a Messaging Profile.
 
@@ -72,7 +73,7 @@ Enable number pooling to deliver messages from a pool of multiple phone numbers 
 
 ### **MMS Fallback**
 
-Enable this toggle to send MMS messages to any destination, even to those where MMS isn't supported, by converting them to SMS with the media URL appended to the body of the message.  
+Enable this toggle to send MMS messages to any destination, even to those where MMS isn't supported, by converting them to SMS with the media URL appended to the body of the message.
 ​
 
 ### **MMS Transcoding**
@@ -143,5 +144,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

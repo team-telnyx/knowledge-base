@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5466958-philippines-did-requirements
+title: "Philippines DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Philippines numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 1a49470d56798563843bfcaf68a5b389deca52db76a898d76b1753c94599ff22
 ---
 
-Philippines DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Philippines DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Philippines numbers.
+Here you will find a list of detailed requirements for acquiring Philippines numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-August 6, 2025
 
-Table of contents
 
-# DID Number Requirements for Philippines
+## DID Number Requirements for Philippines
 
 In order to purchase a Philippines number you will need to provide the following:
 
@@ -28,7 +29,7 @@ For **personal identity** verification:
 
 \* Name, last name
 
-\* Contact phone number  
+\* Contact phone number
 ​
 
 For **business identity** verification:
@@ -51,7 +52,7 @@ For **personal identity** verification:
 
 \* Name, last name
 
-\* Contact phone number  
+\* Contact phone number
 ​
 
 For **business identity** verification:
@@ -131,5 +132,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

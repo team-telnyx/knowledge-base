@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8340760-bundles-bundle-pricing
+title: "Bundles & Bundle Pricing"
+description: "Discover Telnyx's bundle pricing. See Telnyx guidance and requirements Learn more about Bundles & Bundle Pricing with Telnyx."
 scraped: 2026-07-08
 content_hash: bde81232f56d57f4d47af0d8d9974ca54ffd1c56eb25fdbbc78b479a240c5a1f
 ---
 
-Bundles & Bundle Pricing | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Bundles & Bundle Pricing
 
-Discover Telnyx's bundle pricing. Optimize costs with our tailored communication bundles.
+Discover Telnyx's bundle pricing. See Telnyx guidance and requirements Learn more about Bundles & Bundle Pricing with Telnyx.
 
-Written by Dillin
 
-January 2, 2025
 
-Table of contents
 
-# **Introduction to Bundles**
+## **Introduction to Bundles**
 
 Customers have the option to purchase numbers using bundle pricing, transfer existing numbers to bundle pricing, or update an existing phone number to bundle pricing.
 
@@ -65,5 +66,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

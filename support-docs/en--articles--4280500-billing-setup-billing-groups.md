@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4280500-billing-setup-billing-groups
+title: "Billing Setup & Billing Groups"
+description: "This article details the functionalities of the Billing and Billing Groups settings in your Telnyx Mission Control… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: f54fab7458c99f135035a01f7c99c12d530b2e10e8dcaa333701bfb7140e337c
 ---
 
-Billing Setup & Billing Groups | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Billing Setup & Billing Groups
 
-This article details the functionalities of the Billing and Billing Groups settings in your Telnyx Mission Control Portal
+This article details the functionalities of the Billing and Billing Groups settings in your Telnyx Mission Control… See Telnyx guidance and requirements.
 
-Written by Alex Conroy
 
-January 2, 2025
 
-Table of contents
 
 The Mission Control Portal offers various functionalities to help keep track of billing information. This article will elaborate on how to make use of the Billing and Billing Groups sections of the portal.
 
-# **Video Walk-through for Billing & Billing Groups**
+## **Video Walk-through for Billing & Billing Groups**
 
 Coming soon! This walk-through will demonstrate setting up your Billing & Billing Groups tab.
 
@@ -111,7 +112,7 @@ We only save one payment method, so if you want to change your credit card you w
 
 Once deleted you can add a new payment method by making a payment following the steps at the beginning of this article. It's also worth noting that the minimum payment is of $10 USD.
 
-To delete a saved ACH payment method, you can click on the trash can icon to the right of the listed bank account.  
+To delete a saved ACH payment method, you can click on the trash can icon to the right of the listed bank account.
 ​
 
 Your Service Address is the location from where you consume service provided by Telnyx. Telnyx uses the service address to determine tax rates. If you do not fill service address, Telnyx will use the billing address.
@@ -126,7 +127,7 @@ Below payment information, you'll find **[Invoices](https://portal.telnyx.com/#/
 
 Invoices for the previous month will appear during the **first few days of the new month**.
 
-These can also be sorted by their **status (Paid, Unpaid)**  
+These can also be sorted by their **status (Paid, Unpaid)**
 ​
 
 ![](_images/e5f44886d8ff5a86.png)
@@ -192,5 +193,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

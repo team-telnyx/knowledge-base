@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/12141904-legal-update-texas-s-mini-tcpa-now-applies-to-texts
+title: "Legal Update: Texas’s Mini-TCPA Now Applies to Texts"
+description: "Note: This document is for informational purposes only and is not intended to be, and should not be relied upon as, See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 3e2fcec2e07c0d9d97ec9f8ab463d753694b525b25af0cafae412d594fce5f46
 ---
 
-Legal Update: Texas’s Mini-TCPA Now Applies to Texts | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Legal Update: Texas’s Mini-TCPA Now Applies to Texts
 
-Written by Telnyx Engineering
 
-September 2, 2025
 
-Table of contents
 
-***Note: This document is for informational purposes only and is not intended to be, and should not be relied upon as, legal advice. Telnyx helps educate and keep our customers informed of industry changes, but you should always consult your legal counsel and other advisors for advice and guidance with respect to any laws and regulations relating to your business and its compliance obligations.***
+Note: This document is for informational purposes only and is not intended to be, and should not be relied upon as, See Telnyx guidance and requirements.
 
 Texas Senate Bill 140 (“[SB 140](https://capitol.texas.gov/tlodocs/89R/billtext/pdf/SB00140F.pdf)”), an amendment to the state’s “Mini-TCPA,” expands and revises the telemarketing framework under the Texas Business & Commerce Code. To comply with these new rules, companies that are based in Texas or are marketing to Texas residents, which now includes sending marketing messages using text, are required to register as a telemarketer by **September 1, 2025.**
 
@@ -67,8 +68,8 @@ Texas Senate Bill 140 (“[SB 140](https://capitol.texas.gov/tlodocs/89R/billtex
   + Companies selling subscriptions to newspapers, magazines, or cable TV.
   + Schools, colleges, and §501(c)(3) nonprofits.
   + Persons soliciting the sale of food.
-  + More exemptions are listed with [Sec. 302.051](https://statutes.capitol.texas.gov/docs/BC/htm/BC.302.htm) of the law.   
-    ​  
+  + More exemptions are listed with [Sec. 302.051](https://statutes.capitol.texas.gov/docs/BC/htm/BC.302.htm) of the law.
+    ​
     ​
 
 **5. Expanded Right to Sue**
@@ -87,5 +88,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

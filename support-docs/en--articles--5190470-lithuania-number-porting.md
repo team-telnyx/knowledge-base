@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5190470-lithuania-number-porting
+title: "Lithuania Number Porting"
+description: "Here you will find a detailed list of requirements for Lithuania number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a01d11ab0619c88b26ca3067316ca112c449f8ef40402cfb22950e18b0ccb0a8
 ---
 
-Lithuania Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Lithuania Number Porting
 
-Here you will find a detailed list of requirements for Lithuania number portability.
+Here you will find a detailed list of requirements for Lithuania number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
-# **For Local / National / Toll-Free Number Types in Lithuania**
+## **For Local / National / Toll-Free Number Types in Lithuania**
 
 1. LoA
 
@@ -45,5 +46,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,35 +1,36 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6129704-antigua-and-barbuda-did-requirements
+title: "Antigua And Barbuda DID Requirements"
+description: "Stay in the loop with the latest requisites for obtaining toll-free numbers in Antigua and Barbuda. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: e771b018b2311bf14761febe910fdf2074a19256425e05737d0c05c9f2c83b19
 ---
 
-Antigua And Barbuda DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Antigua And Barbuda DID Requirements
 
-Stay in the loop with the latest requisites for obtaining toll-free numbers in Antigua and Barbuda.
+Stay in the loop with the latest requisites for obtaining toll-free numbers in Antigua and Barbuda. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-May 16, 2024
 
-Table of contents
 
-# DID Number Requirements for Antigua and Barbuda
+## DID Number Requirements for Antigua and Barbuda
 
 In order to purchase an Antigua and Barbuda number you will need to provide the following:
 
 ## **Toll-Free Numbers in Antigua and Barbuda**
 
-For **business identity** verification:  
+For **business identity** verification:
 \* Company name
 
-\* Signed LOI (dated within 1 month)  
-​  
-For **address** verification:  
+\* Signed LOI (dated within 1 month)
+​
+For **address** verification:
 \* Address worldwide (street, building number, postal code, city, and country)
 
 \*Business use required: Business use is required, private use is not allowed.
@@ -79,5 +80,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

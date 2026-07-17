@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/7421223-shaken-stir-parameters
+title: "SHAKEN/STIR Parameters"
+description: "Telnyx customers can now get more granular information on call attestation and verification results with new… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: c046bb41d844fe4c70629bd7afd01ab5819661455fb182a876a212d5a2607585
 ---
 
-SHAKEN/STIR Parameters | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # SHAKEN/STIR Parameters
 
-Telnyx customers can now get more granular information on call attestation and verification results with new SHAKEN/STIR verstat parameters
+Telnyx customers can now get more granular information on call attestation and verification results with new… See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-March 3, 2026
 
-Table of contents
 
-# **How to interpret SHAKEN/STIR verstat parameters and ensure secure call identity verification**
+## **How to interpret SHAKEN/STIR verstat parameters and ensure secure call identity verification**
 
 As part of our ongoing efforts to improve the SHAKEN/STIR framework, Telnyx has introduced additional values to the *verstat* parameter in our SIP headers.
 
@@ -39,17 +40,17 @@ With these new values, Telnyx customers will have more detailed information abou
 
 This can be especially useful for customers who need to verify the identity of incoming calls to prevent fraud or for regulatory compliance.
 
-It's important to note that these new *verstat* values will be included in the SIP headers passed along to Telnyx customers.   
+It's important to note that these new *verstat* values will be included in the SIP headers passed along to Telnyx customers.
 This means that customers can access this information directly through their own systems and tools.
 
-Note:  
+Note:
 When using SHAKEN/STIR, the `shaken_stir_param` controls whether the identity header is present in the B leg, it requires that the following conditions both be true to successfully pass the identity header.
 
 * `shaken_stir_enabled` is `true` (from **CPB connection settings** — the B-leg)
 
 * `cpb_transport_protocol` is `"TCP"` or `"TLS"`
 
-Identity headers are **not** sent over UDP to prevent fragmentation issues.   
+Identity headers are **not** sent over UDP to prevent fragmentation issues.
 ​
 
 ## Verstat Values Summary
@@ -63,7 +64,7 @@ Identity headers are **not** sent over UDP to prevent fragmentation issues.
 | TN-Validation-Passed-B | Identity header verification is successful, and the caller has a B attestation |
 | TN-Validation-Passed-C | Identity header verification is successful, and the caller has a C attestation |
 
-Below you can find a P-Asserted-Identity example:  
+Below you can find a P-Asserted-Identity example:
 ​
 
 ```
@@ -81,5 +82,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8394071-hd-voice-number-feature
+title: "HD Voice - Number Feature"
+description: "Telnyx presents HD Voice, a number feature to enhance audio quality on PSTN calls made and received to eligible numbers… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 23815aa284f38fac3437a1184f5638b34a1c84c3ff8d087f1854981e30fafc0a
 ---
 
-HD Voice - Number Feature | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # HD Voice - Number Feature
 
-Telnyx presents HD Voice, a number feature to enhance audio quality on PSTN calls made and received to eligible numbers within the US and supported countries.
+Telnyx presents HD Voice, a number feature to enhance audio quality on PSTN calls made and received to eligible numbers… See Telnyx guidance and requirements.
 
-Written by Dillin
 
-November 25, 2025
 
-Table of contents
 
-# Overview
+## Overview
 
 The HD Voice Number Feature enhances audio quality for PSTN calls made and received to and from eligible numbers within the United States and other supported countries.
 
@@ -124,8 +125,8 @@ Customers can also search for HD Numbers in the [Buy Numbers](https://portal.tel
 
 ![](_images/cb855811981dddaf.png)
 
-The call must be routed to a SIP Connection configured with AMR-WB, G722, or Opus HD voice codecs.  
-​  
+The call must be routed to a SIP Connection configured with AMR-WB, G722, or Opus HD voice codecs.
+​
 You can configure SIP Connection codecs in the *SIP Trunking* > *SIP Connections* > *Inbound* configuration > *Expert Settings*:
 
 The SIP device receiving the call must support one of the above-mentioned codecs.
@@ -138,7 +139,7 @@ The SIP device initiating the call must use one of the following codecs: AMR-WB,
 
 The call must be received on an AMR-WB-enabled device located in at least 4G/LTE coverage area from the list above.
 
-The Telnyx number used to make the outbound call must have HD Voice-enabled (also applied to CLI override)  
+The Telnyx number used to make the outbound call must have HD Voice-enabled (also applied to CLI override)
 ​
 
 Instructions on how to enable a Telnyx number with HD voice can be found [here](https://docs.google.com/document/d/1qBMtyraDDdZzCb7ED1GNeoK8jU9bIkeZOEW2qJk3z7s/edit#bookmark=id.ok6q60t9lgbx).
@@ -234,5 +235,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

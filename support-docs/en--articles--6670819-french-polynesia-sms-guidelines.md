@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6670819-french-polynesia-sms-guidelines
+title: "French Polynesia: SMS Guidelines"
+description: "Sending SMS to French Polynesia? See Telnyx guidance and requirements Learn more about French Polynesia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 49917c0e182abf89c2e27bc1329c91ed758e1d713df6862455fd71dc55f98492
 ---
 
-French Polynesia: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # French Polynesia: SMS Guidelines
 
-Sending SMS to French Polynesia? Check out our comprehensive guidelines to ensure compliance in French Polynesia.
+Sending SMS to French Polynesia? See Telnyx guidance and requirements Learn more about French Polynesia: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **French Polynesia: SMS Guidelines**
+## **French Polynesia: SMS Guidelines**
 
-**MCC:** 547  
-​**Dial Code:** 689  
-​  
+**MCC:** 547
+​**Dial Code:** 689
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

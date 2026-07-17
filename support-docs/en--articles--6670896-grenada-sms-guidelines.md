@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6670896-grenada-sms-guidelines
+title: "Grenada: SMS Guidelines"
+description: "Sending SMS to Grenada? See Telnyx guidance and requirements Learn more about Grenada: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: d3a1db447a92e4ef624acd72efc5236ee6d55858aa3dfbf9b1df3f62885740e4
 ---
 
-Grenada: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Grenada: SMS Guidelines
 
-Sending SMS to Grenada? Check out our comprehensive guidelines to ensure compliance in Grenada.
+Sending SMS to Grenada? See Telnyx guidance and requirements Learn more about Grenada: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 15, 2023
 
-Table of contents
 
-# **Grenada: SMS Guidelines**
+## **Grenada: SMS Guidelines**
 
-**MCC:** 352  
-​**Dial Code:** 1473  
-​  
+**MCC:** 352
+​**Dial Code:** 1473
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -88,5 +89,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

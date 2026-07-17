@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5717957-zoiper-5-pro-telnyx-setup
+title: "Zoiper 5 Pro: Telnyx Setup"
+description: "How to configure Zoiper 5 with a pro license to work with the Telnyx Mission Control portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 093a0570a2046af223f23a79707d84815d17d7e2cefbab6e22ad501f3d4e1388
 ---
 
-Zoiper 5 Pro: Telnyx Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Zoiper 5 Pro: Telnyx Setup
 
-How to configure Zoiper 5 with a pro license to work with the Telnyx Mission Control portal.
+How to configure Zoiper 5 with a pro license to work with the Telnyx Mission Control portal. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-March 3, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_4ff34ebbdc)
 
@@ -34,7 +35,7 @@ For Zoiper documentation, see:
 
 ---
 
-# Instructions for Configuring the All-New Zoiper 5 with Telnyx
+## Instructions for Configuring the All-New Zoiper 5 with Telnyx
 
 1. [Configure your Telnyx Mission Control Portal](#h_dc5df9cfdf)
 2. [Create your VoIP account on Zoiper](#h_d68a340083)
@@ -53,7 +54,7 @@ Coming soon! Check back frequently as we are updating our documentation.
 **Pre-Requisites:**
 
 * Have obtained [a license for Zoiper 5 Pro](https://www.zoiper.com/en/shop/buy/zoiper5?cid=main-nav).
-* Have created a [credentials based connection](https://portal.telnyx.com/#/app/connections) on your Telnyx Mission Control Portal account, assigned this connection to a DID and outbound profile in order to make and receive outbound calls. This provides you with the username and password you will use to register Zoiper 5 with Telnyx  
+* Have created a [credentials based connection](https://portal.telnyx.com/#/app/connections) on your Telnyx Mission Control Portal account, assigned this connection to a DID and outbound profile in order to make and receive outbound calls. This provides you with the username and password you will use to register Zoiper 5 with Telnyx
   ​
 
 ## 1. Configure your Telnyx Mission Control Portal
@@ -64,8 +65,8 @@ For step by step instructions on each of the requirements on the Telnyx Mission 
 
 ## 2. Create your VoIP account on Zoiper
 
-1. To activate your license, click **Activate your Premium license** and follow the instructions in the activation wizard. Note: Activation credentials are provided by Zoiper after you purchase your license. These are not your Telnyx credentials.  
-   ​  
+1. To activate your license, click **Activate your Premium license** and follow the instructions in the activation wizard. Note: Activation credentials are provided by Zoiper after you purchase your license. These are not your Telnyx credentials.
+   ​
    If you don't have a license, you can [continue as a free user](https://app.intercom.com/a/apps/ltcafuzd/articles/articles/5717568/show).
 
    ![Activate a Zoiper 5 Pro license](_images/ab2faebf79be1904.png)
@@ -204,5 +205,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

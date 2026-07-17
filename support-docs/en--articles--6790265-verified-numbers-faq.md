@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6790265-verified-numbers-faq
+title: "Verified Numbers FAQ"
+description: "Secure your outbound calls. See Telnyx guidance and requirements Learn more about Verified Numbers FAQ with Telnyx."
 scraped: 2026-07-08
 content_hash: a4a018a51997db5c535a2208f7e7d9d27fe35f91d8c61328f5e4d0c7793ee5a8
 ---
 
-Verified Numbers FAQ | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Verified Numbers FAQ
 
-Secure your outbound calls. Learn how Telnyx enhances call security. Start building on Telnyx today.
+Secure your outbound calls. See Telnyx guidance and requirements Learn more about Verified Numbers FAQ with Telnyx.
 
-Written by Telnyx Engineering
 
-June 26, 2024
 
-Table of contents
 
-# **Verified Numbers FAQ**
+## **Verified Numbers FAQ**
 
 **What is a Verified Number?**
 
@@ -71,5 +72,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

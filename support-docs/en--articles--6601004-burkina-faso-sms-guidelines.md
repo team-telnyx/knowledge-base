@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6601004-burkina-faso-sms-guidelines
+title: "Burkina Faso: SMS Guidelines"
+description: "Sending SMS to Burkina Faso? See Telnyx guidance and requirements Learn more about Burkina Faso: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: ed3460baffb73b0f50b1d94273de4cdcba3bed9e75c207cd0bee38a333d5ec8c
 ---
 
-Burkina Faso: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Burkina Faso: SMS Guidelines
 
-Sending SMS to Burkina Faso? Check out our comprehensive guidelines to ensure compliance in Burkina Faso.
+Sending SMS to Burkina Faso? See Telnyx guidance and requirements Learn more about Burkina Faso: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Burkina Faso: SMS Guidelines**
+## **Burkina Faso: SMS Guidelines**
 
-**MCC:** 613  
-​**Dial Code:** 226  
-​  
+**MCC:** 613
+​**Dial Code:** 226
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

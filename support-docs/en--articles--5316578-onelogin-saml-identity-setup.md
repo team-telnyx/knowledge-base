@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5316578-onelogin-saml-identity-setup
+title: "OneLogin: SAML Identity Setup"
+description: "This article will outline how to use OneLogin with Telnyx to facilitate Singe Sign-On capabilities. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 581471d5f9e535f2368a69687c14af7409bb531ccbe0a71a42b4b04511dc4b0d
 ---
 
-OneLogin: SAML Identity Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # OneLogin: SAML Identity Setup
 
-This article will outline how to use OneLogin with Telnyx to facilitate Singe Sign-On capabilities.
+This article will outline how to use OneLogin with Telnyx to facilitate Singe Sign-On capabilities. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_38772a9ead)
 
@@ -34,7 +35,7 @@ Additional resources:
 
 ---
 
-# Instructions for setting up OneLogin with Telnyx
+## Instructions for setting up OneLogin with Telnyx
 
 In this activity you will:
 
@@ -92,9 +93,9 @@ In this section, you'll log into your Telnyx portal and get the necessary config
    ![Singe Sign-On section of the Telnyx Mission Control Portal](_images/ec3e582b986cf3cf.png)
 4. You will be presented with the following fields:
 
-   1. **Authentication Provider name** and **Short Name:** Enter the values that make sense for you here.  
-      ​  
-      ​***Please note*** *that the Short Name will be part of the SSO URLs.*  
+   1. **Authentication Provider name** and **Short Name:** Enter the values that make sense for you here.
+      ​
+      ​***Please note*** *that the Short Name will be part of the SSO URLs.*
       ​
    2. **IdP Metadata URL:** Paste the Identity Provider Entity ID you obtained in step 9 of [section 1](#h_2ef052f2bf).
 
@@ -149,7 +150,7 @@ Your chosen settings are now in effect! This will send all users in your organiz
 
 **Q. I'm experiencing difficulty with this configuration!**
 
-A. If you experience technical difficulties while attempting to set up your OneLogin SSO with Telnyx, its possible your provider is experiencing outages/maintenance. You can check the status of OneLogin's features at <https://www.onelogin.com/status>.  
+A. If you experience technical difficulties while attempting to set up your OneLogin SSO with Telnyx, its possible your provider is experiencing outages/maintenance. You can check the status of OneLogin's features at <https://www.onelogin.com/status>.
 ​
 
 [Back to Top](#h_38772a9ead)
@@ -177,5 +178,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3267595-spain-number-porting
+title: "Spain Number Porting"
+description: "Here you will find a detailed list of requirements for Spain number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: cf15ed978230b546f8473ae24a710037a5024654701ea3d2c4eb4284eeb9011a
 ---
 
-Spain Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Spain Number Porting
 
-Here you will find a detailed list of requirements for Spain number portability.
+Here you will find a detailed list of requirements for Spain number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
-# **Local, National and Toll-free numbers**
+## **Local, National and Toll-free numbers**
 
 1. LOA
 2. CIF/NIF
@@ -44,5 +45,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

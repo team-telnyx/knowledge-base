@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3362891-uruguay-did-requirements
+title: "Uruguay DID Requirements"
+description: "Here you will find a detailed list of requirements to acquire Uruguay numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a03d139508df481cec43e02c85b45d8a4873cce617e41aa295c8c0d8aff15a00
 ---
 
-Uruguay DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Uruguay DID Requirements
 
-Here you will find a detailed list of requirements to acquire Uruguay numbers.
+Here you will find a detailed list of requirements to acquire Uruguay numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-June 20, 2024
 
-Table of contents
 
-# DID Number Requirements for Uruguay
+## DID Number Requirements for Uruguay
 
 In order to purchase an Uruguay number you will need to provide the following:
 
@@ -91,5 +92,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

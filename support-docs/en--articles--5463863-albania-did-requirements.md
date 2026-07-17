@@ -1,52 +1,53 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5463863-albania-did-requirements
+title: "Albania DID Requirements"
+description: "Here you will find a detailed list of requirements to acquire numbers in Albania. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: aad55cba3ec8c0a2c657d3022c356284cbbc8c8fb577978e74242d31b2127ee2
 ---
 
-Albania DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Albania DID Requirements
 
-Here you will find a detailed list of requirements to acquire numbers in Albania.
+Here you will find a detailed list of requirements to acquire numbers in Albania. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-May 16, 2024
 
-Table of contents
 
-# DID Number Requirements for Albania
+## DID Number Requirements for Albania
 
 In order to purchase an Albanian number you will need to provide the following:
 
 ## **Local Numbers in Albania**
 
-For **business identity** verification:  
-\* Name, last name of an authorized representative  
+For **business identity** verification:
+\* Name, last name of an authorized representative
 \* Company name
 
-\* Contact phone number  
-\* Passport or ID copy of an authorized representative  
-\* Company Registration Certificate  
-​  
-For **address** verification:  
+\* Contact phone number
+\* Passport or ID copy of an authorized representative
+\* Company Registration Certificate
+​
+For **address** verification:
 \* Address worldwide (street, building number, postal code, city, and country)
 
 \*Business use required: Business use is required, private use is not allowed.
 
 ## **Toll-Free Numbers in Albania**
 
-For **business identity** verification:  
+For **business identity** verification:
 \* Company name
 
 \* Passport or ID copy of an authorized representative
 
-\* Company Registration Certificate  
-​  
-For **address** verification:  
+\* Company Registration Certificate
+​
+For **address** verification:
 \* Address worldwide (street, building number, postal code, city, and country)
 
 \*Business use required: Business use is required, private use is not allowed.
@@ -92,5 +93,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

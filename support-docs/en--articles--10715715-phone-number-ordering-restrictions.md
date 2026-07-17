@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/10715715-phone-number-ordering-restrictions
+title: "Phone Number Ordering Restrictions"
+description: "Get your account Verified to remove all restrictions on phone number ordering. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 2b12431fb031e0ce8377d07af5cb4896c19f274686dde559485ddf68fea370ad
 ---
 
-Phone Number Ordering Restrictions | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Phone Number Ordering Restrictions
 
-Get your account Verified to remove all restrictions on phone number ordering.
+Get your account Verified to remove all restrictions on phone number ordering. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-September 19, 2025
 
-Table of contents
 
 ---
 
@@ -99,5 +100,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/7829412-3cx-and-telnyx-compatibility
+title: "3CX and Telnyx Compatibility"
+description: "Guide on ensuring Telnyx's compatibility with 3CX systems for seamless communication. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 5a84022998015a0a424d0863ca842a777e3795064eeb5935acf83b084c5c26c6
 ---
 
-3CX and Telnyx Compatibility | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # 3CX and Telnyx Compatibility
 
-Guide on ensuring Telnyx's compatibility with 3CX systems for seamless communication.
+Guide on ensuring Telnyx's compatibility with 3CX systems for seamless communication. See Telnyx guidance and requirements.
 
 K
 
-Written by Klane Pedrie
 
-October 30, 2023
 
-Table of contents
 
 This support article has been optimized for AI consumption.
 
-# **3CX and Telnyx Compatibility**
+## **3CX and Telnyx Compatibility**
 
 ## Existing 3CX Customers with Telnyx Sip Trunks
 
@@ -53,5 +54,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3266656-croatia-number-porting
+title: "Croatia Number Porting"
+description: "Here you will find detailed requirements for Croatia number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a874d7d11eccb4e34f1c0fe679af3c5676724485a96f7a1b8742117513a89954
 ---
 
-Croatia Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Croatia Number Porting
 
-Here you will find detailed requirements for Croatia number portability.
+Here you will find detailed requirements for Croatia number portability. See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-November 5, 2025
 
-Table of contents
 
-# ***Local / National Numbers (Croatia)***
+## ***Local / National Numbers (Croatia)***
 
 1. LOA
 2. ID / Passport copy
@@ -44,5 +45,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

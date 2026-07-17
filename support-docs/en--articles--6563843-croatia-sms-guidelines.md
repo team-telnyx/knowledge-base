@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6563843-croatia-sms-guidelines
+title: "Croatia: SMS Guidelines"
+description: "SMS Guidelines for Croatia including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Croatia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 0b3a0fe9631248d935b2a3af3279e522c2494658cb3f1c27f2f47f024c442120
 ---
 
-Croatia: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Croatia: SMS Guidelines
 
-SMS Guidelines for Croatia including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Croatia including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Croatia: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **SMS Guidelines for Croatia**
+## **SMS Guidelines for Croatia**
 
-**MCC:** 219  
-​**Dial Code:** 385  
-​  
+**MCC:** 219
+​**Dial Code:** 385
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

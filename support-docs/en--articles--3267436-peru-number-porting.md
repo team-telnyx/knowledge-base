@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3267436-peru-number-porting
+title: "Peru Number Porting"
+description: "Here you will find a list of the requirements for Peru number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 91fb2e1f563fd4845fb2c41c738a796c12650a7028991fe58b5ed16cfc0cadc3
 ---
 
-Peru Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Peru Number Porting
 
-Here you will find a list of the requirements for Peru number portability.
+Here you will find a list of the requirements for Peru number portability. See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-February 10, 2026
 
-Table of contents
 
-# Local / National Numbers
+## Local / National Numbers
 
 1. LOA
 2. Attorney's authorization for the representative (if the number belongs to a company)
@@ -52,5 +53,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

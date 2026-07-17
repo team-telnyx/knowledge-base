@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3267206-new-zealand-number-porting
+title: "New Zealand Number Porting"
+description: "Here you will find all of the requirements for New Zealand number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 8c73f92714578141a5d9f51e4db1a21377ac92db3cbd2d271a2b3eaf3480770e
 ---
 
-New Zealand Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# New Zealand Number Porting
 
-Here you will find all of the requirements for New Zealand number portability.
 
-Written by Kim Dorson-King
 
-February 10, 2026
-
-Table of contents
 
 # New Zealand Number Porting
+
+Here you will find all of the requirements for New Zealand number portability. See Telnyx guidance and requirements.
+
+
+
+
+## New Zealand Number Porting
 
 Port your New Zealand phone numbers to Telnyx. This guide covers requirements, timelines, and the porting process for local and national numbers in New Zealand.
 
@@ -122,5 +123,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

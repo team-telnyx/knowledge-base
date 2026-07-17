@@ -1,27 +1,28 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4640720-what-is-an-exhausted-npa
+title: "What is an Exhausted NPA?"
+description: "In this guide we will explain Exhausted NPA codes in the United States and their respective… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 0552e57b5b449e7e6b40672fccf90122d7442a1c8c4696543bf519a84879ec9f
 ---
 
-What is an Exhausted NPA? | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # What is an Exhausted NPA?
 
-In this guide we will explain Exhausted NPA codes in the United States and their respective overlay's
+In this guide we will explain Exhausted NPA codes in the United States and their respective… See Telnyx guidance and requirements.
 
-Written by Dillin
 
-April 28, 2026
 
-Table of contents
 
-# **What are NPA codes?**
+## **What are NPA codes?**
 
-The numbering planning area (NPA) are the three digit numbers that identify the region of specific localities across North America.   
-​  
+The numbering planning area (NPA) are the three digit numbers that identify the region of specific localities across North America.
+​
 ​**Note:** Several rate centers, across a locality, can also share the same NPA. A rate center can be found by finding the NPA - NXX of a phone number. For example our office is located in Austin, Texas, the NPAs or Area Codes for Austin are 512 and 737.
 
 * **NPA**: Number Plan Area (aka Area Code)
@@ -186,5 +187,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

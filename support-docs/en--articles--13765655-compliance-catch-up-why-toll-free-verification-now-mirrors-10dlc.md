@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/13765655-compliance-catch-up-why-toll-free-verification-now-mirrors-10dlc
+title: "Compliance Catch-up: Why Toll-Free Verification Now Mirrors"
+description: "The most significant change effective February 17, 2026, is that the Business Registration Number (BRN) is no longer… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 5ee6a03aefda713deafa0ae83b16bf07fd2dec44809ec471d7c40c5ac40f1e26
 ---
 
-Compliance Catch-up: Why Toll-Free Verification Now Mirrors 10DLC | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Compliance Catch-up: Why Toll-Free Verification Now Mirrors 10DLC
 
-A
+The most significant change effective February 17, 2026, is that the Business Registration Number (BRN) is no longer… See Telnyx guidance and requirements.
 
-Written by Allen Rhodes
 
-April 3, 2026
 
-Table of contents
 
 ## **1. The Big Update: Mandatory Business Registration**
 
@@ -113,5 +114,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

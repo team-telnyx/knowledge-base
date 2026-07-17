@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3270136-telnyx-global-sims-faqs
+title: "Telnyx Global SIMs FAQs"
+description: "Find answers to some common questions about the Telnyx Wireless product. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 15d716af09b9eb4ba904401ea1fa7d27633cc183f27794f8e47e0a21788c9580
 ---
 
-Telnyx Global SIMs FAQs | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Telnyx Global SIMs FAQs
 
-Find answers to some common questions about the Telnyx Wireless product.
+Find answers to some common questions about the Telnyx Wireless product. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-November 5, 2025
 
-Table of contents
 
-# Common Questions about IoT SIM and eSIM
+## Common Questions about IoT SIM and eSIM
 
 ## **Do the SIM cards support voice?**
 
@@ -48,7 +49,7 @@ Purchase a SIM card or beta test one for free by ordering at [portal.telnyx.com]
 
 Subsequent SIM cards are available for purchase from $1 per SIM (triple-cut plastic SIMs and embedded MFF2 SIM chips) and $0.70 per over-the-air eSIM.
 
-There is a monthly recurring charge of $2 per activated SIM and $0.20 per inactive SIM.  
+There is a monthly recurring charge of $2 per activated SIM and $0.20 per inactive SIM.
 ​
 
 Cost per MB of data starts at $0.0125.
@@ -94,5 +95,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

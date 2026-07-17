@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130668-configuring-a-cisco-cme-credentials-trunk
+title: "Configuring a Cisco CME Credentials Trunk"
+description: "In this article we will explain how you can configure a Cisco Call Manager Express User/Pass Trunk with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 6f178599aeb8ccbb3f197b4673b694938ff87948e8efa6d86cf8fb63fb204eb7
 ---
 
-Configuring a Cisco CME Credentials Trunk | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Configuring a Cisco CME Credentials Trunk
 
-In this article we will explain how you can configure a Cisco Call Manager Express User/Pass Trunk with Telnyx.
+In this article we will explain how you can configure a Cisco Call Manager Express User/Pass Trunk with Telnyx. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_a1ef61df3c)
 
@@ -31,7 +32,7 @@ Additional documentation:
 
 ---
 
-# Instructions for configuring a CME credentials trunk
+## Instructions for configuring a CME credentials trunk
 
 This guide will help you establish a connection between Cisco CME, and your Telnyx Mission Control Portal by showing you a sample trunk configuration using **credential (username/password) authentication.** This assumes you've already completed the installation and telecommunication-applications deployment, per the pre-requisites.
 
@@ -72,14 +73,14 @@ This is the layout of our set-up:
 *In global configuration mode*
 
 ```
-dial-peer voice 100 voip        ! 100 is an arbitrary number  
-translation-profile incoming 100  ! Used to translate DIDs to extensions  
-destination-pattern 1[2-9]..[2-9]...... !general pattern for an outgoing 11 digit calling  
-session protocol sipv2  
-voice-class sip profiles 1   ! Refers to pre-configured sip profile. Used to modify headers  
-session target ipv4:192.76.120.10  ! or replace with sip.telnyx.com  
-incoming called-number 1[2-9]..[2-9]......  !Pattern-match for incoming DIDs  
-dtmf-relay rtp-nte cisco-rtp sip-kpml sip-notify  
+dial-peer voice 100 voip        ! 100 is an arbitrary number
+translation-profile incoming 100  ! Used to translate DIDs to extensions
+destination-pattern 1[2-9]..[2-9]...... !general pattern for an outgoing 11 digit calling
+session protocol sipv2
+voice-class sip profiles 1   ! Refers to pre-configured sip profile. Used to modify headers
+session target ipv4:192.76.120.10  ! or replace with sip.telnyx.com
+incoming called-number 1[2-9]..[2-9]......  !Pattern-match for incoming DIDs
+dtmf-relay rtp-nte cisco-rtp sip-kpml sip-notify
 voice-class codec 1      ! 1 Refers to a pre-configured ordered list of codecs
 ```
 
@@ -92,9 +93,9 @@ voice-class codec 1      ! 1 Refers to a pre-configured ordered list of codec
 *In global configuration mode*
 
 ```
-voice service voip  
-ip address trusted list  
-ipv4 192.76.120.10  
+voice service voip
+ip address trusted list
+ipv4 192.76.120.10
 ipv4 64.16.240.36 !Media IP address
 ```
 
@@ -103,12 +104,12 @@ ipv4 64.16.240.36 !Media IP address
 *In global configuration mode*
 
 ```
-voice service voip  
-mode cme  
-allow connections sip to sip  ! Permit SIP to SIP calls  
-sip  
-bind all source-interface  !Bind control and medial to an interface with a IP, if one is available  
-early-offer forced  
+voice service voip
+mode cme
+allow connections sip to sip  ! Permit SIP to SIP calls
+sip
+bind all source-interface  !Bind control and medial to an interface with a IP, if one is available
+early-offer forced
 midcall-signaling passthru
 ```
 
@@ -117,9 +118,9 @@ midcall-signaling passthru
 *In global configuration mode*
 
 ```
-voice class codec 1  
-codec preference 1 g711ulaw  
-codec preference 2 g711alaw  
+voice class codec 1
+codec preference 1 g711ulaw
+codec preference 2 g711alaw
 codec preference 3 g729br8
 ```
 
@@ -130,14 +131,14 @@ If your CUBE is behind a NAT and does not have a public IP, you need to modify t
 *In global configuration mode*
 
 ```
-voice class sip-profiles 1  
-response ANY sip-header Contact modify "172.x.y.z" "1.2.3.4" !1.2.3.4 Public IP; 172.x.y.z Private IP of the CME  
-request ANY sip-header Contact modify "172.x.y.z" "1.2.3.4"   
-response ANY sdp-header Audio-Connection-Info modify "172.x.y.z" "1.2.3.4"  
-response ANY sdp-header Connection-Info modify "172.x.y.z" "1.2.3.4"  
-response ANY sdp-header Session-Owner modify "172.x.y.z" "1.2.3.4"  
-request ANY sdp-header Audio-Connectio (Not needed if using IP authentication):n-Info modify "172.x.y.z" "1.2.3.4"  
-request ANY sdp-header Connection-Info modify "172.x.y.z" "1.2.3.4"  
+voice class sip-profiles 1
+response ANY sip-header Contact modify "172.x.y.z" "1.2.3.4" !1.2.3.4 Public IP; 172.x.y.z Private IP of the CME
+request ANY sip-header Contact modify "172.x.y.z" "1.2.3.4"
+response ANY sdp-header Audio-Connection-Info modify "172.x.y.z" "1.2.3.4"
+response ANY sdp-header Connection-Info modify "172.x.y.z" "1.2.3.4"
+response ANY sdp-header Session-Owner modify "172.x.y.z" "1.2.3.4"
+request ANY sdp-header Audio-Connectio (Not needed if using IP authentication):n-Info modify "172.x.y.z" "1.2.3.4"
+request ANY sdp-header Connection-Info modify "172.x.y.z" "1.2.3.4"
 request ANY sdp-header Session-Owner modify "172.x.y.z" "1.2.3.4"
 ```
 
@@ -152,7 +153,7 @@ Additionally, it is advisable to define a loopback interface and configure it wi
 *In global configuration mode*
 
 ```
-interface loopback 0  
+interface loopback 0
 ip address 50.249.214.241 255.255.255.0
 ```
 
@@ -165,7 +166,7 @@ Create a voice translation rule. For example, the rule below translates 13125489
 *In global configuration mode*
 
 ```
-voice translation-rule 100 (Not needed if using IP authentication):  
+voice translation-rule 100 (Not needed if using IP authentication):
 rule 1 /13125489677/ /3005/   !  Several rules can be defined. In this case, 3005 is an extension on CUCM
 ```
 
@@ -174,7 +175,7 @@ Create a translation profile using the rule created:
 *In global configuration mode*
 
 ```
-voice translation-profile 100  
+voice translation-profile 100
 translate called 100
 ```
 
@@ -191,9 +192,9 @@ Configure registration with sip.telnyx.com using username and password set up on
 *In global configuration mode*
 
 ```
-sip-ua  
-credentials username <connection_username> password <connection_password> realm sip.telnyx.com  
-authentication username <connection_username> password <connection_password> realm sip.telnyx.com    
+sip-ua
+credentials username <connection_username> password <connection_password> realm sip.telnyx.com
+authentication username <connection_username> password <connection_password> realm sip.telnyx.com
 registrar dns:sip.telnyx.com
 ```
 
@@ -225,5 +226,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

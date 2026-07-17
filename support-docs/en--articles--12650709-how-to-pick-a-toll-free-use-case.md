@@ -1,22 +1,24 @@
 ---
 source_url: https://support.telnyx.com/en/articles/12650709-how-to-pick-a-toll-free-use-case
+title: "How to Pick a Toll Free Use Case"
+description: "When submitting a Toll Free Verification Request this is how you select a Use… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 206304a57044394aac7a609baf4be472c03ceee1447f9d2acf7f69b396d0235a
 ---
 
-How to Pick a Toll Free Use Case | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How to Pick a Toll Free Use Case
 
-When submitting a Toll Free Verification Request this is how you select a Use Case
+When submitting a Toll Free Verification Request this is how you select a Use… See Telnyx guidance and requirements.
 
 K
 
-Written by Klane Pedrie
 
-October 23, 2025
 
 How to Pick a Toll Free Use Case
 

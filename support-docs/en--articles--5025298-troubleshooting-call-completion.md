@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5025298-troubleshooting-call-completion
+title: "Troubleshooting Call Completion"
+description: "Identifying and resolving common issues with inbound and outbound… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 9572a5fb4a41d00059dfd6b47ac6e1406f7dae75fa4f7ecc3d59091997b587e4
 ---
 
-Troubleshooting Call Completion | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Troubleshooting Call Completion
 
-Identifying and resolving common issues with inbound and outbound calls
+Identifying and resolving common issues with inbound and outbound… See Telnyx guidance and requirements.
 
-Written by Dillin
 
-April 14, 2026
 
-Table of contents
 
-# **Troubleshooting Outbound Call Failures**
+## **Troubleshooting Outbound Call Failures**
 
 Outbound calling, also known as “termination”, can be a tricky process to troubleshoot, but luckily, most termination issues are the result of a small handful of different causes. In this article, we will review the most common causes of call termination issues and illustrate what you can do to identify and resolve them.
 
@@ -32,7 +33,7 @@ Industry regulations mandate a strict policy regarding caller ID. For Telnyx to 
 
 ### **How do I append a valid caller ID?**
 
-Unfortunately, this is where it varies. Each softphone and PBX has its own way of appending a caller ID to outbound calls. Fortunately, however, you can easily append a caller ID to any SIP connection using the **Caller ID Override** functionality within the Portal. To set a Caller ID Override, select the relevant SIP connection from the “SIP Connections” tab and select the “Outbound Options” icon to the right. From here, you can include a phone number that will be displayed on all outgoing calls made from this SIP connection.  
+Unfortunately, this is where it varies. Each softphone and PBX has its own way of appending a caller ID to outbound calls. Fortunately, however, you can easily append a caller ID to any SIP connection using the **Caller ID Override** functionality within the Portal. To set a Caller ID Override, select the relevant SIP connection from the “SIP Connections” tab and select the “Outbound Options” icon to the right. From here, you can include a phone number that will be displayed on all outgoing calls made from this SIP connection.
 ​
 
 ## **Dialed number is not included in your whitelisted countries/regions**
@@ -41,7 +42,7 @@ By default, all Outbound Voice Profiles are configured to allow traffic only to 
 
 In order to resolve this, you must whitelist the region in the Outbound Voice Profile associated with the relevant SIP connection. You can do so by selecting “Outbound Voice Profiles” from the Mission Control Portal, selecting the relevant Outbound Voice Profile, and clicking the “+” button next to the relevant region. You can select individual regions, full continents, or add all regions and countries.
 
-From here, you may be prompted to request level 2 verification, which authorizes you to make international calls. You can request this by hovering over your initials in the top right of the Portal, selecting “My Account”, and clicking the “Verifications” tab. Alternatively, you can find this page [here](https://portal.telnyx.com/#/app/account/verifications). For more information on account verification, please see our [Account Verification article](https://support.telnyx.com/en/articles/1130595-account-verification).  
+From here, you may be prompted to request level 2 verification, which authorizes you to make international calls. You can request this by hovering over your initials in the top right of the Portal, selecting “My Account”, and clicking the “Verifications” tab. Alternatively, you can find this page [here](https://portal.telnyx.com/#/app/account/verifications). For more information on account verification, please see our [Account Verification article](https://support.telnyx.com/en/articles/1130595-account-verification).
 ​
 
 ## **403 - Forbidden**
@@ -176,7 +177,7 @@ This allotted\_timeout error will occur when there is a timeout reached.
 
 For example, for the answer timeout setting on your SIP Connections inbound settings. If the call isn't answered within the defined time allotted.
 
-The same timeout can apply using our call control voice API product where you can set   
+The same timeout can apply using our call control voice API product where you can set
 ​**Enable "hang-up" on timeout** on yourcall control application which tells Telnyx how long to wait for your call to be answered before hanging up due to the timeout set being reached.
 
 ---
@@ -205,21 +206,21 @@ An exhaustive list of our SIP response codes can be found [here](https://support
 
 To gain additional insight when troubleshooting, you can leverage the debugging tool within the Portal to view the SIP logs and call flow for a specific call. For more information on using this tool, please see our [Debugging](https://support.telnyx.com/en/articles/4304872-telnyx-debugging-tools) article. The Debugging menu contains other features, such as the Web Dialer, which can be used to make calls directly from the Portal.
 
-You can find more information on different reasons and cause codes [here](https://developer.signalwire.com/freeswitch/FreeSWITCH-Explained/Troubleshooting-Debugging/Hangup-Cause-Code-Table_3964945/).  
+You can find more information on different reasons and cause codes [here](https://developer.signalwire.com/freeswitch/FreeSWITCH-Explained/Troubleshooting-Debugging/Hangup-Cause-Code-Table_3964945/).
 ​
 
 ---
 
 ## **Troubleshooting Inbound Call Failures**
 
-Fortunately, inbound calls are susceptible to fewer problems than outbound calls; However, they can still be difficult to troubleshoot. If you are not receiving calls when you know you should be, this is generally an issue with either SIP registration or the authentication method selected when setting up your SIP connection.  
+Fortunately, inbound calls are susceptible to fewer problems than outbound calls; However, they can still be difficult to troubleshoot. If you are not receiving calls when you know you should be, this is generally an issue with either SIP registration or the authentication method selected when setting up your SIP connection.
 ​
 
 ## **SIP Registration (for credential-based connections)**
 
 Much like other SIP providers, Telnyx maintains a registrar of the devices associated with SIP connections. When you authenticate your SIP credentials on your softphone or PBX, a SIP REGISTER request is sent from your device to Telnyx, which tells Telnyx where to send the calls that are directed to your SIP URI.
 
-If you are not receiving any inbound calls on a credential-based SIP connection, it is likely that we are not receiving the SIP REGISTER requests from your device. Please ensure that you have whitelisted traffic to and from the IP addresses and subnets listed in our *[What IPs do I need to whitelist?](https://support.telnyx.com/en/articles/1130687-whitelisting-telnyx-ip-addresses)* article.  
+If you are not receiving any inbound calls on a credential-based SIP connection, it is likely that we are not receiving the SIP REGISTER requests from your device. Please ensure that you have whitelisted traffic to and from the IP addresses and subnets listed in our *[What IPs do I need to whitelist?](https://support.telnyx.com/en/articles/1130687-whitelisting-telnyx-ip-addresses)* article.
 ​
 
 ## **IP and FQDN authentication**
@@ -245,5 +246,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

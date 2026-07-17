@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6596158-bahrain-sms-guidelines
+title: "Bahrain: SMS Guidelines"
+description: "SMS Guidelines for Bahrain including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Bahrain: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: eed49dcb4a1a7250be774225378cd4b947d0ad3b7d2a948eaec943cee6742283
 ---
 
-Bahrain: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Bahrain: SMS Guidelines
 
-SMS Guidelines for Bahrain including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Bahrain including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Bahrain: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **SMS Guidelines for Bahrain**
+## **SMS Guidelines for Bahrain**
 
-**MCC:** 426  
-​**Dial Code:** 973  
-​  
+**MCC:** 426
+​**Dial Code:** 973
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 Adult, political and religious content will be blocked by local operators
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

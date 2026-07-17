@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4194841-audiocodes-sbc-setup
+title: "Audiocodes SBC: Setup"
+description: "Learn AudioCodes SBC configuration with Telnyx - Click to dive in today. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 490ed95c00bf064e8ce590a4d7e35ad57d8c518109754287eaeb21111ea7c4a5
 ---
 
-Audiocodes SBC: Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Audiocodes SBC: Setup
 
-Learn AudioCodes SBC configuration with Telnyx - Click to dive in today.
+Learn AudioCodes SBC configuration with Telnyx - Click to dive in today. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_6abc1dab54)
 
@@ -37,7 +38,7 @@ Additional resources:
 
 ---
 
-# Instructions for Configuring Audiocodes SBC with Telnyx
+## Instructions for Configuring Audiocodes SBC with Telnyx
 
 In this activity you will:
 
@@ -62,29 +63,29 @@ Setting up your Telnyx SIP portal account so you can make and receive calls:
 **Define your IP Group:**
 
 ```
-[ IPGroup ]  
-IPGroup_Description:  Telnyx   
-IPGroup_SIPGroupName: sip.telnyx.com   
+[ IPGroup ]
+IPGroup_Description:  Telnyx
+IPGroup_SIPGroupName: sip.telnyx.com
 [ \IPGroup ]
 ```
 
 **Define your SIP Proxy:**
 
 ```
-[ ProxyIp ]   
-FORMAT ProxyIp_Index = ProxyIp_IpAddress, ProxyIp_TransportType, ProxyIp_ProxySetId;   
-ProxyIp 1 = "192.76.120.10/32:5060", 0, 1;  
-ProxyIp 2 = "64.16.250.10/32:5060", 0, 1;    
+[ ProxyIp ]
+FORMAT ProxyIp_Index = ProxyIp_IpAddress, ProxyIp_TransportType, ProxyIp_ProxySetId;
+ProxyIp 1 = "192.76.120.10/32:5060", 0, 1;
+ProxyIp 2 = "64.16.250.10/32:5060", 0, 1;
 [ \ProxyIp ]
 ```
 
 **Define Coders:**
 
 ```
-[ CodersGroup0 ]  
-CodersGroup0_Name:        g711ulaw64k   
-CodersGroup0_pTime:       20   
-CodersGroup0_PayloadType: 0  
+[ CodersGroup0 ]
+CodersGroup0_Name:        g711ulaw64k
+CodersGroup0_pTime:       20
+CodersGroup0_PayloadType: 0
 [ \CodersGroup0 ]
 ```
 
@@ -117,5 +118,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

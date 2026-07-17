@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8379618-bitcoin-payment-method
+title: "Bitcoin Payment Method"
+description: "Explore our comprehensive guide on using Bitcoin for payments on the Telnyx portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 1a616fb63fb6956e2c0fed81f5a5f2a14905cd3c109995e7da9197ce2a8dcf33
 ---
 
-Bitcoin Payment Method | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Bitcoin Payment Method
 
-Explore our comprehensive guide on using Bitcoin for payments on the Telnyx portal.
+Explore our comprehensive guide on using Bitcoin for payments on the Telnyx portal. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-December 26, 2024
 
-Table of contents
 
-# Bitcoin Basics
+## Bitcoin Basics
 
 Explore our comprehensive guide on using Bitcoin for payments on the Telnyx portal. Learn about Bitcoin basics, transaction times, refunds, payment statuses, and more. Dive in to understand the seamless integration of digital currency with our platform.
 
@@ -82,5 +83,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5733572-mediatrix-c7-4100-telnyx-setup
+title: "Mediatrix C7/4100: Telnyx Setup"
+description: "Learn how to connect and configure your Mediatrix C7 or Mediatrix 4100 to work with your Telnyx Mission Control Portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 96d3f11a420b809ca410ddb08be9b8ac194875b387ddadfe16800ae32c3d698f
 ---
 
-Mediatrix C7/4100: Telnyx Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Mediatrix C7/4100: Telnyx Setup
 
-Learn how to connect and configure your Mediatrix C7 or Mediatrix 4100 to work with your Telnyx Mission Control Portal.
+Learn how to connect and configure your Mediatrix C7 or Mediatrix 4100 to work with your Telnyx Mission Control Portal. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-June 6, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_3ae36cf660)
 
@@ -34,7 +35,7 @@ Further documentation:
 
 ---
 
-# Instructions for configuring Mediatrix C7/4100 to work with your Telnyx Mission Control Portal
+## Instructions for configuring Mediatrix C7/4100 to work with your Telnyx Mission Control Portal
 
 In this document, you will:
 
@@ -51,8 +52,8 @@ In this document, you will:
 
 **Video Walkthrough**
 
-Coming soon! Check back frequently as we are updating our documentation.  
-​  
+Coming soon! Check back frequently as we are updating our documentation.
+​
 ​
 
 **Pre-Requisites**
@@ -235,7 +236,7 @@ This section may not be required, but if your DHCP server doesn't also provide a
    ![Time server settings interface. ](_images/0abb4e94e3f19e1f.png)
 4. Click **Apply**.
 
-That's it, you've now completed the configuration of your Mediatrix C7/4100 device.  
+That's it, you've now completed the configuration of your Mediatrix C7/4100 device.
 ​
 
 [Back to Top](#h_3ae36cf660)
@@ -257,5 +258,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

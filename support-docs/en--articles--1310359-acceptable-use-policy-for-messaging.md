@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging
+title: "Acceptable Use Policy for Messaging"
+description: "In this article we will restricted message types and campaigns so you can make sure to avoid issues when sending… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 5e8e1cf8aa10a3e34339535088e67de5170094bfa9d4b7fe2d7fffe43bba081e
 ---
 
-Acceptable Use Policy for Messaging | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Acceptable Use Policy for Messaging
 
-In this article we will restricted message types and campaigns so you can make sure to avoid issues when sending messages.
+In this article we will restricted message types and campaigns so you can make sure to avoid issues when sending… See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-February 12, 2024
 
-Table of contents
 
 Telnyx has strict guidelines on the types of messages that you may send from the Telnyx platform. **Telnyx reserves the right to suspend or close your account if you violate any of the guidelines below or our** **[Terms and Conditions](https://telnyx.com/terms-and-conditions)**. Please review both documents before you send any SMS messages.
 
@@ -75,14 +76,14 @@ You may not represent or identify yourself as another individual or business in 
 
 Sending messages with fraudulent information or phishing to get confidential information from a recipient is explicitly prohibited.
 
-# Additional Regulations
+## Additional Regulations
 
 In addition to the restrictions above, Telnyx customers must adhere to the following laws, regulations and recommendations:
 
 ## CAN-SPAM (United States)
 
-The Controlling the Assault of Non-Solicited Pornography and Marketing Act of 2003 (“CAN-SPAM”) is a federal law regulating the transmission of commercial email messages and Internet-to-phone SMS commercial messages to addresses that reference Internet domains.  
-​   
+The Controlling the Assault of Non-Solicited Pornography and Marketing Act of 2003 (“CAN-SPAM”) is a federal law regulating the transmission of commercial email messages and Internet-to-phone SMS commercial messages to addresses that reference Internet domains.
+​
 The full text of this law can be found here: <http://www.gpo.gov/fdsys/pkg/PLAW-108publ187/pdf/PLAW-108publ187.pdf>
 
 ## CASL (Canada)
@@ -93,7 +94,7 @@ The full text of this law and its accompanying regulations can be [found here](h
 
 ## CTIA Messaging Principles
 
-CTIA’s [Messaging Principles and Best Practices](https://api.ctia.org/docs/default-source/default-document-library/170119-ctia-messaging-principles-and-best-practices.pdf) offers a set of recommendations developed with wireless messaging ecosystem stakeholders to support a robust and dynamic wireless messaging community.  
+CTIA’s [Messaging Principles and Best Practices](https://api.ctia.org/docs/default-source/default-document-library/170119-ctia-messaging-principles-and-best-practices.pdf) offers a set of recommendations developed with wireless messaging ecosystem stakeholders to support a robust and dynamic wireless messaging community.
 ​
 
 ---
@@ -105,5 +106,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6561154-switzerland-sms-guidelines
+title: "Switzerland: SMS Guidelines"
+description: "Sending SMS to Switzerland? See Telnyx guidance and requirements Learn more about Switzerland: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: cb6bcca324af444255044ef8acf9612fefe8ec70992ab97b025a9f861dc6b41b
 ---
 
-Switzerland: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Switzerland: SMS Guidelines
 
-Sending SMS to Switzerland? Check out our comprehensive guidelines to ensure compliance in Switzerland.
+Sending SMS to Switzerland? See Telnyx guidance and requirements Learn more about Switzerland: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Switzerland: SMS Guidelines**
+## **Switzerland: SMS Guidelines**
 
-**MCC:** 228  
-​**Dial Code:** 41  
-​  
+**MCC:** 228
+​**Dial Code:** 41
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

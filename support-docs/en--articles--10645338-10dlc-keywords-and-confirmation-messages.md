@@ -1,27 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/10645338-10dlc-keywords-and-confirmation-messages
+title: "10DLC Keywords and Confirmation Messages"
+description: "10DLC Keywords and… See Telnyx guidance and requirements Learn more about 10DLC Keywords and Confirmation Messages with Telnyx."
 scraped: 2026-07-08
 content_hash: 517aa55bed935632cdb945d6eef7257cf50aa3e98ea893be02332ddfbddd55c8
 ---
 
-10DLC Keywords and Confirmation Messages | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # 10DLC Keywords and Confirmation Messages
 
-10DLC Keywords and Autoresponses
+10DLC Keywords and… See Telnyx guidance and requirements Learn more about 10DLC Keywords and Confirmation Messages with Telnyx.
 
 K
 
-Written by Klane Pedrie
 
-January 26, 2026
 
 Under 10DLC guidelines all campaigns must fill in the campaign details with the Keywords and Confirmation Messages for Opt in, Opt Out, and Help.
 
-Please follow this format but with the variables filled in for your brand and campaign:  
-​  
+Please follow this format but with the variables filled in for your brand and campaign:
+​
 Opt in Keyword: START or similar keyword
 
 Opt in confirmation message: [Brand name]: Thanks for subscribing to [use case(s)]! Reply HELP for help. Message frequency may vary. Msg&data rates may apply. Consent is not a condition of purchase. Reply STOP to opt out.
@@ -32,8 +34,8 @@ Opt out confirmation message: [Brand Name]: You are unsubscribed and will receiv
 
 Help Keyword: HELP or similar keyword
 
-Help confirmation message: [Brand name]: Please reach out to us at [website/email/phone number] for help.  
-​  
+Help confirmation message: [Brand name]: Please reach out to us at [website/email/phone number] for help.
+​
 NOTE: Websites are permissable so long as they have clear contact information at the link provided.
 
 ---

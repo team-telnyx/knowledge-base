@@ -1,54 +1,55 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6564056-turkey-sms-guidelines
+title: "Turkey: SMS Guidelines"
+description: "Sending SMS to Turkey? See Telnyx guidance and requirements Learn more about Turkey: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 90c667f7dffe4d18d2aff87309eccddc3de388499515a2b29061285b42bf6c83
 ---
 
-Turkey: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Turkey: SMS Guidelines
 
-Sending SMS to Turkey? Check out our comprehensive guidelines to ensure compliance in Turkey.
+Sending SMS to Turkey? See Telnyx guidance and requirements Learn more about Turkey: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-May 18, 2026
 
-Table of contents
 
-# **Turkey: SMS Guidelines**
+## **Turkey: SMS Guidelines**
 
-**MCC:** 286  
-​**Dial Code:** 90  
-​  
-Alphanumeric Sender IDs are supported with registration. Alphanumeric Sender ID registration is required.  
-​  
-A 4 character code, beginning with the letter "B" will be added at the end of the message content by the terminating operator in line with the guidelines implemented by the Information and Communication Technologies Authority.   
-​  
-Gambling traffic is not allowed towards Turkey.  
-​  
-​**Information on Alphanumeric Sender ID registration:**  
-​  
-Please complete the attached form and return to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com), along with the following information:  
-​  
-1) Sender ID to be registered  
-2) Message/Content Type - Transactional/Promotional/Notification  
-3) Message/Content example(s)  
-4) Company name (and Brand name if different)  
+**MCC:** 286
+​**Dial Code:** 90
+​
+Alphanumeric Sender IDs are supported with registration. Alphanumeric Sender ID registration is required.
+​
+A 4 character code, beginning with the letter "B" will be added at the end of the message content by the terminating operator in line with the guidelines implemented by the Information and Communication Technologies Authority.
+​
+Gambling traffic is not allowed towards Turkey.
+​
+​**Information on Alphanumeric Sender ID registration:**
+​
+Please complete the attached form and return to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com), along with the following information:
+​
+1) Sender ID to be registered
+2) Message/Content Type - Transactional/Promotional/Notification
+3) Message/Content example(s)
+4) Company name (and Brand name if different)
 5) Website of brand or company
 
 6) Company Country of origin
 
 7) Expected volumes per month
 
-8) Email linked to your Telnyx account  
-​  
-​**Additional recommendations:**  
-​  
-Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).  
-​  
+8) Email linked to your Telnyx account
+​
+​**Additional recommendations:**
+​
+Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
+​
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
@@ -64,5 +65,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

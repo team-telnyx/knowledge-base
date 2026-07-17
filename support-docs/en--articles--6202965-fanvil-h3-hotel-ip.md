@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6202965-fanvil-h3-hotel-ip
+title: "Fanvil H3: Hotel IP"
+description: "Learn how to configure a Telnyx SIP trunk on the Fanvil H3 Hotel IP… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 633577c648817d9f013340baa82f7e2c06abdbd6114666da05b3284f809a15f4
 ---
 
-Fanvil H3: Hotel IP | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Fanvil H3: Hotel IP
 
-Learn how to configure a Telnyx SIP trunk on the Fanvil H3 Hotel IP phone
+Learn how to configure a Telnyx SIP trunk on the Fanvil H3 Hotel IP… See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_61c4e221ab)
 
@@ -42,7 +43,7 @@ The [Fanvil H3 Hotel IP phone](https://www.fanvil.com/Product/info/id/78.html) i
 
 ---
 
-# Instructions for setting up and configuring your Fanvil H3 Hotel IP phone
+## Instructions for setting up and configuring your Fanvil H3 Hotel IP phone
 
 In this activity you will:
 
@@ -112,7 +113,7 @@ In this section, you'll add codecs to your phone configuration that will support
 
    * *H264*
 
-That's it, you've now completed the configuration of the Fanvil H3 hotel IP phone with your Telnyx account.  
+That's it, you've now completed the configuration of the Fanvil H3 hotel IP phone with your Telnyx account.
 ​
 
 [Back to Top](#h_61c4e221ab)
@@ -142,5 +143,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

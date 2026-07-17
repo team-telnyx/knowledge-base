@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3266430-canada-number-porting
+title: "Canada Number Porting"
+description: "Here you will find detailed requirements for Canada number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ecf43534d4e3dce74b51c077e1f20c1aee18a297f11a4cc7c2b5574fb7ee70ba
 ---
 
-Canada Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Canada Number Porting
 
-Here you will find detailed requirements for Canada number portability.
+Here you will find detailed requirements for Canada number portability. See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-November 15, 2023
 
-Table of contents
 
-# **Local / Mobile / Toll-Free in Canada**
+## **Local / Mobile / Toll-Free in Canada**
 
 1. LOA (Local address & Account Number required)
 2. Latest Invoice
@@ -64,5 +65,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

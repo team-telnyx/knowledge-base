@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3403998-sim-data-limits-notifications
+title: "SIM Data Limits & Notifications"
+description: "In this article, we will explain how you can set up data limits for your SIM groups and SIM cards and receive… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 44c24f2eeff21bb85dc66b6b9659f9e79ccb02978aa43ece934fb9cb368cd972
 ---
 
-SIM Data Limits & Notifications | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # SIM Data Limits & Notifications
 
-In this article, we will explain how you can set up data limits for your SIM groups and SIM cards and receive notifications.
+In this article, we will explain how you can set up data limits for your SIM groups and SIM cards and receive… See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-May 20, 2026
 
-Table of contents
 
-# **Data Limit on SIM**
+## **Data Limit on SIM**
 
 Worried about potential bill shock from accruing considerable data usage with your Telnyx SIM card? Enable data limits and set an upper limit for the amount of data that your SIM cards can use. With this, you can limit the amount of data that you consume via the Telnyx API.
 
@@ -97,15 +98,15 @@ Start by defining a notification profile
 
 ### **Receiving Notifications**
 
-* Once all settings are configured, you will receive an alert from portal@telnyx.com when your data usage reaches the predefined threshold. This notification is a confirmation that your data limit has been met.  
+* Once all settings are configured, you will receive an alert from portal@telnyx.com when your data usage reaches the predefined threshold. This notification is a confirmation that your data limit has been met.
   ​
 
 ![Data limit email notification screenshot ](_images/b06e0a1e328d715d.png)
 
-​  
-​  
-​  
-​  
+​
+​
+​
+​
 ​
 
 ---
@@ -117,5 +118,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

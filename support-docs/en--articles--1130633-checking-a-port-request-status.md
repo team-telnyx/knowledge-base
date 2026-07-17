@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130633-checking-a-port-request-status
+title: "Checking a Port Request Status"
+description: "Here we will explain how you can check the status of a port request in our mission control portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 2e5c6285391f0ae0bd7a77b0f58d5473b0d7b37196f116b94084c77ae6f5d71f
 ---
 
-Checking a Port Request Status | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Checking a Port Request Status
 
-Here we will explain how you can check the status of a port request in our mission control portal.
+Here we will explain how you can check the status of a port request in our mission control portal. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-January 10, 2024
 
-Table of contents
 
-# How do I check the status of my port request?
+## How do I check the status of my port request?
 
 |  |
 | --- |
@@ -49,5 +50,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

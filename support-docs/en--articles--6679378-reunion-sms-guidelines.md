@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6679378-reunion-sms-guidelines
+title: "Reunion: SMS Guidelines"
+description: "SMS Guidelines for Reunion including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Reunion: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 54be8b5035e0a321ebbedb31cd3ce55f7b38f5377cb179838b36ad21b5bc4986
 ---
 
-Reunion: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Reunion: SMS Guidelines
 
-SMS Guidelines for Reunion including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Reunion including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Reunion: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Reunion: SMS Guidelines**
+## **Reunion: SMS Guidelines**
 
-**MCC:** 647  
-​**Dial Code:** 262  
-​  
+**MCC:** 647
+​**Dial Code:** 262
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

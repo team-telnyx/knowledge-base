@@ -1,30 +1,31 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6670452-eritrea-sms-guidelines
+title: "Eritrea: SMS Guidelines"
+description: "Sending SMS to Eritrea? See Telnyx guidance and requirements Learn more about Eritrea: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 8f459d1d6e9237a5c63a0c3509009a67bd041fcaaee14abf993eb9d626316e75
 ---
 
-Eritrea: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# Eritrea: SMS Guidelines
 
-Sending SMS to Eritrea? Check out our comprehensive guidelines to ensure compliance in Eritrea.
 
-Written by Telnyx Engineering
 
-November 21, 2023
-
-Table of contents
 
 # Eritrea: SMS Guidelines
 
-**MCC:** 657  
-​**Dial Code:** 291  
-​  
-Alphanumeric Sender IDs are supported and will be maintained, no registration is required.  
-​  
+Sending SMS to Eritrea? See Telnyx guidance and requirements Learn more about Eritrea: SMS Guidelines with Telnyx.
+
+
+
+
+## Eritrea: SMS Guidelines
+
+**MCC:** 657
+​**Dial Code:** 291
+​
+Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
+​
 The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be directly related to the message content.
 
 Religious, political or adult traffic is prohibited.
@@ -42,5 +43,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

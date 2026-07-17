@@ -1,34 +1,35 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6592510-armenia-sms-guidelines
+title: "Armenia: SMS Guidelines"
+description: "SMS Guidelines for Armenia including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Armenia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: a71356655d9a1f87fdf874d12331d200550d82e6c08eda67c9c286b7d61dea07
 ---
 
-Armenia: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Armenia: SMS Guidelines
 
-SMS Guidelines for Armenia including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Armenia including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Armenia: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 15, 2023
 
-Table of contents
 
-# **SMS Guidelines for Armenia**
+## **SMS Guidelines for Armenia**
 
-**MCC:** 374  
-​**Dial Code:** 283  
-​  
-Alphanumeric Sender IDs are supported with registration. Alpha numeric Sender ID registration is required.  
-​  
-Without registration Alpha Sender IDs will be overwritten to a generic Alpha Sender ID, or rejected. Alpha Sender ID registration is advised.  
-​  
-Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).  
-​  
+**MCC:** 374
+​**Dial Code:** 283
+​
+Alphanumeric Sender IDs are supported with registration. Alpha numeric Sender ID registration is required.
+​
+Without registration Alpha Sender IDs will be overwritten to a generic Alpha Sender ID, or rejected. Alpha Sender ID registration is advised.
+​
+Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
+​
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ## SMS Resources for Armenia
@@ -90,5 +91,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

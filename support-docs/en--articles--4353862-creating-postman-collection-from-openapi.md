@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4353862-creating-postman-collection-from-openapi
+title: "Creating Postman Collection from OpenAPI"
+description: "Getting all of Telnyx API V2 on Postman only takes a few short steps, start using the API right away! See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 57b37b50362ef2bd27935f76078b5428cfebfd44b6f28b0779456df4f2018188
 ---
 
-Creating Postman Collection from OpenAPI | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Creating Postman Collection from OpenAPI
 
-Getting all of Telnyx API V2 on Postman only takes a few short steps, start using the API right away!
+Getting all of Telnyx API V2 on Postman only takes a few short steps, start using the API right away! See Telnyx guidance and requirements.
 
-Written by Dillin
 
-November 8, 2023
 
-Table of contents
 
-# **Step-by-step Guide to Creating a Postman Collection**
+## **Step-by-step Guide to Creating a Postman Collection**
 
 We all love Postman. How can you get all of Telnyx API v2 in a few clicks?
 
@@ -53,5 +54,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

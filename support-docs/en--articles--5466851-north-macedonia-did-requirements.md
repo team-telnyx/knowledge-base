@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5466851-north-macedonia-did-requirements
+title: "North Macedonia DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring North Macedonia numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a9533e8ffa18b524633aa31f0fdba28be6c1f39045c28c1c29cc91648118472d
 ---
 
-North Macedonia DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # North Macedonia DID Requirements
 
-Here you will find a list of detailed requirements for acquiring North Macedonia numbers.
+Here you will find a list of detailed requirements for acquiring North Macedonia numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-June 2, 2026
 
-Table of contents
 
-# DID Number Requirements for North Macedonia
+## DID Number Requirements for North Macedonia
 
 In order to purchase a North Macedonia number you will need to provide the following:
 
@@ -89,5 +90,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

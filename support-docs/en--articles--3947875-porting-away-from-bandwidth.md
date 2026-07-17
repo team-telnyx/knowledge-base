@@ -1,27 +1,28 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3947875-porting-away-from-bandwidth
+title: "Porting away from Bandwidth"
+description: "In this guide we will explain how to easily port your numbers away from… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 4242ae13a95cd35f50b9c7504662d423f899b11ec9f2586a488971fe83b54176
 ---
 
-Porting away from Bandwidth | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Porting away from Bandwidth
 
-In this guide we will explain how to easily port your numbers away from Bandwidth
+In this guide we will explain how to easily port your numbers away from… See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-August 21, 2023
 
-Table of contents
 
-To begin the process of porting away from Bandwidth, you need to follow a few simple steps to get the information that you need to port.   
+To begin the process of porting away from Bandwidth, you need to follow a few simple steps to get the information that you need to port.
 ​
 
-# **Raise a support ticket with Bandwidth porting support**
+## **Raise a support ticket with Bandwidth porting support**
 
 Request a copy of the CSR information for the numbers on your account that you wish to port away.
 
@@ -48,5 +49,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

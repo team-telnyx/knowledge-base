@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5725071-grandstream-ht802-telnyx-setup
+title: "Grandstream HT802: Telnyx Setup"
+description: "Set up a connection between your Grandstream HT802, and Telnyx Mission Control Portal to send/receive faxes. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 0b1b219f9a177c90d8574b8bba3bbbb9f074c2203cbf93cdd5047ad5d9c043c3
 ---
 
-Grandstream HT802: Telnyx Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Grandstream HT802: Telnyx Setup
 
-Set up a connection between your Grandstream HT802, and Telnyx Mission Control Portal to send/receive faxes.
+Set up a connection between your Grandstream HT802, and Telnyx Mission Control Portal to send/receive faxes. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-June 6, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_15146ed274)
 
@@ -30,7 +31,7 @@ For Grandstream HT802 documentation, see:
 
 ---
 
-# Instructions for Configuring Grandstream HT 802 for Telnyx
+## Instructions for Configuring Grandstream HT 802 for Telnyx
 
 |  |
 | --- |
@@ -50,8 +51,8 @@ For Grandstream HT802 documentation, see:
 * Ensure your device is running the [most current firmware](https://www.grandstream.com/support/firmware).
 * In your Telnyx Portal, from **Connection Settings > Inbound**, make sure that:
 
-  + **DNIS:** *SIP Username*  
-    ​  
+  + **DNIS:** *SIP Username*
+    ​
     This is necessary as Telnyx doesn't support phone numbers as connection usernames.
 
 **Video Walkthrough**
@@ -68,9 +69,9 @@ Setting up your Telnyx SIP portal account so you can make and receive calls:
 | --- |
 | ***Note:*** *These instructions reference the 802 with factory default configuration. It is configured to grab a dynamic IP address automatically from your router using DHCP. For information on configuring your HandyTone with a Static IP Address, please refer to the* [802's user guide](https://www.grandstream.com/hubfs/Product_Documentation/ht80x_user_guide.pdf). |
 
-1. The Grandstream HT802 typically requires you to have inbound calls sent to the username configured on the device in the SIP settings. The easy way to set this up is to have the phone number as the username of the trunk, however Telnyx doesn't support phone numbers as connection usernames.   
-   ​  
-   Instead, we suggest you have inbound calls sent to the alphanumeric username of the connection instead of the number. Change the inbound settings of the connection on the **Inbound** tab on the **Connection Options** screen to the following:  
+1. The Grandstream HT802 typically requires you to have inbound calls sent to the username configured on the device in the SIP settings. The easy way to set this up is to have the phone number as the username of the trunk, however Telnyx doesn't support phone numbers as connection usernames.
+   ​
+   Instead, we suggest you have inbound calls sent to the alphanumeric username of the connection instead of the number. Change the inbound settings of the connection on the **Inbound** tab on the **Connection Options** screen to the following:
    ​
 
    1. ***Number Format (DNIS):*** *SIP Username"*Connect your 802 directly to your router with the ethernet cable supplied with your device.
@@ -180,5 +181,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

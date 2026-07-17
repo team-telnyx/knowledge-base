@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/2819238-bulk-edit-numbers-messaging-profile
+title: "Bulk Edit Numbers - Messaging Profile"
+description: "Simplify your messaging campaigns with Telnyx's bulk edit feature for messaging profiles, See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 4af97ea9bba9a09ae8f4d5b7e30130efde14228813c4fa0190bbdb5e8cb69fdd
 ---
 
-Bulk Edit Numbers - Messaging Profile | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Bulk Edit Numbers - Messaging Profile
 
-Simplify your messaging campaigns with Telnyx's bulk edit feature for messaging profiles, ensuring cohesive and effective communication.
+Simplify your messaging campaigns with Telnyx's bulk edit feature for messaging profiles, See Telnyx guidance and requirements.
 
-Written by Shubam
 
-December 26, 2024
 
-Table of contents
 
-# Guide to assigning messaging profile in Bulk
+## Guide to assigning messaging profile in Bulk
 
-A step-by-step guide to bulk edit Messaging Profile settings of selected numbers.  
+A step-by-step guide to bulk edit Messaging Profile settings of selected numbers.
 ​
 
 ## **Step 1**
@@ -41,14 +42,14 @@ You can also select all the numbers displayed on the page by using the checkbox 
 
 ![](_images/8c6c293d04b87881.png)
 
-**Note - You can expand the selection by increasing the Row count of the displayed page ranging from 10-100 numbers displayed on the page.**  
+**Note - You can expand the selection by increasing the Row count of the displayed page ranging from 10-100 numbers displayed on the page.**
 ​
 
 ![](_images/1b8646115abb9dfd.png)
 
 ## **Step 5**
 
-Once you have selected your desired numbers, click on the Bulk Actions dropdown and select Edit Messaging Profile.  
+Once you have selected your desired numbers, click on the Bulk Actions dropdown and select Edit Messaging Profile.
 ​
 
 ![](_images/cd8f5f50317143ae.png)
@@ -76,5 +77,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

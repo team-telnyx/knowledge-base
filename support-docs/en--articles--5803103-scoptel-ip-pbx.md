@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5803103-scoptel-ip-pbx
+title: "ScopTEL IP PBX"
+description: "Integrate ScopServ's ScopTEL IP PBX with Telnyx. See Telnyx guidance and requirements Learn more about ScopTEL IP PBX with Telnyx."
 scraped: 2026-07-08
 content_hash: 7f5f432328d8823dc32cfccd3146279acd28c86fb978845dc2c641a520d61b8c
 ---
 
-ScopTEL IP PBX | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # ScopTEL IP PBX
 
-Integrate ScopServ's ScopTEL IP PBX with Telnyx. Dive into steps for SIP channel configuration, trunk creation, and inbound rule setup.
+Integrate ScopServ's ScopTEL IP PBX with Telnyx. See Telnyx guidance and requirements Learn more about ScopTEL IP PBX with Telnyx.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_77062ad51b)
 
@@ -34,7 +35,7 @@ Additional documentation:
 
 ---
 
-# Instructions for configuring ScopTel IP PBX to work with Telnyx
+## Instructions for configuring ScopTel IP PBX to work with Telnyx
 
 In this activity you will:
 
@@ -139,14 +140,14 @@ In this activity, we're going to create your first SIP trunk through ScopTEL.
 
    1. **DTMF Mode:** *Automatic* (Will use RFC 2833)
    2. **Send Remote-Party-ID:** Check this box
-   3. **Codecs:** Select any Telnyx-supported audio and video codecs:  
-      ​  
+   3. **Codecs:** Select any Telnyx-supported audio and video codecs:
+      ​
       Supported [audio codecs](https://telnyx.com/resources/codecs-affect-voip-sound-quality):
 
       1. ulaw(g711u)
       2. alaw(g711a)
       3. g722
-      4. g729  
+      4. g729
          ​
 
       Supported video codecs:
@@ -199,5 +200,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/9961409-rwanda-did-requirements
+title: "Rwanda DID Requirements"
+description: "Requirements to acquire Rwanda numbers. See Telnyx guidance and requirements Learn more about Rwanda DID Requirements with Telnyx."
 scraped: 2026-07-08
 content_hash: 44020cec324b16d214873f3e0947d6bf54821a2b4360859463fa9146dde9db76
 ---
 
-Rwanda DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Rwanda DID Requirements
 
-Requirements to acquire Rwanda numbers. Start building on Telnyx today.
+Requirements to acquire Rwanda numbers. See Telnyx guidance and requirements Learn more about Rwanda DID Requirements with Telnyx.
 
-Written by NumberOps
 
-October 15, 2024
 
-Table of contents
 
-# DID Number Requirements for Rwanda
+## DID Number Requirements for Rwanda
 
 In order to purchase a Bahrain number you will need to provide the following:
 
@@ -57,5 +58,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1311457-united-kingdom-uk-did-requirements
+title: "United Kingdom (UK) DID Requirements"
+description: "Here you will find detailed requirements for acquiring numbers in Great Britain. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: d7f0512dfd46a102de3d8c9312b5ea722075be26894d7aee299be05706fc607a
 ---
 
-United Kingdom (UK) DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # United Kingdom (UK) DID Requirements
 
-Here you will find detailed requirements for acquiring numbers in Great Britain.
+Here you will find detailed requirements for acquiring numbers in Great Britain. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-May 26, 2026
 
-Table of contents
 
-# DID Number Requirements for the UK
+## DID Number Requirements for the UK
 
 In order to purchase an United Kingdom number you will need to provide the following:
 
@@ -50,9 +51,9 @@ In order to purchase an United Kingdom number you will need to provide the follo
 
 \* Address within the UK (street, building number, postal code, city, and country)
 
-\* A copy of a utility bill (less than 3 months old)  
-​  
-Additional details:   
+\* A copy of a utility bill (less than 3 months old)
+​
+Additional details:
 \* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **National Numbers in the United Kingdom**
@@ -83,9 +84,9 @@ Additional details:
 
 \* Address within the UK (street, building number, postal code, city, and country)
 
-\* A copy of a utility bill (less than 3 months old)  
-​  
-Additional details:   
+\* A copy of a utility bill (less than 3 months old)
+​
+Additional details:
 \* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **Toll-Free & Mobile Numbers in the United Kingdom**
@@ -116,17 +117,17 @@ Additional details:
 
 \* Address within the UK (street, building number, postal code, city, and country)
 
-\* A copy of a utility bill (less than 3 months old)  
-​  
-Additional details:   
-\* End-users must be physically present in the country when purchasing numbers from that country  
-​  
+\* A copy of a utility bill (less than 3 months old)
+​
+Additional details:
+\* End-users must be physically present in the country when purchasing numbers from that country
+​
 \*Please note that once the documentation is received, it will take approximately 72 hours to validate the information and activate the number for use.
 
 ## **Identity Verification: What "Local" Means**
 
-For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.  
-​  
+For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.
+​
 All identification is subject to review, and we reserve the right to request additional documentation or decline any document we cannot verify or that does not meet applicable legal and regulatory requirements.
 
 ## **Helpful for acquiring U.K. DIDs**
@@ -170,5 +171,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5814406-panasonic-kx-hdv-telnyx-setup
+title: "Panasonic KX-HDV: Telnyx setup"
+description: "Learn the steps to configure Panasonic KX-HDV and KX-TGP series IP Phones with Telnyx for optimal performance. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: dc7dad1f60ca570fbd17cc380175192ca019f453d1d9be3a8c23fb7d4c62b75c
 ---
 
-Panasonic KX-HDV: Telnyx setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Panasonic KX-HDV: Telnyx setup
 
-Learn the steps to configure Panasonic KX-HDV and KX-TGP series IP Phones with Telnyx for optimal performance.
+Learn the steps to configure Panasonic KX-HDV and KX-TGP series IP Phones with Telnyx for optimal performance. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_7329822d49)
 
@@ -36,7 +37,7 @@ Additional documentation:
 
 ---
 
-# Instructions for setting up and configuring the Panasonic KX-HDV130C
+## Instructions for setting up and configuring the Panasonic KX-HDV130C
 
 In this activity you will:
 
@@ -104,7 +105,7 @@ In this step, you will set up your device and register it with Telnyx.
 
    ![Sip settings section. ](_images/530aaba9a4a97e35.png)
 
-   *This screenshot shows a TLS configuration.*  
+   *This screenshot shows a TLS configuration.*
    ​
 5. Click **Save**.
 
@@ -159,5 +160,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

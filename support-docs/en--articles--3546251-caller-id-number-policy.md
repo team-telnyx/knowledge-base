@@ -1,37 +1,38 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3546251-caller-id-number-policy
+title: "Caller ID Number Policy"
+description: "A comprehensive guide to the Caller ID Number Policy for Outbound Calls. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: e31d52ef702ddfe4d16c4152924176285fd149d28a43863e683f176f102bba04
 ---
 
-Caller ID Number Policy | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Caller ID Number Policy
 
-A comprehensive guide to the Caller ID Number Policy for Outbound Calls.
+A comprehensive guide to the Caller ID Number Policy for Outbound Calls. See Telnyx guidance and requirements.
 
-Written by Alex Conroy
 
-April 28, 2026
 
-Table of contents
 
 Caller ID Number *(CID)* is a service that displays your phone number to the phone of the individual you are calling on an outbound call. Telnyx upholds a strict policy around the handling of Caller ID Numbers for outbound calls.
 
 All outbound calls with Caller ID Numbers that are not valid will be rejected with a SIP response code of “403 Caller Origination Number is Invalid D35”.
 
-# **Supported Number Formats:**
+## **Supported Number Formats:**
 
-When creating a SIP Connection, by default, localisation is set to USA. This means our system will accept calls in national, 11 digit or +E.164 format.   
+When creating a SIP Connection, by default, localisation is set to USA. This means our system will accept calls in national, 11 digit or +E.164 format.
 ​
 
-**Examples:**  
-​  
-If my **localisation** is set to **United States** and I primarily want to reach destinations in Ireland and the USA, I would be allowed dial the following formats.   
-​  
-​**United States:**   
+**Examples:**
+​
+If my **localisation** is set to **United States** and I primarily want to reach destinations in Ireland and the USA, I would be allowed dial the following formats.
+​
+​**United States:**
 Accepted dialing formats - **national, 11 digit** and **+E.164**.
 
 * 3129457420
@@ -44,9 +45,9 @@ Accepted dialling formats - **+E.164 only**.
 
 * +353-1-840-1234
 
-If the **localisation** was set to **Ireland** and I wanted to dial Irish and American numbers:  
-​  
-​**Ireland:**   
+If the **localisation** was set to **Ireland** and I wanted to dial Irish and American numbers:
+​
+​**Ireland:**
 Accepted dialing formats - **national**, **11 digit** and **+E.164**.
 
 * 840-1234
@@ -76,9 +77,9 @@ Accepted dialling formats - **+E.164 only**.
 Below listed is the following SIP headers that are accepted for Caller ID, ordered by priority *(1 highest and 4 lowest priority)*
 
 ```
-1. P-Preferred-Identity User  
-2. P-Asserted-Identity User  
-3. Remote-Party-Id User  
+1. P-Preferred-Identity User
+2. P-Asserted-Identity User
+3. Remote-Party-Id User
 4. FROM User
 ```
 
@@ -94,15 +95,15 @@ Privacy: id
 
 You are still required to send a valid origination number with the Privacy header. We will in turn change the caller ID to anonymous. However if we do not receive a valid caller ID the calls will be rejected with the error **403 Caller Origination Number is Invalid D35.**
 
-**⚠️ Important - EEA Destinations:**  
-Calls terminating into the EEA internationally must include a valid P-Asserted-Identity (PAI) header containing a real, dialable CLI. This is used by downstream carriers for origination-based routing (OBR) billing.  
-​  
-If the PAI header is:  
-​  
-• Missing  
-• Contains an anonymous value  
-• Contains an invalid number  
-​  
+**⚠️ Important - EEA Destinations:**
+Calls terminating into the EEA internationally must include a valid P-Asserted-Identity (PAI) header containing a real, dialable CLI. This is used by downstream carriers for origination-based routing (OBR) billing.
+​
+If the PAI header is:
+​
+• Missing
+• Contains an anonymous value
+• Contains an invalid number
+​
 ...the call may be rejected or subject to surcharges from the terminating carrier which will be passed onto the customer. Anonymous or invalid CLIs on these routes are not supported and can result in significant additional costs.
 
 ​***Notes:***
@@ -124,5 +125,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

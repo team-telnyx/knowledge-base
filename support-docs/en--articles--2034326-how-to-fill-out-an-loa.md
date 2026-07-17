@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/2034326-how-to-fill-out-an-loa
+title: "How to fill out an LOA"
+description: "In this article you we will explain in detail what information you will need to fill in on an LOA. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: d201694e6e054a37f549e83db78d74dad93be87336825342f4235d458147acfa
 ---
 
-How to fill out an LOA | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How to fill out an LOA
 
-In this article you we will explain in detail what information you will need to fill in on an LOA.
+In this article you we will explain in detail what information you will need to fill in on an LOA. See Telnyx guidance and requirements.
 
-Written by Patrick Budzinski
 
-September 19, 2025
 
-Table of contents
 
-# **What is an LOA?**
+## **What is an LOA?**
 
-An LOA (Letter of Agency/Authorization) is a document required to give one carrier permission to port numbers from the current carrier on behalf of the end-user.  
+An LOA (Letter of Agency/Authorization) is a document required to give one carrier permission to port numbers from the current carrier on behalf of the end-user.
 The LOA must be filled out completely and must have a legible signature from the authorized person on the account, otherwise it may be rejected.
 
 If you are unsure of the information required on the LOA, please reach out to your current carrier for a CSR( Customer Service Record). A CSR holds all of your account information and will help you with filling out the LOA accurately.
@@ -72,5 +73,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

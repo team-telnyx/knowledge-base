@@ -1,30 +1,31 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6683277-taiwan-sms-guidelines
+title: "Taiwan: SMS Guidelines"
+description: "Sending SMS to Taiwan? See Telnyx guidance and requirements Learn more about Taiwan: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 1ba7197237ab0b9942de8eed3c482f53e4c00012ba3f9c4215f610e17344cedc
 ---
 
-Taiwan: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Taiwan: SMS Guidelines
 
-Sending SMS to Taiwan? Check out our comprehensive guidelines to ensure compliance in Taiwan.
+Sending SMS to Taiwan? See Telnyx guidance and requirements Learn more about Taiwan: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-February 21, 2025
 
-Table of contents
 
-# **Taiwan: SMS Guidelines**
+## **Taiwan: SMS Guidelines**
 
-**MCC:** 466  
-​**Dial Code:** 886  
-​  
-All Alphanumeric Sender IDs will be overwritten to a random Local Long Code to ensure delivery.  
-​  
+**MCC:** 466
+​**Dial Code:** 886
+​
+All Alphanumeric Sender IDs will be overwritten to a random Local Long Code to ensure delivery.
+​
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
@@ -38,5 +39,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

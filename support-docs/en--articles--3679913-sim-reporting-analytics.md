@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3679913-sim-reporting-analytics
+title: "SIM Reporting & Analytics"
+description: "In this article we will explain where to find your WDRs in the Telnyx Mission Control Portal and API. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 9a5dd42bc9de2e69d23acbfb61d587ef2a6a1526acc30c29893ea0bdc74e8736
 ---
 
-SIM Reporting & Analytics | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # SIM Reporting & Analytics
 
-In this article we will explain where to find your WDRs in the Telnyx Mission Control Portal and API.
+In this article we will explain where to find your WDRs in the Telnyx Mission Control Portal and API. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-April 30, 2026
 
-Table of contents
 
-# How to Pull Your WDR CSV Report
+## How to Pull Your WDR CSV Report
 
 Pull reports on WDRs from the Reporting section of the Portal - just like you would with MDRs (for messaging) or CDRs (for voice). WDR stands for wireless detail record and represents a single data session from your SIM card.
 
@@ -45,8 +46,8 @@ Head to the Reporting tab in Mission Control:
 You can also track your data usage analytics via our JSON API. The below cURL command will give you back a paginated response from our RESTful API with a single record per WDR:
 
 ```
-curl --request GET \  
-  --url https://api.telnyx.com/v2/wireless/detail/records/reports/{id} \  
+curl --request GET \
+  --url https://api.telnyx.com/v2/wireless/detail/records/reports/{id} \
   --header 'Authorization: Bearer <token>'
 ```
 
@@ -88,5 +89,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

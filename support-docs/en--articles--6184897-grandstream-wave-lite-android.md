@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6184897-grandstream-wave-lite-android
+title: "Grandstream Wave Lite (Android)"
+description: "Learn how to configure the Grandstream Wave Lite app with Telnyx on your Android device. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: c262c545cbf2f68d9663820d17994869b4607951a92f4287ba7edd3e9d396138
 ---
 
-Grandstream Wave Lite (Android) | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Grandstream Wave Lite (Android)
 
-Learn how to configure the Grandstream Wave Lite app with Telnyx on your Android device.
+Learn how to configure the Grandstream Wave Lite app with Telnyx on your Android device. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_a3809b6b19)
 
@@ -33,7 +34,7 @@ The [Grandstream Wave Lite softphone app](https://www.grandstream.com/support/pr
 
 ---
 
-# Instructions for creating a SIP trunk on your Grandstream Wave Lite Softphone
+## Instructions for creating a SIP trunk on your Grandstream Wave Lite Softphone
 
 In this activity, you will:
 
@@ -71,8 +72,8 @@ In this step, you'll create and register a [SIP trunk](https://telnyx.com/produc
 
 1. From your Android device, open the Wave Lite app.
 2. Navigate to the **Settings** screen.
-3. In the **Account Settings** > **Generic Account** section. Then tap on **SIP Account**.  
-   ​  
+3. In the **Account Settings** > **Generic Account** section. Then tap on **SIP Account**.
+   ​
    ​***Note:*** *Do not use the VoIP Provider section below this, as Telnyx has not yet been added to the provider list.*
 4. Fill out the following:
 
@@ -135,7 +136,7 @@ If you use a STUN server, you can configure it in this section.
 
    1. **STUN Server Settings:** *stun.telnyx.com:3478*
 
-That's it, you've now completed the configuration of your Grandstream Wave Lite device.  
+That's it, you've now completed the configuration of your Grandstream Wave Lite device.
 ​
 
 [Back to Top](#h_a3809b6b19)
@@ -162,5 +163,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

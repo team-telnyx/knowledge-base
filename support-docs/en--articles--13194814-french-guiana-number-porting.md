@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/13194814-french-guiana-number-porting
+title: "French Guiana Number Porting"
+description: "Here you will find the requirements for French Guiana number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 922272283505eec2edcc0f110cec39f5d048d8edbb3a35d4ab8fe2c7cf0feec8
 ---
 
-French Guiana Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # French Guiana Number Porting
 
-Here you will find the requirements for French Guiana number portability.
+Here you will find the requirements for French Guiana number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-December 19, 2025
 
-Table of contents
 
 **Local / National / Toll-Free Numbers**
 
@@ -35,5 +36,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

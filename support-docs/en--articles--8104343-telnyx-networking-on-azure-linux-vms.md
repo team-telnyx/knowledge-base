@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8104343-telnyx-networking-on-azure-linux-vms
+title: "Telnyx Networking on Azure Linux VMs"
+description: "Setup and deploy the Telnyx Networking product on Azure Linux Virtual… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 01e8955a7421ba2a09d9f2b0b2e90dab397506399e9058e5d57728e47b69d08c
 ---
 
-Telnyx Networking on Azure Linux VMs | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Telnyx Networking on Azure Linux VMs
 
-Setup and deploy the Telnyx Networking product on Azure Linux Virtual Machines
+Setup and deploy the Telnyx Networking product on Azure Linux Virtual… See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-December 11, 2023
 
-Table of contents
 
-# Azure Linux VMs and the Telnyx Network
+## Azure Linux VMs and the Telnyx Network
 
 ## Step 1: Telnyx Configuration with Azure Linux VMs
 
@@ -36,7 +37,7 @@ Head over to the [Azure Portal](https://portal.azure.com/#blade/HubsExtension/Br
 
 ## **Step 3: Setting up WireGuard for Telnyx**
 
-While SSH'ed into your VM, install WireGuard on your machine.  
+While SSH'ed into your VM, install WireGuard on your machine.
 ​
 
 ```
@@ -82,19 +83,19 @@ or you can curl/trace into your server to confirm the Global IP that is configur
 Example Response:
 
 ```
-root@MacBook-Pro % ping 172.27.1.17  
-PING 172.27.1.17 (172.27.1.17): 56 data bytes  
-64 bytes from 172.27.1.17: icmp_seq=0 ttl=53 time=184.512 ms  
-64 bytes from 172.27.1.17: icmp_seq=1 ttl=53 time=183.202 ms  
-64 bytes from 172.27.1.17: icmp_seq=2 ttl=53 time=183.365 ms  
-64 bytes from 172.27.1.17: icmp_seq=3 ttl=53 time=183.040 ms  
-64 bytes from 172.27.1.17: icmp_seq=4 ttl=53 time=183.310 ms  
-64 bytes from 172.27.1.17: icmp_seq=5 ttl=53 time=183.980 ms  
-64 bytes from 172.27.1.17: icmp_seq=6 ttl=53 time=183.457 ms  
-64 bytes from 172.27.1.17: icmp_seq=7 ttl=53 time=183.097 ms  
-^C  
---- 172.27.1.17 ping statistics ---  
-8 packets transmitted, 8 packets received, 0.0% packet loss  
+root@MacBook-Pro % ping 172.27.1.17
+PING 172.27.1.17 (172.27.1.17): 56 data bytes
+64 bytes from 172.27.1.17: icmp_seq=0 ttl=53 time=184.512 ms
+64 bytes from 172.27.1.17: icmp_seq=1 ttl=53 time=183.202 ms
+64 bytes from 172.27.1.17: icmp_seq=2 ttl=53 time=183.365 ms
+64 bytes from 172.27.1.17: icmp_seq=3 ttl=53 time=183.040 ms
+64 bytes from 172.27.1.17: icmp_seq=4 ttl=53 time=183.310 ms
+64 bytes from 172.27.1.17: icmp_seq=5 ttl=53 time=183.980 ms
+64 bytes from 172.27.1.17: icmp_seq=6 ttl=53 time=183.457 ms
+64 bytes from 172.27.1.17: icmp_seq=7 ttl=53 time=183.097 ms
+^C
+--- 172.27.1.17 ping statistics ---
+8 packets transmitted, 8 packets received, 0.0% packet loss
 round-trip min/avg/max/stddev = 183.040/183.495/184.512/0.471 ms
 ```
 
@@ -113,5 +114,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

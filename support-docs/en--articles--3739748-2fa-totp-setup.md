@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3739748-2fa-totp-setup
+title: "2FA / TOTP Setup"
+description: "New 2FA & TOTP Process Guide for Mission Control Portal: Key info here. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 6fc57233fe41c25a1e41edf502ed3f282e4f549cf86a796840b46d20f4fc898e
 ---
 
-2FA / TOTP Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # 2FA / TOTP Setup
 
-New 2FA & TOTP Process Guide for Mission Control Portal: Key info here.
+New 2FA & TOTP Process Guide for Mission Control Portal: Key info here. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-May 20, 2026
 
-Table of contents
 
-# Set up two-factor authentication (2FA) in Mission Control Portal
+## Set up two-factor authentication (2FA) in Mission Control Portal
 
 Two-factor authentication (2FA) adds an extra step when you sign in to Mission Control Portal. After entering your password, you will also enter a temporary verification code from your selected 2FA method.
 
@@ -147,5 +148,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

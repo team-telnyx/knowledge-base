@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6138781-turkey-number-porting
+title: "Turkey Number Porting"
+description: "Here you will find a detailed list of requirements for Turkey number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a9b670b019c9c33cf59d2ae97475510ef11e007b9f43fb99fd53c55c7b194205
 ---
 
-Turkey Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Turkey Number Porting
 
-Here you will find a detailed list of requirements for Turkey number portability.
+Here you will find a detailed list of requirements for Turkey number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 15, 2023
 
-Table of contents
 
-# **Turkey Number Porting**
+## **Turkey Number Porting**
 
 ## **Local, National numbers**
 
-1. The most recent invoice with the carrier   
+1. The most recent invoice with the carrier
 2. Loa with Name and address of the business, local company registration number
 
 3. Copy of the ID of the Authorized Person
@@ -72,5 +73,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

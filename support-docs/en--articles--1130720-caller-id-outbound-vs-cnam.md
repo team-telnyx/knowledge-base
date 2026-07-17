@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130720-caller-id-outbound-vs-cnam
+title: "Caller ID Outbound vs CNAM"
+description: "Learn the differences between CID (Caller ID Number) and CNAM (Caller ID Name) and how to set it up with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 7f060f662e4006ee2a3ed75a957f1628ad35b44967bb09380b6bd99bfb593ef1
 ---
 
-Caller ID Outbound vs CNAM | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Caller ID Outbound vs CNAM
 
-Learn the differences between CID (Caller ID Number) and CNAM (Caller ID Name) and how to set it up with Telnyx.
+Learn the differences between CID (Caller ID Number) and CNAM (Caller ID Name) and how to set it up with Telnyx. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-December 31, 2025
 
-Table of contents
 
-# **What is Caller ID?**
+## **What is Caller ID?**
 
 There are two types of Caller ID: *Caller ID Number (CID)* and *Caller ID name (CNAM).*
 
@@ -112,18 +113,18 @@ In Canada, there is no national CNAM database. Instead, the CNAM information is 
 ## **SPECIAL NOTES**
 
 * When enabling CNAM Listing on Telnyx owned numbers, In most cases **CNAM values get pushed to the database in the first 12 - 24 hours but can take up to 72 hours.**
-* CNAM supports up to 15 alphanumeric characters and blanks spaces.  
+* CNAM supports up to 15 alphanumeric characters and blanks spaces.
   ​
 * CNAM is not currently supported on our **toll free** or **international** numbers.
 
   + Toll Free numbers do not support or participate in the CNAM registry and database.
   + Some receiving carriers of your outbound calls may maintain a private database to pass through CNAM info, but it’s not guaranteed.
   + The best option is to use the **FROM/PAID** SIP headers, where you can include your own display name, although this may or may not get passed all the way through to the receiving party either.
-  + [Branded calling](https://telnyx.com/resources/how-to-ensure-call-completion) is a solution that carriers are now beginning to implement which should help guarantee what name you want the receiving parties to see on their phone.   
+  + [Branded calling](https://telnyx.com/resources/how-to-ensure-call-completion) is a solution that carriers are now beginning to implement which should help guarantee what name you want the receiving parties to see on their phone.
     ​
-* When enabling CNAM Listing on numbers belonging to our underlying carriers, it can take 3-5 working days to process to the industry databases.  
+* When enabling CNAM Listing on numbers belonging to our underlying carriers, it can take 3-5 working days to process to the industry databases.
   ​
-* Please remember, that it's up to the receiving carrier of your outbound calls to display CNAM on their subscribers phones. If the subscribers have not enabled this service with their carriers, then your CNAM may not display on their devices. By default, the destination carriers may display the **rate center, locality** of the callers number instead, where no CNAM value is found.   
+* Please remember, that it's up to the receiving carrier of your outbound calls to display CNAM on their subscribers phones. If the subscribers have not enabled this service with their carriers, then your CNAM may not display on their devices. By default, the destination carriers may display the **rate center, locality** of the callers number instead, where no CNAM value is found.
   ​
 * Please also note, that the industry wide CNAM service is not generally used by Wireless Carriers. So if you dial a wireless/mobile device, your CNAM may not display on their device. The only way around this is if the subscriber includes the name as a contact in their phone-book.
 
@@ -138,5 +139,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

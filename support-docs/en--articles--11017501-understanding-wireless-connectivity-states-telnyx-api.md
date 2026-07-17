@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/11017501-understanding-wireless-connectivity-states-telnyx-api
+title: "Understanding Wireless Connectivity States (Telnyx API)"
+description: "Detailed guide explaining the various connectivity state values, definitions, See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 465bbf458fed9b3eb0ff40eefc2e14ff4f7e31fe3782b105e8ef71f89b96cbee
 ---
 
-Understanding Wireless Connectivity States (Telnyx API) | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# Understanding Wireless Connectivity States (Telnyx API)
 
-Detailed guide explaining the various connectivity state values, definitions, and triggers for Telnyx Wireless Connectivity Logs API.
 
-Written by Telnyx Engineering
 
-November 5, 2025
-
-Table of contents
 
 # Understanding Wireless Connectivity States (Telnyx API)
+
+Detailed guide explaining the various connectivity state values, definitions, See Telnyx guidance and requirements.
+
+
+
+
+## Understanding Wireless Connectivity States (Telnyx API)
 
 When using the [Telnyx Wireless Connectivity Logs API](https://developers.telnyx.com/api/wireless/get-wireless-connectivity-logs), you might encounter different `state` values representing the status of your wireless SIM sessions. Below is a detailed explanation of each state, including their definitions and trigger points.
 
@@ -88,5 +89,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

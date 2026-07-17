@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5355953-auth0-sso-integration-with-telnyx
+title: "Auth0 SSO Integration With Telnyx"
+description: "Learn how to set up Auth0 SAML to utilize Telnyx Portal Single Sign-on capabilities. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 5f5bb76b45bf8d8306fa4916d6508c4adb8c788c6c049ad6fa137d907c9132a3
 ---
 
-Auth0 SSO Integration With Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Auth0 SSO Integration With Telnyx
 
-Learn how to set up Auth0 SAML to utilize Telnyx Portal Single Sign-on capabilities.
+Learn how to set up Auth0 SAML to utilize Telnyx Portal Single Sign-on capabilities. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_4270017da8)
 
@@ -38,7 +39,7 @@ Additional resources:
 
 ---
 
-# Instructions for setting up Auth0 to work with Telnyx's SSO feature
+## Instructions for setting up Auth0 to work with Telnyx's SSO feature
 
 In this activity you will:
 
@@ -174,5 +175,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

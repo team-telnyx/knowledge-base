@@ -1,31 +1,32 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6545167-poland-sms-guidelines
+title: "Poland: SMS Guidelines"
+description: "SMS Guidelines for Poland including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Poland: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: f139b22e706f026de702b3251f0c55d7d8c1bfd766afffa163feb7986dde592e
 ---
 
-Poland: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# Poland: SMS Guidelines
 
-SMS Guidelines for Poland including MCC and Dial Code. Get more messaging details here.
 
-Written by Telnyx Engineering
 
-November 21, 2023
-
-Table of contents
 
 # Poland: SMS Guidelines
 
-**MCC:** 260  
-​**Dial Code:** 48  
-​  
+SMS Guidelines for Poland including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Poland: SMS Guidelines with Telnyx.
+
+
+
+
+## Poland: SMS Guidelines
+
+**MCC:** 260
+​**Dial Code:** 48
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
-The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be directly related to the message content.  
+The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be directly related to the message content.
 ​
 
 There are no restrictions with regards to content towards this destination.
@@ -43,5 +44,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,36 +1,37 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6680225-sudan-sms-guidelines
+title: "Sudan: SMS Guidelines"
+description: "Sending SMS to Sudan? See Telnyx guidance and requirements Learn more about Sudan: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: af0bcf31409414caddb90bb5f40606274c4a2f17a4b4395c13b631f919e573e2
 ---
 
-Sudan: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Sudan: SMS Guidelines
 
-Sending SMS to Sudan? Check out our comprehensive guidelines to ensure compliance in Sudan.
+Sending SMS to Sudan? See Telnyx guidance and requirements Learn more about Sudan: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Sudan: SMS Guidelines**
+## **Sudan: SMS Guidelines**
 
-**MCC:** 634  
-​**Dial Code:** 249  
-​  
-Alphanumeric Sender IDs are supported.   
-​  
-For Network MTN (63402) Alphanumeric Sender IDs are only supported with registration. Without registration to this network, Alpha Senders will be overwritten to Generic Alpha Sender IDs or will NOT deliver.  
-​  
-The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be directly related to the message content.  
-​  
-Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).  
-​  
+**MCC:** 634
+​**Dial Code:** 249
+​
+Alphanumeric Sender IDs are supported.
+​
+For Network MTN (63402) Alphanumeric Sender IDs are only supported with registration. Without registration to this network, Alpha Senders will be overwritten to Generic Alpha Sender IDs or will NOT deliver.
+​
+The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be directly related to the message content.
+​
+Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
+​
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
@@ -44,5 +45,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

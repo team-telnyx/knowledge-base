@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/7235002-singapore-number-porting
+title: "Singapore Number Porting"
+description: "Here you will find a detailed list of requirements for Singapore number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 33831797f54561ff4c57eca9472e1b684f69a77fe5c77ecdccf6838036d0de6e
 ---
 
-Singapore Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# Singapore Number Porting
 
-Here you will find a detailed list of requirements for Singapore number portability.
 
-Written by Kim Dorson-King
 
-February 10, 2026
-
-Table of contents
 
 # Singapore Number Porting
+
+Here you will find a detailed list of requirements for Singapore number portability. See Telnyx guidance and requirements.
+
+
+
+
+## Singapore Number Porting
 
 Port your Singapore phone numbers to Telnyx. This guide covers requirements, timelines, and the porting process for local and national numbers in Singapore.
 
@@ -135,5 +136,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

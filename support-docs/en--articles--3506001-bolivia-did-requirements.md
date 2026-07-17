@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3506001-bolivia-did-requirements
+title: "Bolivia DID Requirements"
+description: "List of requirements to acquire Bolivia numbers for use - Learn more here. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ad19013b9a0bbc281c77752ba9ca65c3f150884f6f8368c13616290d81e08f75
 ---
 
-Bolivia DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Bolivia DID Requirements
 
-List of requirements to acquire Bolivia numbers for use - Learn more here.
+List of requirements to acquire Bolivia numbers for use - Learn more here. See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-September 29, 2025
 
-Table of contents
 
-# DID Requirements for Bolivia
+## DID Requirements for Bolivia
 
 In order to purchase a Bolivia number you will need to provide the following:
 
@@ -53,5 +54,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

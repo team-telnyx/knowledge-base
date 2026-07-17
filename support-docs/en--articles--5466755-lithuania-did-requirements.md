@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5466755-lithuania-did-requirements
+title: "Lithuania DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Lithuania numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: b0ebdc0dc2bf84736f1b25777a12844cd1a06edc11c0725f05c1a4e7bd0f18eb
 ---
 
-Lithuania DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Lithuania DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Lithuania numbers.
+Here you will find a list of detailed requirements for acquiring Lithuania numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-September 16, 2025
 
-Table of contents
 
-# DID Number Requirements for Lithuania
+## DID Number Requirements for Lithuania
 
 In order to purchase a Lithuania number you will need to provide the following:
 
@@ -145,5 +146,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

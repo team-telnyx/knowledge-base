@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/13386198-texml-bin-simple-voicemail-and-call-forwarding
+title: "TeXML Bin Simple Voicemail and Call Forwarding"
+description: "Get started quickly with Telnyx Programmable Voice and the TexML Bin feature. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: bb358a304d55f846c1dbebdd05b2d06eea44d159dee64d6b86c1a8357d0b6705
 ---
 
-TeXML Bin Simple Voicemail and Call Forwarding | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # TeXML Bin Simple Voicemail and Call Forwarding
 
-Get started quickly with Telnyx Programmable Voice and the TexML Bin feature. Explore our comprehensive documentation, tutorials, and quickstart guide to effortlessly integrate TexML Bin into your voice applications.
+Get started quickly with Telnyx Programmable Voice and the TexML Bin feature. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-January 14, 2026
 
-Table of contents
 
 TeXML Bin allows users to upload TeXML files to storage and use it for call flows without having to code. Developers can quickly and easily add programmable voice features into applications without having to worry about setting up application servers.
 
@@ -39,23 +40,23 @@ To create XML documents, you can use the new [TeXML editor](https://portal.telny
 ### **Simple voicemail**
 
 ```
-<?xml version="1.0" encoding="UTF-8"?>   
-<Response>  
-   <Say>Thank you for calling YYZ co. Please leave a message.</Say>  
-   <Record playBeep="true" finishOnKey="*9" />   
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+   <Say>Thank you for calling YYZ co. Please leave a message.</Say>
+   <Record playBeep="true" finishOnKey="*9" />
 </Response>
 ```
 
 ### **Simple call forward**
 
 ```
-<?xml version="1.0" encoding="UTF-8"?>   
-<Response>  
-   <Dial>  
-     <Sip>ext1@sip.xyzco.com</Sip>  
-     <Sip>ext3@sip.xyzco.com</Sip>  
-     <Sip>ext4@sip.xyzco.com</Sip>  
-    </Dial>   
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+   <Dial>
+     <Sip>ext1@sip.xyzco.com</Sip>
+     <Sip>ext3@sip.xyzco.com</Sip>
+     <Sip>ext4@sip.xyzco.com</Sip>
+    </Dial>
 </Response>
 ```
 
@@ -96,5 +97,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

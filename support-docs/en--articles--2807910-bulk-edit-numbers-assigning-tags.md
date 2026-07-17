@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/2807910-bulk-edit-numbers-assigning-tags
+title: "Bulk Edit Numbers - Assigning tags"
+description: "Editing numbers should be easy, in this article we will explain how to assign tags in bulk. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 337ad59ff9c040474b474583f7523d315f4c43a0ac92ec59e731ee2834ca19ea
 ---
 
-Bulk Edit Numbers - Assigning tags | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Bulk Edit Numbers - Assigning tags
 
-Editing numbers should be easy, in this article we will explain how to assign tags in bulk.
+Editing numbers should be easy, in this article we will explain how to assign tags in bulk. See Telnyx guidance and requirements.
 
-Written by Shubam
 
-April 16, 2026
 
-Table of contents
 
-# Guide to Assigning Tags in Bulk
+## Guide to Assigning Tags in Bulk
 
 **A step-by-step guide to bulk edit Tags settings of selected numbers**
 
@@ -44,7 +45,7 @@ You can also select all the numbers displayed on the page by using the checkbox 
 
 ![](_images/4e0b32cddb74060e.png)
 
-**Note - You can expand the selection by increasing the Row count of the displayed page ranging from 10-100 numbers displayed on the page.**  
+**Note - You can expand the selection by increasing the Row count of the displayed page ranging from 10-100 numbers displayed on the page.**
 ​
 
 ![Telnyx Mission Control account row count.](_images/7cf28fc43682ef25.png)
@@ -90,5 +91,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

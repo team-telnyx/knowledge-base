@@ -1,40 +1,41 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3739661-thailand-did-requirements
+title: "Thailand DID Requirements"
+description: "Here you will find a detailed list of requirements to acquire Thailand numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: d27ae5589a81c0dc64efc00cca9ff836e3f6306650c820af9f3869b4b66f9eef
 ---
 
-Thailand DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Thailand DID Requirements
 
-Here you will find a detailed list of requirements to acquire Thailand numbers.
+Here you will find a detailed list of requirements to acquire Thailand numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-Updated over 2 weeks ago
 
-Table of contents
 
-# DID Number Requirements for Thailand
+## DID Number Requirements for Thailand
 
 In order to purchase a Thailand number you will need to provide the following:
 
 ## **Local Numbers in Thailand**
 
-For **business identity** verification:  
-\* Name, last name of an authorized representative  
-\* Contact phone number  
-\* Company name  
-\* Company registration certificate  
-​  
-For address verification:  
-\* Address worldwide (street, building number, postal code, city and country)  
-\* Proof of address (dated within 3 months)  
-​  
-Additional information:  
+For **business identity** verification:
+\* Name, last name of an authorized representative
+\* Contact phone number
+\* Company name
+\* Company registration certificate
+​
+For address verification:
+\* Address worldwide (street, building number, postal code, city and country)
+\* Proof of address (dated within 3 months)
+​
+Additional information:
 \* Business use required: Business use is required, private use is not allowed.
 
 ## **National Numbers in Thailand**
@@ -81,7 +82,7 @@ For **business identity** verification:
 
 \* Passport or ID copy of an authorized representative
 
-\* Company registration certificate  
+\* Company registration certificate
 \* Signed LOI (dated within 1 month)
 
 \* Contact e-mail
@@ -161,5 +162,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

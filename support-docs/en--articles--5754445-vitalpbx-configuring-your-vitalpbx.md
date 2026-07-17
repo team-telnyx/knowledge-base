@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5754445-vitalpbx-configuring-your-vitalpbx
+title: "VitalPBX: Configuring Your VitalPBX"
+description: "Learn how to configure VitalPBX to work with Telnyx using either credentials (user/pass) or IP authentication. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 6e3bce07b5a194f064e78a3ba230a2710251bd88b8bcfc3e985a18845d495d56
 ---
 
-VitalPBX: Configuring Your VitalPBX | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # VitalPBX: Configuring Your VitalPBX
 
-Learn how to configure VitalPBX to work with Telnyx using either credentials (user/pass) or IP authentication.
+Learn how to configure VitalPBX to work with Telnyx using either credentials (user/pass) or IP authentication. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-February 1, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_8338bee77a)
 
@@ -42,7 +43,7 @@ Additional documentation:
 
 ---
 
-# Instructions for configuring VitalPBX to work with Telnyx
+## Instructions for configuring VitalPBX to work with Telnyx
 
 In this document, you will:
 
@@ -53,7 +54,7 @@ In this document, you will:
 
 **Video Walkthrough**
 
-Coming soon! Check back frequently as we are updating our documentation.  
+Coming soon! Check back frequently as we are updating our documentation.
 ​
 
 **Pre-Requisites**
@@ -211,11 +212,11 @@ This step will show you how to create an inbound route with your Telnyx DIDs `th
 1. ### **In the left-hand menu, expand Extensions and select Inbound Routes and provide the following information:**
 
    1. **Routing Method:** Either the Telephony channel for an analog port (FXO), or default for all other inbound routes like E1, T2, or SIP trunk. From version 2.3.8 onward it is possible to route a DID range to an extension number. For example, if I have the DID range from 1 (305) 6724 7100 to 1 (305) 6724 7200, it is possible to get the last four digits of the DID and route it to the corresponding extension.
-   2. **Description\*:** A brief description to identify this DID. This field is used to hold a description to help you remember what this particular inbound route is for.   
-      ​  
+   2. **Description\*:** A brief description to identify this DID. This field is used to hold a description to help you remember what this particular inbound route is for.
+      ​
       Note: This field is not parsed by VitalPBX.
-   3. **DID Pattern\*:** The phone number of the DID to be matched (the expected number or pattern used when you want DID-based routing.)   
-      ​  
+   3. **DID Pattern\*:** The phone number of the DID to be matched (the expected number or pattern used when you want DID-based routing.)
+      ​
       Note that the [DID number](https://telnyx.com/resources/sip-did) must match the format in which the provider is sending the DID. Many providers will send the DID information with the call as +15555555555, while others will leave out the country code information and simply send 5555555555. *If the DID entered in this field does not exactly match the number sent by the provider, then the inbound route will not be used.* This field can be left blank to match calls from any DIDs (this will also match calls that have no DID information).
 
       * This field also allows patterns to match a range of numbers. Patterns must begin with an underscore (\_) to signify that they are patterns. Within patterns, X will match the numbers 0 through 9, and specific numbers can be matched if they are placed between square parentheses. For example, to match both 555-555-1234 and 555-555-1235, the pattern would be \_555555123[45].
@@ -245,7 +246,7 @@ This step will show you how to create an inbound route with your Telnyx DIDs `th
 
 ![Module and destination settings. ](_images/a5410021c45ca0bf.png)
 
-That's it, you've now completed the configuration of your VitalPBX and can now make and receive calls by using Telnyx as the SIP provider.  
+That's it, you've now completed the configuration of your VitalPBX and can now make and receive calls by using Telnyx as the SIP provider.
 ​
 
 [Back to Top](#h_8338bee77a)
@@ -267,5 +268,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

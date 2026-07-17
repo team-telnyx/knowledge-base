@@ -1,29 +1,30 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8268223-bulk-messaging-with-sheets
+title: "Bulk Messaging with Sheets"
+description: "Send many SMS or MMS using Google Sheets connected to the Telnyx Messaging… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a00ef0e757539a0ecf2e8b36a50934074b2d00575238c93bb3f50ba497f673c5
 ---
 
-Bulk Messaging with Sheets | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Bulk Messaging with Sheets
 
-Send many SMS or MMS using Google Sheets connected to the Telnyx Messaging API
+Send many SMS or MMS using Google Sheets connected to the Telnyx Messaging… See Telnyx guidance and requirements.
 
 K
 
-Written by Klane Pedrie
 
-May 20, 2026
 
-Table of contents
 
-# Send Messages in Bulk Using Google Sheets with the Telnyx API
+## Send Messages in Bulk Using Google Sheets with the Telnyx API
 
-The most straightforward way to catalogue people, things, and events is by the use of spreadsheets. If you start a business or a project, chances are you won't be wanting to invest initially in highly structured databases or spend time creating robust resources to keep track of your relatively small project base.  
-​  
+The most straightforward way to catalogue people, things, and events is by the use of spreadsheets. If you start a business or a project, chances are you won't be wanting to invest initially in highly structured databases or spend time creating robust resources to keep track of your relatively small project base.
+​
 That's where this tutorial comes in: together we will be forming a basic application that will mass send messages from a Google Sheets spreadsheet with just one run input. No need for external library setup or convoluted implementations! Everything can be done all from one source.
 
 ---
@@ -76,12 +77,12 @@ It will look like this:
 
 You can expand with more header options as you please, but for this tutorials purpose we will only be going through those three listed above.
 
-Afterwords, click on extensions then Apps Script:  
+Afterwords, click on extensions then Apps Script:
 ​
 
 ![Extensions section of the Google Sheets page. ](_images/400901b7f11d185f.png)
 
-Here we will be adding a new script that will be linked with the sheet.   
+Here we will be adding a new script that will be linked with the sheet.
 ​
 
 ![AppScript addition. ](_images/a384c5c3d5fe1d58.png)
@@ -91,50 +92,50 @@ Paste the following code below into the new script that you have created.
 ## Javascript Code
 
 ```
-var API_KEY = "your_telnyx_api_key";  
-var fromNumber = "+your_telnyx_phone_number";  
-  
-function sendTelnyxMessage(to, body) {  
-  var data = {  
-    'to': to,  
-    'from': fromNumber,  
-    'text': body  
-  };  
-  var options = {  
-    'method' : 'post',  
-    'payload' : JSON.stringify(data)  
-  };  
-  options.headers = {  
-    'Content-Type': 'application/json',  
-    "Accept": "application.json",  
-    "Authorization": "Bearer " + API_KEY  
-  }  
-  UrlFetchApp.fetch('https://api.telnyx.com/v2/messages', options);  
-}  
-  
-function sendFromSheets(){  
-  var sheet = SpreadsheetApp.getActiveSheet();  
-  var startRow = 2;  
-  var numRows = sheet.getLastRow() - 1;  
-  var dataRange = sheet.getRange(startRow, 1, numRows, 2);  
-  var data = dataRange.getValues();  
-    
-  for (var i = 0; i < data.length; i++){  
-    var row = data[i];  
-    var status;  
-    try {  
-      var response_data = sendTelnyxMessage("+" + row[0], row[1]);  
-      status = "Sent Successfully";  
-    } catch(err) {  
-      Logger.log(err);  
-      status = "Error Sending";  
-    }  
-    sheet.getRange(startRow + i, 3).setValue(status);  
-  }  
-}  
-  
-function sendAll(){  
-  sendFromSheets();  
+var API_KEY = "your_telnyx_api_key";
+var fromNumber = "+your_telnyx_phone_number";
+
+function sendTelnyxMessage(to, body) {
+  var data = {
+    'to': to,
+    'from': fromNumber,
+    'text': body
+  };
+  var options = {
+    'method' : 'post',
+    'payload' : JSON.stringify(data)
+  };
+  options.headers = {
+    'Content-Type': 'application/json',
+    "Accept": "application.json",
+    "Authorization": "Bearer " + API_KEY
+  }
+  UrlFetchApp.fetch('https://api.telnyx.com/v2/messages', options);
+}
+
+function sendFromSheets(){
+  var sheet = SpreadsheetApp.getActiveSheet();
+  var startRow = 2;
+  var numRows = sheet.getLastRow() - 1;
+  var dataRange = sheet.getRange(startRow, 1, numRows, 2);
+  var data = dataRange.getValues();
+
+  for (var i = 0; i < data.length; i++){
+    var row = data[i];
+    var status;
+    try {
+      var response_data = sendTelnyxMessage("+" + row[0], row[1]);
+      status = "Sent Successfully";
+    } catch(err) {
+      Logger.log(err);
+      status = "Error Sending";
+    }
+    sheet.getRange(startRow + i, 3).setValue(status);
+  }
+}
+
+function sendAll(){
+  sendFromSheets();
 }
 ```
 
@@ -151,8 +152,8 @@ The script comprises several key components:
 
 In summary, the script automates the process of sending text messages to a list of recipients with personalised messages based on the contents of a Google Sheet, providing feedback on the success or failure of each message directly in the sheet.
 
-Take note of the name of the 3rd function we created: **sendAll()**. We will be using this for the next step. Now we should be all set from the code side.  
-​  
+Take note of the name of the 3rd function we created: **sendAll()**. We will be using this for the next step. Now we should be all set from the code side.
+​
 Let's go back to our spreadsheet. To enact the function to send all in a relatively pain-free way, we should create a button. Thankfully Google Sheets makes this process incredibly simple!
 
 Click on insert drawing at the top of the page.
@@ -185,7 +186,7 @@ Take note that sending to international destinations may result in the **from nu
 
 ## Step 3 : Next Steps
 
-From here, you have a good base to work with. We've created a simple spreadsheet application that goes through the 1st column of phone numbers and sends the text bodies of the 2nd column while giving status updates to the 3rd.  
+From here, you have a good base to work with. We've created a simple spreadsheet application that goes through the 1st column of phone numbers and sends the text bodies of the 2nd column while giving status updates to the 3rd.
 ​
 
 We can start expanding this for future business needs. Add more things to track like sent/received statuses, order fulfilment, you can even add parsing ability to the texts you receive and highlight messages based on the context of the text message. The possibilities are limitless!
@@ -199,5 +200,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

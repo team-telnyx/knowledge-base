@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5335562-okta-saml-identity-setup
+title: "Okta: SAML Identity Setup"
+description: "Learn how to set up Okta SAML to utilize Telnyx Portal Single Sign-on capabilities. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: e1bf8b089f00b18fadf1942a84dbedc0f9953a48f81afcd3fe0e91d72d828dae
 ---
 
-Okta: SAML Identity Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Okta: SAML Identity Setup
 
-Learn how to set up Okta SAML to utilize Telnyx Portal Single Sign-on capabilities.
+Learn how to set up Okta SAML to utilize Telnyx Portal Single Sign-on capabilities. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-May 20, 2026
 
-Table of contents
 
 [Okta offers implementation of Security Assertion Markup Language (SAML) for your network](https://www.okta.com/topic/SAML/). [SAML](https://en.wikipedia.org/wiki/SAML_2.0) is the most-used security language that has come to define the relationship between identity providers and service providers. An open-source XML tool, SAML is an absolute must for anyone needing reliable access to secure domains, as it eliminates the need for passwords and uses digital signatures instead. With SAML, there’s reduced risk of phishing and identity theft for service providers since they don’t have to store log-in credentials for individuals, making damaging data.
 
@@ -35,7 +36,7 @@ Additional resources:
 
 ---
 
-# Instructions for setting up Okta SAML Identity Provider with your Telnyx account
+## Instructions for setting up Okta SAML Identity Provider with your Telnyx account
 
 In this activity you will:
 
@@ -73,7 +74,7 @@ In this section, you will create an SSO app on Okta that you'll use to configure
 
    This link should resemble this format: *<https://<okta-org>.okta.com/app/<okta-idp-id>/sso/saml/metadata>*
 
-   You can also find this link by copying the link for "Identity Provider metadata".  
+   You can also find this link by copying the link for "Identity Provider metadata".
    ​
 
    ![unnamed image](_images/b99e9a197ce71fd2.png)
@@ -91,13 +92,13 @@ In this section, you'll log into your Telnyx portal and get the necessary config
    ![Singe Sign-On section of the Telnyx Mission Control Portal](_images/ec3e582b986cf3cf.png)
 4. You will be presented with the following fields:
 
-   1. **Authentication Provider name** and **Short Name:** Enter the values that make sense for you here.  
-      ​  
-      ​***Please note*** *that the Short Name will be part of the SSO URLs.*  
+   1. **Authentication Provider name** and **Short Name:** Enter the values that make sense for you here.
+      ​
+      ​***Please note*** *that the Short Name will be part of the SSO URLs.*
       ​
    2. **IdP Metadata URL:** Paste the Identity Provider Entity ID you obtained in step 9 of [section 1](#h_79f972431a).
-5. Click **Import IdP Settings & Save.**  
-   ​  
+5. Click **Import IdP Settings & Save.**
+   ​
    ​**NOTE:** After saving, the ***IdP Entity ID*** field will be set to "not found" (this is an error on the Okta file), so we have to fill it manually. Take the **IdP Metadata URL** and extract the ***<okta-idp-id>*** from it, and paste it in this field.
 
    ![Sinlge sign-on section. ](_images/55d52616f51494a3.png)
@@ -136,7 +137,7 @@ Your chosen settings are now in effect! This will send all users in your organiz
 
 **Q. I'm experiencing difficulty with this configuration!**
 
-A. If you experience technical difficulties while attempting to set up your Okta SSO with Telnyx, it's possible your provider is experiencing outages/maintenance. You can check the status of Okta's features at <https://status.okta.com/>.  
+A. If you experience technical difficulties while attempting to set up your Okta SSO with Telnyx, it's possible your provider is experiencing outages/maintenance. You can check the status of Okta's features at <https://status.okta.com/>.
 ​
 
 [Back to Top](#h_e2a191b7a7)
@@ -165,5 +166,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

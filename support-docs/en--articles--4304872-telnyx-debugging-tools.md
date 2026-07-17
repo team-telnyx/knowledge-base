@@ -1,33 +1,34 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4304872-telnyx-debugging-tools
+title: "Telnyx Debugging Tools"
+description: "This article will detail the debugging section of the Mission Control Portal and it's features including the SIP Call… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 37a24d94214d9a37a16388ede88388be9f1b093e2a4f944a1d656eda7783bf91
 ---
 
-Telnyx Debugging Tools | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Telnyx Debugging Tools
 
-This article will detail the debugging section of the Mission Control Portal and it's features including the SIP Call Flow Tool
+This article will detail the debugging section of the Mission Control Portal and it's features including the SIP Call… See Telnyx guidance and requirements.
 
-Written by Dillin
 
-April 30, 2026
 
-Table of contents
 
 The Debugging section of your Telnyx portal account will contain several tools you will use for the purpose of debugging SIP calls and call control flows.
 
-# **Guide to the Debugging Tools**
+## **Guide to the Debugging Tools**
 
 The Debugging section can be found on the left-hand list of portal modules. Once you have entered the Debugging section there will be 6 headers, Sip Call Flow Tool, Prog. Voice Call Flow Tool, Web Dialer, Detail Record Search, Webhook Deliveries and Call Recordings.
 
 ## **[Sip Call Flow Tool](https://portal.telnyx.com/#/debugging/sip-call-flow-tool)**
 
-Using the Sip call flow tool is straightforward. You can specify a date range that extends back 3 days maximum, and the calling and/or destination numbers.   
-​  
+Using the Sip call flow tool is straightforward. You can specify a date range that extends back 3 days maximum, and the calling and/or destination numbers.
+​
 Additional filters include:
 
 * Billed duration - which can filter out calls with a billed duration greater than, equal to, or less than the value you specify.
@@ -57,7 +58,7 @@ By clicking on the example that appears once you hit Search, you can open up the
 
 The Web Dialer is a powerful debugging tool that will allow you to make test calls without needing to setup a softphone or PBX system. This is useful if you are having issues with calls and want to eliminate your PBX or softphone client as a potential source of the issue. In order to use the web dialer, you simply need a Credentials Connection, a [DID number](https://telnyx.com/resources/sip-did) assigned to that connection and then you can assign a Caller ID name value if you wish to test that also. Once these pre-requisites are met you can make test calls straight from the web interface.
 
-You can also receive incoming calls from the Web dialer – this is useful for testing inbound failures.  
+You can also receive incoming calls from the Web dialer – this is useful for testing inbound failures.
 ​
 
 To receive an inbound call, simply dial the DID number assigned to the SIP Connection that you have entered in the steps above.
@@ -90,7 +91,7 @@ You can use this tool to assist with debugging cases:
 
 The Message content, and metadata is also included in the webhook delivery tool:
 
-# Tips for Troubleshooting
+## Tips for Troubleshooting
 
 * Ensure that your endpoint is correctly configured to receive webhook payloads.
 * Use the filtering options to quickly identify and analyze failed webhook deliveries.
@@ -121,7 +122,7 @@ The QoS report feature uses the data on these RTCP reports to display 4 differen
 
 ## **MOS (Mean Opinion Score)**
 
-* Our QoS report shows MOS stats based only on network metrics, any other audio issues won't be captured by it. The scale goes from 1 (Bad) to 4.5 (Excellent)  
+* Our QoS report shows MOS stats based only on network metrics, any other audio issues won't be captured by it. The scale goes from 1 (Bad) to 4.5 (Excellent)
   ​
 
 ![MOS](_images/81e06d1f4de245f4.png)
@@ -138,8 +139,8 @@ The QoS report feature uses the data on these RTCP reports to display 4 differen
 
 ## **Packets Lost**
 
-* “Packets Lost” represents the accumulated number of RTP packets perceived as lost by the reporter.  
-  ​  
+* “Packets Lost” represents the accumulated number of RTP packets perceived as lost by the reporter.
+  ​
   ​
 
   ![A packets lost diagram. ](_images/25f22281799c8f62.png)
@@ -165,5 +166,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

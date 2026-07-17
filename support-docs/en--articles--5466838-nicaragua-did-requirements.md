@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5466838-nicaragua-did-requirements
+title: "Nicaragua DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Nicaraguan numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ea20435115de981fbabc683752ca774f113fed1dd5ef60671ae8b189d6dfa8d4
 ---
 
-Nicaragua DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Nicaragua DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Nicaraguan numbers.
+Here you will find a list of detailed requirements for acquiring Nicaraguan numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-January 22, 2026
 
-Table of contents
 
-# DID Number Requirements for Nicaragua
+## DID Number Requirements for Nicaragua
 
 In order to purchase a Nicaragua number you will need to provide the following:
 
@@ -30,8 +31,8 @@ For **business identity** verification:
 
 \* Company name
 
-\* Contact phone number   
-\* Local Copy of Passport/ID   
+\* Contact phone number
+\* Local Copy of Passport/ID
 \* Local Company Registration Certificate
 
 \* LOI​ (Provided by Telnyx - [LOI Template.docx](https://downloads.intercomcdn.com/i/o/ltcafuzd/1974079146/f3eb9460203bfedda610a97379a8/LOI+Template.docx?expires=1783620000&signature=0b544bb852da8623438435d14120359b0ef430e9687979de5b4d105093d434a4&req=dSkgEsl5lIBbX%2FMW3Hu4gYkDxCMSxfjzLWMNiC1aPckVjhW10sWibl32Wapw%0A%2Fg%3D%3D%0A))
@@ -40,7 +41,7 @@ For **address** verification:
 
 \* Address in Nicaragua (street, building number, postal code, city and country)
 
-\* Proof of address (dated within 3 months)  
+\* Proof of address (dated within 3 months)
 ​
 
 **\* Business use required:** Business use is required, private use is not allowed.
@@ -90,5 +91,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

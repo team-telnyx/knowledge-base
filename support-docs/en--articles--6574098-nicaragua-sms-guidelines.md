@@ -1,30 +1,31 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6574098-nicaragua-sms-guidelines
+title: "Nicaragua: SMS Guidelines"
+description: "SMS Guidelines for Nicaragua including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Nicaragua: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: effb9aa76be9cc560b297348b93042eafa8f9f0b446d51982f07b2bbecf0201a
 ---
 
-Nicaragua: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Nicaragua: SMS Guidelines
 
-SMS Guidelines for Nicaragua including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Nicaragua including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Nicaragua: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-February 21, 2025
 
-Table of contents
 
-# **SMS Guidelines for Nicaragua**
+## **SMS Guidelines for Nicaragua**
 
-**MCC:** 710  
-​**Dial Code:** 505  
-​  
-All Alphanumeric Sender IDs will be overwritten to either a random Local Long Code or [Short Code](https://telnyx.com/products/sms-short-code) to ensure delivery.  
-​  
+**MCC:** 710
+​**Dial Code:** 505
+​
+All Alphanumeric Sender IDs will be overwritten to either a random Local Long Code or [Short Code](https://telnyx.com/products/sms-short-code) to ensure delivery.
+​
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
@@ -38,5 +39,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

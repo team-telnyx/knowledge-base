@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8268122-byoc-telnyx-genesys
+title: "BYOC: Telnyx & Genesys"
+description: "This guide provides instructions and technical details for the configuration of SIP trunk connectivity between Genesys… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: d02b6d471e95f4727263fc27a470b05fca21a20eafb42c4d1f7b85d37f5255d1
 ---
 
-BYOC: Telnyx & Genesys | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # BYOC: Telnyx & Genesys
 
-This guide provides instructions and technical details for the configuration of SIP trunk connectivity between Genesys Cloud and Telnyx.
+This guide provides instructions and technical details for the configuration of SIP trunk connectivity between Genesys… See Telnyx guidance and requirements.
 
-Written by Karl Hulse
 
-December 11, 2023
 
-Table of contents
 
-# Genesys and Telnyx BYOC
+## Genesys and Telnyx BYOC
 
 Before you get started you'll have to have the following set up:
 
@@ -58,7 +59,7 @@ Navigate to the “Outbound Voice Profiles” tab in the "Voice" section. Click 
 
 ## **Image 3 - Setting up your Outbound Voice Profile**
 
-Provide a name for your new Outbound Voice Profile and click "Create".  
+Provide a name for your new Outbound Voice Profile and click "Create".
 ​
 
 ![Genesys Cloud &amp; Telnyx Naming your OVP](_images/8a77dcb4648de19d.png)
@@ -141,7 +142,7 @@ Provide the “User Name” and “Password” which was configured in Telnyx SI
 
 ## **Image 12 - Manage your connection settings**
 
-In the "SIP Access Control" Section, provide the IP addresses of your chosen Telnyx SIP endpoints (addresses are provided on sip.telnyx.com)  
+In the "SIP Access Control" Section, provide the IP addresses of your chosen Telnyx SIP endpoints (addresses are provided on sip.telnyx.com)
 ​
 
 ![SIP Access Control](_images/3934ba16b0224b17.png)
@@ -175,8 +176,8 @@ To find and use the debugging tools:
 
 ## **Image 16 - Mission Control Debugging Tools Overview**
 
-This enables you to review a SIP Call Flow with the detailed data for each SIP Request:  
-​  
+This enables you to review a SIP Call Flow with the detailed data for each SIP Request:
+​
 ​
 
 ## **Image 17 - Call Flow Debugging**
@@ -196,5 +197,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

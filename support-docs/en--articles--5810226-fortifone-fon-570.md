@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5810226-fortifone-fon-570
+title: "FortiFone FON-570"
+description: "Master the setup and configuration of your FortiFone FON-570. See Telnyx guidance and requirements Learn more about FortiFone FON-570 with Telnyx."
 scraped: 2026-07-08
 content_hash: 8c26dd00e1cb7568b9805b132f3f03ec94b6714d5b01591fe54df682370d92b3
 ---
 
-FortiFone FON-570 | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # FortiFone FON-570
 
-Master the setup and configuration of your FortiFone FON-570. Our detailed guide walks you through each step.
+Master the setup and configuration of your FortiFone FON-570. See Telnyx guidance and requirements Learn more about FortiFone FON-570 with Telnyx.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_85ab341b29)
 
@@ -31,7 +32,7 @@ Additional documentation:
 
 ---
 
-# Instructions for setting up and configuring the FortiFone FON 570
+## Instructions for setting up and configuring the FortiFone FON 570
 
 In this activity you will:
 
@@ -105,11 +106,11 @@ In this step, you will set up your device and register it with Telnyx.
    1. **Time Synchronized via DHCP**: *Yes*
    2. **Time zone**: Select your time zone by using the drop-down.
    3. **Location**: Select location you are in for daylight saving.
-   4. **Primary Server**: *pool.ntp.org* *(*optional*)*  
-      ​  
+   4. **Primary Server**: *pool.ntp.org* *(*optional*)*
+      ​
       ​
 
-      The pool.ntp.org project is a virtual cluster of timeservers providing reliable easy to use NTP service.The project is maintained and developed by Ask Bjørn Hansen and a great group of contributors on the mailing lists.  
+      The pool.ntp.org project is a virtual cluster of timeservers providing reliable easy to use NTP service.The project is maintained and developed by Ask Bjørn Hansen and a great group of contributors on the mailing lists.
       ​
    5. **Time Format**: Choose how you want your time displayed (12 hour or 24 hour)
    6. **Date Format**: Choose the format you want to use for date display
@@ -141,5 +142,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

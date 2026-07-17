@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3947850-porting-away-from-twilio
+title: "Porting away from Twilio"
+description: "Navigate the voip.ms porting process with ease. See Telnyx guidance and requirements Learn more about Porting away from Twilio with Telnyx."
 scraped: 2026-07-08
 content_hash: 207585e88e50a87f9573b4dc0448869b1411062dd99e1e3c2c034e8fabd5dfc7
 ---
 
-Porting away from Twilio | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Porting away from Twilio
 
-Navigate the voip.ms porting process with ease. Discover key account details and Telnyx's porting procedure.
+Navigate the voip.ms porting process with ease. See Telnyx guidance and requirements Learn more about Porting away from Twilio with Telnyx.
 
-Written by Paul Cross
 
-September 26, 2023
 
-Table of contents
 
-# Guide to Porting Away from Twilio
+## Guide to Porting Away from Twilio
 
 To begin the process of porting away from Twilio, you need to follow a few simple steps to get the information that you need to port. This is known as CSR information.
 
@@ -42,7 +43,7 @@ The CSR info can be used to submit to different providers then.
 
 Twilio handles toll-free port out requests themselves directly. When they receive a port out request, they will usually reach out to their user confirming the port out.
 
-Twilio does not leverage BTNs (billing telephone numbers) or Account numbers. You can use any of the numbers that you are porting away from Twilio as the BTN and as the Account Number too.  
+Twilio does not leverage BTNs (billing telephone numbers) or Account numbers. You can use any of the numbers that you are porting away from Twilio as the BTN and as the Account Number too.
 ​
 
 ---
@@ -54,5 +55,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5761112-acrobits-softphone
+title: "Acrobits Softphone"
+description: "Learn how to configure Acrobits Softphone or Acrobits Groundwire to use Telnyx for voice calling. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 9ffa07f57a889ceeeaa2908348892ea23ff94776bfbe1eb970ab44cecca9ab00
 ---
 
-Acrobits Softphone | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Acrobits Softphone
 
-Learn how to configure Acrobits Softphone or Acrobits Groundwire to use Telnyx for voice calling.
+Learn how to configure Acrobits Softphone or Acrobits Groundwire to use Telnyx for voice calling. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_2e5fde5343)
 
@@ -40,7 +41,7 @@ You can use the [Acrobits Groundwire or Acrobits Softphone](https://acrobits.net
 
 ---
 
-# Instructions for configuring Acrobits to work with Telnyx
+## Instructions for configuring Acrobits to work with Telnyx
 
 |  |
 | --- |
@@ -63,7 +64,7 @@ In this document, you will:
 
 **Video Walkthrough**
 
-Coming soon! Check back frequently as we are updating our documentation.  
+Coming soon! Check back frequently as we are updating our documentation.
 ​
 
 ## 1. Connect Acrobits with Telnyx
@@ -124,5 +125,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

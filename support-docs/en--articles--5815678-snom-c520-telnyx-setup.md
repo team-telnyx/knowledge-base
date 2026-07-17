@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5815678-snom-c520-telnyx-setup
+title: "Snom C520: Telnyx Setup"
+description: "Learn how to set up and configure a Snom C520 conference phone and connect it to your Telnyx account. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 13fbe63b2ced1450dc0fdc59772605d302bb8a137636b8c9e011bd3e8f072dfe
 ---
 
-Snom C520: Telnyx Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Snom C520: Telnyx Setup
 
-Learn how to set up and configure a Snom C520 conference phone and connect it to your Telnyx account.
+Learn how to set up and configure a Snom C520 conference phone and connect it to your Telnyx account. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_df0d35b8f0)
 
@@ -35,7 +36,7 @@ Additional documentation:
 
 ---
 
-# Instructions for configuring the Snom C520 SIP conference phone
+## Instructions for configuring the Snom C520 SIP conference phone
 
 In this activity you will:
 
@@ -89,14 +90,14 @@ In this step, you'll create a [SIP trunk](https://telnyx.com/products/sip-trunks
    3. **User Identifier:** Your Telnyx account ID
    4. **Authentication Name:** Your Telnyx account ID
    5. **Authentication Password:** Your Telnyx account password
-   6. **Dial Plan:** *x+P* (By default)  
+   6. **Dial Plan:** *x+P* (By default)
       ​
 
    ![General account settings. ](_images/04f06fe41f6faa06.png)
 4. ### Now find the "**SIP Server"** section and provide the following information:
 
    1. **Server Address:** *sip.telnyx.com*
-   2. **Port:** *5060* if you have not enabled TLS encryption. If you have, choose *5061*.  
+   2. **Port:** *5060* if you have not enabled TLS encryption. If you have, choose *5061*.
       ​
 
    ![UDP or TCP transport settings. ](_images/fe10c74f99f92542.png)
@@ -107,27 +108,27 @@ In this step, you'll create a [SIP trunk](https://telnyx.com/products/sip-trunks
    1. **Server Address:** *sip.telnyx.com*
    2. **Port:** *5060* if you have not enabled TLS encryption. If you have, choose *5061*.
    3. **Expiration (secs):** *300*
-   4. **Registration Freq (secs):** *10*  
+   4. **Registration Freq (secs):** *10*
       ​
 
    ![Registration settings. ](_images/5a950d8f0ba86639.png)
 
-   *\*This screenshot shows the settings required for UDP or TCP transport. For TLS, enter* 5061 *in the "**Port"** field.*  
+   *\*This screenshot shows the settings required for UDP or TCP transport. For TLS, enter* 5061 *in the "**Port"** field.*
    ​
 6. ### Find the "**Outbound Proxy"** section and provide the following information:
 
    1. **Server Address**: *sip.telnyx.com*
-   2. **Port**: *5060* if you have not enabled TLS encryption. If you have, choose *5061*.  
+   2. **Port**: *5060* if you have not enabled TLS encryption. If you have, choose *5061*.
       ​
 
    ![Outbound proxy settings. ](_images/40571579c0626d21.png)
 
-   \**This* *screenshot shows the settings required for UDP or TCP transport. For TLS, enter* 5061 *in the "**Port"** field.*  
+   \**This* *screenshot shows the settings required for UDP or TCP transport. For TLS, enter* 5061 *in the "**Port"** field.*
    ​
 7. ### You can leave the settings in the "**Backup Outbound Proxy"** section BLANK "***unless"*** you have enabled TLS encryption for this account. If you are configuring this account to use TLS encryption, provide the following information:
 
    1. **Server Address:** *sip.telnyx.com*
-   2. **Port:** *5061*  
+   2. **Port:** *5061*
       ​
 
    ![Backup outbound proxy. ](_images/5dada1313275b667.png)
@@ -136,7 +137,7 @@ In this step, you'll create a [SIP trunk](https://telnyx.com/products/sip-trunks
    1. ulaw(g711u)
    2. alaw(g711a)
    3. g722
-   4. g729  
+   4. g729
       ​
 
    ![codec settings in the Audio section. ](_images/4f8e912e1f4d03f0.png)
@@ -175,5 +176,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

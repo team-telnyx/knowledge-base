@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6592456-angola-sms-guidelines
+title: "Angola: SMS Guidelines"
+description: "SMS Guidelines for Angola including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Angola: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 3ecf398f511d8ff157d18b8d57009c18bc77a84b2ff30fd4eaf052a1fd43581f
 ---
 
-Angola: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Angola: SMS Guidelines
 
-SMS Guidelines for Angola including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Angola including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Angola: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **SMS Guidelines for Angola**
+## **SMS Guidelines for Angola**
 
-**MCC**: 631  
-​**Dial Code**: 244  
-​  
+**MCC**: 631
+​**Dial Code**: 244
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements
+title: "Paraguay DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Paraguay numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: eb28c7b1bc4f3b1d3201f154d44bc8fec5ab4285bf82929bfee76e98c1834795
 ---
 
-Paraguay DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Paraguay DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Paraguay numbers.
+Here you will find a list of detailed requirements for acquiring Paraguay numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-September 29, 2025
 
-Table of contents
 
-# DID Number Requirements for Paraguay
+## DID Number Requirements for Paraguay
 
 In order to purchase a Paraguay number you will need to provide the following:
 
-# **Local Numbers in Paraguay**
+## **Local Numbers in Paraguay**
 
 For **personal identity** verification:
 
@@ -52,7 +53,7 @@ For **personal identity** verification:
 
 \* Contact phone number
 
-\* Passport or ID copy  
+\* Passport or ID copy
 \* Signed LOI (dated within 1 month)
 
 For **business identity** verification:
@@ -63,7 +64,7 @@ For **business identity** verification:
 
 \* Company registration certificate
 
-\* Signed LOI (dated within 1 month)  
+\* Signed LOI (dated within 1 month)
 ​
 
 For **address** verification:
@@ -117,5 +118,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

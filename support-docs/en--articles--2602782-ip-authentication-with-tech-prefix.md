@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/2602782-ip-authentication-with-tech-prefix
+title: "IP Authentication with Tech Prefix"
+description: "In this article we will explain IP authentication with tech prefixes and when to use them. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: cd05690eeabbd854c81b0efe7e0090cc22e67189bf22fae84924f68d55fe0e3f
 ---
 
-IP Authentication with Tech Prefix | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # IP Authentication with Tech Prefix
 
-In this article we will explain IP authentication with tech prefixes and when to use them.
+In this article we will explain IP authentication with tech prefixes and when to use them. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-May 25, 2024
 
-Table of contents
 
 The tech prefix setting can be found under the settings tab of your [SIP Connections](https://portal.telnyx.com/#/app/connections) Authentication & Routing Configuration section.
 
 ![Authentication &amp; Routing Configuration section](_images/beb6baa7d1d09998.png)
 
-# Why are tech prefixes beneficial?
+## Why are tech prefixes beneficial?
 
 In environments where a single IP address is used for multiple outbound voice profiles, it is vital to distinguish each client's traffic uniquely. Telnyx supports this requirement by allowing multiple IP connections to share the same IP.
 
@@ -40,7 +41,7 @@ Yes, Telnyx supports the application of tech prefixes at the [number level](http
 
 It is important to note that while connections can share the same IP address, they must be uniquely identified to avoid the "[Termination Endpoint](https://support.telnyx.com/en/articles/4320411-more-about-outbound-voice-profiles#h_8af1e9166d)" error. This error occurs when another connection with the same IP address is already assigned to an outbound voice profile. To prevent this, ensure each connection has a unique combination, achieved through a tech prefix, token or p charge info.
 
-​  
+​
 ​
 
 ---
@@ -52,5 +53,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

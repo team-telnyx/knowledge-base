@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6674464-jamaica-sms-guidelines
+title: "Jamaica: SMS Guidelines"
+description: "SMS Guidelines for Jamaica including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Jamaica: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: dd4b0cc23775627df424d730caba71ed811ed8384ffa558fc55429fc0ad8849e
 ---
 
-Jamaica: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Jamaica: SMS Guidelines
 
-SMS Guidelines for Jamaica including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Jamaica including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Jamaica: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **SMS Guidelines for Jamaica**
+## **SMS Guidelines for Jamaica**
 
-**MCC:** 338  
-​**Dial Code:** 1876  
-​  
+**MCC:** 338
+​**Dial Code:** 1876
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

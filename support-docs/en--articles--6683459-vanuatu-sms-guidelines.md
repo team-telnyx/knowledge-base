@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6683459-vanuatu-sms-guidelines
+title: "Vanuatu: SMS Guidelines"
+description: "SMS Guidelines for Vanuatu including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Vanuatu: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 698c53c67e839fde1ae62d484d2581ea6d9cad8099ba19af6ec4163743b7be6f
 ---
 
-Vanuatu: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Vanuatu: SMS Guidelines
 
-SMS Guidelines for Vanuatu including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Vanuatu including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Vanuatu: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Vanuatu: SMS Guidelines**
+## **Vanuatu: SMS Guidelines**
 
-**MCC:** 541  
-​**Dial Code:** 678  
-​  
+**MCC:** 541
+​**Dial Code:** 678
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

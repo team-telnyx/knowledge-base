@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/10715399-porting-away-from-skype
+title: "Porting away from Skype"
+description: "Navigate the Skype port out process with ease. See Telnyx guidance and requirements Learn more about Porting away from Skype with Telnyx."
 scraped: 2026-07-08
 content_hash: 0eaa5d64f012e269cfc92c25fabecd79113f27018437f0f68803e3a652c89aeb
 ---
 
-Porting away from Skype | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Porting away from Skype
 
-Navigate the Skype port out process with ease. Discover key account details and Telnyx's porting procedure.
+Navigate the Skype port out process with ease. See Telnyx guidance and requirements Learn more about Porting away from Skype with Telnyx.
 
-Written by Patrick Budzinski
 
-March 5, 2025
 
-Table of contents
 
-# Porting a Number to Telnyx from Skype
+## Porting a Number to Telnyx from Skype
 
 If you're looking to port your phone number from Skype to Telnyx, this guide will walk you through the necessary steps to ensure a smooth transition.
 
@@ -98,5 +99,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

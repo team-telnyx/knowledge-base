@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6674813-lesotho-sms-guidelines
+title: "Lesotho: SMS Guidelines"
+description: "Sending SMS to Lesotho? See Telnyx guidance and requirements Learn more about Lesotho: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: ad8590989d134fe0447b10595d8202e086100483a3ef926fb46e0c16ec75bdd3
 ---
 
-Lesotho: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Lesotho: SMS Guidelines
 
-Sending SMS to Lesotho? Check out our comprehensive guidelines to ensure compliance in Lesotho.
+Sending SMS to Lesotho? See Telnyx guidance and requirements Learn more about Lesotho: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Lesotho: SMS Guidelines**
+## **Lesotho: SMS Guidelines**
 
-**MCC:** 651  
-​**Dial Code:** 266  
-​  
+**MCC:** 651
+​**Dial Code:** 266
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

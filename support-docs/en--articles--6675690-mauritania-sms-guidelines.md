@@ -1,32 +1,33 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6675690-mauritania-sms-guidelines
+title: "Mauritania: SMS Guidelines"
+description: "SMS Guidelines for Mauritania including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Mauritania: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 9186c165e822200094aced436e4836a2952a1cc3d4e8398fbe5c0112404be54d
 ---
 
-Mauritania: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Mauritania: SMS Guidelines
 
-SMS Guidelines for Mauritania including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Mauritania including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Mauritania: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# SMS Guidelines for Mauritania
+## SMS Guidelines for Mauritania
 
-**MCC:** 609  
-​**Dial Code:** 222  
-​  
+**MCC:** 609
+​**Dial Code:** 222
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
-The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be directly related to the message content.  
-​  
+The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be directly related to the message content.
+​
 ​
 
 There are no restrictions with regards to content towards this destination.
@@ -44,5 +45,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

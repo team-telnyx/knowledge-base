@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/9038141-messaging-10dlc-campaign-checklist
+title: "Messaging - 10DLC Campaign Checklist"
+description: "Telnyx Messaging - 10DLC Campaign Checklist. See Telnyx guidance and requirements Learn more about Messaging - 10DLC Campaign Checklist with Telnyx."
 scraped: 2026-07-08
 content_hash: 3f2c9b37f39faffaff31825bc4fbc352753139608c75bb2a8596d94f48bc08da
 ---
 
-Messaging - 10DLC Campaign Checklist | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Messaging - 10DLC Campaign Checklist
 
-Telnyx Messaging - 10DLC Campaign Checklist. Start building on Telnyx today.
+Telnyx Messaging - 10DLC Campaign Checklist. See Telnyx guidance and requirements Learn more about Messaging - 10DLC Campaign Checklist with Telnyx.
 
 C
 
-Written by Customer Success
 
-June 26, 2024
 
-Table of contents
 
-# 10DLC Campaign Review Checklist
+## 10DLC Campaign Review Checklist
 
 When creating new campaigns, please review the following Checklist:
 
@@ -83,5 +84,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5701653-telnyx-verify-2fa-made-easy
+title: "Telnyx Verify: 2FA made easy"
+description: "This article describes what is and how to get started with Telnyx… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: b5250f9d420256a9198450965d469ae3090fda76daa52db2a7d633b806d8941d
 ---
 
-Telnyx Verify: 2FA made easy | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Telnyx Verify: 2FA made easy
 
-This article describes what is and how to get started with Telnyx Verify
+This article describes what is and how to get started with Telnyx… See Telnyx guidance and requirements.
 
-Written by David
 
-May 20, 2026
 
-Table of contents
 
-# Telnyx Verify: add verification codes to your application
+## Telnyx Verify: add verification codes to your application
 
 Telnyx Verify helps you add phone-based user verification to your application. You can use it to send a one-time verification code to a user, then confirm the code they submit back to your app.
 
@@ -63,10 +64,10 @@ For SMS verification, the request must include the user’s phone number and the
 Example:
 
 ```
-curl -X POST "https://api.telnyx.com/v2/verifications/sms" \  
-   --header "Content-Type: application/json" \  
-   --header "Accept: application/json" \  
-   --header "Authorization: Bearer $TELNYX_API_KEY" \  
+curl -X POST "https://api.telnyx.com/v2/verifications/sms" \
+   --header "Content-Type: application/json" \
+   --header "Accept: application/json" \
+   --header "Authorization: Bearer $TELNYX_API_KEY" \
    --data '{     "phone_number": "+13035551234",     "verify_profile_id": "YOUR_VERIFY_PROFILE_ID"   }'
 ```
 
@@ -81,10 +82,10 @@ Use the Verify API to submit the user’s phone number, the code, and the same `
 Example:
 
 ```
-curl -X POST "https://api.telnyx.com/v2/verifications/by_phone_number/%2B13035551234/actions/verify" \  
-   --header "Content-Type: application/json" \  
-   --header "Accept: application/json" \  
-   --header "Authorization: Bearer $TELNYX_API_KEY" \  
+curl -X POST "https://api.telnyx.com/v2/verifications/by_phone_number/%2B13035551234/actions/verify" \
+   --header "Content-Type: application/json" \
+   --header "Accept: application/json" \
+   --header "Authorization: Bearer $TELNYX_API_KEY" \
    --data '{     "code": "123456",     "verify_profile_id": "YOUR_VERIFY_PROFILE_ID"   }'
 ```
 
@@ -131,5 +132,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

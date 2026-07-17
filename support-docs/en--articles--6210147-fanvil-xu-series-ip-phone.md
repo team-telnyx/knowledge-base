@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6210147-fanvil-xu-series-ip-phone
+title: "Fanvil XU Series: IP Phone"
+description: "Learn how to configure a Telnyx SIP trunk on the Fanvil X6U/X5U/X4U/X3U IP… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 5e50952a8b9c6eb39082cae3c01d37fb2a006cec204f05ecf9d3db63aafdaf42
 ---
 
-Fanvil XU Series: IP Phone | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Fanvil XU Series: IP Phone
 
-Learn how to configure a Telnyx SIP trunk on the Fanvil X6U/X5U/X4U/X3U IP phones
+Learn how to configure a Telnyx SIP trunk on the Fanvil X6U/X5U/X4U/X3U IP… See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_6fd07b5f1c)
 
@@ -46,7 +47,7 @@ Table of contents
 
 ---
 
-# Instructions for setting up and configuring your Fanvil XU series IP phone
+## Instructions for setting up and configuring your Fanvil XU series IP phone
 
 **In this activity you will:**
 
@@ -124,8 +125,8 @@ If you are encrypting traffic with TLS, you'll need to upload a TLS certificate,
 1. In the **Lines > SIP section,** find the **Advanced Settings** sub-section:
 
    1. **DTMF Type:** *RFC 2833*
-   2. **Transportation Protocol:** Choose *TCP* or *UDP* unless you are encrypting traffic and have set up encryption on your Telnyx portal. In this case, choose *TLS*.  
-      ​  
+   2. **Transportation Protocol:** Choose *TCP* or *UDP* unless you are encrypting traffic and have set up encryption on your Telnyx portal. In this case, choose *TLS*.
+      ​
       ​*Note that if you are encrypting traffic, you'll need to go into **Lines > Dial Peer** and make sure the **Port** setting is changed to* 5061.
    3. **RTP Encryption**: (Optional) Enable this if you're using TLS
    4. **RTP Encryption Key:** (Optional) Obtain a key [here](https://crt.sh/?id=1199354)
@@ -133,8 +134,8 @@ If you are encrypting traffic with TLS, you'll need to upload a TLS certificate,
 
    1. **TLS Certification File:** Obtain a certificate [here](https://crt.sh/?id=1199354).
 
-That's it, you've now completed the configuration of your Fanvil XU series IP phone with your Telnyx account.  
-​  
+That's it, you've now completed the configuration of your Fanvil XU series IP phone with your Telnyx account.
+​
 ​
 
 [Back to Top](#h_6fd07b5f1c)
@@ -172,5 +173,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

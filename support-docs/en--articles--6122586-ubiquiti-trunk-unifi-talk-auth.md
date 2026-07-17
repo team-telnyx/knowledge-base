@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6122586-ubiquiti-trunk-unifi-talk-auth
+title: "Ubiquiti Trunk: Unifi Talk - Auth"
+description: "Learn how to configure a Telnyx Trunk with credentials-based authentication with Ubiquiti Unifi Talk PBX. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: fcd4f45b0b0696a0f9a8790d3e40efa3fd8e8aaddcd79e883e42486bb3b33e4e
 ---
 
-Ubiquiti Trunk: Unifi Talk - Auth | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Ubiquiti Trunk: Unifi Talk - Auth
 
-Learn how to configure a Telnyx Trunk with credentials-based authentication with Ubiquiti Unifi Talk PBX.
+Learn how to configure a Telnyx Trunk with credentials-based authentication with Ubiquiti Unifi Talk PBX. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-June 6, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_5f24533bc0)
 
@@ -38,7 +39,7 @@ The [UniFi Talk PBX](https://help.ui.com/hc/en-us/articles/1500005593742), provi
 
 ---
 
-# Instructions for configuring Unifi Talk PBX with your Telnyx Account
+## Instructions for configuring Unifi Talk PBX with your Telnyx Account
 
 In this activity you will:
 
@@ -195,5 +196,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

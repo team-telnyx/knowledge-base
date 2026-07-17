@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5593977-isvs-10dlc
+title: "ISVs & 10DLC"
+description: "We break down how to know if you're classed as an ISV or a direct brand customer, See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 48ffd81369f66f1793c4c2d7edd6f9868ab5c3f1d38dc0f38afd5e02378591a4
 ---
 
-ISVs & 10DLC | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # ISVs & 10DLC
 
-We break down how to know if you're classed as an ISV or a direct brand customer, and how ISVs can gain 10DLC compliance with Telnyx.
+We break down how to know if you're classed as an ISV or a direct brand customer, See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-November 22, 2023
 
-Table of contents
 
-# **Independent Service Vendors (ISVs) and 10DLC**
+## **Independent Service Vendors (ISVs) and 10DLC**
 
 ## What is an ISV? Does my business constitute an ISV?
 
@@ -79,5 +80,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6133517-zoiper-communicator
+title: "Zoiper Communicator"
+description: "Maximize your online communication with the Zoiper Communicator IAX & SIP softphone, a free, multi-functional tool. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 1c04ab783463fcc518611538abbd3116033a3c1566649627e0b7f835b9bb0801
 ---
 
-Zoiper Communicator | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Zoiper Communicator
 
-Maximize your online communication with the Zoiper Communicator IAX & SIP softphone, a free, multi-functional tool.
+Maximize your online communication with the Zoiper Communicator IAX & SIP softphone, a free, multi-functional tool. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-June 6, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_9def290ce2)
 
@@ -34,16 +35,16 @@ Table of contents
 
 Additional Resources:
 
-* [Zoiper help](https://www.zoiper.com/en/support/questions)  
+* [Zoiper help](https://www.zoiper.com/en/support/questions)
   ​
 
 ---
 
-# Instructions for Configuring Zoiper Communicator
+## Instructions for Configuring Zoiper Communicator
 
 In this activity you will:
 
-1. [Add Telnyx as your SIP provider and create a trunk](#h_04c5d08d3f)  
+1. [Add Telnyx as your SIP provider and create a trunk](#h_04c5d08d3f)
    ​
 
 **Pre-requisites**
@@ -52,7 +53,7 @@ In this activity you will:
 * Have your SIP Credentials (The username/password for your main SIP account or SIP sub-account)
 * Have [DID(s) available](https://support.telnyx.com/en/articles/4380325-search-and-buy-numbers) to assign
 * A PC running a Windows OS
-* [Download](https://digitalvoice.ca/softphone_zoiper_dl.php) and install Zoiper Communicator  
+* [Download](https://digitalvoice.ca/softphone_zoiper_dl.php) and install Zoiper Communicator
   ​
 
 **Video Walkthrough**
@@ -90,7 +91,7 @@ In this section, you'll configure your first [SIP trunk](https://telnyx.com/prod
 
    ![SIP Account Options page to complete setup. ](_images/f0a398602bda56f2.png)
 
-That's it! You've finished configuring your Zoiper Communicator softphone, and can now start testing calls!  
+That's it! You've finished configuring your Zoiper Communicator softphone, and can now start testing calls!
 ​
 
 [Back to Top](#h_9def290ce2)
@@ -114,5 +115,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

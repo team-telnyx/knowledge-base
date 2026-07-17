@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5188540-latvia-number-porting
+title: "Latvia Number Porting"
+description: "Here you will find a detailed list of requirements for Latvia number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 5c6e1c42124db614ff9f455a99157b169325f014d955b5697877533590bba6da
 ---
 
-Latvia Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Latvia Number Porting
 
-Here you will find a detailed list of requirements for Latvia number portability.
+Here you will find a detailed list of requirements for Latvia number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
-# **Latvia Number Porting**
+## **Latvia Number Porting**
 
 ## **For Local / National number Types in Latvia**
 
@@ -43,5 +44,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

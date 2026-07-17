@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130710-what-is-dtmf-and-how-to-configure-it-on-telnyx
+title: "What is DTMF? and how to configure it on Telnyx"
+description: "In this article we will explain DTMF, what it might mean for your business and how to configure DTMF in Telnyx portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 1a80a57196e4d26dc6cd836ddb249ad5d7ca2b68a1f4c0c4c5523fa5c7b7b954
 ---
 
-What is DTMF? and how to configure it on Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # What is DTMF? and how to configure it on Telnyx
 
-In this article we will explain DTMF, what it might mean for your business and how to configure DTMF in Telnyx portal.
+In this article we will explain DTMF, what it might mean for your business and how to configure DTMF in Telnyx portal. See Telnyx guidance and requirements.
 
-Written by Ashish Muni
 
-April 14, 2026
 
-Table of contents
 
-# What is DTMF?
+## What is DTMF?
 
 ​**DTMF (Dual-Tone Multi-Frequency)** is the signalling standard used by telephone systems to transmit keypad inputs — the tones you hear when pressing digits on a phone.
 
@@ -141,5 +142,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

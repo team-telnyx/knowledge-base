@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5954701-guadeloupe-number-porting
+title: "Guadeloupe Number Porting"
+description: "Here you will find detailed requirements for Guadeloupe number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: afc654a6398950beb51f1e936fc111de21f3f8c49a7c1073c9891a489f9001fb
 ---
 
-Guadeloupe Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Guadeloupe Number Porting
 
-Here you will find detailed requirements for Guadeloupe number portability.
+Here you will find detailed requirements for Guadeloupe number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-December 19, 2025
 
-Table of contents
 
 **Local / National / Toll-Free Numbers**
 
@@ -37,5 +38,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

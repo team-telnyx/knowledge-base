@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130645-configuring-bria-solo-a-k-a-x-lite
+title: "Configuring Bria Solo (a.k.a X-Lite)"
+description: "Learn how to configure Bria Solo/X-Lite to work with your Telnyx Mission Control… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: fa6daeb0e29e4a03f5e666132b4b136793898faeec6d2b456d6dfab8f5c4b7b2
 ---
 
-Configuring Bria Solo (a.k.a X-Lite) | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Configuring Bria Solo (a.k.a X-Lite)
 
-Learn how to configure Bria Solo/X-Lite to work with your Telnyx Mission Control Panel
+Learn how to configure Bria Solo/X-Lite to work with your Telnyx Mission Control… See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_47881453c0)
 
@@ -33,7 +34,7 @@ For Bria Solo documentation, see:
 
 ---
 
-# Instructions for Configuring Bria Solo with Telnyx
+## Instructions for Configuring Bria Solo with Telnyx
 
 In this activity you will:
 
@@ -108,5 +109,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

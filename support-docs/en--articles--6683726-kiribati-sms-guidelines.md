@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6683726-kiribati-sms-guidelines
+title: "Kiribati: SMS Guidelines"
+description: "Sending SMS to Kiribati? See Telnyx guidance and requirements Learn more about Kiribati: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: dfd98971926d700eeee872d48fafc1926f65d7ba1f4b8cb822d9bec1ee4405f2
 ---
 
-Kiribati: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Kiribati: SMS Guidelines
 
-Sending SMS to Kiribati? Check out our comprehensive guidelines to ensure compliance in Kiribati.
+Sending SMS to Kiribati? See Telnyx guidance and requirements Learn more about Kiribati: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Kiribati: SMS Guidelines**
+## **Kiribati: SMS Guidelines**
 
-**MCC:** 545  
-​**Dial Code:** 686  
-​  
+**MCC:** 545
+​**Dial Code:** 686
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

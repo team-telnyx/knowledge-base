@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6683365-tonga-sms-guidelines
+title: "Tonga: SMS Guidelines"
+description: "Sending SMS to Tonga? See Telnyx guidance and requirements Learn more about Tonga: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: f248bef840bea93829fae55b0c50eff01cdd41d7c28ac8bfb73ece1978a6041a
 ---
 
-Tonga: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Tonga: SMS Guidelines
 
-Sending SMS to Tonga? Check out our comprehensive guidelines to ensure compliance in Tonga.
+Sending SMS to Tonga? See Telnyx guidance and requirements Learn more about Tonga: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Tonga: SMS Guidelines**
+## **Tonga: SMS Guidelines**
 
-**MCC:** 539  
-​**Dial Code:** 676  
-​  
+**MCC:** 539
+​**Dial Code:** 676
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

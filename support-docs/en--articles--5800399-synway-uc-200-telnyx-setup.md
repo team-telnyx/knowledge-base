@@ -1,30 +1,31 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5800399-synway-uc-200-telnyx-setup
+title: "Synway UC-200: Telnyx Setup"
+description: "Discover the future of VoIP with Synway's UC-200. See Telnyx guidance and requirements Learn more about Synway UC-200: Telnyx Setup with Telnyx."
 scraped: 2026-07-08
 content_hash: f0c8d387b62d7159281ee84e30b6405e14416fb860a454fa65931f2e626aac3a
 ---
 
-Synway UC-200: Telnyx Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Synway UC-200: Telnyx Setup
 
-Discover the future of VoIP with Synway's UC-200. Our guide takes you through configuring this powerful IP PBX with Telnyx.
+Discover the future of VoIP with Synway's UC-200. See Telnyx guidance and requirements Learn more about Synway UC-200: Telnyx Setup with Telnyx.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_7459c11e35)
 
-[Synway](https://www.synway.net/index.php) is a leading security and VoIP provider and creator of the UC-200, an IP PBX appliance designed to bring enterprise-grade unified communications and security protection to your business, for a good price and without any licensing fees, costs-per-feature, or recurring fees. The UC-200 supports such technologies as comprehensive voice, fax, calling, conferencing, video/audio surveillance, data tools, security surveillance, mobility, and facility access management.  
-​  
-The UC200's advanced hardware and software can support up to 500 registered users and can be set up through a convenient web-browser user interface. Besides auto-discovery of diverse endpoints and auto-provisioning, the UC-200 series offers great features like customizable call-routing, multi-level IVRs, call queues, auto-attendant, call detail records (CDR), multi-site peering, voicemail/fax forwarding to email and more.  
+[Synway](https://www.synway.net/index.php) is a leading security and VoIP provider and creator of the UC-200, an IP PBX appliance designed to bring enterprise-grade unified communications and security protection to your business, for a good price and without any licensing fees, costs-per-feature, or recurring fees. The UC-200 supports such technologies as comprehensive voice, fax, calling, conferencing, video/audio surveillance, data tools, security surveillance, mobility, and facility access management.
+​
+The UC200's advanced hardware and software can support up to 500 registered users and can be set up through a convenient web-browser user interface. Besides auto-discovery of diverse endpoints and auto-provisioning, the UC-200 series offers great features like customizable call-routing, multi-level IVRs, call queues, auto-attendant, call detail records (CDR), multi-site peering, voicemail/fax forwarding to email and more.
 ​
 
 Additional documentation:
@@ -38,7 +39,7 @@ Additional documentation:
 
 ---
 
-# Instructions for configuring a Synway UC-200 PBX to work with Telnyx
+## Instructions for configuring a Synway UC-200 PBX to work with Telnyx
 
 In this activity you will:
 
@@ -120,10 +121,10 @@ In this step, you will configure your outbound route. Most of the field defaults
 2. Click **Add** and enter the following:
 
    1. **Name:** *Telnyx\_outbound*  or something similar
-   2. **Dial/DID patterns:** Use a regex (Regular expression) to match the dial pattern you want to use. See page 27 of the [Synway user manual](https://www.synway.net/Download/Manual/UserManual/IPPBX_User_ManualV1.8.0.pdf) for examples.  
-      ​  
-      Use the **Strip** box to specify *how many digits* to strip from the dialed number before placing the call. For example, if your organization requires outbound callers to hit 9 before dialing out, then the **Strip** field should contain 1, as that one number (9) will need to be removed for the dialed number to be recognized.  
-      ​  
+   2. **Dial/DID patterns:** Use a regex (Regular expression) to match the dial pattern you want to use. See page 27 of the [Synway user manual](https://www.synway.net/Download/Manual/UserManual/IPPBX_User_ManualV1.8.0.pdf) for examples.
+      ​
+      Use the **Strip** box to specify *how many digits* to strip from the dialed number before placing the call. For example, if your organization requires outbound callers to hit 9 before dialing out, then the **Strip** field should contain 1, as that one number (9) will need to be removed for the dialed number to be recognized.
+      ​
       The **Prepend** box is also optional, but useful. This box will prepend digits on the front of a dialed number before placing the call. *For example, if a trunk requires 10-digit-dialing, but users are more comfortable dialing only 7 under certain circumstances, the 3-digit area code can be prepended to the beginning of the number before the call is placed.*
    3. **Member Extensions:** Add member extensions for controlling the outbound call authority. Only those extensions selected have the authority to use this route. It must be filled in; otherwise the configuration will fail to be saved.
    4. **Member Gateways:** Select the trunk you just configured in step 3 (or if you have another trunk you wish to use, select that. You can also select multiple trunks). This must be filled in, otherwise the configuration will fail to save.
@@ -180,5 +181,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

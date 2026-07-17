@@ -1,29 +1,30 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130703-can-i-call-toll-free-with-my-telnyx-number
+title: "Can I call toll free with my Telnyx number?"
+description: "You can call anyone, anytime with your Telnyx number, including toll free. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 37e59e8ea352b1275a468eb6ad1665b47b0445db7f0516dcfce9b8a846139193
 ---
 
-Can I call toll free with my Telnyx number? | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Can I call toll free with my Telnyx number?
 
-You can call anyone, anytime with your Telnyx number, including toll free.
+You can call anyone, anytime with your Telnyx number, including toll free. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-January 10, 2024
 
-Table of contents
 
-# **Can I call toll free with my Telnyx number?**
+## **Can I call toll free with my Telnyx number?**
 
 You can call anyone, anytime with your Telnyx number, including toll free.
 
-You can also purchase domestic or international toll free numbers through Telnyx to receive inbound calls. Check out the [requirements here](https://support.telnyx.com/en/articles/5469551-international-numbers-required-documents)!  
-​  
+You can also purchase domestic or international toll free numbers through Telnyx to receive inbound calls. Check out the [requirements here](https://support.telnyx.com/en/articles/5469551-international-numbers-required-documents)!
+​
 United States and Canada both share the following toll free number codes:
 
 * **800**-XXX-XXXX
@@ -125,5 +126,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

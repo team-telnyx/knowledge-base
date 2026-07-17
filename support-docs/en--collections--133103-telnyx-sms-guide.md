@@ -1,22 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/collections/133103-telnyx-sms-guide
+title: "Telnyx SMS Guide"
+description: "Here you will find a collection of links that will explain how to build applications using our SMS offering. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 3721309c2f818da4dcbc33b66f915825f03000fb420f64ffc3f6daa6e57e5ef3
 ---
 
-Telnyx SMS Guide | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 
 
 # Telnyx SMS Guide
 
-Here you will find a collection of links that will explain how to build applications using our SMS offering.
+Here you will find a collection of links that will explain how to build applications using our SMS offering. See Telnyx guidance and requirements.
 
 K
 
-By Klane and 10 others11 authors292 articles
 
 [Group Messaging - Bulk Sending MMSLearn how to utilize Telnyx's API v2 to bulk send MMS to up to 8 recipients.](https://support.telnyx.com/en/articles/8255134-group-messaging-bulk-sending-mms)[P2P Definition and Exemption Process](https://support.telnyx.com/en/articles/8685561-p2p-definition-and-exemption-process)[Standards for US Short Code Keywords: HELP, STOP, and Opt-In ConfirmationManaging Autoresponses for US Short Codes. Start building on Telnyx today.](https://support.telnyx.com/en/articles/9311492-standards-for-us-short-code-keywords-help-stop-and-opt-in-confirmation)[Regulatory Guidelines for US Short Code Marketing and Opt-in ProceduresCall To Action Guidelines for Short Codes. Start building on Telnyx today.](https://support.telnyx.com/en/articles/9311566-regulatory-guidelines-for-us-short-code-marketing-and-opt-in-procedures)[10DLC Campaign Compliance RequirementsRequirements to get a 10DLC Campaign approved](https://support.telnyx.com/en/articles/9940291-10dlc-campaign-compliance-requirements)[US Short Code Ordering ProcessHow to order a Short Code via Telnyx in the US](https://support.telnyx.com/en/articles/10245573-us-short-code-ordering-process)[Short Code Brand and Content Provider Registration ProcessSCR Mandated Process to order new Short Codes and to renew existing Short Codes](https://support.telnyx.com/en/articles/10245615-short-code-brand-and-content-provider-registration-process)[Short Code Compliance Quick Reference GuideCarrier Requirements when ordering a short code](https://support.telnyx.com/en/articles/11385511-short-code-compliance-quick-reference-guide)
 

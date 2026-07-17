@@ -1,31 +1,32 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5619597-freepbx-v15-credentials-pjsip
+title: "FreePBX V15: Credentials - PJSIP"
+description: "Learn how to configure a FreePBX V15 Credentials trunk with Telnyx using… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: f12ce711ea60fa0b4e38f0e6a56d50d6cdf715fb07e9897a0d0fa50ce8aa2306
 ---
 
-FreePBX V15: Credentials - PJSIP | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # FreePBX V15: Credentials - PJSIP
 
-Learn how to configure a FreePBX V15 Credentials trunk with Telnyx using PJSIP
+Learn how to configure a FreePBX V15 Credentials trunk with Telnyx using… See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_ee68fbb156)
 
 [FreePBX](https://www.freepbx.org/) is a web-based open source GUI (graphical user interface) that controls and manages Asterisk (PBX), an open source communication server. FreePBX is licensed under the GNU General Public License (GPL), an open source license. FreePBX can be installed manually or as part of the pre-configured FreePBX Distro that includes the system OS, Asterisk, FreePBX GUI and assorted dependencies.
 
-PJSIP is an Open Source and separate extension of the Asterisk, and Asterisk derived systems. It provides a resource for assigning multiple trunks via SRV addresses, and more options. PJSIP also provides three main components of real-time multimedia application, i.e. signaling, media features, and NAT traversal, among other things that have been taken care of by PJSIP.  
-​  
+PJSIP is an Open Source and separate extension of the Asterisk, and Asterisk derived systems. It provides a resource for assigning multiple trunks via SRV addresses, and more options. PJSIP also provides three main components of real-time multimedia application, i.e. signaling, media features, and NAT traversal, among other things that have been taken care of by PJSIP.
+​
 We suggest using PJSIP as an upgrade from Chan\_SIP, as Chan\_SIP is outdated, and the majority of users are moving to PJSIP which provides a number of more future proof options, and is still actively being improved by the community. You can find out more about PJSIP [here](https://www.pjsip.org/about.htm).
 
 Additional documentation and resoruces:
@@ -35,7 +36,7 @@ Additional documentation and resoruces:
 
 ---
 
-# Instructions for Configuring a FreePBX V15 IP Trunk
+## Instructions for Configuring a FreePBX V15 IP Trunk
 
 In this activity you will:
 
@@ -81,24 +82,24 @@ In this section, you'll go through the steps you need to follow to install FreeP
    ![Active installer. ](_images/8cef83ffa2d55392.png)
 4. ### **You'll notice that the root password is not set. You will need to click on the root password box to set your root password. The installation process can not complete until this is done.**
 
-   
+
 5. ### **Type in your root password and confirm it a second time and click on the Done option in the top left screen.**
 
    ![Root password confirmation. ](_images/3eccab3bc7c6c046.png)
 6. ### **At this time the FreePBX package itself can take 15 or more minutes to install and does requires access to the internet so depending on your internet speeds it can take awhile to install so be patient.**
 
-   
+
 7. ### **Once the install has 100% completed it will give you a reboot option as shown below. Click on reboot your your system is now installed.**
 
-   
+
 8. ### **Once the process is complete, you'll reach the Linux console/command prompt login. You can log in here using the username "root" without quotes, and the Root password you selected earlier.**
 
-   
+
 
    ###
 9. ### **After you log in, you should see the IP address of your PBX as shown below. Take note of this IP address as you will need it in the next step.**
 
-   
+
 10. #### **Enter the IP address of the new PBX into your web browser. The first time you do so, you'll be asked to create the admin username and the admin password. That username and password will be used in the future to access the FreePBX configuration screen.** **Note:** These passwords do not change the Root password! They are only used for access to the FreePBX web interface.
 
     ![FreePBX support initial setup interface. ](_images/f1b313d0ae2f42a9.png)
@@ -159,9 +160,9 @@ In this section, you'll configure all your PJSIP extensions.
 
    ![Applications settings. ](_images/747c99ce86d00a77.png)
 
-   ***Note that*** *if you do not set an Outbound CID for your extension, you will need to enable this on your trunk.*  
-   ​  
-   This device uses **PJSIP** technology listening on Port 5060 (UDP)  
+   ***Note that*** *if you do not set an Outbound CID for your extension, you will need to enable this on your trunk.*
+   ​
+   This device uses **PJSIP** technology listening on Port 5060 (UDP)
    ​
 2. Click **Submit** and **Apply Config.**
 
@@ -180,7 +181,7 @@ For testing purposes, you can now use your SIP client to register with FreePBX u
 
    ![Trunk editing page. ](_images/61547513dae684da.png)
 
-   ***Note****: If you choose not to set an Outbound CID on your trunk, then you must set an Outbound CID on each relevant extension. If you do not set a caller ID on either the trunk or each extension, then your calls will reach our SIP proxy without a valid caller ID. You may instead choose to enable a Caller ID Override in your SIP Connection’s Outbound Options from within the Telnyx Portal. Please review our [caller ID number policy](https://support.telnyx.com/en/articles/3546251-caller-id-number-policy) for accepted formats.*  
+   ***Note****: If you choose not to set an Outbound CID on your trunk, then you must set an Outbound CID on each relevant extension. If you do not set a caller ID on either the trunk or each extension, then your calls will reach our SIP proxy without a valid caller ID. You may instead choose to enable a Caller ID Override in your SIP Connection’s Outbound Options from within the Telnyx Portal. Please review our [caller ID number policy](https://support.telnyx.com/en/articles/3546251-caller-id-number-policy) for accepted formats.*
    ​
 3. Proceed to the **Dialed Number Manipulation Rules** tab. Depending on your use case, we've provided a simple dial pattern US numbers below.
 
@@ -243,7 +244,7 @@ For testing purposes, you can now use your SIP client to register with FreePBX u
 | --- |
 | ***Note:*** *By default, when creating a SIP Connection in the Telnyx Mission Control Portal, the number formats for the ANI and DNIS will be set to E.164. This means Telnyx will send the dialled number in the SIP INVITE to your FreePBX system with 11 digits. As the [DID number](https://telnyx.com/resources/sip-did) above is in 11 digit format, the call will be accepted and routed to the extension. However, you can control the number formats as you desire and can read more about it [here](https://support.telnyx.com/en/articles/1130706-sip-connection-number-formats).* |
 
-That's it, you've now completed the configuration of FreePBX V15 Credentials PJSIP Trunk and can now make and receive calls by using Telnyx as your SIP provider.  
+That's it, you've now completed the configuration of FreePBX V15 Credentials PJSIP Trunk and can now make and receive calls by using Telnyx as your SIP provider.
 ​
 
 [Back to Top](#h_ee68fbb156)
@@ -271,5 +272,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

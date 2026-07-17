@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8685561-p2p-definition-and-exemption-process
+title: "P2P Definition and Exemption Process"
+description: "P2P (Person-to-Person) SMS traffic refers to the exchange of text messages between individuals, See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 93e09f7ae7e6ed891b3b789156efb3b560158789b6789946c7793b67776d852c
 ---
 
-P2P Definition and Exemption Process | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # P2P Definition and Exemption Process
 
-K
+P2P (Person-to-Person) SMS traffic refers to the exchange of text messages between individuals, See Telnyx guidance and requirements.
 
-Written by Klane Pedrie
 
-February 10, 2025
 
-Table of contents
 
-# P2P Traffic Definition and Exemption Process
+## P2P Traffic Definition and Exemption Process
 
 ## P2P Definition
 
@@ -71,5 +72,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

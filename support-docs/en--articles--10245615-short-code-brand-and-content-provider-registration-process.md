@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/10245615-short-code-brand-and-content-provider-registration-process
+title: "Short Code Brand and Content Provider Registration Process"
+description: "SCR Mandated Process to order new Short Codes and to renew existing Short… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 18cb804b0fc52e6e871630daa35d6bbd8a8a7ebe1637d96a817c20058c94ce82
 ---
 
-Short Code Brand and Content Provider Registration Process | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Short Code Brand and Content Provider Registration Process
 
-SCR Mandated Process to order new Short Codes and to renew existing Short Codes
+SCR Mandated Process to order new Short Codes and to renew existing Short… See Telnyx guidance and requirements.
 
 K
 
-Written by Klane Pedrie
 
-November 11, 2025
 
-Table of contents
 
-# New Mandatory Process Update for New AND Existing Short Codes
+## New Mandatory Process Update for New AND Existing Short Codes
 
 The Short Code Registry has introduced a new process for both ordering and renewing existing leases on Short Codes.
 
@@ -28,7 +29,7 @@ Starting now for New Short Code orders and on January 15th, 2025 for all existin
 
 1. Brand Registration Form
 2. Content Provider Form
-3. Complete an email verification by the Brand contact and Content Provider contact. The verification email will be sent by [certify@aegismobile.com](mailto:certify@aegismobile.com) or an email like [noreply@usshortcodes.com](mailto:noreply@usshortcodes.com).  
+3. Complete an email verification by the Brand contact and Content Provider contact. The verification email will be sent by [certify@aegismobile.com](mailto:certify@aegismobile.com) or an email like [noreply@usshortcodes.com](mailto:noreply@usshortcodes.com).
    ​
 
 For new Short Code Orders we will not be able to procure the short code itself until the brand registration and Content Provider registration is complete. The one caveat to this is that we can procure a "parked" short code which cannot be used for messaging during the process but the Short Code will not be able to achieve an "active" status where messages can be sent until the brand and content provider registration is complete.
@@ -52,5 +53,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

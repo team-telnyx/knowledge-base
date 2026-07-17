@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1177115-how-to-setup-a-did-to-sip-connection
+title: "How To Setup A DID to SIP Connection"
+description: "This article explains how to assign a DID to a SIP Connection and expounds on the different DID features in Mission… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 1cbbec2d92f7b93e426533bda893df569e3a278340a3bf0d2dae0db37f24af1d
 ---
 
-How To Setup A DID to SIP Connection | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How To Setup A DID to SIP Connection
 
-This article explains how to assign a DID to a SIP Connection and expounds on the different DID features in Mission Control portal
+This article explains how to assign a DID to a SIP Connection and expounds on the different DID features in Mission… See Telnyx guidance and requirements.
 
-Written by Alex Conroy
 
-April 29, 2026
 
-Table of contents
 
 A DID is needed in order to receive inbound calls from our network. You'll have to assign a registered connection on a DID in order to receive inbound calls.
 
-# Assigning a DID to a SIP Connection
+## Assigning a DID to a SIP Connection
 
 Follow these steps to assign a single DID to a SIP Connection on the PHONE NUMBERS section of the NUMBERS page:
 
@@ -66,5 +67,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

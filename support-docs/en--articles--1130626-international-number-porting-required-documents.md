@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130626-international-number-porting-required-documents
+title: "International Number Porting - Required Documents"
+description: "Telnyx offers detailed insights and resources for number portability across multiple international regions. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: d00b3b1497bc6a0d0216e210dadf7b2c6c390cb8a608996c1aa1cd27834ab104
 ---
 
-International Number Porting - Required Documents | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # International Number Porting - Required Documents
 
-Telnyx offers detailed insights and resources for number portability across multiple international regions.
+Telnyx offers detailed insights and resources for number portability across multiple international regions. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-March 6, 2025
 
-Table of contents
 
-# Submitting International Port Requests via Telnyx Portal
+## Submitting International Port Requests via Telnyx Portal
 
 To check the portability status of international numbers, please submit your port request via your Telnyx Portal account along with the below documentation (dependent upon the country).
 
@@ -45,5 +46,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,22 +1,24 @@
 ---
 source_url: https://support.telnyx.com/en/collections/3968237-telnyx-sip-trunking-configurations
+title: "Telnyx SIP Trunking Configurations"
+description: "Use Telnyx as your voice carrier with the compatible soft phone or pbx of your choice. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: fec02b478f9449de3333f4013b912380ba53497b7d8c46b9985c755324b7c119
 ---
 
-Telnyx SIP Trunking Configurations | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
 
 
 
 # Telnyx SIP Trunking Configurations
 
-Use Telnyx as your voice carrier with the compatible soft phone or pbx of your choice.
+Use Telnyx as your voice carrier with the compatible soft phone or pbx of your choice. See Telnyx guidance and requirements.
 
 C
 
-By Customer and 12 others13 authors199 articles
 
 [How to Configure a SIP TrunkStep-by-step guide on setting up a SIP Trunk with Telnyx using a compatible soft phone or system.](https://support.telnyx.com/en/articles/8096455-how-to-configure-a-sip-trunk)[How to configure a Thirdlane PBXIn this article we will walk you through how to configure a Thirdlane PBX IP trunk at Telnyx.](https://support.telnyx.com/en/articles/1130631-how-to-configure-a-thirdlane-pbx)[Bicom: PBXware SetupGuide to configure Bicom PBXware with Telnyx as the SMS provider for unified communication.](https://support.telnyx.com/en/articles/5138185-bicom-pbxware-setup)[How Telnyx Handles SRV Records for SIP CallsSRV Records for SIP calls](https://support.telnyx.com/en/articles/10666839-how-telnyx-handles-srv-records-for-sip-calls)[Configure P-Charge-Info for Private PBX (Example: FreePBX)Learn how to add a P-Charge-Info SIP header for calls made through your private PBX (using FreePBX as an example).](https://support.telnyx.com/en/articles/12580765-configure-p-charge-info-for-private-pbx-example-freepbx)[Configure Token Authentication Header (X-Telnyx-Token) in FreePBXAdd a Telnyx token-based authentication header to outbound SIP calls from your FreePBX PBX system.](https://support.telnyx.com/en/articles/12580952-configure-token-authentication-header-x-telnyx-token-in-freepbx)[[BETA] How to Verify Phone Numbers Using DTMF (Press 1 to Verify)Telnyx now supports DTMF-based phone number verification, which allows you to verify phone numbers by simply pressing 1 during a verification call.](https://support.telnyx.com/en/articles/13854980-beta-how-to-verify-phone-numbers-using-dtmf-press-1-to-verify)
 

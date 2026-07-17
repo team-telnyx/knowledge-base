@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6679448-svg-sms-guidelines
+title: "SVG SMS Guidelines"
+description: "Sending SMS to St Vincent & the Grenadines? See Telnyx guidance and requirements Learn more about SVG SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 996121803552719b4244fb65a3413e2099f6c7a69f3ff83889fdf20b94296e3f
 ---
 
-SVG SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # SVG SMS Guidelines
 
-Sending SMS to St Vincent & the Grenadines? Check out our comprehensive guidelines to ensure compliance in St Vincent & the Grenadines.
+Sending SMS to St Vincent & the Grenadines? See Telnyx guidance and requirements Learn more about SVG SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# Saint Vincent and the Grenadines: SMS Guidelines
+## Saint Vincent and the Grenadines: SMS Guidelines
 
-**MCC:** 360  
-​**Dial Code:** 1784  
-​  
+**MCC:** 360
+​**Dial Code:** 1784
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6561195-slovenia-sms-guidelines
+title: "Slovenia: SMS Guidelines"
+description: "Sending SMS to Slovenia? See Telnyx guidance and requirements Learn more about Slovenia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: fd59156267cf37e24394bc0ccff278bd09ab6740b6ac6b275c769d20aef43916
 ---
 
-Slovenia: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Slovenia: SMS Guidelines
 
-Sending SMS to Slovenia? Check out our comprehensive guidelines to ensure compliance in Slovenia.
+Sending SMS to Slovenia? See Telnyx guidance and requirements Learn more about Slovenia: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Slovenia: SMS Guidelines**
+## **Slovenia: SMS Guidelines**
 
-**MCC**: 293  
-​**Dial Code:** 386  
-​  
+**MCC**: 293
+​**Dial Code:** 386
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

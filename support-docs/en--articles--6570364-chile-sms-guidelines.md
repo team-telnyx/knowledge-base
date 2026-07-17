@@ -1,30 +1,31 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6570364-chile-sms-guidelines
+title: "Chile: SMS Guidelines"
+description: "SMS Guidelines for Chile including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Chile: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: d36fff307ab6565c99760c1af2e9cf5ac71658b29c2fba5ff8a5992c9cfc4037
 ---
 
-Chile: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Chile: SMS Guidelines
 
-SMS Guidelines for Chile including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Chile including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Chile: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-February 21, 2025
 
-Table of contents
 
-# **SMS Guidelines for Chile**
+## **SMS Guidelines for Chile**
 
-**MCC:** 730  
-​**Dial Code:** 56  
-​  
-All Alphanumeric Sender IDs will be overwritten to either a random Local Long Code or [Short Code](https://telnyx.com/products/sms-short-code) to ensure delivery.  
-​  
+**MCC:** 730
+​**Dial Code:** 56
+​
+All Alphanumeric Sender IDs will be overwritten to either a random Local Long Code or [Short Code](https://telnyx.com/products/sms-short-code) to ensure delivery.
+​
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
@@ -38,5 +39,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

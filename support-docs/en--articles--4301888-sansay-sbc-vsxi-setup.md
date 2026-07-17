@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4301888-sansay-sbc-vsxi-setup
+title: "Sansay: SBC VSXi Setup"
+description: "In this article we will walk you through configuring a Sansay SBC with the Telnyx Mission Control Portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: f317d2379363c8737d0e0138b52fbeb4826642bc4880e95f076b9d3fde21f95d
 ---
 
-Sansay: SBC VSXi Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Sansay: SBC VSXi Setup
 
-In this article we will walk you through configuring a Sansay SBC with the Telnyx Mission Control Portal.
+In this article we will walk you through configuring a Sansay SBC with the Telnyx Mission Control Portal. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-February 1, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_510f58a23f)
 
@@ -33,7 +34,7 @@ Additional resources:
 
 ---
 
-# Instructions for Configuring Sansay SBC's VSXi Session Controller
+## Instructions for Configuring Sansay SBC's VSXi Session Controller
 
 In this activity you will:
 
@@ -69,7 +70,7 @@ In this section, you'll configure the SIP server information for inbound trunks.
    1. **Resource Type:** *Inbound*
    2. **Resource Type:** *Peering*
    3. **Protocol:** *SIP*
-   4. **SIP Profile:** *SIP\_Peering:0*  
+   4. **SIP Profile:** *SIP\_Peering:0*
       ​
 
    Under **General Info**
@@ -119,8 +120,8 @@ In this section, you'll configure the SIP server information for inbound trunks.
 
    Under **Fqdns Info:**
 
-   1. Depending on which of our SIP Proxies and media servers you interact with, based on your location, we recommend reviewing our [signalling IP addresses](https://sip.telnyx.com/#signaling-addresses) & [media IP addresses](https://sip.telnyx.com/#media) articles.  
-      ​  
+   1. Depending on which of our SIP Proxies and media servers you interact with, based on your location, we recommend reviewing our [signalling IP addresses](https://sip.telnyx.com/#signaling-addresses) & [media IP addresses](https://sip.telnyx.com/#media) articles.
+      ​
       Signalling IPs:
 
       ![SIP signaling addresses for Outbound Calls. ](_images/ac264450a060b368.png)
@@ -141,7 +142,7 @@ In this section, you'll configure the SIP server information for outbound trunks
    1. **Resource Type:** *Outbound*
    2. **Resource Type:** *Peering*
    3. **Protocol:** *SIP*
-   4. **SIP Profile:** *SIP\_Peering:0*  
+   4. **SIP Profile:** *SIP\_Peering:0*
       ​
 
    Under **General Info**
@@ -191,8 +192,8 @@ In this section, you'll configure the SIP server information for outbound trunks
 
    Under **Fqdns Info:**
 
-   1. Depending on which of our SIP Proxies and media servers you interact with, based on your location, we recommend reviewing our [signalling IP addresses](https://sip.telnyx.com/#signaling-addresses) & [media IP addresses](https://sip.telnyx.com/#media) articles.  
-      ​  
+   1. Depending on which of our SIP Proxies and media servers you interact with, based on your location, we recommend reviewing our [signalling IP addresses](https://sip.telnyx.com/#signaling-addresses) & [media IP addresses](https://sip.telnyx.com/#media) articles.
+      ​
       Signalling IPs
 
       ![Signaling addresses for Outbound Calls. ](_images/ac264450a060b368.png)
@@ -228,5 +229,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

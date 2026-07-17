@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3231942-forwarding-sms-to-your-mobile-number
+title: "Forwarding SMS to Your Mobile Number"
+description: "Set up SMS forwarding from your Telnyx number to your mobile phone with… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: d24fdc801a0fea18759deda195635698b6e41638f30f9e0400198e2413a5c41e
 ---
 
-Forwarding SMS to Your Mobile Number | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Forwarding SMS to Your Mobile Number
 
-Set up SMS forwarding from your Telnyx number to your mobile phone with Zapier
+Set up SMS forwarding from your Telnyx number to your mobile phone with… See Telnyx guidance and requirements.
 
-Written by Nobin Bera
 
-January 24, 2026
 
-Table of contents
 
 ## **Overview**
 
@@ -44,13 +45,13 @@ Before you begin, ensure you have the following:
 
 1. Visit the Telnyx Zapier Integration page: <https://zapier.com/apps/telnyx/integrations>
 2. Click **Connect** to add Telnyx to your Zapier account
-3. If prompted, sign in to your Zapier account  
+3. If prompted, sign in to your Zapier account
    ​
 
 ## **Step 2: Create a New Zap**
 
 1. Go to your Zapier Dashboard: <https://zapier.com/app/dashboard>
-2. Click **Create Zap** (or **Make a Zap!**) in the top-right corner  
+2. Click **Create Zap** (or **Make a Zap!**) in the top-right corner
    ​
 
 ## **Step 3: Configure the Trigger (Receive a Message)**
@@ -70,7 +71,7 @@ Before you begin, ensure you have the following:
 1. Click **Test Trigger** (or **Find Message**)
 2. Zapier will pull in a sample inbound message webhook to set up the action stage
 3. If successful, you'll see sample message data
-4. Click **Continue** to proceed to the Action step  
+4. Click **Continue** to proceed to the Action step
    ​
 
 ## **Step 5: Configure the Action (Send SMS)**
@@ -79,7 +80,7 @@ Before you begin, ensure you have the following:
 2. Under **Choose Action Event**, select **Send SMS**
 3. Click **Continue**
 4. Select your Telnyx account (or sign in if prompted)
-5. Click **Continue**  
+5. Click **Continue**
    ​
 
 ## **Step 6: Customize the SMS Settings**
@@ -96,13 +97,13 @@ Configure the following fields:
 For the **Message Content** field, enter something like:
 
 ```
-FWD FROM: [From Phone Number]   
+FWD FROM: [From Phone Number]
 BODY: [Text]
 ```
 
 **Note:** "From Phone Number" and "Text" are dynamic fields from the trigger. Use the dropdown on the right side of the Message Content field to insert these variables into your message body.
 
-* Click **Continue**  
+* Click **Continue**
   ​
 
 ## **Step 7: Test Your Zap**
@@ -149,5 +150,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

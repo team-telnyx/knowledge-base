@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8268140-android-push-notification-setup
+title: "Android Push Notification Setup"
+description: "Integrate Android push notifications with Telnyx's WebRTC SDK. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: b76e8e6abda45a6755788988251fa7ddf3bc92c99bc3199e5c774de92aff4044
 ---
 
-Android Push Notification Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# Android Push Notification Setup
 
-Integrate Android push notifications with Telnyx's WebRTC SDK. Start here!
 
-Written by David
 
-May 20, 2026
-
-Table of contents
 
 # Android Push Notification Setup
+
+Integrate Android push notifications with Telnyx's WebRTC SDK. See Telnyx guidance and requirements.
+
+
+
+
+## Android Push Notification Setup
 
 The Telnyx Android Client WebRTC SDK makes use of Firebase Cloud Messaging in order to deliver push notifications. If you would like to receive notifications when receiving calls on your Android mobile device you will have to enable Firebase Cloud Messaging within your application.
 
@@ -115,5 +116,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

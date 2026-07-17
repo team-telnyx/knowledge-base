@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130672-fax-service-with-telnyx-via-t-38-or-g711
+title: "Fax service with Telnyx (via T.38 or G711)"
+description: "Learn more about setting up fax service with Telnyx using either T.38 or g711. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 942daef381f34056027c75b945d4aef8b6c35bdea0818e57e665938ab14acab5
 ---
 
-Fax service with Telnyx (via T.38 or G711) | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Fax service with Telnyx (via T.38 or G711)
 
-Learn more about setting up fax service with Telnyx using either T.38 or g711.
+Learn more about setting up fax service with Telnyx using either T.38 or g711. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-June 6, 2024
 
-Table of contents
 
 Setting up Fax on [Telnyx Mission Control](https://portal.telnyx.com) portal can be done with just a few clicks.
 
-# Setting up Outbound Fax
+## Setting up Outbound Fax
 
 ### **Create a SIP Connection**
 
@@ -97,5 +98,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

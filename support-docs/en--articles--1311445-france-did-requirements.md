@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1311445-france-did-requirements
+title: "France DID Requirements"
+description: "Here you will find a detailed list of requirements to acquire numbers in France. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ff291c213966e42f33666739ec3ad6fdb17506f593478b5c24c2538833e0d9da
 ---
 
-France DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # France DID Requirements
 
-Here you will find a detailed list of requirements to acquire numbers in France.
+Here you will find a detailed list of requirements to acquire numbers in France. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-May 26, 2026
 
-Table of contents
 
-# DID Number Requirements for France
+## DID Number Requirements for France
 
 In order to purchase a France number you will need to provide the following:
 
@@ -28,7 +29,7 @@ For **personal identity** verification:
 
 \* Name, last name
 
-\* Contact phone number  
+\* Contact phone number
 \* Local Copy of ID or Passport
 
 For **business identity** verification:
@@ -43,10 +44,10 @@ For **business identity** verification:
 
 For **address** verification:
 
-\* Address in France (street, building number, postal code, city, and country)  
-\* Proof of Address (dated within 3 months)  
-​  
-Additional details:   
+\* Address in France (street, building number, postal code, city, and country)
+\* Proof of Address (dated within 3 months)
+​
+Additional details:
 \* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **National Numbers in France**
@@ -55,7 +56,7 @@ For **personal identity** verification:
 
 \* Name, last name
 
-\* Contact phone number  
+\* Contact phone number
 \* Local Passport or ID copy
 
 For **business identity** verification:
@@ -70,10 +71,10 @@ For **business identity** verification:
 
 For **address** verification:
 
-\* Address in France (street, building number, postal code, city, and country)  
-\* Proof of Address (dated within 3 months)  
-​  
-Additional details:   
+\* Address in France (street, building number, postal code, city, and country)
+\* Proof of Address (dated within 3 months)
+​
+Additional details:
 \* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **Toll-Free Numbers in France**
@@ -84,26 +85,26 @@ For **business identity** verification:
 
 \* Company name
 
-\* Contact phone number  
+\* Contact phone number
 \* Local Company registration certificate
 
 \* Company Registration Number (SIREN number)
 
 For **address** verification:
 
-\* Address in France (street, building number, postal code, city, and country)  
+\* Address in France (street, building number, postal code, city, and country)
 \* Proof of Address (dated within 3 months)
 
-Additional details:   
-\* End-users must be physically present in the country when purchasing numbers from that country  
+Additional details:
+\* End-users must be physically present in the country when purchasing numbers from that country
 \*Business use required: Business use is required, private use is not allowed.
 
 \*Please note that once the documentation is received it will take approximately 72 hours to validate the information and activate the number for use.
 
 ## **Identity Verification: What "Local" Means**
 
-For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.  
-​  
+For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.
+​
 All identification is subject to review, and we reserve the right to request additional documentation or decline any document we cannot verify or that does not meet applicable legal and regulatory requirements.
 
 ## **Helpful for acquiring France DIDs**
@@ -147,5 +148,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

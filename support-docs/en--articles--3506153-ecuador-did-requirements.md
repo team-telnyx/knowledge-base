@@ -1,30 +1,31 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3506153-ecuador-did-requirements
+title: "Ecuador DID Requirements"
+description: "Here you will find a detailed list of requirements to acquire Ecuador numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 68212d080af863168de939f1554ecb948f8d69f77c03a0453ed5fb99f27033c9
 ---
 
-Ecuador DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Ecuador DID Requirements
 
-Here you will find a detailed list of requirements to acquire Ecuador numbers.
+Here you will find a detailed list of requirements to acquire Ecuador numbers. See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-January 22, 2026
 
-Table of contents
 
-# DID Number Requirements for Ecuador
+## DID Number Requirements for Ecuador
 
 In order to purchase an Ecuador number you will need to provide the following:
 
 ## **Toll-Free Numbers in Ecuador**
 
-For **personal identity** verification:  
+For **personal identity** verification:
 \* Name, last name
 
 \* Contact phone number
@@ -39,9 +40,9 @@ For **business identity** verification:
 
 \* Contact phone number
 
-\* Signed LOI (dated within 1 month)  
-​  
-For **address** verification:  
+\* Signed LOI (dated within 1 month)
+​
+For **address** verification:
 \* Address worldwide (street, building number, postal code, city, and country)
 
 ## **Mobile Numbers in Ecuador**
@@ -113,5 +114,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

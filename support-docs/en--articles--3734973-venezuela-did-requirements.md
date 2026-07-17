@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3734973-venezuela-did-requirements
+title: "Venezuela DID Requirements"
+description: "Here you will find a detailed list of requirements for acquiring numbers in Venezuela. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 7cc2a3ba93308bec5c93684bc10594eaf114b6d074e419e39dd1502a2e106682
 ---
 
-Venezuela DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Venezuela DID Requirements
 
-Here you will find a detailed list of requirements for acquiring numbers in Venezuela.
+Here you will find a detailed list of requirements for acquiring numbers in Venezuela. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-June 20, 2024
 
-Table of contents
 
-# DID Number Requirements for Venezuela
+## DID Number Requirements for Venezuela
 
 In order to purchase a Venezuela number you will need to provide the following:
 
@@ -123,5 +124,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

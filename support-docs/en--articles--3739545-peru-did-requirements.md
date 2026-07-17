@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3739545-peru-did-requirements
+title: "Peru DID Requirements"
+description: "Here you will find a detailed list of requirements for acquiring numbers in Peru. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: dee737f21f5a7f1dea1ef7db2d834b67d49bff87c0c0e68eaa08cb0162833fd4
 ---
 
-Peru DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Peru DID Requirements
 
-Here you will find a detailed list of requirements for acquiring numbers in Peru.
+Here you will find a detailed list of requirements for acquiring numbers in Peru. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-September 29, 2025
 
-Table of contents
 
-# DID Number Requirements for Peru
+## DID Number Requirements for Peru
 
 In order to purchase a Peru number you will need to provide the following:
 
@@ -46,7 +47,7 @@ For **address** verification:
 
 ## **Toll-Free Numbers in Peru**
 
-For **business identity** verification:  
+For **business identity** verification:
 \* Name, last name of an authorized representative
 
 \* Company name
@@ -130,5 +131,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

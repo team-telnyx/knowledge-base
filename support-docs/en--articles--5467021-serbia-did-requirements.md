@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5467021-serbia-did-requirements
+title: "Serbia DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Serbian numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: dce1cce712532b0218e0e878c6a4028047c1fc7676909689cd6d60388cdd11e4
 ---
 
-Serbia DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Serbia DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Serbian numbers.
+Here you will find a list of detailed requirements for acquiring Serbian numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-April 22, 2026
 
-Table of contents
 
-# DID Number Requirements for Serbia
+## DID Number Requirements for Serbia
 
 In order to purchase a Serbia number you will need to provide the following:
 
@@ -87,5 +88,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

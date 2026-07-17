@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3562066-receive-a-text-with-the-telnyx-python-sdk
+title: "Receive a Text with the Telnyx Python SDK"
+description: "Here you will find a video guide to using the Telnyx Python SDK to receive a text. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 0ef11e5f0fd5cd43f8cf988923a4d40589d0817aee6966de86340060a054c8d4
 ---
 
-Receive a Text with the Telnyx Python SDK | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Receive a Text with the Telnyx Python SDK
 
-Here you will find a video guide to using the Telnyx Python SDK to receive a text.
+Here you will find a video guide to using the Telnyx Python SDK to receive a text. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-June 6, 2024
 
-Table of contents
 
-# **Video Walk-through to Receiving a Text with the Python SDK**
+## **Video Walk-through to Receiving a Text with the Python SDK**
 
 Watch the video below to learn how to us the [Telnyx Python SDK](https://developers.telnyx.com/docs/development/developer-setup) to receive an inbound text message:
 
@@ -35,5 +36,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

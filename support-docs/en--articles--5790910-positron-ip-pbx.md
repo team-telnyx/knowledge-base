@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5790910-positron-ip-pbx
+title: "Positron IP PBX"
+description: "Learn how to configure your Positron IP PBX to make and receive outgoing and incoming calls using Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 5f885ddffef76ec817f39c1d9753766fd8dbf699f9042fe1622a1cd7997710c9
 ---
 
-Positron IP PBX | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Positron IP PBX
 
-Learn how to configure your Positron IP PBX to make and receive outgoing and incoming calls using Telnyx.
+Learn how to configure your Positron IP PBX to make and receive outgoing and incoming calls using Telnyx. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_1a18b00218)
 
@@ -36,7 +37,7 @@ Additional documentation and resources:
 
 ---
 
-# Instructions for configuring Positron IP PBX to work with Telnyx
+## Instructions for configuring Positron IP PBX to work with Telnyx
 
 In this activity you will:
 
@@ -144,5 +145,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

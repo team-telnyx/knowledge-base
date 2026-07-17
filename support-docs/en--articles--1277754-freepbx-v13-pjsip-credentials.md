@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1277754-freepbx-v13-pjsip-credentials
+title: "FreePBX V13: PJSIP Credentials"
+description: "In this article we will explain how to configure a FreePBX PJSIP V13 Credentials Trunk with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 304f65e7ea059836804d95223e80b6075f783b667ebcc89ebc1e2dfc376cc268
 ---
 
-FreePBX V13: PJSIP Credentials | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # FreePBX V13: PJSIP Credentials
 
-In this article we will explain how to configure a FreePBX PJSIP V13 Credentials Trunk with Telnyx.
+In this article we will explain how to configure a FreePBX PJSIP V13 Credentials Trunk with Telnyx. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#instructions-to-configure-a-freepbx-pjsip-v13)
 
@@ -35,7 +36,7 @@ Additional documentation and resources:
 
 ---
 
-# Instructions to Configure a FreePBX PJSIP V13
+## Instructions to Configure a FreePBX PJSIP V13
 
 In this activity you will:
 
@@ -111,10 +112,10 @@ The default behavior of FreePBX version 13 is to use chan\_pjsip for endpoints a
 3. Once you've completed this, click **Submit** and then **Apply Config.**
 
    ![FreePBX settings section.](_images/55db9cb34da2bcff.png)
-4. Now go to **Applications -> Extensions > Add Extension > Add New Chan SIP Extension.** The **Outbound CID** is the [number you purchased](https://portal.telnyx.com/#/app/numbers/my-numbers) from your Telnyx Mission Control Portal. The extensions secret may need to be populated under the **Other** tab.  
-   ​  
-   ​*Note that if you do not set an Outbound CID for your Extension, you must enable this on your trunk. See the [Pre-requisites](https://support.telnyx.com/en/articles/1130648-configuring-a-freepbx-v13-credentials-trunk#h_b67fe20e22) section.*  
-   ​  
+4. Now go to **Applications -> Extensions > Add Extension > Add New Chan SIP Extension.** The **Outbound CID** is the [number you purchased](https://portal.telnyx.com/#/app/numbers/my-numbers) from your Telnyx Mission Control Portal. The extensions secret may need to be populated under the **Other** tab.
+   ​
+   ​*Note that if you do not set an Outbound CID for your Extension, you must enable this on your trunk. See the [Pre-requisites](https://support.telnyx.com/en/articles/1130648-configuring-a-freepbx-v13-credentials-trunk#h_b67fe20e22) section.*
+   ​
    ​*Note: This device uses CHAN\_SIP technology listening on Port 5160 (UDP - this is a NON STANDARD port).*
 5. Click **Submit** and **Apply Config.**
 6. Navigate to **Settings > Advanced Settings > Dialplan > Operational > SIP Channel Driver**.
@@ -143,7 +144,7 @@ The default behavior of FreePBX version 13 is to use chan\_pjsip for endpoints a
        * prepend:blank; match pattern: (Country Dialing prefix)*NXXNXXXXXX*
 
        ![Dialed manipulation rules tab. ](_images/8433bb072b1f57dd.png)
-11. Click on the **PJSIP Settings** tab and on the **General** sub-tab.  
+11. Click on the **PJSIP Settings** tab and on the **General** sub-tab.
     ​
 
     ### Provide the Following Properties:
@@ -190,13 +191,13 @@ You will want to make sure you define routes for all types of calls. Not definin
    5. **Trunk Sequence for Matched Routes :** Select the trunk you just created in [section 2](#chanpjsip-trunkconfiguration).
 
       ![Outbound rates configuration settings. ](_images/03a0db6e3b8b108c.png)
-3. Now select the **Dial Patterns** tab to the right of the **Route Settings** tab and enter dial patterns exactly as you see in the following image. This pattern allows you to dial 10 Digits (U.S. Calling), 11 Digits (North American Calling).   
-   ​  
+3. Now select the **Dial Patterns** tab to the right of the **Route Settings** tab and enter dial patterns exactly as you see in the following image. This pattern allows you to dial 10 Digits (U.S. Calling), 11 Digits (North American Calling).
+   ​
    ​*If you need dial patterns for a region outside North America, please contact Telnyx support.*
 
    ![Dial patterns section of outbound rates. ](_images/b1b53778bd839984.png)
 
-   ***Note*** *that our current documentation portal shrinks screenshots, making some detail difficult to see. Right-click on the image above and select "Open image in new tab" from the context menu. This will open the image in a new tab and display it at its full size and resolution.*  
+   ***Note*** *that our current documentation portal shrinks screenshots, making some detail difficult to see. Right-click on the image above and select "Open image in new tab" from the context menu. This will open the image in a new tab and display it at its full size and resolution.*
    ​
 4. Click **Submit**, then **Apply Config**.
 
@@ -209,8 +210,8 @@ When a call comes in from the outside, it'll need to be directed from sip.telnyx
 In this section, we'll configure our own inbound routes.
 
 1. Make your way to **Connectivity -> Inbound Routes** and open the **General** tab.
-2. The following image demonstrates an inbound route that will send *ANY* call to a certain extension.   
-   ​  
+2. The following image demonstrates an inbound route that will send *ANY* call to a certain extension.
+   ​
    To direct a specific number to a specific extension you would create a route and set the "[DID Number](https://telnyx.com/resources/sip-did)" field to your 11 digit DID with sip.telnyx.com (for instance : [12172031700](http://#)).
 
 ![Inbound routes configuration section. ](_images/1a1b59fcbfca0746.png)
@@ -247,5 +248,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

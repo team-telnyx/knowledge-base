@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3679260-frequently-asked-questions-about-10dlc
+title: "Frequently asked questions about 10DLC"
+description: "10DLC is the mandatory compliance framework for USA long-code SMS & MMS… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 1137a07baf13fe64132a3219624937bbbc57bba59e3b758b65c2af66d4e002f7
 ---
 
-Frequently asked questions about 10DLC | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Frequently asked questions about 10DLC
 
-10DLC is the mandatory compliance framework for USA long-code SMS & MMS traffic
+10DLC is the mandatory compliance framework for USA long-code SMS & MMS… See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-January 23, 2025
 
-Table of contents
 
 ***⚠️ Looking for 10DLC costs / fees? Check out [10DLC Fees and Charges](https://support.telnyx.com/en/articles/5634625-10dlc-fees-and-charges)***
 
 ---
 
-# **10 Digit Long Code (10DLC) Introduction & Contents**
+## **10 Digit Long Code (10DLC) Introduction & Contents**
 
 ***UPDATE: From February 3rd 2025, any 10DLC traffic which is not registered will be blocked altogether.***
 
@@ -370,5 +371,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

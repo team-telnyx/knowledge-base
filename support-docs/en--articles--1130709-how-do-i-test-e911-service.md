@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130709-how-do-i-test-e911-service
+title: "How do I test E911 service?"
+description: "Do you need to test e911 services with Telnyx. See Telnyx guidance and requirements Learn more about How do I test E911 service? with Telnyx."
 scraped: 2026-07-08
 content_hash: dfcf0ba993de0fd32fbf87795885842de6cc3c8c22a85b90f4e86f61b49a34e7
 ---
 
-How do I test E911 service? | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How do I test E911 service?
 
-Do you need to test e911 services with Telnyx. It's easy, just follow these simple instructions.
+Do you need to test e911 services with Telnyx. See Telnyx guidance and requirements Learn more about How do I test E911 service? with Telnyx.
 
-Written by Telnyx Sales
 
-May 20, 2026
 
-Table of contents
 
 **Please note: Not registering an address or enabling emergency services for numbers used for emergency calls will result in those calls being considered unregistered, incurring a $100 penalty.**
 
-# How do I test E911 service?
+## How do I test E911 service?
 
 Use `933` to test that your Telnyx E911 configuration is returning the expected emergency address. `933` is the routine test path for E911 validation in the United States and Canada.
 
@@ -127,5 +128,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

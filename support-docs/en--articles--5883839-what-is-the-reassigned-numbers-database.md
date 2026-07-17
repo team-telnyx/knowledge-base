@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5883839-what-is-the-reassigned-numbers-database
+title: "What is the Reassigned Numbers Database"
+description: "Explore the FCC's Reassigned Numbers Database, designed to track permanently disconnected numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: d9cee1dd07e51e4df40626dbca4595f63c0bfa52827c904524a8a59c8cdf6554
 ---
 
-What is the Reassigned Numbers Database | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # What is the Reassigned Numbers Database
 
-Explore the FCC's Reassigned Numbers Database, designed to track permanently disconnected numbers. Learn how Telnyx ensures compliance.
+Explore the FCC's Reassigned Numbers Database, designed to track permanently disconnected numbers. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-September 26, 2023
 
-Table of contents
 
-# Reassigned Numbers Database
+## Reassigned Numbers Database
 
 In December 2018, the FCC authorized the establishment of the [Reassigned Numbers Database](https://www.fcc.gov/reassigned-numbers-database). The aim of the database is to enable callers to determine whether a telephone number has been permanently disconnected. This allows the caller to know if the telephone number is no longer assigned to the person they want to reach.
 
@@ -39,5 +40,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

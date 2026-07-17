@@ -1,31 +1,32 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6964207-use-cyberduck-with-telnyx-storage
+title: "Use Cyberduck with Telnyx Storage"
+description: "Learn how to set up Cyberduck, a popular FTP client, with Telnyx Storage for seamless file transfer and storage… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 70d02d11e29171a6f79c4879dd8997e2bb1da0cb4827dd798bc793ec834dfa29
 ---
 
-Use Cyberduck with Telnyx Storage | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Use Cyberduck with Telnyx Storage
 
-Learn how to set up Cyberduck, a popular FTP client, with Telnyx Storage for seamless file transfer and storage management.
+Learn how to set up Cyberduck, a popular FTP client, with Telnyx Storage for seamless file transfer and storage… See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-June 6, 2024
 
-Table of contents
 
 [Cyberduck](https://cyberduck.io/) is a free, open-source file transfer client for macOS and Windows. With Cyberduck, you can easily upload, download, and manage files, as well as perform advanced operations such as setting object metadata, versioning, and lifecycle policies.
 
 ---
 
-# How to configure Cyberduck to work with Telnyx Storage
+## How to configure Cyberduck to work with Telnyx Storage
 
 1. Download and install the latest version of Cyberduck [here](https://cyberduck.io/download/)!
-2. Open the Cyberduck application. Then, click on the option to Open Connection  
+2. Open the Cyberduck application. Then, click on the option to Open Connection
    ​
 
    ![Options dropdown of the Open Connection section of the Cybertruck application ](_images/bd5402deb4937df2.png)
@@ -65,5 +66,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

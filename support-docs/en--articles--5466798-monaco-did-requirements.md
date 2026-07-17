@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5466798-monaco-did-requirements
+title: "Monaco DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Monaco numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: e6077c0f39be6bf1d23f26baf4f02aedcb66e31a53ca929b38a8a065e4f4e35c
 ---
 
-Monaco DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Monaco DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Monaco numbers.
+Here you will find a list of detailed requirements for acquiring Monaco numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-September 29, 2025
 
-Table of contents
 
-# DID Number Requirements for Monaco
+## DID Number Requirements for Monaco
 
 In order to purchase a Monaco number you will need to provide the following:
 
@@ -89,5 +90,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

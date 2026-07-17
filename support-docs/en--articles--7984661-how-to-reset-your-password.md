@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/7984661-how-to-reset-your-password
+title: "How To Reset Your Password"
+description: "In this guide you will cover how you can reset/update your Telnyx account… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 34cc91e5cb14e5b8a008528f47a9795b3883a9b27d8dcd0c638423973b2119a0
 ---
 
-How To Reset Your Password | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How To Reset Your Password
 
-In this guide you will cover how you can reset/update your Telnyx account password
+In this guide you will cover how you can reset/update your Telnyx account… See Telnyx guidance and requirements.
 
-Written by Alex Conroy
 
-January 21, 2026
 
-Table of contents
 
-# Recover Telnyx Account Password
+## Recover Telnyx Account Password
 
 **Your password must contain at least one punctuation mark or symbol, must contain at least one upper-case letter and may not be any shorter than 12 characters.**
 
@@ -28,8 +29,8 @@ In this guide, you will find step-by-step instructions to recover/update the pas
 
 Let’s get started.
 
-You can recover/reset the Telnyx password by two methods:  
-1. Reset the Password Via Sign-In Page  
+You can recover/reset the Telnyx password by two methods:
+1. Reset the Password Via Sign-In Page
 2. Reset the Password from Account Settings
 
 ## Method 1:
@@ -95,5 +96,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

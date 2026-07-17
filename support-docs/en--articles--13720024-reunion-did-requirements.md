@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/13720024-reunion-did-requirements
+title: "Reunion DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Reunion numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ebd2451895142e564d82f2fbf7a7a21374e64e6250c4d76d1e7b71bdb52629e0
 ---
 
-Reunion DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Reunion DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Reunion numbers.
+Here you will find a list of detailed requirements for acquiring Reunion numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-February 12, 2026
 
-Table of contents
 
-# **DID Number Requirements for** Reunion
+## **DID Number Requirements for** Reunion
 
 In order to purchase a Reunion number you will need to provide the following:
 
@@ -53,5 +54,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

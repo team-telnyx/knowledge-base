@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130682-telnyx-stun-and-turn-server
+title: "Telnyx STUN and TURN server"
+description: "In this article we will explain how you can leverage Telnyx's STUN server. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 513109c940d9019da1193d7894eaed3298876755d97cdf2c75bd670d86c8c642
 ---
 
-Telnyx STUN and TURN server | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Telnyx STUN and TURN server
 
-In this article we will explain how you can leverage Telnyx's STUN server.
+In this article we will explain how you can leverage Telnyx's STUN server. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-April 7, 2026
 
-Table of contents
 
-# Seamless Communication with Telnyx's STUN and TURN server
+## Seamless Communication with Telnyx's STUN and TURN server
 
 In the ever-evolving world of internet communication, ensuring clear and uninterrupted calls can sometimes feel like navigating a maze. This is especially true in the realm of Voice over Internet Protocol (VoIP), where traditional networking techniques can create hurdles. That's where Telnyx steps in, offering a solution designed to streamline your VoIP experience: our STUN server.
 
@@ -26,7 +27,7 @@ In the ever-evolving world of internet communication, ensuring clear and uninter
 
 At its core, a Session Traversal Utilities for NAT (STUN) server is a tool designed to improve communication through Network Address Translation (NAT). NAT is a method used to remap one IP address space into another by modifying network address information in the IP header of packets while they are in transit across a traffic routing device. This is common in companies and homes with multiple devices connecting to the internet through a single router, but it can complicate direct communication between devices on different networks.
 
-STUN servers enable devices behind a NAT to find out their public-facing IP and port number - critical information for establishing direct connections. This is particularly vital for VoIP technologies, where direct paths ensure lower latency and higher call quality.  
+STUN servers enable devices behind a NAT to find out their public-facing IP and port number - critical information for establishing direct connections. This is particularly vital for VoIP technologies, where direct paths ensure lower latency and higher call quality.
 ​
 
 ## Telnyx's STUN Server: Enhancing Your VoIP Connectivity
@@ -54,5 +55,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

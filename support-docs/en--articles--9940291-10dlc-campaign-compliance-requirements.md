@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/9940291-10dlc-campaign-compliance-requirements
+title: "10DLC Campaign Compliance Requirements"
+description: "Requirements to get a 10DLC Campaign… See Telnyx guidance and requirements Learn more about 10DLC Campaign Compliance Requirements with Telnyx."
 scraped: 2026-07-08
 content_hash: 93cfb8acec35799dea359c45b373620d2a37db9d4b12700ef90e8bc7a3bb438a
 ---
 
-10DLC Campaign Compliance Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # 10DLC Campaign Compliance Requirements
 
-Requirements to get a 10DLC Campaign approved
+Requirements to get a 10DLC Campaign… See Telnyx guidance and requirements Learn more about 10DLC Campaign Compliance Requirements with Telnyx.
 
 K
 
-Written by Klane Pedrie
 
-November 6, 2025
 
-Table of contents
 
-# 10DLC Campaign Compliance Requirements
+## 10DLC Campaign Compliance Requirements
 
 ## 10DLC requirement changes to highlight
 
@@ -231,7 +232,7 @@ The following SMS program disclosures must be included within the terms and cond
 
 • “Message and data rates may apply” disclosure. (not required for FTEU rated programs)
 
-It must include the types of messages consumers can expect to receive, texting cadence, message and data rate notices, any associated costs, privacy policy, opt-out instructions and other terms of use.  
+It must include the types of messages consumers can expect to receive, texting cadence, message and data rate notices, any associated costs, privacy policy, opt-out instructions and other terms of use.
 ​
 
 ## Sample messages
@@ -311,5 +312,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

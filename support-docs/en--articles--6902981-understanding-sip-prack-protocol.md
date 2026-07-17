@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6902981-understanding-sip-prack-protocol
+title: "Understanding SIP PRACK Protocol"
+description: "Deep dive into SIP PRACK protocol, its significance, and how Telnyx supports it. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 4514f8763cf3cc74854ce25af41e23f13624e2a1c8558ef2146303320ce641e3
 ---
 
-Understanding SIP PRACK Protocol | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Understanding SIP PRACK Protocol
 
-Deep dive into SIP PRACK protocol, its significance, and how Telnyx supports it.
+Deep dive into SIP PRACK protocol, its significance, and how Telnyx supports it. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-May 25, 2024
 
-Table of contents
 
-# **SIP - PRACK**
+## **SIP - PRACK**
 
 ## **Introduction to PRACK**
 
@@ -60,5 +61,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

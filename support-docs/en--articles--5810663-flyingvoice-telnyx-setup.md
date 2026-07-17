@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5810663-flyingvoice-telnyx-setup
+title: "Flyingvoice: Telnyx Setup"
+description: "Learn how to set up and configure your Flyingvoice IP phone to work with… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 7db91b66d6820f525fc429ec49f5594d6d03ebf734821adbdce577c2bc5558f4
 ---
 
-Flyingvoice: Telnyx Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Flyingvoice: Telnyx Setup
 
-Learn how to set up and configure your Flyingvoice IP phone to work with Telnyx
+Learn how to set up and configure your Flyingvoice IP phone to work with… See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-February 1, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_afd494eb76)
 
@@ -34,7 +35,7 @@ This guide will cover setup for [the entire range of Flyingvoice IP phones](http
 
 ---
 
-# Instructions for setting up and configuring a Flyingvoice IP phone
+## Instructions for setting up and configuring a Flyingvoice IP phone
 
 In this activity you will:
 
@@ -193,5 +194,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

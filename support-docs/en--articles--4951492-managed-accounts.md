@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4951492-managed-accounts
+title: "Managed Accounts"
+description: "In this article we will explain managed (sub) accounts and how you can begin taking advantage of this feature. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 7c0c63344e5ef3bbbd4664a4d2e3982294f39e4811e885a9559dc43a97dbc364
 ---
 
-Managed Accounts | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Managed Accounts
 
-In this article we will explain managed (sub) accounts and how you can begin taking advantage of this feature.
+In this article we will explain managed (sub) accounts and how you can begin taking advantage of this feature. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-February 26, 2026
 
-Table of contents
 
 ![](_images/46ad5fb9399a0709.png)
 
@@ -24,9 +25,9 @@ Managing multiple organizations through the Mission Control Portal and Telnyx AP
 
 ​
 
-# What is a Managed Account?
+## What is a Managed Account?
 
-A Managed Account is a sub-account created from within an existing Mission Control Portal account (which we call a **manager** account). Manager accounts have advanced control over pricing, reporting, administration, and billing functionalities of Managed Accounts:  
+A Managed Account is a sub-account created from within an existing Mission Control Portal account (which we call a **manager** account). Manager accounts have advanced control over pricing, reporting, administration, and billing functionalities of Managed Accounts:
 ​
 
 ## Pricing and Reporting:
@@ -137,7 +138,7 @@ Instead, the current workaround is:
 * Unfortunately, we do not support the migration of existing Telnyx user accounts under a manager account.
 
   + If an existing Telnyx user account would like to be placed under a manager account, they will need to reach out to [support@telnyx.com](mailto:support@telnyx.com) to have their account cancelled and email removed.
-  + This means that any existing configurations will be lost as we can not transfer them.  
+  + This means that any existing configurations will be lost as we can not transfer them.
     ​
 
 ![Breaking Line](_images/682991ade0be9812.png)
@@ -151,5 +152,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

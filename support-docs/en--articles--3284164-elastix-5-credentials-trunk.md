@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3284164-elastix-5-credentials-trunk
+title: "Elastix 5: Credentials Trunk"
+description: "In this article we will explain how to configure an Elastix 5 Credentials Trunk. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: b9339e728d296b639aadc261fc48ddac8dd84175e78fb3c2776a028f8315f14c
 ---
 
-Elastix 5: Credentials Trunk | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Elastix 5: Credentials Trunk
 
-In this article we will explain how to configure an Elastix 5 Credentials Trunk.
+In this article we will explain how to configure an Elastix 5 Credentials Trunk. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-October 23, 2023
 
-Table of contents
 
 [Jump to Instructions](#h_ddd07169a1)
 
@@ -32,7 +33,7 @@ Additional documentation:
 
 ---
 
-# Instructions for Configuring Elastix
+## Instructions for Configuring Elastix
 
 In this activity you will:
 
@@ -255,5 +256,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

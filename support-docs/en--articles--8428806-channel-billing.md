@@ -1,22 +1,26 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8428806-channel-billing
+title: "Channel Billing"
+description: "The Channel Billing feature is an enhancement to our services that allows customers to manage their voice channels in… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 060e55dd7355e7f16c7b9ffedf42f5ad93f51f2c371fb3c0756ac0f34c227645
 ---
 
-Channel Billing | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Channel Billing
 
-Written by Dillin
+The Channel Billing feature is an enhancement to our services that allows customers to manage their voice channels in… See Telnyx guidance and requirements.
 
-April 11, 2025
 
-Table of contents
 
-# **Introduction**
+
+
+## **Introduction**
 
 The Channel Billing feature is an enhancement to our services that allows customers to manage their voice channels in multiple regions. This document provides a comprehensive guide on how to utilize this feature effectively.
 
@@ -206,5 +210,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

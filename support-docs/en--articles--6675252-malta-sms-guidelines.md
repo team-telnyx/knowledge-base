@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6675252-malta-sms-guidelines
+title: "Malta: SMS Guidelines"
+description: "SMS Guidelines for Malta including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Malta: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: d7857c08855bfb5f7006ebb805f3c54f32edcb9a2c3c67798297a49c4c1f8689
 ---
 
-Malta: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Malta: SMS Guidelines
 
-SMS Guidelines for Malta including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Malta including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Malta: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **SMS Guidelines for Malta**
+## **SMS Guidelines for Malta**
 
-**MCC:** 278  
-​**Dial Code:** 356  
-​  
+**MCC:** 278
+​**Dial Code:** 356
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

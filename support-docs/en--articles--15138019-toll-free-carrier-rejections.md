@@ -1,20 +1,22 @@
 ---
 source_url: https://support.telnyx.com/en/articles/15138019-toll-free-carrier-rejections
+title: "Toll-Free Carrier Rejections"
+description: "This article will emphasise the meaning of carrier rejection responses on Toll-Free submissions and how to handle them. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: df45572e64c38b757af3a9fa4d5a3bb8fbba6f1a1e377d23e0501c4817eabbb7
 ---
 
-Toll-Free Carrier Rejections | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Toll-Free Carrier Rejections
 
-A
+This article will emphasise the meaning of carrier rejection responses on Toll-Free submissions and how to handle them. See Telnyx guidance and requirements.
 
-Written by Allen Rhodes
 
-May 18, 2026
 
 This article will emphasise the meaning of carrier rejection responses on Toll-Free submissions and how to handle them.
 

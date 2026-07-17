@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6206533-fanvil-x1-x1p-ip-phone
+title: "Fanvil X1/X1P: IP Phone"
+description: "The Fanvil X1 / X1P IP phone is an economical professional desktop IP Telephone ideal for entry-level users. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 17d41affc016af4b0fa8cf90706872a5b4e55eaf7297a578061a29a9bc83689a
 ---
 
-Fanvil X1/X1P: IP Phone | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Fanvil X1/X1P: IP Phone
 
-The Fanvil X1 / X1P IP phone is an economical professional desktop IP Telephone ideal for entry-level users.
+The Fanvil X1 / X1P IP phone is an economical professional desktop IP Telephone ideal for entry-level users. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_00cf95e4ef)
 
@@ -42,7 +43,7 @@ Table of contents
 
 ---
 
-# Instructions for setting up and configuring your Fanvil X1/XG IP phone
+## Instructions for setting up and configuring your Fanvil X1/XG IP phone
 
 In this activity you will:
 
@@ -87,8 +88,8 @@ In this step you'll configure your first Telnyx SIP trunk via the phone's web in
 4. In the **Advanced Settings** sub-section:
 
    1. **DTMF Type:** *RFC 2833*
-   2. **Transportation Protocol:** Choose *TCP* or *UDP* unless you are encrypting traffic and have set up encryption on your Telnyx portal. In this case, choose *TLS*.  
-      ​  
+   2. **Transportation Protocol:** Choose *TCP* or *UDP* unless you are encrypting traffic and have set up encryption on your Telnyx portal. In this case, choose *TLS*.
+      ​
       ​*Note that if you are encrypting traffic, you'll need to go into **Lines > Dial Peer** and make sure the **Port** setting is changed to* 5061.
    3. **RTP Encryption**: (Optional) Enable this if you're using TLS
    4. **RTP Encryption Key:** (Optional) Obtain a key [here](https://crt.sh/?id=1199354).
@@ -120,7 +121,7 @@ If you are encrypting traffic with TLS, you'll need to upload a TLS certificate,
 
    1. **TLS Certification File:** Obtain a certificate [here](https://crt.sh/?id=1199354)
 
-That's it, you've now completed the configuration of the Fanvil X1/X1P IP Phone with your Telnyx account.  
+That's it, you've now completed the configuration of the Fanvil X1/X1P IP Phone with your Telnyx account.
 ​
 
 [Back to Top](#h_00cf95e4ef)
@@ -148,5 +149,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

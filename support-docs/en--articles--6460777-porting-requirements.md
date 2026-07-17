@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6460777-porting-requirements
+title: "Porting Requirements"
+description: "Essential requirements for porting numbers to Telnyx, including LOA and invoice details. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: e2bf37445c032c5c6227bef0b9c02e6aa3a893c193cb432b6a42bef29d61376e
 ---
 
-Porting Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# Porting Requirements
 
-Essential requirements for porting numbers to Telnyx, including LOA and invoice details.
 
-Written by Patrick Budzinski
 
-February 10, 2026
-
-Table of contents
 
 # Porting Requirements
+
+Essential requirements for porting numbers to Telnyx, including LOA and invoice details. See Telnyx guidance and requirements.
+
+
+
+
+## Porting Requirements
 
 Before submitting a port request to Telnyx, ensure you have the required documents. This guide covers what you need and why each document matters.
 
@@ -167,5 +168,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6545130-portugal-sms-guidelines
+title: "Portugal: SMS Guidelines"
+description: "Telnyx SMS Guidelines for Portugal including MCC and Dial Code. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: cb538ea333044184fdf08dd69746a4b6a2269039dee7d1c961505d9bbf5260bc
 ---
 
-Portugal: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Portugal: SMS Guidelines
 
-Telnyx SMS Guidelines for Portugal including MCC and Dial Code. Get more details here.
+Telnyx SMS Guidelines for Portugal including MCC and Dial Code. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# SMS Guidelines for Portugal
+## SMS Guidelines for Portugal
 
-**MCC:** 268  
-​**Dial Code:** 351  
-​  
+**MCC:** 268
+​**Dial Code:** 351
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,31 +1,32 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6837118-elevateai-proof-of-concept-setup-guide
+title: "ElevateAI Proof-of-Concept Setup Guide"
+description: "Step-by-step guide to integrate Telnyx with ElevateAI for transcription and recording. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: d93bcb7fd70fd84b0ba388734ba3b2d36fe35db4d7a8c4f207934755a3563576
 ---
 
-ElevateAI Proof-of-Concept Setup Guide | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # ElevateAI Proof-of-Concept Setup Guide
 
-Step-by-step guide to integrate Telnyx with ElevateAI for transcription and recording.
+Step-by-step guide to integrate Telnyx with ElevateAI for transcription and recording. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-December 13, 2023
 
-Table of contents
 
 This article will provide you with a step by step guide to configure Telnyx & ElevateAI which can help demonstrate a sample application using Telnyx-Python transcription and recording functionality.
 
 ​
 
-# **Step 1: Create a Call Control Application in the Telnyx Portal**
+## **Step 1: Create a Call Control Application in the Telnyx Portal**
 
-Once you have created your Telnyx account and you have successfully logged into your account click the **Voice** tab from the left side menu then click **Programmable Voice**.  
-​  
+Once you have created your Telnyx account and you have successfully logged into your account click the **Voice** tab from the left side menu then click **Programmable Voice**.
+​
 Finally click on the **Add new App** button from the top right corner:
 
 ![Add new App section. ](_images/e62edad978fad8e2.png)
@@ -56,7 +57,7 @@ created in the previous step. Click **Place Order**:
 
 ## **Step 3. Sign up for ElevateAI and get your ElevateAI API Key**
 
-First navigate to [ElevateAI's website](https://www.elevateai.com/) and click **Get Started** from the top right corner.  
+First navigate to [ElevateAI's website](https://www.elevateai.com/) and click **Get Started** from the top right corner.
 ​
 
 ![Sign Up button. ](_images/441f60395743ae0e.png)
@@ -90,5 +91,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

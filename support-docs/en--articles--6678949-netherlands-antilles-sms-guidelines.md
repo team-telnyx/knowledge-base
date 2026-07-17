@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6678949-netherlands-antilles-sms-guidelines
+title: "Netherlands Antilles: SMS Guidelines"
+description: "SMS Guidelines for Netherlands Antilles including MCC and Dial Code. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ea4e11ccf373ee0919782528388071cb416deef28557119374d53ea26e130082
 ---
 
-Netherlands Antilles: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Netherlands Antilles: SMS Guidelines
 
-SMS Guidelines for Netherlands Antilles including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Netherlands Antilles including MCC and Dial Code. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **SMS Guidelines Netherlands Antilles**
+## **SMS Guidelines Netherlands Antilles**
 
-**MCC:** 362  
-​**Dial Code:** 599  
-​  
+**MCC:** 362
+​**Dial Code:** 599
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

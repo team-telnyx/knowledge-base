@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/13194922-reunion-number-porting
+title: "Reunion Number Porting"
+description: "Here you will find detailed requirements for Reunion number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 28fc54b0d4b4e8eefb4a9268b31f353dde06220a58d9cad4056e90d0752c60f1
 ---
 
-Reunion Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Reunion Number Porting
 
-Here you will find detailed requirements for Reunion number portability.
+Here you will find detailed requirements for Reunion number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-December 19, 2025
 
-Table of contents
 
 **Local / National / Toll-Free Numbers**
 
@@ -35,5 +36,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

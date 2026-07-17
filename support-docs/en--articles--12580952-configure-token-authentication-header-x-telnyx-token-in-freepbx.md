@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/12580952-configure-token-authentication-header-x-telnyx-token-in-freepbx
+title: "Configure Token Authentication Header (X-Telnyx-Token) in"
+description: "Add a Telnyx token-based authentication header to outbound SIP calls from your FreePBX PBX system. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: f3c47f34626edf3edcdeadadd3caf0bea970e047cd00857c49527519aaabc3d3
 ---
 
-Configure Token Authentication Header (X-Telnyx-Token) in FreePBX | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Configure Token Authentication Header (X-Telnyx-Token) in FreePBX
 
-Add a Telnyx token-based authentication header to outbound SIP calls from your FreePBX PBX system.
+Add a Telnyx token-based authentication header to outbound SIP calls from your FreePBX PBX system. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-October 15, 2025
 
-Table of contents
 
 ## Background
 
 When sending calls from a **private PBX** to Telnyx via IP-based SIP trunks, you can authenticate those calls using a **connection token**.
 
-This is done by adding a custom SIP header — **`X-Telnyx-Token`** — to each outbound SIP INVITE.  
+This is done by adding a custom SIP header — **`X-Telnyx-Token`** — to each outbound SIP INVITE.
 Telnyx validates this token against the configured SIP connection in your account.
 
 ## Standard Behavior
@@ -67,9 +68,9 @@ This file allows you to extend dialplan behavior safely without affecting system
 Open `/etc/asterisk/extensions_custom.conf` in a text editor and append the following:
 
 ```
-[macro-dialout-trunk-predial-hook]   
-exten => s,1,NoOp(Entering user defined context [macro-dialout-trunk-predial-hook] in extensions_custom.conf)   
-same => n,GoSub(func-set-sipheader,s,1(X-Telnyx-Token,TOKENFROMPORTAL)) same => n,Verbose(2,Added X-Telnyx-Token universally)   
+[macro-dialout-trunk-predial-hook]
+exten => s,1,NoOp(Entering user defined context [macro-dialout-trunk-predial-hook] in extensions_custom.conf)
+same => n,GoSub(func-set-sipheader,s,1(X-Telnyx-Token,TOKENFROMPORTAL)) same => n,Verbose(2,Added X-Telnyx-Token universally)
 same => n,MacroExit()
 ```
 
@@ -134,5 +135,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,30 +1,31 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8118086-texml-and-telnyx-voice-api-compatibility
+title: "TeXML and Telnyx Voice API compatibility"
+description: "Avoid combining TeXML and Call Control commands in the same… See Telnyx guidance and requirements Learn more about TeXML and Telnyx Voice API compatibility."
 scraped: 2026-07-08
 content_hash: a07287ba837141b8f0e37069b53fc5da33d276899f26ac72f6d67cddfd73acb6
 ---
 
-TeXML and Telnyx Voice API compatibility | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # TeXML and Telnyx Voice API compatibility
 
-Avoid combining TeXML and Call Control commands in the same application
+Avoid combining TeXML and Call Control commands in the same… See Telnyx guidance and requirements Learn more about TeXML and Telnyx Voice API compatibility.
 
 K
 
-Written by Klane Pedrie
 
-April 30, 2026
 
-Table of contents
 
-# TeXML and Telnyx Voice API/Call Control compatibility
+## TeXML and Telnyx Voice API/Call Control compatibility
 
 Avoid combining TeXML and Telnyx Voice API/Call Control commands in the same application. TeXML converts XML instructions into Voice API commands but also does other things in the background to keep track of the state of the call and execute instructions at the right time and in the correct order. Mixing the two products may work for some simple cases but will eventually lead to errors or some unexpected and confusing behaviour that will be hard to debug.
 
-This also applies to AI Assistants, which use TeXML under the hood. Issuing Call Control commands on calls managed by an AI Assistant will cause the same state conflicts.  
+This also applies to AI Assistants, which use TeXML under the hood. Issuing Call Control commands on calls managed by an AI Assistant will cause the same state conflicts.
 ​
 
 **Common scenarios to avoid:**
@@ -56,5 +57,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130611-understand-telnyx-sms-mdr-report-log
+title: "Understand Telnyx SMS MDR Report Log"
+description: "You can check your MDR (message detail record) for every message sent or received. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 88180bd99893d9d08fb66ce20ab26ce281ef8d315c15cd33fecdcda4aaf64931
 ---
 
-Understand Telnyx SMS MDR Report Log | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Understand Telnyx SMS MDR Report Log
 
-You can check your MDR (message detail record) for every message sent or received.
+You can check your MDR (message detail record) for every message sent or received. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-January 2, 2025
 
-Table of contents
 
-# What is an MDR?
+## What is an MDR?
 
 For every sent or received message, an MDR (message detail record) will be written. You can access and generate these report logs under **Reports** (left hand side navigation bar) -> **Reporting** in your Mission Control Portal Account as seen below.
 
@@ -66,7 +67,7 @@ For outbound messages, there is a maximum message size of 10 parts.
 
 Don't forget that billing takes place on the number of message parts.
 
-`rate` = price per message + carrier fee for one part.  
+`rate` = price per message + carrier fee for one part.
 ​`cost` = rate \* message parts.
 
 Billing and Rate Limiting are applied based on the number of parts per message.
@@ -80,5 +81,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1176364-sip-connection-failover-guide-ip-fqdn-based
+title: "SIP Connection Failover Guide (IP/FQDN-Based)"
+description: "This guide explains how to configure failover for SIP Connections using IP or FQDN-based authentication in the Telnyx… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a2146c80f028561cdb551c2cdb05752fa31ddea1163da335d76173de5aefba04
 ---
 
-SIP Connection Failover Guide (IP/FQDN-Based) | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # SIP Connection Failover Guide (IP/FQDN-Based)
 
-This guide explains how to configure failover for SIP Connections using IP or FQDN-based authentication in the Telnyx Mission Control Portal.
+This guide explains how to configure failover for SIP Connections using IP or FQDN-based authentication in the Telnyx… See Telnyx guidance and requirements.
 
-Written by Nobin Bera
 
-April 30, 2026
 
-Table of contents
 
 ##
 
@@ -48,7 +49,7 @@ Table of contents
 
   + **Primary → Secondary → (optional) Tertiary**
 
-Failover will follow this sequence if a route becomes unreachable or fails.  
+Failover will follow this sequence if a route becomes unreachable or fails.
 ​
 
 ## 4. Save the Connection
@@ -78,5 +79,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

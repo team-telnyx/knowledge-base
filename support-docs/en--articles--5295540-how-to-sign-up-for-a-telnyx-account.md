@@ -1,29 +1,30 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5295540-how-to-sign-up-for-a-telnyx-account
+title: "How to Sign Up for a Telnyx account"
+description: "This article will explain the steps to create your own Telnyx Portal… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 1888e61cdefed0e488a9e336c70a65e92d0188b678091a9f5040e44fb187c477
 ---
 
-How to Sign Up for a Telnyx account | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How to Sign Up for a Telnyx account
 
-This article will explain the steps to create your own Telnyx Portal account
+This article will explain the steps to create your own Telnyx Portal… See Telnyx guidance and requirements.
 
-Written by Cameron Fitzpatrick
 
-May 25, 2024
 
-Table of contents
 
-In this article, we will go over how you can create a Telnyx Mission Control Portal account, as well as some of our rules regarding allowed methods of sign-up. If at any point you encounter an issue during sign-up, feel free to contact us at [support@telnyx.com](mailto:support@telnyx.com) or through our live-chat and we will do our best to help.   
+In this article, we will go over how you can create a Telnyx Mission Control Portal account, as well as some of our rules regarding allowed methods of sign-up. If at any point you encounter an issue during sign-up, feel free to contact us at [support@telnyx.com](mailto:support@telnyx.com) or through our live-chat and we will do our best to help.
 ​
 
 ---
 
-# **Signing up for an account**
+## **Signing up for an account**
 
 Welcome to our platform! We are delighted to have you join our community. Our mission is to provide you with the best service possible, ensuring a safe, secure, and enjoyable experience every step of the way.
 
@@ -77,15 +78,15 @@ The menu will expand further to show the option to specify **I'm a Developer** a
 ## **Currency Limitation**
 
 * New users, from the 18th of October 2022, who sign up for our services will no longer be able to choose currencies outside of USD.
-* If you are an existing account with more than one month of spend and want to change your account currency, we are unable to change your accounts currency.   
+* If you are an existing account with more than one month of spend and want to change your account currency, we are unable to change your accounts currency.
   ​
 
 ![Account setup section.](_images/6a2737306347c817.png)
 
-Once your information has been entered, click **Complete account setup.**  
-​  
-Congratulations, you have completed your account set-up! Depending on what features you chose, you will be redirected to the relevant introductory tools.  
-​  
+Once your information has been entered, click **Complete account setup.**
+​
+Congratulations, you have completed your account set-up! Depending on what features you chose, you will be redirected to the relevant introductory tools.
+​
 ​**SMS Use Cases** will be redirected to our [Learn & Build](https://portal.telnyx.com/#/app/messaging/learn-and-build) section. This gives an easy to understand introduction to sending your first SMS with Telnyx, including purchasing a number and creating a messaging profile.
 
 **[SIP Trunking](https://telnyx.com/products/sip-trunks) Use Cases** receive a number (purchased using their free sign-up credit), a SIP Connection and an Outbound Voice Profile. The Outbound Voice Profile will be assigned to the SIP Connection, and the Connection will be assigned to the number.
@@ -108,7 +109,7 @@ Enter the relevant details from your SAML provider into the fields provided on t
 
 ![SSO settings example](_images/21bc858f2de493a8.png)
 
-After saving, you can scroll down to the bottom of the page and take note of the values for **Assertion Consumer Service URL, Service Provider Entity ID**, and   
+After saving, you can scroll down to the bottom of the page and take note of the values for **Assertion Consumer Service URL, Service Provider Entity ID**, and
 ​**Name Identifier Format**. These will have to be provided within your SAML app in order to set up correctly.
 
 ![Authentication Provider Generated Configuration section. ](_images/bd0d9086a2a125d8.png)
@@ -145,5 +146,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

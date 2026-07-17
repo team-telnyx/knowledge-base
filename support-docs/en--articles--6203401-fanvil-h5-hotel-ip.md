@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6203401-fanvil-h5-hotel-ip
+title: "Fanvil H5: Hotel IP"
+description: "Learn how to configure a Telnyx SIP trunk on the Fanvil H5 Hotel IP… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 614e5fff31d793cd71927030734644d5eb16d790bca7d8d59ef1d5a6d60e336b
 ---
 
-Fanvil H5: Hotel IP | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Fanvil H5: Hotel IP
 
-Learn how to configure a Telnyx SIP trunk on the Fanvil H5 Hotel IP phone
+Learn how to configure a Telnyx SIP trunk on the Fanvil H5 Hotel IP… See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_e5274d3b35)
 
@@ -43,7 +44,7 @@ With two available colors (White & Black), [Fanvil H5](https://www.fanvil.com/Pr
 
 ---
 
-# Instructions for setting up and configuring your Fanvil H5 Hotel IP phone
+## Instructions for setting up and configuring your Fanvil H5 Hotel IP phone
 
 In this activity you will:
 
@@ -88,8 +89,8 @@ In this step you'll configure your first Telnyx SIP trunk via the phone's web in
 4. In the **Advanced Settings** sub-section:
 
    1. **DTMF Type:** *RFC 2833*
-   2. **Transport Protocol:** Choose *TCP* or *UDP* unless you are encrypting traffic and have set up encryption on your Telnyx portal. In this case, choose *TLS*.  
-      ​  
+   2. **Transport Protocol:** Choose *TCP* or *UDP* unless you are encrypting traffic and have set up encryption on your Telnyx portal. In this case, choose *TLS*.
+      ​
       ​*Note that if you are encrypting traffic, you'll need to go into **Lines > Dial Peer** and make sure the **Port** setting is changed to* 5061.
    3. **SIP Encryption**: Enable this if you're using TLS
    4. **SIP Encryption Key:** Obtain a key [here](https://crt.sh/?id=1199354).
@@ -113,8 +114,8 @@ In this step you'll configure your first Telnyx SIP trunk via the phone's web in
 
       * *H264*
 
-That's it, you've now completed the configuration of the Fanvil H5 Hotel IP phone with your Telnyx account.  
-​  
+That's it, you've now completed the configuration of the Fanvil H5 Hotel IP phone with your Telnyx account.
+​
 ​
 
 [Back to Top](#h_e5274d3b35)
@@ -142,5 +143,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5811761-positron-ip-phone
+title: "Positron IP Phone"
+description: "Step-by-step guide to set up Positron IP phones with Telnyx. See Telnyx guidance and requirements Learn more about Positron IP Phone with Telnyx."
 scraped: 2026-07-08
 content_hash: 14fec6187162c602b6ebf6c5e0fce06ad450812c422ce4a20eabbd29067bb4e9
 ---
 
-Positron IP Phone | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Positron IP Phone
 
-Step-by-step guide to set up Positron IP phones with Telnyx. From obtaining the IP address to configuring SIP profiles: smooth communication
+Step-by-step guide to set up Positron IP phones with Telnyx. See Telnyx guidance and requirements Learn more about Positron IP Phone with Telnyx.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_5644abe804)
 
@@ -44,7 +45,7 @@ Additional documentation:
 
 ---
 
-# Instructions for configuring your Positron IP304 phone
+## Instructions for configuring your Positron IP304 phone
 
 In this activity you will:
 
@@ -94,9 +95,9 @@ In this step, you will set up your device and register it with Telnyx.
    1. **Account:** Choose from the dropdown (likely *Account 1* unless other accounts have already been configured. In which case choose the one you're looking to set up.)
    2. **Account Active:** Select *Yes* to enable your account upon creation.
    3. **Primary SIP Server:** *sip.telnyx.com*
-   4. **SIP Transport:** *UDP* (default).   
-      ​  
-      ​**Note that** if you are planning to encrypt calls and have [set up call encryption on your Telnyx portal](https://support.telnyx.com/en/articles/5808185-buddytalk-bt110-bt120#h_e14c90ac20), you should choose *TLS*.  
+   4. **SIP Transport:** *UDP* (default).
+      ​
+      ​**Note that** if you are planning to encrypt calls and have [set up call encryption on your Telnyx portal](https://support.telnyx.com/en/articles/5808185-buddytalk-bt110-bt120#h_e14c90ac20), you should choose *TLS*.
       ​
    5. **SIP User ID:** Your Telnyx account ID
    6. **Authentication ID:** Your Telnyx account ID
@@ -177,5 +178,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

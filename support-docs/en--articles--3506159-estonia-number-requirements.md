@@ -1,43 +1,44 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3506159-estonia-number-requirements
+title: "Estonia Number Requirements"
+description: "Here you will find detailed requirements for acquiring numbers in Estonia. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 50f93856a09eee6e1a2535fed18e6b37776dfa94778f286c08a8ad48e3c9490c
 ---
 
-Estonia Number Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Estonia Number Requirements
 
-Here you will find detailed requirements for acquiring numbers in Estonia.
+Here you will find detailed requirements for acquiring numbers in Estonia. See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-September 29, 2025
 
-Table of contents
 
-# **Local numbers in Estonia:**
+## **Local numbers in Estonia:**
 
-For **personal identity** verification:  
-\* Name, last name  
-\* Contact phone number  
+For **personal identity** verification:
+\* Name, last name
+\* Contact phone number
 \* Copy of ID or Passport
 
-For **business identity** verification:  
-\* Name, last name of the legal representative  
-\* Contact phone number  
-\* Company name  
-\* Copy of ID or Passport of the legal representative  
+For **business identity** verification:
+\* Name, last name of the legal representative
+\* Contact phone number
+\* Company name
+\* Copy of ID or Passport of the legal representative
 \* Copy of company registration
 
-For **address** verification:  
+For **address** verification:
 \* Address in Estonia (street, building number, postal code, city, and country)
 
 \* Copy of utility bill (no older than 3 months)
 
-# **Toll-free numbers in Estonia:**
+## **Toll-free numbers in Estonia:**
 
 For **personal identity** verification:
 
@@ -72,5 +73,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

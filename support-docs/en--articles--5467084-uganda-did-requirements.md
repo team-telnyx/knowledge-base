@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5467084-uganda-did-requirements
+title: "Uganda DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Uganda numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 2da8c44ebec89f74af4270b80a080a0cbe3c6a6a15432227f22bd7bccda2ebbb
 ---
 
-Uganda DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Uganda DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Uganda numbers.
+Here you will find a list of detailed requirements for acquiring Uganda numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-May 6, 2025
 
-Table of contents
 
-# DID Number Requirements for Uganda
+## DID Number Requirements for Uganda
 
 In order to purchase a Uganda number you will need to provide the following:
 
@@ -40,19 +41,19 @@ For **address** verification:
 
 ## **National Numbers in Uganda**
 
-For **personal identity** verification:  
-\* Name, last name  
-\* Contact phone number  
-\* Passport or ID copy  
-​  
-For **business identity** verification:  
-\* Name, last name  
-\* Contact phone number  
-\* Company name  
-\* Company incorporation certificate copy  
-​  
-For **address** verification:  
-\* Address in Uganda (street, building number, postal code, city and country)  
+For **personal identity** verification:
+\* Name, last name
+\* Contact phone number
+\* Passport or ID copy
+​
+For **business identity** verification:
+\* Name, last name
+\* Contact phone number
+\* Company name
+\* Company incorporation certificate copy
+​
+For **address** verification:
+\* Address in Uganda (street, building number, postal code, city and country)
 \* A copy of a utility bill (less than 3 months old)
 
 ## **Toll-Free Numbers in Uganda**
@@ -127,5 +128,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

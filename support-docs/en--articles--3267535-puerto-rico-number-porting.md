@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3267535-puerto-rico-number-porting
+title: "Puerto Rico Number Porting"
+description: "Here you will find all of the requirements for Puerto Rico number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 504b420951be9667264b6a6e9478b6740c99b6d4e39a2cd20343b80aba7a8f31
 ---
 
-Puerto Rico Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Puerto Rico Number Porting
 
-Here you will find all of the requirements for Puerto Rico number portability.
+Here you will find all of the requirements for Puerto Rico number portability. See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-November 15, 2023
 
-Table of contents
 
-# Local / Mobile Numbers
+## Local / Mobile Numbers
 
 1. LOA
 2. Latest Invoice
@@ -64,5 +65,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

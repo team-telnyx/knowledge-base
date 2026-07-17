@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4380325-search-and-buy-numbers
+title: "Search and Buy Numbers"
+description: "This article describes the process of obtaining phone numbers through Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 399a690cb01cb6d9683e0cfe7a7cd93a65b90bf95e0f1634084569d13e5f42fc
 ---
 
-Search and Buy Numbers | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Search and Buy Numbers
 
-This article describes the process of obtaining phone numbers through Telnyx.
+This article describes the process of obtaining phone numbers through Telnyx. See Telnyx guidance and requirements.
 
-Written by Nobin Bera
 
-April 30, 2026
 
-Table of contents
 
 This article describes how to search and buy numbers in the Telnyx Mission Control Portal, leveraging different search mechanisms, adding numbers to the cart and reviewing your orders after purchase.
 
@@ -24,7 +25,7 @@ This article describes how to search and buy numbers in the Telnyx Mission Contr
 
 ### **Configuration**
 
-The [My Numbers](https://portal.telnyx.com/#/numbers/my-numbers) Section of Mission Control houses all of the phone numbers you've purchased or ported to Telnyx.   
+The [My Numbers](https://portal.telnyx.com/#/numbers/my-numbers) Section of Mission Control houses all of the phone numbers you've purchased or ported to Telnyx.
 ​
 
 ![](_images/7165ce98f691a532.png)
@@ -55,14 +56,14 @@ Choose the country in the dropdown in which you want to find a phone number. Thi
 
 ### Features:
 
-Choose one or multiple features to ensure that the number you'll be purchasing is aligned with your use case:  
+Choose one or multiple features to ensure that the number you'll be purchasing is aligned with your use case:
 ​
 
 ![](_images/eeaf92d6ef2b4dba.png)
 
 ## Number Type:
 
-Choose the number type you're looking to purchase:  
+Choose the number type you're looking to purchase:
 ​
 
 ![](_images/d88c9e58e4f5236a.png)
@@ -176,7 +177,7 @@ For bulk deletes of numbers, please consider using our [API](https://developers.
 
 ### International Requirements
 
-When ordering numbers outside of North America, you may be prompted to provide more information to comply with local regulatory requirements by a set deadline. You can find a list of requirements for each country **[here](https://support.telnyx.com/en/collections/1511606-international-did-requirements).**   
+When ordering numbers outside of North America, you may be prompted to provide more information to comply with local regulatory requirements by a set deadline. You can find a list of requirements for each country **[here](https://support.telnyx.com/en/collections/1511606-international-did-requirements).**
 ​
 
 Numbers that require further documentation will be displayed with a warning note on your portal.
@@ -202,7 +203,7 @@ You may also start a conversation with our numbering team for any inquiries abou
 
 ![](_images/461a75fef9640e11.png)
 
-**Please note: Any number without proper documentation uploaded may not be activated, and inbound call capabilities may not work as expected.**  
+**Please note: Any number without proper documentation uploaded may not be activated, and inbound call capabilities may not work as expected.**
 ​
 
 ### **Additional Guides to Searching, Purchasing & Ordering DIDs**
@@ -222,5 +223,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

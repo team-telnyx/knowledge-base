@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5361846-gsuite-sso-integration-with-telnyx
+title: "GSuite SSO Integration With Telnyx"
+description: "Learn how to set up Auth0 as a SAML Identity Provider so that we can utilize Telnyx's Single Sign-On feature. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 71a550463be1399796ff0737dbbb903b33beb54ca7e8d383497a588e0c6ed39c
 ---
 
-GSuite SSO Integration With Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # GSuite SSO Integration With Telnyx
 
-Learn how to set up Auth0 as a SAML Identity Provider so that we can utilize Telnyx's Single Sign-On feature.
+Learn how to set up Auth0 as a SAML Identity Provider so that we can utilize Telnyx's Single Sign-On feature. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-May 20, 2026
 
-Table of contents
 
 [Jump to Instructions](#h_8bdd96afc4)
 
@@ -38,7 +39,7 @@ Additional resources:
 
 ---
 
-# Instructions for setting up Google GSuite SAML Identity Provider with Telnyx
+## Instructions for setting up Google GSuite SAML Identity Provider with Telnyx
 
 In this activity you will:
 
@@ -165,5 +166,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,31 +1,32 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5179083-el-salvador-number-porting
+title: "El Salvador Number Porting"
+description: "Here you will find a detailed list of requirements for El Salvador number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: eb7e15a8386346912614e437e3e2fe4cb0284c4e85762b1873ef53bbdbcfbd04
 ---
 
-El Salvador Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # El Salvador Number Porting
 
-Here you will find a detailed list of requirements for El Salvador number portability.
+Here you will find a detailed list of requirements for El Salvador number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-February 10, 2026
 
-Table of contents
 
-# For Local / National number Types in El Salvador
+## For Local / National number Types in El Salvador
 
 1. Valid LOA (Local address required)
 2. Copy of Identification (DUI) or Passport of the Authorized Person
 3. Copy of the latest invoice with a local carrier
 4. Proof of payment of the latest invoice with the local carrier
 5. Company registration certificate (only if the numbers belong to a company)
-6. Power of Attorney (only if the numbers belong to a company)   
+6. Power of Attorney (only if the numbers belong to a company)
    ​
 
 Contact [porting@telnyx.com](mailto:porting@telnyx.com) for the LOA template for number porting in El Salvador**.**
@@ -45,5 +46,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

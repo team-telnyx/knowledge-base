@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6665699-djibouti-sms-guidelines
+title: "Djibouti: SMS Guidelines"
+description: "SMS Guidelines for Djibouti including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Djibouti: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 94f3acfce602a7349373c6193cde10d10a534591be6d80f70aa529ea7eee1ca2
 ---
 
-Djibouti: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Djibouti: SMS Guidelines
 
-SMS Guidelines for Djibouti including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Djibouti including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Djibouti: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **SMS Guidelines Djibouti**
+## **SMS Guidelines Djibouti**
 
-**MCC:** 253  
-​**Dial Code:** 638  
-​  
+**MCC:** 253
+​**Dial Code:** 638
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required. The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be directly related to the message content.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

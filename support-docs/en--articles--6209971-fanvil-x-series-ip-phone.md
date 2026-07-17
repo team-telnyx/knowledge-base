@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6209971-fanvil-x-series-ip-phone
+title: "Fanvil X-Series: IP Phone"
+description: "Learn how to configure a Telnyx SIP trunk on the Fanvil X-Series IP… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ef51d4d7b305a08d1ea7fd9bf8da858705d59e6dfc37db9cf94e6f5991b3837d
 ---
 
-Fanvil X-Series: IP Phone | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Fanvil X-Series: IP Phone
 
-Learn how to configure a Telnyx SIP trunk on the Fanvil X-Series IP phone
+Learn how to configure a Telnyx SIP trunk on the Fanvil X-Series IP… See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_194e85ab33)
 
@@ -37,7 +38,7 @@ The [Fanvil X-series](https://fanvil.com/products/p1/x/index.html) of SIP desk p
 
 ---
 
-# Instructions for setting up and configuring a SIP trunk on the Fanvil X-series IP phones
+## Instructions for setting up and configuring a SIP trunk on the Fanvil X-series IP phones
 
 **In this activity you will:**
 
@@ -115,8 +116,8 @@ If you are encrypting traffic with TLS, you'll need to upload a TLS certificate,
 1. In the **Lines > SIP section,** find the **Advanced Settings** sub-section:
 
    1. **DTMF Type:** *RFC 2833*
-   2. **Transportation Protocol:** Choose *TCP* or *UDP* unless you are encrypting traffic and have set up encryption on your Telnyx portal. In this case, choose *TLS*.  
-      ​  
+   2. **Transportation Protocol:** Choose *TCP* or *UDP* unless you are encrypting traffic and have set up encryption on your Telnyx portal. In this case, choose *TLS*.
+      ​
       ​*Note that if you are encrypting traffic, you'll need to go into **Lines > Dial Peer** and make sure the **Port** setting is changed to* 5061.
    3. **RTP Encryption**: (Optional) Enable this if you're using TLS
    4. **RTP Encryption Key:** (Optional) Obtain a key [here](https://crt.sh/?id=1199354)
@@ -152,5 +153,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/15397771-guatemala-did-requirements
+title: "Guatemala DID Requirements"
+description: "Requirements to acquire Guatemala numbers. See Telnyx guidance and requirements Learn more about Guatemala DID Requirements with Telnyx."
 scraped: 2026-07-08
 content_hash: 80ba371e55fab0a3642b38a744eb4ee524337ca15d8c709ef60b64fb14a3f19e
 ---
 
-Guatemala DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Guatemala DID Requirements
 
-Requirements to acquire Guatemala numbers. Start building on Telnyx today.
+Requirements to acquire Guatemala numbers. See Telnyx guidance and requirements Learn more about Guatemala DID Requirements with Telnyx.
 
-Written by NumberOps
 
-June 5, 2026
 
-Table of contents
 
-# **DID Number Requirements for Guatemala**
+## **DID Number Requirements for Guatemala**
 
 In order to purchase a Guatemala number you will need to provide the following:
 
@@ -57,5 +58,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

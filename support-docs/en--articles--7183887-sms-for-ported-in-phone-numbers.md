@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/7183887-sms-for-ported-in-phone-numbers
+title: "SMS for Ported In Phone Numbers"
+description: "Discover the intricacies of phone numbers, ordering processes, and numbering team coordination with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: de8cf04d1f23598efe7a7e230d686cba2855b80160f1d903a6cd5a980b89ed41
 ---
 
-SMS for Ported In Phone Numbers | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # SMS for Ported In Phone Numbers
 
-Discover the intricacies of phone numbers, ordering processes, and numbering team coordination with Telnyx.
+Discover the intricacies of phone numbers, ordering processes, and numbering team coordination with Telnyx. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-June 6, 2024
 
-Table of contents
 
-# **SMS for Ported In Phone Numbers**
+## **SMS for Ported In Phone Numbers**
 
 For local and toll-free phone numbers in the US and Canada, porting voice and porting SMS are two completely separate processes.
 
@@ -57,5 +58,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130647-register-e911-addresses
+title: "Register E911 addresses"
+description: "Learn how to register E911 addresses in the Account section of Telnyx Mission Control. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 7a3b3a4aeac2026ed2550f1bfe4c3f727f4b6ece07f4b48a8cc62f2b5c0582a2
 ---
 
-Register E911 addresses | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Register E911 addresses
 
-Learn how to register E911 addresses in the Account section of Telnyx Mission Control.
+Learn how to register E911 addresses in the Account section of Telnyx Mission Control. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-January 1, 2025
 
-Table of contents
 
-# Steps for registering E911 addresses for emergency calling
+## Steps for registering E911 addresses for emergency calling
 
 ![](_images/a4f1b966308bfc66.png)
 
@@ -52,5 +53,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

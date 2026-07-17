@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1311472-netherlands-did-requirements
+title: "Netherlands DID Requirements"
+description: "Here you will find all of the requirements to acquire Netherlands numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 4ff71f9831ec3d4bc36501e8e60ef85c3f9f140371715b1f228cb633a80e25ae
 ---
 
-Netherlands DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Netherlands DID Requirements
 
-Here you will find all of the requirements to acquire Netherlands numbers.
+Here you will find all of the requirements to acquire Netherlands numbers. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-August 28, 2025
 
-Table of contents
 
-# DID Number Requirements for Netherlands
+## DID Number Requirements for Netherlands
 
 In order to purchase a Netherlands number you will need to provide the following:
 
@@ -52,14 +53,14 @@ For **address** verification:
 
 ## **National Numbers in the Netherlands**
 
-For **business identity** verification:   
-\* Name, last name of an authorized representative   
-\* Company name   
-\* Contact phone number   
-​  
-For **address** verification:   
-\* Address in Netherlands (street, building number, postal code, city and country)   
-​  
+For **business identity** verification:
+\* Name, last name of an authorized representative
+\* Company name
+\* Contact phone number
+​
+For **address** verification:
+\* Address in Netherlands (street, building number, postal code, city and country)
+​
 \***Business use required:** Business use is required for Netherlands national numbers, personal use is not allowed.
 
 ## **Mobile Numbers in the Netherlands**
@@ -80,18 +81,18 @@ For **address** verification:
 
 ## **Toll-Free Numbers in the Netherlands**
 
-For **business identity** verification:  
-\* Name, last name of an authorized representative  
-\* Contact phone number  
-\* Company name  
-\* Company incorporation certificate copy  
-\* Proof of allocation from the Dutch national regulator  
-​  
-For **address** verification:  
-\* Address worldwide (street, building number, postal code, city and country)  
-​  
-​**Additional information:**  
-\* Service usage description  
+For **business identity** verification:
+\* Name, last name of an authorized representative
+\* Contact phone number
+\* Company name
+\* Company incorporation certificate copy
+\* Proof of allocation from the Dutch national regulator
+​
+For **address** verification:
+\* Address worldwide (street, building number, postal code, city and country)
+​
+​**Additional information:**
+\* Service usage description
 \* Email address
 
 **\*Business use required:** Business use is required for Netherlands toll-free numbers, personal use is not allowed.
@@ -139,5 +140,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

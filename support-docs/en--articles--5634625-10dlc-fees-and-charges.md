@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5634625-10dlc-fees-and-charges
+title: "10DLC Fees and Charges"
+description: "Registration-related fees, carrier fees, message fees and non-compliance fees associated with A2P 10DLC. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 0f2a10c9c17383440e0efc0772db0f218dc4fbfcf3977f66512353fd66fa4c24
 ---
 
-10DLC Fees and Charges | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # 10DLC Fees and Charges
 
-Registration-related fees, carrier fees, message fees and non-compliance fees associated with A2P 10DLC.
+Registration-related fees, carrier fees, message fees and non-compliance fees associated with A2P 10DLC. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-January 7, 2026
 
-Table of contents
 
 ***⚠️ Looking for 10DLC basic info like registration, Brand and Campaign scoring, throughput, and compliance? Read our [10DLC FAQ](https://support.telnyx.com/en/articles/3679260-frequently-asked-questions-about-10dlc).***
 
-# Contents
+## Contents
 
 * [Introduction](#h_0aedcaaec8)
 * [10DLC Standard Registration Fees](#h_7d0b4a24c5)
@@ -140,5 +141,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5811545-fortifone-setup-fon-375-175-h25
+title: "FortiFone Setup: FON-375/175/H25"
+description: "Learn how to set up and configure a FortiFone FON-375, FON-175 or FON-H25 IP phone with… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: f9077a2b8dedef49db1cfe767eea36e39800dda865f4cacbceb56e1dccb68106
 ---
 
-FortiFone Setup: FON-375/175/H25 | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # FortiFone Setup: FON-375/175/H25
 
-Learn how to set up and configure a FortiFone FON-375, FON-175 or FON-H25 IP phone with Telnyx
+Learn how to set up and configure a FortiFone FON-375, FON-175 or FON-H25 IP phone with… See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_aff9fe9001)
 
@@ -35,7 +36,7 @@ Additional documentation:
 
 ---
 
-# Instructions for setting up and configuring the FortiFone FON 570
+## Instructions for setting up and configuring the FortiFone FON 570
 
 In this activity you will:
 
@@ -59,8 +60,8 @@ Setting up your Telnyx SIP portal account so you can make and receive calls:
 
 In this step, you'll obtain the IP address from your FortiFone, which you'll need to log into the web portal in the next step.
 
-1. From your phone, tap the **Menu** button on your LCD screen and select **Status** to see your IP address. Take note of this.  
-   ​  
+1. From your phone, tap the **Menu** button on your LCD screen and select **Status** to see your IP address. Take note of this.
+   ​
    The menu button:
 
    ![FortiFone meny button.](_images/b79ff1fa8e26a66e.png)
@@ -105,8 +106,8 @@ In this step, you will set up your device and register it with Telnyx.
 4. Scroll to the **Advanced** section on this tab and enter the following information:
 
    1. **Transportation Protocol:** By default, *UDP* is selected. If you enabled TLS and your account is configured to use SRTP encryption as part of your [pre-requisite activities](https://support.telnyx.com/en/articles/5810226-fortifone-fon-570#h_6edc08d8c8) then you should choose *TLS.*
-5. This step is OPTIONAL, but is required if you've [planned to encrypt traffic](https://support.telnyx.com/en/articles/5810226-fortifone-fon-570#h_6edc08d8c8). If you are using UDP transport and not encrypting traffic, continue to the next step.   
-   ​  
+5. This step is OPTIONAL, but is required if you've [planned to encrypt traffic](https://support.telnyx.com/en/articles/5810226-fortifone-fon-570#h_6edc08d8c8). If you are using UDP transport and not encrypting traffic, continue to the next step.
+   ​
    Still in the **Advanced** section:
 
    1. **Transportation Protocol:** *TCP*
@@ -138,5 +139,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

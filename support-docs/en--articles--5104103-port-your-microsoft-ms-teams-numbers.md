@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5104103-port-your-microsoft-ms-teams-numbers
+title: "Port your Microsoft MS Teams Numbers"
+description: "In this article you will learn how you can port your virtual phone numbers from Microsoft MS… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 81f23e7201b23e98a505bd4b7157e237dfddaa74ef0e49ad8a63820575942a9f
 ---
 
-Port your Microsoft MS Teams Numbers | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Port your Microsoft MS Teams Numbers
 
-In this article you will learn how you can port your virtual phone numbers from Microsoft MS Teams
+In this article you will learn how you can port your virtual phone numbers from Microsoft MS… See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-September 25, 2023
 
-Table of contents
 
 To port your VoIP, Google Voice, or Skype number to Telnyx you will need to [submit a port request](https://support.telnyx.com/en/articles/1130634-port-numbers-to-telnyx).
 
-# Porting from Microsoft MS Teams
+## Porting from Microsoft MS Teams
 
 1. You'll first need to ensure that you have set a porting PIN in the Microsoft Teams admin center.
 2. To set a porting PIN, in the left navigation of the **Microsoft Teams admin center**, go to **Voice** > **Phone numbers**, on the upper-right corner of the page, select **Manage porting PIN**, and then **enter a 10-digit PIN**.
@@ -68,5 +69,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

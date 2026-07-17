@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3267626-switzerland-number-porting
+title: "Switzerland Number Porting"
+description: "Here you will find the requirements for Switzerland number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 9ae4a592115be6281d3f0aaa81653d2f6d9907525b89fbd65268fd2f46440699
 ---
 
-Switzerland Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Switzerland Number Porting
 
-Here you will find the requirements for Switzerland number portability.
+Here you will find the requirements for Switzerland number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
-# Porting Local / National Numbers in Switzerland
+## Porting Local / National Numbers in Switzerland
 
 1. LOA (porting wish date must be mentioned, the signature must be a wet signature) - if you are porting numbers under a business, the Authorized person must have full authority to act on behalf of that business.
 2. Latest Invoice
@@ -44,5 +45,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

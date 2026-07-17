@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6966381-use-wal-g-with-telnyx-storage
+title: "Use WAL-G with Telnyx Storage"
+description: "Maximize the benefits of WAL-G, a robust backup tool for PostgreSQL, by following our guide to configure it with Telnyx… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 2cb4f9cea277f167f5f04d3a409cc2175b91c739b539dd18119985b8000203e0
 ---
 
-Use WAL-G with Telnyx Storage | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Use WAL-G with Telnyx Storage
 
-Maximize the benefits of WAL-G, a robust backup tool for PostgreSQL, by following our guide to configure it with Telnyx Storage.
+Maximize the benefits of WAL-G, a robust backup tool for PostgreSQL, by following our guide to configure it with Telnyx… See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-June 6, 2024
 
-Table of contents
 
 [WAL-G](https://github.com/wal-g/wal-g) is a backup and disaster recovery tool. It enables you to store and manage PostgreSQL WAL (write-ahead log) files on cloud storage services that implement the S3 API, including Amazon S3 and compatible services, ensuring that you have a secure and reliable backup of your PostgreSQL database.
 
 ---
 
-# How to configure WAL-G to work with Telnyx Storage
+## How to configure WAL-G to work with Telnyx Storage
 
 1. Download and install the latest version of WAL-G [here](https://github.com/wal-g/wal-g#installation)!
 2. Follow WAL-G’s guide to configure it with S3 Storage [here](https://github.com/wal-g/wal-g/blob/master/docs/STORAGES.md#s3). Enter in the following values for the configuration fields (in bold):
@@ -53,5 +54,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

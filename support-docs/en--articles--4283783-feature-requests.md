@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4283783-feature-requests
+title: "Feature Requests"
+description: "This article explains how to submit a feature request within the Mission Control Portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 7aa6e57aac216c830a89e541b3981c08d68d34d35c3bcbea89d0902bb10c0d3c
 ---
 
-Feature Requests | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Feature Requests
 
-This article explains how to submit a feature request within the Mission Control Portal.
+This article explains how to submit a feature request within the Mission Control Portal. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-December 26, 2024
 
-Table of contents
 
 A feature request allows users to request helpful features that are not currently supported in the Mission Control Portal.
 
-# **Video Walkthrough for Feature Requests**
+## **Video Walkthrough for Feature Requests**
 
 ![Video walkthrough notice.](_images/36434bbc155f6855.png)
 
@@ -67,5 +68,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

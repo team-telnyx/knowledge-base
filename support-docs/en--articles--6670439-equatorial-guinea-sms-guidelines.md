@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6670439-equatorial-guinea-sms-guidelines
+title: "Equatorial Guinea: SMS Guidelines"
+description: "Sending SMS to Equatorial Guinea? See Telnyx guidance and requirements Learn more about Equatorial Guinea: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: c1288817f4cc59e3ca0586395799be6be4dfcccc823ae560fbd24c686806e779
 ---
 
-Equatorial Guinea: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Equatorial Guinea: SMS Guidelines
 
-Sending SMS to Equatorial Guinea? Check out our comprehensive guidelines to ensure compliance in Equatorial Guinea.
+Sending SMS to Equatorial Guinea? See Telnyx guidance and requirements Learn more about Equatorial Guinea: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Equatorial Guinea: SMS Guidelines**
+## **Equatorial Guinea: SMS Guidelines**
 
-**MCC:** 627  
-​**Dial Code:** 240  
-​  
+**MCC:** 627
+​**Dial Code:** 240
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

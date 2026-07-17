@@ -1,30 +1,31 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6531603-france-sms-guidelines
+title: "France: SMS Guidelines"
+description: "Sending SMS to France? See Telnyx guidance and requirements Learn more about France: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 498a9a733fece618c3fbdf2cd934b45cf040371b5ae2db8437449a05988fab6c
 ---
 
-France: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # France: SMS Guidelines
 
-Sending SMS to France? Check out our comprehensive guidelines to ensure compliance in France.
+Sending SMS to France? See Telnyx guidance and requirements Learn more about France: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-May 1, 2026
 
-Table of contents
 
-# **France: SMS Guidelines**
+## **France: SMS Guidelines**
 
-**MCC**: 208  
-​**Dial Code:** 33  
-​  
-Alphanumeric Sender IDs are supported and will be maintained, no registration is required.   
-​  
+**MCC**: 208
+​**Dial Code:** 33
+​
+Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
+​
 As of March 1, 2026, the use of special characters in Alphanumeric Senders is not allowed.
 
 Telnyx advises on the use of Alphanumeric Sender IDs for all [A2P](https://telnyx.com/resources/what-is-a2p-messaging) traffic towards this destination.
@@ -33,16 +34,16 @@ When sending towards MVNO NRJ (20826) and Truphone (20812) Alphanumeric Sender I
 
 Local Operators do not allow marketing/promotional traffic to be sent on Sundays and French Public Holidays, between 10 pm and 8 am. Any messages attempted during this time will be queued and delivery will be attempted afterwards.
 
-All marketing/promotional traffic should include a clear option to opt-out as part of the message content. Fragment **STOP au 36179** must be added at the end of the message. If missing, this will be added automatically.  
-​  
+All marketing/promotional traffic should include a clear option to opt-out as part of the message content. Fragment **STOP au 36179** must be added at the end of the message. If missing, this will be added automatically.
+​
 ​
 
 ---
 
-**Anti-Phishing measures:**  
-​  
-In an attempt to fight the increase in SMS Phishing and Fraud attempts, French operators have implemented an additional check (Whitelisting) on a group of Alpha Numeric Sender IDs. Traffic using the aforementioned Alphanumeric Sender IDs will only be possible through the submission of a duly signed Letter of Authorization.   
-​  
+**Anti-Phishing measures:**
+​
+In an attempt to fight the increase in SMS Phishing and Fraud attempts, French operators have implemented an additional check (Whitelisting) on a group of Alpha Numeric Sender IDs. Traffic using the aforementioned Alphanumeric Sender IDs will only be possible through the submission of a duly signed Letter of Authorization.
+​
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
@@ -56,5 +57,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

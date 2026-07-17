@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6683429-tuvalu-sms-guidelines
+title: "Tuvalu: SMS Guidelines"
+description: "Sending SMS to Tuvalu? See Telnyx guidance and requirements Learn more about Tuvalu: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: d9a1dc3532104962ca91c3844dbcc11bf011bc1fd62da4b2a91e5d7a0bf992f4
 ---
 
-Tuvalu: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Tuvalu: SMS Guidelines
 
-Sending SMS to Tuvalu? Check out our comprehensive guidelines to ensure compliance in Tuvalu.
+Sending SMS to Tuvalu? See Telnyx guidance and requirements Learn more about Tuvalu: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Tuvalu: SMS Guidelines**
+## **Tuvalu: SMS Guidelines**
 
-**MCC:** 553  
-​**Dial Code:** 688  
-​  
+**MCC:** 553
+​**Dial Code:** 688
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

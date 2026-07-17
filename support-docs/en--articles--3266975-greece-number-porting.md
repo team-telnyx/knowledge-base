@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3266975-greece-number-porting
+title: "Greece Number Porting"
+description: "Here you will find detailed requirements for Greece number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 10a0f668cb89b1333cdb82a29e2356166adc20daaa2a8ef72ec6e0a1c7480d74
 ---
 
-Greece Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Greece Number Porting
 
-Here you will find detailed requirements for Greece number portability.
+Here you will find detailed requirements for Greece number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
-# **For local number Types in Greece**
+## **For local number Types in Greece**
 
 1. LOA
 2. Greek TAX / VAT ID or company registration number required
@@ -39,5 +40,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

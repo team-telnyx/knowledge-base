@@ -1,32 +1,33 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6675024-macao-sms-guidelines
+title: "Macao: SMS Guidelines"
+description: "Sending SMS to Macao? See Telnyx guidance and requirements Learn more about Macao: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 108e72489a15b352837c9460843a5fff17835e7d86a0b782c78bd93bcba56234
 ---
 
-Macao: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Macao: SMS Guidelines
 
-Sending SMS to Macao? Check out our comprehensive guidelines to ensure compliance in Macao.
+Sending SMS to Macao? See Telnyx guidance and requirements Learn more about Macao: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Macao: SMS Guidelines**
+## **Macao: SMS Guidelines**
 
-**MCC:** 455  
-​**Dial Code:** 853  
-​  
+**MCC:** 455
+​**Dial Code:** 853
+​
 Alphanumeric Sender IDs are supported. Registration is not necessary.
 
-Alphanumeric Sender IDs can be overwritten to a random Hong Kong Long Code to ensure delivery towards Network China Telecom (45507).  
-​  
+Alphanumeric Sender IDs can be overwritten to a random Hong Kong Long Code to ensure delivery towards Network China Telecom (45507).
+​
 There are no restrictions with regards to content towards this destination.
 
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
@@ -42,5 +43,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

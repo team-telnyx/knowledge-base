@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8047928-use-dragondisk-with-telnyx-storage
+title: "Use DragonDisk with Telnyx Storage"
+description: "Set up DragonDisk with your cloud storage provider for effortless file management and seamless access to your data… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 3fa31814d2794f8718ef9308d24016ca8f28d4016d3a2c10c7a03925adfd821d
 ---
 
-Use DragonDisk with Telnyx Storage | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Use DragonDisk with Telnyx Storage
 
-Set up DragonDisk with your cloud storage provider for effortless file management and seamless access to your data across multiple accounts.
+Set up DragonDisk with your cloud storage provider for effortless file management and seamless access to your data… See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-February 1, 2024
 
-Table of contents
 
 In this guide, discover how to set up [DragonDisk](http://www.s3-client.com/), a client for S3-compatible storage with [Telnyx Storage](https://telnyx.com/products/cloud-storage) for secure and automated backup and recovery.
 
@@ -24,7 +25,7 @@ In this guide, discover how to set up [DragonDisk](http://www.s3-client.com/), a
 
 ---
 
-# **How to configure DragonDisk to work with Telnyx Storage**
+## **How to configure DragonDisk to work with Telnyx Storage**
 
 ## Step 1
 
@@ -36,14 +37,14 @@ Open the DragonDisk application
 
 ## Step 3
 
-Click on **File**, and select **Accounts**.  
+Click on **File**, and select **Accounts**.
 ​
 
 ![File section. ](_images/0cc197bf7008c26d.png)
 
 ## Step 4
 
-1. The **Accounts** window will pop up, click on **New**.  
+1. The **Accounts** window will pop up, click on **New**.
    ​
 
    ![Accounts section. ](_images/0c160bcae415fb8e.png)
@@ -56,7 +57,7 @@ Click on **File**, and select **Accounts**.
    2. **Account name: you can add your name/nickname here.**
    3. **Comment:** add a comment to recall this account.
    4. **Access Key:** copy and paste your [Telnyx API Key](https://portal.telnyx.com/#/app/api-keys) in this field.
-   5. **Secret Key:** the secret key is not used by Telnyx Storage, but is needed by DragonDisk . You can type out anything you want here, as long as it doesn’t include spaces, quoting, or special characters of any kind.  
+   5. **Secret Key:** the secret key is not used by Telnyx Storage, but is needed by DragonDisk . You can type out anything you want here, as long as it doesn’t include spaces, quoting, or special characters of any kind.
       ​
 
       ![Advanced settings of the account section. ](_images/a8ef9c5705106fec.png)
@@ -79,5 +80,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

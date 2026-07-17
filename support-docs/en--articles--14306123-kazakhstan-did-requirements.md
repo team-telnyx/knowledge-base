@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/14306123-kazakhstan-did-requirements
+title: "Kazakhstan DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Kazakhstan numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 627806f987511b1ab43f460e8c706a06ec45db38028c3c324a0ca29774ca1ff6
 ---
 
-Kazakhstan DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Kazakhstan DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Kazakhstan numbers.
+Here you will find a list of detailed requirements for acquiring Kazakhstan numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-April 13, 2026
 
-Table of contents
 
-# **DID Number Requirements for Kazakhstan**
+## **DID Number Requirements for Kazakhstan**
 
 In order to purchase a Kazakhstan number you will need to provide the following:
 
@@ -57,5 +58,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3760805-argentina-did-requirements
+title: "Argentina DID Requirements"
+description: "Here you will find all the requirements for acquiring Argentina numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ad0557baa598d2c8181d4661ba5685c84dbb18e8b1b582469d9ad6fa02b3f8b4
 ---
 
-Argentina DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Argentina DID Requirements
 
-Here you will find all the requirements for acquiring Argentina numbers.
+Here you will find all the requirements for acquiring Argentina numbers. See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-September 29, 2025
 
-Table of contents
 
-# DID Number Requirements for Argentina
+## DID Number Requirements for Argentina
 
 In order to purchase an Argentina number you will need to provide the following:
 
@@ -46,13 +47,13 @@ For **address** verification:
 
 ## **Toll-Free Numbers in Argentina**
 
-For **personal identity** verification:  
+For **personal identity** verification:
 \* Name, last name
 
-For **business identity** verification:  
-\* Company name  
-​  
-For **address** verification:  
+For **business identity** verification:
+\* Company name
+​
+For **address** verification:
 \* Address worldwide (street, building number, postal code, city, and country)
 
 ## Where can I purchase toll-free numbers in Argentina?
@@ -100,5 +101,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

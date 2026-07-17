@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6680003-sao-tome-and-principe-sms-guidelines
+title: "Sao Tome and Principe: SMS Guidelines"
+description: "Sending SMS to Sao Tome and Principe? See Telnyx guidance and requirements Learn more about Sao Tome and Principe: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: a422c1af46440ab8ebaa7cc37aa17199f07c70788553c59651b6bdf462c6f36c
 ---
 
-Sao Tome and Principe: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Sao Tome and Principe: SMS Guidelines
 
-Sending SMS to Sao Tome and Principe? Check out our comprehensive guidelines to ensure compliance in Sao Tome and Principe.
+Sending SMS to Sao Tome and Principe? See Telnyx guidance and requirements Learn more about Sao Tome and Principe: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Sao Tome and Principe: SMS Guidelines**
+## **Sao Tome and Principe: SMS Guidelines**
 
-**MCC:** 626  
-​**Dial Code:** 239  
-​  
+**MCC:** 626
+​**Dial Code:** 239
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

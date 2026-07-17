@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/2964210-megaport-configuration-with-telnyx
+title: "Megaport Configuration with TELNYX"
+description: "In this article we will explain how to configure Megaport with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: d0bfcebb26f0f8f67bbcd1bf870f3e53c4f93d266da2afbbdb52c4fcfc8bc8b4
 ---
 
-Megaport Configuration with TELNYX | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Megaport Configuration with TELNYX
 
-In this article we will explain how to configure Megaport with Telnyx.
+In this article we will explain how to configure Megaport with Telnyx. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_931a5218c3)
 
@@ -32,7 +33,7 @@ Additional resources:
 
 ---
 
-# Instructions for configuring Megaport with Telnyx
+## Instructions for configuring Megaport with Telnyx
 
 In this activity you will:
 
@@ -112,5 +113,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

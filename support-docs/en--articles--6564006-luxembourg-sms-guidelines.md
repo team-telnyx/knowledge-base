@@ -1,29 +1,30 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6564006-luxembourg-sms-guidelines
+title: "Luxembourg: SMS Guidelines"
+description: "Sending SMS to Luxembourg? See Telnyx guidance and requirements Learn more about Luxembourg: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 374189168b2f71f8ebf69be77265bc6c377084f52994fbccae943ee4a5fe7544
 ---
 
-Luxembourg: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Luxembourg: SMS Guidelines
 
-Sending SMS to Luxembourg? Check out our comprehensive guidelines to ensure compliance in Luxembourg.
+Sending SMS to Luxembourg? See Telnyx guidance and requirements Learn more about Luxembourg: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Luxembourg: SMS Guidelines**
+## **Luxembourg: SMS Guidelines**
 
 **MCC:** 270
 
-**Dial Code:** 352  
-​  
+**Dial Code:** 352
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -41,5 +42,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

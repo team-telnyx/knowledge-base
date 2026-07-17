@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130620-freepbx-trunk-settings-with-telnyx
+title: "FreePBX Trunk Settings With Telnyx"
+description: "Learn how to configure a FreePBX V13 IP trunk with Telnyx. See Telnyx guidance and requirements Learn more about FreePBX Trunk Settings With Telnyx with Telnyx."
 scraped: 2026-07-08
 content_hash: 0b4b5eec6e7bef69e11a8a534a7918e58ed78f819ddaea334d757d5864b0f0aa
 ---
 
-FreePBX Trunk Settings With Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # FreePBX Trunk Settings With Telnyx
 
-Learn how to configure a FreePBX V13 IP trunk with Telnyx. Get started today. HINT: It's easy.
+Learn how to configure a FreePBX V13 IP trunk with Telnyx. See Telnyx guidance and requirements Learn more about FreePBX Trunk Settings With Telnyx with Telnyx.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_afe197f7e2)
 
@@ -35,7 +36,7 @@ Additional documentation and resoruces:
 
 ---
 
-# Instructions for Configuring a FreePBX V15 IP Trunk
+## Instructions for Configuring a FreePBX V15 IP Trunk
 
 In this activity you will:
 
@@ -89,7 +90,7 @@ In this section, you'll go through the steps you need to follow to install FreeP
    ##
 7. #### **Enter the IP address of the new PBX into your web browser. The first time you do so, you'll be asked to create the admin username and the admin password. That username and password will be used in the future to access the FreePBX configuration screen.** **Note:** These passwords do not change the Root password! They are only used for access to the FreePBX web interface.
 
-   
+
 8. ### **Once submitted you can log in to the admin panel with the username and password set up on the step above.**
 
 [Back to Top](#h_afe197f7e2)
@@ -135,10 +136,10 @@ At this point you can now work on confirming network settings and configuring yo
 
 In this section, you'll configure all your PJSIP extensions.
 
-1. Make your way to **Applications -> Extensions -> Add Extension -> Add New Chan SIP Extension.** The **Outbound CID** is the [number you purchased](https://portal.telnyx.com/#/app/numbers/my-numbers) from your Telnyx Mission Control Portal. The extensions secret may need to be populated under the **Other** tab.  
-   ​  
-   ​***Note*** *that if you do not set an Outbound CID for your extension, you will need to enable this on your trunk.*  
-   ​  
+1. Make your way to **Applications -> Extensions -> Add Extension -> Add New Chan SIP Extension.** The **Outbound CID** is the [number you purchased](https://portal.telnyx.com/#/app/numbers/my-numbers) from your Telnyx Mission Control Portal. The extensions secret may need to be populated under the **Other** tab.
+   ​
+   ​***Note*** *that if you do not set an Outbound CID for your extension, you will need to enable this on your trunk.*
+   ​
    ​***Note*** *that this device uses CHAN\_SIP technology listening on Port 5160 (UDP - this is a NON STANDARD port).*
 
    ![New Chan SIP Extension Interface. ](_images/02fd06b118aa7ac1.png)
@@ -155,7 +156,7 @@ For testing purposes, you can now use your SIP client to register with FreePBX u
 
    ![General tab interface for FreePBX configuration. ](_images/55bc20917d2a241a.png)
 
-   ***Note****: If you choose not to set an Outbound CID on your trunk, then you must set an Outbound CID on each relevant extension. If you do not set a caller ID on either the trunk or each extension, then your calls will reach our SIP proxy without a valid caller ID. You may instead choose to enable a Caller ID Override in your SIP Connection’s Outbound Options from within the Telnyx Portal. Please review our [caller ID number policy](https://support.telnyx.com/en/articles/3546251-caller-id-number-policy) for accepted formats.*  
+   ***Note****: If you choose not to set an Outbound CID on your trunk, then you must set an Outbound CID on each relevant extension. If you do not set a caller ID on either the trunk or each extension, then your calls will reach our SIP proxy without a valid caller ID. You may instead choose to enable a Caller ID Override in your SIP Connection’s Outbound Options from within the Telnyx Portal. Please review our [caller ID number policy](https://support.telnyx.com/en/articles/3546251-caller-id-number-policy) for accepted formats.*
    ​
 3. Proceed to the **Dialed Number Manipulation Rules** tab. Depending on your use case, we've provided a simple dial pattern US numbers below.
 
@@ -246,5 +247,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

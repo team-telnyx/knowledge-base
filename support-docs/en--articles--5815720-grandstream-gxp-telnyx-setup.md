@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5815720-grandstream-gxp-telnyx-setup
+title: "Grandstream GXP: Telnyx Setup"
+description: "Learn how to set up and configure a Grandstream GXP1630/GXP2135 IP Phone and connect it to your Telnyx account. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 236f0084778cd8042d186a4be6accb492a7c6c9cae011f1912d457c155f1f8f4
 ---
 
-Grandstream GXP: Telnyx Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Grandstream GXP: Telnyx Setup
 
-Learn how to set up and configure a Grandstream GXP1630/GXP2135 IP Phone and connect it to your Telnyx account.
+Learn how to set up and configure a Grandstream GXP1630/GXP2135 IP Phone and connect it to your Telnyx account. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_5a7ed2c3f5)
 
@@ -30,7 +31,7 @@ Table of contents
 
 ---
 
-# Instructions for configuring the Grandstream GXP IP Phone to work with Telnyx
+## Instructions for configuring the Grandstream GXP IP Phone to work with Telnyx
 
 |  |
 | --- |
@@ -156,5 +157,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

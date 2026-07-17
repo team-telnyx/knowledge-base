@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4378813-us-local-call-completion
+title: "US Local Call Completion"
+description: "This article describes local call completion issues and why it occurs. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ae051f44e063122227d167a82852d5f8fe0b518792787c28b3ccbaa97b23a010
 ---
 
-US Local Call Completion | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # US Local Call Completion
 
-This article describes local call completion issues and why it occurs.
+This article describes local call completion issues and why it occurs. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-January 20, 2026
 
-Table of contents
 
-# **US Local Calling Experience**
+## **US Local Calling Experience**
 
 ![Breaking Line](_images/682991ade0be9812.png)
 
@@ -30,8 +31,8 @@ Much like [US Rural Call Completion](https://support.telnyx.com/en/articles/4096
 
 ![Breaking Line](_images/682991ade0be9812.png)
 
-Firstly, we must understand what a typical call flow entails and how carriers know where to route calls that their subscribers dial. Typically, in a local calling scenario, you have the following:   
-​  
+Firstly, we must understand what a typical call flow entails and how carriers know where to route calls that their subscribers dial. Typically, in a local calling scenario, you have the following:
+​
 Originating Carrier -> Downstream Tandem -> LEC -> Upstream Tandem -> Destination Carrier.
 
 * **Originating Carrier:** The carrier of the calling party.
@@ -50,19 +51,19 @@ Call routing works using ***LERG, LATA, LRN, LNP, NPA & Rate Center*** informati
 * **LATA**: Local Access Transport Area. This is the geographic area in which numbers are routed. Typically, LATA's do not cross states but states can have multiple LATA's.
 * **LRN**: Location Routing Number. It's a unique identification phone number which tells the industry how to route calls through the PSTN. Each carrier has at least one LRN per LATA. They were created to provide local number portability by allowing numbers to route successfully when moving carriers. The only requirement is that the LRN changes.
 * **LNP**: Local Number Portability. The ability to retain your local phone if you switch to another carrier.
-* **NPA:** Number Planning Area. Calls to ported or pooled numbers are routed based on the NPA-NXX of the number’s associated LRN. The NPA is a 3 digit number that identifies the area code of the region. A single NPA can be available in more than one rate center.   
+* **NPA:** Number Planning Area. Calls to ported or pooled numbers are routed based on the NPA-NXX of the number’s associated LRN. The NPA is a 3 digit number that identifies the area code of the region. A single NPA can be available in more than one rate center.
   ​
-* **Rate Center**: A rate center is a geographical area used to determine the boundaries for local calling, billing, and assigning specific phone numbers, which can encompass multiple area codes.  
+* **Rate Center**: A rate center is a geographical area used to determine the boundaries for local calling, billing, and assigning specific phone numbers, which can encompass multiple area codes.
   ​
 
 ## **Relationship Between Components & Terms**
 
 ![Breaking Line](_images/682991ade0be9812.png)
 
-Carriers are typically assigned thousand block NPA-NXX's they can then provide to their subscribers. When Telnyx loads numbers that our customers can purchase, our numbering team ensure that each NPA-NXX number is assigned a particular LRN.  
-​  
-This LRN is broadcasted to the industry via NPAC Iconetiv who administer the routing of phone calls. Telnyx also provides the NPA-NXX blocks and LRN information to our upstream tandems, so they can load the information into their switches and know how to route calls when they receive calls from the LEC at the PSTN.  
-​  
+Carriers are typically assigned thousand block NPA-NXX's they can then provide to their subscribers. When Telnyx loads numbers that our customers can purchase, our numbering team ensure that each NPA-NXX number is assigned a particular LRN.
+​
+This LRN is broadcasted to the industry via NPAC Iconetiv who administer the routing of phone calls. Telnyx also provides the NPA-NXX blocks and LRN information to our upstream tandems, so they can load the information into their switches and know how to route calls when they receive calls from the LEC at the PSTN.
+​
 The problem that we see from time to time is that our customers mention that their clients were unable to reach them. From our experience Call completion issues are likely caused by a translations issue. Translation issues typically occur after porting out or at the tandem switches.
 
 * **Porting Out** - The originating (losing) carrier has not removed old routing information from their network, resulting in their subscribers calls never reaching the new destinations network. We typically see delays with legacy telco providers, where it can take at least one hour, post port out, for them to update their routing information across their network.
@@ -78,8 +79,8 @@ At Telnyx, we're looking to connect people globally, no matter where they reside
 
 The problem becomes more difficult when it's not an issue with our tandem providers, where they have verified the calls never reached their network from the PSTN. This means it could have been an intermittent issue, at the time of the call, either at the LEC or an actual issue at the downstream tandem or simply with the originating carrier.
 
-Often attempts to reach out to the originating carriers, whether it be directly or with the assistance of our tandem providers, yield CPNI compliance restrictions and "Please have our subscriber reach out to our support to log a fault".   
-​  
+Often attempts to reach out to the originating carriers, whether it be directly or with the assistance of our tandem providers, yield CPNI compliance restrictions and "Please have our subscriber reach out to our support to log a fault".
+​
 We're all about connectivity and we are willing to continue to troubleshoot local issues your client's callers may be having.
 
 ## **How to Report Local US Calling Issues**
@@ -104,5 +105,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

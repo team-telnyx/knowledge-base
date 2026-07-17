@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/15455646-bot-to-bot-support-api-ask-telnyx-knowledge-agent
+title: "Bot-to-Bot Support API: Ask Telnyx Knowledge Agent"
+description: "External bots and AI agents can ask general Telnyx support and developer documentation questions using the public… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 863f4afcf4c285f4608209b621ab952dc603c6e3c7ebcf1659c0c65a6fa340bc
 ---
 
-Bot-to-Bot Support API: Ask Telnyx Knowledge Agent | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Bot-to-Bot Support API: Ask Telnyx Knowledge Agent
 
-External bots and AI agents can ask general Telnyx support and developer documentation questions using the public Knowledge Agent endpoint.
+External bots and AI agents can ask general Telnyx support and developer documentation questions using the public… See Telnyx guidance and requirements.
 
-Written by David
 
-Updated over 3 weeks ago
 
-Table of contents
 
 External bots, AI agents, and customer automation systems can ask general Telnyx support and developer documentation questions using the public Telnyx Knowledge Agent endpoint.
 
@@ -24,25 +25,25 @@ This endpoint is intended for bot-to-bot support discovery and general troublesh
 
 **Beta notice:** This is a new service currently in beta. If you run into issues, unexpected answers, or problems using the endpoint, please report them to [support@telnyx.com](mailto:support@telnyx.com).
 
-# Endpoint
+## Endpoint
 
 ```
 POST https://api.telnyx.com/v2/knowledge_agent/ask
 ```
 
-# Authentication
+## Authentication
 
 No Telnyx API key is required for general documentation questions.
 
 Do not send secrets, API keys, message bodies containing private customer data, call logs, billing details, or other sensitive account-specific information to this unauthenticated endpoint.
 
-# Request body
+## Request body
 
 ```
 {  "question": "How do I troubleshoot inbound SMS delivery?"}
 ```
 
-# Response body
+## Response body
 
 ```
 {  "answer": "...",  "citations": []}
@@ -50,19 +51,19 @@ Do not send secrets, API keys, message bodies containing private customer data, 
 
 The `answer` field contains the Knowledge Agent response. The `citations` field is reserved for supporting references when available.
 
-# Example curl request
+## Example curl request
 
 ```
 curl -X POST "https://api.telnyx.com/v2/knowledge_agent/ask" \  -H "Content-Type: application/json" \  -d '{    "question": "What is TeXML?"  }'
 ```
 
-# Example JavaScript request
+## Example JavaScript request
 
 ```
 const response = await fetch("https://api.telnyx.com/v2/knowledge_agent/ask", {  method: "POST",  headers: {    "Content-Type": "application/json"  },  body: JSON.stringify({    question: "How do I configure a Telnyx messaging profile?"  })});const result = await response.json();console.log(result.answer);
 ```
 
-# Use this endpoint for
+## Use this endpoint for
 
 * General Telnyx product questions
 * Support documentation questions
@@ -71,7 +72,7 @@ const response = await fetch("https://api.telnyx.com/v2/knowledge_agent/ask", { 
 * Bot-to-bot support discovery
 * Helping customer bots find the right Telnyx documentation or troubleshooting path
 
-# Do not use this endpoint for
+## Do not use this endpoint for
 
 * Account-specific diagnostics
 * Private customer data
@@ -80,7 +81,7 @@ const response = await fetch("https://api.telnyx.com/v2/knowledge_agent/ask", { 
 * Requests that require customer identity verification
 * Requests that require Telnyx support to inspect a specific account, ticket, phone number, message, call, SIM, port request, or billing record
 
-# Bot discovery guidance
+## Bot discovery guidance
 
 If you are building an external bot or AI agent that needs Telnyx support, use this article as the bot-to-bot support entry point. The bot should submit a concise natural-language question to the Knowledge Agent endpoint and use the returned answer to guide the customer.
 
@@ -91,15 +92,15 @@ For example, a customer bot can ask:
 * `How do I configure inbound call screening?`
 * `How do I attach a Telnyx AI Assistant to a voice call?`
 
-# Account-specific troubleshooting
+## Account-specific troubleshooting
 
 For issues that require access to a specific Telnyx account or resource, use authenticated Telnyx APIs or contact Telnyx support. Account-specific bot-to-bot troubleshooting requires an authenticated flow, such as a Telnyx API key or delegated token, so Telnyx can safely verify the customer account and enforce permission boundaries.
 
-# Rate limits and abuse prevention
+## Rate limits and abuse prevention
 
 This endpoint is public and intended for reasonable automated support usage. It is rate limited to 10 requests per minute. Clients should avoid high-volume polling, repeated duplicate questions, or sending large volumes of unrelated prompts. Telnyx may block abusive traffic.
 
-# Related resources
+## Related resources
 
 * [Telnyx Help Center llms.txt](https://support.telnyx.com/llms.txt)
 * [Telnyx Developer Docs](https://developers.telnyx.com)
@@ -114,5 +115,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

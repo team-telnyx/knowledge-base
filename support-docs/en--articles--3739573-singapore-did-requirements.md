@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3739573-singapore-did-requirements
+title: "Singapore DID Requirements"
+description: "Here you will find a detailed list of requirements to acquire Singapore numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: e2c42b3e2f49281fab353ea5f2caa536bd5359efc659e733736121611ed58f80
 ---
 
-Singapore DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Singapore DID Requirements
 
-Here you will find a detailed list of requirements to acquire Singapore numbers.
+Here you will find a detailed list of requirements to acquire Singapore numbers. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-June 18, 2024
 
-Table of contents
 
-# DID Number Requirements for Singapore
+## DID Number Requirements for Singapore
 
 In order to purchase a Singapore number you will need to provide the following:
 
@@ -151,5 +152,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

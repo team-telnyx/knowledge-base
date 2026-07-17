@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3266956-france-number-porting
+title: "France Number Porting"
+description: "Here you will find detailed requirements for France number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: bd375f2bf0a88b526eca1bdc985ddfc4c218ae50c7e16c1b61ada40421baf5b0
 ---
 
-France Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # France Number Porting
 
-Here you will find detailed requirements for France number portability.
+Here you will find detailed requirements for France number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
-# **Local / National Numbers / Toll-Free**
+## **Local / National Numbers / Toll-Free**
 
 1. LOA (National address mandatory)
 2. SIRET code (for business accounts only, must be 14 digits long)
@@ -38,7 +39,7 @@ Download LOA **[here](https://assets.ctfassets.net/taysl255dolk/4pv4cqjnsUfEGbye
 
 ## **Port types**
 
-There are **4 types of ports** possible in France (isolated, full, partial, and complex port). **All these port types take at least 8 business days to port.**   
+There are **4 types of ports** possible in France (isolated, full, partial, and complex port). **All these port types take at least 8 business days to port.**
 ​
 
 **1. ISOLATED** > You would select this option if you are porting only **one** number.
@@ -53,15 +54,15 @@ There are **4 types of ports** possible in France (isolated, full, partial, and 
 
 **There are only 2 available time slots:**
 
-1. **Morning trigger (10 AM trigger)**   
-   This means the request will port from 10 AM to 1 PM.  
+1. **Morning trigger (10 AM trigger)**
+   This means the request will port from 10 AM to 1 PM.
    ​
-2. **Afternoon trigger (2 PM trigger)**  
+2. **Afternoon trigger (2 PM trigger)**
    This means the request will port from 2 PM to 5 PM.
 
 ## **Information on file**
 
-It is crucial to verify the information **before** Telnyx submits a port request, as Telnyx needs to wait until the losing carrier rejects the initial port request before Telnyx is able to create a new port. This can take up to 3 business days and therefore delay the process.   
+It is crucial to verify the information **before** Telnyx submits a port request, as Telnyx needs to wait until the losing carrier rejects the initial port request before Telnyx is able to create a new port. This can take up to 3 business days and therefore delay the process.
 ​***E.g*** *The customer confused the business address, but the port request has already been sent, we will have to wait for the Losing Communications Provider to reject the request before we can submit another port request for the same number with a different address otherwise this port request will be rejected for pending port request.*
 
 ## **Most common rejections for France Number Porting**
@@ -84,5 +85,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

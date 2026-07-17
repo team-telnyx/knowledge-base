@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/12232444-comprehensive-ai-assistants-configuration-walk-through
+title: "Comprehensive AI Assistants Configuration Walk-Through"
+description: "This article will explain from start to finish on how to configure your AI assistant, See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 34a6d2e48641823169e388c27c7fe8589a4dca244fdb6a4f1de83409aac2a0fc
 ---
 
-Comprehensive AI Assistants Configuration Walk-Through | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Comprehensive AI Assistants Configuration Walk-Through
 
-This article will explain from start to finish on how to configure your AI assistant, concluding with a real world use case to showcase.
+This article will explain from start to finish on how to configure your AI assistant, See Telnyx guidance and requirements.
 
 Z
 
-Written by Zane Grey
 
-September 18, 2025
 
-Table of contents
 
-# Getting started with AI Assistants
+## Getting started with AI Assistants
 
 AI assistants are a unique way of managing your inbound/outbound calling and messaging all within the Telnyx interface, without having to download and configure additional software. In this article, we'll configure an AI assistant step by step covering all functionality and different configuration settings.
 
@@ -80,7 +81,7 @@ By default, every AI assistant has the ability to hang up the call whenever appr
 
 Choose a descriptive name for your webhook. Remember: no spaces allowed
 
-Example:  
+Example:
 ​`call_status_webhook`
 
 ### Description
@@ -99,7 +100,7 @@ Select the HTTP method your webhook should use. For example, a **POST** webhook 
 
 **URL**
 
-Enter the webhook URL where events will be sent.  
+Enter the webhook URL where events will be sent.
 ​`https://example.com/webhooks/call-status`
 
 These are enough for a quick set up and go config. Should you wish to create some more advanced assistants, the relevant settings are explained below;
@@ -127,14 +128,14 @@ This ensures only authenticated requests are processed by your server.
 
 Dynamic values you can inject into your URL path. Helpful if you want the webhook to target a specific resource.
 
-* Example:  
-  URL: `https://example.com/webhooks/{assistant_id}/status`  
+* Example:
+  URL: `https://example.com/webhooks/{assistant_id}/status`
   Path Parameter:
 
   + **Name:** `assistant_id`
   + **Value:** `12345`
 
-When triggered, the final URL becomes:  
+When triggered, the final URL becomes:
 ​`https://example.com/webhooks/12345/status`
 
 ---
@@ -143,14 +144,14 @@ When triggered, the final URL becomes:
 
 Optional key-value pairs appended to the URL. Commonly used for filtering, versioning, or simple security tokens.
 
-* Example:  
-  URL: `https://example.com/webhooks/call-status`  
+* Example:
+  URL: `https://example.com/webhooks/call-status`
   Query Parameters:
 
   + **Name:** `version` → **Value:** `1.0`
   + **Name:** `token` → **Value:** `secureToken123`
 
-Final URL:  
+Final URL:
 ​`https://example.com/webhooks/call-status?version=1.0&token=secureToken123`
 
 ---
@@ -344,5 +345,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

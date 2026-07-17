@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6675222-maldives-sms-guidelines
+title: "Maldives: SMS Guidelines"
+description: "SMS Guidelines for Maldives including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Maldives: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 4a41281f67e9ae83761dacdb7d275271028367ac8515d9281289b78d17677f4b
 ---
 
-Maldives: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Maldives: SMS Guidelines
 
-SMS Guidelines for Maldives including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Maldives including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Maldives: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **SMS Guidelines for Maldives**
+## **SMS Guidelines for Maldives**
 
-**MCC**: 472  
-​**Dial Code:** 960  
-​  
+**MCC**: 472
+​**Dial Code:** 960
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

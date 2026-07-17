@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/11843465-pakistan-did-requirements
+title: "Pakistan DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Pakistan numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 3489dbcc3691cc598c87698e39bf3d6a624d342713b1a6d2580b0a2b1b990181
 ---
 
-Pakistan DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Pakistan DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Pakistan numbers.
+Here you will find a list of detailed requirements for acquiring Pakistan numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-January 22, 2026
 
-Table of contents
 
-# DID Number Requirements for Pakistan
+## DID Number Requirements for Pakistan
 
 In order to purchase a Pakistan number you will need to provide the following:
 
@@ -57,5 +58,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5188524-hungary-number-porting
+title: "Hungary Number Porting"
+description: "Here you will find a detailed list of requirements for Hungary number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 47ef4b13a3028585796a7e15318eba675eb60a3f25af87b5857afe2976c0041c
 ---
 
-Hungary Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Hungary Number Porting
 
-Here you will find a detailed list of requirements for Hungary number portability.
+Here you will find a detailed list of requirements for Hungary number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
-# **For all number Types in Hungary**
+## **For all number Types in Hungary**
 
 1. LoA with account number
 
@@ -41,5 +42,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

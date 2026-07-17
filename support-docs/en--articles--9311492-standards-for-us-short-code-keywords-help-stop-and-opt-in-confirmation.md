@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/9311492-standards-for-us-short-code-keywords-help-stop-and-opt-in-confirmation
+title: "Standards for US Short Code Keywords: HELP, STOP, and"
+description: "Managing Autoresponses for US Short Codes. See Telnyx guidance and requirements Learn more about Standards for US Short Code Keywords: HELP, STOP, and with."
 scraped: 2026-07-08
 content_hash: 489d2501cf9bb0fd262d8c86074600bc5ad0da6e389742c399d7e817089208b9
 ---
 
-Standards for US Short Code Keywords: HELP, STOP, and Opt-In Confirmation | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Standards for US Short Code Keywords: HELP, STOP, and Opt-In Confirmation
 
-Managing Autoresponses for US Short Codes. Start building on Telnyx today.
+Managing Autoresponses for US Short Codes. See Telnyx guidance and requirements Learn more about Standards for US Short Code Keywords: HELP, STOP, and with.
 
 K
 
-Written by Klane Pedrie
 
-June 26, 2024
 
-Table of contents
 
-# Standards for US Short Code Keywords
+## Standards for US Short Code Keywords
 
 All US-based Telnyx short codes are required to respond appropriately to the HELP and STOP keywords, regardless of the sender's subscription status. This guide outlines the response obligations and industry norms for US-based short codes, and includes some examples.
 
@@ -34,20 +35,20 @@ You must let subscribers opt-out from receiving text messages from your short co
 
 When a user sends one of these keywords to your short code, your application must process this request and maintain the opt-out list. This allows your short code application to independently manage subscription lists and handle requests from users wishing to re-subscribe. If you need guidance on how to implement this with your short code, please contact your account manager.
 
-**STOP Message**  
+**STOP Message**
 It's required by industry standards to send a compliant response whenever an end user texts STOP or similar keywords to your short code, regardless of whether they were previously subscribed.
 
 Example:
 
-Recipient message: STOP, END, QUIT, CANCEL, or UNSUBSCRIBE  
+Recipient message: STOP, END, QUIT, CANCEL, or UNSUBSCRIBE
 Short code response: You are unsubscribed from {Campaign Name} {Description} Alerts. No more messages will be sent. Reply HELP for help or {toll-free number}.
 
-**HELP Messages**  
+**HELP Messages**
 A compliant response is also necessary whenever recipients text HELP to your short code, regardless of their subscription status.
 
 Example:
 
-Recipient message: HELP  
+Recipient message: HELP
 Short code response: {Campaign Name} {Description} Alerts: Help available at {source of help #1} or {toll-free number}. Msg&data rates may apply. {Message frequency}. Text STOP to cancel.
 
 **Important Notes**
@@ -77,5 +78,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

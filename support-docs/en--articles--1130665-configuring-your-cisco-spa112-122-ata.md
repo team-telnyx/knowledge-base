@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130665-configuring-your-cisco-spa112-122-ata
+title: "Configuring your Cisco SPA112/122 ATA"
+description: "In this guide you will learn to configure your Cisco SPA112 ATA with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: fb48173b31bccd2d3994f800ed0a16f3cdeaec415b6e07c45d4d815ae70d354c
 ---
 
-Configuring your Cisco SPA112/122 ATA | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Configuring your Cisco SPA112/122 ATA
 
-In this guide you will learn to configure your Cisco SPA112 ATA with Telnyx.
+In this guide you will learn to configure your Cisco SPA112 ATA with Telnyx. See Telnyx guidance and requirements.
 
-Written by David
 
-June 19, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_e427ce039a)
 
@@ -34,7 +35,7 @@ Further documentation:
 
 ---
 
-# Instructions for configuring Cisco SPA 112/122 to work with your Telnyx Mission Control Portal
+## Instructions for configuring Cisco SPA 112/122 to work with your Telnyx Mission Control Portal
 
 In this walkthrough, you will:
 
@@ -97,10 +98,10 @@ This section will help you connect your device to your network and navigate thro
 
       ![](_images/3a388326c3d104b4.png)
 
-      The Cisco SPA112 ATA, as well as other ATAs, require you to have inbound calls sent to the username configured on the device in the SIP settings.   
-      ​  
-      The easy way to set this up is to have the phone number as the username of the trunk, however Telnyx doesn't support phone numbers as connection usernames.  
-      ​  
+      The Cisco SPA112 ATA, as well as other ATAs, require you to have inbound calls sent to the username configured on the device in the SIP settings.
+      ​
+      The easy way to set this up is to have the phone number as the username of the trunk, however Telnyx doesn't support phone numbers as connection usernames.
+      ​
       Instead, we suggest you have inbound calls sent to the alphanumeric username of the connection instead of the number. This will send calls to your ATA through the username associated with your connection and completes your trunk configuration on the Telnyx side.
 3. Click **Save**.
 
@@ -118,7 +119,7 @@ This section will help you connect your device to your network and navigate thro
 4. Click on the **Quick Setup** tab. Modify the settings as follows:
 
    * **Proxy:** sip.telnyx.com
-   * **Display Name:** your\_DID (i.e.: 12245181471)  
+   * **Display Name:** your\_DID (i.e.: 12245181471)
      ​*Note that Some versions of the Cisco ATA software would send the Display Name in the registration, this is incorrect as our systems would think this is actually the username. If you are having issues registering with these settings remove the Display Name and leave it blank. You then need to configure a caller ID override on the outbound settings of your connection in the portal to make sure you send a valid Caller ID.*
    * **User ID:** your\_user\_name (ie. usernam12345) the same username from the connection on your portal.
    * **Password:** your\_password (ie. nameabcpass) the same password from the connection on your portal.
@@ -139,8 +140,8 @@ This section will help you connect your device to your network and navigate thro
 4. If your environment uses NAT, Find the **NAT Settings** section and set:
 
    1. **NAT Mapping Enable**: yes
-   2. **NAT Keep Alive Enable**: yes  
-      ​  
+   2. **NAT Keep Alive Enable**: yes
+      ​
       ​*If your environment doesn't use NAT, keep these settings disabled.*
 5. Find the **SIP Settings** section and set:
 
@@ -242,5 +243,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5466823-new-zealand-did-requirements
+title: "New Zealand DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring New Zealand numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: d963ba00900933ec237ce6c6da26204d09e6edf7d955c1d1f1f17ee2e171e524
 ---
 
-New Zealand DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # New Zealand DID Requirements
 
-Here you will find a list of detailed requirements for acquiring New Zealand numbers.
+Here you will find a list of detailed requirements for acquiring New Zealand numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-September 29, 2025
 
-Table of contents
 
-# DID Number Requirements for New Zealand
+## DID Number Requirements for New Zealand
 
 In order to purchase a New Zealand number you will need to provide the following:
 
@@ -109,5 +110,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

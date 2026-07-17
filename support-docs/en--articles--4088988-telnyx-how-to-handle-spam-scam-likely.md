@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4088988-telnyx-how-to-handle-spam-scam-likely
+title: "Telnyx - How to Handle Spam Scam Likely"
+description: "We will explain the spam likely flag and what to do in case your number has been flagged. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: cb35638b773eb447396084f81d810b603263dfd18a7783333ca7cdb3ec274292
 ---
 
-Telnyx - How to Handle Spam Scam Likely | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Telnyx - How to Handle Spam Scam Likely
 
-We will explain the spam likely flag and what to do in case your number has been flagged.
+We will explain the spam likely flag and what to do in case your number has been flagged. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-January 29, 2026
 
-Table of contents
 
-# Telnyx - How to Handle Spam Likely
+## Telnyx - How to Handle Spam Likely
 
 ## Steps to follow to mitigate a "Spam or Scam Likely" flag on your phone number
 
@@ -56,12 +57,12 @@ We also understand that there are many valid & legitimate use cases, where there
 
 The first step is to register with the Free Caller Registry. Several carriers use that to pull company information for phone numbers so having your numbers registered here will help lower the chances of terminating carriers flagging your numbers for spam.
 
-<https://www.freecallerregistry.com>  
+<https://www.freecallerregistry.com>
 ​
 
 Next step is to push to the specific carrier that is flagging your calls. This page has a very complete set of contact information or forms to submit to each different terminating carrier.
 
-<https://www.ustelecom.org/the-industry-traceback-group-itg/call-labeling-and-blocking-points-of-contact/>  
+<https://www.ustelecom.org/the-industry-traceback-group-itg/call-labeling-and-blocking-points-of-contact/>
 ​
 
 ## **STIR/SHAKEN Details**
@@ -77,5 +78,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

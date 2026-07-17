@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5120062-portugal-number-porting
+title: "Portugal Number porting"
+description: "Here you will find a detailed list of requirements for Portugal number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 1e2730cc6ed38639e9ebbf030ab3524f81b1a291ca6496c7336f177f43ecbf69
 ---
 
-Portugal Number porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Portugal Number porting
 
-Here you will find a detailed list of requirements for Portugal number portability.
+Here you will find a detailed list of requirements for Portugal number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
-# **Portugal Number porting**
+## **Portugal Number porting**
 
 ## **Local / National Number in Portugal**
 
@@ -46,5 +47,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

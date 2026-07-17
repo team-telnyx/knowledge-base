@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/12805746-surcharge-for-high-abandoned-call-rates
+title: "Surcharge for High Abandoned Call Rates"
+description: "Starting November 1, 2025 we will be applying surcharges to outbound traffic with high abandoned call rates to reduce… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 3272b61bb2469240175551ec4c1dcbf04af0c72699d45dc631fdbea7026af7dc
 ---
 
-Surcharge for High Abandoned Call Rates | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Surcharge for High Abandoned Call Rates
 
-Starting November 1, 2025 we will be applying surcharges to outbound traffic with high abandoned call rates to reduce misuse and keep the network reliable for everyone.
+Starting November 1, 2025 we will be applying surcharges to outbound traffic with high abandoned call rates to reduce… See Telnyx guidance and requirements.
 
-Written by David
 
-November 19, 2025
 
-Table of contents
 
 ## **What's Changing?**
 
@@ -59,7 +60,7 @@ There are two options to track your abandoned call percentage.
 * Filter by **Direction = outbound**
 * Breakout with **recv\_cancel** contains abandoned calls
 
-# Frequently Asked Questions:
+## Frequently Asked Questions:
 
 * **If my account had 21% of abandoned calls will the surcharge apply to the % that exceeds the threshold or all the abandoned calls?**
 
@@ -82,5 +83,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

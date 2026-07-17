@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6683477-virgin-islands-british-sms-guidelines
+title: "Virgin Islands (British): SMS Guidelines"
+description: "SMS Guidelines for Virgin Islands (British) including MCC and Dial Code. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: c2ed262d80c00c2afb4e52ead04507240503a09c668a0d4a6e1cfa75e8409c46
 ---
 
-Virgin Islands (British): SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Virgin Islands (British): SMS Guidelines
 
-SMS Guidelines for Virgin Islands (British) including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Virgin Islands (British) including MCC and Dial Code. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Virgin Islands (British): SMS Guidelines**
+## **Virgin Islands (British): SMS Guidelines**
 
-**MCC:** 348  
-​**Dial Code:** 1340  
-​  
+**MCC:** 348
+​**Dial Code:** 1340
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

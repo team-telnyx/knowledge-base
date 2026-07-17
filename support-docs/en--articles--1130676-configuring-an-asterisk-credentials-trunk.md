@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130676-configuring-an-asterisk-credentials-trunk
+title: "Configuring an Asterisk Credentials Trunk"
+description: "Comprehensive guide on configuring Asterisk with Telnyx for advanced VoIP communication and seamless call handling. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ea65c73e146e87a3d1d8f3aced9b9d7a1ad4b0bb2e3d9f899662ee6788924537
 ---
 
-Configuring an Asterisk Credentials Trunk | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Configuring an Asterisk Credentials Trunk
 
-Comprehensive guide on configuring Asterisk with Telnyx for advanced VoIP communication and seamless call handling.
+Comprehensive guide on configuring Asterisk with Telnyx for advanced VoIP communication and seamless call handling. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-June 6, 2024
 
-Table of contents
 
 [Jump to Instructions](#instructions-for-configuring-an-asterisk-trunk)
 
@@ -36,12 +37,12 @@ There are two standard methods to connect an Asterisk box to Telnyx:
 For more Asterisk documentation, see:
 
 * [http://www.asteriskdocs.org](http://www.asteriskdocs.org/) is a free HTML book (the corresponding printed book is published conventionally by O'Reilly)
-* [http://www.asterisk.org](https://www.asterisk.org/) is Asterisk's home site, operated by [Digium.com](https://www.sangoma.com/?source=digium_redirects_093021).  
+* [http://www.asterisk.org](https://www.asterisk.org/) is Asterisk's home site, operated by [Digium.com](https://www.sangoma.com/?source=digium_redirects_093021).
   ​
 
 ---
 
-# Instructions for Configuring an Asterisk Trunk
+## Instructions for Configuring an Asterisk Trunk
 
 **In this guide, you will:**
 
@@ -75,21 +76,21 @@ Once you've configured your Telnyx account, you're ready to set up Asterisk usin
 Open up `/etc/asterisk/pjsip_wizard.conf` with your preferred editor, and edit the following rows:
 
 ```
-[trunk_defaults]   
-type = wizard   
-  
-[telnyx] endpoint/transport = 0.0.0.0-udp   
-endpoint/allow = !all,ulaw,alaw,G729,G722   
-endpoint/rewrite_contact = yes   
-endpoint/dtmf_mode = rfc4733 ; Most PBXs will also support 2833.   
-endpoint/context = from-pstn   
-endpoint/force_rport = yes   
-aor/qualify_frequency = 60   
-sends_auth = yes   
-sends_registrations = yes   
-remote_hosts = sip.telnyx.com:5060  
-outbound_auth/username = username   
-outbound_auth/password = password   
+[trunk_defaults]
+type = wizard
+
+[telnyx] endpoint/transport = 0.0.0.0-udp
+endpoint/allow = !all,ulaw,alaw,G729,G722
+endpoint/rewrite_contact = yes
+endpoint/dtmf_mode = rfc4733 ; Most PBXs will also support 2833.
+endpoint/context = from-pstn
+endpoint/force_rport = yes
+aor/qualify_frequency = 60
+sends_auth = yes
+sends_registrations = yes
+remote_hosts = sip.telnyx.com:5060
+outbound_auth/username = username
+outbound_auth/password = password
 registration/expiration = 600
 ```
 
@@ -104,41 +105,41 @@ registration/expiration = 600
 Parameters that reference `1001` and `password` can be customized for your requirements and map to the following fields:
 
 ```
-[user_defaults](!)   
-type = wizard   
-accepts_registrations = yes   
-sends_registrations = no   
-accepts_auth = yes   
-sends_auth = no   
-endpoint/context = from-internal   
-endpoint/allow = !all,ulaw,alaw,G729,G722   
-endpoint/force_rport = yes  
-endpoint/dtmf_mode = rfc4733  
-endpoint/rewrite_contact = yes   
-aor/max_contacts = 1   
-aor/remove_existing = yes   
+[user_defaults](!)
+type = wizard
+accepts_registrations = yes
+sends_registrations = no
+accepts_auth = yes
+sends_auth = no
+endpoint/context = from-internal
+endpoint/allow = !all,ulaw,alaw,G729,G722
+endpoint/force_rport = yes
+endpoint/dtmf_mode = rfc4733
+endpoint/rewrite_contact = yes
+aor/max_contacts = 1
+aor/remove_existing = yes
 aor/minimum_expiration = 30
 ```
 
 After creating the template, setting up a new phone is often as simple as setting up a username/password, as the Phone object inherits from the Wizard template. You won't even need to specify a type.
 
 ```
-[Bart](user_defaults)   
-hint_exten = 1001  
-endpoint/callerid = Bart <1001>  
-inbound_auth/username = Bart  
+[Bart](user_defaults)
+hint_exten = 1001
+endpoint/callerid = Bart <1001>
+inbound_auth/username = Bart
 inbound_auth/password = strong@pass123$
 ```
 
 ```
-[Lisa](user_defaults)   
-hint_exten = 1001  
-endpoint/callerid = Lisa <1001>  
-endpoint/allow = !all,ulaw  
-inbound_auth/username = Lisa  
-inbound_auth/password = strong@pass246$  
-has_phoneprov = yes ; defaults to no  
-phoneprov/MAC = hereweGOaga1n ;must specify if has_phoneprov=yes  
+[Lisa](user_defaults)
+hint_exten = 1001
+endpoint/callerid = Lisa <1001>
+endpoint/allow = !all,ulaw
+inbound_auth/username = Lisa
+inbound_auth/password = strong@pass246$
+has_phoneprov = yes ; defaults to no
+phoneprov/MAC = hereweGOaga1n ;must specify if has_phoneprov=yes
 phoneprov/PROFILE = profile1 ;must specify if has_phoneprov=yes
 ```
 
@@ -151,20 +152,20 @@ Edit the following lines in `pjsip.conf` for installations behind NAT.
 **pjsip.conf**
 
 ```
-[global]   
-type = global   
-[transport-udp-nat]   
-type = transport   
-protocol = udp   
-bind = 0.0.0.0:5060   
-local_net = X.X.X.X/24   
-external_media_address = X.X.X.X   
-external_signaling_address = X.X.X.X   
+[global]
+type = global
+[transport-udp-nat]
+type = transport
+protocol = udp
+bind = 0.0.0.0:5060
+local_net = X.X.X.X/24
+external_media_address = X.X.X.X
+external_signaling_address = X.X.X.X
 allow_reload = no
 ```
 
 * In case the PBX is not in a NATed network, you can safely remove the following parameters: **external\_media\_address** and **external\_signaling\_address**.
-* With the above configurations added to the respective files, your PBX should be now registered to Telnyx, and the extension 1001 in your IP phone/softphone should be registered to your PBX.   
+* With the above configurations added to the respective files, your PBX should be now registered to Telnyx, and the extension 1001 in your IP phone/softphone should be registered to your PBX.
   ​
 
 ## 5. Setting Up the Dialplan
@@ -174,15 +175,15 @@ Asterisk makes use of the dialplans saved in `/etc/asterisk/extensions.conf` in 
 **extensions.conf**
 
 ```
-[from-pstn]   
-exten => _+1NXXXXXXXXX,1,Dial(PJSIP/1001)   
-exten => _NXXXXXXXXX,1,Dial(PJSIP/1001)   
-  
-[from-internal]   
-exten = _NXXNXXXXXX,1,Dial(PJSIP/+1${EXTEN}@telnyx)   
-same = n,Hangup()   
-  
-exten = _X.,1,Dial(PJSIP/+${EXTEN}@telnyx)   
+[from-pstn]
+exten => _+1NXXXXXXXXX,1,Dial(PJSIP/1001)
+exten => _NXXXXXXXXX,1,Dial(PJSIP/1001)
+
+[from-internal]
+exten = _NXXNXXXXXX,1,Dial(PJSIP/+1${EXTEN}@telnyx)
+same = n,Hangup()
+
+exten = _X.,1,Dial(PJSIP/+${EXTEN}@telnyx)
 same = n,Hangup()
 ```
 
@@ -210,5 +211,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

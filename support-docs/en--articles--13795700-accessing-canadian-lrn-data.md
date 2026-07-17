@@ -1,22 +1,22 @@
 ---
 source_url: https://support.telnyx.com/en/articles/13795700-accessing-canadian-lrn-data
+title: "Accessing Canadian LRN Data"
+description: "Canadian LRN (Local Routing Number) data is subject to regulatory restrictions and is not freely available. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ca987b60f15def8a87067e0a8250eaf599367bdc0ce20fe89af975be3956d347
 ---
 
-Accessing Canadian LRN Data | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Accessing Canadian LRN Data
 
-Written by Telnyx Engineering
 
-February 20, 2026
 
-Canadian LRN (Local Routing Number) data is subject to regulatory restrictions and is not freely available.  
-​  
-Telnyx has obtained a license to offer this data to our customers, but there are a few steps and requirements involved:
+Canadian LRN (Local Routing Number) data is subject to regulatory restrictions and is not freely available. See Telnyx guidance and requirements.
 
 1. **Regulatory Approval**: Customers must first apply for and receive approval from the **Canadian Local Number Portability Consortium (CNLPC)** to access Canadian LRN data through Telnyx. Contracted customers can submit applications for Non-Member Access to CA LRN data via the form on [this page of their site](https://clnpc.ca/non-member-access/). This offering only applies for contracted customers.
 2. **Associated Costs**: There is an annual fee of approximately **$2,000 USD**, payable directly to the CNLPC. At this time, default Telnyx Number Lookup pricing applies - i.e. there’s no special pricing for CA LRN lookups.

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5466967-poland-did-requirements
+title: "Poland DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Poland numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a12c16f48bb2d8f76b4524e717339fbc86804c56c16296a23a380dd041125cd1
 ---
 
-Poland DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Poland DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Poland numbers.
+Here you will find a list of detailed requirements for acquiring Poland numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-May 26, 2026
 
-Table of contents
 
-# DID Number Requirements for Poland
+## DID Number Requirements for Poland
 
 In order to purchase a Poland number you will need to provide the following:
 
@@ -50,7 +51,7 @@ For **address** verification:
 
 **Additional Information:**
 
-\* Service usage description  
+\* Service usage description
 \* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **Mobile Numbers in Poland**
@@ -79,7 +80,7 @@ For **address** verification:
 
 \* Proof of address (dated within 3 months)
 
-**Additional Information:**   
+**Additional Information:**
 \* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **Toll-Free Numbers in Poland**
@@ -110,13 +111,13 @@ For **address** verification:
 
 \* Proof of address (dated within 3 months)
 
-**Additional Information:**   
+**Additional Information:**
 \* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **Identity Verification: What "Local" Means**
 
-For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.  
-​  
+For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.
+​
 All identification is subject to review, and we reserve the right to request additional documentation or decline any document we cannot verify or that does not meet applicable legal and regulatory requirements.
 
 ## **Helpful for acquiring Poland DIDs**
@@ -160,5 +161,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

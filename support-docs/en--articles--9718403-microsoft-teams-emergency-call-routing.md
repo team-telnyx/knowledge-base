@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/9718403-microsoft-teams-emergency-call-routing
+title: "Microsoft Teams Emergency Call Routing"
+description: "In today's fast-paced digital world, ensuring that emergency calls are routed accurately and efficiently is more… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: ffa51bc4b5e221c71572c1fd57b080f733cb6ab0846fe279c71bf483bed7f2c1
 ---
 
-Microsoft Teams Emergency Call Routing | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Microsoft Teams Emergency Call Routing
 
-Written by Telnyx Engineering
 
-December 1, 2025
 
-Table of contents
 
-In today's fast-paced digital world, ensuring that emergency calls are routed accurately and efficiently is more critical than ever.
+In today's fast-paced digital world, ensuring that emergency calls are routed accurately and efficiently is more… See Telnyx guidance and requirements.
 
 Whether you're managing a large enterprise or a small business, having a reliable system that directs emergency calls to the correct Public Safety Answering Point (PSAP) can make all the difference in critical situations.
 
@@ -49,53 +50,53 @@ Telnyx then processes this information to route the call accurately to the appro
 Below is an example of the metadata included in a Microsoft Teams SIP INVITE when an emergency call is placed to an emergency number from a country that supports Dynamic Location Routing:
 
 ```
-<?xml version="1.0" encoding="utf-8"?>  
-<presence xmlns:xsd="http://www.w3.org/2001/XMLSchema"   
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
-          entity="-"   
-          xmlns="urn:ietf:params:xml:ns:pidf">  
-    
-  <tuple id="tuple0">  
-    <status>  
-      <geopriv xmlns="urn:ietf:params:xml:ns:pidf:geopriv10">  
-          
-        <location-info>  
-          <Point srsName="urn:ogc:def:crs:EPSG::4326" xmlns="http://www.opengis.net/gml">  
-            <pos>33.38075 -111.75344</pos>  
-          </Point>  
-          <civicAddress xmlns="urn:ietf:params:xml:ns:pidf:geopriv10:civicAddr">  
-            <country>US</country>  
-            <A1>AZ</A1>  
-            <A3>Mesa</A3>  
-            <PRD/>  
-            <RD>South Val Vista Drive</RD>  
-            <STS/>  
-            <POD/>  
-            <HNO>1939</HNO>  
-            <HNS/>  
-            <LOC/>  
-            <NAM>Default Directory</NAM>  
-            <PC>85204</PC>  
-            <ELIN/>  
-          </civicAddress>  
-        </location-info>  
-          
-        <usage-rules>  
-          <retransmission-allowed xmlns="urn:ietf:params:xml:ns:pidf:geopriv10:basicPolicy">  
-            true  
-          </retransmission-allowed>  
-        </usage-rules>  
-          
-        <method>ASSIST</method>  
-          
-        <confidence pdf="normal" xmlns="urn:ietf:params:xml:ns:geopriv:conf">  
-          low  
-        </confidence>  
-          
-      </geopriv>  
-    </status>  
-  </tuple>  
-    
+<?xml version="1.0" encoding="utf-8"?>
+<presence xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          entity="-"
+          xmlns="urn:ietf:params:xml:ns:pidf">
+
+  <tuple id="tuple0">
+    <status>
+      <geopriv xmlns="urn:ietf:params:xml:ns:pidf:geopriv10">
+
+        <location-info>
+          <Point srsName="urn:ogc:def:crs:EPSG::4326" xmlns="http://www.opengis.net/gml">
+            <pos>33.38075 -111.75344</pos>
+          </Point>
+          <civicAddress xmlns="urn:ietf:params:xml:ns:pidf:geopriv10:civicAddr">
+            <country>US</country>
+            <A1>AZ</A1>
+            <A3>Mesa</A3>
+            <PRD/>
+            <RD>South Val Vista Drive</RD>
+            <STS/>
+            <POD/>
+            <HNO>1939</HNO>
+            <HNS/>
+            <LOC/>
+            <NAM>Default Directory</NAM>
+            <PC>85204</PC>
+            <ELIN/>
+          </civicAddress>
+        </location-info>
+
+        <usage-rules>
+          <retransmission-allowed xmlns="urn:ietf:params:xml:ns:pidf:geopriv10:basicPolicy">
+            true
+          </retransmission-allowed>
+        </usage-rules>
+
+        <method>ASSIST</method>
+
+        <confidence pdf="normal" xmlns="urn:ietf:params:xml:ns:geopriv:conf">
+          low
+        </confidence>
+
+      </geopriv>
+    </status>
+  </tuple>
+
 </presence>
 ```
 
@@ -112,5 +113,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

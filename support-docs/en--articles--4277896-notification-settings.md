@@ -1,27 +1,28 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4277896-notification-settings
+title: "Notification Settings"
+description: "This article details the functionalities of the notification settings in your Telnyx Mission Control… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 7b6344a184e36dbe28dbc68fba0e90313f676136e6123450aefff387caeef04d
 ---
 
-Notification Settings | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Notification Settings
 
-This article details the functionalities of the notification settings in your Telnyx Mission Control Portal
+This article details the functionalities of the notification settings in your Telnyx Mission Control… See Telnyx guidance and requirements.
 
-Written by Alex Conroy
 
-April 28, 2026
 
-Table of contents
 
-# **Overview of Notification Settings**
+## **Overview of Notification Settings**
 
-In recent times we've introduced more functionality related to the notification settings in your Mission Control Portal. Typically, this section is only configurable by account organization owners.   
-​  
+In recent times we've introduced more functionality related to the notification settings in your Mission Control Portal. Typically, this section is only configurable by account organization owners.
+​
 Below will detail each section of the Notification Settings and how you can set it up.
 
 ## **Configuring Notification Settings**
@@ -65,8 +66,8 @@ Here we will go through step by step how to setup your Notification settings.
 
 **1. Notification Profiles**
 
-* This is where you define the groups for your notifications and select which profile you want to be notified. In order to create a new profile just click **New Profile** and enter the name you wish to call the new profile. You can view and manage your Notification Profiles in the drop-down beside new profile.  
-  ​  
+* This is where you define the groups for your notifications and select which profile you want to be notified. In order to create a new profile just click **New Profile** and enter the name you wish to call the new profile. You can view and manage your Notification Profiles in the drop-down beside new profile.
+  ​
   ​
 
   ![](_images/fe26b9719d8941fc.png)
@@ -92,47 +93,47 @@ Here we will go through step by step how to setup your Notification settings.
 Number Order Complete
 
 ```
-{  
-    "data": {  
-        "event_type": "number_order.complete",  
-        "id": "da5ddb44-4eda-45f0-b8a7-913a4092eccc",  
-        "occurred_at": "2024-09-13T09:12:21.140324Z",  
-        "payload": {  
-            "billing_group_id": null,  
-            "connection_id": null,  
-            "created_at": "2024-09-13T09:12:19.728170+00:00",  
-            "customer_reference": null,  
-            "id": "e3dcb7d4-4f0b-4800-bd9f-b04cc684a82f",  
-            "messaging_profile_id": null,  
-            "phone_numbers": [  
-                {  
-                    "bundle_id": null,  
-                    "country_code": "US",  
-                    "id": "5fd37101-437d-4138-9a09-98c13bd9d73f",  
-                    "phone_number": "+1312XXXXXXX",  
-                    "phone_number_type": "local",  
-                    "record_type": "number_order_phone_number",  
-                    "regulatory_requirements": [],  
-                    "requirements_met": true,  
-                    "requirements_status": "approved",  
-                    "status": "success"  
-                }  
-            ],  
-            "phone_numbers_count": 1,  
-            "record_type": "number_order",  
-            "requirements_met": true,  
-            "status": "success",  
-            "sub_number_orders_ids": [  
-                "1ae729ee-6e07-43db-bb05-d3077ba6b85e"  
-            ],  
-            "updated_at": "2024-09-13T09:12:19.728170+00:00"  
-        },  
-        "record_type": "event"  
-    },  
-    "meta": {  
-        "attempt": 1,  
-        "delivered_to": "https://128e-93-107-73-249.ngrok-free.app"  
-    }  
+{
+    "data": {
+        "event_type": "number_order.complete",
+        "id": "da5ddb44-4eda-45f0-b8a7-913a4092eccc",
+        "occurred_at": "2024-09-13T09:12:21.140324Z",
+        "payload": {
+            "billing_group_id": null,
+            "connection_id": null,
+            "created_at": "2024-09-13T09:12:19.728170+00:00",
+            "customer_reference": null,
+            "id": "e3dcb7d4-4f0b-4800-bd9f-b04cc684a82f",
+            "messaging_profile_id": null,
+            "phone_numbers": [
+                {
+                    "bundle_id": null,
+                    "country_code": "US",
+                    "id": "5fd37101-437d-4138-9a09-98c13bd9d73f",
+                    "phone_number": "+1312XXXXXXX",
+                    "phone_number_type": "local",
+                    "record_type": "number_order_phone_number",
+                    "regulatory_requirements": [],
+                    "requirements_met": true,
+                    "requirements_status": "approved",
+                    "status": "success"
+                }
+            ],
+            "phone_numbers_count": 1,
+            "record_type": "number_order",
+            "requirements_met": true,
+            "status": "success",
+            "sub_number_orders_ids": [
+                "1ae729ee-6e07-43db-bb05-d3077ba6b85e"
+            ],
+            "updated_at": "2024-09-13T09:12:19.728170+00:00"
+        },
+        "record_type": "event"
+    },
+    "meta": {
+        "attempt": 1,
+        "delivered_to": "https://128e-93-107-73-249.ngrok-free.app"
+    }
 }
 ```
 
@@ -145,5 +146,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

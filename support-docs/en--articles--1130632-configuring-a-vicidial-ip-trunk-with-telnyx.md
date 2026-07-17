@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130632-configuring-a-vicidial-ip-trunk-with-telnyx
+title: "Configuring a Vicidial IP trunk with Telnyx"
+description: "In this article we will walk you through how configuring a Vicidial IP trunk at Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 571e092cc671b0ddd605cc1281e26d891dbd85c0d6033cefa49898d53fad873d
 ---
 
-Configuring a Vicidial IP trunk with Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Configuring a Vicidial IP trunk with Telnyx
 
-In this article we will walk you through how configuring a Vicidial IP trunk at Telnyx.
+In this article we will walk you through how configuring a Vicidial IP trunk at Telnyx. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_dfe3471e39)
 
@@ -31,7 +32,7 @@ Additional documentation:
 
 ---
 
-# Instructions for configuring a Vicidial IP trunk
+## Instructions for configuring a Vicidial IP trunk
 
 In this document you will
 
@@ -107,11 +108,11 @@ Coming soon! Check back frequently as we update our documentation.
    13. **Context:** *default*
    14. **Protocol:** *SIP*
    15. **Global String:** *Telnyx=SIP/telnyx*
-   16. **Dial Plan:**  
-       ​*exten => \_91NXXNXXXXXX,1,AGI(agi://127.0.0.1:4577/call\_log)  
-       exten => \_91NXXNXXXXXX,2,Dial(${Telnyx}/${EXTEN:1},60,tTor)  
-       exten => \_91NXXNXXXXXX,3,Hangup*  
-       ​  
+   16. **Dial Plan:**
+       ​*exten => \_91NXXNXXXXXX,1,AGI(agi://127.0.0.1:4577/call\_log)
+       exten => \_91NXXNXXXXXX,2,Dial(${Telnyx}/${EXTEN:1},60,tTor)
+       exten => \_91NXXNXXXXXX,3,Hangup*
+       ​
        In this case, 9 is the prefix that will be dialed to send calls to Telnyx's trunk.
 
 Depending on your phone configuration, you may also wish to configure an outbound caller ID to be in accordance with our [caller ID number policy](https://support.telnyx.com/en/articles/3546251-caller-id-number-policy). You can do this on a per-user or per-campaign basis.
@@ -156,5 +157,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

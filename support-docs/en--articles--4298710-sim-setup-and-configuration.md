@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4298710-sim-setup-and-configuration
+title: "SIM Setup and Configuration"
+description: "This article will explain how to order a Telnyx SIM card and help with the configuration/setup process. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a77064d3984a48e86975d3a5f320ba56bebd8978ca6692233f8df930e82b0d8f
 ---
 
-SIM Setup and Configuration | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # SIM Setup and Configuration
 
-This article will explain how to order a Telnyx SIM card and help with the configuration/setup process.
+This article will explain how to order a Telnyx SIM card and help with the configuration/setup process. See Telnyx guidance and requirements.
 
-Written by David
 
-April 30, 2026
 
-Table of contents
 
-# Ordering and Configuring Telnyx Wireless SIM Cards
+## Ordering and Configuring Telnyx Wireless SIM Cards
 
 Our Wireless SIM cards allow your business to build and scale Internet of Things devices on a [private LTE](https://telnyx.com/resources/private-lte-architecture) network.
 
@@ -41,25 +42,25 @@ Once again, in your portal navigate to the "Wireless" section. From there, selec
 Finish the registration process by clicking "Register SIM". Note, this can also be done programmatically:
 
 ```
-curl --request POST \  
-  --url https://api.telnyx.com/v2/actions/register/sim_cards \  
-  --header 'Authorization: Bearer <token>' \  
-  --header 'Content-Type: application/json' \  
-  --data '  
-{  
-  "registration_codes": [  
-    "0000000001",  
-    "0000000002",  
-    "0000000003"  
-  ],  
-  "sim_card_group_id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",  
-  "tags": [  
-    "personal",  
-    "customers",  
-    "active-customers"  
-  ],  
-  "status": "enabled"  
-}  
+curl --request POST \
+  --url https://api.telnyx.com/v2/actions/register/sim_cards \
+  --header 'Authorization: Bearer <token>' \
+  --header 'Content-Type: application/json' \
+  --data '
+{
+  "registration_codes": [
+    "0000000001",
+    "0000000002",
+    "0000000003"
+  ],
+  "sim_card_group_id": "6a09cdc3-8948-47f0-aa62-74ac943d6c58",
+  "tags": [
+    "personal",
+    "customers",
+    "active-customers"
+  ],
+  "status": "enabled"
+}
 '
 ```
 
@@ -91,5 +92,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

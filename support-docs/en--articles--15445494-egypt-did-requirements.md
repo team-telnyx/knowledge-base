@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/15445494-egypt-did-requirements
+title: "Egypt DID Requirements"
+description: "Here you will find all of the requirements for purchasing numbers in Egypt. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 8b04f15cc67059c2b2f0044454a15870e6b23b87a620285fd2caeff55f33f810
 ---
 
-Egypt DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Egypt DID Requirements
 
-Here you will find all of the requirements for purchasing numbers in Egypt.
+Here you will find all of the requirements for purchasing numbers in Egypt. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-Updated over a month ago
 
-Table of contents
 
-# **DID Number Requirements for Egypt**
+## **DID Number Requirements for Egypt**
 
 In order to purchase an Egypt number you will need to provide the following:
 
@@ -30,8 +31,8 @@ For **business identity** verification:
 
 \* Contact phone number
 
-\* Company name  
-\*Local Company Registration Document  
+\* Company name
+\*Local Company Registration Document
 \*Signed Service Acceptance Form (provided by NumberOps)
 
 For address verification:
@@ -53,5 +54,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

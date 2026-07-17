@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8174793-round-robin-routing
+title: "Round Robin Routing"
+description: "Round Robin routing helps customers implement a basic Load Balancing functionality from the connection. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 9ae649b50969356b5f8779332562056a1d3ce087aa284483df7c2a4dc1b0d655
 ---
 
-Round Robin Routing | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Round Robin Routing
 
-Round Robin routing helps customers implement a basic Load Balancing functionality from the connection.
+Round Robin routing helps customers implement a basic Load Balancing functionality from the connection. See Telnyx guidance and requirements.
 
-Written by David
 
-January 28, 2026
 
-Table of contents
 
 Round Robin is a type of routing that distributes inbound calls evenly between all the IPs in a connection. This is helpful because all IPs would receive an equal amount of inbound calls therefore helping balance the load of incoming calls to all the different systems in the connection instead of sending all calls to a single system and the other systems only acting as backups for whenever the main system fails.
 
-# Setting up Round Robin Routing
+## Setting up Round Robin Routing
 
 So with a connection setup with 3 IPs, once calls start coming in, the first call would be sent to IP 1 then the second call to IP 2 then the third call to IP 3 then the fourth call to IP 1 then the fifth call to IP 2 then the sixth call to IP 4 and so on.
 
@@ -45,5 +46,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

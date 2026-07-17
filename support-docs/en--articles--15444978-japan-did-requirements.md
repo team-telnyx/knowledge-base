@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/15444978-japan-did-requirements
+title: "Japan DID Requirements"
+description: "Here you will find all of the requirements for purchasing numbers in Japan. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 4c00fff85a3f7720bffc45d5e8dead8bd7220be919a90ef05806d3579252f8dd
 ---
 
-Japan DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Japan DID Requirements
 
-Here you will find all of the requirements for purchasing numbers in Japan.
+Here you will find all of the requirements for purchasing numbers in Japan. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-Updated over a month ago
 
-Table of contents
 
 #
 
-# **DID Number Requirements for Japan**
+## **DID Number Requirements for Japan**
 
 In order to purchase an Japan number you will need to provide the following:
 
@@ -28,7 +29,7 @@ In order to purchase an Japan number you will need to provide the following:
 
 For **personal identity** verification:
 
-\* Name, last name   
+\* Name, last name
 \* Contact phone number
 
 \* Certificate of the person in charge (1 of the following)
@@ -42,15 +43,15 @@ For **personal identity** verification:
    2. Maternal and Child Health Handbook
    3. Seal Registration Certificate
    4. Basic Resident Registration Card
-5. Residence card (dated within 3 months)  
+5. Residence card (dated within 3 months)
     a. Special Permanent Resident Certificate
 6. Certificate of Residence (redacted personal number)
 
 For **business identity** verification:
 
-\* Name, last name of an authorized representative   
-\* Contact phone number   
-\* Company name   
+\* Name, last name of an authorized representative
+\* Contact phone number
+\* Company name
 \* Certificate of contractor (1 or 2)
 
 1. Company registered matters
@@ -62,7 +63,7 @@ For **business identity** verification:
 
 ​For **address** verification:
 
-\* Address in Japan (street, building number, postal code, city and country)   
+\* Address in Japan (street, building number, postal code, city and country)
 \* Proof of Address (A or B - see details below)
 
 1. If the address of the Certificate of contractor is different from the current address or place of use, or
@@ -81,8 +82,8 @@ For **business identity** verification:
 2. Certificate of Tax Payment (stamped and dated within 3 months)
 3. Receipt of social insurance (stamped and dated within 3 months)
 
-**Additional Information:**   
-\* Certificates with an expiration date must be within the expiration date, and certificates without an expiration date must be within 3 months of the date of issue.   
+**Additional Information:**
+\* Certificates with an expiration date must be within the expiration date, and certificates without an expiration date must be within 3 months of the date of issue.
 \* Power of Attorney is not required if the address and name of the person in charge of the application match the registered name of the representative by the documents in the Company registered matters.
 
 ---
@@ -94,5 +95,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

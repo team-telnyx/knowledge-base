@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5402969-stir-shaken-with-telnyx
+title: "STIR/SHAKEN With Telnyx"
+description: "SHAKEN/STIR is an authentication framework that aims to curb the robocall trend. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 8c2fe3385a179f19439ad85e35c843053c52177d9b68d2867c369d75c40fe2cb
 ---
 
-STIR/SHAKEN With Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # STIR/SHAKEN With Telnyx
 
-SHAKEN/STIR is an authentication framework that aims to curb the robocall trend.
+SHAKEN/STIR is an authentication framework that aims to curb the robocall trend. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-May 5, 2026
 
-Table of contents
 
 ---
 
-# **STIR/SHAKEN**
+## **STIR/SHAKEN**
 
 ---
 
@@ -84,8 +85,8 @@ For many smaller providers, it can be a lot of time and effort to get these docs
 
 ## **On-net calling**
 
-Where customers receiving calls from other Telnyx customers and want to receive identity headers, please ensure you register with your credentials connection via TCP or for IP/FQDN connection please specify TCP as the inbound transport protocol.   
-​  
+Where customers receiving calls from other Telnyx customers and want to receive identity headers, please ensure you register with your credentials connection via TCP or for IP/FQDN connection please specify TCP as the inbound transport protocol.
+​
 The reason for this is to prevent packet fragmentation and call completion issues for customers since the Identity header is very large and as such only this transport protocol is supported.
 
 ![Breaking Line](_images/682991ade0be9812.png)
@@ -101,5 +102,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

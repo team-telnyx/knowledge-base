@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3269600-how-to-set-up-a-telnyx-sim-card
+title: "How to set up a Telnyx SIM Card"
+description: "A quickstart guide that includes step by step instructions on how to set up the Telnyx SIM. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 62247278493cb6e9f230e00acdd6b26e498f8b484e70c1d9980b33613f36e78c
 ---
 
-How to set up a Telnyx SIM Card | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How to set up a Telnyx SIM Card
 
-A quickstart guide that includes step by step instructions on how to set up the Telnyx SIM.
+A quickstart guide that includes step by step instructions on how to set up the Telnyx SIM. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-November 5, 2025
 
-Table of contents
 
-# Step by Step to Setting up a Telnyx SIM
+## Step by Step to Setting up a Telnyx SIM
 
 You can order your Telnyx SIM [here](https://telnyx.com/sign-up). Once you have ordered your SIM card, please allow 3-5 business days for delivery.
 
@@ -30,12 +31,12 @@ Once you have received your SIM card, follow these simple steps below to registe
 
    ![](_images/2925ea81673491ab.png)
 
-2. Type in the 10-digit registration code located on your SIM card.  
-3. Click Register SIM.  
-4. Now let's set up your device. Insert the SIM card into your device and configure the APN to the following:  
-            Name: Telnyx  
-            APN: data00.telnyx  
-            Leave all other fields unmodified even if it's blank and save this new APN.  
+2. Type in the 10-digit registration code located on your SIM card.
+3. Click Register SIM.
+4. Now let's set up your device. Insert the SIM card into your device and configure the APN to the following:
+            Name: Telnyx
+            APN: data00.telnyx
+            Leave all other fields unmodified even if it's blank and save this new APN.
 5. Finally, enable data roaming on your device and you are good to go!
 
 ​**Some devices may require you to reboot in order for the changes to take effect.**
@@ -49,5 +50,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

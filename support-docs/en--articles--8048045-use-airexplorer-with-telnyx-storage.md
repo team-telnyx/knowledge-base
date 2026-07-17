@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8048045-use-airexplorer-with-telnyx-storage
+title: "Use AirExplorer with Telnyx Storage"
+description: "Learn how to integrate AirExplorer, a powerful file management software, See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: eb6bfad10e26ac9b50c4c08d4427724cdc87b9e8357afdf5ab6beebd9c38a2d4
 ---
 
-Use AirExplorer with Telnyx Storage | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Use AirExplorer with Telnyx Storage
 
-Learn how to integrate AirExplorer, a powerful file management software, with Telnyx Storage for seamless and efficient file storage
+Learn how to integrate AirExplorer, a powerful file management software, See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-July 11, 2024
 
-Table of contents
 
 [AirExplorer](https://www.airexplorer.net/en/) is a feature-rich file management software that allows users to easily manage and organize their files across multiple cloud storage providers. With AirExplorer, you can conveniently access, upload, download, and synchronize your files, providing a seamless file management experience.
 
 ---
 
-# **How to configure AirExplorer to work with Telnyx Storage**
+## **How to configure AirExplorer to work with Telnyx Storage**
 
 ## Step 1
 
@@ -30,7 +31,7 @@ Download and install the latest version of AirExplorer [here.](https://www.airex
 
 ## Step 2
 
-Launch AirExplorer, and select **"S3"** from the list of available cloud storage options, to set up with Telnyx Storage.  
+Launch AirExplorer, and select **"S3"** from the list of available cloud storage options, to set up with Telnyx Storage.
 ​
 
 ![AirExplorer interface. ](_images/6c5511771e75dcf1.png)
@@ -42,9 +43,9 @@ In the configuration window, enter the following details:
 1. **REST endpoint:** Copy and paste one of our available [API Endpoints](https://developers.telnyx.com/docs/cloud-storage/api-endpoints).
 2. **Access Key ID:** Copy and paste your [Telnyx API Key](https://portal.telnyx.com/#/app/api-keys) as the Access Key.
 3. **Secret Access Key:** The secret access key is not used by Telnyx Storage, but AirExplorer requires an entry. Type any value without spaces, quoting, or special characters.
-4. **Bucket:** Enter the name of the [bucket on your Telnyx](https://portal.telnyx.com/#/app/storage/buckets) storage where you want to store your files.  
-   ​  
-   Once you have entered the required information, click on "**OK**" to verify the connection with Telnyx Storage, and save the configuration.  
+4. **Bucket:** Enter the name of the [bucket on your Telnyx](https://portal.telnyx.com/#/app/storage/buckets) storage where you want to store your files.
+   ​
+   Once you have entered the required information, click on "**OK**" to verify the connection with Telnyx Storage, and save the configuration.
    ​
 
    ![S3 login portal. ](_images/ec395d037a15a500.jpg)
@@ -68,5 +69,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

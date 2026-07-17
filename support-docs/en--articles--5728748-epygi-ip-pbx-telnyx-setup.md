@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5728748-epygi-ip-pbx-telnyx-setup
+title: "Epygi IP PBX: Telnyx Setup"
+description: "Learn how to configure the Epygi IP PBXs QX series with Telnyx and allowing QX users to make as well as receiving calls. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 718c133b064fc5c32e7a2083c9cea33bd8cebc40dc7f967a8ad512685e949b8b
 ---
 
-Epygi IP PBX: Telnyx Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Epygi IP PBX: Telnyx Setup
 
-Learn how to configure the Epygi IP PBXs QX series with Telnyx and allowing QX users to make as well as receiving calls.
+Learn how to configure the Epygi IP PBXs QX series with Telnyx and allowing QX users to make as well as receiving calls. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_240891fe93)
 
@@ -32,7 +33,7 @@ Additional documentation:
 
 ---
 
-# Instructions for configuring Epygi IP PBX to work with Telnyx
+## Instructions for configuring Epygi IP PBX to work with Telnyx
 
 The QX VoIP Carrier Wizard will guide you through the steps to configure your account. After finishing the wizard, the extensions on the QX will be able to place calls as well as receive calls. The VoIP Carrier Wizard supports both IP-based authentication and SIP registration methods. However, we will use SIP registration for this guide.
 
@@ -140,5 +141,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

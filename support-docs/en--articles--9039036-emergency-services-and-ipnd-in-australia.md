@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/9039036-emergency-services-and-ipnd-in-australia
+title: "Emergency Services and IPND in Australia"
+description: "Learn more about emergency services and IPND in Australia. See Telnyx guidance and requirements Learn more about Emergency Services and IPND in Australia with."
 scraped: 2026-07-08
 content_hash: dad42cad5b5488d52d15d1a02de285f1c7d87e71bb8b731e5f90923894c51b84
 ---
 
-Emergency Services and IPND in Australia | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Emergency Services and IPND in Australia
 
-Learn more about emergency services and IPND in Australia. Start building on Telnyx today.
+Learn more about emergency services and IPND in Australia. See Telnyx guidance and requirements Learn more about Emergency Services and IPND in Australia with.
 
-Written by Telnyx Engineering
 
-June 26, 2024
 
-Table of contents
 
-# Dialing Emergency Services
+## Dialing Emergency Services
 
 ### “000“ emergency number
 
@@ -36,7 +37,7 @@ For more information, you may visit the website [www.triplezero.gov.au](http://w
 
 ---
 
-# Integrated Public Number Database (IPND)
+## Integrated Public Number Database (IPND)
 
 Please note that Telnyx will upload your name, address and telephone numbers to The Integrated Public Number Database (IPND). The IPND serves as a repository of Public Number Customer Data (PNCD) which broadly includes your telephone number, your name, service address and Directory Related Services information which can be used, for example, to assist in the provision of emergency services and law enforcement.
 
@@ -57,5 +58,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

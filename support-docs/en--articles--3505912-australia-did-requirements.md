@@ -1,84 +1,85 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3505912-australia-did-requirements
+title: "Australia DID Requirements"
+description: "Here you will find a detailed list of requirements to acquire Australia numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 394c534ab03807868330391f2e1fb24c57a52e8aba1af92269806f01416df022
 ---
 
-Australia DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Australia DID Requirements
 
-Here you will find a detailed list of requirements to acquire Australia numbers.
+Here you will find a detailed list of requirements to acquire Australia numbers. See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-April 16, 2026
 
-Table of contents
 
 To purchase an Australian phone number and ensure compliance with the Australian Communications and Media Authority, the following information and documentation will need to be required at the time of purchase.
 
 Please note that once the documentation is received it will take approximately 72 hours to validate the information and activate the number for use.
 
-# DID Number Requirements for Australia
+## DID Number Requirements for Australia
 
 In order to purchase an Australian number you will need to provide the following:
 
 ## **Local Numbers in Australia**
 
-For **personal identity** verification:  
+For **personal identity** verification:
 \* Name, last name
 
 \* Contact phone number
 
-For **business identity** verification:  
-\* Name, last name of an authorized representative  
+For **business identity** verification:
+\* Name, last name of an authorized representative
 \* Company name
 
-\* Contact phone number  
-​  
-For **address** verification:  
+\* Contact phone number
+​
+For **address** verification:
 \* Address in Australia (street, building number, postal code, city, and country)
 
 \* Proof of address (dated within 3 months)
 
 ## Toll-Free Numbers in Australia
 
-For **personal identity** verification:  
+For **personal identity** verification:
 \* Name, last name
 
-\* Contact phone number  
+\* Contact phone number
 \* Passport or ID copy
 
-For **business identity** verification:  
-\* Name, last name of an authorized representative  
+For **business identity** verification:
+\* Name, last name of an authorized representative
 \* Company name
 
-\* Contact phone number  
-\* Passport or ID copy of an authorized representative  
-​  
-For **address** verification:  
+\* Contact phone number
+\* Passport or ID copy of an authorized representative
+​
+For **address** verification:
 \* Address worldwide (street, building number, postal code, city, and country)
 
 \* Proof of address (dated within 3 months)
 
 ## **Shared Cost (1300) Numbers in Australia**
 
-For **personal identity** verification:  
+For **personal identity** verification:
 \* Name, last name
 
 \* Contact phone number
 
-For **business identity** verification:  
-\* Name, last name of an authorized representative  
+For **business identity** verification:
+\* Name, last name of an authorized representative
 \* Company name
 
-\* Contact phone number  
-​  
-For **address** verification:  
-\* Address in Worldwide (street, building number, postal code, city, and country)  
+\* Contact phone number
+​
+For **address** verification:
+\* Address in Worldwide (street, building number, postal code, city, and country)
 ​
 
 ## **Mobile Numbers in Australia**
@@ -144,5 +145,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

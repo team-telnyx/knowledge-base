@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/2819213-bulk-edit-numbers-emergency-services
+title: "Bulk Edit Numbers - Emergency Services"
+description: "Guide to assigning emergency address to numbers in Bulk. See Telnyx guidance and requirements Learn more about Bulk Edit Numbers - Emergency Services with."
 scraped: 2026-07-08
 content_hash: 602e80ad34730334d404facd95993a6f61384588395d6de8bf722acc1bac9995
 ---
 
-Bulk Edit Numbers - Emergency Services | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Bulk Edit Numbers - Emergency Services
 
-Guide to assigning emergency address to numbers in Bulk. Start building on Telnyx today.
+Guide to assigning emergency address to numbers in Bulk. See Telnyx guidance and requirements Learn more about Bulk Edit Numbers - Emergency Services with.
 
-Written by Shubam
 
-June 26, 2024
 
-Table of contents
 
-# **A step-by-step guide to bulk edit Emergency Address of selected numbers**
+## **A step-by-step guide to bulk edit Emergency Address of selected numbers**
 
 **NOTE: Failure to register an address and enable emergency services with the address on numbers that make emergency calls, will be considered unregistered, and will incur a penalty of $100.**
 
@@ -40,14 +41,14 @@ You can also select all the numbers displayed on the page by using the checkbox 
 
 ![Bulk actions dropdown](_images/3ec7715858e734af.png)
 
-**Note - You can expand the selection by increasing the Row count of the displayed page ranging from 10-100 numbers displayed on the page.**  
+**Note - You can expand the selection by increasing the Row count of the displayed page ranging from 10-100 numbers displayed on the page.**
 ​
 
 ![Filtering results example](_images/7cf28fc43682ef25.png)
 
 ## **Step 5**
 
-Once you have selected your desired numbers, click on the Bulk Actions dropdown and select Edit Emergency Settings.  
+Once you have selected your desired numbers, click on the Bulk Actions dropdown and select Edit Emergency Settings.
 ​
 
 ![Bulk actions available](_images/11f6be5f20574906.png)
@@ -58,12 +59,12 @@ Once you have selected your desired numbers, click on the Bulk Actions dropdown 
 
 Once you click on "Edit Emergency Settings" a new window will open, allowing you to choose if you want to Enable All, Disable All, or Unchanged Emergency Settings Status.
 
-Once you've chosen "Enable All," you'll have the option to either select an address from your existing saved addresses or add a new address. To add a new address, simply click the "New Address" button located next to the address field.  
+Once you've chosen "Enable All," you'll have the option to either select an address from your existing saved addresses or add a new address. To add a new address, simply click the "New Address" button located next to the address field.
 ​
 
 ![Bulk edit for emergency service settings](_images/7a28bba333043e0d.png)
 
-Upon saving the address, emergency service will be enabled for all the initially selected numbers.  
+Upon saving the address, emergency service will be enabled for all the initially selected numbers.
 ​
 
 ---
@@ -75,5 +76,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

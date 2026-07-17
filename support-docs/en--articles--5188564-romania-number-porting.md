@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5188564-romania-number-porting
+title: "Romania Number Porting"
+description: "Here you will find a detailed list of requirements for Romania number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 1d79847b60bca3c76ed1d7faa57de6da7c2a2334dc0e3d8b6e12990207ef0764
 ---
 
-Romania Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Romania Number Porting
 
-Here you will find a detailed list of requirements for Romania number portability.
+Here you will find a detailed list of requirements for Romania number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
-# **For local and Toll-Free Number Types in Romania**
+## **For local and Toll-Free Number Types in Romania**
 
 1. LoA
 
@@ -43,5 +44,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

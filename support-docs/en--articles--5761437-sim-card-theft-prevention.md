@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5761437-sim-card-theft-prevention
+title: "SIM Card Theft Prevention"
+description: "Secure your SIM fleet with Telnyx. See Telnyx guidance and requirements Learn more about SIM Card Theft Prevention with Telnyx."
 scraped: 2026-07-08
 content_hash: e243b7c25a5c7c48f33d6add25eb597161f7ba6cc47df50e8e15e7d2d02798da
 ---
 
-SIM Card Theft Prevention | Telnyx Help Center
 
-[Skip to main content](#main-content)
 
-# SIM Card Theft Prevention
 
-Secure your SIM fleet with Telnyx. Add authorized IMEIs and get alerts for unauthorized access, ensuring your SIMs remain safe.
 
-Written by Telnyx Engineering
 
-December 30, 2024
-
-Table of contents
 
 # SIM Card Theft Prevention
+
+Secure your SIM fleet with Telnyx. See Telnyx guidance and requirements Learn more about SIM Card Theft Prevention with Telnyx.
+
+
+
+
+## SIM Card Theft Prevention
 
 Add up to 5 authorized IMEIs to the SIMs in your SIM fleet so as to ensure that they can only be used by your authorized devices. You can now rest easy in the knowledge that your SIMs in the field will not be hijacked by bad actors.
 
@@ -43,5 +44,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

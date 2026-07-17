@@ -1,22 +1,14 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130595-account-verification
+title: "Account Verification"
+description: "This article explains how to get verified so that you can unlock all features of the Telnyx Mission Control… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: e4cf64003e950064fd19646603bac2b18b8711181c7b45120dd42eaec226e8af
 ---
 
-Account Verification | Telnyx Help Center
-
-[Skip to main content](#main-content)
-
 # Account Verification
 
-This article explains how to get verified so that you can unlock all features of the Telnyx Mission Control Portal
-
-Written by Telnyx Sales
-
-Updated over 2 weeks ago
-
-Table of contents
+This article explains how to get verified so that you can unlock all features of the Telnyx Mission Control… See Telnyx guidance and requirements.
 
 Telnyx uses a **tiered account verification system** to prevent abuse and ensure responsible use of communication services. There are now **two possible frameworks** your account may fall under:
 
@@ -134,5 +126,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

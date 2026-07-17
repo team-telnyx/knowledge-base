@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6167480-gigaset-configuring-the-gigaset-dx800a
+title: "Gigaset: Configuring the Gigaset DX800a"
+description: "Learn how to connect a legacy Gigaset DX800a IP phone to a Telnyx SIP trunk. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 08a2fcaad551674e2ce7395e8bceec55f2bbef447e2f17bbe3ddc3c3aa02eb0d
 ---
 
-Gigaset: Configuring the Gigaset DX800a | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Gigaset: Configuring the Gigaset DX800a
 
-Learn how to connect a legacy Gigaset DX800a IP phone to a Telnyx SIP trunk.
+Learn how to connect a legacy Gigaset DX800a IP phone to a Telnyx SIP trunk. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_a2ef987d0c)
 
@@ -32,7 +33,7 @@ Being a hybrid phone means the Gigaset DX800A all in one can be configured to ei
 
 ---
 
-# Configuration instructions
+## Configuration instructions
 
 In this activity you will:
 
@@ -51,7 +52,7 @@ In this activity you will:
 * Create a [credentials-based connection](https://portal.telnyx.com/#/app/connections) on your Telnyx Mission Control Portal
 * RECOMMENDED: [Enable TLS to encrypt your traffic](https://support.telnyx.com/en/articles/1130711-does-telnyx-encrypt-communication)
 * Connect your device to an ethernet port to establish an internet connection
-* Use your phone's base or handset to find the device IP address. This IP address will link you to the web portal, where you will complete your configuration. See page 6 of the [Gigaset DX800a user manual](https://gse.gigaset.com/fileadmin/legacy-assets/Gigaset%20DX800A%20all%20in%20one_Web_en_GBR.pdf) to find your phone's IP address and obtain the default portal login credentials.  
+* Use your phone's base or handset to find the device IP address. This IP address will link you to the web portal, where you will complete your configuration. See page 6 of the [Gigaset DX800a user manual](https://gse.gigaset.com/fileadmin/legacy-assets/Gigaset%20DX800A%20all%20in%20one_Web_en_GBR.pdf) to find your phone's IP address and obtain the default portal login credentials.
   ​
 
 **Video Walkthrough**
@@ -165,5 +166,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

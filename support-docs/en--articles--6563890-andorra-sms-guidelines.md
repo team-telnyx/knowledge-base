@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6563890-andorra-sms-guidelines
+title: "Andorra: SMS Guidelines"
+description: "SMS Guidelines for Andorra including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Andorra: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: f60e1dd2ecf5310636e1f2c3397e979bdf2c70c8287618c7e2d027b80d2eb8ba
 ---
 
-Andorra: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Andorra: SMS Guidelines
 
-SMS Guidelines for Andorra including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Andorra including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Andorra: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 17, 2023
 
-Table of contents
 
-# **SMS Guidelines for Andorra**
+## **SMS Guidelines for Andorra**
 
-**MCC:** 213  
-​**Dial Code:** 376  
-​  
+**MCC:** 213
+​**Dial Code:** 376
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -88,5 +89,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

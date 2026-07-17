@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/7966416-telnyx-iot-sim-data-usage-zone-mapping
+title: "Telnyx IoT SIM Data Usage Zone Mapping"
+description: "Here you will find the mapping of each Country to their relevant Zone which is used to calculate Telnyx IoT SIM data… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 9205959df23c9245c3990d1ad6a1848674317286b8221c720c66fa34b5545aca
 ---
 
-Telnyx IoT SIM Data Usage Zone Mapping | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Telnyx IoT SIM Data Usage Zone Mapping
 
-Here you will find the mapping of each Country to their relevant Zone which is used to calculate Telnyx IoT SIM data usage billing.
+Here you will find the mapping of each Country to their relevant Zone which is used to calculate Telnyx IoT SIM data… See Telnyx guidance and requirements.
 
 K
 
-Written by Kev D
 
-June 6, 2024
 
-Table of contents
 
-# Telnyx Wireless Zone Pricing: Choose Your Country
+## Telnyx Wireless Zone Pricing: Choose Your Country
 
 Wireless Pricing Here: <https://telnyx.com/pricing/iot-data-plans>
 
@@ -39,5 +40,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

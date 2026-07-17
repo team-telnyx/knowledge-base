@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6601049-cambodia-sms-guidelines
+title: "Cambodia: SMS Guidelines"
+description: "Sending SMS to Cambodia? See Telnyx guidance and requirements Learn more about Cambodia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: b9d18f27affe5d81e8b5efae0a8da5aaabe1a1d3a35b09f6e80e58c4247d7af6
 ---
 
-Cambodia: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Cambodia: SMS Guidelines
 
-Sending SMS to Cambodia? Check out our comprehensive guidelines to ensure compliance in Cambodia.
+Sending SMS to Cambodia? See Telnyx guidance and requirements Learn more about Cambodia: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Cambodia: SMS Guidelines**
+## **Cambodia: SMS Guidelines**
 
-**MCC:** 456  
-​**Dial Code:** 855  
-​  
+**MCC:** 456
+​**Dial Code:** 855
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

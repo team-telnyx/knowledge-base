@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8269305-appeal-level-2-verification-status
+title: "Appeal Level 2 Verification Status"
+description: "Unlock Telnyx platform potential with Level 2 Verification. See Telnyx guidance and requirements Learn more about Appeal Level 2 Verification Status with."
 scraped: 2026-07-08
 content_hash: a46e2d53a787a5883502ce68461f8e6290fa2c558b0bf38a5312ab3120f57062
 ---
 
-Appeal Level 2 Verification Status | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Appeal Level 2 Verification Status
 
-Unlock Telnyx platform potential with Level 2 Verification. Ensure user legitimacy, protect from spam, and gain more platform freedoms.
+Unlock Telnyx platform potential with Level 2 Verification. See Telnyx guidance and requirements Learn more about Appeal Level 2 Verification Status with.
 
 K
 
-Written by Klane Pedrie
 
-April 30, 2026
 
-Table of contents
 
-# Level 2 Verification Process and Appeal
+## Level 2 Verification Process and Appeal
 
-**NOTE:** New users will be enabled with the [Trial-Paid-Verified-Enterprise (TPVE) Account Levels](https://developers.telnyx.com/docs/account-setup/levels-and-capabilities) framework and will not have access to the legacy L2 Verification section. For more info on TPVE, please check out our [article](https://support.telnyx.com/en/articles/1130595-account-verification).  
+**NOTE:** New users will be enabled with the [Trial-Paid-Verified-Enterprise (TPVE) Account Levels](https://developers.telnyx.com/docs/account-setup/levels-and-capabilities) framework and will not have access to the legacy L2 Verification section. For more info on TPVE, please check out our [article](https://support.telnyx.com/en/articles/1130595-account-verification).
 ​
 
 We want to unlock all the potential of the Telnyx platform for you!
@@ -32,15 +33,15 @@ We want to unlock all the potential of the Telnyx platform for you!
 ## How to submit your L2 Verification:
 
 1. Log in to your [Mission Control Portal](https://portal.telnyx.com/)
-2. Navigate to the  ["Account Settings" section of the portal](https://portal.telnyx.com/#/account/general). You can do this by clicking on the Profile icon (in top right) > Account Settings  
+2. Navigate to the  ["Account Settings" section of the portal](https://portal.telnyx.com/#/account/general). You can do this by clicking on the Profile icon (in top right) > Account Settings
    ​
 
    ![](_images/0796ca5557dc1629.png)
-3. Within your "Account Settings", click on the "Profile" tab in the left navigation bar. Then update your Company Name and Address in the "Account Information" section.  
+3. Within your "Account Settings", click on the "Profile" tab in the left navigation bar. Then update your Company Name and Address in the "Account Information" section.
    ​
 
    ![](_images/da4d8c6a8ed6cfd2.png)
-4. Next, add a Payment Method. To do so, first navigate to the [Billing section of the portal](https://portal.telnyx.com/#/billing/payment). You can do this by clicking on the Profile icon (in top right) > Manage Billing  
+4. Next, add a Payment Method. To do so, first navigate to the [Billing section of the portal](https://portal.telnyx.com/#/billing/payment). You can do this by clicking on the Profile icon (in top right) > Manage Billing
    ​
 
    ![](_images/90395b08b561d6e3.png)
@@ -81,5 +82,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

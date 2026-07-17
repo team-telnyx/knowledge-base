@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5464069-colombia-did-requirements
+title: "Colombia DID Requirements"
+description: "Here you will find a detailed list of requirements to acquire numbers in Colombia. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: dcf96e9dfd6cdf5de0bdd5456fb282603806c4ff035c7cbbdc7b7eccc49e7218
 ---
 
-Colombia DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Colombia DID Requirements
 
-Here you will find a detailed list of requirements to acquire numbers in Colombia.
+Here you will find a detailed list of requirements to acquire numbers in Colombia. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-September 29, 2025
 
-Table of contents
 
-# DID Number Requirements for Colombia
+## DID Number Requirements for Colombia
 
 In order to purchase a Colombian number you will need to provide the following:
 
@@ -121,5 +122,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

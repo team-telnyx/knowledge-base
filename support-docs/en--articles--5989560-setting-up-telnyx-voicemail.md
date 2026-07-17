@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5989560-setting-up-telnyx-voicemail
+title: "Setting Up Telnyx Voicemail"
+description: "Introducing Telnyx's Voicemail feature: Forward missed or rejected calls to voicemail and access messages with a PIN. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 8c14c467ab279307aa38a7baad69779bf04a9e1e452008840a1abe87f9ff3f51
 ---
 
-Setting Up Telnyx Voicemail | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Setting Up Telnyx Voicemail
 
-Introducing Telnyx's Voicemail feature: Forward missed or rejected calls to voicemail and access messages with a PIN. Start today.
+Introducing Telnyx's Voicemail feature: Forward missed or rejected calls to voicemail and access messages with a PIN. See Telnyx guidance and requirements.
 
-Written by David
 
-December 27, 2024
 
-Table of contents
 
-# **Voicemail**
+## **Voicemail**
 
 **⚠️ This feature should only be enabled on numbers that are assigned to SIP Connections. ⚠️**
 
@@ -49,24 +50,24 @@ If you have set a [webhook url on your SIP Connection](https://support.telnyx.co
 Example:
 
 ```
-{  
-  "data": {  
-    "event_type": "calls.voicemail.completed",  
-    "id": "93958804-6787-4623-bb59-a4e4ce1c44de",  
-    "occurred_at": "2023-11-15T08:00:33.589698Z",  
-    "payload": {  
-      "call_session_id": "036c8492-838d-11ee-b3bb-02420a0d3a69",  
-      "connection_id": "1635420769989166414",  
-      "from": "+13121234567",  
-      "recording_url": "url of recording to download file",  
-      "to": "+13127654321"  
-    },  
-    "record_type": "event"  
-  },  
-  "meta": {  
-    "attempt": 1,  
-    "delivered_to": "https://webhook.site/0a6718c8-e59a-4921-8119-c395d631a99b"  
-  }  
+{
+  "data": {
+    "event_type": "calls.voicemail.completed",
+    "id": "93958804-6787-4623-bb59-a4e4ce1c44de",
+    "occurred_at": "2023-11-15T08:00:33.589698Z",
+    "payload": {
+      "call_session_id": "036c8492-838d-11ee-b3bb-02420a0d3a69",
+      "connection_id": "1635420769989166414",
+      "from": "+13121234567",
+      "recording_url": "url of recording to download file",
+      "to": "+13127654321"
+    },
+    "record_type": "event"
+  },
+  "meta": {
+    "attempt": 1,
+    "delivered_to": "https://webhook.site/0a6718c8-e59a-4921-8119-c395d631a99b"
+  }
 }
 ```
 
@@ -96,5 +97,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

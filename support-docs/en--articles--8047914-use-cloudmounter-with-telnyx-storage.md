@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8047914-use-cloudmounter-with-telnyx-storage
+title: "Use Cloudmounter with Telnyx Storage"
+description: "Discover how to configure CloudMounter with Telnyx Storage to seamlessly access and manage your files across multiple… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 161274b341927279a11cac0bfd982a1373a66a45fb3a08c8c436ce51a93af8bf
 ---
 
-Use Cloudmounter with Telnyx Storage | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Use Cloudmounter with Telnyx Storage
 
-Discover how to configure CloudMounter with Telnyx Storage to seamlessly access and manage your files across multiple cloud accounts
+Discover how to configure CloudMounter with Telnyx Storage to seamlessly access and manage your files across multiple… See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-June 6, 2024
 
-Table of contents
 
 [CloudMounter](https://cloudmounter.net/) is a powerful file management tool that allows you to mount various cloud storage services directly on your computer, providing seamless access and file synchronization across multiple platforms.
 
@@ -24,7 +25,7 @@ In this guide, we will walk you through the step-by-step process of integrating 
 
 ---
 
-# How to configure Cloudmounter to work with Telnyx Storage
+## How to configure Cloudmounter to work with Telnyx Storage
 
 ## **Step 1**
 
@@ -32,14 +33,14 @@ Visit the Cloudmounter site and download the application for either Mac or Windo
 
 ## **Step 2**
 
-Install CloudMounter on your computer, and launch the application.  
+Install CloudMounter on your computer, and launch the application.
 ​
 
 ![CloudMounter interface. ](_images/a5005a4bcb179bbe.png)
 
 ## **Step 3**
 
-Select “**Amazon S3”** as the type of storage to be mounted.  
+Select “**Amazon S3”** as the type of storage to be mounted.
 ​
 
 ![Amazon S3 interface. ](_images/a4f132e567392f47.png)
@@ -58,7 +59,7 @@ A window below will pop up, then fill in the details:
 
 ## **Step 5**
 
-After filling in all the details above, click on the “**Mount”** button to connect CloudMounter with Telnyx Storage.  
+After filling in all the details above, click on the “**Mount”** button to connect CloudMounter with Telnyx Storage.
 ​
 
 That's it! You have successfully configured CloudMounter with Telnyx storage, allowing you to conveniently access and manage your files stored in Telnyx from within the CloudMounter application. With this integration, you can enjoy seamless file synchronization, easy file transfers, and enhanced collaboration across different cloud storage platforms.
@@ -69,7 +70,7 @@ That's it! You have successfully configured CloudMounter with Telnyx storage, al
 
 For more detailed information and advanced features of CloudMounter, please refer to the CloudMounter [blog](https://cloudmounter.net/blog/).
 
-If you have any further questions or need additional assistance, feel free to reach out. Happy file managing with CloudMounter and Telnyx Storage!  
+If you have any further questions or need additional assistance, feel free to reach out. Happy file managing with CloudMounter and Telnyx Storage!
 ​
 
 ---
@@ -81,5 +82,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,36 +1,37 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6534652-colombia-sms-guidelines
+title: "Colombia: SMS Guidelines"
+description: "SMS Guidelines for Colombia including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Colombia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: fd10d4301ccf24e931eddb778d72e4a4ba94ca2e72a4abfb2bac9a6cac056e96
 ---
 
-Colombia: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Colombia: SMS Guidelines
 
-SMS Guidelines for Colombia including MCC and Dial Code. Get more messaging details here.
+SMS Guidelines for Colombia including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Colombia: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-February 21, 2025
 
-Table of contents
 
-# **SMS Guidelines for Colombia**
+## **SMS Guidelines for Colombia**
 
-**MCC:** 732  
-​**Dial Code:** 57  
-​  
-Alpha Sender IDs will be overwritten to either a random Local Long Code or [Short Code](https://telnyx.com/products/sms-short-code).  
-​  
+**MCC:** 732
+​**Dial Code:** 57
+​
+Alpha Sender IDs will be overwritten to either a random Local Long Code or [Short Code](https://telnyx.com/products/sms-short-code).
+​
 Commercial or marketing content can only be sent from 8:00am to 9:00pm. To send this type of traffic outside of these hours, explicit consent must be provided by the end-user.
 
-Opt-out options must always be included. Through the words *Salir* or *Cancelar.*  
-​  
-Adult content must be only sent to end-users of legal age if previously requested by them.  
-​  
+Opt-out options must always be included. Through the words *Salir* or *Cancelar.*
+​
+Adult content must be only sent to end-users of legal age if previously requested by them.
+​
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
@@ -44,5 +45,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

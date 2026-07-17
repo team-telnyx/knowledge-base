@@ -1,30 +1,31 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130678-channel-billing-and-how-to-use-it
+title: "Channel Billing and how to use it"
+description: "Learn how Telnyx channel billing works with a few detailed example scenarios. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 1558c1f5ef26aeb333f36667a80e2b63ee1bb702aa952a162e6c0066ff04c65e
 ---
 
-Channel Billing and how to use it | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Channel Billing and how to use it
 
-Learn how Telnyx channel billing works with a few detailed example scenarios.
+Learn how Telnyx channel billing works with a few detailed example scenarios. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-October 18, 2023
 
-Table of contents
 
-# **What is Channel Billing?**
+## **What is Channel Billing?**
 
 Channel billing is an alternative billing method that allows you to pay a flat fee for unlimited inbound minutes. Instead of being billed based on your inbound minutes of usage, you select the number of concurrent calls you would like to be able to support for your inbound traffic and pay per channel.
 
-Each channel allows for one concurrent (or simultaneous) inbound call. You can use as many inbound minutes as you want with no additional charges; however, you can only support one call at a time per channel provisioned. For example;  
-​  
-​**Please Note:** Channel billing is only applicable for standard DID's. Toll free or international DID's only have the option for ***pay per minute***.  
+Each channel allows for one concurrent (or simultaneous) inbound call. You can use as many inbound minutes as you want with no additional charges; however, you can only support one call at a time per channel provisioned. For example;
+​
+​**Please Note:** Channel billing is only applicable for standard DID's. Toll free or international DID's only have the option for ***pay per minute***.
 ​
 
 ## **Example Channel Billing**
@@ -84,5 +85,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

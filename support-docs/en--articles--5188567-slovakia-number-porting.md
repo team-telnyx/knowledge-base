@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5188567-slovakia-number-porting
+title: "Slovakia Number Porting"
+description: "Here you will find a detailed list of requirements for Slovakia number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 5243d141de2e298d153fa2f2cfc06072a963c3a29264935d66062cb0ba701eea
 ---
 
-Slovakia Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Slovakia Number Porting
 
-Here you will find a detailed list of requirements for Slovakia number portability.
+Here you will find a detailed list of requirements for Slovakia number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
-# **For Local, National and Toll-Free number Types in Slovakia**
+## **For Local, National and Toll-Free number Types in Slovakia**
 
 1. LoA
 
@@ -39,5 +40,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3739496-latvia-did-requirements
+title: "Latvia DID Requirements"
+description: "Here you will find the requirements for acquiring different types of numbers in Latvia. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: b56f7aa0acb78c313bb02541778e285b46b63cdf66a895b8ba3e947f31454d26
 ---
 
-Latvia DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Latvia DID Requirements
 
-Here you will find the requirements for acquiring different types of numbers in Latvia.
+Here you will find the requirements for acquiring different types of numbers in Latvia. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-February 20, 2025
 
-Table of contents
 
-# DID Number Requirements for Latvia
+## DID Number Requirements for Latvia
 
 In order to purchase a Latvia number you will need to provide the following:
 
@@ -46,17 +47,17 @@ For **address** verification:
 
 ## **Toll-Free Numbers in Latvia**
 
-For **personal identity** verification:  
-\* Name, last name  
-\* Contact phone number  
-​  
-For **business identity** verification:  
+For **personal identity** verification:
+\* Name, last name
+\* Contact phone number
+​
+For **business identity** verification:
 \* Name, last name of an authorized representative
 
-\* Company name  
-\* Contact phone number  
-​  
-For **address** verification:  
+\* Company name
+\* Contact phone number
+​
+For **address** verification:
 \* Address in Latvia (street, building number, postal code, city, and country)
 
 ## **Helpful for acquiring Latvia DIDs**
@@ -100,5 +101,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

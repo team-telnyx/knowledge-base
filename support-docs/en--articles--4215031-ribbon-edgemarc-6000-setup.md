@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4215031-ribbon-edgemarc-6000-setup
+title: "Ribbon: EdgeMarc 6000 Setup"
+description: "Learn how to configure the Ribbon:EdgeMarc SBC with Telnyx - Master your config with this guide. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: fa885e15ed84df8d8ea129722211aa2424781218abdc297a3ee4c90c0b8e477d
 ---
 
-Ribbon: EdgeMarc 6000 Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Ribbon: EdgeMarc 6000 Setup
 
-Learn how to configure the Ribbon:EdgeMarc SBC with Telnyx - Master your config with this guide.
+Learn how to configure the Ribbon:EdgeMarc SBC with Telnyx - Master your config with this guide. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-February 1, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_d15e0bfea3)
 
@@ -36,7 +37,7 @@ Additional resources:
 
 ---
 
-# Instructions for Configuring an Edge SBC with Telnyx
+## Instructions for Configuring an Edge SBC with Telnyx
 
 In this activity you will:
 
@@ -96,7 +97,7 @@ In this section, you'll configure your [SIP trunk](https://telnyx.com/products/s
    2. **Model:** Select your PBX from the drop-down list.
    3. **IP:** Check the IP radio button. In the field beside it, enter the IP address of your PBX.
    4. **Transport:** Choose a transport. Use *TLS* if you are using TLS encryption. Otherwise, choose *UDP* or *TCP*.
-   5. **Port:** *5060* (Unless you are using TLS, in which case, enter *5061*)  
+   5. **Port:** *5060* (Unless you are using TLS, in which case, enter *5061*)
       ​
 
       ![SIP trunk configuration page. ](_images/6b86478ce7440b41.png)
@@ -133,7 +134,7 @@ In this section, you'll configure inbound rules and routing, which will allow fo
 3. Click **Update**.
 4. Click **Submit** to send the configuration to EdgeMarc.
 
-That's it! You've successfully configured your EdgeMarc SBC with Telnyx!  
+That's it! You've successfully configured your EdgeMarc SBC with Telnyx!
 ​
 
 [Back to Top](#h_d15e0bfea3)
@@ -161,5 +162,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

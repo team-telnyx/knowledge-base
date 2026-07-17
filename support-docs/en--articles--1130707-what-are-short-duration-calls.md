@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130707-what-are-short-duration-calls
+title: "What are Short Duration Calls?"
+description: "Here we will explain short duration calls and how they may effect your business. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 8b42c9fe3be05459c1a774d49cb060518e4ab8dd47b8e623a32f4ee5c310dec9
 ---
 
-What are Short Duration Calls? | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # What are Short Duration Calls?
 
-Here we will explain short duration calls and how they may effect your business.
+Here we will explain short duration calls and how they may effect your business. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-May 20, 2026
 
-Table of contents
 
-# What are Short Duration Outbound Calls?
+## What are Short Duration Outbound Calls?
 
 Short Duration Calls (SDCs) are outbound calls that are 6 seconds or less in duration. We allow 15% of your traffic to be SDCs on our platform. If your Short Duration call traffic goes above 15% at any time in the month you'll receive an email alerting you of the situation. If by the end of the month your Short Duration call traffic is still above the 15% of your total traffic you will be penalized for this traffic with [additional charges](https://telnyx.com/terms-and-conditions-of-service).
 
@@ -42,8 +43,8 @@ Yes, as of the 1st of January 2024, short duration calls to international destin
 
 ## Does Telnyx support short duration calls?
 
-We do not support use cases that require Short Duration calls through our network.   
-​  
+We do not support use cases that require Short Duration calls through our network.
+​
 If you would like to locate the origin of Short Duration Calls within your traffic, you can:
 
 * Download a detail report for your desired time-frame: <https://portal.telnyx.com/#/reporting/detailed-records> filtering **outbound** calls only.
@@ -61,5 +62,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

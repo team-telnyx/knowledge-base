@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5188572-slovenia-number-porting
+title: "Slovenia Number Porting"
+description: "Here you will find a detailed list of requirements for Slovenia number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: b54c23bb61442181ad162bc045b3e34a14c3220f0c75dbb434cc1e7bc87875df
 ---
 
-Slovenia Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Slovenia Number Porting
 
-Here you will find a detailed list of requirements for Slovenia number portability.
+Here you will find a detailed list of requirements for Slovenia number portability. See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-November 5, 2025
 
-Table of contents
 
-# **For local / National and Toll-Free number Types in Slovenia**
+## **For local / National and Toll-Free number Types in Slovenia**
 
 1. LoA
 
@@ -37,5 +38,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

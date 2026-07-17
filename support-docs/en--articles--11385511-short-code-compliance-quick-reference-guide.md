@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/11385511-short-code-compliance-quick-reference-guide
+title: "Short Code Compliance Quick Reference Guide"
+description: "Carrier Requirements when ordering a short… See Telnyx guidance and requirements Learn more about Short Code Compliance Quick Reference Guide with Telnyx."
 scraped: 2026-07-08
 content_hash: ff40150b81fc5b308b3ffbaa9121f5c2515b5342592c413d828e48585074f1ec
 ---
 
-Short Code Compliance Quick Reference Guide | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Short Code Compliance Quick Reference Guide
 
-Carrier Requirements when ordering a short code
+Carrier Requirements when ordering a short… See Telnyx guidance and requirements Learn more about Short Code Compliance Quick Reference Guide with Telnyx.
 
 K
 
-Written by Klane Pedrie
 
-May 14, 2025
 
-Table of contents
 
 ## **Short Code Quick Reference Guide**
 
@@ -39,8 +40,8 @@ Table of contents
   + Opt-out instructions
   + Privacy policy or link to privacy policy
   + Link to complete terms & conditions (T&Cs)
-* **Customer care instructions**  
-  ​*Reply HELP to [10DLC or toll-free #, website, or support email address]*  
+* **Customer care instructions**
+  ​*Reply HELP to [10DLC or toll-free #, website, or support email address]*
   ​*If displaying HELP keyword, include 10DLC with it*
 
 ---
@@ -75,8 +76,8 @@ Table of contents
 * Product description
 * Msg & data rates may apply
 * Privacy policy or link to privacy policy
-* Link to complete terms & conditions (T&Cs) OR customer care instructions  
-  ​*Reply HELP to [10DLC, toll-free #, website, or support email address]*  
+* Link to complete terms & conditions (T&Cs) OR customer care instructions
+  ​*Reply HELP to [10DLC, toll-free #, website, or support email address]*
   ​*If displaying HELP keyword, include 10DLC with it*
 
 ---
@@ -102,7 +103,7 @@ If terms are **not** in full on CTA, the following is required:
 
 ## **PRIVACY POLICY**
 
-* Any language that hints or states personal info is shared or sold to third parties for marketing purposes is **not allowed**.  
+* Any language that hints or states personal info is shared or sold to third parties for marketing purposes is **not allowed**.
   ​**No share–no disclose–no transfer.**
 * “We respect your privacy” or “we do not share data” is **not sufficient**.
 * **Must state that messaging application data will not be shared with third parties for marketing purposes.**
@@ -122,7 +123,7 @@ Consistency throughout the brief is required. The following must match in the me
 * Program description
 * Message frequency
 
-**Note**:  
+**Note**:
 These (gray) marketing for financial institutions is **not allowed** (even at a direct lender).
 
 ---
@@ -134,7 +135,7 @@ These (gray) marketing for financial institutions is **not allowed** (even at a 
 
   + Abandoned cart
   + Financial incentives
-  + Financial aid  
+  + Financial aid
     ​*(remove industry speak, loan type, link to secure instrument)*
 * **Collections are not allowed**
 
@@ -147,5 +148,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

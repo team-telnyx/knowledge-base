@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8520014-qatar-did-requirements
+title: "Qatar DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Qatar numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 473b9ca19858a9702a6c487ecfe437c2d64a2384f604063469b7efe5177f05dd
 ---
 
-Qatar DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Qatar DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Qatar numbers.
+Here you will find a list of detailed requirements for acquiring Qatar numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-Updated over 3 weeks ago
 
-Table of contents
 
-# DID Number Requirements for Qatar
+## DID Number Requirements for Qatar
 
 In order to purchase a Qatar number you will need to provide the following:
 
@@ -30,8 +31,8 @@ For **business identity** verification:
 
 \* Contact phone number
 
-\* Company name  
-\*Local Company Registration Document  
+\* Company name
+\*Local Company Registration Document
 \*Signed Service Acceptance Form (provided by NumberOps)
 
 For address verification:
@@ -46,11 +47,11 @@ Additional Information:
 
 ## **Toll-Free Numbers in Qatar**
 
-For **personal identity** verification:  
-\*Recently signed LOI (dated within the month)  
+For **personal identity** verification:
+\*Recently signed LOI (dated within the month)
 ​
 
-For **business** **identity** verification:  
+For **business** **identity** verification:
 \*Recently signed LOI (dated within the month)
 
 \*Once the documentation is received it will take approximately 72 hours to validate the information and activate the number for use.
@@ -96,5 +97,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

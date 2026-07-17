@@ -1,27 +1,28 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8683996-3cx-configuring-a-3cx-v20-pbx-20-0-update-5-build-20-0-5-551-march-2025-update
+title: "3CX: Configuring a 3CX V20 PBX 20.0 Update 5 (Build"
+description: "Learn how to configure a 3CX V20 PBX SIP Trunk (Calls & Messaging) with Telnyx using the Generic VoIP Provider Template… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 01f594511e1a5f2fdffd6b40a69d04ce6b446b8c227714924df6e8aa44ee9e1a
 ---
 
-3CX: Configuring a 3CX V20 PBX 20.0 Update 5 (Build 20.0.5.551) (March 2025 Update) | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # 3CX: Configuring a 3CX V20 PBX 20.0 Update 5 (Build 20.0.5.551) (March 2025 Update)
 
-Learn how to configure a 3CX V20 PBX SIP Trunk (Calls & Messaging) with Telnyx using the Generic VoIP Provider Template (Built-In).
+Learn how to configure a 3CX V20 PBX SIP Trunk (Calls & Messaging) with Telnyx using the Generic VoIP Provider Template… See Telnyx guidance and requirements.
 
-Written by Karl Hulse
 
-March 13, 2025
 
-Table of contents
 
 [Jump to Instructions](https://support.telnyx.com/en/articles/6161111-3cx-configuring-a-3cx-v18-pbx#:~:text=Instructions%20for%20Configuring%20a%203CX%20V18%20PBX%20Trunk)
 
-[3CX](https://www.3cx.com/) is an open standards IP PBX that offers complete Unified Communications out of the box. Suitable for any business size or industry 3CX can accommodate to your every need, from mobility and status to advanced contact center features and more.  
-​  
+[3CX](https://www.3cx.com/) is an open standards IP PBX that offers complete Unified Communications out of the box. Suitable for any business size or industry 3CX can accommodate to your every need, from mobility and status to advanced contact center features and more.
+​
 3CX simplifies the installation, management, and maintenance of your PBX, making it easy for you to manage, whether on-premises or in the cloud. This article guides you on how to configure this PBX for making and receiving calls over the internet through a next generation carrier like Telnyx!
 
 **Important Notes**
@@ -35,7 +36,7 @@ Table of contents
 
 ---
 
-# Instructions for Configuring a 3CX V20 PBX Trunk
+## Instructions for Configuring a 3CX V20 PBX Trunk
 
 ## Pre-requisites
 
@@ -53,14 +54,14 @@ In this step, you'll do a basic configuration before creating your Telnyx [SIP t
 1. Log into 3CX with the username and password provided to you during the installation process.
 
    ![3CX installation credentials page.](_images/49fc0a3e188e39f2.png)
-2. On the "**Extension Length"** tab, specify your extension length by choosing how many digits your extension should have (default is 3). Note that this CANNOT be changed later.  
+2. On the "**Extension Length"** tab, specify your extension length by choosing how many digits your extension should have (default is 3). Note that this CANNOT be changed later.
    ​
 
    ## Extension Length Tab:
 
    ![Extension Length Tab](_images/4a43d9f7f30080bf.png)
 3. Click "**Next"**.
-4. On the "**Admin Email"** tab and enter an email you want to use to receive system notifications and other important information.  
+4. On the "**Admin Email"** tab and enter an email you want to use to receive system notifications and other important information.
    ​
 
    ## Admin Email Tab:
@@ -186,7 +187,7 @@ In this step, you'll configure everything needed to start making and receiving c
 
 1. **Click** on the **Admin** cog located in the bottom left corner of the console and select **Outbound Rules**.
 2. **Calls to numbers starting with prefix**: <Leave this field empty>.
-3. **Calls from extension(s)**: <Enter the specific extension numbers>.  
+3. **Calls from extension(s)**: <Enter the specific extension numbers>.
    ​**Note**: '100, 101' are examples of extension numbers.
 4. **Calls to Numbers with a length of**: <Leave this field empty>.
 5. **Make outbound calls on**:
@@ -199,7 +200,7 @@ In this step, you'll configure everything needed to start making and receiving c
      **Note:** The outbound rules may vary for each customer depending on their specific needs, such as dialing different countries or using different trunk configurations. Be sure to adjust the routes and strip digits accordingly to accommodate these variations.
 6. **Outbound Caller ID**:
 
-   This is one of the ways to apply an outbound caller ID within 3CX. If you apply an outbound caller ID to your outbound route, it will be used for all calls that follow this route.  
+   This is one of the ways to apply an outbound caller ID within 3CX. If you apply an outbound caller ID to your outbound route, it will be used for all calls that follow this route.
    ​
 
    ![Outbound Rules section.](_images/ffd41170aab00b86.png)
@@ -307,5 +308,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/13986486-how-to-create-whatsapp-message-templates
+title: "How to Create WhatsApp Message Templates"
+description: "Step-by-step guide to creating, managing, and getting WhatsApp message templates approved. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 74058f9e355d530d49435da50f83446fe490c185dc4037bbdff4f573030f8ab2
 ---
 
-How to Create WhatsApp Message Templates | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How to Create WhatsApp Message Templates
 
-Step-by-step guide to creating, managing, and getting WhatsApp message templates approved.
+Step-by-step guide to creating, managing, and getting WhatsApp message templates approved. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-March 16, 2026
 
-Table of contents
 
-# Before You Start
+## Before You Start
 
 ⚠️ **Complete these steps before creating templates.** Templates submitted without these prerequisites are likely to be rejected by Meta.
 
@@ -26,7 +27,7 @@ Table of contents
 * **Complete the business profile** — Fill in the business website (must be HTTPS), description, industry category, and address. Incomplete profiles significantly increase rejection rates, especially for new WABAs.
 * **Verify your business** — Complete Meta's business verification process. Unverified businesses face stricter review and lower messaging limits.
 
-# Creating a Template via the API
+## Creating a Template via the API
 
 Use the Telnyx Message Templates API to create templates. Each template requires:
 
@@ -43,7 +44,7 @@ Use the Telnyx Message Templates API to create templates. Each template requires
 * Use descriptive, specific names that reflect the template's purpose (e.g., `shipping_update` instead of `notification_1`)
 * After deleting a template, the name cannot be reused for 30 days
 
-# Template Components
+## Template Components
 
 ## Body (Required)
 
@@ -77,7 +78,7 @@ Small text below the body. Maximum 60 characters. Does not support variables. Of
 * **Quick Reply** — Up to 3 buttons that send a predefined response when tapped
 * **Call-to-Action** — Up to 2 buttons that open a URL or dial a phone number
 
-# Sample Values (Critical for Approval)
+## Sample Values (Critical for Approval)
 
 🔴 **Templates with parameters that do not include sample values are almost always rejected.** Meta's reviewers need sample values to see what the rendered message will look like.
 
@@ -122,7 +123,7 @@ When a template contains variables (`#{{1}}`, `#{{2}}`, etc.), include the `exam
 
 Use realistic sample values that reflect actual use. Generic samples like "name" or "value" may still lead to rejection.
 
-# Approval Process
+## Approval Process
 
 1. Submit the template via the API
 2. Template status changes to `PENDING`
@@ -133,7 +134,7 @@ Use realistic sample values that reflect actual use. Generic samples like "name"
 
 If rejected, you can edit the template content and resubmit — there is no limit on edits to rejected templates. Do not delete and recreate with the same name, as deleted template names cannot be reused for 30 days.
 
-# Tips for Getting Templates Approved
+## Tips for Getting Templates Approved
 
 * **Always include sample values** — Provide the `example` field for every component that uses variables. This is the single most common reason for rejection.
 * **Choose the right category** — Don't submit promotional content as Utility. Since April 2025, Meta auto-reclassifies miscategorized templates from Utility to Marketing, which changes the pricing.
@@ -144,7 +145,7 @@ If rejected, you can edit the template content and resubmit — there is no limi
 * **Use descriptive template names** — Names like `test_template` or `template_1` get flagged.
 * **Complete your business profile first** — Display name, website, description, and category should all be filled in before submitting templates.
 
-# Managing Templates
+## Managing Templates
 
 You can list, update, and delete templates via the Telnyx API. Template names are immutable — if you need to change the name, create a new template and delete the old one (note the 30-day name reuse restriction).
 
@@ -152,7 +153,7 @@ You can list, update, and delete templates via the Telnyx API. Template names ar
 
 **Editing approved templates:** Approved templates can also be edited, but edits trigger a new review cycle. The template cannot be used for sending while under re-review.
 
-# Related Resources
+## Related Resources
 
 * [Send Template Messages (API Guide)](https://developers.telnyx.com/docs/messaging/whatsapp/send-messages#template-messages)
 * [Template Components Reference](https://developers.telnyx.com/docs/messaging/whatsapp/send-messages#template-components)
@@ -166,5 +167,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

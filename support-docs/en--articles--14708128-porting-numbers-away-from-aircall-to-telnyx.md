@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/14708128-porting-numbers-away-from-aircall-to-telnyx
+title: "Porting Numbers Away from Aircall to Telnyx"
+description: "Step-by-step guide for porting numbers from Aircall, including how to get your carrier-level account number and PIN. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 91e6ca312538920f4144699a70403da23949cc0ace16123d772d52b132063541
 ---
 
-Porting Numbers Away from Aircall to Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Porting Numbers Away from Aircall to Telnyx
 
-Step-by-step guide for porting numbers from Aircall, including how to get your carrier-level account number and PIN.
+Step-by-step guide for porting numbers from Aircall, including how to get your carrier-level account number and PIN. See Telnyx guidance and requirements.
 
-Written by Patrick Budzinski
 
-April 21, 2026
 
-Table of contents
 
-# Overview
+## Overview
 
 Porting numbers away from Aircall to Telnyx is possible, but requires a few extra steps because Aircall is a **reseller** — they don't own the underlying phone numbers directly. The numbers sit on Aircall's underlying carrier infrastructure (typically Twilio), which means the port authorization must come from the underlying carrier, not Aircall itself.
 
@@ -78,5 +79,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

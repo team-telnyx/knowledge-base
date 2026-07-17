@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130708-how-to-download-reports-at-telnyx
+title: "How to Download Reports at Telnyx"
+description: "As a Telnyx Customer, you are able to download your own CDR / MDR / Call Control and/or Usage Report whenever you want. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 5ec7d869c249503909ba54ca33a47c6e70bd7e66f7aa9f665617efc09cdefe0f
 ---
 
-How to Download Reports at Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How to Download Reports at Telnyx
 
-As a Telnyx Customer, you are able to download your own CDR / MDR / Call Control and/or Usage Report whenever you want.
+As a Telnyx Customer, you are able to download your own CDR / MDR / Call Control and/or Usage Report whenever you want. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-January 3, 2025
 
-Table of contents
 
-# **How to Download My Report Logs?**
+## **How to Download My Report Logs?**
 
 You can generate the following report logs:
 
@@ -77,5 +78,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

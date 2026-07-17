@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130644-do-i-have-to-sign-a-contract
+title: "Do I have to sign a contract?"
+description: "Here you will find an answer to a frequently asked question about contracts and accounts at Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 11f14320d9662be02e7d8094254618a2b7a3f8842a0714607fa51661edf6001d
 ---
 
-Do I have to sign a contract? | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Do I have to sign a contract?
 
-Here you will find an answer to a frequently asked question about contracts and accounts at Telnyx.
+Here you will find an answer to a frequently asked question about contracts and accounts at Telnyx. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-September 18, 2025
 
-Table of contents
 
-# Is a contract required to utilize Telnyx?
+## Is a contract required to utilize Telnyx?
 
 Nope! Telnyx is your next generation phone company. You can open an account for free whenever and for however long you want.
 
@@ -45,5 +46,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

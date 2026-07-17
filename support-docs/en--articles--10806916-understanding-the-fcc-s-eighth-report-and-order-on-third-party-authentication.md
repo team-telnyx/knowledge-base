@@ -1,22 +1,26 @@
 ---
 source_url: https://support.telnyx.com/en/articles/10806916-understanding-the-fcc-s-eighth-report-and-order-on-third-party-authentication
+title: "Understanding the FCC’s Eighth Report and Order on"
+description: "The Federal Communications Commission (FCC) has issued new compliance requirements in its Eighth Report and Order… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 67ee5a4378cda34b22669a4edc5f1925fb15b17fb7d3df43185bfd41478988d4
 ---
 
-Understanding the FCC’s Eighth Report and Order on Third-Party Authentication | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Understanding the FCC’s Eighth Report and Order on Third-Party Authentication
 
-Written by Telnyx Engineering
+The Federal Communications Commission (FCC) has issued new compliance requirements in its Eighth Report and Order… See Telnyx guidance and requirements.
 
-April 10, 2026
 
-Table of contents
 
-# What Telnyx Customers Need to Know
+
+
+## What Telnyx Customers Need to Know
 
 The Federal Communications Commission (FCC) has issued new compliance requirements in its [Eighth Report and Order concerning third-party authentication](https://docs.fcc.gov/public/attachments/FCC-24-120A1.pdf). These rules, which impact **originating service providers (OSPs) with a STIR/SHAKEN obligation**, will take effect September 18, 2025. It is crucial for Telnyx customers to understand these requirements to ensure compliance and avoid potential service disruptions.
 
@@ -24,7 +28,7 @@ In this Report and Order, the FCC prohibits the use of “third-party authentica
 
 Additionally, the FCC mandates that any provider certifying to **partial or full STIR/SHAKEN implementation in the Robocall Mitigation Database must be registered with the STIR/SHAKEN Policy Administrator**, obtain its own SPC token from the Policy Administrator, use that token to generate a certificate with the Certificate Authority, and authenticate all calls using that certificate.
 
-# Who Is Required to Secure Their Own SPC Tokens?
+## Who Is Required to Secure Their Own SPC Tokens?
 
 The Eighth Report and Order clarifies that **originating service providers (OSPs) with control over their network infrastructure** must obtain a Service Provider Code (SPC) token from the STIR/SHAKEN Policy Administrator and then present that token to a STIR/SHAKEN Certificate Authority to obtain a certificate.
 
@@ -41,7 +45,7 @@ However, our internal policies **will not require** you to obtain an SPC token:
 * If you **exclusively use Telnyx numbers** for both origination and termination.
 * If you only use a **limited number of outside [Verified Numbers](https://support.telnyx.com/en/articles/6790265-verified-numbers-faq)**.
 
-# FCC Compliance and the Robocall Mitigation Database
+## FCC Compliance and the Robocall Mitigation Database
 
 The FCC maintains a record of originating, intermediate, and gateway service providers and their STIR/SHAKEN implementation status in the Robocall Mitigation Database (RMD). In the Eighth Report & Order, the FCC mandates that any OSP certifying that they have "Partial" or "Complete" STIR/SHAKEN implementation in the RMD must have an SPC token and digital certificate.
 
@@ -51,7 +55,7 @@ The FCC maintains a record of originating, intermediate, and gateway service pro
 * If you have stated in the RMD that your company has “Complete” or “Partial” STIR/SHAKEN implementation, **Telnyx will no longer be able to sign calls on your behalf.**
 * If you have improperly certified and instead are a **pure reseller with no control over the network infrastructure**, you must **update your RMD registration** to properly reflect your status.
 
-# Next Steps
+## Next Steps
 
 If you determine that you do qualify as an OSP with a STIR/SHAKEN implementation obligation, you must do the following under the new regulations:
 
@@ -82,5 +86,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

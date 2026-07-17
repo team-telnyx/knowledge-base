@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130619-invalid-reseller-error
+title: "Invalid Reseller Error"
+description: "Learn About Invalid Reseller Errors When Porting Canadian Telephone Numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: c8d800276ec2262dfe56b49017ccfc90b789d0a5d00071df7e101b1dc7429a3a
 ---
 
-Invalid Reseller Error | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Invalid Reseller Error
 
-Learn About Invalid Reseller Errors When Porting Canadian Telephone Numbers.
+Learn About Invalid Reseller Errors When Porting Canadian Telephone Numbers. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-January 10, 2024
 
-Table of contents
 
-# **Canada Only**
+## **Canada Only**
 
 ## Resolving Canadian Reseller Errors
 
@@ -41,5 +42,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

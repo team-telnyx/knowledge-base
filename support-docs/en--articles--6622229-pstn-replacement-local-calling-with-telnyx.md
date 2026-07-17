@@ -1,25 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6622229-pstn-replacement-local-calling-with-telnyx
+title: "PSTN Replacement / Local Calling with Telnyx"
+description: "Establish a local presence anywhere in the world. See Telnyx guidance and requirements Learn more about PSTN Replacement / Local Calling with Telnyx with."
 scraped: 2026-07-08
 content_hash: d89d82a0b42343f243d398e3d4b6901becb263d8ecf917278d5bad885b2f54e8
 ---
 
-PSTN Replacement / Local Calling with Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # PSTN Replacement / Local Calling with Telnyx
 
-Establish a local presence anywhere in the world.
-Buy a local number, route calls via Telnyx's Tier-1 in-country carriers, and ensure every call is seen by the callee as a local call.
+Establish a local presence anywhere in the world. See Telnyx guidance and requirements Learn more about PSTN Replacement / Local Calling with Telnyx with.
 
-Written by Ashish Muni
 
-Updated over 3 weeks ago
 
-Table of contents
 
-# **What is local calling?**
+## **What is local calling?**
 
 ---
 
@@ -33,7 +33,7 @@ This results in failed calls, SIP 503 errors, and poor call completion rates.
 
 ---
 
-# The Telnyx local calling solution
+## The Telnyx local calling solution
 
 ![](_images/fac338ec174bdaaf.png)
 
@@ -52,7 +52,7 @@ This means your business can establish a genuine local presence in any supported
 
 ---
 
-# Key benefits
+## Key benefits
 
 * **Higher call completion rates** — calls are no longer blocked at international exchanges
 * **Local caller ID delivered correctly** — the callee sees a local number, not an international one
@@ -61,7 +61,7 @@ This means your business can establish a genuine local presence in any supported
 
 ---
 
-# **What are the requirements for using Local Calling?**
+## **What are the requirements for using Local Calling?**
 
 There are no additional fees or complex setup steps. You simply need a Telnyx number with the **Local Calling** feature enabled.
 
@@ -77,16 +77,16 @@ You can purchase a number directly in the Telnyx Portal:
 
    ![](_images/58925d1e9cc40804.png)
 
-   Alternatively, email [numbering@telnyx.com](mailto:numbering@telnyx.com) to request a number, or port your existing number to Telnyx — see the [porting policy & procedure](https://support.telnyx.com/en/articles/1130630-porting-policy-procedure) guide.  
+   Alternatively, email [numbering@telnyx.com](mailto:numbering@telnyx.com) to request a number, or port your existing number to Telnyx — see the [porting policy & procedure](https://support.telnyx.com/en/articles/1130630-porting-policy-procedure) guide.
    ​
 6. Use this same number as CLI on your outbound calls.
 
-Review our [Caller ID Policy](https://PSTN%20/%20Local%20Calling%20with%20Telnyx) and [Number Formats](https://support.telnyx.com/en/articles/1130706-sip-connection-number-formats) which can help with localisation preferences.  
+Review our [Caller ID Policy](https://PSTN%20/%20Local%20Calling%20with%20Telnyx) and [Number Formats](https://support.telnyx.com/en/articles/1130706-sip-connection-number-formats) which can help with localisation preferences.
 ​
 
 ---
 
-# What if I don't use the local calling feature?
+## What if I don't use the local calling feature?
 
 If you are not able to purchase a Telnyx local number, it is recommended to use a CLI from a **different country** than the destination. Calls with a matching foreign CLI are the most likely to be blocked.
 
@@ -96,7 +96,7 @@ If you use a non-Telnyx number from the same locale as the destination, the call
 
 ---
 
-# Supported countries
+## Supported countries
 
 Telnyx currently supports local calling for the following countries. This list continues to grow as we expand our global carrier network.
 
@@ -204,5 +204,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1311433-belgium-did-requirements
+title: "Belgium DID Requirements"
+description: "Here you will find a detailed list of requirements to acquiring Belgium numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: db250e571cb81ce56ee8be8a8d95fea7eefc5fda07902fd7fb3f25e7dd022dca
 ---
 
-Belgium DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Belgium DID Requirements
 
-Here you will find a detailed list of requirements to acquiring Belgium numbers.
+Here you will find a detailed list of requirements to acquiring Belgium numbers. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-Updated over 3 weeks ago
 
-Table of contents
 
-# DID Number Requirements for Belgium
+## DID Number Requirements for Belgium
 
 In order to purchase a Belgium number you will need to provide the following:
 
@@ -50,9 +51,9 @@ For **address** verification:
 
 \* Address matching the DID area code (street, building number, postal code, city and country)
 
-\* Proof of address (dated within 3 months)  
-​  
-Additional details:   
+\* Proof of address (dated within 3 months)
+​
+Additional details:
 \* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **Toll-Free Numbers in Belgium**
@@ -79,10 +80,10 @@ For **business identity** verification:
 
 For address verification:
 
-\* Address in Belgium (street, building number, postal code, city and country)  
-\* Proof of address (dated within 3 months)  
-​  
-Additional details:   
+\* Address in Belgium (street, building number, postal code, city and country)
+\* Proof of address (dated within 3 months)
+​
+Additional details:
 \* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **Mobile Numbers in Belgium**
@@ -117,17 +118,17 @@ For **address** verification:
 
 \* Address in Belgium (street, building number, postal code, city and country)
 
-\* Proof of address (dated within 3 months)  
-​  
-Additional details:   
+\* Proof of address (dated within 3 months)
+​
+Additional details:
 \* End-users must be physically present in the country when purchasing numbers from that country
 
 \*Please note that once the documentation is received it will take approximately 72 hours to validate the information and activate the number for use.
 
 ## **Identity Verification: What "Local" Means**
 
-For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.  
-​  
+For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.
+​
 All identification is subject to review, and we reserve the right to request additional documentation or decline any document we cannot verify or that does not meet applicable legal and regulatory requirements.
 
 ## **Helpful for acquiring Belgium DIDs**
@@ -171,5 +172,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

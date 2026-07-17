@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6184748-grandstream-wave-lite-iphone
+title: "Grandstream Wave Lite (iPhone)"
+description: "Learn how to configure the Grandstream Wave Lite app with Telnyx on your iOS device. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a2b50df0eefde23b728846fb7a9773e32161e168384aa550534767d5a0bd2377
 ---
 
-Grandstream Wave Lite (iPhone) | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Grandstream Wave Lite (iPhone)
 
-Learn how to configure the Grandstream Wave Lite app with Telnyx on your iOS device.
+Learn how to configure the Grandstream Wave Lite app with Telnyx on your iOS device. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_d6596cc47a)
 
@@ -33,7 +34,7 @@ The [Grandstream Wave Lite softphone app](https://www.grandstream.com/support/pr
 
 ---
 
-# Instructions for creating a SIP trunk on your Grandstream Wave Lite Softphone
+## Instructions for creating a SIP trunk on your Grandstream Wave Lite Softphone
 
 In this activity, you will:
 
@@ -71,8 +72,8 @@ In this step, you'll create and register a [SIP trunk](https://telnyx.com/produc
 
 1. From your iPhone or iPad, open the Wave Lite app.
 2. Navigate to the **Settings** screen.
-3. In the **Account Settings** > **Generic Account** section. Then tap on **SIP Account**.  
-   ​  
+3. In the **Account Settings** > **Generic Account** section. Then tap on **SIP Account**.
+   ​
    ​***Note:*** *Do not use the VoIP Provider section below this, as Telnyx has not yet been added to the provider list.*
 
    1. **Account Name:** Give your account a name that makes sense for your connection. In the example, we used *TelnyxTrunk*.
@@ -137,7 +138,7 @@ If you use a STUN server, you can configure it in this section.
 
    1. **STUN Server Settings:** *stun.telnyx.com:3478*
 
-That's it, you've now completed the configuration of your Grandstream Wave Lite device.  
+That's it, you've now completed the configuration of your Grandstream Wave Lite device.
 ​
 
 [Back to Top](#h_d6596cc47a)
@@ -164,5 +165,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

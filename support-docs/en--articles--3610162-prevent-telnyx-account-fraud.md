@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3610162-prevent-telnyx-account-fraud
+title: "Prevent Telnyx Account Fraud"
+description: "In this article we will explain how to setup your account to prevent fraud. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 514f9bb2e3406e372d328414957d3faba498184cc8b3a98ae540dc23b7470ce1
 ---
 
-Prevent Telnyx Account Fraud | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Prevent Telnyx Account Fraud
 
-In this article we will explain how to setup your account to prevent fraud.
+In this article we will explain how to setup your account to prevent fraud. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-April 28, 2026
 
-Table of contents
 
-# **How does Telnyx help prevent/minimize fraud?**
+## **How does Telnyx help prevent/minimize fraud?**
 
 To prevent fraud, we suggest starting with the basics so you can ensure a number of measures to protect your account.
 
@@ -26,18 +27,18 @@ To prevent fraud, we suggest starting with the basics so you can ensure a number
 2. Review access logs on a regular basis.
 3. Restrict web access to your PBX/VoIP system.
 
-On the Telnyx Mission Control Portal, we take one step further and provide you with the ability to apply channel limit settings on your [connections](https://portal.telnyx.com/#/voice/connections) and [outbound profiles](https://portal.telnyx.com/#/outbound-profiles) settings.  
-​  
-​**Connections**  
-​  
+On the Telnyx Mission Control Portal, we take one step further and provide you with the ability to apply channel limit settings on your [connections](https://portal.telnyx.com/#/voice/connections) and [outbound profiles](https://portal.telnyx.com/#/outbound-profiles) settings.
+​
+​**Connections**
+​
 ​*Inbound Settings:*
 
 ![](_images/47f33bc196943bc0.png)
 
-You can use a [Tech Prefix](https://support.telnyx.com/en/articles/2602782-ip-authentication-with-tech-prefix) on your connection in order to segment traffic if you use the same IP address for multiple clients.   
-​  
-Using multiple outbound profiles for each connection can allow you to have more granular control for the subsequent [outbound profile](https://portal.telnyx.com/#/outbound-profiles) settings.  
-​  
+You can use a [Tech Prefix](https://support.telnyx.com/en/articles/2602782-ip-authentication-with-tech-prefix) on your connection in order to segment traffic if you use the same IP address for multiple clients.
+​
+Using multiple outbound profiles for each connection can allow you to have more granular control for the subsequent [outbound profile](https://portal.telnyx.com/#/outbound-profiles) settings.
+​
 ​*Outbound Settings:*
 
 ![](_images/70d05e1e74f91fd9.png)
@@ -99,15 +100,15 @@ You can report abuse to us via our website form [here](https://telnyx.com/report
 
 ## **What else is Telnyx doing?**
 
-Our [resource center](https://telnyx.com/resources) covers more detail about latest trends and topics.  
-​  
-Here is some further recommended reading below:  
-​  
-​<https://telnyx.com/resources/how-telnyx-shuts-down-call-fraud-phone-scams>  
-​  
-​<https://telnyx.com/resources/how-to-improve-fraud-protection-in-the-mission-control-portal>  
-​  
-​  
+Our [resource center](https://telnyx.com/resources) covers more detail about latest trends and topics.
+​
+Here is some further recommended reading below:
+​
+​<https://telnyx.com/resources/how-telnyx-shuts-down-call-fraud-phone-scams>
+​
+​<https://telnyx.com/resources/how-to-improve-fraud-protection-in-the-mission-control-portal>
+​
+​
 ​
 
 ---
@@ -119,5 +120,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

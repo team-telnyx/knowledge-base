@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5822579-konftel-300ipx-telnyx-setup
+title: "Konftel 300IPx: Telnyx Setup"
+description: "Learn how to set up and configure the Konftel 300IPx conference phone so that you can use it with your Telnyx account. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: aafe960f246b2267a041f20afd277fc94e43121df055adf64794d3779a9b581b
 ---
 
-Konftel 300IPx: Telnyx Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Konftel 300IPx: Telnyx Setup
 
-Learn how to set up and configure the Konftel 300IPx conference phone so that you can use it with your Telnyx account.
+Learn how to set up and configure the Konftel 300IPx conference phone so that you can use it with your Telnyx account. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_59befaf48b)
 
@@ -33,7 +34,7 @@ Additional documentation:
 
 ---
 
-# Instructions for setting up and configuring the Konftel 300IPx
+## Instructions for setting up and configuring the Konftel 300IPx
 
 In this activity you will:
 
@@ -132,5 +133,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

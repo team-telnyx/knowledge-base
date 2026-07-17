@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5811487-fanvil-x4g-telnyx-setup
+title: "Fanvil X4G: Telnyx Setup"
+description: "Take control of your business communication with our step-by-step setup guide for Fanvil X4/X4G. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: e8d951e72f27dba5059f2df0426667dbd1b3d0d142af3ea268a88be354b7a7ba
 ---
 
-Fanvil X4G: Telnyx Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Fanvil X4G: Telnyx Setup
 
-Take control of your business communication with our step-by-step setup guide for Fanvil X4/X4G.
+Take control of your business communication with our step-by-step setup guide for Fanvil X4/X4G. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_7fb71be8d0)
 
@@ -33,7 +34,7 @@ Additional documentation:
 
 ---
 
-# Instructions for setting up and configuring your Fanvil X4G IP phone
+## Instructions for setting up and configuring your Fanvil X4G IP phone
 
 In this activity you will:
 
@@ -115,5 +116,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

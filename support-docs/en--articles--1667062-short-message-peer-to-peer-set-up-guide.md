@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1667062-short-message-peer-to-peer-set-up-guide
+title: "Short Message Peer-to-Peer Set-up Guide"
+description: "SMPP is great for customers that require a high throughput. See Telnyx guidance and requirements Learn more about Short Message Peer-to-Peer Set-up Guide with."
 scraped: 2026-07-08
 content_hash: 0cbac626016d0e25a6fae97c1a37f85c01eff273aaad2fa3d0aa8d229754e781
 ---
 
-Short Message Peer-to-Peer Set-up Guide | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Short Message Peer-to-Peer Set-up Guide
 
-SMPP is great for customers that require a high throughput. Learn how to get it set up on your Telnyx account.
+SMPP is great for customers that require a high throughput. See Telnyx guidance and requirements Learn more about Short Message Peer-to-Peer Set-up Guide with.
 
-Written by Telnyx Engineering
 
-December 11, 2025
 
-Table of contents
 
-# SMPP Overview
+## SMPP Overview
 
 The Short Message Peer-to-Peer Protocol is a widely used protocol for SMS delivery and receipt. SMPP is best utilized by customers that require high throughput. The following guide is designed to help you establish an SMPP bind and initiate your SMS campaigns.
 
-This feature is reserved for contracted Telnyx customers only who can commit to $5000 minimum spend per month for a period of 12 months. Please liaise with your account manager or sales rep for assistance on getting set up.  
+This feature is reserved for contracted Telnyx customers only who can commit to $5000 minimum spend per month for a period of 12 months. Please liaise with your account manager or sales rep for assistance on getting set up.
 ​
 
 ## SMPP Hosts
@@ -31,17 +32,17 @@ Telnyx provides users a primary SMPP server, which must be connected with over T
 
 ![SMPP Hosts value table. ](_images/f8f40892abfebc24.png)
 
-In the future, Telnyx will offer both a primary and secondary server. Once available, Telnyx will only guarantee that one of the servers is up at anytime, and it will be highly recommended that customers connect to both in order to avoid service outages.    
+In the future, Telnyx will offer both a primary and secondary server. Once available, Telnyx will only guarantee that one of the servers is up at anytime, and it will be highly recommended that customers connect to both in order to avoid service outages.
 ​
 
 ## Username and password
 
-Your username and password will be provided by your Telnyx account manager. You can request one by providing the ID of the Messaging Profile you intend to utilize for SMPP messaging. You can find your Messaging Profile ID by navigating to [Messaging](https://portal.telnyx.com/#/app/messaging), open settings for the messaging profile to be used (Basic, Inbound or Outbound), and the Messaging Profile ID will be at the bottom of the pop-up screen.    
+Your username and password will be provided by your Telnyx account manager. You can request one by providing the ID of the Messaging Profile you intend to utilize for SMPP messaging. You can find your Messaging Profile ID by navigating to [Messaging](https://portal.telnyx.com/#/app/messaging), open settings for the messaging profile to be used (Basic, Inbound or Outbound), and the Messaging Profile ID will be at the bottom of the pop-up screen.
 ​
 
 ## Throughput per number
 
-Throughput per number varies by number type.  Messages over Long Code numbers can be delivered at 10 messages per number per minute, while messages over toll-free can be delivered at 1200 message per number per minute.    
+Throughput per number varies by number type.  Messages over Long Code numbers can be delivered at 10 messages per number per minute, while messages over toll-free can be delivered at 1200 message per number per minute.
 ​
 
 ## **Binding - Supported PDUs**
@@ -75,5 +76,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

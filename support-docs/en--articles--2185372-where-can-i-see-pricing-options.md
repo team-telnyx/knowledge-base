@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/2185372-where-can-i-see-pricing-options
+title: "Where can I see Pricing options?"
+description: "In this article we will explain how to find our pricing options and adjust them for your account. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: f80df4ec702f37713c04d2b4487a3d06625496174a3f43c461b0a6f836f4ca4d
 ---
 
-Where can I see Pricing options? | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Where can I see Pricing options?
 
-In this article we will explain how to find our pricing options and adjust them for your account.
+In this article we will explain how to find our pricing options and adjust them for your account. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 If you would like to see our current Pricing options, please navigate to the Pricing page under your account's icon (top right) within your Portal. On our Pricing page you will be able to search through 5 different tabs (Voice, Numbers, Messaging, Telco Data and Networking).
 
-# **Toggle Use**
+## **Toggle Use**
 
 On each tab, there is a toggle which will indicate the pricing based on your desired usage; pricing rates will adjust based on the toggled volume.
 
@@ -45,5 +46,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

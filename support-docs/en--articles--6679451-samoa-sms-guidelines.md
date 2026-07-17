@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6679451-samoa-sms-guidelines
+title: "Samoa: SMS Guidelines"
+description: "Sending SMS to Samoa? See Telnyx guidance and requirements Learn more about Samoa: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 15f27b8192e91aa2f110dc108df993e03a878e0e0b9031ce759eabd332cf21d1
 ---
 
-Samoa: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Samoa: SMS Guidelines
 
-Sending SMS to Samoa? Check out our comprehensive guidelines to ensure compliance in Samoa.
+Sending SMS to Samoa? See Telnyx guidance and requirements Learn more about Samoa: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Samoa: SMS Guidelines**
+## **Samoa: SMS Guidelines**
 
-**MCC:** 549  
-​**Dial Code:** 685  
-​  
+**MCC:** 549
+​**Dial Code:** 685
+​
 Alphanumeric Sender IDs are supported and will be maintained, no registration is required.
 
 There are no restrictions with regards to content towards this destination.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

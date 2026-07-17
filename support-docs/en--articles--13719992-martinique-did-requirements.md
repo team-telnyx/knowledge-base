@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/13719992-martinique-did-requirements
+title: "Martinique DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Martinique numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a6194487b31f7d45a511ab8b2563fd6fc603f5770f007a13a7ec8e26f56cccd7
 ---
 
-Martinique DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Martinique DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Martinique numbers.
+Here you will find a list of detailed requirements for acquiring Martinique numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-February 12, 2026
 
-Table of contents
 
-# **DID Number Requirements for** Martinique
+## **DID Number Requirements for** Martinique
 
 In order to purchase a Martinique number you will need to provide the following:
 
@@ -53,5 +54,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

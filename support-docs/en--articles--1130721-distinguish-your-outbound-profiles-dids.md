@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130721-distinguish-your-outbound-profiles-dids
+title: "Distinguish your outbound profiles & DIDs"
+description: "Here we will explain how to distinguish between your different outbound profiles and DIDs and how you can organize them… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 32eb30f40a2166bf2c7f9a87a69d9120a8a3a2708e1fac8dee5fe617ed153b46
 ---
 
-Distinguish your outbound profiles & DIDs | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Distinguish your outbound profiles & DIDs
 
-Here we will explain how to distinguish between your different outbound profiles and DIDs and how you can organize them easily.
+Here we will explain how to distinguish between your different outbound profiles and DIDs and how you can organize them… See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-April 30, 2026
 
-Table of contents
 
 Telnyx Mission Control is designed to make it easy to segregate and differentiate your inbound and outbound traffic.
 
-# SIP Connections:
+## SIP Connections:
 
 The first layer of organization is SIP Connections. SIP Connections are used for both inbound and outbound traffic. When pulling usage reports, you can select "By Connection" as your Aggregation Type and you will get a breakdown of inbound and outbound usage for each connection. You can also generate Customer Detail Records (CDRs) which produces a record of all the calls (inbound and outbound) that match your selected criteria. Each record in the CDR will include the connection. We also enable you to add additional filtering when generating the CDR. You can choose to filter on:
 
@@ -62,5 +63,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

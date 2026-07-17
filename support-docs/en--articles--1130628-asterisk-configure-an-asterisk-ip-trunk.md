@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130628-asterisk-configure-an-asterisk-ip-trunk
+title: "Asterisk: Configure an Asterisk IP trunk"
+description: "This guide will walk you through configuring an Asterisk PBX IP Trunk with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 3b217f8dcda4cc1ce92e979c87da493e275f46181a548436bafb888a7d4e6e9f
 ---
 
-Asterisk: Configure an Asterisk IP trunk | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Asterisk: Configure an Asterisk IP trunk
 
-This guide will walk you through configuring an Asterisk PBX IP Trunk with Telnyx.
+This guide will walk you through configuring an Asterisk PBX IP Trunk with Telnyx. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-June 6, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_e905b1451e)
 
@@ -40,7 +41,7 @@ For more Asterisk documentation, see:
 
 ---
 
-# Instructions for Configuring an Asterisk Trunk
+## Instructions for Configuring an Asterisk Trunk
 
 **In this guide, you will:**
 
@@ -72,19 +73,19 @@ For step by step instructions on each of the requirements on the Telnyx Mission 
 Open up `/etc/asterisk/pjsip_wizard.conf` with your preferred editor, and edit the following rows:
 
 ```
-[trunk_defaults]   
-type = wizard   
-  
-[telnyx]   
-endpoint/transport = 0.0.0.0-udp   
-endpoint/allow = !all,ulaw,alaw,G729,G722   
-endpoint/rewrite_contact = yes   
-endpoint/dtmf_mode = rfc4733   
-endpoint/context = from-pstn   
-endpoint/force_rport = yes   
-aor/qualify_frequency = 60   
-sends_auth = no   
-sends_registrations = no   
+[trunk_defaults]
+type = wizard
+
+[telnyx]
+endpoint/transport = 0.0.0.0-udp
+endpoint/allow = !all,ulaw,alaw,G729,G722
+endpoint/rewrite_contact = yes
+endpoint/dtmf_mode = rfc4733
+endpoint/context = from-pstn
+endpoint/force_rport = yes
+aor/qualify_frequency = 60
+sends_auth = no
+sends_registrations = no
 remote_hosts = sip.telnyx.com:5060
 ```
 
@@ -99,46 +100,46 @@ remote_hosts = sip.telnyx.com:5060
 In this example, we are setting up extension 1001 to make and accept calls. Parameters that reference `1001` and `password` can be customized for your requirements and map to the following fields:
 
 ```
-[user_defaults](!)  
-type = wizard   
-accepts_registrations = yes   
-sends_registrations = no   
-accepts_auth = yes   
-sends_auth = no   
-endpoint/context = from-internal   
-endpoint/allow = !all,ulaw,alaw,G729,G722   
-endpoint/dtmf_mode = rfc4733   
-endpoint/rewrite_contact = yes   
-endpoint/force_rport = yes   
-aor/max_contacts = 1   
-aor/remove_existing = yes   
-aor/minimum_expiration = 30   
-  
-1001   
-endpoint/callerid = Bart <1001>   
-inbound_auth/username = Bart   
+[user_defaults](!)
+type = wizard
+accepts_registrations = yes
+sends_registrations = no
+accepts_auth = yes
+sends_auth = no
+endpoint/context = from-internal
+endpoint/allow = !all,ulaw,alaw,G729,G722
+endpoint/dtmf_mode = rfc4733
+endpoint/rewrite_contact = yes
+endpoint/force_rport = yes
+aor/max_contacts = 1
+aor/remove_existing = yes
+aor/minimum_expiration = 30
+
+1001
+endpoint/callerid = Bart <1001>
+inbound_auth/username = Bart
 inbound_auth/password = strong@pass123$
 ```
 
 After creating the template, setting up a new phone is often as simple as setting up a username/password, as the Phone object inherits from the Wizard template. You won't even need to specify a type. See the following examples:
 
 ```
-[Bart](user_defaults)   
-hint_exten = 1001  
-endpoint/callerid = Bart <1001>  
-inbound_auth/username = Bart  
+[Bart](user_defaults)
+hint_exten = 1001
+endpoint/callerid = Bart <1001>
+inbound_auth/username = Bart
 inbound_auth/password = strong@pass135$
 ```
 
 ```
-[Lisa](user_defaults)   
-hint_exten = 1001  
-endpoint/callerid = Lisa <1001>  
-endpoint/allow = !all,ulaw  
-inbound_auth/username = Lisa  
-inbound_auth/password = strong@pass246$  
-has_phoneprov = yes ; defaults to no  
-phoneprov/MAC = hereweGOaga1n ;must specify if has_phoneprov=yes  
+[Lisa](user_defaults)
+hint_exten = 1001
+endpoint/callerid = Lisa <1001>
+endpoint/allow = !all,ulaw
+inbound_auth/username = Lisa
+inbound_auth/password = strong@pass246$
+has_phoneprov = yes ; defaults to no
+phoneprov/MAC = hereweGOaga1n ;must specify if has_phoneprov=yes
 phoneprov/PROFILE = profile1 ;must specify if has_phoneprov=yes
 ```
 
@@ -147,15 +148,15 @@ phoneprov/PROFILE = profile1 ;must specify if has_phoneprov=yes
 Even though `pjsip_wizard.conf` is a great facilitator in setting up PJSIP endpoints, global configurations, or anything else that might be needed can still be added in `/etc/asterisk/pjsip.conf`. In the scope of our basic setup, add the lines below to `pjsip.conf` for installations behind NAT.
 
 ```
-[global]   
-type = global   
-[transport-udp-nat]   
-type = transport   
-protocol = udp   
-bind = 0.0.0.0:5060   
-local_net = X.X.X.X/24   
-external_media_address = X.X.X.X   
-external_signaling_address = X.X.X.X   
+[global]
+type = global
+[transport-udp-nat]
+type = transport
+protocol = udp
+bind = 0.0.0.0:5060
+local_net = X.X.X.X/24
+external_media_address = X.X.X.X
+external_signaling_address = X.X.X.X
 allow_reload = no
 ```
 
@@ -169,15 +170,15 @@ Asterisk makes use of the dialplans saved in `/etc/asterisk/extensions.conf` in 
 **extensions.conf**
 
 ```
-[from-pstn]   
-exten => _+1NXXXXXXXXX,1,Dial(PJSIP/1001)   
-exten => _NXXXXXXXXX,1,Dial(PJSIP/1001)   
-  
-[from-internal]   
-exten = _NXXNXXXXXX,1,Dial(PJSIP/+1${EXTEN}@telnyx)   
-same = n,Hangup()   
-  
-exten = _X.,1,Dial(PJSIP/+${EXTEN}@telnyx)   
+[from-pstn]
+exten => _+1NXXXXXXXXX,1,Dial(PJSIP/1001)
+exten => _NXXXXXXXXX,1,Dial(PJSIP/1001)
+
+[from-internal]
+exten = _NXXNXXXXXX,1,Dial(PJSIP/+1${EXTEN}@telnyx)
+same = n,Hangup()
+
+exten = _X.,1,Dial(PJSIP/+${EXTEN}@telnyx)
 same = n,Hangup()
 ```
 
@@ -209,5 +210,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

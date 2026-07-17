@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/7873510-use-duplicati-with-telnyx-storage
+title: "Use Duplicati with Telnyx Storage"
+description: "Discover how to set up Duplicati, an open-source backup solution, with Telnyx Storage for secure and automated backup… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 0ece4b2015dbb019d32f29273f4722bfc5b3eaa64838a3bfbfc460e125fbeb0b
 ---
 
-Use Duplicati with Telnyx Storage | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Use Duplicati with Telnyx Storage
 
-Discover how to set up Duplicati, an open-source backup solution, with Telnyx Storage for secure and automated backup and recovery.
+Discover how to set up Duplicati, an open-source backup solution, with Telnyx Storage for secure and automated backup… See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-June 19, 2024
 
-Table of contents
 
 Duplicati is an open-source backup software that provides users with a simple and reliable way to back up their files and data to various cloud storage providers, including Amazon S3, Google Drive, Dropbox, and now Telnyx Storage. It features strong encryption, incremental and full backups, versioning, and scheduling, as well as options for customization and automation.
 
@@ -49,7 +50,7 @@ For the remaining fields, enter the following information:
 5. **Storage class**: (default) ( )
 6. **AWS Access ID:** copy and paste your [Telnyx API Key](https://portal.telnyx.com/#/app/api-keys) in this field
 7. **AWS Access Key:** The secret access key is not used by Telnyx Storage, but Duplicati will complain if it doesn’t exist. Type out anything you want here, as long as it doesn't include spaces, quoting, or special characters of any kind.
-8. **Client library to use**: Amazon AWS SDK  
+8. **Client library to use**: Amazon AWS SDK
    ​
 
    ![Backup destination settings. ](_images/6535ef1efb562c7c.jpg)
@@ -71,5 +72,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

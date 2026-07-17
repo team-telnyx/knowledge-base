@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/11358700-what-is-the-u-s-reassigned-numbers-database
+title: "What is the U.S. Reassigned Numbers Database?"
+description: "The U.S. See Telnyx guidance and requirements Learn more about What is the U.S. Reassigned Numbers Database? with Telnyx."
 scraped: 2026-07-08
 content_hash: 330252b32ac1fb45a47251b787e1bc0544cb49b895132f43194e7468710374bb
 ---
 
-What is the U.S. Reassigned Numbers Database? | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # What is the U.S. Reassigned Numbers Database?
 
-Written by Telnyx Engineering
 
-May 10, 2025
 
-Table of contents
 
-The U.S. Reassigned Numbers Database (RND) is a centralized FCC-authorized database that tracks telephone numbers that have been permanently disconnected and potentially reassigned to new users. It was established by the Federal Communications Commission (FCC) as part of efforts to curb unwanted calls, particularly those intended for a phone number’s former owner. When a number is reassigned, callers might inadvertently reach a new consumer who never gave consent, which can be annoying to the recipient and can expose the caller to liability under the Telephone Consumer Protection Act (TCPA). The RND’s purpose is to help voice service providers and businesses determine *before placing a call* whether a phone number has been disconnected (and thus possibly reassigned) since the time the original consent was obtained.
+The U.S. See Telnyx guidance and requirements Learn more about What is the U.S. Reassigned Numbers Database? with Telnyx.
 
 **How it works:** Voice service providers (like Telnyx) report permanently disconnected U.S. phone numbers into the RND on an ongoing basis (typically monthly). The official RND system (accessible at reassigned.us) allows registered callers to query a phone number with a date of last contact or consent. The database will respond with one of three results – “Yes,” “No,” or “No Data” – indicating the status of that number since the provided date. A “Yes” means the number *has* been permanently disconnected (i.e. likely reassigned) after your provided date, so calling it could reach the wrong person. A “No” means the number has not been disconnected since that date, suggesting it still belongs to the same consumer (this “No” result is what grants a safe harbor if it later turns out the number was reassigned). “No Data” means the database has no record for the query (for example, if the consent date was before the RND started tracking in 2021), and in that case no safe harbor applies.
 
@@ -54,5 +55,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5822706-snom-d7xx-telnyx-setup
+title: "Snom D7xx: Telnyx Setup"
+description: "Learn how to configure a Snom Professional D7xx desk phone to worth with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: e1f802d58f77567a87bc03f086109026eae15d69eb58c8517b3b6444172bcbaf
 ---
 
-Snom D7xx: Telnyx Setup | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Snom D7xx: Telnyx Setup
 
-Learn how to configure a Snom Professional D7xx desk phone to worth with Telnyx.
+Learn how to configure a Snom Professional D7xx desk phone to worth with Telnyx. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_4a6981fca8)
 
@@ -47,7 +48,7 @@ Additional documentation:
 
 ---
 
-# Instructions for configuring the Snom Professional D7xx SIP desk phone
+## Instructions for configuring the Snom Professional D7xx SIP desk phone
 
 In this activity you will:
 
@@ -122,8 +123,8 @@ In this step, you'll create a [SIP trunk](https://telnyx.com/products/sip-trunks
 
 In this section, you'll configure all your [audio codec](https://telnyx.com/resources/codecs-affect-voip-sound-quality) information.
 
-1. In the RTP Identity Settings field, you'll add the codecs you want to/can use. Set your codecs in priority sequence that meets your needs.   
-   ​  
+1. In the RTP Identity Settings field, you'll add the codecs you want to/can use. Set your codecs in priority sequence that meets your needs.
+   ​
    Telnyx supports the following codecs:
 
    1. ulaw(g711u)
@@ -170,5 +171,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

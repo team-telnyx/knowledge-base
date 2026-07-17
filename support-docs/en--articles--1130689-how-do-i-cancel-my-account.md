@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130689-how-do-i-cancel-my-account
+title: "How do I cancel my account"
+description: "Unfortunately things can change and you might need to cancel your account. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 14bd1bb9c24d28ff85dda954c96bc3ebf44bbad9788c1f5d7aad70a6b7e677ad
 ---
 
-How do I cancel my account | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # How do I cancel my account
 
-Unfortunately things can change and you might need to cancel your account. Find out how to do so here.
+Unfortunately things can change and you might need to cancel your account. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-May 1, 2026
 
-Table of contents
 
-# How do I cancel my account?
+## How do I cancel my account?
 
 If you wish to remove a member from your organization, you can do it in the [Organization and Members](https://portal.telnyx.com/#/advanced-features/members) section:
 
@@ -51,5 +52,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

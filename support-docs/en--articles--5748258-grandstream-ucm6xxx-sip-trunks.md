@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5748258-grandstream-ucm6xxx-sip-trunks
+title: "Grandstream UCM6xxx: SIP Trunks"
+description: "In this article, you'll learn how to configure SIP trunks in the Grandstream UCM 6xxx that are Telnyx-compatible. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: a709f212c6a3704b413c9ab62cc46c685d807684cdf66d68a59e46b8b9a712ea
 ---
 
-Grandstream UCM6xxx: SIP Trunks | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Grandstream UCM6xxx: SIP Trunks
 
-In this article, you'll learn how to configure SIP trunks in the Grandstream UCM 6xxx that are Telnyx-compatible.
+In this article, you'll learn how to configure SIP trunks in the Grandstream UCM 6xxx that are Telnyx-compatible. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-November 27, 2023
 
-Table of contents
 
 [Jump to Instructions](#h_c0cf38c0c4)
 
@@ -35,7 +36,7 @@ Further documentation:
 
 ---
 
-# Instructions for creating a SIP trunk on your Grandstream UCM6xxx device
+## Instructions for creating a SIP trunk on your Grandstream UCM6xxx device
 
 In this document, you will:
 
@@ -104,8 +105,8 @@ You should have the following information from Telnyx that you will use to regis
 
    1. **Type:** Choose *Register SIP trunk*
    2. **Provider Name:** Telnyx
-   3. **Host Name:** *sip.telnyx.com* (US. For a list of international servers, see [this document](https://sip.telnyx.com/#signaling-addresses).)  
-      ​  
+   3. **Host Name:** *sip.telnyx.com* (US. For a list of international servers, see [this document](https://sip.telnyx.com/#signaling-addresses).)
+      ​
       ​***Note:*** *If you are enabling TLS encryption, append* :5061 *(ie:* sip.telnyx.com:5061*)*
    4. **Keep Trunk CID:**  Enable this option if you want the trunk to send its own CID number or disable it if your extensions are going to send their own CID number.
    5. **Caller ID Name:** This is your caller ID. You can choose whatever you like, but keep in mind the following naming conventions:
@@ -116,7 +117,7 @@ You should have the following information from Telnyx that you will use to regis
    6. **From Domain:** *sip.telnyx.com* (US. For a list of international servers, see [this document](https://sip.telnyx.com/#signaling-addresses).)
    7. **Username:** Your Telnyx account/sub-account username
    8. **Password:** Your Telnyx account/sub-account password
-   9. **Transport:** Choose *TCP* or *UDP* unless you are encrypting traffic and have set up encryption on your Telnyx portal. In this case, choose *TLS*.  
+   9. **Transport:** Choose *TCP* or *UDP* unless you are encrypting traffic and have set up encryption on your Telnyx portal. In this case, choose *TLS*.
       ​
 
       ![Telnyx SIP Trunk settings page. ](_images/420afa199f10d469.png)
@@ -128,8 +129,8 @@ You should have the following information from Telnyx that you will use to regis
       2. *alaw(g711a)*
       3. *g722*
       4. *g729*
-   2. Enable caller ID functionality by choosing either a PPI (P-Preferred-Identity) or PAI (PAsserted-Identity) header to be sent in your SIP HEADER  
-      ​  
+   2. Enable caller ID functionality by choosing either a PPI (P-Preferred-Identity) or PAI (PAsserted-Identity) header to be sent in your SIP HEADER
+      ​
       ​***IMPORTANT*:** “Send PPI Header” *and* “Send PAI Header” *cannot be enabled at the same time. Only one of the two headers is allowed in the SIP INVITE message. Some providers use PPI, and others use PAI. Choose the best option for your setup.*
 
       1. If you are planning to send a PPI header in your SIP INVITE message, enable **Send PPI Header.**
@@ -162,13 +163,13 @@ In this step, you'll configure your outbound routes, which will analyze your dia
 4. Configure the following settings:
 
    1. **Calling Rule Name**: Any name you want for this route.
-   2. **Pattern**: The desired pattern your callers will need to dial.   
-      ​  
+   2. **Pattern**: The desired pattern your callers will need to dial.
+      ​
       Note that if you want to include a dial-out prefix, you can type it after the "\_" character in your dial patterns. However, this number will need to be "stripped off", which you can do in the Strip field (see e)
    3. **Trunk**: The Telnyx trunk your call will be sent through.
    4. **Privilege Level**: Choose the desired privilege your extensions must have to be able to use this route. Bear in mind that an extension with an inferior privilege won't be able to use this route. Hover over the field name for more information.
-   5. **Strip:** If you are using a dial-out prefix, use this field to specify *the number of* digits to strip off after the "\_" character in your dial patterns.  
-      ​  
+   5. **Strip:** If you are using a dial-out prefix, use this field to specify *the number of* digits to strip off after the "\_" character in your dial patterns.
+      ​
       For example: If you want to use "9" to dial out, then your pattern will need to be \_9NXXXXXXXXX To strip off this number "9" when dialing out, set the **Strip** field to *1* to remove this single number following the "\_"
 
    ![New Outbound Rule creation domain. ](_images/92a044b09e3d39f7.png)
@@ -196,7 +197,7 @@ Inbound routes will make it so that you only need to use a single SIP trunk to r
 
    ![Inbound Rule creation. ](_images/849d4084d37a2ecd.png)
 
-This stage is the end of the required configuration steps, however, there are some optional steps we recommend for a more streamlined, organized, and automated experience.  
+This stage is the end of the required configuration steps, however, there are some optional steps we recommend for a more streamlined, organized, and automated experience.
 ​
 
 [Back to Top](#h_c0cf38c0c4)
@@ -216,7 +217,7 @@ You can set a time condition on your inbound/outbound rules if you want to use d
 
 Starting from firmware 1.0.20.17 users can create VoIP Trunk Groups to apply the same settings on multiple accounts within the same SIP server. This will help you reduce time spent on account management, as well as improving the overall cleanliness of the GUI.
 
-Instead of creating a new trunk, you can create a new trunk GROUP. During its settings configuration, you'll see a **+** button giving you the option to add multiple trunks in the **Username** field.  
+Instead of creating a new trunk, you can create a new trunk GROUP. During its settings configuration, you'll see a **+** button giving you the option to add multiple trunks in the **Username** field.
 ​
 
 [Back to Top](#h_c0cf38c0c4)
@@ -262,5 +263,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

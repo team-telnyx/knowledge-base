@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3266425-brazil-number-porting
+title: "Brazil Number Porting"
+description: "Here you will find a detailed list of requirements for Brazil number… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 6f6440913c69aaebc6a4b869a423397fda8bee4801234acff5ce1a2bf3a5bc6c
 ---
 
-Brazil Number Porting | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Brazil Number Porting
 
-Here you will find a detailed list of requirements for Brazil number portability
+Here you will find a detailed list of requirements for Brazil number… See Telnyx guidance and requirements.
 
-Written by Kim Dorson-King
 
-February 10, 2026
 
-Table of contents
 
-# Local / National / Toll-Free
+## Local / National / Toll-Free
 
 1. LOA (CPF / CNPJ required).
 2. ID / Passport copy
@@ -54,5 +55,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

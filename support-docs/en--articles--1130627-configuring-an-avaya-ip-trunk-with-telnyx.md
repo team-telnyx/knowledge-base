@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130627-configuring-an-avaya-ip-trunk-with-telnyx
+title: "Configuring an AVAYA IP trunk with Telnyx"
+description: "In this article we will walk you through configuring an AVAYA IP trunk with Telnyx so you can get started right away! See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 66bea0faf9b71da12ecb5cfd4b9ded9181d40b93e4422a7ad222edad8e5c9722
 ---
 
-Configuring an AVAYA IP trunk with Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Configuring an AVAYA IP trunk with Telnyx
 
-In this article we will walk you through configuring an AVAYA IP trunk with Telnyx so you can get started right away!
+In this article we will walk you through configuring an AVAYA IP trunk with Telnyx so you can get started right away! See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-January 10, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_94d8640d89)
 
@@ -31,7 +32,7 @@ Additional documentation and resources:
 
 ---
 
-# Instructions for configuring an Avaya IP trunk
+## Instructions for configuring an Avaya IP trunk
 
 In this activity you will:
 
@@ -53,56 +54,56 @@ Setting up your Telnyx SIP portal account so you can make and receive calls:
 
 ## 1. Create your SIP line
 
-1. Under IP Offices/Line add SIP line with the following Configurations:  
-   ​  
+1. Under IP Offices/Line add SIP line with the following Configurations:
+   ​
    ​**SIP Line**
 
    ```
-   Line Number: 100 (whichever number you have available)  
-   ITSP Domain Name: sip.telnyx.com  
-   URI Type: SIP  
-   Location: Cloud  
-   Prefix: 1 (whichever prefix you'd like to add)  
-   In service: Enable  
-   Check OOS: Enable  
-   Refresh Method: Auto  
+   Line Number: 100 (whichever number you have available)
+   ITSP Domain Name: sip.telnyx.com
+   URI Type: SIP
+   Location: Cloud
+   Prefix: 1 (whichever prefix you'd like to add)
+   In service: Enable
+   Check OOS: Enable
+   Refresh Method: Auto
    Timer (seconds): On Demand
    ```
 
    ​**Transport**
 
    ```
-   ITSP Proxy Address: sip.telnyx.com  
-   Layer 4 Protocol: UDP  
-   Send Port: 5060  
-   Use Network Topology Info: LAN 2 (whichever LAN you have configured for SIP trunking)  
+   ITSP Proxy Address: sip.telnyx.com
+   Layer 4 Protocol: UDP
+   Send Port: 5060
+   Use Network Topology Info: LAN 2 (whichever LAN you have configured for SIP trunking)
    Explicit DNS Server(s): Add your DNS Server
    ```
 
-   **SIP URI**  
+   **SIP URI**
    Add channel with the following configurations:
 
    ```
-   Via: 1.2.3.4 (1.2.3.4 = your public IP)  
-   Local URI: *  
-   Contact: *  
-   Display Name: *  
-   PAI: *  
-   Registration: 0:    
-   Incoming Group: 100 (Number added on SIP Line)  
-   Outgoing Group: 100 (Number added on SIP Line)  
+   Via: 1.2.3.4 (1.2.3.4 = your public IP)
+   Local URI: *
+   Contact: *
+   Display Name: *
+   PAI: *
+   Registration: 0:
+   Incoming Group: 100 (Number added on SIP Line)
+   Outgoing Group: 100 (Number added on SIP Line)
    Max Calls per Channel: 10
    ```
 
-   **Dial Plan**  
-   Under IP Offices/[Short Code](https://telnyx.com/products/sms-short-code) add a Short Code with the following Configurations:  
+   **Dial Plan**
+   Under IP Offices/[Short Code](https://telnyx.com/products/sms-short-code) add a Short Code with the following Configurations:
    ​
 
    ```
-   Code: 9N; (you can use 9 or whatever number you want to dial to differentiate Telnyx trunk)  
-   Feature: Dial  
-   Telephone Number: 1N  
-   Line Group: 100 (number added on SIP Line)  
+   Code: 9N; (you can use 9 or whatever number you want to dial to differentiate Telnyx trunk)
+   Feature: Dial
+   Telephone Number: 1N
+   Line Group: 100 (number added on SIP Line)
    Locale: United States (US English)
    ```
 
@@ -136,5 +137,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

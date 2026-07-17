@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8344129-get-started-with-telnyx-storage-inference-guide
+title: "Get Started with Telnyx Storage & Inference Guide"
+description: "This article provides you with a guide to setting up Telnyx Storage on your… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: d9d835c5e08568a5c2dc62d221383307d2e6a17e098ff7cc547427d3c7acf5b1
 ---
 
-Get Started with Telnyx Storage & Inference Guide | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Get Started with Telnyx Storage & Inference Guide
 
-This article provides you with a guide to setting up Telnyx Storage on your account
+This article provides you with a guide to setting up Telnyx Storage on your… See Telnyx guidance and requirements.
 
-Written by Dillin
 
-December 27, 2024
 
-Table of contents
 
-# What is Telnyx Storage?
+## What is Telnyx Storage?
 
 Telnyx Storage is a high-performance cloud storage service that caters to the storage and management of vast quantities of unstructured data. It prides itself on speedy data retrieval and exceptional durability, with 11 nines of reliability. Telnyx Storage provides S3 compatible APIs to facilitate seamless integration with a variety of third-party tools and applications. The Telnyx Storage API allows you to seamlessly integrate with most popular third-party tools and applications.
 
@@ -148,14 +149,14 @@ You can select the different language models we support to run the inference on,
 
 If you want to run inference against content in your bucket, you can select the **bucket** that you desire. You can also specify a "system prompt" and a "user message".
 
-In our example I select a bucket that has information on SIP Error responses, I set the model to Open AI's GPT Turbo Preview with the following system prompt and user message:   
+In our example I select a bucket that has information on SIP Error responses, I set the model to Open AI's GPT Turbo Preview with the following system prompt and user message:
 ​
 
 **System Prompt**: You are a virtual assistant that specializes in Session Initiation Protocol (SIP), adept at handling a wide range of queries related to SIP functionalities, configurations, troubleshooting, and best practices. You are able to provide in-depth explanations, advice, and solutions for SIP-related issues, ranging from basic setup and operation to advanced network troubleshooting and optimization. You must interpret technical queries, clarify user intents, and offer concise, accurate, and actionable responses. You should also guide users through SIP protocol specifications, including signaling, session management, and integration with other protocols. You must stay updated with the latest SIP technologies, standards, and security practices to ensure reliable and up-to-date advice.
 
 **User Message:** I'm having trouble with a SIP error I received through Telnyx. What is the error code D16 - 403 Connection is disabled D16?
 
-You can add several user messages if you'd like and then click "send" to trigger the completion request.   
+You can add several user messages if you'd like and then click "send" to trigger the completion request.
 ​
 
 Setting **temperature** using the slider bar controls the quality of the output. The higher the value, the more random the output. The lower the value, the more focused the result.
@@ -206,5 +207,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

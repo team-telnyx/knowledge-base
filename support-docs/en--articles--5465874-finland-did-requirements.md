@@ -1,87 +1,88 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5465874-finland-did-requirements
+title: "Finland DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Finland numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 5399015ab0c822e06693f1033b6a7a8c939c92171fc15d67742765a1b54c9649
 ---
 
-Finland DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Finland DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Finland numbers.
+Here you will find a list of detailed requirements for acquiring Finland numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-November 6, 2025
 
-Table of contents
 
-# DID Number Requirements for Finland
+## DID Number Requirements for Finland
 
 In order to purchase a Finland number you will need to provide the following:
 
 ## **Local Numbers in Finland**
 
-For **personal identity** verification:  
-\* Name, last name  
-\* Contact phone number  
-\* Passport or ID copy  
-​  
-For **business identity** verification:  
+For **personal identity** verification:
+\* Name, last name
+\* Contact phone number
+\* Passport or ID copy
+​
+For **business identity** verification:
 \* Name, last name of an authorized representative
 
-\* Company name  
-\* Contact phone number  
-\* Company registration certificate  
-​  
-For **address** verification:  
+\* Company name
+\* Contact phone number
+\* Company registration certificate
+​
+For **address** verification:
 \* Address worldwide (street, building number, postal code, city and country)
 
 ## **National Numbers in Finland**
 
-For **personal identity** verification:  
-\* Name, last name  
+For **personal identity** verification:
+\* Name, last name
 \* Contact phone number
 
-\* Passport or ID copy  
-​  
-For **business identity** verification:  
+\* Passport or ID copy
+​
+For **business identity** verification:
 \* Name, last name of an authorized representative
 
-\* Company name  
+\* Company name
 \* Contact phone number
 
-\* Company registration certificate  
-​  
-For **address** verification:  
+\* Company registration certificate
+​
+For **address** verification:
 \* Address worldwide (street, building number, postal code, city and country)
 
 ## **Mobile Numbers in Finland**
 
-For **business identity** verification:  
-\* Name, last name of an authorized representative  
-\* Contact phone number  
-\* VAT number  
-\* Company name  
-​  
-For **address** verification:  
+For **business identity** verification:
+\* Name, last name of an authorized representative
+\* Contact phone number
+\* VAT number
+\* Company name
+​
+For **address** verification:
 \* Address worldwide (street, building number, postal code, city and country)
 
 \*Business use required: Business use is required, private use is not allowed.
 
 ## **Toll-Free Numbers in Finland**
 
-For **business identity** verification:  
+For **business identity** verification:
 \* Name, last name of an authorized representative
 
-\* Contact phone number  
-\* Company name  
-\* VAT number  
-\* Company incorporation certificate copy  
-​  
-For **address** verification:  
+\* Contact phone number
+\* Company name
+\* VAT number
+\* Company incorporation certificate copy
+​
+For **address** verification:
 \* Address worldwide (street, building number, postal code, city and country)
 
 \*Business use required: Business use is required, private use is not allowed.
@@ -116,7 +117,7 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [What is direct inward dialing](https://telnyx.com/resources/what-is-direct-inward-dialing)
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
-Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)  
+Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
 ​
 
 ---
@@ -128,5 +129,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

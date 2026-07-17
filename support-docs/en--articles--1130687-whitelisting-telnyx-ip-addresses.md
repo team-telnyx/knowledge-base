@@ -1,26 +1,27 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130687-whitelisting-telnyx-ip-addresses
+title: "Whitelisting Telnyx IP Addresses"
+description: "We will explain what Telnyx IP Addresses you will need to whitelist to ensure your service works properly. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 38e9951445c88d8ef3718a7d3d37b463289803d20106b238f44cb02c0ad1e7c2
 ---
 
-Whitelisting Telnyx IP Addresses | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Whitelisting Telnyx IP Addresses
 
-We will explain what Telnyx IP Addresses you will need to whitelist to ensure your service works properly.
+We will explain what Telnyx IP Addresses you will need to whitelist to ensure your service works properly. See Telnyx guidance and requirements.
 
-Written by Telnyx Sales
 
-March 25, 2025
 
-Table of contents
 
 ## Whitelisting Telnyx IP Addresses
 
-To ensure optimal performance of your Telnyx services, please whitelist the following IP addresses by region and purpose.  
+To ensure optimal performance of your Telnyx services, please whitelist the following IP addresses by region and purpose.
 ​
 
 ## SIP Signaling and Media Servers
@@ -33,7 +34,7 @@ For the most up-to-date IP addresses, refer to: [Telnyx IP Addresses](https://si
 
 ## Webhooks
 
-Telnyx programmable services, including **TeXML**, **Fax**, **Messaging**, and **Call Control**, deliver webhooks from the following regional IPs.  
+Telnyx programmable services, including **TeXML**, **Fax**, **Messaging**, and **Call Control**, deliver webhooks from the following regional IPs.
 ​
 
 **Note:** These IPs also apply to **WebSocket stream connections**, which are typically initiated using the **Dial** and **Start Stream** APIs. WebSocket traffic leverages the same delivery infrastructure as webhooks.
@@ -125,5 +126,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,28 +1,29 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6677919-mauritius-sms-guidelines
+title: "Mauritius: SMS Guidelines"
+description: "Specific SMS guidelines for Mauritius (MCC: 617, Dial Code: 230). See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 0904650f947ddbe919483d7ffe122dc297baefe7e712e61eb6d6b27fb4c3caf3
 ---
 
-Mauritius: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Mauritius: SMS Guidelines
 
-Specific SMS guidelines for Mauritius (MCC: 617, Dial Code: 230). Gain insight into sender ID policies and important content restrictions.
+Specific SMS guidelines for Mauritius (MCC: 617, Dial Code: 230). See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# SMS Guidelines for Mauritius
+## SMS Guidelines for Mauritius
 
-**MCC:** 617  
-​**Dial Code:** 230  
-​  
+**MCC:** 617
+​**Dial Code:** 230
+​
 Alphanumeric Sender IDs are supported and will be maintained, except towards network Orange Mauritius. No registration is required.
 
 Religious, political or adult traffic is prohibited.
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

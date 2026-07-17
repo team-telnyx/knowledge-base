@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5761463-canadian-stir-shaken-implementation-faqs
+title: "Canadian STIR/SHAKEN Implementation FAQs"
+description: "Find answers to your questions about compliance, required actions, attestations, and more. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: c7f2d8d7965abfc1368a2b9ca731972644ec147a989d7d4c14bd0c1615163242
 ---
 
-Canadian STIR/SHAKEN Implementation FAQs | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Canadian STIR/SHAKEN Implementation FAQs
 
-Find answers to your questions about compliance, required actions, attestations, and more.
+Find answers to your questions about compliance, required actions, attestations, and more. See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-April 8, 2026
 
-Table of contents
 
-# **Canadian STIR/SHAKEN Implementation FAQs**
+## **Canadian STIR/SHAKEN Implementation FAQs**
 
 ## **What do I need to do to be SHAKEN/STIR compliant in Canada?**
 
@@ -55,5 +56,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

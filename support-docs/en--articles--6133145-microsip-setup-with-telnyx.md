@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6133145-microsip-setup-with-telnyx
+title: "MicroSIP: Setup with Telnyx"
+description: "Learn how to set up and configure a MicroSIP softphone and set Telnyx as your SIP provider. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 74eaa640d53924397476309c86ea9d65e8d2100d1a8b4295015c283ddeb35b6a
 ---
 
-MicroSIP: Setup with Telnyx | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # MicroSIP: Setup with Telnyx
 
-Learn how to set up and configure a MicroSIP softphone and set Telnyx as your SIP provider.
+Learn how to set up and configure a MicroSIP softphone and set Telnyx as your SIP provider. See Telnyx guidance and requirements.
 
 C
 
-Written by Customer Success
 
-June 6, 2024
 
-Table of contents
 
 [Jump to Instructions](#h_b0615de50d)
 
@@ -62,7 +63,7 @@ FAQ and help
 
 ---
 
-# Instructions for setting up and configuring the MicroSIP softphone with Telnyx as provider
+## Instructions for setting up and configuring the MicroSIP softphone with Telnyx as provider
 
 In this activity you will:
 
@@ -143,7 +144,7 @@ In this section, you'll configure your codecs and eliminate echo during calls in
 
    ![MicroSIP Settings section.](_images/f86ea7f59e711edb.png)
 
-That's it! You've finished configuring your MicroSIP softphone, and can now start testing calls!  
+That's it! You've finished configuring your MicroSIP softphone, and can now start testing calls!
 ​
 
 [Back to Top](#h_b0615de50d)
@@ -180,5 +181,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

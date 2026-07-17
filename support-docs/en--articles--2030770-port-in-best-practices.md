@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/2030770-port-in-best-practices
+title: "Port-In Best Practices"
+description: "In this article we will explain some of the best ways to ensure your port will go smoothly! See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 9a8b473b36868a7005e7827e320412f1bc2eb04fdb3d363846e71f60e543c3d8
 ---
 
-Port-In Best Practices | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Port-In Best Practices
 
-In this article we will explain some of the best ways to ensure your port will go smoothly!
+In this article we will explain some of the best ways to ensure your port will go smoothly! See Telnyx guidance and requirements.
 
-Written by Paul Cross
 
-May 20, 2024
 
-Table of contents
 
-# **Porting Overview**
+## **Porting Overview**
 
 This is one of the areas where Telnyx excels. We try to guarantee as few issues as possible and we tend to be a leader in this area of telecommunications!  We are as diligent as possible with porting numbers and we take pride in this.
 
@@ -39,9 +40,9 @@ When  we  submit  the  port  request  on  your  behalf  the  losing  
 
 **Letter of Authorization (LOA):** This is the form that A, gives you permission to act on behalf of your client, and B, gives us permission to request, on your behalf (+end users behalf), to port your number to Telnyx. Please ensure that the LOA lists all porting numbers, customer information, and has a signature via either docusign or physical signature. Toll free LOA’s must list, “Port to RespOrg QIT02.”
 
-**Invoice:** An invoice proves that the End User porting the numbers is the owner of the numbers. If an Invoice does not list the telephone numbers, the customer can provide either a screenshot of the current carriers portal showing the numbers, or provide a CSR from the current carrier. If neither can be provided, please reach out to [porting@telnyx.com](mailto:porting@telnyx.com) to discuss other options to prove ownership.  
-​  
-​**Customer Service Record (CSR):** A CSR is not required, but providing a CSR can assist to get your number ported as quickly as possible. Most carriers have a record of your number, address, and billing telephone number. This is the record that is used to verify your information during the porting process. Please note the information listed on the CSR may not be the same information listed on the billing portion of your account.   
+**Invoice:** An invoice proves that the End User porting the numbers is the owner of the numbers. If an Invoice does not list the telephone numbers, the customer can provide either a screenshot of the current carriers portal showing the numbers, or provide a CSR from the current carrier. If neither can be provided, please reach out to [porting@telnyx.com](mailto:porting@telnyx.com) to discuss other options to prove ownership.
+​
+​**Customer Service Record (CSR):** A CSR is not required, but providing a CSR can assist to get your number ported as quickly as possible. Most carriers have a record of your number, address, and billing telephone number. This is the record that is used to verify your information during the porting process. Please note the information listed on the CSR may not be the same information listed on the billing portion of your account.
 ​
 
 If you have any questions please reach out to the Porting Team via email at [porting@telnyx.com](mailto:porting@telnyx.com).
@@ -55,5 +56,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

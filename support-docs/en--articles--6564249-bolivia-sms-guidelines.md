@@ -1,32 +1,33 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6564249-bolivia-sms-guidelines
+title: "Bolivia: SMS Guidelines"
+description: "Sending SMS to Bolivia? See Telnyx guidance and requirements Learn more about Bolivia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 552d73b11f34403abd6d79b3cd8a81911aad5dfb50571a9e5e9d1eaf8d3c8395
 ---
 
-Bolivia: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Bolivia: SMS Guidelines
 
-Sending SMS to Bolivia? Check out our comprehensive guidelines to ensure compliance in Bolivia.
+Sending SMS to Bolivia? See Telnyx guidance and requirements Learn more about Bolivia: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-November 21, 2023
 
-Table of contents
 
-# **Bolivia: SMS Guidelines**
+## **Bolivia: SMS Guidelines**
 
-**MCC:** 736  
-​**Dial Code:**  591  
-​  
+**MCC:** 736
+​**Dial Code:**  591
+​
 Alphanumeric Sender IDs are not supported. Registration is not possible.
 
-All Alphanumeric Sender IDs will be overwritten to either a random Local Long Code or Short Code to ensure delivery.  
-​  
+All Alphanumeric Sender IDs will be overwritten to either a random Local Long Code or Short Code to ensure delivery.
+​
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
@@ -40,5 +41,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

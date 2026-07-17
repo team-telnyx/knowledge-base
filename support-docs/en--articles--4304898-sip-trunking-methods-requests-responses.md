@@ -1,31 +1,32 @@
 ---
 source_url: https://support.telnyx.com/en/articles/4304898-sip-trunking-methods-requests-responses
+title: "SIP Trunking - Methods/Requests & Responses"
+description: "Here we will explain different SIP trunking methods/requests and responses. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: e16cf3db090ad672d0669dc9c568db73a6dddc9d007b64b29a7b70d9edb922d4
 ---
 
-SIP Trunking - Methods/Requests & Responses | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # SIP Trunking - Methods/Requests & Responses
 
-Here we will explain different SIP trunking methods/requests and responses.
+Here we will explain different SIP trunking methods/requests and responses. See Telnyx guidance and requirements.
 
-Written by Dillin
 
-September 20, 2023
 
-Table of contents
 
-# **What is SIP Trunking?**
+## **What is SIP Trunking?**
 
-[SIP Trunking](https://telnyx.com/products/sip-trunks) is a popular form of voice/fax communications over the Internet. It's always a good idea to know the different **SIP Methods / Requests** and the **Responses** at a high level to understand the behaviour of a SIP Call Session.   
-​  
+[SIP Trunking](https://telnyx.com/products/sip-trunks) is a popular form of voice/fax communications over the Internet. It's always a good idea to know the different **SIP Methods / Requests** and the **Responses** at a high level to understand the behaviour of a SIP Call Session.
+​
 The SIP specification can be reviewed in detail in [RFC 3261](https://tools.ietf.org/html/rfc3261). It describes Session Initiation Protocol (SIP), an application-layer control (signalling) protocol for creating, modifying, and terminating sessions with one or more participants. These sessions include Internet telephone calls, multimedia distribution, and multimedia conferences.
 
-They serve as a foundational reference for professionals in the field. RFC 3261 specifically describes the Session Initiation Protocol (SIP), an application-layer control (signaling) protocol used for establishing, modifying, and terminating sessions with one or more participants. These sessions can range from Internet phone calls to multimedia distributions and conferences.  
-​  
+They serve as a foundational reference for professionals in the field. RFC 3261 specifically describes the Session Initiation Protocol (SIP), an application-layer control (signaling) protocol used for establishing, modifying, and terminating sessions with one or more participants. These sessions can range from Internet phone calls to multimedia distributions and conferences.
+​
 In this article, we give you an overview of what to expect when interacting with SIP.
 
 ## **What are SIP Methods / Requests?**
@@ -93,7 +94,7 @@ In this article, we give you an overview of what to expect when interacting with
   These error responses signify that the server has encountered an issue processing the request. An example is the 503 Service Unavailable, which is like trying to call someone, but their phone is turned off or out of service range.
 * ### **6xx**:
 
-  Global failure responses convey that a server has definitive information about a particular user, not just the current session. An example is the 603 Decline, which is somewhat analogous to someone seeing an incoming call and choosing to decline it.  
+  Global failure responses convey that a server has definitive information about a particular user, not just the current session. An example is the 603 Decline, which is somewhat analogous to someone seeing an incoming call and choosing to decline it.
   ​
 
 ## **1XX = Informational SIP Responses**
@@ -117,7 +118,7 @@ In this article, we give you an overview of what to expect when interacting with
   This response may be used to send extra information for a call which is still being set up.
 * #### **199 Early Dialog Terminated**:
 
-  Send by the User Agent Server to indicate that an early dialogue has been terminated.  
+  Send by the User Agent Server to indicate that an early dialogue has been terminated.
   ​
 
 ## **2XX = Success Responses**
@@ -146,7 +147,7 @@ In this article, we give you an overview of what to expect when interacting with
   The original Request URI is no longer valid, the new address is given in the Contact header.
 * #### **302 Moved Temporarily**:
 
-  The client should try at the address in the Contact field.  
+  The client should try at the address in the Contact field.
   ​**Note: This SIP response is not accepted by Telnyx at this time.**
 * #### **305 Use Proxy**:
 
@@ -351,7 +352,7 @@ In this article, we give you an overview of what to expect when interacting with
   The user’s agent was contacted successfully but some aspects of the session description were not acceptable.
 * #### **607 Unwanted:**
 
-  The called party did not want his call from the calling party. Future attempts from the calling party are likely to be similarly rejected.   
+  The called party did not want his call from the calling party. Future attempts from the calling party are likely to be similarly rejected.
   ​
 * **608 Rejected:**
 
@@ -383,5 +384,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

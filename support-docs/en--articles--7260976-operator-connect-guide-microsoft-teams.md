@@ -1,22 +1,23 @@
 ---
 source_url: https://support.telnyx.com/en/articles/7260976-operator-connect-guide-microsoft-teams
+title: "Operator Connect Guide - Microsoft Teams"
+description: "See how you can use Telnyx as your provider for Microsoft Teams with Operator… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 38cbb8f40e07a23c8d52b1369445df81cc9246921db0596f2834e46a52fe2b2e
 ---
 
-Operator Connect Guide - Microsoft Teams | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Operator Connect Guide - Microsoft Teams
 
-See how you can use Telnyx as your provider for Microsoft Teams with Operator Connect
+See how you can use Telnyx as your provider for Microsoft Teams with Operator… See Telnyx guidance and requirements.
 
-Written by Telnyx Engineering
 
-Updated over a week ago
 
-Table of contents
 
 Use Telnyx Operator Connect to connect Microsoft Teams Phone users to PSTN calling through Telnyx.
 
@@ -45,9 +46,9 @@ Before you begin, make sure you have:
 * At least one Telnyx number available for Operator Connect, or a porting plan for numbers you want to move to Telnyx.
 * Emergency address information for numbers that require emergency-service configuration.
 
-Microsoft 365 E5 or Office 365 E5 is not the minimum requirement for Operator Connect. E5 is sufficient because it includes Teams Phone, but Operator Connect users only need the required Microsoft Teams and Teams Phone entitlements for their plan.  
-​  
-​  
+Microsoft 365 E5 or Office 365 E5 is not the minimum requirement for Operator Connect. E5 is sufficient because it includes Teams Phone, but Operator Connect users only need the required Microsoft Teams and Teams Phone entitlements for their plan.
+​
+​
 References:
 
 * [Microsoft Operator Connect planning requirements](https://learn.microsoft.com/en-us/microsoftteams/operator-connect-plan)
@@ -88,7 +89,7 @@ References:
 
 ![](_images/c3ca8ef7d079c3f8.png)
 
-* Ensure you have entered the correct details in both the Microsoft Teams Admin Dashboard and your Telnyx portal account to avoid setup errors.  
+* Ensure you have entered the correct details in both the Microsoft Teams Admin Dashboard and your Telnyx portal account to avoid setup errors.
   ​
 * Following these steps should help you successfully set up and use Operator Connect with Telnyx in Microsoft Teams.
 
@@ -108,7 +109,7 @@ If you have already purchased your numbers they will show up in the list of numb
 
 Move back to the “Add numbers to this connection” under Teams and add numbers to your Operator Connect setup. Add an Emergency address from the drop-down and hit **Submit**.
 
-Confirm Charges and on the next page your numbers will appear in the **Number History** tab list with the Status of the connection. Orange - Not yet ready, Green - Ready to use. Use the refresh button on the right to check status updates.  
+Confirm Charges and on the next page your numbers will appear in the **Number History** tab list with the Status of the connection. Orange - Not yet ready, Green - Ready to use. Use the refresh button on the right to check status updates.
 ​
 
 ![](_images/ad12984287f2282e.png)
@@ -140,5 +141,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

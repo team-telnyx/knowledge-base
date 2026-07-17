@@ -1,30 +1,31 @@
 ---
 source_url: https://support.telnyx.com/en/articles/6545173-south-africa-sms-guidelines
+title: "South Africa: SMS Guidelines"
+description: "Sending SMS to South Africa? See Telnyx guidance and requirements Learn more about South Africa: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
 content_hash: 2f67cec745e84207b195857204aac4f0ca32bea3c2b194c16236d2476b2e8ca2
 ---
 
-South Africa: SMS Guidelines | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # South Africa: SMS Guidelines
 
-Sending SMS to South Africa? Check out our comprehensive guidelines to ensure compliance in South Africa.
+Sending SMS to South Africa? See Telnyx guidance and requirements Learn more about South Africa: SMS Guidelines with Telnyx.
 
-Written by Telnyx Engineering
 
-February 21, 2025
 
-Table of contents
 
-# **South Africa: SMS Guidelines**
+## **South Africa: SMS Guidelines**
 
-**MCC**: 655  
-​**Dial Code**: 27   
-​  
-All Alphanumeric Sender IDs will be overwritten to random Local Long Code.  
-​  
+**MCC**: 655
+​**Dial Code**: 27
+​
+All Alphanumeric Sender IDs will be overwritten to random Local Long Code.
+​
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ## SMS Resources for South Africa
@@ -86,5 +87,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

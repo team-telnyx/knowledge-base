@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5466651-israel-did-requirements
+title: "Israel DID Requirements"
+description: "Here you will find a list of detailed requirements for acquiring Israel numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 611d0464b87afed46fdb85957d7186e020cbd2568f5ef48bfd521320b7f93f9f
 ---
 
-Israel DID Requirements | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Israel DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Israel numbers.
+Here you will find a list of detailed requirements for acquiring Israel numbers. See Telnyx guidance and requirements.
 
-Written by NumberOps
 
-September 29, 2025
 
-Table of contents
 
-# DID Number Requirements for Israel
+## DID Number Requirements for Israel
 
 In order to purchase an Israel number you will need to provide the following:
 
@@ -42,20 +43,20 @@ For **address** verification:
 
 ## **Local and National Numbers in Israel**
 
-For **personal identity** verification:  
-\*Name, last name  
-\*Contact phone number  
-​  
-For **business identity** verification:  
-\*Name, last name of the legal representative  
-\*Contact phone number  
-\*Company name  
-\*Business Registration Certificate  
-\*Business Use Case  
-​  
-For **address** verification:  
-\*\* Worldwide Address (street, building number, postal code, city, and country)  
-\* Proof of address (dated within 3 months)  
+For **personal identity** verification:
+\*Name, last name
+\*Contact phone number
+​
+For **business identity** verification:
+\*Name, last name of the legal representative
+\*Contact phone number
+\*Company name
+\*Business Registration Certificate
+\*Business Use Case
+​
+For **address** verification:
+\*\* Worldwide Address (street, building number, postal code, city, and country)
+\* Proof of address (dated within 3 months)
 ​
 
 *\* You may order Local and National numbers using an address from any country. However, please be aware that emergency services are only supported for addresses located within Israel.*
@@ -127,5 +128,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents

@@ -1,24 +1,25 @@
 ---
 source_url: https://support.telnyx.com/en/articles/5336668-hosted-sms-messaging-process
+title: "Hosted SMS Messaging Process"
+description: "Learn how Telnyx streamlines hosted messaging transfers. See Telnyx guidance and requirements Learn more about Hosted SMS Messaging Process with Telnyx."
 scraped: 2026-07-08
 content_hash: 1c3d88996564f69f42b2d427af135aa253fba0b6e450ae1e913e52124b27163e
 ---
 
-Hosted SMS Messaging Process | Telnyx Help Center
 
-[Skip to main content](#main-content)
+
+
+
+
 
 # Hosted SMS Messaging Process
 
-Learn how Telnyx streamlines hosted messaging transfers. Grasp the process, common queries, and how to monitor your order status.
+Learn how Telnyx streamlines hosted messaging transfers. See Telnyx guidance and requirements Learn more about Hosted SMS Messaging Process with Telnyx.
 
-Written by Telnyx Engineering
 
-May 20, 2026
 
-Table of contents
 
-# **What is hosted sms messaging?**
+## **What is hosted sms messaging?**
 
 Hosted sms messaging allows a customer to port and enable messaging with Telnyx for a number, while leaving the voice portion of a number with the current voice provider.
 
@@ -131,5 +132,3 @@ Related Articles
 Did this answer your question?
 
 😞😐😃
-
-Table of contents
