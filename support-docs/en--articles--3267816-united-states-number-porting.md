@@ -29,7 +29,7 @@ Here you will find a detailed list of requirements for United States number port
 1. LOA (Local address & Account Number required)
 2. Latest Invoice
 
-Download LOA **[here](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://portal.telnyx.com/downloads/other/Telnyx-LOA.pdf)**
+Download LOA **[here](https://portal.telnyx.com/downloads/other/Telnyx-LOA.pdf)**
 
 ### **Number Porting Timelines in US**
 

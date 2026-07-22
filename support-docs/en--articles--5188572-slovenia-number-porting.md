@@ -27,7 +27,7 @@ Here you will find a detailed list of requirements for Slovenia number portabili
 
 3. Latest Invoice with the current provider
 
-## **Download the LoA template for porting in Slovenia [HERE](https://www.dropbox.com/home/International%20Porting%20Documentation/Slovenia?preview=LOA+-+Telnyx+-+Slovenia+-+ENG.docx)**
+## **Download the LoA template for porting in Slovenia [HERE](https://portal.telnyx.com/downloads/other/Telnyx-LOA.pdf)**
 
 ---
 
