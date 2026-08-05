@@ -1,4 +1,4 @@
-# NOTE: AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY must be added to repo secrets.
+# NOTE: AWS_ASSUME_ROLE must be added to repo secrets.
 name: Review App - build and deploy PR Preview
 
 on:
@@ -9,7 +9,11 @@ on:
       - "website/**"
       - "support-docs/**"
 
+env:
+  AWS_REGION: "us-east-1"
+
 permissions:
+  id-token: write
   contents: read
   pull-requests: write
 
@@ -46,21 +50,19 @@ jobs:
           BASE_PATH: "/${{ env.FOLDER_NAME }}"
         run: bun run build
 
-      - name: Setup S3cmd cli tool
-        uses: ./.github/utils/setup-s3cmd
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@e6de054238d6b7531b4efff3b6587d9aade6a06c # v6.2.3
         with:
-          access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          role-to-assume: ${{ secrets.AWS_ASSUME_ROLE }}
+          role-session-name: GitHub_to_AWS_via_FederatedOIDC
+          aws-region: ${{ env.AWS_REGION }}
 
       - name: Deploy files to bucket
         run: |
-          ~/.local/bin/s3cmd sync ./website/dist/ s3://support.telnyx.com/${{ env.FOLDER_NAME }}/ \
-            --add-header='Cache-Control: public, must-revalidate' \
-            --acl-public \
-            --no-preserve \
-            --delete-removed \
-            --delete-after \
-            --recursive;
+          aws s3 sync ./website/dist/ s3://support.telnyx.com/${{ env.FOLDER_NAME }}/ \
+            --cache-control 'public, must-revalidate' \
+            --acl public-read \
+            --delete
 
       - name: Post comment on PR with deployed link
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
