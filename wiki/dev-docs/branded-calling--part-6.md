@@ -1,222 +1,148 @@
 ---
 title: Branded Calling
-summary: Branded Calling displays your verified business identity (name, logo, call
-  reason) on recipients' phones before they answer, increasing answer rates and building
-  trust. The product suite also includes Number Reputation, a standalone monitoring
-  tool that reports spam risk scores for your outbound numbers.
+summary: 'Branded Calling is a Telnyx product (currently in beta, US-only) that displays
+  a verified business identity — display name, logo, and call reason — on outbound
+  calls instead of a bare number or "Spam Likely". The feature is built on a CTIA-managed
+  industry registry and uses SHAKEN PASSporT tokens to deliver rich call data to supported
+  carriers and devices. This page covers the full lifecycle: registering an Enterprise,
+  accepting the Branded Calling Terms of Service, activating the product, creating
+  and vetting a Display Identity Record (DIR), attaching phone numbers in batches,
+  configuring call reasons, handling infringement claims, and pricing.'
 sources:
 - url: https://developers.telnyx.com/docs/branded-calling/bc-phone-numbers/index
 - url: https://developers.telnyx.com/docs/branded-calling/brands/index
 - url: https://developers.telnyx.com/docs/branded-calling/call-reasons/index
 - url: https://developers.telnyx.com/docs/branded-calling/enterprises/index
 - url: https://developers.telnyx.com/docs/branded-calling/infringement-claims/index
-- url: https://developers.telnyx.com/docs/branded-calling/number-reputation/index
-- url: https://developers.telnyx.com/docs/branded-calling/number-reputation/loa
-- url: https://developers.telnyx.com/docs/branded-calling/number-reputation/phone-numbers
-- url: https://developers.telnyx.com/docs/branded-calling/number-reputation/quickstart
-- url: https://developers.telnyx.com/docs/branded-calling/number-reputation/remediation
-- url: https://developers.telnyx.com/docs/branded-calling/number-reputation/settings
 - url: https://developers.telnyx.com/docs/branded-calling/overview
+- url: https://developers.telnyx.com/docs/branded-calling/pricing
 - url: https://developers.telnyx.com/docs/branded-calling/quickstart
 - url: https://developers.telnyx.com/docs/branded-calling/terms-of-service/index
-updated_at: 2026-06-11T10:26:56Z
+updated_at: 2026-08-05T13:39:22Z
 ---
 
 # Branded Calling
 
-*Part 6 of 6 — see also: [Part 1](branded-calling--part-1.md), [Part 2](branded-calling--part-2.md), [Part 3](branded-calling--part-3.md), [Part 4](branded-calling--part-4.md), [Part 5](branded-calling--part-5.md)*
+*Part 6 of 8 — see also: [Part 1](branded-calling--part-1.md), [Part 2](branded-calling--part-2.md), [Part 3](branded-calling--part-3.md), [Part 4](branded-calling--part-4.md), [Part 5](branded-calling--part-5.md), [Part 7](branded-calling--part-7.md), [Part 8](branded-calling--part-8.md)*
 
-Branded Calling displays your verified business identity (name, logo, call reason) on recipients' phones before they answer, increasing answer rates and building trust. The product suite also includes Number Reputation, a standalone monitoring tool that reports spam risk scores for your outbound numbers.
+Branded Calling is a Telnyx product (currently in beta, US-only) that displays a verified business identity — display name, logo, and call reason — on outbound calls instead of a bare number or "Spam Likely". The feature is built on a CTIA-managed industry registry and uses SHAKEN PASSporT tokens to deliver rich call data to supported carriers and devices. This page covers the full lifecycle: registering an Enterprise, accepting the Branded Calling Terms of Service, activating the product, creating and vetting a Display Identity Record (DIR), attaching phone numbers in batches, configuring call reasons, handling infringement claims, and pricing.
 
-## Number Reputation Phone Numbers and Monitoring
+## Infringement Claims
 
-Once both approval gates are `approved`, associate phone numbers for reputation monitoring.
+If a third party believes your DIR's display name, logo, or content infringes on a protected right (trademark, copyright, etc.), they can file an **infringement claim** through Telnyx. Claims are filed and adjudicated by Telnyx; you cannot create a claim through this API, but you can read and contest claims filed against your own DIRs.
 
-### Associate Phone Numbers
+For infringement issues, please mail [brand-infringement@telnyx.com](mailto:brand-infringement@telnyx.com).
+
+While a claim is `pending` or `contested`:
+
+- The DIR is moved to `suspended`.
+- Branded calling pauses for the affected DIR.
+- You **cannot add phone numbers** to the DIR (returns `400`).
+- You **cannot delete** the DIR (returns `409`, blocked by the `no_active_claims` precondition).
+- You **cannot re-submit** the DIR with `POST /submit` (returns `409` with the open claim IDs, blocked by the `no_active_claims` precondition).
+- To revise content while the claim is open, call `PUT /v2/dir/{dir_id}/infringement_update` on the `suspended` DIR (see "Fix-and-resubmit" below). This is the only way to re-vet during an open claim.
+
+### Claim lifecycle
 
 ```
-curl -X POST https://api.telnyx.com/v2/enterprises/{enterprise_id}/reputation/numbers \
+pending ──► contested  (you submit a contest)
+        ──► resolved   (Telnyx admin adjudicates)
+
+resolved.resolution = upheld   ──► your DIR moves to permanently_rejected (terminal); the live registration and phone-number registrations are torn down. The DIR cannot be recovered; create a new DIR with corrected content.
+resolved.resolution = rejected ──► claim is dismissed; if your DIR was suspended for the claim, it is restored to verified and branded calling resumes.
+resolved.resolution = modified ──► partial outcome; DIR status is unchanged by the resolve, see resolution_notes for required follow-up.
+```
+
+### API endpoints
+
+| Method | Path | Description |
+| --- | --- | --- |
+| `GET` | `/v2/dir/{dir_id}/infringement_claims` | List claims against a DIR |
+| `GET` | `/v2/infringement_claims/{claim_id}` | Get a single claim |
+| `POST` | `/v2/infringement_claims/{claim_id}/contest` | File a contest |
+
+### List claims on a DIR
+
+```
+curl -g "https://api.telnyx.com/v2/dir/{dir_id}/infringement_claims?page[size]=20" \
+  -H "Authorization: Bearer YOUR_API_KEY"
+```
+
+### Get a single claim
+
+```
+curl https://api.telnyx.com/v2/infringement_claims/{claim_id} \
+  -H "Authorization: Bearer YOUR_API_KEY"
+```
+
+### Contest a claim
+
+You can submit a contest more than once — the first submission moves the claim from `pending` to `contested`; later submissions append additional notes and documents to the same claim without changing status.
+
+```
+curl -X POST https://api.telnyx.com/v2/infringement_claims/{claim_id}/contest \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
-    "phone_numbers": ["+12025551234", "+12025555678"]
-  }'
-```
-
-- Up to **100 numbers** per request, **atomic** (all succeed or all fail).
-- Numbers must be **US** numbers in **E.164 format**, in-service, and belong to your Telnyx inventory.
-- Billable action.
-- A freshly added number has `reputation_data: null` until the first refresh.
-
-In request bodies, the leading `+` is written literally (`"+12025551234"`). In **path parameters**, URL-encode the `+` as `%2B`.
-
-### Query Reputation
-
-**Cached query** (free, once data exists):
-
-```
-curl https://api.telnyx.com/v2/enterprises/{enterprise_id}/reputation/numbers/%2B12025551234 \
-  -H "Authorization: Bearer YOUR_API_KEY"
-```
-
-**Fresh query** (billed — fetches live data from the reputation feed):
-
-```
-curl "https://api.telnyx.com/v2/enterprises/{enterprise_id}/reputation/numbers/%2B12025551234?fresh=true" \
-  -H "Authorization: Bearer YOUR_API_KEY"
-```
-
-If no cached data exists, a fresh query is automatically triggered regardless of the `fresh` parameter — the first GET on a new number always returns live data and counts as a billed query.
-
-### Reputation Data Model
-
-```json
-{
-  "data": {
-    "id": "16286ab3-038a-4a5c-9792-309026cf6b9e",
-    "phone_number": "+12025551234",
-    "enterprise_id": "4a6192a4-573d-446d-b3ce-aff9117272a6",
-    "reputation_data": {
-      "spam_risk": "low",
-      "spam_category": null,
-      "maturity_score": 82,
-      "connection_score": 75,
-      "engagement_score": 68,
-      "sentiment_score": 90,
-      "last_refreshed_at": "2026-03-24T12:00:00Z"
-    },
-    "created_at": "2026-04-26T18:06:51.940749Z",
-    "updated_at": "2026-04-26T18:09:24.785211Z"
-  }
-}
-```
-
-Every field inside `reputation_data` is nullable. The whole object is `null` until the first refresh.
-
-### List All Monitored Numbers
-
-```
-curl "https://api.telnyx.com/v2/enterprises/{enterprise_id}/reputation/numbers" \
-  -H "Authorization: Bearer YOUR_API_KEY"
-```
-
-Supports pagination (`page[number]`, `page[size]`, 1-based). Defaults to `page[size]=10` for the enterprise-scoped endpoint (capped at 250). Filter with `filter[phone_number][contains]` (partial match) or `filter[phone_number][eq]` (exact match).
-
-### Force a Refresh
-
-```
-curl -X POST https://api.telnyx.com/v2/enterprises/{enterprise_id}/reputation/numbers/refresh \
-  -H "Authorization: Bearer YOUR_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "phone_numbers": ["+12025551234"]
-  }'
-```
-
-Up to 100 numbers per call. Billable. Returns per-number outcome with `success` and `error` fields. Subject to per-enterprise rate limits.
-
-### Remove a Number from Monitoring
-
-```
-curl -X DELETE https://api.telnyx.com/v2/enterprises/{enterprise_id}/reputation/numbers/%2B12025551234 \
-  -H "Authorization: Bearer YOUR_API_KEY"
-```
-
-### Simplified Endpoints
-
-If your account has only one enterprise, you can skip the `enterprise_id`:
-
-| Method | Simplified Path |
-|--------|----------------|
-| GET | `/v2/reputation/numbers` |
-| GET | `/v2/reputation/numbers/{phone_number}` |
-| DELETE | `/v2/reputation/numbers/{phone_number}` |
-
-Remember to URL-encode the `+` as `%2B` in the path.
-
-## Number Reputation Remediation
-
-When a monitored number has an elevated `spam_risk`, you can submit it for **reputation remediation** — a request to the call-analytics networks to re-evaluate the number's classification. Remediation is **asynchronous** and does **not** guarantee removal from any spam or block list; it is a re-evaluation request only. Even after successful remediation, downstream spam filters and carriers may still block or label calls.
-
-Both Number Reputation approval gates must be cleared and the Number Reputation ToS accepted before submitting remediation requests.
-
-### Submit Numbers for Remediation
-
-```
-curl -X POST https://api.telnyx.com/v2/enterprises/{enterprise_id}/reputation/remediation \
-  -H "Authorization: Bearer YOUR_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "phone_numbers": ["+12025551234", "+12025555678"],
-    "call_purpose": "Outbound appointment reminders for our dental clinic.",
-    "contact_email": "ops@example.com",
-    "webhook_url": "https://example.com/hooks/remediation"
+    "contest_notes": "Acme Plumbing LLC has been operating under this name since 2008, predating the cited trademark filing. Attached: trademark search results and our state business registration.",
+    "documents": [
+      {
+        "document_id": "d1e2f3a4-573d-446d-b3ce-aff9117272a6",
+        "document_type": "trademark_registration",
+        "description": "Our 2008 state trademark registration."
+      }
+    ]
   }'
 ```
 
 | Field | Required | Description |
-|-------|----------|-------------|
-| `phone_numbers` | yes | E.164 format. **1 to 2,000** per request. Must belong to this enterprise. |
-| `call_purpose` | yes | Free-text description (1–2,000 chars). |
-| `contact_email` | no | Contact email for tracking (max 255 chars). |
-| `webhook_url` | no | `https://` URL for status notifications (max 2,048 chars). |
+| --- | --- | --- |
+| `contest_notes` | yes | 10-2000 characters. Explain why the claim is invalid or how you've addressed it. |
+| `documents` | no | Up to 20 supporting documents per submission. Each must reference a `document_id` from the [Telnyx Documents API](/api-reference/documents/upload-a-document) and include a `document_type`. Duplicate `document_id`s within one submission are rejected. |
 
-Returns `202 Accepted` with initial `status` of `pending`. A number already in an in-flight remediation request returns `409 Conflict`. Numbers not belonging to this enterprise return `422 Unprocessable Entity`.
+Contesting a `resolved` claim returns `400`.
 
-### Count Fields
+### Fix-and-resubmit a suspended DIR
 
-| Field | Meaning |
-|-------|----------|
-| `phone_numbers_count` | Total numbers in the batch, including any later cancelled. |
-| `phone_numbers_submitted` | Numbers accepted for remediation (queued + processed). |
-| `phone_numbers_ineligible` | Numbers rejected before submission (e.g., in a cooldown window). |
-
-### Get a Remediation Request
+While an infringement claim is open (`pending` or `contested`), Telnyx may pre-emptively move your DIR to `suspended` to halt branded calling. To recover **without waiting for the claim to be resolved**, use the dedicated `PUT /v2/dir/{dir_id}/infringement_update` endpoint to atomically apply your content fix and re-submit for vetting in one call. This endpoint requires an active (unresolved) claim and a `suspended` DIR.
 
 ```
-curl https://api.telnyx.com/v2/enterprises/{enterprise_id}/reputation/remediation/{request_id} \
-  -H "Authorization: Bearer YOUR_API_KEY"
+curl -X PUT https://api.telnyx.com/v2/dir/{dir_id}/infringement_update \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "display_name": "Acme Local Plumbing",
+    "logo_url": "https://acmeplumbing.example.com/logo-v2-256.bmp",
+    "certify_no_infringement": true,
+    "certify_brand_is_accurate": true,
+    "certify_no_shaft_content": true,
+    "certify_ip_ownership": true,
+    "infringement_resolution_notes": "Renamed to Acme Local Plumbing and replaced the logo so the new display identity no longer reads on the cited trademark.",
+    "documents": [
+      {
+        "document_id": "550e8400-e29b-41d4-a716-446655440000",
+        "document_type": "trademark_registration",
+        "description": "Registration proving we own the revised name."
+      }
+    ]
+  }'
 ```
 
-A completed request includes populated `results` with per-number outcome buckets. Not found or wrong enterprise returns `404`.
+Requirements:
 
-### Remediation Status Values
+- The DIR must have an active (unresolved) infringement claim.
+- The DIR must be in `suspended` status.
+- All four certifications (`certify_no_infringement`, `certify_brand_is_accurate`, `certify_no_shaft_content`, `certify_ip_ownership`) must be supplied as `true`.
+- `infringement_resolution_notes` is required (10-500 chars); explain how the edits resolve the claim.
 
-| `status` | Meaning |
-|----------|----------|
-| `pending` | Accepted and queued. |
-| `in_progress` | Under review by the analytics networks. |
-| `completed` | Review finished. Inspect `results`. |
-| `failed` | Could not be processed. |
-| `cancelled` | Cancelled. |
+The content fields (`display_name`, `logo_url`, `call_reasons`) are all optional; send only the ones you're changing. You can also attach supporting `documents` (up to 20, append-only) as proof that backs your fix, for example authorization or licensing paperwork. Each entry references a `document_id` from the [Telnyx Documents API](/api-reference/documents/upload-a-document) plus a `document_type`, and re-attaching a document already on the DIR is rejected.
 
-`results` is `null` while pending and populated once results are available.
+After the update, the DIR moves to `submitted` and goes through vetting again, even though the claim is still open. If the new content passes vetting, the DIR returns to `verified` and the claim can be resolved. If vetting rejects the changes, the DIR returns to `suspended` and you can update again. You can submit `infringement_update` multiple times while the claim is open.
 
-### Per-Number Result Buckets
+> **Why the standard `PATCH` + `POST /submit` flow doesn't work here:** `POST /submit` is gated by the FSM's `no_active_claims` precondition and returns `409` while a claim is still `pending` or `contested`. `PUT /infringement_update` is the only customer-callable endpoint that can move a `suspended`-with-open-claim DIR back into vetting; it bypasses the `no_active_claims` gate by design. Use `PATCH` + `POST /submit` only after Telnyx has marked the claim `resolved` with `resolution = modified`. `resolution = rejected` auto-restores the DIR and `resolution = upheld` is terminal; neither requires a customer `PATCH` + `/submit`.
 
-Each number falls into exactly one bucket. Empty buckets are returned as empty arrays (never omitted):
+### After the claim resolves
 
-| Bucket | Meaning |
-|--------|----------|
-| `remediated` | Successfully re-evaluated and cleared. |
-| `not_flagged` | Not flagged, so no remediation needed. |
-| `requires_review` | Needs further review; remains flagged. |
-| `ineligible` | Rejected before submission (e.g., in cooldown). |
-| `refused` | Re-evaluation declined; number remains flagged. |
-
-### List Remediation Requests
-
-```
-curl -g "https://api.telnyx.com/v2/enterprises/{enterprise_id}/reputation/remediation?page[number]=1&page[size]=20" \
-  -H "Authorization: Bearer YOUR_API_KEY"
-```
-
-List items are a **slim shape** — they omit `results`, `webhook_url`, and the count breakdown. Call GET by ID for full detail. Pagination is JSON:API, 1-based, `page[size]` defaults to 20 (max 250).
-
-Filters:
-
-| Filter | Description |
-|--------|-------------|
-| `filter[status]` | `pending`, `in_progress`, `completed`, `failed`, or `cancelled`. |
-| `filter[created_at][gte]` | Created on or after an ISO 8601 timestamp. |
-| `filter[created_at][lte]` | Created on or before an ISO 8601 timestamp. |
+- **`resolution = rejected`**: your DIR is automatically restored to `verified`; no action required. Branded calling resumes.
+- **`resolution = upheld`**: your DIR is `permanently_rejected` and cannot be reused. To continue branded calling, create a **new** DIR with corrected content; you may reuse the same enterprise.
+- **`resolution = modified`**: read `resolution_notes` for the required content edits, then `PATCH` the DIR and `POST /submit` (the `no_active_claims` gate is now open because the claim is `resolved`).

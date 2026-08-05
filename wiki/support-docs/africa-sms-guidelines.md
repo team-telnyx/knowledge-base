@@ -1,64 +1,140 @@
 ---
 title: Africa SMS Guidelines
-summary: SMS guidelines for African countries on the Telnyx platform, including sender
-  ID registration requirements, content restrictions, and compliance recommendations
-  for Algeria, Benin, Botswana, Burundi, Cape Verde, Central African Republic, Chad,
-  Comoros, Djibouti, and Eritrea.
+summary: Telnyx SMS sending guidelines for 15 African countries, covering MCC, dial
+  codes, alphanumeric sender ID support, and registration requirements for specific
+  networks.
 sources:
-- url: https://support.telnyx.com/en/articles/6592441-algeria-sms-guidelines
 - url: https://support.telnyx.com/en/articles/6596235-benin-sms-guidelines
-- url: https://support.telnyx.com/en/articles/6600928-botswana-sms-guidelines
-- url: https://support.telnyx.com/en/articles/6601042-burundi-sms-guidelines
-- url: https://support.telnyx.com/en/articles/6601074-cape-verde-sms-guidelines
-- url: https://support.telnyx.com/en/articles/6601081-central-african-republic-sms-guidelines
-- url: https://support.telnyx.com/en/articles/6601133-chad-sms-guidelines
-- url: https://support.telnyx.com/en/articles/6601152-comoros-sms-guidelines
-- url: https://support.telnyx.com/en/articles/6665699-djibouti-sms-guidelines
-- url: https://support.telnyx.com/en/articles/6670452-eritrea-sms-guidelines
-updated_at: 2026-06-11T11:23:31Z
+- url: https://support.telnyx.com/en/articles/6661326-congo-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6661342-congo-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6665111-cote-d-ivoire-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6670439-equatorial-guinea-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6671488-guinea-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6671725-guinea-bissau-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6674974-liberia-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6675247-mali-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6677982-morocco-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6679407-rwanda-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6683295-tanzania-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6683433-uganda-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6683501-zambia-sms-guidelines
+- url: https://support.telnyx.com/en/articles/6683504-zimbabwe-sms-guidelines
+updated_at: 2026-08-05T13:37:12Z
 ---
 
 # Africa SMS Guidelines
 
-SMS guidelines for African countries on the Telnyx platform, including sender ID registration requirements, content restrictions, and compliance recommendations for Algeria, Benin, Botswana, Burundi, Cape Verde, Central African Republic, Chad, Comoros, Djibouti, and Eritrea.
+Telnyx SMS sending guidelines for 15 African countries, covering MCC, dial codes, alphanumeric sender ID support, and registration requirements for specific networks.
 
-## Country Reference
+## Overview
 
-| Country | MCC | Dial Code | Sender ID Registration | Content Restrictions | Generic Alpha Sender IDs |
-|---|---|---|---|---|---|
-| Algeria | 603 | 213 | Required | - | - |
-| Benin | 616 | 229 | Required for MTN (61603) | - | Not recommended |
-| Botswana | 652 | 267 | Not possible | - | Not recommended (may be rejected/blocked) |
-| Burundi | 642 | 257 | Required | - | - |
-| Cape Verde | 625 | 238 | Not required | None | - |
-| Central African Republic | 623 | 236 | Not required | None | - |
-| Chad | 622 | 235 | Required | - | - |
-| Comoros | 654 | 269 | Required | - | - |
-| Djibouti | 253\* | 638\* | Not required | None | Not recommended |
-| Eritrea | 657 | 291 | Not required | Religious, political, or adult traffic prohibited | Not recommended |
+This page consolidates Telnyx SMS sending guidelines for African destinations. Each country entry lists the Mobile Country Code (MCC), international dial code, support for alphanumeric sender IDs, and any network-specific registration requirements. In all cases, senders must comply with the [Acceptable Use Policy for Messaging](acceptable-use-policy-for-messaging.md).
 
-\* *Note: The MCC and Dial Code for Djibouti appear swapped in the source documentation. The actual MCC is 638 and the Dial Code is 253.*
+## Benin
 
-## Alphanumeric Sender ID Registration
+- **MCC:** 616
+- **Dial Code:** 229
 
-For countries where registration is required (Algeria, Burundi, Chad, and Comoros), all messages from unregistered Sender IDs will be rejected. To register an Alphanumeric Sender ID, provide the following details along with a copy of your Business Registration to [alpha_sender_id@telnyx.com](mailto:alpha_sender_id@telnyx.com):
+Alphanumeric Sender IDs are supported. For Network MTN (61603), Alphanumeric Sender IDs are only supported with registration. Without registration to this network, Alpha Senders will be overwritten to Generic Alpha Sender IDs or will NOT deliver. The use of generic Alpha Sender IDs is not recommended; Alpha Senders should be directly related to the message content.
 
-1. SenderID to be registered
-2. Message/Content type
-3. Message/Content example
-4. Company name (and Brand name if different)
-5. Website of brand or company
-6. Company Country of origin
-7. Expected volumes per month
-8. Email linked to your Telnyx account
+## Congo (Republic of the Congo)
 
-Companies must have a valid business case for the requested Alphanumeric Sender ID. If the relationship between your company/brand and the requested Sender ID is not clear, you must provide additional supporting documentation detailing your business case.
+- **MCC:** 629
+- **Dial Code:** 242
 
-For Benin, Alphanumeric Sender IDs are supported but registration is specifically required for the MTN network (61603). Without registration to this network, Alpha Senders will be overwritten to generic Alpha Sender IDs or will not deliver.
+Alphanumeric Sender IDs are supported. For Network MTN (62910), Alphanumeric Sender IDs are only supported with registration. Without registration to this network, Alpha Senders will be overwritten to Generic Alpha Sender IDs or will NOT deliver. The use of generic Alpha Sender IDs is not recommended; Alpha Senders should be directly related to the message content.
 
-## Content and Usage Recommendations
+## Democratic Republic of the Congo
 
-- **Generic Alpha Sender IDs:** The use of generic Alpha Sender IDs is not recommended in Benin, Botswana, Djibouti, and Eritrea. Alphanumeric Sender IDs should be directly related to the message content. In Botswana, generic Alpha Sender IDs can be rejected or blocked by local operators.
-- **Opt-In Consent:** For countries requiring Sender ID registration (Algeria, Burundi, Chad, and Comoros), consent (Proof for Opt-in) should be obtained before sending any communications, such as Marketing SMS. Traffic should also include clear Opt-Out options.
-- **Content Restrictions:** Religious, political, or adult traffic is prohibited in Eritrea. Cape Verde, Central African Republic, and Djibouti have no content restrictions.
-- **Acceptable Use:** Always refer to the [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
+- **MCC:** 630
+- **Dial Code:** 243
+
+Alphanumeric Sender IDs are supported. For Network Vodacom (63001), Alphanumeric Sender IDs are only supported with registration. Outside of this network, Alphanumeric Sender IDs can be replaced by a Generic Alpha Sender ID or a random [Short Code](https://telnyx.com/products/sms-short-code).
+
+## Cote d'Ivoire
+
+- **MCC:** 612
+- **Dial Code:** 225
+
+Alphanumeric Sender IDs are supported. For Network MTN (61205), Alphanumeric Sender IDs are only supported with registration. Without registration to this network, Alpha Senders will be overwritten to Generic Alpha Sender IDs or will NOT deliver. The use of generic Alpha Sender IDs is not recommended; Alpha Senders should be directly related to the message content.
+
+## Equatorial Guinea
+
+- **MCC:** 627
+- **Dial Code:** 240
+
+Alphanumeric Sender IDs are supported and will be maintained; no registration is required. There are no restrictions with regards to content towards this destination.
+
+## Guinea
+
+- **MCC:** 611
+- **Dial Code:** 224
+
+Alphanumeric Sender IDs are supported. For Network MTN (61104), Alphanumeric Sender IDs are only supported with registration. Without registration to this network, Alpha Senders will be overwritten to Generic Alpha Sender IDs or will NOT deliver. The use of generic Alpha Sender IDs is not recommended; Alpha Senders should be directly related to the message content.
+
+## Guinea-Bissau
+
+- **MCC:** 632
+- **Dial Code:** 245
+
+Alphanumeric Sender IDs are supported. For Network MTN (63202), Alphanumeric Sender IDs are only supported with registration. Without registration to this network, Alpha Senders will be overwritten to Generic Alpha Sender IDs or will NOT deliver. The use of generic Alpha Sender IDs is not recommended; Alpha Senders should be directly related to the message content.
+
+## Liberia
+
+- **MCC:** 618
+- **Dial Code:** 231
+
+Alphanumeric Sender IDs are supported. For Network Lonestar MTN (61801), Alphanumeric Sender IDs are only supported with registration. Without registration to this network, Alpha Senders will be overwritten to Generic Alpha Sender IDs or will NOT deliver. The use of generic Alpha Sender IDs is not recommended; Alpha Senders should be directly related to the message content.
+
+## Mali
+
+- **MCC:** 610
+- **Dial Code:** 223
+
+Alphanumeric Sender IDs are supported. There is a distinction between local and international traffic. For local traffic, Alphanumeric Sender IDs are only supported through registration. International traffic does not require registration; Alphanumeric Senders will be supported.
+
+## Morocco
+
+- **MCC:** 604
+- **Dial Code:** 212
+
+Alphanumeric Sender IDs are supported with registration. Alphanumeric Sender ID registration is required.
+
+## Rwanda
+
+- **MCC:** 635
+- **Dial Code:** 250
+
+Alphanumeric Sender IDs are supported. For Network MTN (63510), Alphanumeric Sender IDs are only supported with registration. Without registration to this network, Alpha Senders will be overwritten to Generic Alpha Sender IDs or will NOT deliver. The use of generic Alpha Sender IDs is not recommended; Alpha Senders should be directly related to the message content.
+
+## Tanzania
+
+- **MCC:** 640
+- **Dial Code:** 255
+
+Alphanumeric Sender IDs are supported with registration. Alphanumeric Sender ID registration is required.
+
+## Uganda
+
+- **MCC:** 641
+- **Dial Code:** 256
+
+Alphanumeric Sender IDs are supported. For Network MTN (64110), Alphanumeric Sender IDs are only supported with registration. Without registration to this network, Alpha Senders will be overwritten to Generic Alpha Sender IDs or will NOT deliver. The use of generic Alpha Sender IDs is not recommended; Alpha Senders should be directly related to the message content.
+
+## Zambia
+
+- **MCC:** 645
+- **Dial Code:** 260
+
+Alphanumeric Sender IDs are supported. For Network MTN (65402), Alphanumeric Sender IDs are only supported with registration. Without registration to this network, Alpha Senders will be overwritten to Generic Alpha Sender IDs or will NOT deliver. The use of generic Alpha Sender IDs is not recommended; Alpha Senders should be directly related to the message content.
+
+## Zimbabwe
+
+- **MCC:** 648
+- **Dial Code:** 263
+
+Alphanumeric Sender IDs are supported. There is a distinction between local and international traffic. For local traffic, Alphanumeric Sender IDs are only supported through registration. International traffic does not require registration; Alphanumeric Senders will be supported. The use of generic Alpha Sender IDs is not recommended; Alpha Senders should be directly related to the message content.
+
+## Alpha Sender ID Registration
+
+For more information on Alpha Sender ID registration, contact [alpha_sender_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).

@@ -1,328 +1,131 @@
 ---
 title: DID Number Requirements by Country
-summary: Regulatory requirements for purchasing Direct Inward Dialing (DID) phone
-  numbers through Telnyx, organized by country and number type. Requirements vary
-  by jurisdiction and include identity verification (personal or business), address
-  verification, and in some cases business-use-only restrictions or local presence
-  mandates.
+summary: This page consolidates Telnyx's documentation requirements for purchasing
+  Direct Inward Dialing (DID) numbers across multiple countries, covering identity
+  verification, address proof, business registration, and supporting documents such
+  as Letters of Intent (LOI) and Service Acceptance Forms. It also outlines country-specific
+  rules such as business-only use, local presence requirements, and standard processing
+  times.
 sources:
-- url: https://support.telnyx.com/en/articles/12748292-bangladesh-did-requirements
-- url: https://support.telnyx.com/en/articles/1311433-belgium-did-requirements
-- url: https://support.telnyx.com/en/articles/1311445-france-did-requirements
-- url: https://support.telnyx.com/en/articles/1311450-germany-did-requirements
-- url: https://support.telnyx.com/en/articles/1311472-netherlands-did-requirements
+- url: https://support.telnyx.com/en/articles/11128583-uzbekistan-did-requirements
+- url: https://support.telnyx.com/en/articles/11843465-pakistan-did-requirements
+- url: https://support.telnyx.com/en/articles/12640555-kuwait-did-requirements
+- url: https://support.telnyx.com/en/articles/14138528-oman-did-requirements
+- url: https://support.telnyx.com/en/articles/14306123-kazakhstan-did-requirements
+- url: https://support.telnyx.com/en/articles/15445421-iraq-did-requirements
+- url: https://support.telnyx.com/en/articles/15445494-egypt-did-requirements
 - url: https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements
-- url: https://support.telnyx.com/en/articles/3506141-croatia-did-requirements
-- url: https://support.telnyx.com/en/articles/3506145-cyprus-did-requirements
-- url: https://support.telnyx.com/en/articles/3739502-luxembourg-did-requirements
-- url: https://support.telnyx.com/en/articles/3739523-malta-did-requirements
-- url: https://support.telnyx.com/en/articles/3739580-switzerland-did-requirements
-- url: https://support.telnyx.com/en/articles/5466798-monaco-did-requirements
-- url: https://support.telnyx.com/en/articles/5466980-portugal-did-requirements
-updated_at: 2026-06-11T11:16:23Z
+- url: https://support.telnyx.com/en/articles/3739509-malaysia-did-requirements
+- url: https://support.telnyx.com/en/articles/3739552-romania-did-requirements
+- url: https://support.telnyx.com/en/articles/3739559-russia-did-requirements
+- url: https://support.telnyx.com/en/articles/3739661-thailand-did-requirements
+- url: https://support.telnyx.com/en/articles/3739745-ukraine-did-requirements
+- url: https://support.telnyx.com/en/articles/5467173-algeria-did-requirements
+- url: https://support.telnyx.com/en/articles/8520014-qatar-did-requirements
+updated_at: 2026-08-05T13:25:55Z
 ---
 
 # DID Number Requirements by Country
 
-*Part 2 of 3 — see also: [Part 1](did-number-requirements-by-country--part-1.md), [Part 3](did-number-requirements-by-country--part-3.md)*
+*Part 2 of 2 — see also: [Part 1](did-number-requirements-by-country--part-1.md)*
 
-Regulatory requirements for purchasing Direct Inward Dialing (DID) phone numbers through Telnyx, organized by country and number type. Requirements vary by jurisdiction and include identity verification (personal or business), address verification, and in some cases business-use-only restrictions or local presence mandates.
+This page consolidates Telnyx's documentation requirements for purchasing Direct Inward Dialing (DID) numbers across multiple countries, covering identity verification, address proof, business registration, and supporting documents such as Letters of Intent (LOI) and Service Acceptance Forms. It also outlines country-specific rules such as business-only use, local presence requirements, and standard processing times.
 
-## France
+## Romania
 
-### Local Numbers
+### Local, National, and Toll-Free Numbers
 
-**Personal identity:**
-- Name, last name
-- Contact phone number
-- Local copy of ID or Passport
+- **Personal identity:** Name, last name; contact phone number; local passport or ID copy.
+- **Business identity:** Name and last name of an authorized representative; company name; contact phone number; local company registration certificate.
+- **Address:** Address in Romania (street, building number, postal code, city and country); proof of address dated within 3 months.
 
-**Business identity:**
-- Name, last name of an authorized representative
-- Company name
-- Contact phone number
-- Local company registration certificate
+End-users must be physically present in the country when purchasing numbers from that country.
 
-**Address:**
-- Address in France (street, building number, postal code, city, and country)
-- Proof of address (dated within 3 months)
+### Identity Verification: What "Local" Means
 
-End-users must be physically present in France when purchasing.
+For most orders, proof of identity must be issued by the country in which the purchase is being made. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.
 
-### National Numbers
+All identification is subject to review, and Telnyx reserves the right to request additional documentation or decline any document that cannot be verified or that does not meet applicable legal and regulatory requirements.
 
-**Personal identity:**
-- Name, last name
-- Contact phone number
-- Local Passport or ID copy
-
-**Business identity:**
-- Name, last name of an authorized representative
-- Company name
-- Contact phone number
-- Local Company registration certificate
-
-**Address:**
-- Address in France (street, building number, postal code, city, and country)
-- Proof of address (dated within 3 months)
-
-End-users must be physically present in France when purchasing.
-
-### Toll-Free Numbers
-
-Business use required (private use is not allowed).
-
-**Business identity:**
-- Name, last name of an authorized representative
-- Company name
-- Contact phone number
-- Local Company registration certificate
-- Company Registration Number (SIREN number)
-
-**Address:**
-- Address in France (street, building number, postal code, city, and country)
-- Proof of address (dated within 3 months)
-
-End-users must be physically present in France when purchasing.
-
----
-
-## Germany
-
-Only scanned documents are acceptable for German number registration. End-users must be physically present in Germany when purchasing.
-
-### Local Numbers
-
-**Personal identity:**
-- Name, last name
-- Contact phone number
-- Local copy of ID or Passport
-- Germany registration form (fully signed, including representative's name, surname, date, and company stamp; if stamp unavailable, write company name by hand)
-
-**Business identity:**
-- Name, last name of an authorized representative
-- Company name
-- Contact phone number
-- Local Company Registration Certificate
-- Germany registration form (fully signed with representative's name, surname, date, and company stamp; if stamp unavailable, write company name by hand)
-
-**Address:**
-- Address matching the DID area code (street, building number, postal code, city, and country)
-- Copy of a utility bill (less than 3 months old)
-
-### National Numbers
-
-**Personal identity:**
-- Name, last name
-- Contact phone number
-- Local copy of ID or Passport
-- Germany registration form (same signing requirements as above)
-
-**Business identity:**
-- Name, last name of an authorized representative
-- Company name
-- Contact phone number
-- Local Passport or ID copy of an authorized representative
-- Local Company registration certificate
-- Germany registration form (same signing requirements as above)
-
-**Address:**
-- Address in Germany matching the address in the PoA/ID (street, building number, postal code, city, and country)
-- Proof of address (dated within 3 months)
-
-### Toll-Free Numbers
-
-Business use required (private use is not allowed).
-
-**Business identity:**
-- Name, last name of an authorized representative
-- Company name
-- Contact phone number
-- Place of birth of an authorized representative
-- Local Passport or ID copy of an authorized representative
-- Signed LOI (dated within 1 month)
-- Power of Attorney (provided by Telnyx)
-- Local Company registration certificate
-
-**Address:**
-- Address in Germany matching the Local Company registration certificate (street, building number, postal code, city, and country)
-- Proof of address (dated within 3 months)
-
-**Additional requirements:**
-- Service usage description in German
-- Marketing details in German
-
----
-
-## Luxembourg
-
-### Local Numbers
-
-Business use required (private use is not allowed).
-
-**Business identity:**
-- Name, last name of an authorized representative
-- Company name
-- Contact phone number
-- Contact e-mail
-- Company registration certificate
-
-**Address:**
-- Address in Luxembourg (street, building number, postal code, city, and country)
-- Proof of address (dated within 3 months)
-
-### National Numbers
-
-**Personal identity:**
-- Name, last name
-- Contact phone number
-- Date of birth
-- Place of birth
-
-**Business identity:**
-- Name, last name of an authorized representative
-- Company name
-- Contact phone number
-
-**Address:**
-- Address in Luxembourg (street, building number, postal code, city, and country)
-
-### Toll-Free Numbers
-
-Business use required (private use is not allowed).
-
-**Business identity:**
-- Name, last name
-- Company name
-- Contact phone number
-- Extract from the Commercial Register (Chamber of Commerce)
-
-**Address:**
-- Address worldwide (street, building number, postal code, city, and country)
-
----
-
-## Malta
-
-### National Numbers
-
-**Personal identity:**
-- Name, last name
-- Contact phone number
-- Local Passport or ID copy
-
-**Business identity:**
-- Name, last name of an authorized representative
-- Company name
-- Contact phone number
-- Local Company registration certificate
-
-**Address:**
-- Address in Malta (street, building number, postal code, city, and country)
-- Proof of address (dated within 3 months)
-
-End-users must be physically present in Malta when purchasing.
-
-### Toll-Free Numbers
-
-**Personal identity:**
-- Name, last name
-- Contact phone number
-- Local Passport or ID copy
-
-**Business identity:**
-- Company name
-- Contact phone number
-- Local Company registration certificate
-
-**Address:**
-- Address in Malta (street, building number, postal code, city, and country)
-- Proof of address (dated within 3 months)
-
-End-users must be physically present in Malta when purchasing.
-
----
-
-## Monaco
-
-### Toll-Free Numbers
-
-**Personal identity:**
-- Name, last name
-- Contact phone number
-- Passport or ID copy
-
-**Business identity:**
-- Company name
-- Contact phone number
-- Company registration certificate
-
-**Address:**
-- Address worldwide (street, building number, postal code, city, and country)
-
----
-
-## Netherlands
-
-### Local Numbers
-
-**Personal identity:**
-- Name, last name
-- Contact phone number
-- Passport or ID copy
-
-**Business identity:**
-- Name, last name of an authorized representative
-- Company name
-- Contact phone number
-- Passport or ID copy of an authorized representative
-- Company registration certificate
-
-**Address:**
-- Address matching the DID area code (street, building number, postal code, city, and country)
-- Proof of address (dated within 3 months)
-
-### National Numbers
-
-Business use required (personal use is not allowed).
-
-**Business identity:**
-- Name, last name of an authorized representative
-- Company name
-- Contact phone number
-
-**Address:**
-- Address in the Netherlands (street, building number, postal code, city, and country)
+## Russia
 
 ### Mobile Numbers
 
-A2A/A2P use only — numbers may only be used as "Application to Application" or "Application to Person."
+- **Business identity:** Name and last name of an authorized representative; company name; contact phone number; passport or ID copy of an authorized representative; business registration certificate; signed LOI dated within 1 month.
+- **Address:** Worldwide address (street, building number, postal code, city, and country); proof of address matching the address in the business registration certificate, dated within 3 months.
 
-**Personal identity:**
-- Name, last name
+Business use is required; private use is not allowed. Validation and activation take approximately 72 hours after documentation is received.
 
-**Business identity:**
-- Company name
+## Thailand
 
-**Address:**
-- Address worldwide (street, building number, postal code, city, and country)
+### Local Numbers
+
+- **Business identity:** Name and last name of an authorized representative; contact phone number; company name; company registration certificate.
+- **Address:** Address worldwide (street, building number, postal code, city and country); proof of address dated within 3 months.
+
+Business use is required; private use is not allowed.
+
+### National Numbers
+
+- **Personal identity:** Name, last name; contact phone number; passport or ID copy.
+- **Business identity:** Name and last name of an authorized representative; contact phone number; company name; passport or ID copy of an authorized representative; company registration certificate.
+- **Address:** Address worldwide (street, building number, postal code, city and country); proof of address dated within 3 months.
+
+Additional information required: service usage description.
+
+### Mobile Numbers
+
+- **Business identity:** Name and last name of an authorized representative; contact phone number; company name; passport or ID copy of an authorized representative; company registration certificate; signed LOI dated within 1 month; contact e-mail; service usage description.
+- **Address:** Address worldwide (street, building number, postal code, city and country); proof of address dated within 3 months.
+
+Business use is required; private use is not allowed.
 
 ### Toll-Free Numbers
 
-Business use required (personal use is not allowed).
+- **Business identity:** Name and last name of an authorized representative; contact phone number; company name.
+- **Address:** Address worldwide (street, building number, postal code, city and country); proof of address dated within 3 months.
 
-**Business identity:**
-- Name, last name of an authorized representative
-- Contact phone number
-- Company name
-- Company incorporation certificate copy
-- Proof of allocation from the Dutch national regulator
+Business use is required; private use is not allowed. Validation and activation take approximately 72 hours after documentation is received.
 
-**Address:**
-- Address worldwide (street, building number, postal code, city, and country)
+## Ukraine
 
-**Additional information:**
-- Service usage description
-- Email address
+### Local & National Numbers
 
----
+- **Business identity:** Name and last name of an authorized representative; company name; contact phone number; passport or ID copy of an authorized representative; business registration certificate; signed LOI dated within 1 month.
+- **Address:** Worldwide address (street, building number, postal code, city, and country); proof of address matching the address in the business registration certificate, dated within 3 months.
+
+Business use is required; private use is not allowed.
+
+### Mobile & Toll-Free Numbers
+
+- **Personal identity:** Name, last name; contact phone number; passport or ID copy.
+- **Business identity:** Company name; contact phone number; company registration certificate.
+- **Address:** Address worldwide (street, building number, postal code, city and country).
+
+Validation and activation take approximately 72 hours after documentation is received.
+
+## Uzbekistan
+
+### Local Numbers
+
+- **Personal identity:** Name, last name; contact phone number; LOI (provided by Telnyx — [LOI Template.docx](https://downloads.intercomcdn.com/i/o/ltcafuzd/1974079146/f3eb9460203bfedda610a97379a8/LOI+Template.docx)).
+- **Business identity:** Name and last name of an authorized representative; company name; contact phone number; LOI (provided by Telnyx).
+- **Address:** Worldwide address (street, building number, postal code, city and country); proof of address dated within 3 months.
+
+## Related Country Pages
+
+- [Uzbekistan DID Requirements](uzbekistan-did-requirements.md)
+- [Pakistan DID Requirements](pakistan-did-requirements.md)
+- [Kuwait DID Requirements](kuwait-did-requirements.md)
+- [Oman DID Requirements](oman-did-requirements.md)
+- [Kazakhstan DID Requirements](kazakhstan-did-requirements.md)
+- [Iraq DID Requirements](iraq-did-requirements.md)
+- [Egypt DID Requirements](egypt-did-requirements.md)
+- [Bulgaria DID Requirements](bulgaria-did-requirements.md)
+- [Malaysia DID Requirements](malaysia-did-requirements.md)
+- [Romania DID Requirements](romania-did-requirements.md)
+- [Russia DID Requirements](russia-did-requirements.md)
+- [Thailand DID Requirements](thailand-did-requirements.md)
+- [Ukraine DID Requirements](ukraine-did-requirements.md)
+- [Algeria DID Requirements](algeria-did-requirements.md)
+- [Qatar DID Requirements](qatar-did-requirements.md)

@@ -1,200 +1,174 @@
 ---
 title: KV
-summary: KV is a globally distributed key-value store designed for low-latency reads
-  from Telnyx edge functions. It supports namespace isolation, TTL-based expiration,
-  JSON metadata, and eventual consistency with read-after-write guarantees within
-  the same region.
+summary: KV is a globally distributed key-value store built for read-heavy edge workloads
+  such as session data, cached responses, and feature flags. It stores opaque bytes
+  under string keys and is reachable from TypeScript edge functions via an `env` binding
+  or from any language via the REST API.
 sources:
 - url: https://developers.telnyx.com/docs/edge-compute/kv
-- url: https://developers.telnyx.com/docs/edge-compute/kv/api-reference
+- url: https://developers.telnyx.com/docs/edge-compute/kv/best-practices
 - url: https://developers.telnyx.com/docs/edge-compute/kv/cli
-- url: https://developers.telnyx.com/docs/edge-compute/kv/pricing
-- url: https://developers.telnyx.com/docs/edge-compute/kv/quick-start/index
+- url: https://developers.telnyx.com/docs/edge-compute/kv/concepts/how-kv-works/index
+- url: https://developers.telnyx.com/docs/edge-compute/kv/examples/api-response-caching
+- url: https://developers.telnyx.com/docs/edge-compute/kv/examples/feature-flags
+- url: https://developers.telnyx.com/docs/edge-compute/kv/examples/session-storage/index
+- url: https://developers.telnyx.com/docs/edge-compute/kv/pricing/index
+- url: https://developers.telnyx.com/docs/edge-compute/kv/quick-start
+- url: https://developers.telnyx.com/docs/edge-compute/kv/reference/index
+- url: https://developers.telnyx.com/docs/edge-compute/kv/reference/kv-namespace
 - url: https://developers.telnyx.com/docs/edge-compute/kv/ttl-and-metadata
-- url: https://developers.telnyx.com/docs/edge-compute/kv/use-cases
-updated_at: 2026-06-11T10:27:17Z
+updated_at: 2026-08-05T13:41:30Z
 ---
 
 # KV
 
-*Part 2 of 2 — see also: [Part 1](kv--part-1.md)*
+*Part 2 of 4 — see also: [Part 1](kv--part-1.md), [Part 3](kv--part-3.md), [Part 4](kv--part-4.md)*
 
-KV is a globally distributed key-value store designed for low-latency reads from Telnyx edge functions. It supports namespace isolation, TTL-based expiration, JSON metadata, and eventual consistency with read-after-write guarantees within the same region.
+KV is a globally distributed key-value store built for read-heavy edge workloads such as session data, cached responses, and feature flags. It stores opaque bytes under string keys and is reachable from TypeScript edge functions via an `env` binding or from any language via the REST API.
 
-## TTL and Metadata
+## Runtime API
 
-### Key Expiration (TTL)
+The types in this reference are exported from `@telnyx/edge-runtime` (TypeScript) and describe version **≥ 0.2.2** — the first release where `expirationTtl` is applied and `list()` entries carry `sizeBytes`/`updatedAt`. They describe the `env` binding — the in-function surface. To read or write KV from another language or outside a function, use the REST API.
 
-KV supports automatic key expiration. Expired keys are automatically deleted and return 404 on read. There are two ways to set expiration:
+A namespace declared as `[storage.kv.<NAME>]` in `func.toml` resolves on `env.<NAME>` as a `KvNamespace`.
 
-| Option | Description | Example |
-|--------|-------------|----------|
-| `expiration_ttl` | Seconds from now until expiration (min: 60) | `3600` = 1 hour |
-| `expiration` | Unix timestamp when key expires | `1704067200` |
+| Surface | Where it lives | What it's for |
+| --- | --- | --- |
+| `KvNamespace` | `env.<BINDING>` | The binding handle — `get`, `put`, `delete`, `list`. |
+| `KvGetTextOptions` / `KvGetJsonOptions` | `get()` options | Select the raw-text read or a `JSON.parse`d read. |
+| `KvPutOptions` | `put()` options | `expirationTtl` — server-side TTL in seconds (`metadata` is deprecated and ignored). |
+| `KvListOptions` / `KvListResult` / `KvKeyInfo` | `list()` options + result | Prefix, pagination cursor, and the returned key entries. |
 
-The minimum TTL is 60 seconds. Keys with a TTL less than 60 seconds will be rejected.
+### KvNamespace
 
-API example with TTL:
+`env.<BINDING>` (a `KvNamespace`) is the in-function handle to a KV namespace. It's a thin, pre-authenticated wrapper over the KV REST API — the runtime injects the credential, so your code holds no API key.
 
-```bash
-curl -X PUT "https://api.telnyx.com/v2/storage/kvs/{id}/keys/session:abc" \
-  -H "Authorization: Bearer $TELNYX_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "value": "c2Vzc2lvbiBkYXRh",
-    "expiration_ttl": 3600
-  }'
 ```
-
-CLI example with expiration timestamp:
-
-```bash
-telnyx-edge storage kv key put <namespace-id> promo:sale "data" --expiration 1704067200
-```
-
-Common TTL use cases:
-
-- **Sessions** — Expire after 24 hours of inactivity
-- **Cache** — Expire after 5 minutes to ensure freshness
-- **Rate limiting** — Expire counters after the rate limit window
-- **Temporary tokens** — Auto-cleanup verification codes
-
-### Metadata
-
-Attach JSON metadata to keys for filtering, tagging, and context. Metadata is returned with the key on read. Metadata must be valid JSON and cannot exceed 1KB when serialized.
-
-API example with metadata:
-
-```bash
-curl -X PUT "https://api.telnyx.com/v2/storage/kvs/{id}/keys/user:123" \
-  -H "Authorization: Bearer $TELNYX_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "value": "eyJuYW1lIjoiQWxpY2UifQ==",
-    "metadata": {
-      "type": "user",
-      "source": "signup",
-      "version": 2
-    }
-  }'
-```
-
-Common metadata use cases:
-
-- **Versioning** — Track schema versions for migrations
-- **Tagging** — Categorize keys by type, source, or owner
-- **Debugging** — Store creation context (who, when, why)
-- **Filtering** — Future: filter list operations by metadata
-
-## Use Cases
-
-### Session Storage
-
-Store user sessions at the edge with automatic expiration (24-hour TTL example):
-
-```javascript
-const SESSION_TTL = 86400; // 24 hours
-
-async function handler(request) {
-    const sessionId = request.headers.get("X-Session-ID");
-    let session = await kvGet(`session:${sessionId}`);
-    if (!session) {
-        session = JSON.stringify({ created: Date.now(), views: 0 });
-    } else {
-        const data = JSON.parse(session);
-        data.views++;
-        session = JSON.stringify(data);
-    }
-    await kvPutWithTTL(`session:${sessionId}`, session, SESSION_TTL);
-    return new Response(session);
+interface KvNamespace {
+  get(key: string, options?: KvGetTextOptions): Promise<string | null>;
+  get<T>(key: string, options: KvGetJsonOptions): Promise<T | null>;
+  put(key: string, value: string, options?: KvPutOptions): Promise<void>;
+  delete(key: string): Promise<void>;
+  list(options?: KvListOptions): Promise<KvListResult>;
 }
 ```
 
-### API Response Caching
+Key behaviors:
 
-Cache expensive API responses with automatic expiration (5-minute TTL example):
+- **Values are opaque bytes** — `put` stores the string you pass verbatim (no base64, no envelope); `get` returns it byte-for-byte.
+- **Missing keys read as `null`** — `get` resolves to `null` for a key that doesn't exist, not an error.
+- **`delete` is idempotent** — deleting a missing key succeeds.
+- **Read-your-writes** — a read after a successful `put` from the same location reflects it.
+- **Errors throw** — a non-2xx from the store (other than the `404`→`null` on `get`) rejects the promise with an `Error` describing the operation and status.
 
-```javascript
-const CACHE_TTL = 300; // 5 minutes
+### `get(key, options?)`
 
-async function handler(request) {
-    const cacheKey = `api:${new URL(request.url).pathname}`;
-    const cached = await kvGet(cacheKey);
-    if (cached) {
-        return new Response(cached, { headers: { "X-Cache": "HIT" } });
-    }
-    const response = await fetch("https://api.example.com/data");
-    const data = await response.text();
-    await kvPutWithTTL(cacheKey, data, CACHE_TTL);
-    return new Response(data, { headers: { "X-Cache": "MISS" } });
+Read a value. Two overloads, selected by `options.type`:
+
+```
+interface KvGetTextOptions { type?: "text" }   // default
+interface KvGetJsonOptions { type: "json" }    // JSON.parse the stored value
+```
+
+```
+// Text (default) -> string | null
+const raw = await env.MY_KV.get("user/123");
+
+// JSON -> T | null (JSON.parse applied; an empty stored value yields null)
+const user = await env.MY_KV.get<{ name: string }>("user/123", { type: "json" });
+```
+
+Returns `null` if the key does not exist. With `{ type: "json" }`, a malformed stored value throws from `JSON.parse`.
+
+### `put(key, value, options?)`
+
+Write a value. `value` is a string, stored verbatim. Resolves once the write is acknowledged.
+
+```
+interface KvPutOptions {
+  expirationTtl?: number;   // seconds until the key expires server-side
+  /** @deprecated Not supported by the API. Accepted but ignored. */
+  metadata?: unknown;
 }
 ```
 
-### Feature Flags
+```
+await env.MY_KV.put("user/123", JSON.stringify({ name: "Alice" }));
 
-Store and retrieve feature flags:
+// Expire automatically after one hour
+await env.MY_KV.put("session/abc", token, { expirationTtl: 3600 });
+```
 
-```javascript
-async function handler(request) {
-    const newUIEnabled = await kvGet("feature:new-ui");
-    if (newUIEnabled === "true") {
-        return serveNewUI(request);
-    }
-    return serveOldUI(request);
+`expirationTtl` maps to the REST API's `?ttl_secs=` parameter: the key is deleted server-side roughly that many seconds after the write. The value is floored to a whole number of seconds; anything below `1` is not sent — the write succeeds without a TTL.
+
+`expirationTtl` requires `@telnyx/edge-runtime` **≥ 0.2.2** — earlier versions accept it but silently ignore it. `metadata` is ignored on every version (KV has no per-key metadata); it remains on the type, deprecated, so code that sets it keeps compiling.
+
+### `delete(key)`
+
+Remove a key. Idempotent — deleting a missing key resolves normally.
+
+```
+await env.MY_KV.delete("user/123");
+```
+
+### `list(options?)`
+
+Enumerate keys (names only — `list` does not return values).
+
+```
+interface KvListOptions {
+  prefix?: string;
+  limit?: number;
+  cursor?: string;   // from a previous result's `cursor`
+}
+
+interface KvListResult {
+  keys: KvKeyInfo[];
+  list_complete: boolean;
+  cursor?: string;   // present when list_complete is false
+}
+
+interface KvKeyInfo {
+  name: string;
+  sizeBytes?: number;   // stored value size, from the API's size_bytes
+  updatedAt?: Date;     // last write time, from the API's updated_at
+  /** @deprecated Not populated by the API. Always undefined. */
+  metadata?: unknown;
 }
 ```
 
-## Best Practices
-
-### Key Naming
-
-Use structured key names with prefixes:
-
 ```
-user:123              # User data
-session:abc           # Session data
-cache:api:/users      # Cached API response
-flag:new-feature      # Feature flag
+const { keys } = await env.MY_KV.list({ prefix: "user/" });
+// [{ name: "user/123", sizeBytes: 21, updatedAt: 2026-06-18T14:48:17.475Z }, …]
 ```
 
-### Value Serialization
+`list()` requires `@telnyx/edge-runtime` ≥ 0.2.1 — on 0.2.0 it throws `Unexpected KV list response shape`. `sizeBytes` and `updatedAt` are populated from **0.2.2**; on 0.2.1 entries carry only `name`.
 
-Always serialize complex values as JSON before base64 encoding:
+`KvKeyInfo.metadata` is never populated — KV has no per-key metadata. It remains on the type, deprecated, so code that reads it keeps compiling.
 
-```javascript
-// Write
-const value = JSON.stringify({ name: "Alice", age: 30 });
-await kvPut("user:123", value);
+## How KV Works
 
-// Read
-const user = JSON.parse(await kvGet("user:123"));
-```
+KV is a single global key-value store optimized for low-latency reads from edge functions. A value is opaque bytes — you choose the serialization (text, JSON, binary), and KV stores exactly what you send and returns it byte-for-byte, with no envelope, base64 encoding, or server-side interpretation.
 
-### Error Handling
+### Keys
 
-Handle missing keys gracefully — `kvGet` returns `null` for keys that don't exist:
+A key is a path-like string. Allowed characters are `a-z`, `A-Z`, `0-9`, and `-` `_` `/` `=` `.`. Use `/` to group related keys (for example `user/123`, `session/abc`). Colons (`:`) are **not** allowed.
 
-```javascript
-const value = await kvGet("possibly-missing-key");
-if (value === null) {
-    return new Response("Not found", { status: 404 });
-}
-```
+### Expiration (TTL)
 
-## Pricing
+By default a value lives until you delete it. You can also set a **server-side TTL** so a key expires automatically: pass `expirationTtl` on a binding `put`, `ttl_secs` on a REST write, or `--ttl` on the CLI. The TTL is a whole number of seconds; once it elapses the key is gone and reads return `null`/`404`.
 
-| Resource | Free Tier | Paid |
-|----------|-----------|------|
-| Reads | 10M/month | $0.35/million |
-| Writes | 1M/month | $3.50/million |
-| Deletes | 1M/month | $3.50/million |
-| Lists | 1M/month | $3.50/million |
-| Storage | 1 GB/month | $0.35/GB-month |
+An invalid `ttl_secs` (non-integer, `0`, or negative) is rejected with `422` and the key is not written. The binding never produces that `422`: it floors `expirationTtl` to a whole number of seconds and, if the result is less than `1`, sends no TTL at all — the write succeeds and the key does not expire. There is no way to read the remaining TTL back — a `get`/`list` on a live key does not report its expiry.
 
-Egress is free — there are no charges for data transferred out of KV.
+### No Per-Key Metadata
 
-## Related Resources
+KV has **no per-key metadata**. The binding's `put` accepts a `metadata` option so older code keeps compiling, but it is ignored (deprecated as of 0.2.2), and `list` never returns metadata.
 
-- [Bindings](bindings.md) — Connect to KV and other services from edge functions
-- [SQL DB](sql-db.md) — Relational database for complex queries
-- [Secrets](secrets.md) — Secure credential storage
+### Consistency and Regionality
+
+KV is a **single global store**. There is no region to choose at creation time and no per-region copies to reconcile — every namespace is one logical dataset reachable from every edge location. Writes are replicated for durability and committed by quorum before they're acknowledged.
+
+- **Read-your-writes** from a given location is reliable: once a write returns, a subsequent read sees it.
+- **Across locations**, a read issued immediately after a write elsewhere may briefly observe the previous value; treat cross-location visibility as near-real-time rather than instantaneous.
+- **Distance costs latency, not staleness** — a location far from where the data is coordinated pays network round-trip on the request, but reads the same authoritative data as everywhere else.
+- **No transactions or compare-and-swap.** Don't use KV for atomic read-modify-write, counters, or coordination — concurrent writers to one key are last-write-wins.

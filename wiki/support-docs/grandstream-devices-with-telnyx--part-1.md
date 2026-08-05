@@ -1,153 +1,136 @@
 ---
 title: Grandstream Devices with Telnyx
-summary: How to configure Grandstream IP phones and adapters—including the GXP16XX,
-  GXP21XX, HT802, and DP752—to connect with the Telnyx Mission Control Portal for
-  SIP calling and faxing.
+summary: Configuration guides for integrating Grandstream hardware — including the
+  UCM6202 IP PBX, UCM6xxx series, HT802 ATA, and DP752 DECT base station — with Telnyx
+  SIP services for voice and fax.
 sources:
-- url: https://support.telnyx.com/en/articles/1130660-configuring-grandstream-gxp16xx-with-telnyx
+- url: https://support.telnyx.com/en/articles/1295514-grandstream-umc6202-auth-setup
+- url: https://support.telnyx.com/en/articles/2950523-grandstream-ip-auth-setup
 - url: https://support.telnyx.com/en/articles/5725071-grandstream-ht802-telnyx-setup
+- url: https://support.telnyx.com/en/articles/5748258-grandstream-ucm6xxx-sip-trunks
 - url: https://support.telnyx.com/en/articles/5808368-grandstream-dp752
-- url: https://support.telnyx.com/en/articles/5815720-grandstream-gxp-telnyx-setup
-- url: https://support.telnyx.com/en/articles/5819218-grandstream-gxp21xx
-updated_at: 2026-06-11T11:31:45Z
+updated_at: 2026-08-05T13:33:05Z
 ---
 
 # Grandstream Devices with Telnyx
 
-*Part 1 of 2 — see also: [Part 2](grandstream-devices-with-telnyx--part-2.md)*
+*Part 1 of 4 — see also: [Part 2](grandstream-devices-with-telnyx--part-2.md), [Part 3](grandstream-devices-with-telnyx--part-3.md), [Part 4](grandstream-devices-with-telnyx--part-4.md)*
 
-How to configure Grandstream IP phones and adapters—including the GXP16XX, GXP21XX, HT802, and DP752—to connect with the Telnyx Mission Control Portal for SIP calling and faxing.
+Configuration guides for integrating Grandstream hardware — including the UCM6202 IP PBX, UCM6xxx series, HT802 ATA, and DP752 DECT base station — with Telnyx SIP services for voice and fax.
 
-This guide covers the configuration of several Grandstream device families with Telnyx SIP trunks. The GXP series IP phones (GXP1620/25, GXP1630, GXP2135, GXP2170) share a nearly identical setup workflow. The HT802 analog telephone adapter is configured primarily for faxing. The DP752/DP750 DECT cordless system has its own profile-based configuration.
+## Overview
+
+Grandstream manufactures a range of SIP-based Unified Communications products for small and medium businesses and enterprises. Telnyx supports integration with several Grandstream devices, including the UCM6202 IP PBX, the broader UCM6xxx series, the HT802 analog telephone adapter (ATA), and the DP752 DECT base station. This page consolidates the configuration steps for each device family.
 
 ## Prerequisites
 
-Before configuring any Grandstream device, complete the following:
+Before configuring any Grandstream device with Telnyx, complete the following in the Telnyx Mission Control Portal:
 
-- Ensure your [Telnyx Mission Control Portal](https://portal.telnyx.com) is set up properly — see the [getting started guide](https://support.telnyx.com/en/articles/1176636-get-started-with-a-mission-control-account)
-- Purchase and provision a Telnyx DID, and assign it to a SIP connection
-- Create an [IP connection](https://portal.telnyx.com/#/app/connections) and an [outbound voice profile](https://portal.telnyx.com/#/app/outbound)
-- Ensure your Grandstream device is running the [latest firmware](https://www.grandstream.com/support/firmware)
-- **Recommended:** [Enable TLS](https://support.telnyx.com/en/articles/1130711-does-telnyx-encrypt-communication) to encrypt your traffic
+- Configure your [Telnyx Mission Control Portal](https://support.telnyx.com/en/articles/1176636-get-started-with-a-mission-control-account) account.
+- Purchase a DID and provision it to a SIP connection.
+- Create an outbound voice profile.
+- Create either a credentials connection or an IP connection, depending on the auth method you plan to use.
+- Ensure your Grandstream device is running the [latest firmware](https://www.grandstream.com/support/firmware).
+- Recommended: [Enable TLS to encrypt your traffic](https://support.telnyx.com/en/articles/1130711-does-telnyx-encrypt-communication).
 
-For the **HT802**, an additional prerequisite is required in your Telnyx Portal: from **Connection Settings > Inbound**, set **Number Format (DNIS)** to *SIP Username*. Telnyx does not support phone numbers as connection usernames, and the HT802 expects inbound calls to be sent to the SIP username.
+## Grandstream UCM6202 — Auth Setup
 
-## GXP Series IP Phones
+The [Grandstream UCM6202](https://www.grandstream.com/products/ip-pbxs/ucm-series-ip-pbxs/product/ucm6200-series) is an IP PBX appliance that combines enterprise-grade voice, video, data, and mobility features. This section covers credential-based registration.
 
-The configuration steps for the GXP1620, GXP1625, GXP1630, GXP2135, and GXP2170 are nearly identical. Follow the steps below for any of these models.
+### Log into the Web UI
 
-### Access the GXP Web UI
+1. The IP address used to access the web UI depends on where the computer is connected:
+   - If connected to the same switch/router as the UCM6200 WAN port, browse to the WAN IP shown on the device's LCD.
+   - If connected to the LAN side, browse to the default IP `192.168.2.1`.
+2. Default credentials are `admin` / `admin`. Units manufactured after January 2017 have a unique random password printed on a sticker on the back of the unit. Change the default password after first login.
 
-1. On the phone, navigate to **Menu > Status > Network Status > IPv4 Address** and note the IP address.
-2. On a computer on the same network, open a browser and enter `http://` followed by the phone's IP address.
-3. Log in with the default credentials — **Username:** `admin`, **Password:** `admin`. (Devices manufactured from January 2017 onward may have a unique random password printed on the unit's sticker.)
+### Configure the SIP Trunk
 
-### Configure GXP Account and SIP Settings
+1. In the left-hand navigation, expand **Extension/Trunk** and click **VoIP Trunks**.
 
-1. Click **Accounts** in the top menu, then expand the account (e.g., Account 1) and select **General Settings**.
-2. Enter the following:
-   - **Account Name:** A descriptive name of your choice
-   - **SIP Server:** `sip.telnyx.com`
-   - **SIP User ID:** Your Telnyx SIP account username
-   - **Authenticate ID** (or **Authentication ID**): Your Telnyx SIP account username
-   - **Authenticate Password:** Your Telnyx SIP account password
-   - **Name (Caller ID):** Use capital letters, no special characters (spaces allowed), 15 characters maximum recommended
-   - **Voice Mail Access Number:** `*97`
-3. Navigate to **Accounts > Account X > SIP Settings > Basic Settings** and set:
-   - **SIP Registration:** `Yes`
-   - **Register Expiration:** `5` (minutes)
-   - **Enable OPTIONS Keep Alive:** `Yes`
-   - **Local SIP Port:** `5060` (unencrypted) or `5061` (TLS)
-   - **SIP Transport:** `UDP` or `TCP` (unencrypted) or `TLS/TCP` (encrypted)
-4. Click **Save and Apply**.
+   ![SIP trunk configuration portal.](_images/27fdbfe19af8b367.png)
+2. Click **Add SIP trunk** and fill in:
+   - **Type:** Register SIP Trunk
+   - **Provider Name:** Telnyx
+   - **Host Name:** `sip.telnyx.com`
+   - **Username:** Your Telnyx SIP username
+   - **Password:** Your Telnyx SIP password
 
-### Configure GXP Network Settings
+   ![SIP trunk credential information input.](_images/0ea677d78dd135c8.png)
 
-Under **Accounts > Account X > Network Settings**:
+   ![SIP trunk credential information input interface.](_images/7e1fea0948c2adfd.png)
+3. Click **Save**.
 
-- **DNS Mode:** `A Record`
-- **NAT Traversal:** `Keep-Alive`
+> If you have issues setting this up with a hostname, you can use the primary IP address `192.76.120.10`.
 
-### Disable Problematic Custom SIP Headers
+### Create an Inbound Route
 
-Navigate to **Accounts > Account X > SIP > Custom SIP Header** and set the following to **No** (or disable them):
+1. Expand **Extension/Trunk** and click **Inbound Routes**.
 
-- **Use X-Grandstream-PBX Header**
-- **Use P-Access-Network-Info Header**
-- **Use P-Emergency-Info Header**
+   ![Inbound routes icon in Extension/Trunk tab.](_images/af4376a03ec803de.png)
+2. Select the trunk and click **Add** under **Inbound Routes**.
 
-For the GXP21XX, additionally set:
+   ![Inbound routes "Add" icon.](_images/c21b6e95605aafbc.png)
+3. Enter the patterns that apply to this inbound rule. See [Asterisk dialplan patterns](https://www.voip-info.org/asterisk-dialplan-patterns/) for formatting.
 
-- **Use Privacy Header:** `Yes`
-- **Use P-Preferred-Identity Header:** `Yes`
+   ![Inbound rule pattern input.](_images/17b8fcc8dc3ada7f.png)
+4. In default mode, set the default destination to **Extension**.
 
-### Select GXP Codec Preferences
+   ![Default destination selection interface.](_images/de791878c71e2dae.png)
+5. Click **Save**.
 
-Under **Accounts > Account X > Audio Settings**, choose a preferred vocoder. Supported Telnyx codecs include:
+### Create an Outbound Route
 
-- PCMU (G.711u / ulaw)
-- PCMA (G.711a / alaw)
-- G.722
-- G.729A/B
+1. Expand **Extension/Trunk** and click **Outbound Routes**.
 
-For the GXP21XX, **G729A/B** or **G722** is recommended as the preferred vocoder.
+   ![Outbound routes page in the Extension/Trunk tab.](_images/a18840add58e5064.png)
+2. Name the calling rule and add the number pattern.
 
-## HT802 Analog Telephone Adapter
+   ![Outbound routes page in the Extension/Trunk tab.](_images/a976896b3d06ac2e.png)
+3. Set the privilege level to match the service plan in your Telnyx portal.
 
-The Grandstream HT802 is a 2-port analog telephone adapter (ATA) suitable for residential and office VoIP, with particular emphasis on fax support.
+   ![Privilege level settings in the Outbound routes section.](_images/a07d5e52608723a8.png)
+4. Select your trunk in the **Use Trunk** section.
 
-### Access the HT802 Web UI
+   ![Trunk selection portal.](_images/c844ac4f560632bf.png)
 
-1. Connect the HT802 to your router via Ethernet, and connect an analog phone to the configured FXS port. Power on the device and wait 60 seconds.
-2. Pick up the phone and dial `***`, then dial `02` to hear the device's IP address. Write it down.
-3. Open a browser and enter the IP address (remove any leading zeros — e.g., `192.168.001.010` becomes `192.168.1.10`). The interface has a timeout, so do this promptly.
-4. Log in with the default **Password:** `admin`.
+### Configure an Outbound Caller ID
 
-### Configure the HT802 FXS Port
+Grandstream supports three ways to configure caller ID on a SIP trunk:
 
-Click **FXS PORT1** in the top menu and set the following:
+- A single global outbound caller ID applied to every number on the trunk.
+- A unique caller ID for every extension on the trunk.
+- A unique caller ID for every outbound route.
 
-- **Primary SIP Server:** `sip.telnyx.com`
-- **Failover SIP Server:** (leave blank)
-- **Outbound Proxy:** Leave blank (use `sip.telnyx.com` only if on firmware 1.0.15.4 or lower)
-- **NAT Traversal:** `Keep-Alive`
-- **SIP User ID:** Your Telnyx SIP ID
-- **Authenticate ID:** Your Telnyx SIP ID
-- **Authenticate Password:** Your Telnyx SIP account password
-- **Name:** Outbound Caller ID — capital letters, no special characters, 15 characters max
-- **DNS Mode:** `A Record`
-- **SIP Registration:** `Yes`
-- **Unregister on Reboot:** `No`
-- **Outgoing Call Without Registration:** `Yes`
-- **Register Expiration:** `5`
-- **Allow Incoming SIP Messages from SIP Proxy Only:** `Yes`
-- **Preferred DTMF Method:** `In-audio, RFC2833`
-- **Use P-Access-Network-Info Header:** `No`
-- **Use P-Emergency-Info Header:** `No`
-- **Enable Call Features:** `No`
-- **Dial Plan:** `{[x*]+}`
-- **Preferred Vocoder:** PCMU, PCMA, G722
-- **Fax Mode:** `T38`
-- **Re-INVITE After Fax Tone Detected:** `Disabled`
+> Caller ID naming conventions: use capital letters, no special characters (spaces are allowed), and keep names under 15 characters for Canadian providers. See [Telnyx's caller ID number policy](https://support.telnyx.com/en/articles/3546251-caller-id-number-policy).
 
-If large faxes have a low success rate, also set:
+1. **Global CID:** Expand **PBX Settings** and click **General Settings**.
 
-- **Jitter Buffer Type:** `Fixed`
-- **Jitter Buffer Length:** `High`
-- **Disable Line Echo Canceller (LEC):** `Yes`
-- **Disable Network Echo Suppressor:** `Yes`
+   ![General settings sub-tab in the PBX settings section.](_images/c26e5ac929e5eb66.png)
+2. **Per-extension CID:** Expand **Extension/Trunk** and click **Extensions**.
+3. Click the extension and provide the caller ID in the **CallerID Number** field.
 
-### Prevent Direct IP Calls on the HT802
+   ![Extension/Trunk sub-menu.](_images/76d7d440fbd8fc8b.png)
+4. **Per-route CID:** Expand **Extension/Trunk** and click **Outbound Routes**.
+5. Set the caller ID for the entire route in the **Outbound Route CID** field.
 
-To allow calls only from Telnyx (blocking direct IP calls), enable both of these on the FXS PORT1 page:
+   ![Outbound route CID field.](_images/106ffe49621ee270.png)
 
-- **Check SIP User ID for Incoming INVITE:** `Yes`
-- **Allow Incoming SIP Messages from SIP Proxy Only:** `Yes`
+## Grandstream UCM6202 — IP Auth Setup
 
-### Complete HT802 Telnyx Portal Setup
+The IP auth method uses Telnyx's IP-based authentication instead of SIP credentials. The setup is identical to the credential-based flow above, except for the SIP trunk configuration.
 
-In the [Telnyx Portal](https://portal.telnyx.com), ensure you have created:
+### Configure the SIP Trunk (IP Auth)
 
-- A [Number](https://support.telnyx.com/en/articles/4380325-search-and-buy-numbers)
-- A [Connection](https://support.telnyx.com/en/articles/1177115-how-to-setup-a-did-to-sip-connection)
-- An [Outbound Profile](https://support.telnyx.com/en/articles/4320411-more-about-outbound-voice-profiles)
+1. Expand **Extension/Trunk** and click **VoIP Trunks**.
+
+   ![Grandstream web UI for configuring sip trunk.](_images/27fdbfe19af8b367.png)
+2. Click **Add SIP trunk** and fill in:
+   - **Type:** Register SIP Trunk
+   - **Provider Name:** Telnyx
+   - **Host Name:** `192.76.120.10`
+
+   ![SIP Trunk information addition tab.](_images/124c438098f7b544.png)
+3. Click **Save**.
+
+The remaining steps — inbound route, outbound route, and outbound caller ID — are identical to the credential-based setup described above.

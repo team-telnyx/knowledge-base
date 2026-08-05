@@ -1,144 +1,120 @@
 ---
 title: Branded Calling
-summary: Branded Calling displays your verified business identity (name, logo, call
-  reason) on recipients' phones before they answer, increasing answer rates and building
-  trust. The product suite also includes Number Reputation, a standalone monitoring
-  tool that reports spam risk scores for your outbound numbers.
+summary: 'Branded Calling is a Telnyx product (currently in beta, US-only) that displays
+  a verified business identity — display name, logo, and call reason — on outbound
+  calls instead of a bare number or "Spam Likely". The feature is built on a CTIA-managed
+  industry registry and uses SHAKEN PASSporT tokens to deliver rich call data to supported
+  carriers and devices. This page covers the full lifecycle: registering an Enterprise,
+  accepting the Branded Calling Terms of Service, activating the product, creating
+  and vetting a Display Identity Record (DIR), attaching phone numbers in batches,
+  configuring call reasons, handling infringement claims, and pricing.'
 sources:
 - url: https://developers.telnyx.com/docs/branded-calling/bc-phone-numbers/index
 - url: https://developers.telnyx.com/docs/branded-calling/brands/index
 - url: https://developers.telnyx.com/docs/branded-calling/call-reasons/index
 - url: https://developers.telnyx.com/docs/branded-calling/enterprises/index
 - url: https://developers.telnyx.com/docs/branded-calling/infringement-claims/index
-- url: https://developers.telnyx.com/docs/branded-calling/number-reputation/index
-- url: https://developers.telnyx.com/docs/branded-calling/number-reputation/loa
-- url: https://developers.telnyx.com/docs/branded-calling/number-reputation/phone-numbers
-- url: https://developers.telnyx.com/docs/branded-calling/number-reputation/quickstart
-- url: https://developers.telnyx.com/docs/branded-calling/number-reputation/remediation
-- url: https://developers.telnyx.com/docs/branded-calling/number-reputation/settings
 - url: https://developers.telnyx.com/docs/branded-calling/overview
+- url: https://developers.telnyx.com/docs/branded-calling/pricing
 - url: https://developers.telnyx.com/docs/branded-calling/quickstart
 - url: https://developers.telnyx.com/docs/branded-calling/terms-of-service/index
-updated_at: 2026-06-11T10:26:56Z
+updated_at: 2026-08-05T13:39:22Z
 ---
 
 # Branded Calling
 
-*Part 2 of 6 — see also: [Part 1](branded-calling--part-1.md), [Part 3](branded-calling--part-3.md), [Part 4](branded-calling--part-4.md), [Part 5](branded-calling--part-5.md), [Part 6](branded-calling--part-6.md)*
+*Part 2 of 8 — see also: [Part 1](branded-calling--part-1.md), [Part 3](branded-calling--part-3.md), [Part 4](branded-calling--part-4.md), [Part 5](branded-calling--part-5.md), [Part 6](branded-calling--part-6.md), [Part 7](branded-calling--part-7.md), [Part 8](branded-calling--part-8.md)*
 
-Branded Calling displays your verified business identity (name, logo, call reason) on recipients' phones before they answer, increasing answer rates and building trust. The product suite also includes Number Reputation, a standalone monitoring tool that reports spam risk scores for your outbound numbers.
+Branded Calling is a Telnyx product (currently in beta, US-only) that displays a verified business identity — display name, logo, and call reason — on outbound calls instead of a bare number or "Spam Likely". The feature is built on a CTIA-managed industry registry and uses SHAKEN PASSporT tokens to deliver rich call data to supported carriers and devices. This page covers the full lifecycle: registering an Enterprise, accepting the Branded Calling Terms of Service, activating the product, creating and vetting a Display Identity Record (DIR), attaching phone numbers in batches, configuring call reasons, handling infringement claims, and pricing.
 
-## Display Identity Records
+## Enterprises
 
-A DIR defines what recipients see: display name, optional logo, and 1–10 call reasons. DIRs must be vetted and approved by Telnyx before becoming active.
+An **Enterprise** represents your business entity on the Telnyx platform. It's the top-level resource you must register before you can use Branded Calling to display your verified business identity (display name, logo, call reason) on outbound calls.
 
-### API Endpoints
+### Required fields
 
-| Method | Path | Description |
-|--------|------|-------------|
-| `POST` | `/v2/enterprises/{enterprise_id}/dir` | Create a DIR under an enterprise |
-| `GET` | `/v2/dir` | List DIRs across the account |
-| `GET` | `/v2/enterprises/{enterprise_id}/dir` | List DIRs under one enterprise |
-| `GET` | `/v2/dir/{dir_id}` | Get a DIR |
-| `PATCH` | `/v2/dir/{dir_id}` | Update a DIR |
-| `DELETE` | `/v2/dir/{dir_id}` | Delete a DIR |
-| `POST` | `/v2/dir/{dir_id}/submit` | Submit for vetting |
+| Field | Required | Description |
+| --- | --- | --- |
+| `legal_name` | yes | Registered legal name (3-64 chars). |
+| `doing_business_as` | yes | DBA name (max 255 chars). |
+| `organization_type` | yes | One of `commercial`, `government`, `non_profit`. |
+| `organization_legal_type` | yes | One of `corporation`, `llc`, `partnership`, `nonprofit`, `other`. |
+| `country_code` | yes | ISO 3166-1 alpha-2 code. `US` and `CA` are accepted (`CA` applies to Number Reputation). Branded Calling itself is currently US-only. |
+| `role_type` | no | One of `enterprise` (registers its own DIRs) or `bpo` (Business Process Outsourcer calling on behalf of others). Defaults to `enterprise`. |
+| `jurisdiction_of_incorporation` | yes | State/province/country of registration (e.g. `Delaware`). |
+| `website` | yes | Your business website. |
+| `fein` | yes | Federal Employer Identification Number (`XX-XXXXXXX` or `XXXXXXXXX`). |
+| `industry` | yes | Industry classification. Must be one of a fixed set of values (e.g. `technology`, `healthcare`, `retail`, `finance`, `legal`, `insurance`); an unrecognized value returns `400`. |
+| `number_of_employees` | yes | One of `1-10`, `11-50`, `51-200`, `201-500`, `501-2000`, `2001-10000`, `10001+`. |
+| `organization_contact` | yes | Object with `first_name`, `last_name`, `email`, `job_title`, `phone_number`. |
+| `billing_contact` | yes | Object with `first_name`, `last_name`, `email`, `phone_number`. |
+| `organization_physical_address` | yes | Physical business address. |
+| `billing_address` | yes | Billing address. |
+| `customer_reference` | no | Optional free-form identifier you can attach for your own bookkeeping (max 255 chars). |
 
-### Required Fields
-
-| Field | Description |
-|-------|-------------|
-| `display_name` | Shown to recipients. 1–35 chars, no emoji, not whitespace-only. |
-| `authorizer_name` | Authorizer point-of-contact name. Max 255 chars. |
-| `authorizer_email` | Authorizer point-of-contact email. |
-| `certify_brand_is_accurate` | Must be `true`. |
-| `certify_no_shaft_content` | Must be `true`. (SHAFT = Sex, Hate, Alcohol, Firearms, Tobacco.) |
-| `certify_ip_ownership` | Must be `true`. |
-| `call_reasons` | Array of 1–10 strings, each 1–64 characters. |
-
-### Optional Fields
-
-| Field | Description |
-|-------|-------------|
-| `logo_url` | HTTPS URL (max 128 chars) to a 256×256 BMP image (≤1 MB, ≤32-bit color depth). Telnyx downloads and validates on every create/PATCH. PNG, JPEG, and other formats are rejected with `400`. |
-| `documents` | Up to 20 entries of `{document_id, document_type, description?}`. Each `document_id` must come from a prior upload to the Telnyx Documents API. Documents are append-only — existing documents are never removed by a PATCH. |
-| `reselling` | Boolean. `true` if you resell calling services on behalf of others. Defaults to `false`. |
-
-### Document Types
-
-Each document entry's `document_type` must be one of: `letter_of_authorization`, `business_registration`, `articles_of_incorporation`, `tax_document`, `ein_letter`, `trademark_registration`, `website_ownership`, `business_license`, `professional_license`, `government_id`, `utility_bill`, `bank_statement`, `other`.
-
-### DIR Statuses
-
-| Status | Meaning |
-|--------|---------|
-| `draft` | Initial state. Editable. |
-| `submitted` | Vetting requested. Editing, deleting, and re-submitting are blocked. |
-| `in_review` | Telnyx is actively reviewing. Same restrictions as `submitted`. |
-| `verified` | Approved. Phone numbers can be attached. Editable, but a non-trivial PATCH moves the DIR back to `draft` and tears down the live registration. |
-| `rejected` | Vetting failed for fixable reasons. Edit and re-submit. |
-| `unsuccessful` | Vetting failed for a system reason. Edit and re-submit. |
-| `suspended` | DIR has an attached infringement claim (Telnyx may pre-emptively suspend while a claim is `pending` or `contested`). `PATCH` is allowed but `POST /submit` is blocked with `409` while the claim is open. Use `PUT /v2/dir/{dir_id}/infringement_update` instead. |
-| `expired` | The one-year verification window has closed. Re-submit to renew. |
-| `infringement_claimed` | Legacy status. New claims move the DIR to `suspended`. |
-| `permanently_rejected` | Terminal. Cannot be re-submitted. The only exit is `DELETE`. |
-
-### Updating a DIR
-
-`PATCH` is allowed in `draft`, `rejected`, `unsuccessful`, `suspended`, and `verified`.
-
-- **`draft` / `rejected` / `unsuccessful`**: `PATCH` is a pure edit; status doesn't change. Call `POST /submit` to re-vet when ready.
-- **`suspended`**: `PATCH` is allowed and leaves status unchanged, but `POST /submit` is blocked with `409` while an infringement claim is `pending` or `contested`. Use `PUT /v2/dir/{dir_id}/infringement_update` instead.
-- **`verified`**: A `PATCH` that actually changes a field flips the DIR back to `draft` and tears down the live registration. The DIR stops serving branded identity until you `POST /submit` and are re-approved.
-- If you provide `logo_url`, it is re-downloaded and re-validated on every `PATCH`.
-- `documents` are append-only; existing documents are never removed by a `PATCH`.
-
-### Resubmitting After Rejection
-
-When a DIR is `rejected` or `unsuccessful`, check `rejection_reasons` on the DIR and the reviewer notes on the comments thread (`GET /v2/dir/{dir_id}/comments`). Fix with `PATCH`, then:
+### Create an enterprise
 
 ```
-curl -X POST https://api.telnyx.com/v2/dir/{dir_id}/submit \
-  -H "Authorization: Bearer YOUR_API_KEY"
-```
-
-### Deleting a DIR
-
-```
-curl -X DELETE https://api.telnyx.com/v2/dir/{dir_id} \
-  -H "Authorization: Bearer YOUR_API_KEY"
-```
-
-Allowed in: `draft`, `rejected`, `unsuccessful`, `verified`, `suspended`, `expired`, `infringement_claimed`, and `permanently_rejected`. The mid-vetting statuses `submitted` and `in_review` return `400`. The DIR must have **no phone numbers still attached** — remove them with `DELETE /v2/dir/{dir_id}/phone_numbers` first. Returns `409` if the DIR has a `pending` or `contested` infringement claim.
-
-## Call Reasons
-
-A call reason is a short string explaining why your business is calling (e.g. "Appointment Reminder", "Delivery Update"). Call reasons are set at the DIR level as a list of 1–10 strings (each up to 64 characters).
-
-Telnyx maintains a list of **pre-approved** call reasons. When a DIR's call reasons are *all* pre-approved, the call-reason vetting check passes automatically (the DIR still goes through full vetting; pre-approved reasons are not auto-approval). If any reason is custom, that check is reviewed by a human, which can take longer.
-
-### API Endpoints
-
-| Method | Path | Description |
-|--------|------|-------------|
-| `GET` | `/v2/call_reasons` | List pre-approved call reasons. Default `page[size]` is 100 (max 250). |
-| `POST` | `/v2/call_reasons/validate` | Check whether a list of reasons is fully pre-approved. |
-
-### Validate Call Reasons
-
-```
-curl -X POST https://api.telnyx.com/v2/call_reasons/validate \
+curl -X POST https://api.telnyx.com/v2/enterprises \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
-  -d '["Appointment Reminder", "Follow-Up Calls"]'
+  -d '{
+    "legal_name": "Acme Plumbing LLC",
+    "doing_business_as": "Acme Plumbing",
+    "organization_type": "commercial",
+    "organization_legal_type": "llc",
+    "country_code": "US",
+    "role_type": "enterprise",
+    "jurisdiction_of_incorporation": "Delaware",
+    "website": "https://acmeplumbing.example.com",
+    "fein": "12-3456789",
+    "industry": "technology",
+    "number_of_employees": "51-200",
+    "organization_contact": {
+      "first_name": "Sam",
+      "last_name": "Owner",
+      "email": "sam@acmeplumbing.example.com",
+      "job_title": "Compliance Lead",
+      "phone_number": "+13125550000"
+    },
+    "billing_contact": {
+      "first_name": "Alex",
+      "last_name": "Bill",
+      "email": "billing@acmeplumbing.example.com",
+      "phone_number": "+13125550001"
+    },
+    "organization_physical_address": {
+      "country": "US",
+      "administrative_area": "IL",
+      "city": "Chicago",
+      "postal_code": "60601",
+      "street_address": "100 Main St"
+    },
+    "billing_address": {
+      "country": "US",
+      "administrative_area": "IL",
+      "city": "Chicago",
+      "postal_code": "60601",
+      "street_address": "100 Main St"
+    }
+  }'
 ```
 
-The body is a **bare JSON array of strings** — do not wrap it in `{ "call_reasons": [...] }`. The result is returned under `data` with three fields: `all_pre_approved` (true when every reason is pre-approved), `requires_manual_vetting` (true when at least one is not), and `non_approved_reasons` (the list of non-pre-approved reasons).
+The response includes an `id`; use this enterprise ID for all subsequent API calls.
 
-### Constraints
+### Activate Branded Calling on the enterprise
 
-| Limit | Value |
-|-------|-------|
-| Min call reasons per DIR | 1 |
-| Max call reasons per DIR | 10 |
-| Max characters per reason | 64 |
+Branded Calling is a paid product that must be explicitly activated per enterprise. Without this step, DIR creation returns `400` with `code=10015` and a `detail` pointing back to this endpoint.
+
+```
+curl -X POST https://api.telnyx.com/v2/enterprises/{enterprise_id}/branded_calling \
+  -H "Authorization: Bearer YOUR_API_KEY"
+```
+
+The HTTP response returns with the enterprise body. Activation completes asynchronously; if DIR creation returns `400` right after activation, wait a moment and retry. Both endpoints are idempotent. A `403` here means the Branded Calling Terms of Service hasn't been accepted yet.
+
+Activating Branded Calling is **billable**. See [Branded Calling pricing](https://telnyx.com/pricing/branded-calling).
+
+### Reusing the enterprise
+
+Register the enterprise once and reuse it for all of your Branded Calling work. The API collects all required fields up front so you don't need to update them later.

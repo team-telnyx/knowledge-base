@@ -1,174 +1,119 @@
 ---
 title: Configuring Softphones and Devices with Telnyx
-summary: A comprehensive guide to configuring a wide range of SIP softphones, team
-  communication platforms, and hardware devices with Telnyx using credentials-based
-  connections, covering common settings such as SIP domain, codecs, caller ID conventions,
-  TLS/SRTP encryption, and device-specific setup steps.
+summary: Step-by-step instructions for configuring Bria Solo (X-Lite), Grandstream
+  Wave Lite (iOS and Android), the Grandstream GDS3710 video door system with Wave
+  Lite, and the Grandstream GXV3370 IP video phone to work with Telnyx SIP trunks,
+  plus an overview of the HD Voice number feature and its codec requirements.
 sources:
 - url: https://support.telnyx.com/en/articles/1130645-configuring-bria-solo-a-k-a-x-lite
-- url: https://support.telnyx.com/en/articles/1130674-configuring-linphone-with-telnyx
-- url: https://support.telnyx.com/en/articles/5717957-zoiper-5-pro-telnyx-setup
-- url: https://support.telnyx.com/en/articles/5720999-zoiper-3-telnyx-setup-mac
-- url: https://support.telnyx.com/en/articles/5721766-zoiper-3-telnyx-setup-linux
-- url: https://support.telnyx.com/en/articles/5761112-acrobits-softphone
-- url: https://support.telnyx.com/en/articles/5772825-counterpath-bria-teams-setup
-- url: https://support.telnyx.com/en/articles/5807979-konftel-300wx-telnyx-setup
-- url: https://support.telnyx.com/en/articles/5820183-plantronics-polycom-obi300-setup
-- url: https://support.telnyx.com/en/articles/6133145-microsip-setup-with-telnyx
-- url: https://support.telnyx.com/en/articles/6133517-zoiper-communicator
 - url: https://support.telnyx.com/en/articles/6184748-grandstream-wave-lite-iphone
 - url: https://support.telnyx.com/en/articles/6184897-grandstream-wave-lite-android
 - url: https://support.telnyx.com/en/articles/6187273-grandstream-gds3710-wave-lite-android
 - url: https://support.telnyx.com/en/articles/6187411-grandstream-gds3710-wave-lite-ios
 - url: https://support.telnyx.com/en/articles/6187576-grandstream-gxv3370
-updated_at: 2026-06-11T11:29:23Z
+- url: https://support.telnyx.com/en/articles/8394071-hd-voice-number-feature
+updated_at: 2026-08-05T13:30:00Z
 ---
 
 # Configuring Softphones and Devices with Telnyx
 
-*Part 3 of 3 — see also: [Part 1](configuring-softphones-and-devices-with-telnyx--part-1.md), [Part 2](configuring-softphones-and-devices-with-telnyx--part-2.md)*
+*Part 3 of 4 — see also: [Part 1](configuring-softphones-and-devices-with-telnyx--part-1.md), [Part 2](configuring-softphones-and-devices-with-telnyx--part-2.md), [Part 4](configuring-softphones-and-devices-with-telnyx--part-4.md)*
 
-A comprehensive guide to configuring a wide range of SIP softphones, team communication platforms, and hardware devices with Telnyx using credentials-based connections, covering common settings such as SIP domain, codecs, caller ID conventions, TLS/SRTP encryption, and device-specific setup steps.
+Step-by-step instructions for configuring Bria Solo (X-Lite), Grandstream Wave Lite (iOS and Android), the Grandstream GDS3710 video door system with Wave Lite, and the Grandstream GXV3370 IP video phone to work with Telnyx SIP trunks, plus an overview of the HD Voice number feature and its codec requirements.
 
-## Team Communication and Hardware Device Configuration
+## Grandstream GDS3710 with Wave Lite (iOS)
 
-### CounterPath Bria Teams
+The same GDS3710 video door system can be paired with Wave Lite on iOS devices for remote monitoring and 2-way audio/video streaming.
 
-Bria Teams is a team-communication solution with voice, messaging, presence, and screen sharing, manageable from a central dashboard.
+Additional resources include the [GDS3710 datasheet (English)](https://www.grandstream.com/hubfs/Product_Documentation/datasheet_gds3710_english.pdf), [GDS3710 resources](https://www.grandstream.com/support/resources?title=GDS3710), [GDS3710 user manual](https://www.grandstream.com/hubfs/Product_Documentation/GDS3710_UserManual.pdf), [GDSManager user guide](https://www.grandstream.com/hubfs/Product_Documentation/GDSManager_User_Guide.pdf), and the [Wave Lite iOS user manual](https://documentation.grandstream.com/knowledge-base/wave-lite-ios-user-manual/).
 
-**Link Bria Portal with Telnyx:**
+### Prerequisites
 
-1. In the Bria Portal, go to **Voice and Video** and click **Add Voice Configuration** (or the + icon).
-2. Click **Configure SIP Settings** (Telnyx is not in the pre-configured list).
-3. Fill in the **New Voice Configuration**:
-   - **Service Label:** A label of your choice.
-   - **Domain:** `sip.telnyx.com`
-   - **Port:** 5060
-   - **Register with domain and receive calls:** Checked
-   - **Transport:** Automatic
-   - **Keep Alive:** Enabled
-   - **Voicemail Number:** `*97`
-   - **Service Options — requires authorization username:** Checked
-   - **Firewall Method:** STUN (optional)
-   - **Firewall Server URL:** `stun.telnyx.com:3478`
-4. Click **Save and Close**.
+- Ensure your GDS3710 is on [firmware version 1.0.1.19 or higher](https://www.grandstream.com/support/firmware).
+- Ensure Wave Lite is on software version 1.0.2.16 or higher.
+- Confirm you can log into the GDS3710 web GUI. The default address is `192.168.1.168`, the default username is `admin`, and the default random password is on the sticker on the GDS3710.
 
-**Optional — Security and encryption:**
+### Configure a Telnyx SIP trunk on your GDS3710
 
-Edit the voice configuration and change:
-- **Port:** 5061
-- **Transport:** TLS
-- **SRTP:** Enabled
-- **Register with Domain and Receive Calls:** Checked
+1. Log into the GDS3710 web GUI and navigate to **SIP Settings** > **SIP Basic Settings**.
+2. Provide the following:
+   - **Account Name:** A meaningful name (for example, `Doorbell`).
+   - **SIP Server:** `sip.telnyx.com` (for USA; for other countries, see the [signaling addresses table](https://sip.telnyx.com/#signaling-addresses)).
+   - **SIP User ID:** The SIP connection username. See [SIP Connection Types](sip-connection-types.md) for details.
+   - **Authenticate ID:** The SIP connection username.
+   - **Authenticate Password:** The SIP connection password.
 
-**Audio and video codecs:**
+   ![SIP Basic Settings section.](_images/315120cf602c05b1.png)
 
-Go to **Settings and Preferences > Configure Codecs** and prioritize Telnyx-supported codecs.
+### Configure a Telnyx SIP trunk on the Wave Lite app
 
-**Link a team member to a SIP profile:**
+1. From your iPhone or iPad, open the Wave Lite app.
+2. Navigate to **Settings** > **Account Settings** > **Generic Account** > **SIP Account**.
 
-1. Go to **Team Members** and add a new member by email.
-2. Click the phone icon to assign a SIP profile:
-   - **Voice Service:** Select the Telnyx voice service.
-   - **SIP Username/Call Extension:** Team member's Telnyx username.
-   - **SIP/Voice Password:** Team member's Telnyx password.
-   - **Call Display:** Outbound caller ID name (see Caller ID Conventions).
+   > Do not use the VoIP Provider section, as Telnyx has not yet been added to the provider list.
 
-For vendor documentation, see the [Bria Portal user docs](https://docs.counterpath.com/docs/PortalUG/Resources/TitlePages/TeamsTitlePage.htm) and [Counterpath support](https://support.counterpath.com/hc/en-us).
+3. Fill out the following fields:
+   - **Account Name:** A meaningful name (for example, `TelnyxTrunk`).
+   - **SIP Server:** `sip.telnyx.com` (for USA; for other countries, see the [signaling addresses table](https://sip.telnyx.com/#signaling-addresses)).
+   - **SIP User ID:** The SIP connection username. See [SIP Connection Types](sip-connection-types.md) for details.
+   - **SIP Authentication ID:** The SIP connection username.
+   - **SIP Password:** The SIP connection password.
 
-### Konftel 300Wx
+   ![Generic Account section for adding new account.](_images/a8556e31ca1d8008.png)
+   - **VoiceMail UserID:** The voicemail portal access number (typically `*97`).
+   - **Display Name:** Your caller ID. Use capital letters, no special characters (spaces are allowed), and keep it under 15 characters for compatibility with some Canadian providers.
 
-The Konftel 300Wx is a wireless DECT conference phone with a web-based configuration portal.
+   ![Generic Account section.](_images/abbeead847b5839b.png)
+4. Tap the checkmark at the top-right to connect to Telnyx.
 
-1. **Obtain the device IP:** On the device, go to **Status > Network** and note the IP address. Open `http://<IP>` in a browser; default login is admin/admin.
-2. **Add a SIP server:** Go to **Server > Add Server**:
-   - **Server Alias:** Your choice.
-   - **NAT Adaption:** Enabled
-   - **Registrar:** `sip.telnyx.com`
+### Configure Wave Lite call settings
+
+1. Tap the new account and select **Call Settings**.
+2. Configure:
+   - **SIP Port:** `5060` for TCP or UDP; `5061` for TLS.
+   - **Transmission Protocol:** `TCP` or `UDP` unless you have set up encryption on your Telnyx portal, in which case choose `TLS`.
+3. Tap the checkmark at the top-right to save.
+
+### Configure Wave Lite codecs
+
+1. Tap your new SIP account and select **Network Setting Parameters**.
+2. Set **Preferred Vocoder** for WiFi, 2G, 3G, and 4G. Telnyx supports the following codecs:
+   - **Audio:** `ulaw (g711u)`, `alaw (g711a)`, `g722`, `g729`
+   - **Video:** `H264`
+
+## Grandstream GXV3370
+
+The [GXV3370 IP Video Phone](https://www.grandstream.com/products/ip-video-telephony/ip-video-phones-android/product/gxv3370) for Android combines a 16-line IP video phone with a multi-platform video conferencing solution and the functionality of an Android tablet. It features a 7" 1024×600 capacitive touch screen TFT LCD, camera, dual gigabit ports with PoE/PoE+, HD audio and video, integrated Wi-Fi (802.11a/b/g/n) and Bluetooth, and rich peripheral interfaces.
+
+Additional resources include the [GXV3370 user manual](https://documentation.grandstream.com/knowledge-base/gxv3370-user-guide/), [GS Affinity user manual](https://documentation.grandstream.com/knowledge-base/gs-affinity-user-guide/), [GXV3370 administration guide](https://documentation.grandstream.com/knowledge-base/gxv3370-administration-guide/), [firmware upgrade guide](https://documentation.grandstream.com/knowledge-base/firmware-upgrade-guide/), and [all other GXV3370 reference material](https://documentation.grandstream.com/article-categories/gxv3370/).
+
+### Prerequisites
+
+- Ensure your device is on the [latest firmware](https://documentation.grandstream.com/knowledge-base/firmware-upgrade-guide/).
+- Use the phone's base or handset to find the device IP address, which links to the web portal where configuration is completed. See the [Provisioning section of the Admin Guide](https://documentation.grandstream.com/knowledge-base/gxv3370-administration-guide/#upgrade-and-provisioning-configuration) for details.
+
+### Configure a Telnyx SIP trunk on your device
+
+1. [Log into the Web GUI](https://documentation.grandstream.com/knowledge-base/gxv3370-administration-guide/#upgrade-and-provisioning-configuration).
+2. Navigate to **Account** > **General Settings**. In the **On Register** section, provide the following:
+   - **Account Active:** Switch to determine if the account becomes active once created. Default for the first account is `Yes`.
+   - **Account Name:** A meaningful name (for example, `TelnyxTrunk`).
+   - **SIP Server:** `sip.telnyx.com` (for USA; for other countries, see the [signaling addresses table](https://sip.telnyx.com/#signaling-addresses)).
+   - **SIP User ID:** Your SIP account or sub-account ID.
+   - **SIP Authentication ID:** The SIP connection username. See [SIP Connection Types](sip-connection-types.md) for details.
+   - **SIP Password:** The SIP connection password.
+   - **Display Name:** Your caller ID. Use capital letters, no special characters (spaces are allowed), and keep it under 15 characters for compatibility with some Canadian providers.
+   - **VoiceMail Access Number:** The voicemail portal access number (typically `*97`).
    - **Outbound Proxy:** `sip.telnyx.com`
-   - **Reregistration Time (s):** 300
-   - **SIP Transport:** TCP
-   - **Keep Alive:** Enabled
-   - **Codec Priority:** Telnyx-supported codecs in your preferred order.
-   - **Secure RTP / Secure RTP Auth:** Enabled (if using TLS)
-3. **Add an extension:** Go to **Extensions > Add Extension**:
-   - **Extension:** Your Telnyx DID.
-   - **Authentication Username / Password:** Your Telnyx SIP credentials.
-   - **Server:** Select the server created above.
-4. **Verify registration:** Under **Extensions**, the State should read **SIP Registered**.
+3. Still on the **Account** screen, go to **SIP Settings** > **SIP Basic Settings** and provide:
+   - **SIP registration:** Leave enabled to send SIP Register messages to the proxy/server.
+   - **SIP transport:** Default is `UDP`. Choose `TLS/TCP` if you have [configured your Telnyx portal to encrypt data](https://support.telnyx.com/en/articles/1130711-does-telnyx-encrypt-communication).
+   - **Local SIP port:** `5060` for UDP; `5061` for TLS/TCP.
 
-For vendor documentation, see [Konftel support](https://www.konftel.com/en/support).
+### Configure codecs
 
-### Poly OBi300
-
-The Poly OBi300 is a VoIP adapter that connects an analog phone or fax machine to up to four VoIP services.
-
-1. **Get the IP address:** Dial `***` on the connected phone and press 1. Open `http://<IP>` in a browser; default login is admin/admin.
-2. **Disable auto-provisioning:** Under **System Management > Auto Provisioning**, disable Auto Firmware Update, ITSP Provisioning, and OBiTALK Provisioning. Under **Voice Services > OBiTALK Service**, uncheck Enable.
-3. **Configure the ITSP profile:** Under **Service Providers > [Profile] > General**:
-   - **Name:** Your Telnyx account ID.
-   - **DigitMap:** Replace the "555" placeholder digits with your area code.
-4. **Configure the SIP profile:** Under **Service Providers > [Profile] > SIP**:
-   - **AuthUserName:** Your Telnyx account ID.
-   - **AuthPassword:** Your Telnyx password.
-   - **ProxyServerPort / RegistrarServerPort / OutboundProxyPort:** 5060 (unencrypted) or 5061 (TLS).
-   - **ProxyServerTransport / X_OutboundProxyTransport:** UDP/TCP (unencrypted) or TLS/TCP (encrypted).
-   - **RegisterExpires:** 300
-   - If using TLS, under **Voice Services**: set **X_KeepAliveServerPort** to 5061 and **X_SRTP** to **Use SRTP Only**.
-5. **Configure codecs:** Expand **Codecs** and set Telnyx-supported codecs in priority order.
-
-For vendor support, see [Poly support](https://support.hp.com/us-en/poly).
-
-### Grandstream GXV3370
-
-The GXV3370 is an Android-based IP video phone with a 7-inch touchscreen.
-
-1. Log into the web GUI and navigate to **Account > General Settings > On Register**:
-   - **Account Active:** Yes
-   - **Account Name:** e.g., "TelnyxTrunk"
-   - **SIP Server:** `sip.telnyx.com`
-   - **SIP User ID / SIP Authentication ID:** Your SIP connection username.
-   - **SIP Password:** Your SIP connection password.
-   - **Display Name:** Your caller ID (see Caller ID Conventions).
-   - **VoiceMail Access Number:** `*97`
-   - **Outbound Proxy:** `sip.telnyx.com`
-2. Under **Account > SIP Settings > SIP Basic Settings**:
-   - **SIP registration:** Enabled
-   - **SIP transport:** UDP (default) or TLS/TCP (if encrypting).
-   - **Local SIP port:** 5060 (UDP) or 5061 (TLS/TCP).
-3. Under **Account > Codec Settings**:
-   - **Preferred Vocoder:** Select Telnyx-supported audio codecs.
-   - **DTMF:** RFC2833
-   - **Preferred Video Codec:** H264
-
-For vendor documentation, see the [GXV3370 administration guide](https://documentation.grandstream.com/knowledge-base/gxv3370-administration-guide/).
-
-### Grandstream GDS3710 with Wave Lite
-
-The GDS3710 is a video door system that streams calls to a mobile device via Wave Lite (iOS or Android).
-
-**Configure the GDS3710:**
-
-Log into the GDS3710 web GUI and go to **SIP Settings > SIP Basic Settings**:
-- **Account Name:** e.g., "Doorbell"
-- **SIP Server:** `sip.telnyx.com`
-- **SIP User ID / Authenticate ID:** Your SIP connection username.
-- **Authenticate Password:** Your SIP connection password.
-
-**Configure Wave Lite on your mobile device:**
-
-Follow the same Wave Lite setup described in the [Grandstream Wave Lite](#grandstream-wave-lite-ios-and-android) section above, using a second set of Telnyx SIP credentials for the mobile app account.
-
-Ensure the GDS3710 is on firmware 1.0.1.19+ and Wave Lite is on version 1.0.2.16+.
-
-For vendor documentation, see the [GDS3710 user manual (PDF)](https://www.grandstream.com/hubfs/Product_Documentation/GDS3710_UserManual.pdf) and [Wave Lite user manual](https://documentation.grandstream.com/knowledge-base/wave-lite-android-user-manual/).
-
-## Troubleshooting
-
-Common issues and resolutions across all softphones and devices:
-
-- **Registration failure:** Verify the SIP server hostname is `sip.telnyx.com` (check spelling), confirm your username and password are correct, and ensure no firewall is blocking SIP traffic.
-- **403 error on outbound calls:** Usually caused by an invalid or missing caller ID. Verify your caller ID is a Telnyx number or a verified number, and that it is correctly formatted. If the softphone does not pass the caller ID in the required header, set a **caller ID override** in the outbound settings of your SIP connection in the Telnyx Portal.
-- **Error 488 (Not Acceptable Here):** If you have enabled Encrypted SIP Traffic on the Portal but your device is sending unencrypted UDP/TCP or plain RTP, the call will be rejected. Ensure your device's transport and media encryption settings match the Portal configuration.
-- **One-way audio or no audio:** Check codec compatibility (use Telnyx-supported codecs), verify NAT/firewall settings, and consider configuring the STUN server (`stun.telnyx.com:3478`).
-- **Zoiper offline activation:** If a firewall blocks online activation, use the offline method and email the generated certificate to the Zoiper registration address.
+1. Still on the **Account** screen, go to **Codec Settings** > **Preferred Vocoder** and provide:
+   - **Preferred Vocoder:** Select codecs for WiFi, 2G, 3G, and 4G. Telnyx supports:
+     - **Audio:** `ulaw (g711u)`, `alaw (g711a)`, `g722`, `g729`
+   - **DTMF:** `RFC2833`
+2. In the **Preferred Video Codec** section, set **Preferred Video Codec** to `H264`.

@@ -1,191 +1,271 @@
 ---
 title: TeXML Verbs Reference
-summary: A comprehensive reference for all TeXML verbs supported by Telnyx, including
-  attributes, child elements, examples, and expected callbacks for building programmable
-  voice applications.
+summary: A consolidated reference for the TeXML verbs available in Telnyx Programmable
+  Voice, covering call control, media playback, recording, transcription, conferencing,
+  payments, and SIPREC. Each verb section lists attributes, child nouns, examples,
+  and the callbacks that the platform emits.
 sources:
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/aiassistant
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/aigather
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/conference
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/connect
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/conversationrelay
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/dial/index
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/enqueue
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/gather
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/hangup/index
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/httprequest
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/leave
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/pause
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/pay
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/play
-updated_at: 2026-06-11T10:44:08Z
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/record
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/recording
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/redirect
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/refer
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/reject
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/say
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/siprec
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/start
+updated_at: 2026-08-05T14:05:15Z
 ---
 
 # TeXML Verbs Reference
 
-*Part 3 of 5 — see also: [Part 1](texml-verbs-reference--part-1.md), [Part 2](texml-verbs-reference--part-2.md), [Part 4](texml-verbs-reference--part-4.md), [Part 5](texml-verbs-reference--part-5.md)*
+*Part 3 of 7 — see also: [Part 1](texml-verbs-reference--part-1.md), [Part 2](texml-verbs-reference--part-2.md), [Part 4](texml-verbs-reference--part-4.md), [Part 5](texml-verbs-reference--part-5.md), [Part 6](texml-verbs-reference--part-6.md), [Part 7](texml-verbs-reference--part-7.md)*
 
-A comprehensive reference for all TeXML verbs supported by Telnyx, including attributes, child elements, examples, and expected callbacks for building programmable voice applications.
+A consolidated reference for the TeXML verbs available in Telnyx Programmable Voice, covering call control, media playback, recording, transcription, conferencing, payments, and SIPREC. Each verb section lists attributes, child nouns, examples, and the callbacks that the platform emits.
 
-## Dial
+## Pay
 
-The `<Dial>` verb transfers an existing call to another destination. The call ends if the called party does not answer, the number does not exist, or Telnyx receives a busy signal.
+The `<Pay>` verb collects payment information from a caller using DTMF and either charges or tokenizes the payment method through a configured Pay connector. Connectors may run in test or live mode. Test-mode connectors accept only the documented test card numbers.
 
 ### Attributes
 
 | Attribute | Description | Options | Default |
-|---|---|---|---|
-| `action` | URL for next TeXML instructions when the `<Dial>` call ends. | — | — |
-| `method` | HTTP method for `action`. | `GET`, `POST` | `POST` |
-| `callerId` | Caller ID in E.164 format. | — | — |
-| `fromDisplayName` | Caller ID name (SIP From Display Name). Max 128 chars; letters, numbers, spaces, and `- _ ~ ! . +`. If omitted, defaults to the `callerId` number. | — | — |
-| `hangupOnStar` | Let the initial caller hang up on the called party by pressing `*`. Does not apply to Conference noun. | — | `false` |
-| `timeout` | Seconds to wait for the called party to answer. | `5`–`120` | `30` |
-| `timeLimit` | Maximum call duration in seconds. | `60`–`14400` | `14400` |
-| `record` | Record both legs of the call. Works with `<Number>` and `<Sip>` nouns only. Use the `record` attribute on `<Conference>` for conference recording. | `do-not-record`, `record-from-answer`, `record-from-ringing`, `record-from-answer-dual`, `record-from-ringing-dual` | `do-not-record` |
-| `recordingChannels` | Number of channels in the final recording. | `single`, `dual` | `single` |
-| `recordMaxLength` | Maximum recording length in seconds (0 = infinite). | `0`–`14400` | `0` |
-| `recordingStatusCallback` | URL for recording availability webhooks. | — | — |
-| `recordingStatusCallbackMethod` | HTTP method for `recordingStatusCallback`. | `GET`, `POST` | `POST` |
-| `recordingStatusCallbackEvent` | Recording events for webhooks, space-separated. | `in-progress`, `completed`, `absent` | `completed` |
-| `sendRecordingUrl` | Whether the recording URL is sent in callbacks. | — | `true` |
-| `ringTone` | Country-specific ringback tone. | Country codes (e.g., `us`, `uk`, `de`, `jp`, etc.) | `us` |
-| `audioUrl` | URL to an audio file played as a custom ringback tone. Overrides `ringTone` when set. | — | — |
-| `answerOnBridge` | Preserve ringing state on the caller's side until the dialed call is answered. Only takes effect when the inbound call has not yet been answered. | — | `false` |
-| `sequential` | When `true` with multiple `<Number>`/`<Sip>` nouns, dial each destination one at a time in order. If `false` (default), all destinations are dialed simultaneously and the first answered call is connected. | — | `false` |
-| `passDiversionHeader` | Pass the Diversion SIP header from the inbound call to the outbound dial attempt. | — | `false` |
-| `machineDetectionSpeechThreshold` | Max greeting duration in ms; longer greetings are classified as machines. Only with Premium detection mode. | — | — |
-| `machineDetectionSpeechEndThreshold` | Silence duration in ms after a greeting before classifying as a machine. Only with Premium detection mode. | — | — |
-| `machineDetectionSilenceTimeout` | Max initial silence duration in ms before classifying as silence. Only with Premium detection mode. | — | — |
+| --- | --- | --- | --- |
+| `action` | Optional URL where TeXML requests the next set of instructions after `<Pay>` completes. The request includes normalized `PayResult`, the raw `Result`, and available payment result fields. | — | — |
+| `method` | HTTP request type used for the `action` URL. | `GET`, `POST` | `POST` |
+| `statusCallback` | Optional URL where Telnyx will send status callbacks for payment progress and completion events. | — | — |
+| `statusCallbackMethod` | HTTP request type used for `statusCallback`. | `GET`, `POST` | `POST` |
+| `paymentConnector` | The name of the payment connector to use. The connector must be configured in the Telnyx API. | — | `Default` |
+| `chargeAmount` | The amount to charge (e.g. `10.50`). Required when `transactionType` is `charge`. Ignored for `tokenize` transactions. | — | — |
+| `currency` | The currency for the charge. Pay currently supports `USD`. | `USD` | `USD` |
+| `paymentToken` | An existing payment token to use for the transaction. If provided, the payment data collection steps are skipped. | — | — |
+| `paymentMethod` | The payment method to collect. `credit-card` collects card number, expiration date, postal code, and security code. `ach-debit` collects bank routing and account numbers. | `credit-card`, `ach-debit` | `credit-card` |
+| `transactionType` | The transaction type. `charge` processes a payment and returns a `ChargeId`. `tokenize` tokenizes the payment data and returns a `TokenId`. If omitted, Pay infers `tokenize` when `chargeAmount` is absent or zero and `charge` when it is positive. | `charge`, `tokenize` | — |
+| `description` | An optional description for the payment transaction. | — | — |
+| `maxAttempts` | The maximum number of attempts for each payment collection step before failing. | `1`–`3` | `1` |
+| `timeout` | The timeout in seconds for each DTMF input step. | `1`–`600` | `5` |
+| `interDigitTimeout` | The timeout in seconds between consecutive DTMF digits during input. | `1`–`600` | `5` |
+| `voice` | The voice used for payment prompts (e.g. `female`, `male`). | — | `female` |
+| `language` | The language used for payment prompts (e.g. `en-US`, `es-ES`). | — | `en-US` |
+| `serviceLevel` | The service level for payment processing. | `premium` | `premium` |
+| `parameters` | A JSON string of additional parameters to pass to the payment connector. | — | — |
+| `prompts` | A JSON string of custom prompts for payment collection steps. Can also be specified using nested `<Prompt>` elements. | — | — |
+| `metadata` | A JSON string of metadata to attach to the payment transaction. | — | — |
 
-### Child Nouns
+### Child verbs/nouns
 
-| Noun | Description |
-|---|---|
-| `Number` | Specifies a phone number to dial. |
-| `Sip` | Specifies a SIP endpoint to dial. |
-| `Queue` | Adds the call to a queue. |
+- `Parameter` — optional key-value parameter merged into the Pay parameters map. Use the `name` and `value` attributes to specify the key and value.
+- `Prompt` — custom text-to-speech prompt for a specific payment collection step. Use the `for` attribute to specify the step and include the prompt text in a nested `<Say>` element.
 
-### Number Attributes
+### Connector modes and test cards
 
-| Attribute | Description | Options | Default |
-|---|---|---|---|
-| `statusCallback` | URL for outbound call event webhooks. | — | — |
-| `statusCallbackEvent` | Call events for webhooks, space-separated. | `initiated`, `ringing`, `answered`, `amd`, `dtmf`, `completed` | `completed` |
-| `statusCallbackMethod` | HTTP method for `statusCallback`. | `GET`, `POST` | `POST` |
-| `url` | URL to a TeXML document executed for the called party before connection (can contain `<Gather>` and `<Hangup>`). The callee hears ringback while the document executes. | — | — |
-| `method` | HTTP method for `url`. | `GET`, `POST` | `POST` |
-| `sendDigits` | DTMF tones to play when the call is answered. Supports 0–9, `*`, `#`, and `w` (0.5s pause). | — | — |
-| `machineDetection` | Enable Answering Machine Detection. Add `amd` to `statusCallbackEvent` to receive the detection result. | `Enable`, `DetectMessageEnd`, `Disable` | `Disable` |
-| `detectionMode` | AMD mode. Use `PremiumCallScreening` for premium iOS call screening detection. | `Regular`, `Premium`, `PremiumCallScreening` | `Regular` |
-| `machineDetectionTimeout` | Overall detection timeout in ms. | `500`–`60000` | `3500` |
-| `machineDetectionPromptEndTimeout` | Silence duration threshold after a call screening prompt, in ms. Only for `PremiumCallScreening`. | `1000`–`120000` | — |
+Pay connectors can operate in `test` or `live` mode. Before contacting the configured processor, a test-mode connector rejects every card number except those below.
 
-### Sip Attributes
+| Card type | Card number | Security code | Expiration date |
+| --- | --- | --- | --- |
+| Visa | `4111 1111 1111 1111` | Any 3 or 4 digits | Any four digits in `MMYY` format |
+| Mastercard | `5555 5555 5555 4444` | Any 3 or 4 digits | Any four digits in `MMYY` format |
+| American Express | `3782 822463 10005` | Any 3 or 4 digits | Any four digits in `MMYY` format |
+| Discover | `6011 1111 1111 1117` | Any 3 or 4 digits | Any four digits in `MMYY` format |
+| Diners Club | `3065 9300 0902 0004` | Any 3 or 4 digits | Any four digits in `MMYY` format |
+| JCB | `3566 0020 2036 0505` | Any 3 or 4 digits | Any four digits in `MMYY` format |
+| UnionPay | `6200 0000 0000 0005` | Any 3 or 4 digits | Any four digits in `MMYY` format |
+| Maestro | `6771 7980 2100 0008` | Any 3 or 4 digits | Any four digits in `MMYY` format |
 
-| Attribute | Description | Options | Default |
-|---|---|---|---|
-| `username` | SIP authentication username. | — | — |
-| `password` | SIP authentication password. | — | — |
-| `statusCallback` | URL for outbound call event webhooks. | — | — |
-| `statusCallbackEvent` | Call events for webhooks, space-separated. | `initiated`, `ringing`, `answered`, `amd`, `dtmf`, `completed` | `completed` |
-| `statusCallbackMethod` | HTTP method for `statusCallback`. | `GET`, `POST` | `POST` |
-| `url` | URL to a TeXML document for the called party before connection. | — | — |
-| `method` | HTTP method for `url`. | `GET`, `POST` | `POST` |
-| `machineDetection` | Enable Answering Machine Detection. | `Enable`, `DetectMessageEnd`, `Disable` | `Disable` |
-| `detectionMode` | AMD mode. | `Regular`, `Premium`, `PremiumCallScreening` | `Regular` |
-| `machineDetectionTimeout` | Overall detection timeout in ms. | `500`–`60000` | `3500` |
-| `machineDetectionPromptEndTimeout` | Silence threshold after call screening prompt, in ms. Only for `PremiumCallScreening`. | `1000`–`120000` | — |
+A test-mode payment using any other card number fails with `ErrorType=invalid-card-number`. Live-mode connectors pass the captured payment details to the configured payment processor.
 
-### Queue Attributes
-
-| Attribute | Description | Options | Default |
-|---|---|---|---|
-| `url` | URL to a TeXML document executed on the queued call before bridging. Supports `<Play>`, `<Say>`, `<Gather>`, `<Pause>`, and `<Redirect>`. | — | — |
-| `method` | HTTP method for `url`. | `GET`, `POST` | `POST` |
-
-### Simultaneous and Sequential Dialing
-
-Multiple `<Number>` and `<Sip>` nouns can be dialed simultaneously (default) or sequentially.
-
-Simultaneous — all destinations dialed at once, first to answer is connected:
+### Charge a credit card
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-  <Dial>
-    <Number>+18775551212</Number>
-    <Sip>sip:connection@sip.telnyx.com</Sip>
-    <Number>+18771234567</Number>
-  </Dial>
+    <Pay paymentConnector="MyConnector"
+         chargeAmount="10.50"
+         currency="USD"
+         transactionType="charge"
+         action="https://example.com/payment-complete"
+         statusCallback="https://example.com/pay-status" />
 </Response>
 ```
 
-Sequential — each destination tried in order, next only if current is not answered:
+### Tokenize a credit card
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-  <Dial sequential="true">
-    <Number>+18775551212</Number>
-    <Sip>sip:connection@sip.telnyx.com</Sip>
-    <Number>+18771234567</Number>
-  </Dial>
+    <Pay paymentConnector="MyConnector"
+         transactionType="tokenize"
+         action="https://example.com/payment-complete"
+         statusCallback="https://example.com/pay-status" />
 </Response>
 ```
 
-### Examples
+If `transactionType` is omitted, Pay infers `tokenize` when `chargeAmount` is absent or zero and `charge` when `chargeAmount` is positive.
 
-Basic dial:
+### Collect ACH bank-account details
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-    <Dial action="/nextinstructions.php" callerId="+13120001234">+19999999999</Dial>
+    <Pay paymentConnector="MyConnector"
+         paymentMethod="ach-debit"
+         transactionType="charge"
+         chargeAmount="25.00"
+         currency="USD"
+         action="https://example.com/payment-complete"
+         statusCallback="https://example.com/pay-status" />
 </Response>
 ```
 
-Dial with status callback:
+### Custom prompts
+
+Override a payment step's text-to-speech prompt with a nested `<Prompt>` and `<Say>`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-    <Dial action="/nextinstructions.php" callerId="+13120001234">
-      <Number statusCallback="https://foo.com/my_call_stats" statusCallbackEvent="initiated ringing answered completed">+19999999999</Number>
-    </Dial>
+    <Pay paymentConnector="MyConnector"
+         transactionType="charge"
+         chargeAmount="10.50"
+         action="https://example.com/payment-complete">
+        <Prompt for="payment-card-number">
+            <Say>Please enter your credit card number.</Say>
+        </Prompt>
+        <Prompt for="security-code">
+            <Say>Please enter the security code from your card.</Say>
+        </Prompt>
+    </Pay>
 </Response>
 ```
 
-Dial with AMD enabled:
+The supported `for` values are `payment-card-number`, `expiration-date`, `postal-code`, `security-code`, `bank-routing-number`, and `bank-account-number`. Prompts may be qualified by `attempt`, `errorType`, and `cardType`. Qualifiers are optional and may be combined. `attempt` accepts a space-separated list of 1-based attempt numbers. Card-type values are lowercase and case-sensitive.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-    <Dial action="/nextinstructions.php" callerId="+13120001234">
-      <Number statusCallback="https://foo.com/my_call_stats" statusCallbackEvent="initiated ringing answered completed amd" machineDetection="Enable" detectionMode="Regular">+19999999999</Number>
-    </Dial>
+    <Pay paymentConnector="MyConnector"
+         transactionType="charge"
+         chargeAmount="10.50"
+         maxAttempts="3">
+        <Prompt for="security-code" cardType="amex">
+            <Say>Please enter the 4-digit security code from the front of your card.</Say>
+        </Prompt>
+        <Prompt for="security-code">
+            <Say>Please enter the security code from your card.</Say>
+        </Prompt>
+        <Prompt for="payment-card-number" attempt="2 3" errorType="invalid-card-number">
+            <Say>That card number was not accepted. Please try again.</Say>
+        </Prompt>
+    </Pay>
 </Response>
 ```
 
-### Expected Callbacks
+The `prompts` JSON attribute is an alternative to nested `<Prompt>` elements. Each step may contain a string or a list of prompt objects:
 
-If `action` is set, a callback is sent when the dialed call ends. See [Dial Action Callback](https://developers.telnyx.com/api-reference/callbacks/texml-call-completed) for the full payload. The `error_code` and `error_message` fields are provided only for failed calls.
+```xml
+<Response>
+    <Pay paymentConnector="MyConnector"
+         transactionType="tokenize"
+         prompts='{"payment-card-number":[{"text":"Enter your card number."},{"text":"Please try again.","attempt":"2 3"}]}' />
+</Response>
+```
 
-If `statusCallbackEvent` is set:
+### Additional connector parameters
 
-| Event | Callback Reference |
-|---|---|
-| `initiated` | [Call Initiated](https://developers.telnyx.com/api-reference/callbacks/texml-call-initiated) |
-| `ringing` | [Call Ringing](https://developers.telnyx.com/api-reference/callbacks/texml-call-ringing) |
-| `answered` | [Call Answered](https://developers.telnyx.com/api-reference/callbacks/texml-call-answered) |
-| `completed` | [Call Completed](https://developers.telnyx.com/api-reference/callbacks/texml-call-completed) |
+Pass extra string parameters with nested `<Parameter>` elements. Child parameters override keys with the same name in the `parameters` JSON attribute.
 
-If `machineDetection` is enabled, an AMD callback is sent. See [AMD Callback](https://developers.telnyx.com/api-reference/callbacks/texml-call-amd).
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Pay paymentConnector="MyConnector"
+         transactionType="charge"
+         chargeAmount="10.50"
+         parameters='{"source":"phone"}'>
+        <Parameter name="order_id" value="ORD-12345" />
+        <Parameter name="customer_id" value="CUST-67890" />
+    </Pay>
+</Response>
+```
 
-If `deepfakeDetection` is set to `Enable`, a deepfake detection callback is sent to `deepfakeDetectionCallbackUrl` (or to `statusCallback` if `deepfake` is in `statusCallbackEvent`). The callback payload includes `DeepfakeResult` (`real`, `fake`, or `silence_timeout`), `DeepfakeScore` (0.0–1.0), and `DeepfakeConsistency` (0–100). On failure, `DeepfakeError` is sent instead.
+### Status callbacks
 
-If `recordingStatusCallbackEvent` is set:
+When `statusCallback` is set, TeXML sends callbacks as payment collection progresses and another callback when the Pay session completes. Parameters are form encoded for `POST` callbacks and query encoded for `GET` callbacks. The following call and payment context fields are included when available:
 
-| Event | Callback Reference |
-|---|---|
-| `in-progress` | [Recording In Progress](https://developers.telnyx.com/api-reference/callbacks/texml-recording-in-progress) |
-| `completed` | [Recording Completed](https://developers.telnyx.com/api-reference/callbacks/texml-recording-completed) |
+| Parameter | Description |
+| --- | --- |
+| `AccountSid` | ID of the Telnyx account that owns the call. |
+| `CallSid` | Call Control ID of the call leg running Pay. |
+| `CallSidLegacy` | The same Call Control ID, provided for compatibility. |
+| `CallSessionId` | ID shared by call legs in the same call session. |
+| `ConnectionId` | ID of the Call Control or TeXML connection. |
+| `PaymentMethod` | Payment method: `credit-card` or `ach-debit`. |
+| `PaymentConnector` | Name of the Pay connector used for the transaction. |
+| `For` | Current collection step, such as `payment-card-number`, `expiration-date`, `postal-code`, `security-code`, `bank-routing-number`, `bank-account-number`, or `payment-processing`. |
+
+#### Progress callback
+
+A progress callback always contains `Status=processing` and `Result=pending`. It can also contain:
+
+| Parameter | Description |
+| --- | --- |
+| `Attempt` | Current 1-based attempt number for the step. |
+| `ErrorType` | Step-level error, such as `timeout`, `invalid-card-number`, `invalid-date`, `invalid-security-code`, `invalid-postal-code`, `invalid-bank-routing-number`, or `invalid-bank-account-number`. Omitted when the step succeeds. |
+| `PaymentError` | Processor-level error description, when available. |
+
+Progress callbacks accumulate the masked payment data collected so far. For example, the expiration-date callback can include the card number and card type collected by an earlier step.
+
+#### Completed callback
+
+The final status callback contains `Status=completed` and a normalized `Result` of `success` or `failed`. It can also contain:
+
+| Parameter | Description |
+| --- | --- |
+| `ChargeId` | Charge identifier returned for a successful `charge` transaction. |
+| `TokenId` | Token identifier returned for a successful `tokenize` transaction. |
+| `ErrorType` | Step-level error that caused the Pay session to fail, when available. |
+| `PaymentError` | Processor-level error description, when available. |
+| `PayErrorCode` | Error code returned by the payment connector or processor, when available. |
+| `Attempt` | Last reported attempt number, when available. |
+
+#### Masked payment-data fields
+
+Progress and completed callbacks include these fields when the corresponding values have been collected:
+
+| Parameter | Description |
+| --- | --- |
+| `PaymentCardNumber` | Masked card number with only the last four digits visible. |
+| `PaymentCardType` | Detected lowercase card type, such as `visa`, `mastercard`, `amex`, `discover`, `diners-club`, or `jcb`. |
+| `ExpirationDate` | Expiration date in `MMYY` format. |
+| `SecurityCode` | Fully masked security code. |
+| `PaymentCardPostalCode` | Billing postal code. |
+| `BankAccountNumber` | Masked bank account number with only the last two digits visible. |
+| `BankRoutingNumber` | Bank routing number. |
+| `BankAccountType` | Bank account type when supplied by the processor. |
+
+### Action request
+
+After Pay completes, TeXML requests the `action` URL using `method`. If `action` is omitted, TeXML requests the current document URL instead. The response must contain the next TeXML instructions. The action request has its own payload shape; it is not identical to the completed `statusCallback` payload.
+
+| Parameter | Description |
+| --- | --- |
+| `PayResult` | Normalized result: `success` or `failed`. |
+| `Result` | Raw Pay result, such as `success`, `validation-error`, `payment-connector-error`, `internal-error`, `too-many-failed-attempts`, or `cancelled`. |
+| `CallSessionId` | Call session ID, when available. |
+| `PaymentMethod` | Payment method: `credit-card` or `ach-debit`. |
+| `PaymentConnector` | Name of the Pay connector used. |
+| `PaymentStep` | Last payment step, when available. |
+| `ErrorCode` | Step-level error from the Pay result, when available. |
+| `PaymentError` | Processor-level error description, when available. |
+| `PayErrorCode` | Connector or processor error code, when available. |
+| `ChargeId` | Charge identifier for a successful `charge` transaction. |
+| `PaymentConfirmationCode` | Alias of `ChargeId`. |
+| `TokenId` | Token identifier for a successful `tokenize` transaction. |
+| `PaymentToken` | Alias of `TokenId`. |
+
+The action request also includes any available masked payment-data fields listed above.

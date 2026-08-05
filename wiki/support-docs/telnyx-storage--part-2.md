@@ -1,177 +1,344 @@
 ---
 title: Telnyx Storage
 summary: Telnyx Storage is a high-performance, S3-compatible cloud storage service
-  offering zero egress fees, 11 nines of durability, and built-in AI inference capabilities.
-  It integrates with a wide range of third-party file transfer, backup, synchronization,
-  and mounting tools through its S3-compatible API.
+  offering 11 nines of durability, zero egress fees, and seamless integration with
+  a wide range of third-party tools. This page explains how to create and manage storage
+  buckets, use the built-in AI features for summarization and inference, and configure
+  popular S3 clients and backup utilities to work with Telnyx Storage.
 sources:
-- url: https://support.telnyx.com/en/articles/6964207-use-cyberduck-with-telnyx-storage
 - url: https://support.telnyx.com/en/articles/6964249-use-msp360-cloudberry-explorer-with-telnyx-storage
 - url: https://support.telnyx.com/en/articles/6964272-use-rclone-with-telnyx-storage
 - url: https://support.telnyx.com/en/articles/6965267-use-s3-browser-with-telnyx-storage
-- url: https://support.telnyx.com/en/articles/6966381-use-wal-g-with-telnyx-storage
-- url: https://support.telnyx.com/en/articles/7869213-use-arq-backup-with-telnyx-storage
-- url: https://support.telnyx.com/en/articles/7869264-use-backup4all-with-telnyx-storage
-- url: https://support.telnyx.com/en/articles/7873510-use-duplicati-with-telnyx-storage
-- url: https://support.telnyx.com/en/articles/7903390-use-winscp-with-telnyx-storage
 - url: https://support.telnyx.com/en/articles/8047874-use-syncovery-with-telnyx-storage
 - url: https://support.telnyx.com/en/articles/8047898-use-goodsync-with-telnyx-storage
 - url: https://support.telnyx.com/en/articles/8047914-use-cloudmounter-with-telnyx-storage
 - url: https://support.telnyx.com/en/articles/8047928-use-dragondisk-with-telnyx-storage
-- url: https://support.telnyx.com/en/articles/8047941-use-crossftp-with-telnyx-storage
 - url: https://support.telnyx.com/en/articles/8047945-use-expandrive-with-telnyx-storage
 - url: https://support.telnyx.com/en/articles/8047956-use-odrive-with-telnyx-storage
 - url: https://support.telnyx.com/en/articles/8047969-use-webdrive-with-telnyx-storage
 - url: https://support.telnyx.com/en/articles/8048024-use-netdrive3-with-telnyx-storage
+- url: https://support.telnyx.com/en/articles/8048045-use-airexplorer-with-telnyx-storage
 - url: https://support.telnyx.com/en/articles/8344129-get-started-with-telnyx-storage-inference-guide
 - url: https://support.telnyx.com/en/collections/3840515-telnyx-storage
-updated_at: 2026-06-11T11:40:26Z
+updated_at: 2026-08-05T13:37:50Z
 ---
 
 # Telnyx Storage
 
 *Part 2 of 3 — see also: [Part 1](telnyx-storage--part-1.md), [Part 3](telnyx-storage--part-3.md)*
 
-Telnyx Storage is a high-performance, S3-compatible cloud storage service offering zero egress fees, 11 nines of durability, and built-in AI inference capabilities. It integrates with a wide range of third-party file transfer, backup, synchronization, and mounting tools through its S3-compatible API.
+Telnyx Storage is a high-performance, S3-compatible cloud storage service offering 11 nines of durability, zero egress fees, and seamless integration with a wide range of third-party tools. This page explains how to create and manage storage buckets, use the built-in AI features for summarization and inference, and configure popular S3 clients and backup utilities to work with Telnyx Storage.
 
-## File Managers and Browsers
+## Configure S3-compatible clients
 
-### S3 Browser
-
-[S3 Browser](https://s3browser.com/) is a Windows GUI for managing files on S3-compatible storage with support for metadata, versioning, and access control policies.
-
-1. Download and install [S3 Browser](https://s3browser.com/).
-2. Click **Accounts** → **Add New Account** (or the popup on first launch).
-3. Set **Account Type** to `S3 Compatible Storage`.
-4. Enter: **REST Endpoint** = Telnyx API Endpoint, **Access Key ID** = Telnyx API Key, **Secret Access Key** = any placeholder.
-5. Click **Add New Account**.
-
-For more details, see the [S3 Browser user guides](https://s3browser.com/help.aspx).
+The following guides walk through configuring popular S3-compatible tools to work with Telnyx Storage. Each tool uses the common configuration values above.
 
 ### MSP360 Cloudberry Explorer
 
-[MSP360 Cloudberry Explorer](https://www.msp360.com/explorer/) is a file manager for cloud storage supporting upload, download, metadata, versioning, and access control.
+[MSP360 Cloudberry Explorer](https://www.msp360.com/explorer/) is a user-friendly file manager for transferring data to and from many cloud storage providers.
 
-1. Download and install [MSP360 Cloudberry Explorer](https://www.msp360.com/explorer/).
-2. Open the application and select **New Connection**.
-3. Choose **S3 Compatible** as the connection type.
-4. Enter: **Access Key** = Telnyx API Key, **Secret Key** = any placeholder, **Endpoint** = Telnyx API Endpoint, **Signature Version** = `AWS4`.
-5. Click **OK**.
+1. Download and install MSP360 Cloudberry Explorer from [msp360.com/explorer](https://www.msp360.com/explorer/).
+2. Open the application and create a new **Connection**.
 
-For more details, see the [MSP360 guides for Windows](https://help.msp360.com/explorer) and [Mac](https://help.msp360.com/explorer-for-macos).
+   ![MSP360 Cloudberry Explorer application page. ](_images/994fa05e4548026c.png)
+3. Choose **S3 compatible** as the connection type.
 
-### DragonDisk
+   ![MSP360 Cloudberry Explorer application options for choosing connection type. ](_images/09f73d2eb4d3e6bb.png)
+4. Enter the connection settings and click **OK**:
+   - **Display Name** — any nickname you like.
+   - **Access Key** — your Telnyx API Key.
+   - **Secret Key** — any value without spaces, quotes, or special characters.
+   - **Endpoint** — a Telnyx [API Endpoint](https://developers.telnyx.com/docs/cloud-storage/api-endpoints).
+   - **Signature Version** — `AWS4`.
 
-[DragonDisk](http://www.s3-client.com/) is a file manager for Amazon S3 and other S3 API-compatible cloud storage.
+   ![S3 compatible fields. ](_images/855259eec2500eb7.jpg)
+5. The new connection appears in the navigation bar; clicking it lists your buckets.
 
-1. Download and install [DragonDisk](http://www.s3-client.com/download-s3-compatible-cloud-client.html).
-2. Click **File** → **Accounts** → **New**.
-3. Set **Provider** to `Other S3 compatible service`.
-4. Enter: **Service Endpoint** = `https://storage.telnyx.com`, **Access Key** = Telnyx API Key, **Secret Key** = any placeholder.
-5. Click **OK**.
+   ![Various buckets in the S3 compatible fields. ](_images/607a7d8f55545286.png)
 
-For more details, see the [DragonDisk FAQ](http://www.s3-client.com/faq.html).
-
-## Command-Line and Sync Tools
+Additional resources: [MSP360 Explorer guides for Windows](https://help.msp360.com/explorer) and [MSP360 Explorer guides for Mac](https://help.msp360.com/explorer-for-macos).
 
 ### rclone
 
-[rclone](https://rclone.org/) is a command-line tool for synchronizing files and directories to/from cloud storage and local file systems, supporting server-side file modification times, partial syncs, and more.
+[Rclone](https://rclone.org/) is a command-line tool for synchronising files and directories to and from many cloud storage providers.
 
-1. Install [rclone](https://rclone.org/install/).
-2. Run `rclone config`.
-3. Choose `n` (new remote), enter a name.
-4. For **Option Storage**, choose `4` (Amazon S3 Compliant Storage Providers).
-5. For **Option provider**, choose `34` (Any other S3 compatible provider).
-6. For **Option env_auth**, choose `1` (Enter AWS credentials in the next step).
-7. Enter **access_key_id** = Telnyx API Key.
-8. Enter **secret_access_key** = any placeholder (no spaces, quotes, or special characters).
-9. For **Option region**, choose `1` (v4 signatures, empty region).
-10. Enter **Option endpoint** = Telnyx API Endpoint.
-11. For **Option location_constraint**, leave empty or enter your region.
-12. For **Option acl**, choose `1` (Owner gets full control).
-13. For **Edit advanced config?**, type `n`.
-14. For **Keep this remote?**, type `y`.
-15. Type `q` to quit config.
+1. Install rclone from [rclone.org/install](https://rclone.org/install/).
+2. Run `rclone config` and answer the prompts:
+   - `n` — create a new remote.
+   - **Name** — any name you like.
+   - **Storage** — option `4` (Amazon S3 Compliant Storage Providers).
+   - **Provider** — option `34` (Any other S3 compatible provider).
+   - **env_auth** — option `1` (enter AWS credentials in the next step).
 
-For more details, see the [rclone S3 documentation](https://rclone.org/s3/).
+   ![Rclone terminal. ](_images/ace0c3036de3dccc.gif)
+   - **access_key_id** — your Telnyx API Key.
+   - **secret_access_key** — any value without spaces, quotes, or special characters.
+   - **region** — option `1` (v4 signatures, empty region).
+   - **endpoint** — a Telnyx [API Endpoint](https://developers.telnyx.com/docs/cloud-storage/api-endpoints).
+   - **location_constraint** — leave empty, or enter a Telnyx region.
+   - **acl** — option `1` (owner gets full control).
+   - **Edit advanced config?** — `n`.
+   - **Keep this remote?** — `y`.
+3. Type `q` to quit the config.
 
-## Backup Tools
+Additional resources: [rclone S3 documentation](https://rclone.org/s3/).
 
-### Arq Backup
+### S3 Browser
 
-[Arq Backup](https://www.arqbackup.com/) is a backup application supporting incremental backups, versioning, compression, encryption, and customizable schedules.
+[S3 Browser](https://s3browser.com/) is a GUI client for managing files on S3-compatible storage.
 
-1. Download and install [Arq Backup](https://www.arqbackup.com/).
-2. Click **New Storage Location**.
-3. Select **S3-Compatible Server**.
-4. Enter: **Server URL** = Telnyx API Endpoint, **Access Key ID** = Telnyx API Key, **Secret Access Key** = any placeholder, **Region** = matching region from endpoint.
-5. Click **Connect**, then choose or create a bucket for backups.
+1. Download and install S3 Browser from [s3browser.com](https://s3browser.com/).
+2. On first launch, the **Add New Account** window appears. Otherwise, click **Accounts → Add New Account**.
 
-For more details, see the [Arq Backup knowledge base](https://www.arqbackup.com/learn/).
+   !["Add new account" section of the S3 browser. ](_images/00f92ae7e033dd33.jpg)
+3. Enter the account details and click **Add New Account**:
+   - **Display Name** — any name you like.
+   - **Account Type** — `S3 Compatible Storage`.
+   - **REST Endpoint** — a Telnyx [API Endpoint](https://developers.telnyx.com/docs/cloud-storage/api-endpoints).
+   - **Access Key ID** — your Telnyx API Key.
+   - **Secret Access Key** — any value without spaces, quotes, or special characters.
 
-### Backup4all
+   !["Add new account" section of the S3 browser. ](_images/7a0b16f53373f98a.png)
 
-[Backup4all](https://www.backup4all.com/) is a comprehensive backup software supporting full, differential, and incremental backups with compression, encryption, and scheduling.
+Existing buckets appear in the application window once the account is added.
 
-1. Download and install [Backup4all](https://www.backup4all.com/).
-2. Click **File** → **New** to create a backup job.
-3. For **Destination**, select **Online** → **S3 Compatible**.
-4. Enter: **Endpoint** = Telnyx API Endpoint, **Access ID** = Telnyx API Key, **Secret Key** = any placeholder, **Region** = `default`, **Signature** = `Version 4`, **Bucket** = target bucket name.
-5. Click **Next** and continue configuring your backup job.
+![Pictures of previously created buckets. ](_images/2c7efb9c91d62166.jpg)
 
-For more details, see the [Backup4all help](https://www.backup4all.com/table-of-contents-help.html).
-
-### Duplicati
-
-[Duplicati](https://duplicati.com/) is an open-source backup solution with strong encryption, incremental/full backups, versioning, and scheduling.
-
-1. Download and install [Duplicati](https://duplicati.com/).
-2. Click **Add Backup** → **Configure a new backup** → **Next**.
-3. In Step 2 (Destination), set **Storage Type** to `S3 Compatible`.
-4. Enter: **Use SSL** = on, **Server** = `Custom Server URL` + Telnyx API Endpoint, **Bucket Name** = target bucket, **Bucket Create Region** = matching region, **AWS Access ID** = Telnyx API Key, **AWS Access Key** = any placeholder, **Client library** = `Amazon AWS SDK`.
-5. Complete the remaining backup configuration steps.
-
-For more details, see the [Duplicati manuals](https://duplicati.readthedocs.io/en/latest/).
-
-### WAL-G
-
-[WAL-G](https://github.com/wal-g/wal-g) is a backup and disaster recovery tool for PostgreSQL, enabling storage of WAL files on S3-compatible services.
-
-1. Install [WAL-G](https://github.com/wal-g/wal-g#installation).
-2. Follow the [S3 storage configuration](https://github.com/wal-g/wal-g/blob/master/docs/STORAGES.md#s3) and set:
-   - `AWS_ACCESS_KEY_ID` = Telnyx API Key
-   - `AWS_ENDPOINT` = Telnyx API Endpoint
-   - `AWS_REGION` = matching region (e.g., `us-central-1`)
-   - `AWS_S3_FORCE_PATH_STYLE` = `true`
-   - `AWS_SECRET_ACCESS_KEY` = any placeholder
-   - `WALE_S3_PREFIX` = `s3://<bucket-name>/`
-   - `PGHOST` = your Postgres host
-   - `PGPORT` = your Postgres port
-
-For more details, see the [WAL-G documentation](https://github.com/wal-g/wal-g/tree/master/docs).
+Additional resources: [S3 Browser user guides](https://s3browser.com/help.aspx).
 
 ### Syncovery
 
-[Syncovery](https://www.syncovery.com/) is a file synchronization and backup software with powerful scheduling and filtering features.
+[Syncovery](https://www.syncovery.com/) is a file synchronisation and backup tool.
 
-1. Download and install [Syncovery](https://www.syncovery.com/).
-2. Click the green plus button to create a new profile.
-3. Click the **Internet** button in the profile configuration.
-4. In Internet Protocol Settings, set: **Protocol** = `S3`, **Access ID** = Telnyx API Key, **Secret key** = any placeholder, **Provider** = `custom`, **Bucket** = Telnyx API Endpoint.
-5. Click **OK** to save the profile.
+1. Download and install Syncovery from [syncovery.com](https://www.syncovery.com/).
+2. Launch Syncovery.
 
-For more details, see the [Syncovery documentation](https://www.syncovery.com/category/documentation/).
+   ![Profile overview section of Syncovery. ](_images/263e26fd4404ba65.png)
+3. Click the green **+** button to create a new profile.
+
+   ![New Profile section of Syncovery. ](_images/567f14e127a5f906.png)
+4. In the profile configuration window, click **Internet**.
+
+   ![Source and destination profile section of Syncovery. ](_images/48547ad210e82f23.png)
+5. In **Internet Protocol Settings**, enter:
+   - **Protocol** — `S3`.
+   - **Access ID** — your Telnyx API Key.
+   - **Secret key** — any value without spaces, quotes, or special characters.
+   - **Provider** — `custom`.
+   - **Bucket** — a Telnyx [API Endpoint](https://developers.telnyx.com/docs/cloud-storage/api-endpoints).
+   - **Folder** — the local folder to back up.
+
+   ![Internet protocol settings section. ](_images/d44de1d00f7fdd23.jpg)
+6. Choose the destination path (**Browse…**, **Internet…**, or **Device**).
+
+   ![Browse, internet, and device buttons. ](_images/e30741c2897b9ebf.png)
+7. Click **OK** to save the profile.
+
+   ![Okay button. ](_images/8c283a528946aed1.png)
+
+Additional resources: [Syncovery documentation](https://www.syncovery.com/category/documentation/).
 
 ### GoodSync
 
-[GoodSync](https://www.goodsync.com/) is a file backup and synchronization tool ensuring data integrity and security across platforms.
+[GoodSync](https://www.goodsync.com/) is a file backup and synchronisation tool.
 
-1. Download and install [GoodSync](https://www.goodsync.com/download).
-2. Create a GoodSync account.
-3. Click **New Job**, name it, and select **Synchronize**.
-4. Click the folder icon and select **Amazon S3**.
-5. Enter: **Server address** = Telnyx API Endpoint, **AWS Access key** = Telnyx API Key, **AWS Secret Access Key** = any placeholder.
-6. Click **Test and Save**.
+1. Download and install GoodSync from [goodsync.com/download](https://www.goodsync.com/download) and create an account.
+2. Click **New Job**.
 
-For more details, see the [GoodSync documentation](https://www.goodsync.com/goodsync-storage).
+   ![New job button. ](_images/7303af481195c2e1.png)
+3. Enter a job name, set **Job type** to **Synchronize**, and click **OK**.
+
+   ![Synchronize section. ](_images/7303af481195c2e1.png)
+4. Click the folder icon to choose a folder.
+
+   ![Testjob section. ](_images/9a621c2279c656c4.png)
+5. Select **Amazon S3** from the list.
+
+   ![Amazon S3 button. ](_images/7cae0b4a5ce00ed9.png)
+6. Enter the bucket details:
+   - **Server address** — a Telnyx [API Endpoint](https://developers.telnyx.com/docs/cloud-storage/api-endpoints).
+   - **AWS Access key** — your Telnyx API Key.
+   - **AWS Secret Access Key** — any value without spaces, quotes, or special characters.
+
+   Click **Test** and **Save**.
+
+   ![Amazon S3 section. ](_images/5ad146bf21f62498.jpg)
+7. The bucket appears in the Amazon S3 folder dropdown.
+
+   ![Amazon S3 Folder. ](_images/bccc72e665c80ce5.png)
+
+Additional resources: [GoodSync documentation](https://www.goodsync.com/goodsync-storage).
+
+### CloudMounter
+
+[CloudMounter](https://cloudmounter.net/) mounts cloud storage as a local drive.
+
+1. Download and install CloudMounter from [cloudmounter.net](https://cloudmounter.net/).
+2. Launch the application.
+
+   ![CloudMounter interface. ](_images/a5005a4bcb179bbe.png)
+3. Select **Amazon S3** as the storage type.
+
+   ![Amazon S3 interface. ](_images/a4f132e567392f47.png)
+4. Fill in the connection details:
+   - **Name** — your name.
+   - **Access Key** — your Telnyx API Key.
+   - **Secret Key** — any value without spaces, quotes, or special characters.
+   - **Server Endpoint** — a Telnyx [API Endpoint](https://developers.telnyx.com/docs/cloud-storage/api-endpoints).
+   - **Bucket** — a bucket name from the [Storage](https://portal.telnyx.com/#/app/storage/buckets) section of the Telnyx portal.
+
+   ![Amazing S3 connections settings. ](_images/c8efefab684d7737.jpg)
+5. Click **Mount** to connect.
+
+Additional resources: [CloudMounter blog](https://cloudmounter.net/blog/).
+
+### DragonDisk
+
+[DragonDisk](http://www.s3-client.com/) is a file manager for S3-compatible storage.
+
+1. Download and install DragonDisk from [s3-client.com](http://www.s3-client.com/download-s3-compatible-cloud-client.html).
+2. Open DragonDisk, click **File → Accounts**.
+
+   ![File section. ](_images/0cc197bf7008c26d.png)
+3. In the **Accounts** window, click **New**.
+
+   ![Accounts section. ](_images/0c160bcae415fb8e.png)
+4. Select **Other S3 compatible service** from the **Provider** dropdown and fill in:
+   - **Service Endpoint** — `https://storage.telnyx.com`.
+   - **Account name** — any nickname.
+   - **Comment** — any reminder text.
+   - **Access Key** — your Telnyx API Key.
+   - **Secret Key** — any value without spaces, quotes, or special characters.
+
+   ![Advanced settings of the account section. ](_images/a8ef9c5705106fec.png)
+5. Click **OK** to save.
+
+Additional resources: [DragonDisk FAQ](http://www.s3-client.com/faq.html).
+
+### ExpanDrive
+
+[ExpanDrive](https://www.expandrive.com/) mounts cloud storage as a local drive.
+
+1. Download and install ExpanDrive from [expandrive.com/desktop](https://www.expandrive.com/desktop/).
+2. Launch ExpanDrive and click **ExpanDrive → New Connection**.
+
+   ![ExpanDrive section. ](_images/ed62ee9807d50ecd.png)
+3. Select **Amazon S3** from the storage options.
+
+   ![Amazon s3 button. ](_images/3d5c0bf65065502a.png)
+4. Fill in the storage options:
+   - **Server** — a Telnyx [API Endpoint](https://developers.telnyx.com/docs/cloud-storage/api-endpoints).
+   - **Access Key** — your Telnyx API Key.
+   - **Secret Key** — any value without spaces, quotes, or special characters.
+   - **Custom Region** — the matching region from the [API Endpoints](https://developers.telnyx.com/docs/cloud-storage/api-endpoints) page (for example, `us-central-1` for `https://us-central-1.telnyxstorage.com`).
+   - **Nickname** — any name you like.
+   - **Bucket** — a bucket name, or leave blank.
+   - **Drive Letter** — any available local drive letter.
+
+   ![Storage options section. ](_images/ad0927067aa545b9.jpg)
+5. Click **Save**. ExpanDrive authenticates with Telnyx Storage using the API key.
+
+   ![Telnyx Storage files section. ](_images/674fe6b4d0f52077.png)
+
+Additional resources: [ExpanDrive blog](https://www.expandrive.com/).
+
+### ODrive
+
+[ODrive](https://www.odrive.com/) is a multi-cloud synchronisation tool.
+
+1. Download and install ODrive from the [ODrive usage guide](https://docs.odrive.com/docs/odrive-usage-guide#install-desktop-sync).
+2. Launch ODrive and click **Link Storage**.
+
+   ![Link storage section. ](_images/590024570634230b.png)
+3. Select **Amazon S3/S3 Compatible** from the list.
+
+   ![Various storage choices. ](_images/db39768029440500.png)
+4. Fill in the connection details:
+   - **Name** — any nickname.
+   - **Host** — a Telnyx [API Endpoint](https://developers.telnyx.com/docs/cloud-storage/api-endpoints).
+   - **Bucket Name** — a bucket from the [Storage](https://portal.telnyx.com/#/app/storage/buckets) section of the Telnyx portal.
+   - **Access Key ID** — your Telnyx API Key.
+   - **Secret Key ID** — any value without spaces, quotes, or special characters.
+   - **Default Storage Class** — `Standard`.
+   - **Directory Structure** — `Simple` or `Delimited`.
+
+   ![Directory structure. ](_images/14813d583656a3c7.jpg)
+5. After authorising, ODrive links Telnyx Storage as a storage provider.
+
+   ![ODrive App. ](_images/69033bb014159b50.png)
+
+Additional resources: [ODrive documentation](https://docs.odrive.com/docs).
+
+### WebDrive
+
+[WebDrive](https://southrivertech.com/) is a file transfer client that supports many remote protocols.
+
+1. Download and install WebDrive from [southrivertech.com/webdrive](https://southrivertech.com/webdrive/).
+2. Launch WebDrive and click the **+** button to create a new connection.
+
+   ![WebDrive homepage. ](_images/f592a7f32a0d5ef5.png)
+3. Select **Amazon S3** as the connection type.
+
+   ![Amazon S3 setup. ](_images/32fcd92b1541b9af.png)
+4. Enter the connection settings and click **Save**:
+   - **Connection Name** — any nickname.
+   - **Access Key** — your Telnyx API Key.
+   - **Secret Key** — any value without spaces, quotes, or special characters.
+   - **Bucket** — a bucket name from the [Storage](https://portal.telnyx.com/#/app/storage/buckets) section, or leave blank.
+   - **Drive Letter** — a local drive letter.
+   - **Advanced Settings** — set the custom server URL to a Telnyx [API Endpoint](https://developers.telnyx.com/docs/cloud-storage/api-endpoints).
+
+   ![Connection Settings section. ](_images/7a4e4671480fa5bc.jpg)
+5. Click **Save**, then select the new connection and click the **box** object button to connect.
+
+   ![Save button. ](_images/65bd4844bb2aebe2.png)
+
+   ![Box object button. ](_images/572934f8a5dcf383.png)
+
+Additional resources: [WebDrive blog](https://southrivertech.com/blog/).
+
+### NetDrive3
+
+[NetDrive3](https://netdrive.net/) maps remote storage as a virtual drive.
+
+1. Download and install NetDrive3 from [netdrive.net](https://netdrive.net/).
+2. Launch NetDrive3 and click the **+** button to create a new connection.
+
+   ![NetDrive3 start page. ](_images/fd46f50d5e1371f1.png)
+3. In **Add a Personal Drive**, select **S3** as the storage type and click **Connect**.
+
+   !["Add a Personal Drive" window. ](_images/2a716c80be2dd9cf.png)
+4. Fill in the connection details:
+   - **Server Address** — a Telnyx [API Endpoint](https://developers.telnyx.com/docs/cloud-storage/api-endpoints).
+   - **Access ID** — your Telnyx API Key.
+   - **Secret Key** — any value without spaces or special characters.
+   - **Bucket name** — a bucket from the [Storage](https://portal.telnyx.com/#/app/storage/buckets) section.
+5. After saving, **S3** appears as a storage type with a remote path based on the bucket name. Click **OK** to continue.
+
+   ![Personal storage type addition section. ](_images/4456da3065a23210.png)
+6. Click **Connect** to link NetDrive3 with Telnyx Storage.
+
+   ![NetDrive3 - Telnyx connection setup. ](_images/377dede35e60841a.png)
+7. Once connected, Telnyx Storage appears as a virtual drive.
+
+   ![Telnyx storage on NetDrive3. ](_images/c73646827087e6e7.png)
+
+Additional resources: [NetDrive3 documentation](https://netdrive.net/support/).
+
+### AirExplorer
+
+[AirExplorer](https://www.airexplorer.net/en/) is a multi-cloud file management application.
+
+1. Download and install AirExplorer from [airexplorer.net](https://www.airexplorer.net/en/).
+2. Launch AirExplorer and select **S3** from the cloud storage options.
+
+   ![AirExplorer interface. ](_images/6c5511771e75dcf1.png)
+3. Enter the configuration details and click **OK**:
+   - **REST endpoint** — a Telnyx [API Endpoint](https://developers.telnyx.com/docs/cloud-storage/api-endpoints).
+   - **Access Key ID** — your Telnyx API Key.
+   - **Secret Access Key** — any value without spaces, quotes, or special characters.
+   - **Bucket** — a bucket from the [Storage](https://portal.telnyx.com/#/app/storage/buckets) section.
+
+   ![S3 login portal. ](_images/ec395d037a15a500.jpg)
+
+Additional resources: [AirExplorer blog](https://www.airexplorer.net/en/blog/).

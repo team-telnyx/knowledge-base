@@ -1,230 +1,76 @@
 ---
 title: TeXML Verbs Reference
-summary: A comprehensive reference for all TeXML verbs supported by Telnyx, including
-  attributes, child elements, examples, and expected callbacks for building programmable
-  voice applications.
+summary: A consolidated reference for the TeXML verbs available in Telnyx Programmable
+  Voice, covering call control, media playback, recording, transcription, conferencing,
+  payments, and SIPREC. Each verb section lists attributes, child nouns, examples,
+  and the callbacks that the platform emits.
 sources:
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/aiassistant
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/aigather
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/conference
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/connect
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/conversationrelay
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/dial/index
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/enqueue
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/gather
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/hangup/index
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/httprequest
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/leave
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/pause
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/pay
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/play
-updated_at: 2026-06-11T10:44:08Z
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/record
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/recording
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/redirect
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/refer
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/reject
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/say
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/siprec
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/start
+updated_at: 2026-08-05T14:05:15Z
 ---
 
 # TeXML Verbs Reference
 
-*Part 4 of 5 — see also: [Part 1](texml-verbs-reference--part-1.md), [Part 2](texml-verbs-reference--part-2.md), [Part 3](texml-verbs-reference--part-3.md), [Part 5](texml-verbs-reference--part-5.md)*
+*Part 4 of 7 — see also: [Part 1](texml-verbs-reference--part-1.md), [Part 2](texml-verbs-reference--part-2.md), [Part 3](texml-verbs-reference--part-3.md), [Part 5](texml-verbs-reference--part-5.md), [Part 6](texml-verbs-reference--part-6.md), [Part 7](texml-verbs-reference--part-7.md)*
 
-A comprehensive reference for all TeXML verbs supported by Telnyx, including attributes, child elements, examples, and expected callbacks for building programmable voice applications.
+A consolidated reference for the TeXML verbs available in Telnyx Programmable Voice, covering call control, media playback, recording, transcription, conferencing, payments, and SIPREC. Each verb section lists attributes, child nouns, examples, and the callbacks that the platform emits.
 
-## Enqueue
+## Play
 
-The `<Enqueue>` verb enqueues the current call in a call queue.
-
-### Attributes
-
-| Attribute | Description | Options | Default |
-|---|---|---|---|
-| `action` | URL called when the call leaves the queue. Sent immediately on `<Leave>`; sent after bridged calls disconnect when dequeued via `<Dial>`. | — | — |
-| `method` | HTTP request type for `action`. | `GET`, `POST` | `POST` |
-| `waitUrl` | URL to a TeXML document executed while the call is waiting. Re-requested after all commands execute. Supported verbs: `<Play>`, `<Say>`, `<Gather>`, `<Pause>`, `<Hangup>`, `<Redirect>`, `<Leave>`. | — | — |
-| `waitUrlMethod` | HTTP request type for `waitUrl`. | `GET`, `POST` | `POST` |
-| `maxWaitTimeSecs` | Maximum time in seconds a call can stay in the queue. If not dequeued in time, the call is removed and the action URL is called. Must be at least 1. | — | `14400` |
-
-### Example
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<Response>
-    <Enqueue/>
-</Response>
-```
-
-### Expected Callbacks
-
-If `waitUrl` is set, a callback is sent when the call enters the queue. See [Queue Callback](https://developers.telnyx.com/api-reference/callbacks/texml-queue) for the full payload.
-
-## Gather
-
-The `<Gather>` verb collects DTMF tones during a call. `<Say>` and `<Play>` can be nested within `<Gather>` to create an interactive IVR.
+The `<Play>` verb plays an MP3 or WAV audio file, which Telnyx fetches back to the caller from the URL you configure. Alternatively, specify `mediaStorage="true"` to fetch a file you previously uploaded to Telnyx using media storage APIs. When `mediaStorage="true"` is used the verb expects a `media_name` instead of a URL. You can also use the `digits` attribute to play DTMF tones instead of an audio file. The `ringTone` attribute generates a country-specific ringback tone instead of fetching an audio file; it cannot be combined with an audio body and is not supported inside `<Conference>`. By default, a playback failure (e.g. the audio URL returns 404) aborts the TeXML script. Set `continueOnError="true"` to log the failure and proceed with the next verb instead. Set `failoverUrl` to retry once with a backup audio source before the failure path is taken; `continueOnError` still applies if the failover also fails. `<Play>` can be used independently as a verb or nested within `<Gather]]` as a noun to play an audio file while waiting for DTMF tones.
 
 ### Attributes
 
 | Attribute | Description | Options | Default |
-|---|---|---|---|
-| `action` | URL where TeXML sends the gathered result and message history. Transfers control to the returned TeXML file. | — | — |
-| `timeout` | Seconds between digits before sending results to the action URL. Timeout starts after all nested verbs execute. | `1`–`120` | `5` |
-| `input` | Input type for the gather action. | `dtmf`, `speech`, `dtmf speech` | `dtmf` |
-| `speechTimeout` | Seconds to wait after speech ends before timing out. | — | — |
-| `partialResultCallback` | URL for partial gather results. | — | — |
-| `partialResultCallbackMethod` | HTTP method for `partialResultCallback`. | `GET`, `POST` | `POST` |
-| `profanityFilter` | Filter profanity from speech recognition results (camelCase). | — | — |
-| `useEnhanced` | Enable enhanced transcription for `phone_call` and `video` models (camelCase). | — | — |
-| `hints` | Comma-separated hints for transcription accuracy. On Deepgram, maps to Nova-2 keyword biasing; silently dropped on Nova-3 (use `keyterms` instead). | — | — |
-| `keyterms` | Comma-separated keyterm prompting for Deepgram Nova-3. Silently dropped on Nova-2 (use `hints` instead). | — | — |
-| `smartFormat` | Disable Deepgram smart formatting to keep transcript lowercase with no punctuation. Deepgram-only; silently dropped on other engines. | — | `true` |
-| `transcriptionEngine` | Speech recognition engine. | `Google`, `Telnyx`, `Azure`, `Deepgram`, `xAI`, `AssemblyAI`, `Soniox`, `Speechmatics` | — |
-| `model` | Speech recognition model in `vendor/model-name` format (e.g., `deepgram/nova-2`, `deepgram/nova-3`, `azure/fast`). Vendor must match `transcriptionEngine`. On Deepgram, defaults to `deepgram/nova-3` when unset. | — | — |
-| `apiKeyRef` | Reference to the API key for authentication. Optional as defaults exist for some regions. Used with Azure. See [integration secrets](https://developers.telnyx.com/api-reference/integration-secrets/create-a-secret). | — | — |
-| `region` | Region for the transcription engine. Required for Azure. | — | — |
-| `finishOnKey` | Digit(s) that indicate the end of the gather. | `0`–`9`, `*`, `#` | `#` |
-| `numDigits` | Number of digits to gather. | — | — |
-| `language` | Language used. See [RESTful API documentation](https://developers.telnyx.com/api-reference/call-commands/speak-text) for supported values. | — | `en-US` |
-| `validDigits` | Set of valid digits for the gather action. | — | — |
-| `invalidDigitsAction` | URL for invalid gathered digits. Transfers control to the returned TeXML file. | — | — |
-| `minDigits` | Minimum number of digits to gather. | `1`–`128` | `1` |
-| `maxDigits` | Maximum number of digits to gather. | `1`–`128` | `128` |
-
-### Child Verbs/Nouns
-
-| Noun/Verb | Description |
-|---|---|
-| `Say` | Text-to-speech while gathering. |
-| `Play` | Audio playback while gathering. |
-
-### Example
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<Response>
-    <Gather timeout="5" numDigits="1" finishOnKey="#">
-        <Say>Press 1 for sales, press 2 for support.</Say>
-    </Gather>
-</Response>
-```
-
-### Expected Callbacks
-
-If `action` is set, a callback is sent when gather completes with the collected digits or speech. See [Gather Callback](https://developers.telnyx.com/api-reference/callbacks/texml-gather) for the full payload.
-
-## Hangup
-
-The `<Hangup>` verb ends the call. It takes no attributes.
-
-### Example
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<Response>
-    <Hangup/>
-</Response>
-```
-
-### Expected Callbacks
-
-When the call ends, a callback is sent to the connection-level webhook URL with `CallStatus` set to `completed`. See [Call Completed Callback](https://developers.telnyx.com/api-reference/callbacks/texml-call-completed) for the full payload.
-
-## HttpRequest
-
-The `<HttpRequest>` verb sends a request to an external server. It contains `<Request>` and `<Response>` child nodes.
-
-### Attributes
-
-| Attribute | Description | Options | Default |
-|---|---|---|---|
-| `async` | Whether TeXML should wait for the request response. When `false`, a callback is sent to the `action` URL when the request is processed. | — | `false` |
-| `action` | URL for the callback when the request is processed (only if `async` is `false`). | — | — |
-
-### Child Verbs/Nouns
-
-| Noun/Verb | Description |
-|---|---|
-| `Request` | Defines the request attributes. Child nodes: `<Headers>` and `<Body>`. |
-| `Response` | Defines the expected response attributes. Child nodes: `<Headers>` and `<Body>`. |
+| --- | --- | --- | --- |
+| `loop` | Times to repeat the audio. When used with `ringTone`, forwarded to FreeSWITCH as the `tone_stream` `loops` parameter; `loop="0"` plays the tone indefinitely until interrupted by a subsequent verb or hangup. | — | `1` |
+| `mediaStorage` | When true, fetches the file from Telnyx media storage using the provided media name. | `true`, `false` | `false` |
+| `digits` | DTMF tones to play. The value can include digits `0`–`9`, `*`, `#`, and `w` (for a 0.5 second pause). When specified, the verb plays DTMF tones instead of an audio file. | — | — |
+| `failoverUrl` | Backup audio source played when the primary URL fails. The `mediaStorage` flag also applies to this URL. Only one retry attempt is made. | — | — |
+| `continueOnError` | When true, a playback failure does not abort the script. Telnyx still logs the error and continues with the next verb. | `true`, `false` | `false` |
+| `ringTone` | Plays a country-specific ringback tone instead of an audio file. Cannot be combined with an audio body. Not supported inside `<Conference>`. | `at`, `au`, `bg`, `br`, `be`, `ch`, `cl`, `cn`, `cz`, `de`, `dk`, `ee`, `es`, `fi`, `fr`, `gr`, `hu`, `il`, `in`, `it`, `lt`, `jp`, `mx`, `my`, `nl`, `no`, `nz`, `ph`, `pl`, `pt`, `ru`, `se`, `sg`, `th`, `tw`, `ve`, `za`, `us`, `us-old`, `uk` | — |
 
 ### Examples
 
-Asynchronous request:
-
 ```xml
+<?xml version="1.0" encoding="UTF-8"?>
 <Response>
-    <HttpRequest async="true">
-        <Request url="https://example.com" method="POST">
-        <Headers>
-            <Header>
-                <Key>Authorization</Key>
-                <Value>Bearer API_key</Value>
-            </Header>
-            <Header>
-                <Key>Content-Type</Key>
-                <Value>application/json</Value>
-            </Header>
-        </Headers>
-        <Body>
-        <![CDATA[{ "from":{{From}} }]]>
-        </Body>
-        </Request>
-    </HttpRequest>
+    <Play>https://example.com/welcome.mp3</Play>
 </Response>
 ```
-
-Synchronous request with response mapping:
-
-```xml
-<Response>
-    <HttpRequest async="false" action="https://example.com">
-        <Request url="https://example.com" method="POST">
-        ...
-        </Request>
-        <Response>
-            <Type>JSON</Type>
-            <StatusCode>200</StatusCode>
-            <Content>
-                <Field>
-                    <Name>contact.name.first</Name>
-                    <Value>first_name</Value>
-                </Field>
-                <Field>
-                    <Name>contact.name.last</Name>
-                    <Value>last_name</Value>
-                </Field>
-            </Content>
-        </Response>
-    </HttpRequest>
-</Response>
-```
-
-### Expected Callbacks
-
-When the HTTP request completes, a callback is sent to the `action` URL. See [HTTP Request Callback](https://developers.telnyx.com/api-reference/callbacks/texml-http-request) for the full payload.
-
-## Leave
-
-The `<Leave>` verb removes a call from the queue and continues with the next verb after the original `<Enqueue>`. It does not support any attributes.
-
-### Example
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-    <Leave/>
+    <Play ringTone="us" loop="3"/>
 </Response>
 ```
-
-## Pause
-
-The `<Pause>` verb waits silently for a specified number of seconds. No nouns can be nested, and a self-closing tag must be used.
-
-### Attributes
-
-| Attribute | Description | Options | Default |
-|---|---|---|---|
-| `length` | Seconds to pause. | `1`–`180` | `1` |
-
-### Example
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-    <Pause length="5"/>
+    <Play continueOnError="true">https://example.com/might-404.mp3</Play>
+    <Say>Sorry, we could not play the message.</Say>
+</Response>
+```
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Play failoverUrl="https://cdn-backup.example.com/welcome.mp3">https://cdn.example.com/welcome.mp3</Play>
 </Response>
 ```

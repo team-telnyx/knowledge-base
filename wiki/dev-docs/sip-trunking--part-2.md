@@ -1,16 +1,11 @@
 ---
 title: SIP Trunking
-summary: Telnyx SIP Trunking provides carrier-grade voice connectivity using SIP Connections
-  for inbound traffic and Outbound Voice Profiles for outbound routing, with features
-  including dynamic E911, noise suppression, jitter buffering, SIP URI calling, external
-  transfers, and configurable routing with automatic failover.
+summary: Telnyx SIP trunking uses SIP Connections for inbound traffic and authentication,
+  and Outbound Voice Profiles for outbound call routing. This page covers the core
+  components, network configuration, routing options, and troubleshooting for SIP
+  trunks.
 sources:
-- url: https://developers.telnyx.com/docs/voice/sip-trunking/emergency-calling-dynamic-e911/index
-- url: https://developers.telnyx.com/docs/voice/sip-trunking/features/external-transfers
-- url: https://developers.telnyx.com/docs/voice/sip-trunking/features/jitter-buffer
-- url: https://developers.telnyx.com/docs/voice/sip-trunking/features/noise-suppression/index
-- url: https://developers.telnyx.com/docs/voice/sip-trunking/features/sip-uri-calling
-- url: https://developers.telnyx.com/docs/voice/sip-trunking/get-started/index
+- url: https://developers.telnyx.com/docs/voice/sip-trunking/get-started
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/livekit-configuration-guide
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/network-configuration/ip-whitelisting/index
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/network-configuration/srv-records
@@ -19,118 +14,283 @@ sources:
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/routing/failover-and-retries/index
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/routing/round-robin-routing/index
 - url: https://developers.telnyx.com/docs/voice/sip-trunking/troubleshooting/response-codes/index
-updated_at: 2026-06-11T10:45:55Z
+updated_at: 2026-08-05T14:05:40Z
 ---
 
 # SIP Trunking
 
 *Part 2 of 3 — see also: [Part 1](sip-trunking--part-1.md), [Part 3](sip-trunking--part-3.md)*
 
-Telnyx SIP Trunking provides carrier-grade voice connectivity using SIP Connections for inbound traffic and Outbound Voice Profiles for outbound routing, with features including dynamic E911, noise suppression, jitter buffering, SIP URI calling, external transfers, and configurable routing with automatic failover.
+Telnyx SIP trunking uses SIP Connections for inbound traffic and authentication, and Outbound Voice Profiles for outbound call routing. This page covers the core components, network configuration, routing options, and troubleshooting for SIP trunks.
 
-## Features
+## STUN/TURN Servers
 
-### Jitter Buffer
+STUN (Session Traversal Utilities for NAT) and TURN (Traversal Using Relays around NAT) servers enable NAT traversal for SIP clients behind firewalls and private networks.
 
-Jitter buffering smooths out packet arrival variation on SIP connections to reduce audio artifacts such as choppy or distorted speech. An adaptive jitter buffer temporarily holds incoming voice packets and dynamically adjusts its size between configurable minimum and maximum values based on observed network conditions.
+### When to Use STUN/TURN
 
-| Setting | Purpose | Default | Range |
+Use STUN/TURN servers when the SIP client is:
+
+- Behind a firewall or NAT gateway
+- On a private network without public IP addresses
+- Unable to receive inbound connections directly
+- Experiencing one-way audio issues
+
+### Telnyx STUN/TURN Endpoints
+
+| Type | Endpoint | Port | Protocol |
 | --- | --- | --- | --- |
-| `enable_jitter_buffer` | Toggle on/off | `false` | — |
-| `jitterbuffer_msec_min` | Minimum buffer size (ms) | `60` | 40–400 |
-| `jitterbuffer_msec_max` | Maximum buffer size (ms) | `200` | 40–400 |
+| STUN | `stun.telnyx.com` | 3478 | UDP |
+| TURN | `turn.telnyx.com` | 3478 | UDP/TCP |
 
-`jitterbuffer_msec_min` cannot exceed `jitterbuffer_msec_max`. Configure via `PATCH` on credential, FQDN, or IP connections:
+### Configuration
 
-```json
-{
-  "jitter_buffer": {
-    "enable_jitter_buffer": true,
-    "jitterbuffer_msec_min": 60,
-    "jitterbuffer_msec_max": 200
-  }
-}
+**Standard STUN configuration** — configure the SIP client to use Telnyx STUN servers for NAT traversal:
+
+```
+STUN Server: stun.telnyx.com:3478
 ```
 
-**Tuning guidance:** Higher values increase latency tolerance (better for high-jitter networks like international routes); lower values reduce latency (better for stable networks). Increase the maximum for routes with known high jitter rather than raising the minimum, which adds baseline latency to all calls. Start with defaults (60–200 ms) before tuning.
+**TURN with authentication** — TURN requires credentials. Contact [Telnyx support](https://telnyx.com/support) to obtain TURN server credentials for the account.
 
-### Noise Suppression
+```
+TURN Server: turn.telnyx.com:3478
+Username: [provided by Telnyx]
+Password: [provided by Telnyx]
+```
 
-Noise suppression removes background noise from audio streams. It can be configured at the **connection level** (applied to all phone numbers on the connection; overrides number-level settings) or the **number level** (applied to specific numbers for granular control). Connection-level settings take precedence.
+### Alternative STUN Servers
 
-**Supported engines:**
+While Telnyx provides its own STUN infrastructure, third-party STUN servers may also be used:
 
-| Engine | Value | Best for |
-| --- | --- | --- |
-| Denoiser | `Denoiser` | Default option for most calls |
-| DeepFilterNet | `DeepFilterNet` | Telephony and WebRTC (full-band 48 kHz) |
-| Krisp Viva Tel Lite | `Krisp Viva Tel Lite` | Telephony up to 16 kHz; isolates primary speaker |
-| Krisp Viva Pro | `Krisp Viva Pro` | Close-microphone WebRTC calls |
-| Krisp Viva SS | `Krisp Viva SS` | Smart speakers and far-field microphones |
-| AI-coustics Quail | `AI-coustics Quail` | STT-optimized; up to 43% WER reduction |
+```
+stun.l.google.com:19302
+stun1.l.google.com:19302
+stun2.l.google.com:19302
+```
 
-For SIP trunking, **Denoiser** and **Krisp Viva Tel Lite** are the most common choices.
+### Network Requirements
 
-**Direction options:**
+Ensure the firewall allows outbound traffic:
 
-| Value | Description |
+| Service | Port | Protocol | Direction |
+| --- | --- | --- | --- |
+| STUN | 3478 | UDP | Outbound |
+| TURN | 3478 | UDP/TCP | Outbound |
+| RTP media | 16384-32768 | UDP | Bidirectional |
+
+### ICE Candidate Types
+
+When using STUN/TURN, the client will gather different types of ICE candidates:
+
+- **host**: Local network addresses (cannot traverse NAT)
+- **srflx**: Server reflexive addresses (via STUN)
+- **relay**: Relayed addresses (via TURN)
+- **prflx**: Peer reflexive addresses (discovered during connectivity checks)
+
+For successful call establishment across NAT, at least one of the following candidate types must be available:
+
+- `srflx` (server reflexive via STUN)
+- `relay` (relayed via TURN)
+- `prflx` (peer reflexive)
+
+### Troubleshooting
+
+**One-way audio:**
+
+1. Verify STUN server is reachable: `stun.telnyx.com:3478`
+2. Check that UDP port 3478 is allowed outbound
+3. Ensure RTP media ports (16384-32768) are open bidirectionally
+
+**Connection failures:**
+
+1. Verify firewall rules allow outbound UDP to port 3478
+2. Check that the SIP client supports STUN/TURN
+3. Confirm TURN credentials are correct (if using TURN)
+4. Review ICE candidate gathering logs in the client
+
+**Restrictive networks** — in highly restrictive networks that block UDP traffic:
+
+- Use TURN over TCP: `turn.telnyx.com:3478` (TCP)
+- Consider using TLS for SIP signaling: port 5061
+- Contact support for additional configuration options
+
+## AnchorSite Configuration
+
+AnchorSite determines which Telnyx Point of Presence (PoP) handles media routing for SIP calls.
+
+### Configuration Modes
+
+**Latency mode** — automatically selects the optimal PoP based on ICMP ping latency measurements to the SIP endpoint.
+
+Requirements:
+
+- IP/FQDN authentication: Whitelist Telnyx media IP addresses for ICMP.
+- Credential authentication: Include username in `Contact` header or `X-Telnyx-Username` header:
+
+```
+Contact: <sip:user@192.0.2.10:5060>
+X-Telnyx-Username: connection_username
+```
+
+- TeXML: PoP selected based on latency to webhook URL IP.
+
+**Manual mode** — explicitly select a PoP for predictable routing behavior.
+
+| Value | Location |
 | --- | --- |
-| `inbound` | Processes audio from PSTN to your system |
-| `outbound` | Processes audio from your system to PSTN |
-| `both` | Processes audio in both directions |
-| `disabled` | Turns off noise suppression |
+| `Chicago, IL` | North America Central |
+| `Ashburn, VA` | North America East |
+| `San Jose, CA` | North America West |
+| `Toronto, Canada` | North America Northeast |
+| `Montreal, Canada` | North America Northeast |
+| `Vancouver, Canada` | North America Northwest |
+| `London, UK` | Europe West |
+| `Amsterdam, Netherlands` | Europe |
+| `Frankfurt, Germany` | Europe Central |
+| `Sydney, Australia` | Asia Pacific |
+| `Dubai, UAE` | Middle East |
 
-Each direction is processed and billed independently. Processing adds minimal latency (typically < 20 ms). Noise suppression works with G.711, G.722, and Opus codecs.
+### Configuration
 
-Configure at connection level via `PATCH /v2/ip_connections/` or at number level via `PATCH /v2/phone_numbers/<id>/voice`:
+You can configure AnchorSite in the [Telnyx Portal](https://portal.telnyx.com/#/app/sip-trunking/ip-connections) by editing an IP Connection:
+
+![IP Connection settings in the Telnyx Portal showing the AnchorSite Override dropdown with Latency and manual PoP options](https://mintcdn.com/telnyx/53Uwze2vwQbIRyze/img/anchorsite-configuration-dropdown.png?fit=max&auto=format&n=53Uwze2vwQbIRyze&q=85&s=c05c8c10406c1dbb8502530c7dd2d9bf)
+
+[PATCH /v2/ip_connections/](/api-reference/ip-connections/update-an-ip-connection):
 
 ```json
 {
-  "noise_suppression": {
-    "direction": "both",
-    "noise_suppression_engine": "Denoiser"
+  "anchorsite_override": "latency"
+}
+```
+
+For manual selection:
+
+```json
+{
+  "anchorsite_override": "Chicago, IL"
+}
+```
+
+### Failover
+
+If the selected PoP is unavailable (maintenance, outage, health check failure), calls automatically reroute through the next available PoP.
+
+## Failover and Retries
+
+Telnyx SIP connections automatically retry failed call attempts through different routes and IP addresses.
+
+### Signaling IP Addresses
+
+Telnyx uses two geographically redundant signaling IPs per region:
+
+| Region | Primary (IP1) | Secondary (IP2) |
+| --- | --- | --- |
+| US | `192.76.120.10` | `64.16.250.10` |
+| EU | `5.172.39.10` | `5.172.39.25` |
+| Canada | `193.108.220.10` | `193.108.220.25` |
+| Australia | `103.135.104.10` | `103.135.104.25` |
+
+### Failover Behavior
+
+**Single route:**
+
+1. SIP INVITE sent from IP1
+2. On failure, retry from IP2
+
+**Multiple routes:**
+
+1. Attempt all routes via IP1 in configured order
+2. On failure, retry all routes via IP2
+
+Route order depends on configured preference (Sequential or Round Robin).
+
+**Credential authentication** — calls route through the registered KSS instance with three levels of internal failover.
+
+**Call forward on failure** — when enabled, calls that fail on all SIP routes forward to PSTN (up to 10 termination carriers).
+
+### Response Codes
+
+**Triggers failover:**
+
+| Code | Meaning |
+| --- | --- |
+| `408` | Request Timeout |
+| `480` | Temporarily Unavailable |
+| `503` | Service Unavailable |
+| `504` | Server Timeout |
+| Transport error | Network/TCP failure |
+
+**Does NOT trigger failover** (call considered connected):
+
+| Code | Meaning |
+| --- | --- |
+| `180` | Ringing |
+| `200` | OK (answered) |
+| `404` | Not Found |
+| `486` | Busy Here |
+| `603` | Decline |
+
+### DNS Configuration
+
+**SRV records (recommended):**
+
+```
+_sip._udp.example.com. 3600 IN SRV 10 10 5060 sip.telnyx.com.
+```
+
+Regional domains: `sip.telnyx.com` (US), `sip-eu.telnyx.com` (EU). SRV records automatically resolve to both IP1 and IP2.
+
+**A records (alternative):** Configure separate A records for each signaling IP and add both as routes.
+
+### Configuration
+
+[PATCH /v2/ip_connections/](/api-reference/ip-connections/update-an-ip-connection):
+
+```json
+{
+  "default_routing_method": "sequential",
+  "call_forwarding": {
+    "forwarding_type": "on_failure"
   }
 }
 ```
 
-### External Call Transfers
+## Round Robin Routing
 
-External transfers move an inbound PSTN call to an external destination while preserving the original caller's identity. Telnyx validates transfers to prevent unauthorized call spoofing:
+Round robin routing distributes inbound calls sequentially across all configured IP addresses in a SIP connection. Each IP receives equal call volume regardless of active call load.
 
-- An active inbound call must exist from the original caller to the Telnyx number
-- The outbound call leg must include a SIP `Diversion` header containing the Telnyx number: `Diversion: <sip:+12125551234@sip.telnyx.com>`
+### How It Works
 
-Transfers are rejected when no active call can be matched, the Diversion header is missing, or the header contains an unauthorized number.
-
-**Blind transfer** (immediate, no announcement):
+Calls route to IPs in sequential order:
 
 ```
-REFER sip:+13035559876@sip.telnyx.com SIP/2.0
-Refer-To: <sip:+13035559876@sip.telnyx.com>
+Call 1 → IP 1
+Call 2 → IP 2
+Call 3 → IP 3
+Call 4 → IP 1 (cycle repeats)
 ```
 
-**Attended transfer:** Place original call on hold, dial the transfer destination, announce, then complete with SIP REFER.
+**Failover behavior** — if the target IP fails, the system attempts remaining IPs in sequence. All IPs function as backups for each other. Example: If IP 2 is selected first and fails, the system tries IP 3, then IP 1.
 
-**Programmable Voice implementations:**
+### Configuration
 
-- Transfer command: `POST /v2/calls/<id>/actions/transfer` with `to` and `from` fields
-- Dial with bridge: `POST /v2/calls` with `link_to` and `bridge_intent`
-- TeXML: Use the `<Dial>` verb with `callerId`
+[PATCH /v2/ip_connections/](/api-reference/ip-connections/update-an-ip-connection)
 
-### SIP URI Calling
+```json
+{
+  "default_routing_method": "round-robin"
+}
+```
 
-SIP URI calling enables inbound calls to a SIP username (e.g., `support@sip.telnyx.com`), eliminating the need for a traditional phone number. This feature is disabled by default and must be explicitly enabled.
+### Limitations
 
-**Username requirements:** Must begin with a non-numeric character (prevents number spoofing). Valid: `support@`, `pbx-main@`, `alice123@`. Invalid: `123456@`.
+- Only counts inbound call distribution, not active call load
+- An IP handling 100 active calls receives the same incoming call rate as an IP handling 10 active calls
 
-**Access control modes:**
+### Use Cases
 
-| Mode | Value | Description |
-| --- | --- | --- |
-| Disabled | `disabled` | Blocks all SIP URI calls (default) |
-| Unrestricted | `unrestricted` | Allows calls from anyone on the internet |
-| Internal | `internal` | Allows calls only from SIP connections within the same Telnyx account |
-
-Configure via `PATCH /v2/ip_connections/` with `sip_uri_calling_preference`.
-
-**Billing:** Calls from Telnyx SIP connections use standard rate deck pricing. Calls from external or unidentifiable sources (when set to `unrestricted`) are billed at **$0.002/minute** to the connection owner.
+- Distributing load across multiple PBX instances
+- High-availability setups without dedicated failover systems
+- Deployments where simple call distribution is sufficient

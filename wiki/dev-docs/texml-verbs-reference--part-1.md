@@ -1,137 +1,120 @@
 ---
 title: TeXML Verbs Reference
-summary: A comprehensive reference for all TeXML verbs supported by Telnyx, including
-  attributes, child elements, examples, and expected callbacks for building programmable
-  voice applications.
+summary: A consolidated reference for the TeXML verbs available in Telnyx Programmable
+  Voice, covering call control, media playback, recording, transcription, conferencing,
+  payments, and SIPREC. Each verb section lists attributes, child nouns, examples,
+  and the callbacks that the platform emits.
 sources:
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/aiassistant
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/aigather
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/conference
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/connect
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/conversationrelay
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/dial/index
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/enqueue
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/gather
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/hangup/index
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/httprequest
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/leave
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/pause
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/pay
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/play
-updated_at: 2026-06-11T10:44:08Z
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/record
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/recording
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/redirect
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/refer
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/reject
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/say
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/siprec
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/start
+updated_at: 2026-08-05T14:05:15Z
 ---
 
 # TeXML Verbs Reference
 
-*Part 1 of 5 — see also: [Part 2](texml-verbs-reference--part-2.md), [Part 3](texml-verbs-reference--part-3.md), [Part 4](texml-verbs-reference--part-4.md), [Part 5](texml-verbs-reference--part-5.md)*
+*Part 1 of 7 — see also: [Part 2](texml-verbs-reference--part-2.md), [Part 3](texml-verbs-reference--part-3.md), [Part 4](texml-verbs-reference--part-4.md), [Part 5](texml-verbs-reference--part-5.md), [Part 6](texml-verbs-reference--part-6.md), [Part 7](texml-verbs-reference--part-7.md)*
 
-A comprehensive reference for all TeXML verbs supported by Telnyx, including attributes, child elements, examples, and expected callbacks for building programmable voice applications.
+A consolidated reference for the TeXML verbs available in Telnyx Programmable Voice, covering call control, media playback, recording, transcription, conferencing, payments, and SIPREC. Each verb section lists attributes, child nouns, examples, and the callbacks that the platform emits.
 
-TeXML (Telnyx Markup Language) verbs control call flows in Telnyx programmable voice applications. Each verb is an XML element nested within a `<Response>` root. This page documents every available verb, its attributes, child nouns/verbs, examples, and callbacks.
+## Overview
 
-## AIAssistant
+TeXML is Telnyx's XML-based markup language for controlling programmable voice calls. A TeXML document is a `<Response>` element containing one or more verbs that execute sequentially. Some verbs (such as [Gather](gather.md), [Play](play.md), and [Say](say.md)) can also be nested inside other verbs to compose richer call flows. A small set of verbs (`<Start>`, `<Stop>`) act as containers that begin or end a long-running service in parallel with the rest of the script.
 
-The `<AIAssistant>` verb starts a voice assistant on the call. It must be nested within a `<Connect>` verb.
+The verbs documented on this page are:
 
-### Attributes
+- [Gather](gather.md) — collect DTMF or speech input
+- [Hangup](hangup.md) — end the call
+- [HttpRequest](httprequest.md) — call an external HTTP service
+- [Leave](leave.md) — exit a queue
+- [Pause](pause.md) — wait silently
+- [Pay](pay.md) — collect and process payments
+- [Play](play.md) — play audio, DTMF, or ringback tones
+- [Record](record.md) — record the call (blocking)
+- [Recording](recording.md) — start a non-blocking recording (nested in `<Start>`)
+- [Redirect](redirect.md) — hand control to another TeXML document
+- [Refer](refer.md) — transfer the call to an external SIP endpoint
+- [Reject](reject.md) — reject the call
+- [Say](say.md) — speak text using text-to-speech
+- [Siprec](siprec.md) — start a SIPREC session (nested in `<Start>`/`<Stop>`)
+- [Start](start.md) — start a nested service
 
-| Attribute | Description | Options | Default |
-|---|---|---|---|
-| `id` | Identifier of the AI assistant, created via the [AI Assistant API](https://developers.telnyx.com/api-reference/assistants/create-an-assistant). | — | — |
-| `join` | ID of an existing AI assistant conversation to join. When set, the call leg becomes a participant in that conversation instead of starting a new one. | — | — |
-| `participantName` | Display name of the participant joining the conversation. Only used when `join` is set. | — | — |
-| `participantRole` | Role of the participant joining the conversation. Only used when `join` is set. | `user`, `assistant` | `user` |
+## Gather
 
-### Example
-
-Start a new assistant:
-
-```xml
-<Response>
-    <Connect>
-        <AIAssistant id="assistant-776d0d6f-716d-4d8f-b6da-b95181636838">
-        </AIAssistant>
-    </Connect>
-</Response>
-```
-
-Join an existing conversation:
-
-```xml
-<Response>
-    <Connect>
-        <AIAssistant join="v3:abc123def456" participantName="John" participantRole="user">
-        </AIAssistant>
-    </Connect>
-</Response>
-```
-
-## AIGather
-
-The `<AIGather>` verb collects specific information from call participants using AI. It requires a `<Parameters>` child node containing a JSON Schema object describing the parameters to gather.
+The `<Gather>` verb collects DTMF tones during a call. `<Say>` can be nested within `<Gather>` to create an interactive IVR with text-to-speech.
 
 ### Attributes
 
 | Attribute | Description | Options | Default |
-|---|---|---|---|
-| `action` | URL where TeXML sends the gathered speech input. Transfers control to the TeXML file returned. | — | — |
-| `method` | HTTP request type used to retrieve the next set of instructions. | `GET`, `POST` | `POST` |
+| --- | --- | --- | --- |
+| `action` | URL where TeXML will send the gathered result and message history. Same method (`GET`/`POST`) as set for the TeXML application is used. Transfers control of the current call to the TeXML file returned. | — | — |
+| `timeout` | Time in seconds between digits before the `<Gather>` digits are sent to your action URL. Telnyx will wait until all nested verbs have been executed before beginning the timeout period. | `1`–`120` | `5` |
+| `input` | The input type for the gather action. | `dtmf`, `speech`, `dtmf speech` | `dtmf` |
+| `speechTimeout` | Time in seconds to wait after speech ends before timing out. | — | — |
+| `partialResultCallback` | URL for sending partial gather results. | — | — |
+| `partialResultCallbackMethod` | HTTP request type used for `partialResultCallback`. | `GET`, `POST` | `POST` |
+| `profanityFilter` | Whether to filter profanity from speech recognition results (camelCase format). | — | — |
+| `useEnhanced` | Enables enhanced transcription; works for models `phone_call` and `video` (camelCase format). | — | — |
+| `hints` | Hints to improve transcription accuracy. On Deepgram, this maps to the Nova-2 keyword biasing feature and is supported only on `model="deepgram/nova-2"`; it is silently dropped on Nova-3 (use `keyterms` instead). Accepts a comma-separated string. | — | — |
+| `keyterms` | Deepgram Nova-3 keyterm prompting. Biases recognition toward domain-specific terms or brand names. Supported only on `model="deepgram/nova-3"`; silently dropped on Nova-2 (use `hints` instead). Accepts a comma-separated string. | — | — |
+| `smartFormat` | Disable Deepgram's smart formatting so the transcript stays lowercase with no punctuation. Deepgram-only; silently dropped on other engines. | — | `true` |
+| `transcriptionEngine` | Engine to use for speech recognition. | `Google`, `Telnyx`, `Azure`, `Deepgram`, `xAI`, `AssemblyAI`, `Soniox`, `Speechmatics`, `Parakeet`, `Humain`, `Reson8`, `Cohere` | — |
+| `model` | Speech recognition model. Format is `vendor/model-name` — e.g. `deepgram/nova-2`, `deepgram/nova-3`, `azure/fast`, `assemblyai/universal-streaming`, `soniox/stt-rt-v4`, `speechmatics/standard`, `nvidia/parakeet-v3`, `xai/grok-stt`, `humain/realtime`, `reson8/turns`, `cohere/ar-stt`. The vendor must match `transcriptionEngine`. On Deepgram, defaults to `deepgram/nova-3` when unset. | — | — |
+| `apiKeyRef` | Reference to the API key for authentication. See the [integration secrets documentation](https://developers.telnyx.com/api-reference/integration-secrets/create-a-secret) for details. The parameter is optional as defaults are available for some regions. Used with Azure `transcriptionEngine`. | — | — |
+| `region` | Region to use with the specified transcription engine. Required for Azure. See regions in [transcription_engine_config](https://developers.telnyx.com/api-reference/call-commands/transcription-start). | — | — |
+| `finishOnKey` | The set of digits (`0`–`9`, `*`, `#`) that indicates the end of the gather. | — | `#` |
+| `numDigits` | The number of digits to be gathered. | — | — |
+| `language` | The language used. See the [RESTful API documentation](https://developers.telnyx.com/api-reference/call-commands/speak-text) for supported values. | — | `en-US` |
+| `validDigits` | The set of valid digits for the gather action. | — | — |
+| `invalidDigitsAction` | URL where TeXML will send the invalid gathered digits. The same method (`GET`/`POST`) as set for the TeXML application is used. Transfers control of the current call to the TeXML file returned. | — | — |
+| `minDigits` | Minimum number of digits to be gathered. | `1`–`128` | `1` |
+| `maxDigits` | Maximum number of digits to be gathered. | `1`–`128` | `128` |
 
-### Child Verbs/Nouns
+### Child verbs/nouns
 
-| Noun/Verb | Description |
-|---|---|
-| `Greeting` | Text read back to the caller when gathering starts. If omitted, nothing is played. |
-| `Voice` | The voice to be used by the voice assistant. |
-| `Parameters` | Parameters described as a JSON Schema object to be gathered. Must be wrapped in CDATA tags. |
-| `MessageHistory` | Message history for context, provided as a list of `<Message>` nodes. Each `<Message>` must have a `role` attribute (`user` or `assistant`). |
-| `Tools` | List of `<Tool>` nodes for the AI assistant. Each `<Tool>` contains a tool definition in JSON format. Available tools are defined in the [Voice API Gather using AI documentation](https://developers.telnyx.com/api-reference/call-commands/gather-using-ai). |
-
-### Voice Attributes
-
-| Attribute | Description | Options | Default |
-|---|---|---|---|
-| `name` | Voice to use. Supports ElevenLabs (`ElevenLabs.model_id.voice_id`), Telnyx (`Telnyx.model_id.voice_id`), and AWS Polly (`AWS.Polly.voice_id` or `Polly.voice_id`). | — | `Telnyx.NaturalHD.Astra` |
-| `api_key_ref` | Reference to the ElevenLabs API key added via `/v2/text-to-speech/secret`. Only used with ElevenLabs voices. | — | — |
-| `voice_speed` | Voice speed, between 0.1 and 2.0. Only used with Telnyx voices. | `0.1`–`2.0` | `1` |
+- `Say`
+- `Play`
 
 ### Example
 
 ```xml
+<?xml version="1.0" encoding="UTF-8"?>
 <Response>
-  <AIGather action="/after_ai_gather">
-    <Greeting></Greeting>
-    <Parameters>
-    <![CDATA[
-    {
-      "properties": {
-        "age": { "description": "The age of the customer.", "type": "integer" },
-        "location": { "description": "The location of the customer.", "type": "string" }
-      },
-      "required": ["age", "location"],
-      "type": "object"
-    }
-    ]]>
-    </Parameters>
-    <Voice name="Telnyx.NaturalHD.Astra" voice_speed="1.0"/>
-    <MessageHistory>
-      <Message role="user">Hello my name is Enzo.</Message>
-    </MessageHistory>
-    <InterruptionSettings enable="true"/>
-    <Transcription model="some_model"/>
-    <Assistant model="openai/gpt-4" api_key_ref="my_key_ref" instructions="You are a helpful assistant that can help the customer with their questions.">
-      <Tools>
-        <Tool>
-          <![CDATA[{ "type": "hangup", "hangup": { "description": "Hang up the call." } }]]>
-        </Tool>
-        <Tool>
-          <![CDATA[{ "type": "transfer", "transfer": [{ "name": "support", "to": "+1234567890" }] }]]>
-        </Tool>
-      </Tools>
-    </Assistant>
-  </AIGather>
+    <Gather timeout="5" numDigits="1" finishOnKey="#">
+        <Say>Press 1 for sales, press 2 for support.</Say>
+    </Gather>
 </Response>
 ```
 
-### Expected Callbacks
+### Expected callbacks
 
-If `action` is set, a callback is sent when the AI gather completes with the collected result and message history. See [AI Gather Callback](https://developers.telnyx.com/api-reference/callbacks/texml-ai-gather) for the full payload.
+If `action` is set, a callback is sent when gather completes with the collected digits or speech. See the [Gather Callback](https://developers.telnyx.com/api-reference/callbacks/texml-gather) for the full payload reference.
+
+## Hangup
+
+The `<Hangup>` verb ends the call.
+
+### Example
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Hangup/>
+</Response>
+```
+
+### Expected callbacks
+
+When the call ends, a callback is sent to the webhook URL defined on the connection level with `CallStatus` set to `completed`. See the [Call Completed Callback](https://developers.telnyx.com/api-reference/callbacks/texml-call-completed) for the full payload reference.

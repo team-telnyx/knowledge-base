@@ -1,195 +1,117 @@
 ---
 title: Telnyx Programmable Voice
-summary: Telnyx Programmable Voice provides tools for building voice applications
-  including SIPREC recording, speech-to-text transcription, call recording storage,
-  SSML-based text-to-speech, and the TeXML markup language for declarative call control
-  with TwiML compatibility.
+summary: A consolidated reference for Telnyx Programmable Voice covering the Voice
+  API fundamentals, available commands and resources, TeXML verbs (Stop, Stream, Suppression,
+  Transcription), Text-to-Speech providers, and the European regional endpoint.
 sources:
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/siprec-server/index
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/speech-to-text/index
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/ssml-tags/index
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/storing-call-recordings
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-answering-machine
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-bin-dynamic
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-bin-quickstart
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-fundamentals/index
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-instruction-fetching
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-interpreter
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-sending-http-requests
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-setup
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-twiml-compatibility
-updated_at: 2026-06-11T10:43:02Z
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/stop
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/stream
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/suppression
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/texml-verbs/transcription
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/tts
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/voice-api-commands-and-resources
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/voice-api-fundamentals
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/voice-api-services-in-europe/index
+updated_at: 2026-08-05T14:05:29Z
 ---
 
 # Telnyx Programmable Voice
 
-*Part 2 of 3 — see also: [Part 1](telnyx-programmable-voice--part-1.md), [Part 3](telnyx-programmable-voice--part-3.md)*
+*Part 2 of 5 — see also: [Part 1](telnyx-programmable-voice--part-1.md), [Part 3](telnyx-programmable-voice--part-3.md), [Part 4](telnyx-programmable-voice--part-4.md), [Part 5](telnyx-programmable-voice--part-5.md)*
 
-Telnyx Programmable Voice provides tools for building voice applications including SIPREC recording, speech-to-text transcription, call recording storage, SSML-based text-to-speech, and the TeXML markup language for declarative call control with TwiML compatibility.
+A consolidated reference for Telnyx Programmable Voice covering the Voice API fundamentals, available commands and resources, TeXML verbs (Stop, Stream, Suppression, Transcription), Text-to-Speech providers, and the European regional endpoint.
 
-## Storing Call Recordings
+## Voice API Commands and Resources
 
-By default, recordings are stored in Telnyx-owned S3 buckets and a download link is provided in the `call.recording.saved` webhook (active for 10 minutes). Customers can instead store recordings in their own cloud storage.
+The Voice API exposes endpoints for call control, conferences, queues, recordings, custom storage, and recording transcriptions.
 
-### Custom Google Cloud Storage
+### Call
 
-```curl --location --request POST 'https://api.telnyx.com/v2/custom_storage_credentials/{call_control_application_id}' \
-  --header 'Authorization: Bearer xxxx' \
-  --header 'Content-Type: application/json' \
-  --data-raw '{
-    "backend": "gcs",
-    "configuration": {
-      "credentials": "JSON_WITH_CREDENTIALS",
-      "bucket": "BUCKET_NAME"
-    }
-  }'
-```
+- `POST /v2/calls` — Initiate a new call
+- `POST /v2/calls/:call_control_id/actions/answer` — Answer an incoming call
+- `POST /v2/calls/:call_control_id/actions/fork_start` — Start a media fork for a call
+- `POST /v2/calls/:call_control_id/actions/fork_stop` — Stop a media fork for a call
+- `POST /v2/calls/:call_control_id/actions/hangup` — Terminate a call
+- `POST /v2/calls/:call_control_id/actions/reject` — Reject an incoming call
+- `POST /v2/calls/:call_control_id/actions/transfer` — Transfer a call to another destination
+- `POST /v2/calls/:call_control_id/actions/suppression_start` — Start noise suppression for a call
+- `POST /v2/calls/:call_control_id/actions/suppression_stop` — Stop noise suppression for a call
+- `POST /v2/calls/:call_control_id/actions/client_state_update` — Update client state information for a call
+- `POST /v2/calls/:call_control_id/actions/bridge` — Bridge a call with another destination
+- `POST /v2/calls/:call_control_id/actions/ai_assistant_start` — Start an AI assistant on the call
+- `POST /v2/calls/:call_control_id/actions/ai_assistant_stop` — Stop an AI assistant on the call
+- `POST /v2/calls/:call_control_id/actions/enqueue` — Add a call to a queue
+- `POST /v2/calls/:call_control_id/actions/leave_queue` — Remove a call from a queue
+- `POST /v2/calls/:call_control_id/actions/gather_using_audio` — Play an audio file on the call until the required DTMF signals are gathered
+- `POST /v2/calls/:call_control_id/actions/gather_using_speak` — Play a speech on the call until the required DTMF signals are gathered
+- `POST /v2/calls/:call_control_id/actions/gather_using_ai` — Collect request information using an AI agent
+- `POST /v2/calls/:call_control_id/actions/gather_stop` — Stop an ongoing gather operation
+- `POST /v2/calls/:call_control_id/actions/playback_start` — Start playing audio to a call
+- `POST /v2/calls/:call_control_id/actions/playback_stop` — Stop playing audio to a call
+- `POST /v2/calls/:call_control_id/actions/record_start` — Start recording a call
+- `POST /v2/calls/:call_control_id/actions/record_stop` — Stop recording a call
+- `POST /v2/calls/:call_control_id/actions/record_pause` — Pause recording a call
+- `POST /v2/calls/:call_control_id/actions/record_resume` — Resume recording a call
+- `POST /v2/calls/:call_control_id/actions/refer` — Send a SIP REFER request for a call
+- `POST /v2/calls/:call_control_id/actions/send_dtmf` — Send DTMF tones to a call
+- `POST /v2/calls/:call_control_id/actions/send_sip_info` — Send a SIP INFO message for a call
+- `POST /v2/calls/:call_control_id/actions/speak` — Speak text to a call
+- `POST /v2/calls/:call_control_id/actions/streaming_start` — Start media streaming for a call
+- `POST /v2/calls/:call_control_id/actions/streaming_stop` — Stop media streaming for a call
+- `POST /v2/calls/:call_control_id/actions/transcription_start` — Start transcription for a call
+- `POST /v2/calls/:call_control_id/actions/transcription_stop` — Stop transcription for a call
+- `POST /v2/calls/:call_control_id/actions/siprec_start` — Start SIPREC recording for a call
+- `POST /v2/calls/:call_control_id/actions/siprec_stop` — Stop SIPREC recording for a call
+- `GET /v2/connections/:connection_id/active_calls` — List all active calls for a connection
+- `GET /v2/calls/:call_control_id` — Retrieve a call status
 
-The recording URL in the webhook will use the `gs://` scheme. See [GCS credential generation](https://cloud.google.com/iam/docs/keys-create-delete#creating) for details.
+### Call Events
 
-### Custom AWS S3 Storage
+- `GET /v2/call_events` — Provide a list of call events based on a filter
 
-```curl --location --request POST 'https://api.telnyx.com/v2/custom_storage_credentials/{call_control_application_id}' \
-  --header 'Authorization: Bearer xxxx' \
-  --header 'Content-Type: application/json' \
-  --data-raw '{
-    "backend": "s3",
-    "configuration": {
-      "bucket": "BUCKET_NAME",
-      "region": "REGION_NAME",
-      "aws_access_key_id": "AWS_ACCESS_KEY_ID",
-      "aws_secret_access_key": "AWS_SECRET_ACCESS_KEY"
-    }
-  }'
-```
+### Conference
 
-The recording URL in the webhook will use the `s3://` scheme.
+- `GET /v2/conferences` — List all conferences
+- `GET /v2/conferences/:id` — Get details of a specific conference
+- `GET /v2/conferences/:id/participants` — List participants in a conference
+- `PATCH /v2/conferences/:id/participants/:participant_id` — Update a participant in a conference
+- `POST /v2/conferences` — Create a new conference
+- `POST /v2/conferences/:id/actions/join` — Join a call to a conference
+- `POST /v2/conferences/:id/actions/leave` — Remove a call from a conference
+- `POST /v2/conferences/:id/actions/record_start` — Start recording a conference
+- `POST /v2/conferences/:id/actions/record_stop` — Stop recording a conference
+- `POST /v2/conferences/:id/actions/record_pause` — Pause recording a conference
+- `POST /v2/conferences/:id/actions/record_resume` — Resume recording a conference
+- `POST /v2/conferences/:id/actions/mute` — Mute all participants in a conference
+- `POST /v2/conferences/:id/actions/unmute` — Unmute all participants in a conference
+- `POST /v2/conferences/:id/actions/hold` — Put all participants on hold in a conference
+- `POST /v2/conferences/:id/actions/unhold` — Remove hold for all participants in a conference
+- `POST /v2/conferences/:id/actions/play` — Play audio to a conference
+- `POST /v2/conferences/:id/actions/speak` — Speak text to a conference
+- `POST /v2/conferences/:id/actions/stop` — Stop all ongoing activities in a conference
+- `POST /v2/conferences/:id/actions/update` — Update conference participant
 
-### Custom Microsoft Azure Blob Storage
+### Queue
 
-```curl --location --request POST 'https://api.telnyx.com/v2/custom_storage_credentials/{call_control_application_id}' \
-  --header 'Authorization: Bearer xxxx' \
-  --header 'Content-Type: application/json' \
-  --data-raw '{
-    "backend": "azure",
-    "configuration": {
-      "bucket": "BUCKET_NAME",
-      "account_name": "AZURE_ACCOUNT_NAME",
-      "account_key": "AZURE_ACCOUNT_KEY"
-    }
-  }'
-```
+- `GET /v2/queues/:queue_name` — Get details of a specific queue
+- `GET /v2/queues/:queue_name/calls` — List calls in a queue
+- `GET /v2/queues/:queue_name/calls/:call_control_id` — Get details of a call in a queue
 
-The recording URL in the webhook will use the `https://` Azure blob URL scheme.
+### Recording
 
-## TeXML Overview
+- `GET /v2/recordings` — List all recordings
+- `GET /v2/recordings/:id` — Get details of a specific recording
+- `DELETE /v2/recordings/:id` — Delete a recording
 
-TeXML is an XML-based markup language for defining call control instructions. It is the quickest way to get started with Programmable Voice using a simple `.xml` file containing commands called **verbs** and **nouns**. The TeXML interpreter executes commands sequentially from top to bottom.
+### Custom Storage
 
-A proper TeXML response comprises:
+- `POST /v2/custom_storage_credentials` — Create custom storage credentials
+- `GET /v2/custom_storage_credentials` — List all custom storage credentials
+- `GET /v2/custom_storage_credentials/:id` — Get details of a specific custom storage credential
+- `DELETE /v2/custom_storage_credentials/:id` — Delete a custom storage credential
 
-- A **`<Response>`** root element wrapping the document body
-- **Verbs** — XML tags denoting the desired action (e.g. `<Say>`, `<Dial>`, `<Hangup>`)
-- **Nouns** — XML tags denoting the object of the action (e.g. `<Number>`, `<Sip>`, `<Conference>`)
+### Recording Transcription
 
-Example:
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<Response>
-  <Say>Thank you for calling Telnyx. Please hold.</Say>
-  <Dial>
-    <Number>+13129457420</Number>
-  </Dial>
-</Response>
-```
-
-## TeXML Application Configuration
-
-A TeXML Application is a collection of configuration parameters defining the interaction between Telnyx and your application:
-
-| Field | Description |
-|-------|-------------|
-| Application Name | Descriptive name for the application |
-| AnchorSite | Preferred data center; use `latency` to auto-select via ICMP ping |
-| Voice Method | HTTP method for webhook interaction (GET or POST) |
-| Webhook URL | URL where Telnyx fetches TeXML instructions; can be a TeXML Bin URL |
-| Webhook Failover URL | Backup URL if the primary fails |
-| Call Progress Events URL | URL for event callbacks |
-| Status Callback Method | HTTP method (GET or POST) for status callbacks |
-| Hang-up on Timeout | Seconds to wait for initial response before hanging up |
-| DTMF Type | Configuration for touch-tone input handling |
-| Enable Call Cost | Whether to send call cost webhooks |
-
-Applications can be created through the [Mission Control Portal](https://portal.telnyx.com/#/call-control/texml/new) or via the [Telnyx API](https://developers.telnyx.com/api-reference/texml-applications/creates-a-texml-application).
-
-## TeXML Instruction Fetching
-
-### Inbound Calls
-
-When Telnyx receives a call to a SIP subdomain or phone number assigned to a TeXML Application, it fetches instructions from the application's webhook URL.
-
-### Outbound Calls
-
-There are two ways to trigger instruction fetching on outbound calls:
-
-1. **Using TeXML Calls API** — A TeXML application is required. Initiate via the REST endpoint:
-   ```
-   curl -L 'https://api.telnyx.com/v2/texml/Accounts/:account_sid/Calls' \
-     -H 'Authorization: Bearer YOUR_API_KEY' \
-     -d '{
-       "ApplicationSid": "xxxxxxxx",
-       "To": "+13121230000",
-       "From": "+13120001234",
-       "Url": "https://www.example.com/texml.xml",
-       "StatusCallback": "https://www.example.com/statuscallback-listener"
-     }'
-   ```
-2. **Using SIP Trunking Connections** — Configure a SIP trunking connection to "Park Outbound Calls". When an outbound call is initiated, Telnyx parks the leg, fetches instructions from the connection's URL, and processes the call. No TeXML application is required.
-
-### HTTP Request Parameters
-
-When fetching instructions, Telnyx always includes these parameters:
-
-| Parameter | Description | Example |
-|-----------|-------------|--------|
-| AccountSid | User's Telnyx account ID | `6a9a7976-012e-45d2-9258-6f5dc68d861e` |
-| CallSid | Unique call identifier | `fcc47bc6-e428-11ed-ad79-02420aef00b4` |
-| CallSidLegacy | Legacy call ID for backward compatibility | same as CallSid |
-| CallerId | Caller identifier | `+13122010091` |
-| CallingPartyType | `sip` or `pstn` | `sip` |
-| From | Initiating phone number | `+13122010091` |
-| FromSipUri | Caller SIP URI | `+13122010091@10.239.182.10` |
-| To | Receiving phone number | `+13122010090` |
-| ToSipUri | Receiver SIP URI | `+13122010090@sip.telnyx.com` |
-| ConnectionId | Telnyx connection ID | `1568109700606592442` |
-
-Parameters are sent as URL query parameters (GET) or form-encoded body data (POST). The application should respond with valid TeXML (a `<Response>` root element, HTTP 200) without exceeding size limits.
-
-## TeXML Bin
-
-TeXML Bin allows uploading TeXML files to Telnyx storage for use in call flows without needing an application server. Create and manage TeXML Bin files from the Mission Control Portal under Voice → Settings → TeXML Bin.
-
-### Quickstart Workflow
-
-1. **Create your XML** — Use the TeXML editor in the portal to write instructions, for example a simple voicemail:
-   ```xml
-   <?xml version="1.0" encoding="UTF-8"?>
-   <Response>
-     <Say>Thank you for calling YYZ co. Please leave a message.</Say>
-     <Record playBeep="true" finishOnKey="*9" />
-   </Response>
-   ```
-   Or a simple call forward:
-   ```xml
-   <?xml version="1.0" encoding="UTF-8"?>
-   <Response>
-     <Dial>
-       <Sip>ext1@sip.xyzco.com</Sip>
-       <Sip>ext3@sip.xyzco.com</Sip>
-       <Sip>ext4@sip.xyzco.com</Sip>
-     </Dial>
-   </Response>
-   ```
-2. **Set up the application** — In Mission Control, select the TeXML Bin script from the drop-down in your TeXML Application.
-3. **Test** — Assign a phone number to the application, dial it, and verify the behavior.
+- `GET /v2/recordings/:recording_id/transcriptions` — List all transcriptions for a recording
+- `GET /v2/recordings/:recording_id/transcriptions/:id` — Get details of a specific recording transcription
+- `DELETE /v2/recordings/:recording_id/transcriptions/:id` — Delete a recording transcription

@@ -1,137 +1,137 @@
 ---
 title: 'Fanvil IP Phones: Telnyx Setup'
-summary: Configure a Telnyx SIP trunk on Fanvil IP phones across the H-series (H2U,
-  H3, H3W, H5W, H5), A32i, X-series (X1/X1P, X2CP/X2C/X2P, X7, general X-series),
-  XU-series (X3U/X4U/X5U/X6U), and V-series (V62/V64/V65/V67). All models share the
-  same core SIP settings, codec preferences, and optional TLS configuration, though
-  the web GUI layout and field names vary slightly between firmware generations.
+summary: Step-by-step Telnyx setup guides for the Fanvil X4/X4G, X2C/X2P/X2CP, X7
+  series, V-series, X-series, and XU series IP phones, covering SIP trunk configuration,
+  codec selection, and optional TLS encryption.
 sources:
-- url: https://support.telnyx.com/en/articles/6056428-fanvil-a32i-telnyx-setup
-- url: https://support.telnyx.com/en/articles/6202755-fanvil-h2u-compact-ip
-- url: https://support.telnyx.com/en/articles/6202965-fanvil-h3-hotel-ip
-- url: https://support.telnyx.com/en/articles/6203347-fanvil-h3w-h5w-wifi-ip
-- url: https://support.telnyx.com/en/articles/6203401-fanvil-h5-hotel-ip
-- url: https://support.telnyx.com/en/articles/6206533-fanvil-x1-x1p-ip-phone
+- url: https://support.telnyx.com/en/articles/5811487-fanvil-x4g-telnyx-setup
 - url: https://support.telnyx.com/en/articles/6206756-fanvil-x2cp-x2c-x2p-call-center-ip
 - url: https://support.telnyx.com/en/articles/6209215-fanvil-x7-series-ip-phones
 - url: https://support.telnyx.com/en/articles/6209862-fanvil-v-series-ip-phones
 - url: https://support.telnyx.com/en/articles/6209971-fanvil-x-series-ip-phone
 - url: https://support.telnyx.com/en/articles/6210147-fanvil-xu-series-ip-phone
-updated_at: 2026-06-11T11:29:47Z
+updated_at: 2026-08-05T13:36:31Z
 ---
 
 # Fanvil IP Phones: Telnyx Setup
 
 *Part 1 of 2 — see also: [Part 2](fanvil-ip-phones-telnyx-setup--part-2.md)*
 
-Configure a Telnyx SIP trunk on Fanvil IP phones across the H-series (H2U, H3, H3W, H5W, H5), A32i, X-series (X1/X1P, X2CP/X2C/X2P, X7, general X-series), XU-series (X3U/X4U/X5U/X6U), and V-series (V62/V64/V65/V67). All models share the same core SIP settings, codec preferences, and optional TLS configuration, though the web GUI layout and field names vary slightly between firmware generations.
+Step-by-step Telnyx setup guides for the Fanvil X4/X4G, X2C/X2P/X2CP, X7 series, V-series, X-series, and XU series IP phones, covering SIP trunk configuration, codec selection, and optional TLS encryption.
 
-## Supported Phone Models
+## Overview
 
-The following Fanvil IP phone models can be configured with a Telnyx SIP trunk using the instructions on this page.
+Telnyx supports a wide range of Fanvil IP desk phones. This page consolidates the setup instructions for the following Fanvil models and series:
 
-| Series | Models | Key Features |
-|---|---|---|
-| A-Series | A32i | Android console, 10.1″ touch screen, 20 SIP lines, gooseneck mic, optional CM60 camera |
-| H-Series | H2U | Compact, 2 SIP lines, 10 speed dial keys, PoE |
-| H-Series | H3 | Hotel, 6 programmable keys, PoE, USB charging |
-| H-Series | H3W | WiFi hotel, 2 SIP lines, built-in 2.4G WiFi, PoE |
-| H-Series | H5W | WiFi hotel, 3.5″ color screen, H.264 video decoding, PoE |
-| H-Series | H5 | Hotel, 3.5″ color screen, 6 programmable keys, PoE |
-| X-Series | X1/X1P | Entry-level, 2 lines, backlight lattice display, PoE |
-| X-Series | X2CP/X2C/X2P | Call center, HD voice, EHS, pedal switch, supervision |
-| X-Series | X7/X7C/X7A | High-end enterprise, 20 SIP lines, touch screen, WiFi, Bluetooth |
-| X-Series | General X-series | Covers remaining X-models (excl. X4/X4G and X2C/X2CP) |
-| XU-Series | X3U/X3U Pro/X4U/X5U/X6U | Enterprise/high-end, HD audio, Opus, color displays, PoE |
-| V-Series | V62/V64/V65/V67 | Business/flagship, HD audio/video, Opus, WiFi, Bluetooth |
+- **Fanvil X4/X4G** — 4-line IP phone with dual 10/100 Mbps (X4G: 10/100/1000 Mbps) network ports, integrated PoE, and a second DSS color screen supporting up to 30 DSS keys. See the [Fanvil X4/X4G product page](https://www.fanvil.com/Product/info/id/72.html).
+- **Fanvil X2C/X2P/X2CP** — Call center IP phones with HD voice, EHS, supervision, LED buttons, and a foot pedal switch. The X2CP supports 2 lines; the X2C/X2P features a 2.8" 320x240 color LCD. See the [X2CP product page](https://www.fanvil.com/Product/info/id/96.html) and the [X2C/X2P product page](https://www.fanvil.com/Product/info/id/64.html).
+- **Fanvil X7 series** — High-end enterprise phones including the X7 (20 SIP lines, 7" capacitive touch, 127 DSS keys, Bluetooth, Wi-Fi), X7C (20 SIP lines, 5" color screen, 60 DSS keys), and X7A (Android 9.0, 20 SIP lines, 7" color touchscreen, 112 DSS keys, optional CM60 USB camera). See the [X7](https://www.fanvil.com/Product/info/id/93.html), [X7C](https://www.fanvil.com/Product/info/id/94.html), and [X7A](https://www.fanvil.com/Product/info/id/124.html) product pages.
+- **Fanvil V-series** — Includes the V67 flagship smart video phone (adjustable 7" touchscreen, HD video, 10-party audio conferencing, Miracast), V65 prime business phone (adjustable 4.3" touchscreen, 6-party audio conferencing), V64 prime business phone (3.5" color LCD), and V62 essential business phone (graphical dot-matrix screen). See the [V67](https://www.fanvil.com/Product/info/id/157.html), [V65](https://www.fanvil.com/Product/info/id/158.html), [V64](https://www.fanvil.com/Product/info/id/159.html), and [V62](https://www.fanvil.com/Product/info/id/160.html) product pages.
+- **Fanvil X-series** — Covers all X-series IP phones except the X4/X4G and X2C/X2CP. See the [Fanvil X-series product index](https://fanvil.com/products/p1/x/index.html).
+- **Fanvil XU series** — Includes the X6U (4.3" main LCD plus two 2.4" side LCDs, 60 DSS keys), X5U (3.5" main LCD plus one 2.4" side LCD, 60 DSS keys), X4U (2.8" main LCD plus one 2.4" side LCD, 12 SIP lines, 30 DSS keys), X3U (2.8" color LCD, 6 SIP lines), and X3U Pro (2.8" color display, 6 SIP lines, 2 DSS keys). See the [X6U](https://www.fanvil.com/Product/info/id/106.html), [X5U](https://www.fanvil.com/Product/info/id/108.html), [X4U](https://www.fanvil.com/Product/info/id/109.html), [X3U](https://www.fanvil.com/Product/info/id/110.html), and [X3U Pro](https://www.fanvil.com/Product/info/id/142.html) product pages.
 
-## Prerequisites
+## Pre-requisites
 
-Before configuring your Fanvil phone, ensure the following:
+Before configuring any Fanvil phone with Telnyx:
 
-- Your [Telnyx Mission Control Portal](telnyx-mission-control-portal.md) account is properly set up.
-- **Recommended:** Enable TLS to encrypt your SIP traffic.
-- Your phone is running the latest firmware from [Fanvil's support site](https://www.fanvil.com/Support/index.html).
-- You can log into the phone's web GUI. Default credentials vary by model:
-  - **H2U, H3, H3W, H5W:** Username `admin`, Password `admin`
-  - **A32i:** Refer to section 7.7 (Web Management) of the [user manual](https://fanvil.com.hk/wp-content/uploads/2021/09/A32i-Android-Console-IP-Phone-A32i-User-Manual.pdf)
-  - **H5:** Refer to page 13 of the [user manual](https://www.fanvil.com/Uploads/Temp/download/20201110/5faa5e5b85b05.pdf)
-  - **X1/X1P:** Refer to page 15 (Section 4.4) of the [user manual](https://www.fanvil.com/Uploads/Temp/download/20201109/5fa90afc7ca32.pdf)
-  - **Other models:** Refer to the Web Management or Web Portal section of the respective user manual
+- Ensure that your Telnyx Mission Control Portal is configured properly.
+- RECOMMENDED: Enable TLS to encrypt your traffic.
+- Make sure your phone is running the latest firmware (see the Additional Resources section for each model).
+- Make sure you can log into the web GUI. Refer to the Web Management section of your phone's user manual for instructions.
 
-You can also configure the SIP trunk directly on the phone screen (e.g., **Phone Settings > Account > Line** on the A32i; long-press a line key to access line config). The default PIN is `123` when prompted on-device.
+## Fanvil X4/X4G Setup
 
-## Configure a SIP Trunk
+### Get your phone's IP address
 
-All Fanvil models use the same core SIP parameters. The web GUI organises them differently depending on firmware generation. Identify which layout your phone uses and follow the corresponding steps below.
+1. From your IP phone go to **OK > Status > IP Address** to obtain its IP address.
+2. From a computer on the same physical network, open a web browser and enter this IP address. Prepend it with `http://`.
+3. Log in for the first time with the following default credentials (change them after first login):
+   - **Username:** `admin`
+   - **Password:** `admin`
 
-### Layout A — Register Settings + SIP Server 1
+### Create a SIP account in the Fanvil web portal
 
-Applies to: **A32i, H2U, H3, H3W, H5W, X7/X7C/X7A, V-series, general X-series, XU-series**
+1. Click on **Lines** in the left-hand menu.
+2. Click on the **SIP** tab and provide the following:
+   - **Username:** Your Telnyx account username
+   - **Display name:** Your caller ID. Use capital letters, no special characters (spaces are allowed), and keep under 15 characters for Canadian providers.
+   - **Authentication name:** Your Telnyx account username
+   - **Authentication Password:** Your Telnyx account password
+   - **Server Name:** `sip.telnyx.com`
+   - **Register Address:** `sip.telnyx.com`
+   - **Register Port:** `5060` for UDP, `5061` for TLS
+   - **Proxy Server Address:** `sip.telnyx.com`
+   - **Backup Proxy Server Address:** `sip.telnyx.com`
+   - **Backup Proxy Server Port:** `5060` for UDP, `5061` for TLS
+   - **Activate:** Check this box to activate
+3. Click **Apply**.
+4. Refresh the page to ensure that your new SIP account shows as registered.
 
-1. Log into the web GUI and navigate to **Line > SIP**.
+## Fanvil X2C/X2P/X2CP, X7 Series, V-Series, X-Series, and XU Series Setup
+
+The configuration steps for these models are nearly identical. The X2C/X2P/X2CP uses a slightly older interface layout (Basic Settings section), while the X7 series, V-series, X-series, and XU series use the Register Settings section. Both flows are documented below.
+
+### Configure a line with a Telnyx SIP trunk
+
+1. Log into your web GUI and navigate to **Line > SIP**.
 2. Use the **Line** dropdown to select a SIP line to configure.
-3. In the **Register Settings** section, fill in:
-   - **Username:** Your SIP connection username (see [SIP Connection Types](sip-connection-types.md) Credentials Connection Setup)
-   - **Display Name:** Your caller ID. Use capital letters; no special characters (spaces are allowed). Some Canadian providers truncate to 15 characters.
-   - **Realm:** The realm to which the SIP interface is connected.
-   - **Authentication Name / Authentication User:** Your SIP connection username.
-   - **Authentication Password:** Your SIP connection password.
-   - **Server Name:** `sip.telnyx.com` (for international addresses, see [Telnyx signaling addresses](https://sip.telnyx.com/#signaling-addresses))
-4. In the **SIP Server 1** sub-section:
-   - **Server Address:** `sip.telnyx.com` (for international, see [signaling addresses](https://sip.telnyx.com/#signaling-addresses))
-   - **Server Port:** `5060` for TCP/UDP; `5061` for TLS
-   - **Transport Protocol:** `TCP` or `UDP` (use `TLS` only if encryption is enabled in your Telnyx portal)
-   - **Proxy Server Address** (A32i only): `sip.telnyx.com`
-5. Optionally configure **SIP Server 2** for redundancy.
 
-### Layout B — Basic Settings + Advanced Settings
+**For the X2C/X2P/X2CP (Basic Settings section):**
 
-Applies to: **H5, X1/X1P, X2CP/X2C/X2P**
+- **Username:** The SIP connection username.
+- **Display Name:** Your caller ID. Use capital letters, no special characters (spaces are allowed), and keep under 15 characters for Canadian providers.
+- **Authentication Name:** The SIP connection username.
+- **Authentication Password:** The SIP connection password.
+- **SIP Proxy Server Address:** `sip.telnyx.com` (also used as outbound proxy and backup proxy server address)
+- **SIP Proxy Server Port:** `5060` for TCP/UDP, `5061` for TLS
+- **Outbound Proxy Address:** `sip.telnyx.com`
+- **Outbound Proxy Port:** `5060` for TCP/UDP, `5061` for TLS
+- **Realm:** Enter the name of the realm to which the SIP interface is connected.
 
-1. Log into the web GUI and navigate to **Line > SIP**.
-2. Use the **Line** dropdown to select a SIP line to configure.
-3. In the **Basic Settings** section, fill in:
-   - **Username:** Your SIP connection username
-   - **Display Name:** Your caller ID (same conventions as above)
-   - **Authentication Name:** Your SIP connection username
-   - **Authentication Password:** Your SIP connection password
-   - **SIP Proxy Server Address / SIP Proxy Address:** `sip.telnyx.com` (this also serves as the outbound and backup proxy address where applicable)
-   - **SIP Proxy Port:** `5060` for TCP/UDP; `5061` for TLS
-   - **Outbound Proxy Address:** `sip.telnyx.com`
-   - **Outbound Proxy Port:** `5060` for TCP/UDP; `5061` for TLS
-   - **Realm:** The realm to which the SIP interface is connected
-4. In the **Advanced Settings** sub-section:
+**For the X7 series, V-series, X-series, and XU series (Register Settings section):**
+
+- **Username:** The SIP connection username.
+- **Display Name:** Your caller ID. Use capital letters, no special characters (spaces are allowed), and keep under 15 characters for Canadian providers.
+- **Realm:** Enter the name of the realm to which the SIP interface is connected.
+- **Authentication Name:** The SIP connection username.
+- **Authentication Password:** The SIP connection password.
+- **Server Name:** `sip.telnyx.com`
+
+**SIP Server 1 sub-section (X7 series, V-series, X-series, XU series):**
+
+- **Server Address:** `sip.telnyx.com`
+- **Server Port:** `5060` for TCP/UDP, `5061` for TLS
+- **Transport Protocol:** Choose `TCP` or `UDP` unless you are encrypting traffic and have set up encryption on your Telnyx portal. In this case, choose `TLS`.
+
+![Register Settings section of the Web GUI.](_images/4824a0b4d660ea0c.png)
+
+You can optionally configure the **SIP Server 2** section as well.
+
+### Configure voice and video settings
+
+1. From the line you configured, expand the **Codecs Settings** section.
+2. Set the priority and availability of audio and video codecs by adding or removing them from the list. Telnyx supports the following codecs:
+
+**Audio:**
+
+- `ulaw(g711u)`
+- `alaw(g711a)`
+- `g722`
+- `g729`
+
+**Video:**
+
+- `H264`
+
+### (Optional) Upload a TLS certificate
+
+If you are encrypting traffic with TLS, you'll need to upload a TLS certificate.
+
+1. In the **Lines > SIP section**, find the **Advanced Settings** sub-section:
    - **DTMF Type:** `RFC 2833`
-   - **Transport Protocol / Transportation Protocol:** `TCP` or `UDP` (use `TLS` only if encryption is enabled in your Telnyx portal)
-     - If using TLS, go to **Lines > Dial Peer** and change the **Port** setting to `5061`.
-   - **SIP Encryption** (H5): Enable if using TLS; obtain a key from [crt.sh](https://crt.sh/?id=1199354)
-   - **RTP Encryption** (X1/X1P, X2CP/X2C/X2P): Optionally enable if using TLS; obtain a key from [crt.sh](https://crt.sh/?id=1199354)
-
-## Configure Voice and Video Codecs
-
-After configuring the SIP line, set the codec priorities:
-
-1. Expand the **Codecs Settings** section for the line you just configured.
-2. Add or remove codecs to match Telnyx's supported list and set priority order:
-
-   **Audio codecs:**
-   - `ulaw (g711u)`
-   - `alaw (g711a)`
-   - `g722`
-   - `g729`
-
-   **Video codec:**
-   - `H264`
-
-## Upload a TLS Certificate (Optional)
-
-If you are encrypting traffic with TLS, upload a certificate. This applies to **X1/X1P, X2CP/X2C/X2P, X7 series, V-series, general X-series, and XU-series**.
-
-1. In **Lines > SIP**, find the **Advanced Settings** sub-section and confirm:
-   - **DTMF Type:** `RFC 2833`
-   - **Transportation Protocol:** `TLS`
-   - If encrypting traffic, go to **Lines > Dial Peer** and change the **Port** to `5061`.
-   - **RTP Encryption:** Optionally enable; obtain a key from [crt.sh](https://crt.sh/?id=1199354)
-2. Navigate to **Line > Basic Settings**, find the **STUN Settings** section, and set:
-   - **TLS Certification File:** Obtain a certificate from [crt.sh](https://crt.sh/?id=1199354)
+   - **Transportation Protocol:** Choose `TCP` or `UDP` unless you are encrypting traffic and have set up encryption on your Telnyx portal. In this case, choose `TLS`.
+     - Note: If you are encrypting traffic, you'll need to go into **Lines > Dial Peer** and make sure the **Port** setting is changed to `5061`.
+   - **RTP Encryption:** (Optional) Enable this if you're using TLS.
+   - **RTP Encryption Key:** (Optional) Obtain a key from [crt.sh](https://crt.sh/?id=1199354).
+2. Navigate to **Line > Basic Settings** and find the **STUN Settings** section and set:
+   - **TLS Certification File:** Obtain a certificate from [crt.sh](https://crt.sh/?id=1199354).

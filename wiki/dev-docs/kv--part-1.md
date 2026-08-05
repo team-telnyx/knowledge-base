@@ -1,249 +1,152 @@
 ---
 title: KV
-summary: KV is a globally distributed key-value store designed for low-latency reads
-  from Telnyx edge functions. It supports namespace isolation, TTL-based expiration,
-  JSON metadata, and eventual consistency with read-after-write guarantees within
-  the same region.
+summary: KV is a globally distributed key-value store built for read-heavy edge workloads
+  such as session data, cached responses, and feature flags. It stores opaque bytes
+  under string keys and is reachable from TypeScript edge functions via an `env` binding
+  or from any language via the REST API.
 sources:
 - url: https://developers.telnyx.com/docs/edge-compute/kv
-- url: https://developers.telnyx.com/docs/edge-compute/kv/api-reference
+- url: https://developers.telnyx.com/docs/edge-compute/kv/best-practices
 - url: https://developers.telnyx.com/docs/edge-compute/kv/cli
-- url: https://developers.telnyx.com/docs/edge-compute/kv/pricing
-- url: https://developers.telnyx.com/docs/edge-compute/kv/quick-start/index
+- url: https://developers.telnyx.com/docs/edge-compute/kv/concepts/how-kv-works/index
+- url: https://developers.telnyx.com/docs/edge-compute/kv/examples/api-response-caching
+- url: https://developers.telnyx.com/docs/edge-compute/kv/examples/feature-flags
+- url: https://developers.telnyx.com/docs/edge-compute/kv/examples/session-storage/index
+- url: https://developers.telnyx.com/docs/edge-compute/kv/pricing/index
+- url: https://developers.telnyx.com/docs/edge-compute/kv/quick-start
+- url: https://developers.telnyx.com/docs/edge-compute/kv/reference/index
+- url: https://developers.telnyx.com/docs/edge-compute/kv/reference/kv-namespace
 - url: https://developers.telnyx.com/docs/edge-compute/kv/ttl-and-metadata
-- url: https://developers.telnyx.com/docs/edge-compute/kv/use-cases
-updated_at: 2026-06-11T10:27:17Z
+updated_at: 2026-08-05T13:41:30Z
 ---
 
 # KV
 
-*Part 1 of 2 — see also: [Part 2](kv--part-2.md)*
+*Part 1 of 4 — see also: [Part 2](kv--part-2.md), [Part 3](kv--part-3.md), [Part 4](kv--part-4.md)*
 
-KV is a globally distributed key-value store designed for low-latency reads from Telnyx edge functions. It supports namespace isolation, TTL-based expiration, JSON metadata, and eventual consistency with read-after-write guarantees within the same region.
+KV is a globally distributed key-value store built for read-heavy edge workloads such as session data, cached responses, and feature flags. It stores opaque bytes under string keys and is reachable from TypeScript edge functions via an `env` binding or from any language via the REST API.
 
 ## Overview
 
-KV provides the following capabilities:
+KV is a globally distributed key-value store: you write bytes under a string key and read them back, fast, from anywhere. It is built for read-heavy edge workloads — session data, cached responses, feature flags, and other small values a function needs on every request.
 
-- **Low-latency reads** — Data accessible from edge locations worldwide
-- **Simple API** — `get`, `put`, `delete`, `list` operations
-- **Namespace isolation** — Separate key spaces per application
-- **Binary-safe storage** — Store any data type (values are base64-encoded)
-- **Global distribution** — No region selection; KV is globally replicated
-- **TTL support** — Auto-expire keys after a specified duration (minimum 60 seconds)
-- **Metadata** — Attach JSON metadata to keys for filtering and context (max 1KB)
+A value is **opaque bytes**. You choose the serialization (text, JSON, binary); KV stores exactly what you send and returns it byte-for-byte. There is no envelope, no base64 encoding, and no server-side interpretation of the value.
 
-### Consistency Model
+## Two Ways to Use KV
 
-KV uses **eventual consistency**:
+The same namespaces and keys are reachable two ways. Pick based on where your code runs.
 
-- Writes are immediately visible in the region where they occur
-- Changes propagate globally within seconds
-- Read-after-write consistency is guaranteed within the same region
+| | `env` binding | REST API |
+| --- | --- | --- |
+| **Where** | Inside a TypeScript edge function | Anywhere — any language, any host |
+| **Auth** | Injected by the runtime; no API key in your code | Your `TELNYX_API_KEY` as a bearer token |
+| **Shape** | `env.<name>.get(...)`, `.put(...)`, `.delete(...)` | `GET`/`PUT`/`DELETE https://api.telnyx.com/v2/storage/kvs/{id}/keys/{key}` |
+| **Use it for** | Reads and writes on the request path from your function | Provisioning namespaces, non-TS runtimes, tooling, back-office scripts |
 
-For use cases requiring strong consistency, consider using [SQL DB](sql-db.md) instead.
+Both hit the same store, so a value written through the binding is immediately readable over REST and vice versa. The binding is a thin, pre-authenticated wrapper over the same REST endpoints — it just means your function never handles an API key.
+
+The `env` KV binding is **TypeScript-only** and requires `@telnyx/edge-runtime` ≥ 0.2.2. Go, JS, Python, and Quarkus functions use the REST API directly.
 
 ## Quick Start
 
-### 1. Create a Namespace
+### Create a Namespace
 
-CLI:
+A namespace is an isolated key space. Create one with the CLI or the API:
 
-```bash
+```
 telnyx-edge storage kv create --name my-cache
 ```
 
-API:
-
-```bash
+```
 curl -X POST https://api.telnyx.com/v2/storage/kvs \
   -H "Authorization: Bearer $TELNYX_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"name": "my-cache"}'
 ```
 
-Namespace creation is asynchronous. Poll the namespace endpoint until `status` changes from `pending` to `provision_ok`.
+The response includes the namespace `id` (a UUID). A new namespace starts in `status: "pending"` and isn't writable yet: writes return `409` (`"Namespace is not ready (status: pending)"`) until provisioning finishes, which typically takes a few seconds and can stretch to ~20. If you're scripting, poll `GET https://api.telnyx.com/v2/storage/kvs/{id}` until `"status": "provision_ok"` before your first write.
 
-### 2. Add to Your Function
+### Path A: The Function Binding
 
-Configure the binding in `func.toml`:
+Declare the namespace in `func.toml`. The block key is a name you choose — it becomes the property on `env`. This example uses `MY_KV`, so the binding is reached as `env.MY_KV`:
 
-```toml
+```
 [edge_compute]
 func_name = "my-function"
 
-[storage.kv.MY_CACHE]
-id = "550e8400-e29b-41d4-a716-446655440000"
+[storage.kv.MY_KV]
+id = "550e8400-e29b-41d4-a716-446655440000"  # Namespace ID from step 1
 ```
 
-The binding name is injected as environment variables. For a binding named `MY_CACHE`, the variable `KV_MY_CACHE_ID` contains the namespace ID.
+Add `@telnyx/edge-runtime` (≥ 0.2.2) to your `package.json` dependencies, then regenerate the environment types:
 
-### 3. Access KV in Your Code
-
-KV can be accessed via HTTP endpoints. Values must be base64-encoded. Examples in JavaScript:
-
-```javascript
-const KV_NAMESPACE_ID = process.env.KV_MY_CACHE_ID;
-const API_KEY = process.env.TELNYX_API_KEY;
-
-function toBase64(str) {
-    const bytes = new TextEncoder().encode(str);
-    let binary = '';
-    for (let i = 0; i < bytes.length; i++) {
-        binary += String.fromCharCode(bytes[i]);
-    }
-    return btoa(binary);
-}
-function fromBase64(b64) {
-    const binary = atob(b64);
-    const bytes = new Uint8Array(binary.length);
-    for (let i = 0; i < binary.length; i++) {
-        bytes[i] = binary.charCodeAt(i);
-    }
-    return new TextDecoder().decode(bytes);
-}
-
-async function kvGet(key) {
-    const response = await fetch(
-        `https://api.telnyx.com/v2/storage/kvs/${KV_NAMESPACE_ID}/keys/${encodeURIComponent(key)}`,
-        { headers: { "Authorization": `Bearer ${API_KEY}` } }
-    );
-    if (response.status === 404) return null;
-    if (!response.ok) throw new Error(`KV error: ${response.status}`);
-    const data = await response.json();
-    return fromBase64(data.data.value);
-}
-
-async function kvPut(key, value) {
-    const response = await fetch(
-        `https://api.telnyx.com/v2/storage/kvs/${KV_NAMESPACE_ID}/keys/${encodeURIComponent(key)}`,
-        {
-            method: "PUT",
-            headers: {
-                "Authorization": `Bearer ${API_KEY}`,
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({ value: toBase64(value) })
-        }
-    );
-    if (!response.ok) throw new Error(`KV write error: ${response.status}`);
-}
+```
+telnyx-edge types   # writes telnyx-env.d.ts — env.MY_KV is now a typed KvNamespace
 ```
 
-A native SDK is planned. The intended pattern:
+Each `[storage.kv.<NAME>]` block becomes `env.<NAME>: KvNamespace` in the generated `telnyx-env.d.ts` — declare as many namespaces as you need. KV type generation requires CLI **≥ v0.2.3**. The binding itself resolves at runtime from `func.toml` — types are for the compiler, and a stale `telnyx-env.d.ts` doesn't affect the deployed function.
 
-```javascript
-import Telnyx from 'telnyx';
-const client = new Telnyx({ apiKey: process.env.TELNYX_API_KEY });
+Use the binding in your code:
 
-const value = await client.storage.kvs.keys.get("kv-abc123", "user:123");
-await client.storage.kvs.keys.put("kv-abc123", "user:123", {
-  value: "data",
-  expirationTtl: 3600,
-  metadata: { type: "session" }
-});
+```
+import { env } from "@telnyx/edge-runtime";
+
+// Write — value is stored verbatim (UTF-8 preserved)
+await env.MY_KV.put("user/123", JSON.stringify({ name: "Alice 👋" }));
+
+// Read as text -> '{"name":"Alice 👋"}'  (null if the key is missing)
+const raw = await env.MY_KV.get("user/123");
+
+// Read and JSON.parse in one step -> { name: "Alice 👋" }  (null if missing)
+const user = await env.MY_KV.get<{ name: string }>("user/123", { type: "json" });
+
+// Write with a server-side TTL — the key deletes itself after ~60 seconds
+await env.MY_KV.put("otp/123", "482913", { expirationTtl: 60 });
+
+// Delete (idempotent — deleting a missing key is not an error)
+await env.MY_KV.delete("user/123");
 ```
 
-## API Reference
+### Path B: The REST API
 
-Base URL: `https://api.telnyx.com/v2/storage/kvs`
+Use this anywhere outside a TypeScript edge function — a non-TypeScript function (Go, JS, Python, Quarkus), your own backend, or tooling. Authenticate with your `TELNYX_API_KEY`. The value is the raw request/response body — no base64, no envelope.
 
-### Namespace Endpoints
+KV support landed in the official server SDKs in **telnyx-node ≥ 7.5.0**, **telnyx-python ≥ 4.166.0**, **telnyx-php ≥ 7.88.0**, **telnyx-ruby ≥ 5.152.0**, and **telnyx-go ≥ v4.85.0** — on earlier versions the `storage` resource is object storage (buckets) only. The Java SDK doesn't cover KV yet; call the endpoints over plain HTTP.
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/v2/storage/kvs` | Create a new namespace |
-| GET | `/v2/storage/kvs` | List all namespaces |
-| GET | `/v2/storage/kvs/{id}` | Get namespace details |
-| DELETE | `/v2/storage/kvs/{id}` | Delete a namespace |
+```
+# Write — the request body is stored verbatim (no base64, no envelope)
+curl -X PUT "https://api.telnyx.com/v2/storage/kvs/$KV_NAMESPACE_ID/keys/user/123" \
+  -H "Authorization: Bearer $TELNYX_API_KEY" \
+  --data-binary '{"name":"Alice 👋"}'
 
-### Key-Value Endpoints
+# Read — the response body is the raw stored value (404 if the key doesn't exist)
+curl "https://api.telnyx.com/v2/storage/kvs/$KV_NAMESPACE_ID/keys/user/123" \
+  -H "Authorization: Bearer $TELNYX_API_KEY"
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| PUT | `/v2/storage/kvs/{id}/keys/{key}` | Write a value |
-| GET | `/v2/storage/kvs/{id}/keys/{key}` | Read a value |
-| DELETE | `/v2/storage/kvs/{id}/keys/{key}` | Delete a key |
-| GET | `/v2/storage/kvs/{id}/keys` | List keys |
+# Write with a server-side TTL — the key deletes itself after ~60 seconds
+curl -X PUT "https://api.telnyx.com/v2/storage/kvs/$KV_NAMESPACE_ID/keys/otp/123?ttl_secs=60" \
+  -H "Authorization: Bearer $TELNYX_API_KEY" \
+  --data-binary '482913'
 
-### Namespace Status
+# Delete (idempotent — deleting a missing key is not an error)
+curl -X DELETE "https://api.telnyx.com/v2/storage/kvs/$KV_NAMESPACE_ID/keys/user/123" \
+  -H "Authorization: Bearer $TELNYX_API_KEY"
 
-| Status | Description |
-|--------|-------------|
-| `pending` | Provisioning in progress |
-| `provision_ok` | Ready to use |
-| `provision_failed` | Provisioning failed |
-| `deleting` | Deletion in progress |
-| `delete_failed` | Deletion failed |
-| `deleted` | Fully removed (returns 404) |
+# List keys by prefix — returns key names and metadata, never values
+curl "https://api.telnyx.com/v2/storage/kvs/$KV_NAMESPACE_ID/keys?prefix=user/&limit=100" \
+  -H "Authorization: Bearer $TELNYX_API_KEY"
+```
 
-### Write Options
+`list` returns key names and per-key metadata, never values:
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `value` | string | Base64-encoded value (required) |
-| `expiration_ttl` | integer | Seconds until key expires (minimum: 60) |
-| `expiration` | integer | Unix timestamp when key expires |
-| `metadata` | object | JSON metadata to attach to key (max 1KB) |
-
-### Read Response
-
-The read response returns a JSON object. The `value` field is base64-encoded. The `expiration` and `metadata` fields are only present if they were set on the key:
-
-```json
+```
 {
-  "data": {
-    "key": "my-key",
-    "value": "SGVsbG8gV29ybGQ=",
-    "metadata": { "type": "user", "created_by": "signup-flow" },
-    "expiration": 1704067200
-  }
+  "record_type": "storage_kv_key",
+  "data": [{ "key": "user/123", "size_bytes": 21, "updated_at": "2026-06-18T14:48:17.475129983Z" }],
+  "meta": { "has_more": false }
 }
 ```
 
-### List Keys Query Parameters
+When `meta.has_more` is `true`, pass the returned `meta.cursor` back as `?cursor=` (in the SDKs, the `cursor` parameter) to fetch the next page — key listing does not auto-paginate in any SDK.
 
-- `prefix` — Filter keys by prefix
-- `page[number]` — Page number (default: 1)
-- `page[size]` — Results per page (default: 20, max: 250)
-
-When using curl, pass the `-g` flag to disable glob parsing so square brackets in `page[size]` work correctly.
-
-## CLI Reference
-
-Manage KV namespaces and keys using the `telnyx-edge` CLI.
-
-### Namespace Management
-
-```bash
-# List all namespaces
-telnyx-edge storage kv list
-
-# Create a namespace
-telnyx-edge storage kv create --name my-cache
-
-# Delete a namespace
-telnyx-edge storage kv delete <namespace-id>
-```
-
-### Key Operations
-
-```bash
-# List keys in a namespace
-telnyx-edge storage kv key list <namespace-id>
-
-# Get a value
-telnyx-edge storage kv key get <namespace-id> <key>
-
-# Put a value
-telnyx-edge storage kv key put <namespace-id> <key> "value"
-
-# Put a value with TTL (expires in 3600 seconds)
-telnyx-edge storage kv key put <namespace-id> <key> "value" --ttl 3600
-
-# Put a value with metadata
-telnyx-edge storage kv key put <namespace-id> <key> "value" --metadata '{"type":"session"}'
-
-# Delete a key
-telnyx-edge storage kv key delete <namespace-id> <key>
-```
+Inside an edge function, the org binding injects `TELNYX_API_KEY` (and a base-URL proxy) at runtime, so REST calls from a function authenticate without you shipping a key.

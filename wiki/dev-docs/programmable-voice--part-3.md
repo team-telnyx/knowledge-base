@@ -1,98 +1,52 @@
 ---
 title: Programmable Voice
-summary: A comprehensive guide to Telnyx Programmable Voice features including AI
-  assistants, conversational AI, answering machine detection, deepfake detection,
-  conferencing, call center and call tracking applications, and command reliability
-  patterns.
+summary: The Telnyx Programmable Voice API enables you to integrate voice calling
+  capabilities into your applications, providing flexible inbound and outbound call
+  control, real-time webhooks, and advanced features such as Conversation Relay, Deepfake
+  Detection, Dialogflow ES integration, and AI-driven gather flows.
 sources:
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/ai-assistant-start
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/answering-machine-detection
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/call-center
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/call-tracking
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/command-retries
-- url: https://developers.telnyx.com/docs/voice/programmable-voice/conferencing-demo
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/conversation-relay
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/deepfake-detection
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/dialogflow-es
 - url: https://developers.telnyx.com/docs/voice/programmable-voice/gather-using-ai/index
-updated_at: 2026-06-11T10:41:58Z
+- url: https://developers.telnyx.com/docs/voice/programmable-voice/get-started/index
+updated_at: 2026-08-05T14:03:33Z
 ---
 
 # Programmable Voice
 
 *Part 3 of 4 — see also: [Part 1](programmable-voice--part-1.md), [Part 2](programmable-voice--part-2.md), [Part 4](programmable-voice--part-4.md)*
 
-A comprehensive guide to Telnyx Programmable Voice features including AI assistants, conversational AI, answering machine detection, deepfake detection, conferencing, call center and call tracking applications, and command reliability patterns.
-
-## Answering Machine Detection
-
-Outbound calls placed with the Voice API can be enabled with Answering Machine Detection (AMD). When a call is answered, Telnyx runs real-time detection to determine if it was picked up by a human or a machine and sends webhooks with the result.
-
-### AMD Settings
-
-Set the `answering_machine_detection` value when creating an outbound call or transferring an inbound call:
-
-| Setting | Description | Webhooks Sent |
-| --- | --- | --- |
-| `detect` | Only detect if answering machine or human. | `call.machine.detection.ended` |
-| `detect_beep` | Listens for a final "beep" after detecting a `machine`. | `call.machine.detection.ended` and `call.machine.greeting.ended` (only if beep detected) |
-| `detect_words` | After a `machine` is detected, a 30-second beep detection begins. | `call.machine.detection.ended` and `call.machine.greeting.ended` |
-| `greeting_end` | Listens for extended silence or a beep to determine if the greeting has ended. | `call.machine.detection.ended` and `call.machine.greeting.ended` |
-| `premium` | **Recommended.** Uses advanced speech recognition and machine learning for exceptional accuracy. | `call.machine.premium.detection.ended` and optionally `call.machine.premium.greeting.ended` |
-| `premium_ios_call_screening_detection` | Premium AMD with Apple Call Screening support. | `call.machine.premium.detection.ended`, `call.machine.premium.greeting.ended`, and `call.machine.premium.call_screening.detected` |
-
-### Standard AMD Webhooks
-
-**`call.machine.detection.ended`** — Sent when Telnyx can determine human or machine. Results: `human`, `machine`, or `not_sure` (recommended to treat as human).
-
-**`call.machine.greeting.ended`** — Sent when the prompt or beep detection finishes. Results: `ended` (greeting over, `greeting_end` only), `beep_detected` (`detect_beep`/`detect_words`), or `not_sure` (30-second timeout).
-
-### Premium AMD Webhooks
-
-**`call.machine.premium.detection.ended`** — Results include: `human_residence`, `human_business`, `machine`, `silence`, `fax_detected`, or `not_sure`. The `total_analysis_time_millis` setting (default 30 seconds) controls the detection timeout; if reached, the result is `not_sure`.
-
-**`call.machine.premium.greeting.ended`** — Sent only if a machine answered. Results: `beep_detected` (beep heard), `no_beep_detected` (timeout reached without beep), or `prompt_ended` (iOS call-screening prompt ended without beep, `premium_ios_call_screening_detection` only).
-
-**`call.machine.premium.call_screening.detected`** — Sent when an Apple Call Screening tone is detected (result: `screening`). Telnyx then restarts Premium AMD; expect another `call.machine.premium.detection.ended` webhook.
-
-### iOS Call Screening Detection
-
-When `premium_ios_call_screening_detection` is set, Telnyx first runs Premium AMD. If the initial result is `machine`, Telnyx listens for the iOS call-screening prompt. Use `answering_machine_detection_config.prompt_end_timeout_millis` to control the maximum wait time (default 30000 ms; range 1000–120000 ms). When the screening prompt ends without a beep, the `prompt_ended` result signals your application to respond to the iOS screening prompt.
-
-### General Order of Operations
-
-1. Create outbound call.
-2. Receive `call.initiated` webhook.
-3. Receive `call.answered` webhook.
-4. Receive detection webhook with human/machine status.
-5. Receive greeting-ended webhook (when applicable).
-
-At any point the callee could hang up, generating a `call.hangup` webhook.
+The Telnyx Programmable Voice API enables you to integrate voice calling capabilities into your applications, providing flexible inbound and outbound call control, real-time webhooks, and advanced features such as Conversation Relay, Deepfake Detection, Dialogflow ES integration, and AI-driven gather flows.
 
 ## Deepfake Detection
 
-Deepfake Detection analyzes live call audio to determine whether the remote party's voice is human or AI-generated. It runs in the background with no impact on call audio or latency. Available on both outbound calls (Dial) and inbound calls (Answer).
+Telnyx Deepfake Detection analyzes live call audio to determine whether the remote party's voice is human or AI-generated. When enabled, audio is streamed in real time to a detection model that returns a classification result via webhook. Deepfake detection is available on both outbound calls (Dial) and inbound calls (Answer).
 
-### How It Works
+### How Deepfake Detection Works
 
 1. You enable `deepfake_detection` when dialing or answering a call.
 2. Telnyx streams the remote party's audio to the detection service.
-3. The service returns a result within the configured timeout.
-4. You receive a `call.deepfake_detection.result` or `call.deepfake_detection.error` webhook.
+3. The service analyzes audio frames and returns a result within the configured timeout.
+4. You receive a `call.deepfake_detection.result` webhook with the classification, or a `call.deepfake_detection.error` webhook if something went wrong.
+
+The call proceeds normally while detection runs in the background — there is no impact on call audio or latency.
 
 ### Configuration Parameters
 
 | Parameter | Type | Default | Range | Description |
 | --- | --- | --- | --- | --- |
 | `enabled` | boolean | `false` | — | Whether deepfake detection is enabled. |
-| `timeout` | integer | `15` | 5–60 | Maximum seconds to wait for a detection result. |
-| `rtp_timeout` | integer | `30` | 5–120 | Maximum seconds to wait for RTP audio. |
+| `timeout` | integer | `15` | 5–60 | Maximum seconds to wait for a detection result before timing out. |
+| `rtp_timeout` | integer | `30` | 5–120 | Maximum seconds to wait for RTP audio. If no audio arrives within this window, detection stops with an error. |
 
 ### Enabling on an Outbound Call
 
+Include the `deepfake_detection` object when creating an outbound call via the Dial command:
+
 ```
 curl -X POST https://api.telnyx.com/v2/calls \
-  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Authorization: Bearer $TELNYX_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
     "connection_id": "7267xxxxxxxxxxxxxx",
@@ -104,65 +58,158 @@ curl -X POST https://api.telnyx.com/v2/calls \
 
 ### Enabling on an Inbound Call
 
+Add `deepfake_detection` to the Answer command when picking up an incoming call:
+
 ```
-curl -X POST https://api.telnyx.com/v2/calls/{call_control_id}/actions/answer \
-  -H "Authorization: Bearer YOUR_API_KEY" \
+curl -X POST https://api.telnyx.com/v2/calls/$CALL_CONTROL_ID/actions/answer \
+  -H "Authorization: Bearer $TELNYX_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"deepfake_detection": {"enabled": true}}'
 ```
 
-### Result Webhook
+### Handling the Result Webhook
 
-The `call.deepfake_detection.result` webhook contains:
+When detection completes, you receive a `call.deepfake_detection.result` webhook:
 
-| Field | Description |
-| --- | --- |
-| `result` | `real` (human voice), `fake` (AI-generated), or `silence_timeout` (no analyzable speech). |
-| `score` | Probability the audio is AI-generated, 0.0–1.0. Null for `silence_timeout`. |
-| `consistency` | Percentage (0–100) of consistent classification across frames. Above 90% indicates high confidence. Null for `silence_timeout`. |
+```
+{
+  "record_type": "event",
+  "event_type": "call.deepfake_detection.result",
+  "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+  "occurred_at": "2025-06-15T14:30:27.521992Z",
+  "payload": {
+    "call_control_id": "v3:MdI91X4lWFEs7IgbBEOT9M4AigoY08M0WWZFISt1Yw2axZ_IiE4pqg",
+    "connection_id": "7267xxxxxxxxxxxxxx",
+    "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+    "call_session_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+    "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+    "result": "fake",
+    "score": 0.87,
+    "consistency": 94.5
+  }
+}
+```
 
-### Error Webhook
+Result fields:
 
-The `call.deepfake_detection.error` webhook includes an `error_message`:
+| Field | Type | Description |
+| --- | --- | --- |
+| `result` | string | `real` — human voice detected. `fake` — AI-generated voice detected. `silence_timeout` — no analyzable speech before timeout. |
+| `score` | float \| null | Probability the audio is AI-generated, from `0.0` (likely real) to `1.0` (likely deepfake). Null for `silence_timeout`. |
+| `consistency` | float \| null | Percentage (0–100) indicating how consistently the model classified the audio across frames. Values above 90% indicate high confidence. Null for `silence_timeout`. |
+
+### Handling Errors
+
+If detection fails, you receive a `call.deepfake_detection.error` webhook:
+
+```
+{
+  "record_type": "event",
+  "event_type": "call.deepfake_detection.error",
+  "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+  "occurred_at": "2025-06-15T14:30:27.521992Z",
+  "payload": {
+    "call_control_id": "v3:MdI91X4lWFEs7IgbBEOT9M4AigoY08M0WWZFISt1Yw2axZ_IiE4pqg",
+    "connection_id": "7267xxxxxxxxxxxxxx",
+    "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+    "call_session_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+    "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+    "error_message": "detection_timeout"
+  }
+}
+```
+
+Error types:
 
 | Error | Description |
 | --- | --- |
-| `detection_timeout` | No result within the configured `timeout`. |
-| `rtp_timeout` | No RTP audio within the configured `rtp_timeout`. |
+| `detection_timeout` | No detection result received within the configured `timeout`. |
+| `rtp_timeout` | No RTP audio received within the configured `rtp_timeout`. |
 | `dfd_connection_error` | Could not connect to the detection service. |
 | `dfd_stream_error` | Audio stream to the detection service failed. |
 
-### Best Practices
+### Best Practices for Deepfake Detection
 
-- Set appropriate timeouts. Increase if callers may take longer to start speaking.
-- Use `score` and `consistency` together. A high score with high consistency is a strong signal; high score with low consistency may warrant additional verification.
-- Handle errors gracefully — detection errors should not block the call.
+- **Set appropriate timeouts.** The default 15-second detection timeout works well for most calls. Increase it if callers may take longer to start speaking (for example, IVR prompts on the remote end).
+- **Use `score` and `consistency` together.** A high score with high consistency is a strong signal. A high score with low consistency may warrant additional verification rather than an immediate hangup.
+- **Handle errors gracefully.** Detection errors should not block the call. Design your application to fall through to normal call handling when detection is unavailable.
 
 ## Dialogflow ES Integration
 
-Telnyx integrates with Google Dialogflow ES to create sophisticated voice interactions. Audio from the call is sent to Dialogflow and the bot's response is played on the call.
+Telnyx's Dialogflow integration lets you create and manage sophisticated voice interactions with your customers. You can integrate your Dialogflow ES instance so that audio from the call is sent to it and the bot's response is played on the call.
 
-### Configuration
+### Getting Started
 
-Assign Dialogflow configuration to your Voice API application:
+Assign the Dialogflow configuration to your Voice API application using the following update request:
 
 ```
-curl -X POST https://api.telnyx.com/v2/dialogflow_connections/{connection_id} \
+curl -X POST \
   --header "Content-Type: application/json" \
+  --header "Accept: application/json" \
   --header "Authorization: Bearer YOUR_API_KEY" \
-  --data '{ "service_account": "GOOGLE_APPLICATION_CREDENTIALS" }'
+  --data '{ \
+    service_account: “GOOGLE_APPLICATION_CREDENTIALS” \
+  }' \
+  https://api.telnyx.com/v2/dialogflow_connections/{connection_id}
 ```
 
-The `GOOGLE_APPLICATION_CREDENTIALS` must be provided as encoded JSON. See [Google Dialogflow Setup](https://cloud.google.com/dialogflow/es/docs/quick/setup#sa-create).
+`GOOGLE_APPLICATION_CREDENTIALS` must be provided in the form of an encoded JSON. See the [Google Dialogflow Setup guide](https://cloud.google.com/dialogflow/es/docs/quick/setup#sa-create).
 
-### Enabling for Outbound Calls
+### Enabling Dialogflow for Outbound Calls
 
-Include `"enable_dialogflow": true` in the Dial request.
+```
+curl --location --request POST 'https://api.telnyx.com/v2/calls' \
+--header 'Authorization: Bearer YOUR_API_KEY' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+  "to":"+48662211095",
+  "from":"+13127367481",
+  "connection_id":"1714376719458109299",
+  "enable_dialogflow": true
+}'
+```
 
-### Enabling for Inbound Calls
+### Enabling Dialogflow for Inbound Calls
 
-Include `"enable_dialogflow": true` in the Answer command.
+```
+curl -X POST \
+  --header "Content-Type: application/json" \
+  --header "Accept: application/json" \
+  --header "Authorization: Bearer YOUR_API_KEY" \
+  --data '{"enable_dialogflow": true}' \
+  https://api.telnyx.com/v2/calls/{call_control_id}/actions/answer
+```
 
-### Webhooks
+When the integration is enabled, the audio provided by Dialogflow is played on the call, and the following webhook is delivered to the webhook URL:
 
-When enabled, Dialogflow response webhooks (`dialogflow.detectintent.response`) are delivered to your webhook URL, containing `fulfillment_messages`, `transcript`, `confidence`, and `is_final` fields.
+```
+{
+  "data": {
+      "event_type": "dialogflow.detectintent.response",
+      "id": "22cbf929-9a87-43ab-873b-b832ccf05a05",
+      "occurred_at": "2022-05-23T16:01:53.301413Z",
+      "payload": {
+        "call_control_id": "v2:WE_lbN28P-h81n4xeceODATcx9J-FYci6WO4hP3Gp9Sb789WivnkMw",
+        "call_leg_id": "a3dc0316-dab1-11ec-aaff-02420a0d6669",
+        "call_session_id": "a3cf4428-dab1-11ec-84a9-02420a0d6669",
+        "client_state": null,
+        "confidence": 1,
+        "connection_id": "1669581837548127492",
+        "fulfillment_messages": [{
+            "text": [
+              "Hi! I'm the virtual car rental agent. I can help you start a new car rental reservation. How can I assist you today?"
+            ]
+          }
+        ],
+        "is_final": true,
+        "stream_id": "eb724ae3-4f93-49d0-9ab5-c821b47c4fc5",
+        "transcript": "hello"
+    },
+    "record_type": "event"
+  },
+  "meta": {
+    "attempt": 1,
+    "delivered_to": "https://webhook.site/e437011a-bb4a-4f34-8060-30e6604c2cf6"
+  }
+}
+```

@@ -1,159 +1,162 @@
 ---
 title: Branded Calling
-summary: Branded Calling displays your verified business identity (name, logo, call
-  reason) on recipients' phones before they answer, increasing answer rates and building
-  trust. The product suite also includes Number Reputation, a standalone monitoring
-  tool that reports spam risk scores for your outbound numbers.
+summary: 'Branded Calling is a Telnyx product (currently in beta, US-only) that displays
+  a verified business identity — display name, logo, and call reason — on outbound
+  calls instead of a bare number or "Spam Likely". The feature is built on a CTIA-managed
+  industry registry and uses SHAKEN PASSporT tokens to deliver rich call data to supported
+  carriers and devices. This page covers the full lifecycle: registering an Enterprise,
+  accepting the Branded Calling Terms of Service, activating the product, creating
+  and vetting a Display Identity Record (DIR), attaching phone numbers in batches,
+  configuring call reasons, handling infringement claims, and pricing.'
 sources:
 - url: https://developers.telnyx.com/docs/branded-calling/bc-phone-numbers/index
 - url: https://developers.telnyx.com/docs/branded-calling/brands/index
 - url: https://developers.telnyx.com/docs/branded-calling/call-reasons/index
 - url: https://developers.telnyx.com/docs/branded-calling/enterprises/index
 - url: https://developers.telnyx.com/docs/branded-calling/infringement-claims/index
-- url: https://developers.telnyx.com/docs/branded-calling/number-reputation/index
-- url: https://developers.telnyx.com/docs/branded-calling/number-reputation/loa
-- url: https://developers.telnyx.com/docs/branded-calling/number-reputation/phone-numbers
-- url: https://developers.telnyx.com/docs/branded-calling/number-reputation/quickstart
-- url: https://developers.telnyx.com/docs/branded-calling/number-reputation/remediation
-- url: https://developers.telnyx.com/docs/branded-calling/number-reputation/settings
 - url: https://developers.telnyx.com/docs/branded-calling/overview
+- url: https://developers.telnyx.com/docs/branded-calling/pricing
 - url: https://developers.telnyx.com/docs/branded-calling/quickstart
 - url: https://developers.telnyx.com/docs/branded-calling/terms-of-service/index
-updated_at: 2026-06-11T10:26:56Z
+updated_at: 2026-08-05T13:39:22Z
 ---
 
 # Branded Calling
 
-*Part 5 of 6 — see also: [Part 1](branded-calling--part-1.md), [Part 2](branded-calling--part-2.md), [Part 3](branded-calling--part-3.md), [Part 4](branded-calling--part-4.md), [Part 6](branded-calling--part-6.md)*
+*Part 5 of 8 — see also: [Part 1](branded-calling--part-1.md), [Part 2](branded-calling--part-2.md), [Part 3](branded-calling--part-3.md), [Part 4](branded-calling--part-4.md), [Part 6](branded-calling--part-6.md), [Part 7](branded-calling--part-7.md), [Part 8](branded-calling--part-8.md)*
 
-Branded Calling displays your verified business identity (name, logo, call reason) on recipients' phones before they answer, increasing answer rates and building trust. The product suite also includes Number Reputation, a standalone monitoring tool that reports spam risk scores for your outbound numbers.
+Branded Calling is a Telnyx product (currently in beta, US-only) that displays a verified business identity — display name, logo, and call reason — on outbound calls instead of a bare number or "Spam Likely". The feature is built on a CTIA-managed industry registry and uses SHAKEN PASSporT tokens to deliver rich call data to supported carriers and devices. This page covers the full lifecycle: registering an Enterprise, accepting the Branded Calling Terms of Service, activating the product, creating and vetting a Display Identity Record (DIR), attaching phone numbers in batches, configuring call reasons, handling infringement claims, and pricing.
 
-## Number Reputation Letter of Authorization
+## Phone Numbers
 
-Before Telnyx can register your numbers with call-analytics networks, you must provide a signed LOA authorizing Telnyx to manage your numbers' reputation on your behalf. The LOA is the **#1 thing customers get stuck on** — follow these steps in order.
+After your DIR reaches `verified` status, attach your Telnyx phone numbers to it. Outbound calls from those numbers automatically display the DIR's name, logo, and call reason on supported carriers and devices.
 
-There are **two separate approval gates** tracked independently:
-1. Reputation `status` must be `approved` (the activation lifecycle).
-2. `loa_status` must be `approved` (Telnyx reviews the signed LOA).
+Numbers are added in **batches**: each `POST` creates one batch, and the batch is the unit that goes through carrier-network vetting. A phone number can be attached to **only one DIR** at a time.
 
-**Both must be `approved`** before you can add phone numbers.
+### Pre-conditions
 
-### Step-by-Step LOA Process
+- The DIR must be in `verified` status. Adding numbers to a DIR in any other status returns `400` (`detail`: "…DIR must be verified").
+- The phone numbers must already be in your Telnyx phone-number inventory.
+- Numbers must be in strict E.164 format: a leading `+` followed by 10-15 digits (no spaces, dashes, or parentheses).
+- A signed **Letter of Authorization (LOA)** must accompany every add request. Upload it to the [Telnyx Documents API](/api-reference/documents/upload-a-document) first and reference the returned `id` as a `document_id`.
 
-**1. Render the LOA as a PDF** (not billable):
+Adding phone numbers is **billable**. See [Branded Calling pricing](https://telnyx.com/pricing/branded-calling).
+
+### API endpoints
+
+| Method | Path | Description |
+| --- | --- | --- |
+| `POST` | `/v2/dir/{dir_id}/loa` | Render the DIR's Letter of Authorization as a PDF |
+| `POST` | `/v2/dir/{dir_id}/phone_numbers` | Add phone numbers (creates a batch) |
+| `GET` | `/v2/dir/{dir_id}/phone_numbers` | List phone numbers attached to a DIR |
+| `DELETE` | `/v2/dir/{dir_id}/phone_numbers` | Remove phone numbers from a DIR |
+| `GET` | `/v2/dir/{dir_id}/phone_number_batches` | List batches for a DIR |
+| `GET` | `/v2/dir/{dir_id}/phone_number_batches/{batch_id}` | Get one batch with its numbers |
+
+Each path above also has an equivalent form that includes the enterprise:
+`/v2/enterprises/{enterprise_id}/dir/{dir_id}/phone_numbers` (and the `phone_number_batches` variants). Both forms share the same request and response contract.
+
+### Render the Letter of Authorization (optional)
+
+You can have Telnyx generate a pre-filled LOA PDF for the DIR instead of writing your own. `POST /v2/dir/{dir_id}/loa` returns an `application/pdf`. The enterprise identity and DIR display name are filled in server-side; you supply the phone numbers you intend to authorize (the same list you will add below), and optionally a third-party `agent` block and a drawn `signature`.
 
 ```
-curl -X POST https://api.telnyx.com/v2/enterprises/{enterprise_id}/reputation/loa \
+curl -X POST https://api.telnyx.com/v2/dir/{dir_id}/loa \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -o loa.pdf \
-  -d '{}'
+  -d '{
+    "phone_numbers": ["+12025551234", "+12025555678"]
+  }'
 ```
 
-The response body is the PDF itself. Optional body fields:
-- `agent`: Third-party reseller/partner block (omit when working directly with Telnyx).
-- `signature`: Embeds a signature image in the rendered PDF (`image_base64` + `signer_name`). When omitted, the PDF is unsigned for manual signing.
+- `phone_numbers`: 1-15 numbers in `+E164` format (the same numbers you authorize below).
+- `agent`: optional. The third-party reseller/partner managing the numbers; omit when you work with Telnyx directly.
+- `signature`: optional. When provided, the PDF embeds the signature image and printed name. When omitted, the PDF comes back unsigned so you can sign it externally.
 
-**2. Sign the PDF** (e-signature or wet signature) if you didn't embed a signature.
+Sign the rendered PDF, then upload it to the [Telnyx Documents API](/api-reference/documents/upload-a-document) and reference the returned `document_id` as a `letter_of_authorization` document when adding numbers.
 
-**3. Upload the signed PDF** to the Telnyx Documents API:
+### Add phone numbers (create a batch)
+
+A `documents` array containing at least one Letter of Authorization is **required**. First upload the signed LOA to the [Telnyx Documents API](/api-reference/documents/upload-a-document):
 
 ```
+# Step 1 - upload the signed LOA, returns a document id
 curl -X POST https://api.telnyx.com/v2/documents \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -F "file=@loa.pdf"
 ```
 
-Save the returned `data.id` as your `loa_document_id`.
-
-**4. Enable reputation** with the `loa_document_id` (billable):
+Then add the numbers, referencing the returned `document_id`:
 
 ```
-curl -X POST https://api.telnyx.com/v2/enterprises/{enterprise_id}/reputation \
+# Step 2 - add the numbers with the LOA
+curl -X POST https://api.telnyx.com/v2/dir/{dir_id}/phone_numbers \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
-    "loa_document_id": "2a7e8337-e803-4057-a4ae-26c40eb0bc6c",
-    "check_frequency": "business_daily"
+    "phone_numbers": ["+12125551234", "+12125555678"],
+    "documents": [
+      {
+        "document_id": "2a7e8337-e803-4057-a4ae-26c40eb0bc6c",
+        "document_type": "letter_of_authorization",
+        "description": "LOA covering this set of numbers."
+      }
+    ]
   }'
 ```
 
-**5. Wait for LOA approval.** Poll with `GET /v2/enterprises/{enterprise_id}/reputation`. `loa_status` moves `pending` → `approved` (or `rejected`).
+- A `documents` array with **at least one `letter_of_authorization`** entry is required (1-20 documents).
+- The `phone_numbers` array must contain **1-15 numbers per request**.
+- The batch is **atomic**: if any number fails validation (invalid format, duplicate within the request, not in your inventory, already attached to another DIR, or in a terminal `permanently_rejected` state), the entire request is rejected with `400` and **nothing is written**. On success the response is `201` with `{"data": [...]}`. On failure the body is the standard Telnyx error envelope with one `errors[]` entry per failure category, identifying the offending numbers; remove them and re-submit the rest.
+- A `400` is also returned if the DIR is in a status that cannot accept new numbers, including a `suspended` DIR with an open infringement claim (the `detail` then includes the open claim IDs).
 
-### LOA Status Values
-
-| `loa_status` | Meaning |
-|--------------|----------|
-| `pending` | Telnyx is reviewing. Numbers cannot be added yet. |
-| `approved` | LOA accepted. Combined with `status` = `approved`, you can add numbers. |
-| `rejected` | LOA not accepted. Replace it to retry (see below). |
-
-### Replace a Pending or Rejected LOA
-
-Render a fresh PDF, sign and upload it to get a new `loa_document_id`, then:
-
-```
-curl -X PATCH https://api.telnyx.com/v2/enterprises/{enterprise_id}/reputation/loa \
-  -H "Authorization: Bearer YOUR_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "loa_document_id": "NEW_DOCUMENT_ID"
-  }'
-```
-
-Replacing the LOA **resets `loa_status` back to `pending`**. You can only replace the LOA while `loa_status` is `pending` or `rejected`. Once `approved`, the document is locked — this `PATCH` returns `400`. To start over after approval, disable Number Reputation entirely and re-enable with the new document.
-
-## Number Reputation Settings and Vetting
-
-### Enable Number Reputation
-
-Submit your LOA document ID to enable monitoring (billable). `check_frequency` is optional and defaults to `business_daily`. Enabling returns `403` if the Number Reputation ToS hasn't been accepted.
-
-### Two Approval Gates
+### Phone number statuses
 
 | Status | Meaning |
-|--------|----------|
-| `status` | Activation lifecycle: `pending` → `approved` / `rejected`. |
-| `loa_status` | LOA review: `pending` → `approved` / `rejected`. |
+| --- | --- |
+| `submitted` | Awaiting verification. |
+| `in_review` | Under review by the vetting agent. |
+| `verified` | Successfully verified and active for this DIR. |
+| `unsuccessful` | An unexpected system error occurred. |
+| `suspended` | Temporarily suspended. |
+| `expired` | Past expiration date. |
+| `permanently_rejected` | Terminally rejected by an admin. The number cannot be re-added to any DIR; attempting to add it returns `400`. |
 
-Both must be `approved` before `POST .../reputation/numbers` will accept numbers. A `rejected` `loa_status` is recoverable by replacing the LOA.
+### Inspect batches
 
-### Check Current Status
+A batch is the unit of carrier-network vetting. Once a batch reaches `verified` (every number in it is `verified`), branded calling is active for the whole batch.
 
 ```
-curl https://api.telnyx.com/v2/enterprises/{enterprise_id}/reputation \
+# List batches
+curl -g "https://api.telnyx.com/v2/dir/{dir_id}/phone_number_batches?page[size]=20" \
+  -H "Authorization: Bearer YOUR_API_KEY"
+
+# Get one batch with its numbers
+curl https://api.telnyx.com/v2/dir/{dir_id}/phone_number_batches/{batch_id} \
   -H "Authorization: Bearer YOUR_API_KEY"
 ```
 
-Response includes `status`, `loa_status`, `check_frequency`, `loa_document_id`, `rejection_reasons` (populated when `status` is `rejected`), and timestamps.
-
-### Auto-Refresh Schedules
-
-| Frequency | Schedule |
-|-----------|----------|
-| `business_daily` | Mon–Fri **(default)** |
-| `daily` | Every day including weekends |
-| `weekly` | Once per week |
-| `biweekly` | Every 2 weeks |
-| `monthly` | Once per month |
-| `never` | Manual only — use `?fresh=true` or forced refresh |
-
-Change the schedule (requires `status` = `approved`):
+### List numbers
 
 ```
-curl -X PATCH https://api.telnyx.com/v2/enterprises/{enterprise_id}/reputation/frequency \
+curl -g "https://api.telnyx.com/v2/dir/{dir_id}/phone_numbers?page[size]=50" \
+  -H "Authorization: Bearer YOUR_API_KEY"
+```
+
+Standard JSON:API pagination (`page[number]`, `page[size]`, max 250).
+
+### Remove numbers
+
+```
+curl -X DELETE https://api.telnyx.com/v2/dir/{dir_id}/phone_numbers \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
-  -d '{"check_frequency": "daily"}'
+  -d '{
+    "phone_numbers": ["+12125551234", "+12125555678"]
+  }'
 ```
 
-A frequency change while `status` is still `pending` returns `400`.
+Up to **100 phone numbers per request**. This call is **partial-success**: numbers that can be removed are returned under top-level `data`, and numbers that can't (not associated, invalid, etc.) come back in a `meta.errors` array on the same response. If **every** number fails, the response is a `400` with the standard Telnyx error envelope.
 
-### Disable Number Reputation
-
-```
-curl -X DELETE https://api.telnyx.com/v2/enterprises/{enterprise_id}/reputation \
-  -H "Authorization: Bearer YOUR_API_KEY"
-```
-
-This de-registers your numbers and removes the settings. A subsequent `GET .../reputation` returns `404`. To monitor again, re-enable with a fresh LOA.
+Removing a number tears down its registration on the Branded Calling network and frees the number to be attached to a different DIR.

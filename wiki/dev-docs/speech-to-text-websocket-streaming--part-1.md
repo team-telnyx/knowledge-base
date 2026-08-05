@@ -1,12 +1,14 @@
 ---
 title: Speech-to-Text WebSocket Streaming
-summary: Real-time speech-to-text over a persistent WebSocket connection. Send audio
-  as binary frames, receive JSON transcription results — all configuration is set
-  at connect time via query parameters and cannot be changed mid-session.
+summary: The Telnyx Speech-to-Text WebSocket streaming endpoint accepts real-time
+  audio over a single WebSocket connection and returns transcription results as JSON
+  text frames. All session configuration is passed as query parameters on the connection
+  URL and locked at connect time; audio is sent as binary frames and control messages
+  as JSON. The endpoint supports multiple transcription engines and models, a wide
+  range of audio formats, language selection, interim results, endpointing, keyword
+  boosting, redaction, and Deepgram Flux end-of-turn detection, with production guidance
+  for connection recovery, buffering, keepalive, and graceful shutdown.
 sources:
-- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/errors
-- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/examples
-- url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/index
 - url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/audio-formats
 - url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/end-of-turn
 - url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/parameters/endpointing
@@ -19,80 +21,58 @@ sources:
 - url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/pricing
 - url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/production-patterns
 - url: https://developers.telnyx.com/docs/voice/stt/websocket-streaming/responses
-updated_at: 2026-06-11T10:46:55Z
+updated_at: 2026-08-05T14:06:24Z
 ---
 
 # Speech-to-Text WebSocket Streaming
 
-*Part 1 of 3 — see also: [Part 2](speech-to-text-websocket-streaming--part-2.md), [Part 3](speech-to-text-websocket-streaming--part-3.md)*
+*Part 1 of 4 — see also: [Part 2](speech-to-text-websocket-streaming--part-2.md), [Part 3](speech-to-text-websocket-streaming--part-3.md), [Part 4](speech-to-text-websocket-streaming--part-4.md)*
 
-Real-time speech-to-text over a persistent WebSocket connection. Send audio as binary frames, receive JSON transcription results — all configuration is set at connect time via query parameters and cannot be changed mid-session.
+The Telnyx Speech-to-Text WebSocket streaming endpoint accepts real-time audio over a single WebSocket connection and returns transcription results as JSON text frames. All session configuration is passed as query parameters on the connection URL and locked at connect time; audio is sent as binary frames and control messages as JSON. The endpoint supports multiple transcription engines and models, a wide range of audio formats, language selection, interim results, endpointing, keyword boosting, redaction, and Deepgram Flux end-of-turn detection, with production guidance for connection recovery, buffering, keepalive, and graceful shutdown.
 
-## Endpoint
+## Overview
 
-```
-wss://api.telnyx.com/v2/speech-to-text/transcription
-```
+The standalone WebSocket STT endpoint is exposed at `wss://api.telnyx.com/v2/speech-to-text/transcription`. All session configuration is passed as query string parameters on the URL and is locked at connection time — parameters cannot be changed mid-session. Audio is sent from client to server as binary WebSocket frames (chunked bytes, no base64, no JSON wrapping), and JSON text frames are used for control messages and server responses in both directions.
 
-An alternative direct WebSocket endpoint is also available:
-
-```
-wss://transcription.telnyx.com/public/speech-to-text/transcription
-```
-
-Both accept the same query parameters and use the same message protocol after connection.
-
-## Connection Lifecycle
-
-### Handshake
-
-The connection starts as an HTTP GET with `Upgrade: websocket`. The server responds with `101 Switching Protocols`, then the connection upgrades to WebSocket frames. Authentication is via the `Authorization: Bearer YOUR_API_KEY` header. Invalid parameters return a JSON error and the connection closes.
-
-### Streaming
-
-Once connected, audio and transcription flow concurrently — there is no request/response pairing. All configuration is set at connect time via query parameters and cannot be changed mid-session.
-
-### Teardown
-
-Send `{"type": "CloseStream"}` (Deepgram, Speechmatics, and Soniox) to flush remaining audio and close gracefully. The server finishes processing, sends any remaining transcripts, then closes the WebSocket. For other engines, close the WebSocket connection directly. Dropping the connection without `CloseStream` works but may lose buffered audio on Deepgram, Speechmatics, and Soniox.
-
-## Parameters
-
-All parameters are passed as query string values on the WebSocket URL.
-
-| Parameter | Type | Default | Description |
-|---|---|---|---|
-| `transcription_engine` | string | `Deepgram` | Engine: `Deepgram`, `Telnyx`, `Google`, `Azure`, `xAI`, `AssemblyAI`, `Speechmatics`, `Soniox` |
-| `model` | string | per engine | See [Speech-to-Text WebSocket Streaming#Engines & Models](speech-to-text-websocket-streaming-engines-models.md) |
-| `input_format` | string | `mp3` | See [Speech-to-Text WebSocket Streaming#Audio Formats](speech-to-text-websocket-streaming-audio-formats.md) |
-| `sample_rate` | integer | `16000` | Hz. Required for raw encodings (`linear16`, `mulaw`, `alaw`). Ignored for container formats. |
-| `language` | string | `en-US` | BCP-47 code. `multi`/`auto`/`auto_detect` for auto-detection. See [Speech-to-Text WebSocket Streaming#Language](speech-to-text-websocket-streaming-language.md) |
-| `interim_results` | string | `false` | `"true"` for partial transcripts. See [Speech-to-Text WebSocket Streaming#Interim Results](speech-to-text-websocket-streaming-interim-results.md) |
-| `endpointing` | string | `100` | Silence detection in ms. `"false"` to disable. See [Speech-to-Text WebSocket Streaming#Endpointing](speech-to-text-websocket-streaming-endpointing.md) |
-| `redact` | string | — | PII redaction (Deepgram only). `pci`, `ssn`, `numbers`, or comma-separated combo |
-| `keyterm` | string | — | Comma-separated boost terms (Deepgram Nova-3/Flux) |
-| `keywords` | string | — | Legacy keyword boosting with intensifiers (Deepgram Nova/Nova-2) |
-| `region` | string | `eastus` | Azure Speech Services region |
-| `eot_threshold` | float | `0.7` | Flux only. End-of-turn confidence threshold |
-| `eot_timeout_ms` | integer | `5000` | Flux only. Max silence before forcing EndOfTurn |
-| `eager_eot_threshold` | float | — | Flux only. Speculative EagerEndOfTurn threshold. Disabled by default |
-
-Example:
+A typical connection looks like:
 
 ```
 wss://api.telnyx.com/v2/speech-to-text/transcription?transcription_engine=Deepgram&model=nova-3&input_format=wav&language=en-US&interim_results=true
 ```
 
+## Engines and Models
+
+The `transcription_engine` and `model` query parameters select the underlying speech recognition provider. Deepgram is the default engine and offers the broadest format support.
+
+| Engine | Default model | Other models | Notes |
+| --- | --- | --- | --- |
+| **Deepgram** | `nova-3` | `nova-2`, `flux`, `flux-multi` | Default engine. Broadest format support. |
+| **Telnyx** | `openai/whisper-tiny` | — | On-network, lightweight |
+| **Google** | `latest_long` | — | Multilingual, long-form |
+| **Azure** | `azure/fast` | — | Broad language/accent coverage |
+| **xAI** | `xai/grok-stt` | — | Grok STT for real-time transcription |
+| **AssemblyAI** | `assemblyai/universal-streaming` | — | Universal-Streaming (backed by Universal-3.5 Pro Realtime) for low-latency voice agents |
+| **Speechmatics** | `speechmatics/standard` | — | High-accuracy real-time transcription with multilingual and bilingual packs |
+| **Soniox** | `soniox/stt-rt-v4` | — | Real-time transcription with automatic language detection |
+| **Parakeet** | `nvidia/parakeet-v3` | — | Self-hosted multilingual transcription with automatic language detection. Final results only. |
+| **Reson8** | `reson8/turns` | — | Turn-based transcription of 10 European languages with automatic language detection. |
+
+Deepgram's Flux model is its lowest-latency option with built-in [End-of-Turn Detection](end-of-turn-detection.md). `flux` is English-only; `flux-multi` adds code-switching across English, Spanish, French, German, Hindi, Russian, Portuguese, Japanese, Italian, and Dutch (plus `auto`). See [Audio Formats](audio-formats.md) for the formats Flux supports.
+
 ## Audio Formats
 
-Set via the `input_format` query parameter. Audio is sent as binary WebSocket frames — chunked bytes, no base64, no JSON wrapping.
-
-Container formats (mp3, webm, ogg, wav, flac) are self-describing: the server demuxes the byte stream and extracts encoding/sample rate from headers. Raw formats have no metadata, so you must set `sample_rate` explicitly.
+The `input_format` query parameter selects the audio encoding. Container formats (mp3, webm, etc.) are self-describing — the server demuxes the byte stream and extracts encoding and sample rate from headers. Raw formats have no metadata, so `sample_rate` must be set explicitly. Invalid sample rates return error 40005.
 
 ### Browser Capture
 
+Output from `MediaRecorder` or similar browser APIs. Container headers carry sample rate.
+
+```
+wss://api.telnyx.com/v2/speech-to-text/transcription?input_format=webm_opus
+```
+
 | Format | Sample rate | Notes |
-|---|---|---|
+| --- | --- | --- |
 | `webm` | from header | WebM container |
 | `webm_opus` | from header | WebM + Opus. Valid: 8000–48000. Alias: `webm-opus` |
 | `ogg_opus` | from header | Ogg + Opus. Valid: 8000–48000. Alias: `ogg-opus` |
@@ -100,10 +80,14 @@ Container formats (mp3, webm, ogg, wav, flac) are self-describing: the server de
 
 ### Telephony
 
-Raw frames; `sample_rate` required.
+Codecs from voice networks. Raw frames, `sample_rate` required.
+
+```
+wss://api.telnyx.com/v2/speech-to-text/transcription?input_format=mulaw&sample_rate=8000
+```
 
 | Format | Sample rate | Notes |
-|---|---|---|
+| --- | --- | --- |
 | `mulaw` | any | G.711 µ-law. North America. Default: 8000 Hz. |
 | `alaw` | any | G.711 A-law. EU/international. Default: 8000 Hz. |
 | `g729` | 8000 | G.729. Fixed. |
@@ -113,60 +97,53 @@ Raw frames; `sample_rate` required.
 
 ### Raw PCM
 
-Uncompressed audio. `sample_rate` required.
+Uncompressed audio from microphones, processing pipelines, or SDKs. `sample_rate` required.
+
+```
+wss://api.telnyx.com/v2/speech-to-text/transcription?input_format=linear16&sample_rate=16000
+```
 
 | Format | Sample rate | Notes |
-|---|---|---|
+| --- | --- | --- |
 | `linear16` | any | 16-bit signed PCM, little-endian (s16le). Default: 16000 Hz. |
 | `linear32` | any | 32-bit float PCM, little-endian (f32le). Default: 16000 Hz. |
 | `opus` | 8000, 12000, 16000, 24000, 48000 | Raw Opus frames, no container. Deepgram also: 44100. |
 
 ### Recorded File
 
-Pre-recorded files read in chunks. Container headers carry sample rate.
+Pre-recorded files read in chunks and streamed through the socket. Container headers carry sample rate.
+
+```
+wss://api.telnyx.com/v2/speech-to-text/transcription?input_format=mp3
+```
 
 | Format | Sample rate | Notes |
-|---|---|---|
+| --- | --- | --- |
 | `mp3` | from header | Default for most engines |
 | `wav` | from header | Uncompressed. Default for Flux model. |
 | `flac` | from header | Lossless compression |
 
 ### Engine Compatibility
 
-Unsupported format/engine combinations return error `40002`. Unsupported Flux formats return error `40006`.
+Unsupported format/engine combinations return error 40002. Unsupported Flux formats return error 40006. Flux is the most restrictive of Deepgram's models — it drops `mp3`, `flac`, `webm_opus`, `amr_nb`, `amr_wb`, `g729`, and `speex` compared to Nova.
 
-| Format | Deepgram Nova | Deepgram Flux | Telnyx | Google | Azure | Speechmatics | Soniox |
-|---|---|---|---|---|---|---|---|
-| mp3 | ✓ | | ✓ | ✓ | ✓ | ✓ | ✓ |
-| wav | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| webm | ✓ | ✓ | | | | | ✓ |
-| ogg | ✓ | ✓ | | | | ✓ | ✓ |
-| flac | ✓ | | | ✓ | | ✓ | ✓ |
-| ogg_opus | ✓ | ✓ | | ✓ | | | |
-| webm_opus | ✓ | | | ✓ | | | |
-| linear16 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| linear32 | ✓ | ✓ | ✓ | | | ✓ | ✓ |
-| mulaw | ✓ | ✓ | | ✓ | | ✓ | ✓ |
-| alaw | ✓ | ✓ | | | | | ✓ |
-| opus | ✓ | ✓ | | | | | |
-| amr_nb | ✓ | | | ✓ | | | |
-| amr_wb | ✓ | | | ✓ | | | |
-| g729 | ✓ | | | | | | |
-| speex | ✓ | | | ✓ | | | |
+| Format | Deepgram Nova | Deepgram Flux | Telnyx | Google | Azure | Speechmatics | Soniox | Parakeet | Reson8 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| mp3 | ✓ |  | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |  |
+| wav | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |  |
+| webm | ✓ | ✓ |  |  |  |  | ✓ |  |  |
+| ogg | ✓ | ✓ |  |  |  | ✓ | ✓ |  |  |
+| flac | ✓ |  |  | ✓ |  | ✓ | ✓ |  |  |
+| ogg_opus | ✓ | ✓ |  | ✓ |  |  |  |  |  |
+| webm_opus | ✓ |  |  | ✓ |  |  |  |  |  |
+| linear16 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| linear32 | ✓ | ✓ | ✓ |  |  | ✓ | ✓ | ✓ | ✓ |
+| mulaw | ✓ | ✓ |  | ✓ |  | ✓ | ✓ |  | ✓ |
+| alaw | ✓ | ✓ |  |  |  |  | ✓ |  | ✓ |
+| opus | ✓ | ✓ |  |  |  |  |  |  |  |
+| amr_nb | ✓ |  |  | ✓ |  |  |  |  |  |
+| amr_wb | ✓ |  |  | ✓ |  |  |  |  |  |
+| g729 | ✓ |  |  |  |  |  |  |  |  |
+| speex | ✓ |  |  | ✓ |  |  |  |  |  |
 
-Universal formats (all engines and models): `wav`, `linear16`.
-
-## Engines & Models
-
-| Engine | Default model | Other models | Notes |
-|---|---|---|---|
-| **Deepgram** | `nova-3` | `nova-2`, `flux` | Default engine. Broadest format support. |
-| **Telnyx** | `openai/whisper-tiny` | — | On-network, lightweight |
-| **Google** | `latest_long` | — | Multilingual, long-form |
-| **Azure** | `azure/fast` | — | Broad language/accent coverage |
-| **xAI** | `xai/grok-stt` | — | Grok STT for real-time transcription |
-| **AssemblyAI** | `assemblyai/universal-streaming` | — | Universal-Streaming for low-latency voice agents |
-| **Speechmatics** | `speechmatics/standard` | — | High-accuracy real-time transcription with multilingual and bilingual packs |
-| **Soniox** | `soniox/stt-rt-v4` | — | Real-time transcription with automatic language detection |
-
-Deepgram Flux is the lowest-latency model with built-in end-of-turn detection, designed for real-time voice agents. It is the most restrictive format-wise — it drops `mp3`, `flac`, `webm_opus`, `amr_nb`, `amr_wb`, `g729`, and `speex` compared to Nova.
+Reson8 accepts raw formats only (`linear16`, `linear32`, `mulaw`, `alaw`) at any sample rate — container formats are not supported. `linear16` is the only format supported by every engine and model.

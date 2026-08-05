@@ -1,51 +1,141 @@
 ---
 title: Telnyx Global IoT SIMs
-summary: Comprehensive guide to Telnyx IoT SIM and eSIM products covering ordering,
-  registration, device configuration, pricing, global coverage, fleet management features,
-  troubleshooting, and device-specific router setup instructions.
+summary: A consolidated reference for Telnyx IoT SIM cards covering ordering, registration,
+  APN configuration, device-specific router setup, connectivity states, pricing and
+  zone mapping, international coverage, troubleshooting, and portal/API observability
+  features.
 sources:
-- url: https://support.telnyx.com/en/articles/10067533-manual-esim-activation-guide
 - url: https://support.telnyx.com/en/articles/10164784-using-telnyx-sim-with-ubiquiti-unifi-lte-pro
 - url: https://support.telnyx.com/en/articles/10511105-using-telnyx-sim-with-inrouter300-series-cellular-routers
 - url: https://support.telnyx.com/en/articles/10511646-using-telnyx-sim-with-teltonika-4g-lte-routers
 - url: https://support.telnyx.com/en/articles/11017501-understanding-wireless-connectivity-states-telnyx-api
+- url: https://support.telnyx.com/en/articles/3269600-how-to-set-up-a-telnyx-sim-card
 - url: https://support.telnyx.com/en/articles/3269973-adding-the-telnyx-sim-apn-to-your-device
 - url: https://support.telnyx.com/en/articles/3270106-international-iot-sim-coverage
-- url: https://support.telnyx.com/en/articles/3270136-telnyx-global-sims-faqs
 - url: https://support.telnyx.com/en/articles/3296669-iot-sim-card-pricing
 - url: https://support.telnyx.com/en/articles/3371977-international-roaming-partners
-- url: https://support.telnyx.com/en/articles/3403998-sim-data-limits-notifications
-- url: https://support.telnyx.com/en/articles/3679913-sim-reporting-analytics
 - url: https://support.telnyx.com/en/articles/4298710-sim-setup-and-configuration
 - url: https://support.telnyx.com/en/articles/5666594-sim-connectivity-logs
-- url: https://support.telnyx.com/en/articles/5761437-sim-card-theft-prevention
 - url: https://support.telnyx.com/en/articles/5812302-sim-card-location-and-device-details
 - url: https://support.telnyx.com/en/articles/5812328-sim-card-actions
 - url: https://support.telnyx.com/en/articles/7966416-telnyx-iot-sim-data-usage-zone-mapping
-- url: https://support.telnyx.com/en/articles/7984783-certificate-error-api-telnyx-com
-- url: https://support.telnyx.com/en/articles/8117401-how-to-setup-a-telnyx-esim-via-qr-code
-- url: https://support.telnyx.com/en/articles/9183726-manual-imsi-selection-on-telnyx-sim
 - url: https://support.telnyx.com/en/collections/1895859-telnyx-global-iot-sims
-updated_at: 2026-06-11T11:34:01Z
+updated_at: 2026-08-05T13:24:07Z
 ---
 
 # Telnyx Global IoT SIMs
 
 *Part 2 of 3 — see also: [Part 1](telnyx-global-iot-sims--part-1.md), [Part 3](telnyx-global-iot-sims--part-3.md)*
 
-Comprehensive guide to Telnyx IoT SIM and eSIM products covering ordering, registration, device configuration, pricing, global coverage, fleet management features, troubleshooting, and device-specific router setup instructions.
+A consolidated reference for Telnyx IoT SIM cards covering ordering, registration, APN configuration, device-specific router setup, connectivity states, pricing and zone mapping, international coverage, troubleshooting, and portal/API observability features.
+
+## Teltonika 4G/LTE Router Setup
+
+Teltonika LTE routers are widely used in IoT, industrial, and remote networking applications.
+
+### Initial Setup
+
+1. Power off the router and insert the Telnyx SIM into the designated slot, ensuring it is securely seated.
+2. Power on the router using the included adapter.
+3. Connect the router's LAN port to a computer via Ethernet.
+
+### Accessing the Web Interface
+
+Open a browser to `http://192.168.2.1`. Default credentials are username `admin` and the password printed on the router label. A password change may be required on first login.
+
+### Configuring the APN
+
+1. Navigate to **Network > Interfaces**.
+2. Click the pencil icon next to `mob1s1a1`.
+3. Uncheck **Auto APN** and enter:
+   - **APN:** `data00.telnyx`
+   - **Username/Password:** leave blank unless instructed.
+4. Click **Save & Apply**.
+
+### Verifying Connectivity
+
+Go to **Status > Network Information** and confirm a connected status, an assigned IP address, and usable signal strength.
+
+### Auto-Reboot Watchdog
+
+To recover from service interruptions, configure the auto-reboot watchdog under **System > Auto Reboot**:
+
+1. Enable **Auto Reboot**.
+2. Set **Reboot Conditions** to **Ping Reboot** with targets such as `8.8.8.8` and `1.1.1.1`.
+3. Set the ping interval (e.g., 60 seconds) and retry count (e.g., 3 failures).
+4. Optionally enable a **Scheduled Reboot** (e.g., daily at 3 AM).
+5. Click **Save & Apply**.
+
+### Teltonika RMS for Fleet Management
+
+Teltonika RMS is a cloud-based management platform that provides real-time monitoring, remote firmware and configuration updates, command-line access, batch operations, VPN setup, firewall configuration, and alerting. For Telnyx SIM users, RMS enables centralized tracking of usage, signal, and uptime, remote troubleshooting, bulk APN and auto-reboot configuration, and automated health alerts. Sign up at [rms.teltonika-networks.com](https://rms.teltonika-networks.com) and register each device using its unique RMS code found under **System > RMS** in the web UI.
+
+### Firmware and Security
+
+- **Firmware updates:** **System > Firmware**
+- **Firewall:** **Network > Firewall**
+- **VPN:** **VPN** (OpenVPN, WireGuard, IPsec)
+
+### Configuration Backup
+
+Under **System > Backup**, click **Generate** and download the backup file for disaster recovery.
+
+### Troubleshooting
+
+- **No internet:** Confirm the SIM is active, the APN is correct, signal is sufficient, and auto-reboot is configured.
+- **Weak signal:** Move the router or attach external antennas.
+
+## Wireless Connectivity States (API)
+
+The [SIM Connectivity Logs](sim-connectivity-logs.md) API exposes the following `state` values for wireless SIM sessions:
+
+- **Opened:** A SIM initiates a new session to connect to a wireless network. Triggered immediately after an attached event when a device starts transmitting or receiving data.
+- **Attached:** The SIM successfully connects to the local carrier network, receives an IP address, and can exchange data.
+- **Closed:** The data session has ended. Triggered by loss of coverage, intentional session termination (e.g., scheduled IoT sessions), device power-off or airplane mode, or a switch to Wi-Fi.
+- **Provisioned:** A newly provisioned SIM remains in this state until it first attaches to a cellular network. It may also appear after a SIM is transferred from a regular SIM group to a private wireless gateway SIM group.
+
+A standard successful connection cycle is **Attached → Opened → Closed**. The API does not explicitly identify devices that have lost coverage; a lack of "Attached" events indicates the device has not connected.
+
+## SIM Connectivity Logs
+
+Connectivity logs are available in both the Mission Control Portal and the API. They are accessed by drilling into a SIM card in the [SIM cards view](https://portal.telnyx.com/#/wireless/sim-cards).
+
+There are two log types:
+
+- **Registration logs:** Generated when a SIM attaches to a network and authenticates with the Telnyx mobile core.
+- **Data logs:** Generated once a SIM has authenticated and created a data session to run traffic.
+
+Each log includes the country code (MCC) and provider code (MNC). The mapping of these codes to operators is available on the [Mobile country code](https://en.wikipedia.org/wiki/Mobile_country_code) Wikipedia page.
+
+### Troubleshooting Patterns
+
+1. **No logs at all:** Signaling from the attach attempt has not reached the Telnyx core, indicating a likely downstream issue. Contact Telnyx support.
+2. **Many registration attempts without a data log:** The SIM is not authenticating with the Telnyx mobile core. The most common causes are data roaming not being enabled or the APN not set to `data00.telnyx`.
+3. **No data logs:** The data session is not being created, typically due to roaming or APN configuration. Contact Telnyx support if the issue persists.
+4. **Error logs / no logs at all:** Signaling is not reaching the mobile core. Possible causes include the SIM attempting to connect to an unsupported operator, roaming not being enabled, or the SIM being in a disabled state. Use a network scan to manually select a supported network, enable roaming and reboot, or check the SIM in the Mission Control Portal — it may have been disabled due to a data limit or balance issue.
 
 ## SIM Card Location and Device Details
 
-An estimated SIM location is available in the portal (drill into a SIM card) and via the API. The location is based on the connected cell tower and displayed as a circle on a map — more powerful towers yield larger error radiuses.
+An estimated SIM location is available in the Mission Control Portal and via the API. The location is derived from the cell tower to which the SIM is connected and is shown as a circle on a map; higher-power towers produce a larger error radius.
 
-The API returns location data in the `current_device_location` object with `latitude`, `longitude`, `accuracy`, and `accuracy_unit` fields. See the [Get SIM Card API](https://developers.telnyx.com/api-reference/sim-cards/get-sim-card).
+The `/sim_cards` API endpoint returns a nested `current_device_location` object:
 
-Device details exposed in the portal include device type, model name, and IMEI. The API also provides brand name and operating system. The IMEI can be added to authorized IMEIs to lock the SIM to a specific device.
+```
+"current_device_location": {
+      "accuracy": 1250,
+      "accuracy_unit": "m",
+      "latitude": "41.143",
+      "longitude": "-8.605"
+    },
+```
+
+Device details exposed in the portal include device type, model name, and IMEI. The API additionally exposes brand name and operating system. The IMEI can be added to the authorized IMEIs field to lock the SIM to a specific device.
 
 ## SIM Card Actions
 
-Every update to a SIM card is tracked as an action, visible at the bottom of the SIM card detail view in the portal and via the API. Actions are logged chronologically with associated statuses that update as the action progresses. Tracked operations include:
+Every update to a SIM card is tracked as an action in the Mission Control Portal and the API. The actions section is found by drilling into a SIM card in the [SIM cards view](https://portal.telnyx.com/#/app/wireless/sim-cards) and scrolling to the bottom.
+
+Each action is logged in chronological order with an associated status. As the status changes, the SIM card action resource is updated. Tracked operations include:
 
 - Enable SIM card
 - Disable SIM card
@@ -53,91 +143,8 @@ Every update to a SIM card is tracked as an action, visible at the bottom of the
 - Data Limit exceeded
 - Enable Standby SIM card
 
-See the [SIM Lifecycle API documentation](https://developers.telnyx.com/docs/iot-sim/sim-lifecycle) for details.
+## International Coverage and Roaming
 
-## SIM Card Theft Prevention
+The Telnyx IoT SIM card has access to hundreds of networks in over 180 countries. Partner networks are listed on the [Telnyx Global Coverage](https://telnyx.com/iot-global-coverage) page.
 
-Add up to 5 authorized IMEIs per SIM to restrict usage to your approved devices only. When an unauthorized IMEI is detected, the SIM is auto-disabled (allow up to 5 minutes for this to take effect) and an email alert is dispatched.
-
-If no authorized IMEIs are configured, all devices are considered authorized — this is the default. Configure authorized IMEIs in the SIM card drill-down section of the portal.
-
-## Wireless Connectivity States
-
-The [Wireless Connectivity Logs API](https://developers.telnyx.com/api/wireless/get-wireless-connectivity-logs) returns these `state` values:
-
-| State | Definition | Trigger |
-|-------|-----------|---------|
-| **Opened** | SIM initiates a new data session | After an Attached event, when data transmission begins |
-| **Attached** | SIM successfully connects to the carrier network and receives an IP address | Successful network registration |
-| **Closed** | Data session has ended | Loss of coverage, device power-off, airplane mode, Wi-Fi takeover, or intentional termination |
-| **Provisioned** | SIM is registered but has not yet attached to a network | Initial provisioning or transfer between SIM groups |
-
-A standard successful connection cycle is: **Attached → Opened → Closed**.
-
-## Troubleshooting Connectivity
-
-### Connectivity Logs
-
-Connectivity logs (viewable per SIM in the portal and via the API) come in two types: `registration` and `data`. SIMs first authenticate with the Telnyx mobile core (registration log), then create a data session (data log). The MCC indicates the country and the MNC identifies the carrier network.
-
-Common troubleshooting patterns:
-
-1. **No logs at all:** Signaling hasn't reached the Telnyx core — likely a downstream issue. Contact support.
-2. **Many registration attempts without data logs:** SIM is not authenticating. Most commonly, data roaming is not enabled or the APN is not set to `data00.telnyx`.
-3. **No data logs:** Data session isn't being created — typically a roaming or APN issue. If persistent, contact support.
-4. **Error logs / no logs:** The SIM may be trying to connect to an operator Telnyx doesn't support, roaming may be disabled, or the SIM may be in a disabled state (due to data limit or balance exhaustion). Try a network scan on the device to manually select a supported network, enable roaming, or check the SIM state in the portal.
-
-### Manual IMSI Selection
-
-⚠️ For engineering use only — perform only when instructed by Telnyx support.
-
-Telnyx SIMs use Multi-IMSI technology to optimize global coverage. By default, the SIM automatically selects the best IMSI. Manual selection is available via the SIM Toolkit (STK) for advanced troubleshooting.
-
-**Android:** Open the **Telnyx UICC** or **SIM Toolkit** app → Roaming Services/Telnyx → IMSI Selection Menu → select desired IMSI → wait a few minutes → return Selection Mode to **Automatic**.
-
-**iOS:** Settings → Mobile Service/Cellular → SIM Applications → IMSI Selection Menu → select desired IMSI → wait a few minutes → return Selection Mode to **Automatic**.
-
-Always switch back to Automatic after testing unless instructed otherwise. Failure to do so may result in loss of connectivity when the device moves geographically.
-
-### First-Time Network Attachment
-
-During the first connection attempt, it may take up to 30 minutes for the device to attach to a network. Once connected, the network is added to the priority operator list for faster future connections.
-
-## Device-Specific Router Configuration
-
-### Ubiquiti UniFi LTE Pro
-
-1. **Insert SIM:** Place the Nano SIM into the card slot.
-2. **Power On:** Connect to a PoE (802.3af) enabled Ubiquiti switch.
-3. **Access Console:** Navigate to [unifi.ui.com](https://unifi.ui.com) and log in.
-4. **Adopt Device:** Find the LTE Pro in your device list and click **Adopt**.
-5. **Configure LTE Backup:** Settings → Internet → LTE Backup → Settings.
-6. **Enter APN:** Set APN to `data00.telnyx`, Authentication Type to **NONE**, then click **Apply**.
-7. **Verify Connection:** Check the Overview tab — Status should be **Ready** and Connected should be **Yes**.
-
-If the device restarts or is re-provisioned and enters SIM-Activation mode, run the following CLI command:
-
-```
-qmicli -p -d /dev/cdc-wdm0 --wds-set-autoconnect-settings=enabled
-```
-
-### InRouter300 Series (IR300)
-
-1. **Physical Setup:** Insert the Telnyx SIM into the SIM slot. Connect your computer to the LAN port via Ethernet. Power on.
-2. **Access Web Interface:** Browse to `http://192.168.2.1`. Default credentials: username `adm`, password `123456`.
-3. **Configure APN:** Network → Cellular → SIM Profiles → SIM Slot 1 → set APN to `data00.telnyx`, leave Username and Password blank → Apply.
-4. **Optional Dual SIM:** Enable Dual SIM Mode and configure failover if using a secondary SIM.
-5. **Verify Connectivity:** Status → Network Connection — check for an assigned IP address and successful signal/network registration.
-6. **Optional:** Configure static IP (Network → WAN Settings), VPN (VPN → Settings for IPSec/OpenVPN/PPTP), or Firewall rules (Security → Firewall).
-7. **Backup Config:** System → Config Management → Backup to generate a `.dat` file for future restores.
-
-### Teltonika 4G/LTE Routers
-
-1. **Insert SIM:** Power off, insert the Telnyx SIM, power on. Connect via Ethernet to the LAN port.
-2. **Access Web Interface:** Browse to `http://192.168.2.1`. Default username: `admin`; default password is on the router label.
-3. **Configure APN:** Network → Interfaces → edit `mob1s1a1` → uncheck **Auto APN** → set APN to `data00.telnyx`, leave Username/Password blank → Save & Apply.
-4. **Verify Connectivity:** Status → Network Information — confirm Connected status, assigned IP, and usable signal strength.
-5. **Configure Auto-Reboot (Recommended):** System → Auto Reboot → enable Auto Reboot → select **Ping Reboot** with targets like `8.8.8.8` and `1.1.1.1` → set ping interval and retry count → Save & Apply. This ensures automatic recovery from network outages.
-6. **Optional — Teltonika RMS:** For centralized fleet management, sign up at [rms.teltonika-networks.com](https://rms.teltonika-networks.com). RMS provides real-time monitoring, remote firmware/config updates, CLI access, batch operations, VPN setup, and automated alerts. Register each device using the RMS code found in System → RMS.
-7. **Firmware & Security:** Update firmware at System → Firmware. Configure firewall at Network → Firewall. Set up VPN under the VPN section (OpenVPN, WireGuard, IPsec supported).
-8. **Backup Config:** System → Backup → Generate and download the backup file.
+Each country is mapped to a pricing zone, and each zone has a discrete per-MB data rate. There are 9 pricing zones in total. The [IoT data plans pricing page](https://telnyx.com/pricing/iot-data-plans) lists the zone per country and the available networks.

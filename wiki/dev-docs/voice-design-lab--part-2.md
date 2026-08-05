@@ -1,10 +1,11 @@
 ---
 title: Voice Design Lab
-summary: The Telnyx Voice Design Lab lets you create custom text-to-speech voices
-  either by describing what you want in natural language (voice design) or by uploading
-  a recording of an existing speaker (voice cloning). Both paths produce a production-ready
-  voice ID you can use across AI Assistants, Call Control, and the TTS WebSocket API.
+summary: 'The Voice Design Lab lets you create custom voices for text-to-speech in
+  two ways: by describing a voice in natural language (Design a Voice) or by cloning
+  from an audio sample (Clone from Audio). Both flows produce a production-ready voice
+  clone that can be used across AI Assistants, Call Control, and the TTS API.'
 sources:
+- url: https://developers.telnyx.com/docs/voice/voice-design-lab
 - url: https://developers.telnyx.com/docs/voice/voice-design-lab/clone-voice/concepts/index
 - url: https://developers.telnyx.com/docs/voice/voice-design-lab/clone-voice/errors
 - url: https://developers.telnyx.com/docs/voice/voice-design-lab/clone-voice/parameters
@@ -14,20 +15,163 @@ sources:
 - url: https://developers.telnyx.com/docs/voice/voice-design-lab/design-voice/concepts/index
 - url: https://developers.telnyx.com/docs/voice/voice-design-lab/design-voice/prompting-guide
 - url: https://developers.telnyx.com/docs/voice/voice-design-lab/design-voice/quickstart
-- url: https://developers.telnyx.com/docs/voice/voice-design-lab/index
 - url: https://developers.telnyx.com/docs/voice/voice-design-lab/using-custom-voices/index
-updated_at: 2026-06-11T10:49:14Z
+updated_at: 2026-08-05T14:07:47Z
 ---
 
 # Voice Design Lab
 
-*Part 2 of 3 — see also: [Part 1](voice-design-lab--part-1.md), [Part 3](voice-design-lab--part-3.md)*
+*Part 2 of 4 — see also: [Part 1](voice-design-lab--part-1.md), [Part 3](voice-design-lab--part-3.md), [Part 4](voice-design-lab--part-4.md)*
 
-The Telnyx Voice Design Lab lets you create custom text-to-speech voices either by describing what you want in natural language (voice design) or by uploading a recording of an existing speaker (voice cloning). Both paths produce a production-ready voice ID you can use across AI Assistants, Call Control, and the TTS WebSocket API.
+The Voice Design Lab lets you create custom voices for text-to-speech in two ways: by describing a voice in natural language (Design a Voice) or by cloning from an audio sample (Clone from Audio). Both flows produce a production-ready voice clone that can be used across AI Assistants, Call Control, and the TTS API.
 
-## Prompting Guide for Voice Design
+## Design a Voice
 
-### Recommended format
+### Concepts
+
+Voice design generates a synthetic voice from a natural language description. You describe what you want — age, tone, accent, pacing — and the AI creates audio samples that match. This is **not** voice cloning: there is no source audio, and the voice is generated from scratch based on your text prompt.
+
+The API has two separate resources:
+
+1. **Voice Design** — an intermediate artifact (a draft). You can iterate on it (up to 50 versions per design). It is NOT usable for TTS directly.
+2. **Voice Clone** — a production-ready voice created from a design. This is what you pass to AI Assistants, Call Control, and the TTS API.
+
+```
+POST /v2/voice_designs → generates a sample → returns design id + version
+POST /v2/voice_clones  → saves the design as a usable voice → returns voice clone id
+```
+
+The portal hides this two-step flow behind a single "Save This Voice" button. When using the API directly, both steps are required.
+
+### Portal walkthrough
+
+1. **Choose a provider** — select **Telnyx** or **Minimax** using the provider toggle.
+2. **Describe the voice** — write a natural language description of the voice you want (gender, age, tone, pace, texture, personality).
+3. **Generate samples** — click **Generate Samples** to create three audio previews. Each reads a different script in your chosen language.
+4. **Preview and iterate** — listen to each sample. Click **Regenerate All** to try again, or refine your description.
+5. **Save as a voice clone** — click **Save This Voice**. Give it a name and gender tag — this creates a production-ready voice clone.
+
+### API quickstart
+
+**1. Create a voice design**
+
+```
+POST /v2/voice_designs
+
+{
+  "name": "Friendly Receptionist",
+  "prompt": "Female, mid-thirties. Warm and full, slightly husky.",
+  "text": "Hello, thank you for calling. How can I help you today?",
+  "language": "en",
+  "provider": "telnyx"
+}
+```
+
+Set `"provider": "minimax"` to use the Minimax provider instead.
+
+**2. Listen to the generated sample**
+
+```
+GET /v2/voice_designs/{id}/sample
+```
+
+Returns `audio/wav`.
+
+**3. Save as a usable voice clone**
+
+A voice design is a draft. To use it in production, save it as a clone:
+
+```
+POST /v2/voice_clones
+
+{
+  "name": "Friendly Receptionist",
+  "voice_design_id": "DESIGN_ID",
+  "version": 1,
+  "language": "en",
+  "gender": "female"
+}
+```
+
+### Full example
+
+Python
+
+```python
+import telnyx
+
+client = telnyx.Telnyx(api_key="YOUR_TELNYX_API_KEY")
+
+# 1. Create a voice design
+design = client.voice_designs.create(
+    name="Friendly Receptionist",
+    prompt="Female, mid-thirties. Warm and full, slightly husky.",
+    text="Hello, thank you for calling. How can I help you today?",
+    language="en",
+    provider="telnyx",
+)
+design_id = design.data.id
+print(f"Voice design created: {design_id}")
+
+# 2. Download the generated audio sample
+sample = client.voice_designs.download_sample(design_id)
+with open("sample.wav", "wb") as f:
+    f.write(sample.content)
+print("Sample saved to sample.wav")
+
+# 3. Save the design as a usable voice clone
+clone = client.voice_clones.create(
+    params={
+        "voice_design_id": design_id,
+        "name": "Friendly Receptionist",
+        "language": "en",
+        "gender": "female",
+    }
+)
+print(f"Voice clone ready: {clone.data.id}")
+# Use this clone ID in TTS, Call Control, or AI Assistants
+```
+
+Node.js
+
+```javascript
+import Telnyx from 'telnyx';
+import fs from 'fs';
+
+const client = new Telnyx({ apiKey: 'YOUR_TELNYX_API_KEY' });
+
+// 1. Create a voice design
+const design = await client.voiceDesigns.create({
+  name: 'Friendly Receptionist',
+  prompt: 'Female, mid-thirties. Warm and full, slightly husky.',
+  text: 'Hello, thank you for calling. How can I help you today?',
+  language: 'en',
+  provider: 'telnyx',
+});
+console.log(`Voice design created: ${design.data.id}`);
+
+// 2. Download the generated audio sample
+const sample = await client.voiceDesigns.downloadSample(design.data.id);
+const buffer = Buffer.from(await sample.arrayBuffer());
+fs.writeFileSync('sample.wav', buffer);
+console.log('Sample saved to sample.wav');
+
+// 3. Save the design as a usable voice clone
+const clone = await client.voiceClones.create({
+  params: {
+    voice_design_id: design.data.id,
+    name: 'Friendly Receptionist',
+    language: 'en',
+    gender: 'female',
+  },
+});
+console.log(`Voice clone ready: ${clone.data.id}`);
+// Use this clone ID in TTS, Call Control, or AI Assistants
+```
+
+### Prompting guide
+
+**Recommended format**
 
 Structure your prompt for consistent results:
 
@@ -36,51 +180,27 @@ Structure your prompt for consistent results:
 <1–2 sentences about timbre, pacing, delivery>
 ```
 
-**Example:** Female, mid-thirties. Warm and full, slightly husky. Moderate pace, sounds like someone who smiles while talking.
+Example:
 
-### Dimensions to describe
+> Female, mid-thirties. Warm and full, slightly husky. Moderate pace, sounds like someone who smiles while talking.
 
-**Age:**
+**Dimensions to describe**
 
-- "Young adult", "in their 20s" → lighter, more energetic
-- "Mid-thirties", "early forties" → balanced, mature
-- "Elderly", "in his 80s" → deeper, weathered texture
+- **Age** — "young adult" / "in their 20s" (lighter, more energetic); "mid-thirties" / "early forties" (balanced, mature); "elderly" / "in his 80s" (deeper, weathered texture).
+- **Tone / Timbre** — Deep / low-pitched (gravitas, authority); Smooth / rich (polished, professional); Gravelly / raspy (character, authenticity); Airy / breathy (intimate, soft); Warm / mellow (approachable, friendly).
+- **Gender** — Male, female, or describe the sound directly: "a lower-pitched, husky female voice" or "a neutral, mid-pitched androgynous voice."
+- **Pacing** — Measured / deliberate (careful, authoritative); Rapid-fire / quick (energetic, urgent); Relaxed / conversational (natural, approachable); Rhythmic (storytelling, narration).
+- **Emotion / Energy** — Calm / serene (support, meditation); Enthusiastic / upbeat (marketing, announcements); Authoritative / matter-of-fact (IVR, instructions); Warm / empathetic (customer service, healthcare).
+- **Accent / Regional** — be specific: "Slight British accent" rather than "British"; "Neutral American" rather than just "American"; "Soft Southern drawl" rather than "Southern".
+- **Use case context** — adding context helps the model understand intent: "Customer service agent for a bank", "Podcast narrator for true crime", "Bedtime story reader for children".
 
-**Tone / Timbre:**
-
-- **Deep / low-pitched** — gravitas, authority
-- **Smooth / rich** — polished, professional
-- **Gravelly / raspy** — character, authenticity
-- **Airy / breathy** — intimate, soft
-- **Warm / mellow** — approachable, friendly
-
-**Gender:** Male, female, or describe the sound directly (e.g., "a lower-pitched, husky female voice" or "a neutral, mid-pitched androgynous voice").
-
-**Pacing:**
-
-- **Measured / deliberate** — careful, authoritative
-- **Rapid-fire / quick** — energetic, urgent
-- **Relaxed / conversational** — natural, approachable
-- **Rhythmic** — storytelling, narration
-
-**Emotion / Energy:**
-
-- **Calm / serene** — support, meditation
-- **Enthusiastic / upbeat** — marketing, announcements
-- **Authoritative / matter-of-fact** — IVR, instructions
-- **Warm / empathetic** — customer service, healthcare
-
-**Accent / Regional:** Be specific — "slight British accent" rather than "British", "neutral American" rather than "American", "soft Southern drawl" rather than "Southern".
-
-**Use case context:** Adding context helps the model understand intent (e.g., "customer service agent for a bank", "podcast narrator for true crime", "bedtime story reader for children").
-
-### Example prompts
+**Example prompts**
 
 | Use Case | Prompt | Recommended Engine |
 | --- | --- | --- |
 | Customer service | Female, mid-thirties. Warm and full, slightly husky. Moderate pace, sounds like someone who smiles while talking. | Minimax |
 | IVR system | Male, late thirties. Clean and dry, matter-of-fact. Deliberate pace, pauses before numbers and details. | Telnyx |
-| Voice agent | Female, late twenties. Clear and professional, slightly upbeat. Natural conversational pace with a helpful tone. | — |
+| Voice agent | Female, late twenties. Clear and professional, slightly upbeat. Natural conversational pace with a helpful tone. |  |
 | Podcast narrator | Male, early forties. Deep and smooth, with a rich baritone. Measured pacing, storytelling cadence. | Minimax |
 | Empathetic support | Male, mid-thirties. Warm, slightly gravelly. Measured and unhurried. You can hear patience in the breathing rhythm. | Telnyx |
 | Notification/alert | Female, mid-twenties. Bright and crisp. Quick pace, clear enunciation. No emotion — just information. | Minimax |
@@ -88,64 +208,41 @@ Structure your prompt for consistent results:
 | Energetic promo | Male, early twenties. Bright and enthusiastic, high energy. Rapid-fire pacing, sounds highly engaged and convincing. | Minimax |
 | Audiobook (Fiction) | Male, in his 60s. Deep, weathered texture. Relaxed, storytelling cadence with a warm, nostalgic feel. | Telnyx |
 
-### Common pitfalls
+**Common pitfalls**
 
 - **Too vague** — "nice voice" or "good voice" produces generic output. Be specific about at least 3 dimensions.
 - **Contradictory traits** — "whisper" + "booming" confuses the model. Pick a coherent set of characteristics.
 - **Provider differences** — the same prompt may produce noticeably different results on Telnyx vs Minimax. Try both.
 - **Ignoring the preview text** — the text you provide for synthesis should match the voice's intended use. Don't use a cheerful script for a somber voice.
 
-### The Enhance button
+**The Enhance button**
 
-The portal's **Enhance** button uses AI to expand a short description into a detailed prompt covering gender/age, resonance placement, texture, pace, and distinctive quality. This is a good starting point, but review the expanded prompt before generating — you may want to tweak specific dimensions.
+The portal's **Enhance** button uses AI to expand a short description into a detailed prompt. For example, "Empathetic tech support agent" becomes:
 
-## Recording Best Practices for Voice Cloning
+> *Empathetic tech support agent*  **Gender and age:** Female, late 20s to early 30s. **Where the voice sits:** Head and chest, with a balanced resonance. **Texture:** Silky smooth with a faint warmth, slightly airy. **Pace:** Moderate, with deliberate pauses for clarity and reassurance. **Distinctive quality:** A gentle, patient lilt that conveys calm and understanding.
 
-1. **Match your recording to your use case.** Don't read a monotone script if you want an expressive clone. The AI replicates what it hears — including energy, emotion, and pacing.
-2. **Speak clearly, avoid background noise.** Use a decent microphone in a quiet space. Background noise gets cloned too. A $100–300 USB condenser in a quiet room is sufficient.
-3. **Avoid long pauses.** The cloned voice will mimic pauses between sentences. Keep speech flowing naturally.
-4. **Trim your recording.** Speech from start to finish, no dead air at the beginning or end.
-5. **Speak in the target language.** If you want the clone to speak Spanish, record in Spanish.
-6. **Keep it consistent.** Same tone, accent, and energy throughout. Wide fluctuations confuse the model. The AI clones everything — including stutters, "uhms", and inconsistencies.
-7. **Aim for the right volume.** Target -23 to -18 dB RMS with peaks no higher than -3 dB. Too quiet = noise floor issues. Too loud = clipping.
-8. **Audio codec doesn't matter much.** MP3 at 128 kbps or above is fine. WAV is ideal but higher bitrate MP3 won't noticeably hurt quality.
-9. **Optimal duration by model:**
-   - **Qwen3TTS:** 5–10 seconds. Auto-trims to 10s. More isn't better.
-   - **Ultra:** Up to 10 seconds.
-   - **Minimax:** 1–2 minutes is the sweet spot. Longer recordings capture more vocal range, but beyond 3 minutes yields diminishing returns.
+This is a good starting point, but review the expanded prompt before generating — you may want to tweak specific dimensions.
 
-## Voice ID Format and Clone Status
+### Design API parameters
 
-Every clone response includes fields to construct the voice ID: `{Provider}.{Model}.{provider_voice_id}`
+**Providers** — set via the `provider` body parameter on `POST /v2/voice_designs`.
 
-| Provider | `provider_voice_id` value |
-| --- | --- |
-| **Telnyx Qwen3TTS** | Equals the clone's UUID (`id` field) |
-| **Telnyx Ultra** | Cartesia-assigned voice ID |
-| **Minimax** | Minimax-assigned ID (encoded format) |
+|  | Telnyx (Qwen3TTS) | Minimax |
+| --- | --- | --- |
+| `provider` value | `"telnyx"` (default) | `"minimax"` |
+| Generation parameters | Respected | Not supported |
+| Languages | Auto, Chinese, English, Japanese, Korean, German, French, Russian, Portuguese, Spanish, Italian | Auto, Chinese, English, Japanese, Korean, German, French, Russian, Portuguese, Spanish, Italian |
+| Prompt interpretation | Follows prompts closely | May interpret differently |
+| When to use | Fine control over generation, consistent results across iterations | Try a different model's interpretation of the same prompt |
 
-Examples:
+**Generation parameters** — body parameters on `POST /v2/voice_designs`. **Telnyx provider only** — ignored when `provider` is `"minimax"`.
 
-- **Telnyx:** `Telnyx.Qwen3TTS.33226e69-3abd-429b-b64a-86775c9b5850`
-- **Minimax:** `Minimax.speech-2.8-turbo.TB4ZMVKanThGeldiw8rLBEg21v4ifjUTRgLpkodJxpMYV`
+| Body parameter | Default | Range | What it does |
+| --- | --- | --- | --- |
+| `temperature` | 0.9 | 0–2 | Higher = more varied/creative output. Lower = more predictable. |
+| `top_k` | 50 | 1–1000 | Limits vocabulary at each generation step. Lower = more focused. |
+| `top_p` | 1.0 | 0–1 | Nucleus sampling cutoff. Lower = fewer token choices. |
+| `repetition_penalty` | 1.05 | 1–2 | Reduces repeated patterns in generated audio. |
+| `max_new_tokens` | 2048 | 100–4096 | Maximum tokens to generate. Affects output length. |
 
-Find the voice ID in the Voice Design Lab by clicking on any saved voice, or build it from the clone response's `provider`, `provider_supported_models`, and `provider_voice_id` fields.
-
-### Clone status
-
-| Status | Meaning |
-| --- | --- |
-| `active` | Ready to use |
-| `pending` | Being processed (Ultra only — poll until active) |
-| `failed` | Processing failed |
-| `expired` | Voice was not kept alive |
-
-Qwen3TTS and Minimax clones are always `active` on creation.
-
-## Using Custom Voices
-
-Once you have a voice ID, you can use it across Telnyx products:
-
-- **AI Assistants:** Select your custom voice in the assistant's voice settings. Telnyx clones appear under **Telnyx / Qwen3TTS**, Minimax clones under **Minimax**.
-- **Call Control:** Pass the voice ID in the `voice` field of the `speak` command.
-- **TTS WebSocket:** Pass the voice ID as the `voice` query parameter on the WebSocket URL. See the [TTS streaming guide](https://developers.telnyx.com/docs/tts-stt/tts-websocket-streaming) for the full connection flow.
+The defaults are a great starting point — you can skip these parameters entirely and get good results. Adjust them later if you want to fine-tune the output.

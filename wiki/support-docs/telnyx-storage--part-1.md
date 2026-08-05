@@ -1,171 +1,175 @@
 ---
 title: Telnyx Storage
 summary: Telnyx Storage is a high-performance, S3-compatible cloud storage service
-  offering zero egress fees, 11 nines of durability, and built-in AI inference capabilities.
-  It integrates with a wide range of third-party file transfer, backup, synchronization,
-  and mounting tools through its S3-compatible API.
+  offering 11 nines of durability, zero egress fees, and seamless integration with
+  a wide range of third-party tools. This page explains how to create and manage storage
+  buckets, use the built-in AI features for summarization and inference, and configure
+  popular S3 clients and backup utilities to work with Telnyx Storage.
 sources:
-- url: https://support.telnyx.com/en/articles/6964207-use-cyberduck-with-telnyx-storage
 - url: https://support.telnyx.com/en/articles/6964249-use-msp360-cloudberry-explorer-with-telnyx-storage
 - url: https://support.telnyx.com/en/articles/6964272-use-rclone-with-telnyx-storage
 - url: https://support.telnyx.com/en/articles/6965267-use-s3-browser-with-telnyx-storage
-- url: https://support.telnyx.com/en/articles/6966381-use-wal-g-with-telnyx-storage
-- url: https://support.telnyx.com/en/articles/7869213-use-arq-backup-with-telnyx-storage
-- url: https://support.telnyx.com/en/articles/7869264-use-backup4all-with-telnyx-storage
-- url: https://support.telnyx.com/en/articles/7873510-use-duplicati-with-telnyx-storage
-- url: https://support.telnyx.com/en/articles/7903390-use-winscp-with-telnyx-storage
 - url: https://support.telnyx.com/en/articles/8047874-use-syncovery-with-telnyx-storage
 - url: https://support.telnyx.com/en/articles/8047898-use-goodsync-with-telnyx-storage
 - url: https://support.telnyx.com/en/articles/8047914-use-cloudmounter-with-telnyx-storage
 - url: https://support.telnyx.com/en/articles/8047928-use-dragondisk-with-telnyx-storage
-- url: https://support.telnyx.com/en/articles/8047941-use-crossftp-with-telnyx-storage
 - url: https://support.telnyx.com/en/articles/8047945-use-expandrive-with-telnyx-storage
 - url: https://support.telnyx.com/en/articles/8047956-use-odrive-with-telnyx-storage
 - url: https://support.telnyx.com/en/articles/8047969-use-webdrive-with-telnyx-storage
 - url: https://support.telnyx.com/en/articles/8048024-use-netdrive3-with-telnyx-storage
+- url: https://support.telnyx.com/en/articles/8048045-use-airexplorer-with-telnyx-storage
 - url: https://support.telnyx.com/en/articles/8344129-get-started-with-telnyx-storage-inference-guide
 - url: https://support.telnyx.com/en/collections/3840515-telnyx-storage
-updated_at: 2026-06-11T11:40:26Z
+updated_at: 2026-08-05T13:37:50Z
 ---
 
 # Telnyx Storage
 
 *Part 1 of 3 — see also: [Part 2](telnyx-storage--part-2.md), [Part 3](telnyx-storage--part-3.md)*
 
-Telnyx Storage is a high-performance, S3-compatible cloud storage service offering zero egress fees, 11 nines of durability, and built-in AI inference capabilities. It integrates with a wide range of third-party file transfer, backup, synchronization, and mounting tools through its S3-compatible API.
+Telnyx Storage is a high-performance, S3-compatible cloud storage service offering 11 nines of durability, zero egress fees, and seamless integration with a wide range of third-party tools. This page explains how to create and manage storage buckets, use the built-in AI features for summarization and inference, and configure popular S3 clients and backup utilities to work with Telnyx Storage.
 
 ## Overview
 
-Telnyx Storage is a cloud storage service built on distributed storage technology for storing and managing unstructured data. It offers speedy data retrieval, exceptional durability (11 nines of reliability), and an S3-compatible API that enables seamless integration with third-party tools and applications.
+Telnyx Storage is a high-performance cloud storage service designed for storing and managing large volumes of unstructured data. It offers speedy data retrieval and 11 nines of reliability, and exposes an S3-compatible API so that existing S3-centric applications can be pointed at Telnyx endpoints for easy migration.
 
-Key differentiators include:
+Key differentiators compared to platforms such as Google Cloud Storage include:
 
-- **Zero egress fees** — unlike providers such as Google Cloud Storage, Telnyx does not charge for data egress.
-- **~70% cost savings** compared to Google Cloud Storage across Class A and B operations.
-- **S3-compatible API** — point existing S3-centric applications at Telnyx endpoints for easy migration.
-- **Built-in AI features** — summarize and embed stored objects for use in inference workflows.
+- **No egress fees** — data retrieval is free regardless of operation class.
+- **Lower cost** — roughly 70% less expensive than Google Cloud Storage for both Class A and Class B operations.
+- **Distributed edge architecture** — built on distributed storage technology for reliable, efficient storage at the edge.
+- **S3 compatibility** — point any S3 client or application at a Telnyx endpoint to migrate workloads quickly.
+- **MSP-friendly** — managed service providers and resellers can use Telnyx Storage to scale disaster recovery and backup/restore services across their client base.
 
-## Storage Buckets
+## Storage buckets
 
-A storage bucket is the fundamental unit of storage within Telnyx Storage. You can create up to 100 buckets at no additional cost (contact sales if you need more). Buckets can be created through the [Telnyx portal](https://portal.telnyx.com/#/app/storage/buckets) or via API.
+A storage bucket is the fundamental unit of storage in Telnyx Storage. Buckets can be created through the Telnyx portal or via an API call, and there is no additional charge for creating additional buckets.
 
-### Creating a Bucket
+Key facts about buckets:
 
-1. Navigate to the **Storage** section in the [Telnyx portal](https://portal.telnyx.com/#/app/storage/buckets).
-2. Click **Get Started** (first time) or the create button.
-3. Enter a unique bucket name (3–65 characters, lowercase letters, numbers, dots, or hyphens only).
-4. Click **Create**.
+- **Creation** — create a bucket from the [Storage](https://portal.telnyx.com/#/app/storage/buckets) section of the Telnyx portal or with an API command.
+- **Limit** — up to 100 buckets per account at no additional cost. Contact sales for higher limits.
+- **S3-compatible API** — point any S3-compatible application at a Telnyx endpoint.
+- **Use cases** — store multi-modal raw data for embeddings, fine-tuning datasets, backups, archives, and more, with zero egress fees.
 
-Bucket names are globally shared across all users. If a name is already taken, you will receive an error: *The requested bucket name is not available. The bucket namespace is shared by all users of the system. Specify a different name and try again.*
+### Create a bucket
 
-### Uploading Objects
+1. Sign in to your Telnyx account and open the [Storage](https://portal.telnyx.com/#/app/storage/buckets) section in the left navigation bar. First-time users can click **Get Started**.
+2. Enter a unique bucket name. Names must be 3–65 characters long and may contain only lowercase letters, numbers, dots (`.`), and hyphens (`-`).
+3. Click **Create**.
 
-1. Click into your bucket from the portal.
-2. Click **Upload Object** or **Upload Folder**.
-3. Drag and drop files or click **Browse Files**.
-4. Optionally specify tags as key-value pairs.
-5. Click **Upload Object**.
+If the name is already in use, the portal returns:
 
-Telnyx Storage accepts virtually any file type, including text files, images, videos, audio, documents, and archives. There are no file type restrictions, but you must have the necessary rights to store and distribute any data you upload.
+> The requested bucket name is not available. The bucket namespace is shared by all users of the system. Specify a different name and try again.
 
-### Deleting a Bucket
+![Telnyx storage buckets gif tutorials. ](_images/bfc6adebfd27f5d7.gif)
 
-You can delete a bucket by clicking the trash icon in the **Actions** column. A bucket can only be deleted when it is empty — all associated objects must be removed first.
+### Upload objects
 
-### Access Control
+Once a bucket is created, click into it to access settings or upload objects. Use the **Upload Object** or **Upload Folder** button in the middle of the page the first time, and the **Upload Object** button in the top right for subsequent uploads. Files can be dragged and dropped or selected via **Browse Files**. Optional key/value tags can be applied to objects before upload.
 
-Currently, storage buckets can only be accessed by the organization owner who created them. Sub-members' buckets are not accessible to the organization owner, and vice versa. Shared access to buckets is planned for a future release.
+![Storage section. ](_images/043eb930edae0467.gif)
 
-## AI and Inference Features
+Supported file types include but are not limited to:
 
-Telnyx Storage includes built-in AI capabilities for objects stored in your buckets.
+- Text files (`.txt`, `.csv`, `.json`, `.xml`, etc.)
+- Image files (`.jpg`, `.png`, `.gif`, etc.)
+- Video files (`.mp4`, `.mov`, `.avi`, etc.)
+- Audio files (`.mp3`, `.wav`, `.aac`, etc.)
+- Document files (`.pdf`, `.docx`, `.xlsx`, etc.)
+- Archive files (`.zip`, `.tar`, `.rar`, etc.)
 
-### Summarize File
+There are no restrictions on file types, but you are responsible for ensuring you have the rights and permissions to store and distribute any data uploaded.
 
-Click the **Summarize File** button on a supported object to generate an AI summary of its contents. Supported file types include:
+### Delete a bucket
 
-- `pdf`, `html`, `txt`/unstructured text, `json`, `csv`
+Click the trash icon in the **Actions** column to delete a bucket. A bucket can only be deleted when it is empty — all objects must be removed first.
+
+## AI features and inference
+
+Telnyx Storage includes built-in AI capabilities that operate directly on objects in your buckets.
+
+### Summarize a file
+
+Click the **Summarize File** button on an object to generate a summary of its contents.
+
+![](_images/e201aa9a0f33d520.png)
+
+Supported file types for AI features:
+
+- `pdf`
+- `html`
+- `txt` and other unstructured text files
+- `json`
+- `csv`
 - Audio/video: `mp3`, `mp4`, `mpeg`, `mpga`, `m4a`, `wav`, `webm` (max 20 MB)
 
-### Embed Content
+When the summary is ready, a popup window displays the result.
 
-Click the **Embed** button to embed your content for use within the AI Playground. Only supported file types will be embedded.
+![Bucket summary. ](_images/6daf8ea8c79b27b0.png)
+
+### Embed objects
+
+Click the **Embed** button to embed an object's content so it can be used in the AI Playground (inference). Only supported file types can be embedded.
+
+![](_images/2720b644898ea1d4.png)
 
 ### AI Playground
 
-The [AI Playground](https://portal.telnyx.com/#/app/aiPlayground) lets you run inference against embedded content in your buckets. You can:
+After embedding files, open the [AI Playground](https://portal.telnyx.com/#/app/aiPlayground) tab next to the bucket tab to run inference.
 
-- Select from multiple language models (OpenAI GPT variants and open-source models such as Mistral and Llama).
-- If using an OpenAI model, provide your OpenAI API Key.
-- Choose a bucket as the knowledge source.
-- Set a **system prompt** and **user message**.
-- Adjust **temperature** (higher = more random, lower = more focused) and **max tokens**.
+![](_images/8b1cffba05540018.png)
 
-Available models include `openai/gpt-4`, `openai/gpt-3.5-turbo`, `mistralai/Mistral-7B-Instruct-v0.1`, `meta-llama/Llama-2-13b-chat-hf`, and others.
+Select a language model, optionally provide an OpenAI API key when using an OpenAI model, choose a bucket, and supply a system prompt and one or more user messages. Adjust **Temperature** (higher = more random, lower = more focused) and **Max Tokens** (maximum tokens generated for the chat completion), then click **Send** to trigger the completion request.
 
-### Why Embed and Infer
+Supported language models include:
 
-Embedding and inferring on bucket objects enables several use cases:
+- `openai/gpt-3.5-turbo-0613`
+- `openai/gpt-3.5-turbo-0125`
+- `openai/gpt-4-turbo-preview`
+- `openai/gpt-4-1106-preview`
+- `openai/gpt-4-32k-0314`
+- `openai/gpt-3.5-turbo-1106`
+- `openai/gpt-4`
+- `openai/gpt-4-0314`
+- `openai/gpt-4-32k`
+- `openai/gpt-3.5-turbo`
+- `openai/gpt-3.5-turbo-16k`
+- `openai/gpt-3.5-turbo-16k-0613`
+- `openai/gpt-3.5-turbo-0301`
+- `openai/gpt-4-0125-preview`
+- `openai/gpt-4-32k-0613`
+- `openai/gpt-4-0613`
+- `NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO`
+- `TheBloke/zephyr-7B-beta-GPTQ`
+- `meta-llama/Llama-2-13b-chat-hf`
+- `mistralai/Mistral-7B-Instruct-v0.1`
 
-- **Content-based recommendation** — generate embeddings to recommend similar items.
-- **Semantic search** — find semantically related documents beyond exact keyword matching.
-- **Image/video recognition** — classify, detect objects, or find visually similar content.
-- **Data clustering and organization** — group similar items in large datasets.
-- **Anomaly detection** — identify entries that deviate from the norm in logs or transactions.
-- **Reduced latency** — process data in-place without moving it to a separate processing location.
+### Why embed and infer on bucket objects
 
-API endpoints for programmatic embedding and inference are planned for future release.
+Embedding and inferring on objects in your buckets unlocks several use cases:
 
-## Common Configuration Parameters
+- **Content-based recommendation** — generate embeddings for catalog items and recommend similar items based on user interactions.
+- **Semantic search** — find documents that are semantically related to a query, even when exact keywords are absent.
+- **Image or video recognition** — represent visual content as embeddings for classification, object detection, or similarity search.
+- **Data clustering and organization** — group similar items together in large, varied buckets.
+- **Anomaly detection** — capture the essence of log or transaction entries and detect outliers.
+- **Reduced latency** — process data in place without moving it to a separate processing location.
 
-All third-party tool integrations share a common configuration pattern because Telnyx Storage exposes an S3-compatible API. The key parameters are:
+Telnyx itself uses this approach to power its AI support assistant, which combines embeddings of telnyx.com, the support center, and developer documentation. See the [Mission Control Portal AI Chat Support](https://support.telnyx.com/en/articles/8020222-mission-control-portal-ai-chat-support) article for details.
 
-| Parameter | Value |
-|---|---|
-| **Connection Type** | Amazon S3 / S3 Compatible |
-| **Endpoint (Server/Host)** | One of the available [Telnyx API Endpoints](https://developers.telnyx.com/docs/cloud-storage/api-endpoints) |
-| **Port** | 443 |
-| **Access Key ID** | Your [Telnyx API Key](https://portal.telnyx.com/#/app/api-keys) |
-| **Secret Access Key** | Not used by Telnyx Storage — enter any placeholder without spaces, quotes, or special characters |
-| **Region** | The region matching your endpoint (e.g., `us-central-1` for `https://us-central-1.telnyxstorage.com`) |
-| **Signature Version** | AWS4 (V4) |
+## Organisation access
 
-> **Important:** The Secret Access Key field is required by most S3-compatible tools but is not used by Telnyx Storage. Enter any placeholder value that contains no spaces, quotes, or special characters.
+At present, storage buckets created by an organisation owner can only be accessed by that owner. Buckets created by sub-members of an organisation are likewise only accessible to that sub-member. Cross-user access within an organisation is planned for a future release.
 
-## File Transfer Clients
+## Common configuration values
 
-### Cyberduck
+Most S3-compatible clients require the same handful of values to connect to Telnyx Storage. The values below are referenced throughout the per-tool guides that follow.
 
-[Cyberduck](https://cyberduck.io/) is a free, open-source file transfer client for macOS and Windows supporting upload, download, metadata management, versioning, and lifecycle policies.
-
-1. Download and install [Cyberduck](https://cyberduck.io/download/).
-2. Open Cyberduck and click **Open Connection**.
-3. Select **Amazon S3** as the connection type.
-4. Enter: **Server** = Telnyx API Endpoint, **Port** = 443, **Access Key ID** = Telnyx API Key, **Secret Access Key** = any placeholder.
-5. Click **Connect**.
-
-For more details, see the [Cyberduck documentation](https://docs.cyberduck.io/cyberduck/).
-
-### WinSCP
-
-[WinSCP](https://winscp.net/eng/index.php) is an open-source SFTP/FTP/SCP client for Windows with file synchronization, scripting, and remote editing capabilities.
-
-1. Download and install [WinSCP](https://winscp.net/eng/index.php).
-2. Click **New Session**.
-3. Set **File Protocol** to `Amazon S3`.
-4. Enter: **Host name** = Telnyx API Endpoint, **Port number** = 443, **Access key ID** = Telnyx API Key, **Secret access key** = any placeholder.
-5. Click **Login**.
-
-For more details, see the [WinSCP documentation](https://winscp.net/eng/docs/start).
-
-### CrossFTP
-
-[CrossFTP](https://www.crossftp.com) is an FTP client supporting multi-threading, synchronization, and encryption.
-
-1. Download and install [CrossFTP](https://www.crossftp.com/download.htm).
-2. Click **File** → **Site Connect**.
-3. Set **Protocol** to `S3/HTTPS`.
-4. Enter: **Host** = Telnyx API Endpoint, **Port** = 433, **Access Key** = Telnyx API Key, **Secret** = any placeholder, **Remote Path** = bucket name.
-5. Click **Connect**.
-
-For more details, see the [CrossFTP features page](https://www.crossftp.com/features.htm).
+| Field | Value |
+| --- | --- |
+| Access Key | Your [Telnyx API Key](https://portal.telnyx.com/#/app/api-keys) |
+| Secret Key | Any value without spaces, quotes, or special characters — Telnyx Storage does not use the secret key, but most clients require one |
+| Endpoint / REST Endpoint / Server | One of the available [API Endpoints](https://developers.telnyx.com/docs/cloud-storage/api-endpoints) |
+| Region / Location Constraint | The matching region from the [API Endpoints](https://developers.telnyx.com/docs/cloud-storage/api-endpoints) page (for example, `us-central-1` for `https://us-central-1.telnyxstorage.com`) |
+| Bucket | The name of an existing bucket in the [Storage](https://portal.telnyx.com/#/app/storage/buckets) section of the Telnyx portal |
