@@ -1,0 +1,85 @@
+/* Site-wide design tokens, derived from the Telnyx bootstrap theme with
+   static fallbacks so the design degrades gracefully without it. */
+:root {
+  --kb-ink: var(--telnyx-main-primary, #101010);
+  --kb-cream: var(--telnyx-page-background, #fefdf5);
+  --kb-paper: #ffffff;
+  --kb-outline: var(--telnyx-neutrals-outlines, #ebebeb);
+  --kb-text-primary: var(--telnyx-neutrals-text-primary, #1a1a1a);
+  --kb-text-secondary: var(--telnyx-neutrals-text-secondary, #5a5a5a);
+  --kb-text-on-ink: #fefdf5;
+  --kb-text-on-ink-muted: rgba(254, 253, 245, 0.72);
+  --kb-green: var(--telnyx-brand-primary, #00e3aa);
+  --kb-blue: #3434ef;
+  --kb-font-display: "PP Formula", var(--bs-font-sans-serif, "Inter"), sans-serif;
+  --kb-font-body: var(--bs-font-sans-serif, "Inter", sans-serif);
+  --kb-radius: 10px;
+  --kb-container: 1080px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: var(--kb-cream);
+  color: var(--kb-text-primary);
+  font-family: var(--kb-font-body);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+:focus-visible {
+  outline: 2px solid var(--kb-blue);
+  outline-offset: 2px;
+}
+
+.container {
+  max-width: var(--kb-container);
+  margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.eyebrow {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--kb-text-secondary);
+}
+
+.skip-link {
+  position: absolute;
+  top: -48px;
+  left: 16px;
+  z-index: 200;
+  padding: 10px 16px;
+  background-color: var(--kb-ink);
+  color: var(--kb-text-on-ink);
+  border-radius: 0 0 8px 8px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  transition: top 0.15s ease;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
