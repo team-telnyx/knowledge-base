@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "wouter";
-import { articles } from "../content/manifest";
+import { articles, collections } from "../content/manifest";
 import { ArticleContent } from "../components/ArticleContent";
 import { Breadcrumbs } from "../components/Breadcrumbs";
+import { useDocumentTitle } from "../utils/document-title";
+import "./ArticlePage.css";
 
 const rawBasePath = process.env.BASE_PATH || "/";
 const basePath = rawBasePath.endsWith("/") ? rawBasePath : `${rawBasePath}/`;
@@ -15,11 +17,37 @@ type BodyState = {
   error: boolean;
 };
 
+function formatDate(iso: string): string | null {
+  const date = new Date(`${iso}T00:00:00Z`);
+  if (Number.isNaN(date.getTime())) return null;
+  return date.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+    timeZone: "UTC",
+  });
+}
+
+function relatedArticles(slug: string, collectionPath: string, count: number) {
+  const collection = collections.find((c) => c.path === collectionPath);
+  if (!collection) return [];
+  const siblings = collection.articleSlugs.filter((s) => s !== slug);
+  const index = collection.articleSlugs.indexOf(slug);
+  // Take neighbors around the article's position so the picks are stable.
+  const start = Math.max(0, Math.min(index, siblings.length - count));
+  return siblings
+    .slice(start, start + count)
+    .map((s) => articles.find((a) => a.slug === s))
+    .filter((a): a is (typeof articles)[number] => a !== undefined);
+}
+
 export function ArticlePage() {
   const { slug } = useParams<{ slug: string }>();
 
   const article = slug ? articles.find((a) => a.slug === slug) : undefined;
   const [state, setState] = useState<BodyState | null>(null);
+
+  useDocumentTitle(article?.title);
 
   useEffect(() => {
     if (!slug || !article) return;
@@ -48,30 +76,76 @@ export function ArticlePage() {
 
   if (!slug || !article) {
     return (
-      <div>
-        <p>Article not found</p>
-        <Link to="/">Back to home</Link>
+      <div className="container article-missing">
+        <p className="eyebrow">Not found</p>
+        <h1 className="article-missing-title">Article not found</h1>
+        <p>
+          <Link to="/">Browse all topics</Link>
+        </p>
       </div>
     );
   }
 
   const current = state?.slug === slug ? state : null;
+  const scrapedDate = article.scraped ? formatDate(article.scraped) : null;
+  const related = relatedArticles(slug, article.collectionPath, 4);
 
   return (
-    <div>
-      <Breadcrumbs collectionPath={article.collectionPath} />
-      <h1>{article.title}</h1>
-      {article.sourceUrl ? (
-        <a href={article.sourceUrl} target="_blank" rel="noopener noreferrer">
-          View original
-        </a>
-      ) : null}
-      {current === null ? (
-        <p>Loading…</p>
-      ) : current.error || current.body === null ? (
-        <p>Failed to load this article. Please try again.</p>
-      ) : (
-        <ArticleContent body={current.body} />
+    <div className="container article">
+      <header className="article-header">
+        <Breadcrumbs collectionPath={article.collectionPath} />
+        <h1 className="article-title">{article.title}</h1>
+        <p className="article-meta">
+          {scrapedDate && (
+            <span className="article-meta-item">As of {scrapedDate}</span>
+          )}
+          {article.sourceUrl && (
+            <a
+              className="article-meta-item article-meta-source"
+              href={article.sourceUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View original ↗
+            </a>
+          )}
+        </p>
+      </header>
+
+      <div className="article-card">
+        {current === null ? (
+          <p className="article-status" role="status">
+            Loading article…
+          </p>
+        ) : current.error || current.body === null ? (
+          <p className="article-status">
+            This article failed to load. Refresh the page to try again.
+          </p>
+        ) : (
+          <ArticleContent body={current.body} />
+        )}
+      </div>
+
+      {related.length > 0 && (
+        <section className="article-related" aria-label="Related articles">
+          <h2 className="article-related-heading eyebrow">Related articles</h2>
+          <div className="article-related-grid">
+            {related.map((a) => (
+              <Link
+                key={a.slug}
+                to={`/article/${a.slug}`}
+                className="article-related-card"
+              >
+                <span className="article-related-title">{a.title}</span>
+                {a.description && (
+                  <span className="article-related-description">
+                    {a.description}
+                  </span>
+                )}
+              </Link>
+            ))}
+          </div>
+        </section>
       )}
     </div>
   );
