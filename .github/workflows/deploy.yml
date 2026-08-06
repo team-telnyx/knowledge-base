@@ -8,6 +8,15 @@ on:
     paths:
       - "website/**"
       - "support-docs/**"
+      - ".github/workflows/deploy.yml"
+      - ".github/utils/setup-runner/**"
+
+# Two overlapping `s3 sync --delete` runs against the same bucket can
+# interleave deletes and uploads into a mixed-version deployment; queue
+# deploys instead (never cancel a sync mid-flight).
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
 
 env:
   AWS_REGION: "us-east-1"
