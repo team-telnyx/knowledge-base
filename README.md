@@ -96,17 +96,40 @@ The incremental wiki update intentionally does **not** run the full LLMWiki comp
 
 ## Website
 
-`website/` is a React 19 + Vite single-page app built and run with [Bun](https://bun.sh):
+`website/` is a React 19 + Vite single-page app built and run with [Bun](https://bun.sh). All commands run from the `website/` directory:
 
 ```bash
 cd website
 bun install
-bun run dev        # generates content from ../support-docs, then starts Vite on :5173
-bun run build      # full production build into website/dist
-bun run type-check
 ```
 
-The build pipeline (`website/scripts/build-content.ts`) reads `support-docs/`, cleans scraper noise from article bodies, copies theme fonts and referenced images into `website/public/`, emits per-article JSON for on-demand loading, and generates a typed content manifest. A postbuild step (`website/scripts/generate-route-files.ts`) materializes every route as a static file so deep links work on S3.
+### Run locally (dev)
+
+```bash
+bun run dev
+```
+
+This first regenerates the content from `../support-docs` (see the pipeline below), then starts the Vite dev server with hot reload at [http://localhost:5173](http://localhost:5173). Re-run the command after changing anything under `support-docs/` — content is generated at startup, not watched.
+
+### Run the built version
+
+```bash
+bun run build      # full production build into website/dist
+bun run preview    # serve website/dist at http://localhost:4173
+```
+
+`build` runs the whole production pipeline: content generation, `tsc`-independent Vite build, and route-file generation. `preview` serves the resulting `dist/` exactly as produced, which is the closest local approximation of the S3 deployment (one difference: the dev/preview server falls back to `index.html` for unknown paths on its own, while production relies on the generated route files and the S3 error document).
+
+Other useful scripts:
+
+```bash
+bun run type-check    # tsc --noEmit
+bun run gen-content   # regenerate content without building
+```
+
+### How the build works
+
+The content pipeline (`website/scripts/build-content.ts`, runs as a `prebuild`/`predev` step) reads `support-docs/`, cleans scraper noise from article bodies, rewrites legacy help-center links, copies theme fonts and referenced images into `website/public/`, emits per-article JSON for on-demand loading, and generates a typed content manifest. When `support-docs/_tree.json` is absent (the current flat snapshot), it derives topic collections from keyword rules. A postbuild step (`website/scripts/generate-route-files.ts`) materializes every route — including legacy `/en/articles/...` URLs — as a static file so deep links work on S3, plus a `404.html` fallback.
 
 Deployment runs from `.github/workflows/deploy.yml` on pushes to `main`, using OIDC role assumption for AWS credentials.
 
