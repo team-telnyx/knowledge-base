@@ -52,22 +52,55 @@ jobs:
 
       - name: Deploy files to bucket
         run: |
-          # Route files under article/ and collection/ are extensionless HTML
-          # copies of index.html (SPA deep-link support); sync would upload
-          # them as application/octet-stream, so they are uploaded separately
-          # with an explicit content type.
-          aws s3 sync ./website/dist/ s3://support.telnyx.com/ \
+          BUCKET=s3://support.telnyx.com
+
+          # 1) Content-hashed files first (long-lived, immutable), so the
+          #    HTML uploaded later never references assets missing from the
+          #    bucket.
+          for prefix in assets _images; do
+            aws s3 sync ./website/dist/$prefix/ $BUCKET/$prefix/ \
+              --delete \
+              --cache-control 'public, max-age=31536000, immutable' \
+              --acl public-read
+          done
+
+          # 2) Article bodies — mutable JSON, revalidated on every request.
+          aws s3 sync ./website/dist/content/ $BUCKET/content/ \
             --delete \
+            --cache-control 'public, no-cache' \
+            --acl public-read
+
+          # 3) Theme fonts (stable names, rarely change) get a day of cache.
+          aws s3 sync ./website/dist/ $BUCKET/ \
+            --exclude '*' \
+            --include '*.woff' \
+            --include '*.woff2' \
+            --cache-control 'public, max-age=86400' \
+            --acl public-read
+
+          # 4) Remaining root files (index.html, 404.html) — no-cache so a
+          #    deploy takes effect immediately.
+          aws s3 sync ./website/dist/ $BUCKET/ \
+            --delete \
+            --exclude 'assets/*' \
+            --exclude '_images/*' \
+            --exclude 'content/*' \
             --exclude 'article/*' \
             --exclude 'collection/*' \
             --exclude 'en/*' \
-            --cache-control 'public, must-revalidate' \
+            --exclude '*.woff' \
+            --exclude '*.woff2' \
+            --cache-control 'public, no-cache' \
             --acl public-read
+
+          # 5) SPA route files — extensionless copies of index.html (deep-link
+          #    support); uploaded separately because sync would guess
+          #    application/octet-stream for files without extensions.
           for prefix in article collection en; do
-            aws s3 sync ./website/dist/$prefix/ s3://support.telnyx.com/$prefix/ \
+            aws s3 sync ./website/dist/$prefix/ $BUCKET/$prefix/ \
               --delete \
               --content-type 'text/html; charset=utf-8' \
-              --cache-control 'public, must-revalidate' \
+              --cache-control 'public, no-cache' \
               --acl public-read
           done
 
