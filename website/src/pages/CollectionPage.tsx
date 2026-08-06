@@ -12,9 +12,19 @@ function findCollection(path: string): Collection | undefined {
 
 type ArticleMeta = Omit<Article, "body">;
 
+// wouter passes params raw, so a malformed percent-sequence in the URL
+// (e.g. /collection/100%zz) would make decodeURIComponent throw mid-render.
+function safeDecode(value: string): string {
+  try {
+    return decodeURIComponent(value);
+  } catch {
+    return value;
+  }
+}
+
 export function CollectionPage() {
   const { rest } = useParams<{ rest?: string }>();
-  const collectionPath = rest ? decodeURIComponent(rest) : "";
+  const collectionPath = rest ? safeDecode(rest) : "";
   const collection = findCollection(collectionPath);
   const [filter, setFilter] = useState("");
 

@@ -1,0 +1,31 @@
+.error-boundary {
+  padding: 96px 24px;
+  text-align: center;
+}
+
+.error-boundary-title {
+  margin: 8px 0 12px;
+  font-family: var(--kb-font-display, "Inter", sans-serif);
+  font-weight: 800;
+  font-size: 32px;
+}
+
+.error-boundary-text {
+  margin: 0 0 24px;
+  color: var(--kb-text-secondary, #5a5a5a);
+}
+
+.error-boundary-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--kb-ink, #101010);
+  color: var(--kb-text-on-ink, #fefdf5);
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.error-boundary-link:hover {
+  background-color: #2a2a2a;
+}

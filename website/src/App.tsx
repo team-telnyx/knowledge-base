@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Router, Route, Switch, Redirect, useLocation } from "wouter";
 import { DefaultLayout } from "./layouts/DefaultLayout";
+import { ErrorBoundary } from "./components/ErrorBoundary";
 import { HomePage } from "./pages/HomePage";
 import { CollectionPage } from "./pages/CollectionPage";
 import { ArticlePage } from "./pages/ArticlePage";
@@ -24,22 +25,24 @@ export function App() {
     <Router base={basePath}>
       <ScrollToTop />
       <DefaultLayout>
-        <Switch>
-          <Route path="/" component={HomePage} />
-          <Route path="/collection/:rest*" component={CollectionPage} />
-          <Route path="/article/:slug" component={ArticlePage} />
-          {/* Legacy Intercom help-center URLs — the site replaces an indexed
-              help center, so inbound links and search results still use the
-              old scheme. Article URLs map 1:1; everything else goes home. */}
-          <Route path="/en/articles/:slug">
-            {(params: { slug: string }) => (
-              <Redirect to={`/article/en--articles--${params.slug}`} replace />
-            )}
-          </Route>
-          <Route path="/en">{() => <Redirect to="/" replace />}</Route>
-          <Route path="/en/:rest*">{() => <Redirect to="/" replace />}</Route>
-          <Route path="/:rest*" component={NotFoundPage} />
-        </Switch>
+        <ErrorBoundary>
+          <Switch>
+            <Route path="/" component={HomePage} />
+            <Route path="/collection/:rest*" component={CollectionPage} />
+            <Route path="/article/:slug" component={ArticlePage} />
+            {/* Legacy Intercom help-center URLs — the site replaces an indexed
+                help center, so inbound links and search results still use the
+                old scheme. Article URLs map 1:1; everything else goes home. */}
+            <Route path="/en/articles/:slug">
+              {(params: { slug: string }) => (
+                <Redirect to={`/article/en--articles--${params.slug}`} replace />
+              )}
+            </Route>
+            <Route path="/en">{() => <Redirect to="/" replace />}</Route>
+            <Route path="/en/:rest*">{() => <Redirect to="/" replace />}</Route>
+            <Route path="/:rest*" component={NotFoundPage} />
+          </Switch>
+        </ErrorBoundary>
       </DefaultLayout>
     </Router>
   );
