@@ -1,6 +1,7 @@
 export interface Article {
   slug: string;
   title: string;
+  description: string | null;
   sourceUrl: string | null;
   scraped: string | null;
   collectionPath: string;
@@ -10,6 +11,7 @@ export interface Article {
 export interface Collection {
   path: string;
   title: string;
+  description: string | null;
   sourceUrl: string | null;
   sourceSlug: string | null;
   intercomCollectionId: string | null;

@@ -21,6 +21,7 @@ type TreeCollection = {
   path: string;
   source_file?: string;
   title?: string;
+  description?: string;
   source_url?: string;
   intercom_collection_id?: string;
   source_slug?: string;
@@ -30,6 +31,87 @@ type TreeCollection = {
 type ManifestData = {
   files: string[];
 };
+
+// The scraped snapshot is flat (no _tree.json), so there is no collection
+// hierarchy to render. These keyword buckets reconstruct a browsable topic
+// structure mirroring the taxonomy of the original Intercom help center.
+// First matching rule wins; unmatched articles land in "general". The rules
+// only apply when _tree.json is absent — a restored tree takes precedence.
+type FallbackTopic = {
+  path: string;
+  title: string;
+  description: string;
+  pattern: RegExp;
+};
+
+const FALLBACK_TOPICS: FallbackTopic[] = [
+  {
+    path: "messaging",
+    title: "Messaging",
+    description:
+      "SMS and MMS, 10DLC and toll-free verification, WhatsApp, and country-specific messaging rules.",
+    pattern:
+      /\bsms\b|\bmms\b|messag|10 ?dlc|toll[- ]?free verification|whatsapp|short ?code|campaign|alphanumeric|sender id|\btext(s|ing)?\b/i,
+  },
+  {
+    path: "voice-sip-trunking",
+    title: "Voice & SIP Trunking",
+    description:
+      "SIP trunk configuration, softphone and PBX setup guides, TeXML, WebRTC, fax, and call troubleshooting.",
+    pattern:
+      /\bsip\b|trunk|voice|call|texml|webrtc|\bfax\b|dial|\bpbx\b|asterisk|freepbx|3cx|codec|\brtp\b|dtmf|\bivr\b|softphone|polycom|zoiper|audiocodes|acrobits|snom|grandstream|bria|yealink|sansay|\bsbc\b|\bn11\b|routing|termination|obihai|fanvil|cisco|linphone|zoho|vitalpbx/i,
+  },
+  {
+    path: "numbers-porting",
+    title: "Numbers & Porting",
+    description:
+      "Number search and management, porting in and out, E911, CNAM, caller ID, and international coverage.",
+    pattern:
+      /number|porting|\bport\b|port[- ](out|in)|fastport|e911|cnam|caller id|\bdid\b|\bdids\b|emergency|\blrn\b|coverage/i,
+  },
+  {
+    path: "iot-wireless",
+    title: "IoT & Wireless",
+    description: "IoT SIM cards, eSIM, and global wireless connectivity.",
+    pattern: /\biot\b|\bsim\b|wireless|esim/i,
+  },
+  {
+    path: "networking-storage",
+    title: "Networking & Storage",
+    description:
+      "Private networks, VPN, cloud storage buckets, and IP address management.",
+    pattern: /storage|network|\bvpn\b|cloud|bucket|\bip\b|\bips\b/i,
+  },
+  {
+    path: "account-billing",
+    title: "Account, Billing & Portal",
+    description:
+      "Account setup and verification, billing and payments, API keys, teams, and portal management.",
+    pattern:
+      /account|billing|payment|invoice|portal|api key|\bteam\b|\bsso\b|2fa|refund|balance|pricing|rate sheet|verification/i,
+  },
+  {
+    path: "ai-automation",
+    title: "AI & Automation",
+    description: "AI assistants, inference, and automation tools.",
+    pattern: /\bai\b|assistant|inference|insight/i,
+  },
+];
+
+const FALLBACK_GENERAL: Omit<FallbackTopic, "pattern"> = {
+  path: "general",
+  title: "General",
+  description:
+    "Getting started, debugging tools, policies, and everything else about working with Telnyx.",
+};
+
+function fallbackTopicFor(title: string, slug: string): string {
+  const haystack = `${title} ${slug}`;
+  for (const topic of FALLBACK_TOPICS) {
+    if (topic.pattern.test(haystack)) return topic.path;
+  }
+  return FALLBACK_GENERAL.path;
+}
 
 function readJson<T>(p: string): T {
   return JSON.parse(fs.readFileSync(p, "utf8")) as T;
@@ -53,7 +135,10 @@ function parseFrontmatter(content: string): {
     const idx = line.indexOf(":");
     if (idx === -1) continue;
     const key = line.slice(0, idx).trim();
-    const val = line.slice(idx + 1).trim();
+    const val = line
+      .slice(idx + 1)
+      .trim()
+      .replace(/^"(.*)"$/, "$1");
     if (key) fm[key] = val;
   }
   const body = lines.slice(i + 1).join("\n");
@@ -137,17 +222,17 @@ function copyThemeFonts() {
 
 function main() {
   copyThemeFonts();
-  const tree = fs.existsSync(treePath)
-    ? readJson<{ collections: TreeCollection[] }>(treePath)
-    : {
-        collections: [
-          {
-            path: "support-articles",
-            title: "Support Articles",
-            source_url: "https://support.telnyx.com/",
-          },
-        ],
-      };
+  const usingFallbackTopics = !fs.existsSync(treePath);
+  const tree = usingFallbackTopics
+    ? {
+        collections: [...FALLBACK_TOPICS, FALLBACK_GENERAL].map((t) => ({
+          path: t.path,
+          title: t.title,
+          description: t.description,
+          source_url: "https://support.telnyx.com/en/",
+        })),
+      }
+    : readJson<{ collections: TreeCollection[] }>(treePath);
   const manifestData = readJson<ManifestData>(manifestPath);
 
   const collections: Collection[] = tree.collections.map((c) => {
@@ -167,6 +252,7 @@ function main() {
     return {
       path: c.path,
       title: title ?? c.path,
+      description: c.description ?? null,
       sourceUrl: c.source_url ?? null,
       sourceSlug: c.source_slug ?? null,
       intercomCollectionId: c.intercom_collection_id ?? null,
@@ -217,12 +303,17 @@ function main() {
     }
     const slug = path.basename(relPath, ".md");
     const articleDir = path.dirname(relPath).split(path.sep).join("/");
-    const collectionPath = articleDir === "." ? "support-articles" : articleDir;
     const title = firstH1(body) ?? slug;
+    const collectionPath = usingFallbackTopics
+      ? fallbackTopicFor(title, slug)
+      : articleDir === "."
+        ? FALLBACK_GENERAL.path
+        : articleDir;
 
     articles.push({
       slug,
       title,
+      description: fm.description ?? null,
       sourceUrl: fm.source_url ?? null,
       scraped: fm.scraped ?? null,
       collectionPath,
@@ -240,6 +331,7 @@ function main() {
   const articlesPublic = articles.map((a) => ({
     slug: a.slug,
     title: a.title,
+    description: a.description,
     sourceUrl: a.sourceUrl,
     scraped: a.scraped,
     collectionPath: a.collectionPath,
@@ -261,6 +353,9 @@ function main() {
   fs.writeFileSync(outPath, output, "utf8");
 
   console.log(`Collections: ${collections.length}`);
+  for (const c of collections) {
+    console.log(`  ${c.path}: ${c.articleSlugs.length} articles`);
+  }
   console.log(`Articles: ${articles.length}`);
   console.log(`Skipped _collection.md: ${skippedCollectionMd}`);
   console.log(`Skipped _uncategorized: ${skippedUncategorized}`);
