@@ -4,7 +4,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "vite",
+    "dev": "bun run prebuild && vite",
     "build": "bun run prebuild && vite build",
     "prebuild": "bun run scripts/build-content.ts",
     "gen-content": "bun run scripts/build-content.ts",

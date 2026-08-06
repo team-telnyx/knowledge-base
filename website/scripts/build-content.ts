@@ -7,6 +7,15 @@ const supportDocsDir = path.resolve(import.meta.dir, "..", "..", "support-docs")
 const treePath = path.join(supportDocsDir, "_tree.json");
 const manifestPath = path.join(supportDocsDir, "_manifest.json");
 const outPath = path.resolve(import.meta.dir, "..", "src", "content", "manifest.ts");
+const publicDir = path.resolve(import.meta.dir, "..", "public");
+const bootstrapDistDir = path.resolve(
+  import.meta.dir,
+  "..",
+  "node_modules",
+  "@telnyx-private",
+  "bootstrap",
+  "dist",
+);
 
 type TreeCollection = {
   path: string;
@@ -64,7 +73,26 @@ function parentOf(p: string): string | null {
   return idx === -1 ? null : p.slice(0, idx);
 }
 
+// theme.css references its fonts at root-absolute URLs (e.g. /inter-latin-400-normal.woff2),
+// so they must exist at the served root. Vite copies public/ there verbatim.
+function copyThemeFonts() {
+  const fonts = fs
+    .readdirSync(bootstrapDistDir)
+    .filter((f) => f.endsWith(".woff") || f.endsWith(".woff2"));
+  fs.mkdirSync(publicDir, { recursive: true });
+  let copied = 0;
+  for (const font of fonts) {
+    const dest = path.join(publicDir, font);
+    if (!fs.existsSync(dest)) {
+      fs.copyFileSync(path.join(bootstrapDistDir, font), dest);
+      copied++;
+    }
+  }
+  console.log(`Theme fonts: ${fonts.length} found, ${copied} copied`);
+}
+
 function main() {
+  copyThemeFonts();
   const tree = fs.existsSync(treePath)
     ? readJson<{ collections: TreeCollection[] }>(treePath)
     : {
