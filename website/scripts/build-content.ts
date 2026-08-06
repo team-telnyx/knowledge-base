@@ -76,6 +76,23 @@ function parentOf(p: string): string | null {
 const imagesSrcDir = path.join(supportDocsDir, "_images");
 const imagesDestDir = path.join(publicDir, "_images");
 const IMAGE_REF = /_images\/([A-Za-z0-9._-]+)/g;
+const articleJsonDir = path.join(publicDir, "content", "articles");
+
+// Article bodies are fetched on demand as JSON rather than bundled into the
+// JS entry (all 898 bodies inlined made the bundle ~5 MB). The directory is
+// rebuilt from scratch so removed articles don't leave stale files behind.
+function writeArticleBodies(articles: Article[]) {
+  fs.rmSync(articleJsonDir, { recursive: true, force: true });
+  fs.mkdirSync(articleJsonDir, { recursive: true });
+  for (const a of articles) {
+    fs.writeFileSync(
+      path.join(articleJsonDir, `${a.slug}.json`),
+      JSON.stringify({ slug: a.slug, title: a.title, body: a.body }),
+      "utf8",
+    );
+  }
+  console.log(`Article bodies: ${articles.length} JSON files`);
+}
 
 // Article bodies reference screenshots as _images/<hash>.<ext>. Copy the
 // referenced files into public/_images so they ship with the build. Filenames
@@ -167,7 +184,6 @@ function main() {
   }
 
   const articles: Article[] = [];
-  const articlesBySlug: Record<string, string> = {};
   const referencedImages = new Set<string>();
   let skippedCollectionMd = 0;
   let skippedUncategorized = 0;
@@ -212,13 +228,13 @@ function main() {
       collectionPath,
       body: cleanedBody,
     });
-    articlesBySlug[slug] = cleanedBody;
 
     const col = collections.find((c) => c.path === collectionPath);
     if (col) col.articleSlugs.push(slug);
   }
 
   copyArticleImages(referencedImages);
+  writeArticleBodies(articles);
 
   const buildTimestamp = new Date().toISOString();
   const articlesPublic = articles.map((a) => ({
@@ -235,7 +251,6 @@ function main() {
     'import type { Article, Collection } from "./types";\n\n' +
     `export const collections: Collection[] = ${JSON.stringify(collections)} as Collection[];\n\n` +
     `export const articles: Omit<Article, "body">[] = ${JSON.stringify(articlesPublic)} as Omit<Article, "body">[];\n\n` +
-    `export const articlesBySlug: Record<string, string> = ${JSON.stringify(articlesBySlug)};\n\n` +
     "export const manifest = {\n" +
     "  collections,\n" +
     "  articles,\n" +
@@ -247,7 +262,6 @@ function main() {
 
   console.log(`Collections: ${collections.length}`);
   console.log(`Articles: ${articles.length}`);
-  console.log(`articlesBySlug keys: ${Object.keys(articlesBySlug).length}`);
   console.log(`Skipped _collection.md: ${skippedCollectionMd}`);
   console.log(`Skipped _uncategorized: ${skippedUncategorized}`);
   console.log(`Missing files on disk: ${missingFile}`);
