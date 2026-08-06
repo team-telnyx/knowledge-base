@@ -60,15 +60,28 @@ jobs:
             --delete \
             --exclude 'article/*' \
             --exclude 'collection/*' \
+            --exclude 'en/*' \
             --cache-control 'public, must-revalidate' \
             --acl public-read
-          for prefix in article collection; do
+          for prefix in article collection en; do
             aws s3 sync ./website/dist/$prefix/ s3://support.telnyx.com/$prefix/ \
               --delete \
               --content-type 'text/html; charset=utf-8' \
               --cache-control 'public, must-revalidate' \
               --acl public-read
           done
+
+      - name: Configure SPA fallback (S3 website error document)
+        # Only applies when the site is served via the S3 website endpoint;
+        # a CloudFront REST-origin setup needs a custom error response
+        # (404 -> /404.html) configured on the distribution instead.
+        # continue-on-error because the deploy role may lack
+        # s3:PutBucketWebsite.
+        continue-on-error: true
+        run: |
+          aws s3 website s3://support.telnyx.com/ \
+            --index-document index.html \
+            --error-document 404.html
 
       - name: Invalidate CloudFront cache
         if: env.CLOUDFRONT_DISTRIBUTION_ID != ''

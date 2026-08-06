@@ -15,9 +15,18 @@ const indexHtmlPath = path.join(distDir, "index.html");
 function main() {
   const indexHtml = fs.readFileSync(indexHtmlPath, "utf8");
 
+  // Legacy Intercom URLs (/en/articles/<id>-<slug>) still arrive from search
+  // results and external links; serve the app there too so its redirect
+  // routes can forward to the new scheme.
+  const legacyRoutes = articles
+    .filter((a) => a.slug.startsWith("en--articles--"))
+    .map((a) => `en/articles/${a.slug.slice("en--articles--".length)}`);
+
   const routes = [
     ...articles.map((a) => `article/${a.slug}`),
     ...collections.map((c) => `collection/${c.path}`),
+    ...legacyRoutes,
+    "en",
   ];
 
   let plainFiles = 0;
@@ -34,8 +43,13 @@ function main() {
     else plainFiles++;
   }
 
+  // Copy for the S3 website error document (and CloudFront custom error
+  // response) so unknown URLs load the app's styled 404 page instead of
+  // returning raw S3 XML.
+  fs.writeFileSync(path.join(distDir, "404.html"), indexHtml);
+
   console.log(
-    `Route files: ${routes.length} routes (${plainFiles} plain, ${indexFiles} as index.html)`,
+    `Route files: ${routes.length} routes (${plainFiles} plain, ${indexFiles} as index.html) + 404.html`,
   );
 }
 
