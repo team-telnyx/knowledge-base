@@ -20,9 +20,3 @@ export interface Collection {
   childCollectionPaths: string[];
   articleSlugs: string[];
 }
-
-export interface Manifest {
-  collections: Collection[];
-  articles: Article[];
-  buildTimestamp: string;
-}
