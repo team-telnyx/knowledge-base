@@ -1,5 +1,6 @@
 import { Component } from "react";
 import type { ErrorInfo, ReactNode } from "react";
+import { assetBase } from "../utils/base-path";
 import "./ErrorBoundary.css";
 
 type Props = { children: ReactNode };
@@ -7,7 +8,7 @@ type State = { hasError: boolean };
 
 // Plain href (not a wouter Link): navigating out of a crashed tree should be
 // a full reload, which also resets whatever state caused the error.
-const homeHref = process.env.BASE_PATH || "/";
+const homeHref = assetBase;
 
 export class ErrorBoundary extends Component<Props, State> {
   state: State = { hasError: false };

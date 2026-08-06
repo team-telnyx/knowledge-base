@@ -4,16 +4,14 @@ import ReactMarkdown, { defaultUrlTransform } from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 import rehypeSanitize from "rehype-sanitize";
+import { assetBase } from "../utils/base-path";
 import "./ArticleContent.css";
-
-const rawBasePath = process.env.BASE_PATH || "/";
-const basePath = rawBasePath.endsWith("/") ? rawBasePath : `${rawBasePath}/`;
 
 // Image references are relative (_images/<hash>.<ext>), which would resolve
 // against the current route (/article/<slug>/...) and 404. The files are
 // served from the site root, so rewrite them to base-absolute URLs.
 function urlTransform(url: string): string | null | undefined {
-  if (url.startsWith("_images/")) return `${basePath}${url}`;
+  if (url.startsWith("_images/")) return `${assetBase}${url}`;
   return defaultUrlTransform(url);
 }
 

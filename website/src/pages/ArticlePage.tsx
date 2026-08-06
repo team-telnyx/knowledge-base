@@ -4,10 +4,8 @@ import { articles, collections } from "../content/manifest";
 import { ArticleContent } from "../components/ArticleContent";
 import { Breadcrumbs } from "../components/Breadcrumbs";
 import { useDocumentTitle } from "../utils/document-title";
+import { assetBase } from "../utils/base-path";
 import "./ArticlePage.css";
-
-const rawBasePath = process.env.BASE_PATH || "/";
-const basePath = rawBasePath.endsWith("/") ? rawBasePath : `${rawBasePath}/`;
 
 const bodyCache = new Map<string, string>();
 
@@ -57,7 +55,7 @@ export function ArticlePage() {
       return;
     }
     let cancelled = false;
-    fetch(`${basePath}content/articles/${slug}.json`)
+    fetch(`${assetBase}content/articles/${slug}.json`)
       .then((res) => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         return res.json() as Promise<{ body: string }>;

@@ -6,9 +6,7 @@ import { HomePage } from "./pages/HomePage";
 import { CollectionPage } from "./pages/CollectionPage";
 import { ArticlePage } from "./pages/ArticlePage";
 import { NotFoundPage } from "./pages/NotFoundPage";
-
-const rawBasePath = process.env.BASE_PATH || "/";
-const basePath = rawBasePath === "/" ? "" : rawBasePath;
+import { routerBase } from "./utils/base-path";
 
 // wouter doesn't reset scroll on navigation, so without this a click deep in
 // a long list opens the next page at the same scroll offset.
@@ -22,7 +20,7 @@ function ScrollToTop() {
 
 export function App() {
   return (
-    <Router base={basePath}>
+    <Router base={routerBase}>
       <ScrollToTop />
       <DefaultLayout>
         <ErrorBoundary>
