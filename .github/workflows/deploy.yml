@@ -50,6 +50,19 @@ jobs:
 
       - name: Deploy files to bucket
         run: |
+          # Route files under article/ and collection/ are extensionless HTML
+          # copies of index.html (SPA deep-link support); sync would upload
+          # them as application/octet-stream, so they are uploaded separately
+          # with an explicit content type.
           aws s3 sync ./website/dist/ s3://support.telnyx.com/ \
+            --exclude 'article/*' \
+            --exclude 'collection/*' \
             --cache-control 'public, must-revalidate' \
             --acl public-read
+          for prefix in article collection; do
+            aws s3 cp ./website/dist/$prefix/ s3://support.telnyx.com/$prefix/ \
+              --recursive \
+              --content-type 'text/html; charset=utf-8' \
+              --cache-control 'public, must-revalidate' \
+              --acl public-read
+          done

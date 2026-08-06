@@ -5,8 +5,9 @@
   "private": true,
   "scripts": {
     "dev": "bun run prebuild && vite",
-    "build": "bun run prebuild && vite build",
+    "build": "bun run prebuild && vite build && bun run postbuild",
     "prebuild": "bun run scripts/build-content.ts",
+    "postbuild": "bun run scripts/generate-route-files.ts",
     "gen-content": "bun run scripts/build-content.ts",
     "preview": "vite preview",
     "type-check": "tsc --noEmit"
