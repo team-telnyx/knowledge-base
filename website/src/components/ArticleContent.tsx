@@ -2,6 +2,7 @@ import React from "react";
 import ReactMarkdown, { defaultUrlTransform } from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
+import rehypeSanitize from "rehype-sanitize";
 import "./ArticleContent.css";
 
 const rawBasePath = process.env.BASE_PATH || "/";
@@ -24,7 +25,7 @@ export const ArticleContent = React.memo(function ArticleContent({
     <div className="article-content">
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
-        rehypePlugins={[rehypeRaw]}
+        rehypePlugins={[rehypeRaw, rehypeSanitize]}
         urlTransform={urlTransform}
         components={{
           a: ({ href, children, ...props }) => {

@@ -2,14 +2,15 @@
 
 A git-versioned knowledge repository for Telnyx support content and AI-consumable wiki artifacts.
 
-This repo now has two related jobs:
+This repo has three related jobs:
 
-1. **Source of truth for the published Telnyx Support Knowledge Base** — Markdown files under `support-docs/` are synced to the Telnyx-published Pylon Knowledge Base.
+1. **Source of truth for the published Telnyx Support Knowledge Base** — Markdown files under `support-docs/` are the reviewed source for support articles.
 2. **Compiled LLM wiki corpus** — Markdown under `wiki/` is generated from `support-docs/` plus scraped developer documentation so AI agents can answer Telnyx product questions from a citation-friendly corpus.
+3. **Support website** — `website/` renders `support-docs/` as a static site deployed to `support.telnyx.com`.
 
 ## Overview
 
-`support-docs/` is the canonical, git-reviewed source for Telnyx Support Knowledge Base articles that are managed by this repository. When a support article is added or edited here and merged to `main`, automation syncs that content into Pylon.
+`support-docs/` is the canonical, git-reviewed source for Telnyx Support Knowledge Base articles managed by this repository.
 
 `wiki/` is a derived artifact. It is not the place to make primary content edits. It is generated from source material and consumed by downstream agents/indexers such as the Knowledge Agent.
 
@@ -18,24 +19,29 @@ The important distinction:
 - **Support KB publishing source:** `support-docs/`
 - **AI/wiki consumption artifact:** `wiki/`
 - **Developer docs source:** `developers.telnyx.com`, scraped during the monthly LLMWiki refresh
+- **Website:** `website/`, built from `support-docs/` and deployed on merge to `main`
 
 ## Repository structure
 
 ```text
 SCHEMA.md                         # Canonical generated wiki page + index format
 support-docs/                     # Source of truth for managed Telnyx Support KB articles
-support-docs/_tree.json           # Collection metadata from the support-docs import
+support-docs/_manifest.json       # Snapshot manifest: file and asset listing
+support-docs/_images/             # Screenshots and other assets referenced by articles
 wiki/                             # Compiled LLM wiki consumed by agents/indexers
 wiki/index.md                     # Single flattened catalog for the generated wiki
-scripts/pylon_sync_kb.py          # Syncs support-docs Markdown into Pylon
+website/                          # React/Vite static site for support.telnyx.com
 scripts/incremental_support_docs_wiki.py
                                   # Deterministically updates wiki pages for changed support docs
 scripts/monthly_llmwiki_refresh.py
                                   # Glue for monthly full LLMWiki refresh jobs
-.github/workflows/pylon-kb-sync.yml
+.github/workflows/deploy.yml      # Builds website/ and deploys it to S3 on merge to main
+.github/workflows/external-pr-check.yml
 .github/workflows/incremental-support-docs-wiki.yml
 .github/workflows/monthly-llmwiki-refresh.yml
 ```
+
+`support-docs/` is currently a flat snapshot: articles live directly in the directory as `en--articles--<id>-<slug>.md`, with YAML frontmatter (`source_url`, `title`, `description`, `scraped`, `content_hash`) and an H1 title in the body. `_manifest.json` lists all files and assets in the snapshot.
 
 The internal organization of `wiki/` is generated and may evolve. Consumers should navigate via `wiki/index.md` rather than hard-coding paths.
 
@@ -43,9 +49,9 @@ The internal organization of `wiki/` is generated and may evolve. Consumers shou
 
 ### `support-docs/` is authoritative for managed support articles
 
-For support articles represented in this repository, edit `support-docs/` first. Those files are the source that gets published to the Telnyx Support Knowledge Base.
+For support articles represented in this repository, edit `support-docs/` first. Those files are the source that gets published to the Telnyx Support Knowledge Base website.
 
-Each article should keep its `source_url` frontmatter pointing at the corresponding public support article URL when one exists. The sync process uses stable source paths, source URLs, slugs, and content hashes to decide whether to create, update, skip, or unlist Pylon articles.
+Each article should keep its `source_url` frontmatter pointing at the corresponding public support article URL when one exists.
 
 ### `wiki/` is generated
 
@@ -61,69 +67,48 @@ Hand edits to `wiki/` should be rare and treated as emergency fixes only, becaus
 
 ### Pull request touching `support-docs/**`
 
-When a PR adds, modifies, moves, or deletes support-doc Markdown:
-
-1. `Incremental Support Docs Wiki Corpus` runs in check mode.
-2. It detects changed files under `support-docs/**/*.md`.
-3. It runs `scripts/incremental_support_docs_wiki.py` locally in the workflow.
-4. It verifies the PR includes the required deterministic `wiki/` updates for the changed support docs.
-5. `Sync Pylon Knowledge Base` runs in dry-run/check mode. It validates that the sync script can process the changed source content without writing to Pylon.
-6. Maintainers review the source article changes and generated wiki changes together.
+1. `Incremental Support Docs Wiki Corpus` runs in check mode: it detects changed files under `support-docs/**/*.md`, runs `scripts/incremental_support_docs_wiki.py`, and verifies the PR includes the required deterministic `wiki/` updates for the changed support docs.
+2. `External Contribution Check` restricts external PRs to modifying existing files only (no adds, deletes, or renames).
+3. Maintainers review the source article changes and generated wiki changes together.
 
 The incremental wiki update intentionally does **not** run the full LLMWiki compiler. It keeps day-to-day article updates small and reviewable.
 
-### Merge to `main` touching `support-docs/**`
+### Merge to `main` touching `support-docs/**` or `website/**`
 
-After the PR is merged:
-
-1. `Sync Pylon Knowledge Base` runs with `apply=true` on `main`.
-2. `scripts/pylon_sync_kb.py` reads `support-docs/` and syncs eligible articles to Pylon.
-3. New articles are created in Pylon and published.
-4. Modified articles are updated in Pylon and published.
-5. Managed articles that disappear from the eligible source set are unlisted rather than hard-deleted.
-6. The incremental wiki workflow can commit deterministic `wiki/` updates on `main` when needed.
-
-By default, the automatic Pylon sync publishes eligible categorized support articles and skips `support-docs/_uncategorized/`. Uncategorized articles stay in GitHub until they are reviewed and moved into the correct collection.
-
-Messaging and WhatsApp articles live in `support-docs/` too, but they are gated for controlled manual syncs rather than included in the default automatic main-branch sync. When they need to be backfilled, run the workflow manually with:
-
-- `include_messaging=true`
-- `create_only=true`
-- `include_uncategorized=false`
-
-That creates missing Messaging/WhatsApp articles without updating existing Pylon articles and without unlisting anything.
+1. `Deploy - build and deploy to production` builds the website from `support-docs/` and syncs it to `s3://support.telnyx.com/`.
+2. The incremental wiki workflow can commit deterministic `wiki/` updates on `main` when needed.
 
 ### Adding a new support article
 
-To add a new managed support KB article:
-
-1. Add a Markdown file under the correct `support-docs/<collection>/` folder.
+1. Add a Markdown file to `support-docs/` following the `en--articles--<id>-<slug>.md` naming convention, and add it to `_manifest.json`.
 2. Include frontmatter with the article's `source_url` when available.
 3. Use a clear H1 title in the body.
 4. Run or let CI run the incremental wiki update.
 5. Review the PR diff, including any generated `wiki/` changes.
-6. Merge after approval.
-7. The main-branch Pylon sync publishes the new article.
+6. Merge after approval — the deploy workflow publishes the article to the website.
 
 ### Modifying an existing support article
-
-To update an existing support KB article:
 
 1. Edit the Markdown file in `support-docs/`.
 2. Keep the `source_url` stable unless the public article URL intentionally changed.
 3. Let CI verify the incremental wiki artifact update.
 4. Merge after approval.
-5. The Pylon sync updates the corresponding Pylon article if the content hash changed.
 
-### Moving or deleting a support article
+## Website
 
-Moves are supported, but be careful with slugs and collection placement:
+`website/` is a React 19 + Vite single-page app built and run with [Bun](https://bun.sh):
 
-- Moving a file changes its GitHub source path marker.
-- The Pylon sync primarily relies on stable article slugs/source URLs to match existing articles.
-- Removed managed articles are unlisted, not hard-deleted.
+```bash
+cd website
+bun install
+bun run dev        # generates content from ../support-docs, then starts Vite on :5173
+bun run build      # full production build into website/dist
+bun run type-check
+```
 
-For bulk reorganizations, use a dedicated PR and review the Pylon dry-run output before merge.
+The build pipeline (`website/scripts/build-content.ts`) reads `support-docs/`, cleans scraper noise from article bodies, copies theme fonts and referenced images into `website/public/`, emits per-article JSON for on-demand loading, and generates a typed content manifest. A postbuild step (`website/scripts/generate-route-files.ts`) materializes every route as a static file so deep links work on S3.
+
+Deployment runs from `.github/workflows/deploy.yml` on pushes to `main`, using OIDC role assumption for AWS credentials.
 
 ## LLMWiki refresh model
 
@@ -184,25 +169,6 @@ Manual runs can override `llmwiki_ref` to test a branch, tag, or SHA.
 
 The monthly job keeps compiler improvements on a controlled cadence without making every support article edit subject to full-corpus LLM regrouping.
 
-## Pylon sync behavior
-
-Workflow:
-
-```text
-.github/workflows/pylon-kb-sync.yml
-```
-
-On pull requests, it runs as a validation/dry-run path. On pushes to `main`, it applies changes to Pylon.
-
-Important behavior:
-
-- Article creates/updates publish immediately.
-- Idempotency uses hidden GitHub source markers and content hashes.
-- Managed removals unlist articles instead of hard-deleting them.
-- `_uncategorized` content is skipped by default until it is reviewed and placed into the right collection.
-- Messaging and WhatsApp content is excluded from the automatic main-branch sync but can be backfilled manually.
-- Manual workflow dispatch supports dry runs, write runs, Messaging/WhatsApp inclusion, create-only backfills, uncategorized inclusion, and max-article caps for smoke tests.
-
 ## Schema and catalog
 
 Because the wiki is consumed by downstream agents and tools, generated pages follow a defined format.
@@ -216,7 +182,7 @@ Treat `wiki/index.md` as derived. It is rebuilt by automation, not hand-maintain
 
 This repo is designed to be consumed by:
 
-- Pylon, for the published Telnyx Support Knowledge Base sourced from `support-docs/`.
+- The support website at `support.telnyx.com`, built from `support-docs/`.
 - AI agents and retrieval systems, for answering Telnyx product questions from the generated `wiki/` corpus.
 
 Because the generated wiki pages are Markdown with explicit source metadata, the same corpus can back agentic-retrieval pipelines, vector indexes, or other consumption shapes. Consumers that need short-term stability should pin to a specific commit.
@@ -228,12 +194,12 @@ git clone git@github.com:team-telnyx/knowledge-base.git
 cd knowledge-base
 ```
 
-There is no required build step for reading the repo. The automation scripts are Python and are run by GitHub Actions.
+There is no required build step for reading the repo. The automation scripts are Python and are run by GitHub Actions. For website development, see the [Website](#website) section.
 
 Useful local checks:
 
 ```bash
-python3 -m py_compile scripts/incremental_support_docs_wiki.py scripts/monthly_llmwiki_refresh.py scripts/pylon_sync_kb.py
+python3 -m py_compile scripts/incremental_support_docs_wiki.py scripts/monthly_llmwiki_refresh.py
 ```
 
 ## Contributing

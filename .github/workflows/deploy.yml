@@ -11,6 +11,8 @@ on:
 
 env:
   AWS_REGION: "us-east-1"
+  # Optional: set this secret to invalidate the CloudFront cache after deploys.
+  CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
 
 permissions:
   id-token: write
@@ -55,14 +57,22 @@ jobs:
           # them as application/octet-stream, so they are uploaded separately
           # with an explicit content type.
           aws s3 sync ./website/dist/ s3://support.telnyx.com/ \
+            --delete \
             --exclude 'article/*' \
             --exclude 'collection/*' \
             --cache-control 'public, must-revalidate' \
             --acl public-read
           for prefix in article collection; do
-            aws s3 cp ./website/dist/$prefix/ s3://support.telnyx.com/$prefix/ \
-              --recursive \
+            aws s3 sync ./website/dist/$prefix/ s3://support.telnyx.com/$prefix/ \
+              --delete \
               --content-type 'text/html; charset=utf-8' \
               --cache-control 'public, must-revalidate' \
               --acl public-read
           done
+
+      - name: Invalidate CloudFront cache
+        if: env.CLOUDFRONT_DISTRIBUTION_ID != ''
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id "$CLOUDFRONT_DISTRIBUTION_ID" \
+            --paths '/*'
