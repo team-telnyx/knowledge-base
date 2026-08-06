@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "wouter";
 import ReactMarkdown, { defaultUrlTransform } from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
@@ -36,6 +37,14 @@ export const ArticleContent = React.memo(function ArticleContent({
                 <a href={href} target="_blank" rel="noopener noreferrer" {...props}>
                   {children}
                 </a>
+              );
+            }
+            // Rewritten article cross-links navigate client-side.
+            if (href?.startsWith("/article/")) {
+              return (
+                <Link to={href} {...props}>
+                  {children}
+                </Link>
               );
             }
             return <a href={href} {...props}>{children}</a>;
