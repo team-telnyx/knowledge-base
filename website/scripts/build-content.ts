@@ -4,6 +4,7 @@ import type { Article, Collection } from "../src/content/types";
 import {
   cleanArticle,
   rewriteLegacyArticleLinks,
+  stripFeedbackTrailer,
 } from "../src/utils/clean-article";
 
 const supportDocsDir = path.resolve(import.meta.dir, "..", "..", "support-docs");
@@ -300,7 +301,9 @@ function main() {
     }
 
     const { fm, body } = parseFrontmatter(content);
-    const cleanedBody = rewriteLegacyArticleLinks(cleanArticle(body));
+    const cleanedBody = rewriteLegacyArticleLinks(
+      stripFeedbackTrailer(cleanArticle(body)),
+    );
     for (const m of cleanedBody.matchAll(IMAGE_REF)) {
       referencedImages.add(m[1]);
     }

@@ -10,6 +10,46 @@ const LEGACY_ARTICLE_LINK =
 export function rewriteLegacyArticleLinks(body: string): string {
   return body.replace(LEGACY_ARTICLE_LINK, "/article/en--articles--$1");
 }
+
+const FEEDBACK_PROMPT = "Did this answer your question?";
+const EMOJI_REACTIONS = /^[\s😞😐😃]+$/u;
+const LINK_ONLY_LINE = /^\s*(\[[^\]]*\]\([^)]*\)\s*)+$/;
+
+// Every scraped body ends with Intercom's feedback widget ("Did this answer
+// your question?" + emoji reactions), usually preceded by a plain-text
+// "Related Articles" trailer — the site renders its own related-articles
+// section, so both are noise. The trailer is only removed when the heading
+// is actually found; link lines elsewhere are untouched.
+export function stripFeedbackTrailer(body: string): string {
+  const lines = body.split("\n");
+  const skipBlanks = (i: number): number => {
+    while (i > 0 && lines[i - 1].trim() === "") i--;
+    return i;
+  };
+
+  let end = skipBlanks(lines.length);
+  while (end > 0 && EMOJI_REACTIONS.test(lines[end - 1])) {
+    end = skipBlanks(end - 1);
+  }
+  if (end === 0 || lines[end - 1].trim() !== FEEDBACK_PROMPT) {
+    return body;
+  }
+  end = skipBlanks(end - 1);
+
+  let cursor = end;
+  while (cursor > 0 && LINK_ONLY_LINE.test(lines[cursor - 1])) {
+    cursor = skipBlanks(cursor - 1);
+  }
+  if (cursor > 0 && lines[cursor - 1].trim() === "Related Articles") {
+    cursor = skipBlanks(cursor - 1);
+    if (cursor > 0 && lines[cursor - 1].trim() === "---") {
+      cursor = skipBlanks(cursor - 1);
+    }
+    end = cursor;
+  }
+
+  return lines.slice(0, end).join("\n").trimEnd();
+}
 const TOC_HEADER = "Table of contents";
 const TITLE_BAR_SUFFIX = "| Telnyx Help Center";
 const BYLINE_PREFIX = "Written by ";
@@ -46,6 +86,8 @@ export function cleanArticle(raw: string): string {
       continue;
     if (NAV_ICON_IMAGE.test(t)) continue;
     if (isDeadAnchorNavLine(t)) continue;
+    // Zero-width-space-only lines left behind by the scraper.
+    if (/^[​﻿]+$/.test(t)) continue;
     if (!strippedH1 && t.startsWith("# ")) {
       strippedH1 = true;
       continue;
