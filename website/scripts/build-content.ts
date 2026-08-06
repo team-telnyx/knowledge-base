@@ -73,6 +73,33 @@ function parentOf(p: string): string | null {
   return idx === -1 ? null : p.slice(0, idx);
 }
 
+const imagesSrcDir = path.join(supportDocsDir, "_images");
+const imagesDestDir = path.join(publicDir, "_images");
+const IMAGE_REF = /_images\/([A-Za-z0-9._-]+)/g;
+
+// Article bodies reference screenshots as _images/<hash>.<ext>. Copy the
+// referenced files into public/_images so they ship with the build. Filenames
+// are content hashes, so existing destination files never need re-copying.
+function copyArticleImages(referenced: Set<string>) {
+  fs.mkdirSync(imagesDestDir, { recursive: true });
+  let copied = 0;
+  let missing = 0;
+  for (const name of referenced) {
+    const src = path.join(imagesSrcDir, name);
+    const dest = path.join(imagesDestDir, name);
+    if (fs.existsSync(dest)) continue;
+    if (!fs.existsSync(src)) {
+      missing++;
+      continue;
+    }
+    fs.copyFileSync(src, dest);
+    copied++;
+  }
+  console.log(
+    `Article images: ${referenced.size} referenced, ${copied} copied, ${missing} missing`,
+  );
+}
+
 // theme.css references its fonts at root-absolute URLs (e.g. /inter-latin-400-normal.woff2),
 // so they must exist at the served root. Vite copies public/ there verbatim.
 function copyThemeFonts() {
@@ -141,6 +168,7 @@ function main() {
 
   const articles: Article[] = [];
   const articlesBySlug: Record<string, string> = {};
+  const referencedImages = new Set<string>();
   let skippedCollectionMd = 0;
   let skippedUncategorized = 0;
   let missingFile = 0;
@@ -168,6 +196,9 @@ function main() {
 
     const { fm, body } = parseFrontmatter(content);
     const cleanedBody = cleanArticle(body);
+    for (const m of cleanedBody.matchAll(IMAGE_REF)) {
+      referencedImages.add(m[1]);
+    }
     const slug = path.basename(relPath, ".md");
     const articleDir = path.dirname(relPath).split(path.sep).join("/");
     const collectionPath = articleDir === "." ? "support-articles" : articleDir;
@@ -186,6 +217,8 @@ function main() {
     const col = collections.find((c) => c.path === collectionPath);
     if (col) col.articleSlugs.push(slug);
   }
+
+  copyArticleImages(referencedImages);
 
   const buildTimestamp = new Date().toISOString();
   const articlesPublic = articles.map((a) => ({
