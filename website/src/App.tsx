@@ -1,28 +1,12 @@
-import { Router, Route, Link, Switch } from "wouter";
+import { Router, Route, Switch } from "wouter";
 import { DefaultLayout } from "./layouts/DefaultLayout";
+import { HomePage } from "./pages/HomePage";
 import { CollectionPage } from "./pages/CollectionPage";
 import { ArticlePage } from "./pages/ArticlePage";
 import { NotFoundPage } from "./pages/NotFoundPage";
-import { collections } from "./content/manifest";
 
 const rawBasePath = process.env.BASE_PATH || "/";
 const basePath = rawBasePath === "/" ? "" : rawBasePath;
-
-function HomePage() {
-  const rootCollections = collections.filter((c) => c.parentPath === null);
-  return (
-    <div>
-      <h1>Telnyx Support Knowledge Base</h1>
-      <ul>
-        {rootCollections.map((c) => (
-          <li key={c.path}>
-            <Link to={`/collection/${c.path}`}>{c.title}</Link>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-}
 
 export function App() {
   return (
