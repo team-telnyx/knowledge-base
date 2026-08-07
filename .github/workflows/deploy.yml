@@ -1,0 +1,133 @@
+# NOTE: AWS_ASSUME_ROLE must be added to repo secrets.
+name: Deploy - build and deploy to production
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "website/**"
+      - "support-docs/**"
+      - ".github/workflows/deploy.yml"
+      - ".github/utils/setup-runner/**"
+
+# Two overlapping `s3 sync --delete` runs against the same bucket can
+# interleave deletes and uploads into a mixed-version deployment; queue
+# deploys instead (never cancel a sync mid-flight).
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+env:
+  AWS_REGION: "us-east-1"
+  # Optional: set this secret to invalidate the CloudFront cache after deploys.
+  CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
+
+      - name: Setup runner
+        uses: ./.github/utils/setup-runner
+
+      - name: Generate content manifest
+        working-directory: website
+        run: bun run gen-content
+
+      - name: Type check
+        working-directory: website
+        run: bun run type-check
+
+      - name: Build the website
+        working-directory: website
+        env:
+          BASE_PATH: "/"
+        run: bun run build
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@e6de054238d6b7531b4efff3b6587d9aade6a06c # v6.2.3
+        with:
+          role-to-assume: ${{ secrets.AWS_ASSUME_ROLE }}
+          role-session-name: GitHub_to_AWS_via_FederatedOIDC
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Deploy files to bucket
+        run: |
+          BUCKET=s3://support.telnyx.com
+
+          # 1) Content-hashed files first (long-lived, immutable), so the
+          #    HTML uploaded later never references assets missing from the
+          #    bucket.
+          for prefix in assets _images; do
+            aws s3 sync ./website/dist/$prefix/ $BUCKET/$prefix/ \
+              --delete \
+              --cache-control 'public, max-age=31536000, immutable' \
+              --acl public-read
+          done
+
+          # 2) Article bodies — mutable JSON, revalidated on every request.
+          aws s3 sync ./website/dist/content/ $BUCKET/content/ \
+            --delete \
+            --cache-control 'public, no-cache' \
+            --acl public-read
+
+          # 3) Theme fonts (stable names, rarely change) get a day of cache.
+          aws s3 sync ./website/dist/ $BUCKET/ \
+            --exclude '*' \
+            --include '*.woff' \
+            --include '*.woff2' \
+            --cache-control 'public, max-age=86400' \
+            --acl public-read
+
+          # 4) Remaining root files (index.html, 404.html) — no-cache so a
+          #    deploy takes effect immediately.
+          aws s3 sync ./website/dist/ $BUCKET/ \
+            --delete \
+            --exclude 'assets/*' \
+            --exclude '_images/*' \
+            --exclude 'content/*' \
+            --exclude 'article/*' \
+            --exclude 'collection/*' \
+            --exclude 'en/*' \
+            --exclude '*.woff' \
+            --exclude '*.woff2' \
+            --cache-control 'public, no-cache' \
+            --acl public-read
+
+          # 5) SPA route files — extensionless copies of index.html (deep-link
+          #    support); uploaded separately because sync would guess
+          #    application/octet-stream for files without extensions.
+          for prefix in article collection en; do
+            aws s3 sync ./website/dist/$prefix/ $BUCKET/$prefix/ \
+              --delete \
+              --content-type 'text/html; charset=utf-8' \
+              --cache-control 'public, no-cache' \
+              --acl public-read
+          done
+
+      - name: Configure SPA fallback (S3 website error document)
+        # Only applies when the site is served via the S3 website endpoint;
+        # a CloudFront REST-origin setup needs a custom error response
+        # (404 -> /404.html) configured on the distribution instead.
+        # continue-on-error because the deploy role may lack
+        # s3:PutBucketWebsite.
+        continue-on-error: true
+        run: |
+          aws s3 website s3://support.telnyx.com/ \
+            --index-document index.html \
+            --error-document 404.html
+
+      - name: Invalidate CloudFront cache
+        if: env.CLOUDFRONT_DISTRIBUTION_ID != ''
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id "$CLOUDFRONT_DISTRIBUTION_ID" \
+            --paths '/*'

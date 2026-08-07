@@ -1,2 +1,12 @@
 .idea/
 .llmwiki-cache/
+
+# Agent planning workspace — ephemeral, never committed
+.implementation/
+
+# Node / bun
+node_modules/
+website/dist/
+website/.vite/
+*.log
+.DS_Store

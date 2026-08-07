@@ -1,0 +1,33 @@
+{
+  "name": "knowledge-base-website",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run prebuild && vite",
+    "build": "bun run prebuild && vite build && bun run postbuild",
+    "prebuild": "bun run scripts/build-content.ts",
+    "postbuild": "bun run scripts/generate-route-files.ts",
+    "gen-content": "bun run scripts/build-content.ts",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@telnyx-private/bootstrap": "file:vendor/telnyx-private-bootstrap-0.0.1.tgz",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^9.0.1",
+    "rehype-raw": "^7.0.0",
+    "rehype-sanitize": "^6.0.0",
+    "remark-gfm": "^4.0.0",
+    "wouter": "^2.12.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.8",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^5.0.3",
+    "typescript": "5.2.2",
+    "vite": "^7.1.7"
+  }
+}
