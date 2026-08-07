@@ -35,7 +35,8 @@ scripts/incremental_support_docs_wiki.py
                                   # Deterministically updates wiki pages for changed support docs
 scripts/monthly_llmwiki_refresh.py
                                   # Glue for monthly full LLMWiki refresh jobs
-.github/workflows/deploy.yml      # Builds website/ and deploys it to S3 on merge to main
+.github/workflows/deploy-website.yml
+                                  # Builds website/ and deploys it to S3 on merge to main
 .github/workflows/external-pr-check.yml
 .github/workflows/incremental-support-docs-wiki.yml
 .github/workflows/monthly-llmwiki-refresh.yml
@@ -75,7 +76,7 @@ The incremental wiki update intentionally does **not** run the full LLMWiki comp
 
 ### Merge to `main` touching `support-docs/**` or `website/**`
 
-1. `Deploy - build and deploy to production` builds the website from `support-docs/` and syncs it to `s3://support.telnyx.com/`.
+1. `Deploy website` builds the website from `support-docs/` and syncs it to `s3://support.telnyx.com/`.
 2. The incremental wiki workflow can commit deterministic `wiki/` updates on `main` when needed.
 
 ### Adding a new support article
@@ -131,7 +132,7 @@ bun run gen-content   # regenerate content without building
 
 The content pipeline (`website/scripts/build-content.ts`, runs as a `prebuild`/`predev` step) reads `support-docs/`, cleans scraper noise from article bodies, rewrites legacy help-center links, copies theme fonts and referenced images into `website/public/`, emits per-article JSON for on-demand loading, and generates a typed content manifest. When `support-docs/_tree.json` is absent (the current flat snapshot), it derives topic collections from keyword rules. A postbuild step (`website/scripts/generate-route-files.ts`) materializes every route — including legacy `/en/articles/...` URLs — as a static file so deep links work on S3, plus a `404.html` fallback.
 
-Deployment runs from `.github/workflows/deploy.yml` on pushes to `main`, using OIDC role assumption for AWS credentials.
+Deployment runs from `.github/workflows/deploy-website.yml` on pushes to `main`, using OIDC role assumption for AWS credentials.
 
 ## LLMWiki refresh model
 
