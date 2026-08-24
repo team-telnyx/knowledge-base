@@ -122,6 +122,16 @@ jobs:
           path: .llmwiki-cache/dev-docs-sources
           key: devdocs-scrape-${{ runner.os }}-${{ env.LLMWIKI_REF }}-${{ env.MAX_PAGES }}-${{ github.run_id }}
 
+      # This is a partial-compile retry optimization, not a cross-run cache.
+      # Re-running the same workflow run restores completed synthesis groups.
+      - name: Restore support-docs compile journal
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: ../LLMWiki/wikis/support-docs/.work
+          key: support-docs-compile-journal-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            support-docs-compile-journal-${{ github.run_id }}-
+
       - name: Full compile support-docs with LLMWiki
         working-directory: ../LLMWiki
         env:
@@ -130,13 +140,31 @@ jobs:
           LLM_PROXY_MODEL_DEFAULT: ${{ secrets.LLM_PROXY_MODEL_DEFAULT }}
         run: |
           set -euo pipefail
-          rm -rf ../dist-support wikis/support-docs/.work
+          rm -rf ../dist-support
           uv run wiki compile \
             --wiki-name support-docs \
             --sources-root ../knowledge-base/support-docs \
             --out-dir ../dist-support \
             --max-workers "$MAX_WORKERS" \
             2>&1 | tee ../knowledge-base/support-compile.log
+
+      - name: Check for resumable support-docs compile journal
+        id: supportdocs-compile-journal
+        if: always()
+        shell: bash
+        run: |
+          if [[ -f ../LLMWiki/wikis/support-docs/.work/plan.json ]]; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Save support-docs compile journal
+        if: always() && steps.supportdocs-compile-journal.outputs.exists == 'true'
+        uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: ../LLMWiki/wikis/support-docs/.work
+          key: support-docs-compile-journal-${{ github.run_id }}-${{ github.run_attempt }}
 
       - name: Full compile dev-docs with LLMWiki
         working-directory: ../LLMWiki
