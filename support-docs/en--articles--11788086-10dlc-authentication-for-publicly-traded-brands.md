@@ -27,6 +27,8 @@ In order to get the brand authenticated, please reply to [10dlcquestions@telnyx.
 ● Verification PIN from the 2FA email
 Once they submit this information, the brand will be authenticated. The email be from [noreply@auth.campaignregistry.com](mailto:noreply@auth.campaignregistry.com), TCR (local US text messaging regulator). Please note that they will have 7 days from the time they receive the 2FA email to complete the authentication. Should they fail to do so, we will need to resend the 2FA email. This is required by The Campaign Registry (TCR) in order to ensure that no service disruption occurs for this brand. This action needs to be completed by August 1st, 2025.
 
+For guidance on the required opt-in, opt-out, and help keywords and confirmation messages for your campaigns, see [10DLC Keywords and Confirmation Messages](https://support.telnyx.com/en/articles/10645338-10dlc-keywords-and-confirmation-messages).
+
 ---
 
 Related Articles

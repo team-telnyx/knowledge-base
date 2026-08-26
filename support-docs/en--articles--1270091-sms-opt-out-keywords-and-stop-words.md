@@ -23,6 +23,8 @@ Learn more about how Telnyx processes SMS opt-outs and handles stop… See Telny
 
 Telnyx automatically processes incoming messages and recognises **English language** stop words. Stop words are specific words such as STOP or UNSUBSCRIBE that signal that a person no longer wishes to receive messages from you.
 
+For the keywords and confirmation-message format required on 10DLC campaign registrations, see [10DLC Keywords and Confirmation Messages](https://support.telnyx.com/en/articles/10645338-10dlc-keywords-and-confirmation-messages).
+
 When Telnyx identifies a stop word, the person's phone number is added to the opt-out list and you will no longer be able to send messages to that number.
 
 ## **What do opt outs at the messaging profile mean?**
