@@ -38,6 +38,8 @@ Help confirmation message: [Brand name]: Please reach out to us at [website/emai
 ​
 NOTE: Websites are permissable so long as they have clear contact information at the link provided.
 
+For the full list of stop words Telnyx automatically recognizes (and how opt-outs work at the messaging-profile level), see [SMS Opt Out Keywords and Stop Words](https://support.telnyx.com/en/articles/1270091-sms-opt-out-keywords-and-stop-words). Publicly traded brands should also review [10DLC Authentication for Publicly Traded Brands](https://support.telnyx.com/en/articles/11788086-10dlc-authentication-for-publicly-traded-brands).
+
 ---
 
 Related Articles

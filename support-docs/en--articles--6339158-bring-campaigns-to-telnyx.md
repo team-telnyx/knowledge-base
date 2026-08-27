@@ -49,6 +49,10 @@ Once you've made this API request to associate numbers from a Messaging Profile 
 
 ## **Frequently Asked Questions about Shared Campaigns and 10DLC**
 
+*What is the Telnyx CSP Id?*
+
+SS4XJ6D
+
 *How can I update my TCR Brand / Campaign through the Telnyx portal?*
 
 You cannot update shared campaigns through the Telnyx portal. All brand and campaign information associated with Shared Campaigns can be maintained directly through your Campaign Registry CSP Portal. Telnyx, as the messaging service provider for the Shared Campaign, has limited visibility into the details of the campaign and corresponding brand.

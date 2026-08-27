@@ -34,6 +34,24 @@ Standard 10DLC Use Cases
 * **Public Service Announcement:** Informational messaging to raise an audience's awareness about important issues.
 * **Security Alert:** A notification that the security of a system, either software or hardware, has been compromised in some way and there is an action you need to take.
 
+Special 10DLC Use Cases
+
+Special use cases may require carrier approval, additional vetting, and/or carry extra requirements:
+
+* **Agents and Franchises:** Brands managing multiple agents, franchises, or local branches under a single organization. Not a workaround for sending on behalf of unrelated businesses.
+* **Carrier Exemptions:** Traffic exempted by the carriers.
+* **Charity:** Communications from a registered 501(c)(3) charity aimed at providing help and raising money for those in need. Opt-in must include "donations will be solicited."
+* **Emergency:** Notification services designed to support public safety/health during natural disasters, armed conflicts, pandemics, and other national or regional emergencies. Government agencies and first responders only.
+* **K-12 Education:** Campaigns created for messaging platforms that support schools from grades K-12 and distance-learning centers. This is not for Post-Secondary schools.
+* **Platform Free Trial:** Platform free trial offers with strict controls.
+* **Political:** Part of an organized effort to influence decision-making of a specific group. Requires verification at [CampaignVerify.com](https://www.campaignverify.org/) — a token is supplied upon successful verification. Opt-in must disclose whether donations will be solicited.
+* **Proxy:** Peer-to-peer, app-based group messaging with proxy/pooled numbers.
+* **Public Safety (Restricted):** Restricted public safety messaging.
+* **Social:** Communication within or between closed communities.
+* **Sole Proprietor:** For individuals without an EIN. Limited to 1 active campaign and 1 number; the brand name may not contain Inc, LLC, Group, or Enterprise. See the [Sole Proprietor guide](https://support.telnyx.com/en/articles/13545282-guide-to-sole-proprietor-10dlc-brand-and-campaign-registration).
+* **Sweepstake:** Sweepstake-related messaging.
+* **UCaaS Low Volume / UCaaS High Volume:** Unified Communications-as-a-Service platform traffic.
+
 ---
 
 Related Articles
