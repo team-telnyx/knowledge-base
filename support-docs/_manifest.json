@@ -1,6 +1,6 @@
 {
   "scraped": "2026-07-08",
-  "pages_saved": 898,
+  "pages_saved": 899,
   "files": [
     "en--articles--10007243-whitelisting-telnyx-media-ip-addresses.md",
     "en--articles--10058901-zambia-did-requirements.md",
@@ -899,7 +899,8 @@
     "en--collections--3968239-telnyx-fax-configuration-errors.md",
     "en--collections--3968260-telnyx-identity-verification-tools.md",
     "en--collections--5317581-networking-using-telnyx.md",
-    "en--collections--5782829-webrtc-voice-sdk.md"
+    "en--collections--5782829-webrtc-voice-sdk.md",
+    "en--articles--16762076-workspaces.md"
   ],
   "assets": [
     "_images/104a49a49e8e8704.png",
