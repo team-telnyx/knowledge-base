@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/16762076-workspaces
 title: "Workspaces"
 description: "Access multiple Telnyx organizations from a single login — switch between organizations, accept invitations, and migrate legacy sub-users."
 scraped: 2026-08-31
-content_hash: 77fc4badea297d3bca94544a0d638a23bfea3feabed3f8d2b1272371ec0be82e
+content_hash: 2519d9edb7bca0436985a4f6ee35bb00411d7b778a7c7ef137d74a6deecaa6fd
 ---
 
 # Workspaces
@@ -14,7 +14,7 @@ Access multiple Telnyx organizations from a single login — switch between orga
 
 Workspaces let you belong to and switch between multiple Telnyx organizations using a single login. Each workspace represents a membership in a different organization, with its own billing, resources, API keys, and configuration.
 
-This replaces the legacy sub-user model, where a sub-user could only belong to one organization and had no path to become a primary account owner. With Workspaces, you sign in once with your real email address and use the workspace switcher in the Mission Control Portal to operate in different organizational contexts.
+Workspaces is a supplementary upgrade to the legacy sub-user model. Instead of a sub-user being limited to a single organization with no path to become a primary account owner, with Workspaces you sign in once with your real email address and use the workspace switcher in the Mission Control Portal to operate in different organizational contexts.
 
 ## How it works
 
