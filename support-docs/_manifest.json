@@ -1,6 +1,6 @@
 {
   "scraped": "2026-07-08",
-  "pages_saved": 899,
+  "pages_saved": 897,
   "files": [
     "en--articles--10007243-whitelisting-telnyx-media-ip-addresses.md",
     "en--articles--10058901-zambia-did-requirements.md",
@@ -15,7 +15,6 @@
     "en--articles--10562019-guide-to-10dlc-message-flow-field.md",
     "en--articles--10645338-10dlc-keywords-and-confirmation-messages.md",
     "en--articles--10645583-10dlc-privacy-policy.md",
-    "en--articles--10646301-telnyx-10dlc-process.md",
     "en--articles--10666839-how-telnyx-handles-srv-records-for-sip-calls.md",
     "en--articles--10684248-10dlc-use-cases.md",
     "en--articles--10684260-10dlc-opt-in-form.md",
@@ -447,7 +446,6 @@
     "en--articles--5544430-robocall-mitigation-database.md",
     "en--articles--5593977-isvs-10dlc.md",
     "en--articles--5595770-port-away-from-voip-ms.md",
-    "en--articles--5617538-10dlc-shared-campaigns.md",
     "en--articles--5619595-freepbx-v15-ip-trunk-pjsip.md",
     "en--articles--5619597-freepbx-v15-credentials-pjsip.md",
     "en--articles--5619617-polycom-setup-with-telnyx.md",
