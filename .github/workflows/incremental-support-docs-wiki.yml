@@ -4,14 +4,20 @@ on:
   pull_request:
     paths:
       - "support-docs/**/*.md"
+      - "support-docs/_manifest.json"
+      - "scripts/regenerate_support_docs_manifest.py"
       - "scripts/incremental_support_docs_wiki.py"
+      - "tests/test_regenerate_support_docs_manifest.py"
       - ".github/workflows/incremental-support-docs-wiki.yml"
   push:
     branches:
       - main
     paths:
       - "support-docs/**/*.md"
+      - "support-docs/_manifest.json"
+      - "scripts/regenerate_support_docs_manifest.py"
       - "scripts/incremental_support_docs_wiki.py"
+      - "tests/test_regenerate_support_docs_manifest.py"
       - ".github/workflows/incremental-support-docs-wiki.yml"
   workflow_dispatch:
     inputs:
@@ -75,6 +81,12 @@ jobs:
           echo "Changed support-doc markdown files: $COUNT"
           cat changed-support-docs.txt
 
+      - name: Test support-doc generation scripts
+        run: python -m unittest discover -s tests
+
+      - name: Regenerate support-docs manifest
+        run: python scripts/regenerate_support_docs_manifest.py
+
       - name: Generate incremental wiki corpus updates
         if: steps.changes.outputs.count != '0'
         run: |
@@ -98,15 +110,15 @@ jobs:
               raise SystemExit('\n'.join(bad))
           PY
 
-      - name: Open generated wiki corpus PR
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main' && steps.changes.outputs.count != '0'
+      - name: Open generated support-doc artifacts PR
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         shell: bash
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          if git diff --quiet -- wiki/index.md wiki/support-docs/articles; then
-            echo "No wiki corpus changes to publish."
+          if git diff --quiet -- support-docs/_manifest.json wiki/index.md wiki/support-docs/articles; then
+            echo "No generated support-doc artifact changes to publish."
             exit 0
           fi
 
@@ -114,40 +126,41 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$BRANCH"
-          git add wiki/index.md wiki/support-docs/articles
-          git commit -m "docs: update support docs wiki corpus"
+          git add support-docs/_manifest.json wiki/index.md wiki/support-docs/articles
+          git commit -m "docs: update generated support-doc artifacts"
           git push -u origin "$BRANCH"
 
           {
-            echo "Generated incremental support-doc wiki corpus updates."
+            echo "Generated support-doc manifest and incremental wiki corpus updates."
             echo
             echo "- Source range: \`${{ steps.changes.outputs.base_sha }}..${{ steps.changes.outputs.head_sha }}\`"
             echo "- Changed support-doc files: \`${{ steps.changes.outputs.count }}\`"
             echo
             echo "## Diff stat"
             echo '```'
-            git diff --stat origin/main...HEAD -- wiki/index.md wiki/support-docs/articles
+            git diff --stat origin/main...HEAD -- support-docs/_manifest.json wiki/index.md wiki/support-docs/articles
             echo '```'
           } > pr-body.md
 
           gh pr create \
             --base main \
             --head "$BRANCH" \
-            --title "docs: update support docs wiki corpus" \
+            --title "docs: update generated support-doc artifacts" \
             --body-file pr-body.md
 
-      - name: Check PR includes generated wiki changes
-        if: github.event_name == 'pull_request' && steps.changes.outputs.count != '0'
+      - name: Check PR includes generated support-doc artifacts
+        if: github.event_name == 'pull_request'
         shell: bash
         run: |
           set -euo pipefail
-          if ! git diff --quiet -- wiki/index.md wiki/support-docs/articles; then
-            echo "Incremental wiki corpus changes are required for this PR."
+          if ! git diff --quiet -- support-docs/_manifest.json wiki/index.md wiki/support-docs/articles; then
+            echo "Generated support-doc artifact changes are required for this PR."
             echo "Run locally:"
+            echo "  python scripts/regenerate_support_docs_manifest.py"
             echo "  git diff --name-only ${{ steps.changes.outputs.base_sha }} ${{ steps.changes.outputs.head_sha }} -- 'support-docs/**/*.md' > changed-support-docs.txt"
             echo "  python scripts/incremental_support_docs_wiki.py --changed-files-file changed-support-docs.txt"
-            echo "Then commit the generated wiki changes."
-            git diff --stat -- wiki/index.md wiki/support-docs/articles
+            echo "Then commit the generated manifest and wiki changes."
+            git diff --stat -- support-docs/_manifest.json wiki/index.md wiki/support-docs/articles
             exit 1
           fi
-          echo "Generated wiki corpus is up to date for changed support docs."
+          echo "Generated support-doc artifacts are up to date."
