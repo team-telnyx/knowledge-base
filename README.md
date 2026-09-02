@@ -26,13 +26,15 @@ The important distinction:
 ```text
 SCHEMA.md                         # Canonical generated wiki page + index format
 support-docs/                     # Source of truth for managed Telnyx Support KB articles
-support-docs/_manifest.json       # Snapshot manifest: file and asset listing
+support-docs/_manifest.json       # Generated source inventory + snapshot asset listing
 support-docs/_images/             # Screenshots and other assets referenced by articles
 wiki/                             # Compiled LLM wiki consumed by agents/indexers
 wiki/index.md                     # Single flattened catalog for the generated wiki
 website/                          # React/Vite static site for support.telnyx.com
 scripts/incremental_support_docs_wiki.py
                                   # Deterministically updates wiki pages for changed support docs
+scripts/regenerate_support_docs_manifest.py
+                                  # Regenerates the support-doc source inventory
 scripts/monthly_llmwiki_refresh.py
                                   # Glue for monthly full LLMWiki refresh jobs
 .github/workflows/deploy-website.yml
@@ -42,7 +44,7 @@ scripts/monthly_llmwiki_refresh.py
 .github/workflows/monthly-llmwiki-refresh.yml
 ```
 
-`support-docs/` is currently a flat snapshot: articles live directly in the directory as `en--articles--<id>-<slug>.md`, with YAML frontmatter (`source_url`, `title`, `description`, `scraped`, `content_hash`) and an H1 title in the body. `_manifest.json` lists all files and assets in the snapshot.
+`support-docs/` is currently a flat snapshot: articles live directly in the directory as `en--articles--<id>-<slug>.md`, with YAML frontmatter (`source_url`, `title`, `description`, `scraped`, `content_hash`) and an H1 title in the body. `_manifest.json` is generated metadata: `scripts/regenerate_support_docs_manifest.py` derives `pages_saved` and `files` from the checked-in Markdown tree while preserving the snapshot's scrape date and asset inventory. Do not edit its source-file inventory by hand.
 
 The internal organization of `wiki/` is generated and may evolve. Consumers should navigate via `wiki/index.md` rather than hard-coding paths.
 
@@ -68,7 +70,7 @@ Hand edits to `wiki/` should be rare and treated as emergency fixes only, becaus
 
 ### Pull request touching `support-docs/**`
 
-1. `Incremental Support Docs Wiki Corpus` runs in check mode: it detects changed files under `support-docs/**/*.md`, runs `scripts/incremental_support_docs_wiki.py`, and verifies the PR includes the required deterministic `wiki/` updates for the changed support docs.
+1. `Incremental Support Docs Wiki Corpus` regenerates `_manifest.json`, detects changed files under `support-docs/**/*.md`, runs `scripts/incremental_support_docs_wiki.py`, and verifies the PR includes the required deterministic manifest and `wiki/` updates.
 2. `External Contribution Check` restricts external PRs to modifying existing files only (no adds, deletes, or renames).
 3. Maintainers review the source article changes and generated wiki changes together.
 
@@ -81,10 +83,10 @@ The incremental wiki update intentionally does **not** run the full LLMWiki comp
 
 ### Adding a new support article
 
-1. Add a Markdown file to `support-docs/` following the `en--articles--<id>-<slug>.md` naming convention, and add it to `_manifest.json`.
+1. Add a Markdown file to `support-docs/` following the `en--articles--<id>-<slug>.md` naming convention.
 2. Include frontmatter with the article's `source_url` when available.
 3. Use a clear H1 title in the body.
-4. Run or let CI run the incremental wiki update.
+4. Run the manifest and incremental wiki generators, or let CI report the required changes.
 5. Review the PR diff, including any generated `wiki/` changes.
 6. Merge after approval — the deploy workflow publishes the article to the website.
 
@@ -92,7 +94,7 @@ The incremental wiki update intentionally does **not** run the full LLMWiki comp
 
 1. Edit the Markdown file in `support-docs/`.
 2. Keep the `source_url` stable unless the public article URL intentionally changed.
-3. Let CI verify the incremental wiki artifact update.
+3. Let CI verify the generated manifest and incremental wiki artifact update.
 4. Merge after approval.
 
 ## Website
@@ -223,7 +225,9 @@ There is no required build step for reading the repo. The automation scripts are
 Useful local checks:
 
 ```bash
-python3 -m py_compile scripts/incremental_support_docs_wiki.py scripts/monthly_llmwiki_refresh.py
+python3 scripts/regenerate_support_docs_manifest.py --check
+python3 -m unittest discover -s tests
+python3 -m py_compile scripts/regenerate_support_docs_manifest.py scripts/incremental_support_docs_wiki.py scripts/monthly_llmwiki_refresh.py
 ```
 
 ## Contributing

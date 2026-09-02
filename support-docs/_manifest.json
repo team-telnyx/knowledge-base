@@ -206,6 +206,7 @@
     "en--articles--1618776-porting-error-messages.md",
     "en--articles--1618801-freeswitch-credentials-trunk.md",
     "en--articles--1667062-short-message-peer-to-peer-set-up-guide.md",
+    "en--articles--16762076-workspaces.md",
     "en--articles--1782930-port-request-rejected.md",
     "en--articles--2021334-your-guide-to-fastport.md",
     "en--articles--2030667-i-received-a-port-out-notification.md",
@@ -897,8 +898,7 @@
     "en--collections--3968239-telnyx-fax-configuration-errors.md",
     "en--collections--3968260-telnyx-identity-verification-tools.md",
     "en--collections--5317581-networking-using-telnyx.md",
-    "en--collections--5782829-webrtc-voice-sdk.md",
-    "en--articles--16762076-workspaces.md"
+    "en--collections--5782829-webrtc-voice-sdk.md"
   ],
   "assets": [
     "_images/104a49a49e8e8704.png",
