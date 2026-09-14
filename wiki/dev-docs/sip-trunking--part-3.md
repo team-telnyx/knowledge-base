@@ -103,19 +103,19 @@ Telnyx currently supports LIS and ASSIST as PIDF-LO methods. Other methods are n
 ### Address Field Limits
 
 | Field | Required | Max Length |
-| --- | --- |------------|
-| house_number | No | 16         |
-| house_suffix | No | 45         |
-| street_pre_directional | No | 2          |
-| street_name | Yes | 200        |
-| street_suffix | No | 45         |
-| street_post_directional | No | 2          |
-| extended_address | No | 60         |
-| locality | Yes | 100        |
-| administrative_area | Yes | 2          |
-| postal_code | Yes | 10         |
-| country_code | Yes | 2          |
-| caller_name | No | 50         |
+| --- | --- | --- |
+| house_number | No | 16 |
+| house_suffix | No | 45 |
+| street_pre_directional | No | 2 |
+| street_name | Yes | 200 |
+| street_suffix | No | 45 |
+| street_post_directional | No | 2 |
+| extended_address | No | 60 |
+| locality | Yes | 100 |
+| administrative_area | Yes | 2 |
+| postal_code | Yes | 10 |
+| country_code | Yes | 2 |
+| caller_name | No | 50 |
 
 Common terms in `extended_address` are auto-abbreviated: APARTMENT→APT, FLOOR→FL, SUITE→STE, BUILDING→BLDG, ROOM→RM.
 
