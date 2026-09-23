@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-09-21T22:50:25Z
+updated_at: 2026-09-23T20:00:00Z
 ---
 
 # Telnyx Knowledge Base
@@ -332,3 +332,4 @@ updated_at: 2026-09-21T22:50:25Z
 - [Sending email in batches: limits, results, and safe retries](support-docs/articles/16823821-sending-email-in-batches-limits-results-and-safe-retries.md) — Send multiple messages with POST /v2/emailmessages/batch. Each item in the messages array is validated independently. Read the result of every item before deciding whether to retry.
 
 - [Testing Telnyx Email safely with sandbox recipients](support-docs/articles/16823822-testing-telnyx-email-safely-with-sandbox-recipients.md) — Use sandboxmode: true to test your integration without delivering real mail through the MTA. Sandbox sends are non-billable, consume no sending quota, and their outcomes are excluded from production deliverability statistics and reputation scoring.
+- [Importance of X-Telnyx-Username in the First INVITE](support-docs/articles/d51-importance-of-x-telnyx-username-in-first-invite.md) — Why sending X-Telnyx-Username in the first SIP INVITE matters for credential-based connections, and what happens when IP auth takes precedence without it.
