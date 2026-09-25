@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-09-25T21:58:34Z
+updated_at: 2026-09-25T23:47:44Z
 ---
 
 # Telnyx Knowledge Base
@@ -344,3 +344,5 @@ updated_at: 2026-09-25T21:58:34Z
 - [Call Hold, Comfort Noise, and RTP Stream Generation](support-docs/articles/2026092501-call-hold-comfort-noise-and-rtp-stream-generation.md) — This article describes how Telnyx detects SIP call hold and handles RTP media, Music on Hold, comfort-noise packets, and opposite-leg media generation during hold states.
 
 - [Estonia DID Requirements](support-docs/articles/3506159-estonia-number-requirements.md) — Here you will find detailed requirements for acquiring numbers in Estonia. See Telnyx guidance and requirements.
+
+- [International Numbers - Required Documents](support-docs/articles/5469551-international-numbers-required-documents.md) — You can find country-specific information in our International DID Requirements support section or in your portal here.
