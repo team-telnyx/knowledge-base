@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-09-23T21:43:28Z
+updated_at: 2026-09-25T09:32:38Z
 ---
 
 # Telnyx Knowledge Base
@@ -336,3 +336,5 @@ updated_at: 2026-09-23T21:43:28Z
 - [How to Configure SIP Attach using a UAC Connection](support-docs/articles/14805261-how-to-configure-sip-attach-using-a-uac-connection.md) — SIP Attach lets Telnyx register as a SIP endpoint on your existing PBX or voice system. See Telnyx guidance and requirements.
 
 - [Identify Your Connection in the First SIP INVITE \(X-Telnyx-Username\)](support-docs/articles/2026092301-identify-your-connection-in-the-first-sip-invite.md) — For credential-based SIP connections, we recommend including your connection's username in the first INVITE that your PBX or SBC sends to Telnyx.
+
+- [Configure Repeat Call Guard on Outbound Voice Profiles \(BETA\)](support-docs/articles/12580667-configure-repeat-call-guard-on-outbound-voice-profiles-beta.md) — Control how many times a destination number can be called within a specific time window. See Telnyx guidance and requirements.
