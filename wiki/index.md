@@ -339,4 +339,6 @@ updated_at: 2026-09-25T18:25:59Z
 
 - [UAC Call Transfer: AI Assistant to Live Agent](support-docs/articles/2026092401-uac-call-transfer-ai-assistant-to-live-agent.md) — A UAC (User Agent Client) connection is used by Telnyx to register as a SIP endpoint with your PBX, the same way an IP phone or softphone would, and lets you route PBX calls on that extension to any type of Telnyx connection or application.
 
+- [Configure Repeat Call Guard on Outbound Voice Profiles \(BETA\)](support-docs/articles/12580667-configure-repeat-call-guard-on-outbound-voice-profiles-beta.md) — Control how many times a destination number can be called within a specific time window. See Telnyx guidance and requirements.
+
 - [Call Hold, Comfort Noise, and RTP Stream Generation](support-docs/articles/2026092501-call-hold-comfort-noise-and-rtp-stream-generation.md) — This article describes how Telnyx detects SIP call hold and handles RTP media, Music on Hold, comfort-noise packets, and opposite-leg media generation during hold states.
