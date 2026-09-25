@@ -49,6 +49,17 @@ For **address** verification:
 
 \* Proof of address (dated within 3 months)
 
+
+## **Toll-Free Numbers in** Pakistan
+
+For **personal identity** verification:
+
+​\* Recently Signed LOI (Signed within 1 month - Provided by Telnyx - [LOI Template.docx](/downloads/32d6f475463ea47a-LOI-Template.docx))
+
+For **business identity** verification:
+
+\* Recently Signed LOI (Signed within 1 month - Provided by Telnyx - [LOI Template.docx](/downloads/32d6f475463ea47a-LOI-Template.docx))
+
 ---
 
 Related Articles
