@@ -1,8 +1,7 @@
 ---
-source_url: "https://support.telnyx.com/en/articles/<INTERCOM_ID>-uac-call-transfer-ai-assistant-to-live-agent"
+source_url: "https://support.telnyx.com/en/articles/2026092501-uac-call-transfer-ai-assistant-to-live-agent"
 title: "UAC Call Transfer: AI Assistant to Live Agent"
 description: "Configure a Telnyx AI Assistant to transfer an inbound call to a live PBX extension over a UAC connection, using a Programmable Voice transfer instead of SIP REFER."
-scraped: "2026-09-24"
 modified_at: "2026-09-24T00:00:00Z"
 updated_at: "2026-09-24T00:00:00Z"
 ---
