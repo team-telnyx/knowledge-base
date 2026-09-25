@@ -337,4 +337,4 @@ updated_at: 2026-09-25T17:39:55Z
 
 - [Identify Your Connection in the First SIP INVITE \(X-Telnyx-Username\)](support-docs/articles/2026092301-identify-your-connection-in-the-first-sip-invite.md) — For credential-based SIP connections, we recommend including your connection's username in the first INVITE that your PBX or SBC sends to Telnyx.
 
-- [UAC Call Transfer: AI Assistant to Live Agent](support-docs/articles/2026092501-uac-call-transfer-ai-assistant-to-live-agent.md) — A UAC (User Agent Client) connection is used by Telnyx to register as a SIP endpoint with your PBX, the same way an IP phone or softphone would, and lets you route PBX calls on that extension to any type of Telnyx connection or application.
+- [UAC Call Transfer: AI Assistant to Live Agent](support-docs/articles/2026092401-uac-call-transfer-ai-assistant-to-live-agent.md) — A UAC (User Agent Client) connection is used by Telnyx to register as a SIP endpoint with your PBX, the same way an IP phone or softphone would, and lets you route PBX calls on that extension to any type of Telnyx connection or application.

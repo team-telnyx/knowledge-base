@@ -1,14 +1,10 @@
 ---
+source_url: "https://support.telnyx.com/en/articles/2026092401-uac-call-transfer-ai-assistant-to-live-agent"
 title: "UAC Call Transfer: AI Assistant to Live Agent"
-summary: "A UAC (User Agent Client) connection is used by Telnyx to register as a SIP endpoint with your PBX, the same way an IP phone or softphone would, and lets you route PBX calls on that extension to any type of Telnyx connection or application."
-sources:
-- url: "https://support.telnyx.com/en/articles/2026092501-uac-call-transfer-ai-assistant-to-live-agent"
-updated_at: 2026-09-24T00:00:00Z
-tags: [support-docs]
-source_path: "support-docs/en--articles--2026092501-uac-call-transfer-ai-assistant-to-live-agent.md"
-generated_by: incremental-support-docs-wiki
+description: "Configure a Telnyx AI Assistant to transfer an inbound call to a live PBX extension over a UAC connection, using a Programmable Voice transfer instead of SIP REFER."
+modified_at: "2026-09-24T00:00:00Z"
+updated_at: "2026-09-24T00:00:00Z"
 ---
-<!-- generated_from=support-docs/en--articles--2026092501-uac-call-transfer-ai-assistant-to-live-agent.md -->
 
 # UAC Call Transfer: AI Assistant to Live Agent
 
