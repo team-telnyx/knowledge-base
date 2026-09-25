@@ -23,29 +23,42 @@ Here you will find a list of detailed requirements for acquiring Serbian numbers
 
 In order to purchase a Serbia number you will need to provide the following:
 
+
+## **Local Numbers in Serbia**
+
+For **business identity** verification:
+* Name, last name of an authorized representative
+* Contact phone number
+* Company name
+* Contact e-mail
+* Passport or ID copy of an authorized representative
+* Local Company Registration Document
+* Recently Signed LOI (Signed Within 1 Month)
+* APR Registration Document
+
+For address verification:
+* Address in Serbia (street, building number, postal code, city, and country)
+* Proof of address (dated within 3 months)
+
+Additional Information:
+* Business use required: Business use is required, private use is not allowed.
 ##
 
 ## **Toll-Free Numbers in Serbia**
 
 For **personal identity** verification:
+* Name, last name
+* Contact phone number
+* Passport or ID copy
 
-\* Name, last name
+For business identity verification:
+* Name, last name of an authorized representative
+* Company name
+* Contact phone number
+* Company registration certificate
 
-\* Contact phone number
-
-\* Passport or ID copy
-
-For **business identity** verification:
-
-\* Company name
-
-\* Contact phone number
-
-\* Company registration certificate
-
-For **address** verification:
-
-\* Address Worldwide (street, building number, postal code, city and country)
+For address verification:
+* Address Worldwide (street, building number, postal code, city and country)
 
 ## **Helpful for acquiring Serbia DIDs**
 
