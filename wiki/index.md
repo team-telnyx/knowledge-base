@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-09-28T17:24:53Z
+updated_at: 2026-09-28T18:22:20Z
 ---
 
 # Telnyx Knowledge Base
@@ -418,3 +418,5 @@ updated_at: 2026-09-28T17:24:53Z
 - [United Arab Emirates: SMS Guidelines](support-docs/articles/6683438-united-arab-emirates-sms-guidelines.md) — Information on Alphanumeric Sender ID registration: ​ Registration of Alphanumeric Senders towards UAE have been put on hold by the local operators until further notice.
 
 - [Mission Control Portal - AI Chat Support Assistant](support-docs/articles/8020222-mission-control-portal-ai-chat-support-assistant.md) — We are delighted to introduce our latest digital offering, designed to enhance your customer service experience, while providing more efficient and personalised support.
+
+- [Enabling WhatsApp Business Calling on Telnyx and BYON Numbers](support-docs/articles/14668631-enabling-whatsapp-business-calling-on-telnyx-numbers.md) — Enable WhatsApp Business Calling with a Telnyx number, or import your existing non-Telnyx WhatsApp number using Bring Your Own Number (BYON) to receive inbound WhatsApp voice calls through Telnyx.
