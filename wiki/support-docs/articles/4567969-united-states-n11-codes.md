@@ -1,18 +1,14 @@
 ---
-source_url: https://support.telnyx.com/en/articles/4567969-united-states-n11-codes
 title: "United States - N11 Codes"
-description: "In this guide we will explain N11 codes in the United States and their purpose. See Telnyx guidance and requirements."
-scraped: 2026-07-08
-content_hash: 37d3717247f3c76d1b6628f25accfa565ea122997e1380c94e66d614942cacbf
-updated_at: "2026-09-28T18:12:50Z"
-modified_at: "2026-09-28T18:12:50Z"
+summary: "In this guide we will explain N11 codes in the United States and their purpose. See Telnyx guidance and requirements."
+sources:
+- url: "https://support.telnyx.com/en/articles/4567969-united-states-n11-codes"
+updated_at: 2026-09-28T18:12:50Z
+tags: [support-docs]
+source_path: "support-docs/en--articles--4567969-united-states-n11-codes.md"
+generated_by: incremental-support-docs-wiki
 ---
-
-
-
-
-
-
+<!-- generated_from=support-docs/en--articles--4567969-united-states-n11-codes.md -->
 
 # United States - N11 Codes
 
