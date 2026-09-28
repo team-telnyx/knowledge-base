@@ -175,6 +175,10 @@ Configure these steps the same way you would for an [FQDN connection](https://de
 
 * Step 3 — Configuration: Codec preferences, SRTP, and other SIP settings.
 * Step 4 — Inbound: Inbound call routing and handling rules.
+
+  **SIP Region:** Select the region closest to your PBX to minimize signaling latency and RTP round-trip time. For example, if your PBX is hosted in Europe, selecting the Europe region ensures that REGISTER requests and media traffic originate from the European UAC IP rather than the US proxy.
+
+  You can change the SIP Region at any time from the Inbound tab in your Connection settings.
 * Step 5 — Outbound: Outbound call routing rules.
 * Step 6 — Numbers: Assign phone numbers to this connection. (Optional)
 

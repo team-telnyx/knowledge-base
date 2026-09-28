@@ -2,10 +2,10 @@
 source_url: "https://support.telnyx.com/en/articles/16099893-creating-and-sending-email-templates"
 title: "Creating and sending email templates"
 scraped: "2026-09-15"
-modified_at: "2026-09-21T00:00:00Z"
+modified_at: "2026-09-28T00:00:00Z"
 collection_path: "19683795-telnyx-email"
-content_hash: "de93804825376c996b7bbafbaf4986567ea4422060920d7eb02fcb33d8cae3c8"
-updated_at: "2026-09-21T00:00:00Z"
+content_hash: 0d2d1fc52ff8efb51565d2822f13e0c4eeec3e7012ab1de52d59134c8c5c886e
+updated_at: "2026-09-28T00:00:00Z"
 ---
 
 # Creating and sending email templates
@@ -88,7 +88,7 @@ curl -X POST "https://api.telnyx.com/v2/email_templates/{template_id}/render" \
   }'
 ```
 
-The response returns the rendered `subject`, `html_body`, and `text_body`. With the default `strict_variables: false`, missing variables can render as empty text. Enable strict mode and declare required variables in `variable_schema` to reject missing required values, and inspect the preview before sending.
+The response returns the rendered `subject`, `html_body`, and `text_body`. With the default `strict_variables: false`, missing variables can render as empty text. Enable strict mode and declare required variables in `variable_schema` to reject missing required values, and inspect the preview before sending. Inspect every required field instead of assuming a successful render means every business value was supplied.
 
 **The render response is a pre-send preview, not byte-for-byte final MIME.** The send pipeline can still inline CSS, rewrite tracked links, and add an open-tracking pixel according to the message's effective settings.
 

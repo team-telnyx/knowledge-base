@@ -3,8 +3,7 @@ title: "Creating and sending email templates"
 summary: "Email templates let you store reusable Liquid subject and body content, then provide customer-specific values at send time. This guide shows you how to create, preview, update, and send a template without the most common rendering mistakes."
 sources:
 - url: "https://support.telnyx.com/en/articles/16099893-creating-and-sending-email-templates"
-  content_hash: f387f5933e4b3025e95a3f936ea60a9730641f0f6fea340967cb5c9949ff4b93
-updated_at: 2026-09-21T00:00:00Z
+updated_at: 2026-09-28T00:00:00Z
 tags: [support-docs]
 source_path: "support-docs/16099893-creating-and-sending-email-templates.md"
 generated_by: incremental-support-docs-wiki
@@ -91,7 +90,7 @@ curl -X POST "https://api.telnyx.com/v2/email_templates/{template_id}/render" \
   }'
 ```
 
-The response returns the rendered `subject`, `html_body`, and `text_body`. With the default `strict_variables: false`, missing variables can render as empty text. Enable strict mode and declare required variables in `variable_schema` to reject missing required values, and inspect the preview before sending.
+The response returns the rendered `subject`, `html_body`, and `text_body`. With the default `strict_variables: false`, missing variables can render as empty text. Enable strict mode and declare required variables in `variable_schema` to reject missing required values, and inspect the preview before sending. Inspect every required field instead of assuming a successful render means every business value was supplied.
 
 **The render response is a pre-send preview, not byte-for-byte final MIME.** The send pipeline can still inline CSS, rewrite tracked links, and add an open-tracking pixel according to the message's effective settings.
 

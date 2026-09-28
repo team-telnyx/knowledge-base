@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-09-25T23:47:44Z
+updated_at: 2026-09-28T17:24:53Z
 ---
 
 # Telnyx Knowledge Base
@@ -346,3 +346,75 @@ updated_at: 2026-09-25T23:47:44Z
 - [Estonia DID Requirements](support-docs/articles/3506159-estonia-number-requirements.md) — Here you will find detailed requirements for acquiring numbers in Estonia. See Telnyx guidance and requirements.
 
 - [International Numbers - Required Documents](support-docs/articles/5469551-international-numbers-required-documents.md) — You can find country-specific information in our International DID Requirements support section or in your portal here.
+
+- [10DLC Opt in Form](support-docs/articles/10684260-10dlc-opt-in-form.md) — If you are using a digital web form for your 10DLC opt-in, it must meet specific compliance requirements to ensure subscribers give clear, explicit consent to receive SMS messages from your brand.
+
+- [Porting Policy & Procedure](support-docs/articles/1130630-porting-policy-procedure.md) — For moving numbers from another carrier to Telnyx.
+
+- [10DLC Mock Brands and Campaigns](support-docs/articles/12812898-10dlc-mock-brands-and-campaigns.md) — If your business wants to try creating brands and campaigns to test API behavior, webhook events, or general 10DLC provisioning pipelines, creating a mock brand and mock campaigns can be useful.
+
+- [Germany DID Requirements](support-docs/articles/1311450-germany-did-requirements.md) — In order to purchase a Germany number you will need to provide the following:
+
+- [United Kingdom \(UK\) DID Requirements](support-docs/articles/1311457-united-kingdom-uk-did-requirements.md) — In order to purchase an United Kingdom number you will need to provide the following:
+
+- [Sweden DID Requirements](support-docs/articles/1311477-sweden-did-requirements.md) — In order to purchase a Sweden number you will need to provide the following:
+
+- [How to configure Yeastar P-series](support-docs/articles/13375115-how-to-configure-yeastar-p-series.md) — There are two types of SIP trunks you can configure:
+
+- [Guide to Sole Proprietor 10DLC Brand and Campaign Registration](support-docs/articles/13545282-guide-to-sole-proprietor-10dlc-brand-and-campaign-registration.md) — For small business owners and freelancers without a federal Tax ID (EIN), the Sole Proprietor registration is the required path for sending compliant A2P (Application-to-Person) messages to local US numbers.
+
+- [Compliance Catch-up: Why Toll-Free Verification Now Mirrors 10DLC](support-docs/articles/13765655-compliance-catch-up-why-toll-free-verification-now-mirrors-10dlc.md) — The most significant change effective February 17, 2026, is that the Business Registration Number (BRN) is no longer optional.
+
+- [Forbidden Messaging Use Cases in the US and Canada \(10DLC, Toll-Free, and Short Code\)](support-docs/articles/14286763-forbidden-messaging-use-cases-in-the-us-and-canada-10dlc-toll-free-and-short-code.md) — Mobile carriers and industry guidelines (such as CTIA standards) restrict certain types of messaging traffic across the United States and Canada.
+
+- [Telnyx Pretrial Accounts](support-docs/articles/14327893-telnyx-pretrial-accounts.md) — A Pretrial account lets developers try Telnyx AI products — with no credit card, no payment setup, and no commitment. Sign up, get $25 in AI credits, and start building right away.
+
+- [Number Porting Rules and Guidelines](support-docs/articles/2086149-number-porting-rules-and-guidelines.md) — Telnyx LLC (Telnyx) ports telephone numbers in accordance with applicable Regulatory Rules and Industry Guidelines.
+
+- [Brazil Number Porting](support-docs/articles/3266425-brazil-number-porting.md) — 1. LOA (CPF / CNPJ required). 2. ID / Passport copy 3. Company Registration certificate 4. Latest Invoice
+
+- [Chile Number Porting](support-docs/articles/3266652-chile-number-porting.md) — - E-RUT - LOA or POA - Latest Invoice - CHILE - Power of Attorney - CHILE - Certificate of Incorporation - RUT of the individual requesting portability - Proof of Payment (National carrier invoice, no resellers.)
+
+- [Italy Number Porting](support-docs/articles/3267012-italy-number-porting.md) — 1. LOA (Local address required) 2. Local TAX / VAT ID or company registration number 3. Migration code 4. Latest Invoice 5. A copy of the Passport / ID of the Authorized Person 6.
+
+- [China DID Requirements](support-docs/articles/3506111-china-did-requirements.md) — In order to purchase a Chinese number you will need to provide the following:
+
+- [Georgia DID Requirements](support-docs/articles/3506173-georgia-did-requirements.md) — In order to purchase a Georgia number you will need to provide the following:
+
+- [Malaysia DID Requirements](support-docs/articles/3739509-malaysia-did-requirements.md) — In order to purchase a Malaysia number you will need to provide the following:
+
+- [Montenegro DID Requirements](support-docs/articles/3739526-montenegro-did-requirements.md) — In order to purchase a Montenegro number you will need to provide the following:
+
+- [South Africa DID Requirements](support-docs/articles/3739576-south-africa-did-requirements.md) — In order to purchase a South Africa number you will need to provide the following:
+
+- [Switzerland DID Requirements](support-docs/articles/3739580-switzerland-did-requirements.md) — In order to purchase a Switzerland number you will need to provide the following:
+
+- [2FA / TOTP Setup](support-docs/articles/3739748-2fa-totp-setup.md) — Two-factor authentication (2FA) adds an extra step when you sign in to Mission Control Portal. After entering your password, you will also enter a temporary verification code from your selected 2FA method.
+
+- [SIP Connection: Settings](support-docs/articles/4351104-sip-connection-settings.md) — To access the settings of a connection, click the small edit icon on the far right of the desired connection at the SIP Trunking section under the Voice Suite in the Mission Control Portal.
+
+- [Best Practices for Contacting Support](support-docs/articles/5170721-best-practices-for-contacting-support.md) — Chat: click the "chat with us" link on the bottom of the left menu when signed into the Portal and the chat window will appear on the bottom right of the Mission Control Portal. ​Phone: at +18889809750 or any of the international numbers listed below.
+
+- [Albania DID Requirements](support-docs/articles/5463863-albania-did-requirements.md) — In order to purchase an Albanian number you will need to provide the following:
+
+- [Denmark DID Requirements](support-docs/articles/5464149-denmark-did-requirements.md) — In order to purchase a Denmark number you will need to provide the following:
+
+- [Finland DID Requirements](support-docs/articles/5465874-finland-did-requirements.md) — In order to purchase a Finland number you will need to provide the following:
+
+- [North Macedonia DID Requirements](support-docs/articles/5466851-north-macedonia-did-requirements.md) — In order to purchase a North Macedonia number you will need to provide the following:
+
+- [Norway DID Requirements](support-docs/articles/5466855-norway-did-requirements.md) — In order to purchase a Norway number you will need to provide the following:
+
+- [Portugal DID Requirements](support-docs/articles/5466980-portugal-did-requirements.md) — In order to purchase a Portugal number you will need to provide the following:
+
+- [10DLC Fees and Charges](support-docs/articles/5634625-10dlc-fees-and-charges.md) — ⚠️ Looking for 10DLC basic info like registration, Brand and Campaign scoring, throughput, and compliance? Read our 10DLC FAQ.
+
+- [Best Practices for Contacting Porting](support-docs/articles/5820338-best-practices-for-contacting-porting.md) — Our AMER Porting team is available 7am - 7pm Central, Monday-Friday. Our EMEA Porting team is available 9am - 5pm CEST, Monday-Friday. All communications outside of that time will be resolved the following business day.
+
+- [Australia: SMS Guidelines](support-docs/articles/6531656-australia-sms-guidelines.md) — MCC: 505 ​Dial code: 61 ​ ​The Australian Communications and Media Authority (ACMA) has introduced new requirements for alphanumeric sender IDs under the Telecommunications (SMS Sender ID Register) Industry Standard 2025, effective from 1 July 2026.
+
+- [Congo SMS Guidelines](support-docs/articles/6661342-congo-sms-guidelines.md) — MCC: 630 ​Dial Code: 243 ​ Alphanumeric Sender IDs are supported. ​ ​The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be directly related to the message content.
+
+- [United Arab Emirates: SMS Guidelines](support-docs/articles/6683438-united-arab-emirates-sms-guidelines.md) — Information on Alphanumeric Sender ID registration: ​ Registration of Alphanumeric Senders towards UAE have been put on hold by the local operators until further notice.
+
+- [Mission Control Portal - AI Chat Support Assistant](support-docs/articles/8020222-mission-control-portal-ai-chat-support-assistant.md) — We are delighted to introduce our latest digital offering, designed to enhance your customer service experience, while providing more efficient and personalised support.

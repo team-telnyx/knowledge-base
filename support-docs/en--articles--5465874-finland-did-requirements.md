@@ -2,90 +2,49 @@
 source_url: https://support.telnyx.com/en/articles/5465874-finland-did-requirements
 title: "Finland DID Requirements"
 description: "Here you will find a list of detailed requirements for acquiring Finland numbers. See Telnyx guidance and requirements."
-scraped: 2026-07-08
-content_hash: 5399015ab0c822e06693f1033b6a7a8c939c92171fc15d67742765a1b54c9649
+scraped: 2026-09-28
+content_hash: b184803f101e1c581109d8d31e08d627b4d56e8af63213f31d4b276e0cd3309e
+updated_at: 2026-09-08T15:09:51Z
+modified_at: 2026-09-08T15:09:51Z
 ---
-
-
-
-
-
-
 
 # Finland DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Finland numbers. See Telnyx guidance and requirements.
-
-
-
-
-## DID Number Requirements for Finland
+# DID Number Requirements for Finland
 
 In order to purchase a Finland number you will need to provide the following:
 
-## **Local Numbers in Finland**
+## **Local and National Numbers in Finland**
 
-For **personal identity** verification:
-\* Name, last name
-\* Contact phone number
-\* Passport or ID copy
-​
-For **business identity** verification:
+For **business identity** verification:  
 \* Name, last name of an authorized representative
 
-\* Company name
-\* Contact phone number
-\* Company registration certificate
+\* Company name  
+\* Contact phone number  
+\* Contact E-mail  
+\* Local Company registration certificate  
+\* VAT ID  
+​  
+For **address** verification:  
+\* Address in Finland (street, building number, postal code, city and country)  
+\* Proof of address (dated within 3 months)  
 ​
-For **address** verification:
-\* Address worldwide (street, building number, postal code, city and country)
 
-## **National Numbers in Finland**
+## **Mobile and Toll-Free Numbers in Finland**
 
-For **personal identity** verification:
-\* Name, last name
-\* Contact phone number
-
-\* Passport or ID copy
-​
-For **business identity** verification:
-\* Name, last name of an authorized representative
-
-\* Company name
-\* Contact phone number
-
-\* Company registration certificate
-​
-For **address** verification:
-\* Address worldwide (street, building number, postal code, city and country)
-
-## **Mobile Numbers in Finland**
-
-For **business identity** verification:
-\* Name, last name of an authorized representative
-\* Contact phone number
-\* VAT number
-\* Company name
-​
-For **address** verification:
-\* Address worldwide (street, building number, postal code, city and country)
-
-\*Business use required: Business use is required, private use is not allowed.
-
-## **Toll-Free Numbers in Finland**
-
-For **business identity** verification:
-\* Name, last name of an authorized representative
-
-\* Contact phone number
-\* Company name
-\* VAT number
-\* Company incorporation certificate copy
-​
-For **address** verification:
-\* Address worldwide (street, building number, postal code, city and country)
-
-\*Business use required: Business use is required, private use is not allowed.
+For **business identity** verification:  
+\* Name, last name of an authorized representative  
+\* Contact phone number  
+\* Company name  
+\* Contact e-mail  
+\* VAT number  
+\* Company incorporation certificate  
+​  
+For **address** verification:  
+\* Address in Finland (street, building number, postal code, city and country)  
+​  
+​**Additional information:**  
+​**\* Business use required:** Business use is required, private use is not allowed.
 
 ## **Helpful for acquiring Finland DIDs**
 
@@ -103,29 +62,19 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 
 ## **Benefits of Finland DIDs**
 
-* Potential customers in Finland are [400% more likely to answer calls from local numbers](https://gtmnow.com/5-ways-to-get-your-prospects-to-pick-up-their-phones/)
-* Improve call routing where individual DIDs can be assigned to specific business functions
-* Finland DIDs are scalable and grow as your business grows
-* Enhanced privacy for individuals, you keep your personal number personal
-* Advanced call tracking and analytical capabilities to measure volume, duration and more
+- Potential customers in Finland are [400% more likely to answer calls from local numbers](https://gtmnow.com/5-ways-to-get-your-prospects-to-pick-up-their-phones/)
+- Improve call routing where individual DIDs can be assigned to specific business functions
+- Finland DIDs are scalable and grow as your business grows
+- Enhanced privacy for individuals, you keep your personal number personal
+- Advanced call tracking and analytical capabilities to measure volume, duration and more
 
 **Additional resources for Finland DIDs**
 
-* Product Info: [Global DID Numbers](https://telnyx.com/products/phone-numbers)
-* Pricing Info: [Number Pricing](https://telnyx.com/pricing/numbers)
-* Number Coverage: [Number Feature Availability by Country](https://telnyx.com/global-coverage)
-* Blog: [What is direct inward dialing](https://telnyx.com/resources/what-is-direct-inward-dialing)
-* Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
+- Product Info: [Global DID Numbers](https://telnyx.com/products/phone-numbers)
+- Pricing Info: [Number Pricing](https://telnyx.com/pricing/numbers)
+- Number Coverage: [Number Feature Availability by Country](https://telnyx.com/global-coverage)
+- Blog: [What is direct inward dialing](https://telnyx.com/resources/what-is-direct-inward-dialing)
+- Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
-Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
+Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)  
 ​
-
----
-
-Related Articles
-
-[Chile DID Requirements](https://support.telnyx.com/en/articles/5464057-chile-did-requirements)[Colombia DID Requirements](https://support.telnyx.com/en/articles/5464069-colombia-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)[Portugal DID Requirements](https://support.telnyx.com/en/articles/5466980-portugal-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

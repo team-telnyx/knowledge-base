@@ -2,24 +2,17 @@
 source_url: https://support.telnyx.com/en/articles/12812898-10dlc-mock-brands-and-campaigns
 title: "10DLC Mock Brands and Campaigns"
 description: "In this article, we break down creating mock 10DLC brands and campaigns and their purpose. See Telnyx guidance and requirements."
-scraped: 2026-07-08
-content_hash: bd106bb9b5cb7262013679d900f6eaab74650e6565c5a676a247379f6c7c0d07
+scraped: 2026-09-28
+content_hash: de585a6b12ac3e98c6ba9e180c8b465c08f5fe65036f53d11b143bc8a822c79d
+updated_at: 2026-08-31T11:05:34Z
+modified_at: 2026-08-31T11:05:34Z
 ---
-
-
-
-
-
-
 
 # 10DLC Mock Brands and Campaigns
 
-In this article, we break down creating mock 10DLC brands and campaigns and their purpose. See Telnyx guidance and requirements.
-
-
-
-
-If your business wants to try creating brands and campaigns to test API behavior, webhook events, or general 10DLC provisioning pipelines, creating a mock brand and mock campaigns can be useful. Mock brands and mock campaigns can be created at no cost allowing for a free way to test each step of your 10DLC integration. In this guide, we'll show you how to create mock brands and campaigns.
+If your business wants to try creating brands and campaigns to test API behavior, webhook events, or general 10DLC provisioning pipelines, creating a mock brand and mock campaigns can be useful. Mock brands and mock campaigns can be created at no cost allowing for a free way to test each step of your 10DLC integration. In this guide, we'll show you how to create mock brands and campaigns.  
+  
+NOTE: MOCK BRANDS AND MOCK CAMPAIGNS CANNOT BE USED FOR SENDING ANY OUTBOUND TRAFFIC OR ASSIGNING NUMBERS.
 
 **Pre-requisites:**
 
@@ -43,17 +36,7 @@ If you'd prefer to create your campaign using a simple API command, you can find
 
 ## Notes on mock brands and campaigns
 
-* Mock campaigns can not be used for real 10DLC traffic.
-* Mock brands and campaigns are meant to be used for testing webhook responses for common 10DLC operations such as creating campaigns, brands, and assigning phone numbers to campaigns. These events can all be tested with mock brands and campaigns by configuring webhooks when creating mock brands and campaigns. More details on this process are found in this [documentation](https://telnyx.mintlify.app/docs/messaging/10dlc/event-notifications).
-* No registration or monthly recurring fees are incurred for creating a mock brand or campaign.
-* Mock brands and campaigns can be deleted when testing is complete using the standard deletion endpoint for [brands](https://telnyx.mintlify.app/api-reference/brands/delete-brand) and [campaigns](https://telnyx.mintlify.app/api-reference/campaign/deactivate-campaign), or by deletion in the mission control portal.
-
----
-
-Related Articles
-
-[Telnyx & 10DLC Compliance](https://support.telnyx.com/en/articles/5664840-telnyx-10dlc-compliance)[How to create a 10DLC brand](https://support.telnyx.com/en/articles/5896911-how-to-create-a-10dlc-brand)[How to create a 10DLC campaign](https://support.telnyx.com/en/articles/6339152-how-to-create-a-10dlc-campaign)[10DLC Campaign Suspended](https://support.telnyx.com/en/articles/10723378-10dlc-campaign-suspended)[Guide to Sole Proprietor 10DLC Brand and Campaign Registration](https://support.telnyx.com/en/articles/13545282-guide-to-sole-proprietor-10dlc-brand-and-campaign-registration)
-
-Did this answer your question?
-
-😞😐😃
+- Mock campaigns can not be used for real 10DLC traffic.
+- Mock brands and campaigns are meant to be used for testing webhook responses for common 10DLC operations such as creating campaigns and brands These events can all be tested with mock brands and campaigns by configuring webhooks when creating mock brands and campaigns. More details on this process are found in this [documentation](https://telnyx.mintlify.app/docs/messaging/10dlc/event-notifications).
+- No registration or monthly recurring fees are incurred for creating a mock brand or campaign.
+- Mock brands and campaigns can be deleted when testing is complete using the standard deletion endpoint for [brands](https://telnyx.mintlify.app/api-reference/brands/delete-brand) and [campaigns](https://telnyx.mintlify.app/api-reference/campaign/deactivate-campaign), or by deletion in the mission control portal.

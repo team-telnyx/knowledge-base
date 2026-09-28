@@ -2,55 +2,51 @@
 source_url: https://support.telnyx.com/en/articles/5463863-albania-did-requirements
 title: "Albania DID Requirements"
 description: "Here you will find a detailed list of requirements to acquire numbers in Albania. See Telnyx guidance and requirements."
-scraped: 2026-07-08
-content_hash: aad55cba3ec8c0a2c657d3022c356284cbbc8c8fb577978e74242d31b2127ee2
+scraped: 2026-09-28
+content_hash: 330eeadb354606502eeb4b60d3bbab974dc7d37168f0513f0f8ba5c656fa6af9
+updated_at: 2026-08-14T15:54:36Z
+modified_at: 2026-08-14T15:54:36Z
 ---
-
-
-
-
-
-
 
 # Albania DID Requirements
 
-Here you will find a detailed list of requirements to acquire numbers in Albania. See Telnyx guidance and requirements.
-
-
-
-
-## DID Number Requirements for Albania
+# DID Number Requirements for Albania
 
 In order to purchase an Albanian number you will need to provide the following:
 
 ## **Local Numbers in Albania**
 
-For **business identity** verification:
-\* Name, last name of an authorized representative
+For **business identity** verification:  
+\* Name, last name of an authorized representative  
 \* Company name
 
-\* Contact phone number
-\* Passport or ID copy of an authorized representative
-\* Company Registration Certificate
-​
-For **address** verification:
+\* Contact phone number  
+\* Passport or ID copy of an authorized representative  
+\* Company Registration Certificate  
+​  
+For **address** verification:  
 \* Address worldwide (street, building number, postal code, city, and country)
 
-\*Business use required: Business use is required, private use is not allowed.
+Additional Information:
+
+\* Business use required: Business use is required, private use is not allowed.  
+\* For customers located outside Albania, an English translation must be provided together with the document in its original language.
 
 ## **Toll-Free Numbers in Albania**
 
-For **business identity** verification:
+For **business identity** verification:  
 \* Company name
 
 \* Passport or ID copy of an authorized representative
 
-\* Company Registration Certificate
-​
-For **address** verification:
+\* Company Registration Certificate  
+​  
+For **address** verification:  
 \* Address worldwide (street, building number, postal code, city, and country)
 
-\*Business use required: Business use is required, private use is not allowed.
+Additional Information:
+
+\* Business use required: Business use is required, private use is not allowed.
 
 ## **Helpful for acquiring Albania DIDs**
 
@@ -68,28 +64,18 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 
 ## **Benefits of Albania DIDs**
 
-* Potential customers in Albania are [400% more likely to answer calls from local numbers](https://gtmnow.com/5-ways-to-get-your-prospects-to-pick-up-their-phones/)
-* Improve call routing where individual DIDs can be assigned to specific business functions
-* Albania DIDs are scalable and grow as your business grows
-* Enhanced privacy for individuals, you keep your personal number personal
-* Advanced call tracking and analytical capabilities to measure volume, duration and more
+- Potential customers in Albania are [400% more likely to answer calls from local numbers](https://gtmnow.com/5-ways-to-get-your-prospects-to-pick-up-their-phones/)
+- Improve call routing where individual DIDs can be assigned to specific business functions
+- Albania DIDs are scalable and grow as your business grows
+- Enhanced privacy for individuals, you keep your personal number personal
+- Advanced call tracking and analytical capabilities to measure volume, duration and more
 
 **Additional resources for Albania DIDs**
 
-* Product Info: [Global DID Numbers](https://telnyx.com/products/phone-numbers)
-* Pricing Info: [Number Pricing](https://telnyx.com/pricing/numbers)
-* Number Coverage: [Number Feature Availability by Country](https://telnyx.com/global-coverage)
-* Blog: [What is direct inward dialing](https://telnyx.com/resources/what-is-direct-inward-dialing)
-* Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
+- Product Info: [Global DID Numbers](https://telnyx.com/products/phone-numbers)
+- Pricing Info: [Number Pricing](https://telnyx.com/pricing/numbers)
+- Number Coverage: [Number Feature Availability by Country](https://telnyx.com/global-coverage)
+- Blog: [What is direct inward dialing](https://telnyx.com/resources/what-is-direct-inward-dialing)
+- Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Jamaica DID Requirements](https://support.telnyx.com/en/articles/5466658-jamaica-did-requirements)[Mexico DID Requirements](https://support.telnyx.com/en/articles/5466793-mexico-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)[Serbia DID Requirements](https://support.telnyx.com/en/articles/5467021-serbia-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

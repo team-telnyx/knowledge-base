@@ -2,24 +2,15 @@
 source_url: https://support.telnyx.com/en/articles/3739509-malaysia-did-requirements
 title: "Malaysia DID Requirements"
 description: "Here we will provide a detailed list of requirements to acquire Malaysian numbers. See Telnyx guidance and requirements."
-scraped: 2026-07-08
-content_hash: 90a66bb59eb1774bc8574a92cbec25043f183de4fe7b631c26cb72776a939312
+scraped: 2026-09-28
+content_hash: 25cc8115befe5b2eb218301dd30bdd2b28c3a88fe4796ee48484afee1d339401
+updated_at: 2026-08-12T23:03:14Z
+modified_at: 2026-08-12T23:03:14Z
 ---
-
-
-
-
-
-
 
 # Malaysia DID Requirements
 
-Here we will provide a detailed list of requirements to acquire Malaysian numbers. See Telnyx guidance and requirements.
-
-
-
-
-## DID Number Requirements for Malaysia
+# DID Number Requirements for Malaysia
 
 In order to purchase a Malaysia number you will need to provide the following:
 
@@ -27,13 +18,11 @@ In order to purchase a Malaysia number you will need to provide the following:
 
 For **business identity** verification:
 
-\* Name, last name of an authorizes representative
-
-\* Contact phone number
-
-\* Company name
-\* Passport or ID copy of an authorized representative
-
+\* Name, last name of an authorizes representative  
+\* Contact phone number  
+\* Company name  
+\* Passport or ID copy of an authorized representative  
+\* Signed LOI (dated within 1 month)  
 ​
 
 For address verification:
@@ -146,28 +135,19 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 
 ## **Benefits of Malaysia DIDs**
 
-* Potential customers in Malaysia are [400% more likely to answer calls from local numbers](https://gtmnow.com/5-ways-to-get-your-prospects-to-pick-up-their-phones/)
-* Improve call routing where individual DIDs can be assigned to specific business functions
-* Malaysia DIDs are scalable and grow as your business grows
-* Enhanced privacy for individuals, you keep your personal number personal
-* Advanced call tracking and analytical capabilities to measure volume, duration and more
+- Potential customers in Malaysia are [400% more likely to answer calls from local numbers](https://gtmnow.com/5-ways-to-get-your-prospects-to-pick-up-their-phones/)
+- Improve call routing where individual DIDs can be assigned to specific business functions
+- Malaysia DIDs are scalable and grow as your business grows
+- Enhanced privacy for individuals, you keep your personal number personal
+- Advanced call tracking and analytical capabilities to measure volume, duration and more
 
 **Additional resources for Malaysia DIDs**
 
-* Product Info: [Global DID Numbers](https://telnyx.com/products/phone-numbers)
-* Pricing Info: [Number Pricing](https://telnyx.com/pricing/numbers)
-* Number Coverage: [Number Feature Availability by Country](https://telnyx.com/global-coverage)
-* Blog: [What is direct inward dialing](https://telnyx.com/resources/what-is-direct-inward-dialing)
-* Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
+- Product Info: [Global DID Numbers](https://telnyx.com/products/phone-numbers)
+- Pricing Info: [Number Pricing](https://telnyx.com/pricing/numbers)
+- Number Coverage: [Number Feature Availability by Country](https://telnyx.com/global-coverage)
+- Blog: [What is direct inward dialing](https://telnyx.com/resources/what-is-direct-inward-dialing)
+- Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
-Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Bulgaria DID Requirements](https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements)[Peru DID Requirements](https://support.telnyx.com/en/articles/3739545-peru-did-requirements)[Thailand DID Requirements](https://support.telnyx.com/en/articles/3739661-thailand-did-requirements)[Chile DID Requirements](https://support.telnyx.com/en/articles/5464057-chile-did-requirements)[Kenya DID Requirements](https://support.telnyx.com/en/articles/5466736-kenya-did-requirements)
-
-Did this answer your question?
-
-😞😐😃
+Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)  
+​

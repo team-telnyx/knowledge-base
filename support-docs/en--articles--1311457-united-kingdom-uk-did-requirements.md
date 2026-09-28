@@ -2,24 +2,15 @@
 source_url: https://support.telnyx.com/en/articles/1311457-united-kingdom-uk-did-requirements
 title: "United Kingdom (UK) DID Requirements"
 description: "Here you will find detailed requirements for acquiring numbers in Great Britain. See Telnyx guidance and requirements."
-scraped: 2026-07-08
-content_hash: d7f0512dfd46a102de3d8c9312b5ea722075be26894d7aee299be05706fc607a
+scraped: 2026-09-28
+content_hash: 659e29cab7848d811c84a6e0f615c0114be53b279b2a6d25a25d2f945166c62c
+updated_at: 2026-09-15T20:50:08Z
+modified_at: 2026-09-15T20:50:08Z
 ---
-
-
-
-
-
-
 
 # United Kingdom (UK) DID Requirements
 
-Here you will find detailed requirements for acquiring numbers in Great Britain. See Telnyx guidance and requirements.
-
-
-
-
-## DID Number Requirements for the UK
+# DID Number Requirements for the UK
 
 In order to purchase an United Kingdom number you will need to provide the following:
 
@@ -31,7 +22,7 @@ In order to purchase an United Kingdom number you will need to provide the follo
 
 \* Contact phone number
 
-\* Local Passport or ID copy
+\* Passport or ID copy
 
 **​For business identity verification:**
 
@@ -43,18 +34,16 @@ In order to purchase an United Kingdom number you will need to provide the follo
 
 \* Company website
 
-\* Local Company registration certificate
+\* Company registration certificate
 
 *\** Business use case
 
 **​For address verification:**
 
-\* Address within the UK (street, building number, postal code, city, and country)
+\* Worldwide Address (street, building number, postal code, city, and country)
 
-\* A copy of a utility bill (less than 3 months old)
+\* A copy of a utility bill (less than 3 months old)  
 ​
-Additional details:
-\* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **National Numbers in the United Kingdom**
 
@@ -64,7 +53,7 @@ Additional details:
 
 \* Contact phone number
 
-\* Local Passport or ID copy
+\* Passport or ID copy
 
 **​For business identity verification:**
 
@@ -76,18 +65,15 @@ Additional details:
 
 \* Company website
 
-\* Local Company registration certificate
+\* Company registration certificate
 
 *\** Business use case
 
 **​For address verification:**
 
-\* Address within the UK (street, building number, postal code, city, and country)
+\* Worldwide Address (street, building number, postal code, city, and country)
 
 \* A copy of a utility bill (less than 3 months old)
-​
-Additional details:
-\* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **Toll-Free & Mobile Numbers in the United Kingdom**
 
@@ -97,7 +83,7 @@ Additional details:
 
 \* Contact phone number
 
-\* Local Passport or ID copy
+\* Passport or ID copy
 
 **​For business identity verification:**
 
@@ -109,26 +95,17 @@ Additional details:
 
 \* Company website
 
-\* Local Company registration certificate
+\* Company registration certificate
 
 *\** Business use case (please indicate if you are sub-allocating)
 
 **​For address verification:**
 
-\* Address within the UK (street, building number, postal code, city, and country)
+\* Worldwide Address (street, building number, postal code, city, and country)
 
-\* A copy of a utility bill (less than 3 months old)
-​
-Additional details:
-\* End-users must be physically present in the country when purchasing numbers from that country
-​
+\* A copy of a utility bill (less than 3 months old)  
+​  
 \*Please note that once the documentation is received, it will take approximately 72 hours to validate the information and activate the number for use.
-
-## **Identity Verification: What "Local" Means**
-
-For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.
-​
-All identification is subject to review, and we reserve the right to request additional documentation or decline any document we cannot verify or that does not meet applicable legal and regulatory requirements.
 
 ## **Helpful for acquiring U.K. DIDs**
 
@@ -146,28 +123,18 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 
 ## **Benefits of U.K. DIDs**
 
-* Potential customers in U.K. are [400% more likely to answer calls from local numbers](https://gtmnow.com/5-ways-to-get-your-prospects-to-pick-up-their-phones/)
-* Improve call routing where individual DIDs can be assigned to specific business functions
-* U.K. DIDs are scalable and grow as your business grows
-* Enhanced privacy for individuals, you keep your personal number personal
-* Advanced call tracking and analytical capabilities to measure volume, duration and more
+- Potential customers in U.K. are [400% more likely to answer calls from local numbers](https://gtmnow.com/5-ways-to-get-your-prospects-to-pick-up-their-phones/)
+- Improve call routing where individual DIDs can be assigned to specific business functions
+- U.K. DIDs are scalable and grow as your business grows
+- Enhanced privacy for individuals, you keep your personal number personal
+- Advanced call tracking and analytical capabilities to measure volume, duration and more
 
 **Additional resources for U.K. DIDs**
 
-* Product Info: [Global DID Numbers](https://telnyx.com/products/phone-numbers)
-* Pricing Info: [Number Pricing](https://telnyx.com/pricing/numbers)
-* Number Coverage: [Number Feature Availability by Country](https://telnyx.com/global-coverage)
-* Blog: [What is direct inward dialing](https://telnyx.com/resources/what-is-direct-inward-dialing)
-* Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
+- Product Info: [Global DID Numbers](https://telnyx.com/products/phone-numbers)
+- Pricing Info: [Number Pricing](https://telnyx.com/pricing/numbers)
+- Number Coverage: [Number Feature Availability by Country](https://telnyx.com/global-coverage)
+- Blog: [What is direct inward dialing](https://telnyx.com/resources/what-is-direct-inward-dialing)
+- Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Belgium DID Requirements](https://support.telnyx.com/en/articles/1311433-belgium-did-requirements)[France DID Requirements](https://support.telnyx.com/en/articles/1311445-france-did-requirements)[Ireland DID Requirements](https://support.telnyx.com/en/articles/1311458-ireland-did-requirements)[Romania DID Requirements](https://support.telnyx.com/en/articles/3739552-romania-did-requirements)[Finland DID Requirements](https://support.telnyx.com/en/articles/5465874-finland-did-requirements)
-
-Did this answer your question?
-
-😞😐😃
