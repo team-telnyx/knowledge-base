@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-09-25T23:47:44Z
+updated_at: 2026-09-28T07:59:40Z
 ---
 
 # Telnyx Knowledge Base
@@ -346,3 +346,5 @@ updated_at: 2026-09-25T23:47:44Z
 - [Estonia DID Requirements](support-docs/articles/3506159-estonia-number-requirements.md) — Here you will find detailed requirements for acquiring numbers in Estonia. See Telnyx guidance and requirements.
 
 - [International Numbers - Required Documents](support-docs/articles/5469551-international-numbers-required-documents.md) — You can find country-specific information in our International DID Requirements support section or in your portal here.
+
+- [How to configure Yeastar P-series](support-docs/articles/13375115-how-to-configure-yeastar-p-series.md) — Learn how to configure both a Yeastar P-Series IP or Credentials trunk to work with your Telnyx Mission Control Portal. See Telnyx guidance and requirements.

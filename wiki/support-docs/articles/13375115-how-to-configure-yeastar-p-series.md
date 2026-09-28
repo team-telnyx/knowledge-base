@@ -1,18 +1,14 @@
 ---
-source_url: https://support.telnyx.com/en/articles/13375115-how-to-configure-yeastar-p-series
 title: "How to configure Yeastar P-series"
-description: "Learn how to configure both a Yeastar P-Series IP or Credentials trunk to work with your Telnyx Mission Control Portal. See Telnyx guidance and requirements."
-scraped: 2026-07-08
-content_hash: af2a018354537c54a32e0710a3f46fb83a387113c6fa805e28252acc97faa953
-updated_at: "2026-09-28T07:59:40Z"
-modified_at: "2026-09-28T07:59:40Z"
+summary: "Learn how to configure both a Yeastar P-Series IP or Credentials trunk to work with your Telnyx Mission Control Portal. See Telnyx guidance and requirements."
+sources:
+- url: "https://support.telnyx.com/en/articles/13375115-how-to-configure-yeastar-p-series"
+updated_at: 2026-09-28T07:59:40Z
+tags: [support-docs]
+source_path: "support-docs/en--articles--13375115-how-to-configure-yeastar-p-series.md"
+generated_by: incremental-support-docs-wiki
 ---
-
-
-
-
-
-
+<!-- generated_from=support-docs/en--articles--13375115-how-to-configure-yeastar-p-series.md -->
 
 # How to configure Yeastar P-series
 
