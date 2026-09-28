@@ -1,12 +1,14 @@
 ---
-source_url: "https://support.telnyx.com/en/articles/5469551-international-numbers-required-documents"
 title: "International Numbers - Required Documents"
-description: "Review country-specific documents, registration conditions, and local dialing requirements for ordering international Telnyx numbers."
-scraped: "2026-09-17"
-modified_at: "2026-09-17T14:02:59Z"
-collection_path: "2184183-important-to-note"
-content_hash: "84198b866a1cf70e5517c7739150a70cb65d08a73a170f88c23d690dcd5ffcd8"
+summary: "You can find country-specific information in our International DID Requirements support section or in your portal here."
+sources:
+- url: "https://support.telnyx.com/en/articles/5469551-international-numbers-required-documents"
+updated_at: 2026-09-17T00:00:00Z
+tags: [support-docs]
+source_path: "support-docs/en--articles--5469551-international-numbers-required-documents.md"
+generated_by: incremental-support-docs-wiki
 ---
+<!-- generated_from=support-docs/en--articles--5469551-international-numbers-required-documents.md -->
 
 # International Numbers - Required Documents
 

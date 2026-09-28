@@ -48,7 +48,7 @@ test("body links use canonical targets while retaining suffixes and third-party 
 });
 
 test("retired backlink IDs redirect directly to built replacements", async () => {
-  const replacements: Record<string,string> = {10087890:"6683438",5467053:"5469551",1189026:"8683996",1189027:"8683996",1272690:"8683996",1272784:"8683996",3264020:"8683996",3264037:"8683996",5510874:"6161111",6589599:"3679260",4230755:"96934"};
+  const replacements: Record<string,string> = {14489375:"5469551",10087890:"6683438",5467053:"5469551",1189026:"8683996",1189027:"8683996",1272690:"8683996",1272784:"8683996",3264020:"8683996",3264037:"8683996",5510874:"6161111",6589599:"3679260",4230755:"96934"};
   for (const [oldId,newId] of Object.entries(replacements)) {
     const target = registry[`article:${newId}`];
     expect(articles.some(a => `/en/articles/${a.slug}` === target)).toBe(true);

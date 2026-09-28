@@ -1,4 +1,5 @@
 export const consolidatedArticles: Record<string, string> = {
+  "14489375": "5469551", // Retired Turkey DID requirements → international required documents
   "10087890": "6683438", // UAE requirements → UAE SMS guidelines (approved replacement)
   "5467053": "5469551", // South Korea DID requirements → international required documents
   "1189026": "8683996", // Retired 3CX v14–v16 guides → current v20 guide
