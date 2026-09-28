@@ -2,26 +2,17 @@
 source_url: https://support.telnyx.com/en/articles/5170721-best-practices-for-contacting-support
 title: "Best Practices for Contacting Support"
 description: "Get 24/7 international support and learn how to report call, messaging, portal, See Telnyx guidance and requirements."
-scraped: 2026-07-08
-content_hash: d10dfb19d9294085fdd76700669dca618b30f2aa7fc08ba68c583619e8501f9b
+scraped: 2026-09-28
+content_hash: 5ec4d5f8e49e69c5cc3ed363275cffc5ce35c008f8c45b358466dfddb96daafe
+updated_at: 2026-08-06T10:58:37Z
+modified_at: 2026-08-06T10:58:37Z
 ---
-
-
-
-
-
-
 
 # Best Practices for Contacting Support
 
-Get 24/7 international support and learn how to report call, messaging, portal, See Telnyx guidance and requirements.
+# How to Contact Telnyx Network Operation Center
 
-
-
-
-## How to Contact Telnyx Network Operation Center
-
-**Chat:** click the "chat with us" link on the bottom of the left menu when signed into the Portal and the chat window will appear on the bottom right of the Mission Control Portal.
+**Chat:** click the "chat with us" link on the bottom of the left menu when signed into the Portal and the chat window will appear on the bottom right of the Mission Control Portal.  
 ​**Phone:** at +18889809750 or any of the international numbers listed below.
 
 **Ticket:** Email us at [support@telnyx.com](mailto:support@telnyx.com).
@@ -46,18 +37,18 @@ The best way to provide a call example is with a Call ID (SIP Call ID, Unique CD
 
 **SIP Connection Name & ID:** Name and ID of SIP Connection which can be found in the SIP Connection settings.
 
-**Direction**: Inbound or Outbound
-​**CLI**: Source number
-​**CLD**: Destination number
+**Direction**: Inbound or Outbound  
+​**CLI**: Source number  
+​**CLD**: Destination number  
 ​**Date+Time**: Including timezone
 
 ### Messaging Example:
 
-**Messaging Profile Name & ID:** Name and ID of the Messaging Profile which can be found in the messaging profiles settings.
-​**Direction:** Inbound / Outbound.
-​**From number / Alphanumeric Sender ID:** The senders number or name.
-​**To number:** The receivers number.
-​**Date Timestamp:** Including timezone.
+**Messaging Profile Name & ID:** Name and ID of the Messaging Profile which can be found in the messaging profiles settings.   
+​**Direction:** Inbound / Outbound.  
+​**From number / Alphanumeric Sender ID:** The senders number or name.  
+​**To number:** The receivers number.  
+​**Date Timestamp:** Including timezone.  
 ​**Error Code:** Found in the response but can be referenced [here](https://developers.telnyx.com/api/errors).
 
 Telnyx NOC can troubleshoot most call quality or messaging issues up to 72 hours since occurrence, however should an escalation with any carrier partners be required -examples within 48 hours is necessary.
@@ -68,13 +59,13 @@ If the issue is not reproducible, examples within 24 hours to continue any escal
 
 ## Reporting API Issues
 
-Unexpected API responses can be rather tricky to diagnose. The simplest way to report API issues is to send us as much of the following information as possible:
-​
-​**Issue:** The encountered issue in a few words, and the expected behavior from the endpoint(s).
-​**Endpoint(s):** The exact public URL endpoints you are sending requests to.
-​**Timestamp with timezone:** Preferably within the last 24 hours.
-​**Request:** The payload of the request you are sending.
-​**Response:** The payload of the response you are receiving from our API.
+Unexpected API responses can be rather tricky to diagnose. The simplest way to report API issues is to send us as much of the following information as possible:  
+​  
+​**Issue:** The encountered issue in a few words, and the expected behavior from the endpoint(s).  
+​**Endpoint(s):** The exact public URL endpoints you are sending requests to.  
+​**Timestamp with timezone:** Preferably within the last 24 hours.  
+​**Request:** The payload of the request you are sending.  
+​**Response:** The payload of the response you are receiving from our API.  
 ​**Can you replicate the issue:** Yes/No
 
 You can try the request [here](https://developers.telnyx.com). Additional information, such as explaining what function you were attempting to perform with your API request is also greatly appreciated. We require this information as API related issues are more complex than other products. The more information that’s provided, the easier we locate the root problem. Additionally, you are always welcome to reference [our error documentation](https://developers.telnyx.com/api/errors) to determine the source of the error you encountered.
@@ -97,18 +88,20 @@ For more information read our bug reports process [here](https://support.telnyx.
 
 If you have any other questions, please don’t hesitate to ask. The NOC can be reached by chat (by clicking the chat icon in the bottom right-hand side of the Portal), by email at [support@telnyx.com](mailto:support@telnyx.com), or by phone at:
 
-* Estonia: +3726991435
-* Finland: +358753255300
-* Ireland: +353818123457
-* Israel: +972772200092
-* Mexico: +525588974917
-* Netherlands: +31853018256
-* New Zealand: +6498844134
-* Philippines: +63322346319
-* Poland: +48221530079
-* Singapore: +6531594436
-* United Kingdom: +443301900175
-* United States & Canada: +18889809750
+- Australia: +611800951077 or +61285318680
+- Estonia: +3726991435
+- Finland: +358753255300
+- Greece: +302182190966
+- Ireland: +353818123457
+- Israel: +972772200092
+- Mexico: +525588974917
+- Netherlands: +31853018256
+- New Zealand: +6498844134
+- Philippines: +63322346319
+- Poland: +48221530079
+- Singapore: +6531594436
+- United Kingdom: +443301900175
+- United States & Canada: +18889809750 or +13129457420
 
 ---
 
@@ -124,18 +117,8 @@ There are other reasons where this can occur:
 
 ​**Recommendations**:
 
-* Add our email address to your contacts or safe senders list.
-* Avoid using spammy keywords or phrases in your email content.
-* Send emails from a reputable domain and IP address.
+- Add our email address to your contacts or safe senders list.
+- Avoid using spammy keywords or phrases in your email content.
+- Send emails from a reputable domain and IP address.
 
 We also do a daily review of emails that may have ended up in spam and push them to our ticketing system.
-
----
-
-Related Articles
-
-[SMS Long Code Deliverability Best Practices](https://support.telnyx.com/en/articles/1130617-sms-long-code-deliverability-best-practices)[Troubleshooting Call Completion](https://support.telnyx.com/en/articles/5025298-troubleshooting-call-completion)[Best Practices for Contacting Porting](https://support.telnyx.com/en/articles/5820338-best-practices-for-contacting-porting)[3CX: Configuring a 3CX V18 PBX](https://support.telnyx.com/en/articles/6161111-3cx-configuring-a-3cx-v18-pbx)[Mission Control Portal - AI Chat Support Assistant](https://support.telnyx.com/en/articles/8020222-mission-control-portal-ai-chat-support-assistant)
-
-Did this answer your question?
-
-😞😐😃

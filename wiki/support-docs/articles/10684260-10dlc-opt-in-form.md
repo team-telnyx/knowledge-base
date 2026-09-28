@@ -82,7 +82,7 @@ Below is an example of a properly configured opt-in form. Note:
 
 - Privacy Policy and Terms of Service links are included
 
-![Example 10DLC opt-in form](_images/8c04de6de5ae8ed1.png)
+![](_images/8c04de6de5ae8ed1.png)
 
 ## Use Case-Specific Additions
 
@@ -104,7 +104,7 @@ If donations will be solicited, add:
 
 ## Common Mistakes to Avoid
 
-| Mistake | Why It's Non-Compliant |
+| **Mistake** | **Why It's Non-Compliant** |
 | --- | --- |
 | Checkbox checked by default | Consent must be affirmative — the user must actively check the box |
 | Consent combined with T&C agreement | SMS consent must be standalone, not bundled with terms acceptance |
@@ -135,7 +135,7 @@ If you are using a non-digital opt-in method (verbal consent, paper form, or inb
 
 ## Related Articles
 
-- [10DLC Campaign Compliance Requirements](https://support.telnyx.com/en/articles/9940291-10dlc-campaign-compliance-requirements)
+[- 10DLC Campaign Compliance Requirements](https://support.telnyx.com/en/articles/9940291-10dlc-campaign-compliance-requirements)
 
 - [Guide to 10DLC Message Flow Field](https://support.telnyx.com/en/articles/10562019-guide-to-10dlc-message-flow-field)
 

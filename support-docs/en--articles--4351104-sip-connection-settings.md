@@ -2,24 +2,15 @@
 source_url: https://support.telnyx.com/en/articles/4351104-sip-connection-settings
 title: "SIP Connection: Settings"
 description: "This article explains the SIP Connection settings in the Mission Control Portal. See Telnyx guidance and requirements."
-scraped: 2026-07-08
-content_hash: 6c30a0c131a0db8cbbb8e7bf76f1406a64eda0934ed40ca6cd188e9e7da74460
+scraped: 2026-09-28
+content_hash: 4ae83be7d5bb8f9708465fc0a41743f5b6d949d08e46179db2d9d3303a485fc5
+updated_at: 2026-07-27T12:56:37Z
+modified_at: 2026-07-27T12:56:37Z
 ---
-
-
-
-
-
-
 
 # SIP Connection: Settings
 
-This article explains the SIP Connection settings in the Mission Control Portal. See Telnyx guidance and requirements.
-
-
-
-
-## Overview of SIP Connections
+# Overview of SIP Connections
 
 To access the settings of a connection, click the small edit icon on the far right of the desired connection at the [SIP Trunking section](https://portal.telnyx.com/#/voice/connections) under the Voice Suite in the Mission Control Portal.
 
@@ -31,11 +22,11 @@ As seen below, you can distinguish your SIP Connections by giving them unique na
 
 The basic settings have **five** different category's, each of which are described in detail below:
 
-* Authentication & Routing Configuration
-* Webhooks
-* AnchorSite®
-* Advanced Settings
-* RTCP Settings
+- Authentication & Routing Configuration
+- Webhooks
+- AnchorSite®
+- Advanced Settings
+- RTCP Settings
 
 ## Authentication & Routing Configuration
 
@@ -45,15 +36,15 @@ We offer three different authentication types to register your switch to ours. D
 
 If you are interested in the advanced authentication methods to further secure your traffic, we offer 3 options for IP Auth SIP Connections.
 
-* [Tech Prefix](https://support.telnyx.com/en/articles/2602782-ip-authentication-with-tech-prefix):
+- [Tech Prefix](https://support.telnyx.com/en/articles/2602782-ip-authentication-with-tech-prefix):
 
-  + A 4 digits prefix that needs to be appended to the destination number.
-* [Token](https://support.telnyx.com/en/articles/4860170-ip-authentication-with-x-telnyx-token):
+  - A 4 digits prefix that needs to be appended to the destination number.
+- [Token](https://support.telnyx.com/en/articles/4860170-ip-authentication-with-x-telnyx-token):
 
-  + A string that must be sent in a custom SIP header **<X-Telnyx-Token>** on the SIP INVITE message.
-* P Charge Info:
+  - A string that must be sent in a custom SIP header **&lt;X-Telnyx-Token&gt;** on the SIP INVITE message.
+- P Charge Info:
 
-  + A telephone number associated with this connection must be sent in the **P-Charge-Info** SIP header on the SIP INVITE message.
+  - A telephone number associated with this connection must be sent in the **P-Charge-Info** SIP header on the SIP INVITE message.
 
 ## Webhooks
 
@@ -63,11 +54,11 @@ The webhook settings allow you to send all connection events to a webhook of you
 
 There are 5 different events that can be sent:
 
-* Call Initiated
-* Call Answered
-* Call Bridged
-* Call Hangup
-* [Call Voicemail Completed](https://support.telnyx.com/en/articles/5989560-setting-up-telnyx-voicemail)
+- Call Initiated
+- Call Answered
+- Call Bridged
+- Call Hangup
+- [Call Voicemail Completed](https://support.telnyx.com/en/articles/5989560-setting-up-telnyx-voicemail)
 
 **NOTE**
 
@@ -83,7 +74,7 @@ There is another typical use case where you would want to set a webhook url on y
 
 **Important:** When setting a webhook url, it treats the call type as programmable and not SIP trunking. This is because we are delivering programmable webhook events of the call state. There is a limitation with this setup if you were just using it for notification purposes and not to actually programmatically control the call.
 
-* The audio of your calls may be anchored in a media server (anchorsite) further away than you intended because that region does not support programmable voice services yet. Example: Australia. In such circumstances, we recommend removing the webhook url from the SIP Connection settings in order to avoid this behaviour.
+- The audio of your calls may be anchored in a media server (anchorsite) further away than you intended because that region does not support programmable voice services yet. Example: Australia. In such circumstances, we recommend removing the webhook url from the SIP Connection settings in order to avoid this behaviour.
 
 ## Park Outbound Calls
 
@@ -108,25 +99,36 @@ The typical use case for enabling this feature on a SIP Connection with a webhoo
 
 Lastly, there are currently 3 webhook API Versions you can specify:
 
-* **API V1**
+- **API V1**
 
-  + This API is no longer recommended and less maintained as we move towards a richer feature set with it's V2 equivalent.
-* **API V2**
+  - This API is no longer recommended and less maintained as we move towards a richer feature set with it's V2 equivalent.
+- **API V2**
 
-  + This is to receive callback webhook events from our [Voice API](https://developers.telnyx.com/api-reference/call-commands/dial), is recommended and maintained.
-  + The callback content-type will be sent as JSON payloads over HTTP.
-* **TeXML**
+  - This is to receive callback webhook events from our [Voice API](https://developers.telnyx.com/api-reference/call-commands/dial), is recommended and maintained.
+  - The callback content-type will be sent as JSON payloads over HTTP.
+- **TeXML**
 
-  + When you set park outbound calls with [TeXML](https://developers.telnyx.com/docs/voice/programmable-voice/texml-fundamentals) as the API Version and make an outbound call, Telnyx will create a parked leg for your call and fetch the XML instructions that live on the webhook url you have specified so that TeXML takes over handling your calls.
-  + The callback content-type will be sent as **form-data** over HTTP.
+  - When you set park outbound calls with [TeXML](https://developers.telnyx.com/docs/voice/programmable-voice/texml-fundamentals) as the API Version and make an outbound call, Telnyx will create a parked leg for your call and fetch the XML instructions that live on the webhook url you have specified so that TeXML takes over handling your calls.
+  - The callback content-type will be sent as **form-data** over HTTP.
+
     ​
+
+#### **Emergency Calls and Park Outbound Calls**
+
+When Park Outbound Calls is enabled, calls to emergency numbers (such as `911` in the US) will **not** be parked, they will be routed through the emergency flow as normal, ensuring critical calls always connect.  
+  
+Calls to non-emergency special numbers (such as `711` relay services) **will** be parked, since they are not classified as emergency events.   
+The call will remain parked until your Voice API application issues a command, just like any other parked call.  
+  
+This behavior is country-scoped: a destination is only treated as an emergency number if it matches an emergency rule for the caller's own country.   
+For example, a call to `5555` from a US caller will be parked, even if `5555` falls within a special-number range in another country's rules.
 
 ## AnchorSite®
 
 The **AnchorSite®** settings allows the user to select the media server in which their calls are anchored. In most cases, the closer the server is to the user geographically, the better the latency. This setting defaults to **Latency** if not modified.
 
-When the [AnchorSite®](https://support.telnyx.com/en/articles/5271423-guide-to-sip-anchorsite-settings) is set to Latency, we will proactively monitor the latency from your endpoints to our points of presence (PoP) to determine where your media should be anchored in order to ensure your packets get off the internet as fast as possible.
-​
+When the [AnchorSite®](https://support.telnyx.com/en/articles/5271423-guide-to-sip-anchorsite-settings) is set to Latency, we will proactively monitor the latency from your endpoints to our points of presence (PoP) to determine where your media should be anchored in order to ensure your packets get off the internet as fast as possible.   
+​  
 Please note, there are limitations to selecting latency depending on the authentication type of your SIP Connection, whereby your calls may be anchored on a media server further away if we are unable to identify the latency between our media servers and the IP's associated with the SIP Connection, through ICMP requests from our network. Please make sure you whitelist our [media IP addresses](https://sip.telnyx.com/#media) on your firewall as these will be used to check latency.
 
 For credential based SIP Connections, please make sure to include the SIP Connections **username** in the contact header in your **first** SIP INVITE. This will allow our SIP Proxy to identify the settings associated with your SIP Connection and ensure the anchorsite selected is chosen. Again, if the username is not included in the first SIP INVITE attempt, there is no way for us to identify your SIP Connection in order to guarantee **AnchorSite®**.
@@ -143,9 +145,9 @@ This setting will encode the SIP contact header sent by Telnyx to avoid issues w
 
 The [DTMF](https://telnyx.com/products/sip-trunks) Type setting allows the user to specify the type of DTMF to be used on the call. There are three different options:
 
-* RFC 2833
-* Inband
-* SIP Info
+- RFC 2833
+- Inband
+- SIP Info
 
 #### RFC 2833 (Recommended)
 
@@ -184,13 +186,3 @@ The report frequency specifies the interval in seconds between sending RTCP pack
 This setting defaults to **RTCP+1**. The other option, **RTCP mux**, is multiplexing both the RTP and RTCP through a single UDP port. One of the reasons why RTCP mux is used is for simplifying NAT traversal since only a single port is used for media and control messages.
 
 ![](_images/63f4d88ab39622f6.png)
-
----
-
-Related Articles
-
-[SIP Connection: Number Formats](https://support.telnyx.com/en/articles/1130706-sip-connection-number-formats)[SIP Connection: Types](https://support.telnyx.com/en/articles/4245868-sip-connection-types)[Telnyx Debugging Tools](https://support.telnyx.com/en/articles/4304872-telnyx-debugging-tools)[Configuring Call Control/TeXML Applications - Voice API](https://support.telnyx.com/en/articles/4374050-configuring-call-control-texml-applications-voice-api)[Guide to SIP AnchorSite® Settings](https://support.telnyx.com/en/articles/5271423-guide-to-sip-anchorsite-settings)
-
-Did this answer your question?
-
-😞😐😃

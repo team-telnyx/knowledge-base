@@ -2,33 +2,24 @@
 source_url: https://support.telnyx.com/en/articles/5464149-denmark-did-requirements
 title: "Denmark DID Requirements"
 description: "Here you will find a list of detailed requirements for acquiring Denmark numbers. See Telnyx guidance and requirements."
-scraped: 2026-07-08
-content_hash: fe1abfcd693d699d594bfc530a9eece16b395e0996bae1928439811589568029
+scraped: 2026-09-28
+content_hash: 9dc8953230eaa1663658cdc72f7aa00d66af4d4b4d576ed32a408a0ff2c77514
+updated_at: 2026-08-17T18:15:03Z
+modified_at: 2026-08-17T18:15:03Z
 ---
-
-
-
-
-
-
 
 # Denmark DID Requirements
 
-Here you will find a list of detailed requirements for acquiring Denmark numbers. See Telnyx guidance and requirements.
-
-
-
-
-## DID Number Requirements for Denmark
+# DID Number Requirements for Denmark
 
 In order to purchase a Denmark number you will need to provide the following:
 
 ## Mandatory Use of Requirement Groups: Denmark
 
-Starting **September 16, 2024**, **Requirement Groups** will be mandatory for ordering phone numbers in **Denmark (DK).**
+Starting **September 16, 2024**, **Requirement Groups** will be mandatory for ordering phone numbers in **Denmark (DK).**  
 ​
 
-Requirement Groups let you manage regulatory requirements by pre-filling necessary information once, allowing for reuse across multiple orders. This change aims to streamline compliance.
+Requirement Groups let you manage regulatory requirements by pre-filling necessary information once, allowing for reuse across multiple orders. This change aims to streamline compliance.  
 ​
 
 For full details on setting up Requirement Groups, please refer to the [guide here](https://support.telnyx.com/en/articles/9801714-requirement-groups-for-ordering-phone-numbers).
@@ -45,9 +36,9 @@ For **business identity** verification:
 
 \* Company Name
 
-\* Business registration certificate
+\* Local Business registration certificate
 
-\* Business Registration Number
+\* Local Business Registration Number
 
 For **address** verification:
 
@@ -85,20 +76,26 @@ Service usage description
 
 ## **Toll-Free Numbers in Denmark**
 
-For **personal identity** verification:
-\* Name, last name
-\* Contact phone number
+For **personal identity** verification:  
+\* Name, last name  
+\* Contact phone number  
 ​
 
-For **business identity** verification:
+For **business identity** verification:  
 \* Name, last name of an authorized representative
 
-\* Company name
-\* Contact phone number
+\* Company name  
+\* Contact phone number  
 ​
 
-For **address** verification:
+For **address** verification:  
 \* Address worldwide (street, building number, postal code, city and country)
+
+## **Identity Verification: What "Local" Means**
+
+For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.  
+​  
+All identification is subject to review, and we reserve the right to request additional documentation or decline any document we cannot verify or that does not meet applicable legal and regulatory requirements.
 
 ## **Helpful for acquiring Denmark DIDs**
 
@@ -116,29 +113,19 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 
 ## **Benefits of Denmark DIDs**
 
-* Potential customers in Denmark are [400% more likely to answer calls from local numbers](https://gtmnow.com/5-ways-to-get-your-prospects-to-pick-up-their-phones/)
-* Improve call routing where individual DIDs can be assigned to specific business functions
-* Denmark DIDs are scalable and grow as your business grows
-* Enhanced privacy for individuals, you keep your personal number personal
-* Advanced call tracking and analytical capabilities to measure volume, duration and more
+- Potential customers in Denmark are [400% more likely to answer calls from local numbers](https://gtmnow.com/5-ways-to-get-your-prospects-to-pick-up-their-phones/)
+- Improve call routing where individual DIDs can be assigned to specific business functions
+- Denmark DIDs are scalable and grow as your business grows
+- Enhanced privacy for individuals, you keep your personal number personal
+- Advanced call tracking and analytical capabilities to measure volume, duration and more
 
 **Additional resources for Denmark DIDs**
 
-* Product Info: [Global DID Numbers](https://telnyx.com/products/phone-numbers)
-* Pricing Info: [Number Pricing](https://telnyx.com/pricing/numbers)
-* Number Coverage: [Number Feature Availability by Country](https://telnyx.com/global-coverage)
-* Blog: [What is direct inward dialing](https://telnyx.com/resources/what-is-direct-inward-dialing)
-* Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
+- Product Info: [Global DID Numbers](https://telnyx.com/products/phone-numbers)
+- Pricing Info: [Number Pricing](https://telnyx.com/pricing/numbers)
+- Number Coverage: [Number Feature Availability by Country](https://telnyx.com/global-coverage)
+- Blog: [What is direct inward dialing](https://telnyx.com/resources/what-is-direct-inward-dialing)
+- Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
-Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
+Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)  
 ​
-
----
-
-Related Articles
-
-[Bulgaria DID Requirements](https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements)[Finland DID Requirements](https://support.telnyx.com/en/articles/5465874-finland-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Mexico DID Requirements](https://support.telnyx.com/en/articles/5466793-mexico-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

@@ -2,33 +2,24 @@
 source_url: https://support.telnyx.com/en/articles/3739580-switzerland-did-requirements
 title: "Switzerland DID Requirements"
 description: "Here you will find a detailed list off requirements for acquiring Switzerland numbers. See Telnyx guidance and requirements."
-scraped: 2026-07-08
-content_hash: 3a6afe507201db915d9453ac9b2afab031e2b8732280591e5b3a6a1df5403fbb
+scraped: 2026-09-28
+content_hash: c6077ee757452336e85e0060a9f3b6419e5a9e871af71fe4093f6ada263b7a0a
+updated_at: 2026-08-17T18:14:24Z
+modified_at: 2026-08-17T18:14:24Z
 ---
-
-
-
-
-
-
 
 # Switzerland DID Requirements
 
-Here you will find a detailed list off requirements for acquiring Switzerland numbers. See Telnyx guidance and requirements.
-
-
-
-
-## DID Number Requirements for Switzerland
+# DID Number Requirements for Switzerland
 
 In order to purchase a Switzerland number you will need to provide the following:
 
 ## Mandatory Use of Requirement Groups: Switzerland
 
-Starting **September 16, 2024**, **Requirement Groups** will be mandatory for ordering phone numbers in **Switzerland (CH).**
+Starting **September 16, 2024**, **Requirement Groups** will be mandatory for ordering phone numbers in **Switzerland (CH).**  
 ​
 
-Requirement Groups let you manage regulatory requirements by pre-filling necessary information once, allowing for reuse across multiple orders. This change aims to streamline compliance.
+Requirement Groups let you manage regulatory requirements by pre-filling necessary information once, allowing for reuse across multiple orders. This change aims to streamline compliance.  
 ​
 
 For full details on setting up Requirement Groups, please refer to the [guide here](https://support.telnyx.com/en/articles/9801714-requirement-groups-for-ordering-phone-numbers).
@@ -47,9 +38,9 @@ For **business identity** verification:
 
 \* Passport or ID copy of an authorized representative
 
-\* Business registration certificate
+\* Local Business registration certificate
 
-\* Business Registration Number
+\* Local Business Registration Number
 
 For **address** verification:
 
@@ -69,20 +60,26 @@ For **business identity** verification:
 
 \* Contact phone number
 
-\* Company name
+\* Company name  
 \* VAT number
 
 \* Company registration certificate (dated within 3 months)
 
 For **address** verification:
 
-\* Address worldwide (street, building number, postal code, city and country)
-​
+\* Address worldwide (street, building number, postal code, city and country)  
+​  
 Additional details:
 
 \*Business use required: Business use is required, private use is not allowed.
 
 \*\*\*Please note that once the documentation is received it will take approximately 72 hours to validate the information and activate the number for use.
+
+## **Identity Verification: What "Local" Means**
+
+For most orders, your proof of identity must be issued by the country in which you are making your purchase. As an exception, customers within the European Union may use a valid passport or national identity card from any EU member state, even if it differs from the EU country associated with the order; in these cases, the document will be treated as local.  
+​  
+All identification is subject to review, and we reserve the right to request additional documentation or decline any document we cannot verify or that does not meet applicable legal and regulatory requirements.
 
 ## **Helpful for acquiring Switzerland DIDs**
 
@@ -100,28 +97,18 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 
 ## **Benefits of Switzerland DIDs**
 
-* Potential customers in Switzerland are [400% more likely to answer calls from local numbers](https://gtmnow.com/5-ways-to-get-your-prospects-to-pick-up-their-phones/)
-* Improve call routing where individual DIDs can be assigned to specific business functions
-* Switzerland DIDs are scalable and grow as your business grows
-* Enhanced privacy for individuals, you keep your personal number personal
-* Advanced call tracking and analytical capabilities to measure volume, duration and more
+- Potential customers in Switzerland are [400% more likely to answer calls from local numbers](https://gtmnow.com/5-ways-to-get-your-prospects-to-pick-up-their-phones/)
+- Improve call routing where individual DIDs can be assigned to specific business functions
+- Switzerland DIDs are scalable and grow as your business grows
+- Enhanced privacy for individuals, you keep your personal number personal
+- Advanced call tracking and analytical capabilities to measure volume, duration and more
 
 **Additional resources for Switzerland DIDs**
 
-* Product Info: [Global DID Numbers](https://telnyx.com/products/phone-numbers)
-* Pricing Info: [Number Pricing](https://telnyx.com/pricing/numbers)
-* Number Coverage: [Number Feature Availability by Country](https://telnyx.com/global-coverage)
-* Blog: [What is direct inward dialing](https://telnyx.com/resources/what-is-direct-inward-dialing)
-* Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
+- Product Info: [Global DID Numbers](https://telnyx.com/products/phone-numbers)
+- Pricing Info: [Number Pricing](https://telnyx.com/pricing/numbers)
+- Number Coverage: [Number Feature Availability by Country](https://telnyx.com/global-coverage)
+- Blog: [What is direct inward dialing](https://telnyx.com/resources/what-is-direct-inward-dialing)
+- Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Finland DID Requirements](https://support.telnyx.com/en/articles/5465874-finland-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Kenya DID Requirements](https://support.telnyx.com/en/articles/5466736-kenya-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)[Portugal DID Requirements](https://support.telnyx.com/en/articles/5466980-portugal-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

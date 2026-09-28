@@ -2,36 +2,27 @@
 source_url: https://support.telnyx.com/en/articles/3266652-chile-number-porting
 title: "Chile Number Porting"
 description: "Here you will find detailed requirements for Chile number portability. See Telnyx guidance and requirements."
-scraped: 2026-07-08
-content_hash: e3b80d00ff58011950cdf5f8a6d4df1aab1b762cc34048b3695bb22434387b8d
+scraped: 2026-09-28
+content_hash: fe31b96cede7b3fe6d5f65cf5caa2cc8d2c9e094fa962acd684117f62b966327
+updated_at: 2026-08-19T14:07:20Z
+modified_at: 2026-08-19T14:07:20Z
 ---
-
-
-
-
-
-
 
 # Chile Number Porting
 
-Here you will find detailed requirements for Chile number portability. See Telnyx guidance and requirements.
+# Local / Toll-Free Numbers in Chile
 
-
-
-
-## Local / Toll-Free Numbers in Chile
-
-* E-RUT
-* LOA or POA
-* Latest Invoice
-* CHILE - Power of Attorney
-* CHILE - Certificate of Incorporation
-* RUT of the individual requesting portability
-* Proof of Payment (National carrier invoice, no resellers.)
+- E-RUT
+- LOA or POA
+- Latest Invoice
+- CHILE - Power of Attorney
+- CHILE - Certificate of Incorporation
+- RUT of the individual requesting portability
+- Proof of Payment (National carrier invoice, no resellers.)
 
 ## Download the Chile letter of authorization
 
-Please reach out to [porting.intl@telnyx.com](mailto:porting.intl@telnyx.com) for the template document.
+You can download the LOA template here: [Chile LOA.pdf](/downloads/15be679cf7609aeb-Chile-LOA.pdf)
 
 ## Porting Hours
 
@@ -47,13 +38,3 @@ Please reach out to [porting.intl@telnyx.com](mailto:porting.intl@telnyx.com) fo
 | Toll-Free | 5+ Business days |
 
 **Note:** These are typical processing times. Actual times may vary based on the losing carrier.
-
----
-
-Related Articles
-
-[Australia Number Porting](https://support.telnyx.com/en/articles/3266212-australia-number-porting)[Mexico Number Porting](https://support.telnyx.com/en/articles/3267101-mexico-number-porting)[New Zealand Number Porting](https://support.telnyx.com/en/articles/3267206-new-zealand-number-porting)[Estonia Number Porting](https://support.telnyx.com/en/articles/5720521-estonia-number-porting)[Singapore Number Porting](https://support.telnyx.com/en/articles/7235002-singapore-number-porting)
-
-Did this answer your question?
-
-😞😐😃

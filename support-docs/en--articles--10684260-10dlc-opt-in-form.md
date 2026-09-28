@@ -5,7 +5,7 @@ description: "Learn how to format a 10DLC opt-in form with explicit SMS consent,
 scraped: 2026-09-28
 updated_at: 2026-07-22T15:29:19Z
 modified_at: 2026-07-22T15:29:19Z
-content_hash: 32ce6a1725f34027561ff568415e7fa88ed96fa8180466056fc21a0f93733f52
+content_hash: 1ee3bfb3fd419814fe715eb3e21bbdd9c81db64b167fcfe6af73555e3cb62708
 ---
 
 # 10DLC Opt in Form
@@ -80,7 +80,7 @@ Below is an example of a properly configured opt-in form. Note:
 
 - Privacy Policy and Terms of Service links are included
 
-![Example 10DLC opt-in form](_images/8c04de6de5ae8ed1.png)
+![](_images/8c04de6de5ae8ed1.png)
 
 ## Use Case-Specific Additions
 
@@ -102,7 +102,7 @@ If donations will be solicited, add:
 
 ## Common Mistakes to Avoid
 
-| Mistake | Why It's Non-Compliant |
+| **Mistake** | **Why It's Non-Compliant** |
 | --- | --- |
 | Checkbox checked by default | Consent must be affirmative — the user must actively check the box |
 | Consent combined with T&C agreement | SMS consent must be standalone, not bundled with terms acceptance |
@@ -133,7 +133,7 @@ If you are using a non-digital opt-in method (verbal consent, paper form, or inb
 
 ## Related Articles
 
-- [10DLC Campaign Compliance Requirements](https://support.telnyx.com/en/articles/9940291-10dlc-campaign-compliance-requirements)
+[- 10DLC Campaign Compliance Requirements](https://support.telnyx.com/en/articles/9940291-10dlc-campaign-compliance-requirements)
 
 - [Guide to 10DLC Message Flow Field](https://support.telnyx.com/en/articles/10562019-guide-to-10dlc-message-flow-field)
 
