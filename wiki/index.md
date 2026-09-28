@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-09-25T23:47:44Z
+updated_at: 2026-09-28T17:05:40Z
 ---
 
 # Telnyx Knowledge Base
@@ -346,3 +346,5 @@ updated_at: 2026-09-25T23:47:44Z
 - [Estonia DID Requirements](support-docs/articles/3506159-estonia-number-requirements.md) — Here you will find detailed requirements for acquiring numbers in Estonia. See Telnyx guidance and requirements.
 
 - [International Numbers - Required Documents](support-docs/articles/5469551-international-numbers-required-documents.md) — You can find country-specific information in our International DID Requirements support section or in your portal here.
+
+- [10DLC Opt in Form](support-docs/articles/10684260-10dlc-opt-in-form.md) — If you are using a digital web form for your 10DLC opt-in, it must meet specific compliance requirements to ensure subscribers give clear, explicit consent to receive SMS messages from your brand.

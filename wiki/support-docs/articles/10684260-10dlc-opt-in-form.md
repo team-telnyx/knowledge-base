@@ -1,12 +1,14 @@
 ---
-source_url: https://support.telnyx.com/en/articles/10684260-10dlc-opt-in-form
 title: "10DLC Opt in Form"
-description: "Learn how to format a 10DLC opt-in form with explicit SMS consent, required disclosures, policy links, and a working submission process."
-scraped: 2026-09-28
+summary: "If you are using a digital web form for your 10DLC opt-in, it must meet specific compliance requirements to ensure subscribers give clear, explicit consent to receive SMS messages from your brand."
+sources:
+- url: "https://support.telnyx.com/en/articles/10684260-10dlc-opt-in-form"
 updated_at: 2026-07-22T15:29:19Z
-modified_at: 2026-07-22T15:29:19Z
-content_hash: 32ce6a1725f34027561ff568415e7fa88ed96fa8180466056fc21a0f93733f52
+tags: [support-docs]
+source_path: "support-docs/en--articles--10684260-10dlc-opt-in-form.md"
+generated_by: incremental-support-docs-wiki
 ---
+<!-- generated_from=support-docs/en--articles--10684260-10dlc-opt-in-form.md -->
 
 # 10DLC Opt in Form
 
