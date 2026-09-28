@@ -3,7 +3,7 @@ title: "Connect Telnyx to Zoom Phone with Provider Exchange"
 summary: "Use Zoom Provider Exchange to connect your Telnyx account to Zoom Phone, associate Telnyx phone numbers with the integration, and assign those numbers to Zoom users. This guide also explains how to unassign numbers and remove the integration."
 sources:
 - url: "https://support.telnyx.com/en/articles/2026092801-connect-telnyx-to-zoom-phone-with-provider-exchange"
-updated_at: 2026-09-28T17:05:25Z
+updated_at: 2026-09-28T17:46:20Z
 tags: [support-docs]
 source_path: "support-docs/en--articles--2026092801-connect-telnyx-to-zoom-phone-with-provider-exchange.md"
 generated_by: incremental-support-docs-wiki
@@ -29,20 +29,30 @@ You can manage the integration from [External Voice Integration in the Telnyx po
 
 1. [Sign in to Zoom](https://zoom.us/signin).
 2. Go to **Phone System Management > Provider Exchange**.
+
+   ![Provider Exchange in the Zoom Phone System Management menu](_images/zoom-provider-exchange-menu.png)
+
 3. Search for **Telnyx** in the provider list.
+
+   ![Telnyx in the Zoom Provider Exchange provider list](_images/zoom-telnyx-provider.png)
+
 4. Select **Connect**. Zoom redirects you to the Telnyx portal.
-
-![Provider Exchange in the Zoom Phone System Management menu](_images/zoom-provider-exchange-menu.png)
-
-![Telnyx in the Zoom Provider Exchange provider list](_images/zoom-telnyx-provider.png)
 
 If your Zoom account is already connected to Telnyx, the provider status displays **Connected** with a green checkmark.
 
 ## 2. Sign in to Telnyx
 
-Sign in to your existing Telnyx account. If you do not have an account, complete the **Create a free account** form.
+Choose the option that matches your account.
+
+### Create a new Telnyx account
+
+Complete the **Create a free account** form with your account details.
 
 ![Create a Telnyx account](_images/zoom-telnyx-signup.png)
+
+### Use an existing Telnyx account
+
+Sign in to your existing Telnyx account using the available sign-in options.
 
 ![Sign in to an existing Telnyx account](_images/zoom-telnyx-login.png)
 
@@ -51,18 +61,21 @@ After signing in, you are redirected to the **External Voice Integration** scree
 ## 3. Create and authorize the integration
 
 1. Select **Create Integration** in the Telnyx portal. You are redirected to Zoom.
+
+   ![Create Integration on the Telnyx Zoom Provider Exchange screen](_images/zoom-create-integration.png)
+
 2. Sign in to Zoom if prompted.
 3. Review the authorization request and allow the Telnyx app to access your Zoom account.
+
+   ![Zoom authorization request for the Telnyx app](_images/zoom-authorize-telnyx.png)
+
 4. After Zoom redirects you back to Telnyx, select an **Outbound Voice Profile** from the list.
+
+   ![Select an Outbound Voice Profile when creating the Zoom integration](_images/zoom-select-outbound-voice-profile.png)
+
 5. Select **Create**.
 
-![Create Integration on the Telnyx Zoom Provider Exchange screen](_images/zoom-create-integration.png)
-
-![Zoom authorization request for the Telnyx app](_images/zoom-authorize-telnyx.png)
-
 Selecting an Outbound Voice Profile is required. Explicitly select the default profile or another profile you have created. See [More About Outbound Voice Profiles](https://support.telnyx.com/en/articles/4320411-more-about-outbound-voice-profiles) for configuration details.
-
-![Select an Outbound Voice Profile when creating the Zoom integration](_images/zoom-select-outbound-voice-profile.png)
 
 Zoom normally presents the authorization request once, unless you revoke the app's authorization in Zoom.
 
@@ -74,17 +87,17 @@ You can associate existing numbers or purchase new ones.
 
 1. Open the Zoom integration's **Numbers** tab in the Telnyx portal.
 2. Select **Add Numbers**.
-3. Search for and select the numbers you want to associate.
-4. Confirm the association.
+3. Search for the numbers you want to associate. Only numbers that are not already assigned to a SIP Connection are available.
+
+   ![Available Telnyx numbers and Buy Numbers option](_images/zoom-available-numbers.png)
+
+4. Select the numbers, then choose **Associate Numbers** to confirm the association.
+
+   ![Select a Telnyx number and confirm its association](_images/zoom-associate-selected-number.png)
+
 5. Verify that the numbers appear in the integration's number list with an **Active** status.
 
-![Available Telnyx numbers and Buy Numbers option](_images/zoom-available-numbers.png)
-
-![Select a Telnyx number and confirm its association](_images/zoom-associate-selected-number.png)
-
-![Numbers associated with the Zoom integration and their status](_images/zoom-active-numbers.png)
-
-Only numbers that are not already assigned to a SIP Connection are available for selection.
+   ![Numbers associated with the Zoom integration and their status](_images/zoom-active-numbers.png)
 
 ### Buy new numbers
 
@@ -97,19 +110,22 @@ See [Search and Buy Numbers](https://support.telnyx.com/en/articles/4380325-sear
 Associating a number with the Telnyx integration makes it available in Zoom. You must also assign it to a Zoom user.
 
 1. In the Zoom portal, go to **Phone System Management > Phone Numbers**.
+
+   ![Phone Numbers in Zoom Phone System Management](_images/zoom-phone-numbers-menu.png)
+
 2. Select the **Unassigned** tab.
 3. Find the Telnyx number you associated with the integration.
+
+   ![Unassigned numbers available in Zoom](_images/zoom-unassigned-numbers.png)
+
 4. Select **Assign To**.
+
+   ![Assign a number to a Zoom user](_images/zoom-assign-number.png)
+
 5. Select the user and choose **OK**.
 6. Verify that the number and user appear in the **Assigned** tab.
 
-![Phone Numbers in Zoom Phone System Management](_images/zoom-phone-numbers-menu.png)
-
-![Unassigned numbers available in Zoom](_images/zoom-unassigned-numbers.png)
-
-![Assign a number to a Zoom user](_images/zoom-assign-number.png)
-
-![Assigned numbers in Zoom](_images/zoom-assigned-numbers.png)
+   ![Assigned numbers in Zoom](_images/zoom-assigned-numbers.png)
 
 ## Unassign a number from a Zoom user
 
@@ -117,12 +133,15 @@ Unassign the number in Zoom before removing it from the Telnyx integration.
 
 1. In the Zoom portal, go to **Phone System Management > Phone Numbers**.
 2. Open the **Assigned** tab and select the Telnyx number.
-3. Select **Unbind** and confirm.
-4. Verify that the number no longer appears in the assigned-number list.
 
-![Number details with the Unbind action](_images/zoom-number-details-unbind.png)
+   ![Number details with the Unbind action](_images/zoom-number-details-unbind.png)
 
-![Confirm unbinding a number in Zoom](_images/zoom-confirm-unbind.png)
+3. Select **Unbind** to open the confirmation dialog.
+
+   ![Confirm unbinding a number in Zoom](_images/zoom-confirm-unbind.png)
+
+4. Confirm by selecting **Unbind**.
+5. Verify that the number no longer appears in the assigned-number list.
 
 ## Remove a number or the integration
 
@@ -140,12 +159,15 @@ Complete the following actions in order when removing the entire integration:
 2. In the Telnyx portal, open **External Voice Integration**.
 3. For the Zoom integration, select **Actions > Edit Integration**.
 4. Open the **Numbers** tab.
-5. Select the bin icon next to the number and confirm removal.
-6. Verify that the number no longer appears in the integration's number list.
 
-![Integration Numbers tab with number removal controls](_images/zoom-integration-numbers-remove.png)
+   ![Integration Numbers tab with number removal controls](_images/zoom-integration-numbers-remove.png)
 
-![Confirm removing a number from the integration](_images/zoom-confirm-number-removal.png)
+5. Select the bin icon next to the number to open the removal confirmation.
+
+   ![Confirm removing a number from the integration](_images/zoom-confirm-number-removal.png)
+
+6. Select **Continue** to confirm removal.
+7. Verify that the number no longer appears in the integration's number list.
 
 **Removing a number from the integration does not delete it from your Telnyx account.** You can reuse it for another purpose or add it back to the Zoom integration. See [My Numbers Page](https://support.telnyx.com/en/articles/4349113-my-numbers-page) for number-management details.
 
@@ -156,9 +178,10 @@ You can disable the integration only after removing all associated numbers.
 1. Open **External Voice Integration** in the Telnyx portal.
 2. Select **Actions > Edit Integration** for the Zoom integration.
 3. Open the **Settings** tab.
-4. Turn off **Enable Connection** and save the change.
 
-![Integration Settings tab with Enable Connection control](_images/zoom-disable-integration.png)
+   ![Integration Settings tab with Enable Connection control](_images/zoom-disable-integration.png)
+
+4. Turn off **Enable Connection** and save the change.
 
 ### Delete the Zoom integration
 
@@ -166,8 +189,9 @@ You can delete the integration only after disabling it.
 
 1. Return to **External Voice Integration**.
 2. For the Zoom integration, select **Actions > Remove Integration**.
-3. Confirm the removal by selecting **Delete**.
 
-![Confirmation dialog for removing the Zoom integration](_images/zoom-remove-integration.png)
+   ![Confirmation dialog for removing the Zoom integration](_images/zoom-remove-integration.png)
+
+3. Confirm the removal by selecting **Delete**.
 
 The Zoom External Voice Integration is removed from your Telnyx account.
