@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-09-25T23:47:44Z
+updated_at: 2026-09-28T16:52:44Z
 ---
 
 # Telnyx Knowledge Base
@@ -346,3 +346,5 @@ updated_at: 2026-09-25T23:47:44Z
 - [Estonia DID Requirements](support-docs/articles/3506159-estonia-number-requirements.md) — Here you will find detailed requirements for acquiring numbers in Estonia. See Telnyx guidance and requirements.
 
 - [International Numbers - Required Documents](support-docs/articles/5469551-international-numbers-required-documents.md) — You can find country-specific information in our International DID Requirements support section or in your portal here.
+
+- [Connect Telnyx to Zoom Phone with Provider Exchange](support-docs/articles/2026092801-connect-telnyx-to-zoom-phone-with-provider-exchange.md) — Use Zoom Provider Exchange to connect your Telnyx account to Zoom Phone, associate Telnyx phone numbers with the integration, and assign those numbers to Zoom users. This guide also explains how to unassign numbers and remove the integration.
