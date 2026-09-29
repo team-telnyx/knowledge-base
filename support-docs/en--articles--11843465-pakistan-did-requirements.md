@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/11843465-pakistan-did-require
 title: "Pakistan DID Requirements"
 description: "Here you will find a list of detailed requirements for acquiring Pakistan numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 3489dbcc3691cc598c87698e39bf3d6a624d342713b1a6d2580b0a2b1b990181
+content_hash: 142804c174ded405d792342caafb273ffeee4c125f3dbeb0b1aa709c7a85478c
 ---
 
 
@@ -59,13 +59,3 @@ For **personal identity** verification:
 For **business identity** verification:
 
 \* Recently Signed LOI (Signed within 1 month - Provided by Telnyx - [LOI Template.docx](/downloads/32d6f475463ea47a-LOI-Template.docx))
-
----
-
-Related Articles
-
-[Uzbekistan DID Requirements](https://support.telnyx.com/en/articles/11128583-uzbekistan-did-requirements)[Honduras DID Requirements](https://support.telnyx.com/en/articles/11843360-honduras-did-requirements)[Mozambique DID Requirements](https://support.telnyx.com/en/articles/11843417-mozambique-did-requirements)[Oman DID Requirements](https://support.telnyx.com/en/articles/14138528-oman-did-requirements)[Kazakhstan DID Requirements](https://support.telnyx.com/en/articles/14306123-kazakhstan-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

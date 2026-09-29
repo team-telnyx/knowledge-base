@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/2239449-google-vpc-telnyx-int
 title: "Google VPC: Telnyx Integration"
 description: "This document will provide instructions and guidelines for integrating a Google Cloud environment with the Telnyx… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 06a3f62e21d1f7d27d2e259f7c25cfd81c0ef2f0a77a625b6897187f47877e68
+content_hash: d82346a3940a5b118f84210ef9225b0fbd35cc106ac153efb284b07a7aa192bf
 ---
 
 
@@ -153,13 +153,3 @@ Additionally, see:
 
 * [Google VPC documentation](https://cloud.google.com/vpc#section-4)
 * [VLAN attachments documentation](https://cloud.google.com/network-connectivity/docs/interconnect/how-to/partner/creating-vlan-attachments)
-
----
-
-Related Articles
-
-[AWS: Virtual Cross Connect Setup](https://support.telnyx.com/en/articles/1371411-aws-virtual-cross-connect-setup)[Azure: Virtual Cross Connect](https://support.telnyx.com/en/articles/2239446-azure-virtual-cross-connect)[Use NetDrive3 with Telnyx Storage](https://support.telnyx.com/en/articles/8048024-use-netdrive3-with-telnyx-storage)[Intro to Telnyx Edge Router](https://support.telnyx.com/en/articles/8126141-intro-to-telnyx-edge-router)[BYOC: Telnyx & Genesys](https://support.telnyx.com/en/articles/8268122-byoc-telnyx-genesys)
-
-Did this answer your question?
-
-😞😐😃

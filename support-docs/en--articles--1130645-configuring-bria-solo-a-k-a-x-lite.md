@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130645-configuring-bria-solo
 title: "Configuring Bria Solo (a.k.a X-Lite)"
 description: "Learn how to configure Bria Solo/X-Lite to work with your Telnyx Mission Control… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: fa6daeb0e29e4a03f5e666132b4b136793898faeec6d2b456d6dfab8f5c4b7b2
+content_hash: 3c18a14d3d9cf8c872de538db32d552542d8452a4d77b1e9d1b9838e06241888
 ---
 
 
@@ -99,13 +99,3 @@ Additionally you can check out:
 
 * Counterpath's [help section](https://www.counterpath.com/x-lite/) for extra support with Bria Solo.
 * Counterpath's [support](https://support.counterpath.com/hc/en-us/categories/360002425273-Bria-Solo) for Bria Solo/X-Lite
-
----
-
-Related Articles
-
-[Configuring Linphone with Telnyx](https://support.telnyx.com/en/articles/1130674-configuring-linphone-with-telnyx)[NCH Express Talk](https://support.telnyx.com/en/articles/5807457-nch-express-talk)[Grandstream Wave Lite (iPhone)](https://support.telnyx.com/en/articles/6184748-grandstream-wave-lite-iphone)[Grandstream Wave Lite (Android)](https://support.telnyx.com/en/articles/6184897-grandstream-wave-lite-android)[Grandstream GDS3710: Wave Lite (iOS)](https://support.telnyx.com/en/articles/6187411-grandstream-gds3710-wave-lite-ios)
-
-Did this answer your question?
-
-😞😐😃

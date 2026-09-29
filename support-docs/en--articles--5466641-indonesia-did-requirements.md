@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5466641-indonesia-did-require
 title: "Indonesia DID Requirements"
 description: "Here you will find a list of detailed requirements for acquiring Indonesia numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: ecaf961b04d02a5a937158087bde3ebd3accd64b3d5c6eed5d21ad04a49b95db
+content_hash: 5efc933598386d9a5ca5d70a98f03778eeb99fa6fc1874661655ab346eb64c25
 ---
 
 
@@ -114,13 +114,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[China DID Requirements](https://support.telnyx.com/en/articles/3506111-china-did-requirements)[Chile DID Requirements](https://support.telnyx.com/en/articles/5464057-chile-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)[Serbia DID Requirements](https://support.telnyx.com/en/articles/5467021-serbia-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

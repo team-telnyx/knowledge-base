@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6601061-cameroon-sms-guidelin
 title: "Cameroon: SMS Guidelines"
 description: "Sending SMS to Cameroon? See Telnyx guidance and requirements Learn more about Cameroon: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 539cd3bd6eb3d9b4acd1075e9bf203dce28d9203cb03ec1e3dff226c3e4feab6
+content_hash: ecb0fb69674f9c141b81cf780d77e50b6052cb4e8b28cdfb7d8c78bf02267bd1
 ---
 
 
@@ -35,13 +35,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Benin: SMS Guidelines](https://support.telnyx.com/en/articles/6596235-benin-sms-guidelines)[Ghana: SMS Guidelines](https://support.telnyx.com/en/articles/6670870-ghana-sms-guidelines)[South Sudan: SMS Guidelines](https://support.telnyx.com/en/articles/6680141-south-sudan-sms-guidelines)[Sudan: SMS Guidelines](https://support.telnyx.com/en/articles/6680225-sudan-sms-guidelines)[Uganda: SMS Guidelines](https://support.telnyx.com/en/articles/6683433-uganda-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

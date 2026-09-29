@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6683504-zimbabwe-sms-guidelin
 title: "Zimbabwe: SMS Guidelines"
 description: "SMS Guidelines for Zimbabwe including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Zimbabwe: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 591b5233278b3c38f4d7225ccc2b139ee3a3521ab01bb2104e66e439fc25c2cc
+content_hash: 6a2f401ba034065e9c87413f0b245f7e361cce7f7a01201076e8bf9d52b56245
 ---
 
 
@@ -35,13 +35,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Philippines: SMS Guidelines](https://support.telnyx.com/en/articles/6531682-philippines-sms-guidelines)[Norway: SMS Guidelines](https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines)[India: SMS Guidelines](https://support.telnyx.com/en/articles/6674383-india-sms-guidelines)[Mali: SMS Guidelines](https://support.telnyx.com/en/articles/6675247-mali-sms-guidelines)[Qatar: SMS Guidelines](https://support.telnyx.com/en/articles/6679369-qatar-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

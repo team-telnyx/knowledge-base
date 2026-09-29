@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4380325-search-and-buy-number
 title: "Search and Buy Numbers"
 description: "This article describes the process of obtaining phone numbers through Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 399a690cb01cb6d9683e0cfe7a7cd93a65b90bf95e0f1634084569d13e5f42fc
+content_hash: b0c52f1ad427581939dc5e549a00f4de2c26200e9289e21d19852c661be1d904
 ---
 
 
@@ -213,13 +213,3 @@ You may also start a conversation with our numbering team for any inquiries abou
 ---
 
 ###
-
----
-
-Related Articles
-
-[Global Number Types](https://support.telnyx.com/en/articles/1458084-global-number-types)[Verified Numbers](https://support.telnyx.com/en/articles/6988813-verified-numbers)[International Number Requirements Tool](https://support.telnyx.com/en/articles/7003167-international-number-requirements-tool)[SMS for Ported In Phone Numbers](https://support.telnyx.com/en/articles/7183887-sms-for-ported-in-phone-numbers)[US / CA Toll Free Number Porting](https://support.telnyx.com/en/articles/8673249-us-ca-toll-free-number-porting)
-
-Did this answer your question?
-
-😞😐😃

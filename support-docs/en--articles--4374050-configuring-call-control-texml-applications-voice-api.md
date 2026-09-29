@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4374050-configuring-call-cont
 title: "Configuring Call Control/TeXML Applications - Voice API"
 description: "This article describes the in-depth setup of Call Control / TeXML Applications on our Mission Control Portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: b3a35ac78a793ecd5294a1cc14ac87758b05d6dd76e5bd45f19eabcba1c81225
+content_hash: 63a5385c5a4258bca09a8a51da3c9bf7dc3ef3c3aa28dd702f37b678d1c2994f
 ---
 
 
@@ -271,13 +271,3 @@ Once you've successfully created your TeXML application, it is given an applicat
 The application id is used to reference or trigger your API calls programmatically. Don't forget to reference our [developer documentation](https://developers.telnyx.com/docs/development/programmable-voice/texml-setup) to see how you can setup your XML instructions.
 
 ![Breaking Line](_images/682991ade0be9812.png)
-
----
-
-Related Articles
-
-[What is DTMF? and how to configure it on Telnyx](https://support.telnyx.com/en/articles/1130710-what-is-dtmf-and-how-to-configure-it-on-telnyx)[Telnyx Debugging Tools](https://support.telnyx.com/en/articles/4304872-telnyx-debugging-tools)[SIP Connection: Settings](https://support.telnyx.com/en/articles/4351104-sip-connection-settings)[TeXML and Telnyx Voice API compatibility](https://support.telnyx.com/en/articles/8118086-texml-and-telnyx-voice-api-compatibility)[TeXML Bin Simple Voicemail and Call Forwarding](https://support.telnyx.com/en/articles/13386198-texml-bin-simple-voicemail-and-call-forwarding)
-
-Did this answer your question?
-
-😞😐😃

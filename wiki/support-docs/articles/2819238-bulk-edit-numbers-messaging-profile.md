@@ -1,0 +1,67 @@
+---
+title: "Bulk Edit Numbers - Messaging Profile"
+summary: "Simplify your messaging campaigns with Telnyx's bulk edit feature for messaging profiles, See Telnyx guidance and requirements."
+sources:
+- url: "https://support.telnyx.com/en/articles/2819238-bulk-edit-numbers-messaging-profile"
+updated_at: 2026-07-08T00:00:00Z
+tags: [support-docs]
+source_path: "support-docs/en--articles--2819238-bulk-edit-numbers-messaging-profile.md"
+generated_by: incremental-support-docs-wiki
+---
+<!-- generated_from=support-docs/en--articles--2819238-bulk-edit-numbers-messaging-profile.md -->
+
+# Bulk Edit Numbers - Messaging Profile
+
+Simplify your messaging campaigns with Telnyx's bulk edit feature for messaging profiles, See Telnyx guidance and requirements.
+
+
+
+
+## Guide to assigning messaging profile in Bulk
+
+A step-by-step guide to bulk edit Messaging Profile settings of selected numbers.
+​
+
+## **Step 1**
+
+Log in to your Telnyx Mission Control account and click on the NUMBERS on the top left side of the page.
+
+## **Step 2**
+
+Click on the [MY NUMBERS](https://portal.telnyx.com/#/app/numbers/my-numbers) tab
+
+## **Step 3**
+
+Select the numbers by selecting checkboxes in front of the numbers you'd like to edit.
+
+## **Step 4**
+
+You can also select all the numbers displayed on the page by using the checkbox above the top number (highlighted in red).
+
+![](_images/8c6c293d04b87881.png)
+
+**Note - You can expand the selection by increasing the Row count of the displayed page ranging from 10-100 numbers displayed on the page.**
+​
+
+![](_images/1b8646115abb9dfd.png)
+
+## **Step 5**
+
+Once you have selected your desired numbers, click on the Bulk Actions dropdown and select Edit Messaging Profile.
+​
+
+![](_images/cd8f5f50317143ae.png)
+
+​
+
+## **Step 6**
+
+Once you click on "Edit Messaging Profile," a new window will open, allowing you to choose the desired messaging profile from the dropdown menu.
+
+![Edit Messaging Profile section. ](_images/eb69a3b8ef947f5a.png)
+
+Upon selecting a profile, you will see a message regarding the MRC charge for assigning a messaging profile to a number. To proceed, you must accept these charges and then save your selection. The chosen messaging profile will then be applied to the bulk selected numbers.
+
+![](_images/f2dae876268ebf7e.png)
+
+Once you click "Save," you will notice that all the bulk-selected numbers have been updated with the chosen messaging profile.

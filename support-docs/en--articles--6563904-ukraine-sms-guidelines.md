@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6563904-ukraine-sms-guideline
 title: "Ukraine: SMS Guidelines"
 description: "Sending SMS to Ukraine? See Telnyx guidance and requirements Learn more about Ukraine: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: d57a1ccf94fb087d3f9f24607116a258bbc459518bebfe59160f62b9a19ce7f7
+content_hash: d20b517d27d76d8ff71f8adcfce8d5a96cd8894e32f036c42723fbe8c2d3108a
 ---
 
 
@@ -35,13 +35,3 @@ The use of generic Alpha Sender IDs is not recommended as these can be rejected 
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Bulgaria: SMS Guidelines](https://support.telnyx.com/en/articles/6563862-bulgaria-sms-guidelines)[Bolivia: SMS Guidelines](https://support.telnyx.com/en/articles/6564249-bolivia-sms-guidelines)[Ecuador: SMS Guidelines](https://support.telnyx.com/en/articles/6570385-ecuador-sms-guidelines)[Taiwan: SMS Guidelines](https://support.telnyx.com/en/articles/6683277-taiwan-sms-guidelines)[Turkmenistan: SMS Guidelines](https://support.telnyx.com/en/articles/6683390-turkmenistan-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5798240-pbxes-connecting-a-pb
 title: "PBXes: Connecting a PBXes Trunk to Telnyx"
 description: "Connect your PBXes SIP trunk to Telnyx effortlessly. See Telnyx guidance and requirements Learn more about PBXes: Connecting a PBXes Trunk to Telnyx with."
 scraped: 2026-07-08
-content_hash: 42a3b23294002ae7f4e3bb3ed3be410677ac19a4ee974eb3cbb1b6915b7652a1
+content_hash: 64839f09850eed28a0c6ff908ccdd16ba66117a395929cf9e8b0abe80a40f92d
 ---
 
 
@@ -139,13 +139,3 @@ Additionally, check out:
 * [PBXes premium account options](https://www1.pbxes.com/shop.php)
 * [PBXes user documentation](https://www1.pbxes.com/community.php?display=wiki) (if you wish to read the page in English, right-click on the page and select **Translate to English** from the menu)
 * [PBXes user forum](https://www1.pbxes.com/community.php?display=forum)
-
----
-
-Related Articles
-
-[FreePBX Trunk Settings With Telnyx](https://support.telnyx.com/en/articles/1130620-freepbx-trunk-settings-with-telnyx)[Configuring a FreePBX V13 Credentials Trunk](https://support.telnyx.com/en/articles/1130648-configuring-a-freepbx-v13-credentials-trunk)[Grandstream UCM6xxx: SIP Trunks](https://support.telnyx.com/en/articles/5748258-grandstream-ucm6xxx-sip-trunks)[Xorcom PBX: SIP Trunk](https://support.telnyx.com/en/articles/5754127-xorcom-pbx-sip-trunk)[BYOC: Telnyx & Genesys](https://support.telnyx.com/en/articles/8268122-byoc-telnyx-genesys)
-
-Did this answer your question?
-
-😞😐😃

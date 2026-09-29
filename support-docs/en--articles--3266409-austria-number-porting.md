@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3266409-austria-number-portin
 title: "Austria Number Porting"
 description: "Here you will find detailed requirements for Austria number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 82469caddf0b985ff9be106ced7b05eb4963aed5097a16eb9706ae62d5dab023
+content_hash: 6befa534890a143fd79203dcdad7707f9fc5d46b2fb4e7052098745fb532c0b9
 ---
 
 
@@ -39,13 +39,3 @@ Here you will find detailed requirements for Austria number portability. See Tel
 Download LOA **[here](http://assets.ctfassets.net/taysl255dolk/5bvRirKjh7u8TWy0LkYiSc/c3d9da4269c2158f0e67496068a895e4/Rufnummernmitnahme_KDB_TELNYX.pdf)**
 
 ###
-
----
-
-Related Articles
-
-[Italy Number Porting](https://support.telnyx.com/en/articles/3267012-italy-number-porting)[Netherlands Number Porting](https://support.telnyx.com/en/articles/3267124-netherlands-number-porting)[South Africa Number Porting](https://support.telnyx.com/en/articles/4400326-south-africa-number-porting)[El Salvador Number Porting](https://support.telnyx.com/en/articles/5179083-el-salvador-number-porting)[Poland Number Porting](https://support.telnyx.com/en/articles/5188583-poland-number-porting)
-
-Did this answer your question?
-
-😞😐😃

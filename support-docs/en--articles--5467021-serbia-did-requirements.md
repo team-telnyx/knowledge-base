@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5467021-serbia-did-requiremen
 title: "Serbia DID Requirements"
 description: "Here you will find a list of detailed requirements for acquiring Serbian numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: dce1cce712532b0218e0e878c6a4028047c1fc7676909689cd6d60388cdd11e4
+content_hash: 54d9da4e983cfae7bab76ffef05a2045d436eda87c9d287b948efcdfe2599ec5
 ---
 
 
@@ -91,13 +91,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Bulgaria DID Requirements](https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Mexico DID Requirements](https://support.telnyx.com/en/articles/5466793-mexico-did-requirements)[Monaco DID Requirements](https://support.telnyx.com/en/articles/5466798-monaco-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

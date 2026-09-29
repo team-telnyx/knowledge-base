@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6133145-microsip-setup-with-t
 title: "MicroSIP: Setup with Telnyx"
 description: "Learn how to set up and configure a MicroSIP softphone and set Telnyx as your SIP provider. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 74eaa640d53924397476309c86ea9d65e8d2100d1a8b4295015c283ddeb35b6a
+content_hash: b887b1c6d8a46d2f2b39289fd67117e08fc31efc719948772b2045bf6b830e5f
 ---
 
 
@@ -171,13 +171,3 @@ Additionally, check out:
   + [Feature/change requests](https://www.microsip.org/wishes)
   + [Supported languages/localization](https://www.microsip.org/translation)
   + [Contact MicroSIP](https://www.microsip.org/contact)
-
----
-
-Related Articles
-
-[Algo 8xxx: Telnyx Endpoints](https://support.telnyx.com/en/articles/5790092-algo-8xxx-telnyx-endpoints)[Gigaset A510: Telnyx Setup](https://support.telnyx.com/en/articles/5815209-gigaset-a510-telnyx-setup)[Snom C520: Telnyx Setup](https://support.telnyx.com/en/articles/5815678-snom-c520-telnyx-setup)[Vtech VCS754: Telnyx Setup](https://support.telnyx.com/en/articles/5822901-vtech-vcs754-telnyx-setup)[Fanvil A32i: Telnyx Setup](https://support.telnyx.com/en/articles/6056428-fanvil-a32i-telnyx-setup)
-
-Did this answer your question?
-
-😞😐😃

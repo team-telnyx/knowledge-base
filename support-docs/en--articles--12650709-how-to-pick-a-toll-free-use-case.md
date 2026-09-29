@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/12650709-how-to-pick-a-toll-f
 title: "How to Pick a Toll Free Use Case"
 description: "When submitting a Toll Free Verification Request this is how you select a Use… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 206304a57044394aac7a609baf4be472c03ceee1447f9d2acf7f69b396d0235a
+content_hash: b7c4ead45832630fa270829ca28e13a9bfcbc857d6267182c58708ce9f5256ea
 ---
 
 
@@ -70,13 +70,3 @@ If you don't feel you Verification Request fell into one of the above use cases 
 * Waitlist Alerts
 * Webinar Reminders
 * Workshop Alerts
-
----
-
-Related Articles
-
-[Toll-Free Messaging](https://support.telnyx.com/en/articles/5353868-toll-free-messaging)[10DLC: Trust Scores & Use Cases](https://support.telnyx.com/en/articles/6325747-10dlc-trust-scores-use-cases)[Guide to 10DLC Message Flow Field](https://support.telnyx.com/en/articles/10562019-guide-to-10dlc-message-flow-field)[10DLC Use Cases](https://support.telnyx.com/en/articles/10684248-10dlc-use-cases)[Toll Free Verification Request Guide](https://support.telnyx.com/en/articles/10729979-toll-free-verification-request-guide)
-
-Did this answer your question?
-
-😞😐😃

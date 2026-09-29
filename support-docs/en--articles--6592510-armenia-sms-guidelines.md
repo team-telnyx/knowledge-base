@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6592510-armenia-sms-guideline
 title: "Armenia: SMS Guidelines"
 description: "SMS Guidelines for Armenia including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Armenia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: a71356655d9a1f87fdf874d12331d200550d82e6c08eda67c9c286b7d61dea07
+content_hash: c580ed56e7516a416313a06a8be4625ed138f423bcc93ac42917e650354a3ed7
 ---
 
 
@@ -81,13 +81,3 @@ Uncover the secrets to effective bulk SMS campaigns in Armenia. Reach a wider au
 * [Mastering CTIA guidelines](https://telnyx.com/resources/CTIA-SMS-guidelines)
 * [Guide to compliant bulk SMS](https://telnyx.com/resources/bulk-sms-guide)
 * [SMS compliance and regulations](https://telnyx.com/resources/how-to-ensure-compliance-with-sms-regulations)
-
----
-
-Related Articles
-
-[Andorra: SMS Guidelines](https://support.telnyx.com/en/articles/6563890-andorra-sms-guidelines)[Iraq: SMS Guidelines](https://support.telnyx.com/en/articles/6589557-iraq-sms-guidelines)[Cook Islands: SMS Guidelines](https://support.telnyx.com/en/articles/6661387-cook-islands-sms-guidelines)[New Zealand: SMS Guidelines](https://support.telnyx.com/en/articles/6679036-new-zealand-sms-guidelines)[Nigeria: SMS Guidelines](https://support.telnyx.com/en/articles/6679084-nigeria-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

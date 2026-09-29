@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5353868-toll-free-messaging
 title: "Toll-Free Messaging"
 description: "In this article we will explain the importance behind toll-free messaging and use case… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: c9558c8385f7475627120e70c5e5b15c8ca7002e35668a1aa0811b1dfdc6f465
+content_hash: 1e3636c8831082cca162cf8ed4fe7532d7b6e208bcf5a3f899eb899181c4eb65
 ---
 
 
@@ -260,13 +260,3 @@ Each event includes helpful context such as the affected phone number(s), busine
  "webhook_url": "http://example-webhook.com"
 }
 ```
-
----
-
-Related Articles
-
-[How to Leverage Webhooks](https://support.telnyx.com/en/articles/4334722-how-to-leverage-webhooks)[Toll-Free Opt-Out Words](https://support.telnyx.com/en/articles/6989758-toll-free-opt-out-words)[US / CA Toll Free Number Porting](https://support.telnyx.com/en/articles/8673249-us-ca-toll-free-number-porting)[Toll Free Verification Request Guide](https://support.telnyx.com/en/articles/10729979-toll-free-verification-request-guide)[How to Pick a Toll Free Use Case](https://support.telnyx.com/en/articles/12650709-how-to-pick-a-toll-free-use-case)
-
-Did this answer your question?
-
-😞😐😃

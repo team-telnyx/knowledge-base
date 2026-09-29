@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3266956-france-number-porting
 title: "France Number Porting"
 description: "Here you will find detailed requirements for France number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: bd375f2bf0a88b526eca1bdc985ddfc4c218ae50c7e16c1b61ada40421baf5b0
+content_hash: 6f158c38df523e7b9bdb29447172ab60dad4f65602e90ffb55ac1dc5671ea0e2
 ---
 
 
@@ -75,13 +75,3 @@ It is crucial to verify the information **before** Telnyx submits a port request
 ###
 
 ​
-
----
-
-Related Articles
-
-[Australia Number Porting](https://support.telnyx.com/en/articles/3266212-australia-number-porting)[Germany Number Porting](https://support.telnyx.com/en/articles/3266960-germany-number-porting)[United States Number Porting](https://support.telnyx.com/en/articles/3267816-united-states-number-porting)[Portugal Number porting](https://support.telnyx.com/en/articles/5120062-portugal-number-porting)[US / CA Toll Free Number Porting](https://support.telnyx.com/en/articles/8673249-us-ca-toll-free-number-porting)
-
-Did this answer your question?
-
-😞😐😃

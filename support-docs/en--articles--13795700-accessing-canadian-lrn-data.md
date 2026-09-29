@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/13795700-accessing-canadian-l
 title: "Accessing Canadian LRN Data"
 description: "Canadian LRN (Local Routing Number) data is subject to regulatory restrictions and is not freely available. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: ca987b60f15def8a87067e0a8250eaf599367bdc0ce20fe89af975be3956d347
+content_hash: f437c89fa93afb4863b6ef8e2c22f946b20151284c8601e0db13445479e026d0
 ---
 
 
@@ -23,13 +23,3 @@ Canadian LRN (Local Routing Number) data is subject to regulatory restrictions a
 3. **Usage Requirements**: In addition, due to the costs we incur in facilitating access, Telnyx applies a minimum lookup requirement for customers. Access is reviewed and granted on a **case-by-case basis**. The minimum monthly spend on LRN lookups would need to be ~$225 to cover our costs. This works out to about 150k LRN lookups at base price ($0.0015).
 
 Once the above criteria have been met, we just need proof of the CLNPC non-member access approval. You can reach out to your CSM or [support@telnyx.com](mailto:support@telnyx.com) for more information.
-
----
-
-Related Articles
-
-[Your Number Lookup Guide](https://support.telnyx.com/en/articles/4366901-your-number-lookup-guide)[US Local Call Completion](https://support.telnyx.com/en/articles/4378813-us-local-call-completion)[The Rate Sheet and LRN explained](https://support.telnyx.com/en/articles/5073043-the-rate-sheet-and-lrn-explained)[Hosted SMS Messaging Process](https://support.telnyx.com/en/articles/5336668-hosted-sms-messaging-process)[Updates to Global Conversational Rate Deck](https://support.telnyx.com/en/articles/6974437-updates-to-global-conversational-rate-deck)
-
-Did this answer your question?
-
-😞😐😃

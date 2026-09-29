@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8201852-telnyx-networking-on-
 title: "Telnyx Networking on PfSense"
 description: "Guide on setting up Telnyx networking on pfSense. See Telnyx guidance and requirements Learn more about Telnyx Networking on PfSense with Telnyx."
 scraped: 2026-07-08
-content_hash: e1e64bab71b8a9e2d9bdc64ba5e50b7297078637d60c1f800178c5578a9d2fd4
+content_hash: db774e81867101f9c02878a2a3c8378ff8135cc94984cf7162053fffcddcf4db
 ---
 
 
@@ -126,13 +126,3 @@ You will need two NAT configs:
    1. Address: Interface Address
 
 ![Advanced Outbound NAT Entry. ](_images/6d1f84d8a5138d66.png)
-
----
-
-Related Articles
-
-[How to configure Global Edge Router with Telnyx](https://support.telnyx.com/en/articles/8002565-how-to-configure-global-edge-router-with-telnyx)[Telnyx Networking on Ubuntu](https://support.telnyx.com/en/articles/8104274-telnyx-networking-on-ubuntu)[Telnyx Networking on AWS VPC](https://support.telnyx.com/en/articles/8104309-telnyx-networking-on-aws-vpc)[Telnyx Networking on Azure Linux VMs](https://support.telnyx.com/en/articles/8104343-telnyx-networking-on-azure-linux-vms)[Telnyx Networking on Oracle VMs](https://support.telnyx.com/en/articles/8104436-telnyx-networking-on-oracle-vms)
-
-Did this answer your question?
-
-😞😐😃

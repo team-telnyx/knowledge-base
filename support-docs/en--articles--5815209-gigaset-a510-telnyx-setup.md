@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5815209-gigaset-a510-telnyx-s
 title: "Gigaset A510: Telnyx Setup"
 description: "Learn how to use your Telnyx account to set up and configure a SIP profile on the Gigaset A510 IP… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 53464d4f9a26206eaa43135b9c60e74f36cbbe4e81ae7af374cc6a6216c9335d
+content_hash: 02d13e25df9a7532ef79e5124382485dcd2fc7f9e53a5c656c8a49cee1b6196b
 ---
 
 
@@ -119,13 +119,3 @@ Review our [getting started with guide](https://support.telnyx.com/en/articles/1
 Additionally, check out:
 
 * [Gigaset A510IP user guide](https://gse.gigaset.com/fileadmin/legacy-assets/A31008-M2230-R301-2-6019_en_US_CA.pdf)
-
----
-
-Related Articles
-
-[Flyingvoice: Telnyx Setup](https://support.telnyx.com/en/articles/5810663-flyingvoice-telnyx-setup)[Panasonic KX-HDV: Telnyx setup](https://support.telnyx.com/en/articles/5814406-panasonic-kx-hdv-telnyx-setup)[Snom C520: Telnyx Setup](https://support.telnyx.com/en/articles/5815678-snom-c520-telnyx-setup)[Gigaset A690/AS690](https://support.telnyx.com/en/articles/6060646-gigaset-a690-as690)[Fanvil H5: Hotel IP](https://support.telnyx.com/en/articles/6203401-fanvil-h5-hotel-ip)
-
-Did this answer your question?
-
-😞😐😃

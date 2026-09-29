@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8268223-bulk-messaging-with-s
 title: "Bulk Messaging with Sheets"
 description: "Send many SMS or MMS using Google Sheets connected to the Telnyx Messaging… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: a00ef0e757539a0ecf2e8b36a50934074b2d00575238c93bb3f50ba497f673c5
+content_hash: db8251697bd374d9444ae8796de1aa3523e91af23fb10b425891b79439bd6846
 ---
 
 
@@ -190,13 +190,3 @@ From here, you have a good base to work with. We've created a simple spreadsheet
 ​
 
 We can start expanding this for future business needs. Add more things to track like sent/received statuses, order fulfilment, you can even add parsing ability to the texts you receive and highlight messages based on the context of the text message. The possibilities are limitless!
-
----
-
-Related Articles
-
-[MMS Sending and Receiving](https://support.telnyx.com/en/articles/3102823-mms-sending-and-receiving)[Setting Up a Messaging Profile](https://support.telnyx.com/en/articles/3562059-setting-up-a-messaging-profile)[Telnyx Messaging Error Codes](https://support.telnyx.com/en/articles/6505121-telnyx-messaging-error-codes)[Easy Text Marketing and Telnyx Integration](https://support.telnyx.com/en/articles/6986625-easy-text-marketing-and-telnyx-integration)[Group Messaging - Bulk Sending MMS](https://support.telnyx.com/en/articles/8255134-group-messaging-bulk-sending-mms)
-
-Did this answer your question?
-
-😞😐😃

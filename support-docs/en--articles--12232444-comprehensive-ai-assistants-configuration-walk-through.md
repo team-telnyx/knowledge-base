@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/12232444-comprehensive-ai-ass
 title: "Comprehensive AI Assistants Configuration Walk-Through"
 description: "This article will explain from start to finish on how to configure your AI assistant, See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 34a6d2e48641823169e388c27c7fe8589a4dca244fdb6a4f1de83409aac2a0fc
+content_hash: 9c87e180098245fd861971d2b3601a9478c47fe20c9ad3047f5345be0a781555
 ---
 
 
@@ -335,13 +335,3 @@ Unlike SSE’s real-time streaming, HTTP MCP servers exchange context and instru
 Our team member has shared an awesome video, showcasing the AI assistant capabilities with an MCP server configured with Zapier. You can play from start to see the demo, mcp build step by step starts at ~ 6 mins.
 
 Check this video out for low latency vibes -> <https://telnyx.com/resources/build-low-latency-voice-assistant>
-
----
-
-Related Articles
-
-[Configuring a GOautodial PBX IP Trunk](https://support.telnyx.com/en/articles/1130649-configuring-a-goautodial-pbx-ip-trunk)[Configuring your Cisco SPA112/122 ATA](https://support.telnyx.com/en/articles/1130665-configuring-your-cisco-spa112-122-ata)[SIP Connection: Settings](https://support.telnyx.com/en/articles/4351104-sip-connection-settings)[Positron IP Phone](https://support.telnyx.com/en/articles/5811761-positron-ip-phone)[3CX: Configuring a 3CX V18 PBX](https://support.telnyx.com/en/articles/6161111-3cx-configuring-a-3cx-v18-pbx)
-
-Did this answer your question?
-
-😞😐😃

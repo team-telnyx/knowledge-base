@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6683433-uganda-sms-guidelines
 title: "Uganda: SMS Guidelines"
 description: "Sending SMS to Uganda? See Telnyx guidance and requirements Learn more about Uganda: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 0128dbff5b01ef0c3d6fa2a8a09487b687e74e10909e975e1212d45c306656f8
+content_hash: 0ef6bc4f7e46a3d7b5405903560cf088b9133e0f636f3735503893821ce75697
 ---
 
 
@@ -35,13 +35,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Benin: SMS Guidelines](https://support.telnyx.com/en/articles/6596235-benin-sms-guidelines)[Cameroon: SMS Guidelines](https://support.telnyx.com/en/articles/6601061-cameroon-sms-guidelines)[Ghana: SMS Guidelines](https://support.telnyx.com/en/articles/6670870-ghana-sms-guidelines)[South Sudan: SMS Guidelines](https://support.telnyx.com/en/articles/6680141-south-sudan-sms-guidelines)[Sudan: SMS Guidelines](https://support.telnyx.com/en/articles/6680225-sudan-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

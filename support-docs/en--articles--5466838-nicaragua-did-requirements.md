@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5466838-nicaragua-did-require
 title: "Nicaragua DID Requirements"
 description: "Here you will find a list of detailed requirements for acquiring Nicaraguan numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: ea20435115de981fbabc683752ca774f113fed1dd5ef60671ae8b189d6dfa8d4
+content_hash: c81f1c11877b89ff7b2e1ad0bd71578fda845e458e4d03ac354373915c84dedb
 ---
 
 
@@ -81,13 +81,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Uruguay DID Requirements](https://support.telnyx.com/en/articles/3362891-uruguay-did-requirements)[Ecuador DID Requirements](https://support.telnyx.com/en/articles/3506153-ecuador-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Jamaica DID Requirements](https://support.telnyx.com/en/articles/5466658-jamaica-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

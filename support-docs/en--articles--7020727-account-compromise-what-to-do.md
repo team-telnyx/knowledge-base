@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/7020727-account-compromise-wh
 title: "Account Compromise: What to Do"
 description: "Was your account compromised? See Telnyx guidance and requirements Learn more about Account Compromise: What to Do with Telnyx."
 scraped: 2026-07-08
-content_hash: a42f0f8dc117f0c331a7b3e831570a8c807ffe006dfec05b30fc76bd5e76243e
+content_hash: b99b9f4b1eab99f664d33a9f50004d2d57827ab0d119878f9eecfcde1eb60e30
 ---
 
 
@@ -40,13 +40,3 @@ There are many ways a bad actor can gain access to your account, either because 
 If a bad actor has gained access to your system but not your account they can still have stolen the credentials for your sip connection, the messaging profile secret or the API keys if you had those setup in your system so make sure to update them in your Mission Control Portal.
 
 For more information on other options to prevent fraud on your account like setting up limits please follow [this guide.](https://support.telnyx.com/en/articles/3610162-prevent-telnyx-account-fraud)
-
----
-
-Related Articles
-
-[Prevent Telnyx Account Fraud](https://support.telnyx.com/en/articles/3610162-prevent-telnyx-account-fraud)[SIP Connection: Types](https://support.telnyx.com/en/articles/4245868-sip-connection-types)[SIP Connection: Settings](https://support.telnyx.com/en/articles/4351104-sip-connection-settings)[Android Push Notification Setup](https://support.telnyx.com/en/articles/8268140-android-push-notification-setup)[TeXML Bin Simple Voicemail and Call Forwarding](https://support.telnyx.com/en/articles/13386198-texml-bin-simple-voicemail-and-call-forwarding)
-
-Did this answer your question?
-
-😞😐😃

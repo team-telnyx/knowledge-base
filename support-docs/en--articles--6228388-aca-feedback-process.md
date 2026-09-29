@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6228388-aca-feedback-process
 title: "ACA Feedback Process"
 description: "Learn about Telnyx's compliance with the Accessible Canada Act (ACA). See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: fcc8590b9b90f9e40c57e10b972ae6206001ef5a358a17b4ccbf72b6330af6ca
+content_hash: 9a0dd4d9ef6edc4cb19ea017ec0729d1bf9c8d9ab66988b59df1358bb077529f
 ---
 
 
@@ -30,7 +30,3 @@ Should a customer have feedback, please send an email to [acafeedback@telnyx.com
 * Email
 * Relation to Telnyx
 * Description of the ACA feedback
-
-Did this answer your question?
-
-😞😐😃

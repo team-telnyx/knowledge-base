@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6596251-bermuda-sms-guideline
 title: "Bermuda: SMS Guidelines"
 description: "Sending SMS to Bermuda? See Telnyx guidance and requirements Learn more about Bermuda: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 92337c033032d13e5eb2f608776ea304bd51948b94c2f904a11fefce92214e7f
+content_hash: 7e5a0d30b0226f3d690b761a89589ace9de6cf3ba346c0467246fa4858f8933f
 ---
 
 
@@ -31,13 +31,3 @@ There are no restrictions with regards to content towards this destination.
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Lithuania: SMS Guidelines](https://support.telnyx.com/en/articles/6560973-lithuania-sms-guidelines)[Switzerland: SMS Guidelines](https://support.telnyx.com/en/articles/6561154-switzerland-sms-guidelines)[Slovenia: SMS Guidelines](https://support.telnyx.com/en/articles/6561195-slovenia-sms-guidelines)[Suriname: SMS Guidelines](https://support.telnyx.com/en/articles/6589563-suriname-sms-guidelines)[Gibraltar: SMS Guidelines](https://support.telnyx.com/en/articles/6670878-gibraltar-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

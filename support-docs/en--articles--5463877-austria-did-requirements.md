@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5463877-austria-did-requireme
 title: "Austria DID Requirements"
 description: "Here you will find all the requirements for acquiring Austrian numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 37abcef13b902f2b473db7a11d8468f1ae9f7ca0141a2978510f745ddd3aa732
+content_hash: 6424e7faa1295d9b95eb5c855181d77a2fe0baf001a9e1a6bbca92c384c94188
 ---
 
 
@@ -137,13 +137,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
 
 ​
-
----
-
-Related Articles
-
-[Belgium DID Requirements](https://support.telnyx.com/en/articles/1311433-belgium-did-requirements)[Netherlands DID Requirements](https://support.telnyx.com/en/articles/1311472-netherlands-did-requirements)[Argentina DID Requirements](https://support.telnyx.com/en/articles/3760805-argentina-did-requirements)[Chile DID Requirements](https://support.telnyx.com/en/articles/5464057-chile-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

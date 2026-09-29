@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8104436-telnyx-networking-on-
 title: "Telnyx Networking on Oracle VMs"
 description: "Guide to set up Telnyx Edge Routing on Oracle VMs using WireGuard for secure connectivity. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 0fbcd8daa03d8e466054990fbd8e83508ffe0f08a1719bdfa8bf2e0055793bf9
+content_hash: b16990c26c5fed196d975998f71dc4f5a33b74343ef9d218118b3c509fca507c
 ---
 
 
@@ -171,13 +171,3 @@ round-trip min/avg/max/stddev = 183.040/183.495/184.512/0.471 ms
 Congratulations! You have successfully connected an Oracle Cloud VM instance to the Telnyx Edge Routing Network to the configured IP in your portal.
 
 If you have any further questions or would like to see more tutorials, feel free to reach out to our support team or our external Slack channel for help!
-
----
-
-Related Articles
-
-[Telnyx Networking on AWS Lightsail](https://support.telnyx.com/en/articles/8103288-telnyx-networking-on-aws-lightsail)[Telnyx Networking on Ubuntu](https://support.telnyx.com/en/articles/8104274-telnyx-networking-on-ubuntu)[Telnyx Networking on AWS VPC](https://support.telnyx.com/en/articles/8104309-telnyx-networking-on-aws-vpc)[Telnyx Networking on Azure Linux VMs](https://support.telnyx.com/en/articles/8104343-telnyx-networking-on-azure-linux-vms)[Telnyx Networking on Android/iOS](https://support.telnyx.com/en/articles/8104413-telnyx-networking-on-android-ios)
-
-Did this answer your question?
-
-😞😐😃

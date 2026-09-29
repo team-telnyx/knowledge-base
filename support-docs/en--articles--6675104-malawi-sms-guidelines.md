@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6675104-malawi-sms-guidelines
 title: "Malawi: SMS Guidelines"
 description: "Sending SMS to Malawi? See Telnyx guidance and requirements Learn more about Malawi: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 84bee87dd714b93ba9c5e3dca100bc7685d73dce1774b69803eb81aee2f15c74
+content_hash: 7da50d61f696aa515f99a9ce72f14a3a10e6c35bb16bf024e5ad8bf8b7f4d11c
 ---
 
 
@@ -59,13 +59,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Greece: SMS Guidelines](https://support.telnyx.com/en/articles/6563817-greece-sms-guidelines)[Burundi: SMS Guidelines](https://support.telnyx.com/en/articles/6601042-burundi-sms-guidelines)[Jordan: SMS Guidelines](https://support.telnyx.com/en/articles/6674487-jordan-sms-guidelines)[Kuwait: SMS Guidelines](https://support.telnyx.com/en/articles/6674713-kuwait-sms-guidelines)[Tajikistan: SMS Guidelines](https://support.telnyx.com/en/articles/6683287-tajikistan-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/7885470-chiro8000-and-telnyx-
 title: "Chiro8000 and Telnyx Integration"
 description: "Connecting the practice management software Chiro8000 with the text messaging capabilities of… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: bfdca35a7ed611068a734e6ccd6cde2182d1bcf4ff98ced56a3183cbe9ae662e
+content_hash: b8b7a30acb719b22a56bd169b21d187f2135d695cbe55d27fb1cd8e47bd710a0
 ---
 
 
@@ -59,13 +59,3 @@ Image description: This is a screenshot of the number search tool which shows th
    ![Channel Limit section. ](_images/aba0ad7364636b09.png)
 
    Image description: This image shows the 3 limits you can set for your outbound voice profile: Channel limit, Max Destination Rate, and Enable Daily Spend Limit per Connection.
-
----
-
-Related Articles
-
-[Bring Campaigns to Telnyx](https://support.telnyx.com/en/articles/6339158-bring-campaigns-to-telnyx)[Telnyx Messaging Error Codes](https://support.telnyx.com/en/articles/6505121-telnyx-messaging-error-codes)[Easy Text Marketing and Telnyx Integration](https://support.telnyx.com/en/articles/6986625-easy-text-marketing-and-telnyx-integration)[Bulk Messaging with Sheets](https://support.telnyx.com/en/articles/8268223-bulk-messaging-with-sheets)[Telnyx 10DLC Process](https://support.telnyx.com/en/articles/10646301-telnyx-10dlc-process)
-
-Did this answer your question?
-
-😞😐😃

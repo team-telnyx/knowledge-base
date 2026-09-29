@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3185933-vodia-multi-tenant-pb
 title: "Vodia: Multi-Tenant PBX Setup"
 description: "Configure Vodia Multi-Tenant PBX with Credentials - It's easy and fast, get started today. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 3cc1e80b6e2b5848e832afc6de34d3a49c7c90607fd7e86180814ec1deecdfc9
+content_hash: ca34ca3d4345e4b308d59b5ef1d792c57db8232fc70afad749116a906b6b9aec
 ---
 
 
@@ -120,13 +120,3 @@ Additionally, check out:
 * [Vodia forums](https://forum.vodia.com/)
 * [Vodia support](https://vodia.zammad.com/#login) (Requires login)
 * [Vodia portal login](https://portal.vodia.com/)
-
----
-
-Related Articles
-
-[Configuring an Elastix 4 PBX IP Trunk](https://support.telnyx.com/en/articles/1130622-configuring-an-elastix-4-pbx-ip-trunk)[How to configure a Thirdlane PBX](https://support.telnyx.com/en/articles/1130631-how-to-configure-a-thirdlane-pbx)[Configuring an Elastix 4 PBX Trunk](https://support.telnyx.com/en/articles/1130654-configuring-an-elastix-4-pbx-trunk)[Positron IP PBX](https://support.telnyx.com/en/articles/5790910-positron-ip-pbx)[ScopTEL IP PBX](https://support.telnyx.com/en/articles/5803103-scoptel-ip-pbx)
-
-Did this answer your question?
-
-😞😐😃

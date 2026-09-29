@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6674807-lebanon-sms-guideline
 title: "Lebanon: SMS Guidelines"
 description: "Sending SMS to Lebanon? See Telnyx guidance and requirements Learn more about Lebanon: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 28b1ce6da5643cdddb6decdfc89ae77383614d283c731af08ec6094a1494a4cf
+content_hash: f322d102dd6c69ed0b8f5786ca7cdba07339751a44801d3f443e7ad924af088e
 ---
 
 
@@ -59,13 +59,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Greece: SMS Guidelines](https://support.telnyx.com/en/articles/6563817-greece-sms-guidelines)[Burundi: SMS Guidelines](https://support.telnyx.com/en/articles/6601042-burundi-sms-guidelines)[Jordan: SMS Guidelines](https://support.telnyx.com/en/articles/6674487-jordan-sms-guidelines)[Malawi: SMS Guidelines](https://support.telnyx.com/en/articles/6675104-malawi-sms-guidelines)[Tajikistan: SMS Guidelines](https://support.telnyx.com/en/articles/6683287-tajikistan-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

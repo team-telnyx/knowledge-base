@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130654-configuring-an-elasti
 title: "Configuring an Elastix 4 PBX Trunk"
 description: "In this article we will explain how to configure an Elastix 4 PBX Credentials Trunk with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: aee6cdea1bf2c50072c19d3f87de3e4e2b173d8aa230b24fa615c5c57cf18a1e
+content_hash: 07e9baa2b98a3f6e3b9c1bff3d20bcf14716c55c308b098285257a473eab7617
 ---
 
 
@@ -211,13 +211,3 @@ Additionally, you can check out:
 * [Elastix admin guide](https://www.3cx.com/docs/manual/)
 * [Elastix user guide](https://www.3cx.com/user-manual/)
 * [Elastix support](https://www.3cx.com/support/)
-
----
-
-Related Articles
-
-[Configuring an Elastix 4 PBX IP Trunk](https://support.telnyx.com/en/articles/1130622-configuring-an-elastix-4-pbx-ip-trunk)[How to configure a Thirdlane PBX](https://support.telnyx.com/en/articles/1130631-how-to-configure-a-thirdlane-pbx)[Configuring a FreePBX V13 Credentials Trunk](https://support.telnyx.com/en/articles/1130648-configuring-a-freepbx-v13-credentials-trunk)[Xorcom PBX: SIP Trunk](https://support.telnyx.com/en/articles/5754127-xorcom-pbx-sip-trunk)[How to configure Yeastar P-series](https://support.telnyx.com/en/articles/13375115-how-to-configure-yeastar-p-series)
-
-Did this answer your question?
-
-😞😐😃

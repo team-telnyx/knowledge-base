@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6661387-cook-islands-sms-guid
 title: "Cook Islands: SMS Guidelines"
 description: "SMS Guidelines for Cook Islands including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Cook Islands: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 8126dafc564f79a57feaf23ed269975dd313593f32fdffafd257e7b326eee511
+content_hash: bc947e3c2f07e9bb2a7fa48ba22a5611609a4323ae1032f94b409eb402e2a561
 ---
 
 
@@ -79,13 +79,3 @@ Uncover the secrets to effective bulk SMS campaigns in Cook Islands. Reach a wid
 * [Mastering CTIA guidelines](https://telnyx.com/resources/CTIA-SMS-guidelines)
 * [Guide to compliant bulk SMS](https://telnyx.com/resources/bulk-sms-guide)
 * [SMS compliance and regulations](https://telnyx.com/resources/how-to-ensure-compliance-with-sms-regulations)
-
----
-
-Related Articles
-
-[Andorra: SMS Guidelines](https://support.telnyx.com/en/articles/6563890-andorra-sms-guidelines)[Armenia: SMS Guidelines](https://support.telnyx.com/en/articles/6592510-armenia-sms-guidelines)[Grenada: SMS Guidelines](https://support.telnyx.com/en/articles/6670896-grenada-sms-guidelines)[New Zealand: SMS Guidelines](https://support.telnyx.com/en/articles/6679036-new-zealand-sms-guidelines)[Turks and Caicos Islands: SMS Guidelines](https://support.telnyx.com/en/articles/6683396-turks-and-caicos-islands-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

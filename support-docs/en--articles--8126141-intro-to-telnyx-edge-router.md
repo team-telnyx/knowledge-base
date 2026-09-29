@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8126141-intro-to-telnyx-edge-
 title: "Intro to Telnyx Edge Router"
 description: "Dive into the Telnyx Edge Router's functionalities and benefits. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 57c113f68e15f1fd4f91d9f7c3c7d83e26f93f54271d5b07842b31ad2b118c2d
+content_hash: 2ed68088fb641364d18498d42264cd75e18f268ea5a407e4815a53bdf52bece5
 ---
 
 
@@ -161,13 +161,3 @@ We love to get your feedback on this tutorial. If you have any then please messa
 If you are stuck on any particular step then we would be happy to help, we have 24/7 world-class support available by phone at +18889809750 ext 2 or sending us an email at [support@telnyx.com](mailto:support@telnyx.com) or via chat by clicking the chat bubble in the bottom right of your [Mission Control Portal](https://portal.telnyx.com/) account.
 
 For discussion purposes you can also join us on slack at <https://joinslack.telnyx.com/>.
-
----
-
-Related Articles
-
-[How to configure Global Edge Router with Telnyx](https://support.telnyx.com/en/articles/8002565-how-to-configure-global-edge-router-with-telnyx)[Telnyx Networking on Ubuntu](https://support.telnyx.com/en/articles/8104274-telnyx-networking-on-ubuntu)[Telnyx Networking on AWS VPC](https://support.telnyx.com/en/articles/8104309-telnyx-networking-on-aws-vpc)[Telnyx Networking on Oracle VMs](https://support.telnyx.com/en/articles/8104436-telnyx-networking-on-oracle-vms)[Telnyx Networking on PfSense](https://support.telnyx.com/en/articles/8201852-telnyx-networking-on-pfsense)
-
-Did this answer your question?
-
-😞😐😃

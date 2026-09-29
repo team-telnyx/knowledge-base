@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1782930-port-request-rejected
 title: "Port Request Rejected"
 description: "Here we will explain what port request rejected means and how you can solve it. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: dd677cdc80b94629c6ed6ac9f4652bde33237ca4693356cbdb003676406ba4da
+content_hash: 4a27ffc47ada74b52fc58a705d93d56ebe1182b22029001fb97bf4448eb26274
 ---
 
 
@@ -33,13 +33,3 @@ Please see [Porting Error Messages](https://support.telnyx.com/en/articles/16187
 
 If you have any questions about a port request please reach out to the Porting team by commenting on your [Port Request within the Portal](https://portal.telnyx.com/#/app/numbers/port-numbers?status=both) or email the team at [porting@telnyx.com](mailto:porting@telnyx.com).
 ​
-
----
-
-Related Articles
-
-[Porting Policy & Procedure](https://support.telnyx.com/en/articles/1130630-porting-policy-procedure)[Automated Port Request Validation](https://support.telnyx.com/en/articles/1516776-automated-port-request-validation)[Port-In Best Practices](https://support.telnyx.com/en/articles/2030770-port-in-best-practices)[Port Request Statuses](https://support.telnyx.com/en/articles/3284588-port-request-statuses)[Porting Requirements](https://support.telnyx.com/en/articles/6460777-porting-requirements)
-
-Did this answer your question?
-
-😞😐😃

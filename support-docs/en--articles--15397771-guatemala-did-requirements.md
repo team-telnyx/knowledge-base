@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/15397771-guatemala-did-requir
 title: "Guatemala DID Requirements"
 description: "Requirements to acquire Guatemala numbers. See Telnyx guidance and requirements Learn more about Guatemala DID Requirements with Telnyx."
 scraped: 2026-07-08
-content_hash: 80ba371e55fab0a3642b38a744eb4ee524337ca15d8c709ef60b64fb14a3f19e
+content_hash: 911f57b3f325436c23f4c3c73c5f20bda82d1406a2ae68d7b60e790bc3b1b6fa
 ---
 
 
@@ -48,13 +48,3 @@ For **address** verification:
 \* Proof of address (dated within 3 months)
 
 Please note that once the documentation is received it will take approximately 72 hours to validate the information and activate the number for use.
-
----
-
-Related Articles
-
-[Benin DID Requirements](https://support.telnyx.com/en/articles/9959295-benin-did-requirements)[Rwanda DID Requirements](https://support.telnyx.com/en/articles/9961409-rwanda-did-requirements)[Zambia DID Requirements](https://support.telnyx.com/en/articles/10058901-zambia-did-requirements)[Kuwait DID Requirements](https://support.telnyx.com/en/articles/12640555-kuwait-did-requirements)[Oman DID Requirements](https://support.telnyx.com/en/articles/14138528-oman-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

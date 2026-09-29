@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6902981-understanding-sip-pra
 title: "Understanding SIP PRACK Protocol"
 description: "Deep dive into SIP PRACK protocol, its significance, and how Telnyx supports it. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 4514f8763cf3cc74854ce25af41e23f13624e2a1c8558ef2146303320ce641e3
+content_hash: 0875e7b530a24fb5a53617f72e4af48be7677e925513815cd3c6544d769f20d6
 ---
 
 
@@ -51,13 +51,3 @@ In summary, PRACK is a SIP extension used to ensure the reliable delivery of pro
 
 * [DUCKS GO QUACK. SIP GOES PRACK](https://andrewjprokop.wordpress.com/2013/10/02/ducks-go-quack-sip-goes-prack/) by Andrew J Prokop.
 * [What the Prack?!](https://www.youtube.com/watch?v=NCH06mYUajQ) by Lalo Nunez.
-
----
-
-Related Articles
-
-[SIP Trunking - Methods/Requests & Responses](https://support.telnyx.com/en/articles/4304898-sip-trunking-methods-requests-responses)[SIP Registration](https://support.telnyx.com/en/articles/4363904-sip-registration)[SIP Connection: Inbound & Outbound Settings](https://support.telnyx.com/en/articles/4404448-sip-connection-inbound-outbound-settings)[Telnyx SIP Response Codes](https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes)[Grandstream UCM6xxx: SIP Trunks](https://support.telnyx.com/en/articles/5748258-grandstream-ucm6xxx-sip-trunks)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1458084-global-number-types
 title: "Global Number Types"
 description: "Here you will find an explanation of all the different number types that Telnyx offers: local, See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 05a7c55772d31a82d5ce9ff4396a42f8a3472307b50157c77b438e9cea957520
+content_hash: ae79d12ffa683c07c11590b443a148b14e3642213489058f59fcbdd8b94a606f
 ---
 
 
@@ -72,13 +72,3 @@ Concurrently, you will receive an email from Telnyx to let you know that the doc
 To view a list of requirements for the countries we support, **please reference** this [article](https://support.telnyx.com/en/articles/5469551-international-numbers-required-documents).
 
 ---
-
----
-
-Related Articles
-
-[Search and Buy Numbers](https://support.telnyx.com/en/articles/4380325-search-and-buy-numbers)[Find GB Numbers on Telnyx Portal](https://support.telnyx.com/en/articles/5820047-find-gb-numbers-on-telnyx-portal)[International Number Requirements Tool](https://support.telnyx.com/en/articles/7003167-international-number-requirements-tool)[SMS for Ported In Phone Numbers](https://support.telnyx.com/en/articles/7183887-sms-for-ported-in-phone-numbers)[US / CA Toll Free Number Porting](https://support.telnyx.com/en/articles/8673249-us-ca-toll-free-number-porting)
-
-Did this answer your question?
-
-😞😐😃

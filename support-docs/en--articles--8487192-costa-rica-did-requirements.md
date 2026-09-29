@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8487192-costa-rica-did-requir
 title: "Costa Rica DID Requirements"
 description: "Here you will find all of the requirements for purchasing numbers in Costa Rica. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 99fc0f1b7172122ae5c16261a204ac30c204591d3d3ccdb3fdb1df40afe5f4db
+content_hash: 081b49610efafb1f0c39634625f40ad11a1d8d38a24dc97e4c53ed3a7f58bd5f
 ---
 
 
@@ -90,13 +90,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Netherlands DID Requirements](https://support.telnyx.com/en/articles/1311472-netherlands-did-requirements)[Argentina DID Requirements](https://support.telnyx.com/en/articles/3760805-argentina-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Jamaica DID Requirements](https://support.telnyx.com/en/articles/5466658-jamaica-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

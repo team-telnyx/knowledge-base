@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1177115-how-to-setup-a-did-to
 title: "How To Setup A DID to SIP Connection"
 description: "This article explains how to assign a DID to a SIP Connection and expounds on the different DID features in Mission… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 1cbbec2d92f7b93e426533bda893df569e3a278340a3bf0d2dae0db37f24af1d
+content_hash: 9dee810fdc584ca1fac332b20e01c421f38f97dfe46a5fb803220431566191f9
 ---
 
 
@@ -57,13 +57,3 @@ There are 7 different services we offer on DIDs and information on each can be f
 * [Inbound Call Recording](https://support.telnyx.com/en/articles/2807846-bulk-edit-numbers-voice-settings)
 * [HD Voice](https://support.telnyx.com/en/articles/8394071-hd-voice-number-feature)
 * [Inbound Call Screening](https://support.telnyx.com/en/articles/8037040-inbound-call-screening)
-
----
-
-Related Articles
-
-[SIP Connection: Number Formats](https://support.telnyx.com/en/articles/1130706-sip-connection-number-formats)[SIP Connection: Types](https://support.telnyx.com/en/articles/4245868-sip-connection-types)[My Numbers Page](https://support.telnyx.com/en/articles/4349113-my-numbers-page)[SIP Connection: Settings](https://support.telnyx.com/en/articles/4351104-sip-connection-settings)[Telnyx SIP Response Codes](https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes)
-
-Did this answer your question?
-
-😞😐😃

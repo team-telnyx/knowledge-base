@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/10511646-using-telnyx-sim-wit
 title: "Using Telnyx SIM with Teltonika 4G/LTE Routers"
 description: "Configuring Teltonika 4G/LTE Routers involves several key steps to ensure optimal performance and… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 844bb5f582642ea8808bdc6e42ef98cce6e7af56f6a89f6499cb7b824945c939
+content_hash: 5f8f201764b6bdf043cce9b401c8a25d962b2b2dd10c9898dc6a93624d16ac2f
 ---
 
 
@@ -172,13 +172,3 @@ A **cloud-based management platform** by Teltonika that enables:
 
 * Move router to a better location
 * Use external antennas to improve signal gain
-
----
-
-Related Articles
-
-[Using Telnyx SIM with Ubiquiti UniFi LTE Pro](https://support.telnyx.com/en/articles/10164784-using-telnyx-sim-with-ubiquiti-unifi-lte-pro)[Using Telnyx SIM with InRouter300 Series Cellular Routers](https://support.telnyx.com/en/articles/10511105-using-telnyx-sim-with-inrouter300-series-cellular-routers)
-
-Did this answer your question?
-
-😞😐😃

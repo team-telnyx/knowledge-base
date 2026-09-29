@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6986625-easy-text-marketing-a
 title: "Easy Text Marketing and Telnyx Integration"
 description: "Onboarding for Easy Text Marketing (formerly know as Rockstar SMS) SMS customers using Telnyx as their BYOC Carrier. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: c1558adbfdcbab866add42ca5711dd21a76430a43b02bf6b6349f23c1fedbb73
+content_hash: d86254ff6b44852bf6fc1d49090920a65a973096a73e52a61a80efaab2952a2c
 ---
 
 
@@ -84,13 +84,3 @@ If you need sub-accounts or as we call them "Managed Accounts" enabled please re
 For support on the Easy Text Marketing steps please reach out at <https://rockstarsms.app/helpdesk/>
 
 ![RockstarSMS picture. ](_images/0ac9c2a44dca2f3f.png)
-
----
-
-Related Articles
-
-[Forwarding SMS to Your Mobile Number](https://support.telnyx.com/en/articles/3231942-forwarding-sms-to-your-mobile-number)[Telnyx Verify: 2FA made easy](https://support.telnyx.com/en/articles/5701653-telnyx-verify-2fa-made-easy)[Chiro8000 and Telnyx Integration](https://support.telnyx.com/en/articles/7885470-chiro8000-and-telnyx-integration)[How to Configure a SIP Trunk](https://support.telnyx.com/en/articles/8096455-how-to-configure-a-sip-trunk)[Bulk Messaging with Sheets](https://support.telnyx.com/en/articles/8268223-bulk-messaging-with-sheets)
-
-Did this answer your question?
-
-😞😐😃

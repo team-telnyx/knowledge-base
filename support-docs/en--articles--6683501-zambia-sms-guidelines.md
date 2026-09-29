@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6683501-zambia-sms-guidelines
 title: "Zambia: SMS Guidelines"
 description: "SMS Guidelines for Zambia including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Zambia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 6f52c2c50a88d4bd4b86b9fbc59122d1ae715bd72b3571f4df0bfcaeaa0467f6
+content_hash: 357d11dca7f038bc2c4c1f078d0803a49b2721bff940c94708699a29103a7b46
 ---
 
 
@@ -35,13 +35,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Congo: SMS Guidelines](https://support.telnyx.com/en/articles/6661326-congo-sms-guidelines)[Cote d'Ivoire: SMS Guidelines](https://support.telnyx.com/en/articles/6665111-cote-d-ivoire-sms-guidelines)[Guinea: SMS Guidelines](https://support.telnyx.com/en/articles/6671488-guinea-sms-guidelines)[Guinea-Bissau: SMS Guidelines](https://support.telnyx.com/en/articles/6671725-guinea-bissau-sms-guidelines)[Rwanda: SMS Guidelines](https://support.telnyx.com/en/articles/6679407-rwanda-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

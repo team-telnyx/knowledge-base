@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6560909-iceland-sms-guideline
 title: "Iceland: SMS Guidelines"
 description: "SMS Guidelines for Iceland including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Iceland: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: cb2c9051df3ca8988b42358502e644f1f54feb408db50aebcfa1a7332a9f8c75
+content_hash: 91c4fda3963274fdc8787267637b846781ca0be34cb52bdcab233ee5da8ef129
 ---
 
 
@@ -35,13 +35,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on URL whitelisting kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Philippines: SMS Guidelines](https://support.telnyx.com/en/articles/6531682-philippines-sms-guidelines)[Denmark: SMS Guidelines](https://support.telnyx.com/en/articles/6560665-denmark-sms-guidelines)[Norway: SMS Guidelines](https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines)[China: SMS Guidelines](https://support.telnyx.com/en/articles/6601144-china-sms-guidelines)[Mali: SMS Guidelines](https://support.telnyx.com/en/articles/6675247-mali-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

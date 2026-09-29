@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5464057-chile-did-requirement
 title: "Chile DID Requirements"
 description: "Here you will find a detailed list of requirements to acquire numbers in Chile. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: e8415bba9476ad586d0647da7a84f80b40d583fd0734d1591c73244daaa1eca3
+content_hash: d9f4b24ca106187cf7ca39710085d87b3694c6dbdba01f45cb857bfbfb7b949c
 ---
 
 
@@ -122,13 +122,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Peru DID Requirements](https://support.telnyx.com/en/articles/3739545-peru-did-requirements)[Brazil DID Requirements](https://support.telnyx.com/en/articles/5464041-brazil-did-requirements)[Finland DID Requirements](https://support.telnyx.com/en/articles/5465874-finland-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

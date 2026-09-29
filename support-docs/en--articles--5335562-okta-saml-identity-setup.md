@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5335562-okta-saml-identity-se
 title: "Okta: SAML Identity Setup"
 description: "Learn how to set up Okta SAML to utilize Telnyx Portal Single Sign-on capabilities. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: e1bf8b089f00b18fadf1942a84dbedc0f9953a48f81afcd3fe0e91d72d828dae
+content_hash: 5bd78dd9143813e37c03a8494ea05b09f4a97e6c6620dcd2e51418b8b43e0605
 ---
 
 
@@ -156,13 +156,3 @@ Additionally, check out:
 * [Okta discussion forums](https://support.okta.com/help/s/group/CollaborationGroup/Recent?language=en_US)
 * [Okta help and support](https://support.okta.com/help/s/?language=en_US)
 * [Okta developer portal](https://developer.okta.com/)
-
----
-
-Related Articles
-
-[OneLogin: SAML Identity Setup](https://support.telnyx.com/en/articles/5316578-onelogin-saml-identity-setup)[LastPass: SAML Identity Setup](https://support.telnyx.com/en/articles/5341506-lastpass-saml-identity-setup)[Azure AD: SAML Identity Setup](https://support.telnyx.com/en/articles/5355800-azure-ad-saml-identity-setup)[Auth0 SSO Integration With Telnyx](https://support.telnyx.com/en/articles/5355953-auth0-sso-integration-with-telnyx)[GSuite SSO Integration With Telnyx](https://support.telnyx.com/en/articles/5361846-gsuite-sso-integration-with-telnyx)
-
-Did this answer your question?
-
-😞😐😃

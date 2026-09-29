@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6187273-grandstream-gds3710-w
 title: "Grandstream GDS3710: Wave Lite (Android)"
 description: "Learn how to connect the GDS3710 video door system with the Wave Lite app on your Android™ device. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 2c6f2795964b687ad3fb071d7e91af432906ec1a9202b64d9b7c5a73b3ee417c
+content_hash: 43d5af29365c803f7b3919b59411b23d7fa740219965af783c603e85c5394055
 ---
 
 
@@ -175,13 +175,3 @@ Additionally you can check out:
 * [Grandstream FAQ](https://blog.grandstream.com/faq)
 * [Grandstream user forum](https://forums.grandstream.com/)
 * [Helpdesk](https://helpdesk.grandstream.com/)
-
----
-
-Related Articles
-
-[Grandstream GXP21XX](https://support.telnyx.com/en/articles/5819218-grandstream-gxp21xx)[Grandstream Wave Lite (iPhone)](https://support.telnyx.com/en/articles/6184748-grandstream-wave-lite-iphone)[Grandstream Wave Lite (Android)](https://support.telnyx.com/en/articles/6184897-grandstream-wave-lite-android)[Grandstream GDS3710: Wave Lite (iOS)](https://support.telnyx.com/en/articles/6187411-grandstream-gds3710-wave-lite-ios)[Grandstream GXV3370](https://support.telnyx.com/en/articles/6187576-grandstream-gxv3370)
-
-Did this answer your question?
-
-😞😐😃

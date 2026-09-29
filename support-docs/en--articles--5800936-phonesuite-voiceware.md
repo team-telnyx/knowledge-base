@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5800936-phonesuite-voiceware
 title: "PhoneSuite Voiceware"
 description: "Learn how to configure a SIP trunk in PhoneSuite's Voiceware suite and connect it to Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 94099a5178432a48ef6a8d2bc6d1de52023a4b064e1edacaef86e7edac7b445b
+content_hash: 6d1b13fb423ab32f1ea39937e37575db9bb93b1146d7cb6e5ede78b4e99aef1d
 ---
 
 
@@ -98,13 +98,3 @@ That's it! You've now configured a SIP trunk in PhoneSuite Voiceware and connect
 Additionally, check out:
 
 * [PhoneSuite inquiries](https://phonesuite.com/lets-get-started/)
-
----
-
-Related Articles
-
-[Grandstream UCM6xxx: SIP Trunks](https://support.telnyx.com/en/articles/5748258-grandstream-ucm6xxx-sip-trunks)[Wildix: SIP Trunk Setup](https://support.telnyx.com/en/articles/5799830-wildix-sip-trunk-setup)[ScopTEL IP PBX](https://support.telnyx.com/en/articles/5803103-scoptel-ip-pbx)[Grandstream GXV3370](https://support.telnyx.com/en/articles/6187576-grandstream-gxv3370)[Fanvil H2U: Compact IP](https://support.telnyx.com/en/articles/6202755-fanvil-h2u-compact-ip)
-
-Did this answer your question?
-
-😞😐😃

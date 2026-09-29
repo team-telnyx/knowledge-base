@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/2054704-fastport-faqs
 title: "FastPort® FAQs"
 description: "Here you will find answers and resources to some frequently asked questions about FastPort®. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 04ebad4fdc85194bfbbebba8e21496fa0f0ea2f47af4b99b7609d7b440a18069
+content_hash: 44b70f579fee0817a46a988606cb2bbcc6cae2134372d3262d6745bf6d699596
 ---
 
 
@@ -64,13 +64,3 @@ Depending on the option you select your port request can activate in 1 of 2 ways
 2. If you chose **Schedule**, your numbers will automatically activate at the specified date and time that you selected. If you wish to change the activation time or date to another time within the activation window, please select the *Reschedule Activation* button with the port request.
 
 ##
-
----
-
-Related Articles
-
-[Port-In Best Practices](https://support.telnyx.com/en/articles/2030770-port-in-best-practices)[New Zealand Number Porting](https://support.telnyx.com/en/articles/3267206-new-zealand-number-porting)[Port Request Statuses](https://support.telnyx.com/en/articles/3284588-port-request-statuses)[Using Telnyx FastPort](https://support.telnyx.com/en/articles/3561993-using-telnyx-fastport)[US / CA Toll Free Number Porting](https://support.telnyx.com/en/articles/8673249-us-ca-toll-free-number-porting)
-
-Did this answer your question?
-
-😞😐😃

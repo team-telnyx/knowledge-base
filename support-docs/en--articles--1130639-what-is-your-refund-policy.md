@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130639-what-is-your-refund-p
 title: "What is your refund policy?"
 description: "Here we explain our refund policy and how to request one if necessary. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 0a40baec5893c6c087b4c0032b4dc1fe145dc3a7032ee6263809d2ef0115705c
+content_hash: a78a968dc6e6e534f987af94b9211966fdd5abd182c1e8ab56729413c2668de9
 ---
 
 
@@ -28,13 +28,3 @@ Any funds left in your account that do not match the above criteria can be refun
 ## Pay-as-you-go Refund Policy
 
 Please note, we offer our services via a pay-as-you-go model so we will not be able to refund charges billed for services already used.
-
----
-
-Related Articles
-
-[Port Request Rejected](https://support.telnyx.com/en/articles/1782930-port-request-rejected)[Billing Setup & Billing Groups](https://support.telnyx.com/en/articles/4280500-billing-setup-billing-groups)[Bug Reports Guide](https://support.telnyx.com/en/articles/4283906-bug-reports-guide)[Managed Accounts](https://support.telnyx.com/en/articles/4951492-managed-accounts)[Bitcoin Payment Method](https://support.telnyx.com/en/articles/8379618-bitcoin-payment-method)
-
-Did this answer your question?
-
-😞😐😃

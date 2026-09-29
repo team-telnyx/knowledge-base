@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130715-register-multiple-dev
 title: "Register multiple devices on one Connection"
 description: "Need to register multiple devices to a single SIP connection? See Telnyx guidance and requirements Learn more about Register multiple devices on one Connection."
 scraped: 2026-07-08
-content_hash: 6e5e7522f82c82f4e181a1d36ef99eb765ba03f0b6911e5b6bff44e80f4a84a0
+content_hash: 2030762681c552d2fa5c66f1756d300e65c1824ebf9aa1cbb0e647d592827d8e
 ---
 
 
@@ -28,13 +28,3 @@ Please note the example below as there is a limitation:
 If you create a credentials based connection, you can register it to any device but only one device can be actively registered at any one time.
 ​
 If I register my connection to an IP phone in my office but then leave and register my connection to a softphone application while on the go, then calls will only come and go from the softphone and not to the IP phone as it is now an unregistered device.
-
----
-
-Related Articles
-
-[SIP URI Calling](https://support.telnyx.com/en/articles/2925713-sip-uri-calling)[Algo 8xxx: Telnyx Endpoints](https://support.telnyx.com/en/articles/5790092-algo-8xxx-telnyx-endpoints)[PhoneSuite Voiceware](https://support.telnyx.com/en/articles/5800936-phonesuite-voiceware)[Grandstream GXV3370](https://support.telnyx.com/en/articles/6187576-grandstream-gxv3370)[How to Configure a SIP Trunk](https://support.telnyx.com/en/articles/8096455-how-to-configure-a-sip-trunk)
-
-Did this answer your question?
-
-😞😐😃

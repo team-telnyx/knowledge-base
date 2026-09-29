@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5701653-telnyx-verify-2fa-mad
 title: "Telnyx Verify: 2FA made easy"
 description: "This article describes what is and how to get started with Telnyx… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: b5250f9d420256a9198450965d469ae3090fda76daa52db2a7d633b806d8941d
+content_hash: 30338d8c9e0fab009ccd504da9a23d52e3a8ad060ea495125b9617945ec7df4e
 ---
 
 
@@ -122,13 +122,3 @@ Current Verify pricing is available here:
 ## Need help?
 
 If you have questions about configuring Telnyx Verify, contact Telnyx Support at [support@telnyx.com](mailto:support@telnyx.com) with your Verify Profile ID, the channel you are using, the request timestamp, and any error response returned by the API.
-
----
-
-Related Articles
-
-[Introducing the Verify API](https://support.telnyx.com/en/articles/5367966-introducing-the-verify-api)[Verified Numbers](https://support.telnyx.com/en/articles/6988813-verified-numbers)[Telnyx Networking on Ubuntu](https://support.telnyx.com/en/articles/8104274-telnyx-networking-on-ubuntu)[How to Verify Phone Numbers behind an IVR](https://support.telnyx.com/en/articles/12386088-how-to-verify-phone-numbers-behind-an-ivr)[Bot-to-Bot Support API: Ask Telnyx Knowledge Agent](https://support.telnyx.com/en/articles/15455646-bot-to-bot-support-api-ask-telnyx-knowledge-agent)
-
-Did this answer your question?
-
-😞😐😃

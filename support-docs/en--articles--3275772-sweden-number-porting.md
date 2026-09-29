@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3275772-sweden-number-porting
 title: "Sweden Number Porting"
 description: "Here you will find detailed requirements for Sweden number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 2081ad7083c6d94cbdca622fa6c4d39f0143a3d7d47c145d447ecec7262437a5
+content_hash: 7c21e49d827e4a1624451238fb8b04bd8dad14bef7f5b5e8fd2e42b893c06568
 ---
 
 
@@ -28,13 +28,3 @@ Here you will find detailed requirements for Sweden number portability. See Teln
 ## Download the Sweden Letter of Authorization
 
 Download LoA **[here](https://assets.ctfassets.net/taysl255dolk/6YYtHkPiDoOfhR8Vp3QxUz/3f7b77cf78ecdebe280c6c0226ac12ea/LoA_-_Telnyx_-_INTL.pdf)**.
-
----
-
-Related Articles
-
-[Belgium Number porting](https://support.telnyx.com/en/articles/3266421-belgium-number-porting)[Denmark Number Porting](https://support.telnyx.com/en/articles/3266720-denmark-number-porting)[Italy Number Porting](https://support.telnyx.com/en/articles/3267012-italy-number-porting)[Switzerland Number Porting](https://support.telnyx.com/en/articles/3267626-switzerland-number-porting)[Portugal Number porting](https://support.telnyx.com/en/articles/5120062-portugal-number-porting)
-
-Did this answer your question?
-
-😞😐😃

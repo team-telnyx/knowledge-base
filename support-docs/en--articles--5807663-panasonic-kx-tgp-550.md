@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5807663-panasonic-kx-tgp-550
 title: "Panasonic KX-TGP 550"
 description: "Learn how to set up the Panasonic KX-TGP 550 phone and configure it to work with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 64e6002569e983a88bc9d4962a6947b33f45a87353e3c06e0fbee67009e06a4d
+content_hash: 1a7c9ec2f09dcb90c077e10e253acb328b5c706e6ae21eac83aebded4ce85b41
 ---
 
 
@@ -135,13 +135,3 @@ Review our [getting started with guide](https://support.telnyx.com/en/articles/1
 Additionally, check out:
 
 * [KX-TGP 550 support](https://www.panasonic.com/in/support/phones-communication.html)
-
----
-
-Related Articles
-
-[Konftel 300Wx: Telnyx Setup](https://support.telnyx.com/en/articles/5807979-konftel-300wx-telnyx-setup)[Flyingvoice: Telnyx Setup](https://support.telnyx.com/en/articles/5810663-flyingvoice-telnyx-setup)[Panasonic KX-HDV: Telnyx setup](https://support.telnyx.com/en/articles/5814406-panasonic-kx-hdv-telnyx-setup)[Gigaset A510: Telnyx Setup](https://support.telnyx.com/en/articles/5815209-gigaset-a510-telnyx-setup)[Mitel: 5320E/5330E/5340E SIP](https://support.telnyx.com/en/articles/6244551-mitel-5320e-5330e-5340e-sip)
-
-Did this answer your question?
-
-😞😐😃

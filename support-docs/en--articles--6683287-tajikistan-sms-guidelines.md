@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6683287-tajikistan-sms-guidel
 title: "Tajikistan: SMS Guidelines"
 description: "Sending SMS to Tajikistan? See Telnyx guidance and requirements Learn more about Tajikistan: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 6860d8c0cad488f3b3138c181fbc7a8b2e2c0c99084881382ea951b7db90c3ac
+content_hash: 06faef5dae25c19631ba4bb5946083e8cde3c63d132acf3a6ce2965d7274eac7
 ---
 
 
@@ -59,13 +59,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Greece: SMS Guidelines](https://support.telnyx.com/en/articles/6563817-greece-sms-guidelines)[Burundi: SMS Guidelines](https://support.telnyx.com/en/articles/6601042-burundi-sms-guidelines)[Jordan: SMS Guidelines](https://support.telnyx.com/en/articles/6674487-jordan-sms-guidelines)[Malawi: SMS Guidelines](https://support.telnyx.com/en/articles/6675104-malawi-sms-guidelines)[Syria: SMS Guidelines](https://support.telnyx.com/en/articles/6680256-syria-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

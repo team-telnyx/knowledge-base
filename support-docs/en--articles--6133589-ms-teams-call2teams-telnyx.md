@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6133589-ms-teams-call2teams-t
 title: "MS Teams: Call2Teams & Telnyx"
 description: "Learn how to set up and configure Call2Teams and connect Microsoft Teams to a PBX/SIP trunk. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 8c4af8388c31a742ff556bcb846af12cfc4b003138588e3ec5876aaef86db615
+content_hash: 35f7b49faa2f9737d2839b1b88493a5a5ba0840516f96941cf0330bb9702247e
 ---
 
 
@@ -166,13 +166,3 @@ Additionally, check out:
 * Call2Teams support (partner login required)
 
 ---
-
----
-
-Related Articles
-
-[Configuring Telnyx with Microsoft Teams Direct Routing](https://support.telnyx.com/en/articles/5253876-configuring-telnyx-with-microsoft-teams-direct-routing)[PBXes: Connecting a PBXes Trunk to Telnyx](https://support.telnyx.com/en/articles/5798240-pbxes-connecting-a-pbxes-trunk-to-telnyx)[Wildix: SIP Trunk Setup](https://support.telnyx.com/en/articles/5799830-wildix-sip-trunk-setup)[Fanvil A32i: Telnyx Setup](https://support.telnyx.com/en/articles/6056428-fanvil-a32i-telnyx-setup)[BYOC: Telnyx & Genesys](https://support.telnyx.com/en/articles/8268122-byoc-telnyx-genesys)
-
-Did this answer your question?
-
-😞😐😃

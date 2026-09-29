@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4215031-ribbon-edgemarc-6000-
 title: "Ribbon: EdgeMarc 6000 Setup"
 description: "Learn how to configure the Ribbon:EdgeMarc SBC with Telnyx - Master your config with this guide. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: fa885e15ed84df8d8ea129722211aa2424781218abdc297a3ee4c90c0b8e477d
+content_hash: 1a253b7aab5202139f32795394abe687abc38ed9bc2cf5a3af985ff5c874b8c4
 ---
 
 
@@ -152,13 +152,3 @@ Additionally, check out:
 * [EdgeMarc VoIP settings overview](https://rbbn.my.site.com/Partners/login)
 
 ---
-
----
-
-Related Articles
-
-[Grandstream UMC6202: Auth Setup](https://support.telnyx.com/en/articles/1295514-grandstream-umc6202-auth-setup)[Sansay: SBC VSXi Setup](https://support.telnyx.com/en/articles/4301888-sansay-sbc-vsxi-setup)[Yeastar S-Series: Telnyx SIP](https://support.telnyx.com/en/articles/5748952-yeastar-s-series-telnyx-sip)[Xorcom PBX: SIP Trunk](https://support.telnyx.com/en/articles/5754127-xorcom-pbx-sip-trunk)[How to configure Yeastar P-series](https://support.telnyx.com/en/articles/13375115-how-to-configure-yeastar-p-series)
-
-Did this answer your question?
-
-😞😐😃

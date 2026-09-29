@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8037040-inbound-call-screenin
 title: "Inbound Call Screening"
 description: "Protect your business from unwanted spam calls with Inbound Call Screening. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 930c92a22e0652237a9926cb9edd07eb0aeb38ab85b2e1bd5e52ec0ede386686
+content_hash: 436f3fb03909fa342fd34d8d3053cc72af65ae1227d66237e00a757f8f41a858
 ---
 
 
@@ -164,13 +164,3 @@ Webhooks provide real-time notifications and detailed insights into the call scr
    "record_type":"event"
 }
 ```
-
----
-
-Related Articles
-
-[Configuring Call Control/TeXML Applications - Voice API](https://support.telnyx.com/en/articles/4374050-configuring-call-control-texml-applications-voice-api)[SIP Connection: Inbound & Outbound Settings](https://support.telnyx.com/en/articles/4404448-sip-connection-inbound-outbound-settings)[Canadian STIR/SHAKEN Implementation FAQs](https://support.telnyx.com/en/articles/5761463-canadian-stir-shaken-implementation-faqs)[Making Calls with Branded Calling](https://support.telnyx.com/en/articles/15138152-making-calls-with-branded-calling)[Understanding SIP 603+ carrier rejections](https://support.telnyx.com/en/articles/15395095-understanding-sip-603-carrier-rejections)
-
-Did this answer your question?
-
-😞😐😃

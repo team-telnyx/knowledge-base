@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3267816-united-states-number-
 title: "United States Number Porting"
 description: "Here you will find a detailed list of requirements for United States number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: aecebd9dc3e233a36036aff60e75d9a30be1438113eafb31fde19e691b505344
+content_hash: 2858e6775ab2dc011313aaa1077ec2821d7f6d8808c221998cc0547c32298924
 ---
 
 
@@ -59,13 +59,3 @@ Explore the essential [requirements for successful number porting](https://suppo
 
 Examine best practices for effectively [contacting Telnyx's porting support](https://support.telnyx.com/en/articles/5820338-best-practices-for-contacting-porting) to facilitate clear communication and swift issue resolution in US.
 ​
-
----
-
-Related Articles
-
-[Canada Number Porting](https://support.telnyx.com/en/articles/3266430-canada-number-porting)[Norway Number Porting](https://support.telnyx.com/en/articles/5188563-norway-number-porting)[Albania Number Porting](https://support.telnyx.com/en/articles/5190443-albania-number-porting)[Malta Number Porting](https://support.telnyx.com/en/articles/5190478-malta-number-porting)[Turkey Number Porting](https://support.telnyx.com/en/articles/6138781-turkey-number-porting)
-
-Did this answer your question?
-
-😞😐😃

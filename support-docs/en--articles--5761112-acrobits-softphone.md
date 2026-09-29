@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5761112-acrobits-softphone
 title: "Acrobits Softphone"
 description: "Learn how to configure Acrobits Softphone or Acrobits Groundwire to use Telnyx for voice calling. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 9ffa07f57a889ceeeaa2908348892ea23ff94776bfbe1eb970ab44cecca9ab00
+content_hash: 0986b0155f25449c4832de917933006a3e8739ebecd3e7f482653c9414d87610
 ---
 
 
@@ -115,13 +115,3 @@ Additionally, check out:
 * [What can I do with Acrobits?](https://acrobits.net/features/)
 * [Build your own low-code app with cloud softphone](https://acrobits.net/cloud-softphone/)
 * [Acrobits SDK](https://acrobits.net/acrobits-sdk/)
-
----
-
-Related Articles
-
-[Configuring Linphone with Telnyx](https://support.telnyx.com/en/articles/1130674-configuring-linphone-with-telnyx)[BuddyTalk BT110/BT120](https://support.telnyx.com/en/articles/5808185-buddytalk-bt110-bt120)[MicroSIP: Setup with Telnyx](https://support.telnyx.com/en/articles/6133145-microsip-setup-with-telnyx)[Grandstream Wave Lite (iPhone)](https://support.telnyx.com/en/articles/6184748-grandstream-wave-lite-iphone)[Grandstream Wave Lite (Android)](https://support.telnyx.com/en/articles/6184897-grandstream-wave-lite-android)
-
-Did this answer your question?
-
-😞😐😃

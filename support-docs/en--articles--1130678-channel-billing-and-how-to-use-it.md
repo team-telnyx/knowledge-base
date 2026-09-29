@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130678-channel-billing-and-h
 title: "Channel Billing and how to use it"
 description: "Learn how Telnyx channel billing works with a few detailed example scenarios. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 1558c1f5ef26aeb333f36667a80e2b63ee1bb702aa952a162e6c0066ff04c65e
+content_hash: 98a99322eacb9f2b02fc55b25925a1701592c1466f81e1f27f4fd4bee61d4d71
 ---
 
 
@@ -75,13 +75,3 @@ Setting up channel billing on the Telnyx Mission Control portal is super easy. O
 5. Share channels across multiple numbers by enabling the channel billing method for all the numbers you'd like
 
 Just like that, you're all setup with channel billing!
-
----
-
-Related Articles
-
-[Global Number Types](https://support.telnyx.com/en/articles/1458084-global-number-types)[Telnyx Dashboards](https://support.telnyx.com/en/articles/4307059-telnyx-dashboards)[SIP Connection: Inbound & Outbound Settings](https://support.telnyx.com/en/articles/4404448-sip-connection-inbound-outbound-settings)[Telnyx SIP Response Codes](https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes)[Channel Billing](https://support.telnyx.com/en/articles/8428806-channel-billing)
-
-Did this answer your question?
-
-😞😐😃

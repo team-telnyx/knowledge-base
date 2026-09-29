@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8268648-webhook-issue-ca-erro
 title: "Webhook Issue: CA Error"
 description: "Join Telnyx's Reseller Program. See Telnyx guidance and requirements Learn more about Webhook Issue: CA Error with Telnyx."
 scraped: 2026-07-08
-content_hash: 33f2a911f356445a83cfd50c5edc338ef9247777c8cbf29a8763ed2b29a74989
+content_hash: 65a19e0026b04ac532d2e4462667f42a1e071dc82f5edee72cb307b944384b0a
 ---
 
 
@@ -34,13 +34,3 @@ or
 (b) use http instead of https
 ​
 ​[More about Certificate Authority.](https://support.telnyx.com/en/articles/7984783-certificate-error-api-telnyx-com)
-
----
-
-Related Articles
-
-[How to Leverage Webhooks](https://support.telnyx.com/en/articles/4334722-how-to-leverage-webhooks)[Certificate Error: api.telnyx.com](https://support.telnyx.com/en/articles/7984783-certificate-error-api-telnyx-com)
-
-Did this answer your question?
-
-😞😐😃

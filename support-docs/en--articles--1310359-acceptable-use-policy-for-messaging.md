@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1310359-acceptable-use-policy
 title: "Acceptable Use Policy for Messaging"
 description: "In this article we will restricted message types and campaigns so you can make sure to avoid issues when sending… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 5e8e1cf8aa10a3e34339535088e67de5170094bfa9d4b7fe2d7fffe43bba081e
+content_hash: 1a0db1705b762bfb082368be513b2b8a8cbd9c2c1f2e02a7e0080851b088955a
 ---
 
 
@@ -96,13 +96,3 @@ The full text of this law and its accompanying regulations can be [found here](h
 
 CTIA’s [Messaging Principles and Best Practices](https://api.ctia.org/docs/default-source/default-document-library/170119-ctia-messaging-principles-and-best-practices.pdf) offers a set of recommendations developed with wireless messaging ecosystem stakeholders to support a robust and dynamic wireless messaging community.
 ​
-
----
-
-Related Articles
-
-[SMS Long Code Deliverability Best Practices](https://support.telnyx.com/en/articles/1130617-sms-long-code-deliverability-best-practices)[Toll-Free Messaging](https://support.telnyx.com/en/articles/5353868-toll-free-messaging)[Telnyx Messaging Error Codes](https://support.telnyx.com/en/articles/6505121-telnyx-messaging-error-codes)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/15138019-toll-free-carrier-re
 title: "Toll-Free Carrier Rejections"
 description: "This article will emphasise the meaning of carrier rejection responses on Toll-Free submissions and how to handle them. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: df45572e64c38b757af3a9fa4d5a3bb8fbba6f1a1e377d23e0501c4817eabbb7
+content_hash: a95cb3868f8bab9bb90d3e702f34a6947dff23168c32bce9579271677d4e3df7
 ---
 
 
@@ -173,13 +173,3 @@ This article will emphasise the meaning of carrier rejection responses on Toll-F
 -Solution: Update website and resubmit.
 
 Please email [tfverification@telnyx.com](mailto:tfverification@telnyx.com) for any questions.
-
----
-
-Related Articles
-
-[Toll-Free Messaging](https://support.telnyx.com/en/articles/5353868-toll-free-messaging)[Iraq: SMS Guidelines](https://support.telnyx.com/en/articles/6589557-iraq-sms-guidelines)[Syria: SMS Guidelines](https://support.telnyx.com/en/articles/6680256-syria-sms-guidelines)[Toll Free Verification Request Guide](https://support.telnyx.com/en/articles/10729979-toll-free-verification-request-guide)[Compliance Catch-up: Why Toll-Free Verification Now Mirrors 10DLC](https://support.telnyx.com/en/articles/13765655-compliance-catch-up-why-toll-free-verification-now-mirrors-10dlc)
-
-Did this answer your question?
-
-😞😐😃

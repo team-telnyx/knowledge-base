@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/9260287-key-configuration-not
 title: "Key Configuration Notes for Noise Suppression"
 description: "Learn how to implement and manage Noise Suppression with a guide on key configuration options. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f7b2a3f2c1ae9c4b76c0ff5b5ee0cd24e2d12e48928042f59228168ddb8d549c
+content_hash: 0b28f76ef6811bec238ed1beed42818b3547c0b84faa28d2f7674e8d6a1782ef
 ---
 
 
@@ -126,13 +126,3 @@ Purpose-built for machine consumers, STT pipelines and Voice AI agents. Preserve
 
 * [Telnyx SIP Trunking Configurations](https://support.telnyx.com/en/collections/3968237-telnyx-sip-trunking-configurations)
 * [Voice API: Noise Suppression](https://developers.telnyx.com/docs/voice/programmable-voice/noise-suppression)
-
----
-
-Related Articles
-
-[Configuring a Cisco CUBE/CUCM IP Trunk](https://support.telnyx.com/en/articles/1130606-configuring-a-cisco-cube-cucm-ip-trunk)[Cisco: Configure a Cisco CME IP Trunk](https://support.telnyx.com/en/articles/1130612-cisco-configure-a-cisco-cme-ip-trunk)[Configuring a Cisco CME Credentials Trunk](https://support.telnyx.com/en/articles/1130668-configuring-a-cisco-cme-credentials-trunk)[Configuring a Cisco CUBE/CUCM SIP Trunk](https://support.telnyx.com/en/articles/1130673-configuring-a-cisco-cube-cucm-sip-trunk)[Wildix: SIP Trunk Setup](https://support.telnyx.com/en/articles/5799830-wildix-sip-trunk-setup)
-
-Did this answer your question?
-
-😞😐😃

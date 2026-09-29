@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6680103-singapore-sms-guideli
 title: "Singapore: SMS Guidelines"
 description: "Sending SMS to Singapore? See Telnyx guidance and requirements Learn more about Singapore: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: c89b72a06cbfc1504659f41c47762e9c49993a8d463b6ede260eac72b0a10d98
+content_hash: 3c6db19323c112d318106a11b3dbbf3fd9ef944eb57bbf079e66ec70cc1c394f
 ---
 
 
@@ -45,13 +45,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alphanumeric Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Greece: SMS Guidelines](https://support.telnyx.com/en/articles/6563817-greece-sms-guidelines)[Turkey: SMS Guidelines](https://support.telnyx.com/en/articles/6564056-turkey-sms-guidelines)[Burundi: SMS Guidelines](https://support.telnyx.com/en/articles/6601042-burundi-sms-guidelines)[Jordan: SMS Guidelines](https://support.telnyx.com/en/articles/6674487-jordan-sms-guidelines)[Tajikistan: SMS Guidelines](https://support.telnyx.com/en/articles/6683287-tajikistan-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6683745-serbia-sms-guidelines
 title: "Serbia: SMS Guidelines"
 description: "Sending SMS to Serbia? See Telnyx guidance and requirements Learn more about Serbia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 2ebb0702b09c592fd8e23cf7774f5c9965f0dfb8463aca962bf31361d00a24d2
+content_hash: 83c7775a32270d01d6a67105799b6ed1d54082e5794b10ea2f38ee38af0d7a9a
 ---
 
 
@@ -35,13 +35,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Benin: SMS Guidelines](https://support.telnyx.com/en/articles/6596235-benin-sms-guidelines)[Egypt: SMS Guidelines](https://support.telnyx.com/en/articles/6670411-egypt-sms-guidelines)[Ghana: SMS Guidelines](https://support.telnyx.com/en/articles/6670870-ghana-sms-guidelines)[Sudan: SMS Guidelines](https://support.telnyx.com/en/articles/6680225-sudan-sms-guidelines)[Uganda: SMS Guidelines](https://support.telnyx.com/en/articles/6683433-uganda-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

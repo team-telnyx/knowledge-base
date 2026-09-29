@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5733572-mediatrix-c7-4100-tel
 title: "Mediatrix C7/4100: Telnyx Setup"
 description: "Learn how to connect and configure your Mediatrix C7 or Mediatrix 4100 to work with your Telnyx Mission Control Portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 96d3f11a420b809ca410ddb08be9b8ac194875b387ddadfe16800ae32c3d698f
+content_hash: 6ccd0f99d076a95e42bcd38ea30be96f7c095ca27c0f955a51f4f2a8f4fa3fef
 ---
 
 
@@ -248,13 +248,3 @@ That's it, you've now completed the configuration of your Mediatrix C7/4100 devi
 Review our [getting started guide](https://support.telnyx.com/en/articles/1176636-get-started-with-a-mission-control-account) to make sure your Telnyx Mission Control Portal account is set up correctly.
 
 Check out the [Mediatrix](https://documentation.media5corp.com/pages/viewpage.action?pageId=16547905) technical documentation.
-
----
-
-Related Articles
-
-[Grandstream HT802: Telnyx Setup](https://support.telnyx.com/en/articles/5725071-grandstream-ht802-telnyx-setup)[Flyingvoice: Telnyx Setup](https://support.telnyx.com/en/articles/5810663-flyingvoice-telnyx-setup)[Panasonic KX-HDV: Telnyx setup](https://support.telnyx.com/en/articles/5814406-panasonic-kx-hdv-telnyx-setup)[Gigaset A510: Telnyx Setup](https://support.telnyx.com/en/articles/5815209-gigaset-a510-telnyx-setup)[Snom C520: Telnyx Setup](https://support.telnyx.com/en/articles/5815678-snom-c520-telnyx-setup)
-
-Did this answer your question?
-
-😞😐😃

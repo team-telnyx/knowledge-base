@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/10067533-manual-esim-activati
 title: "Manual eSIM activation guide"
 description: "How to activate your eSIM without a QR code. See Telnyx guidance and requirements Learn more about Manual eSIM activation guide with Telnyx."
 scraped: 2026-07-08
-content_hash: f76e95eafd994c4fa390b7dda2873bdad699ab42762529a04dd543a2c7117a8d
+content_hash: 6bb7c9fab36fb9c720f03b90b869e1b26440f6ba8db43650a77d2fc138e70193
 ---
 
 
@@ -95,13 +95,3 @@ The matching ID is a unique code that identifies an eSIM on an SM-DP+ server. Th
 During activation, the SM-DP+ address is used by the device to locate and connect to the SM-DP+ server that manages eSIM profiles. The device requests the necessary data from the server, and once verified, the server authorizes the eSIM profile download.
 
 ​
-
----
-
-Related Articles
-
-[Mediatrix C7/4100: Telnyx Setup](https://support.telnyx.com/en/articles/5733572-mediatrix-c7-4100-telnyx-setup)[Grandstream DP752](https://support.telnyx.com/en/articles/5808368-grandstream-dp752)[Telnyx Messaging Error Codes](https://support.telnyx.com/en/articles/6505121-telnyx-messaging-error-codes)[How to setup a Telnyx eSIM via QR code](https://support.telnyx.com/en/articles/8117401-how-to-setup-a-telnyx-esim-via-qr-code)[Using Telnyx SIM with Teltonika 4G/LTE Routers](https://support.telnyx.com/en/articles/10511646-using-telnyx-sim-with-teltonika-4g-lte-routers)
-
-Did this answer your question?
-
-😞😐😃

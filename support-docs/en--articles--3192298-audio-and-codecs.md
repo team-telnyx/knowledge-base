@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3192298-audio-and-codecs
 title: "Audio and Codecs"
 description: "Here we will explain session description protocol and how you can utilize them for your business. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 7e122b06011ebe8933ce53df1f692594fa0441fc5a8575043a6b7e9b97ebd314
+content_hash: 484fd499a3e1904c12a5aeedf2cb8652c9445f4f1cd513a602251cb2ab626340
 ---
 
 
@@ -192,13 +192,3 @@ Telnyx does not support any other ptimes and if you specify any other ptime, you
 We've discussed a high level overview of the session description protocol along with codecs that Telnyx supports. This information should provide you with a good solid foundation that you can work from, especially when it comes to debugging any SIP or audio quality issues. Some special notes were included, especially around the disadvantages of using certain codecs over fax or dtmf.
 ​
 If you have anymore questions, please feel free to reach out to our NOC team!
-
----
-
-Related Articles
-
-[Configuring a Cisco CUBE/CUCM IP Trunk](https://support.telnyx.com/en/articles/1130606-configuring-a-cisco-cube-cucm-ip-trunk)[Cisco: Configure a Cisco CME IP Trunk](https://support.telnyx.com/en/articles/1130612-cisco-configure-a-cisco-cme-ip-trunk)[Configuring a Cisco CME Credentials Trunk](https://support.telnyx.com/en/articles/1130668-configuring-a-cisco-cme-credentials-trunk)[Configuring a Cisco CUBE/CUCM SIP Trunk](https://support.telnyx.com/en/articles/1130673-configuring-a-cisco-cube-cucm-sip-trunk)[What is DTMF? and how to configure it on Telnyx](https://support.telnyx.com/en/articles/1130710-what-is-dtmf-and-how-to-configure-it-on-telnyx)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8268276-loa-template-download
 title: "LOA Template Download"
 description: "Learn how to create a PDF in Node.js for Telnyx Porting LOA API. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 90a64cd8661cca0a79b763d35fff23021b632f8426f2c0642484b6fb537c2070
+content_hash: 07656135d28742732ad8c3c7aa28cd96f7c41c9b0c92c16afe7e60677329c4d7
 ---
 
 
@@ -30,13 +30,3 @@ If you need to use the Telnyx API capabilities for porting then you will need to
 ```
 'use strict' const Fs = require('fs') const Path = require('path') const Axios = require('axios') async function downloadPDF () { const url = 'https://api.telnyx.com/v2/porting_orders/{porting_id}/loa_template' const path = Path.resolve(__dirname, `test.pdf`) const writer = Fs.createWriteStream(path) const response = await Axios({ url, method: 'GET', responseType: 'stream', headers: { "Content-Type": "application/json", Accept: "application/json", Authorization:"Bearer API_KEY", } }) // console.log(response.data); response.data.pipe(writer) return new Promise((resolve, reject) => { writer.on('finish', resolve) writer.on('error', reject) }) } downloadPDF()
 ```
-
----
-
-Related Articles
-
-[3CX: Configuring a 3CX V20 PBX 20.0 Update 5 (Build 20.0.5.551) (March 2025 Update)](https://support.telnyx.com/en/articles/8683996-3cx-configuring-a-3cx-v20-pbx-20-0-update-5-build-20-0-5-551-march-2025-update)
-
-Did this answer your question?
-
-😞😐😃

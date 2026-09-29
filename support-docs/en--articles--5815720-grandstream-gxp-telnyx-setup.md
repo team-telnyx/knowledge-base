@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5815720-grandstream-gxp-telny
 title: "Grandstream GXP: Telnyx Setup"
 description: "Learn how to set up and configure a Grandstream GXP1630/GXP2135 IP Phone and connect it to your Telnyx account. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 236f0084778cd8042d186a4be6accb492a7c6c9cae011f1912d457c155f1f8f4
+content_hash: f68adee3daed7d29eed7ff3a7d48b6636a5c7f54cebdb0a2e0950fb0c2611d3f
 ---
 
 
@@ -147,13 +147,3 @@ Additionally, check out:
 * [GXP2135 product documentation](https://www.grandstream.com/hubfs/Product_Documentation/gxp21xx_user_guide.pdf)
 * [GXP2135 user manual](https://www.grandstream.com/hubfs/Product_Documentation/gxp2130_gxp2140_gxp2160_gxp2135_gxp2170_quick_user_guide_english..pdf)
 * [GXP2135 admin manual](https://www.grandstream.com/hubfs/Product_Documentation/gxp21xx_administration_guide.pdf)
-
----
-
-Related Articles
-
-[Configuring Grandstream GXP16XX with Telnyx](https://support.telnyx.com/en/articles/1130660-configuring-grandstream-gxp16xx-with-telnyx)[Grandstream: IP Auth Setup](https://support.telnyx.com/en/articles/2950523-grandstream-ip-auth-setup)[Grandstream HT802: Telnyx Setup](https://support.telnyx.com/en/articles/5725071-grandstream-ht802-telnyx-setup)[Grandstream GXP21XX](https://support.telnyx.com/en/articles/5819218-grandstream-gxp21xx)[Grandstream GXP1700: SIP Trunk](https://support.telnyx.com/en/articles/6184520-grandstream-gxp1700-sip-trunk)
-
-Did this answer your question?
-
-😞😐😃

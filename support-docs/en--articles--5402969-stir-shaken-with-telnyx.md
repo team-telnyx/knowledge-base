@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5402969-stir-shaken-with-teln
 title: "STIR/SHAKEN With Telnyx"
 description: "SHAKEN/STIR is an authentication framework that aims to curb the robocall trend. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 8c2fe3385a179f19439ad85e35c843053c52177d9b68d2867c369d75c40fe2cb
+content_hash: 147038e823dd441202fdfc9523cb9ba7237ef228d307cab7233564f7bf211585
 ---
 
 
@@ -92,13 +92,3 @@ The reason for this is to prevent packet fragmentation and call completion issue
 ![Breaking Line](_images/682991ade0be9812.png)
 
 ## If you have any further questions regarding the STIR/SHAKEN infrastructure and what it means, do not hesitate to reach out to [support@telnyx.com](mailto:support@telnyx.com)
-
----
-
-Related Articles
-
-[Robocall Mitigation Database](https://support.telnyx.com/en/articles/5544430-robocall-mitigation-database)[Canadian STIR/SHAKEN Implementation FAQs](https://support.telnyx.com/en/articles/5761463-canadian-stir-shaken-implementation-faqs)[SHAKEN/STIR Parameters](https://support.telnyx.com/en/articles/7421223-shaken-stir-parameters)[Inbound Call Screening](https://support.telnyx.com/en/articles/8037040-inbound-call-screening)[Understanding the FCC’s Eighth Report and Order on Third-Party Authentication](https://support.telnyx.com/en/articles/10806916-understanding-the-fcc-s-eighth-report-and-order-on-third-party-authentication)
-
-Did this answer your question?
-
-😞😐😃

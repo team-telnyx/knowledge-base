@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/7045419-ach-direct-debit-paym
 title: "ACH Direct Debit Payment Method"
 description: "Support guide and FAQ's in relation to Automated Clearing House (ACH) payment. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 186c4ee3b92faa02c3cd2906dbf1911b6cbcfb2151f0bfd716b66041b5ae8b7d
+content_hash: 3fe5420681a1a445713ac7e3660fb1093434fb316944a3873c6a5a3de595b0ca
 ---
 
 
@@ -172,13 +172,3 @@ Yes, sub members with account management permissions enabled on the permission g
 ACH is not yet a default available payment method, access can be granted by our support team. Please email [support@telnyx.com](mailto:support@telnyx.com) for ACH access.
 
 ​
-
----
-
-Related Articles
-
-[Port numbers to Telnyx](https://support.telnyx.com/en/articles/1130634-port-numbers-to-telnyx)[Get Started with Organizations](https://support.telnyx.com/en/articles/1189141-get-started-with-organizations)[Billing Setup & Billing Groups](https://support.telnyx.com/en/articles/4280500-billing-setup-billing-groups)[Chiro8000 and Telnyx Integration](https://support.telnyx.com/en/articles/7885470-chiro8000-and-telnyx-integration)[Bitcoin Payment Method](https://support.telnyx.com/en/articles/8379618-bitcoin-payment-method)
-
-Did this answer your question?
-
-😞😐😃

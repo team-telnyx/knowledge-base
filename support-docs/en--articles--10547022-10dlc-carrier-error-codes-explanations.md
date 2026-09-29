@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/10547022-10dlc-carrier-error-
 title: "10DLC Carrier Error Codes Explanations"
 description: "Explanation for Error Codes for 10DLC Campaign… See Telnyx guidance and requirements Learn more about 10DLC Carrier Error Codes Explanations with Telnyx."
 scraped: 2026-07-08
-content_hash: 9b6044d0b967707a06966ae9c750424519d3d24b6d0118951e910d3ae8f1afb7
+content_hash: 5517b4ff1992abc32e08863085fa03727e2e770e12fe2a755c95b2fc27a3ad98
 ---
 
 # 10DLC Carrier Error Codes Explanations
@@ -40,13 +40,3 @@ Explanation for Error Codes for 10DLC Campaign… See Telnyx guidance and requir
 | 852 | Privacy Policy Compliance Missing | Privacy policy must clearly indicate that mobile opt-in data is not shared with third parties. |
 | 861 | Needs compliant and accurate CTA information; update with specific path for mobile opt-in, HELP instructions, STOP instructions, message frequency disclosure, "message and data rates may apply" disclosure and link to the message program privacy policy, or language referring to the privacy policy. Opt-in message/Confirmation MT must contain brand name, HELP, opt-out, message frequency and associated fees disclosures. Opt-out message must contain brand name and indicate that no further messages will be sent. HELP message must contain brand name and contain support contact (email, phone number, or support website). | The Call to Action does not contain either HELP language, STOP language, message frequency, data rates, or privacy policy link or language. If the campaign has a marketing use case make sure the CTA mentions that marketing messages will be sent.    Opt-in, Opt-out and Help confirmation messages must contain details provided here: <https://support.telnyx.com/en/articles/10645338-10dlc-keywords-and-confirmation-messages> |
 | 807 | Unable to Verify, Inauthentic Website | Specifically for real estate and insurance companies using incomplete websites that don't allow business verification. |
-
----
-
-Related Articles
-
-[How to create a 10DLC campaign](https://support.telnyx.com/en/articles/6339152-how-to-create-a-10dlc-campaign)[10DLC Campaign Approval Best Practices](https://support.telnyx.com/en/articles/7127078-10dlc-campaign-approval-best-practices)[Messaging - 10DLC Campaign Checklist](https://support.telnyx.com/en/articles/9038141-messaging-10dlc-campaign-checklist)[10DLC Campaign Compliance Requirements](https://support.telnyx.com/en/articles/9940291-10dlc-campaign-compliance-requirements)[10DLC for Chiropractors](https://support.telnyx.com/en/articles/11421359-10dlc-for-chiropractors)
-
-Did this answer your question?
-
-😞😐😃

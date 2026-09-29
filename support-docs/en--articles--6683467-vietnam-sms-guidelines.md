@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6683467-vietnam-sms-guideline
 title: "Vietnam: SMS Guidelines"
 description: "SMS Guidelines for Vietnam including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Vietnam: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: d81d087b5336fa426c733a5b2778663aff3b920fb398f482071cc182753d17a6
+content_hash: 6f715f67b0c416320426dcee31a960933ac186b44e4151de8818a14de39cbbea
 ---
 
 
@@ -35,13 +35,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Haiti: SMS Guidelines](https://support.telnyx.com/en/articles/6674331-haiti-sms-guidelines)[Iran: SMS Guidelines](https://support.telnyx.com/en/articles/6674403-iran-sms-guidelines)[Mali: SMS Guidelines](https://support.telnyx.com/en/articles/6675247-mali-sms-guidelines)[Nepal: SMS Guidelines](https://support.telnyx.com/en/articles/6678903-nepal-sms-guidelines)[Zambia: SMS Guidelines](https://support.telnyx.com/en/articles/6683501-zambia-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

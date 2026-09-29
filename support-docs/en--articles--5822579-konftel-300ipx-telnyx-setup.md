@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5822579-konftel-300ipx-telnyx
 title: "Konftel 300IPx: Telnyx Setup"
 description: "Learn how to set up and configure the Konftel 300IPx conference phone so that you can use it with your Telnyx account. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: aafe960f246b2267a041f20afd277fc94e43121df055adf64794d3779a9b581b
+content_hash: fe96abeb1f82d002388dadb6df98851f674e9c8e96568e843207f052428f7ebd
 ---
 
 
@@ -123,13 +123,3 @@ Additionally, check out:
 * [User guide](https://www.konftel.com/-/media/konftel/files/user-guide/konftel-300ipx/konftel300ipx-ug_eng.pdf?la=en)
 * [Admin and installation guide](https://www.konftel.com/-/media/konftel/files/administration-and-quick-installation-guide/konftel-300ipx-ag-rev-1a_eng.pdf?la=en)
 * [Konftel support](https://www.konftel.com/en/support/konftel-300ipx)
-
----
-
-Related Articles
-
-[Konftel 300Wx: Telnyx Setup](https://support.telnyx.com/en/articles/5807979-konftel-300wx-telnyx-setup)[Flyingvoice: Telnyx Setup](https://support.telnyx.com/en/articles/5810663-flyingvoice-telnyx-setup)[Gigaset A510: Telnyx Setup](https://support.telnyx.com/en/articles/5815209-gigaset-a510-telnyx-setup)[Snom C520: Telnyx Setup](https://support.telnyx.com/en/articles/5815678-snom-c520-telnyx-setup)[Vtech VCS754: Telnyx Setup](https://support.telnyx.com/en/articles/5822901-vtech-vcs754-telnyx-setup)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3284033-elastix-5-fqdn-trunk-
 title: "Elastix 5: FQDN Trunk Setup"
 description: "Here we will explain how you can configure an Elastix 5 PBX IP FQDN trunk with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 5f005b2c76784dddaa5ff5d0cbfe7b96ea7e407396db7f124b0577b3e4b290b7
+content_hash: 42489f64caf5df06ba1e31e272501159af86c24b69ad0862b923986a55fcbcfc
 ---
 
 
@@ -250,13 +250,3 @@ Additionally, you can check out:
 * [Elastix admin guide](https://www.3cx.com/docs/manual/)
 * [Elastix user guide](https://www.3cx.com/user-manual/)
 * [Elastix support](https://www.3cx.com/support/)
-
----
-
-Related Articles
-
-[Configuring an Elastix 4 PBX IP Trunk](https://support.telnyx.com/en/articles/1130622-configuring-an-elastix-4-pbx-ip-trunk)[Configuring a FreePBX V13 Credentials Trunk](https://support.telnyx.com/en/articles/1130648-configuring-a-freepbx-v13-credentials-trunk)[Elastix 5: Credentials Trunk](https://support.telnyx.com/en/articles/3284164-elastix-5-credentials-trunk)[FreePBX V15 IP Trunk - ChanSIP Tutorial](https://support.telnyx.com/en/articles/5467232-freepbx-v15-ip-trunk-chansip-tutorial)[FreePBX V15: IP Trunk - PJSIP](https://support.telnyx.com/en/articles/5619595-freepbx-v15-ip-trunk-pjsip)
-
-Did this answer your question?
-
-😞😐😃

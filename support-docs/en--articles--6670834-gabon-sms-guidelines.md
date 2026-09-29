@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6670834-gabon-sms-guidelines
 title: "Gabon: SMS Guidelines"
 description: "Sending SMS to Gabon? See Telnyx guidance and requirements Learn more about Gabon: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: e21c8444f4c74bfb0c5c9d631e9661f467bf329c0a781fb340b2f20ccc5ff535
+content_hash: 855e638585136421b27c24b6b04fc4a724bad07dc87533b7675099e98e3b92a4
 ---
 
 
@@ -57,13 +57,3 @@ Traffic should include clear Opt-Out options.
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 ​
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
-
----
-
-Related Articles
-
-[Greece: SMS Guidelines](https://support.telnyx.com/en/articles/6563817-greece-sms-guidelines)[Burundi: SMS Guidelines](https://support.telnyx.com/en/articles/6601042-burundi-sms-guidelines)[Jordan: SMS Guidelines](https://support.telnyx.com/en/articles/6674487-jordan-sms-guidelines)[Malawi: SMS Guidelines](https://support.telnyx.com/en/articles/6675104-malawi-sms-guidelines)[Tajikistan: SMS Guidelines](https://support.telnyx.com/en/articles/6683287-tajikistan-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

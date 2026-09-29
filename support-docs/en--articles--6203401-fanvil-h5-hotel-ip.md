@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6203401-fanvil-h5-hotel-ip
 title: "Fanvil H5: Hotel IP"
 description: "Learn how to configure a Telnyx SIP trunk on the Fanvil H5 Hotel IP… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 614e5fff31d793cd71927030734644d5eb16d790bca7d8d59ef1d5a6d60e336b
+content_hash: 22f6fdb41f78d131307eb45f75207fe99e60c51535e140102aff8f2943a12d89
 ---
 
 
@@ -133,13 +133,3 @@ Additionally you can check out:
 * [Fanvil training videos](https://www.fanvil.com/Support/trainingVideo.html)
 * [Fanvil support](https://www.fanvil.com/Support/ticket.html)
 * [Fanvil H5 firmware](https://www.fanvil.com/Support/download/id/79.html)
-
----
-
-Related Articles
-
-[Fanvil H2U: Compact IP](https://support.telnyx.com/en/articles/6202755-fanvil-h2u-compact-ip)[Fanvil H3: Hotel IP](https://support.telnyx.com/en/articles/6202965-fanvil-h3-hotel-ip)[Fanvil H3W/H5W: WiFi IP](https://support.telnyx.com/en/articles/6203347-fanvil-h3w-h5w-wifi-ip)[Fanvil X2CP/X2C/X2P: Call Center IP](https://support.telnyx.com/en/articles/6206756-fanvil-x2cp-x2c-x2p-call-center-ip)[Fanvil X-Series: IP Phone](https://support.telnyx.com/en/articles/6209971-fanvil-x-series-ip-phone)
-
-Did this answer your question?
-
-😞😐😃

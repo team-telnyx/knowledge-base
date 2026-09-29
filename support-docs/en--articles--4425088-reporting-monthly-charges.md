@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4425088-reporting-monthly-cha
 title: "Reporting: Monthly Charges"
 description: "This article will showcase the Monthly Charges section in greater… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 10abce55332988e99b8cef4c73b9c9346ec382448d4be760e9b8fd597f28ddde
+content_hash: 41690af0ab695d04b909adcd93aa8993abd7443d83a3a31a7d3dde6ccadde158
 ---
 
 
@@ -108,13 +108,3 @@ We've listed each of the features below, as our offering grows, you may see more
   + In cases where Telnyx has overcharged you for your services and issued you a refund towards your account balance, you will see a ledger adjustment entry.
 
 The ending balance will denote a value based on all totals combined from each section.
-
----
-
-Related Articles
-
-[Set up Inbound Caller ID Name (incoming)](https://support.telnyx.com/en/articles/1130656-set-up-inbound-caller-id-name-incoming)[Your Number Lookup Guide](https://support.telnyx.com/en/articles/4366901-your-number-lookup-guide)[Reporting: Detail Requests](https://support.telnyx.com/en/articles/4424926-reporting-detail-requests)[Reporting: Usage Reports](https://support.telnyx.com/en/articles/4425016-reporting-usage-reports)[10DLC Fees and Charges](https://support.telnyx.com/en/articles/5634625-10dlc-fees-and-charges)
-
-Did this answer your question?
-
-😞😐😃

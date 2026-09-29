@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/7915224-blocked-account-guide
 title: "Blocked Account Guidelines"
 description: "Guidelines on identifying, resolving, and preventing blocked Telnyx accounts for users. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: e1e0106baa911939b15c357119422ccbf5a247f3e6c9d7e4d4bf488f7dc49177
+content_hash: f6c41adffc040cfd2ac93273b4b212e4b62c6048a54bc7c363503f6fb76451d5
 ---
 
 
@@ -43,13 +43,3 @@ K
    If you have any feedback or suggestions regarding the block review process or how blocking is implemented, you can send your thoughts to [community@telnyx.com](mailto:community@telnyx.com) with the subject line of “Feedback: [YOUR\_TELNYX\_ACCOUNT\_EMAIL] [YOUR\_TELNYX\_CHAT/TICKET\_ID] Blocked Account. In the body of your email please list your feedback on what and how the process can be improved. This is not a channel to appeal your account status and you may not receive any response. We value your input and strive to continually improve our services so we’d be happy to hear from you.
 
 ## Remember, the purpose of the block is to ensure the security and integrity of our platform and protect all Telnyx users and the global community we connect them to. By following these guidelines and cooperating with our support team, you increase the chances of resolving the block and continuing to use our services effectively.
-
----
-
-Related Articles
-
-[Number Porting Rules and Guidelines](https://support.telnyx.com/en/articles/2086149-number-porting-rules-and-guidelines)[Prevent Telnyx Account Fraud](https://support.telnyx.com/en/articles/3610162-prevent-telnyx-account-fraud)[Hosted SMS Messaging Process](https://support.telnyx.com/en/articles/5336668-hosted-sms-messaging-process)[Norway: SMS Guidelines](https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines)[Jordan: SMS Guidelines](https://support.telnyx.com/en/articles/6674487-jordan-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃
