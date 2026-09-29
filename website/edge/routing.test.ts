@@ -28,9 +28,10 @@ test("homepage and old custom paths preserve encoded/repeated queries", async ()
   expect(result.headers.location.value).toBe("/en/articles/14327893-telnyx-pretrial-accounts?q=a%2Fb&q=c%26d");
   for (const key of Object.keys(registry).filter(k=>k.startsWith("path:"))) expect((await route(key.slice(5))).headers.location.value).toBe(registry[key]);
 });
-test("favicon.ico is served directly from the website", async () => {
-  const original = request("/favicon.ico");
+test("the branded favicon asset bypasses the legacy root-icon redirect", async () => {
+  const original = request("/assets/favicon-black.ico");
   expect(await context.routeRequest(original, async () => undefined)).toBe(original);
+  expect((await route("/favicon.ico")).headers.location.value).toBe("/favicon.svg");
 });
 test("unregistered pages reach the origin without losing method, query or headers", async () => {
   for (const method of ["GET", "HEAD"]) {
