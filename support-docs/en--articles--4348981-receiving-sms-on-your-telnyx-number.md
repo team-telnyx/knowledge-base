@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4348981-receiving-sms-on-your
 title: "Receiving SMS on your Telnyx number"
 description: "Begin your journey with Telnyx: Learn how to sign up and set up a Mission Control account effectively. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: a83f519fb3c905894c552ceec4d55cfd167d5fe197935ae82ed23cb78f5c1331
+content_hash: 1d124e6d9aac5cdee046e92418c2f2db262e4ce454ed2bbdd6a81ed0658268da
 ---
 
 
@@ -68,13 +68,3 @@ More details: What are webhook?
 <https://support.telnyx.com/en/articles/4334722-how-to-leverage-webhooks>
 
 And for specific error codes here: <https://developers.telnyx.com/api/errors>
-
----
-
-Related Articles
-
-[Forwarding SMS to Your Mobile Number](https://support.telnyx.com/en/articles/3231942-forwarding-sms-to-your-mobile-number)[Telnyx Verify: 2FA made easy](https://support.telnyx.com/en/articles/5701653-telnyx-verify-2fa-made-easy)[Setting Up Telnyx Voicemail](https://support.telnyx.com/en/articles/5989560-setting-up-telnyx-voicemail)[Messaging in Mission Control](https://support.telnyx.com/en/articles/8219294-messaging-in-mission-control)[Group Messaging - Bulk Sending MMS](https://support.telnyx.com/en/articles/8255134-group-messaging-bulk-sending-mms)
-
-Did this answer your question?
-
-😞😐😃

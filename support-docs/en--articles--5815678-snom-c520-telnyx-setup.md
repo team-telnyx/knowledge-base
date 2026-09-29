@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5815678-snom-c520-telnyx-setu
 title: "Snom C520: Telnyx Setup"
 description: "Learn how to set up and configure a Snom C520 conference phone and connect it to your Telnyx account. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 13fbe63b2ced1450dc0fdc59772605d302bb8a137636b8c9e011bd3e8f072dfe
+content_hash: 796b5443e01859c4f131df7aeb317d4b60b8efc1744caf067b4b659160954eca
 ---
 
 
@@ -166,13 +166,3 @@ Additionally, check out:
 * [Snom support](https://www.snomamericas.com/support/contact/)
 * [Snom service hub](https://service.snom.com/)
 * [Snom helpdesk](https://jira.snom.com/servicedesk/customer/user/login)
-
----
-
-Related Articles
-
-[Gigaset A510: Telnyx Setup](https://support.telnyx.com/en/articles/5815209-gigaset-a510-telnyx-setup)[Konftel 300IPx: Telnyx Setup](https://support.telnyx.com/en/articles/5822579-konftel-300ipx-telnyx-setup)[Snom D7xx: Telnyx Setup](https://support.telnyx.com/en/articles/5822706-snom-d7xx-telnyx-setup)[Snom M100 KLE: Telnyx Setup](https://support.telnyx.com/en/articles/5822823-snom-m100-kle-telnyx-setup)[Vtech VCS754: Telnyx Setup](https://support.telnyx.com/en/articles/5822901-vtech-vcs754-telnyx-setup)
-
-Did this answer your question?
-
-😞😐😃

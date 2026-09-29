@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6417677-telnyx-10dlc-complian
 title: "Telnyx 10DLC Compliance Directory"
 description: "10DLC allows higher messaging throughput for large SMS campaigns. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f48d7df8191ef0234ccfba1c83f57402faecfb19a78dbdab6102f25765fb5cb5
+content_hash: 62f9816e2c8568c38a17f2e8ec1d82c9b8f79ba559e77bcb572aa0caba84b32f
 ---
 
 
@@ -68,13 +68,3 @@ Telnyx provides APIs and connectivity to [programmatically send text messages](h
 For updates on our newest 10DLC functionality, see our [Release Notes](https://telnyx.com/release-notes?tag=10dlc).
 
 While Telnyx provides these tools and APIs to help your business comply, it's your business's responsibility to ensure that any application-to-person (A2P) text messages that are sent over 10-digit long-code numbers by your business (or your customers, if you're an [Independent Service Vendor](https://support.telnyx.com/en/articles/5593977-isvs-10dlc)) are compliant with 10DLC. Any fees or fines imposed on your business by MNOs for 10DLC non-compliance are the responsibility of your business.
-
----
-
-Related Articles
-
-[Frequently asked questions about 10DLC](https://support.telnyx.com/en/articles/3679260-frequently-asked-questions-about-10dlc)[Telnyx & 10DLC Compliance](https://support.telnyx.com/en/articles/5664840-telnyx-10dlc-compliance)[Register for 10DLC Messaging](https://support.telnyx.com/en/articles/6325731-register-for-10dlc-messaging)[10DLC: Trust Scores & Use Cases](https://support.telnyx.com/en/articles/6325747-10dlc-trust-scores-use-cases)[Bring Campaigns to Telnyx](https://support.telnyx.com/en/articles/6339158-bring-campaigns-to-telnyx)
-
-Did this answer your question?
-
-😞😐😃

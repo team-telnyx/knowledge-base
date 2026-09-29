@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130698-skype-set-up-skype-fo
 title: "Skype: Set up Skype for Biz SIP Trunk"
 description: "Learn how to configure a Skype for Business Server SIP Trunk with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 0dfe7f2b81bbf490e5e98ea38746a59589267cfa143edc01da3463aaf150281e
+content_hash: 6162231d878912ed85407135f15592983ee738f4ab53c04c9af585de1ed58841
 ---
 
 
@@ -141,13 +141,3 @@ Additionally, check out:
 * [Microsoft support](https://www.microsoft.com/en-us/microsoft-365/support)
 * [Skype download](https://www.skype.com/en/get-skype/)
 * [Skype for Business Topology documentation](https://learn.microsoft.com/en-us/skypeforbusiness/deploy/install/create-and-publish-new-topology)
-
----
-
-Related Articles
-
-[Grandstream UCM6xxx: SIP Trunks](https://support.telnyx.com/en/articles/5748258-grandstream-ucm6xxx-sip-trunks)[Wildix: SIP Trunk Setup](https://support.telnyx.com/en/articles/5799830-wildix-sip-trunk-setup)[Grandstream GRP260x: SIP Trunk](https://support.telnyx.com/en/articles/6169513-grandstream-grp260x-sip-trunk)[Grandstream GRP2612: SIP Trunk](https://support.telnyx.com/en/articles/6184147-grandstream-grp2612-sip-trunk)[Grandstream GXP1700: SIP Trunk](https://support.telnyx.com/en/articles/6184520-grandstream-gxp1700-sip-trunk)
-
-Did this answer your question?
-
-😞😐😃

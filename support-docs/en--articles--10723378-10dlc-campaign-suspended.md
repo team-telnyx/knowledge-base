@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/10723378-10dlc-campaign-suspe
 title: "10DLC Campaign Suspended"
 description: "10DLC Campaign… See Telnyx guidance and requirements Learn more about 10DLC Campaign Suspended with Telnyx."
 scraped: 2026-07-08
-content_hash: 37dc405587bd56e3e374454fbad57992200523b656a9c987ad3e34d2ee3999d9
+content_hash: 9689fcfc02c4655761722ae3f4731114a84b6a711ff2ad388b648bf7d2fee818
 ---
 
 
@@ -189,13 +189,3 @@ For additional assistance, please contact:
 * Telnyx Support Portal: [Telnyx Help Center](https://support.telnyx.com/)
 * Email: [support@telnyx.com](mailto:support@telnyx.com)
 * If you are unsure if the campaign was ever approved please reach out to [10dlcquestions@telnyx.com](mailto:10dlcquestions@telnyx.com).
-
----
-
-Related Articles
-
-[10DLC Shared Campaigns](https://support.telnyx.com/en/articles/5617538-10dlc-shared-campaigns)[How to assign a number to a campaign](https://support.telnyx.com/en/articles/6325734-how-to-assign-a-number-to-a-campaign)[10DLC Campaign Approval Best Practices](https://support.telnyx.com/en/articles/7127078-10dlc-campaign-approval-best-practices)[10DLC Number Assignment Status](https://support.telnyx.com/en/articles/11072276-10dlc-number-assignment-status)[10DLC Mock Brands and Campaigns](https://support.telnyx.com/en/articles/12812898-10dlc-mock-brands-and-campaigns)
-
-Did this answer your question?
-
-😞😐😃

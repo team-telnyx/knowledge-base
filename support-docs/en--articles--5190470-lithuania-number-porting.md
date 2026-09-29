@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5190470-lithuania-number-port
 title: "Lithuania Number Porting"
 description: "Here you will find a detailed list of requirements for Lithuania number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: a01d11ab0619c88b26ca3067316ca112c449f8ef40402cfb22950e18b0ccb0a8
+content_hash: bd00c18389e89160597b6566e2954ecb0b8a344115f50f7820db789264ec7e3b
 ---
 
 
@@ -36,13 +36,3 @@ Here you will find a detailed list of requirements for Lithuania number portabil
 Downloading the Lithuania authorization letter is essential for smooth number porting; delve deeper into our [Lithuania number pricing](https://telnyx.com/pricing/numbers/lt).
 
 ###
-
----
-
-Related Articles
-
-[Switzerland Number Porting](https://support.telnyx.com/en/articles/3267626-switzerland-number-porting)[Norway Number Porting](https://support.telnyx.com/en/articles/5188563-norway-number-porting)[Poland Number Porting](https://support.telnyx.com/en/articles/5188583-poland-number-porting)[Albania Number Porting](https://support.telnyx.com/en/articles/5190443-albania-number-porting)[Czech Republic Number Porting](https://support.telnyx.com/en/articles/5190455-czech-republic-number-porting)
-
-Did this answer your question?
-
-😞😐😃

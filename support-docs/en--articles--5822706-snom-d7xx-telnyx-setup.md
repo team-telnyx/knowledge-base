@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5822706-snom-d7xx-telnyx-setu
 title: "Snom D7xx: Telnyx Setup"
 description: "Learn how to configure a Snom Professional D7xx desk phone to worth with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: e1f802d58f77567a87bc03f086109026eae15d69eb58c8517b3b6444172bcbaf
+content_hash: 674d4abc1dd0dabbb64f11e54cc486ba6bdb5593dbc5b58388db53f0ea5a6fb0
 ---
 
 
@@ -161,13 +161,3 @@ Additionally, check out:
 * [Snom support](https://www.snomamericas.com/support/contact/)
 * [Snom service hub](https://service.snom.com/)
 * [Snom helpdesk](https://jira.snom.com/servicedesk/customer/user/login)
-
----
-
-Related Articles
-
-[Konftel 300Wx: Telnyx Setup](https://support.telnyx.com/en/articles/5807979-konftel-300wx-telnyx-setup)[Flyingvoice: Telnyx Setup](https://support.telnyx.com/en/articles/5810663-flyingvoice-telnyx-setup)[Panasonic KX-HDV: Telnyx setup](https://support.telnyx.com/en/articles/5814406-panasonic-kx-hdv-telnyx-setup)[Snom C520: Telnyx Setup](https://support.telnyx.com/en/articles/5815678-snom-c520-telnyx-setup)[MicroSIP: Setup with Telnyx](https://support.telnyx.com/en/articles/6133145-microsip-setup-with-telnyx)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5803103-scoptel-ip-pbx
 title: "ScopTEL IP PBX"
 description: "Integrate ScopServ's ScopTEL IP PBX with Telnyx. See Telnyx guidance and requirements Learn more about ScopTEL IP PBX with Telnyx."
 scraped: 2026-07-08
-content_hash: 7f5f432328d8823dc32cfccd3146279acd28c86fb978845dc2c641a520d61b8c
+content_hash: e20b26183ef43b197de060466499900549e79a897ea45bca05840bdc69287876
 ---
 
 
@@ -190,13 +190,3 @@ Additionally, check out:
 * [ScopServ IP PBX user guides](http://www.scopserv.us/support/documentation/)
 * [ScopServ API](https://help.shipserv.com/en/articles/5480733-api)
 * [ScopServ trainings](https://www.shipserv.com/category/technical-training/11984)
-
----
-
-Related Articles
-
-[Configuring an Elastix 4 PBX IP Trunk](https://support.telnyx.com/en/articles/1130622-configuring-an-elastix-4-pbx-ip-trunk)[How to configure a Thirdlane PBX](https://support.telnyx.com/en/articles/1130631-how-to-configure-a-thirdlane-pbx)[Configuring an Elastix 4 PBX Trunk](https://support.telnyx.com/en/articles/1130654-configuring-an-elastix-4-pbx-trunk)[Positron IP PBX](https://support.telnyx.com/en/articles/5790910-positron-ip-pbx)[Fanvil X-Series: IP Phone](https://support.telnyx.com/en/articles/6209971-fanvil-x-series-ip-phone)
-
-Did this answer your question?
-
-😞😐😃

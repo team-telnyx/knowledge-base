@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130682-telnyx-stun-and-turn-
 title: "Telnyx STUN and TURN server"
 description: "In this article we will explain how you can leverage Telnyx's STUN server. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 513109c940d9019da1193d7894eaed3298876755d97cdf2c75bd670d86c8c642
+content_hash: 8a94825a5f0c30a12232a36afa7e14381c6697a15a413c7b8341f1c3a58f7eec
 ---
 
 
@@ -45,13 +45,3 @@ While STUN servers play a crucial role in navigating NAT issues, some scenarios 
 For those looking to explore further, our resources don't stop at STUN and TURN. We encourage a visit to **[sip.telnyx.com](https://sip.telnyx.com/)** for more insights into SIP trunking and how it can benefit your business. Whether you're a seasoned IT professional or just starting to explore the possibilities of VoIP, Telnyx is here to support your journey towards better, more reliable communication.
 
 As we continue to rely on digital communication, the importance of robust, reliable connectivity cannot be overstated. Telnyx's STUN server is just one of the many tools we offer to ensure that your voice communications are crystal clear, every time. Dive into our resources, explore our services, and discover how we can help you overcome the challenges of NAT and VoIP, one call at a time.
-
----
-
-Related Articles
-
-[What is Telnyx?](https://support.telnyx.com/en/articles/1130637-what-is-telnyx)[Configuring Grandstream GXP16XX with Telnyx](https://support.telnyx.com/en/articles/1130660-configuring-grandstream-gxp16xx-with-telnyx)[Grandstream HT802: Telnyx Setup](https://support.telnyx.com/en/articles/5725071-grandstream-ht802-telnyx-setup)[Flyingvoice: Telnyx Setup](https://support.telnyx.com/en/articles/5810663-flyingvoice-telnyx-setup)[Gigaset A510: Telnyx Setup](https://support.telnyx.com/en/articles/5815209-gigaset-a510-telnyx-setup)
-
-Did this answer your question?
-
-😞😐😃

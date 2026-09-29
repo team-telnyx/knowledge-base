@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6601133-chad-sms-guidelines
 title: "Chad: SMS Guidelines"
 description: "SMS Guidelines for Chad including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Chad: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: fb8754c300f4a481143f79f887fc9027f690d37f5e05f9d31969ac75717a5941
+content_hash: dd3200dfedbd6583356cefff7ffccc3f14cfa7087ad954b9c14898f1b92ad1cf
 ---
 
 
@@ -59,13 +59,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Norway: SMS Guidelines](https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines)[Azerbaijan: SMS Guidelines](https://support.telnyx.com/en/articles/6596144-azerbaijan-sms-guidelines)[Hong Kong: SMS Guidelines](https://support.telnyx.com/en/articles/6674367-hong-kong-sms-guidelines)[Pakistan: SMS Guidelines](https://support.telnyx.com/en/articles/6679149-pakistan-sms-guidelines)[Palestinian Territory: SMS Guidelines](https://support.telnyx.com/en/articles/6679259-palestinian-territory-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

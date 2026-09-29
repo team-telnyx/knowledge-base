@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6678949-netherlands-antilles-
 title: "Netherlands Antilles: SMS Guidelines"
 description: "SMS Guidelines for Netherlands Antilles including MCC and Dial Code. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: ea4e11ccf373ee0919782528388071cb416deef28557119374d53ea26e130082
+content_hash: 88ede54d335f970c1c40105d9e28b42c718752465f89cde40ecc16e0eaf1c4ca
 ---
 
 
@@ -31,13 +31,3 @@ There are no restrictions with regards to content towards this destination.
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[The Netherlands: SMS Guidelines](https://support.telnyx.com/en/articles/6531581-the-netherlands-sms-guidelines)[Maldives: SMS Guidelines](https://support.telnyx.com/en/articles/6675222-maldives-sms-guidelines)[Montserrat: SMS Guidelines](https://support.telnyx.com/en/articles/6677968-montserrat-sms-guidelines)[Namibia: SMS Guidelines](https://support.telnyx.com/en/articles/6678890-namibia-sms-guidelines)[Reunion: SMS Guidelines](https://support.telnyx.com/en/articles/6679378-reunion-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

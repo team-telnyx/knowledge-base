@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6679062-niger-sms-guidelines
 title: "Niger: SMS Guidelines"
 description: "SMS Guidelines for Niger including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Niger: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 693f88a4703612b55ca4a1c06d36b892e20347337cbb571ca7f87444c51a9c1d
+content_hash: 37500003fdb47d9717c25a7f613194374b1c3b91c6b633dfe261f5eaa68e8de7
 ---
 
 
@@ -59,13 +59,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Norway: SMS Guidelines](https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines)[Iraq: SMS Guidelines](https://support.telnyx.com/en/articles/6589557-iraq-sms-guidelines)[Azerbaijan: SMS Guidelines](https://support.telnyx.com/en/articles/6596144-azerbaijan-sms-guidelines)[Pakistan: SMS Guidelines](https://support.telnyx.com/en/articles/6679149-pakistan-sms-guidelines)[Palestinian Territory: SMS Guidelines](https://support.telnyx.com/en/articles/6679259-palestinian-territory-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

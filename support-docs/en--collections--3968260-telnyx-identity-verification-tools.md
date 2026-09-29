@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/collections/3968260-telnyx-identity-ve
 title: "Telnyx Identity & Verification Tools"
 description: "A comprehensive list on how to navigate various Telnyx Identity and verification tools. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 15fd693ee1a81249066865a281c22839d5ef29126d9e0e9b3754d600352528d6
+content_hash: 5afb8a1b420c3c6ac0badfe2031eb6cd40c21f4be666ab429f2cbf2b41060284
 ---
 
 
@@ -18,4 +18,6 @@ content_hash: 15fd693ee1a81249066865a281c22839d5ef29126d9e0e9b3754d600352528d6
 A comprehensive list on how to navigate various Telnyx Identity and verification tools. See Telnyx guidance and requirements.
 
 
-[Telnyx Verify: 2FA made easyThis article describes what is and how to get started with Telnyx Verify](https://support.telnyx.com/en/articles/5701653-telnyx-verify-2fa-made-easy)
+[Telnyx Verify: 2FA made easy](https://support.telnyx.com/en/articles/5701653-telnyx-verify-2fa-made-easy)
+
+This article describes what is and how to get started with Telnyx Verify

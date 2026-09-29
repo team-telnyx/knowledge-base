@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/10164784-using-telnyx-sim-wit
 title: "Using Telnyx SIM with Ubiquiti UniFi LTE Pro"
 description: "A step-by-step guide to setting up the Ubiquiti UniFi LTE Pro with a Telnyx SIM card for reliable cellular backup… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: d345ef29c538bbc71d0d1c8f17af0d7a34aad7ace8f20d7c07b271a26bd484f0
+content_hash: a7036e9a55af828098e65d824585b4fe41dc5972c6f395517ae05c0e35197b50
 ---
 
 
@@ -104,13 +104,3 @@ This guide will walk you through the setup process for configuring the Ubiquiti 
   ```
   qmicli -p -d /dev/cdc-wdm0 --wds-set-autoconnect-settings=enabled
   ```
-
----
-
-Related Articles
-
-[How to set up a Telnyx SIM Card](https://support.telnyx.com/en/articles/3269600-how-to-set-up-a-telnyx-sim-card)[SIM Setup and Configuration](https://support.telnyx.com/en/articles/4298710-sim-setup-and-configuration)[SIM Connectivity Logs](https://support.telnyx.com/en/articles/5666594-sim-connectivity-logs)[Using Telnyx SIM with InRouter300 Series Cellular Routers](https://support.telnyx.com/en/articles/10511105-using-telnyx-sim-with-inrouter300-series-cellular-routers)[Using Telnyx SIM with Teltonika 4G/LTE Routers](https://support.telnyx.com/en/articles/10511646-using-telnyx-sim-with-teltonika-4g-lte-routers)
-
-Did this answer your question?
-
-😞😐😃

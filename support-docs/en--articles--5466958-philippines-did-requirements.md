@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5466958-philippines-did-requi
 title: "Philippines DID Requirements"
 description: "Here you will find a list of detailed requirements for acquiring Philippines numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 1a49470d56798563843bfcaf68a5b389deca52db76a898d76b1753c94599ff22
+content_hash: 8dc1cdf32ce1969f33ef05db937f7735e26a24bbccc62e106a73dba6bc89fed2
 ---
 
 
@@ -122,13 +122,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Bulgaria DID Requirements](https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements)[Chile DID Requirements](https://support.telnyx.com/en/articles/5464057-chile-did-requirements)[Finland DID Requirements](https://support.telnyx.com/en/articles/5465874-finland-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

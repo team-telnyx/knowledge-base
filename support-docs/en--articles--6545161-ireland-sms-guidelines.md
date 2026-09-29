@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6545161-ireland-sms-guideline
 title: "Ireland: SMS Guidelines"
 description: "SMS Guidelines for Ireland including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Ireland: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: e2d29ef5e860bae79b66b99dd8986c751f9ef5ed7573506efbed3b36fa3e2c09
+content_hash: f0baaf17d352e2d7bcb644a12be30bfdae1929cebf1279d1e0569c8b1d78fde2
 ---
 
 
@@ -41,13 +41,3 @@ For more information on Alpha Sender ID registration kindly reach out to [alpha\
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Australia: SMS Guidelines](https://support.telnyx.com/en/articles/6531656-australia-sms-guidelines)[Norway: SMS Guidelines](https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines)[Algeria: SMS Guidelines](https://support.telnyx.com/en/articles/6592441-algeria-sms-guidelines)[Comoros: SMS Guidelines](https://support.telnyx.com/en/articles/6601152-comoros-sms-guidelines)[Indonesia: SMS Guidelines](https://support.telnyx.com/en/articles/6674396-indonesia-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/2239446-azure-virtual-cross-c
 title: "Azure: Virtual Cross Connect"
 description: "This document will provide instructions and guidelines for integrating an Azure VPC environment with the Telnyx network… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 372d70edce629f978700499923aa4c376c77bb78589b4121fd1ce1a5acc03c35
+content_hash: 253d056ea9a175529a86a418794335b389e7a1c555f4ff17b738a5ecde072ced
 ---
 
 
@@ -142,13 +142,3 @@ Review our [getting started guide](https://support.telnyx.com/en/articles/117663
 Additionally, see:
 
 * [Microsoft Azure technical documentation](https://learn.microsoft.com/en-us/)
-
----
-
-Related Articles
-
-[AWS: Virtual Cross Connect Setup](https://support.telnyx.com/en/articles/1371411-aws-virtual-cross-connect-setup)[Google VPC: Telnyx Integration](https://support.telnyx.com/en/articles/2239449-google-vpc-telnyx-integration)[Configuring Telnyx with Microsoft Teams Direct Routing](https://support.telnyx.com/en/articles/5253876-configuring-telnyx-with-microsoft-teams-direct-routing)[Azure AD: SAML Identity Setup](https://support.telnyx.com/en/articles/5355800-azure-ad-saml-identity-setup)[Telnyx Networking on Azure Linux VMs](https://support.telnyx.com/en/articles/8104343-telnyx-networking-on-azure-linux-vms)
-
-Did this answer your question?
-
-😞😐😃

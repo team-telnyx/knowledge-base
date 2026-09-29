@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6601042-burundi-sms-guideline
 title: "Burundi: SMS Guidelines"
 description: "Sending SMS to Burundi? See Telnyx guidance and requirements Learn more about Burundi: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 3d70482ea0539e4c630a8a7a28da7844f5d8fd97ffb7310bd034d34e6de6c89a
+content_hash: 742adbeadd3a0034744ea0ab6a91fd3f3a18ac64883e9f3dc711bd436a6037b4
 ---
 
 
@@ -59,13 +59,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Jordan: SMS Guidelines](https://support.telnyx.com/en/articles/6674487-jordan-sms-guidelines)[Kuwait: SMS Guidelines](https://support.telnyx.com/en/articles/6674713-kuwait-sms-guidelines)[Malawi: SMS Guidelines](https://support.telnyx.com/en/articles/6675104-malawi-sms-guidelines)[Tajikistan: SMS Guidelines](https://support.telnyx.com/en/articles/6683287-tajikistan-sms-guidelines)[Tunisia: SMS Guidelines](https://support.telnyx.com/en/articles/6683385-tunisia-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

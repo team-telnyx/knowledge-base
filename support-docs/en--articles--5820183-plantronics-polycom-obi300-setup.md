@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5820183-plantronics-polycom-o
 title: "Plantronics/Polycom: OBi300 Setup"
 description: "Learn how to configure a Poly OBi300 VoIP phone so that it uses Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 8cb8e34efefc6cad21cd07e26352af964f782c79363c1739bb6c132af27e7e06
+content_hash: f4ea7e7218d89cc63ba1e4a279a6b88fcbd904e305f94c3fc70969f38c81f398
 ---
 
 
@@ -164,13 +164,3 @@ Additionally, check out:
 
 * [Poly OBi300 knowledgebase](https://support.hp.com/us-en/poly)
 * [Poly support](https://support.hp.com/us-en/contact?openCLC=true)
-
----
-
-Related Articles
-
-[Panasonic KX-HDV: Telnyx setup](https://support.telnyx.com/en/articles/5814406-panasonic-kx-hdv-telnyx-setup)[Snom C520: Telnyx Setup](https://support.telnyx.com/en/articles/5815678-snom-c520-telnyx-setup)[Vtech VCS754: Telnyx Setup](https://support.telnyx.com/en/articles/5822901-vtech-vcs754-telnyx-setup)[Fanvil H5: Hotel IP](https://support.telnyx.com/en/articles/6203401-fanvil-h5-hotel-ip)[Fanvil X-Series: IP Phone](https://support.telnyx.com/en/articles/6209971-fanvil-x-series-ip-phone)
-
-Did this answer your question?
-
-😞😐😃

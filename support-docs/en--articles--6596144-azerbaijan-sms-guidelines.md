@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6596144-azerbaijan-sms-guidel
 title: "Azerbaijan: SMS Guidelines"
 description: "SMS Guidelines for Azerbaijan including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Azerbaijan: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 4f0f302e9d6250ae8ef55c4658efed1fe372c9e0167953c8dcb7cb1f05e4e26d
+content_hash: 1b25218b2342d801effe719b9e74131831740dc5c6ce8d6a17c0810f04f0a80d
 ---
 
 
@@ -59,13 +59,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Norway: SMS Guidelines](https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines)[Iraq: SMS Guidelines](https://support.telnyx.com/en/articles/6589557-iraq-sms-guidelines)[Comoros: SMS Guidelines](https://support.telnyx.com/en/articles/6601152-comoros-sms-guidelines)[Pakistan: SMS Guidelines](https://support.telnyx.com/en/articles/6679149-pakistan-sms-guidelines)[Palestinian Territory: SMS Guidelines](https://support.telnyx.com/en/articles/6679259-palestinian-territory-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

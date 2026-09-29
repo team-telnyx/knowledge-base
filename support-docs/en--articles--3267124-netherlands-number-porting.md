@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3267124-netherlands-number-po
 title: "Netherlands Number Porting"
 description: "Here you will find a detailed list of requirements for Netherlands number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: e85c9d365dee5335030e67a1b8fa0eb4852a68c7e616d88e1f85e6b4c804280a
+content_hash: 74fe3f8c9db1f54a62e20d5d156ff0ad4f2ac80f8f87d5ca0303822acc8c1afa
 ---
 
 
@@ -50,13 +50,3 @@ Not all carriers in the Netherlands agree to partial port/split a number block. 
 ## Porting out of Telnyx
 
 The gaining provider must submit a request to Telnyx. Once the request is received, Telnyx will create a Port out request in the end-user’s Portal. This request must be authorized within 2 business days by the end-user. Once the port out is authorized on the end-user’s end, Telnyx will approve the port out with the Gaining Provider.
-
----
-
-Related Articles
-
-[Mexico Number Porting](https://support.telnyx.com/en/articles/3267101-mexico-number-porting)[South Africa Number Porting](https://support.telnyx.com/en/articles/4400326-south-africa-number-porting)[Portugal Number porting](https://support.telnyx.com/en/articles/5120062-portugal-number-porting)[Albania Number Porting](https://support.telnyx.com/en/articles/5190443-albania-number-porting)[Singapore Number Porting](https://support.telnyx.com/en/articles/7235002-singapore-number-porting)
-
-Did this answer your question?
-
-😞😐😃

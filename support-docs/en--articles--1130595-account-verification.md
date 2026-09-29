@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130595-account-verification
 title: "Account Verification"
 description: "This article explains how to get verified so that you can unlock all features of the Telnyx Mission Control… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: e4cf64003e950064fd19646603bac2b18b8711181c7b45120dd42eaec226e8af
+content_hash: 95b5eb1f16b2a0d4f7e21d602be5018cb9a3ebcbd85f5dab7ecc88f6a905b7b1
 ---
 
 # Account Verification
@@ -116,13 +116,3 @@ For full capabilities of each level, refer to the docs:
 * The interface clearly shows your current level and upgrade options
 
 ![](_images/8911edb5899f7371.png)
-
----
-
-Related Articles
-
-[Billing Setup & Billing Groups](https://support.telnyx.com/en/articles/4280500-billing-setup-billing-groups)[Easy Text Marketing and Telnyx Integration](https://support.telnyx.com/en/articles/6986625-easy-text-marketing-and-telnyx-integration)[Appeal Level 2 Verification Status](https://support.telnyx.com/en/articles/8269305-appeal-level-2-verification-status)[Phone Number Ordering Restrictions](https://support.telnyx.com/en/articles/10715715-phone-number-ordering-restrictions)[How to Set Up WhatsApp on Telnyx](https://support.telnyx.com/en/articles/13986485-how-to-set-up-whatsapp-on-telnyx)
-
-Did this answer your question?
-
-😞😐😃

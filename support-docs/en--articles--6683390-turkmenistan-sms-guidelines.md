@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6683390-turkmenistan-sms-guid
 title: "Turkmenistan: SMS Guidelines"
 description: "Sending SMS to Turkmenistan? See Telnyx guidance and requirements Learn more about Turkmenistan: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: c5267f16c82b93f51c0676265a66e99ef4ac0436fdcf7028902c97b9771198e3
+content_hash: 5727633ef9b271620babbccba76ced76363c4abb7174343b417af7dc2b96b3f1
 ---
 
 
@@ -29,13 +29,3 @@ All Alphanumeric Sender IDs will be overwritten to either a random Long Code or 
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Bulgaria: SMS Guidelines](https://support.telnyx.com/en/articles/6563862-bulgaria-sms-guidelines)[Bolivia: SMS Guidelines](https://support.telnyx.com/en/articles/6564249-bolivia-sms-guidelines)[Ecuador: SMS Guidelines](https://support.telnyx.com/en/articles/6570385-ecuador-sms-guidelines)[Macao: SMS Guidelines](https://support.telnyx.com/en/articles/6675024-macao-sms-guidelines)[Taiwan: SMS Guidelines](https://support.telnyx.com/en/articles/6683277-taiwan-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

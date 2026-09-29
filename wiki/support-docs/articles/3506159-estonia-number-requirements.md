@@ -95,13 +95,3 @@ For **address** verification:
 ## How long until my Estonia number is ready?
 
 Please Note: Once the documentation is received, it will take approximately 72 hours to validate the information and activate the number(s) for use.
-
----
-
-Related Articles
-
-[Australia DID Requirements](https://support.telnyx.com/en/articles/3505912-australia-did-requirements)[Finland DID Requirements](https://support.telnyx.com/en/articles/5465874-finland-did-requirements)[Lithuania DID Requirements](https://support.telnyx.com/en/articles/5466755-lithuania-did-requirements)[Mayotte DID Requirements](https://support.telnyx.com/en/articles/13720003-mayotte-did-requirements)[Reunion DID Requirements](https://support.telnyx.com/en/articles/13720024-reunion-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

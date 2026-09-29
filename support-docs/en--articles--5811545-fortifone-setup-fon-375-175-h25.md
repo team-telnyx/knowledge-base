@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5811545-fortifone-setup-fon-3
 title: "FortiFone Setup: FON-375/175/H25"
 description: "Learn how to set up and configure a FortiFone FON-375, FON-175 or FON-H25 IP phone with… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f9077a2b8dedef49db1cfe767eea36e39800dda865f4cacbceb56e1dccb68106
+content_hash: 0837194a1e0617c27acb9f0f02e5a2dc4cf3685fa52b3fc6c02a575ef02b7203
 ---
 
 
@@ -129,13 +129,3 @@ Additionally, check out:
 
 * [FortiFONE documentation](https://www.fortinet.com/search?q=fortifone)
 * [Fortinet support](https://www.fortinet.com/support/contact)
-
----
-
-Related Articles
-
-[Flyingvoice: Telnyx Setup](https://support.telnyx.com/en/articles/5810663-flyingvoice-telnyx-setup)[Panasonic KX-HDV: Telnyx setup](https://support.telnyx.com/en/articles/5814406-panasonic-kx-hdv-telnyx-setup)[Gigaset A510: Telnyx Setup](https://support.telnyx.com/en/articles/5815209-gigaset-a510-telnyx-setup)[Snom C520: Telnyx Setup](https://support.telnyx.com/en/articles/5815678-snom-c520-telnyx-setup)[Fanvil H5: Hotel IP](https://support.telnyx.com/en/articles/6203401-fanvil-h5-hotel-ip)
-
-Did this answer your question?
-
-😞😐😃

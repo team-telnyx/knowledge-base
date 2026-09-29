@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/14708128-porting-numbers-away
 title: "Porting Numbers Away from Aircall to Telnyx"
 description: "Step-by-step guide for porting numbers from Aircall, including how to get your carrier-level account number and PIN. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 91e6ca312538920f4144699a70403da23949cc0ace16123d772d52b132063541
+content_hash: 0497da0ee22d1463d78588bdb80f85786fe127248cfb51c7df269ccbfde8b83f
 ---
 
 
@@ -69,13 +69,3 @@ Aircall number ports typically follow standard US/CA porting timelines:
 1. **Don't cancel Aircall before the port completes.** Keep your Aircall account active until all numbers have successfully ported to Telnyx.
 2. **Gather credentials before submitting** — incorrect information causes rejections and delays of 3–5 business days per attempt.
 3. If Aircall is unresponsive, contact [porting@telnyx.com](mailto:porting@telnyx.com) — we can help identify the underlying carrier.
-
----
-
-Related Articles
-
-[Port numbers away from Telnyx](https://support.telnyx.com/en/articles/2033789-port-numbers-away-from-telnyx)[Porting away from Twilio](https://support.telnyx.com/en/articles/3947850-porting-away-from-twilio)[Porting away from Bandwidth](https://support.telnyx.com/en/articles/3947875-porting-away-from-bandwidth)[Porting Numbers Away from Intercom to Telnyx](https://support.telnyx.com/en/articles/14708129-porting-numbers-away-from-intercom-to-telnyx)[Porting Numbers Away from Resellers (Aircall, Intercom, RingCentral, Vonage, etc.)](https://support.telnyx.com/en/articles/14708130-porting-numbers-away-from-resellers-aircall-intercom-ringcentral-vonage-etc)
-
-Did this answer your question?
-
-😞😐😃

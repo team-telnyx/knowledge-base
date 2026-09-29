@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6545173-south-africa-sms-guid
 title: "South Africa: SMS Guidelines"
 description: "Sending SMS to South Africa? See Telnyx guidance and requirements Learn more about South Africa: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 2f67cec745e84207b195857204aac4f0ca32bea3c2b194c16236d2476b2e8ca2
+content_hash: 3374c07e908f6cfa269a0e810c075c5a139dfb1c0b036f9a2435643289e81622
 ---
 
 
@@ -77,13 +77,3 @@ Uncover the secrets to effective bulk SMS campaigns in South Africa. Reach a wid
 * [Mastering CTIA guidelines](https://telnyx.com/resources/CTIA-SMS-guidelines)
 * [Guide to compliant bulk SMS](https://telnyx.com/resources/bulk-sms-guide)
 * [SMS compliance and regulations](https://telnyx.com/resources/how-to-ensure-compliance-with-sms-regulations)
-
----
-
-Related Articles
-
-[Andorra: SMS Guidelines](https://support.telnyx.com/en/articles/6563890-andorra-sms-guidelines)[Armenia: SMS Guidelines](https://support.telnyx.com/en/articles/6592510-armenia-sms-guidelines)[Cook Islands: SMS Guidelines](https://support.telnyx.com/en/articles/6661387-cook-islands-sms-guidelines)[Grenada: SMS Guidelines](https://support.telnyx.com/en/articles/6670896-grenada-sms-guidelines)[Turks and Caicos Islands: SMS Guidelines](https://support.telnyx.com/en/articles/6683396-turks-and-caicos-islands-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

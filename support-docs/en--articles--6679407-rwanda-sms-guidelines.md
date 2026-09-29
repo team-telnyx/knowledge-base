@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6679407-rwanda-sms-guidelines
 title: "Rwanda: SMS Guidelines"
 description: "SMS Guidelines for Rwanda including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Rwanda: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 7866a1c149bda52ee4e579adb1d88e4a7fd95269832a76407bae2e89535f2c88
+content_hash: a293d2309f9cf94205cf45213837f91c8d537d34a2b6cf1d09a8b62cb474c4d9
 ---
 
 
@@ -35,13 +35,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Congo: SMS Guidelines](https://support.telnyx.com/en/articles/6661326-congo-sms-guidelines)[Cote d'Ivoire: SMS Guidelines](https://support.telnyx.com/en/articles/6665111-cote-d-ivoire-sms-guidelines)[Guinea: SMS Guidelines](https://support.telnyx.com/en/articles/6671488-guinea-sms-guidelines)[Guinea-Bissau: SMS Guidelines](https://support.telnyx.com/en/articles/6671725-guinea-bissau-sms-guidelines)[Zambia: SMS Guidelines](https://support.telnyx.com/en/articles/6683501-zambia-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

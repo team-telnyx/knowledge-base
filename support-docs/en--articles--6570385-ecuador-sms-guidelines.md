@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6570385-ecuador-sms-guideline
 title: "Ecuador: SMS Guidelines"
 description: "Sending SMS to Ecuador? See Telnyx guidance and requirements Learn more about Ecuador: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 27c59ad0f99b6a04f3764d47c853bc8dc81b7c9e9f70f068159178bdbfd28260
+content_hash: 21a691b1fb0ef1d576ada0ea579a5a271062b7360b3a39d1bfd91b11b5302d2e
 ---
 
 
@@ -31,13 +31,3 @@ All Alphanumeric Sender IDs will be overwritten to either a random Local Long Co
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Bulgaria: SMS Guidelines](https://support.telnyx.com/en/articles/6563862-bulgaria-sms-guidelines)[Benin: SMS Guidelines](https://support.telnyx.com/en/articles/6596235-benin-sms-guidelines)[Ghana: SMS Guidelines](https://support.telnyx.com/en/articles/6670870-ghana-sms-guidelines)[Sudan: SMS Guidelines](https://support.telnyx.com/en/articles/6680225-sudan-sms-guidelines)[Uganda: SMS Guidelines](https://support.telnyx.com/en/articles/6683433-uganda-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

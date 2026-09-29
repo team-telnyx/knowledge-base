@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130626-international-number-
 title: "International Number Porting - Required Documents"
 description: "Telnyx offers detailed insights and resources for number portability across multiple international regions. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: d00b3b1497bc6a0d0216e210dadf7b2c6c390cb8a608996c1aa1cd27834ab104
+content_hash: f147c90049b5258a1aab78294c47104fd1e3df40fa5c424b6066da5461ca85ed
 ---
 
 
@@ -36,13 +36,3 @@ Check out the video walkthrough: ordering international numbers
 ## Required Documents List:
 
 ![required number porting documents](_images/c297f7b420038860.png)
-
----
-
-Related Articles
-
-[Port numbers to Telnyx](https://support.telnyx.com/en/articles/1130634-port-numbers-to-telnyx)[Portugal Number porting](https://support.telnyx.com/en/articles/5120062-portugal-number-porting)[Porting Requirements](https://support.telnyx.com/en/articles/6460777-porting-requirements)[Singapore Number Porting](https://support.telnyx.com/en/articles/7235002-singapore-number-porting)[US / CA Toll Free Number Porting](https://support.telnyx.com/en/articles/8673249-us-ca-toll-free-number-porting)
-
-Did this answer your question?
-
-😞😐😃

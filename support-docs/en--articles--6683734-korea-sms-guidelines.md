@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6683734-korea-sms-guidelines
 title: "Korea SMS Guidelines"
 description: "Sending SMS to Republic of Korea (South Korea)? See Telnyx guidance and requirements Learn more about Korea SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 5bbd0ce1aef28051e52fa0fe7cd2ccde433c215e66d016eca0077d4154c78660
+content_hash: b307e96e3a58a2338b5b5d655326b3ad8b673eb8479351e447dc6839be06c80f
 ---
 
 
@@ -36,13 +36,3 @@ Gambling and Adult content is not permitted.
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Kenya: SMS Guidelines](https://support.telnyx.com/en/articles/6674630-kenya-sms-guidelines)[Singapore: SMS Guidelines](https://support.telnyx.com/en/articles/6680103-singapore-sms-guidelines)[South Sudan: SMS Guidelines](https://support.telnyx.com/en/articles/6680141-south-sudan-sms-guidelines)[Thailand: SMS Guidelines](https://support.telnyx.com/en/articles/6683302-thailand-sms-guidelines)[Turkmenistan: SMS Guidelines](https://support.telnyx.com/en/articles/6683390-turkmenistan-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

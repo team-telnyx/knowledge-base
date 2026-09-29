@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5386351-automating-ports-with
 title: "Automating Ports With Programmatic API"
 description: "Revolutionize your porting process using the Documents API. See Telnyx guidance and requirements Learn more about Automating Ports With Programmatic API with."
 scraped: 2026-07-08
-content_hash: d151b6891dd692d9401e4db6cde2648c6efc9ee177226cf34e95a4439e55244c
+content_hash: 4d8e50b8c34b6ee74791837d936d536349e014f8e9a1feeedfc1133fd95b8d75
 ---
 
 
@@ -42,13 +42,3 @@ You may also choose to configure webhooks to manage your notifications regarding
 
 ​
 ​
-
----
-
-Related Articles
-
-[International Number Porting - Required Documents](https://support.telnyx.com/en/articles/1130626-international-number-porting-required-documents)[Port numbers to Telnyx](https://support.telnyx.com/en/articles/1130634-port-numbers-to-telnyx)[Port Request Statuses](https://support.telnyx.com/en/articles/3284588-port-request-statuses)[Porting + Bundles](https://support.telnyx.com/en/articles/8709331-porting-bundles)[Porting away from Skype](https://support.telnyx.com/en/articles/10715399-porting-away-from-skype)
-
-Did this answer your question?
-
-😞😐😃

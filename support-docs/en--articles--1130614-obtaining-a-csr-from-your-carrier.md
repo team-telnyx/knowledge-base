@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130614-obtaining-a-csr-from-
 title: "Obtaining a CSR From Your Carrier"
 description: "Learn How To Obtain a Customer Service Record (CSR) From Your Carrier. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 439dd1e25fc458a9b756b7969077eddfd9953006f14440f722c5d9b91f5409f3
+content_hash: 6b3fb5f1ce62e5b0a5a15dac95b7884318a2dcf405bdbe0379ecb0b345ec58ac
 ---
 
 
@@ -50,13 +50,3 @@ Have the CSR sent to you over email. It's better to get the full details rather 
 ## Special Note For Canadian Customers
 
 Canadian telecom carriers are generally not willing to provide CSRs to other carriers.
-
----
-
-Related Articles
-
-[BTN or ATN Mismatch Error](https://support.telnyx.com/en/articles/1130610-btn-or-atn-mismatch-error)[Automated Port Request Validation](https://support.telnyx.com/en/articles/1516776-automated-port-request-validation)[Porting Error Messages](https://support.telnyx.com/en/articles/1618776-porting-error-messages)[Port-In Best Practices](https://support.telnyx.com/en/articles/2030770-port-in-best-practices)[Porting Requirements](https://support.telnyx.com/en/articles/6460777-porting-requirements)
-
-Did this answer your question?
-
-😞😐😃

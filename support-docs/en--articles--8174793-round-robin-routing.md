@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8174793-round-robin-routing
 title: "Round Robin Routing"
 description: "Round Robin routing helps customers implement a basic Load Balancing functionality from the connection. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 9ae649b50969356b5f8779332562056a1d3ce087aa284483df7c2a4dc1b0d655
+content_hash: 4de4587d774be7bdc1f0fd4aee9584df1ce78afe83389d4fa733e4a11a93baf5
 ---
 
 
@@ -36,13 +36,3 @@ You can select the Round Robin routing method from the drop down menu labeled De
 ![](_images/872e41257a98276b.png)
 
 If you have any questions regarding how to set this up or any further questions regarding how it works reach out to our support team.
-
----
-
-Related Articles
-
-[How to configure a Thirdlane PBX](https://support.telnyx.com/en/articles/1130631-how-to-configure-a-thirdlane-pbx)[SIP Connection: Fail-over and Retries](https://support.telnyx.com/en/articles/4320364-sip-connection-fail-over-and-retries)[SIP Connection: Settings](https://support.telnyx.com/en/articles/4351104-sip-connection-settings)[Telnyx SIP Response Codes](https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes)[SIP - Record Route Headers](https://support.telnyx.com/en/articles/9133298-sip-record-route-headers)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5466823-new-zealand-did-requi
 title: "New Zealand DID Requirements"
 description: "Here you will find a list of detailed requirements for acquiring New Zealand numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: d963ba00900933ec237ce6c6da26204d09e6edf7d955c1d1f1f17ee2e171e524
+content_hash: d467912b308eb6700d21597340e04e39cd90ff2d10ec5c166156d401f577ffe6
 ---
 
 
@@ -100,13 +100,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Bulgaria DID Requirements](https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Israel DID Requirements](https://support.telnyx.com/en/articles/5466651-israel-did-requirements)[Lithuania DID Requirements](https://support.telnyx.com/en/articles/5466755-lithuania-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1667062-short-message-peer-to
 title: "Short Message Peer-to-Peer Set-up Guide"
 description: "SMPP is great for customers that require a high throughput. See Telnyx guidance and requirements Learn more about Short Message Peer-to-Peer Set-up Guide with."
 scraped: 2026-07-08
-content_hash: 0cbac626016d0e25a6fae97c1a37f85c01eff273aaad2fa3d0aa8d229754e781
+content_hash: c5e6ab5c76dc213442018eeda582a77f64899386a754d54c82873d3ebf7d56a8
 ---
 
 
@@ -66,13 +66,3 @@ Telnyx supports the following PDUs
 * SSL = yes
 * addr\_ton = 1  (International)
 * addr\_npi = 1 (ISDN/telephone numbering plan (E163/E164)
-
----
-
-Related Articles
-
-[Rate Limits for Messaging](https://support.telnyx.com/en/articles/96934-rate-limits-for-messaging)[Setting Up a Messaging Profile](https://support.telnyx.com/en/articles/3562059-setting-up-a-messaging-profile)[Textable Setup Guide](https://support.telnyx.com/en/articles/3685327-textable-setup-guide)[Telnyx Messaging Error Codes](https://support.telnyx.com/en/articles/6505121-telnyx-messaging-error-codes)[Messaging in Mission Control](https://support.telnyx.com/en/articles/8219294-messaging-in-mission-control)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6596161-bangladesh-sms-guidel
 title: "Bangladesh: SMS Guidelines"
 description: "SMS Guidelines for Bangladesh including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Bangladesh: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 84ee31421b2d4ac31b8e43811452545986f2b2c495524f9dd84a0b0ddc6f90f4
+content_hash: 7a57cdfa80ab47147e40d57c888ee312904c555db84cb4923cec06b430d630ab
 ---
 
 
@@ -59,13 +59,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Norway: SMS Guidelines](https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines)[Iraq: SMS Guidelines](https://support.telnyx.com/en/articles/6589557-iraq-sms-guidelines)[Azerbaijan: SMS Guidelines](https://support.telnyx.com/en/articles/6596144-azerbaijan-sms-guidelines)[Pakistan: SMS Guidelines](https://support.telnyx.com/en/articles/6679149-pakistan-sms-guidelines)[Palestinian Territory: SMS Guidelines](https://support.telnyx.com/en/articles/6679259-palestinian-territory-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

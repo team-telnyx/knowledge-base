@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5664840-telnyx-10dlc-complian
 title: "Telnyx & 10DLC Compliance"
 description: "A2P 10DLC can have a significant impact on how you use Telnyx services. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: ec7b612bdbdb4209316d95e83815cd41d0347d83e43fed9c8fa52370395bf13b
+content_hash: f042d0138c956b055859573684e6523b047ed8bc7bfdaa719e6f7e098bffdae1
 ---
 
 
@@ -66,13 +66,3 @@ Telnyx provides APIs and connectivity to [programmatically send text messages](h
 For updates on our newest 10DLC functionality, see our [Release Notes](https://telnyx.com/release-notes?tag=10dlc).
 
 While Telnyx provides these tools and APIs to help your business comply, it's your business's responsibility to ensure that any application-to-person (A2P) text messages that are sent over 10-digit long-code numbers by your business (or your customers, if you're an [Independent Service Vendor](https://support.telnyx.com/en/articles/5593977-isvs-10dlc)) are compliant with 10DLC. Any fees or fines imposed on your business by MNOs for 10DLC non-compliance are the responsibility of your business.
-
----
-
-Related Articles
-
-[Frequently asked questions about 10DLC](https://support.telnyx.com/en/articles/3679260-frequently-asked-questions-about-10dlc)[ISVs & 10DLC](https://support.telnyx.com/en/articles/5593977-isvs-10dlc)[Register for 10DLC Messaging](https://support.telnyx.com/en/articles/6325731-register-for-10dlc-messaging)[Bring Campaigns to Telnyx](https://support.telnyx.com/en/articles/6339158-bring-campaigns-to-telnyx)[Telnyx 10DLC Compliance Directory](https://support.telnyx.com/en/articles/6417677-telnyx-10dlc-compliance-directory)
-
-Did this answer your question?
-
-😞😐😃

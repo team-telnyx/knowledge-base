@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4277896-notification-settings
 title: "Notification Settings"
 description: "This article details the functionalities of the notification settings in your Telnyx Mission Control… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 7b6344a184e36dbe28dbc68fba0e90313f676136e6123450aefff387caeef04d
+content_hash: 03572df600b60dec46c4168bb0899008ae3814ccc5c455b8c0f584460a46e32c
 ---
 
 
@@ -136,13 +136,3 @@ Number Order Complete
     }
 }
 ```
-
----
-
-Related Articles
-
-[E911 Setup Guide](https://support.telnyx.com/en/articles/1130683-e911-setup-guide)[SIM Reporting & Analytics](https://support.telnyx.com/en/articles/3679913-sim-reporting-analytics)[Billing Setup & Billing Groups](https://support.telnyx.com/en/articles/4280500-billing-setup-billing-groups)[How to Leverage Webhooks](https://support.telnyx.com/en/articles/4334722-how-to-leverage-webhooks)[Configuring Call Control/TeXML Applications - Voice API](https://support.telnyx.com/en/articles/4374050-configuring-call-control-texml-applications-voice-api)
-
-Did this answer your question?
-
-😞😐😃

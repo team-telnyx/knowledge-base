@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1311472-netherlands-did-requi
 title: "Netherlands DID Requirements"
 description: "Here you will find all of the requirements to acquire Netherlands numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 4ff71f9831ec3d4bc36501e8e60ef85c3f9f140371715b1f228cb633a80e25ae
+content_hash: d0924c0ab4e88d54e3fd7432f399edd612a8fed3bc68f1ff5f0e99884c9d4b08
 ---
 
 
@@ -130,13 +130,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Argentina DID Requirements](https://support.telnyx.com/en/articles/3760805-argentina-did-requirements)[Chile DID Requirements](https://support.telnyx.com/en/articles/5464057-chile-did-requirements)[Colombia DID Requirements](https://support.telnyx.com/en/articles/5464069-colombia-did-requirements)[Finland DID Requirements](https://support.telnyx.com/en/articles/5465874-finland-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

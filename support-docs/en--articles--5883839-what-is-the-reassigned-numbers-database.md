@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5883839-what-is-the-reassigne
 title: "What is the Reassigned Numbers Database"
 description: "Explore the FCC's Reassigned Numbers Database, designed to track permanently disconnected numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: d9cee1dd07e51e4df40626dbca4595f63c0bfa52827c904524a8a59c8cdf6554
+content_hash: 84b0f5d74d1bb2b222cdd97328902390c14c6192a6ffcb3ae65332c46d2b060b
 ---
 
 
@@ -30,13 +30,3 @@ As a Service Provider, Telnyx is mandated to submit data to the database on a mo
 This means that any consent you previously gave to 3rd parties (for example, pharmacies) to contact you through this number will not be applicable and you will need to establish new methods of communications with your providers. If you wish to buy back this number for your business at a future date, the settings previously associated with the telephone number will have to be reset manually.
 
 If you have any questions regarding the new Reassigned Number Database or what this will mean for how you organize your number inventory, please don’t hesitate to [reach out](https://telnyx.com/contact-us) to our team of experts.
-
----
-
-Related Articles
-
-[Port numbers away from Telnyx](https://support.telnyx.com/en/articles/2033789-port-numbers-away-from-telnyx)[PSTN Replacement / Local Calling with Telnyx](https://support.telnyx.com/en/articles/6622229-pstn-replacement-local-calling-with-telnyx)[What is the U.S. Reassigned Numbers Database?](https://support.telnyx.com/en/articles/11358700-what-is-the-u-s-reassigned-numbers-database)
-
-Did this answer your question?
-
-😞😐😃

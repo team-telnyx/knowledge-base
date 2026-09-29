@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4320364-sip-connection-fail-o
 title: "SIP Connection: Fail-over and Retries"
 description: "In this article we will explain fail-over and retries and how they are used to make Telnyx so reliable. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 14803d517e7ad7548e17a6895b5947b3408d505f0d3f3a4502fe23049762cc2d
+content_hash: 232fca1576e71e3c45433a182e297301ee896db2d1c4d5f0d3da787970e39fac
 ---
 
 
@@ -136,13 +136,3 @@ For more details, see: [How Telnyx Handles SRV Records for SIP Calls.](https://s
 3. For other regions (sip.telnyx.eu, sip.telnyx.ca, sip.telnyx.com.au etc) please change the domain accordingly.
 
    1. You can see all available regions here: <https://sip.telnyx.com/>
-
----
-
-Related Articles
-
-[SIP Connection: Types](https://support.telnyx.com/en/articles/4245868-sip-connection-types)[SIP Connection: Inbound & Outbound Settings](https://support.telnyx.com/en/articles/4404448-sip-connection-inbound-outbound-settings)[Telnyx SIP Response Codes](https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes)[How Telnyx Handles SRV Records for SIP Calls](https://support.telnyx.com/en/articles/10666839-how-telnyx-handles-srv-records-for-sip-calls)[How to Configure SIP Attach using a UAC Connection](https://support.telnyx.com/en/articles/14805261-how-to-configure-sip-attach-using-a-uac-connection)
-
-Did this answer your question?
-
-😞😐😃

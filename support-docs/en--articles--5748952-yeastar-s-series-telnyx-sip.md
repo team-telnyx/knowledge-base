@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5748952-yeastar-s-series-teln
 title: "Yeastar S-Series: Telnyx SIP"
 description: "Learn how to configure both a Yeastar S-Series IP or Credentials trunk to work with your Telnyx Mission Control Portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 44c8f2c5602ddfa997d554c287e6766804d6429dade743cf1813f88992666f91
+content_hash: 950359375cd8bc6b16bf9c3408e38fdcac772b382574dcea7f994f09f3d55246
 ---
 
 
@@ -188,13 +188,3 @@ Review our [getting started guide](https://support.telnyx.com/en/articles/117663
 
 * Admin Guide for Yeastar Cloud PBX : [Yeastar Admin Guide](https://help.yeastar.com/en/cloudpbx/topic/admin_guide.html)
 * Admin Guide for Yeastar S-Series VoIP PBX : [Yeastar Admin Guide](https://help.yeastar.com/en/s-series/topic/admin_guide.html)
-
----
-
-Related Articles
-
-[Configuring an Elastix 4 PBX IP Trunk](https://support.telnyx.com/en/articles/1130622-configuring-an-elastix-4-pbx-ip-trunk)[Grandstream UCM6xxx: SIP Trunks](https://support.telnyx.com/en/articles/5748258-grandstream-ucm6xxx-sip-trunks)[Xorcom PBX: SIP Trunk](https://support.telnyx.com/en/articles/5754127-xorcom-pbx-sip-trunk)[Wildix: SIP Trunk Setup](https://support.telnyx.com/en/articles/5799830-wildix-sip-trunk-setup)[How to configure Yeastar P-series](https://support.telnyx.com/en/articles/13375115-how-to-configure-yeastar-p-series)
-
-Did this answer your question?
-
-😞😐😃

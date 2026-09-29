@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3562059-setting-up-a-messagin
 title: "Setting Up a Messaging Profile"
 description: "Here we will explain how to get SMS ready with Messaging Profiles on Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 1e8af24eb52bb449831be3a889423fe9f4bd2032e12b6f18cdbb46ab3bc4c239
+content_hash: d814dd92e13f7df9acaa4dc2f80549b34df574d16ec3f01bc1322f6388d7a389
 ---
 
 
@@ -134,13 +134,3 @@ In order to improve the security of Telnyx’s Messaging platform for end users,
 
   + Existing profiles will not be affected unless edited.
 * When attempting to send to non-US destinations, Telnyx now requires a default [Alphanumeric sender ID](#h_08c67c1b03) to be named on the Messaging Profile. In the past, this was not required.
-
----
-
-Related Articles
-
-[MMS Sending and Receiving](https://support.telnyx.com/en/articles/3102823-mms-sending-and-receiving)[Automated Replies for Messages using Zapier](https://support.telnyx.com/en/articles/3232529-automated-replies-for-messages-using-zapier)[Textable Setup Guide](https://support.telnyx.com/en/articles/3685327-textable-setup-guide)[Telnyx Messaging Error Codes](https://support.telnyx.com/en/articles/6505121-telnyx-messaging-error-codes)[Group Messaging - Bulk Sending MMS](https://support.telnyx.com/en/articles/8255134-group-messaging-bulk-sending-mms)
-
-Did this answer your question?
-
-😞😐😃

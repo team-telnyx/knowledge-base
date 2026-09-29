@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6563862-bulgaria-sms-guidelin
 title: "Bulgaria: SMS Guidelines"
 description: "Sending SMS to Bulgaria? See Telnyx guidance and requirements Learn more about Bulgaria: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: d64aee6c00fdba6e3fb130990cfe4467740f5152db6ff30388600817645b197a
+content_hash: dd549ca898865e5a2a8661545edf0871c348b76b266addf42035c3c8e0e4f1cd
 ---
 
 
@@ -33,13 +33,3 @@ Alphanumeric Sender IDs will be overwritten to a random Local Long Code, Short C
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Ukraine: SMS Guidelines](https://support.telnyx.com/en/articles/6563904-ukraine-sms-guidelines)[Benin: SMS Guidelines](https://support.telnyx.com/en/articles/6596235-benin-sms-guidelines)[Macao: SMS Guidelines](https://support.telnyx.com/en/articles/6675024-macao-sms-guidelines)[Sudan: SMS Guidelines](https://support.telnyx.com/en/articles/6680225-sudan-sms-guidelines)[Trinidad & Tobago: SMS Guidelines](https://support.telnyx.com/en/articles/6683379-trinidad-tobago-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

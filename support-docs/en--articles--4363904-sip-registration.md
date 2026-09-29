@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4363904-sip-registration
 title: "SIP Registration"
 description: "This article explains the basic components involved in the SIP Registration process. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 844e2617eb0eeda3fa4c93328213a8fe1cbaa3a93f66d973f020f6c0b0acc936
+content_hash: 7b07a83c57db02a4e366d1a7fc7c8f9da8dc0513345693d35da37b9b930e6b37
 ---
 
 
@@ -118,13 +118,3 @@ Please remember that SIP registration is required only for receiving **inbound c
 Outbound calling requires **SIP authentication** for credential based SIP Connections. When you make an outbound call from a credential based SIP Connection, our system will issue a SIP 407 proxy authentication response - challenging you to verify who you are. You verify who you are by sending a new SIP INVITE with your SIP Connections credentials (username + password) hashed. Once we can verify the hash, we'll allow your outbound calls to proceed. This is a great [article](https://andrewjprokop.wordpress.com/2015/01/27/understanding-sip-authentication/) that discusses the authentication process in-depth.
 ​
 Again, inbound and outbound are decoupled and use different methods to receive and make calls.
-
----
-
-Related Articles
-
-[SIP Connection: Fail-over and Retries](https://support.telnyx.com/en/articles/4320364-sip-connection-fail-over-and-retries)[Telnyx SIP Response Codes](https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes)[Mitel: 5320E/5330E/5340E SIP](https://support.telnyx.com/en/articles/6244551-mitel-5320e-5330e-5340e-sip)[How Telnyx Handles SRV Records for SIP Calls](https://support.telnyx.com/en/articles/10666839-how-telnyx-handles-srv-records-for-sip-calls)[How to Configure SIP Attach using a UAC Connection](https://support.telnyx.com/en/articles/14805261-how-to-configure-sip-attach-using-a-uac-connection)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5467232-freepbx-v15-ip-trunk-
 title: "FreePBX V15 IP Trunk - ChanSIP Tutorial"
 description: "In this article we will explain how to configure a FreePBX V15 IP trunk with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: d16c0701b9cee7cafc416fdf4fd1581631c504ec848ba6996dc9aa3eb4746b22
+content_hash: e5fcd83ac596222f9df8390f43e69c2b99829dd90e6dbc4ebc6e6a0d95e85e61
 ---
 
 
@@ -255,13 +255,3 @@ Additionally, check out:
 * [FreePBX documentation](https://wiki.freepbx.org/#all-updates)
 
 ---
-
----
-
-Related Articles
-
-[FreePBX Trunk Settings With Telnyx](https://support.telnyx.com/en/articles/1130620-freepbx-trunk-settings-with-telnyx)[Configuring a FreePBX V13 Credentials Trunk](https://support.telnyx.com/en/articles/1130648-configuring-a-freepbx-v13-credentials-trunk)[FreePBX V14: IP Trunk - ChanSIP](https://support.telnyx.com/en/articles/3284736-freepbx-v14-ip-trunk-chansip)[Setting Up FreePBX V15 with Telnyx API](https://support.telnyx.com/en/articles/5464056-setting-up-freepbx-v15-with-telnyx-api)[FreePBX V15: IP Trunk - PJSIP](https://support.telnyx.com/en/articles/5619595-freepbx-v15-ip-trunk-pjsip)
-
-Did this answer your question?
-
-😞😐😃

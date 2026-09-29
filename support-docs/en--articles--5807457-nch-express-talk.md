@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5807457-nch-express-talk
 title: "NCH Express Talk"
 description: "Learn how to set up your NCH Express Talk with Telnyx for seamless VoIP communication. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: fbedaf19b6e35023d00968c24c0cfe8da3de9945a96f0b257c72efbf16db09d9
+content_hash: ac08c82ba9816e9ba876ade160d7ca4754e8410cdf6d0578de6539fa10b8d2f2
 ---
 
 
@@ -100,13 +100,3 @@ Additionally, check out:
 * [Express Talk SDK](https://www.nch.com.au/talk/sdk.html)
 * [Express Talk technical support](https://www.nch.com.au/talk/support.html)
 * [Pricing and purchasing](https://secure.nch.com.au/cgi-bin/register.exe?software=talk)
-
----
-
-Related Articles
-
-[Configuring Bria Solo (a.k.a X-Lite)](https://support.telnyx.com/en/articles/1130645-configuring-bria-solo-a-k-a-x-lite)[Configuring an Asterisk Credentials Trunk](https://support.telnyx.com/en/articles/1130676-configuring-an-asterisk-credentials-trunk)[Ubiquiti Trunk: Unifi Talk - Auth](https://support.telnyx.com/en/articles/6122586-ubiquiti-trunk-unifi-talk-auth)[MicroSIP: Setup with Telnyx](https://support.telnyx.com/en/articles/6133145-microsip-setup-with-telnyx)[Ubiquiti Trunk: Unifi Talk - IP Auth](https://support.telnyx.com/en/articles/6303467-ubiquiti-trunk-unifi-talk-ip-auth)
-
-Did this answer your question?
-
-😞😐😃

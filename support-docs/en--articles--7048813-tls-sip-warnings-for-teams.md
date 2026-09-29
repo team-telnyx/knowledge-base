@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/7048813-tls-sip-warnings-for-
 title: "TLS & SIP Warnings for Teams"
 description: "Fix warnings related to TLS connectivity and SIP Options in your existing Microsoft Teams Direct Routing SBC setup. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 954ac0d8be4fccb8eb9caa5fb58a3368d8951a84557eea0b7e111969406da862
+content_hash: fa162fc879e40ae383f3078bc8298146e20988ca359c753fde4128e2075d613a
 ---
 
 
@@ -190,13 +190,3 @@ FalseTeamsUpgradeOverridePolicy             :TeamsUpgradePolicy                 
 #### **If you encounter a similar output (with the appropriate names, times, and regions), please note that it may take up to 30 minutes for the changes to be fully implemented and take effect.**
 
 #### **After this period, everything should be working as intended.**
-
----
-
-Related Articles
-
-[SIP Connection: Settings](https://support.telnyx.com/en/articles/4351104-sip-connection-settings)[Telnyx SIP Response Codes](https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes)[Configuring Telnyx with Microsoft Teams Direct Routing](https://support.telnyx.com/en/articles/5253876-configuring-telnyx-with-microsoft-teams-direct-routing)[Grandstream UCM6xxx: SIP Trunks](https://support.telnyx.com/en/articles/5748258-grandstream-ucm6xxx-sip-trunks)[Operator Connect Guide - Microsoft Teams](https://support.telnyx.com/en/articles/7260976-operator-connect-guide-microsoft-teams)
-
-Did this answer your question?
-
-😞😐😃

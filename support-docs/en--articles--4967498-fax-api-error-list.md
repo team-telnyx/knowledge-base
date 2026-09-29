@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4967498-fax-api-error-list
 title: "Fax API - Error List"
 description: "In this article find explanations for both outbound and inbound errors you might experience with Programmable Fax. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 233e5cb7a46417fa97165a6ad12a3a662f0157f122ac87dc4f06ed46a3513595
+content_hash: d4c1c75bcdc5abc6562228a9c700ad76b02c46cc926a1e7ed132bf08bce5a94e
 ---
 
 
@@ -102,13 +102,3 @@ These error codes and messages are contained in the last 2 columns in the CSV fi
 | 32 | Timer T2 expired while waiting for next fax page |
 | 48 | Disconnected after permitted retries |
 | 49 | The call dropped prematurely |
-
----
-
-Related Articles
-
-[Fax service with Telnyx (via T.38 or G711)](https://support.telnyx.com/en/articles/1130672-fax-service-with-telnyx-via-t-38-or-g711)[Global Number Types](https://support.telnyx.com/en/articles/1458084-global-number-types)[Port Request Statuses](https://support.telnyx.com/en/articles/3284588-port-request-statuses)[SIP Connection: Inbound & Outbound Settings](https://support.telnyx.com/en/articles/4404448-sip-connection-inbound-outbound-settings)[Troubleshooting Call Completion](https://support.telnyx.com/en/articles/5025298-troubleshooting-call-completion)
-
-Did this answer your question?
-
-😞😐😃

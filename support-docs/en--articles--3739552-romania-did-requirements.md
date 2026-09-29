@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3739552-romania-did-requireme
 title: "Romania DID Requirements"
 description: "Here you will find detailed requirements to acquire numbers in Romania. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: e8b41ff5a070eb3dd95ddf64f06c4c325e7053911067e7914ac36ac422bdaf96
+content_hash: 6dd26f51b7e3c76b388fb4c6b4ba020c849da8ef54ac5d097b76d102b8abdba2
 ---
 
 
@@ -139,13 +139,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Ireland DID Requirements](https://support.telnyx.com/en/articles/1311458-ireland-did-requirements)[Bulgaria DID Requirements](https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements)[Finland DID Requirements](https://support.telnyx.com/en/articles/5465874-finland-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6670856-georgia-sms-guideline
 title: "Georgia: SMS Guidelines"
 description: "Sending SMS to Georgia? See Telnyx guidance and requirements Learn more about Georgia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 261caeb50313268b3e8da204074afc4b83ed3393e201b71dd6163b3cde3a8789
+content_hash: 2ddcb5240b0a130d0ad62e73f8f37a1711841dc20b09c68e466b16f3e1fdcd3f
 ---
 
 
@@ -31,13 +31,3 @@ There are no restrictions with regards to content towards this destination.
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Lithuania: SMS Guidelines](https://support.telnyx.com/en/articles/6560973-lithuania-sms-guidelines)[Switzerland: SMS Guidelines](https://support.telnyx.com/en/articles/6561154-switzerland-sms-guidelines)[Slovenia: SMS Guidelines](https://support.telnyx.com/en/articles/6561195-slovenia-sms-guidelines)[Suriname: SMS Guidelines](https://support.telnyx.com/en/articles/6589563-suriname-sms-guidelines)[Bermuda: SMS Guidelines](https://support.telnyx.com/en/articles/6596251-bermuda-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

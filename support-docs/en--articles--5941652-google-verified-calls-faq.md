@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5941652-google-verified-calls
 title: "Google Verified Calls FAQ"
 description: "Get to know Google Verified Calls: boosting call trust with business logos and reasons. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 600987dc17d4cbe45bf5f535d6b2bca24e6dc8a26536c9073936ad5bce71a70d
+content_hash: bdcc697660df18bdae6a861e3199dfe5155042e50f6914b490e8d62f69c74725
 ---
 
 
@@ -65,13 +65,3 @@ Verified Calls is no longer available in the United States, India, Mexico, Brazi
 ​
 ​
 ​
-
----
-
-Related Articles
-
-[Telnyx Verify: 2FA made easy](https://support.telnyx.com/en/articles/5701653-telnyx-verify-2fa-made-easy)[Verified Numbers FAQ](https://support.telnyx.com/en/articles/6790265-verified-numbers-faq)[Verified Numbers](https://support.telnyx.com/en/articles/6988813-verified-numbers)[Inbound Call Screening](https://support.telnyx.com/en/articles/8037040-inbound-call-screening)[Making Calls with Branded Calling](https://support.telnyx.com/en/articles/15138152-making-calls-with-branded-calling)
-
-Did this answer your question?
-
-😞😐😃

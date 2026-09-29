@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/12386088-how-to-verify-phone-
 title: "How to Verify Phone Numbers behind an IVR"
 description: "Some phone numbers sit behind an IVR (interactive voice response) system and require dialing an extension to reach the… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: bf63448370cda1a49d4a8d1d8012abac7438f02fbb3b157cf35a7922e75dde04
+content_hash: 7efc862b947713772b9d79de05cfdf8f9974d2ed19d5016f283b2f138bc81334
 ---
 
 
@@ -125,13 +125,3 @@ Add details of your number and the extension following the format from step 2 ab
 * [Verified Numbers API – Request phone number verification](https://developers.telnyx.com/api-reference/verified-numbers/request-phone-number-verification)
 * [Telnyx Mission Control Portal](https://portal.telnyx.com/)
 * [Release Notes](https://telnyx.com/release-notes)
-
----
-
-Related Articles
-
-[Introducing the Verify API](https://support.telnyx.com/en/articles/5367966-introducing-the-verify-api)[Telnyx Verify: 2FA made easy](https://support.telnyx.com/en/articles/5701653-telnyx-verify-2fa-made-easy)[Verified Numbers FAQ](https://support.telnyx.com/en/articles/6790265-verified-numbers-faq)[Verified Numbers](https://support.telnyx.com/en/articles/6988813-verified-numbers)[[BETA] How to Verify Phone Numbers Using DTMF (Press 1 to Verify)](https://support.telnyx.com/en/articles/13854980-beta-how-to-verify-phone-numbers-using-dtmf-press-1-to-verify)
-
-Did this answer your question?
-
-😞😐😃

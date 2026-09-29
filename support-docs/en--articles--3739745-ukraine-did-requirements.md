@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3739745-ukraine-did-requireme
 title: "Ukraine DID Requirements"
 description: "Here you will find a detailed list of the requirements for acquiring Ukraine numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: b3187153d4c56c653dde1460299e1af27a018213ef5c0dfbf96eb356dda6d08f
+content_hash: 1862c2197a54cdae6fda6965ea5aed966e729a6f5fdc4f89be6e3ba21b31ca7c
 ---
 
 
@@ -96,13 +96,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Bulgaria DID Requirements](https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements)[Finland DID Requirements](https://support.telnyx.com/en/articles/5465874-finland-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Mexico DID Requirements](https://support.telnyx.com/en/articles/5466793-mexico-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

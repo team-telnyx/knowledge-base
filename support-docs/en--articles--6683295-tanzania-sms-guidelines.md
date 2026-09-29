@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6683295-tanzania-sms-guidelin
 title: "Tanzania: SMS Guidelines"
 description: "Sending SMS to Tanzania? See Telnyx guidance and requirements Learn more about Tanzania: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: f457b3ded6ccacd08fbe2218d09fb7f2b3a5cb6ab0d3900c6aebd7277a28f42a
+content_hash: 6c2c2a5d50aa4a4f84b1fe07e0c7b21fd8a36265ed7d52c9bb5e66ae607a85ed
 ---
 
 
@@ -31,13 +31,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Benin: SMS Guidelines](https://support.telnyx.com/en/articles/6596235-benin-sms-guidelines)[Egypt: SMS Guidelines](https://support.telnyx.com/en/articles/6670411-egypt-sms-guidelines)[Kenya: SMS Guidelines](https://support.telnyx.com/en/articles/6674630-kenya-sms-guidelines)[Sudan: SMS Guidelines](https://support.telnyx.com/en/articles/6680225-sudan-sms-guidelines)[Serbia: SMS Guidelines](https://support.telnyx.com/en/articles/6683745-serbia-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

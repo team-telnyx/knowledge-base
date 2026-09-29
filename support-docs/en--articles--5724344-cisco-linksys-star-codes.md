@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5724344-cisco-linksys-star-co
 title: "Cisco/Linksys Star Codes"
 description: "Discover the comprehensive list of Cisco and Linksys star codes. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: def0aeeaff15892676b5831ad5730e756ac5e2eaccd1ac9d9eecfb725be070dd
+content_hash: 68d6cdf95052b466f48ecd68e464d4179fea5bcda9310c5b65311cd19e11f9b4
 ---
 
 
@@ -79,13 +79,3 @@ Use the \*07 Star Code, known as the "Call Redial Code", to redial the last outg
 ## What does the 98 Star Code do?
 
 The \*98 Star Code, or "Blind Transfer Code", begins a blind transfer of the current call to the extension specified after activating the code.
-
----
-
-Related Articles
-
-[Call Forwarding](https://support.telnyx.com/en/articles/1130657-call-forwarding)[Configuring your Cisco SPA112/122 ATA](https://support.telnyx.com/en/articles/1130665-configuring-your-cisco-spa112-122-ata)[Caller ID Number Policy](https://support.telnyx.com/en/articles/3546251-caller-id-number-policy)[Telnyx SIP Response Codes](https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes)[VitalPBX: Configuring Your VitalPBX](https://support.telnyx.com/en/articles/5754445-vitalpbx-configuring-your-vitalpbx)
-
-Did this answer your question?
-
-😞😐😃

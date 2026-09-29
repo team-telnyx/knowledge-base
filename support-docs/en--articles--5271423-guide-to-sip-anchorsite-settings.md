@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5271423-guide-to-sip-anchorsi
 title: "Guide to SIP AnchorSite® Settings"
 description: "This article explains the AnchorSite® setting in your SIP Connection settings and how it works. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: c6c6888f3fb3ae5ab22b79ca5f010f3299b59a9d0095483d9949cf551ba9bb37
+content_hash: a25d96b1063c159567599f0723a89a8453f1e1e4131f932969de520dc797e333
 ---
 
 
@@ -62,13 +62,3 @@ For **credential based** SIP Connections, please make sure to include the SIP Co
 **X-Telnyx-Username: <username>**
 
 For **applications**, the IP address associated with your webhook url will be used to determine which of our sites has the lowest latency reaching you.
-
----
-
-Related Articles
-
-[SIP URI Calling](https://support.telnyx.com/en/articles/2925713-sip-uri-calling)[SIP Connection: Types](https://support.telnyx.com/en/articles/4245868-sip-connection-types)[SIP Connection: Settings](https://support.telnyx.com/en/articles/4351104-sip-connection-settings)[How to Configure a SIP Trunk](https://support.telnyx.com/en/articles/8096455-how-to-configure-a-sip-trunk)[Whitelisting Telnyx Media IP Addresses](https://support.telnyx.com/en/articles/10007243-whitelisting-telnyx-media-ip-addresses)
-
-Did this answer your question?
-
-😞😐😃

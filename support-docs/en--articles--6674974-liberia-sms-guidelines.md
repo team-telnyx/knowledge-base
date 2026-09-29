@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6674974-liberia-sms-guideline
 title: "Liberia: SMS Guidelines"
 description: "Liberia SMS: Alphanumeric IDs supported. See Telnyx guidance and requirements Learn more about Liberia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 7bb0c1a7ad862ce5793e328119435d0e319c60e08e46e8334ab66363c3e8b561
+content_hash: e13ec6c65b2ca3a1d7415b2972c5cf0df66870aea5348b48139fcf90ef53ca98
 ---
 
 
@@ -35,13 +35,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Benin: SMS Guidelines](https://support.telnyx.com/en/articles/6596235-benin-sms-guidelines)[Ghana: SMS Guidelines](https://support.telnyx.com/en/articles/6670870-ghana-sms-guidelines)[South Sudan: SMS Guidelines](https://support.telnyx.com/en/articles/6680141-south-sudan-sms-guidelines)[Sudan: SMS Guidelines](https://support.telnyx.com/en/articles/6680225-sudan-sms-guidelines)[Uganda: SMS Guidelines](https://support.telnyx.com/en/articles/6683433-uganda-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5619617-polycom-setup-with-te
 title: "Polycom: Setup with Telnyx"
 description: "Learn how to configure the Polycom VVX 300-series IP phone with your Telnyx account. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 7bc29a62f486915a7a0e7b5ce12d06cd794f0e33a339793c9612a4661b728cd2
+content_hash: 408a1aa3377c37c57608e5a2c504fe1fdc214d0e999bdf8dbc2f3ecc9a90ff18
 ---
 
 
@@ -156,13 +156,3 @@ Additionally, check out:
 
 * [Polycom support](https://support.hp.com/us-en/poly)
 * Polycom VVX 300-series IP phone user guide
-
----
-
-Related Articles
-
-[Yealink: Setup with Telnyx](https://support.telnyx.com/en/articles/3074710-yealink-setup-with-telnyx)[Flyingvoice: Telnyx Setup](https://support.telnyx.com/en/articles/5810663-flyingvoice-telnyx-setup)[Gigaset A510: Telnyx Setup](https://support.telnyx.com/en/articles/5815209-gigaset-a510-telnyx-setup)[Grandstream GXP: Telnyx Setup](https://support.telnyx.com/en/articles/5815720-grandstream-gxp-telnyx-setup)[Fanvil A32i: Telnyx Setup](https://support.telnyx.com/en/articles/6056428-fanvil-a32i-telnyx-setup)
-
-Did this answer your question?
-
-😞😐😃

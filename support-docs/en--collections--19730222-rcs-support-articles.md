@@ -13,4 +13,6 @@ RCS Support Articles
 
 [RCS API Onboarding Guide](https://support.telnyx.com/en/articles/16624885-rcs-api-onboarding-guide)
 
-[RCS Agent Submission Form — Field-by-Field Guide This guide explains each field in the Telnyx RCS agent submission form, what we need from you, and how to avoid common issues that delay the approval process.](https://support.telnyx.com/en/articles/16624919-rcs-agent-submission-form-field-by-field-guide)
+[RCS Agent Submission Form — Field-by-Field Guide](https://support.telnyx.com/en/articles/16624919-rcs-agent-submission-form-field-by-field-guide)
+
+This guide explains each field in the Telnyx RCS agent submission form, what we need from you, and how to avoid common issues that delay the approval process.

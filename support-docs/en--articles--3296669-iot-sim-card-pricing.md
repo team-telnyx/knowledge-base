@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3296669-iot-sim-card-pricing
 title: "IoT SIM Card Pricing"
 description: "What are the rate plans and associated costs for Telnyx programmable wireless? See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f163316e5b3694506bb6c1c59cf11290083390fd4eaec10d4399f9469966f83b
+content_hash: d8d6162c433e657372492f6c3e1a5343d97387ee967e21612d9d42d29e92f242
 ---
 
 
@@ -180,13 +180,3 @@ For up-to-date zone pricing by country please check [here](https://telnyx.com/pr
 **Helpful Links**
 
 Get flexible and transparent pricing with automatic discounts as you scale. [Talk to our sales team about volume pricing](https://telnyx.com/contact-us).
-
----
-
-Related Articles
-
-[International IoT SIM Coverage](https://support.telnyx.com/en/articles/3270106-international-iot-sim-coverage)[Telnyx Global SIMs FAQs](https://support.telnyx.com/en/articles/3270136-telnyx-global-sims-faqs)[Telnyx IoT SIM Data Usage Zone Mapping](https://support.telnyx.com/en/articles/7966416-telnyx-iot-sim-data-usage-zone-mapping)
-
-Did this answer your question?
-
-😞😐😃

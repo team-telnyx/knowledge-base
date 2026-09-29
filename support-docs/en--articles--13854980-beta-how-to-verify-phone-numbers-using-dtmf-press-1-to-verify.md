@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/13854980-beta-how-to-verify-p
 title: "[BETA] How to Verify Phone Numbers Using DTMF (Press 1 to"
 description: "Telnyx now supports DTMF-based phone number verification, which allows you to verify phone numbers by simply pressing 1… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: a3dfd82b77b47699f682f44b170bfc1f00ad7dd60c578131cef373e8b21a7f32
+content_hash: 46a9f7760595f5e68e47c762b21f29250e2f7703bc2f7b0f94e3effaf28c665f
 ---
 
 
@@ -157,13 +157,3 @@ Target Number will receive the verification call and if they press 1, that numbe
 • *Rate limit exceeded:* Add delays between requests
 • *Invalid phone number format:* Ensure phone numbers are in E.164 format (e.g., +15412345678)
 ​
-
----
-
-Related Articles
-
-[Telnyx Verify: 2FA made easy](https://support.telnyx.com/en/articles/5701653-telnyx-verify-2fa-made-easy)[Verified Numbers](https://support.telnyx.com/en/articles/6988813-verified-numbers)[How to Verify Phone Numbers behind an IVR](https://support.telnyx.com/en/articles/12386088-how-to-verify-phone-numbers-behind-an-ivr)
-
-Did this answer your question?
-
-😞😐😃

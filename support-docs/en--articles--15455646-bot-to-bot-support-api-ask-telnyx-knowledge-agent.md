@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/15455646-bot-to-bot-support-a
 title: "Bot-to-Bot Support API: Ask Telnyx Knowledge Agent"
 description: "External bots and AI agents can ask general Telnyx support and developer documentation questions using the public… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 863f4afcf4c285f4608209b621ab952dc603c6e3c7ebcf1659c0c65a6fa340bc
+content_hash: b91283e1311e647f129ab2444908a138d3a87b392a6ad998abbbf27fd0dff7ca
 ---
 
 
@@ -105,13 +105,3 @@ This endpoint is public and intended for reasonable automated support usage. It 
 * [Telnyx Help Center llms.txt](https://support.telnyx.com/llms.txt)
 * [Telnyx Developer Docs](https://developers.telnyx.com)
 * [Telnyx Help Center](https://support.telnyx.com)
-
----
-
-Related Articles
-
-[Telnyx Verify: 2FA made easy](https://support.telnyx.com/en/articles/5701653-telnyx-verify-2fa-made-easy)[Algo 8xxx: Telnyx Endpoints](https://support.telnyx.com/en/articles/5790092-algo-8xxx-telnyx-endpoints)[Voice Elements: Telnyx SIP](https://support.telnyx.com/en/articles/6145484-voice-elements-telnyx-sip)[Telnyx Messaging Error Codes](https://support.telnyx.com/en/articles/6505121-telnyx-messaging-error-codes)[Telnyx Networking on Ubuntu](https://support.telnyx.com/en/articles/8104274-telnyx-networking-on-ubuntu)
-
-Did this answer your question?
-
-😞😐😃

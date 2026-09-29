@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3270136-telnyx-global-sims-fa
 title: "Telnyx Global SIMs FAQs"
 description: "Find answers to some common questions about the Telnyx Wireless product. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 15d716af09b9eb4ba904401ea1fa7d27633cc183f27794f8e47e0a21788c9580
+content_hash: ef90f1c7c8189c6b17704c767c702cb33ba93d525f2f5682bf4e87d07667c3d0
 ---
 
 
@@ -85,13 +85,3 @@ Yes, we can issue unbranded Telnyx SIMs however the minimum order quantity for t
 ## Can I transfer my existing SIM from Telnyx Account A to Telnyx Account B ?
 
 Yes, you can delete the SIM card from Telnyx Account A and then register the same SIM using registration code on Telnyx Account B. If you need help with Registration code, please reach out to [support@telnyx.com](mailto:support@telnyx.com).
-
----
-
-Related Articles
-
-[How to set up a Telnyx SIM Card](https://support.telnyx.com/en/articles/3269600-how-to-set-up-a-telnyx-sim-card)[International IoT SIM Coverage](https://support.telnyx.com/en/articles/3270106-international-iot-sim-coverage)[IoT SIM Card Pricing](https://support.telnyx.com/en/articles/3296669-iot-sim-card-pricing)[SIM Card Actions](https://support.telnyx.com/en/articles/5812328-sim-card-actions)
-
-Did this answer your question?
-
-😞😐😃

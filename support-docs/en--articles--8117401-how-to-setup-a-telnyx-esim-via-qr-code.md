@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8117401-how-to-setup-a-telnyx
 title: "How to setup a Telnyx eSIM via QR code"
 description: "Walkthrough on purchasing, activating, and using Telnyx eSIMs for seamless mobile connectivity. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: e47a4c86d008bf60e69a9221f5bf876efdc261e8f70f5b4fefef0d546e409966
+content_hash: 372a3c3d6045ef8a53575a92a5ce87ce5fb9b3ba5040aa72e8df40388de991cf
 ---
 
 
@@ -64,13 +64,3 @@ If you use a mobile phone that supports eSIMs, use your phones camera to scan th
 Follow the on screen instructions, the activation process may take a few minutes to connect to the network.
 
 Please make sure to verify that the apn has been set correctly to data00.telnyx.
-
----
-
-Related Articles
-
-[How to set up a Telnyx SIM Card](https://support.telnyx.com/en/articles/3269600-how-to-set-up-a-telnyx-sim-card)[Telnyx Global SIMs FAQs](https://support.telnyx.com/en/articles/3270136-telnyx-global-sims-faqs)[Manual eSIM activation guide](https://support.telnyx.com/en/articles/10067533-manual-esim-activation-guide)[Using Telnyx SIM with Ubiquiti UniFi LTE Pro](https://support.telnyx.com/en/articles/10164784-using-telnyx-sim-with-ubiquiti-unifi-lte-pro)[Using Telnyx SIM with InRouter300 Series Cellular Routers](https://support.telnyx.com/en/articles/10511105-using-telnyx-sim-with-inrouter300-series-cellular-routers)
-
-Did this answer your question?
-
-😞😐😃
