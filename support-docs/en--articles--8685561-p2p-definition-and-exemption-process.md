@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8685561-p2p-definition-and-ex
 title: "P2P Definition and Exemption Process"
 description: "P2P (Person-to-Person) SMS traffic refers to the exchange of text messages between individuals, See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 93e09f7ae7e6ed891b3b789156efb3b560158789b6789946c7793b67776d852c
+content_hash: b0608abdcc179c9fb72abcec636fe6dc53dad96412d2b4b0967b2063e408aa8c
 ---
 
 
@@ -62,13 +62,3 @@ If you fit the above criteria except that you need a Telnyx contract:
 There are strict requirements from the mobile operators in order to qualify for P2P Exemption and the process for approval can take up to several months. We recommend reviewing the up to date TCR P2P requirements prior to applying.
 
 Please contact sales at [sales@telnyx.com](mailto:sales@telnyx.com) to proceed.
-
----
-
-Related Articles
-
-[SMS Long Code Deliverability Best Practices](https://support.telnyx.com/en/articles/1130617-sms-long-code-deliverability-best-practices)[Guide to Using Our Traffic Type Feature](https://support.telnyx.com/en/articles/3199007-guide-to-using-our-traffic-type-feature)[Frequently asked questions about 10DLC](https://support.telnyx.com/en/articles/3679260-frequently-asked-questions-about-10dlc)[Palestinian Territory: SMS Guidelines](https://support.telnyx.com/en/articles/6679259-palestinian-territory-sms-guidelines)[Guide to Sole Proprietor 10DLC Brand and Campaign Registration](https://support.telnyx.com/en/articles/13545282-guide-to-sole-proprietor-10dlc-brand-and-campaign-registration)
-
-Did this answer your question?
-
-😞😐😃

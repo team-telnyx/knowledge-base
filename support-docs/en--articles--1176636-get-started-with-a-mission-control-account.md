@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1176636-get-started-with-a-mi
 title: "Get Started with a Mission Control Account"
 description: "This article explains what is needed to set up your Mission Control account after signing up! See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f4aeea672787a4e63fcd3f07ed7eecad79c3af1c612481c925404de256269982
+content_hash: 54f59d2e2ca869ef948262adfbdbbcf4303a2a8e62ad26a5b0a7f620624b3cc5
 ---
 
 
@@ -56,13 +56,3 @@ Coming soon! This walkthrough will demonstrate setting up your Telnyx Mission Co
 Additional information that may be needed for configuring your client, such as a list of our signalling and media IP's, to our SIP proxy, can be found at [sip.telnyx.com](https://sip.telnyx.com/).
 
 ​
-
----
-
-Related Articles
-
-[Configuring Call Control/TeXML Applications - Voice API](https://support.telnyx.com/en/articles/4374050-configuring-call-control-texml-applications-voice-api)[Grandstream HT802: Telnyx Setup](https://support.telnyx.com/en/articles/5725071-grandstream-ht802-telnyx-setup)[Xorcom PBX: SIP Trunk](https://support.telnyx.com/en/articles/5754127-xorcom-pbx-sip-trunk)[Messaging in Mission Control](https://support.telnyx.com/en/articles/8219294-messaging-in-mission-control)[BYOC: Telnyx & Genesys](https://support.telnyx.com/en/articles/8268122-byoc-telnyx-genesys)
-
-Did this answer your question?
-
-😞😐😃

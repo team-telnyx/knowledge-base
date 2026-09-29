@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4424926-reporting-detail-requ
 title: "Reporting: Detail Requests"
 description: "This article will showcase the detail requests section in greater detail. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 9e07cd5c96b6fe2ae171841a9a06e0921bd8a237da49f572791d5f3737b9f9a6
+content_hash: e6fa945191dd3ad2f05415a5cb95255e45471cd8a67a153525d474fbc634d669
 ---
 
 
@@ -58,13 +58,3 @@ The kind of information returned and reporting options will be different based o
 Once all options are customised to your needs, you can hit **Generate Detailed Report** and your report will start generating. You can see the status of the report under **Download Report**. If there is a download link then it is available, if it states "expired" then the report download link has expired, however, this can be regenerated from the refresh icon to the right of the report. You can also see additional details about the report, such as the time the report was created, the time range for the report itself, and any Filters can be viewed if they were included.
 
 ![](_images/fb55cbbaec5c6cf4.png)
-
----
-
-Related Articles
-
-[Reporting: Usage Reports](https://support.telnyx.com/en/articles/4425016-reporting-usage-reports)[Reporting: Monthly Charges](https://support.telnyx.com/en/articles/4425088-reporting-monthly-charges)[Message Deliverability Dashboard](https://support.telnyx.com/en/articles/6969802-message-deliverability-dashboard)[BYOC: Telnyx & Genesys](https://support.telnyx.com/en/articles/8268122-byoc-telnyx-genesys)[Configure Repeat Call Guard on Outbound Voice Profiles (BETA)](https://support.telnyx.com/en/articles/12580667-configure-repeat-call-guard-on-outbound-voice-profiles-beta)
-
-Did this answer your question?
-
-😞😐😃

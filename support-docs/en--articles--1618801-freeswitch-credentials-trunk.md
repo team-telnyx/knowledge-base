@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1618801-freeswitch-credential
 title: "FreeSWITCH: Credentials Trunk"
 description: "Here we will explain how to configure a FreeSWITCH Credentials Trunk with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: fc5abd1292f0d8236346f697539169723a012c9e5d2ba0cf07cb7f87754a6b6e
+content_hash: 4d3eaebaa66c8a9ddceb50a956a222b661c91e35a485e92a0fb3c5456279bcdb
 ---
 
 
@@ -127,13 +127,3 @@ Additionally you can:
 
 * Get in touch with FreeSWITCH here
 * Check out their [help section](https://developer.signalwire.com/freeswitch/FreeSWITCH-Explained/) for community or paid support.
-
----
-
-Related Articles
-
-[Cisco: Configure a Cisco CME IP Trunk](https://support.telnyx.com/en/articles/1130612-cisco-configure-a-cisco-cme-ip-trunk)[Configuring a FreePBX V13 Credentials Trunk](https://support.telnyx.com/en/articles/1130648-configuring-a-freepbx-v13-credentials-trunk)[Configuring a Cisco CME Credentials Trunk](https://support.telnyx.com/en/articles/1130668-configuring-a-cisco-cme-credentials-trunk)[FreeSWITCH: IP Trunk Setup](https://support.telnyx.com/en/articles/1616935-freeswitch-ip-trunk-setup)[Elastix 5: Credentials Trunk](https://support.telnyx.com/en/articles/3284164-elastix-5-credentials-trunk)
-
-Did this answer your question?
-
-😞😐😃

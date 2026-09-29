@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4088988-telnyx-how-to-handle-
 title: "Telnyx - How to Handle Spam Scam Likely"
 description: "We will explain the spam likely flag and what to do in case your number has been flagged. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: cb35638b773eb447396084f81d810b603263dfd18a7783333ca7cdb3ec274292
+content_hash: a59ad07c54d7c9268889397ab4128bd3e34450c5f16765581a5b5d03c8d57000
 ---
 
 
@@ -68,13 +68,3 @@ Next step is to push to the specific carrier that is flagging your calls. This p
 ## **STIR/SHAKEN Details**
 
 We are committed to combating spoofing and illegal robocalling through implementing the industry-wide STIR/SHAKEN solution, in an effort to play our part in reducing these illegal occurrences. You can read more about our three-part [articles](https://telnyx.com/resources/shaken-stir-explained) where we discuss the implementation in detail.
-
----
-
-Related Articles
-
-[SIP Trunking - Methods/Requests & Responses](https://support.telnyx.com/en/articles/4304898-sip-trunking-methods-requests-responses)[Telnyx SIP Response Codes](https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes)[PSTN Replacement / Local Calling with Telnyx](https://support.telnyx.com/en/articles/6622229-pstn-replacement-local-calling-with-telnyx)[Inbound Call Screening](https://support.telnyx.com/en/articles/8037040-inbound-call-screening)[Understanding SIP 603+ carrier rejections](https://support.telnyx.com/en/articles/15395095-understanding-sip-603-carrier-rejections)
-
-Did this answer your question?
-
-😞😐😃

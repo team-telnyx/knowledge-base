@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6674989-libya-sms-guidelines
 title: "Libya: SMS Guidelines"
 description: "Sending SMS to Libya? See Telnyx guidance and requirements Learn more about Libya: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 2d9ad72400dcc8035c46fb630538edd222a65e17d213246f05316c33e8b0e728
+content_hash: f8d914f2c6e27728214cf345e7e1f45cea49330dc79ffc4ea971d3edee971c85
 ---
 
 
@@ -59,13 +59,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Burundi: SMS Guidelines](https://support.telnyx.com/en/articles/6601042-burundi-sms-guidelines)[Jordan: SMS Guidelines](https://support.telnyx.com/en/articles/6674487-jordan-sms-guidelines)[Kuwait: SMS Guidelines](https://support.telnyx.com/en/articles/6674713-kuwait-sms-guidelines)[Malawi: SMS Guidelines](https://support.telnyx.com/en/articles/6675104-malawi-sms-guidelines)[Tajikistan: SMS Guidelines](https://support.telnyx.com/en/articles/6683287-tajikistan-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

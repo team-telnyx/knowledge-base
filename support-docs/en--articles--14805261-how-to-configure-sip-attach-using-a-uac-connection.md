@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/14805261-how-to-configure-sip
 title: "How to Configure SIP Attach using a UAC Connection"
 description: "SIP Attach lets Telnyx register as a SIP endpoint on your existing PBX or voice system. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f98c77eedcf95e9ea324025de356fb5c052b20ebacea97b2eca1c1f023bd3ced
+content_hash: 847da490df74418b508070c31bee416771f71ad97f723c15bf8a13d17bdfbdc2
 ---
 
 
@@ -319,13 +319,3 @@ If your PBX rate-limits registrations or you see frequent re-registration cycles
 ## **Need Help?**
 
 If you're still having trouble, contact Telnyx support at [support@telnyx.com](mailto:support@telnyx.com) or open a ticket in the Mission Control Portal. Include your Connection ID and any SIP logs from your PBX for faster resolution.
-
----
-
-Related Articles
-
-[SIP Connection: Fail-over and Retries](https://support.telnyx.com/en/articles/4320364-sip-connection-fail-over-and-retries)[SIP Registration](https://support.telnyx.com/en/articles/4363904-sip-registration)[Yeastar S-Series: Telnyx SIP](https://support.telnyx.com/en/articles/5748952-yeastar-s-series-telnyx-sip)[How to Configure a SIP Trunk](https://support.telnyx.com/en/articles/8096455-how-to-configure-a-sip-trunk)[How to configure Yeastar P-series](https://support.telnyx.com/en/articles/13375115-how-to-configure-yeastar-p-series)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6683484-yemen-sms-guidelines
 title: "Yemen: SMS Guidelines"
 description: "SMS Guidelines for Yemen including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Yemen: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: a749e2016ec51e13abebae1640c258ef713c7d7f7545d6608a3892bd9faefdd8
+content_hash: dffd765fffdab25f419fd91dd6862e4eec8e662010ef5c23d4cb773d59200d2e
 ---
 
 
@@ -62,13 +62,3 @@ For more information on Alpha Sender ID registration kindly reach out to [alpha\
 ​
 
 ##
-
----
-
-Related Articles
-
-[Norway: SMS Guidelines](https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines)[Iraq: SMS Guidelines](https://support.telnyx.com/en/articles/6589557-iraq-sms-guidelines)[Azerbaijan: SMS Guidelines](https://support.telnyx.com/en/articles/6596144-azerbaijan-sms-guidelines)[Chad: SMS Guidelines](https://support.telnyx.com/en/articles/6601133-chad-sms-guidelines)[Palestinian Territory: SMS Guidelines](https://support.telnyx.com/en/articles/6679259-palestinian-territory-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

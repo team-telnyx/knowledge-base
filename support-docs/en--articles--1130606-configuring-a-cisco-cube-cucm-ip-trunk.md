@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130606-configuring-a-cisco-c
 title: "Configuring a Cisco CUBE/CUCM IP Trunk"
 description: "In this article we will walk you through configuring a Cisco CUBE/CUCM IP Trunk on the Telnyx network. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 199394283c2f7a5f7865987d97b45ffdd97bb0ebc92d292f4adbe6e6584a8880
+content_hash: 08c16bc1be30fb09671a2b275f0689f277d4d8530a1fd282b44ade44a0a7a880
 ---
 
 
@@ -214,13 +214,3 @@ Review our [getting started with guide](https://support.telnyx.com/en/articles/1
 Additionally, check out:
 
 * [Cisco CUBE/CUCM integration documentation](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/117300-configure-cube-00.html)
-
----
-
-Related Articles
-
-[Cisco: Configure a Cisco CME IP Trunk](https://support.telnyx.com/en/articles/1130612-cisco-configure-a-cisco-cme-ip-trunk)[Configuring an AVAYA IP trunk with Telnyx](https://support.telnyx.com/en/articles/1130627-configuring-an-avaya-ip-trunk-with-telnyx)[Configuring a Cisco CME Credentials Trunk](https://support.telnyx.com/en/articles/1130668-configuring-a-cisco-cme-credentials-trunk)[Configuring a Cisco CUBE/CUCM SIP Trunk](https://support.telnyx.com/en/articles/1130673-configuring-a-cisco-cube-cucm-sip-trunk)[FreeSWITCH: IP Trunk Setup](https://support.telnyx.com/en/articles/1616935-freeswitch-ip-trunk-setup)
-
-Did this answer your question?
-
-😞😐😃

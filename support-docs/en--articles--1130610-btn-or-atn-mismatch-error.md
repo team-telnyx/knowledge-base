@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130610-btn-or-atn-mismatch-e
 title: "BTN or ATN Mismatch Error"
 description: "In this article we will explain the billing telephone number or account telephone number mismatch error and how to… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: dd197611f6deddd780556f81ed9ca2303f68532e11f7224ad133ea847da91cf8
+content_hash: 4d9ec107874a9c99ba3d8856ffba436b60e26c77f884b74126ba70460b58d292
 ---
 
 
@@ -44,13 +44,3 @@ If it was not found on the bill or invoice, you'll need to contact the carrier d
 ## Special note for resellers
 
 In the case where the end customer purchased service through a reseller, mismatched BTNs can also happen because the end customer wrongly submits the reseller’s phone number as their own BTN. When a losing reseller is involved, the number might actually belong to the reseller instead of the end customer. The customer might not realize that. When submitting their BTN or service address they may use their own instead of the BTN and service address of the reseller.
-
----
-
-Related Articles
-
-[Obtaining a CSR From Your Carrier](https://support.telnyx.com/en/articles/1130614-obtaining-a-csr-from-your-carrier)[Invalid Reseller Error](https://support.telnyx.com/en/articles/1130619-invalid-reseller-error)[Porting Error Messages](https://support.telnyx.com/en/articles/1618776-porting-error-messages)[How to fill out an LOA](https://support.telnyx.com/en/articles/2034326-how-to-fill-out-an-loa)[Porting away from Bandwidth](https://support.telnyx.com/en/articles/3947875-porting-away-from-bandwidth)
-
-Did this answer your question?
-
-😞😐😃

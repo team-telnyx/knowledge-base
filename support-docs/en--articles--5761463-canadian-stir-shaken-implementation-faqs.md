@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5761463-canadian-stir-shaken-
 title: "Canadian STIR/SHAKEN Implementation FAQs"
 description: "Find answers to your questions about compliance, required actions, attestations, and more. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: c7f2d8d7965abfc1368a2b9ca731972644ec147a989d7d4c14bd0c1615163242
+content_hash: c46be3710e36ba797d8ce8aab467f7af38e12722aedfdcd4fb4e07c8c0680591
 ---
 
 
@@ -46,13 +46,3 @@ There is no additional charge for SHAKEN/ STIR services, so it will be free to a
 All calls originating on the Telnyx network with Canadian CLI will receive an attestation. There is no action required from the customer.
 
 The customer will not be notified of the attestation it receives from Telnyx, but customers should be able to predict the attestation level based on the requirements outlined in the above questions.
-
----
-
-Related Articles
-
-[STIR/SHAKEN With Telnyx](https://support.telnyx.com/en/articles/5402969-stir-shaken-with-telnyx)[SHAKEN/STIR Parameters](https://support.telnyx.com/en/articles/7421223-shaken-stir-parameters)[Inbound Call Screening](https://support.telnyx.com/en/articles/8037040-inbound-call-screening)[Understanding the FCC’s Eighth Report and Order on Third-Party Authentication](https://support.telnyx.com/en/articles/10806916-understanding-the-fcc-s-eighth-report-and-order-on-third-party-authentication)[Understanding SIP 603+ carrier rejections](https://support.telnyx.com/en/articles/15395095-understanding-sip-603-carrier-rejections)
-
-Did this answer your question?
-
-😞😐😃

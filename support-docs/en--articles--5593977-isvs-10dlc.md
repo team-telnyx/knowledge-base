@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5593977-isvs-10dlc
 title: "ISVs & 10DLC"
 description: "We break down how to know if you're classed as an ISV or a direct brand customer, See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 48ffd81369f66f1793c4c2d7edd6f9868ab5c3f1d38dc0f38afd5e02378591a4
+content_hash: 49cfe09aa860e7d3c7f41601fb8d5caedd170d48e9d47a7880534a04bc6b78fb
 ---
 
 
@@ -70,13 +70,3 @@ If you'd like to keep using long-code numbers to send [A2P messages](https://tel
 **Toll-free numbers** can also be used to send A2P messages, and are not subject to 10DLC requirements. There is, however, an approval process for sending messages via Toll-free numbers as detailed in our [knowledge base](https://support.telnyx.com/en/articles/5353868-toll-free-messaging), and similar restrictions apply to using the same number across multiple end-users.
 
 More detailed information on carrier fines can be found in our [FAQ](https://support.telnyx.com/en/articles/3679260-frequently-asked-questions-about-10dlc#h_d7a8953798).
-
----
-
-Related Articles
-
-[Frequently asked questions about 10DLC](https://support.telnyx.com/en/articles/3679260-frequently-asked-questions-about-10dlc)[Telnyx & 10DLC Compliance](https://support.telnyx.com/en/articles/5664840-telnyx-10dlc-compliance)[Register for 10DLC Messaging](https://support.telnyx.com/en/articles/6325731-register-for-10dlc-messaging)[Telnyx 10DLC Compliance Directory](https://support.telnyx.com/en/articles/6417677-telnyx-10dlc-compliance-directory)[10DLC Mock Brands and Campaigns](https://support.telnyx.com/en/articles/12812898-10dlc-mock-brands-and-campaigns)
-
-Did this answer your question?
-
-😞😐😃

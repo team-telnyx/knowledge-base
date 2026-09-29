@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/7205411-numbering-team-best-p
 title: "Numbering Team Best Practices"
 description: "Effective ways to engage with Telnyx's numbering team for number requests and updates. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 68f25345723651933417c8c67558ee377a89f2b7e771b11521f8cec26515dbb5
+content_hash: 90d11e721ae0bcadd2c023c717bbd690d3ea48087c499e4476aa319bdf28ccd9
 ---
 
 
@@ -65,13 +65,3 @@ Depending on your specific need, different support methods may be more helpful. 
 **If you have an urgent issue and need to expedite a ticket,** contact the numbering team by opening a new chat or by sending an email to **[numbering@telnyx.com](mailto:numbering@telnyx.com)** during work hours. While the team usually resolves tickets as soon as possible, they will do their best to assist you if you have an urgent need.
 
 **Looking for document requirements for a specific country?** You can find the information you need by going to **support.telnyx.com** and then searching by country.
-
----
-
-Related Articles
-
-[Number Porting Rules and Guidelines](https://support.telnyx.com/en/articles/2086149-number-porting-rules-and-guidelines)[Bug Reports Guide](https://support.telnyx.com/en/articles/4283906-bug-reports-guide)[Find GB Numbers on Telnyx Portal](https://support.telnyx.com/en/articles/5820047-find-gb-numbers-on-telnyx-portal)[Easy Text Marketing and Telnyx Integration](https://support.telnyx.com/en/articles/6986625-easy-text-marketing-and-telnyx-integration)[How to Configure a SIP Trunk](https://support.telnyx.com/en/articles/8096455-how-to-configure-a-sip-trunk)
-
-Did this answer your question?
-
-😞😐😃

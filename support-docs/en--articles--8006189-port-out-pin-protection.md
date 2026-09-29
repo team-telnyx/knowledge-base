@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8006189-port-out-pin-protecti
 title: "Port Out PIN Protection"
 description: "This article explains how to properly set up Port Out PIN protection on your… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 6cec67e3a13a4b7a403aaba4c27f0c6aa1e42ed8a45bb96f80b06168e578ccbd
+content_hash: c31c5ad6bf4469c4e282ed866fc771f7ba302372bc979cc6e0f06360d90e4d1d
 ---
 
 
@@ -78,13 +78,3 @@ You can specify Port Out PINs for individual phone numbers. To update the Port O
 ![Port Out Requests section on the mission control portal. ](_images/d8f5520fc5b44961.png)
 
 Please note that Port Out PIN protection is available for on-net US numbers only. As a Port Out request is created for your account, you will notice a new column titled `PIN Validation` listing either `Eligible` or `Non-Eligible`. PIN validation will only occur on `Eligible` Port Out requests.
-
----
-
-Related Articles
-
-[Porting Error Messages](https://support.telnyx.com/en/articles/1618776-porting-error-messages)[I Received a Port-Out Notification](https://support.telnyx.com/en/articles/2030667-i-received-a-port-out-notification)[Port your Microsoft MS Teams Numbers](https://support.telnyx.com/en/articles/5104103-port-your-microsoft-ms-teams-numbers)[Port away from voip.ms](https://support.telnyx.com/en/articles/5595770-port-away-from-voip-ms)[Porting Numbers Away from Aircall to Telnyx](https://support.telnyx.com/en/articles/14708128-porting-numbers-away-from-aircall-to-telnyx)
-
-Did this answer your question?
-
-😞😐😃

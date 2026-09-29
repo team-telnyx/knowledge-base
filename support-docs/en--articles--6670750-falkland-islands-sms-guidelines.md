@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6670750-falkland-islands-sms-
 title: "Falkland Islands: SMS Guidelines"
 description: "Sending SMS to Falkland? See Telnyx guidance and requirements Learn more about Falkland Islands: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 2194114ab7f979cb77693e5d6330c5e5a1509ba0548e42259cc6bae8aafda34e
+content_hash: d3db2740a9c95d0d17a680704ee1d1d9b6f9d54c1ab533009994be8006785752
 ---
 
 
@@ -31,13 +31,3 @@ There are no restrictions with regards to content towards this destination.
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Lithuania: SMS Guidelines](https://support.telnyx.com/en/articles/6560973-lithuania-sms-guidelines)[Switzerland: SMS Guidelines](https://support.telnyx.com/en/articles/6561154-switzerland-sms-guidelines)[Bermuda: SMS Guidelines](https://support.telnyx.com/en/articles/6596251-bermuda-sms-guidelines)[Faroe Islands: SMS Guidelines](https://support.telnyx.com/en/articles/6670775-faroe-islands-sms-guidelines)[Solomon Islands: SMS Guidelines](https://support.telnyx.com/en/articles/6680123-solomon-islands-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5812328-sim-card-actions
 title: "SIM Card Actions"
 description: "Track every update made to your SIM cards with Telnyx's SIM card actions. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 3133c9bbc18ae271dca2d68cf574c0cbb229388f0307e9c9193364cd2b0e82d7
+content_hash: d548ce7ba72dcff75993dec4aa5201b37bf233396bca4e7c16d515acfc4f6fe9
 ---
 
 
@@ -38,13 +38,3 @@ Operations that are tracked as SIM card actions are:
 * Standby SIM card
 * Data Limit exceeded
 * Enable Standby SIM card.
-
----
-
-Related Articles
-
-[Telnyx Global SIMs FAQs](https://support.telnyx.com/en/articles/3270136-telnyx-global-sims-faqs)[SIM Data Limits & Notifications](https://support.telnyx.com/en/articles/3403998-sim-data-limits-notifications)[SIM Setup and Configuration](https://support.telnyx.com/en/articles/4298710-sim-setup-and-configuration)[SIM Connectivity Logs](https://support.telnyx.com/en/articles/5666594-sim-connectivity-logs)[SIM Card Location and Device Details](https://support.telnyx.com/en/articles/5812302-sim-card-location-and-device-details)
-
-Did this answer your question?
-
-😞😐😃

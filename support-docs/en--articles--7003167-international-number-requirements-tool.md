@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/7003167-international-number-
 title: "International Number Requirements Tool"
 description: "Outlining the new International Number requirements tool and its uses on the Telnyx Portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 0daa53a8a43bac3e5f5211996b4d070f7046b798f596d12af6fd867b0a881fab
+content_hash: 499e20603bc4f31e5a547af7118df4f55622917a54efced57f88748ca8148e4d
 ---
 
 
@@ -46,13 +46,3 @@ For more information about purchasing or porting numbers in a particular country
 *This tool only retrieves information on numbers in regions that require supplemental information for number porting and ordering. Therefore countries with no requirements for number porting or ordering will return as null in this table.*
 
 *If you have questions about country coverage please [reach out](https://telnyx.com/contact-us) to a member of our sales team.*
-
----
-
-Related Articles
-
-[International Number Porting - Required Documents](https://support.telnyx.com/en/articles/1130626-international-number-porting-required-documents)[Global Number Types](https://support.telnyx.com/en/articles/1458084-global-number-types)[Search and Buy Numbers](https://support.telnyx.com/en/articles/4380325-search-and-buy-numbers)[Porting Requirements](https://support.telnyx.com/en/articles/6460777-porting-requirements)[Kuwait DID Requirements](https://support.telnyx.com/en/articles/12640555-kuwait-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

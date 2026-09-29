@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130717-limits-on-concurrent-
 title: "Limits on Concurrent Outbound Calls"
 description: "Did you reach your limit for active concurrent outbound calls? See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: b4ae87b49df7367c2f8d7d2217db4327fba490003ce0f7cf6976db2204eb40a6
+content_hash: 8317428c52a672cb918e6477183c4f2b0a7993e4d63fcc677f6801ff41381197
 ---
 
 
@@ -30,13 +30,3 @@ You will know when you have reached this limit as Telnyx returns the SIP error r
 The number of concurrent **outbound** calls for the account is over the limit. This relates to the global account concurrent call limit set in your [outbound voice profile](https://portal.telnyx.com/#/app/outbound-profiles) section.
 
 You can find more information on all of our SIP responses [here](https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes#h_a272894b39).
-
----
-
-Related Articles
-
-[More About Outbound Voice Profiles](https://support.telnyx.com/en/articles/4320411-more-about-outbound-voice-profiles)[Configuring Call Control/TeXML Applications - Voice API](https://support.telnyx.com/en/articles/4374050-configuring-call-control-texml-applications-voice-api)[SIP Connection: Inbound & Outbound Settings](https://support.telnyx.com/en/articles/4404448-sip-connection-inbound-outbound-settings)[Troubleshooting Call Completion](https://support.telnyx.com/en/articles/5025298-troubleshooting-call-completion)[Calls Per Second (CPS) Limits](https://support.telnyx.com/en/articles/15668484-calls-per-second-cps-limits)
-
-Did this answer your question?
-
-😞😐😃

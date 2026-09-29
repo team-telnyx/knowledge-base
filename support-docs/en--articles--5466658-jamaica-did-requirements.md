@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5466658-jamaica-did-requireme
 title: "Jamaica DID Requirements"
 description: "Here you will find a list of detailed requirements for acquiring Jamaica numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 6fd796c2593106af38bfaffa761488d2f11fab252f01d22a9c4ea393e8796f65
+content_hash: d1577d06b3bd2d2b94618cb7a704477dac4e4ae46dee1ecc6c73064ce3cc796b
 ---
 
 
@@ -87,13 +87,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Uruguay DID Requirements](https://support.telnyx.com/en/articles/3362891-uruguay-did-requirements)[Ecuador DID Requirements](https://support.telnyx.com/en/articles/3506153-ecuador-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)[Qatar DID Requirements](https://support.telnyx.com/en/articles/8520014-qatar-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

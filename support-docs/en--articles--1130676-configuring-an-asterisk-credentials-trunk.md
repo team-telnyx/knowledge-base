@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130676-configuring-an-asteri
 title: "Configuring an Asterisk Credentials Trunk"
 description: "Comprehensive guide on configuring Asterisk with Telnyx for advanced VoIP communication and seamless call handling. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: ea65c73e146e87a3d1d8f3aced9b9d7a1ad4b0bb2e3d9f899662ee6788924537
+content_hash: 83f5af22acdd21c899717541e50d5ae4bc51f26470260d0d2ceacf6d97253932
 ---
 
 
@@ -201,13 +201,3 @@ Review our [getting started guide](https://support.telnyx.com/en/articles/117663
 Additionally you can check out:
 
 * Asterisk’s [help section](https://community.asterisk.org/) for extra support.
-
----
-
-Related Articles
-
-[Asterisk: Configure an Asterisk IP trunk](https://support.telnyx.com/en/articles/1130628-asterisk-configure-an-asterisk-ip-trunk)[Configuring a GoAutoDial PBX SIP Trunk](https://support.telnyx.com/en/articles/1130694-configuring-a-goautodial-pbx-sip-trunk)[FreePBX V14: IP Trunk - ChanSIP](https://support.telnyx.com/en/articles/3284736-freepbx-v14-ip-trunk-chansip)[FreePBX V14: Credentials - ChanSIP](https://support.telnyx.com/en/articles/3284752-freepbx-v14-credentials-chansip)[FreePBX V15: IP Trunk - PJSIP](https://support.telnyx.com/en/articles/5619595-freepbx-v15-ip-trunk-pjsip)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3362891-uruguay-did-requireme
 title: "Uruguay DID Requirements"
 description: "Here you will find a detailed list of requirements to acquire Uruguay numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: a03d139508df481cec43e02c85b45d8a4873cce617e41aa295c8c0d8aff15a00
+content_hash: 1fa065417f750fede92a2474ce1e182f55770fec8afa17010e396134bd2cd651
 ---
 
 
@@ -82,13 +82,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Ecuador DID Requirements](https://support.telnyx.com/en/articles/3506153-ecuador-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Jamaica DID Requirements](https://support.telnyx.com/en/articles/5466658-jamaica-did-requirements)[Nicaragua DID Requirements](https://support.telnyx.com/en/articles/5466838-nicaragua-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

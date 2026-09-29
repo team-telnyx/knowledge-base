@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/7984783-certificate-error-api
 title: "Certificate Error: api.telnyx.com"
 description: "In this article, you will get to know how you can install the TLS certificate for… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: b8a0fe4f7ba0cc06092c1f03d8a8abf75fb1478976ea88d3b0f4a47d99208fe5
+content_hash: 3af00b5f3504027875e4c9aff8c73f5ae0b077f16eeaac1015e82c0c823a2648
 ---
 
 
@@ -224,13 +224,3 @@ If you are not using Java default ca certs store, you can import all trusted CA 
    Cloudflare is using `[O = Baltimore, OU = CyberTrust](https://cacerts.digicert.com/BaltimoreCyberTrustRoot.crt.pem), [CN = Baltimore CyberTrust Root CA](https://cacerts.digicert.com/BaltimoreCyberTrustRoot.crt.pem) to sign [https://api.telnyx.com](https://portal.telnyx.com/#/login/sign-in). Including this certificate only in your truststore should be enough to validate connections to [https://api.telnyx.com](https://portal.telnyx.com/), but Cloudflare may change it at any time for other of its [supported CAs](https://developers.cloudflare.com/ssl/reference/certificate-authorities/).
 
    **For more help with this process please contact [support@telnyx.com](mailto:support@telnyx.com).**
-
----
-
-Related Articles
-
-[Understanding Telnyx SOC Compliance and Certifications](https://support.telnyx.com/en/articles/12397834-understanding-telnyx-soc-compliance-and-certifications)
-
-Did this answer your question?
-
-😞😐😃

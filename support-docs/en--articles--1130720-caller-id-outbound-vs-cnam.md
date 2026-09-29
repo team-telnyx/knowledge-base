@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130720-caller-id-outbound-vs
 title: "Caller ID Outbound vs CNAM"
 description: "Learn the differences between CID (Caller ID Number) and CNAM (Caller ID Name) and how to set it up with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 7f060f662e4006ee2a3ed75a957f1628ad35b44967bb09380b6bd99bfb593ef1
+content_hash: 1d12206d1fbbc15bd9231ffae92fafd17005798a058cef7b5ce1637a6c92717e
 ---
 
 
@@ -129,13 +129,3 @@ In Canada, there is no national CNAM database. Instead, the CNAM information is 
 * Please also note, that the industry wide CNAM service is not generally used by Wireless Carriers. So if you dial a wireless/mobile device, your CNAM may not display on their device. The only way around this is if the subscriber includes the name as a contact in their phone-book.
 
 You can use the [number lookup tool](https://support.telnyx.com/en/articles/4366901-your-number-lookup-guide) from your account to verify when the CNAM Listing has been updated on your number.
-
----
-
-Related Articles
-
-[Set up Inbound Caller ID Name (incoming)](https://support.telnyx.com/en/articles/1130656-set-up-inbound-caller-id-name-incoming)[Caller ID Number Policy](https://support.telnyx.com/en/articles/3546251-caller-id-number-policy)[Your Number Lookup Guide](https://support.telnyx.com/en/articles/4366901-your-number-lookup-guide)[SIP Connection: Inbound & Outbound Settings](https://support.telnyx.com/en/articles/4404448-sip-connection-inbound-outbound-settings)[Xorcom PBX: SIP Trunk](https://support.telnyx.com/en/articles/5754127-xorcom-pbx-sip-trunk)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6161111-3cx-configuring-a-3cx
 title: "3CX: Configuring a 3CX V18 PBX"
 description: "Learn how to configure a 3CX V18 PBX SIP Trunk (Calls & Messaging) with Telnyx through their import provider option… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f20fd68de5318103f19926242e092400bdea47894173a6d1c07efa08a523f5ec
+content_hash: b5fb460ae6e41598ffdb680c49e1c8ded763dc07de9b774733282514bb081a12
 ---
 
 
@@ -292,13 +292,3 @@ Additionally, you can check out:
 * Latest information on [3CX V18 Updates](https://www.3cx.com/blog/releases/).
 
 [telnyx.pv.xml](https://telnyx-48416ce2297b.intercom-attachments-7.com/i/o/997239819/230a8f6b1b503d635675fed1/telnyx_pv.xml?expires=1783507500&signature=611430fa070f6f1044efbbdcce41bddc378b2954b85bf350403bc4adc9921438&req=fSkgFMp3lYBWFb4f3HP0gJNSzxnGynWEHaYGLCbAoF4XiGRoPYfDbjqi7yXl%0AFVFeAcjOpw%3D%3D%0A)
-
----
-
-Related Articles
-
-[Configuring an Elastix 4 PBX IP Trunk](https://support.telnyx.com/en/articles/1130622-configuring-an-elastix-4-pbx-ip-trunk)[How to configure a Thirdlane PBX](https://support.telnyx.com/en/articles/1130631-how-to-configure-a-thirdlane-pbx)[Configuring an Elastix 4 PBX Trunk](https://support.telnyx.com/en/articles/1130654-configuring-an-elastix-4-pbx-trunk)[Xorcom PBX: SIP Trunk](https://support.telnyx.com/en/articles/5754127-xorcom-pbx-sip-trunk)[3CX: Configuring a 3CX V20 PBX 20.0 Update 5 (Build 20.0.5.551) (March 2025 Update)](https://support.telnyx.com/en/articles/8683996-3cx-configuring-a-3cx-v20-pbx-20-0-update-5-build-20-0-5-551-march-2025-update)
-
-Did this answer your question?
-
-😞😐😃

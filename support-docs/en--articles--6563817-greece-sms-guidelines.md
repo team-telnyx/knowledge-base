@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6563817-greece-sms-guidelines
 title: "Greece: SMS Guidelines"
 description: "Sending SMS to Greece? See Telnyx guidance and requirements Learn more about Greece: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 3c92b293d21e39091885689497e8dee516e2f4cfbfa2ff95f5cd229adba2eace
+content_hash: 87d59944f4603eb3eed723b8d2dd7d8eaa868d3b45abd6d271b881cbe15766bb
 ---
 
 
@@ -59,13 +59,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Burundi: SMS Guidelines](https://support.telnyx.com/en/articles/6601042-burundi-sms-guidelines)[Jordan: SMS Guidelines](https://support.telnyx.com/en/articles/6674487-jordan-sms-guidelines)[Malawi: SMS Guidelines](https://support.telnyx.com/en/articles/6675104-malawi-sms-guidelines)[Syria: SMS Guidelines](https://support.telnyx.com/en/articles/6680256-syria-sms-guidelines)[Tajikistan: SMS Guidelines](https://support.telnyx.com/en/articles/6683287-tajikistan-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

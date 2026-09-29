@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6674367-hong-kong-sms-guideli
 title: "Hong Kong: SMS Guidelines"
 description: "SMS Guidelines for Hong Kong including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Hong Kong: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 6dd5b5335f904fd93c16722e7cbb2c5ef7080332cc2f5bd9561f371adc2fa758
+content_hash: 07b2d09f5e93bfee6142cbb24b211a39f19e263824b5068f9a7ff301a757749d
 ---
 
 
@@ -63,13 +63,3 @@ For more information on Alpha Sender ID registration kindly reach out to [alpha\
 ​
 ​
 ​
-
----
-
-Related Articles
-
-[Norway: SMS Guidelines](https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines)[Iraq: SMS Guidelines](https://support.telnyx.com/en/articles/6589557-iraq-sms-guidelines)[Azerbaijan: SMS Guidelines](https://support.telnyx.com/en/articles/6596144-azerbaijan-sms-guidelines)[Pakistan: SMS Guidelines](https://support.telnyx.com/en/articles/6679149-pakistan-sms-guidelines)[Palestinian Territory: SMS Guidelines](https://support.telnyx.com/en/articles/6679259-palestinian-territory-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

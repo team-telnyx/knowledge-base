@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6683302-thailand-sms-guidelin
 title: "Thailand: SMS Guidelines"
 description: "Sending SMS to Thailand? See Telnyx guidance and requirements Learn more about Thailand: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 6832803c7cc76fffec0b2671647035738f06e79e0e81684af806dd8a33f91952
+content_hash: 4dff3f6475ea41232f3ceb860b5c015923c4cb82e9d851ff36741dee8eac8ced
 ---
 
 
@@ -35,13 +35,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Turkey: SMS Guidelines](https://support.telnyx.com/en/articles/6564056-turkey-sms-guidelines)[Kenya: SMS Guidelines](https://support.telnyx.com/en/articles/6674630-kenya-sms-guidelines)[Kuwait: SMS Guidelines](https://support.telnyx.com/en/articles/6674713-kuwait-sms-guidelines)[Singapore: SMS Guidelines](https://support.telnyx.com/en/articles/6680103-singapore-sms-guidelines)[United Arab Emirates: SMS Guidelines](https://support.telnyx.com/en/articles/6683438-united-arab-emirates-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

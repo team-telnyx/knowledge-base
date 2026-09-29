@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/13194922-reunion-number-porti
 title: "Reunion Number Porting"
 description: "Here you will find detailed requirements for Reunion number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 28fc54b0d4b4e8eefb4a9268b31f353dde06220a58d9cad4056e90d0752c60f1
+content_hash: db7277d53ea228044944dd7d452377b5f31fd82e9ccadf12544c297e0b085f6d
 ---
 
 
@@ -26,13 +26,3 @@ Here you will find detailed requirements for Reunion number portability. See Tel
 3. Latest Invoice
 
 ## **Download LOA [here](https://assets.ctfassets.net/taysl255dolk/6YYtHkPiDoOfhR8Vp3QxUz/3f7b77cf78ecdebe280c6c0226ac12ea/LoA_-_Telnyx_-_INTL.pdf)**
-
----
-
-Related Articles
-
-[Guadeloupe Number Porting](https://support.telnyx.com/en/articles/5954701-guadeloupe-number-porting)[Martinique Number Porting](https://support.telnyx.com/en/articles/5954733-martinique-number-porting)[French Guiana Number Porting](https://support.telnyx.com/en/articles/13194814-french-guiana-number-porting)[Mayotte Number Porting](https://support.telnyx.com/en/articles/13194884-mayotte-number-porting)[Saint Barth and Saint Martin Number Porting](https://support.telnyx.com/en/articles/13194951-saint-barth-and-saint-martin-number-porting)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8712528-dialing-emergency-ser
 title: "Dialing Emergency Services"
 description: "How to dial emergency services to the different countries we support. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 34b213758a47cdb2c0ff5ce6b51280f603140558a17e8fdbc92c5417c9bf2560
+content_hash: 0d3f4803e97f22e28016eae2d148beeba5be4ae8bb1e97a56c978cd1603c42b4
 ---
 
 
@@ -72,13 +72,3 @@ You can still use a tech prefix to dial so long as you're not including anything
 So make sure you've registered an address for use in Emergency Services on all numbers you're going to use to use to dial Emergency Services from.
 
 Per regulation we will always allow calls to Emergency Services regardless of the fact that they are dialing with or without a caller id that has a registered address. For security reasons you can't disable dialing to Emergency Numbers.
-
----
-
-Related Articles
-
-[How do I test E911 service?](https://support.telnyx.com/en/articles/1130709-how-do-i-test-e911-service)[Bulk Edit Numbers - Emergency Services](https://support.telnyx.com/en/articles/2819213-bulk-edit-numbers-emergency-services)[Supported Emergency Numbers](https://support.telnyx.com/en/articles/8797623-supported-emergency-numbers)[Emergency Services and IPND in Australia](https://support.telnyx.com/en/articles/9039036-emergency-services-and-ipnd-in-australia)[Twilio TwiML Conference on Telnyx](https://support.telnyx.com/en/articles/13389311-twilio-twiml-conference-on-telnyx)
-
-Did this answer your question?
-
-😞😐😃

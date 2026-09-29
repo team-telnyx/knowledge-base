@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130710-what-is-dtmf-and-how-
 title: "What is DTMF? and how to configure it on Telnyx"
 description: "In this article we will explain DTMF, what it might mean for your business and how to configure DTMF in Telnyx portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 1a80a57196e4d26dc6cd836ddb249ad5d7ca2b68a1f4c0c4c5523fa5c7b7b954
+content_hash: 351899dcbb9d7bdc7b1b8f021f6ae6ced5d632f2f12ec68aa9504cc41b2166f3
 ---
 
 
@@ -132,13 +132,3 @@ If you have any questions or run into issues with your DTMF configuration, the T
 * [IP Authentication with Tech Prefix](https://support.telnyx.com/en/articles/2602782-ip-authentication-with-tech-prefix)
 * [Post Dial Delay (PDD)](https://support.telnyx.com/en/articles/4453840-post-dial-delay-pdd)
 * [Linksys: Dialplan for Linksys ATAs](https://support.telnyx.com/en/articles/5721953-linksys-dialplan-for-linksys-atas)
-
----
-
-Related Articles
-
-[Configuring a Cisco CUBE/CUCM IP Trunk](https://support.telnyx.com/en/articles/1130606-configuring-a-cisco-cube-cucm-ip-trunk)[Configuring Grandstream GXP16XX with Telnyx](https://support.telnyx.com/en/articles/1130660-configuring-grandstream-gxp16xx-with-telnyx)[Audio and Codecs](https://support.telnyx.com/en/articles/3192298-audio-and-codecs)[Configuring Call Control/TeXML Applications - Voice API](https://support.telnyx.com/en/articles/4374050-configuring-call-control-texml-applications-voice-api)[MicroSIP: Setup with Telnyx](https://support.telnyx.com/en/articles/6133145-microsip-setup-with-telnyx)
-
-Did this answer your question?
-
-😞😐😃

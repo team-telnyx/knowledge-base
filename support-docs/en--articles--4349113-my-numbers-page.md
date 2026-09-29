@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4349113-my-numbers-page
 title: "My Numbers Page"
 description: "This article explains the Numbers page & settings in the Mission Control Portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 561a265372c26656fce423d00c1f3f3855500d1d88532fb1ccf0c503f339e2ec
+content_hash: 762d56b5593f77f07251366de4fd639b5f712799de337e9bdd8845fd056ef9c9
 ---
 
 
@@ -191,13 +191,3 @@ Here you can set up emergency services use. This will incur a monthly fee for th
   + After that 2 week period, those resources enter an ageing state which lasts another 2 weeks. After said ageing state the numbers are then released and anyone can buy them.
   + Please reach out to our numbering team ([numbering@telnyx.com](mailto:numbering@telnyx.com)) if you would like to retain the phone numbers from your account.
   + Please also consider enabling [low balance notifications](https://support.telnyx.com/en/articles/4277896-notification-settings) as a reminder to top up your accounts balance to keep it positive.
-
----
-
-Related Articles
-
-[IP Authentication with Tech Prefix](https://support.telnyx.com/en/articles/2602782-ip-authentication-with-tech-prefix)[Bulk Edit Numbers - Voice Settings](https://support.telnyx.com/en/articles/2807846-bulk-edit-numbers-voice-settings)[SIP Connection: Types](https://support.telnyx.com/en/articles/4245868-sip-connection-types)[More About Outbound Voice Profiles](https://support.telnyx.com/en/articles/4320411-more-about-outbound-voice-profiles)[SIP Connection: Settings](https://support.telnyx.com/en/articles/4351104-sip-connection-settings)
-
-Did this answer your question?
-
-😞😐😃

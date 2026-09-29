@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130674-configuring-linphone-
 title: "Configuring Linphone with Telnyx"
 description: "In this article we will walk you through how to configure Linphone with the Telnyx Mission Control Portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 5a650a855a2422e3a1f1ca87d3d4effc3ab61c7de66d2d84f9237fc9e3a62b9d
+content_hash: e9d6e5b9ae5815e929138b04fe50c2631b052758fa91ab9aa4b71c85175334c9
 ---
 
 
@@ -107,13 +107,3 @@ Additionally check out:
 
 * Linphone's [developer documentation](https://wiki.linphone.org/xwiki/wiki/public/view/Linphone/)
 * Linphone [support](https://www.linphone.org/contact)
-
----
-
-Related Articles
-
-[Configuring an AVAYA IP trunk with Telnyx](https://support.telnyx.com/en/articles/1130627-configuring-an-avaya-ip-trunk-with-telnyx)[Configuring a Vicidial IP trunk with Telnyx](https://support.telnyx.com/en/articles/1130632-configuring-a-vicidial-ip-trunk-with-telnyx)[Configuring Grandstream GXP16XX with Telnyx](https://support.telnyx.com/en/articles/1130660-configuring-grandstream-gxp16xx-with-telnyx)[Zoiper 5 Pro: Telnyx Setup](https://support.telnyx.com/en/articles/5717957-zoiper-5-pro-telnyx-setup)[MicroSIP: Setup with Telnyx](https://support.telnyx.com/en/articles/6133145-microsip-setup-with-telnyx)
-
-Did this answer your question?
-
-😞😐😃

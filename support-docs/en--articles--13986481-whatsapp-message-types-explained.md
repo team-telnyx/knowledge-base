@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/13986481-whatsapp-message-typ
 title: "WhatsApp Message Types Explained"
 description: "Understand the difference between template messages and free-form messages, and when to use each conversation type. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: b84d28529808c576a61aeada7084c8b65d5f9d1d15a70b1c8d12042e741b10f8
+content_hash: 086e67f720cf8e84a821f1515a54a160761e4dff16a6c9d1ad4e9988c0aae7b7
 ---
 
 
@@ -64,13 +64,3 @@ Free-form messages can be sent **only within a 24-hour window** after the custom
 | Sending order update or receipt | Utility Template |
 | Sending promotion or offer | Marketing Template |
 | Responding to a customer's question | Free-form (within 24hr window) |
-
----
-
-Related Articles
-
-[WhatsApp Message Templates Guide](https://support.telnyx.com/en/articles/13986483-whatsapp-message-templates-guide)[WhatsApp Pricing on Telnyx](https://support.telnyx.com/en/articles/13986484-whatsapp-pricing-on-telnyx)[How to Create WhatsApp Message Templates](https://support.telnyx.com/en/articles/13986486-how-to-create-whatsapp-message-templates)[WhatsApp FAQ](https://support.telnyx.com/en/articles/13986488-whatsapp-faq)[WhatsApp Troubleshooting Guide](https://support.telnyx.com/en/articles/13986489-whatsapp-troubleshooting-guide)
-
-Did this answer your question?
-
-😞😐😃

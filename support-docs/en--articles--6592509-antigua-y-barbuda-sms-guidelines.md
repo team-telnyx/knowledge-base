@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6592509-antigua-y-barbuda-sms
 title: "Antigua y Barbuda: SMS Guidelines"
 description: "SMS Guidelines for Antigua y Barbuda including MCC and Dial Code. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 0827da4a7e283ef5bf538b7f3e7d35230eb8a85d16bbbeceac6d9432a1d4ec74
+content_hash: e8904db39e3dfe981855e0c454479450a3f04a95dfe643380918e14a47009bd8
 ---
 
 
@@ -31,13 +31,3 @@ There are no restrictions with regards to content towards this destination.
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Italy: SMS Guidelines](https://support.telnyx.com/en/articles/6531722-italy-sms-guidelines)[Poland: SMS Guidelines](https://support.telnyx.com/en/articles/6545167-poland-sms-guidelines)[Jamaica: SMS Guidelines](https://support.telnyx.com/en/articles/6674464-jamaica-sms-guidelines)[Montserrat: SMS Guidelines](https://support.telnyx.com/en/articles/6677968-montserrat-sms-guidelines)[Namibia: SMS Guidelines](https://support.telnyx.com/en/articles/6678890-namibia-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

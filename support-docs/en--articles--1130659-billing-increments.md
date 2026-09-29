@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130659-billing-increments
 title: "Billing increments"
 description: "In this article we will explain billing increments and how they will affect your bill. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: c2896c6da207aadf5175e57bbf09ed31b751e74b95e8995b98f0304092fdf85f
+content_hash: f3b8dbd9b9bbc7556db68d0c5f1176b0ec83f7bba6e0cb5aad772fc099f185a9
 ---
 
 
@@ -29,13 +29,3 @@ Our International calling is billed in 60-second increments in most cases but ca
 ​
 ​**Note:**
 We no longer offer 6 second billing increments.
-
----
-
-Related Articles
-
-[Channel Billing and how to use it](https://support.telnyx.com/en/articles/1130678-channel-billing-and-how-to-use-it)[What are Short Duration Calls?](https://support.telnyx.com/en/articles/1130707-what-are-short-duration-calls)[Prevent Telnyx Account Fraud](https://support.telnyx.com/en/articles/3610162-prevent-telnyx-account-fraud)[Billing Setup & Billing Groups](https://support.telnyx.com/en/articles/4280500-billing-setup-billing-groups)[SIP Connection: Fail-over and Retries](https://support.telnyx.com/en/articles/4320364-sip-connection-fail-over-and-retries)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6675110-malaysia-sms-guidelin
 title: "Malaysia: SMS Guidelines"
 description: "SMS Guidelines for Malaysia including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Malaysia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 220ce6e8a03ff92288d23bb0184bcc3bd89475ce631cb9bc27ea580889fd7246
+content_hash: 0c902bdcfdf8ffae4504edb79a327eba6b63abddd82009df64aa9dcda30da5d3
 ---
 
 
@@ -33,13 +33,3 @@ Any messages containing URLs as part of the message body will be blocked.
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Peru: SMS Guidelines](https://support.telnyx.com/en/articles/6564549-peru-sms-guidelines)[Guatemala: SMS Guidelines](https://support.telnyx.com/en/articles/6574032-guatemala-sms-guidelines)[China: SMS Guidelines](https://support.telnyx.com/en/articles/6601144-china-sms-guidelines)[Iran: SMS Guidelines](https://support.telnyx.com/en/articles/6674403-iran-sms-guidelines)[Yemen: SMS Guidelines](https://support.telnyx.com/en/articles/6683484-yemen-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

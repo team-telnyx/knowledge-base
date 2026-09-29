@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3739406-greece-did-requiremen
 title: "Greece DID Requirements"
 description: "Here you will find a list of detailed requirements for acquiring Greece numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: faf15fbf0494e188e3da346f372d30edd9298a15ea719d207f5b2c555372bd2d
+content_hash: b98ee167b1220fc48d1f851bc4ef26992c4111a6ba7f6fad5d8da47ebec63c73
 ---
 
 
@@ -100,13 +100,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
 
 [Telnyx Letter of Authorization Form.pdf](https://telnyx-48416ce2297b.intercom-attachments-1.com/i/o/ltcafuzd/2270717133/194ddebc4d61ccb780b389ea1ab3/Telnyx+Letter+of+Authorization+Form.pdf?expires=1783507500&signature=8630988c24edc487a2e6bc51eb02fcdc3c929834edd8851af1ea9da3b14cdb51&req=diIgFs5%2FmoBcWvMW1HO4zeFcghhK61XA1gXofQpDz72CfEaCKTnsef0dy6Cm%0AsFaU7nDERkg%3D%0A)
-
----
-
-Related Articles
-
-[Belgium DID Requirements](https://support.telnyx.com/en/articles/1311433-belgium-did-requirements)[Brazil DID Requirements](https://support.telnyx.com/en/articles/5464041-brazil-did-requirements)[Chile DID Requirements](https://support.telnyx.com/en/articles/5464057-chile-did-requirements)[Indonesia DID Requirements](https://support.telnyx.com/en/articles/5466641-indonesia-did-requirements)[Lithuania DID Requirements](https://support.telnyx.com/en/articles/5466755-lithuania-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

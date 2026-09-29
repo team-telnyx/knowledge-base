@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/14708129-porting-numbers-away
 title: "Porting Numbers Away from Intercom to Telnyx"
 description: "How to port numbers from Intercom's calling product, including Twilio-backed number instructions and common PIN issues. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 583288b2e14ab3314e3b3b44c9a3bcac897212bf6c286018a5ebc7e7fb6eef4f
+content_hash: 1d57060764633af4199565c9a4bdba8651f4fec9cdb1354bca59a1c55bd18396
 ---
 
 
@@ -71,13 +71,3 @@ Intercom (like Aircall and other calling-enabled platforms) sits as an additiona
 
 * **1–5 numbers:** 3–7 business days from acceptance
 * **6+ numbers:** 5–15 business days
-
----
-
-Related Articles
-
-[Port numbers away from Telnyx](https://support.telnyx.com/en/articles/2033789-port-numbers-away-from-telnyx)[Porting away from Twilio](https://support.telnyx.com/en/articles/3947850-porting-away-from-twilio)[Porting Numbers Away from Aircall to Telnyx](https://support.telnyx.com/en/articles/14708128-porting-numbers-away-from-aircall-to-telnyx)[Porting Numbers Away from Resellers (Aircall, Intercom, RingCentral, Vonage, etc.)](https://support.telnyx.com/en/articles/14708130-porting-numbers-away-from-resellers-aircall-intercom-ringcentral-vonage-etc)[How to Find Your Porting PIN or Passcode](https://support.telnyx.com/en/articles/14790558-how-to-find-your-porting-pin-or-passcode)
-
-Did this answer your question?
-
-😞😐😃

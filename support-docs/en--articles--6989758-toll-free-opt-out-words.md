@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6989758-toll-free-opt-out-wor
 title: "Toll-Free Opt-Out Words"
 description: "Insights on Telnyx's opt-out process for toll-free numbers and the keywords involved. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: be0038f8f2642ad9878e28153fc69ce237b35c21c49d9b7d9e1688c2ce94487a
+content_hash: e938a054c25fede1e7d32bdb13b2a2d7df8d212a198955669db3148afc22a269
 ---
 
 
@@ -38,13 +38,3 @@ Opting out and in otherwise works the same as opting out and in to communication
 One last thing to note is you may have seen that it is possible to allow for custom block rules and auto responses on a per messaging profile. Unfortunately, because the logic of opt-outs and auto responses for toll free numbers are handled outside of Telnyx, it is not possible to change the opt-out or opt-in keywords and it is also not possible to change the content of the auto responses specifically for toll free numbers. If custom block rules and auto responses have already been set for one of your messaging profiles, it's advised to separate your toll free numbers from that profile so that you don't experience unintended behavior.
 
 ![Breaking Line](_images/682991ade0be9812.png)
-
----
-
-Related Articles
-
-[SMS Opt-Out Keywords and Stop Words](https://support.telnyx.com/en/articles/1270091-sms-opt-out-keywords-and-stop-words)[Global Number Types](https://support.telnyx.com/en/articles/1458084-global-number-types)[Toll-Free Messaging](https://support.telnyx.com/en/articles/5353868-toll-free-messaging)[US / CA Toll Free Number Porting](https://support.telnyx.com/en/articles/8673249-us-ca-toll-free-number-porting)[Toll Free Verification Request Guide](https://support.telnyx.com/en/articles/10729979-toll-free-verification-request-guide)
-
-Did this answer your question?
-
-😞😐😃

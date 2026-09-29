@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/14306123-kazakhstan-did-requi
 title: "Kazakhstan DID Requirements"
 description: "Here you will find a list of detailed requirements for acquiring Kazakhstan numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 627806f987511b1ab43f460e8c706a06ec45db38028c3c324a0ca29774ca1ff6
+content_hash: c962ea302c62b838ea637a6bb1d4f6e2186afcba534fbc0244c19cb018823daf
 ---
 
 
@@ -48,13 +48,3 @@ For **address** verification:
 \* Worldwide Address (street, building number, postal code, city and country)
 
 \* Proof of address (dated within 3 months)
-
----
-
-Related Articles
-
-[Uzbekistan DID Requirements](https://support.telnyx.com/en/articles/11128583-uzbekistan-did-requirements)[Honduras DID Requirements](https://support.telnyx.com/en/articles/11843360-honduras-did-requirements)[Mozambique DID Requirements](https://support.telnyx.com/en/articles/11843417-mozambique-did-requirements)[Pakistan DID Requirements](https://support.telnyx.com/en/articles/11843465-pakistan-did-requirements)[Oman DID Requirements](https://support.telnyx.com/en/articles/14138528-oman-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

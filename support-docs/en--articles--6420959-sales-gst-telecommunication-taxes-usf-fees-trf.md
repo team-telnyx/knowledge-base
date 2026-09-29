@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6420959-sales-gst-telecommuni
 title: "Sales, GST, Telecommunication Taxes, USF Fees & TRF"
 description: "Details of relevant fees and taxes for US Telnyx… See Telnyx guidance and requirements Learn more about Sales, GST, Telecommunication Taxes, USF Fees & TRF."
 scraped: 2026-07-08
-content_hash: 5544e30e66620aa1e16c65320a1b3a3d8fd1d057d1e2f6fc4df04970cf9c41e5
+content_hash: 010d991f257f05de2ea4e46a2395f476fc38cf32d7cde39bc931fb79d31613d7
 ---
 
 
@@ -145,13 +145,3 @@ Under the dedicated section for tax charges on your Telnyx invoice, you will see
 ## Can I be exempt from TRS fees?
 
 If your company files the FCC Form 499-A and makes TRS contributions directly as a provider of telecommunications, your company may qualify for an exemption from the TRS fees that we impose on TRS-assessable services. Please reach out to [tax@telnyx.com](mailto:tax@telnyx.com) with appropriate documents to apply for exemption from TRS fees. Also note that you are required to renew this exemption certificate annually.
-
----
-
-Related Articles
-
-[Robocall Mitigation Database](https://support.telnyx.com/en/articles/5544430-robocall-mitigation-database)[10DLC Fees and Charges](https://support.telnyx.com/en/articles/5634625-10dlc-fees-and-charges)[Telnyx & 10DLC Compliance](https://support.telnyx.com/en/articles/5664840-telnyx-10dlc-compliance)[Understanding the FCC’s Eighth Report and Order on Third-Party Authentication](https://support.telnyx.com/en/articles/10806916-understanding-the-fcc-s-eighth-report-and-order-on-third-party-authentication)
-
-Did this answer your question?
-
-😞😐😃

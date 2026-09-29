@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/14668631-enabling-whatsapp-bu
 title: "Enabling WhatsApp Business Calling on Telnyx and BYON Numbers"
 description: "Enable WhatsApp Business Calling with a Telnyx number, or import your existing non-Telnyx WhatsApp number using Bring Your Own Number (BYON) to receive inbound WhatsApp voice calls through Telnyx."
 scraped: 2026-07-08
-content_hash: a8529443b696dc8b46c65ebd8af38e66058130a16c9ffaa92a28a9fda1feb1dd
+content_hash: 0061e6e075b91e86cdee0e5efcca8b0dd5c4b849d82f71b204eea266ba32169f
 updated_at: "2026-09-28T18:22:20Z"
 modified_at: "2026-09-28T18:22:20Z"
 ---
@@ -320,13 +320,3 @@ Common causes include:
 * The WhatsApp calling number is not associated with the connection being used to place the call
 
 Verify that the dial string matches the documented format, ensure the WhatsApp user has granted valid calling permissions, and confirm that the WhatsApp-enabled number is assigned to the same connection originating the call.
-
----
-
-Related Articles
-
-[What is WhatsApp Business Platform?](https://support.telnyx.com/en/articles/13986480-what-is-whatsapp-business-platform)[WhatsApp Pricing on Telnyx](https://support.telnyx.com/en/articles/13986484-whatsapp-pricing-on-telnyx)[How to Set Up WhatsApp on Telnyx](https://support.telnyx.com/en/articles/13986485-how-to-set-up-whatsapp-on-telnyx)[WhatsApp FAQ](https://support.telnyx.com/en/articles/13986488-whatsapp-faq)[WhatsApp Troubleshooting Guide](https://support.telnyx.com/en/articles/13986489-whatsapp-troubleshooting-guide)
-
-Did this answer your question?
-
-😞😐😃

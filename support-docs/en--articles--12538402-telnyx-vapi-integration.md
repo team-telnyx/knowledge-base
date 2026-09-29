@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/12538402-telnyx-vapi-integrat
 title: "Telnyx + Vapi Integration"
 description: "Below we'll cover the entire integration between us and… See Telnyx guidance and requirements Learn more about Telnyx + Vapi Integration with Telnyx."
 scraped: 2026-07-08
-content_hash: 18362aba0f282afd4294867cb422064635c4ecd06134ed782340becfcfe46cac
+content_hash: 5297f588333d26f916e898b2ba147ad0e28b111cbaec19b168bd0542790a73b5
 ---
 
 
@@ -206,13 +206,3 @@ Do not include API keys, SIP passwords, Vapi private keys, or other secrets.
 * Vapi: SIP trunk credential troubleshooting - **<https://docs.vapi.ai/advanced/sip/troubleshoot-sip-trunk-credential-errors>**
 * Telnyx: Outbound Voice Profiles **<https://developers.telnyx.com/docs/voice/sip-trunking/configuration/outbound-voice-profiles/index>**
 * Telnyx: API keys — **<https://support.telnyx.com/en/articles/4305158-api-keys-and-how-to-use-them>**
-
----
-
-Related Articles
-
-[Telnyx SIP Response Codes](https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes)[Yeastar S-Series: Telnyx SIP](https://support.telnyx.com/en/articles/5748952-yeastar-s-series-telnyx-sip)[PBXes: Connecting a PBXes Trunk to Telnyx](https://support.telnyx.com/en/articles/5798240-pbxes-connecting-a-pbxes-trunk-to-telnyx)[BYOC: Telnyx & Genesys](https://support.telnyx.com/en/articles/8268122-byoc-telnyx-genesys)[How External Call Transfers Work](https://support.telnyx.com/en/articles/13117410-how-external-call-transfers-work)
-
-Did this answer your question?
-
-😞😐😃

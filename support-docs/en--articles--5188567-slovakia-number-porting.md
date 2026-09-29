@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5188567-slovakia-number-porti
 title: "Slovakia Number Porting"
 description: "Here you will find a detailed list of requirements for Slovakia number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 5243d141de2e298d153fa2f2cfc06072a963c3a29264935d66062cb0ba701eea
+content_hash: 11ee61b6c4d3196c532c6b1143d823fac9490b2b7b158d06d2de7afb2e02507b
 ---
 
 
@@ -30,13 +30,3 @@ Here you will find a detailed list of requirements for Slovakia number portabili
 ## Slovakia Letter of Authorization
 
 Download LoA **[here](https://assets.ctfassets.net/taysl255dolk/1od8xuO7Y7WKUrIlXXCM2t/57023f6b1ab4e56954597cfeb5151aa4/Slovakia_telnyx.pdf)**
-
----
-
-Related Articles
-
-[Belgium Number porting](https://support.telnyx.com/en/articles/3266421-belgium-number-porting)[Luxembourg Number Porting](https://support.telnyx.com/en/articles/5188555-luxembourg-number-porting)[Romania Number Porting](https://support.telnyx.com/en/articles/5188564-romania-number-porting)[Slovenia Number Porting](https://support.telnyx.com/en/articles/5188572-slovenia-number-porting)[Lithuania Number Porting](https://support.telnyx.com/en/articles/5190470-lithuania-number-porting)
-
-Did this answer your question?
-
-😞😐😃

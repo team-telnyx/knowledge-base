@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1311458-ireland-did-requireme
 title: "Ireland DID Requirements"
 description: "Here you will find detailed requirements for acquiring Ireland numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 09fe87db0856b0164972bee03f96e2f6da92c9f60018af50e1aec5d47aa38005
+content_hash: f41cf0221e920bd4e171dd511eecbdf4e33573d6e341384344ce1cb9394ab0cd
 ---
 
 
@@ -155,13 +155,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Bulgaria DID Requirements](https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements)[Romania DID Requirements](https://support.telnyx.com/en/articles/3739552-romania-did-requirements)[Colombia DID Requirements](https://support.telnyx.com/en/articles/5464069-colombia-did-requirements)[Jamaica DID Requirements](https://support.telnyx.com/en/articles/5466658-jamaica-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1270091-sms-opt-out-keywords-
 title: "SMS Opt-Out Keywords and Stop Words"
 description: "Learn more about how Telnyx processes SMS opt-outs and handles stop… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f3353731b6e8800f81e58e8ed035f38f04c7d5082aaf9cfd8c430d1baee9ca82
+content_hash: fd69699e390677b3751ac2b4bd58a70100d0a600417e3d922e4c1cc4e9b5d757
 ---
 
 
@@ -83,13 +83,3 @@ To set up custom keywords simply select your desired messaging profile form the 
 **Restrictions for the above:**
 
 * You can add a maximum of 20 keywords
-
----
-
-Related Articles
-
-[Hosted SMS Messaging Process](https://support.telnyx.com/en/articles/5336668-hosted-sms-messaging-process)[Toll-Free Opt-Out Words](https://support.telnyx.com/en/articles/6989758-toll-free-opt-out-words)[Standards for US Short Code Keywords: HELP, STOP, and Opt-In Confirmation](https://support.telnyx.com/en/articles/9311492-standards-for-us-short-code-keywords-help-stop-and-opt-in-confirmation)
-
-Did this answer your question?
-
-😞😐😃

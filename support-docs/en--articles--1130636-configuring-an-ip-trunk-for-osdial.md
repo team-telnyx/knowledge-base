@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130636-configuring-an-ip-tru
 title: "Configuring an IP Trunk for OSDial"
 description: "Learn how to set up a connection between you OS dial server and the Telnyx Mission Control Portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 4eba49622dc7c5bc757cc0e0abab70610355d57f5f368ca976afaf1a884c63d2
+content_hash: 9176a79c038892d4537e7a4922699669265b90010f3aea77d7185cccdb3226a0
 ---
 
 
@@ -97,13 +97,3 @@ Additionally, check out:
 * [OSDial community](https://osdial.com/sitemap/)
 * [Build an OSDial server - easy instructions!](https://osdial.com/sitemap/)
 * [OSDial training sessions](https://osdial.com/support/)
-
----
-
-Related Articles
-
-[Configuring an AVAYA IP trunk with Telnyx](https://support.telnyx.com/en/articles/1130627-configuring-an-avaya-ip-trunk-with-telnyx)[Asterisk: Configure an Asterisk IP trunk](https://support.telnyx.com/en/articles/1130628-asterisk-configure-an-asterisk-ip-trunk)[Configuring a Vicidial IP trunk with Telnyx](https://support.telnyx.com/en/articles/1130632-configuring-a-vicidial-ip-trunk-with-telnyx)[Configuring a GOautodial PBX IP Trunk](https://support.telnyx.com/en/articles/1130649-configuring-a-goautodial-pbx-ip-trunk)[Configuring a GoAutoDial PBX SIP Trunk](https://support.telnyx.com/en/articles/1130694-configuring-a-goautodial-pbx-sip-trunk)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6167480-gigaset-configuring-t
 title: "Gigaset: Configuring the Gigaset DX800a"
 description: "Learn how to connect a legacy Gigaset DX800a IP phone to a Telnyx SIP trunk. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 08a2fcaad551674e2ce7395e8bceec55f2bbef447e2f17bbe3ddc3c3aa02eb0d
+content_hash: 6021476afd64d25f92822f8591b81b7035ef7628718fedad15b6f51918c55738
 ---
 
 
@@ -156,13 +156,3 @@ Review our [getting started with guide](https://support.telnyx.com/en/articles/1
 Additionally, check out:
 
 * The Gigaset DX800a [User manual](https://gse.gigaset.com/fileadmin/legacy-assets/Gigaset%20DX800A%20all%20in%20one_Web_en_GBR.pdf)
-
----
-
-Related Articles
-
-[Gigaset A510: Telnyx Setup](https://support.telnyx.com/en/articles/5815209-gigaset-a510-telnyx-setup)[Gigaset A690/AS690](https://support.telnyx.com/en/articles/6060646-gigaset-a690-as690)[Fanvil H3: Hotel IP](https://support.telnyx.com/en/articles/6202965-fanvil-h3-hotel-ip)[Fanvil H5: Hotel IP](https://support.telnyx.com/en/articles/6203401-fanvil-h5-hotel-ip)[Fanvil X-Series: IP Phone](https://support.telnyx.com/en/articles/6209971-fanvil-x-series-ip-phone)
-
-Did this answer your question?
-
-😞😐😃

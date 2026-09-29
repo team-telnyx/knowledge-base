@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6670465-ethiopia-sms-guidelin
 title: "Ethiopia: SMS Guidelines"
 description: "Sending SMS to Ethiopia? See Telnyx guidance and requirements Learn more about Ethiopia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 69ed0c389523493ff811ebdecea1c9269fa4083df4c998e485b9d5486f2b05bf
+content_hash: 8b9f918d12654927fe7e8ecff4ea0be7c5b4db84d2c252d4bec21305b3fdf26d
 ---
 
 
@@ -35,13 +35,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Benin: SMS Guidelines](https://support.telnyx.com/en/articles/6596235-benin-sms-guidelines)[Ghana: SMS Guidelines](https://support.telnyx.com/en/articles/6670870-ghana-sms-guidelines)[South Sudan: SMS Guidelines](https://support.telnyx.com/en/articles/6680141-south-sudan-sms-guidelines)[Sudan: SMS Guidelines](https://support.telnyx.com/en/articles/6680225-sudan-sms-guidelines)[Uganda: SMS Guidelines](https://support.telnyx.com/en/articles/6683433-uganda-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

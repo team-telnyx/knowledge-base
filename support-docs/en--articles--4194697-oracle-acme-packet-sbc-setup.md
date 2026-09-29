@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4194697-oracle-acme-packet-sb
 title: "Oracle: Acme Packet SBC Setup"
 description: "Master Oracle's Acme Packet SBC configuration with Telnyx - Dive In Now! See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 0422e5bf45abeed5643ca0700571e1703339ea4558f8033cb8dcde1441d6db65
+content_hash: 759c4b33d0911e22cbbb6fe2fc7e201e6b7c0bd693de7aac732db83cd1930445
 ---
 
 
@@ -433,13 +433,3 @@ Review our [getting started with guide](https://support.telnyx.com/en/articles/1
 Additionally, check out:
 
 * [Acme SBC user guide](https://docs.oracle.com/cd/E95619_01/html/esbc_ecz810_configuration/GUID-3D090BC0-31D0-419D-A1F9-E7B1E5D3D55D.htm)
-
----
-
-Related Articles
-
-[Configuring a Cisco CUBE/CUCM SIP Trunk](https://support.telnyx.com/en/articles/1130673-configuring-a-cisco-cube-cucm-sip-trunk)[Audiocodes SBC: Setup](https://support.telnyx.com/en/articles/4194841-audiocodes-sbc-setup)[Ribbon: EdgeMarc 6000 Setup](https://support.telnyx.com/en/articles/4215031-ribbon-edgemarc-6000-setup)[Sansay: SBC VSXi Setup](https://support.telnyx.com/en/articles/4301888-sansay-sbc-vsxi-setup)[Fanvil A32i: Telnyx Setup](https://support.telnyx.com/en/articles/6056428-fanvil-a32i-telnyx-setup)
-
-Did this answer your question?
-
-😞😐😃

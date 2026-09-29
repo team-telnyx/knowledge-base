@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/10715016-10dlc-inaccurate-or-
 title: "10DLC Inaccurate or Inconsistency Error"
 description: "If you are receive one of these errors after submitting a campaign for carrier review: See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: c58866e0f474718c88333b11758004e24d0a2a29cbe655c05b629857b4914695
+content_hash: ebc961639dd31d0e06113ae5a9dd85e4ddbdacb435366edbcf4fa8f754c7fc33
 ---
 
 
@@ -46,13 +46,3 @@ So if you get this error please check the following fields for consistency and a
 4) Message Flow and Opt in Form.
 
 5) Sample Messages.
-
----
-
-Related Articles
-
-[How to create a 10DLC campaign](https://support.telnyx.com/en/articles/6339152-how-to-create-a-10dlc-campaign)[10DLC Campaign Approval Best Practices](https://support.telnyx.com/en/articles/7127078-10dlc-campaign-approval-best-practices)[Messaging - 10DLC Campaign Checklist](https://support.telnyx.com/en/articles/9038141-messaging-10dlc-campaign-checklist)[10DLC Campaign Compliance Requirements](https://support.telnyx.com/en/articles/9940291-10dlc-campaign-compliance-requirements)[10DLC Carrier Error Codes Explanations](https://support.telnyx.com/en/articles/10547022-10dlc-carrier-error-codes-explanations)
-
-Did this answer your question?
-
-😞😐😃

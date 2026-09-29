@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/13986486-how-to-create-whatsa
 title: "How to Create WhatsApp Message Templates"
 description: "Step-by-step guide to creating, managing, and getting WhatsApp message templates approved. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 74058f9e355d530d49435da50f83446fe490c185dc4037bbdff4f573030f8ab2
+content_hash: 7133310e1dd5a2cf087a4ebbba324476aded51149c3123ef1a1941c821806898
 ---
 
 
@@ -157,13 +157,3 @@ You can list, update, and delete templates via the Telnyx API. Template names ar
 
 * [Send Template Messages (API Guide)](https://developers.telnyx.com/docs/messaging/whatsapp/send-messages#template-messages)
 * [Template Components Reference](https://developers.telnyx.com/docs/messaging/whatsapp/send-messages#template-components)
-
----
-
-Related Articles
-
-[WhatsApp Message Types Explained](https://support.telnyx.com/en/articles/13986481-whatsapp-message-types-explained)[WhatsApp Message Templates Guide](https://support.telnyx.com/en/articles/13986483-whatsapp-message-templates-guide)[How to Set Up WhatsApp on Telnyx](https://support.telnyx.com/en/articles/13986485-how-to-set-up-whatsapp-on-telnyx)[WhatsApp FAQ](https://support.telnyx.com/en/articles/13986488-whatsapp-faq)[WhatsApp Troubleshooting Guide](https://support.telnyx.com/en/articles/13986489-whatsapp-troubleshooting-guide)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines
 title: "Norway: SMS Guidelines"
 description: "SMS Guidelines for Norway including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Norway: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 7eddec7da252611650ff8858e478770b6d4368746acd706fedaa58bd61a7d693
+content_hash: 0fc21fdf081e26414641ccdc079c42f5cad00d8bf1780924f01cc4f7ef3cb0eb
 ---
 
 
@@ -63,13 +63,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Iraq: SMS Guidelines](https://support.telnyx.com/en/articles/6589557-iraq-sms-guidelines)[Azerbaijan: SMS Guidelines](https://support.telnyx.com/en/articles/6596144-azerbaijan-sms-guidelines)[Indonesia: SMS Guidelines](https://support.telnyx.com/en/articles/6674396-indonesia-sms-guidelines)[Pakistan: SMS Guidelines](https://support.telnyx.com/en/articles/6679149-pakistan-sms-guidelines)[Palestinian Territory: SMS Guidelines](https://support.telnyx.com/en/articles/6679259-palestinian-territory-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

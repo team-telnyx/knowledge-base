@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5179083-el-salvador-number-po
 title: "El Salvador Number Porting"
 description: "Here you will find a detailed list of requirements for El Salvador number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: eb7e15a8386346912614e437e3e2fe4cb0284c4e85762b1873ef53bbdbcfbd04
+content_hash: 0ab739e068d957845f129dea62a419ab4855c43faad2d36182864852f0e1993e
 ---
 
 
@@ -36,13 +36,3 @@ Contact [porting@telnyx.com](mailto:porting@telnyx.com) for the LOA template for
 When submitting the required documents, ensure that all copies are clear and legible. Digital submissions should be in high-resolution formats, preferably PDF or JPEG. Always double-check the completeness of your documents before submission to avoid delays.
 
 If submitting physically, keeping a personal copy of all documents for your records is recommended. For digital submissions, ensure you receive a confirmation of receipt from the relevant department or platform.
-
----
-
-Related Articles
-
-[Mexico Number Porting](https://support.telnyx.com/en/articles/3267101-mexico-number-porting)[Netherlands Number Porting](https://support.telnyx.com/en/articles/3267124-netherlands-number-porting)[Peru Number Porting](https://support.telnyx.com/en/articles/3267436-peru-number-porting)[Estonia Number Porting](https://support.telnyx.com/en/articles/5720521-estonia-number-porting)[Singapore Number Porting](https://support.telnyx.com/en/articles/7235002-singapore-number-porting)
-
-Did this answer your question?
-
-😞😐😃

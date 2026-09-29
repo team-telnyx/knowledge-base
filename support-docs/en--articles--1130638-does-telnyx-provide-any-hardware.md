@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130638-does-telnyx-provide-a
 title: "Does Telnyx provide any hardware?"
 description: "Wondering if Telnyx provides hardware? See Telnyx guidance and requirements Learn more about Does Telnyx provide any hardware? with Telnyx."
 scraped: 2026-07-08
-content_hash: 4ad73c1311a0770bc59961a748908b3816cf6d550ef9556de1989ab3660a099f
+content_hash: 8aa81bbd373d3b9971a8d8efdfc7e77800d9e3f8fa23e14ba94018de426b5f79
 ---
 
 
@@ -28,13 +28,3 @@ Telnyx is a cloud-based platform and we do not provide any hardware; however, we
 You can search our knowledge base articles for our configuration guides. If you run into any issues getting setup, please reach out to our support team and we’d be happy to help get you configured.
 
 Note: We also enable call forwarding to outside numbers on existing networks for additional customizability.
-
----
-
-Related Articles
-
-[What is Telnyx?](https://support.telnyx.com/en/articles/1130637-what-is-telnyx)[Telnyx Recommended Hardware Configurations](https://support.telnyx.com/en/articles/1130641-telnyx-recommended-hardware-configurations)[What is DTMF? and how to configure it on Telnyx](https://support.telnyx.com/en/articles/1130710-what-is-dtmf-and-how-to-configure-it-on-telnyx)[Yealink: Setup with Telnyx](https://support.telnyx.com/en/articles/3074710-yealink-setup-with-telnyx)[MicroSIP: Setup with Telnyx](https://support.telnyx.com/en/articles/6133145-microsip-setup-with-telnyx)
-
-Did this answer your question?
-
-😞😐😃

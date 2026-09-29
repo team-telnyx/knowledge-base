@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/7235002-singapore-number-port
 title: "Singapore Number Porting"
 description: "Here you will find a detailed list of requirements for Singapore number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 33831797f54561ff4c57eca9472e1b684f69a77fe5c77ecdccf6838036d0de6e
+content_hash: af274bb5325205b1576286c31a57ff8e98c526cdd21ebcc6c270ce4f26e864cb
 ---
 
 
@@ -126,13 +126,3 @@ Once a porting date has been confirmed with the losing carrier:
 ## Need Help?
 
 For questions about Singapore number porting, contact [porting@telnyx.com](mailto:porting@telnyx.com).
-
----
-
-Related Articles
-
-[Australia Number Porting](https://support.telnyx.com/en/articles/3266212-australia-number-porting)[Netherlands Number Porting](https://support.telnyx.com/en/articles/3267124-netherlands-number-porting)[New Zealand Number Porting](https://support.telnyx.com/en/articles/3267206-new-zealand-number-porting)[United Kingdom Number Porting](https://support.telnyx.com/en/articles/3267693-united-kingdom-number-porting)[US / CA Toll Free Number Porting](https://support.telnyx.com/en/articles/8673249-us-ca-toll-free-number-porting)
-
-Did this answer your question?
-
-😞😐😃

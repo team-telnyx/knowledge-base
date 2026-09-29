@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5464176-el-salvador-did-requi
 title: "El Salvador DID Requirements"
 description: "Here you will find a list of detailed requirements for acquiring El Salvador numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 05a4e733f0d26385f109989eac3f2fcfc664534d563812512f81be85bd7e8778
+content_hash: 6a33a0225908432ad90833bf2579bfef03635ca33c9c2d0eda7a1517d556a006
 ---
 
 
@@ -56,13 +56,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Monaco DID Requirements](https://support.telnyx.com/en/articles/5466798-monaco-did-requirements)[Nicaragua DID Requirements](https://support.telnyx.com/en/articles/5466838-nicaragua-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)[Serbia DID Requirements](https://support.telnyx.com/en/articles/5467021-serbia-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

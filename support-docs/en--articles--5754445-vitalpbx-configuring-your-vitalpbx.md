@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5754445-vitalpbx-configuring-
 title: "VitalPBX: Configuring Your VitalPBX"
 description: "Learn how to configure VitalPBX to work with Telnyx using either credentials (user/pass) or IP authentication. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 6e3bce07b5a194f064e78a3ba230a2710251bd88b8bcfc3e985a18845d495d56
+content_hash: 8a857199277e2796afe9c504992304abc8afa55b2270b8fed86dea85ba38326f
 ---
 
 
@@ -258,13 +258,3 @@ That's it, you've now completed the configuration of your VitalPBX and can now m
 Review our [getting started guide](https://support.telnyx.com/en/articles/1176636-get-started-with-a-mission-control-account) to make sure your Telnyx Mission Control Portal account is set up correctly.
 
 Check out the [VitalPBX user guide](https://wiki.vitalpbx.com/wiki-category/vitalpbx/).
-
----
-
-Related Articles
-
-[FreePBX Trunk Settings With Telnyx](https://support.telnyx.com/en/articles/1130620-freepbx-trunk-settings-with-telnyx)[FreePBX V14: IP Trunk - ChanSIP](https://support.telnyx.com/en/articles/3284736-freepbx-v14-ip-trunk-chansip)[FreePBX V14: Credentials - ChanSIP](https://support.telnyx.com/en/articles/3284752-freepbx-v14-credentials-chansip)[FreePBX V15: IP Trunk - PJSIP](https://support.telnyx.com/en/articles/5619595-freepbx-v15-ip-trunk-pjsip)[How to configure Yeastar P-series](https://support.telnyx.com/en/articles/13375115-how-to-configure-yeastar-p-series)
-
-Did this answer your question?
-
-😞😐😃

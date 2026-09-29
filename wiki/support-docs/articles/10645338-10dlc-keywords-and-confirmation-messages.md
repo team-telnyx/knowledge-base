@@ -1,0 +1,39 @@
+---
+title: "10DLC Keywords and Confirmation Messages"
+summary: "10DLC Keywords and… See Telnyx guidance and requirements Learn more about 10DLC Keywords and Confirmation Messages with Telnyx."
+sources:
+- url: "https://support.telnyx.com/en/articles/10645338-10dlc-keywords-and-confirmation-messages"
+updated_at: 2026-07-08T00:00:00Z
+tags: [support-docs]
+source_path: "support-docs/en--articles--10645338-10dlc-keywords-and-confirmation-messages.md"
+generated_by: incremental-support-docs-wiki
+---
+<!-- generated_from=support-docs/en--articles--10645338-10dlc-keywords-and-confirmation-messages.md -->
+
+# 10DLC Keywords and Confirmation Messages
+
+10DLC Keywords and… See Telnyx guidance and requirements Learn more about 10DLC Keywords and Confirmation Messages with Telnyx.
+
+K
+
+
+
+Under 10DLC guidelines all campaigns must fill in the campaign details with the Keywords and Confirmation Messages for Opt in, Opt Out, and Help.
+
+Please follow this format but with the variables filled in for your brand and campaign:
+​
+Opt in Keyword: START or similar keyword
+
+Opt in confirmation message: [Brand name]: Thanks for subscribing to [use case(s)]! Reply HELP for help. Message frequency may vary. Msg&data rates may apply. Consent is not a condition of purchase. Reply STOP to opt out.
+
+Opt out Keyword: STOP or similar keyword
+
+Opt out confirmation message: [Brand Name]: You are unsubscribed and will receive no further messages.
+
+Help Keyword: HELP or similar keyword
+
+Help confirmation message: [Brand name]: Please reach out to us at [website/email/phone number] for help.
+​
+NOTE: Websites are permissable so long as they have clear contact information at the link provided.
+
+For the full list of stop words Telnyx automatically recognizes (and how opt-outs work at the messaging-profile level), see [SMS Opt Out Keywords and Stop Words](https://support.telnyx.com/en/articles/1270091-sms-opt-out-keywords-and-stop-words). Publicly traded brands should also review [10DLC Authentication for Publicly Traded Brands](https://support.telnyx.com/en/articles/11788086-10dlc-authentication-for-publicly-traded-brands).

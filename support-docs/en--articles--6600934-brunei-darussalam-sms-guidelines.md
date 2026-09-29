@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6600934-brunei-darussalam-sms
 title: "Brunei Darussalam: SMS Guidelines"
 description: "Sending SMS to Brunei Darussalam? See Telnyx guidance and requirements Learn more about Brunei Darussalam: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 3393343464c35be831a002cb4e88f21cb4ad7a58c5e3fa736b31b9145db6f614
+content_hash: 00267c6ad6b517b7cc99a4bd3a58a6bcddaa7e6e7b35ab680d2a69474ffcbe4e
 ---
 
 
@@ -31,13 +31,3 @@ There are no restrictions with regards to content towards this destination.
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Lithuania: SMS Guidelines](https://support.telnyx.com/en/articles/6560973-lithuania-sms-guidelines)[Switzerland: SMS Guidelines](https://support.telnyx.com/en/articles/6561154-switzerland-sms-guidelines)[Slovenia: SMS Guidelines](https://support.telnyx.com/en/articles/6561195-slovenia-sms-guidelines)[Suriname: SMS Guidelines](https://support.telnyx.com/en/articles/6589563-suriname-sms-guidelines)[Bermuda: SMS Guidelines](https://support.telnyx.com/en/articles/6596251-bermuda-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

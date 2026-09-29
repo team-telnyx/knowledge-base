@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8648864-what-happens-with-my-
 title: "What happens with my numbers after my account gets"
 description: "This article will help explain what happens after your account is abolished for holding a negative balance. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: de1736f634265c03ed8e4d6aff4aba6a503594a3d0665155f469b5f7b5a95b4a
+content_hash: 2922a38e126a0a6451dd1c173d33a4d858107a35b9be1c0909fcec3775bfd5ff
 ---
 
 
@@ -52,13 +52,3 @@ Make sure you check our Billing setup article [here](https://support.telnyx.com/
 Sometimes even recurring payments fail because of issues with card expiry dates among other things. Make sure you have your notifications properly configured and that you've setup notifications be sent to all the emails or numbers of the people that need to be alerted of anything going on in your account.
 
 You can even add different notification events and not only for low balance alerts. You can even be notified whenever a number is deleted from your account. You can read more about how to do that [here](https://support.telnyx.com/en/articles/4277896-notification-settings).
-
----
-
-Related Articles
-
-[Can I port out my Telnyx number?](https://support.telnyx.com/en/articles/1130635-can-i-port-out-my-telnyx-number)[Get Started with a Mission Control Account](https://support.telnyx.com/en/articles/1176636-get-started-with-a-mission-control-account)[Prevent Telnyx Account Fraud](https://support.telnyx.com/en/articles/3610162-prevent-telnyx-account-fraud)[My Numbers Page](https://support.telnyx.com/en/articles/4349113-my-numbers-page)[Managed Accounts](https://support.telnyx.com/en/articles/4951492-managed-accounts)
-
-Did this answer your question?
-
-😞😐😃

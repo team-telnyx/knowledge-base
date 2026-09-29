@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5807979-konftel-300wx-telnyx-
 title: "Konftel 300Wx: Telnyx Setup"
 description: "Effortlessly set up and configure Konftel 300 Series conference phones with Telnyx for enhanced communication solutions. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: ee9ad29b8d22624f13d9b9f8f41b4844ed0e1939a28a580f423d301e8a491a19
+content_hash: 3576cc865c4f4352953a277bba6cb3dea5662c7648b8ec03126b48d96c7978b3
 ---
 
 
@@ -141,13 +141,3 @@ Additionally, check out:
 * [Konftel support](https://www.konftel.com/en/support)
 
 ---
-
----
-
-Related Articles
-
-[Polycom: Setup with Telnyx](https://support.telnyx.com/en/articles/5619617-polycom-setup-with-telnyx)[Flyingvoice: Telnyx Setup](https://support.telnyx.com/en/articles/5810663-flyingvoice-telnyx-setup)[Gigaset A510: Telnyx Setup](https://support.telnyx.com/en/articles/5815209-gigaset-a510-telnyx-setup)[Snom C520: Telnyx Setup](https://support.telnyx.com/en/articles/5815678-snom-c520-telnyx-setup)[Konftel 300IPx: Telnyx Setup](https://support.telnyx.com/en/articles/5822579-konftel-300ipx-telnyx-setup)
-
-Did this answer your question?
-
-😞😐😃

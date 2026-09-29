@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/7984661-how-to-reset-your-pas
 title: "How To Reset Your Password"
 description: "In this guide you will cover how you can reset/update your Telnyx account… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 34cc91e5cb14e5b8a008528f47a9795b3883a9b27d8dcd0c638423973b2119a0
+content_hash: b9a74950938a15e26af4e27f5a1219d4a08b0203bcbb812699d02b9366efc862
 ---
 
 
@@ -86,13 +86,3 @@ You can change your account password by navigating to the account settings, prov
 ![](_images/cb210e6b3361391e.png)
 
 Your password has been successfully Changed.
-
----
-
-Related Articles
-
-[What is my SIP Account Connection password?](https://support.telnyx.com/en/articles/1130713-what-is-my-sip-account-connection-password)[Textable Setup Guide](https://support.telnyx.com/en/articles/3685327-textable-setup-guide)[How to Sign Up for a Telnyx account](https://support.telnyx.com/en/articles/5295540-how-to-sign-up-for-a-telnyx-account)[CounterPath Bria Teams: Setup](https://support.telnyx.com/en/articles/5772825-counterpath-bria-teams-setup)[Positron IP Phone](https://support.telnyx.com/en/articles/5811761-positron-ip-phone)
-
-Did this answer your question?
-
-😞😐😃
