@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130631-how-to-configure-a-th
 title: "How to configure a Thirdlane PBX"
 description: "In this article we will walk you through how to configure a Thirdlane PBX IP trunk at Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 1e45d5bfb349bef08924720fc68cbcadb76be27962fea1085f8b3cf2864d521c
+content_hash: 76030ea5f1e184fedb0afc1cd0be1b6fb0d39a434347049183236b71e59c6be8
 ---
 
 
@@ -306,13 +306,3 @@ Additionally, check out:
 * [Thirdlane user documentation](https://www.thirdlane.com/docs/platform/introduction)
 * [Thirdlane support](https://www.thirdlane.com/support)
 * [Thirdlane REST API](https://www.thirdlane.com/docs/platform/api)
-
----
-
-Related Articles
-
-[Configuring an Elastix 4 PBX IP Trunk](https://support.telnyx.com/en/articles/1130622-configuring-an-elastix-4-pbx-ip-trunk)[Configuring an Elastix 4 PBX Trunk](https://support.telnyx.com/en/articles/1130654-configuring-an-elastix-4-pbx-trunk)[Xorcom PBX: SIP Trunk](https://support.telnyx.com/en/articles/5754127-xorcom-pbx-sip-trunk)[3CX: Configuring a 3CX V18 PBX](https://support.telnyx.com/en/articles/6161111-3cx-configuring-a-3cx-v18-pbx)[How to configure Yeastar P-series](https://support.telnyx.com/en/articles/13375115-how-to-configure-yeastar-p-series)
-
-Did this answer your question?
-
-😞😐😃

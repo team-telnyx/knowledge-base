@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/10806916-understanding-the-fc
 title: "Understanding the FCC’s Eighth Report and Order on"
 description: "The Federal Communications Commission (FCC) has issued new compliance requirements in its Eighth Report and Order… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 67ee5a4378cda34b22669a4edc5f1925fb15b17fb7d3df43185bfd41478988d4
+content_hash: 3856d1daf76c02e5b3b7784441b3e8cfe66ba3c7f06f99e83d38aca5317de8df
 ---
 
 
@@ -76,13 +76,3 @@ If you determine that you do qualify as an OSP with a STIR/SHAKEN implementation
   + For more information on our Hosted Stir/Shaken Product Offering, see our [Product Guide](https://developers.telnyx.com/docs/development/stir-shaken/hosted-cert).
 
 **Disclaimer: The information provided in this Telnyx support article is for general informational purposes only and should not be construed as legal advice. Please consult with a qualified attorney for guidance on legal or regulatory compliance.**
-
----
-
-Related Articles
-
-[Telnyx - How to Handle Spam Scam Likely](https://support.telnyx.com/en/articles/4088988-telnyx-how-to-handle-spam-scam-likely)[STIR/SHAKEN With Telnyx](https://support.telnyx.com/en/articles/5402969-stir-shaken-with-telnyx)[Robocall Mitigation Database](https://support.telnyx.com/en/articles/5544430-robocall-mitigation-database)[Inbound Call Screening](https://support.telnyx.com/en/articles/8037040-inbound-call-screening)[Understanding SIP 603+ carrier rejections](https://support.telnyx.com/en/articles/15395095-understanding-sip-603-carrier-rejections)
-
-Did this answer your question?
-
-😞😐😃

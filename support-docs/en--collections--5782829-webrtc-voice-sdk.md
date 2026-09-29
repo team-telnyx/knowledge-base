@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/collections/5782829-webrtc-voice-sdk
 title: "WebRTC Voice SDK"
 description: "Telnyx provides detailed setup guides for iOS and Android push notifications using the WebRTC Voice SDK. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 62afa9fe916ecc70451ec4034f7348ee06bd22ea669b4540c888761c3314446d
+content_hash: b4f3fc9c0817d21c44379d83227c06959b4cdfcb8ecb66079da14bcbc699eeeb
 ---
 
 
@@ -18,4 +18,10 @@ content_hash: 62afa9fe916ecc70451ec4034f7348ee06bd22ea669b4540c888761c3314446d
 Telnyx provides detailed setup guides for iOS and Android push notifications using the WebRTC Voice SDK. See Telnyx guidance and requirements.
 
 
-[How to Setup iOS Push NotificationsResolve the CA error for your webhook URL. Understand the root cause and solutions.](https://support.telnyx.com/en/articles/8268170-how-to-setup-ios-push-notifications)[Android Push Notification SetupIntegrate Android push notifications with Telnyx's WebRTC SDK. Start here!](https://support.telnyx.com/en/articles/8268140-android-push-notification-setup)
+[How to Setup iOS Push Notifications](https://support.telnyx.com/en/articles/8268170-how-to-setup-ios-push-notifications)
+
+Resolve the CA error for your webhook URL. Understand the root cause and solutions.
+
+[Android Push Notification Setup](https://support.telnyx.com/en/articles/8268140-android-push-notification-setup)
+
+Integrate Android push notifications with Telnyx's WebRTC SDK. Start here!

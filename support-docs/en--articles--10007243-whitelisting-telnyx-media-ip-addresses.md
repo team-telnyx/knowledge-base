@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/10007243-whitelisting-telnyx-
 title: "Whitelisting Telnyx Media IP Addresses"
 description: "Read on to learn about SIP Media IPs and how we are working to enhance our connectivity offering. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f5206df79d4e1fabceb3896d21a80285e6fea05fa494729dd58c7301ab41531b
+content_hash: 63c228f0b66a5c0be45951ca55062c107148d4276560fb8c139d61b01544d72b
 ---
 
 
@@ -48,13 +48,3 @@ If your organization uses firewalls or access control lists (ACLs) to manage net
 ## **What happens if I don’t update my Firewall or access control lists?**
 
 Without updating your firewall to allow traffic from the new media IPs, your voice service could be interrupted, as calls routed through the new IP range may be blocked for media, resulting in One Way Audio (OWA). Whitelisting the new IP addresses guarantees that voice traffic is allowed, keeping your communication services running smoothly.
-
----
-
-Related Articles
-
-[Cisco: Configure a Cisco CME IP Trunk](https://support.telnyx.com/en/articles/1130612-cisco-configure-a-cisco-cme-ip-trunk)[Whitelisting Telnyx IP Addresses](https://support.telnyx.com/en/articles/1130687-whitelisting-telnyx-ip-addresses)[Guide to SIP AnchorSite® Settings](https://support.telnyx.com/en/articles/5271423-guide-to-sip-anchorsite-settings)[ScopTEL IP PBX](https://support.telnyx.com/en/articles/5803103-scoptel-ip-pbx)[Voice Elements: Telnyx SIP](https://support.telnyx.com/en/articles/6145484-voice-elements-telnyx-sip)
-
-Did this answer your question?
-
-😞😐😃

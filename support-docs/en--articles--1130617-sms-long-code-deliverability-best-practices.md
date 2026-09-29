@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130617-sms-long-code-deliver
 title: "SMS Long Code Deliverability Best Practices"
 description: "In this article we will explain what you should do to make sure that your long code SMS messages are consistently… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 323a6b9825f680da66faad141e0ff0383bc3f6d168a68d1cf39ef435eea36127
+content_hash: d675094c7b6ff598885255a6b219bb539aecc4c35b385ef75271c93a012f134a
 ---
 
 
@@ -58,13 +58,3 @@ Lengthy URLs may not only cause your messages to be split into multiple parts (a
 ## Include Opt Out Language
 
 Mobile operators, in conjunction with their spam filters, will watch out for A2P messaging that does not contain Opt Out language, especially unregistered traffic. In such instances, we have observed false delivery reports indicating the messages have been delivered but they were instead filtered as spam and the number one reason for this is due to excluding opt out language.
-
----
-
-Related Articles
-
-[Frequently asked questions about 10DLC](https://support.telnyx.com/en/articles/3679260-frequently-asked-questions-about-10dlc)[Register for 10DLC Messaging](https://support.telnyx.com/en/articles/6325731-register-for-10dlc-messaging)[Telnyx 10DLC Compliance Directory](https://support.telnyx.com/en/articles/6417677-telnyx-10dlc-compliance-directory)[Telnyx Messaging Error Codes](https://support.telnyx.com/en/articles/6505121-telnyx-messaging-error-codes)[Norway: SMS Guidelines](https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

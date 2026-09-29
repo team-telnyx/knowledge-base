@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8104274-telnyx-networking-on-
 title: "Telnyx Networking on Ubuntu"
 description: "Tutorial on connecting a Digital Ocean Ubuntu Server to Telnyx's Cloud VPN via WireGuard. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: fef16392bbc3c0966a76c3c57be921953e7774fa9d5c8b0e2064b1de00a27454
+content_hash: 4080dda6a63a2dab8ec7ac7c670892de83d34f67cedc8e52d3ed50b128778d30
 ---
 
 
@@ -250,13 +250,3 @@ By repeating the steps in this tutorial for multiple peers, you'll be able to li
 ​
 
 If you have any further questions or would like to see more tutorials, feel free to reach out to our support team or our external Slack channel for help!
-
----
-
-Related Articles
-
-[Telnyx Networking on AWS Lightsail](https://support.telnyx.com/en/articles/8103288-telnyx-networking-on-aws-lightsail)[Telnyx Networking on AWS VPC](https://support.telnyx.com/en/articles/8104309-telnyx-networking-on-aws-vpc)[Telnyx Networking on Azure Linux VMs](https://support.telnyx.com/en/articles/8104343-telnyx-networking-on-azure-linux-vms)[Telnyx Networking on Android/iOS](https://support.telnyx.com/en/articles/8104413-telnyx-networking-on-android-ios)[Telnyx Networking on Oracle VMs](https://support.telnyx.com/en/articles/8104436-telnyx-networking-on-oracle-vms)
-
-Did this answer your question?
-
-😞😐😃

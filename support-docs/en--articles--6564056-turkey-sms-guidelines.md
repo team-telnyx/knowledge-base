@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6564056-turkey-sms-guidelines
 title: "Turkey: SMS Guidelines"
 description: "Sending SMS to Turkey? See Telnyx guidance and requirements Learn more about Turkey: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 90c667f7dffe4d18d2aff87309eccddc3de388499515a2b29061285b42bf6c83
+content_hash: db02142d4f630287709428300f7ab5dad4b16b580ce6f286855e8d00a4cb2c7b
 ---
 
 
@@ -55,13 +55,3 @@ For more information on Alpha Sender ID registration kindly reach out to [alpha\
 ##
 
 [Turkey SIDreg.doc](https://telnyx-48416ce2297b.intercom-attachments-7.com/i/o/ltcafuzd/2398133417/cb58fd0192712828878b2de2f88b/Turkey+SIDreg.doc?expires=1783507500&signature=1374af7c09056770df0dfa4bc003f3d0a5686f8a5b88c683dbc651c1cdfb65a9&req=diMuHsh9noVeXvMW1HO4zcA31PPvMq5%2BTPW3iqyRFbCBayeDkA62iVh1%2BfCe%0AzOFDM1ODVmA%3D%0A)
-
----
-
-Related Articles
-
-[Greece: SMS Guidelines](https://support.telnyx.com/en/articles/6563817-greece-sms-guidelines)[Burundi: SMS Guidelines](https://support.telnyx.com/en/articles/6601042-burundi-sms-guidelines)[Jordan: SMS Guidelines](https://support.telnyx.com/en/articles/6674487-jordan-sms-guidelines)[Malawi: SMS Guidelines](https://support.telnyx.com/en/articles/6675104-malawi-sms-guidelines)[Tajikistan: SMS Guidelines](https://support.telnyx.com/en/articles/6683287-tajikistan-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

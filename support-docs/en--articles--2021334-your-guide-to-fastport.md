@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/2021334-your-guide-to-fastpor
 title: "Your Guide to FastPort®"
 description: "Here we will walk you through FastPort® and how you can take advantage of it on your Telnyx account. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 6de569eaec21e5ce9c92478b1d2da8da1f26ef196c5f760b3d69b3d8fb2baaff
+content_hash: c4043a184b7e16c705b42383fb26fc3da5d5bef0f9487175d125a7eea4546cfd
 ---
 
 
@@ -46,13 +46,3 @@ If you choose this option, the numbers will auto activate at the specified date 
 More questions around FastPort®? Check out our [FastPort® FAQ](https://support.telnyx.com/en/articles/2054704-fastport-faqs)
 
 ​
-
----
-
-Related Articles
-
-[Call Forwarding](https://support.telnyx.com/en/articles/1130657-call-forwarding)[Porting In - Day of Port (FOC)](https://support.telnyx.com/en/articles/2042977-porting-in-day-of-port-foc)[FastPort® FAQs](https://support.telnyx.com/en/articles/2054704-fastport-faqs)[Using Telnyx FastPort](https://support.telnyx.com/en/articles/3561993-using-telnyx-fastport)[SMS for Ported In Phone Numbers](https://support.telnyx.com/en/articles/7183887-sms-for-ported-in-phone-numbers)
-
-Did this answer your question?
-
-😞😐😃

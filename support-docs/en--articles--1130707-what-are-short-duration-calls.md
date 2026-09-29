@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130707-what-are-short-durati
 title: "What are Short Duration Calls?"
 description: "Here we will explain short duration calls and how they may effect your business. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 8b42c9fe3be05459c1a774d49cb060518e4ab8dd47b8e623a32f4ee5c310dec9
+content_hash: 8394527968878419affdfe52fde110af7dad6b6caaf5b2ac93cedace8d22197a
 ---
 
 
@@ -52,13 +52,3 @@ If you would like to locate the origin of Short Duration Calls within your traff
 * Remove any rows of calls with a duration of 0 seconds.
 * Calculate how many calls were less than or equal to 6 seconds in duration.
 * Check the column with the sip connection name to see which one shows up often to determine the source of the short duration traffic.
-
----
-
-Related Articles
-
-[What is DTMF? and how to configure it on Telnyx](https://support.telnyx.com/en/articles/1130710-what-is-dtmf-and-how-to-configure-it-on-telnyx)[Distinguish your outbound profiles & DIDs](https://support.telnyx.com/en/articles/1130721-distinguish-your-outbound-profiles-dids)[Audio and Codecs](https://support.telnyx.com/en/articles/3192298-audio-and-codecs)
-
-Did this answer your question?
-
-😞😐😃

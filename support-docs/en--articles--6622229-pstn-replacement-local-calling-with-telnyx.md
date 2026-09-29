@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6622229-pstn-replacement-loca
 title: "PSTN Replacement / Local Calling with Telnyx"
 description: "Establish a local presence anywhere in the world. See Telnyx guidance and requirements Learn more about PSTN Replacement / Local Calling with Telnyx with."
 scraped: 2026-07-08
-content_hash: d89d82a0b42343f243d398e3d4b6901becb263d8ecf917278d5bad885b2f54e8
+content_hash: b9d4348e2d7c7084dc702c8f8bf95546a3fa09042dfc73088a15687b9e7b1e21
 ---
 
 
@@ -194,13 +194,3 @@ Telnyx currently supports local calling for the following countries. This list c
 Telnyx continues to expand its global presence and while we do allow the purchase of DID/numbers from more countries than listed above, countries not listed above will only have inbound local calling guaranteed at this time and not outbound local calling.
 
 Depending on your use case, please feel free to reach out to your Account Manager / Sales representative here at [sales@telnyx.com](mailto:success@telnyx.com) to discuss your requirements further.
-
----
-
-Related Articles
-
-[Caller ID Outbound vs CNAM](https://support.telnyx.com/en/articles/1130720-caller-id-outbound-vs-cnam)[US Rural Call Completion](https://support.telnyx.com/en/articles/4096828-us-rural-call-completion)[US Local Call Completion](https://support.telnyx.com/en/articles/4378813-us-local-call-completion)[CLI & CLD Validation FAQ](https://support.telnyx.com/en/articles/6247033-cli-cld-validation-faq)[Dialing Emergency Services](https://support.telnyx.com/en/articles/8712528-dialing-emergency-services)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6974437-updates-to-global-con
 title: "Updates to Global Conversational Rate Deck"
 description: "Learn about upcoming changes to Telnyx's Global Conversational rate deck impacting origination types, prefixes, See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: c6ee2679dd6f9407cfe582f6b212c4c3769befba629137122308cd6afc733986
+content_hash: 14321db0f16dc2b1825039c2b33456be8ba72a9612a39827e2b8a039c74b63e9
 ---
 
 
@@ -91,13 +91,3 @@ A: No. We base our sell rates on our cost basis on the wholesale and/or local ma
 Q: Is there a way I can get fixed rates with Telnyx?
 
 A: [Reach out](https://telnyx.com/contact-us) to our sales team to talk about custom outbound rates.
-
----
-
-Related Articles
-
-[Call Forwarding](https://support.telnyx.com/en/articles/1130657-call-forwarding)[Global Number Types](https://support.telnyx.com/en/articles/1458084-global-number-types)[The Rate Sheet and LRN explained](https://support.telnyx.com/en/articles/5073043-the-rate-sheet-and-lrn-explained)[CLI & CLD Validation FAQ](https://support.telnyx.com/en/articles/6247033-cli-cld-validation-faq)[PSTN Replacement / Local Calling with Telnyx](https://support.telnyx.com/en/articles/6622229-pstn-replacement-local-calling-with-telnyx)
-
-Did this answer your question?
-
-😞😐😃

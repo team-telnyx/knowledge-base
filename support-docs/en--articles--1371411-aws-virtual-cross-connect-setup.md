@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1371411-aws-virtual-cross-con
 title: "AWS: Virtual Cross Connect Setup"
 description: "Learn how to integrate an AWS VPC environment with the Telnyx network backbone. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 6a74d15357d4802ec467514a4998e9355fe46d8693fe704581c6eb0ddd516f82
+content_hash: 93a539d07e90733719a010f03991ba2dfec10893f08896bf190d97af622ccc6e
 ---
 
 
@@ -180,13 +180,3 @@ Additionally, see:
 * Amazon AWS [Direct Connect user guide](https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html)
 * Amazon AWS [Direct Connect virtual interfaces user guide](https://docs.aws.amazon.com/directconnect/latest/UserGuide/WorkingWithVirtualInterfaces.html)
 * Amazon AWS [Virtual Private Cloud](https://docs.aws.amazon.com/vpc/)
-
----
-
-Related Articles
-
-[Azure: Virtual Cross Connect](https://support.telnyx.com/en/articles/2239446-azure-virtual-cross-connect)[Google VPC: Telnyx Integration](https://support.telnyx.com/en/articles/2239449-google-vpc-telnyx-integration)[Megaport Configuration with TELNYX](https://support.telnyx.com/en/articles/2964210-megaport-configuration-with-telnyx)[Telnyx Networking on AWS Lightsail](https://support.telnyx.com/en/articles/8103288-telnyx-networking-on-aws-lightsail)[Telnyx Networking on AWS VPC](https://support.telnyx.com/en/articles/8104309-telnyx-networking-on-aws-vpc)
-
-Did this answer your question?
-
-😞😐😃

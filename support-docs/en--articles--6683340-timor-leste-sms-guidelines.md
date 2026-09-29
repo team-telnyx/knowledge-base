@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6683340-timor-leste-sms-guide
 title: "Timor-Leste: SMS Guidelines"
 description: "Sending SMS to Timor-Leste? See Telnyx guidance and requirements Learn more about Timor-Leste: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: b1316ca05507633ce80de3c6ae9488076db673592dbfb24b032ed37a5a5f502c
+content_hash: b550e62e232e4d37b024492d2135e08a15adafb70c4c31f50018e754f751d448
 ---
 
 
@@ -31,13 +31,3 @@ Occasionally Alphanumeric Sender ID might be overwritten to Random [Short Code](
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Bulgaria: SMS Guidelines](https://support.telnyx.com/en/articles/6563862-bulgaria-sms-guidelines)[Ukraine: SMS Guidelines](https://support.telnyx.com/en/articles/6563904-ukraine-sms-guidelines)[Bolivia: SMS Guidelines](https://support.telnyx.com/en/articles/6564249-bolivia-sms-guidelines)[Dominican Republic: SMS Guidelines](https://support.telnyx.com/en/articles/6665730-dominican-republic-sms-guidelines)[Trinidad & Tobago: SMS Guidelines](https://support.telnyx.com/en/articles/6683379-trinidad-tobago-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8379618-bitcoin-payment-metho
 title: "Bitcoin Payment Method"
 description: "Explore our comprehensive guide on using Bitcoin for payments on the Telnyx portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 1a616fb63fb6956e2c0fed81f5a5f2a14905cd3c109995e7da9197ce2a8dcf33
+content_hash: 6400c10c3c08840d2441f63224dcb4404ec79357a46dd9f1b77c9afc6fc04c4d
 ---
 
 
@@ -73,13 +73,3 @@ Visit the [Payment History page](https://portal.telnyx.com/#/app/billing/history
 ## Do you accept other cryptocurrencies or Bitcoin via the lightning network?
 
 Currently, we accept only Bitcoin. However, we're exploring lightning network options for the future.
-
----
-
-Related Articles
-
-[Billing Setup & Billing Groups](https://support.telnyx.com/en/articles/4280500-billing-setup-billing-groups)[Your Number Lookup Guide](https://support.telnyx.com/en/articles/4366901-your-number-lookup-guide)[Synway UC-200: Telnyx Setup](https://support.telnyx.com/en/articles/5800399-synway-uc-200-telnyx-setup)[Find GB Numbers on Telnyx Portal](https://support.telnyx.com/en/articles/5820047-find-gb-numbers-on-telnyx-portal)[ACH Direct Debit Payment Method](https://support.telnyx.com/en/articles/7045419-ach-direct-debit-payment-method)
-
-Did this answer your question?
-
-😞😐😃

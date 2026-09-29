@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/10562019-guide-to-10dlc-messa
 title: "Guide to 10DLC Message Flow Field"
 description: "How to fill out the CTA/Message Flow field in your 10dlc campaign… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 52724a201fd5374074a0eb90e9410468b85a7658feedbe8a9d47840d78861363
+content_hash: 09b2846e7c0887372531e892be5d0b043231b765344c55cade97d6d91ecc3aaf
 ---
 
 # Guide to 10DLC Message Flow Field
@@ -69,13 +69,3 @@ The form must include a disclaimer similar to: *"By signing this form and provid
 * If you have a marketing use case then marketing must be mentioned on the opt in such as "You are opting in to receive marketing sms from [Brand Name]."
 * If you have a political case then you must mention "Donations will/will not be solicited." on the opt in.
 * Campaigns involving any type of lending can only use a digital or physical (paper) opt-in. Verbal and inbound opt-ins are not allowed.
-
----
-
-Related Articles
-
-[Messaging - 10DLC Campaign Checklist](https://support.telnyx.com/en/articles/9038141-messaging-10dlc-campaign-checklist)[10DLC Campaign Compliance Requirements](https://support.telnyx.com/en/articles/9940291-10dlc-campaign-compliance-requirements)[10DLC Carrier Error Codes Explanations](https://support.telnyx.com/en/articles/10547022-10dlc-carrier-error-codes-explanations)[10DLC Keywords and Confirmation Messages](https://support.telnyx.com/en/articles/10645338-10dlc-keywords-and-confirmation-messages)[10DLC for Chiropractors](https://support.telnyx.com/en/articles/11421359-10dlc-for-chiropractors)
-
-Did this answer your question?
-
-😞😐😃

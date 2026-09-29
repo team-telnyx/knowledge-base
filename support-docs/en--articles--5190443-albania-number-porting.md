@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5190443-albania-number-portin
 title: "Albania Number Porting"
 description: "Here you will find a detailed list of requirements for Albania number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: c874c3d594db5fd17b87b7f2235bd4a62bad392774388cc931a38ad42704752d
+content_hash: 94495239110f1ada7d5fdb8b8680679e41cea88fdd53dff5a1afed1c1fdb049c
 ---
 
 
@@ -59,13 +59,3 @@ Explore the essential [requirements for successful number porting](https://suppo
 ### **Best Practices for Porting Support in** Albania
 
 Examine best practices for effectively [contacting Telnyx's porting support](https://support.telnyx.com/en/articles/5820338-best-practices-for-contacting-porting) to facilitate clear communication and swift issue resolution in Albania.
-
----
-
-Related Articles
-
-[Canada Number Porting](https://support.telnyx.com/en/articles/3266430-canada-number-porting)[United States Number Porting](https://support.telnyx.com/en/articles/3267816-united-states-number-porting)[Malta Number Porting](https://support.telnyx.com/en/articles/5190478-malta-number-porting)[Turkey Number Porting](https://support.telnyx.com/en/articles/6138781-turkey-number-porting)[Argentina Number Portability](https://support.telnyx.com/en/articles/9271183-argentina-number-portability)
-
-Did this answer your question?
-
-😞😐😃

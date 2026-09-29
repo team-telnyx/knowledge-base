@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130706-sip-connection-number
 title: "SIP Connection: Number Formats"
 description: "Here we will talk about SIP connections and ANI/DNIS number format control! See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 1bc4c6792032680e8296f8d56d5c825812dee94bc02f874b81f51a5919843032
+content_hash: 93d7b16cce6f572a1879e05767a9a5f5b757eeed98525c25b56028e3f2e0d66f
 ---
 
 
@@ -87,13 +87,3 @@ With Telnyx, if you choose to build a [WebRTC](https://portal.telnyx.com/#/debug
 You can then specify the DNIS number format as the ***SIP Username*** such that when inbound calls arrive to our network toward your DID's associated with the SIP Connection, we'll send the username of the SIP Connection in the SIP INVITE.
 
 Lastly, don't forget to select the ***VP8/9*** codecs in the advanced settings of the inbound section of the SIP Connection. This allows Telnyx to send the SIP INVITE to your WebRTC application with these codecs in the media parameters, which are ideal for video!
-
----
-
-Related Articles
-
-[SIP URI Calling](https://support.telnyx.com/en/articles/2925713-sip-uri-calling)[Caller ID Number Policy](https://support.telnyx.com/en/articles/3546251-caller-id-number-policy)[SIP Connection: Settings](https://support.telnyx.com/en/articles/4351104-sip-connection-settings)[SIP Connection: Inbound & Outbound Settings](https://support.telnyx.com/en/articles/4404448-sip-connection-inbound-outbound-settings)[Telnyx SIP Response Codes](https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes)
-
-Did this answer your question?
-
-😞😐😃

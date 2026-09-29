@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5772825-counterpath-bria-team
 title: "CounterPath Bria Teams: Setup"
 description: "Elevate team connectivity with Bria Teams and Telnyx. See Telnyx guidance and requirements Learn more about CounterPath Bria Teams: Setup with Telnyx."
 scraped: 2026-07-08
-content_hash: 98ab1db3ead868d2aacbb7983251754c04a7d9f6be3cdf48c76d6dde72d2c03c
+content_hash: 0b530d659dc48c738cc517796d63295de523c41712e43eed77e4079678ba51bb
 ---
 
 
@@ -207,13 +207,3 @@ Additionally, check out:
 * [Bria Solo user documentation](https://docs.counterpath.com/docs/PortalUG/clients/UserGuides/Desktop/quickStart/quickStartSolo.htm?Highlight=bria%20solo)
 * [Bria Teams user documentation](https://docs.counterpath.com/docs/PortalUG/Resources/TitlePages/TeamsTitlePage.htm)
 * [Counterpath support](https://support.counterpath.com/hc/en-us)
-
----
-
-Related Articles
-
-[Configuring a Cisco CUBE/CUCM IP Trunk](https://support.telnyx.com/en/articles/1130606-configuring-a-cisco-cube-cucm-ip-trunk)[Configuring Bria Solo (a.k.a X-Lite)](https://support.telnyx.com/en/articles/1130645-configuring-bria-solo-a-k-a-x-lite)[Configuring a Cisco CME Credentials Trunk](https://support.telnyx.com/en/articles/1130668-configuring-a-cisco-cme-credentials-trunk)[Configuring a Cisco CUBE/CUCM SIP Trunk](https://support.telnyx.com/en/articles/1130673-configuring-a-cisco-cube-cucm-sip-trunk)[Grandstream GXP: Telnyx Setup](https://support.telnyx.com/en/articles/5815720-grandstream-gxp-telnyx-setup)
-
-Did this answer your question?
-
-😞😐😃

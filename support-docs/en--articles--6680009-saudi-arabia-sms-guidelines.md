@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6680009-saudi-arabia-sms-guid
 title: "Saudi Arabia: SMS Guidelines"
 description: "Sending SMS to Saudi Arabia? See Telnyx guidance and requirements Learn more about Saudi Arabia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: c5fedd00af184d4029f2dbe5a79ac445918693fe48d875e8b4c476dd67b9f9a0
+content_hash: eedff9ee41d6c3f3b749a95c29ee12022d69946137e61d332a1aafd4c4e8a8a2
 ---
 
 
@@ -61,13 +61,3 @@ For more information on Alpha Sender ID registration kindly reach out to [alpha\
 [NOC\_Template\_KSA STC.docx](https://telnyx-48416ce2297b.intercom-attachments-7.com/i/o/1073796842/308d5690074fc8fb94e2f15f/NOC_Template_KSA+STC.docx?expires=1783507500&signature=8355cfd98da30071c5db538108973bc39cc964d23d130a383f43689f13829241&req=dSAgFc53m4lbW%2FMW1HO4zdtYWo2JHv%2F%2BGq5XuAGUQx2IN3NkFBSRhxBPZoFJ%0Av%2BnwMsaeLDU%3D%0A)
 
 [NOC\_Template\_KSA Zain.docx](https://telnyx-48416ce2297b.intercom-attachments-7.com/i/o/1073796960/f3c608e829ed1e141d9801f0/NOC_Template_KSA+Zain.docx?expires=1783507500&signature=655b971c58186ed720211935c32e22404202cab647c47d819767424d8d88634f&req=dSAgFc53m4hZWfMW1HO4za0KR56wHXRnapZ5oOYPSZE9b4Ie%2BT544zSmAzbX%0A%2BtJEx3VG1vg%3D%0A)
-
----
-
-Related Articles
-
-[Greece: SMS Guidelines](https://support.telnyx.com/en/articles/6563817-greece-sms-guidelines)[Turkey: SMS Guidelines](https://support.telnyx.com/en/articles/6564056-turkey-sms-guidelines)[Burundi: SMS Guidelines](https://support.telnyx.com/en/articles/6601042-burundi-sms-guidelines)[Jordan: SMS Guidelines](https://support.telnyx.com/en/articles/6674487-jordan-sms-guidelines)[Tajikistan: SMS Guidelines](https://support.telnyx.com/en/articles/6683287-tajikistan-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

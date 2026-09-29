@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130637-what-is-telnyx
 title: "What is Telnyx?"
 description: "Wondering exactly what Telnyx is? See Telnyx guidance and requirements Learn more about What is Telnyx? with Telnyx."
 scraped: 2026-07-08
-content_hash: cdc83ffce9f72e3ce27b1bdca05311fdaa7cfa790f0884658d808990846e084b
+content_hash: 69216bcd453a34ed042623a346d53cf2eda0c14744006651a1ac14a5293ae762
 ---
 
 
@@ -136,13 +136,3 @@ Telnyx **Storage** provides businesses with the ability to store and manage medi
 ---
 
 Telnyx offers an extensive, highly customizable communications platform for businesses, designed with scalability, security, and performance in mind. By leveraging its private IP network, advanced API offerings, and continuously evolving features like WebRTC and SIP trunking, Telnyx positions itself as a leader in the CPaaS space, empowering businesses to enhance communication workflows and optimize their global connectivity.
-
----
-
-Related Articles
-
-[Cisco: Configure a Cisco CME IP Trunk](https://support.telnyx.com/en/articles/1130612-cisco-configure-a-cisco-cme-ip-trunk)[Configuring an AVAYA IP trunk with Telnyx](https://support.telnyx.com/en/articles/1130627-configuring-an-avaya-ip-trunk-with-telnyx)[Telnyx STUN and TURN server](https://support.telnyx.com/en/articles/1130682-telnyx-stun-and-turn-server)[Yeastar S-Series: Telnyx SIP](https://support.telnyx.com/en/articles/5748952-yeastar-s-series-telnyx-sip)[BYOC: Telnyx & Genesys](https://support.telnyx.com/en/articles/8268122-byoc-telnyx-genesys)
-
-Did this answer your question?
-
-😞😐😃

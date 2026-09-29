@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/2906030-port-out-tracking
 title: "Port Out Tracking"
 description: "Learn how to manage your traceable port-outs all from within your Mission Control Portal! See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 3259252a1cee49084cdf739c5842adf0a53a3b6f6f694d7534ed3b349b702d8e
+content_hash: 6bec47f51e90ff79331036e948f5b3ba46106088a37032c33bbd6e73cb25a202
 ---
 
 
@@ -80,13 +80,3 @@ Once a number has been marked as `Ported Out` it will be removed from your accou
 Once the port-out has been confirmed, you will be billed the port-out fee at that time. To view your port out charges, please see the [Pricing](https://portal.telnyx.com/#/app/pricing) section.
 
 If you have any questions about port-out fees, please contact [sales@telnyx.com](mailto:sales@telnyx.com).
-
----
-
-Related Articles
-
-[Porting Policy & Procedure](https://support.telnyx.com/en/articles/1130630-porting-policy-procedure)[Porting Error Messages](https://support.telnyx.com/en/articles/1618776-porting-error-messages)[I Received a Port-Out Notification](https://support.telnyx.com/en/articles/2030667-i-received-a-port-out-notification)[Port-In Best Practices](https://support.telnyx.com/en/articles/2030770-port-in-best-practices)[Port Request Statuses](https://support.telnyx.com/en/articles/3284588-port-request-statuses)
-
-Did this answer your question?
-
-😞😐😃

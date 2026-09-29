@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130711-does-telnyx-encrypt-c
 title: "Does Telnyx encrypt communication?"
 description: "Telnyx ensures secure calls with optional TLS signaling and SRTP media encryption. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 024812168b4c2ea9a94ef7d827a5df2c6b4001d3f7daae29d5f8569b196f2204
+content_hash: 51009604ff6492d1f0a3b80ad508788dee269986d8a2428d5745a494bd5b2a46
 ---
 
 
@@ -41,13 +41,3 @@ In the same section as above:
 ![](_images/0cd5aa77a2df4bf2.png)
 
 Read more about specific details of TLS [here](https://support.telnyx.com/en/articles/4404575-tls-and-srtp).
-
----
-
-Related Articles
-
-[Algo 8xxx: Telnyx Endpoints](https://support.telnyx.com/en/articles/5790092-algo-8xxx-telnyx-endpoints)[ScopTEL IP PBX](https://support.telnyx.com/en/articles/5803103-scoptel-ip-pbx)[Vtech VCS754: Telnyx Setup](https://support.telnyx.com/en/articles/5822901-vtech-vcs754-telnyx-setup)[MicroSIP: Setup with Telnyx](https://support.telnyx.com/en/articles/6133145-microsip-setup-with-telnyx)[BYOC: Telnyx & Genesys](https://support.telnyx.com/en/articles/8268122-byoc-telnyx-genesys)
-
-Did this answer your question?
-
-😞😐😃

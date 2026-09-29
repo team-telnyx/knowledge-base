@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6679259-palestinian-territory
 title: "Palestinian Territory: SMS Guidelines"
 description: "SMS Guidelines for Palestinian Territory including MCC and Dial Code. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 5298ecb4db614907f279cb145cce918f9ad93bf86d31f35066b24fc9b0fd134a
+content_hash: 3eb93790727eb2350d7451b941a756eaa7b29c35e29abb01dacb6772545e3890
 ---
 
 
@@ -61,13 +61,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Norway: SMS Guidelines](https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines)[Iraq: SMS Guidelines](https://support.telnyx.com/en/articles/6589557-iraq-sms-guidelines)[Azerbaijan: SMS Guidelines](https://support.telnyx.com/en/articles/6596144-azerbaijan-sms-guidelines)[Chad: SMS Guidelines](https://support.telnyx.com/en/articles/6601133-chad-sms-guidelines)[Pakistan: SMS Guidelines](https://support.telnyx.com/en/articles/6679149-pakistan-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

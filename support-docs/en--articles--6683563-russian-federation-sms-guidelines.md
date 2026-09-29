@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6683563-russian-federation-sm
 title: "Russian Federation: SMS Guidelines"
 description: "SMS Guidelines for Russian Federation including MCC and Dial Code. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: b0c0a69424ab5f1220885093ccd1a18790ba2bd52df937b4cfd6571550a208d9
+content_hash: d7c1dfb76a688f3e648958b1f921d18667625dbb484580c596855259e4922c71
 ---
 
 
@@ -52,13 +52,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Norway: SMS Guidelines](https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines)[Palestinian Territory: SMS Guidelines](https://support.telnyx.com/en/articles/6679259-palestinian-territory-sms-guidelines)[Rwanda: SMS Guidelines](https://support.telnyx.com/en/articles/6679407-rwanda-sms-guidelines)[Uzbekistan: SMS Guidelines](https://support.telnyx.com/en/articles/6683454-uzbekistan-sms-guidelines)[Yemen: SMS Guidelines](https://support.telnyx.com/en/articles/6683484-yemen-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

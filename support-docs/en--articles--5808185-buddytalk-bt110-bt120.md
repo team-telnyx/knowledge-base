@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5808185-buddytalk-bt110-bt120
 title: "BuddyTalk BT110/BT120"
 description: "Learn how to configure BuddyTalk BT110 to work with Telnyx to make and receive calls. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: c4ffc8280f6b817abf376f133bac44578bc84e601a3b9a94a4bd58cae924ac9c
+content_hash: 98f9362bac29922b10f48ff53d18e9fc056e109083c5e5c9e2bf97abd0b33ea9
 ---
 
 
@@ -163,13 +163,3 @@ Additionally, check out:
 * [BT120 specifications](https://www.innomedia.com/buddytalk-product-family/)
 * [BuddyTalk FAQs](https://www.innomedia.com/buddytalk-product-family/)
 * [BuddyTalk setup page](https://www.innomedia.com/buddytalk-product-family/)
-
----
-
-Related Articles
-
-[Audiocodes 400HD](https://support.telnyx.com/en/articles/5819923-audiocodes-400hd)[Vtech VCS754: Telnyx Setup](https://support.telnyx.com/en/articles/5822901-vtech-vcs754-telnyx-setup)[MicroSIP: Setup with Telnyx](https://support.telnyx.com/en/articles/6133145-microsip-setup-with-telnyx)[Fanvil H5: Hotel IP](https://support.telnyx.com/en/articles/6203401-fanvil-h5-hotel-ip)[Fanvil X2CP/X2C/X2P: Call Center IP](https://support.telnyx.com/en/articles/6206756-fanvil-x2cp-x2c-x2p-call-center-ip)
-
-Did this answer your question?
-
-😞😐😃

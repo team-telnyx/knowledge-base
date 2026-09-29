@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/7260976-operator-connect-guid
 title: "Operator Connect Guide - Microsoft Teams"
 description: "See how you can use Telnyx as your provider for Microsoft Teams with Operator… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 38cbb8f40e07a23c8d52b1369445df81cc9246921db0596f2834e46a52fe2b2e
+content_hash: c6bfe481c582ea1917134ba11b101b8bfdb03e819103aee104b7c79bd7b5f8b7
 ---
 
 
@@ -131,13 +131,3 @@ When setting emergency addresses for MSFT teams, make sure these steps are follo
 ## Pricing
 
 Customers can find pricing for our Operator Connect bundles on the [Bundles Pricing Page](https://portal.telnyx.com/#/bundles/order) in the portal.
-
----
-
-Related Articles
-
-[SIP Connection: Fail-over and Retries](https://support.telnyx.com/en/articles/4320364-sip-connection-fail-over-and-retries)[SIP Connection: Inbound & Outbound Settings](https://support.telnyx.com/en/articles/4404448-sip-connection-inbound-outbound-settings)[Port your Microsoft MS Teams Numbers](https://support.telnyx.com/en/articles/5104103-port-your-microsoft-ms-teams-numbers)[Configuring Telnyx with Microsoft Teams Direct Routing](https://support.telnyx.com/en/articles/5253876-configuring-telnyx-with-microsoft-teams-direct-routing)[MS Teams: Call2Teams & Telnyx](https://support.telnyx.com/en/articles/6133589-ms-teams-call2teams-telnyx)
-
-Did this answer your question?
-
-😞😐😃

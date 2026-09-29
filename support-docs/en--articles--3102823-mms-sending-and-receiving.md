@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3102823-mms-sending-and-recei
 title: "MMS Sending and Receiving"
 description: "In this article we will explain how to send and receive MMS messages using Telnyx API. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 7fdcf852eb9e1cd9c8d0424efc1fe8bc3f033df371f1963d61a2abbbd104d4e7
+content_hash: c072dbed299cb474583f4b2aeb4775fe6921050e3c4876f0c423fe3dd96dfa79
 ---
 
 
@@ -93,13 +93,3 @@ Your DID's settings will determine if the number is SMS or MMS capable with a ch
 ![](_images/528cfe6e1eb1e944.png)
 
 Please note that currently it is up to the user to distinguish MMS and SMS messages arriving at the webhook. One way to distinguish them is to check the Content-Type header (it will be multipart/form-data for MMS).
-
----
-
-Related Articles
-
-[SIM Reporting & Analytics](https://support.telnyx.com/en/articles/3679913-sim-reporting-analytics)[Sending Alphanumeric SMS - Sender ID](https://support.telnyx.com/en/articles/4371498-sending-alphanumeric-sms-sender-id)[FAQs about MMS at Telnyx](https://support.telnyx.com/en/articles/4450150-faqs-about-mms-at-telnyx)[Telnyx Messaging Error Codes](https://support.telnyx.com/en/articles/6505121-telnyx-messaging-error-codes)[Group Messaging - Bulk Sending MMS](https://support.telnyx.com/en/articles/8255134-group-messaging-bulk-sending-mms)
-
-Did this answer your question?
-
-😞😐😃

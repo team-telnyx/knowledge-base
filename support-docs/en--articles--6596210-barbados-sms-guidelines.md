@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6596210-barbados-sms-guidelin
 title: "Barbados: SMS Guidelines"
 description: "SMS Guidelines for Barbados including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Barbados: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 44a8603d48cd067a96b5883abb43156fa44612d036c1c46bd8f9f5768bdf47c2
+content_hash: 79e2f7a83520400d5124396930a97f115b8758ecc7edb59baeae21738c4d65d2
 ---
 
 
@@ -31,13 +31,3 @@ There are no restrictions with regards to content towards this destination.
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Jamaica: SMS Guidelines](https://support.telnyx.com/en/articles/6674464-jamaica-sms-guidelines)[Maldives: SMS Guidelines](https://support.telnyx.com/en/articles/6675222-maldives-sms-guidelines)[Montserrat: SMS Guidelines](https://support.telnyx.com/en/articles/6677968-montserrat-sms-guidelines)[Namibia: SMS Guidelines](https://support.telnyx.com/en/articles/6678890-namibia-sms-guidelines)[Reunion: SMS Guidelines](https://support.telnyx.com/en/articles/6679378-reunion-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

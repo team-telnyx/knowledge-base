@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5820309-cisco-68xx-88xx-setup
 title: "Cisco: 68xx/88xx Setup"
 description: "Learn how to configure a Cisco 68xx/88xx series IP phone to worth with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 8cb28fc25b31a6e0c7eb27adaa7c2f785d4786dd3a06bc8a7a6b3665e9c5f1c6
+content_hash: 30dfa17ff1c4172e73271ca771728c848c04c7103db1c4258e400c87c9e3ca4c
 ---
 
 
@@ -158,13 +158,3 @@ Additionally, check out:
 * [Cisco documentation](https://software.cisco.com/portal/pub/download/portal/select.html?&i=!m&mdfid=284729655) Use the filters to find what you need
 
 ---
-
----
-
-Related Articles
-
-[Configuring your Cisco SPA112/122 ATA](https://support.telnyx.com/en/articles/1130665-configuring-your-cisco-spa112-122-ata)[Snom D7xx: Telnyx Setup](https://support.telnyx.com/en/articles/5822706-snom-d7xx-telnyx-setup)[Grandstream GRP260x: SIP Trunk](https://support.telnyx.com/en/articles/6169513-grandstream-grp260x-sip-trunk)[Grandstream GXP1700: SIP Trunk](https://support.telnyx.com/en/articles/6184520-grandstream-gxp1700-sip-trunk)[Fanvil X-Series: IP Phone](https://support.telnyx.com/en/articles/6209971-fanvil-x-series-ip-phone)
-
-Did this answer your question?
-
-😞😐😃

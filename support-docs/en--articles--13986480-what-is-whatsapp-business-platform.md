@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/13986480-what-is-whatsapp-bus
 title: "What is WhatsApp Business Platform?"
 description: "Learn what WhatsApp Business Platform is and how Telnyx integrates with it as a Business Solution Provider. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: e0dfd5a11bbda9ff91f7df2855b9014ff72d33baca35f781d78b0dd85ee3e9bb
+content_hash: 52ecd0f36f84cce7244910c738674f0d91ff9d7eb30f1e19fdeec0d29afb0945
 ---
 
 
@@ -60,13 +60,3 @@ Marketing, Utility, and Authentication conversations require pre-approved messag
 * [WhatsApp Quickstart Guide](https://developers.telnyx.com/docs/messaging/whatsapp/quickstart)
 * [Embedded Signup Guide](https://developers.telnyx.com/docs/messaging/whatsapp/embedded-signup)
 * [Send WhatsApp Messages](https://developers.telnyx.com/docs/messaging/whatsapp/send-messages)
-
----
-
-Related Articles
-
-[WhatsApp Pricing on Telnyx](https://support.telnyx.com/en/articles/13986484-whatsapp-pricing-on-telnyx)[How to Set Up WhatsApp on Telnyx](https://support.telnyx.com/en/articles/13986485-how-to-set-up-whatsapp-on-telnyx)[WhatsApp FAQ](https://support.telnyx.com/en/articles/13986488-whatsapp-faq)[WhatsApp Troubleshooting Guide](https://support.telnyx.com/en/articles/13986489-whatsapp-troubleshooting-guide)[Enabling WhatsApp Business Calling on Telnyx Numbers](https://support.telnyx.com/en/articles/14668631-enabling-whatsapp-business-calling-on-telnyx-numbers)
-
-Did this answer your question?
-
-😞😐😃

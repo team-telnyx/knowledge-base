@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/9133298-sip-record-route-head
 title: "SIP - Record Route Headers"
 description: "Understanding the Importance of Route Headers. See Telnyx guidance and requirements Learn more about SIP - Record Route Headers with Telnyx."
 scraped: 2026-07-08
-content_hash: 7203a16ce63345259d343e127beaba410ca73e0c7020352c148bd70276fa7fde
+content_hash: 9447f3ca649019f03b6351a9d4347949823b476e3f72c4fbfa545beb55a7d1ad
 ---
 
 
@@ -280,13 +280,3 @@ To prevent such issues and ensure reliable call setup and media flow, it's essen
 ## Conclusion
 
 The correct handling of Route headers in SIP communications is crucial for ensuring that calls are set up successfully and that media can flow between endpoints. By adhering to best practices and ensuring that your network is correctly configured to handle SIP messages, you can minimise disruptions and provide a seamless communication experience for your users. If you encounter persistent issues, working closely with your SIP service provider can help resolve these challenges effectively.
-
----
-
-Related Articles
-
-[SIP Connection: Fail-over and Retries](https://support.telnyx.com/en/articles/4320364-sip-connection-fail-over-and-retries)[SIP Registration](https://support.telnyx.com/en/articles/4363904-sip-registration)[Understanding SIP PRACK Protocol](https://support.telnyx.com/en/articles/6902981-understanding-sip-prack-protocol)[How Telnyx Handles SRV Records for SIP Calls](https://support.telnyx.com/en/articles/10666839-how-telnyx-handles-srv-records-for-sip-calls)[How to Configure SIP Attach using a UAC Connection](https://support.telnyx.com/en/articles/14805261-how-to-configure-sip-attach-using-a-uac-connection)
-
-Did this answer your question?
-
-😞😐😃

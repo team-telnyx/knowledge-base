@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1176353-vicidial-configure-vi
 title: "Vicidial: Configure Vicidial Credentials"
 description: "This article guides you on how to configure a Vicidial PBX for making and receiving calls over the internet through… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 142b9376b059e1523c0c1aafae30b5258a259e178de80247258eb56d134fd8df
+content_hash: 22a8bb6b01f2f319ecf606d0cb02bcccc98abc905d41dbf26890da71014b07f6
 ---
 
 
@@ -146,13 +146,3 @@ Additionally you can check out:
 
 * [Vicidial support](https://www.vicidial.com/?page_id=151)
 * [Vicidial user manual](https://www.vicidial.org/download_survey.php) (free version. Additionally, there is a [paid version](http://www.vicidial.org/store.php#MANAGER) with higher resolution)
-
----
-
-Related Articles
-
-[Asterisk: Configure an Asterisk IP trunk](https://support.telnyx.com/en/articles/1130628-asterisk-configure-an-asterisk-ip-trunk)[Configuring a Vicidial IP trunk with Telnyx](https://support.telnyx.com/en/articles/1130632-configuring-a-vicidial-ip-trunk-with-telnyx)[Configuring Linphone with Telnyx](https://support.telnyx.com/en/articles/1130674-configuring-linphone-with-telnyx)[Configuring an Asterisk Credentials Trunk](https://support.telnyx.com/en/articles/1130676-configuring-an-asterisk-credentials-trunk)[Configuring a GoAutoDial PBX SIP Trunk](https://support.telnyx.com/en/articles/1130694-configuring-a-goautodial-pbx-sip-trunk)
-
-Did this answer your question?
-
-😞😐😃

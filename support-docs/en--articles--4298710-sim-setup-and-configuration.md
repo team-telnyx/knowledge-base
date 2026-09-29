@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4298710-sim-setup-and-configu
 title: "SIM Setup and Configuration"
 description: "This article will explain how to order a Telnyx SIM card and help with the configuration/setup process. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: a77064d3984a48e86975d3a5f320ba56bebd8978ca6692233f8df930e82b0d8f
+content_hash: 45a39a58a5bf85703c8365103f46ef101e9ade2434730f7fba54ed0c5b9303be
 ---
 
 
@@ -82,13 +82,3 @@ Once you have a new APN up, enter the following:
 **IMPORTANT:** Make sure you enable data roaming on your device and you are good to go. (Note, some devices may require you to reboot in order for the changes to take effect)
 
 **ALSO IMPORTANT:** Someproviders no longer allow "first time registrations" to occur via 2G or 3G connections. Please make sure to complete the initial registration via 4G/LTE (After that, the SIM will be usable via 2G and 2G/3G)
-
----
-
-Related Articles
-
-[How to set up a Telnyx SIM Card](https://support.telnyx.com/en/articles/3269600-how-to-set-up-a-telnyx-sim-card)[Adding the Telnyx SIM APN to your device](https://support.telnyx.com/en/articles/3269973-adding-the-telnyx-sim-apn-to-your-device)[SIM Connectivity Logs](https://support.telnyx.com/en/articles/5666594-sim-connectivity-logs)[Using Telnyx SIM with Ubiquiti UniFi LTE Pro](https://support.telnyx.com/en/articles/10164784-using-telnyx-sim-with-ubiquiti-unifi-lte-pro)[Using Telnyx SIM with InRouter300 Series Cellular Routers](https://support.telnyx.com/en/articles/10511105-using-telnyx-sim-with-inrouter300-series-cellular-routers)
-
-Did this answer your question?
-
-😞😐😃

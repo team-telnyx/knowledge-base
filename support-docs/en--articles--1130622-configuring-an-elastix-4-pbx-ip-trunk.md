@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130622-configuring-an-elasti
 title: "Configuring an Elastix 4 PBX IP Trunk"
 description: "In this article we will explain how to configure an Elastix 4 PBX IP trunk with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 1fec52c3f7c30a2fca63f23c8e09466f17e948e86c57bc45caf608d856c2bc12
+content_hash: 24b470585e11726c077ecb12b6d648c8be552fd532a85cc98f4e7f703a899d9d
 ---
 
 
@@ -203,13 +203,3 @@ Additionally, you can check out:
 * [Elastix admin guide](https://www.3cx.com/docs/manual/)
 * [Elastix user guide](https://www.3cx.com/user-manual/)
 * [Elastix support](https://www.3cx.com/support/)
-
----
-
-Related Articles
-
-[How to configure a Thirdlane PBX](https://support.telnyx.com/en/articles/1130631-how-to-configure-a-thirdlane-pbx)[Configuring an Elastix 4 PBX Trunk](https://support.telnyx.com/en/articles/1130654-configuring-an-elastix-4-pbx-trunk)[FreePBX V15 IP Trunk - ChanSIP Tutorial](https://support.telnyx.com/en/articles/5467232-freepbx-v15-ip-trunk-chansip-tutorial)[FreePBX V15: IP Trunk - PJSIP](https://support.telnyx.com/en/articles/5619595-freepbx-v15-ip-trunk-pjsip)[Xorcom PBX: SIP Trunk](https://support.telnyx.com/en/articles/5754127-xorcom-pbx-sip-trunk)
-
-Did this answer your question?
-
-😞😐😃

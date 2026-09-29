@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6209862-fanvil-v-series-ip-ph
 title: "Fanvil V-Series: IP Phones"
 description: "Learn how to configure a Telnyx SIP trunk on the Fanvil V67/V65/V64/V62… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: d34d15827bcbe63d0f372719ef1d30c3f6abfa6eb3e7b81752194e098d670bbb
+content_hash: f38876a0df60757f35de34c2676b7ab7447ec23fc508669c61c6b6f62cb296e4
 ---
 
 
@@ -162,13 +162,3 @@ Additionally you can check out:
 * [Fanvil support](https://www.fanvil.com/Support/ticket.html)
 
 ---
-
----
-
-Related Articles
-
-[Fanvil H2U: Compact IP](https://support.telnyx.com/en/articles/6202755-fanvil-h2u-compact-ip)[Fanvil H3: Hotel IP](https://support.telnyx.com/en/articles/6202965-fanvil-h3-hotel-ip)[Fanvil H3W/H5W: WiFi IP](https://support.telnyx.com/en/articles/6203347-fanvil-h3w-h5w-wifi-ip)[Fanvil X7 Series: IP Phones](https://support.telnyx.com/en/articles/6209215-fanvil-x7-series-ip-phones)[Fanvil X-Series: IP Phone](https://support.telnyx.com/en/articles/6209971-fanvil-x-series-ip-phone)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8104413-telnyx-networking-on-
 title: "Telnyx Networking on Android/iOS"
 description: "Global Edge Router setup using the WireGuard App for the iOS and Android mobile… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: b13ef8e1145bc2d4c0e5d184a8f9f40607618e7a3c836cf9242092e0f36a9264
+content_hash: 0a460887ab892cfd6264df78ac8e1882c6ee1834e2a98b2a7db409c342132403
 ---
 
 
@@ -78,13 +78,3 @@ round-trip min/avg/max/stddev = 183.040/183.495/184.512/0.471 ms
 Congratulations! You have successfully connected an Android and/or iOS instance to the Telnyx Edge Routing Network to the configured IP in your portal.
 
 If you have any further questions or would like to see more tutorials, feel free to reach out to our support team or our external Slack channel for help!
-
----
-
-Related Articles
-
-[Telnyx Networking on AWS Lightsail](https://support.telnyx.com/en/articles/8103288-telnyx-networking-on-aws-lightsail)[Telnyx Networking on Ubuntu](https://support.telnyx.com/en/articles/8104274-telnyx-networking-on-ubuntu)[Telnyx Networking on AWS VPC](https://support.telnyx.com/en/articles/8104309-telnyx-networking-on-aws-vpc)[Telnyx Networking on Azure Linux VMs](https://support.telnyx.com/en/articles/8104343-telnyx-networking-on-azure-linux-vms)[Telnyx Networking on Oracle VMs](https://support.telnyx.com/en/articles/8104436-telnyx-networking-on-oracle-vms)
-
-Did this answer your question?
-
-😞😐😃

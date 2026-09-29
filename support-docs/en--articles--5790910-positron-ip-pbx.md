@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5790910-positron-ip-pbx
 title: "Positron IP PBX"
 description: "Learn how to configure your Positron IP PBX to make and receive outgoing and incoming calls using Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 5f885ddffef76ec817f39c1d9753766fd8dbf699f9042fe1622a1cd7997710c9
+content_hash: ddf77c47b448a2931f3139d0ed4b9354f6a12e9b32536ef45d1135dc1a68ba19
 ---
 
 
@@ -135,13 +135,3 @@ And in case you missed it, check out:
 |  |
 | --- |
 | ***A Note on available vendor documentation:*** *Positron PBX currently does not provide current documentation to non-partners. The guides in this list are quite dated (2013), but may be useful. If you are still looking for something additional to read, we encourage you to find a user-support group from places such as stack exchange or reddit. And of course contact Telnyx support if you want our help directly.* |
-
----
-
-Related Articles
-
-[Configuring an Elastix 4 PBX IP Trunk](https://support.telnyx.com/en/articles/1130622-configuring-an-elastix-4-pbx-ip-trunk)[How to configure a Thirdlane PBX](https://support.telnyx.com/en/articles/1130631-how-to-configure-a-thirdlane-pbx)[Configuring an Elastix 4 PBX Trunk](https://support.telnyx.com/en/articles/1130654-configuring-an-elastix-4-pbx-trunk)[Epygi IP PBX: Telnyx Setup](https://support.telnyx.com/en/articles/5728748-epygi-ip-pbx-telnyx-setup)[ScopTEL IP PBX](https://support.telnyx.com/en/articles/5803103-scoptel-ip-pbx)
-
-Did this answer your question?
-
-😞😐😃

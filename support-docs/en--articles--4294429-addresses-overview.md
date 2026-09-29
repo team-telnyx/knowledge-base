@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4294429-addresses-overview
 title: "Addresses Overview"
 description: "This article will explain the \"Addresses\" section of your portal account and it's… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 471cb075fcc6a560aba15f4baaf4d507fc6ab2c3163a2110246be28127e70fdf
+content_hash: d91498b5859baedc49dec18d04e7a49116b3601d8ba5759f6b6408fa591271b4
 ---
 
 
@@ -34,13 +34,3 @@ Once the address entry has been created you should see it added to the list of a
 To activate E911 services on a DID number with one of your added addresses, navigate to the "[Numbers](https://portal.telnyx.com/#/app/numbers/my-numbers)" section of your account, find your desired DID, and then enter the settings of that number. Once there, you will see an "Emergency" tab, you can then activate Emergency services by clicking the check-box, you will then be prompted to select your desired address from the dropdown menu or you may enter a new address from here also.
 
 ![](_images/21ef19b172b1d1e3.png)
-
----
-
-Related Articles
-
-[Register E911 addresses](https://support.telnyx.com/en/articles/1130647-register-e911-addresses)[E911 Setup Guide](https://support.telnyx.com/en/articles/1130683-e911-setup-guide)[How do I test E911 service?](https://support.telnyx.com/en/articles/1130709-how-do-i-test-e911-service)[How To Setup A DID to SIP Connection](https://support.telnyx.com/en/articles/1177115-how-to-setup-a-did-to-sip-connection)[My Numbers Page](https://support.telnyx.com/en/articles/4349113-my-numbers-page)
-
-Did this answer your question?
-
-😞😐😃

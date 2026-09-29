@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3317613-billing-decimal-value
 title: "Billing: Decimal Values Considered"
 description: "How many decimal values does Telnyx consider when billing? See Telnyx guidance and requirements Learn more about Billing: Decimal Values Considered with Telnyx."
 scraped: 2026-07-08
-content_hash: 89905fc7656ed516daea67c1a5c4882b71c43add938a5044902a7426c902d122
+content_hash: b090a97368ed905f0c4b061cc216fe34812f478aab58b3af5a9499bc6032161a
 ---
 
 
@@ -28,13 +28,3 @@ The same goes for our call rates, they are considered up to 4 decimal points.
 
 More info on pricing can be found on our [pricing page](https://telnyx.com/pricing).
 ​
-
----
-
-Related Articles
-
-[Regulatory Guidelines for US Short Code Marketing and Opt-in Procedures](https://support.telnyx.com/en/articles/9311566-regulatory-guidelines-for-us-short-code-marketing-and-opt-in-procedures)
-
-Did this answer your question?
-
-😞😐😃

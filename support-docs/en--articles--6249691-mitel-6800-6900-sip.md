@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6249691-mitel-6800-6900-sip
 title: "Mitel: 6800/6900 SIP"
 description: "Learn how to set up and configure a Telnyx SIP trunk on any Mitel 6800/6900 series SIP phone. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: dc8bed8636a3a31bb30b16f23eb273a5b64ad82977918eb6a901159f098333ed
+content_hash: 2773fd4c8f09cb3a34d4fb3c47e3626fa12c89a118e5507a3f42afaf89769bd0
 ---
 
 
@@ -220,13 +220,3 @@ Additionally you can check out:
 * [Mitel Learning Center](https://www.mitel.com/support/learning-center)
 * [Mitel live training webinars](https://www.mitel.com/support/learning-center/live-webinars)
 * [Mitel user group](https://www.mitel.com/partners/mitel-user-group)
-
----
-
-Related Articles
-
-[Grandstream GRP260x: SIP Trunk](https://support.telnyx.com/en/articles/6169513-grandstream-grp260x-sip-trunk)[Grandstream GRP2612: SIP Trunk](https://support.telnyx.com/en/articles/6184147-grandstream-grp2612-sip-trunk)[Grandstream GXP1700: SIP Trunk](https://support.telnyx.com/en/articles/6184520-grandstream-gxp1700-sip-trunk)[Fanvil X-Series: IP Phone](https://support.telnyx.com/en/articles/6209971-fanvil-x-series-ip-phone)[Mitel: 5320E/5330E/5340E SIP](https://support.telnyx.com/en/articles/6244551-mitel-5320e-5330e-5340e-sip)
-
-Did this answer your question?
-
-😞😐😃

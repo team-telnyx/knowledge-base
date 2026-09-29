@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6145484-voice-elements-telnyx
 title: "Voice Elements: Telnyx SIP"
 description: "Voice Elements, a Microsoft .NET development environment released by Inventive Labs Corporation in 2008. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 4833ab5d5f68fdbc4538b5e77352d04f2d47cf6f11d05d4eba0f10a5e5af5699
+content_hash: 20ba1ee4cf4531841a8f799e55e0ff37b814573e12d9a8aa267468e49337df0b
 ---
 
 
@@ -101,13 +101,3 @@ Additionally check out:
 * [Contact Voice Elements support](https://www.voiceelements.com/contact/)
 * [Try Voice Elements for free](https://www.voiceelements.com/demo/)
 * [Getting started with Telnyx](https://sip.telnyx.com/#signaling-addresses)
-
----
-
-Related Articles
-
-[Flyingvoice: Telnyx Setup](https://support.telnyx.com/en/articles/5810663-flyingvoice-telnyx-setup)[Fanvil X4G: Telnyx Setup](https://support.telnyx.com/en/articles/5811487-fanvil-x4g-telnyx-setup)[Panasonic KX-HDV: Telnyx setup](https://support.telnyx.com/en/articles/5814406-panasonic-kx-hdv-telnyx-setup)[Gigaset A510: Telnyx Setup](https://support.telnyx.com/en/articles/5815209-gigaset-a510-telnyx-setup)[Konftel 300IPx: Telnyx Setup](https://support.telnyx.com/en/articles/5822579-konftel-300ipx-telnyx-setup)
-
-Did this answer your question?
-
-😞😐😃

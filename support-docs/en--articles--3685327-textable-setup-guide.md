@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3685327-textable-setup-guide
 title: "Textable Setup Guide"
 description: "Here we will explain how you can easily set up your Textable account to use Telnyx's SMS service. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 036da14f11bf842e41c5de9409e129d2d7cef27b25bf4e7db9602fd72f2e0bfb
+content_hash: 119dfdb0fa4cce2ba0f65fa420ce99b9df774d6c6eec738126a3aeb9808335fa
 ---
 
 
@@ -52,13 +52,3 @@ Configuring your Telnyx account with Textable is pretty simple and should only t
 6. You can also now download and use the Textable app from [App Store (iOS)](https://apps.apple.com/us/app/textable-voip-texting/id1355564896?ls=1) or [Google Play Store (Android)](https://play.google.com/store/apps/details?id=co.textable.textable&hl=en&utm_source=textable&utm_campaign=website&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)
 
 That’s it, you should be able to send and receive messages!
-
----
-
-Related Articles
-
-[Forwarding SMS to Your Mobile Number](https://support.telnyx.com/en/articles/3231942-forwarding-sms-to-your-mobile-number)[Receiving SMS on your Telnyx number](https://support.telnyx.com/en/articles/4348981-receiving-sms-on-your-telnyx-number)[Easy Text Marketing and Telnyx Integration](https://support.telnyx.com/en/articles/6986625-easy-text-marketing-and-telnyx-integration)[How to Configure a SIP Trunk](https://support.telnyx.com/en/articles/8096455-how-to-configure-a-sip-trunk)[Bulk Messaging with Sheets](https://support.telnyx.com/en/articles/8268223-bulk-messaging-with-sheets)
-
-Did this answer your question?
-
-😞😐😃

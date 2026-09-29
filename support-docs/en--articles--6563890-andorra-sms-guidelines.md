@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6563890-andorra-sms-guideline
 title: "Andorra: SMS Guidelines"
 description: "SMS Guidelines for Andorra including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Andorra: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: f60e1dd2ecf5310636e1f2c3397e979bdf2c70c8287618c7e2d027b80d2eb8ba
+content_hash: 2d6e6aad5ea7cfa4b26ae07eaa50730b733b6393c73492d2ec9d88774d1f25a7
 ---
 
 
@@ -79,13 +79,3 @@ Uncover the secrets to effective bulk SMS campaigns in Andorra. Reach a wider au
 * [Mastering CTIA guidelines](https://telnyx.com/resources/CTIA-SMS-guidelines)
 * [Guide to compliant bulk SMS](https://telnyx.com/resources/bulk-sms-guide)
 * [SMS compliance and regulations](https://telnyx.com/resources/how-to-ensure-compliance-with-sms-regulations)
-
----
-
-Related Articles
-
-[South Africa: SMS Guidelines](https://support.telnyx.com/en/articles/6545173-south-africa-sms-guidelines)[Armenia: SMS Guidelines](https://support.telnyx.com/en/articles/6592510-armenia-sms-guidelines)[Cook Islands: SMS Guidelines](https://support.telnyx.com/en/articles/6661387-cook-islands-sms-guidelines)[Grenada: SMS Guidelines](https://support.telnyx.com/en/articles/6670896-grenada-sms-guidelines)[New Zealand: SMS Guidelines](https://support.telnyx.com/en/articles/6679036-new-zealand-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

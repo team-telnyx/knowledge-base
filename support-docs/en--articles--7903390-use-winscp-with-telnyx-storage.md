@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/7903390-use-winscp-with-telny
 title: "Use WinSCP with Telnyx Storage"
 description: "Discover how to set up WinSCP with Telnyx Storage for effortless file transfer and efficient storage management. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 1f34f80cc28107d7d93ae6510fadee5d95834b55167bf7a4cbba350c019866ba
+content_hash: ea1de351a6b9327ddce41cf56077664e49e033404c501a668a4fd33c8766b336
 ---
 
 
@@ -52,13 +52,3 @@ And that's all there is to it! You can now use WinSCP to store and retrieve your
 **Additional Resources**
 
 For more information on how to use WinSCP check out their support documentation [here](https://winscp.net/eng/docs/start).
-
----
-
-Related Articles
-
-[Use Cyberduck with Telnyx Storage](https://support.telnyx.com/en/articles/6964207-use-cyberduck-with-telnyx-storage)[Use Arq Backup with Telnyx Storage](https://support.telnyx.com/en/articles/7869213-use-arq-backup-with-telnyx-storage)[Use CrossFTP with Telnyx Storage](https://support.telnyx.com/en/articles/8047941-use-crossftp-with-telnyx-storage)[Use WebDrive with Telnyx Storage](https://support.telnyx.com/en/articles/8047969-use-webdrive-with-telnyx-storage)[Use AirExplorer with Telnyx Storage](https://support.telnyx.com/en/articles/8048045-use-airexplorer-with-telnyx-storage)
-
-Did this answer your question?
-
-😞😐😃

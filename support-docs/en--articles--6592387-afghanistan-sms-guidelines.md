@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6592387-afghanistan-sms-guide
 title: "Afghanistan: SMS Guidelines"
 description: "SMS Guidelines for Afghanistan including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Afghanistan: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: fda13a22aff5ba7ebb98c661e4dd86a2835f30e12d8cabcd3fdbe5618b94a58a
+content_hash: d7a9e7d3d2318f2339987698241e979fb2f9b54a2c346a9b9ca57839f08b8b8a
 ---
 
 
@@ -59,13 +59,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Norway: SMS Guidelines](https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines)[Azerbaijan: SMS Guidelines](https://support.telnyx.com/en/articles/6596144-azerbaijan-sms-guidelines)[Niger: SMS Guidelines](https://support.telnyx.com/en/articles/6679062-niger-sms-guidelines)[Pakistan: SMS Guidelines](https://support.telnyx.com/en/articles/6679149-pakistan-sms-guidelines)[Palestinian Territory: SMS Guidelines](https://support.telnyx.com/en/articles/6679259-palestinian-territory-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

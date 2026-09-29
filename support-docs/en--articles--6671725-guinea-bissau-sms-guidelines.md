@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6671725-guinea-bissau-sms-gui
 title: "Guinea-Bissau: SMS Guidelines"
 description: "SMS Guidelines for Guinea-Bissau including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Guinea-Bissau: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 239bcd235cb0f342ebf6e3368a39c13830d4c6d42d0259669e3a6dc3e6a7980a
+content_hash: 6978ef145e7b5d9b2fe51c0763118aec3a08c771f4be2e0b4ba5b6697f1dc10c
 ---
 
 
@@ -35,13 +35,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Congo: SMS Guidelines](https://support.telnyx.com/en/articles/6661326-congo-sms-guidelines)[Cote d'Ivoire: SMS Guidelines](https://support.telnyx.com/en/articles/6665111-cote-d-ivoire-sms-guidelines)[Guinea: SMS Guidelines](https://support.telnyx.com/en/articles/6671488-guinea-sms-guidelines)[Rwanda: SMS Guidelines](https://support.telnyx.com/en/articles/6679407-rwanda-sms-guidelines)[Zambia: SMS Guidelines](https://support.telnyx.com/en/articles/6683501-zambia-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

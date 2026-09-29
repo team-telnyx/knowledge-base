@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/13986483-whatsapp-message-tem
 title: "WhatsApp Message Templates Guide"
 description: "How WhatsApp message templates work, the approval process, categories, and tips for getting templates approved. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 634a8860642b2ab4a646a4abc5e096ac2d02e3e3e9096a061bc789c933edbc28
+content_hash: 7e0999fd8164806e8c98ae03a9eb03a1f24576e17853788f39cdfe577cd99ae5
 ---
 
 
@@ -115,13 +115,3 @@ After approval, Meta monitors template performance based on user feedback (block
 ## Related Resources
 
 * [Send Template Messages (API Guide)](https://developers.telnyx.com/docs/messaging/whatsapp/send-messages#template-messages)
-
----
-
-Related Articles
-
-[WhatsApp Message Types Explained](https://support.telnyx.com/en/articles/13986481-whatsapp-message-types-explained)[WhatsApp Pricing on Telnyx](https://support.telnyx.com/en/articles/13986484-whatsapp-pricing-on-telnyx)[How to Create WhatsApp Message Templates](https://support.telnyx.com/en/articles/13986486-how-to-create-whatsapp-message-templates)[WhatsApp FAQ](https://support.telnyx.com/en/articles/13986488-whatsapp-faq)[WhatsApp Troubleshooting Guide](https://support.telnyx.com/en/articles/13986489-whatsapp-troubleshooting-guide)
-
-Did this answer your question?
-
-😞😐😃

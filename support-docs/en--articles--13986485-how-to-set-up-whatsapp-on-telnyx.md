@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/13986485-how-to-set-up-whatsa
 title: "How to Set Up WhatsApp on Telnyx"
 description: "Step-by-step guide to setting up WhatsApp Business on Telnyx using the Embedded Signup flow. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: b9ca1b42fad01cb5e8d456c64f5fcffe912ea4340988c5c059337afc0df07b99
+content_hash: 01ffbf1b620fb76ae4211673df8588bc73166d7bed46a137c4100a771f0c4b6f
 ---
 
 
@@ -73,13 +73,3 @@ Once your template is approved, you can send your first WhatsApp message via the
 * **Signup flow fails** — Ensure your Facebook account has admin access to the Meta Business Manager. Try clearing browser cookies and restarting the flow.
 * **Phone verification fails** — Wait a few minutes and try again. If using SMS, try the phone call option instead.
 * **Number already in use** — The number is registered with WhatsApp consumer or Business App. Delete that account first from the phone.
-
----
-
-Related Articles
-
-[What is WhatsApp Business Platform?](https://support.telnyx.com/en/articles/13986480-what-is-whatsapp-business-platform)[WhatsApp Pricing on Telnyx](https://support.telnyx.com/en/articles/13986484-whatsapp-pricing-on-telnyx)[WhatsApp FAQ](https://support.telnyx.com/en/articles/13986488-whatsapp-faq)[WhatsApp Troubleshooting Guide](https://support.telnyx.com/en/articles/13986489-whatsapp-troubleshooting-guide)[Enabling WhatsApp Business Calling on Telnyx Numbers](https://support.telnyx.com/en/articles/14668631-enabling-whatsapp-business-calling-on-telnyx-numbers)
-
-Did this answer your question?
-
-😞😐😃

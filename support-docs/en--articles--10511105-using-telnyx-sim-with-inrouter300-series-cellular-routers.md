@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/10511105-using-telnyx-sim-wit
 title: "Using Telnyx SIM with InRouter300 Series Cellular Routers"
 description: "Step-by-step guide to configuring InRouter300 Series routers with a Telnyx SIM for reliable IoT and industrial… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 8e5238077b6d93cb0b3bdbbeff6d577fdd8e490e0d53df8bbbf85ef675205d22
+content_hash: 91144b521c42112d87fc55bb2eb75b08347528f447a48596c2ce19cc1d9b9d1f
 ---
 
 
@@ -160,13 +160,3 @@ By following this guide, you can successfully configure your **InRouter300 Serie
 ​
 
 **Happy Networking!** 🚀
-
----
-
-Related Articles
-
-[How to set up a Telnyx SIM Card](https://support.telnyx.com/en/articles/3269600-how-to-set-up-a-telnyx-sim-card)[Adding the Telnyx SIM APN to your device](https://support.telnyx.com/en/articles/3269973-adding-the-telnyx-sim-apn-to-your-device)[SIM Connectivity Logs](https://support.telnyx.com/en/articles/5666594-sim-connectivity-logs)[Using Telnyx SIM with Ubiquiti UniFi LTE Pro](https://support.telnyx.com/en/articles/10164784-using-telnyx-sim-with-ubiquiti-unifi-lte-pro)[Using Telnyx SIM with Teltonika 4G/LTE Routers](https://support.telnyx.com/en/articles/10511646-using-telnyx-sim-with-teltonika-4g-lte-routers)
-
-Did this answer your question?
-
-😞😐😃

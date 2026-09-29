@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4280500-billing-setup-billing
 title: "Billing Setup & Billing Groups"
 description: "This article details the functionalities of the Billing and Billing Groups settings in your Telnyx Mission Control… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f54fab7458c99f135035a01f7c99c12d530b2e10e8dcaa333701bfb7140e337c
+content_hash: 8bbc1cc7da4c353693d589e37aabafa9070b45e9deb9afc006d3a25989cdbccd
 ---
 
 
@@ -183,13 +183,3 @@ To add a Billing group to a **number** select the **billing group option** on yo
 Adding a Billing Group to an **Outbound Profile** can be done in the **Advanced Settings** of your Outbound Voice Profile.
 
 You can see more details in our resource center [here](https://telnyx.com/release-notes/new-feature-release-billing-groups).
-
----
-
-Related Articles
-
-[E911 Setup Guide](https://support.telnyx.com/en/articles/1130683-e911-setup-guide)[Notification Settings](https://support.telnyx.com/en/articles/4277896-notification-settings)[Sansay: SBC VSXi Setup](https://support.telnyx.com/en/articles/4301888-sansay-sbc-vsxi-setup)[Grandstream HT802: Telnyx Setup](https://support.telnyx.com/en/articles/5725071-grandstream-ht802-telnyx-setup)[Invoice Overview](https://support.telnyx.com/en/articles/6987563-invoice-overview)
-
-Did this answer your question?
-
-😞😐😃

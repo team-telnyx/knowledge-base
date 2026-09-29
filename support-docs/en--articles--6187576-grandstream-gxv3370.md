@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6187576-grandstream-gxv3370
 title: "Grandstream GXV3370"
 description: "Learn how to configure a Telnyx SIP trunk on the Grandstream GVX3370 (Android… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 0545d2f194878387df37cb74f54a44690a1e8e3836661e926797f534a0c7e725
+content_hash: 105f19bcf46edd5976d5194817bd2bfce4cf66777e72d4b432584e8a453361eb
 ---
 
 
@@ -140,13 +140,3 @@ Additionally you can check out:
 * [Grandstream FAQ](https://blog.grandstream.com/faq)
 * [Grandstream user forum](https://forums.grandstream.com/)
 * [Helpdesk](https://helpdesk.grandstream.com/)
-
----
-
-Related Articles
-
-[Grandstream UCM6xxx: SIP Trunks](https://support.telnyx.com/en/articles/5748258-grandstream-ucm6xxx-sip-trunks)[Grandstream GXP21XX](https://support.telnyx.com/en/articles/5819218-grandstream-gxp21xx)[Grandstream GRP260x: SIP Trunk](https://support.telnyx.com/en/articles/6169513-grandstream-grp260x-sip-trunk)[Grandstream GXP1700: SIP Trunk](https://support.telnyx.com/en/articles/6184520-grandstream-gxp1700-sip-trunk)[Grandstream Wave Lite (Android)](https://support.telnyx.com/en/articles/6184897-grandstream-wave-lite-android)
-
-Did this answer your question?
-
-😞😐😃

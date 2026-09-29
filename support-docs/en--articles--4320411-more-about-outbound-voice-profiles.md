@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4320411-more-about-outbound-v
 title: "More About Outbound Voice Profiles"
 description: "This article will explain how to set up an outbound voice profile and the different service plans and billing options… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: e4044dcf2c4cb2fdc66ef8bc9531b3d4420740b79f017c4fbce3f5a4373391b6
+content_hash: 97ce68d97a41844bd54dd641e83cb0d29997b1bf7191b8ee82cb6044926b6ec3
 ---
 
 
@@ -92,13 +92,3 @@ You may encounter this error when attempting to associate a SIP Connection with 
 This is very much so applicable in cases where customers use BYOC (Bring Your Own Carrier) where that carrier has a fixed IP address. In such cases, you are required to **uniquely identify** your SIP Connection in order for our system to know that the calls are coming from your system and not other customers that may be sharing the same IP address.
 
 To solve this, you can specify an expert IP authentication method in the basic settings of your SIP Connection. The easiest method you can use is the "tech prefix" which you can read more about [here](https://support.telnyx.com/en/articles/2602782-ip-authentication-with-tech-prefix). However, the best way is to use a token, where you are required to include **X-Telnyx-Token** as a header in your SIP INVITE with the token generated on your SIP Connection. You can read more about that [here](https://support.telnyx.com/en/articles/4860170-ip-authentication-with-x-telnyx-token) as well.
-
----
-
-Related Articles
-
-[Distinguish your outbound profiles & DIDs](https://support.telnyx.com/en/articles/1130721-distinguish-your-outbound-profiles-dids)[SIP Connection: Types](https://support.telnyx.com/en/articles/4245868-sip-connection-types)[SIP Connection: Inbound & Outbound Settings](https://support.telnyx.com/en/articles/4404448-sip-connection-inbound-outbound-settings)[Telnyx SIP Response Codes](https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes)[Troubleshooting Call Completion](https://support.telnyx.com/en/articles/5025298-troubleshooting-call-completion)
-
-Did this answer your question?
-
-😞😐😃

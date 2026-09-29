@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4640720-what-is-an-exhausted-
 title: "What is an Exhausted NPA?"
 description: "In this guide we will explain Exhausted NPA codes in the United States and their respective… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 0552e57b5b449e7e6b40672fccf90122d7442a1c8c4696543bf519a84879ec9f
+content_hash: f06cf76950cf96b9eb5a12980fc977f655849c1d417ec633105a170a37307340
 ---
 
 
@@ -177,13 +177,3 @@ Below mentioned is the updated list of Exhausted NPA's:
 | 972 | Texas |
 | 973 | New Jersey |
 | 978 | Massachusetts |
-
----
-
-Related Articles
-
-[United States - N11 Codes](https://support.telnyx.com/en/articles/4567969-united-states-n11-codes)
-
-Did this answer your question?
-
-😞😐😃

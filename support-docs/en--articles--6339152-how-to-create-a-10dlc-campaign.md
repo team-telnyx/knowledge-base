@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6339152-how-to-create-a-10dlc
 title: "How to create a 10DLC campaign"
 description: "Creating a campaign is the second step to becoming compliant with 10DLC rules. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: ba5b36e22886219329a142b32b5efc7c594b903d68df43b065b45e80b485d78b
+content_hash: 28203e09b3a51ea96479ae9fa59198d9082552168d6ad62b88d6728e4174497a
 ---
 
 
@@ -93,13 +93,3 @@ The next step after you’ve registered your campaign is it will be reviewed and
 Note: If you are receiving an "invalid date" or TCR Creation Failed status for your campaign in the Telnyx portal then this indicates that TCR (the regulating body of US local text messaging) has rejected the campaign due to a technical issue with your submission such as a character requirement was missed or the wrong number of sample messages was added (you must have at least one sample message per use case selected so if you select Mixed and then have 5 sub Use Cases then you must have 5 sample messages). It is different than a carrier rejection. If you are having this issue please reach out to us at [10dlcquestions@telnyx.com](mailto:10dlcquestions@telnyx.com) and we will work with our messaging team to identify the failure reason. Then we will communicate the failure reason to you and the campaign will need to be re-created.
 
 If you have any messaging compliance questions please reach out to us at [10dlcquestions@telnyx.com](mailto:10dlcquestions@telnyx.com).
-
----
-
-Related Articles
-
-[How to create a 10DLC brand](https://support.telnyx.com/en/articles/5896911-how-to-create-a-10dlc-brand)[10DLC Campaign Approval Best Practices](https://support.telnyx.com/en/articles/7127078-10dlc-campaign-approval-best-practices)[10DLC Campaign Compliance Requirements](https://support.telnyx.com/en/articles/9940291-10dlc-campaign-compliance-requirements)[10DLC Campaign Suspended](https://support.telnyx.com/en/articles/10723378-10dlc-campaign-suspended)[Guide to Sole Proprietor 10DLC Brand and Campaign Registration](https://support.telnyx.com/en/articles/13545282-guide-to-sole-proprietor-10dlc-brand-and-campaign-registration)
-
-Did this answer your question?
-
-😞😐😃

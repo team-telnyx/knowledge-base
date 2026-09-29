@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5466736-kenya-did-requirement
 title: "Kenya DID Requirements"
 description: "Here you will find a list of detailed requirements for acquiring Kenya numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 3d52fa0184205e5faed0dd0f25a439a0d327c8a17df12623da4cf9dc8f599866
+content_hash: b7f1bf22499a495f1dfa78c1fdc68c1e61432297c54f25d4d40c508c2a0ece84
 ---
 
 
@@ -120,13 +120,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Bulgaria DID Requirements](https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements)[Chile DID Requirements](https://support.telnyx.com/en/articles/5464057-chile-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Jamaica DID Requirements](https://support.telnyx.com/en/articles/5466658-jamaica-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

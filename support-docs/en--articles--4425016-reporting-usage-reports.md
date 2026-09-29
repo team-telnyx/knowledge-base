@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4425016-reporting-usage-repor
 title: "Reporting: Usage Reports"
 description: "This article will showcase the usage reports section in greater detail. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 30f8aa0b1f0d6ce1149f72ec0dd6c9b5b4f432dbe819431a70552a9b0cc658ea
+content_hash: 20ecec0d72c60e7ed08ecbe525bfe6abe5535d7630b72863a23d779cc37af097
 ---
 
 
@@ -44,13 +44,3 @@ The Reporting > Usage Reports section can be found [here](https://portal.telnyx.
 **Advanced Filters:** Here you can choose to aggregate your report with more specification setting your Dimensions, Metrics and Filters.
 
 ![](_images/9cfe2d9cb73ea3a8.png)
-
----
-
-Related Articles
-
-[Reporting: Detail Requests](https://support.telnyx.com/en/articles/4424926-reporting-detail-requests)[Reporting: Monthly Charges](https://support.telnyx.com/en/articles/4425088-reporting-monthly-charges)[Grandstream UCM6xxx: SIP Trunks](https://support.telnyx.com/en/articles/5748258-grandstream-ucm6xxx-sip-trunks)[Message Deliverability Dashboard](https://support.telnyx.com/en/articles/6969802-message-deliverability-dashboard)[BYOC: Telnyx & Genesys](https://support.telnyx.com/en/articles/8268122-byoc-telnyx-genesys)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6206756-fanvil-x2cp-x2c-x2p-c
 title: "Fanvil X2CP/X2C/X2P: Call Center IP"
 description: "Learn how to configure a Telnyx SIP trunk on the Fanvil X2C/X2P/X2CP call center IP… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 5e076f101faf6175eec3eae3051c1e07041c840ded525d66f4cfa036ca0acf33
+content_hash: b6a030f3f54b614fcc3f09cf58201fa850ec12c2283ac6b5a484e9a36df092dd
 ---
 
 
@@ -148,13 +148,3 @@ Additionally you can check out:
 * [Fanvil FAQ](https://www.fanvil.com/Support/index.html)
 * [Fanvil training videos](https://www.fanvil.com/Support/trainingVideo.html)
 * [Fanvil support](https://www.fanvil.com/Support/ticket.html)
-
----
-
-Related Articles
-
-[Fanvil H3: Hotel IP](https://support.telnyx.com/en/articles/6202965-fanvil-h3-hotel-ip)[Fanvil H5: Hotel IP](https://support.telnyx.com/en/articles/6203401-fanvil-h5-hotel-ip)[Fanvil X1/X1P: IP Phone](https://support.telnyx.com/en/articles/6206533-fanvil-x1-x1p-ip-phone)[Fanvil V-Series: IP Phones](https://support.telnyx.com/en/articles/6209862-fanvil-v-series-ip-phones)[Fanvil X-Series: IP Phone](https://support.telnyx.com/en/articles/6209971-fanvil-x-series-ip-phone)
-
-Did this answer your question?
-
-😞😐😃

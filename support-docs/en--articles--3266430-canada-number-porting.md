@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3266430-canada-number-porting
 title: "Canada Number Porting"
 description: "Here you will find detailed requirements for Canada number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: ecf43534d4e3dce74b51c077e1f20c1aee18a297f11a4cc7c2b5574fb7ee70ba
+content_hash: 4de34988e36b34337e277b00cd0e5b2adf9dc39f70483f540ef86cb5c2db211c
 ---
 
 
@@ -55,13 +55,3 @@ Explore the essential [requirements for successful number porting](https://suppo
 ### **Best Practices for Porting Support in** Canada
 
 Examine best practices for effectively [contacting Telnyx's porting support](https://support.telnyx.com/en/articles/5820338-best-practices-for-contacting-porting) to facilitate clear communication and swift issue resolution in Canada.
-
----
-
-Related Articles
-
-[United States Number Porting](https://support.telnyx.com/en/articles/3267816-united-states-number-porting)[Norway Number Porting](https://support.telnyx.com/en/articles/5188563-norway-number-porting)[Albania Number Porting](https://support.telnyx.com/en/articles/5190443-albania-number-porting)[Malta Number Porting](https://support.telnyx.com/en/articles/5190478-malta-number-porting)[Turkey Number Porting](https://support.telnyx.com/en/articles/6138781-turkey-number-porting)
-
-Did this answer your question?
-
-😞😐😃

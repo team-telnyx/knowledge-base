@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3947875-porting-away-from-ban
 title: "Porting away from Bandwidth"
 description: "In this guide we will explain how to easily port your numbers away from… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 4242ae13a95cd35f50b9c7504662d423f899b11ec9f2586a488971fe83b54176
+content_hash: 943635f8340d13694becbc50a1b6adc62cd3e5026ad124ead4d370f8bdfbd1f9
 ---
 
 
@@ -39,13 +39,3 @@ If you are porting a large amount of numbers into Telnyx, when filling out the L
 Please put your own company information on the LOA. This should include your own business name, address, Authorized person's name and signature as well as the date.
 
 Bandwidth does not leverage BTNs (billing telephone numbers) or Account numbers. You can use any of the numbers that you are porting away from Bandwidth as the BTN and as the Account Number too.
-
----
-
-Related Articles
-
-[Porting Policy & Procedure](https://support.telnyx.com/en/articles/1130630-porting-policy-procedure)[Port-In Best Practices](https://support.telnyx.com/en/articles/2030770-port-in-best-practices)[Port numbers away from Telnyx](https://support.telnyx.com/en/articles/2033789-port-numbers-away-from-telnyx)[Porting away from Twilio](https://support.telnyx.com/en/articles/3947850-porting-away-from-twilio)[Porting Requirements](https://support.telnyx.com/en/articles/6460777-porting-requirements)
-
-Did this answer your question?
-
-😞😐😃

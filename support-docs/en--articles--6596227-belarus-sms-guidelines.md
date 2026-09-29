@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6596227-belarus-sms-guideline
 title: "Belarus: SMS Guidelines"
 description: "SMS Guidelines for Belarus including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Belarus: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: b7d2fa1320c7532c9723175ee2ab7d8d21d3d41dbfd3652d689bc3151ad0a788
+content_hash: 4bcf1a5cb9182fd82e10140dfbb5941cbaa3f45e4e55b6ad224f539e8bfd4ae2
 ---
 
 
@@ -59,13 +59,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Norway: SMS Guidelines](https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines)[Azerbaijan: SMS Guidelines](https://support.telnyx.com/en/articles/6596144-azerbaijan-sms-guidelines)[Chad: SMS Guidelines](https://support.telnyx.com/en/articles/6601133-chad-sms-guidelines)[Pakistan: SMS Guidelines](https://support.telnyx.com/en/articles/6679149-pakistan-sms-guidelines)[Palestinian Territory: SMS Guidelines](https://support.telnyx.com/en/articles/6679259-palestinian-territory-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

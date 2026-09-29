@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3506145-cyprus-did-requiremen
 title: "Cyprus DID Requirements"
 description: "Here you will find a detailed list of requirements to acquire Cyprus numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 95b7409ee5cdf2bc4e3857848a0c2af9011e72b0263cede9c586c0131cb20f6c
+content_hash: 18141f833defc06d6926b6254387d69cb148f9be971fc0b7494b6738834ced4e
 ---
 
 
@@ -118,13 +118,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Singapore DID Requirements](https://support.telnyx.com/en/articles/3739573-singapore-did-requirements)[Chile DID Requirements](https://support.telnyx.com/en/articles/5464057-chile-did-requirements)[Finland DID Requirements](https://support.telnyx.com/en/articles/5465874-finland-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

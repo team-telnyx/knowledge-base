@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5812302-sim-card-location-and
 title: "SIM Card Location and Device Details"
 description: "How to view your SIM card's estimated location in the Mission Control Portal and API. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: c0521628a0541afd65d2ece57c851ca969bc1c0d01135b4189e18e844a985395
+content_hash: 27cd54b848e8938e6e5cf28773469dd4e113fc8f644741802275a57d67621dae
 ---
 
 
@@ -41,13 +41,3 @@ API specifications can be viewed [here](https://developers.telnyx.com/api-refere
 ## Device Details
 
 The device details exposed in the portal are the type of device, model name, and IMEI. The API also has fields for the brand name and operating system on the device. The IMEI can be added to the authorized IMEIs field to lock the SIM to a specific device so as to ensure that no other devices can use it.
-
----
-
-Related Articles
-
-[Account Verification](https://support.telnyx.com/en/articles/1130595-account-verification)[SIM Data Limits & Notifications](https://support.telnyx.com/en/articles/3403998-sim-data-limits-notifications)[SIM Reporting & Analytics](https://support.telnyx.com/en/articles/3679913-sim-reporting-analytics)[SIM Setup and Configuration](https://support.telnyx.com/en/articles/4298710-sim-setup-and-configuration)[SIM Card Actions](https://support.telnyx.com/en/articles/5812328-sim-card-actions)
-
-Did this answer your question?
-
-😞😐😃

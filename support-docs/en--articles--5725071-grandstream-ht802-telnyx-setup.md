@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5725071-grandstream-ht802-tel
 title: "Grandstream HT802: Telnyx Setup"
 description: "Set up a connection between your Grandstream HT802, and Telnyx Mission Control Portal to send/receive faxes. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 0b1b219f9a177c90d8574b8bba3bbbb9f074c2203cbf93cdd5047ad5d9c043c3
+content_hash: d50ae0771b80ab6431f3da7d45a993c713f5896350790de2179c203b8a102a82
 ---
 
 
@@ -171,13 +171,3 @@ Review our [getting started guide](https://support.telnyx.com/en/articles/117663
 Grandstream HT802 [technical documentation and user guide](https://www.grandstream.com/hubfs/Product_Documentation/ht80x_user_guide.pdf).
 
 Check for the 802's [most current firmware](https://www.grandstream.com/support/firmware)
-
----
-
-Related Articles
-
-[Configuring Grandstream GXP16XX with Telnyx](https://support.telnyx.com/en/articles/1130660-configuring-grandstream-gxp16xx-with-telnyx)[Grandstream UMC6202: Auth Setup](https://support.telnyx.com/en/articles/1295514-grandstream-umc6202-auth-setup)[Grandstream GXP: Telnyx Setup](https://support.telnyx.com/en/articles/5815720-grandstream-gxp-telnyx-setup)[Grandstream GXP21XX](https://support.telnyx.com/en/articles/5819218-grandstream-gxp21xx)[Grandstream GXV3370](https://support.telnyx.com/en/articles/6187576-grandstream-gxv3370)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5808368-grandstream-dp752
 title: "Grandstream DP752"
 description: "Learn how to make the most of your Grandstream DP752's capabilities by integrating it with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 0211dcd48b8d7546a5929f9a0be33861a558f311094c3d62e112bae2d3379a0d
+content_hash: 21c922c684b36459c022326f7bfaf669ddfdb06de0cb660b268d8f336f20bef8
 ---
 
 
@@ -169,13 +169,3 @@ Additionally, check out:
 * [Firmware updates](https://www.grandstream.com/support/firmware)
 * [Grandstream Helpdesk](https://helpdesk.grandstream.com/)
 * [Grandstream community forum](https://forums.grandstream.com/)
-
----
-
-Related Articles
-
-[Grandstream GXP: Telnyx Setup](https://support.telnyx.com/en/articles/5815720-grandstream-gxp-telnyx-setup)[Grandstream GXP21XX](https://support.telnyx.com/en/articles/5819218-grandstream-gxp21xx)[Grandstream GXP1700: SIP Trunk](https://support.telnyx.com/en/articles/6184520-grandstream-gxp1700-sip-trunk)[Grandstream Wave Lite (Android)](https://support.telnyx.com/en/articles/6184897-grandstream-wave-lite-android)[Grandstream GXV3370](https://support.telnyx.com/en/articles/6187576-grandstream-gxv3370)
-
-Did this answer your question?
-
-😞😐😃

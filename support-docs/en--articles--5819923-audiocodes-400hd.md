@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5819923-audiocodes-400hd
 title: "Audiocodes 400HD"
 description: "Learn how to set up and configure an Audiocodes 400HD IP phone and connect it to your Telnyx account. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: bd92f60c12b4b0ba4beed66cd2579bdef99d10522c20f47b5a68417af5e9ff83
+content_hash: 411cb7793f90c3acfa33b78144c7a65cc823c8652b41d5fe82f8c29afe9c9174
 ---
 
 
@@ -171,13 +171,3 @@ Additionally, check out:
 
 * [User manual](https://www.audiocodes.com/media/9627/ltrt-11939-430hd-and-440hd-ip-phone-for-microsoft-skype-for-business-users-manual-ver-301.pdf)
 * [Admin manual](https://www.audiocodes.com/media/13525/400hd-series-ip-phone-for-microsoft-skype-for-business-administrators-manual-ver-312.pdf)
-
----
-
-Related Articles
-
-[Panasonic KX-HDV: Telnyx setup](https://support.telnyx.com/en/articles/5814406-panasonic-kx-hdv-telnyx-setup)[Gigaset A510: Telnyx Setup](https://support.telnyx.com/en/articles/5815209-gigaset-a510-telnyx-setup)[Snom C520: Telnyx Setup](https://support.telnyx.com/en/articles/5815678-snom-c520-telnyx-setup)[Fanvil H5: Hotel IP](https://support.telnyx.com/en/articles/6203401-fanvil-h5-hotel-ip)[Fanvil X2CP/X2C/X2P: Call Center IP](https://support.telnyx.com/en/articles/6206756-fanvil-x2cp-x2c-x2p-call-center-ip)
-
-Did this answer your question?
-
-😞😐😃

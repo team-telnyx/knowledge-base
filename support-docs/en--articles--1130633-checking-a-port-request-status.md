@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130633-checking-a-port-reque
 title: "Checking a Port Request Status"
 description: "Here we will explain how you can check the status of a port request in our mission control portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 2e5c6285391f0ae0bd7a77b0f58d5473b0d7b37196f116b94084c77ae6f5d71f
+content_hash: 2b03ea983118f2c4451e7de9027bcd5c197462617873c079ec65d00e8c558d27
 ---
 
 
@@ -40,13 +40,3 @@ There are also instructions on how to fill out your Letter of Authorization and 
 If you need more information, you can reach out directly to our friendly porting team at [porting@telnyx.com](mailto:porting@telnyx.com) or by calling us at [+1 312 270 8001](tel:+13122708001). Our Porting Experts are available to you anytime from 9AM - 5PM Central time!
 
 ---
-
----
-
-Related Articles
-
-[Port numbers to Telnyx](https://support.telnyx.com/en/articles/1130634-port-numbers-to-telnyx)[Can I port out my Telnyx number?](https://support.telnyx.com/en/articles/1130635-can-i-port-out-my-telnyx-number)[Port Request Rejected](https://support.telnyx.com/en/articles/1782930-port-request-rejected)[I Received a Port-Out Notification](https://support.telnyx.com/en/articles/2030667-i-received-a-port-out-notification)[Port Out Tracking](https://support.telnyx.com/en/articles/2906030-port-out-tracking)
-
-Did this answer your question?
-
-😞😐😃

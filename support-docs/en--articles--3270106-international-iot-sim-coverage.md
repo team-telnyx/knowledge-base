@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3270106-international-iot-sim
 title: "International IoT SIM Coverage"
 description: "Explore the world with Telnyx IoT. See Telnyx guidance and requirements Learn more about International IoT SIM Coverage with Telnyx."
 scraped: 2026-07-08
-content_hash: d2ed691d03bb95ea05cba90511d6f85b1e6e4d40338926d415235e08358d173a
+content_hash: fd086caaf251a462483d183460cb80c18eaa1bba4caa53380af175bc36246c17
 ---
 
 
@@ -26,13 +26,3 @@ The [Telnyx IoT SIM card](https://telnyx.com/products/iot-sim-card) has access t
 ## Wireless Coverage Mapping
 
 Each country is mapped into a pricing zone and each zone has a discrete price per MB for data usage. There are 9 zones for pricing. The Telnyx IoT SIM Card [pricing page](https://telnyx.com/pricing/iot-data-plans) can be used to view the zone per country as well as available networks.
-
----
-
-Related Articles
-
-[IoT SIM Card Pricing](https://support.telnyx.com/en/articles/3296669-iot-sim-card-pricing)[International Roaming Partners](https://support.telnyx.com/en/articles/3371977-international-roaming-partners)[SIM Connectivity Logs](https://support.telnyx.com/en/articles/5666594-sim-connectivity-logs)[Telnyx IoT SIM Data Usage Zone Mapping](https://support.telnyx.com/en/articles/7966416-telnyx-iot-sim-data-usage-zone-mapping)[Using Telnyx SIM with InRouter300 Series Cellular Routers](https://support.telnyx.com/en/articles/10511105-using-telnyx-sim-with-inrouter300-series-cellular-routers)
-
-Did this answer your question?
-
-😞😐😃

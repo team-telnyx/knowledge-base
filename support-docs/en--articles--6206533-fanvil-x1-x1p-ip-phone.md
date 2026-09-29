@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6206533-fanvil-x1-x1p-ip-phon
 title: "Fanvil X1/X1P: IP Phone"
 description: "The Fanvil X1 / X1P IP phone is an economical professional desktop IP Telephone ideal for entry-level users. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 17d41affc016af4b0fa8cf90706872a5b4e55eaf7297a578061a29a9bc83689a
+content_hash: f8ba7d52542cfe8407e8b042811495e12938eb2faaecdf7204fe611b73de8518
 ---
 
 
@@ -139,13 +139,3 @@ Additionally you can check out:
 * [Fanvil training videos](https://www.fanvil.com/Support/trainingVideo.html)
 * [Fanvil support](https://www.fanvil.com/Support/ticket.html)
 * [Fanvil X1/XP firmware](https://www.fanvil.com/Support/download/id/89.html)
-
----
-
-Related Articles
-
-[Fanvil X4G: Telnyx Setup](https://support.telnyx.com/en/articles/5811487-fanvil-x4g-telnyx-setup)[Fanvil H3: Hotel IP](https://support.telnyx.com/en/articles/6202965-fanvil-h3-hotel-ip)[Fanvil X2CP/X2C/X2P: Call Center IP](https://support.telnyx.com/en/articles/6206756-fanvil-x2cp-x2c-x2p-call-center-ip)[Fanvil V-Series: IP Phones](https://support.telnyx.com/en/articles/6209862-fanvil-v-series-ip-phones)[Fanvil X-Series: IP Phone](https://support.telnyx.com/en/articles/6209971-fanvil-x-series-ip-phone)
-
-Did this answer your question?
-
-😞😐😃

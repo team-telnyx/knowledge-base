@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130658-how-do-i-know-if-a-ra
 title: "How do I know if a rate has changed?"
 description: "We will explain how to stay on top of rate changes so you will never be caught off-guard. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 720cbe21559e29da2a8cf93453a6642875242c53e34f90e4690af65f3e9d4a01
+content_hash: 76bcf3f17eb1aa8b49dd7a2714c68e1b1e138e381e56226697b63cd54e746d2f
 ---
 
 
@@ -26,13 +26,3 @@ Whenever a rate has changed with Telnyx, we will send you a brief rate update em
 ## How will I be notified of rate changes?
 
 Easy, we'll send you an email (and to all customers) any time our rates change.
-
----
-
-Related Articles
-
-[Get Started with Organizations](https://support.telnyx.com/en/articles/1189141-get-started-with-organizations)[Audio and Codecs](https://support.telnyx.com/en/articles/3192298-audio-and-codecs)[My Numbers Page](https://support.telnyx.com/en/articles/4349113-my-numbers-page)[Updates to Global Conversational Rate Deck](https://support.telnyx.com/en/articles/6974437-updates-to-global-conversational-rate-deck)
-
-Did this answer your question?
-
-😞😐😃

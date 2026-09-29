@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3269600-how-to-set-up-a-telny
 title: "How to set up a Telnyx SIM Card"
 description: "A quickstart guide that includes step by step instructions on how to set up the Telnyx SIM. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 62247278493cb6e9f230e00acdd6b26e498f8b484e70c1d9980b33613f36e78c
+content_hash: 4ff4865e228310a22d72c69877f302aacf5983fd6884b24f8fe013560cbbcb2f
 ---
 
 
@@ -40,13 +40,3 @@ Once you have received your SIM card, follow these simple steps below to registe
 5. Finally, enable data roaming on your device and you are good to go!
 
 ​**Some devices may require you to reboot in order for the changes to take effect.**
-
----
-
-Related Articles
-
-[Adding the Telnyx SIM APN to your device](https://support.telnyx.com/en/articles/3269973-adding-the-telnyx-sim-apn-to-your-device)[SIM Setup and Configuration](https://support.telnyx.com/en/articles/4298710-sim-setup-and-configuration)[SIM Connectivity Logs](https://support.telnyx.com/en/articles/5666594-sim-connectivity-logs)[Using Telnyx SIM with Ubiquiti UniFi LTE Pro](https://support.telnyx.com/en/articles/10164784-using-telnyx-sim-with-ubiquiti-unifi-lte-pro)[Using Telnyx SIM with InRouter300 Series Cellular Routers](https://support.telnyx.com/en/articles/10511105-using-telnyx-sim-with-inrouter300-series-cellular-routers)
-
-Did this answer your question?
-
-😞😐😃

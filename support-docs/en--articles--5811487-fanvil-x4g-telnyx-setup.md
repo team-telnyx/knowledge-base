@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5811487-fanvil-x4g-telnyx-set
 title: "Fanvil X4G: Telnyx Setup"
 description: "Take control of your business communication with our step-by-step setup guide for Fanvil X4/X4G. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: e8d951e72f27dba5059f2df0426667dbd1b3d0d142af3ea268a88be354b7a7ba
+content_hash: 4651a4302581aad14248ffd2bcf3ce077f3a3176e097c690162ef167275d6b68
 ---
 
 
@@ -106,13 +106,3 @@ Additionally, check out:
 * [Fanvil training videos](https://www.fanvil.com/Support/trainingVideo.html)
 * [Fanvil support](https://www.fanvil.com/Support/ticket.html)
 * [Fanvil X4 series firmware](https://www.fanvil.com/Support/download/id/72.html)
-
----
-
-Related Articles
-
-[Fanvil A32i: Telnyx Setup](https://support.telnyx.com/en/articles/6056428-fanvil-a32i-telnyx-setup)[Fanvil H3: Hotel IP](https://support.telnyx.com/en/articles/6202965-fanvil-h3-hotel-ip)[Fanvil X1/X1P: IP Phone](https://support.telnyx.com/en/articles/6206533-fanvil-x1-x1p-ip-phone)[Fanvil X2CP/X2C/X2P: Call Center IP](https://support.telnyx.com/en/articles/6206756-fanvil-x2cp-x2c-x2p-call-center-ip)[Fanvil X-Series: IP Phone](https://support.telnyx.com/en/articles/6209971-fanvil-x-series-ip-phone)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3267436-peru-number-porting
 title: "Peru Number Porting"
 description: "Here you will find a list of the requirements for Peru number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 91fb2e1f563fd4845fb2c41c738a796c12650a7028991fe58b5ed16cfc0cadc3
+content_hash: 9b8664b99e0c50d33a7a0e4a8bdbae500b69aa83eda645ce052541c82adc6e91
 ---
 
 
@@ -43,13 +43,3 @@ Download the porting form [here](https://www.dropbox.com/s/0j3d2r4e5idm9o7/Peruv
 | Local | 2-7 Business days |
 
 **Note:** These are typical processing times. Actual times may vary based on the losing carrier.
-
----
-
-Related Articles
-
-[Brazil Number Porting](https://support.telnyx.com/en/articles/3266425-brazil-number-porting)[Chile Number Porting](https://support.telnyx.com/en/articles/3266652-chile-number-porting)[Mexico Number Porting](https://support.telnyx.com/en/articles/3267101-mexico-number-porting)[El Salvador Number Porting](https://support.telnyx.com/en/articles/5179083-el-salvador-number-porting)[Singapore Number Porting](https://support.telnyx.com/en/articles/7235002-singapore-number-porting)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5948771-nigeria-did-requireme
 title: "Nigeria DID Requirements"
 description: "Nigeria's DID requirements for toll-free numbers (TFNs) isn't too complex as of 2023. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 514fc8d4f46696b620b6ec16fe4a071e1b24d8ea498097f116e38aba11d4596a
+content_hash: 7d68a4092e86dc105979b4c381b6bcd00fe9d6840be220dc35705d8b9498ea70
 ---
 
 
@@ -110,13 +110,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Bulgaria DID Requirements](https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements)[Luxembourg DID Requirements](https://support.telnyx.com/en/articles/3739502-luxembourg-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)[Antigua And Barbuda DID Requirements](https://support.telnyx.com/en/articles/6129704-antigua-and-barbuda-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

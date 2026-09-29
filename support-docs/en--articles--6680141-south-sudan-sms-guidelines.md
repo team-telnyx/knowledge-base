@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6680141-south-sudan-sms-guide
 title: "South Sudan: SMS Guidelines"
 description: "Sending SMS to South Sudan? See Telnyx guidance and requirements Learn more about South Sudan: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 82e0b1205de9d172a6fd42d3d82c2c3daa393acf08414941c5c0bd1a536d9348
+content_hash: ef784b4572c4600d81d24f10e02a75625ea600da5aa285712a2c62ecb395ad6b
 ---
 
 
@@ -35,13 +35,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Benin: SMS Guidelines](https://support.telnyx.com/en/articles/6596235-benin-sms-guidelines)[Cameroon: SMS Guidelines](https://support.telnyx.com/en/articles/6601061-cameroon-sms-guidelines)[Ghana: SMS Guidelines](https://support.telnyx.com/en/articles/6670870-ghana-sms-guidelines)[Sudan: SMS Guidelines](https://support.telnyx.com/en/articles/6680225-sudan-sms-guidelines)[Uganda: SMS Guidelines](https://support.telnyx.com/en/articles/6683433-uganda-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

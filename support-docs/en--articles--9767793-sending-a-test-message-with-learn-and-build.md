@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/9767793-sending-a-test-messag
 title: "Sending a Test Message with Learn and Build"
 description: "Looking to send a test message in the Mission Control Portal? See Telnyx guidance and requirements Learn more about Sending a Test Message with Learn and Build."
 scraped: 2026-07-08
-content_hash: c2270abb33939100c6563fcbace8eb2df479bb2916661e941d6464f2306ef095
+content_hash: 685194e0459ee0b2ed01a968abae2af5d93653ad67592a51f16be374164c46e7
 ---
 
 
@@ -87,13 +87,3 @@ Choose from one of the tutorials and learn how to build and scale your app.
 ![](_images/54c5904b9bb21a1c.png)
 
 Can't find the use case for you? Support is available 24/7 in the Mission Control Portal. Don't hesitate to reach out! We're more than happy to help.
-
----
-
-Related Articles
-
-[Configuring Linphone with Telnyx](https://support.telnyx.com/en/articles/1130674-configuring-linphone-with-telnyx)[E911 Setup Guide](https://support.telnyx.com/en/articles/1130683-e911-setup-guide)[2FA / TOTP Setup](https://support.telnyx.com/en/articles/3739748-2fa-totp-setup)[Grandstream HT802: Telnyx Setup](https://support.telnyx.com/en/articles/5725071-grandstream-ht802-telnyx-setup)[Messaging in Mission Control](https://support.telnyx.com/en/articles/8219294-messaging-in-mission-control)
-
-Did this answer your question?
-
-😞😐😃

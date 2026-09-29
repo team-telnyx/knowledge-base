@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1176364-sip-connection-failov
 title: "SIP Connection Failover Guide (IP/FQDN-Based)"
 description: "This guide explains how to configure failover for SIP Connections using IP or FQDN-based authentication in the Telnyx… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: a2146c80f028561cdb551c2cdb05752fa31ddea1163da335d76173de5aefba04
+content_hash: 13c2ff975d92ef6330b4639c60522459ad3a3f9ddd7d5e57ee2481080529bf60
 ---
 
 
@@ -69,13 +69,3 @@ Your SIP Connection is now configured with failover. Calls will automatically ro
 * Failover is triggered when an endpoint is unreachable or fails to respond
 * Ensure all configured endpoints are properly provisioned and reachable
 * Regularly test failover behavior to confirm proper routing
-
----
-
-Related Articles
-
-[SIP Connection: Types](https://support.telnyx.com/en/articles/4245868-sip-connection-types)[SIP Connection: Fail-over and Retries](https://support.telnyx.com/en/articles/4320364-sip-connection-fail-over-and-retries)[SIP Connection: Settings](https://support.telnyx.com/en/articles/4351104-sip-connection-settings)[Guide to SIP AnchorSite® Settings](https://support.telnyx.com/en/articles/5271423-guide-to-sip-anchorsite-settings)[Grandstream GXP1700: SIP Trunk](https://support.telnyx.com/en/articles/6184520-grandstream-gxp1700-sip-trunk)
-
-Did this answer your question?
-
-😞😐😃

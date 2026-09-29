@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5138185-bicom-pbxware-setup
 title: "Bicom: PBXware Setup"
 description: "Guide to configure Bicom PBXware with Telnyx as the SMS provider for unified communication. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 5823afdb88ed10b43e9dfd8308ba43b5cdf7649d7a186696cb540eb50c75525b
+content_hash: 152b4e500310d19b3e02ad1dbe4ff8d4ee324b34e748ede553d70ba6e4edade8
 ---
 
 
@@ -83,13 +83,3 @@ Review our [getting started with guide](https://support.telnyx.com/en/articles/1
 Additionally, check out:
 
 * [Bicom support](https://www.bicomsystems.com/support/)
-
----
-
-Related Articles
-
-[Audiocodes SBC: Setup](https://support.telnyx.com/en/articles/4194841-audiocodes-sbc-setup)[Wildix: SIP Trunk Setup](https://support.telnyx.com/en/articles/5799830-wildix-sip-trunk-setup)[PhoneSuite Voiceware](https://support.telnyx.com/en/articles/5800936-phonesuite-voiceware)[Ubiquiti Trunk: Unifi Talk - Auth](https://support.telnyx.com/en/articles/6122586-ubiquiti-trunk-unifi-talk-auth)[Ubiquiti Trunk: Unifi Talk - IP Auth](https://support.telnyx.com/en/articles/6303467-ubiquiti-trunk-unifi-talk-ip-auth)
-
-Did this answer your question?
-
-😞😐😃

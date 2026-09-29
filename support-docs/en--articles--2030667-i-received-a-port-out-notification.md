@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/2030667-i-received-a-port-out
 title: "I Received a Port-Out Notification"
 description: "Wondering why you received a port-out notification? See Telnyx guidance and requirements Learn more about I Received a Port-Out Notification with Telnyx."
 scraped: 2026-07-08
-content_hash: d7d18abe4b2c5278b6a7afb4f70839b6e137756068c609d6af3be740d232d144
+content_hash: 4d5dabbc6a023e51d9ba97fcda38144f2eb11e4acb6f2fa92962450d6851a668
 ---
 
 
@@ -34,13 +34,3 @@ If you are a service provider or reseller please check if the end-user (ie. your
 If you or the end-user do not wish for the numbers to be ported out, please respond to the port-out notification by Rejecting the request and inform us that you decline the request along with the reason why. Your numbers will not be ported out provided that you decline the request within the timeframe given and give a valid reason for declining the request. See [Port Out Tracking](https://support.telnyx.com/en/articles/2906030-port-out-tracking) for details on how to do this.
 
 If you happen to have any questions regarding a port-out or port-out notification, please contact [lnp@telnyx.com](mailto:lnp@telnyx.com).
-
----
-
-Related Articles
-
-[Porting Policy & Procedure](https://support.telnyx.com/en/articles/1130630-porting-policy-procedure)[Can I port out my Telnyx number?](https://support.telnyx.com/en/articles/1130635-can-i-port-out-my-telnyx-number)[Port Request Rejected](https://support.telnyx.com/en/articles/1782930-port-request-rejected)[Port numbers away from Telnyx](https://support.telnyx.com/en/articles/2033789-port-numbers-away-from-telnyx)[Number Porting Rules and Guidelines](https://support.telnyx.com/en/articles/2086149-number-porting-rules-and-guidelines)
-
-Did this answer your question?
-
-😞😐😃

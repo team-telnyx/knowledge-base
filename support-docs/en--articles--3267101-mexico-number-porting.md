@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3267101-mexico-number-porting
 title: "Mexico Number Porting"
 description: "Here you will find a detailed list of requirements for Mexico number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f88922d6bd59b58df7f4d27f933e84a87d0621b07968ece7c6ed37e378c2e86c
+content_hash: 2bbb33ea9640e4ac34e4668f7dd7623865403cc01bbb852069fb8234fceda6ee
 ---
 
 
@@ -71,13 +71,3 @@ Monday to Friday at 2:00 AM to 7:30 AM.
 **Earliest FOC date**
 
 7 business days from submission.
-
----
-
-Related Articles
-
-[Brazil Number Porting](https://support.telnyx.com/en/articles/3266425-brazil-number-porting)[Netherlands Number Porting](https://support.telnyx.com/en/articles/3267124-netherlands-number-porting)[South Africa Number Porting](https://support.telnyx.com/en/articles/4400326-south-africa-number-porting)[Estonia Number Porting](https://support.telnyx.com/en/articles/5720521-estonia-number-porting)[Singapore Number Porting](https://support.telnyx.com/en/articles/7235002-singapore-number-porting)
-
-Did this answer your question?
-
-😞😐😃

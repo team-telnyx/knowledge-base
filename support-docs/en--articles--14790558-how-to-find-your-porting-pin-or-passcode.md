@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/14790558-how-to-find-your-por
 title: "How to Find Your Porting PIN or Passcode"
 description: "When you port your number to Telnyx, your current carrier may require a PIN, passcode, See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 0a7135f2ec825f2835292daa611265b50e1a34727e6b48a4b769df35ecf80acc
+content_hash: 0da712158302d27b587c6cb01b87e113f4e6317cec47a9da3a98230bd41aba82
 ---
 
 
@@ -72,13 +72,3 @@ If the PIN doesn't match your carrier's records, your port will be rejected with
 ## Still Having Issues?
 
 Contact our porting team at [porting@telnyx.com](mailto:porting@telnyx.com) with the PIN you're using and your carrier's name. We can work with the carrier directly.
-
----
-
-Related Articles
-
-[Porting Error Messages](https://support.telnyx.com/en/articles/1618776-porting-error-messages)[Port Out PIN Protection](https://support.telnyx.com/en/articles/8006189-port-out-pin-protection)[Porting Numbers Away from Aircall to Telnyx](https://support.telnyx.com/en/articles/14708128-porting-numbers-away-from-aircall-to-telnyx)[Porting Numbers Away from Intercom to Telnyx](https://support.telnyx.com/en/articles/14708129-porting-numbers-away-from-intercom-to-telnyx)[Porting Numbers Away from Resellers (Aircall, Intercom, RingCentral, Vonage, etc.)](https://support.telnyx.com/en/articles/14708130-porting-numbers-away-from-resellers-aircall-intercom-ringcentral-vonage-etc)
-
-Did this answer your question?
-
-😞😐😃

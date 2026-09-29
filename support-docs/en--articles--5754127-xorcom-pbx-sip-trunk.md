@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5754127-xorcom-pbx-sip-trunk
 title: "Xorcom PBX: SIP Trunk"
 description: "Learn to set up Xorcom CompletePBX and configure SIP trunks with Telnyx's Mission Control Panel. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: acc8f6f0fd89af440ccf6eacb79edeb029b7d7a62c7b6a0d9abdf51ce02ae402
+content_hash: ae13720e962d5ae880acb53ca5703b9011254190df48a1e54c89d6e158f74af7
 ---
 
 
@@ -143,13 +143,3 @@ That's it, you've now configured Xorcom CompletePBX to work with Telnyx.
 Review our [getting started guide](https://support.telnyx.com/en/articles/1176636-get-started-with-a-mission-control-account) to make sure your Telnyx Mission Control Portal account is set up correctly.
 
 * [Complete PBX technical specifications and documentation](https://files.xorcom.com/techdocs/pm0618-completepbx-reference-guide.pdf)
-
----
-
-Related Articles
-
-[Configuring an Elastix 4 PBX IP Trunk](https://support.telnyx.com/en/articles/1130622-configuring-an-elastix-4-pbx-ip-trunk)[Configuring an Elastix 4 PBX Trunk](https://support.telnyx.com/en/articles/1130654-configuring-an-elastix-4-pbx-trunk)[Grandstream UCM6xxx: SIP Trunks](https://support.telnyx.com/en/articles/5748258-grandstream-ucm6xxx-sip-trunks)[Yeastar S-Series: Telnyx SIP](https://support.telnyx.com/en/articles/5748952-yeastar-s-series-telnyx-sip)[How to configure Yeastar P-series](https://support.telnyx.com/en/articles/13375115-how-to-configure-yeastar-p-series)
-
-Did this answer your question?
-
-😞😐😃

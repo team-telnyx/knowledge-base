@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5820047-find-gb-numbers-on-te
 title: "Find GB Numbers on Telnyx Portal"
 description: "Navigate the Telnyx portal with ease using our helpful guide to find GB local, national, and Toll-free numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: bac5c624a0c18906c94971b1e739c0769a17eb6f66728507b300ac0c76134762
+content_hash: 9f1e5494e0f41a446087e59ea06f653139d4c206e0506c639abd2c2b170d6393
 ---
 
 
@@ -44,13 +44,3 @@ If you want to search GB local numbers, you can put region/city name in the regi
 If you are still facing issues or have any questions regarding finding GB numbers on our [portal](https://portal.telnyx.com/), feel free to reach out to our numbering team by sending an email to [numbering@telnyx.com](mailto:numbering@telnyx.com) OR by opening a numbering request ticket on our [portal](https://portal.telnyx.com/).
 
 ![Numbering request portal section. ](_images/051cb5060edf5471.png)
-
----
-
-Related Articles
-
-[Global Number Types](https://support.telnyx.com/en/articles/1458084-global-number-types)[Toll-Free Opt-Out Words](https://support.telnyx.com/en/articles/6989758-toll-free-opt-out-words)[International Number Requirements Tool](https://support.telnyx.com/en/articles/7003167-international-number-requirements-tool)[Chiro8000 and Telnyx Integration](https://support.telnyx.com/en/articles/7885470-chiro8000-and-telnyx-integration)[US / CA Toll Free Number Porting](https://support.telnyx.com/en/articles/8673249-us-ca-toll-free-number-porting)
-
-Did this answer your question?
-
-😞😐😃

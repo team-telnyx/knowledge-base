@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5810226-fortifone-fon-570
 title: "FortiFone FON-570"
 description: "Master the setup and configuration of your FortiFone FON-570. See Telnyx guidance and requirements Learn more about FortiFone FON-570 with Telnyx."
 scraped: 2026-07-08
-content_hash: 8c26dd00e1cb7568b9805b132f3f03ec94b6714d5b01591fe54df682370d92b3
+content_hash: 9c38d35977c22b19da150abeea74df999223e2decaf8510a75c7d13d88fffee7
 ---
 
 
@@ -132,13 +132,3 @@ Additionally, check out:
 
 * [FortiFONE documentation](https://www.fortinet.com/search?q=fortifone)
 * [Fortinet support](https://www.fortinet.com/support/contact)
-
----
-
-Related Articles
-
-[Algo 8xxx: Telnyx Endpoints](https://support.telnyx.com/en/articles/5790092-algo-8xxx-telnyx-endpoints)[FortiFone Setup: FON-375/175/H25](https://support.telnyx.com/en/articles/5811545-fortifone-setup-fon-375-175-h25)[Panasonic KX-HDV: Telnyx setup](https://support.telnyx.com/en/articles/5814406-panasonic-kx-hdv-telnyx-setup)[Gigaset A510: Telnyx Setup](https://support.telnyx.com/en/articles/5815209-gigaset-a510-telnyx-setup)[MicroSIP: Setup with Telnyx](https://support.telnyx.com/en/articles/6133145-microsip-setup-with-telnyx)
-
-Did this answer your question?
-
-😞😐😃

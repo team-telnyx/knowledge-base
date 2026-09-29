@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5466755-lithuania-did-require
 title: "Lithuania DID Requirements"
 description: "Here you will find a list of detailed requirements for acquiring Lithuania numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: b0ebdc0dc2bf84736f1b25777a12844cd1a06edc11c0725f05c1a4e7bd0f18eb
+content_hash: 10febd5503d398bc8f39aa086026c01a6ef083a0273a4b3dffd2618c81e2ad5a
 ---
 
 
@@ -136,13 +136,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Cyprus DID Requirements](https://support.telnyx.com/en/articles/3506145-cyprus-did-requirements)[Chile DID Requirements](https://support.telnyx.com/en/articles/5464057-chile-did-requirements)[Finland DID Requirements](https://support.telnyx.com/en/articles/5465874-finland-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃
