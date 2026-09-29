@@ -1,79 +1,72 @@
 ---
 source_url: "https://support.telnyx.com/en/articles/2026092301-identify-your-connection-in-the-first-sip-invite"
-title: "Identify Your Connection in the First SIP INVITE (X-Telnyx-Username)"
-description: "Include your SIP username in the first INVITE so Telnyx can identify your credential-based connection and use its AnchorSite setting during initial routing."
-updated_at: "2026-09-23T21:43:28Z"
-modified_at: "2026-09-23T21:43:28Z"
+title: "Identify Your Connection in the First SIP INVITE"
+description: "How to identify a credential-based SIP connection early enough for correct authentication and AnchorSite® routing"
+updated_at: "2026-09-29T22:25:13Z"
+modified_at: "2026-09-29T22:25:13Z"
 collection_path: "2484718-everything-sip"
-content_hash: "fd12b69aef6d82e71b75b0c343b01804de0d3959444244de032de167faed14e7"
+content_hash: "0dc0bb51c07cd5252ae7a3891100a74e9d6682b7a3fac7559212e9319066cb24"
 ---
 
-# Identify Your Connection in the First SIP INVITE (X-Telnyx-Username)
+# Identify Your Connection in the First SIP INVITE
 
-For credential-based SIP connections, we recommend including your connection's username in the **first** INVITE that your PBX or SBC sends to Telnyx. Doing so lets Telnyx identify your connection during initial routing and use its [AnchorSite®](https://support.telnyx.com/en/articles/5271423-guide-to-sip-anchorsite-settings) setting when selecting where to anchor the call's media.
+How to identify a credential-based SIP connection early enough for correct authentication and AnchorSite® routing
 
-## Why the first INVITE?
+## Overview
 
-Credential-based connections use SIP digest authentication. A PBX or SBC may initially send an INVITE without digest authentication, receive an authentication challenge, and then retry with the required authentication information. Some clients can reuse cached authentication information on the first INVITE.
+For a credential-based SIP connection, include the connection’s SIP username in the very first INVITE sent to Telnyx. This allows Telnyx to identify the intended connection before initial call routing and apply the connection’s configuration, including its AnchorSite® preference.
 
-Including your connection's username in the Contact header or X-Telnyx-Username header lets Telnyx identify the connection when the first INVITE arrives and use its AnchorSite® setting when selecting the media anchor. Without that early identification, Telnyx may be unable to apply the intended AnchorSite® setting during initial routing.
+## Why the first INVITE matters
 
-Providing the username does not replace digest authentication or guarantee a particular number of SIP signaling hops. Normal authentication requirements still apply, and AnchorSite® failover may select another site if the preferred site is unavailable.
+SIP digest authentication commonly involves an initial INVITE, an authentication challenge, and a subsequent INVITE containing the digest response. Some SIP devices and applications omit the username from the first INVITE and provide it only in the later authentication request.
 
-## How to include the username
+When the username is missing from the initial INVITE, Telnyx may need to identify the connection using other information, such as the source IP address. This can lead to two issues:
 
-Use either of these methods in the first INVITE. Both carry the username of your credential-based SIP connection; you do not need to use both.
+1. **The INVITE may be associated with the wrong connection.** If another Telnyx customer has a SIP connection associated with the same source IP address, Telnyx may identify the initial INVITE as belonging to that other customer. Telnyx may then skip the expected digest challenge for the intended credential-based connection and process the call using the other connection’s configuration. This is especially relevant when using hosted PBX, SBC, or communications platforms that share public IP addresses across customers.
+2. **The connection’s AnchorSite® preference may not be honored.** Without the username, Telnyx may not be able to identify the intended connection when the first INVITE arrives. By the time the authenticated INVITE is received, the SIP transaction is already associated with the B2BUA instance that handled the initial INVITE. Telnyx must keep the subsequent request on that same instance, so it may be too late to apply the intended connection’s AnchorSite® routing preference.
 
-**Option 1: `X-Telnyx-Username` header**
+## How to include the SIP username
 
-```text
-X-Telnyx-Username: YOUR_SIP_USERNAME
-```
+There are two supported ways to provide the connection username in the first INVITE. Use whichever method your SIP device or provider supports; you do not need to include both.
 
-**Option 2: `Contact` header**
+### Option 1: Contact header user part (recommended when supported)
 
-Put the username in the user part of the Contact URI:
+Set the user part of the SIP URI in the Contact header to the exact SIP username configured on your Telnyx connection. This is a common approach supported by most SIP devices and applications.
 
 ```text
 Contact: <sip:YOUR_SIP_USERNAME@192.0.2.10:5060>
 ```
 
-Example first INVITE using the custom header (abbreviated):
+### Option 2: X-Telnyx-Username custom header
+
+If your SIP device or provider cannot set the username in the Contact header user part, include it in the custom X-Telnyx-Username header. Telnyx recognizes this header for connection identification. This can be useful with platforms such as LiveKit, where the Contact header user part may not be configurable.
+
+```text
+X-Telnyx-Username: YOUR_SIP_USERNAME
+```
+
+## Example first INVITE (abbreviated)
 
 ```text
 INVITE sip:+1XXXXXXXXXX@sip.telnyx.com SIP/2.0
 Via: SIP/2.0/TLS 192.0.2.10:5061;branch=z9hG4bK...
 From: <sip:+1XXXXXXXXXX@192.0.2.10:5061>;tag=...
 To: <sip:+1XXXXXXXXXX@sip.telnyx.com>
-Contact: <sip:sbc@192.0.2.10:5061;transport=tls>
+Contact: <sip:YOUR_SIP_USERNAME@192.0.2.10:5061;transport=tls>
+```
+
+Alternatively, when the Contact header user part cannot carry the username, the initial INVITE can include:
+
+```text
 X-Telnyx-Username: YOUR_SIP_USERNAME
 ```
 
-Replace `YOUR_SIP_USERNAME` with the exact username of your credential-based connection. The IP address `192.0.2.10` is reserved for documentation; replace it with the appropriate address for your SBC. The phone numbers and abbreviated fields are placeholders, and the example is not a complete SIP message.
+Replace YOUR_SIP_USERNAME with the exact username of the intended Telnyx credential-based connection. The examples are abbreviated; retain the other SIP headers and parameters required by your environment.
 
-Most PBXs and SBCs can add a custom header or set the Contact user part on outbound INVITEs. Check your platform's documentation for how to do this on the initial INVITE.
+## Important
 
-### Find your connection username
+> The username must be present in the first INVITE—not only in the authenticated retry. Adding it only after receiving a digest challenge does not resolve the initial connection-identification or AnchorSite® routing issue.
 
-1. Open [SIP Connections in the Mission Control Portal](https://portal.telnyx.com/#/voice/connections).
-2. Select your credential-based connection.
-3. Find its authentication settings and copy the SIP **Username**. Use the connection's SIP username, not your Portal login or connection ID.
+## Troubleshooting
 
-## IP-based connections on shared IPs
-
-If your connection uses IP authentication and the IP address is shared with other customers, configure a unique token or tech prefix so Telnyx can distinguish each connection's traffic:
-
-* **X-Telnyx-Token:** a custom header carrying a token you configure on the connection. See [IP Authentication with X-Telnyx-Token](https://support.telnyx.com/en/articles/4860170-ip-authentication-with-x-telnyx-token). For FreePBX, see [Configure Token Authentication Header (X-Telnyx-Token) in FreePBX](https://support.telnyx.com/en/articles/12580952-configure-token-authentication-header-x-telnyx-token-in-freepbx).
-* **Tech prefix:** see [IP Authentication with Tech Prefix](https://support.telnyx.com/en/articles/2602782-ip-authentication-with-tech-prefix).
-
-For token authentication, the INVITE must contain the token configured on that connection and come from an IP address associated with it. For tech-prefix identification, prepend the configured prefix to the dialed number.
-
-## Best practices
-
-* Send the username in the first INVITE of every call for credential-based connections.
-* If you share SBC infrastructure with other customers, make sure each tenant sends its own identifier appropriate to its connection type: a username, a token, or a tech prefix.
-* Avoid ambiguous IP-only identification on shared infrastructure. When multiple IP-based connections share an address, configure the appropriate unique token or tech prefix on each connection and send it on every outbound call.
-
-## Summary
-
-Include your credential-based connection's username in the first INVITE so Telnyx can identify the connection early and use its AnchorSite® setting when selecting the media anchor. Normal authentication and failover behavior still apply.
+If calls are being associated with an unexpected connection or the expected AnchorSite® preference is not taking effect, inspect the first outbound INVITE as it leaves your device or provider. Confirm that either the Contact header user part or the X-Telnyx-Username header contains the intended connection username.
