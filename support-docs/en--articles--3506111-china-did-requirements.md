@@ -2,77 +2,55 @@
 source_url: https://support.telnyx.com/en/articles/3506111-china-did-requirements
 title: "China DID Requirements"
 description: "Here you will find a detailed list of requirements to acquire China numbers. See Telnyx guidance and requirements."
-scraped: 2026-07-08
-content_hash: 0bdd16b6c7d618ae3913a2c0ada38b04b6b0f3543aabf09b1863df548d200aac
+scraped: 2026-09-28
+content_hash: dfb2fd0b0ad8070a6a8de244750fb7f837b5be9c83e3fb55a81105a2fdae1b65
+updated_at: 2026-08-18T23:05:38Z
+modified_at: 2026-08-18T23:05:38Z
 ---
-
-
-
-
-
-
 
 # China DID Requirements
 
-Here you will find a detailed list of requirements to acquire China numbers. See Telnyx guidance and requirements.
-
-
-
-
-## DID Number Requirements for China
+# DID Number Requirements for China
 
 In order to purchase a Chinese number you will need to provide the following:
 
 ## **Local Numbers in China**
 
-For **business identity** verification:
-\* Name, last name of an authorized representative
-
-\* Company name
-
-\* Contact phone number of an authorized representative
-
-\* Copy of the ID card of an authorized representative with the company stamp
-\* Picture of the authorized representative holding the ID card
-\* Chinese Business License with the company stamp (must contain “副本”)
-
-**Additional Information:**
-\* Signed and stamped Customer Liability Authorization Letter *(This document will be provided by NumberOps)*
-\* Signed and stamped Network and Information Security Commitment Letter *(This document will be provided by NumberOps)*
-\* Signed and stamped Scenario & Script Declaration (Write at least 3 outbound script examples. If no outbound is needed, please write the inbound script - *This document will be provided by NumberOps*)
-
-**\* Business use required:** Business use is required for China Local and Toll-free numbers, private use is not allowed.
+For **business** identity verification:  
+\* Name, last name of an authorized representative  
+\* Company name  
+\* Contact phone number of an authorized representative  
+\* Copy of the ID card of an authorized representative  
+\* Picture of the authorized representative holding the ID card  
+\* Company registration certificate  
+\* Recently Signed LOI (signed within 1 month)  
+  
+For **address** verification:  
+\* Address worldwide (street, building number, postal code, city and country)  
+\* A copy of a utility bill (less than 3 months old)  
+  
+**Additional Information**:  
+\* Outbound script (not required for Inbound-only service)  
+\*Business use required: Business use is required for China local numbers, private use is not allowed.  
 \* A copy of the ID card of the business representative is required. Any other ID (such as Passport or Driver's License) is not acceptable.
 
 ## **Shared Cost Numbers in China**
 
-For **business identity** verification:
-
-\* Name, last name of an authorized representative
-
-\* Contact phone number of an authorized representative
-
-\* Passport or ID copy of an authorized representative
-
-\* A photo of the authorized representative holding their passport/ID
-
-\* Company name
-
-\* Company incorporation certificate copy
-
-\* Recently signed LOI (Signed within 1 month - *This document will be provided by NumberOps*)
-
-For **address** verification:
-
-\* Address worldwide (street, building number, postal code, city and country)
-
-\* A copy of a utility bill (less than 3 months old)
-
-**Additional information:**
-
-\* Service usage description
-
-**\*Business use required:** Business use is required for China shared cost numbers, private use is not allowed.
+For **business** identity verification:  
+\* Name, last name of an authorized representative  
+\* Contact phone number of an authorized representative  
+\* Copy of the ID card of an authorized representative  
+\* Picture of the authorized representative holding the ID card  
+\* Company name  
+\* Company registration certificate  
+\* Recently signed LOI (Signed within 1 month - This document will be provided by NumberOps)  
+  
+For **address** verification:  
+\* Address worldwide (street, building number, postal code, city and country)  
+\* A copy of a utility bill (less than 3 months old)  
+  
+**Additional Information**:  
+\*Business use required: Business use is required for China shared cost numbers, private use is not allowed.
 
 ## **Helpful for acquiring China DIDs**
 
@@ -90,28 +68,18 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 
 ## **Benefits of China DIDs**
 
-* Potential customers in China> are [400% more likely to answer calls from local numbers](https://gtmnow.com/5-ways-to-get-your-prospects-to-pick-up-their-phones/)
-* Improve call routing where individual DIDs can be assigned to specific business functions
-* China DIDs are scalable and grow as your business grows
-* Enhanced privacy for individuals, you keep your personal number personal
-* Advanced call tracking and analytical capabilities to measure volume, duration and more
+- Potential customers in China> are [400% more likely to answer calls from local numbers](https://gtmnow.com/5-ways-to-get-your-prospects-to-pick-up-their-phones/)
+- Improve call routing where individual DIDs can be assigned to specific business functions
+- China DIDs are scalable and grow as your business grows
+- Enhanced privacy for individuals, you keep your personal number personal
+- Advanced call tracking and analytical capabilities to measure volume, duration and more
 
 **Additional resources for China DIDs**
 
-* Product Info: [Global DID Numbers](https://telnyx.com/products/phone-numbers)
-* Pricing Info: [Number Pricing](https://telnyx.com/pricing/numbers)
-* Number Coverage: [Number Feature Availability by Country](https://telnyx.com/global-coverage)
-* Blog: [What is direct inward dialing](https://telnyx.com/resources/what-is-direct-inward-dialing)
-* Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
+- Product Info: [Global DID Numbers](https://telnyx.com/products/phone-numbers)
+- Pricing Info: [Number Pricing](https://telnyx.com/pricing/numbers)
+- Number Coverage: [Number Feature Availability by Country](https://telnyx.com/global-coverage)
+- Blog: [What is direct inward dialing](https://telnyx.com/resources/what-is-direct-inward-dialing)
+- Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Peru DID Requirements](https://support.telnyx.com/en/articles/3739545-peru-did-requirements)[Albania DID Requirements](https://support.telnyx.com/en/articles/5463863-albania-did-requirements)[Brazil DID Requirements](https://support.telnyx.com/en/articles/5464041-brazil-did-requirements)[Chile DID Requirements](https://support.telnyx.com/en/articles/5464057-chile-did-requirements)[Indonesia DID Requirements](https://support.telnyx.com/en/articles/5466641-indonesia-did-requirements)
-
-Did this answer your question?
-
-😞😐😃
