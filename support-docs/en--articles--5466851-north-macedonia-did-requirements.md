@@ -2,26 +2,35 @@
 source_url: https://support.telnyx.com/en/articles/5466851-north-macedonia-did-requirements
 title: "North Macedonia DID Requirements"
 description: "Here you will find a list of detailed requirements for acquiring North Macedonia numbers. See Telnyx guidance and requirements."
-scraped: 2026-07-08
-content_hash: a9533e8ffa18b524633aa31f0fdba28be6c1f39045c28c1c29cc91648118472d
+scraped: 2026-09-28
+content_hash: 7856f17452ea79b24d83cb0bc7dd5757e6dacd41aa5dfa70e2384cc9c70417a4
+updated_at: 2026-09-04T21:30:04Z
+modified_at: 2026-09-04T21:30:04Z
 ---
-
-
-
-
-
-
 
 # North Macedonia DID Requirements
 
-Here you will find a list of detailed requirements for acquiring North Macedonia numbers. See Telnyx guidance and requirements.
-
-
-
-
-## DID Number Requirements for North Macedonia
+# DID Number Requirements for North Macedonia
 
 In order to purchase a North Macedonia number you will need to provide the following:
+
+## **Local Numbers in North Macedonia**
+
+For **business identity** verification:  
+\* Name, last name of an authorized representative  
+\* Contact phone number  
+\* Company name  
+\* Contact e-mail  
+\* Passport or ID copy of an authorized representative  
+\* Local Company Registration Document  
+\* Recently Signed LOI (Signed Within 1 Month)  
+  
+For **address** verification:  
+\* Address in Macedonia (street, building number, postal code, city, and country)  
+\* Proof of address (dated within 3 months)  
+  
+**Additional Information:**  
+\* Business use required: Business use is required, private use is not allowed.
 
 ## **Toll-Free Numbers in North Macedonia**
 
@@ -65,28 +74,18 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 
 ## **Benefits of North Macedonia DIDs**
 
-* Potential customers in North Macedonia are [400% more likely to answer calls from local numbers](https://gtmnow.com/5-ways-to-get-your-prospects-to-pick-up-their-phones/)
-* Improve call routing where individual DIDs can be assigned to specific business functions
-* North Macedonia DIDs are scalable and grow as your business grows
-* Enhanced privacy for individuals, you keep your personal number personal
-* Advanced call tracking and analytical capabilities to measure volume, duration and more
+- Potential customers in North Macedonia are [400% more likely to answer calls from local numbers](https://gtmnow.com/5-ways-to-get-your-prospects-to-pick-up-their-phones/)
+- Improve call routing where individual DIDs can be assigned to specific business functions
+- North Macedonia DIDs are scalable and grow as your business grows
+- Enhanced privacy for individuals, you keep your personal number personal
+- Advanced call tracking and analytical capabilities to measure volume, duration and more
 
 **Additional resources for North Macedonia DIDs**
 
-* Product Info: [Global DID Numbers](https://telnyx.com/products/phone-numbers)
-* Pricing Info: [Number Pricing](https://telnyx.com/pricing/numbers)
-* Number Coverage: [Number Feature Availability by Country](https://telnyx.com/global-coverage)
-* Blog: [What is direct inward dialing](https://telnyx.com/resources/what-is-direct-inward-dialing)
-* Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
+- Product Info: [Global DID Numbers](https://telnyx.com/products/phone-numbers)
+- Pricing Info: [Number Pricing](https://telnyx.com/pricing/numbers)
+- Number Coverage: [Number Feature Availability by Country](https://telnyx.com/global-coverage)
+- Blog: [What is direct inward dialing](https://telnyx.com/resources/what-is-direct-inward-dialing)
+- Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Monaco DID Requirements](https://support.telnyx.com/en/articles/5466798-monaco-did-requirements)[Nicaragua DID Requirements](https://support.telnyx.com/en/articles/5466838-nicaragua-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)[Serbia DID Requirements](https://support.telnyx.com/en/articles/5467021-serbia-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

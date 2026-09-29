@@ -231,6 +231,11 @@
         "id": "h_647771465f",
         "text": "T-Mobile Special fees for High Volume",
         "reason": "Reviewed linked context and equivalent existing section"
+      },
+      {
+        "text": "10DLC Carrier fees",
+        "id": "h_0d0b62ee06",
+        "reason": "Preserve source table-of-contents link to current carrier fee section; obsolete unregistered traffic section is absent from Intercom."
       }
     ],
     "5748258": [

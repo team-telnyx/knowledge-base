@@ -2,93 +2,59 @@
 source_url: https://support.telnyx.com/en/articles/3506173-georgia-did-requirements
 title: "Georgia DID Requirements"
 description: "Here you will find a detailed list of requirements to acquire Georgia numbers. See Telnyx guidance and requirements."
-scraped: 2026-07-08
-content_hash: e52e2edfc8ddc34501c0000835a1f7108df6470460bcf7025c390b2264db8af1
+scraped: 2026-09-28
+content_hash: ae5f8f33891ce78a6ab5b6dc289099f5aec59a36be3e55aa45c06f1a5658a753
+updated_at: 2026-09-04T21:27:54Z
+modified_at: 2026-09-04T21:27:54Z
 ---
-
-
-
-
-
-
 
 # Georgia DID Requirements
 
-Here you will find a detailed list of requirements to acquire Georgia numbers. See Telnyx guidance and requirements.
-
-
-
-
-## DID Number Requirements for Georgia
+# DID Number Requirements for Georgia
 
 In order to purchase a Georgia number you will need to provide the following:
 
 ## **Local Numbers in Georgia**
 
-For **personal identity** verification:
-\* Name, last name
-\* Contact phone number
-
-\* Contact e-mail
-\* Passport or ID copy
-\* Georgia registration form
-​
-​For **business identity** verification:
-\* Name, last name of an authorized representative
-
-\* Company name
-\* Contact phone number
-
-\* Contact e-mail
-\* Company registration certificate
-\* Georgia registration form
-​
-​For **address** verification:
-\* Address matching the DID area code (street, building number, postal code, city and country)
-\* A copy of a utility bill (less than 3 months old)
-
-## **National Numbers in Georgia**
-
-For **personal identity** verification:
-\* Name, last name
-\* Contact phone number
-\* Passport or ID copy
-\* Georgia registration form
-​
-​For **business identity** verification:
-\* Name, last name of an authorized representative
-
-\* Company name
-\* Contact phone number
-\* Company registration certificate
-\* Georgia registration form
-​
-​For **address** verification:
-\* Address worldwide (street, building number, postal code, city, and country)
+For **business identity** verification:  
+\* Name, last name of an authorized representative  
+\* Contact phone number  
+\* Company name  
+\* Contact e-mail  
+\* Passport or ID copy of an authorized representative  
+\* Local Company Registration Document  
+\* Recently Signed LOI (Signed Within 1 Month)  
+  
+For **address** verification:  
+\* Address in Georgia (street, building number, postal code, city, and country)  
+\* Proof of address (dated within 3 months)  
+  
+**Additional Information:**  
+\* Business use required: Business use is required, private use is not allowed.
 
 ## **Toll-Free Numbers in Georgia**
 
-For **personal identity** verification:
-\* Name, last name of an authorized representative
+For **personal identity** verification:  
+\* Name, last name of an authorized representative  
 \* Contact phone number
 
-\* Contact e-mail
-\* Passport or ID copy
-\* Georgia registration form
-​
-​For **business identity** verification:
+\* Contact e-mail  
+\* Passport or ID copy  
+\* Georgia registration form  
+​  
+​For **business identity** verification:  
 \* Name, last name
 
-\* Company name
+\* Company name  
 \* Contact phone number
 
-\* Contact e-mail
-\* Company registration certificate
+\* Contact e-mail  
+\* Company registration certificate  
 \* Georgia registration form
 
-\* Forms holding Terms & Conditions needs to be signed
-​
-​For **address** verification:
+\* Forms holding Terms & Conditions needs to be signed  
+​  
+​For **address** verification:  
 \* Address worldwide (street, building number, postal code, city, and country)
 
 \* Proof of Address (dated within 3 months)
@@ -111,28 +77,18 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 
 ## **Benefits of Georgia DIDs**
 
-* Potential customers in Georgia are [400% more likely to answer calls from local numbers](https://gtmnow.com/5-ways-to-get-your-prospects-to-pick-up-their-phones/)
-* Improve call routing where individual DIDs can be assigned to specific business functions
-* Georgia DIDs are scalable and grow as your business grows
-* Enhanced privacy for individuals, you keep your personal number personal
-* Advanced call tracking and analytical capabilities to measure volume, duration and more
+- Potential customers in Georgia are [400% more likely to answer calls from local numbers](https://gtmnow.com/5-ways-to-get-your-prospects-to-pick-up-their-phones/)
+- Improve call routing where individual DIDs can be assigned to specific business functions
+- Georgia DIDs are scalable and grow as your business grows
+- Enhanced privacy for individuals, you keep your personal number personal
+- Advanced call tracking and analytical capabilities to measure volume, duration and more
 
 **Additional resources for Georgia DIDs**
 
-* Product Info: [Global DID Numbers](https://telnyx.com/products/phone-numbers)
-* Pricing Info: [Number Pricing](https://telnyx.com/pricing/numbers)
-* Number Coverage: [Number Feature Availability by Country](https://telnyx.com/global-coverage)
-* Blog: [What is direct inward dialing](https://telnyx.com/resources/what-is-direct-inward-dialing)
-* Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
+- Product Info: [Global DID Numbers](https://telnyx.com/products/phone-numbers)
+- Pricing Info: [Number Pricing](https://telnyx.com/pricing/numbers)
+- Number Coverage: [Number Feature Availability by Country](https://telnyx.com/global-coverage)
+- Blog: [What is direct inward dialing](https://telnyx.com/resources/what-is-direct-inward-dialing)
+- Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Venezuela DID Requirements](https://support.telnyx.com/en/articles/3734973-venezuela-did-requirements)[Singapore DID Requirements](https://support.telnyx.com/en/articles/3739573-singapore-did-requirements)[Colombia DID Requirements](https://support.telnyx.com/en/articles/5464069-colombia-did-requirements)[Denmark DID Requirements](https://support.telnyx.com/en/articles/5464149-denmark-did-requirements)[Lithuania DID Requirements](https://support.telnyx.com/en/articles/5466755-lithuania-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

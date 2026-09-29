@@ -1,9 +1,9 @@
 ---
 title: "How to configure Yeastar P-series"
-summary: "Learn how to configure both a Yeastar P-Series IP or Credentials trunk to work with your Telnyx Mission Control Portal. See Telnyx guidance and requirements."
+summary: "There are two types of SIP trunks you can configure:"
 sources:
 - url: "https://support.telnyx.com/en/articles/13375115-how-to-configure-yeastar-p-series"
-updated_at: 2026-09-28T07:59:40Z
+updated_at: 2026-09-29T13:08:50Z
 tags: [support-docs]
 source_path: "support-docs/en--articles--13375115-how-to-configure-yeastar-p-series.md"
 generated_by: incremental-support-docs-wiki
@@ -12,15 +12,10 @@ generated_by: incremental-support-docs-wiki
 
 # How to configure Yeastar P-series
 
-Learn how to configure both a Yeastar P-Series IP or Credentials trunk to work with your Telnyx Mission Control Portal. See Telnyx guidance and requirements.
-
-
-
-
 There are two types of SIP trunks you can configure:
 
-* A VoIP Register Trunk: Uses a credentials based authentication
-* A VoIP Peer Trunk: Uses an IP address and PBX port based authentication
+- A VoIP Register Trunk: Uses a credentials based authentication
+- A VoIP Peer Trunk: Uses an IP address and PBX port based authentication
 
 In this article we will:
 
@@ -32,26 +27,26 @@ In this article we will:
 ​**Additional documentation**
 ​
 
-* **Yeastar Cloud PBX(PCE):**
+- **Yeastar Cloud PBX(PCE):**
   ​[PBX server administrator guide](https://help.yeastar.com/en/p-series-cloud-edition/administrator-guide/about-this-guide.html)
 
   [Linkus server administrator guide](https://help.yeastar.com/en/p-series-linkus-cloud-edition/linkus-server-admin-guide/linkus-overview.html)
   ​
-* **Yeastar P-Series Self-hosted PBX(PSE):**
+- **Yeastar P-Series Self-hosted PBX(PSE):**
   ​[Installation guide](https://help.yeastar.com/en/p-series-software-edition/software-installation-guide/about-this-guide.html)
 
   [PBX server administrator guide](https://help.yeastar.com/en/p-series-software-edition/administrator-guide/about-this-guide.html)
 
 ### **Pre-Requisites:**
 
-* Have an active, and properly configured, Telnyx Mission Control Portal.
-* Review our [getting started guide](https://support.telnyx.com/en/articles/1176636-get-started-with-a-mission-control-account) to make sure your Telnyx Mission Control Portal account is set up correctly.
+- Have an active, and properly configured, Telnyx Mission Control Portal.
+- Review our [getting started guide](https://support.telnyx.com/en/articles/1176636-get-started-with-a-mission-control-account) to make sure your Telnyx Mission Control Portal account is set up correctly.
   ​
-* Have DIDs in your Mission Control Portal ready to use.
+- Have DIDs in your Mission Control Portal ready to use.
   ​
-* Install Yeastar PBX and work through the first 3 sub-sections of the Yeastar Getting Started Guide.
+- Install Yeastar PBX and work through the first 3 sub-sections of the Yeastar Getting Started Guide.
   ​
-* When you reach the Set up VoIP trunks section, return here and begin at step 1 below for a Telnyx-specific configuration.
+- When you reach the Set up VoIP trunks section, return here and begin at step 1 below for a Telnyx-specific configuration.
 
 ## Set up a SIP registration based trunk
 
@@ -71,9 +66,9 @@ Note: A register trunk uses a username/password combination (credentials) to aut
 
    Basic Configuration:
    ​
-   - Name: Enter a name for the SIP trunk to help you identify
+   - Name: Enter a name for the SIP trunk to help you identify it
    ​
-   - Telnyx is a Yeastar certified SIP trunk provider, so you can select "Select ITSP Template" from the drop-down list first and choose the countru of the ITSP. Then select the Telnyx "ITSP" name in the right box. All of the parameters are embedded except the account registration information
+   - Telnyx is a Yeastar certified SIP trunk provider, so you can select "Select ITSP Template" from the drop-down list first and choose the country of the ITSP. Then select the Telnyx "ITSP" name in the right box. All of the parameters are embedded except the account registration information
    ​
    - Make sure the trunk status is "Enabled"
    ​
@@ -86,25 +81,17 @@ Note: A register trunk uses a username/password combination (credentials) to aut
    ​
    However, if you need to change it you can refer to <https://sip.telnyx.com/> for information on Telnyx SIP proxies, transport protocols, and ports.
 
-* Username: your Telnyx username.
-* Password: your Telnyx password.
-* Authentication Name: the same as the username.
-* Enable Outbound Proxy: the same as hostname
+- Username: your Telnyx username.
+- Password: your Telnyx password.
+- Authentication Name: the same as the username.
+- Enable Outbound Proxy: Leave disabled unless your network topology requires routing through a proxy (e.g. specific NAT traversal setups). If required, set it to your actual proxy server address.
 
 ![](_images/94603c742e8ac425.png)
 
 3. **Check the Trunk status**
 
-Click Save and Apply. Check if the trunk is conneced in Status, indicated by the checkmark.
-asic Configuration:
+Click Save and Apply. Check if the trunk is connected in Status, indicated by the checkmark.
 ​
-- Name: Enter a name for the SIP trunk to help you identify
-​
-- Telnyx is a Yeastar certified SIP trunk provider, so you can select "Select ITSP Template" from the drop-down list first and choose the country of the ITSP. Then select the Telnyx "ITSP" name in the right box. All of the parameters are embedded except the account registration information
-​
-- Make sure the trunk status is "Enabled"
-
-![](_images/430f395bb9ab16d5.png)
 
 ## **Set up a Peer/IP authentication trunk**
 
@@ -124,7 +111,9 @@ In the Detailed Configuration section, select the trunk type and enter the SIP i
 
 The Static IP Address and Port of the PBX will be displayed on the web page. This needs to be added in the Telnyx Mission control portal under SIP Trunking> Edit the IP type connection> Authentication and routing> IP addresses.
 
-**Transport:** UDP/ TCP/ TLS.
+**Transport:** UDP/ TCP/ TLS, or DNS-NAPTR.
+DNS-NAPTR lets the PBX discover Telnyx's available SIP proxies automatically and fail over between them, which a fixed single-transport configuration cannot do.
+​
 
 **Hostname/IP:** Enter the Telnyx domain name or IP address.
 Refer to <https://sip.telnyx.com/> for information on Telnyx SIP proxies, transport protocols, and ports.
@@ -153,23 +142,23 @@ You can adjust the outbound route sequence by clicking these buttons:
 
 ![](_images/9e226a9732119a7c.png)
 
-* **Name:** give this outbound route a name to help you identify it.
+- **Name:** give this outbound route a name to help you identify it.
   ​
-* **Role:** select the role that can use this outbound route to make outbound calls.
+- **Role:** select the role that can use this outbound route to make outbound calls.
   ​
-* **Dial Patterns:** set the dial patterns. As the settings below, to make calls via the SIP trunk, you need to precede the number to be dialed with the prefix 8.
+- **Dial Patterns:** set the dial patterns. As the settings below, to make calls via the SIP trunk, you need to precede the number to be dialed with the prefix 8.
   ​
-* **Dial Pattern:** 8.
+- **Dial Pattern:** 8.
   ​
-* **Strip:** 1
+- **Strip:** 1
   ​
-* **Trunk:** select the Telnyx SIP trunk.
+- **Trunk:** select the Telnyx SIP trunk.
   ​
-* **Outbound Route Password:** you can prompt users for a password before allowing calls to progress.
+- **Outbound Route Password:** you can prompt users for a password before allowing calls to progress.
   ​
-* **Extension/Extension Group:** select the extensions or extension groups that are allowed to make calls through the outbound route.
+- **Extension/Extension Group:** select the extensions or extension groups that are allowed to make calls through the outbound route.
   ​
-* **Time condition:** select time condition to allow this outbound route.
+- **Time condition:** select time condition to allow this outbound route.
 
 ![](_images/7094e812559de429.png)
 
@@ -193,28 +182,18 @@ In this step, you'll get Yeastar ready to take incoming calls by configuring an 
 
 ![](_images/ce0c0df36077e37e.png)
 
-* **Name:** give this inbound route a name to help you identify it.
+- **Name:** give this inbound route a name to help you identify it.
   ​
-* **DID Pattern:** specify the did pattern to match and pass the incoming call through this inbound route.
+- **DID Pattern:** specify the did pattern to match and pass the incoming call through this inbound route.
   ​
-* **Caller ID Pattern:** define the caller ID number that is allowed to call through this inbound route.
+- **Caller ID Pattern:** define the caller ID number that is allowed to call through this inbound route.
   ​
-* **Trunk:** choose the Telnyx SIP trunk.
+- **Trunk:** choose the Telnyx SIP trunk.
   ​
-* **Default Destination:** select the default destination or set with Time Condition.
+- **Default Destination:** select the default destination or set with Time Condition.
 
 **3. Click Save and Apply**
 
 When you call in the SIP trunk, the call will be routed to the destination configured on the inbound route.
 
 You have now set up your SIP trunk in Yeastar PBX and configured it to work with Telnyx.
-
----
-
-Related Articles
-
-[Configuring an Elastix 4 PBX IP Trunk](https://support.telnyx.com/en/articles/1130622-configuring-an-elastix-4-pbx-ip-trunk)[How to configure a Thirdlane PBX](https://support.telnyx.com/en/articles/1130631-how-to-configure-a-thirdlane-pbx)[Configuring an Elastix 4 PBX Trunk](https://support.telnyx.com/en/articles/1130654-configuring-an-elastix-4-pbx-trunk)[Yeastar S-Series: Telnyx SIP](https://support.telnyx.com/en/articles/5748952-yeastar-s-series-telnyx-sip)[Xorcom PBX: SIP Trunk](https://support.telnyx.com/en/articles/5754127-xorcom-pbx-sip-trunk)
-
-Did this answer your question?
-
-😞😐😃
