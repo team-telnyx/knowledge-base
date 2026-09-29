@@ -1,18 +1,14 @@
 ---
-source_url: https://support.telnyx.com/en/articles/14668631-enabling-whatsapp-business-calling-on-telnyx-numbers
 title: "Enabling WhatsApp Business Calling on Telnyx and BYON Numbers"
-description: "Enable WhatsApp Business Calling with a Telnyx number, or import your existing non-Telnyx WhatsApp number using Bring Your Own Number (BYON) to receive inbound WhatsApp voice calls through Telnyx."
-scraped: 2026-07-08
-content_hash: a8529443b696dc8b46c65ebd8af38e66058130a16c9ffaa92a28a9fda1feb1dd
-updated_at: "2026-09-28T18:22:20Z"
-modified_at: "2026-09-28T18:22:20Z"
+summary: "Enable WhatsApp Business Calling with a Telnyx number, or import your existing non-Telnyx WhatsApp number using Bring Your Own Number (BYON) to receive inbound WhatsApp voice calls through Telnyx."
+sources:
+- url: "https://support.telnyx.com/en/articles/14668631-enabling-whatsapp-business-calling-on-telnyx-numbers"
+updated_at: 2026-09-28T18:22:20Z
+tags: [support-docs]
+source_path: "support-docs/en--articles--14668631-enabling-whatsapp-business-calling-on-telnyx-numbers.md"
+generated_by: incremental-support-docs-wiki
 ---
-
-
-
-
-
-
+<!-- generated_from=support-docs/en--articles--14668631-enabling-whatsapp-business-calling-on-telnyx-numbers.md -->
 
 # Enabling WhatsApp Business Calling on Telnyx and BYON Numbers
 
