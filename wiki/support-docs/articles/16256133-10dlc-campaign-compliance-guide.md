@@ -1,20 +1,22 @@
 ---
-source_url: "https://support.telnyx.com/en/articles/16256133-10dlc-campaign-compliance-guide"
 title: "10DLC Campaign Compliance Guide"
-description: "This guide walks you through the entire 10DLC campaign process — from brand registration to sending your first message. Each section links to detailed articles for deeper dives. If you're new to 10DLC, start at Step 1. If you already have a brand and need"
-scraped: "2026-09-15"
-modified_at: "2026-08-07T15:56:20Z"
-collection_path: "3147004-10dlc-and-toll-free-text-messaging-compliance-guide"
-content_hash: "1e6fa7e70bb55e00a70aa1b1bee4bcaac06fb8b37e5ac79682a57f6272a8d6e0"
+summary: "This guide walks you through the entire 10DLC campaign process — from brand registration to sending your first message. Each section links to detailed articles for deeper dives. If you're new to 10DLC, start at Step 1."
+sources:
+- url: "https://support.telnyx.com/en/articles/16256133-10dlc-campaign-compliance-guide"
+updated_at: 2026-09-15T00:00:00Z
+tags: [support-docs]
+source_path: "support-docs/16256133-10dlc-campaign-compliance-guide.md"
+generated_by: incremental-support-docs-wiki
 ---
+<!-- generated_from=support-docs/16256133-10dlc-campaign-compliance-guide.md -->
 
 # 10DLC Campaign Compliance Guide
 
-# 10DLC Campaign Compliance Guide
+## 10DLC Campaign Compliance Guide
 
 This guide walks you through the entire 10DLC campaign process — from brand registration to sending your first message. Each section links to detailed articles for deeper dives. If you're new to 10DLC, start at Step 1. If you already have a brand and need help with campaign compliance requirements, jump to Step 2.
 
-# **What is 10DLC?**
+## **What is 10DLC?**
 
 10DLC (10-Digit Long Code) is the approved application-to-person (A2P) messaging solution for US local phone numbers. All businesses sending SMS via US local numbers must register their brand and campaigns through The Campaign Registry (TCR) to remain compliant with carrier requirements.
 
@@ -28,7 +30,7 @@ There is a one-time $4 brand registration fee and a $15 campaign verification fe
 
 See [10DLC Fees and Charges](https://support.telnyx.com/en/articles/5634625-10dlc-fees-and-charges) for full pricing details.
 
-# **Step 1: Register Your Brand**
+## **Step 1: Register Your Brand**
 
 Before creating a campaign, you must register your brand through the Telnyx Mission Control Portal. The brand registration validates your business identity with TCR and mobile network operators.
 
@@ -82,7 +84,7 @@ You'll need the following information ready:
 
 *[Guide to Sole Proprietor 10DLC Registration](https://support.telnyx.com/en/articles/13545282-guide-to-sole-proprietor-10dlc-brand-and-campaign-registration)*
 
-# **Step 2: [Campaign Compliance Requirements](https://support.telnyx.com/en/articles/9940291-10dlc-campaign-compliance-requirements)**
+## **Step 2: [Campaign Compliance Requirements](https://support.telnyx.com/en/articles/9940291-10dlc-campaign-compliance-requirements)**
 
 This is the most critical step. Your campaign must meet all compliance requirements at the time of submission — mechanisms should be in place before registering, not added after. Campaigns are reviewed by Telnyx and then by mobile network operators. Non-compliant campaigns will be rejected or suspended.
 
@@ -257,7 +259,7 @@ Special requirements for political campaigns:
 - The CTA and campaign description must clearly disclose whether donations will or will not be solicited
 - Political campaigns must also be verified at campaignverify.com, which provides a token required for registration.
 
-# **Step 3: Create Your Campaign**
+## **Step 3: Create Your Campaign**
 
 Once your brand is registered and your compliance mechanisms (opt-in form, privacy policy, keywords, sample messages) are in place, you're ready to create your campaign in the Mission Control Portal or via the Telnyx API.
 
@@ -298,7 +300,7 @@ Once your brand is registered and your compliance mechanisms (opt-in form, priva
 
 *[10DLC Campaign Approval Best Practices](https://support.telnyx.com/en/articles/7127078-10dlc-campaign-approval-best-practices)*
 
-# **Step 4: Assign Phone Numbers to Your Campaign**
+## **Step 4: Assign Phone Numbers to Your Campaign**
 
 After your campaign is approved by the carrier, assign phone numbers to start sending messages.
 
@@ -319,7 +321,7 @@ After your campaign is approved by the carrier, assign phone numbers to start se
 
 *[10DLC Number Assignment Status](https://support.telnyx.com/en/articles/11072276-10dlc-number-assignment-status)*
 
-# **Step 5: Start Sending & Best Practices**
+## **Step 5: Start Sending & Best Practices**
 
 Once your numbers are assigned, you can begin sending messages. Follow these best practices to maintain compliance:
 
@@ -330,7 +332,7 @@ Once your numbers are assigned, you can begin sending messages. Follow these bes
 - Message Content: Send messages consistent with your registered use case and sample messages. Inconsistent content may be flagged for review.
 - Keep campaigns active: Campaigns with no activity for 15+ days and no assigned numbers may be suspended to avoid T-Mobile inactivity fines.
 
-# **Troubleshooting**
+## **Troubleshooting**
 
 ## **Campaign Rejected**
 
@@ -356,7 +358,7 @@ This indicates TCR rejected the campaign due to a technical issue (character req
 
 Most likely cause is an error in brand registration info — review all fields, especially EIN. For EIN errors, contact [10dlcquestions@telnyx.com](mailto:10dlcquestions@telnyx.com) for assistance.
 
-# **All 10DLC Articles**
+## **All 10DLC Articles**
 
 - [How to Create a 10DLC Brand](https://support.telnyx.com/en/articles/5896911-how-to-create-a-10dlc-brand)
 - [How to Create a 10DLC Campaign](https://support.telnyx.com/en/articles/6339152-how-to-create-a-10dlc-campaign)

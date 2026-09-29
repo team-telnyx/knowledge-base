@@ -1,16 +1,14 @@
 ---
-source_url: https://support.telnyx.com/en/articles/8269151-assigning-did-to-a-10dlc-campaign-fails
 title: "Assigning DID to a 10DLC Campaign Fails"
-description: "Please reach out to 10dlcquestions@telnyx.com in the case of a 10DLC question or… See Telnyx guidance and requirements."
-scraped: 2026-07-08
-content_hash: 5695a125b887d6ce58992c100db1af80399f925aa5b3dbf4f323ff550d0dc73a
+summary: "Please reach out to 10dlcquestions@telnyx.com in the case of a 10DLC question or… See Telnyx guidance and requirements."
+sources:
+- url: "https://support.telnyx.com/en/articles/8269151-assigning-did-to-a-10dlc-campaign-fails"
+updated_at: 2026-07-08T00:00:00Z
+tags: [support-docs]
+source_path: "support-docs/en--articles--8269151-assigning-did-to-a-10dlc-campaign-fails.md"
+generated_by: incremental-support-docs-wiki
 ---
-
-
-
-
-
-
+<!-- generated_from=support-docs/en--articles--8269151-assigning-did-to-a-10dlc-campaign-fails.md -->
 
 # Assigning DID to a 10DLC Campaign Fails
 

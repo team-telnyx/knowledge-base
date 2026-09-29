@@ -1,16 +1,14 @@
 ---
-source_url: https://support.telnyx.com/en/articles/7885470-chiro8000-and-telnyx-integration
 title: "Chiro8000 and Telnyx Integration"
-description: "Connecting the practice management software Chiro8000 with the text messaging capabilities of… See Telnyx guidance and requirements."
-scraped: 2026-07-08
-content_hash: bfdca35a7ed611068a734e6ccd6cde2182d1bcf4ff98ced56a3183cbe9ae662e
+summary: "Connecting the practice management software Chiro8000 with the text messaging capabilities of… See Telnyx guidance and requirements."
+sources:
+- url: "https://support.telnyx.com/en/articles/7885470-chiro8000-and-telnyx-integration"
+updated_at: 2026-07-08T00:00:00Z
+tags: [support-docs]
+source_path: "support-docs/en--articles--7885470-chiro8000-and-telnyx-integration.md"
+generated_by: incremental-support-docs-wiki
 ---
-
-
-
-
-
-
+<!-- generated_from=support-docs/en--articles--7885470-chiro8000-and-telnyx-integration.md -->
 
 # Chiro8000 and Telnyx Integration
 

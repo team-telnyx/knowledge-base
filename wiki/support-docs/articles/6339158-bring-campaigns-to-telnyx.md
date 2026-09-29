@@ -1,16 +1,14 @@
 ---
-source_url: https://support.telnyx.com/en/articles/6339158-bring-campaigns-to-telnyx
 title: "Bring Campaigns to Telnyx"
-description: "In this article, we're breaking down shared campaigns, and showing you how to use them within your Telnyx account. See Telnyx guidance and requirements."
-scraped: 2026-07-08
-content_hash: a84db4e63d953a84f22d9d95bc673ca6a21f7f64b9663c891adaf220adfdfd7e
+summary: "In this article, we're breaking down shared campaigns, and showing you how to use them within your Telnyx account. See Telnyx guidance and requirements."
+sources:
+- url: "https://support.telnyx.com/en/articles/6339158-bring-campaigns-to-telnyx"
+updated_at: 2026-07-08T00:00:00Z
+tags: [support-docs]
+source_path: "support-docs/en--articles--6339158-bring-campaigns-to-telnyx.md"
+generated_by: incremental-support-docs-wiki
 ---
-
-
-
-
-
-
+<!-- generated_from=support-docs/en--articles--6339158-bring-campaigns-to-telnyx.md -->
 
 # Bring Campaigns to Telnyx
 

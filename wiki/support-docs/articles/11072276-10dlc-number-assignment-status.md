@@ -1,16 +1,14 @@
 ---
-source_url: https://support.telnyx.com/en/articles/11072276-10dlc-number-assignment-status
 title: "10DLC Number Assignment Status"
-description: "Having deliverability issues with a number recently assigned to an approved 10DLC campaign? See Telnyx guidance and requirements."
-scraped: 2026-07-08
-content_hash: 6b910e3132ebde3ae6d27cd7bb6182af2aa63c5277ead58ec194101a80b78584
+summary: "Having deliverability issues with a number recently assigned to an approved 10DLC campaign? See Telnyx guidance and requirements."
+sources:
+- url: "https://support.telnyx.com/en/articles/11072276-10dlc-number-assignment-status"
+updated_at: 2026-07-08T00:00:00Z
+tags: [support-docs]
+source_path: "support-docs/en--articles--11072276-10dlc-number-assignment-status.md"
+generated_by: incremental-support-docs-wiki
 ---
-
-
-
-
-
-
+<!-- generated_from=support-docs/en--articles--11072276-10dlc-number-assignment-status.md -->
 
 # 10DLC Number Assignment Status
 

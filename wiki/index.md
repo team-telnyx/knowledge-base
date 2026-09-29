@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-09-28T17:24:53Z
+updated_at: 2026-09-29T16:59:45Z
 ---
 
 # Telnyx Knowledge Base
@@ -418,3 +418,19 @@ updated_at: 2026-09-28T17:24:53Z
 - [United Arab Emirates: SMS Guidelines](support-docs/articles/6683438-united-arab-emirates-sms-guidelines.md) — Information on Alphanumeric Sender ID registration: ​ Registration of Alphanumeric Senders towards UAE have been put on hold by the local operators until further notice.
 
 - [Mission Control Portal - AI Chat Support Assistant](support-docs/articles/8020222-mission-control-portal-ai-chat-support-assistant.md) — We are delighted to introduce our latest digital offering, designed to enhance your customer service experience, while providing more efficient and personalised support.
+
+- [10DLC Campaign Compliance Guide](support-docs/articles/16256133-10dlc-campaign-compliance-guide.md) — This guide walks you through the entire 10DLC campaign process — from brand registration to sending your first message. Each section links to detailed articles for deeper dives. If you're new to 10DLC, start at Step 1.
+
+- [10DLC Keywords and Confirmation Messages](support-docs/articles/10645338-10dlc-keywords-and-confirmation-messages.md) — 10DLC Keywords and… See Telnyx guidance and requirements Learn more about 10DLC Keywords and Confirmation Messages with Telnyx.
+
+- [10DLC Campaign Suspended](support-docs/articles/10723378-10dlc-campaign-suspended.md) — 10DLC Campaign… See Telnyx guidance and requirements Learn more about 10DLC Campaign Suspended with Telnyx.
+
+- [10DLC Number Assignment Status](support-docs/articles/11072276-10dlc-number-assignment-status.md) — Having deliverability issues with a number recently assigned to an approved 10DLC campaign? See Telnyx guidance and requirements.
+
+- [10DLC Authentication for Publicly Traded Brands](support-docs/articles/11788086-10dlc-authentication-for-publicly-traded-brands.md) — If you do not complete the Auth Plus process for Publicly Traded brands then no new campaigns will be able to be… See Telnyx guidance and requirements.
+
+- [Bring Campaigns to Telnyx](support-docs/articles/6339158-bring-campaigns-to-telnyx.md) — In this article, we're breaking down shared campaigns, and showing you how to use them within your Telnyx account. See Telnyx guidance and requirements.
+
+- [Chiro8000 and Telnyx Integration](support-docs/articles/7885470-chiro8000-and-telnyx-integration.md) — Connecting the practice management software Chiro8000 with the text messaging capabilities of… See Telnyx guidance and requirements.
+
+- [Assigning DID to a 10DLC Campaign Fails](support-docs/articles/8269151-assigning-did-to-a-10dlc-campaign-fails.md) — Please reach out to 10dlcquestions@telnyx.com in the case of a 10DLC question or… See Telnyx guidance and requirements.

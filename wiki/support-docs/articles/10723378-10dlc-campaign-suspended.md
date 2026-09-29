@@ -1,16 +1,14 @@
 ---
-source_url: https://support.telnyx.com/en/articles/10723378-10dlc-campaign-suspended
 title: "10DLC Campaign Suspended"
-description: "10DLC Campaign… See Telnyx guidance and requirements Learn more about 10DLC Campaign Suspended with Telnyx."
-scraped: 2026-07-08
-content_hash: 37dc405587bd56e3e374454fbad57992200523b656a9c987ad3e34d2ee3999d9
+summary: "10DLC Campaign… See Telnyx guidance and requirements Learn more about 10DLC Campaign Suspended with Telnyx."
+sources:
+- url: "https://support.telnyx.com/en/articles/10723378-10dlc-campaign-suspended"
+updated_at: 2026-07-08T00:00:00Z
+tags: [support-docs]
+source_path: "support-docs/en--articles--10723378-10dlc-campaign-suspended.md"
+generated_by: incremental-support-docs-wiki
 ---
-
-
-
-
-
-
+<!-- generated_from=support-docs/en--articles--10723378-10dlc-campaign-suspended.md -->
 
 # 10DLC Campaign Suspended
 

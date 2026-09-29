@@ -1,16 +1,14 @@
 ---
-source_url: https://support.telnyx.com/en/articles/11788086-10dlc-authentication-for-publicly-traded-brands
 title: "10DLC Authentication for Publicly Traded Brands"
-description: "If you do not complete the Auth Plus process for Publicly Traded brands then no new campaigns will be able to be… See Telnyx guidance and requirements."
-scraped: 2026-07-08
-content_hash: b40807a25942ba935c2c16a17e0905aa94b190e04b58caa046273c5cfd7ae474
+summary: "If you do not complete the Auth Plus process for Publicly Traded brands then no new campaigns will be able to be… See Telnyx guidance and requirements."
+sources:
+- url: "https://support.telnyx.com/en/articles/11788086-10dlc-authentication-for-publicly-traded-brands"
+updated_at: 2026-07-08T00:00:00Z
+tags: [support-docs]
+source_path: "support-docs/en--articles--11788086-10dlc-authentication-for-publicly-traded-brands.md"
+generated_by: incremental-support-docs-wiki
 ---
-
-
-
-
-
-
+<!-- generated_from=support-docs/en--articles--11788086-10dlc-authentication-for-publicly-traded-brands.md -->
 
 # 10DLC Authentication for Publicly Traded Brands
 

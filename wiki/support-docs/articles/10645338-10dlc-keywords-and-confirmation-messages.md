@@ -1,16 +1,14 @@
 ---
-source_url: https://support.telnyx.com/en/articles/10645338-10dlc-keywords-and-confirmation-messages
 title: "10DLC Keywords and Confirmation Messages"
-description: "10DLC Keywords and… See Telnyx guidance and requirements Learn more about 10DLC Keywords and Confirmation Messages with Telnyx."
-scraped: 2026-07-08
-content_hash: 517aa55bed935632cdb945d6eef7257cf50aa3e98ea893be02332ddfbddd55c8
+summary: "10DLC Keywords and… See Telnyx guidance and requirements Learn more about 10DLC Keywords and Confirmation Messages with Telnyx."
+sources:
+- url: "https://support.telnyx.com/en/articles/10645338-10dlc-keywords-and-confirmation-messages"
+updated_at: 2026-07-08T00:00:00Z
+tags: [support-docs]
+source_path: "support-docs/en--articles--10645338-10dlc-keywords-and-confirmation-messages.md"
+generated_by: incremental-support-docs-wiki
 ---
-
-
-
-
-
-
+<!-- generated_from=support-docs/en--articles--10645338-10dlc-keywords-and-confirmation-messages.md -->
 
 # 10DLC Keywords and Confirmation Messages
 
