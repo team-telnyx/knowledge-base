@@ -1,6 +1,6 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8648864-what-happens-with-my-numbers-after-my-account-gets-abolished-for-negative-balance
-title: "What happens with my numbers after my account gets"
+title: "What happens with my numbers after my account gets abolished for negative balance?"
 description: "This article will help explain what happens after your account is abolished for holding a negative balance. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: de1736f634265c03ed8e4d6aff4aba6a503594a3d0665155f469b5f7b5a95b4a

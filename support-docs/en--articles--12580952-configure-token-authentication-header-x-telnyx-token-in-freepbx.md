@@ -1,6 +1,6 @@
 ---
 source_url: https://support.telnyx.com/en/articles/12580952-configure-token-authentication-header-x-telnyx-token-in-freepbx
-title: "Configure Token Authentication Header (X-Telnyx-Token) in"
+title: "Configure Token Authentication Header (X-Telnyx-Token) in FreePBX"
 description: "Add a Telnyx token-based authentication header to outbound SIP calls from your FreePBX PBX system. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: f3c47f34626edf3edcdeadadd3caf0bea970e047cd00857c49527519aaabc3d3

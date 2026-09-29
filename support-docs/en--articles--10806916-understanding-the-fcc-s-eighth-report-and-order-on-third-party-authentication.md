@@ -1,6 +1,6 @@
 ---
 source_url: https://support.telnyx.com/en/articles/10806916-understanding-the-fcc-s-eighth-report-and-order-on-third-party-authentication
-title: "Understanding the FCC’s Eighth Report and Order on"
+title: "Understanding the FCC’s Eighth Report and Order on Third-Party Authentication"
 description: "The Federal Communications Commission (FCC) has issued new compliance requirements in its Eighth Report and Order… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 67ee5a4378cda34b22669a4edc5f1925fb15b17fb7d3df43185bfd41478988d4

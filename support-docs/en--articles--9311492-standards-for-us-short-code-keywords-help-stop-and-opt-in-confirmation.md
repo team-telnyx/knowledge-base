@@ -1,6 +1,6 @@
 ---
 source_url: https://support.telnyx.com/en/articles/9311492-standards-for-us-short-code-keywords-help-stop-and-opt-in-confirmation
-title: "Standards for US Short Code Keywords: HELP, STOP, and"
+title: "Standards for US Short Code Keywords: HELP, STOP, and Opt-In Confirmation"
 description: "Managing Autoresponses for US Short Codes. See Telnyx guidance and requirements Learn more about Standards for US Short Code Keywords: HELP, STOP, and with."
 scraped: 2026-07-08
 content_hash: 489d2501cf9bb0fd262d8c86074600bc5ad0da6e389742c399d7e817089208b9
