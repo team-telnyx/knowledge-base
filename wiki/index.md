@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-09-28T17:24:53Z
+updated_at: 2026-09-29T13:08:07Z
 ---
 
 # Telnyx Knowledge Base
@@ -413,8 +413,13 @@ updated_at: 2026-09-28T17:24:53Z
 
 - [Australia: SMS Guidelines](support-docs/articles/6531656-australia-sms-guidelines.md) — MCC: 505 ​Dial code: 61 ​ ​The Australian Communications and Media Authority (ACMA) has introduced new requirements for alphanumeric sender IDs under the Telecommunications (SMS Sender ID Register) Industry Standard 2025, effective from 1 July 2026.
 
-- [Congo SMS Guidelines](support-docs/articles/6661342-congo-sms-guidelines.md) — MCC: 630 ​Dial Code: 243 ​ Alphanumeric Sender IDs are supported. ​ ​The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be directly related to the message content.
 
 - [United Arab Emirates: SMS Guidelines](support-docs/articles/6683438-united-arab-emirates-sms-guidelines.md) — Information on Alphanumeric Sender ID registration: ​ Registration of Alphanumeric Senders towards UAE have been put on hold by the local operators until further notice.
 
 - [Mission Control Portal - AI Chat Support Assistant](support-docs/articles/8020222-mission-control-portal-ai-chat-support-assistant.md) — We are delighted to introduce our latest digital offering, designed to enhance your customer service experience, while providing more efficient and personalised support.
+
+- [Alphanumeric Sender ID](support-docs/articles/6354449-alphanumeric-sender-id.md) — Depending on the location, Alphanumeric Sender IDs can change. See Telnyx guidance and requirements.
+
+- [Congo: SMS Guidelines](support-docs/articles/6661326-congo-sms-guidelines.md) — SMS Guidelines for Congo including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Congo: SMS Guidelines with Telnyx.
+
+- [Congo, DR: SMS Guidelines](support-docs/articles/6661342-congo-dr-sms-guidelines.md) — MCC: 630 ​Dial Code: 243 ​ Alphanumeric Sender IDs are supported. ​ ​The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be directly related to the message content.

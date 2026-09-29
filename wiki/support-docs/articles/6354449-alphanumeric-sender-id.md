@@ -1,16 +1,14 @@
 ---
-source_url: https://support.telnyx.com/en/articles/6354449-alphanumeric-sender-id
 title: "Alphanumeric Sender ID"
-description: "Depending on the location, Alphanumeric Sender IDs can change. See Telnyx guidance and requirements."
-scraped: 2026-07-08
-content_hash: c8f125df80c7d80c747d1fe622728c052135b7de1ba7111eb78018f6f7905f0d
+summary: "Depending on the location, Alphanumeric Sender IDs can change. See Telnyx guidance and requirements."
+sources:
+- url: "https://support.telnyx.com/en/articles/6354449-alphanumeric-sender-id"
+updated_at: 2026-07-08T00:00:00Z
+tags: [support-docs]
+source_path: "support-docs/en--articles--6354449-alphanumeric-sender-id.md"
+generated_by: incremental-support-docs-wiki
 ---
-
-
-
-
-
-
+<!-- generated_from=support-docs/en--articles--6354449-alphanumeric-sender-id.md -->
 
 # Alphanumeric Sender ID
 

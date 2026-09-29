@@ -1,14 +1,14 @@
 ---
-source_url: https://support.telnyx.com/en/articles/6661342-congo-sms-guidelines
-title: "Congo SMS Guidelines"
-description: "SMS Guidelines for D.R.o.t.C. See Telnyx guidance and requirements Learn more about Congo SMS Guidelines with Telnyx."
+source_url: https://support.telnyx.com/en/articles/6661342-congo-dr-sms-guidelines
+title: "Congo, DR: SMS Guidelines"
+description: "SMS Guidelines for D.R.o.t.C. See Telnyx guidance and requirements Learn more about Congo, DR: SMS Guidelines with Telnyx."
 scraped: 2026-09-28
 content_hash: 553c934ee43ef50aab9f2fcf8bef0981e9b190f316a21b549785f2f519ebc2b3
 updated_at: 2026-07-16T13:47:42Z
 modified_at: 2026-07-16T13:47:42Z
 ---
 
-# Congo SMS Guidelines
+# Congo, DR: SMS Guidelines
 
 # **SMS Guidelines for Democratic Republic of the Congo**
 

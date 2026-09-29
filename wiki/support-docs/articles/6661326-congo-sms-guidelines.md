@@ -1,16 +1,14 @@
 ---
-source_url: https://support.telnyx.com/en/articles/6661326-congo-sms-guidelines
 title: "Congo: SMS Guidelines"
-description: "SMS Guidelines for Congo including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Congo: SMS Guidelines with Telnyx."
-scraped: 2026-07-08
-content_hash: 4664eec3c60f6b096eea5ca40584cf1d90817d268531eb2a7e6ecfdd178cef06
+summary: "SMS Guidelines for Congo including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Congo: SMS Guidelines with Telnyx."
+sources:
+- url: "https://support.telnyx.com/en/articles/6661326-congo-sms-guidelines"
+updated_at: 2026-07-08T00:00:00Z
+tags: [support-docs]
+source_path: "support-docs/en--articles--6661326-congo-sms-guidelines.md"
+generated_by: incremental-support-docs-wiki
 ---
-
-
-
-
-
-
+<!-- generated_from=support-docs/en--articles--6661326-congo-sms-guidelines.md -->
 
 # Congo: SMS Guidelines
 
