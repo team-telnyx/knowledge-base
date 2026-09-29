@@ -21,8 +21,7 @@ async function routeRequest(request, lookup) {
     rejected.headers.allow = { value: 'GET, HEAD' }; return rejected;
   }
   if (uri === '/en' || uri === '/en/' || uri === '/en/index.html' || uri === '/index.html') return redirect('/');
-  if (uri === '/favicon.ico') return redirect('/favicon.svg');
-  if (uri === '/' || uri === '/llms.txt' || uri === '/robots.txt' || uri === '/sitemap.xml' || uri === '/favicon.svg' || /^\/(assets|_images|content)\//.test(uri) || /^\/[^/]+\.woff2?$/.test(uri)) return request;
+  if (uri === '/' || uri === '/llms.txt' || uri === '/robots.txt' || uri === '/sitemap.xml' || uri === '/favicon.ico' || uri === '/favicon.svg' || /^\/(assets|_images|content)\//.test(uri) || /^\/[^/]+\.woff2?$/.test(uri)) return request;
   var normalized = uri.replace(/\/+$/, '');
   var match = normalized.match(/^\/en\/(articles|collections)\/(\d+)(?:-[^/]*)?$/);
   if (!match) {
