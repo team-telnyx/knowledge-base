@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6247033-cli-cld-validation-fa
 title: "CLI & CLD Validation FAQ"
 description: "Dive into Telnyx's enhanced CLI & CLD validation mechanism. See Telnyx guidance and requirements Learn more about CLI & CLD Validation FAQ with Telnyx."
 scraped: 2026-07-08
-content_hash: c7fce9b2209c747579a641dd48273b660e4883e177f636661b5ff89676b29192
+content_hash: 456016114ee2e2e36ba4be280e8369c3fa0d649c9cc1b4662bbb08c52aaf9f92
 ---
 
 
@@ -78,13 +78,3 @@ CLI validation will be applicable to all numbers used to perform outbound calls 
 ## **What should I do if my call is blocked, even if my CLI or CLD are valid?**
 
 If there is a case where your call has been blocked by CLI and CLD validation, and the CLI and CLD are valid, please [report to our support team](https://support.telnyx.com/en/articles/5170721-best-practices-for-contacting-support).
-
----
-
-Related Articles
-
-[Caller ID Number Policy](https://support.telnyx.com/en/articles/3546251-caller-id-number-policy)[Oracle: Acme Packet SBC Setup](https://support.telnyx.com/en/articles/4194697-oracle-acme-packet-sbc-setup)[Telnyx SIP Response Codes](https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes)[Verified Numbers FAQ](https://support.telnyx.com/en/articles/6790265-verified-numbers-faq)[HD Voice - Number Feature](https://support.telnyx.com/en/articles/8394071-hd-voice-number-feature)
-
-Did this answer your question?
-
-😞😐😃

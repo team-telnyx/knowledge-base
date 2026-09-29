@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3739496-latvia-did-requiremen
 title: "Latvia DID Requirements"
 description: "Here you will find the requirements for acquiring different types of numbers in Latvia. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: b56f7aa0acb78c313bb02541778e285b46b63cdf66a895b8ba3e947f31454d26
+content_hash: 73b351d97476f544f61f5a80aa6b5a2670afaf8f3b0b1ff902795345015b4bdb
 ---
 
 
@@ -91,13 +91,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Bulgaria DID Requirements](https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Mexico DID Requirements](https://support.telnyx.com/en/articles/5466793-mexico-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)[Serbia DID Requirements](https://support.telnyx.com/en/articles/5467021-serbia-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

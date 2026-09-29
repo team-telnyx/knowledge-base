@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/7183887-sms-for-ported-in-pho
 title: "SMS for Ported In Phone Numbers"
 description: "Discover the intricacies of phone numbers, ordering processes, and numbering team coordination with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: de8cf04d1f23598efe7a7e230d686cba2855b80160f1d903a6cd5a980b89ed41
+content_hash: 72c00fc4d519f99dee3f407352c7fc9d14115c6643b6a309588bdd49e26310c7
 ---
 
 
@@ -48,13 +48,3 @@ For all other phone numbers, it is expected that SMS will port at the same time 
 ## **FAQ: My order says that the SMS ported, but my numbers are failing to deliver messages. What is the issue?**
 
 Please confirm that you have a working messaging profile ID associated with the phone number. If you do and you are still experiencing issues, please cut a support ticket for our team to investigate.
-
----
-
-Related Articles
-
-[New Zealand Number Porting](https://support.telnyx.com/en/articles/3267206-new-zealand-number-porting)[Hosted SMS Messaging Process](https://support.telnyx.com/en/articles/5336668-hosted-sms-messaging-process)[Porting Requirements](https://support.telnyx.com/en/articles/6460777-porting-requirements)[Verified Numbers](https://support.telnyx.com/en/articles/6988813-verified-numbers)[US / CA Toll Free Number Porting](https://support.telnyx.com/en/articles/8673249-us-ca-toll-free-number-porting)
-
-Did this answer your question?
-
-😞😐😃

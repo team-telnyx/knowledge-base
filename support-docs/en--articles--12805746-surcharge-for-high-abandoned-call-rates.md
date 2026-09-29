@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/12805746-surcharge-for-high-a
 title: "Surcharge for High Abandoned Call Rates"
 description: "Starting November 1, 2025 we will be applying surcharges to outbound traffic with high abandoned call rates to reduce… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 3272b61bb2469240175551ec4c1dcbf04af0c72699d45dc631fdbea7026af7dc
+content_hash: cfd57c161fdb26e2f0c064ea47c1869e8860b31c6c1faca7d5e18491e932c0fc
 ---
 
 
@@ -73,13 +73,3 @@ There are two options to track your abandoned call percentage.
 * **What is the rate that will be charged if an account exceeds the 20% threshold of abandoned calls?**
 
   $0.005 USD per call.
-
----
-
-Related Articles
-
-[More About Outbound Voice Profiles](https://support.telnyx.com/en/articles/4320411-more-about-outbound-voice-profiles)[Troubleshooting Call Completion](https://support.telnyx.com/en/articles/5025298-troubleshooting-call-completion)[Calls per second (CPS) surcharge](https://support.telnyx.com/en/articles/7834487-calls-per-second-cps-surcharge)[Calls Per Second (CPS) Limits](https://support.telnyx.com/en/articles/15668484-calls-per-second-cps-limits)
-
-Did this answer your question?
-
-😞😐😃

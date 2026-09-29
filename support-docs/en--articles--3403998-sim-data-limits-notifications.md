@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3403998-sim-data-limits-notif
 title: "SIM Data Limits & Notifications"
 description: "In this article, we will explain how you can set up data limits for your SIM groups and SIM cards and receive… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 44c24f2eeff21bb85dc66b6b9659f9e79ccb02978aa43ece934fb9cb368cd972
+content_hash: 305ee1d1bda732168b77feb423cad4bd2d02c7b7247a0e68d4acf1a7eae96353
 ---
 
 
@@ -108,13 +108,3 @@ Start by defining a notification profile
 ​
 ​
 ​
-
----
-
-Related Articles
-
-[How to set up a Telnyx SIM Card](https://support.telnyx.com/en/articles/3269600-how-to-set-up-a-telnyx-sim-card)[Telnyx Global SIMs FAQs](https://support.telnyx.com/en/articles/3270136-telnyx-global-sims-faqs)[SIM Setup and Configuration](https://support.telnyx.com/en/articles/4298710-sim-setup-and-configuration)[SIM Connectivity Logs](https://support.telnyx.com/en/articles/5666594-sim-connectivity-logs)[SIM Card Actions](https://support.telnyx.com/en/articles/5812328-sim-card-actions)
-
-Did this answer your question?
-
-😞😐😃

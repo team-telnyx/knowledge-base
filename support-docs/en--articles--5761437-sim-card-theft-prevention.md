@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5761437-sim-card-theft-preven
 title: "SIM Card Theft Prevention"
 description: "Secure your SIM fleet with Telnyx. See Telnyx guidance and requirements Learn more about SIM Card Theft Prevention with Telnyx."
 scraped: 2026-07-08
-content_hash: e243b7c25a5c7c48f33d6add25eb597161f7ba6cc47df50e8e15e7d2d02798da
+content_hash: f8e127b0a9cb4d639cbdb4462f07f9d625029b84e7c7b0f59a2714b923905810
 ---
 
 
@@ -34,13 +34,3 @@ An [IMEI (International Mobile Equipment Identity) number](https://en.wikipedia.
 Please allow up to 5 minutes before SIM cards get disabled due to unauthorized IMEIs. Once an unauthorized IMEI is recognized an email is dispatched to your account to let you know.
 
 If no authorized IMEIs are added to SIM cards, all devices will be considered authorized. This is the default configuration for SIM cards.
-
----
-
-Related Articles
-
-[How to set up a Telnyx SIM Card](https://support.telnyx.com/en/articles/3269600-how-to-set-up-a-telnyx-sim-card)[SIM Setup and Configuration](https://support.telnyx.com/en/articles/4298710-sim-setup-and-configuration)[SIM Connectivity Logs](https://support.telnyx.com/en/articles/5666594-sim-connectivity-logs)[SIM Card Location and Device Details](https://support.telnyx.com/en/articles/5812302-sim-card-location-and-device-details)[SIM Card Actions](https://support.telnyx.com/en/articles/5812328-sim-card-actions)
-
-Did this answer your question?
-
-😞😐😃

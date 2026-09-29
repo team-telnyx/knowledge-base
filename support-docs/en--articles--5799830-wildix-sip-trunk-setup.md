@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5799830-wildix-sip-trunk-setu
 title: "Wildix: SIP Trunk Setup"
 description: "Learn how to set up and configure a SIP trunk between Wildix and… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: ad7004f7a8714b3d4f105724588b45c256da6e72c6a17a84e779314233b577df
+content_hash: d944ac9d0d113831a2e82284251ab00e82df3cf66f0c2e44259406e5c0cd42aa
 ---
 
 
@@ -120,13 +120,3 @@ Additionally, check out:
 * [Book a Wildix demo](https://www.wildix.com/try/)
 * [Wildix technical documentation](https://wildix.atlassian.net/wiki/spaces)
 * [Wildix custom config parameters](https://wildix.atlassian.net/wiki/spaces/DOC/pages/30285078/Custom+config+parameters+List)
-
----
-
-Related Articles
-
-[Configuring a Cisco CUBE/CUCM SIP Trunk](https://support.telnyx.com/en/articles/1130673-configuring-a-cisco-cube-cucm-sip-trunk)[Grandstream UCM6xxx: SIP Trunks](https://support.telnyx.com/en/articles/5748258-grandstream-ucm6xxx-sip-trunks)[Xorcom PBX: SIP Trunk](https://support.telnyx.com/en/articles/5754127-xorcom-pbx-sip-trunk)[PhoneSuite Voiceware](https://support.telnyx.com/en/articles/5800936-phonesuite-voiceware)[Fanvil A32i: Telnyx Setup](https://support.telnyx.com/en/articles/6056428-fanvil-a32i-telnyx-setup)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8096455-how-to-configure-a-si
 title: "How to Configure a SIP Trunk"
 description: "Step-by-step guide on setting up a SIP Trunk with Telnyx using a compatible soft phone or system. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: bf1dcf8032d7628d11cb6f4308573527ea0f1f1fae7258e361622dafe8d029ce
+content_hash: 8dff86a13d67841273ec7b4d755380725e4acd0e8aa983df0edb845339c816e1
 ---
 
 
@@ -145,13 +145,3 @@ Start calling and receiving calls, the world is at your fingertips! Please remem
 We love to get your feedback on this tutorial. If you have any then please message [community@telnyx.com](mailto:community@telnyx.com) and include the link to the article you are referencing along with any concerns or comments.
 
 If you are stuck on any particular step then we would be happy to help, we have 24/7 world-class support available by phone at +18889809750 ext 2 or sending us an email at [support@telnyx.com](mailto:support@telnyx.com) or via chat by logging into your mission control portal account.
-
----
-
-Related Articles
-
-[Configuring a Cisco CUBE/CUCM SIP Trunk](https://support.telnyx.com/en/articles/1130673-configuring-a-cisco-cube-cucm-sip-trunk)[Grandstream UCM6xxx: SIP Trunks](https://support.telnyx.com/en/articles/5748258-grandstream-ucm6xxx-sip-trunks)[Xorcom PBX: SIP Trunk](https://support.telnyx.com/en/articles/5754127-xorcom-pbx-sip-trunk)[Wildix: SIP Trunk Setup](https://support.telnyx.com/en/articles/5799830-wildix-sip-trunk-setup)[Grandstream GRP260x: SIP Trunk](https://support.telnyx.com/en/articles/6169513-grandstream-grp260x-sip-trunk)
-
-Did this answer your question?
-
-😞😐😃

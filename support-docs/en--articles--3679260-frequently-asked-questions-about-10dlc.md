@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3679260-frequently-asked-ques
 title: "Frequently asked questions about 10DLC"
 description: "10DLC is the mandatory compliance framework for USA long-code SMS & MMS… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 1137a07baf13fe64132a3219624937bbbc57bba59e3b758b65c2af66d4e002f7
+content_hash: a8052f9da2ee2b28f3a4c14095efd680be3d310ef20f0248a4e38cfef566552b
 ---
 
 
@@ -361,13 +361,3 @@ Head to our [10DLC Fees and Charges](https://support.telnyx.com/en/articles/5634
 ### **I have another question or concern not covered in this document, where should I go?**
 
 If you have any other questions, you can chat to our support team 24/7 via your [Mission Control Portal](https://portal.telnyx.com/#/login/sign-in), or on our Contact Us page. If you have specific messaging compliance questions please reach out to [10dlcquestions@telnyx.com](mailto:10dlcquestions@telnyx.com).
-
----
-
-Related Articles
-
-[ISVs & 10DLC](https://support.telnyx.com/en/articles/5593977-isvs-10dlc)[10DLC Fees and Charges](https://support.telnyx.com/en/articles/5634625-10dlc-fees-and-charges)[Telnyx & 10DLC Compliance](https://support.telnyx.com/en/articles/5664840-telnyx-10dlc-compliance)[10DLC: Trust Scores & Use Cases](https://support.telnyx.com/en/articles/6325747-10dlc-trust-scores-use-cases)[Telnyx 10DLC Compliance Directory](https://support.telnyx.com/en/articles/6417677-telnyx-10dlc-compliance-directory)
-
-Did this answer your question?
-
-😞😐😃

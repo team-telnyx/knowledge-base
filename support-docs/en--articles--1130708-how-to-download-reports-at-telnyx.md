@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130708-how-to-download-repor
 title: "How to Download Reports at Telnyx"
 description: "As a Telnyx Customer, you are able to download your own CDR / MDR / Call Control and/or Usage Report whenever you want. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 5ec7d869c249503909ba54ca33a47c6e70bd7e66f7aa9f665617efc09cdefe0f
+content_hash: 758c84942da272a25af3a849a2036b4abb40ab6b88f8ba46683a04a9ed4767f3
 ---
 
 
@@ -68,13 +68,3 @@ Or the specific connection, application or messaging profile you're interested i
 ![](_images/22626aba867e4b1d.png)
 
 Step by step guide to Usage Reports can be viewed [here](https://support.telnyx.com/en/articles/4425016-reporting-usage-reports).
-
----
-
-Related Articles
-
-[Distinguish your outbound profiles & DIDs](https://support.telnyx.com/en/articles/1130721-distinguish-your-outbound-profiles-dids)[Reporting: Overview](https://support.telnyx.com/en/articles/4305547-reporting-overview)[Telnyx Dashboards](https://support.telnyx.com/en/articles/4307059-telnyx-dashboards)[Telnyx SIP Response Codes](https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes)[Reporting: Detail Requests](https://support.telnyx.com/en/articles/4424926-reporting-detail-requests)
-
-Did this answer your question?
-
-😞😐😃

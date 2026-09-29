@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/15668484-calls-per-second-cps
 title: "Calls Per Second (CPS) Limits"
 description: "Calls Per Second… See Telnyx guidance and requirements Learn more about Calls Per Second (CPS) Limits with Telnyx."
 scraped: 2026-07-08
-content_hash: 4fefa00a08c18143b2507c5082b93ff30ea8d22348fd5b332c6578ab74a84f40
+content_hash: 470596ed1850726e682491c83ae6f057a77db7a9bcfbe08d1d80e9f28cb62072
 ---
 
 
@@ -169,13 +169,3 @@ The monthly CPS Peak surcharge is calculated separately at the account level bas
 Reaching a real-time CPS limit is **not** required to incur a CPS Peak surcharge, and calls rejected because of CPS limiting are **not included** in the monthly surcharge calculation.
 
 For details about the monthly CPS Peak surcharge calculation and billing, see: **[CPS surcharge article](https://support.telnyx.com/en/articles/7834487-calls-per-second-cps-surcharge)***.*
-
----
-
-Related Articles
-
-[Sansay: SBC VSXi Setup](https://support.telnyx.com/en/articles/4301888-sansay-sbc-vsxi-setup)[Grandstream UCM6xxx: SIP Trunks](https://support.telnyx.com/en/articles/5748258-grandstream-ucm6xxx-sip-trunks)[Calls per second (CPS) surcharge](https://support.telnyx.com/en/articles/7834487-calls-per-second-cps-surcharge)[Configure P-Charge-Info for Private PBX (Example: FreePBX)](https://support.telnyx.com/en/articles/12580765-configure-p-charge-info-for-private-pbx-example-freepbx)[Configure Token Authentication Header (X-Telnyx-Token) in FreePBX](https://support.telnyx.com/en/articles/12580952-configure-token-authentication-header-x-telnyx-token-in-freepbx)
-
-Did this answer your question?
-
-😞😐😃

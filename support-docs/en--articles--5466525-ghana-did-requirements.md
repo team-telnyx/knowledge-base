@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5466525-ghana-did-requirement
 title: "Ghana DID requirements"
 description: "Here you will find a list of detailed requirements for acquiring Ghana numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: d2baf34140e4f2d975d2a3106b45dc9ed76fc8b86a64a71ae5ecd37ca4bd88c8
+content_hash: a33765e79e6a422187945b2f1d7c6c157df426a40368a6804b33fde4fa21f5a5
 ---
 
 
@@ -106,13 +106,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Uruguay DID Requirements](https://support.telnyx.com/en/articles/3362891-uruguay-did-requirements)[Ecuador DID Requirements](https://support.telnyx.com/en/articles/3506153-ecuador-did-requirements)[Jamaica DID Requirements](https://support.telnyx.com/en/articles/5466658-jamaica-did-requirements)[Nicaragua DID Requirements](https://support.telnyx.com/en/articles/5466838-nicaragua-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

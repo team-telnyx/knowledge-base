@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6675096-madagascar-sms-guidel
 title: "Madagascar: SMS Guidelines"
 description: "Sending SMS to Madagascar? See Telnyx guidance and requirements Learn more about Madagascar: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 6114339ebe457e0aa9a49673caf55294d1822e84b6a9e40ea645f42b17acd5b3
+content_hash: 282fd3a2ca9efe8567feba5557d45b7bf9f98c3759832ff487816f2ba1cda99c
 ---
 
 
@@ -59,13 +59,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Greece: SMS Guidelines](https://support.telnyx.com/en/articles/6563817-greece-sms-guidelines)[Burundi: SMS Guidelines](https://support.telnyx.com/en/articles/6601042-burundi-sms-guidelines)[Jordan: SMS Guidelines](https://support.telnyx.com/en/articles/6674487-jordan-sms-guidelines)[Malawi: SMS Guidelines](https://support.telnyx.com/en/articles/6675104-malawi-sms-guidelines)[Tajikistan: SMS Guidelines](https://support.telnyx.com/en/articles/6683287-tajikistan-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

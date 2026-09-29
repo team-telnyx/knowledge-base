@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3679913-sim-reporting-analyti
 title: "SIM Reporting & Analytics"
 description: "In this article we will explain where to find your WDRs in the Telnyx Mission Control Portal and API. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 9a5dd42bc9de2e69d23acbfb61d587ef2a6a1526acc30c29893ea0bdc74e8736
+content_hash: aec1aa84cbde12bd3690d96b7e853d36a675e611e31395c00584f31f0ed6f754
 ---
 
 
@@ -79,13 +79,3 @@ The response will include the following fields:
 | sim\_group\_id | UUID for SIM group resource. |
 | sim\_group\_name | The name of the related SIM group at the time that the session was active. |
 | uplink\_data | Amount of data uploaded in the related session. |
-
----
-
-Related Articles
-
-[Telnyx Global SIMs FAQs](https://support.telnyx.com/en/articles/3270136-telnyx-global-sims-faqs)[Notification Settings](https://support.telnyx.com/en/articles/4277896-notification-settings)[SIM Setup and Configuration](https://support.telnyx.com/en/articles/4298710-sim-setup-and-configuration)[SIM Connectivity Logs](https://support.telnyx.com/en/articles/5666594-sim-connectivity-logs)[SIM Card Location and Device Details](https://support.telnyx.com/en/articles/5812302-sim-card-location-and-device-details)
-
-Did this answer your question?
-
-😞😐😃

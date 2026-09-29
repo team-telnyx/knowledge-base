@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/9183726-manual-imsi-selection
 title: "Manual IMSI Selection on Telnyx SIM"
 description: "⚠️ For engineering use only – perform only if instructed by Telnyx support. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 5f23cc1ee0eda66d7cb583c3aa922c106e1a20bd41c773eaa61db8e80232e151
+content_hash: e4b5d95d14002aa2145a7b4cc825b43533aa82b8a6a59e317e84edff2683061f
 ---
 
 
@@ -90,13 +90,3 @@ Always remember to switch back to Automatic once testing is complete (unless ins
 | 2 | Select the desired IMSI via the **IMSI Selection Menu** |
 | 3 | Wait a few minutes for data services |
 | 4 | Switch back to **Automatic unless instructed to stay on Manual selection** |
-
----
-
-Related Articles
-
-[How to set up a Telnyx SIM Card](https://support.telnyx.com/en/articles/3269600-how-to-set-up-a-telnyx-sim-card)[Adding the Telnyx SIM APN to your device](https://support.telnyx.com/en/articles/3269973-adding-the-telnyx-sim-apn-to-your-device)[How to setup a Telnyx eSIM via QR code](https://support.telnyx.com/en/articles/8117401-how-to-setup-a-telnyx-esim-via-qr-code)[Using Telnyx SIM with Ubiquiti UniFi LTE Pro](https://support.telnyx.com/en/articles/10164784-using-telnyx-sim-with-ubiquiti-unifi-lte-pro)[Using Telnyx SIM with InRouter300 Series Cellular Routers](https://support.telnyx.com/en/articles/10511105-using-telnyx-sim-with-inrouter300-series-cellular-routers)
-
-Did this answer your question?
-
-😞😐😃

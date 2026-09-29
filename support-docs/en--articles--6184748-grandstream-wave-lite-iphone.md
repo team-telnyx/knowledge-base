@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6184748-grandstream-wave-lite
 title: "Grandstream Wave Lite (iPhone)"
 description: "Learn how to configure the Grandstream Wave Lite app with Telnyx on your iOS device. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: a2b50df0eefde23b728846fb7a9773e32161e168384aa550534767d5a0bd2377
+content_hash: 35ebe8998b41340556c265d32281bca5453e36458fd4e0c83a2998db41a71a62
 ---
 
 
@@ -155,13 +155,3 @@ Additionally you can check out:
 * [Grandstream FAQ](https://blog.grandstream.com/faq)
 * [Grandstream user forum](https://forums.grandstream.com/)
 * [Helpdesk](https://helpdesk.grandstream.com/)
-
----
-
-Related Articles
-
-[Configuring Grandstream GXP16XX with Telnyx](https://support.telnyx.com/en/articles/1130660-configuring-grandstream-gxp16xx-with-telnyx)[Grandstream Wave Lite (Android)](https://support.telnyx.com/en/articles/6184897-grandstream-wave-lite-android)[Grandstream GDS3710: Wave Lite (Android)](https://support.telnyx.com/en/articles/6187273-grandstream-gds3710-wave-lite-android)[Grandstream GDS3710: Wave Lite (iOS)](https://support.telnyx.com/en/articles/6187411-grandstream-gds3710-wave-lite-ios)[Grandstream GXV3370](https://support.telnyx.com/en/articles/6187576-grandstream-gxv3370)
-
-Did this answer your question?
-
-😞😐😃

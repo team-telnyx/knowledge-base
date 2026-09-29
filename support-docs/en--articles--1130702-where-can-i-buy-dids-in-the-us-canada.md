@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130702-where-can-i-buy-dids-
 title: "Where can I Buy DIDs in the US & Canada?"
 description: "Need to purchase DIDs in the US or Canada? See Telnyx guidance and requirements Learn more about Where can I Buy DIDs in the US & Canada? with Telnyx."
 scraped: 2026-07-08
-content_hash: 5f537b58f0671121a74311273fd03537b581c23be7c4070b59f8847693e3888c
+content_hash: 73e1dea0e4e5ef7d7d3e6071ec2d2fd37c96c120e9bb127d99596893abbe9227
 ---
 
 
@@ -26,13 +26,3 @@ We have access to over 15,000 Rate Centers across US and Canada. With Telnyx, yo
 ## How do I purchase DIDs in the US & Canada?
 
 Easy, start by checking out our [Numbers Pricing](https://telnyx.com/pricing/numbers) page. Then, you create a Telnyx account and start searching for numbers.
-
----
-
-Related Articles
-
-[Sweden DID Requirements](https://support.telnyx.com/en/articles/1311477-sweden-did-requirements)[Luxembourg DID Requirements](https://support.telnyx.com/en/articles/3739502-luxembourg-did-requirements)[Malaysia DID Requirements](https://support.telnyx.com/en/articles/3739509-malaysia-did-requirements)[Nigeria DID Requirements](https://support.telnyx.com/en/articles/5948771-nigeria-did-requirements)[Costa Rica DID Requirements](https://support.telnyx.com/en/articles/8487192-costa-rica-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

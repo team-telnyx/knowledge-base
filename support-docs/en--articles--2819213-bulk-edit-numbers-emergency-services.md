@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/2819213-bulk-edit-numbers-eme
 title: "Bulk Edit Numbers - Emergency Services"
 description: "Guide to assigning emergency address to numbers in Bulk. See Telnyx guidance and requirements Learn more about Bulk Edit Numbers - Emergency Services with."
 scraped: 2026-07-08
-content_hash: 602e80ad34730334d404facd95993a6f61384588395d6de8bf722acc1bac9995
+content_hash: 139cccb590010b640373fbe74a5c9c1d956c28410a4896821fd05d500596a3f8
 ---
 
 
@@ -66,13 +66,3 @@ Once you've chosen "Enable All," you'll have the option to either select an addr
 
 Upon saving the address, emergency service will be enabled for all the initially selected numbers.
 ​
-
----
-
-Related Articles
-
-[Bulk Edit Numbers - Voice Settings](https://support.telnyx.com/en/articles/2807846-bulk-edit-numbers-voice-settings)[Bulk Edit Numbers - Assigning tags](https://support.telnyx.com/en/articles/2807910-bulk-edit-numbers-assigning-tags)[Bulk Edit Numbers - Delete Numbers](https://support.telnyx.com/en/articles/2819236-bulk-edit-numbers-delete-numbers)[Dialing Emergency Services](https://support.telnyx.com/en/articles/8712528-dialing-emergency-services)[Emergency Services and IPND in Australia](https://support.telnyx.com/en/articles/9039036-emergency-services-and-ipnd-in-australia)
-
-Did this answer your question?
-
-😞😐😃

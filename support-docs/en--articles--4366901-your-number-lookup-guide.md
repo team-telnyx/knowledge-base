@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4366901-your-number-lookup-gu
 title: "Your Number Lookup Guide"
 description: "This guide covers how to use the Number Lookup tool in the Telnyx Mission Control Portal to retrieve carrier details… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: a5ecd92b7a5789ec646b37632db4606ed7fcc0701d8ccb546a39646a26f6409c
+content_hash: 9612370eaa60478f9a8ba4ee18a528722d9eb74b36ccfc90c2043e53068fa860
 ---
 
 
@@ -122,13 +122,3 @@ View your rates at [Telco Pricing](https://portal.telnyx.com/#/pricing/telco). F
 | LRN data incomplete | NPAC User not enabled | Enable in Account Settings |
 | 401 Unauthorized | Invalid API key | Verify key and header format |
 | Sub-user access denied | Owner-only feature | Use org owner credentials |
-
----
-
-Related Articles
-
-[Set up Inbound Caller ID Name (incoming)](https://support.telnyx.com/en/articles/1130656-set-up-inbound-caller-id-name-incoming)[E911 Setup Guide](https://support.telnyx.com/en/articles/1130683-e911-setup-guide)[Caller ID Outbound vs CNAM](https://support.telnyx.com/en/articles/1130720-caller-id-outbound-vs-cnam)[Bulk Edit Numbers - Voice Settings](https://support.telnyx.com/en/articles/2807846-bulk-edit-numbers-voice-settings)[Caller ID Number Policy](https://support.telnyx.com/en/articles/3546251-caller-id-number-policy)
-
-Did this answer your question?
-
-😞😐😃

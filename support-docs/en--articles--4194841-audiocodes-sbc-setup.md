@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4194841-audiocodes-sbc-setup
 title: "Audiocodes SBC: Setup"
 description: "Learn AudioCodes SBC configuration with Telnyx - Click to dive in today. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 490ed95c00bf064e8ce590a4d7e35ad57d8c518109754287eaeb21111ea7c4a5
+content_hash: 22082aa6f6fa43687d83459d68f8362f1a5fcab7dfca33418d5dd17347b61b82
 ---
 
 
@@ -108,13 +108,3 @@ Additionally, check out:
 * [Audiocodes SBC documentation](https://www.audiocodes.com/library/technical-documents?productFamilyGroup=1637)
 * [Audiocodes SBC interoperability list](https://www.audiocodes.com/partners/interoperability-list)
 * [Audiocodes support](https://www.audiocodes.com/services-support)
-
----
-
-Related Articles
-
-[Oracle: Acme Packet SBC Setup](https://support.telnyx.com/en/articles/4194697-oracle-acme-packet-sbc-setup)[Ribbon: EdgeMarc 6000 Setup](https://support.telnyx.com/en/articles/4215031-ribbon-edgemarc-6000-setup)[Sansay: SBC VSXi Setup](https://support.telnyx.com/en/articles/4301888-sansay-sbc-vsxi-setup)[Panasonic KX-HDV: Telnyx setup](https://support.telnyx.com/en/articles/5814406-panasonic-kx-hdv-telnyx-setup)[Audiocodes 400HD](https://support.telnyx.com/en/articles/5819923-audiocodes-400hd)
-
-Did this answer your question?
-
-😞😐😃

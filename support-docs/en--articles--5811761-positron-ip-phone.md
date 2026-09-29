@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5811761-positron-ip-phone
 title: "Positron IP Phone"
 description: "Step-by-step guide to set up Positron IP phones with Telnyx. See Telnyx guidance and requirements Learn more about Positron IP Phone with Telnyx."
 scraped: 2026-07-08
-content_hash: 14fec6187162c602b6ebf6c5e0fce06ad450812c422ce4a20eabbd29067bb4e9
+content_hash: 90e5f211c5802bb22ce04c53933893655f7174815a2e2209a614f66df0e1fc80
 ---
 
 
@@ -168,13 +168,3 @@ Additionally, check out:
   + IP410G
 
 ---
-
----
-
-Related Articles
-
-[Fanvil H2U: Compact IP](https://support.telnyx.com/en/articles/6202755-fanvil-h2u-compact-ip)[Fanvil H3: Hotel IP](https://support.telnyx.com/en/articles/6202965-fanvil-h3-hotel-ip)[Fanvil H3W/H5W: WiFi IP](https://support.telnyx.com/en/articles/6203347-fanvil-h3w-h5w-wifi-ip)[Fanvil H5: Hotel IP](https://support.telnyx.com/en/articles/6203401-fanvil-h5-hotel-ip)[Fanvil X-Series: IP Phone](https://support.telnyx.com/en/articles/6209971-fanvil-x-series-ip-phone)
-
-Did this answer your question?
-
-😞😐😃

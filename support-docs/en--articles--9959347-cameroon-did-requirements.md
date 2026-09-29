@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/9959347-cameroon-did-requirem
 title: "Cameroon DID Requirements"
 description: "Here you will find a list of detailed requirements for acquiring Cameroon numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: d7dc1d911c782047beb3d8c36ae01efbc1fd17f08f3cc3fd5d39cab0009a8272
+content_hash: b02d0ba6d8702a3dd6683800c3d59ab70268dd4c8f98387920ae0580704d8184
 ---
 
 
@@ -54,13 +54,3 @@ For address verification:
 \* Proof of address (dated within 3 months)
 ​
 Please note that once the documentation is received it will take approximately 72 hours to validate the information and activate the number for use.
-
----
-
-Related Articles
-
-[Belgium DID Requirements](https://support.telnyx.com/en/articles/1311433-belgium-did-requirements)[Ireland DID Requirements](https://support.telnyx.com/en/articles/1311458-ireland-did-requirements)[Georgia DID Requirements](https://support.telnyx.com/en/articles/3506173-georgia-did-requirements)[Vietnam DID Requirements](https://support.telnyx.com/en/articles/3737163-vietnam-did-requirements)[Singapore DID Requirements](https://support.telnyx.com/en/articles/3739573-singapore-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

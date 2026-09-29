@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6203347-fanvil-h3w-h5w-wifi-i
 title: "Fanvil H3W/H5W: WiFi IP"
 description: "Learn how to configure a Telnyx SIP trunk on the Fanvil H3W/H5W WiFi IP… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: dae55f4971a98e38a4eccf77064103145f495c684a5e4d81af6e6a08c2cc927a
+content_hash: c7098ee750959782c10c229d842ab951358e552cd6f653e5e17f56e4c7d76cf8
 ---
 
 
@@ -129,13 +129,3 @@ Additionally you can check out:
 * [Fanvil H5W firmware](https://www.fanvil.com/Support/download/id/137.html)
 
 ---
-
----
-
-Related Articles
-
-[Fanvil H2U: Compact IP](https://support.telnyx.com/en/articles/6202755-fanvil-h2u-compact-ip)[Fanvil H3: Hotel IP](https://support.telnyx.com/en/articles/6202965-fanvil-h3-hotel-ip)[Fanvil X2CP/X2C/X2P: Call Center IP](https://support.telnyx.com/en/articles/6206756-fanvil-x2cp-x2c-x2p-call-center-ip)[Fanvil X-Series: IP Phone](https://support.telnyx.com/en/articles/6209971-fanvil-x-series-ip-phone)[Fanvil XU Series: IP Phone](https://support.telnyx.com/en/articles/6210147-fanvil-xu-series-ip-phone)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/2819236-bulk-edit-numbers-del
 title: "Bulk Edit Numbers - Delete Numbers"
 description: "Navigate Telnyx's porting policies and procedures with ease, ensuring a smooth number porting experience. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: bf911e20af6818143afd6abee41d07703c1617063b6a4cfc34a8b67e011aa59c
+content_hash: 8854edb104abd5e72b05bbd9bd60c822cd24cc3d06852510c310641ffa79732f
 ---
 
 
@@ -62,13 +62,3 @@ Once you click on "Delete Numbers" a new window will open to display the numbers
 Once you've clicked on the Delete Numbers button (in red) the numbers will be permanently deleted from your account.
 ​
 ​**Note - This is an irreversible action. If the numbers are deleted from the portal and you wish to recover them, you can repurchase them within 15 days from the deletion date. After this period, the number will become available in our number pool for others to purchase.**
-
----
-
-Related Articles
-
-[Porting Policy & Procedure](https://support.telnyx.com/en/articles/1130630-porting-policy-procedure)[Bulk Edit Numbers - Voice Settings](https://support.telnyx.com/en/articles/2807846-bulk-edit-numbers-voice-settings)[Bulk Edit Numbers - Emergency Services](https://support.telnyx.com/en/articles/2819213-bulk-edit-numbers-emergency-services)[Bulk Edit Numbers - Messaging Profile](https://support.telnyx.com/en/articles/2819238-bulk-edit-numbers-messaging-profile)[Search and Buy Numbers](https://support.telnyx.com/en/articles/4380325-search-and-buy-numbers)
-
-Did this answer your question?
-
-😞😐😃

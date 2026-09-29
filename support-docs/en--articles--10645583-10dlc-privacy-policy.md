@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/10645583-10dlc-privacy-policy
 title: "10DLC Privacy Policy"
 description: "Required verbiage in your 10dlc privacy policy or on the opt in… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: d42dcbd08bb330e0aa10504286cf75d33dcd7460d03daf8b7b267d00291933e2
+content_hash: 13eedf9fb5f98be6c7de6f073aedbda5be36249e97bb31ac84217b6980b35bc4
 ---
 
 
@@ -36,13 +36,3 @@ All the above categories exclude text messaging originator optin data and consen
 We will not share your opt-in to an SMS campaign with any third party for purposes unrelated to providing you with the services of that campaign. We may share your Personal Data, including your SMS opt-in or consent status, with third parties that help us provide our messaging services, including but not limited to platform providers, phone companies, and any other vendors who assist us in the delivery of text messages.
 
 It is important to note that the verbiage needs to cover any method of transfer so if it just says the mobile data won't be sold, that is insufficient as it needs to cover sharing as well which could mean being transferred without any sale such as between affiliates or friendly businesses, which is prohibited under 10dlc.
-
----
-
-Related Articles
-
-[Messaging - 10DLC Campaign Checklist](https://support.telnyx.com/en/articles/9038141-messaging-10dlc-campaign-checklist)[10DLC Campaign Compliance Requirements](https://support.telnyx.com/en/articles/9940291-10dlc-campaign-compliance-requirements)[10DLC Carrier Error Codes Explanations](https://support.telnyx.com/en/articles/10547022-10dlc-carrier-error-codes-explanations)[Guide to 10DLC Message Flow Field](https://support.telnyx.com/en/articles/10562019-guide-to-10dlc-message-flow-field)[Compliance Catch-up: Why Toll-Free Verification Now Mirrors 10DLC](https://support.telnyx.com/en/articles/13765655-compliance-catch-up-why-toll-free-verification-now-mirrors-10dlc)
-
-Did this answer your question?
-
-😞😐😃

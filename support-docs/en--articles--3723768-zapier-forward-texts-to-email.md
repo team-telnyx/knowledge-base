@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3723768-zapier-forward-texts-
 title: "Zapier: Forward Texts to Email"
 description: "In this article we will discuss how to set up text message forwarding to your inbox. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 4901b4f50f6ee3bc7c42102099bd55eebea92567b447ebe6f4be3b4af58f78e2
+content_hash: 731145b661f87afda8e35e523a45243cfc1e1df0826464ad1c5af9df2a13fd65
 ---
 
 
@@ -132,13 +132,3 @@ Additionally, you can check out:
 * [Zapier Help Center](https://help.zapier.com/hc/en-us)
 * [Zapier Community](https://community.zapier.com/)
 * [Zapier University](https://learn.zapier.com/)
-
----
-
-Related Articles
-
-[Call Forwarding](https://support.telnyx.com/en/articles/1130657-call-forwarding)[Forwarding SMS to Your Mobile Number](https://support.telnyx.com/en/articles/3231942-forwarding-sms-to-your-mobile-number)[Automated Replies for Messages using Zapier](https://support.telnyx.com/en/articles/3232529-automated-replies-for-messages-using-zapier)[Textable Setup Guide](https://support.telnyx.com/en/articles/3685327-textable-setup-guide)[Receiving SMS on your Telnyx number](https://support.telnyx.com/en/articles/4348981-receiving-sms-on-your-telnyx-number)
-
-Did this answer your question?
-
-😞😐😃

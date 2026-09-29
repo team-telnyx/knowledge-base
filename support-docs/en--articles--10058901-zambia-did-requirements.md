@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/10058901-zambia-did-requireme
 title: "Zambia DID Requirements"
 description: "Requirements to acquire Zambia numbers. See Telnyx guidance and requirements Learn more about Zambia DID Requirements with Telnyx."
 scraped: 2026-07-08
-content_hash: e4c13a68634e5dc337e2996a49737b36856dabbb0d8052031fe09b043ebb51c2
+content_hash: 00d495f5cb6dc9e5382a5b0a27d6d788c9de02ece49e84eb41b05090acfaca86
 ---
 
 
@@ -55,13 +55,3 @@ For **address** verification:
 \* Service usage description
 
 \*\* Please note that once the documentation is received it will take approximately 72 hours to validate the information and activate the number for use."
-
----
-
-Related Articles
-
-[Benin DID Requirements](https://support.telnyx.com/en/articles/9959295-benin-did-requirements)[Congo DID Requirements](https://support.telnyx.com/en/articles/9959375-congo-did-requirements)[Rwanda DID Requirements](https://support.telnyx.com/en/articles/9961409-rwanda-did-requirements)[Kuwait DID Requirements](https://support.telnyx.com/en/articles/12640555-kuwait-did-requirements)[Guatemala DID Requirements](https://support.telnyx.com/en/articles/15397771-guatemala-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

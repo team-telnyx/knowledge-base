@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4371498-sending-alphanumeric-
 title: "Sending Alphanumeric SMS - Sender ID"
 description: "This article gives an overview of how you can start sending Alphanumeric… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: d7109015a42adcd0291aae8e990c214c6718d12b3973704715d331f12a60fae7
+content_hash: 003def3fc410c658c6a1817e455108e7f1e73a6c5e83cb2c86a5c47824eac275
 ---
 
 
@@ -88,13 +88,3 @@ curl --location --request POST 'https://api.telnyx.com/v2/messages' \
 ```
 
 ![Breaking Line](_images/682991ade0be9812.png)
-
----
-
-Related Articles
-
-[MMS Sending and Receiving](https://support.telnyx.com/en/articles/3102823-mms-sending-and-receiving)[SMS Setup with POSTMAN](https://support.telnyx.com/en/articles/4287554-sms-setup-with-postman)[Alphanumeric Sender ID](https://support.telnyx.com/en/articles/6354449-alphanumeric-sender-id)[Burundi: SMS Guidelines](https://support.telnyx.com/en/articles/6601042-burundi-sms-guidelines)[Tunisia: SMS Guidelines](https://support.telnyx.com/en/articles/6683385-tunisia-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6837118-elevateai-proof-of-co
 title: "ElevateAI Proof-of-Concept Setup Guide"
 description: "Step-by-step guide to integrate Telnyx with ElevateAI for transcription and recording. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: d93bcb7fd70fd84b0ba388734ba3b2d36fe35db4d7a8c4f207934755a3563576
+content_hash: 14fd12d41fc5316a47ee89d895878dcbc72676be9865fd92bff652264c36fd49
 ---
 
 
@@ -81,13 +81,3 @@ Copy your **API token**, you will need to use it later:
 ## **Step 4: Clone the PoC project and follow the steps in Github**
 
 Link: <https://github.com/team-telnyx/demo-python-telnyx/tree/master/flask-elevateai-transcription-call-control>
-
----
-
-Related Articles
-
-[E911 Setup Guide](https://support.telnyx.com/en/articles/1130683-e911-setup-guide)[Yealink: Setup with Telnyx](https://support.telnyx.com/en/articles/3074710-yealink-setup-with-telnyx)[Bicom: PBXware Setup](https://support.telnyx.com/en/articles/5138185-bicom-pbxware-setup)[Configuring Telnyx with Microsoft Teams Direct Routing](https://support.telnyx.com/en/articles/5253876-configuring-telnyx-with-microsoft-teams-direct-routing)[Real-Time Transcription](https://support.telnyx.com/en/articles/8292490-real-time-transcription)
-
-Did this answer your question?
-
-😞😐😃

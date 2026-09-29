@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3266975-greece-number-porting
 title: "Greece Number Porting"
 description: "Here you will find detailed requirements for Greece number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 10a0f668cb89b1333cdb82a29e2356166adc20daaa2a8ef72ec6e0a1c7480d74
+content_hash: b1f13a5627cb7e2fe81f3d65ac70c79b430f5503558e2a660b418a07c87371ff
 ---
 
 
@@ -30,13 +30,3 @@ Here you will find detailed requirements for Greece number portability. See Teln
 ## Download Greece Letter of Authorization
 
 Download LOA **[here](http://assets.ctfassets.net/taysl255dolk/6YYtHkPiDoOfhR8Vp3QxUz/3f7b77cf78ecdebe280c6c0226ac12ea/LoA_-_Telnyx_-_INTL.pdf)**.
-
----
-
-Related Articles
-
-[Austria Number Porting](https://support.telnyx.com/en/articles/3266409-austria-number-porting)[Italy Number Porting](https://support.telnyx.com/en/articles/3267012-italy-number-porting)[Hungary Number Porting](https://support.telnyx.com/en/articles/5188524-hungary-number-porting)[Romania Number Porting](https://support.telnyx.com/en/articles/5188564-romania-number-porting)[Poland Number Porting](https://support.telnyx.com/en/articles/5188583-poland-number-porting)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8047898-use-goodsync-with-tel
 title: "Use GoodSync with Telnyx Storage"
 description: "Learn how to set up GoodSync with Telnyx Storage to effortlessly synchronize and securely backup your files for… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 037acac2c76f65beed97f368d7b48881fec011070c5dfb85bdae54fa91cdcd5e
+content_hash: 1e0ba210698e39ae4aa4486e71d4353d270b9c74cc85d5df6ca5ed527eb0e365
 ---
 
 
@@ -91,13 +91,3 @@ For more information on how to use GoodSync, check out their guides for Windows,
 ​
 
 You can also refer to the GoodSync [Documentation](https://www.goodsync.com/goodsync-storage).
-
----
-
-Related Articles
-
-[Use Backup4all with Telnyx Storage](https://support.telnyx.com/en/articles/7869264-use-backup4all-with-telnyx-storage)[Use Duplicati with Telnyx Storage](https://support.telnyx.com/en/articles/7873510-use-duplicati-with-telnyx-storage)[Use Syncovery with Telnyx Storage](https://support.telnyx.com/en/articles/8047874-use-syncovery-with-telnyx-storage)[Use ODrive with Telnyx Storage](https://support.telnyx.com/en/articles/8047956-use-odrive-with-telnyx-storage)[Use AirExplorer with Telnyx Storage](https://support.telnyx.com/en/articles/8048045-use-airexplorer-with-telnyx-storage)
-
-Did this answer your question?
-
-😞😐😃

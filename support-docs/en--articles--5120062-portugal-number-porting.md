@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5120062-portugal-number-porti
 title: "Portugal Number porting"
 description: "Here you will find a detailed list of requirements for Portugal number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 1e2730cc6ed38639e9ebbf030ab3524f81b1a291ca6496c7336f177f43ecbf69
+content_hash: a70c05b9e66c8d1ec0b391d6ab33735c23f7b44b731b1606df8a78de3a374642
 ---
 
 
@@ -37,13 +37,3 @@ Here you will find a detailed list of requirements for Portugal number portabili
 * Outage during the porting may occur. The number(s) may be out of service all the porting window time for approximately 3 hours; but usually the loss of service lasts a maximum of 30 minutes or most of them are smooth transfers.
 
 Download LoA [here](https://assets.ctfassets.net/taysl255dolk/1Oaa0QNqequee3pdi3izCY/1e82e26ba0ef6789315a0f0d19e20188/Loa_-_Telnyx-_Portugal__PRT_.pdf)
-
----
-
-Related Articles
-
-[Mexico Number Porting](https://support.telnyx.com/en/articles/3267101-mexico-number-porting)[Netherlands Number Porting](https://support.telnyx.com/en/articles/3267124-netherlands-number-porting)[South Africa Number Porting](https://support.telnyx.com/en/articles/4400326-south-africa-number-porting)[Albania Number Porting](https://support.telnyx.com/en/articles/5190443-albania-number-porting)[Singapore Number Porting](https://support.telnyx.com/en/articles/7235002-singapore-number-porting)
-
-Did this answer your question?
-
-😞😐😃

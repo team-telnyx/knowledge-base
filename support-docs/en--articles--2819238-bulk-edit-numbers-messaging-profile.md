@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/2819238-bulk-edit-numbers-mes
 title: "Bulk Edit Numbers - Messaging Profile"
 description: "Simplify your messaging campaigns with Telnyx's bulk edit feature for messaging profiles, See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 4af97ea9bba9a09ae8f4d5b7e30130efde14228813c4fa0190bbdb5e8cb69fdd
+content_hash: 0555853d44f3314748f27dac7a2744f001aedc1a87c04b29ac72462b59bc165e
 ---
 
 
@@ -67,13 +67,3 @@ Upon selecting a profile, you will see a message regarding the MRC charge for as
 ![](_images/f2dae876268ebf7e.png)
 
 Once you click "Save," you will notice that all the bulk-selected numbers have been updated with the chosen messaging profile.
-
----
-
-Related Articles
-
-[Bulk Edit Numbers - Voice Settings](https://support.telnyx.com/en/articles/2807846-bulk-edit-numbers-voice-settings)[Bulk Edit Numbers - Emergency Services](https://support.telnyx.com/en/articles/2819213-bulk-edit-numbers-emergency-services)[Bulk Edit Numbers - Delete Numbers](https://support.telnyx.com/en/articles/2819236-bulk-edit-numbers-delete-numbers)[Setting Up a Messaging Profile](https://support.telnyx.com/en/articles/3562059-setting-up-a-messaging-profile)[Bulk Messaging with Sheets](https://support.telnyx.com/en/articles/8268223-bulk-messaging-with-sheets)
-
-Did this answer your question?
-
-😞😐😃

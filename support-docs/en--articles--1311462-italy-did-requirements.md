@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1311462-italy-did-requirement
 title: "Italy DID Requirements"
 description: "Here you will find all of the requirements for purchasing numbers in Italy. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f9182d222938729143c63f371ecbf116fb10fe17fa74f5f0ccca96ce69439e6f
+content_hash: c32c9511744110b7f464d3b1bc982adc2f83261d709d7af30336504df0f3b0cf
 ---
 
 
@@ -207,13 +207,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
 ​
-
----
-
-Related Articles
-
-[Belgium DID Requirements](https://support.telnyx.com/en/articles/1311433-belgium-did-requirements)[Netherlands DID Requirements](https://support.telnyx.com/en/articles/1311472-netherlands-did-requirements)[Sweden DID Requirements](https://support.telnyx.com/en/articles/1311477-sweden-did-requirements)[Austria DID Requirements](https://support.telnyx.com/en/articles/5463877-austria-did-requirements)[Poland DID Requirements](https://support.telnyx.com/en/articles/5466967-poland-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

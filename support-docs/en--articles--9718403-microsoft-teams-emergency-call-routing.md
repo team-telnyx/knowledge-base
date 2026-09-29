@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/9718403-microsoft-teams-emerg
 title: "Microsoft Teams Emergency Call Routing"
 description: "In today's fast-paced digital world, ensuring that emergency calls are routed accurately and efficiently is more… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: ffa51bc4b5e221c71572c1fd57b080f733cb6ab0846fe279c71bf483bed7f2c1
+content_hash: 7e7faf1b7a9681f78cba527e821e957a6841b578cd0ea7a826ccb5e06b93f51d
 ---
 
 
@@ -103,13 +103,3 @@ Below is an example of the metadata included in a Microsoft Teams SIP INVITE whe
 The current method for PIDFLO supported are LIS or ASSIST This XML data is processed by Telnyx to determine the correct PSAP for routing the emergency call.
 
 By leveraging this sophisticated technology, Microsoft Teams and Telnyx ensure that every emergency call is handled with the utmost accuracy, providing peace of mind for users who rely on these services in critical moments.
-
----
-
-Related Articles
-
-[E911 Setup Guide](https://support.telnyx.com/en/articles/1130683-e911-setup-guide)[How do I test E911 service?](https://support.telnyx.com/en/articles/1130709-how-do-i-test-e911-service)[SIP URI Calling](https://support.telnyx.com/en/articles/2925713-sip-uri-calling)[Configuring Telnyx with Microsoft Teams Direct Routing](https://support.telnyx.com/en/articles/5253876-configuring-telnyx-with-microsoft-teams-direct-routing)[Operator Connect Guide - Microsoft Teams](https://support.telnyx.com/en/articles/7260976-operator-connect-guide-microsoft-teams)
-
-Did this answer your question?
-
-😞😐😃

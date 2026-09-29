@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6531682-philippines-sms-guide
 title: "Philippines: SMS Guidelines"
 description: "SMS Guidelines for Philppines including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Philippines: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: fbd3d329380d8389ddf9a9eeef5e4f6c0dfc61f68df6cfe72fe44faebd9c6bec
+content_hash: 7da926910ae18a39e38e3ed2015a8faeaa5f1848ce0b80d7d0704131501a235b
 ---
 
 
@@ -36,13 +36,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Australia: SMS Guidelines](https://support.telnyx.com/en/articles/6531656-australia-sms-guidelines)[Norway: SMS Guidelines](https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines)[India: SMS Guidelines](https://support.telnyx.com/en/articles/6674383-india-sms-guidelines)[Mali: SMS Guidelines](https://support.telnyx.com/en/articles/6675247-mali-sms-guidelines)[Nigeria: SMS Guidelines](https://support.telnyx.com/en/articles/6679084-nigeria-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

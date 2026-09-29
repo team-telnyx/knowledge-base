@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130687-whitelisting-telnyx-i
 title: "Whitelisting Telnyx IP Addresses"
 description: "We will explain what Telnyx IP Addresses you will need to whitelist to ensure your service works properly. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 38e9951445c88d8ef3718a7d3d37b463289803d20106b238f44cb02c0ad1e7c2
+content_hash: 904ab9e1c14c0644f1060d23262095849620f8492183feca9423d502458eea01
 ---
 
 
@@ -116,13 +116,3 @@ For location-specific SIP connections, whitelist the following FQDNs and IPs:
 | Canada | sip.telnyx.ca | 192.76.120.31 | 64.16.250.13 |
 
 For the latest and most accurate IP address information, visit [Telnyx IP Addresses](https://sip.telnyx.com).
-
----
-
-Related Articles
-
-[Configuring an AVAYA IP trunk with Telnyx](https://support.telnyx.com/en/articles/1130627-configuring-an-avaya-ip-trunk-with-telnyx)[Configuring a Vicidial IP trunk with Telnyx](https://support.telnyx.com/en/articles/1130632-configuring-a-vicidial-ip-trunk-with-telnyx)[Configuring Grandstream GXP16XX with Telnyx](https://support.telnyx.com/en/articles/1130660-configuring-grandstream-gxp16xx-with-telnyx)[Ip Authentication with X-Telnyx-Token](https://support.telnyx.com/en/articles/4860170-ip-authentication-with-x-telnyx-token)[Whitelisting Telnyx Media IP Addresses](https://support.telnyx.com/en/articles/10007243-whitelisting-telnyx-media-ip-addresses)
-
-Did this answer your question?
-
-😞😐😃

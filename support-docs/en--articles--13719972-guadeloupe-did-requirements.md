@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/13719972-guadeloupe-did-requi
 title: "Guadeloupe DID Requirements"
 description: "Here you will find a list of detailed requirements for acquiring Guadeloupe numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 9e8184832ad1811049520f10c5a65de86fc5574d4d96fe7a10e75ca93ba225cc
+content_hash: a4c5379a1f26cc9d19bc1c29da52912c60e1b9ebd5347d9aba37a54c9f9de84a
 ---
 
 
@@ -44,13 +44,3 @@ For **business identity** verification:
 For **address** verification:
 
 \* Address Worldwide (street, building number, postal code, city and country)
-
----
-
-Related Articles
-
-[Australia DID Requirements](https://support.telnyx.com/en/articles/3505912-australia-did-requirements)[Chile DID Requirements](https://support.telnyx.com/en/articles/5464057-chile-did-requirements)[Finland DID Requirements](https://support.telnyx.com/en/articles/5465874-finland-did-requirements)[Mayotte DID Requirements](https://support.telnyx.com/en/articles/13720003-mayotte-did-requirements)[Reunion DID Requirements](https://support.telnyx.com/en/articles/13720024-reunion-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

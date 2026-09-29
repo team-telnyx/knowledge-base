@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6128008-sipxecs-pbx-setup-con
 title: "sipXecs PBX: Setup & Config"
 description: "Learn how to set up and configure the SIPfoundry sipXecs open source PBX to use Telnyx as the VoIP provider. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f63b33e423028e35e21773deff2c4cdd9da4a0cf08451d5e2bc5a8ace81114a8
+content_hash: 64eba79528bbe83d138a35af31cceb5569fd46a775ad49f876f7b2610a2e71d7
 ---
 
 
@@ -226,13 +226,3 @@ Additionally, check out:
 * [sipXecs documentation](https://sipfoundry.atlassian.net/wiki/display/sipXecs/Home)
 * [SIPfoundry support](http://www.sipfoundry.org/sipxecs-support-services)
 * [sipXecs download](http://www.sipfoundry.org/sipxecs-software-download/)
-
----
-
-Related Articles
-
-[How to configure a Thirdlane PBX](https://support.telnyx.com/en/articles/1130631-how-to-configure-a-thirdlane-pbx)[Wildix: SIP Trunk Setup](https://support.telnyx.com/en/articles/5799830-wildix-sip-trunk-setup)[ScopTEL IP PBX](https://support.telnyx.com/en/articles/5803103-scoptel-ip-pbx)[Dinstar C60: Setup & Config](https://support.telnyx.com/en/articles/6128321-dinstar-c60-setup-config)[MicroSIP: Setup with Telnyx](https://support.telnyx.com/en/articles/6133145-microsip-setup-with-telnyx)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4378813-us-local-call-complet
 title: "US Local Call Completion"
 description: "This article describes local call completion issues and why it occurs. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: ae051f44e063122227d167a82852d5f8fe0b518792787c28b3ccbaa97b23a010
+content_hash: 09c92e69f06d3fa48e6a4a71cc3636f1d7e88bb00eb1a67321b6167c71bcbd0f
 ---
 
 
@@ -95,13 +95,3 @@ In your email, providing the following details will help our team in understandi
 * From and To telephone numbers.
 * Date and time (including timezone) of the call during which the issues were experienced.
 * Any Error messages the callers heard that may indicate switching errors.
-
----
-
-Related Articles
-
-[US Rural Call Completion](https://support.telnyx.com/en/articles/4096828-us-rural-call-completion)[SIP Connection: Fail-over and Retries](https://support.telnyx.com/en/articles/4320364-sip-connection-fail-over-and-retries)[The Rate Sheet and LRN explained](https://support.telnyx.com/en/articles/5073043-the-rate-sheet-and-lrn-explained)[CLI & CLD Validation FAQ](https://support.telnyx.com/en/articles/6247033-cli-cld-validation-faq)[PSTN Replacement / Local Calling with Telnyx](https://support.telnyx.com/en/articles/6622229-pstn-replacement-local-calling-with-telnyx)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/10666839-how-telnyx-handles-s
 title: "How Telnyx Handles SRV Records for SIP Calls"
 description: "SRV Records for SIP… See Telnyx guidance and requirements Learn more about How Telnyx Handles SRV Records for SIP Calls with Telnyx."
 scraped: 2026-07-08
-content_hash: d2ae9b1cf77ffd7f28098cbfc0026cefa1f52577b088d7fcb213c7da10397d80
+content_hash: a3fb73c2627843a60c9694390edf582df0ea46ff1f34170557397e9d9b9290a1
 ---
 
 
@@ -108,13 +108,3 @@ This change enables Telnyx to perform an SRV lookup, correctly routing the call 
 ### **Summary**
 
 Customers should use SRV records for load balancing and failover by omitting the port number in the SIP "to" headers. You should ensure that DNS records (SRV and A records) are configured and resolvable, and if calls fail with a 478 response please verify that no port number is included in the RURI and that the SRV records are properly configured.
-
----
-
-Related Articles
-
-[SIP URI Calling](https://support.telnyx.com/en/articles/2925713-sip-uri-calling)[SIP Connection: Fail-over and Retries](https://support.telnyx.com/en/articles/4320364-sip-connection-fail-over-and-retries)[SIP Registration](https://support.telnyx.com/en/articles/4363904-sip-registration)[Grandstream GRP2612: SIP Trunk](https://support.telnyx.com/en/articles/6184147-grandstream-grp2612-sip-trunk)[Grandstream GXP1700: SIP Trunk](https://support.telnyx.com/en/articles/6184520-grandstream-gxp1700-sip-trunk)
-
-Did this answer your question?
-
-😞😐😃

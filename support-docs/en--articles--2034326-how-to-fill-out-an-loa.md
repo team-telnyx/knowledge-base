@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/2034326-how-to-fill-out-an-lo
 title: "How to fill out an LOA"
 description: "In this article you we will explain in detail what information you will need to fill in on an LOA. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: d201694e6e054a37f549e83db78d74dad93be87336825342f4235d458147acfa
+content_hash: be7cf1d8e680e896950211fb74fb40272f9e58f8d73335123539b02b55409342
 ---
 
 
@@ -63,13 +63,3 @@ The date that the LOA was agreed to and signed on
 Download LOA **[here](https://drive.google.com/file/d/1yxrQSkEIFA5dPzlmRJAtB7QN3iYDzh0z/view)**
 
 If you have any questions or issues relating to filling out your LOA, or any general porting questions. please get in touch with the porting team at [porting@telnyx.com](mailto:porting@telnyx.com).
-
----
-
-Related Articles
-
-[Port Request Rejected](https://support.telnyx.com/en/articles/1782930-port-request-rejected)[Port-In Best Practices](https://support.telnyx.com/en/articles/2030770-port-in-best-practices)[New Zealand Number Porting](https://support.telnyx.com/en/articles/3267206-new-zealand-number-porting)[Porting Requirements](https://support.telnyx.com/en/articles/6460777-porting-requirements)[Auto-generated Letter of Authorization (LOA)](https://support.telnyx.com/en/articles/8588086-auto-generated-letter-of-authorization-loa)
-
-Did this answer your question?
-
-😞😐😃

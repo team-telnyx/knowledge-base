@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6531712-brazil-sms-guidelines
 title: "Brazil: SMS Guidelines"
 description: "Sending SMS to Brazil? See Telnyx guidance and requirements Learn more about Brazil: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 76194f4a9c4aa33de03354c7341721fd648a766025ba3c7ebe7c79fa7b90ed8d
+content_hash: 155b000f1fccdb3672790648b27e2e4b2098a073a4d3ffbe1d0a74b404a410fc
 ---
 
 
@@ -31,13 +31,3 @@ Brazil is a destination that supports SMSC-DLR only, as such, positive DLRs are 
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Bulgaria: SMS Guidelines](https://support.telnyx.com/en/articles/6563862-bulgaria-sms-guidelines)[Ukraine: SMS Guidelines](https://support.telnyx.com/en/articles/6563904-ukraine-sms-guidelines)[Bolivia: SMS Guidelines](https://support.telnyx.com/en/articles/6564249-bolivia-sms-guidelines)[Ecuador: SMS Guidelines](https://support.telnyx.com/en/articles/6570385-ecuador-sms-guidelines)[Serbia: SMS Guidelines](https://support.telnyx.com/en/articles/6683745-serbia-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6281943-alcatel-sd601-sd602-s
 title: "Alcatel: SD601/SD602 SIP Door"
 description: "Learn how to configure a Telnyx SIP trunk with the Alcatel SD601 and SD 602 SIP door phones. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: b2c5f1894e3cde338f087ca90637a77eefb4da883c0fd4c3073b6bc4e4ba38b1
+content_hash: ad9aa24c1962e0ec1f4a50003949b9230c10cb267f7437acbc4eeb65d2ebd11b
 ---
 
 
@@ -122,13 +122,3 @@ Additionally you can check out (the same links as you find in the Additional res
 * [Datasheet](https://www.alcatel-home.com/sites/default/files/product/1447/files/alcatelsd602en2021.pdf) (SD602)
 * [Product support](https://www.alcatel-home.com/en2/customer-service-after-sales-support)
 * [Customer service](https://www.alcatel-home.com/en2/customer-service-after-sales-support)
-
----
-
-Related Articles
-
-[Grandstream GRP260x: SIP Trunk](https://support.telnyx.com/en/articles/6169513-grandstream-grp260x-sip-trunk)[Grandstream GRP2612: SIP Trunk](https://support.telnyx.com/en/articles/6184147-grandstream-grp2612-sip-trunk)[Grandstream GXP1700: SIP Trunk](https://support.telnyx.com/en/articles/6184520-grandstream-gxp1700-sip-trunk)[Fanvil H3W/H5W: WiFi IP](https://support.telnyx.com/en/articles/6203347-fanvil-h3w-h5w-wifi-ip)[Fanvil H5: Hotel IP](https://support.telnyx.com/en/articles/6203401-fanvil-h5-hotel-ip)
-
-Did this answer your question?
-
-😞😐😃

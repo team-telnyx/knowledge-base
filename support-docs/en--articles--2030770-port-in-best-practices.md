@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/2030770-port-in-best-practice
 title: "Port-In Best Practices"
 description: "In this article we will explain some of the best ways to ensure your port will go smoothly! See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 9a8b473b36868a7005e7827e320412f1bc2eb04fdb3d363846e71f60e543c3d8
+content_hash: ce6b905984a62c49a59511d140528f4b96cd124f22cd5c654a99c6b4ce5f23d3
 ---
 
 
@@ -46,13 +46,3 @@ When  we  submit  the  port  request  on  your  behalf  the  losing  
 ​
 
 If you have any questions please reach out to the Porting Team via email at [porting@telnyx.com](mailto:porting@telnyx.com).
-
----
-
-Related Articles
-
-[Porting Policy & Procedure](https://support.telnyx.com/en/articles/1130630-porting-policy-procedure)[Port Request Rejected](https://support.telnyx.com/en/articles/1782930-port-request-rejected)[Porting away from Bandwidth](https://support.telnyx.com/en/articles/3947875-porting-away-from-bandwidth)[Porting Requirements](https://support.telnyx.com/en/articles/6460777-porting-requirements)[US / CA Toll Free Number Porting](https://support.telnyx.com/en/articles/8673249-us-ca-toll-free-number-porting)
-
-Did this answer your question?
-
-😞😐😃

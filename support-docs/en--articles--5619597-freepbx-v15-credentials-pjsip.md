@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5619597-freepbx-v15-credentia
 title: "FreePBX V15: Credentials - PJSIP"
 description: "Learn how to configure a FreePBX V15 Credentials trunk with Telnyx using… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f12ce711ea60fa0b4e38f0e6a56d50d6cdf715fb07e9897a0d0fa50ce8aa2306
+content_hash: 77f6bac3102f4ca227049003b890b388ceda9ed79b5a7403779ac2ad988a65e6
 ---
 
 
@@ -262,13 +262,3 @@ Additionally, check out:
 * [FreePBX documentation](https://wiki.freepbx.org/#all-updates)
 
 ---
-
----
-
-Related Articles
-
-[Configuring a FreePBX V13 Credentials Trunk](https://support.telnyx.com/en/articles/1130648-configuring-a-freepbx-v13-credentials-trunk)[FreePBX V14: Credentials - ChanSIP](https://support.telnyx.com/en/articles/3284752-freepbx-v14-credentials-chansip)[Setting Up FreePBX V15 with Telnyx API](https://support.telnyx.com/en/articles/5464056-setting-up-freepbx-v15-with-telnyx-api)[FreePBX V15 IP Trunk - ChanSIP Tutorial](https://support.telnyx.com/en/articles/5467232-freepbx-v15-ip-trunk-chansip-tutorial)[FreePBX V15: IP Trunk - PJSIP](https://support.telnyx.com/en/articles/5619595-freepbx-v15-ip-trunk-pjsip)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8255134-group-messaging-bulk-
 title: "Group Messaging - Bulk Sending MMS"
 description: "Learn how to utilize Telnyx's API v2 to bulk send MMS to up to 8 recipients. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: a9cec5f8e703d7d9dad89cd91cb4abc482072c24d77e5127c981286657c0708f
+content_hash: da9c42cfb7f2675c3bbd53a9770e3888fba93ec4e1adf2c1ca8ae418569565ca
 ---
 
 
@@ -61,13 +61,3 @@ https://api.telnyx.com/v2/messages/group_mms \
 * Group messaging is charged per recipient. Standard MMS rates and corresponding carrier passthrough fees apply here.
 * Only US / CAN destinations are currently supported.
 * Only LONGCODES are supported, Toll Free and Short code is not supported.
-
----
-
-Related Articles
-
-[MMS Sending and Receiving](https://support.telnyx.com/en/articles/3102823-mms-sending-and-receiving)[FAQs about MMS at Telnyx](https://support.telnyx.com/en/articles/4450150-faqs-about-mms-at-telnyx)[Telnyx Verify: 2FA made easy](https://support.telnyx.com/en/articles/5701653-telnyx-verify-2fa-made-easy)[Bulk Messaging with Sheets](https://support.telnyx.com/en/articles/8268223-bulk-messaging-with-sheets)[Update Webhook Sign Key Guide](https://support.telnyx.com/en/articles/8370064-update-webhook-sign-key-guide)
-
-Did this answer your question?
-
-😞😐😃

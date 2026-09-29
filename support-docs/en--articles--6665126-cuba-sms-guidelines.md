@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6665126-cuba-sms-guidelines
 title: "Cuba: SMS Guidelines"
 description: "SMS Guidelines for Cuba including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Cuba: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 47cd051dfee35a959bceabaad46065ac460fa800575737f8811375ea6e1fdf10
+content_hash: eb20f7f8c123b793a9be6e69cc1fcb5352932c2fc7e36de3261f13bf74b419c8
 ---
 
 
@@ -35,13 +35,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Haiti: SMS Guidelines](https://support.telnyx.com/en/articles/6674331-haiti-sms-guidelines)[Iran: SMS Guidelines](https://support.telnyx.com/en/articles/6674403-iran-sms-guidelines)[Mali: SMS Guidelines](https://support.telnyx.com/en/articles/6675247-mali-sms-guidelines)[Nepal: SMS Guidelines](https://support.telnyx.com/en/articles/6678903-nepal-sms-guidelines)[Zambia: SMS Guidelines](https://support.telnyx.com/en/articles/6683501-zambia-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

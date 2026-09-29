@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5188540-latvia-number-porting
 title: "Latvia Number Porting"
 description: "Here you will find a detailed list of requirements for Latvia number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 5c6e1c42124db614ff9f455a99157b169325f014d955b5697877533590bba6da
+content_hash: cdbb905aa19bad059101aba5c1e833bdfa81258b43dd66a943d25e0a0b76ca07
 ---
 
 
@@ -34,13 +34,3 @@ Here you will find a detailed list of requirements for Latvia number portability
 **Download LOA [here](https://assets.ctfassets.net/taysl255dolk/6YYtHkPiDoOfhR8Vp3QxUz/3f7b77cf78ecdebe280c6c0226ac12ea/LoA_-_Telnyx_-_INTL.pdf)**
 
 ###
-
----
-
-Related Articles
-
-[Mexico Number Porting](https://support.telnyx.com/en/articles/3267101-mexico-number-porting)[Netherlands Number Porting](https://support.telnyx.com/en/articles/3267124-netherlands-number-porting)[Peru Number Porting](https://support.telnyx.com/en/articles/3267436-peru-number-porting)[Romania Number Porting](https://support.telnyx.com/en/articles/5188564-romania-number-porting)[Lithuania Number Porting](https://support.telnyx.com/en/articles/5190470-lithuania-number-porting)
-
-Did this answer your question?
-
-😞😐😃

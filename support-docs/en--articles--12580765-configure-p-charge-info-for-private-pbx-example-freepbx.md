@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/12580765-configure-p-charge-i
 title: "Configure P-Charge-Info for Private PBX (Example: FreePBX)"
 description: "Learn how to add a P-Charge-Info SIP header for calls made through your private PBX (using FreePBX as an example). See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: da7174659c7bd0bcd083bb2cd33647436f9a3b3694a22e7f1b73a73e19c2ce02
+content_hash: ce41696725c414db60cb536677d9989e7446afc57c35341a2a8c4292abf34e04
 ---
 
 
@@ -122,13 +122,3 @@ You can confirm that the **P-Charge-Info** header is being sent:
 
 * [Telnyx SIP Connection Setup Guide](https://support.telnyx.com/en/articles/2602782-ip-authentication-with-tech-prefix)
 * [Telnyx Trunk with FreePBX V15 Configuration](https://support.telnyx.com/en/articles/5619595-freepbx-v15-ip-trunk-pjsip)
-
----
-
-Related Articles
-
-[How to configure a Thirdlane PBX](https://support.telnyx.com/en/articles/1130631-how-to-configure-a-thirdlane-pbx)[Configuring a FreePBX V13 Credentials Trunk](https://support.telnyx.com/en/articles/1130648-configuring-a-freepbx-v13-credentials-trunk)[FreePBX V15 IP Trunk - ChanSIP Tutorial](https://support.telnyx.com/en/articles/5467232-freepbx-v15-ip-trunk-chansip-tutorial)[Configure Token Authentication Header (X-Telnyx-Token) in FreePBX](https://support.telnyx.com/en/articles/12580952-configure-token-authentication-header-x-telnyx-token-in-freepbx)[How to configure Yeastar P-series](https://support.telnyx.com/en/articles/13375115-how-to-configure-yeastar-p-series)
-
-Did this answer your question?
-
-😞😐😃

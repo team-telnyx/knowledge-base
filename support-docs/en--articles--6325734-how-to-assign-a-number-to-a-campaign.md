@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6325734-how-to-assign-a-numbe
 title: "How to assign a number to a campaign"
 description: "Assigning numbers to your campaign is the third step to becoming compliant with 10DLC rules. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 4caed8cd015a30d79c2ee940484b391c6429b638ee595e620920bae6fc0fc427
+content_hash: aa4266845b0a1b2e26a4b74f4b24fc61aadca890c8d2092015293212a38ea5c4
 ---
 
 # How to assign a number to a campaign
@@ -65,13 +65,3 @@ For more troubleshooting, see [Assigning DID to a 10DLC Campaign Fails](https://
 * Inactive campaigns (no numbers for 15+ days) may be automatically suspended — see [10DLC Campaign Suspended](https://support.telnyx.com/en/articles/10723378-10dlc-campaign-suspended)
 * Each number can only be assigned to one campaign at a time
 * If you need to move a number to a different campaign, unassign it first, then assign it to the new campaign
-
----
-
-Related Articles
-
-[How to create a 10DLC brand](https://support.telnyx.com/en/articles/5896911-how-to-create-a-10dlc-brand)[How to create a 10DLC campaign](https://support.telnyx.com/en/articles/6339152-how-to-create-a-10dlc-campaign)[Bring Campaigns to Telnyx](https://support.telnyx.com/en/articles/6339158-bring-campaigns-to-telnyx)[10DLC Campaign Suspended](https://support.telnyx.com/en/articles/10723378-10dlc-campaign-suspended)[10DLC Number Assignment Status](https://support.telnyx.com/en/articles/11072276-10dlc-number-assignment-status)
-
-Did this answer your question?
-
-😞😐😃

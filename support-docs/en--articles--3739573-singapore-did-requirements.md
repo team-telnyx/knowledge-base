@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3739573-singapore-did-require
 title: "Singapore DID Requirements"
 description: "Here you will find a detailed list of requirements to acquire Singapore numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: e2c42b3e2f49281fab353ea5f2caa536bd5359efc659e733736121611ed58f80
+content_hash: 137864130b4fcf12d4f719ddc0cb4474dd0980ed142dc9afad5436cfe7dc0f38
 ---
 
 
@@ -142,13 +142,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Cyprus DID Requirements](https://support.telnyx.com/en/articles/3506145-cyprus-did-requirements)[Chile DID Requirements](https://support.telnyx.com/en/articles/5464057-chile-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Lithuania DID Requirements](https://support.telnyx.com/en/articles/5466755-lithuania-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

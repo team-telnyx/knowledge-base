@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8118086-texml-and-telnyx-voic
 title: "TeXML and Telnyx Voice API compatibility"
 description: "Avoid combining TeXML and Call Control commands in the same… See Telnyx guidance and requirements Learn more about TeXML and Telnyx Voice API compatibility."
 scraped: 2026-07-08
-content_hash: a07287ba837141b8f0e37069b53fc5da33d276899f26ac72f6d67cddfd73acb6
+content_hash: 14b1576da210f0916f5a7e80b07d1eefbd8b463a5a7b456e3d9ac64f18398fda
 ---
 
 
@@ -47,13 +47,3 @@ Learn more:
 * [Media Streaming](https://developers.telnyx.com/docs/voice/programmable-voice/media-streaming)
 
 Please join us at <https://joinslack.telnyx.com/> to discuss or give feedback around your TeXML or Voice API use case if you run into any api/application issues.
-
----
-
-Related Articles
-
-[Telnyx Debugging Tools](https://support.telnyx.com/en/articles/4304872-telnyx-debugging-tools)[SIP Connection: Settings](https://support.telnyx.com/en/articles/4351104-sip-connection-settings)[Configuring Call Control/TeXML Applications - Voice API](https://support.telnyx.com/en/articles/4374050-configuring-call-control-texml-applications-voice-api)[TeXML Bin Simple Voicemail and Call Forwarding](https://support.telnyx.com/en/articles/13386198-texml-bin-simple-voicemail-and-call-forwarding)[Twilio TwiML Conference on Telnyx](https://support.telnyx.com/en/articles/13389311-twilio-twiml-conference-on-telnyx)
-
-Did this answer your question?
-
-😞😐😃

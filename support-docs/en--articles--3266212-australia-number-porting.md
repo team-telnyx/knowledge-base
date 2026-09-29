@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3266212-australia-number-port
 title: "Australia Number Porting"
 description: "Here you will find a detailed list of requirements for Australia number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: d316ced3b9476b634d900c855f43dd6a65453dfdd5ac13d6b8a22f0a3c823f98
+content_hash: 26f373df0ceb4b15aaadcf5871a801bca17fbe6599dfd544ba2fdbc78b22c344
 ---
 
 
@@ -169,13 +169,3 @@ For questions about Australian number porting, contact [porting@telnyx.com](mail
 ## Porting Hours
 
 **Standard time 8 AM to 12 PM Local**
-
----
-
-Related Articles
-
-[Brazil Number Porting](https://support.telnyx.com/en/articles/3266425-brazil-number-porting)[New Zealand Number Porting](https://support.telnyx.com/en/articles/3267206-new-zealand-number-porting)[United Kingdom Number Porting](https://support.telnyx.com/en/articles/3267693-united-kingdom-number-porting)[Singapore Number Porting](https://support.telnyx.com/en/articles/7235002-singapore-number-porting)[US / CA Toll Free Number Porting](https://support.telnyx.com/en/articles/8673249-us-ca-toll-free-number-porting)
-
-Did this answer your question?
-
-😞😐😃

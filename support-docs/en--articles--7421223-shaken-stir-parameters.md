@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/7421223-shaken-stir-parameter
 title: "SHAKEN/STIR Parameters"
 description: "Telnyx customers can now get more granular information on call attestation and verification results with new… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: c046bb41d844fe4c70629bd7afd01ab5819661455fb182a876a212d5a2607585
+content_hash: 5e3b8089605bd7e3c8a5e463254858f6cdcc3e40f23585ed56939889fbfcc25e
 ---
 
 
@@ -72,13 +72,3 @@ P-Asserted-Identity:"John Doe"<sip:+18889809750@sip.telnyx.com;verstat=TN-Valida
 ```
 
 For more information on the SHAKEN/STIR framework and how it works, please visit our [resource center](https://telnyx.com/resources).
-
----
-
-Related Articles
-
-[STIR/SHAKEN With Telnyx](https://support.telnyx.com/en/articles/5402969-stir-shaken-with-telnyx)[Robocall Mitigation Database](https://support.telnyx.com/en/articles/5544430-robocall-mitigation-database)[Canadian STIR/SHAKEN Implementation FAQs](https://support.telnyx.com/en/articles/5761463-canadian-stir-shaken-implementation-faqs)[Inbound Call Screening](https://support.telnyx.com/en/articles/8037040-inbound-call-screening)[Understanding SIP 603+ carrier rejections](https://support.telnyx.com/en/articles/15395095-understanding-sip-603-carrier-rejections)
-
-Did this answer your question?
-
-😞😐😃

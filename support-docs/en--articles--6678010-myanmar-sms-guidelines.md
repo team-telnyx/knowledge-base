@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6678010-myanmar-sms-guideline
 title: "Myanmar: SMS Guidelines"
 description: "SMS Guidelines for Myanmar including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Myanmar: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 1b41c82f80c3df517ed0e3619865b4e04b276c4049e5a491e461468ac903a0c3
+content_hash: 5bad7cb4df982a210b5c291febd4975d632315167222517be0bccbf410b7790a
 ---
 
 
@@ -59,13 +59,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Norway: SMS Guidelines](https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines)[Azerbaijan: SMS Guidelines](https://support.telnyx.com/en/articles/6596144-azerbaijan-sms-guidelines)[Chad: SMS Guidelines](https://support.telnyx.com/en/articles/6601133-chad-sms-guidelines)[Pakistan: SMS Guidelines](https://support.telnyx.com/en/articles/6679149-pakistan-sms-guidelines)[Palestinian Territory: SMS Guidelines](https://support.telnyx.com/en/articles/6679259-palestinian-territory-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

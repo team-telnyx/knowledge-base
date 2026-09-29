@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3506141-croatia-did-requireme
 title: "Croatia DID Requirements"
 description: "In this article you will find a detailed list of requirements to acquire Croatia numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 8c700d906e1800b9e7c721e0792a5c144127a9667dc0a4d1a06980ba21651a50
+content_hash: 1dd9d44efc78ce6589fe6117f31f8dcfe3f85afc096627fde781a36a9f387ca4
 ---
 
 
@@ -95,13 +95,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Greece DID Requirements](https://support.telnyx.com/en/articles/3739406-greece-did-requirements)[Albania DID Requirements](https://support.telnyx.com/en/articles/5463863-albania-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Lithuania DID Requirements](https://support.telnyx.com/en/articles/5466755-lithuania-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

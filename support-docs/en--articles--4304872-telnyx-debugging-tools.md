@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4304872-telnyx-debugging-tool
 title: "Telnyx Debugging Tools"
 description: "This article will detail the debugging section of the Mission Control Portal and it's features including the SIP Call… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 37a24d94214d9a37a16388ede88388be9f1b093e2a4f944a1d656eda7783bf91
+content_hash: 0650876224e1869db65b3446704cc4d391361bcde955eb4cdc03bd675b596104
 ---
 
 
@@ -156,13 +156,3 @@ The QoS report feature uses the data on these RTCP reports to display 4 differen
 *Packets*
 
 ![Breaking Line](_images/682991ade0be9812.png)
-
----
-
-Related Articles
-
-[Audio and Codecs](https://support.telnyx.com/en/articles/3192298-audio-and-codecs)[My Numbers Page](https://support.telnyx.com/en/articles/4349113-my-numbers-page)[SIP Connection: Settings](https://support.telnyx.com/en/articles/4351104-sip-connection-settings)[Configuring Call Control/TeXML Applications - Voice API](https://support.telnyx.com/en/articles/4374050-configuring-call-control-texml-applications-voice-api)[BYOC: Telnyx & Genesys](https://support.telnyx.com/en/articles/8268122-byoc-telnyx-genesys)
-
-Did this answer your question?
-
-😞😐😃

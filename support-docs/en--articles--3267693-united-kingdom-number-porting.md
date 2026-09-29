@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3267693-united-kingdom-number
 title: "United Kingdom Number Porting"
 description: "Here you will find all of the requirements for United Kingdom number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 00c548b19b2ba3e1289e3e74cb5c0988e34ada4953800bbc8f99acde9cdce3b0
+content_hash: ccf98d59dcd1f6e1b3a79fac579008a64fa7a931d9fdb3c6f3ede6a8d900bf93
 ---
 
 
@@ -123,13 +123,3 @@ If the Losing Communications Provider is not the Range Holder, we require a mini
 ###
 
 ###
-
----
-
-Related Articles
-
-[Australia Number Porting](https://support.telnyx.com/en/articles/3266212-australia-number-porting)[Brazil Number Porting](https://support.telnyx.com/en/articles/3266425-brazil-number-porting)[Netherlands Number Porting](https://support.telnyx.com/en/articles/3267124-netherlands-number-porting)[New Zealand Number Porting](https://support.telnyx.com/en/articles/3267206-new-zealand-number-porting)[Singapore Number Porting](https://support.telnyx.com/en/articles/7235002-singapore-number-porting)
-
-Did this answer your question?
-
-😞😐😃

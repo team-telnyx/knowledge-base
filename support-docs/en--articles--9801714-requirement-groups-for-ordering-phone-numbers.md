@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/9801714-requirement-groups-fo
 title: "Requirement Groups for Ordering Phone Numbers"
 description: "Requirement Groups allow you to view, manage, and fulfill regulatory requirements in advance for a particular order… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: a113a7313d375dd698a432760782b5506fce51587e1a86faf33aba741d228fbb
+content_hash: 2e430d38a486e697811dd9824017dc2cd3e83eec8eff9b519ef876d369498426
 ---
 
 
@@ -82,13 +82,3 @@ This guide will walk you through how to use Requirement Groups on number orders.
    ​
 
 And that's all there is to it! You can re-use each Requirement Group for as many orders as you would like (assuming it is the correct country + phone number type).
-
----
-
-Related Articles
-
-[Australia DID Requirements](https://support.telnyx.com/en/articles/3505912-australia-did-requirements)[Portugal DID Requirements](https://support.telnyx.com/en/articles/5466980-portugal-did-requirements)[International Number Requirements Tool](https://support.telnyx.com/en/articles/7003167-international-number-requirements-tool)[Zambia DID Requirements](https://support.telnyx.com/en/articles/10058901-zambia-did-requirements)[Phone Number Ordering Restrictions](https://support.telnyx.com/en/articles/10715715-phone-number-ordering-restrictions)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5367966-introducing-the-verif
 title: "Introducing the Verify API"
 description: "This article will explain how to set up Verify API to utilize within the Telnyx Portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 3440bcf49f51b0259633523632b1b70d88eb42b78dee00a21ee952641acbddae
+content_hash: 42a410bf187b58ced4ebc0cd0fadf84bb907e54f5ad4454c5d23d49237a9744b
 ---
 
 
@@ -82,13 +82,3 @@ The new features supported are:
 * Specifying the language for a verification code delivered through voice call or SMS
 
 With these new features, we introduced some changes to the verification API while doing our best to maintain backward compatibility. Users who have already integrated with the API should read the release notes carefully and make the appropriate planning to accommodate the changes.
-
----
-
-Related Articles
-
-[How to Sign Up for a Telnyx account](https://support.telnyx.com/en/articles/5295540-how-to-sign-up-for-a-telnyx-account)[Telnyx Verify: 2FA made easy](https://support.telnyx.com/en/articles/5701653-telnyx-verify-2fa-made-easy)[Verified Numbers FAQ](https://support.telnyx.com/en/articles/6790265-verified-numbers-faq)[Verified Numbers](https://support.telnyx.com/en/articles/6988813-verified-numbers)[How to Verify Phone Numbers behind an IVR](https://support.telnyx.com/en/articles/12386088-how-to-verify-phone-numbers-behind-an-ivr)
-
-Did this answer your question?
-
-😞😐😃

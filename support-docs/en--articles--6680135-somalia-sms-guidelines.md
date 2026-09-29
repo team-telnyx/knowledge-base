@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6680135-somalia-sms-guideline
 title: "Somalia: SMS Guidelines"
 description: "Sending SMS to Somalia? See Telnyx guidance and requirements Learn more about Somalia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: fa36167121a421c56bc37a7c01826baef86bb2287c0f100bcad25b02eee77f72
+content_hash: 97d79efd49338c4e654204708527f1ecde9af6d6e6ea3e49a150e505492cc925
 ---
 
 
@@ -31,13 +31,3 @@ The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be 
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Benin: SMS Guidelines](https://support.telnyx.com/en/articles/6596235-benin-sms-guidelines)[Eritrea: SMS Guidelines](https://support.telnyx.com/en/articles/6670452-eritrea-sms-guidelines)[Senegal: SMS Guidelines](https://support.telnyx.com/en/articles/6680041-senegal-sms-guidelines)[Sudan: SMS Guidelines](https://support.telnyx.com/en/articles/6680225-sudan-sms-guidelines)[Serbia: SMS Guidelines](https://support.telnyx.com/en/articles/6683745-serbia-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

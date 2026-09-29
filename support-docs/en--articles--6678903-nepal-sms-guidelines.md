@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6678903-nepal-sms-guidelines
 title: "Nepal: SMS Guidelines"
 description: "SMS Guidelines for Nepal including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Nepal: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 732978763306d140f2c110260e40a3981c02f60a926b91b9b6bc8ce066d188c2
+content_hash: 1b9974ea6cd395083b9a53ae60b36ca5ce26e5bea6750a61936f82977d8588d2
 ---
 
 
@@ -35,13 +35,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Cote d'Ivoire: SMS Guidelines](https://support.telnyx.com/en/articles/6665111-cote-d-ivoire-sms-guidelines)[Haiti: SMS Guidelines](https://support.telnyx.com/en/articles/6674331-haiti-sms-guidelines)[Iran: SMS Guidelines](https://support.telnyx.com/en/articles/6674403-iran-sms-guidelines)[Rwanda: SMS Guidelines](https://support.telnyx.com/en/articles/6679407-rwanda-sms-guidelines)[Zambia: SMS Guidelines](https://support.telnyx.com/en/articles/6683501-zambia-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

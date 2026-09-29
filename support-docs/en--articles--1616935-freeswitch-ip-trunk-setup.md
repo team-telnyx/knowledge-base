@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1616935-freeswitch-ip-trunk-s
 title: "FreeSWITCH: IP Trunk Setup"
 description: "In this article we will walk you through configuring a FreeSWITCH IP Trunk with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 19ac2b8bc5e75f97b93e2c0de29ff181b685f28a56ffa1b1c036774e7a195f89
+content_hash: e4343807819dc243d9c4f98366ff112885d542641876da551d8b9c64bc617e12
 ---
 
 
@@ -186,13 +186,3 @@ Additionally you can:
 
 * Get in touch with FreeSWITCH here
 * Check out their [help section](https://developer.signalwire.com/freeswitch/FreeSWITCH-Explained/) for community or paid support.
-
----
-
-Related Articles
-
-[Configuring a Cisco CUBE/CUCM IP Trunk](https://support.telnyx.com/en/articles/1130606-configuring-a-cisco-cube-cucm-ip-trunk)[Cisco: Configure a Cisco CME IP Trunk](https://support.telnyx.com/en/articles/1130612-cisco-configure-a-cisco-cme-ip-trunk)[Configuring an AVAYA IP trunk with Telnyx](https://support.telnyx.com/en/articles/1130627-configuring-an-avaya-ip-trunk-with-telnyx)[Asterisk: Configure an Asterisk IP trunk](https://support.telnyx.com/en/articles/1130628-asterisk-configure-an-asterisk-ip-trunk)[FreeSWITCH: Credentials Trunk](https://support.telnyx.com/en/articles/1618801-freeswitch-credentials-trunk)
-
-Did this answer your question?
-
-😞😐😃

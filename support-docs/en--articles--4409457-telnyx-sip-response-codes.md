@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-c
 title: "Telnyx SIP Response Codes"
 description: "This article highlights the SIP response codes Telnyx uses and their unique meanings! See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f5f411c9eb9943f39d1f186c1c1b0d61c08172c4938a7d91c126fc18ece6fe72
+content_hash: ddeb1f86ddd899d70bd73806bfecb4043458a6b4185780c27dc114db2436243d
 ---
 
 
@@ -582,13 +582,3 @@ Most of these errors are self explanatory and following the above workaround sug
 If you have attempted to resolve these issues but still have difficulty, please contact our support team providing example calls, SIP message logs or SIP Call ID. As a reminder, please leverage your [debugging tool](https://support.telnyx.com/en/articles/4304872-telnyx-debugging-tools) which can help provide insight into the SIP logs and the exact responses.
 
 ---
-
----
-
-Related Articles
-
-[Configuring a Cisco CUBE/CUCM SIP Trunk](https://support.telnyx.com/en/articles/1130673-configuring-a-cisco-cube-cucm-sip-trunk)[Understanding SIP PRACK Protocol](https://support.telnyx.com/en/articles/6902981-understanding-sip-prack-protocol)[How to Configure a SIP Trunk](https://support.telnyx.com/en/articles/8096455-how-to-configure-a-sip-trunk)[BYOC: Telnyx & Genesys](https://support.telnyx.com/en/articles/8268122-byoc-telnyx-genesys)[Telnyx + Vapi Integration](https://support.telnyx.com/en/articles/12538402-telnyx-vapi-integration)
-
-Did this answer your question?
-
-😞😐😃

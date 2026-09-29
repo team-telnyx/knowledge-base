@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/9039036-emergency-services-an
 title: "Emergency Services and IPND in Australia"
 description: "Learn more about emergency services and IPND in Australia. See Telnyx guidance and requirements Learn more about Emergency Services and IPND in Australia with."
 scraped: 2026-07-08
-content_hash: dad42cad5b5488d52d15d1a02de285f1c7d87e71bb8b731e5f90923894c51b84
+content_hash: 12f554f711c2851edd03317a185168ea71ff1f3e62d6fda07324fc87c48502c0
 ---
 
 
@@ -48,13 +48,3 @@ Considering your contact data as listed in the IPND is used in emergency cases, 
 If the address you provided is not the physical address from where you are calling, please contact our support team with the appropriate contact name and telephone number.
 
 If you would like to view the state of your phone number in IPND, update your phone number in IPND, or opt out of directory listings for your phone number, please contact our support team at [support@telnyx.com](mailto:support@telnyx.com) or by using the chat function.
-
----
-
-Related Articles
-
-[Bulk Edit Numbers - Emergency Services](https://support.telnyx.com/en/articles/2819213-bulk-edit-numbers-emergency-services)[Australia Number Porting](https://support.telnyx.com/en/articles/3266212-australia-number-porting)[Dialing Emergency Services](https://support.telnyx.com/en/articles/8712528-dialing-emergency-services)[Supported Emergency Numbers](https://support.telnyx.com/en/articles/8797623-supported-emergency-numbers)[Zambia DID Requirements](https://support.telnyx.com/en/articles/10058901-zambia-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

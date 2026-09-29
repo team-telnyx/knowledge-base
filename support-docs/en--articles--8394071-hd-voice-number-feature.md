@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8394071-hd-voice-number-featu
 title: "HD Voice - Number Feature"
 description: "Telnyx presents HD Voice, a number feature to enhance audio quality on PSTN calls made and received to eligible numbers… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 23815aa284f38fac3437a1184f5638b34a1c84c3ff8d087f1854981e30fafc0a
+content_hash: 6fa2966c0623147e084d3e4ffe9da2f570d08ece787566db1a4325c712304e8f
 ---
 
 
@@ -225,13 +225,3 @@ As of July 2025, there are no MRC's (monthly recurring charges) associated with 
 **How will the billing be reflected on the customer's monthly statement, just an aggregate count of HD Voice-enabled?**
 
 Since HD Voice is now free, it won't be charged on your monthly statement.
-
----
-
-Related Articles
-
-[Bulk Edit Numbers - Voice Settings](https://support.telnyx.com/en/articles/2807846-bulk-edit-numbers-voice-settings)[My Numbers Page](https://support.telnyx.com/en/articles/4349113-my-numbers-page)[Snom D7xx: Telnyx Setup](https://support.telnyx.com/en/articles/5822706-snom-d7xx-telnyx-setup)[Fanvil X2CP/X2C/X2P: Call Center IP](https://support.telnyx.com/en/articles/6206756-fanvil-x2cp-x2c-x2p-call-center-ip)[Fanvil XU Series: IP Phone](https://support.telnyx.com/en/articles/6210147-fanvil-xu-series-ip-phone)
-
-Did this answer your question?
-
-😞😐😃

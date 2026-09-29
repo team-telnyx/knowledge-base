@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130656-set-up-inbound-caller
 title: "Set up Inbound Caller ID Name (incoming)"
 description: "In this article we will walk you through setting up caller ID name for your numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 61889c4339ec1480a418bb5e53440b9182333548c6717704861f3cf35f181bb5
+content_hash: 2e2b816c26c893969b8795fec6e0eb0bc32efb9393270abf34cf82ffa1c465e5
 ---
 
 
@@ -35,13 +35,3 @@ Enabling this feature on your DID will allow for Telnyx to DIP the CNAM database
 ![](_images/d62ca55dca4decc4.png)
 
 3. Accept the MRC (Monthly Recurring Charge) for this feature and click save changes at the bottom.
-
----
-
-Related Articles
-
-[Configuring an AVAYA IP trunk with Telnyx](https://support.telnyx.com/en/articles/1130627-configuring-an-avaya-ip-trunk-with-telnyx)[Caller ID Outbound vs CNAM](https://support.telnyx.com/en/articles/1130720-caller-id-outbound-vs-cnam)[Bulk Edit Numbers - Voice Settings](https://support.telnyx.com/en/articles/2807846-bulk-edit-numbers-voice-settings)[Caller ID Number Policy](https://support.telnyx.com/en/articles/3546251-caller-id-number-policy)[Your Number Lookup Guide](https://support.telnyx.com/en/articles/4366901-your-number-lookup-guide)
-
-Did this answer your question?
-
-😞😐😃

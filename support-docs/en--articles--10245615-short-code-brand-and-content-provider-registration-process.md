@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/10245615-short-code-brand-and
 title: "Short Code Brand and Content Provider Registration Process"
 description: "SCR Mandated Process to order new Short Codes and to renew existing Short… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 18cb804b0fc52e6e871630daa35d6bbd8a8a7ebe1637d96a817c20058c94ce82
+content_hash: 81d3e89685457b4d6bbe7d007508183e7a7ade3de436e9d73b42723f3cb1962a
 ---
 
 
@@ -43,13 +43,3 @@ The information you fill out on the form should match the entity's IRS Form CP-5
 The brand vetting and 2fa will be redone every year so please update us if the point of contact should change.
 
 To get an up to date Brand Registration or Content Provider Form or with any other questions please reach out to us at [Shortcode@telnyx.com](mailto:Shortcode@telnyx.com).
-
----
-
-Related Articles
-
-[How to create a 10DLC brand](https://support.telnyx.com/en/articles/5896911-how-to-create-a-10dlc-brand)[Regulatory Guidelines for US Short Code Marketing and Opt-in Procedures](https://support.telnyx.com/en/articles/9311566-regulatory-guidelines-for-us-short-code-marketing-and-opt-in-procedures)[US Short Code Ordering Process](https://support.telnyx.com/en/articles/10245573-us-short-code-ordering-process)[10DLC Carrier Error Codes Explanations](https://support.telnyx.com/en/articles/10547022-10dlc-carrier-error-codes-explanations)[Short Code Compliance Quick Reference Guide](https://support.telnyx.com/en/articles/11385511-short-code-compliance-quick-reference-guide)
-
-Did this answer your question?
-
-😞😐😃
