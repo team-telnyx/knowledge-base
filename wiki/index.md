@@ -929,7 +929,7 @@ updated_at: 2026-09-30T06:11:30Z
 
 - [Billing: Decimal Values Considered](support-docs/articles/3317613-billing-decimal-values-considered.md) — How many decimal values does Telnyx consider when billing? See Telnyx guidance and requirements Learn more about Billing: Decimal Values Considered with Telnyx.
 
-- [HIPAA, BAAs and the Conduit Exception\\*](support-docs/articles/3347891-hipaa-baas-and-the-conduit-exception.md) — In this article we will explain HIPAA, BAAs and the Conduit Exception and what they mean for you. See Telnyx guidance and requirements.
+- [HIPAA, BAAs and the Conduit Exception](support-docs/articles/3347891-hipaa-baas-and-the-conduit-exception.md) — In this article, we will explain HIPAA, BAAs, the Conduit Exception, and how Telnyx approaches BAA requests. This article describes how the Telnyx platform works and how Telnyx approaches BAA requests.
 
 - [Uruguay DID Requirements](support-docs/articles/3362891-uruguay-did-requirements.md) — Here you will find a detailed list of requirements to acquire Uruguay numbers. See Telnyx guidance and requirements.
 
