@@ -3,6 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3347891-hipaa-baas-and-the-co
 title: "HIPAA, BAAs and the Conduit Exception"
 description: "In this article, we will explain HIPAA, BAAs, the Conduit Exception, and how Telnyx approaches BAA requests."
 scraped: 2026-07-08
+updated_at: 2026-09-29
 content_hash: bb4df187f513c17c6b78dc2aca4533b4d490e2204b9039a1c8653952729f3e31
 ---
 

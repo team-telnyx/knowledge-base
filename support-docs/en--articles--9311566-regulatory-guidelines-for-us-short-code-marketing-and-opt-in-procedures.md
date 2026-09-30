@@ -1,6 +1,6 @@
 ---
 source_url: https://support.telnyx.com/en/articles/9311566-regulatory-guidelines-for-us-short-code-marketing-and-opt-in-procedures
-title: "Regulatory Guidelines for US Short Code Marketing and"
+title: "Regulatory Guidelines for US Short Code Marketing and Opt-in Procedures"
 description: "Call To Action Guidelines for Short Codes. See Telnyx guidance and requirements Learn more about Regulatory Guidelines for US Short Code Marketing and with."
 scraped: 2026-07-08
 content_hash: 1ddbf9c325fcb65088a687556d2a2900803174829449cb74e63fd8f14a728b39
