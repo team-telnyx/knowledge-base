@@ -1,6 +1,6 @@
 ---
 source_url: https://support.telnyx.com/en/articles/14708130-porting-numbers-away-from-resellers-aircall-intercom-ringcentral-vonage-etc
-title: "Porting Numbers Away from Resellers (Aircall, Intercom"
+title: "Porting Numbers Away from Resellers (Aircall, Intercom, RingCentral, Vonage, etc.)"
 description: "A complete guide to porting numbers from VoIP resellers — what a reseller is, how to find your underlying carrier, See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 84b88bcd7415a86ed09d64d9e00f8a30f16996fad233fee02e9a2d045a1e9bee

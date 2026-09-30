@@ -1,6 +1,6 @@
 ---
 source_url: https://support.telnyx.com/en/articles/12933869-understanding-the-fcc-s-new-do-not-originate-dno-requirements-effective-december-15-2025
-title: "Understanding the FCC’s New Do-Not-Originate (DNO)"
+title: "Understanding the FCC’s New Do-Not-Originate (DNO) Requirements (Effective December 15, 2025)"
 description: "The Federal Communications Commission (FCC) has adopted new rules that expand the industry’s responsibilities around… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 467ad8e243d86bbe78917c40e572ebaba6018c1e59a89015d921227e4392f521
