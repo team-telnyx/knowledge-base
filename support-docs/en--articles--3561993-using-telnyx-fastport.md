@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3561993-using-telnyx-fastport
 title: "Using Telnyx FastPort"
 description: "In this article we will walk you through using FastPort so you can save time moving your numbers to Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: a3d4279678968caab57b3c7c09b5184b9b5f8f02b921df71904b8ea5e7a27acb
+content_hash: 1ca2b525b9d91453b8cebdfef51cb7413be3dcf1f8d88505ea165f45049763c6
 ---
 
 
@@ -30,13 +30,3 @@ Once the FOC date is confirmed after the information has been validated and acce
 ## How to use FastPort.
 
 The following video will walk you through how to use FastPort:
-
----
-
-Related Articles
-
-[Port numbers to Telnyx](https://support.telnyx.com/en/articles/1130634-port-numbers-to-telnyx)[Your Guide to FastPort®](https://support.telnyx.com/en/articles/2021334-your-guide-to-fastport)[Port-In Best Practices](https://support.telnyx.com/en/articles/2030770-port-in-best-practices)[New Zealand Number Porting](https://support.telnyx.com/en/articles/3267206-new-zealand-number-porting)[US / CA Toll Free Number Porting](https://support.telnyx.com/en/articles/8673249-us-ca-toll-free-number-porting)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6138781-turkey-number-porting
 title: "Turkey Number Porting"
 description: "Here you will find a detailed list of requirements for Turkey number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: a9b670b019c9c33cf59d2ae97475510ef11e007b9f43fb99fd53c55c7b194205
+content_hash: 5075a8ba51b7cf8e2c5bb3ad0a644bd28fd4ec4d2655566d7f705f20e40dbc55
 ---
 
 
@@ -63,13 +63,3 @@ Explore the essential [requirements for successful number porting](https://suppo
 ### **Best Practices for Porting Support in** Turkey
 
 Examine best practices for effectively [contacting Telnyx's porting support](https://support.telnyx.com/en/articles/5820338-best-practices-for-contacting-porting) to facilitate clear communication and swift issue resolution in Turkey.
-
----
-
-Related Articles
-
-[Canada Number Porting](https://support.telnyx.com/en/articles/3266430-canada-number-porting)[United States Number Porting](https://support.telnyx.com/en/articles/3267816-united-states-number-porting)[Norway Number Porting](https://support.telnyx.com/en/articles/5188563-norway-number-porting)[Albania Number Porting](https://support.telnyx.com/en/articles/5190443-albania-number-porting)[Malta Number Porting](https://support.telnyx.com/en/articles/5190478-malta-number-porting)
-
-Did this answer your question?
-
-😞😐😃

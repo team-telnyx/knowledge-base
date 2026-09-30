@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/15445494-egypt-did-requiremen
 title: "Egypt DID Requirements"
 description: "Here you will find all of the requirements for purchasing numbers in Egypt. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 8b04f15cc67059c2b2f0044454a15870e6b23b87a620285fd2caeff55f33f810
+content_hash: e04eea22debf59fa801c4c60c5b10085d5792d1b18ce413511eb13581e71dcc0
 ---
 
 
@@ -44,13 +44,3 @@ For address verification:
 Additional Information:
 
 \* Business use required: Business use is required, private use is not allowed.
-
----
-
-Related Articles
-
-[Netherlands DID Requirements](https://support.telnyx.com/en/articles/1311472-netherlands-did-requirements)[Thailand DID Requirements](https://support.telnyx.com/en/articles/3739661-thailand-did-requirements)[Philippines DID Requirements](https://support.telnyx.com/en/articles/5466958-philippines-did-requirements)[Costa Rica DID Requirements](https://support.telnyx.com/en/articles/8487192-costa-rica-did-requirements)[Iraq DID Requirements](https://support.telnyx.com/en/articles/15445421-iraq-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

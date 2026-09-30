@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/12397834-understanding-telnyx
 title: "Understanding Telnyx SOC Compliance and Certifications"
 description: "This article explains what SOC compliance is, which certifications Telnyx maintains, See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 108fb1042af7a6d4e0ea833f79968300c1580b63face5c96923216bc2db9d9d8
+content_hash: 73bc7ee3dc8cf8a0dae6eebad9d7612c19d50c8a6ef6e176463cff27930de25d
 ---
 
 
@@ -108,13 +108,3 @@ In addition to security controls, Telnyx is committed to privacy and data protec
   Telnyx offers a choice of where to store call detail records (CDRs) and message detail records (MDRs) at rest (data locality).
 * **Processor & Controller Roles**
   Depending on usage, Telnyx may act as a data processor or controller, but always ensures compliance with contractual and legal privacy obligations.
-
----
-
-Related Articles
-
-[What is Telnyx?](https://support.telnyx.com/en/articles/1130637-what-is-telnyx)[Intro to Telnyx Edge Router](https://support.telnyx.com/en/articles/8126141-intro-to-telnyx-edge-router)
-
-Did this answer your question?
-
-😞😐😃

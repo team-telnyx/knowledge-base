@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4283906-bug-reports-guide
 title: "Bug Reports Guide"
 description: "This article explains how to submit a bug report to the Telnyx support team. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 021f3acd5e1875d28b86bcaf8ec6a4700ff656a9446b4efff31027ab2c3e38e0
+content_hash: 36aa38c1ebd51cc212eaa9765f4c25cc26252fb6dce65d99a744972e85614de1
 ---
 
 
@@ -133,13 +133,3 @@ Telnyx will not pursue legal action against researchers who act in good faith, f
 
 *Last updated: May 2026 · Questions? security@telnyx.com*
 ​
-
----
-
-Related Articles
-
-[E911 Setup Guide](https://support.telnyx.com/en/articles/1130683-e911-setup-guide)[Best Practices for Contacting Support](https://support.telnyx.com/en/articles/5170721-best-practices-for-contacting-support)[Understanding Telnyx SOC Compliance and Certifications](https://support.telnyx.com/en/articles/12397834-understanding-telnyx-soc-compliance-and-certifications)[Guide to Sole Proprietor 10DLC Brand and Campaign Registration](https://support.telnyx.com/en/articles/13545282-guide-to-sole-proprietor-10dlc-brand-and-campaign-registration)[Bot-to-Bot Support API: Ask Telnyx Knowledge Agent](https://support.telnyx.com/en/articles/15455646-bot-to-bot-support-api-ask-telnyx-knowledge-agent)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130721-distinguish-your-outb
 title: "Distinguish your outbound profiles & DIDs"
 description: "Here we will explain how to distinguish between your different outbound profiles and DIDs and how you can organize them… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 32eb30f40a2166bf2c7f9a87a69d9120a8a3a2708e1fac8dee5fe617ed153b46
+content_hash: d4ea578eb024bffc27f774708c430a060ac9b15c477b759637daa291c53f9bfb
 ---
 
 
@@ -53,13 +53,3 @@ Common Uses for Tagging Feature:
 For inbound calls, where DID's are tagged, the CDR report will show the DID's associated tag.
 
 For outbound calls, the CDR report will show the tag assigned to the outbound voice profile only and not the tag that was assigned at the DID.
-
----
-
-Related Articles
-
-[SIP Connection: Number Formats](https://support.telnyx.com/en/articles/1130706-sip-connection-number-formats)[Caller ID Outbound vs CNAM](https://support.telnyx.com/en/articles/1130720-caller-id-outbound-vs-cnam)[More About Outbound Voice Profiles](https://support.telnyx.com/en/articles/4320411-more-about-outbound-voice-profiles)[SIP Connection: Inbound & Outbound Settings](https://support.telnyx.com/en/articles/4404448-sip-connection-inbound-outbound-settings)[Telnyx + Vapi Integration](https://support.telnyx.com/en/articles/12538402-telnyx-vapi-integration)
-
-Did this answer your question?
-
-😞😐😃

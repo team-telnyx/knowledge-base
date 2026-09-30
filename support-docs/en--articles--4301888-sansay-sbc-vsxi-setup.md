@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4301888-sansay-sbc-vsxi-setup
 title: "Sansay: SBC VSXi Setup"
 description: "In this article we will walk you through configuring a Sansay SBC with the Telnyx Mission Control Portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f317d2379363c8737d0e0138b52fbeb4826642bc4880e95f076b9d3fde21f95d
+content_hash: 3cfbddb415099a88bf58cb28242c1f9e4ded40ebe647adaa5261408f399e36c9
 ---
 
 
@@ -219,13 +219,3 @@ Additionally, check out:
 * [Contact Sansay](https://www.sansay.com/contact-us/)
 * [VSXi REST API](https://support.sansay.com/t/36d6tz/vsxi-rest-api)
 * [VSXi knowledgebase](https://www.sinsay.com/sq/en/faq) (note that you must be logged into your Sansay account in order to view knowledge articles other than the API.
-
----
-
-Related Articles
-
-[Configuring a Cisco CUBE/CUCM IP Trunk](https://support.telnyx.com/en/articles/1130606-configuring-a-cisco-cube-cucm-ip-trunk)[Cisco: Configure a Cisco CME IP Trunk](https://support.telnyx.com/en/articles/1130612-cisco-configure-a-cisco-cme-ip-trunk)[How to configure a Thirdlane PBX](https://support.telnyx.com/en/articles/1130631-how-to-configure-a-thirdlane-pbx)[Configuring a Cisco CUBE/CUCM SIP Trunk](https://support.telnyx.com/en/articles/1130673-configuring-a-cisco-cube-cucm-sip-trunk)[How to configure Yeastar P-series](https://support.telnyx.com/en/articles/13375115-how-to-configure-yeastar-p-series)
-
-Did this answer your question?
-
-😞😐😃

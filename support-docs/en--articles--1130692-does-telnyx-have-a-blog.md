@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130692-does-telnyx-have-a-bl
 title: "Does Telnyx have a blog?"
 description: "Looking for even more resources for using Telnyx? See Telnyx guidance and requirements Learn more about Does Telnyx have a blog? with Telnyx."
 scraped: 2026-07-08
-content_hash: aa6d5364ddb7276de04ce41f4ed5dff574ccb702fd232049d56ab98c90801d50
+content_hash: ce2a4b2719df2743a1ba1dcd0db5b37a3192d086ccdc721a4371d9d69b37b45c
 ---
 
 
@@ -32,13 +32,3 @@ In addition to our blog, we also have a Community forum that can be accessed via
 ## Can I write content for Telnyx?
 
 Absolutely, contact [andrewm@telnyx.com](mailto:andrewm@telnyx.com) for more info.
-
----
-
-Related Articles
-
-[Configuring Grandstream GXP16XX with Telnyx](https://support.telnyx.com/en/articles/1130660-configuring-grandstream-gxp16xx-with-telnyx)[Resources on Your Account](https://support.telnyx.com/en/articles/4404409-resources-on-your-account)[Auth0 SSO Integration With Telnyx](https://support.telnyx.com/en/articles/5355953-auth0-sso-integration-with-telnyx)[How to Configure a SIP Trunk](https://support.telnyx.com/en/articles/8096455-how-to-configure-a-sip-trunk)[Intro to Telnyx Edge Router](https://support.telnyx.com/en/articles/8126141-intro-to-telnyx-edge-router)
-
-Did this answer your question?
-
-😞😐😃

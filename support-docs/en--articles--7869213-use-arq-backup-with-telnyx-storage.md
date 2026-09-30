@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/7869213-use-arq-backup-with-t
 title: "Use Arq Backup with Telnyx Storage"
 description: "Discover how to set up Arq Backup with Telnyx Storage for secure and efficient file backup and storage management. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f21c6f6eba9aef53a2f4d1f77dd69782535f46e253fbe629f09b24146f57ac12
+content_hash: 59dbd8fce2390acfa60e824ad4af3bed0d7457d0b1909244d3d709f66c070ccc
 ---
 
 
@@ -57,13 +57,3 @@ And that’s all there is to it! Now, you can create new backup plans with Telny
 **Additional Resources**
 
 For more information on how to use Arq Backup, check out their [knowledge base here](https://www.arqbackup.com/learn/).
-
----
-
-Related Articles
-
-[Use Backup4all with Telnyx Storage](https://support.telnyx.com/en/articles/7869264-use-backup4all-with-telnyx-storage)[Use Duplicati with Telnyx Storage](https://support.telnyx.com/en/articles/7873510-use-duplicati-with-telnyx-storage)[Use WinSCP with Telnyx Storage](https://support.telnyx.com/en/articles/7903390-use-winscp-with-telnyx-storage)[Use GoodSync with Telnyx Storage](https://support.telnyx.com/en/articles/8047898-use-goodsync-with-telnyx-storage)[Use AirExplorer with Telnyx Storage](https://support.telnyx.com/en/articles/8048045-use-airexplorer-with-telnyx-storage)
-
-Did this answer your question?
-
-😞😐😃

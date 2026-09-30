@@ -257,13 +257,3 @@ Please note that in order to request Alphanumeric Sender ID registration, your a
 If you would like to register an Alphanumeric Sender ID or have questions about the process, please reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com), mentioning the country or countries you wish to register in along with the estimated monthly volume and a brief description of your use case.
 
 Want to learn more about how to send Alphanumeric messages, check out this [article](https://support.telnyx.com/en/articles/4371498-sending-alphanumeric-sms-sender-id). For any other questions, please reach out to [support@telnyx.com](mailto:support@telnyx.com).
-
----
-
-Related Articles
-
-[Sending Alphanumeric SMS - Sender ID](https://support.telnyx.com/en/articles/4371498-sending-alphanumeric-sms-sender-id)[Romania: SMS Guidelines](https://support.telnyx.com/en/articles/6561262-romania-sms-guidelines)[Bulgaria: SMS Guidelines](https://support.telnyx.com/en/articles/6563862-bulgaria-sms-guidelines)[Iran: SMS Guidelines](https://support.telnyx.com/en/articles/6674403-iran-sms-guidelines)[Liberia: SMS Guidelines](https://support.telnyx.com/en/articles/6674974-liberia-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

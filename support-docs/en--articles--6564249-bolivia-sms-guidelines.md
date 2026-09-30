@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6564249-bolivia-sms-guideline
 title: "Bolivia: SMS Guidelines"
 description: "Sending SMS to Bolivia? See Telnyx guidance and requirements Learn more about Bolivia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 552d73b11f34403abd6d79b3cd8a81911aad5dfb50571a9e5e9d1eaf8d3c8395
+content_hash: 86e7a4cf7ace0d84f8120932b50c6e2ae924683399db0c4d92a177e920199029
 ---
 
 
@@ -31,13 +31,3 @@ All Alphanumeric Sender IDs will be overwritten to either a random Local Long Co
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Bulgaria: SMS Guidelines](https://support.telnyx.com/en/articles/6563862-bulgaria-sms-guidelines)[Ukraine: SMS Guidelines](https://support.telnyx.com/en/articles/6563904-ukraine-sms-guidelines)[Ecuador: SMS Guidelines](https://support.telnyx.com/en/articles/6570385-ecuador-sms-guidelines)[Macao: SMS Guidelines](https://support.telnyx.com/en/articles/6675024-macao-sms-guidelines)[Timor-Leste: SMS Guidelines](https://support.telnyx.com/en/articles/6683340-timor-leste-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

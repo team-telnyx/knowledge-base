@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/11385511-short-code-complianc
 title: "Short Code Compliance Quick Reference Guide"
 description: "Carrier Requirements when ordering a short… See Telnyx guidance and requirements Learn more about Short Code Compliance Quick Reference Guide with Telnyx."
 scraped: 2026-07-08
-content_hash: ff40150b81fc5b308b3ffbaa9121f5c2515b5342592c413d828e48585074f1ec
+content_hash: cddda1e4ba7fd7671f892c9b12cd637c28a7b3d392f230c060e5889d28c59aa3
 ---
 
 
@@ -138,13 +138,3 @@ These (gray) marketing for financial institutions is **not allowed** (even at a 
   + Financial aid
     ​*(remove industry speak, loan type, link to secure instrument)*
 * **Collections are not allowed**
-
----
-
-Related Articles
-
-[Standards for US Short Code Keywords: HELP, STOP, and Opt-In Confirmation](https://support.telnyx.com/en/articles/9311492-standards-for-us-short-code-keywords-help-stop-and-opt-in-confirmation)[Regulatory Guidelines for US Short Code Marketing and Opt-in Procedures](https://support.telnyx.com/en/articles/9311566-regulatory-guidelines-for-us-short-code-marketing-and-opt-in-procedures)[10DLC Campaign Compliance Requirements](https://support.telnyx.com/en/articles/9940291-10dlc-campaign-compliance-requirements)[10DLC Carrier Error Codes Explanations](https://support.telnyx.com/en/articles/10547022-10dlc-carrier-error-codes-explanations)[Compliance Catch-up: Why Toll-Free Verification Now Mirrors 10DLC](https://support.telnyx.com/en/articles/13765655-compliance-catch-up-why-toll-free-verification-now-mirrors-10dlc)
-
-Did this answer your question?
-
-😞😐😃

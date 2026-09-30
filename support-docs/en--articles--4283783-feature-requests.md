@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4283783-feature-requests
 title: "Feature Requests"
 description: "This article explains how to submit a feature request within the Mission Control Portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 7aa6e57aac216c830a89e541b3981c08d68d34d35c3bcbea89d0902bb10c0d3c
+content_hash: ed1b9e62031b7d7f21d0e87d570120c43eb583a91a778d4c6bae6429f529b60f
 ---
 
 
@@ -58,13 +58,3 @@ That's it! You'll be notified VIA the email entered if any further developments 
 ## **Special Note**
 
 From time to time, our users may also provide improvement suggestions via chat or email. Know that Telnyx has in place a tight feedback loop, where our support team can tag your case as a feature request, allowing our product managers to be notified internally on your suggestions. This allows them the ability to review your case and potentially have the improvement included on our public product board!
-
----
-
-Related Articles
-
-[Account Verification](https://support.telnyx.com/en/articles/1130595-account-verification)[E911 Setup Guide](https://support.telnyx.com/en/articles/1130683-e911-setup-guide)[Requesting Numbers](https://support.telnyx.com/en/articles/3562148-requesting-numbers)[Bug Reports Guide](https://support.telnyx.com/en/articles/4283906-bug-reports-guide)[Grandstream HT802: Telnyx Setup](https://support.telnyx.com/en/articles/5725071-grandstream-ht802-telnyx-setup)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/11017501-understanding-wirele
 title: "Understanding Wireless Connectivity States (Telnyx API)"
 description: "Detailed guide explaining the various connectivity state values, definitions, See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 465bbf458fed9b3eb0ff40eefc2e14ff4f7e31fe3782b105e8ef71f89b96cbee
+content_hash: 15816c91a59c4e19aa16be70146a6f47812e93a1e3c9d073035efb291a6c8bc5
 ---
 
 
@@ -79,13 +79,3 @@ When using the [Telnyx Wireless Connectivity Logs API](https://developers.telnyx
 ---
 
 For more detailed technical information, please visit the [Telnyx API documentation](https://developers.telnyx.com/api/wireless/get-wireless-connectivity-logs).
-
----
-
-Related Articles
-
-[SIM Reporting & Analytics](https://support.telnyx.com/en/articles/3679913-sim-reporting-analytics)[SIM Setup and Configuration](https://support.telnyx.com/en/articles/4298710-sim-setup-and-configuration)[SIM Connectivity Logs](https://support.telnyx.com/en/articles/5666594-sim-connectivity-logs)[Using Telnyx SIM with Ubiquiti UniFi LTE Pro](https://support.telnyx.com/en/articles/10164784-using-telnyx-sim-with-ubiquiti-unifi-lte-pro)[Using Telnyx SIM with InRouter300 Series Cellular Routers](https://support.telnyx.com/en/articles/10511105-using-telnyx-sim-with-inrouter300-series-cellular-routers)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6601152-comoros-sms-guideline
 title: "Comoros: SMS Guidelines"
 description: "SMS Guidelines for Comoros including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Comoros: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 43ea876d2084958e32e0d9c32e982f93d57366049243b23e8a43f6bea5ce173a
+content_hash: 1e812253cb4e062e0355b68c78ed3a32050014fe6beed69c4fac806c63f7c290
 ---
 
 
@@ -59,13 +59,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Norway: SMS Guidelines](https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines)[Azerbaijan: SMS Guidelines](https://support.telnyx.com/en/articles/6596144-azerbaijan-sms-guidelines)[Chad: SMS Guidelines](https://support.telnyx.com/en/articles/6601133-chad-sms-guidelines)[Pakistan: SMS Guidelines](https://support.telnyx.com/en/articles/6679149-pakistan-sms-guidelines)[Palestinian Territory: SMS Guidelines](https://support.telnyx.com/en/articles/6679259-palestinian-territory-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

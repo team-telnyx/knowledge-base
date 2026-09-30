@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6675690-mauritania-sms-guidel
 title: "Mauritania: SMS Guidelines"
 description: "SMS Guidelines for Mauritania including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Mauritania: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 9186c165e822200094aced436e4836a2952a1cc3d4e8398fbe5c0112404be54d
+content_hash: 9973e01dbf2e493ec5d0ed5346abe857341c5fda1e2a45b0a435f807ea5c3773
 ---
 
 
@@ -35,13 +35,3 @@ There are no restrictions with regards to content towards this destination.
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Italy: SMS Guidelines](https://support.telnyx.com/en/articles/6531722-italy-sms-guidelines)[Poland: SMS Guidelines](https://support.telnyx.com/en/articles/6545167-poland-sms-guidelines)[Djibouti: SMS Guidelines](https://support.telnyx.com/en/articles/6665699-djibouti-sms-guidelines)[Mozambique: SMS Guidelines](https://support.telnyx.com/en/articles/6677999-mozambique-sms-guidelines)[Namibia: SMS Guidelines](https://support.telnyx.com/en/articles/6678890-namibia-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130660-configuring-grandstre
 title: "Configuring Grandstream GXP16XX with Telnyx"
 description: "In this article we will explain how to configure Grandstream GXP1620/GXP1625 and GXP1630 with the Telnyx Mission… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 287d73ba33e32744a96952cb9f413b63fd0aa44e1e64fb3c3a231481654f44c3
+content_hash: 9c89c814f2cd9cdf43f26c2551ac414ce8714b77256341c947a0bb4cd5826428
 ---
 
 
@@ -156,13 +156,3 @@ Additionally, you can check out:
 ---
 
 ## Can't find what you're looking for? Click the chat bubble at your lower right hand corner and start a chat!
-
----
-
-Related Articles
-
-[Grandstream HT802: Telnyx Setup](https://support.telnyx.com/en/articles/5725071-grandstream-ht802-telnyx-setup)[Grandstream GXP: Telnyx Setup](https://support.telnyx.com/en/articles/5815720-grandstream-gxp-telnyx-setup)[Grandstream GXP21XX](https://support.telnyx.com/en/articles/5819218-grandstream-gxp21xx)[Grandstream GXP1700: SIP Trunk](https://support.telnyx.com/en/articles/6184520-grandstream-gxp1700-sip-trunk)[Grandstream GXV3370](https://support.telnyx.com/en/articles/6187576-grandstream-gxv3370)
-
-Did this answer your question?
-
-😞😐😃

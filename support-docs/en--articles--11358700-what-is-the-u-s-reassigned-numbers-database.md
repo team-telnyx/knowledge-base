@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/11358700-what-is-the-u-s-reas
 title: "What is the U.S. Reassigned Numbers Database?"
 description: "The U.S. See Telnyx guidance and requirements Learn more about What is the U.S. Reassigned Numbers Database? with Telnyx."
 scraped: 2026-07-08
-content_hash: 330252b32ac1fb45a47251b787e1bc0544cb49b895132f43194e7468710374bb
+content_hash: 2717b35ecd456a07d43711ac96758f7199226483fb7eca5bd6373f630370adaf
 ---
 
 
@@ -45,13 +45,3 @@ Before you can submit queries, you must register as a **Caller** (or **Caller Ag
 * Go to<https://www.reassigned.us> and read the instructions on the “Query” page. To request a login, you must send an email to [support@reassigned.us](mailto:support@reassigned.us).
 * You must choose a prepaid, tiered subscription based on your expected query volume and preferred term (1-, 3-, 6-, or 12-month). The **subscription price** is the *price per query* × *number of queries* in that tier. The RND webpage publicly lists their pricing structure here: <https://reassigned.us/pricing>
 * The RND Administrator (currently, SomosGov) is a company chosen by the FCC to administer the RND. The RND Administrator will walk registrants through the rest of the process.
-
----
-
-Related Articles
-
-[Your Number Lookup Guide](https://support.telnyx.com/en/articles/4366901-your-number-lookup-guide)[Robocall Mitigation Database](https://support.telnyx.com/en/articles/5544430-robocall-mitigation-database)[What is the Reassigned Numbers Database](https://support.telnyx.com/en/articles/5883839-what-is-the-reassigned-numbers-database)[Verified Numbers](https://support.telnyx.com/en/articles/6988813-verified-numbers)[Understanding SIP 603+ carrier rejections](https://support.telnyx.com/en/articles/15395095-understanding-sip-603-carrier-rejections)
-
-Did this answer your question?
-
-😞😐😃

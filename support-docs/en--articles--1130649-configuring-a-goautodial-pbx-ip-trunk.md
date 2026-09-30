@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130649-configuring-a-goautod
 title: "Configuring a GOautodial PBX IP Trunk"
 description: "Learn how to configure a GOautodial V4 PBX IP trunk and upload leads so you can get your agents on the phone quickly. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 278e33a1618ff56bdfaf9c00e36bf9bf1e3ecaf32b29216323704a6fe53c39be
+content_hash: 92cb1ddfb3f90574cd6c71a68293dba3b72f9c0e657efe13fe0562a2f49ac3e1
 ---
 
 
@@ -245,13 +245,3 @@ Additionally, you can check out:
 * [FAQ](https://goautodial.org/projects/goautodialce/wiki/FAQ)
 
 ---
-
----
-
-Related Articles
-
-[Configuring an Elastix 4 PBX IP Trunk](https://support.telnyx.com/en/articles/1130622-configuring-an-elastix-4-pbx-ip-trunk)[Asterisk: Configure an Asterisk IP trunk](https://support.telnyx.com/en/articles/1130628-asterisk-configure-an-asterisk-ip-trunk)[How to configure a Thirdlane PBX](https://support.telnyx.com/en/articles/1130631-how-to-configure-a-thirdlane-pbx)[Configuring a Vicidial IP trunk with Telnyx](https://support.telnyx.com/en/articles/1130632-configuring-a-vicidial-ip-trunk-with-telnyx)[Configuring a GoAutoDial PBX SIP Trunk](https://support.telnyx.com/en/articles/1130694-configuring-a-goautodial-pbx-sip-trunk)
-
-Did this answer your question?
-
-😞😐😃

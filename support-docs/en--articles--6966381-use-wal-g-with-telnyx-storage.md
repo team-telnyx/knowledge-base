@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6966381-use-wal-g-with-telnyx
 title: "Use WAL-G with Telnyx Storage"
 description: "Maximize the benefits of WAL-G, a robust backup tool for PostgreSQL, by following our guide to configure it with Telnyx… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 2cb4f9cea277f167f5f04d3a409cc2175b91c739b539dd18119985b8000203e0
+content_hash: a378c7118a3f2b59b5e025bcecaeb32bd4da0bfe4a30707992a34c962fd44399
 ---
 
 
@@ -44,13 +44,3 @@ And that’s all there is to it! You can now start using WAL-G with Telnyx Stora
 **Additional Resources**
 
 For more information on how to use WAL-G, check out their [developer documentation](https://github.com/wal-g/wal-g/tree/master/docs).
-
----
-
-Related Articles
-
-[Use S3 Browser with Telnyx Storage](https://support.telnyx.com/en/articles/6965267-use-s3-browser-with-telnyx-storage)[Use Arq Backup with Telnyx Storage](https://support.telnyx.com/en/articles/7869213-use-arq-backup-with-telnyx-storage)[Use Duplicati with Telnyx Storage](https://support.telnyx.com/en/articles/7873510-use-duplicati-with-telnyx-storage)[Use ODrive with Telnyx Storage](https://support.telnyx.com/en/articles/8047956-use-odrive-with-telnyx-storage)[Use NetDrive3 with Telnyx Storage](https://support.telnyx.com/en/articles/8048024-use-netdrive3-with-telnyx-storage)
-
-Did this answer your question?
-
-😞😐😃

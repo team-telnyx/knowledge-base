@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4287554-sms-setup-with-postma
 title: "SMS Setup with POSTMAN"
 description: "This article gives an overview of how you can get started with Telnyx SMS… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: efd534c93e94647d4c823db9be24069c07f58b9d35ad7b87567980be66a7eddd
+content_hash: 8352b7ff0bcbf50d60d49afe838bb18ddd6369b7d41fe4760bf470dc56f56259
 ---
 
 
@@ -89,13 +89,3 @@ Kudos! now you know how to send SMS using API V2
 ​
 
 ![Breaking Line](_images/682991ade0be9812.png)
-
----
-
-Related Articles
-
-[MMS Sending and Receiving](https://support.telnyx.com/en/articles/3102823-mms-sending-and-receiving)[Sending Alphanumeric SMS - Sender ID](https://support.telnyx.com/en/articles/4371498-sending-alphanumeric-sms-sender-id)[Telnyx Verify: 2FA made easy](https://support.telnyx.com/en/articles/5701653-telnyx-verify-2fa-made-easy)[Update Webhook Sign Key Guide](https://support.telnyx.com/en/articles/8370064-update-webhook-sign-key-guide)[Bot-to-Bot Support API: Ask Telnyx Knowledge Agent](https://support.telnyx.com/en/articles/15455646-bot-to-bot-support-api-ask-telnyx-knowledge-agent)
-
-Did this answer your question?
-
-😞😐😃

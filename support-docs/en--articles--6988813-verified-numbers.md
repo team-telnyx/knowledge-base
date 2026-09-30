@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6988813-verified-numbers
 title: "Verified Numbers"
 description: "Discover the benefits of verifying your phone number on Telnyx, ensuring the CLI is accurate to boost professionalism… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 9686934346f11a6d8276540b3e713228a2c1cb3f9e787c832ba55ac234408315
+content_hash: 6427f3e26086d25b649061058c5627f999e673f0f70d79895356a3861a710f38
 ---
 
 
@@ -182,13 +182,3 @@ All Verified Number requests incur a separate charge based on the user destinati
 
 To verify Numbers behind an IVR, follow the instructions in the article [here](https://support.telnyx.com/en/articles/12386088-how-to-verify-phone-numbers-behind-an-ivr).
 ​
-
----
-
-Related Articles
-
-[Introducing the Verify API](https://support.telnyx.com/en/articles/5367966-introducing-the-verify-api)[Telnyx Verify: 2FA made easy](https://support.telnyx.com/en/articles/5701653-telnyx-verify-2fa-made-easy)[Verified Numbers FAQ](https://support.telnyx.com/en/articles/6790265-verified-numbers-faq)[How to Verify Phone Numbers behind an IVR](https://support.telnyx.com/en/articles/12386088-how-to-verify-phone-numbers-behind-an-ivr)[[BETA] How to Verify Phone Numbers Using DTMF (Press 1 to Verify)](https://support.telnyx.com/en/articles/13854980-beta-how-to-verify-phone-numbers-using-dtmf-press-1-to-verify)
-
-Did this answer your question?
-
-😞😐😃

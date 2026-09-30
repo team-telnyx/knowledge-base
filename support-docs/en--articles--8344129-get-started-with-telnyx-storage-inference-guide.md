@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8344129-get-started-with-teln
 title: "Get Started with Telnyx Storage & Inference Guide"
 description: "This article provides you with a guide to setting up Telnyx Storage on your… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: d9d835c5e08568a5c2dc62d221383307d2e6a17e098ff7cc547427d3c7acf5b1
+content_hash: 9a48f7969299f49296b48a1f98f14cb29bfe4f49e5bf8fb3dc1627f5c6aad45e
 ---
 
 
@@ -197,13 +197,3 @@ Check out our latest [webinar here](https://telnyx.com/landing/webinar-conversat
 ## How do I give sub members of my organisation access to my storage buckets?
 
 At this moment in time, the organisation owners storage buckets can only be accessed by the organisation owner. Likewise, sub members of your organisation who create their own buckets can't be accessed by the organisation owner. In the near future we hope to expose access to the buckets.
-
----
-
-Related Articles
-
-[Use S3 Browser with Telnyx Storage](https://support.telnyx.com/en/articles/6965267-use-s3-browser-with-telnyx-storage)[Use Cloudmounter with Telnyx Storage](https://support.telnyx.com/en/articles/8047914-use-cloudmounter-with-telnyx-storage)[Use ODrive with Telnyx Storage](https://support.telnyx.com/en/articles/8047956-use-odrive-with-telnyx-storage)[Use NetDrive3 with Telnyx Storage](https://support.telnyx.com/en/articles/8048024-use-netdrive3-with-telnyx-storage)[Use AirExplorer with Telnyx Storage](https://support.telnyx.com/en/articles/8048045-use-airexplorer-with-telnyx-storage)
-
-Did this answer your question?
-
-😞😐😃

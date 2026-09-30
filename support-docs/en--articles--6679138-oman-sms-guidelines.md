@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6679138-oman-sms-guidelines
 title: "Oman: SMS Guidelines"
 description: "SMS Guidelines for Oman including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Oman: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 2b6ea734804985151914781df8c2ef89c7bdc3beef918da14bcd9353c65af252
+content_hash: 0dd64cb719a0a3b184ba5bd4c3b69e74a217b3ea294134b7c31d26b143c49dc1
 ---
 
 
@@ -35,13 +35,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Cote d'Ivoire: SMS Guidelines](https://support.telnyx.com/en/articles/6665111-cote-d-ivoire-sms-guidelines)[Haiti: SMS Guidelines](https://support.telnyx.com/en/articles/6674331-haiti-sms-guidelines)[Iran: SMS Guidelines](https://support.telnyx.com/en/articles/6674403-iran-sms-guidelines)[Nepal: SMS Guidelines](https://support.telnyx.com/en/articles/6678903-nepal-sms-guidelines)[Zambia: SMS Guidelines](https://support.telnyx.com/en/articles/6683501-zambia-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

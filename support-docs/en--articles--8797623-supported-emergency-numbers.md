@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8797623-supported-emergency-n
 title: "Supported Emergency Numbers"
 description: "Here you can find the complete list of emergency numbers supported by Telnyx on the different countries where it… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: b0193503ac71fd8a07940b9caf01d9ba902c3c0604f74015814c081ae7a578f9
+content_hash: 2fa4647c4369472fd5f6c7d4e851fb11acec2e7350401a1601389b109a9ab658
 ---
 
 
@@ -317,13 +317,3 @@ To learn more about what's the correct format for dialing these numbers please r
 | Panama | 507 | 140 | Panama Solidarity Plan |
 | Panama | 507 | 127 | Ombudsman’s Office |
 | Dominican Republic | 1829 | 911 |  |
-
----
-
-Related Articles
-
-[Can I call toll free with my Telnyx number?](https://support.telnyx.com/en/articles/1130703-can-i-call-toll-free-with-my-telnyx-number)[International Numbers - Required Documents](https://support.telnyx.com/en/articles/5469551-international-numbers-required-documents)[Alphanumeric Sender ID](https://support.telnyx.com/en/articles/6354449-alphanumeric-sender-id)[PSTN Replacement / Local Calling with Telnyx](https://support.telnyx.com/en/articles/6622229-pstn-replacement-local-calling-with-telnyx)
-
-Did this answer your question?
-
-😞😐😃

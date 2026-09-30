@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130611-understand-telnyx-sms
 title: "Understand Telnyx SMS MDR Report Log"
 description: "You can check your MDR (message detail record) for every message sent or received. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 88180bd99893d9d08fb66ce20ab26ce281ef8d315c15cd33fecdcda4aaf64931
+content_hash: b2d6a8b2976986e0d97c0d90153104b0512d75cbfc93a80acef6a00d0f4fb116
 ---
 
 
@@ -71,13 +71,3 @@ Don't forget that billing takes place on the number of message parts.
 ​`cost` = rate \* message parts.
 
 Billing and Rate Limiting are applied based on the number of parts per message.
-
----
-
-Related Articles
-
-[How to Download Reports at Telnyx](https://support.telnyx.com/en/articles/1130708-how-to-download-reports-at-telnyx)[How to Leverage Webhooks](https://support.telnyx.com/en/articles/4334722-how-to-leverage-webhooks)[Telnyx SIP Response Codes](https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes)[FAQs about MMS at Telnyx](https://support.telnyx.com/en/articles/4450150-faqs-about-mms-at-telnyx)[Bot-to-Bot Support API: Ask Telnyx Knowledge Agent](https://support.telnyx.com/en/articles/15455646-bot-to-bot-support-api-ask-telnyx-knowledge-agent)
-
-Did this answer your question?
-
-😞😐😃

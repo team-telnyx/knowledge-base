@@ -1,9 +1,11 @@
 ---
 source_url: https://support.telnyx.com/en/articles/14668631-enabling-whatsapp-business-calling-on-telnyx-numbers
-title: "Enabling WhatsApp Business Calling on Telnyx Numbers"
-description: "WhatsApp Business Calling lets your business receive and place voice calls with WhatsApp users using your Telnyx… See Telnyx guidance and requirements."
+title: "Enabling WhatsApp Business Calling on Telnyx and BYON Numbers"
+description: "Enable WhatsApp Business Calling with a Telnyx number, or import your existing non-Telnyx WhatsApp number using Bring Your Own Number (BYON) to receive inbound WhatsApp voice calls through Telnyx."
 scraped: 2026-07-08
-content_hash: f45a42477bf636183bba2238a7c714a2b65d7bcea090c2c5780887738a4da82a
+content_hash: 0061e6e075b91e86cdee0e5efcca8b0dd5c4b849d82f71b204eea266ba32169f
+updated_at: "2026-09-28T18:22:20Z"
+modified_at: "2026-09-28T18:22:20Z"
 ---
 
 
@@ -12,14 +14,14 @@ content_hash: f45a42477bf636183bba2238a7c714a2b65d7bcea090c2c5780887738a4da82a
 
 
 
-# Enabling WhatsApp Business Calling on Telnyx Numbers
+# Enabling WhatsApp Business Calling on Telnyx and BYON Numbers
 
 
 
 
-WhatsApp Business Calling lets your business receive and place voice calls with WhatsApp users using your Telnyx… See Telnyx guidance and requirements.
+Enable WhatsApp Business Calling with a Telnyx number, or import your existing non-Telnyx WhatsApp number using Bring Your Own Number (BYON) to receive inbound WhatsApp voice calls through Telnyx.
 
-Users can call directly from the WhatsApp app to your numbers and Telnyx will route these calls to your SIP connection or Programmable Voice application.
+Users can call your business directly from WhatsApp. For Telnyx numbers, inbound calls use the SIP connection or Programmable Voice application already assigned to the number. For BYON numbers, you choose the SIP Connection that receives inbound calls in Mission Control.
 
 Similarly, you can initiate calls from your connection or application to WhatsApp numbers.
 
@@ -38,9 +40,9 @@ Businesses already using WhatsApp for customer communication that want to extend
 ## **Requirements**
 
 * A WhatsApp Business Account (WABA)
-* A Telnyx phone number that will be linked to your WABA
+* A Telnyx phone number that will be linked to your WABA, or a non-Telnyx WhatsApp number imported via BYON
 
-  + The Telnyx number used for WhatsApp Calling must belong to the same Telnyx account where the WhatsApp Calling configuration is being created
+  + If you use a Telnyx number, it must belong to the same Telnyx account where the WhatsApp Calling configuration is being created
 * A WhatsApp Business Account associated with a business/business portfolio that has a daily messaging limit of at least 2,000 unique recipients.
 
   + If this requirement is not met, Meta may reject Calling enablement with the error “Calling APIs cannot be enabled for this phone number.”
@@ -55,11 +57,11 @@ Businesses already using WhatsApp for customer communication that want to extend
 | User-initiated calls | Available wherever WhatsApp Business is available |
 | Business-initiated calls | Not available for business numbers in: USA, Canada, Egypt, Vietnam, Nigeria (based on the phone number's country code).        ⚠️ **Important:** Before placing a call, you must obtain the user's calling permission. More details on how to obtain permission below. |
 
-## **Enable Whatsapp Business Calling in Mission Control**
+## **Enable WhatsApp Business Calling on a Telnyx Number**
 
-These instructions will help you enable Whatsapp Business Calling in Telnyx Mission Control Portal.
+Follow these steps for a Telnyx-owned number. For a non-Telnyx number, follow **Using Your Own WhatsApp Number (BYON)** below.
 
-If you already have a Telnyx number configured in the portal for messaging purposes and you just need to enable Whatsapp calling you can skip to step 5.
+If you already have a Telnyx number configured in the portal for messaging purposes and you just need to enable Whatsapp calling you can skip to step 4.
 
 #### **Step 1 - Connect Your WhatsApp Business Account**
 
@@ -137,11 +139,39 @@ If you already have a Telnyx number configured in the portal for messaging purpo
 
 ---
 
+## Using Your Own WhatsApp Number (BYON)
+
+With Bring Your Own Number (BYON), you can import an existing non-Telnyx WhatsApp Business number and receive inbound WhatsApp voice calls through Telnyx. You do not need a Telnyx-owned number for this inbound calling setup.
+
+| Setup | Telnyx number | BYON number |
+| --- | --- | --- |
+| Add the number | Associate your Telnyx number with your WABA | Import your non-Telnyx WhatsApp number |
+| Enable calling | Enable Calling on the number | Enable Calling on the imported number |
+| Route inbound calls | Uses the connection or application assigned to the Telnyx number | Select a SIP Connection in the **Inbound connection** dropdown |
+
+### Set up inbound calling for a BYON number
+
+1. Connect your WhatsApp Business Account in **Voice Suite → WhatsApp Calling**, as described in Step 1 above.
+2. Import your existing non-Telnyx WhatsApp number into your WABA in Mission Control. See [How to Set Up WhatsApp on Telnyx](https://support.telnyx.com/en/articles/13986485-how-to-set-up-whatsapp-on-telnyx) for the account and number setup flow.
+3. Open **Voice Suite → WhatsApp Calling → WhatsApp Numbers** and select the imported number.
+4. Open the **Calling** tab and enable **WhatsApp Voice Calling**.
+5. Under **Inbound connection**, select the SIP Connection that should receive inbound WhatsApp calls.
+
+   ![Calling tab for a BYON number, showing WhatsApp Voice Calling enabled and the Inbound connection dropdown](_images/whatsapp-byon-inbound-connection.png)
+
+6. Wait for Mission Control to confirm the routing update before testing an inbound WhatsApp call.
+
+The **Inbound connection** selector appears for BYON numbers with Calling enabled. Choose a connection in your own Telnyx account. WhatsApp authentication connections cannot be used as inbound routing targets.
+
+You can change the selected connection later. Clearing the selection removes the inbound routing assignment; choose a connection again to restore routing.
+
+---
+
 ## **Place and Receive Calls**
 
 ## **User-Initiated Calls**
 
-Once WhatsApp Calling is enabled on your number, your business is ready to receive calls from any WhatsApp user.
+Once WhatsApp Calling is enabled and inbound routing is configured for your number, your business is ready to receive calls from WhatsApp users.
 
 WhatsApp users can reach you in the following ways:
 
@@ -149,7 +179,10 @@ WhatsApp users can reach you in the following ways:
 * **Click-to-call button** — via an interactive message or template you send to the user.
 * **Deep link** — a call link you embed on your website, app, or QR code that launches a call directly.
 
-Regardless of how the call is initiated, it connects through WhatsApp and is routed to your Telnyx number, handled by your existing SIP connection or Programmable Voice application, just like a regular inbound call. No additional setup is required.
+Regardless of how the call is initiated, it connects through WhatsApp:
+
+* **Telnyx numbers:** Calls use the SIP connection or Programmable Voice application already assigned to the number. No additional inbound-routing selection is required.
+* **BYON numbers:** Calls use the SIP Connection you selected in the number's **Calling** tab. Enabling Calling alone does not replace this routing step.
 
 ## **Business-Initiated Calls**
 
@@ -239,7 +272,8 @@ More information about Meta calling permissions can be found [here](https://deve
 * **Calling toggle** — Confirm "Calling" is enabled for the number in Mission Control.
 * **Geo eligibility** — If business-initiated calling fails, check the business phone number's country code against the exclusions listed above.
 * **Permission state** — For business-initiated calls, verify user permission (temporary or permanent). If absent, send a permission request first.
-* **Still stuck?** — Confirm your number is a Telnyx number under your WABA.
+* **Number association** — Confirm your Telnyx number or imported BYON number is linked to the correct WABA.
+* **BYON inbound routing** — Open the number's **Calling** tab and confirm an **Inbound connection** is selected. Check that it belongs to your account and is configured to receive calls.
 
 ---
 
@@ -255,6 +289,14 @@ To view your rates, check **My Pricing** in the portal or contact your account r
 
 ## **FAQs**
 
+**Can I use my own WhatsApp number, not a Telnyx number?**
+
+Yes. Import your non-Telnyx WhatsApp Business number using BYON, enable Calling, and select the SIP Connection that should receive inbound WhatsApp calls.
+
+**How do I choose which connection receives inbound BYON calls?**
+
+Go to **Voice Suite → WhatsApp Calling → WhatsApp Numbers**, select your BYON number, and open the **Calling** tab. Use the **Inbound connection** dropdown to select a SIP Connection in your account. Clearing the selection removes inbound routing. WhatsApp authentication connections cannot be selected as routing targets.
+
 **Can I bridge WhatsApp calls to PSTN?** No. WhatsApp Calling is on-net to WhatsApp users only.
 
 **Do calls count against messaging limits?** No. Calling has separate limits. However, Meta requires the WABA to have a ≥ 2,000 daily messaging limit to enable Calling.
@@ -263,7 +305,7 @@ To view your rates, check **My Pricing** in the portal or contact your account r
 
 **What's the difference between user-initiated and business-initiated calls?**
 
-* **User-initiated:** The user calls your Telnyx number through WhatsApp, no special permission needed.
+* **User-initiated:** The user calls your WhatsApp Business number through WhatsApp, no special permission needed.
 * **Business-initiated:** You call the user, but must first request their permission either through a template message or a free-form message during an active customer service window.
 * **How do business-initiated calling permissions work?** Send a permission request (max 1 per 24 hours, 2 per 7 days per business+user). Temporary permission lasts 7 days; permanent permission is also supported. If 2 consecutive business-initiated calls go unanswered, WhatsApp notifies the user. After 4 consecutive unanswered calls, permission is auto-revoked.
 
@@ -278,13 +320,3 @@ Common causes include:
 * The WhatsApp calling number is not associated with the connection being used to place the call
 
 Verify that the dial string matches the documented format, ensure the WhatsApp user has granted valid calling permissions, and confirm that the WhatsApp-enabled number is assigned to the same connection originating the call.
-
----
-
-Related Articles
-
-[What is WhatsApp Business Platform?](https://support.telnyx.com/en/articles/13986480-what-is-whatsapp-business-platform)[WhatsApp Pricing on Telnyx](https://support.telnyx.com/en/articles/13986484-whatsapp-pricing-on-telnyx)[How to Set Up WhatsApp on Telnyx](https://support.telnyx.com/en/articles/13986485-how-to-set-up-whatsapp-on-telnyx)[WhatsApp FAQ](https://support.telnyx.com/en/articles/13986488-whatsapp-faq)[WhatsApp Troubleshooting Guide](https://support.telnyx.com/en/articles/13986489-whatsapp-troubleshooting-guide)
-
-Did this answer your question?
-
-😞😐😃

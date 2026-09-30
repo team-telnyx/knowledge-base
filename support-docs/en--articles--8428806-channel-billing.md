@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8428806-channel-billing
 title: "Channel Billing"
 description: "The Channel Billing feature is an enhancement to our services that allows customers to manage their voice channels in… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 060e55dd7355e7f16c7b9ffedf42f5ad93f51f2c371fb3c0756ac0f34c227645
+content_hash: af77e0f21e18df0517c3ace99754548848ab79f116b399b13f54e4342a98d758
 ---
 
 
@@ -200,13 +200,3 @@ Below, we provide a summarized breakdown of the supported countries within each 
 * Japan (JP)
 * New Zealand (NZ)
 * Slovenia (SI)
-
----
-
-Related Articles
-
-[Channel Billing and how to use it](https://support.telnyx.com/en/articles/1130678-channel-billing-and-how-to-use-it)[SIP Connection: Number Formats](https://support.telnyx.com/en/articles/1130706-sip-connection-number-formats)[Global Number Types](https://support.telnyx.com/en/articles/1458084-global-number-types)[Bulk Edit Numbers - Voice Settings](https://support.telnyx.com/en/articles/2807846-bulk-edit-numbers-voice-settings)[Telnyx Dashboards](https://support.telnyx.com/en/articles/4307059-telnyx-dashboards)
-
-Did this answer your question?
-
-😞😐😃

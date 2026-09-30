@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3739545-peru-did-requirements
 title: "Peru DID Requirements"
 description: "Here you will find a detailed list of requirements for acquiring numbers in Peru. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: dee737f21f5a7f1dea1ef7db2d834b67d49bff87c0c0e68eaa08cb0162833fd4
+content_hash: 786e60fedcc697284c00523f46493d59f17114bdd0532fae55a5e25b1c61b51c
 ---
 
 
@@ -121,13 +121,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Bulgaria DID Requirements](https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements)[Chile DID Requirements](https://support.telnyx.com/en/articles/5464057-chile-did-requirements)[Finland DID Requirements](https://support.telnyx.com/en/articles/5465874-finland-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

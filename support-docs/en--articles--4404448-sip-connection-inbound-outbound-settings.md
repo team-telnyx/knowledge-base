@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4404448-sip-connection-inboun
 title: "SIP Connection: Inbound & Outbound Settings"
 description: "Master inbound and outbound voice configurations with Telnyx's comprehensive guideline materials. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 84a002ce41a2cc6ea5434f26d6c9f0fbbb242687854168eac4c9dad904d99fea
+content_hash: 0cb530ea2e98f236560005ac8aa5799b4e2c6e52694ded8bea9993fb90d28614
 ---
 
 
@@ -125,13 +125,3 @@ The settings available are as follows:
 * ## **Generate Ringback Tone (183)**
 
   Telnyx will reply with an instant 183 message with SDP and start sending early media carrying a US ringback tone to the calling party agent. If The PSTN Term Carrier starts sending early media then Telnyx will stop generating the ringback tone and start passing it to the calling party agent.
-
----
-
-Related Articles
-
-[Configuring a GoAutoDial PBX SIP Trunk](https://support.telnyx.com/en/articles/1130694-configuring-a-goautodial-pbx-sip-trunk)[SIP URI Calling](https://support.telnyx.com/en/articles/2925713-sip-uri-calling)[SIP Connection: Fail-over and Retries](https://support.telnyx.com/en/articles/4320364-sip-connection-fail-over-and-retries)[PBXes: Connecting a PBXes Trunk to Telnyx](https://support.telnyx.com/en/articles/5798240-pbxes-connecting-a-pbxes-trunk-to-telnyx)[How to Configure SIP Attach using a UAC Connection](https://support.telnyx.com/en/articles/14805261-how-to-configure-sip-attach-using-a-uac-connection)
-
-Did this answer your question?
-
-😞😐😃

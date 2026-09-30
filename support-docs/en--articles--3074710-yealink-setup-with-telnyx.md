@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3074710-yealink-setup-with-te
 title: "Yealink: Setup with Telnyx"
 description: "In this guide we will walk you through configuring a Yealink T Series IP phone with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: caf32f05642449300be9ec019e8b2444c57259a08edd40bfaec35df709870bd5
+content_hash: 4f5fd83ff7131041f46cd2cf7a490af44972a543b8a2eabd9da591e0825f72a8
 ---
 
 
@@ -132,13 +132,3 @@ Additionally, you can check out:
 * [Yealink equipment maintenance](https://ams.yealink.com/search/index)
 * [Yealink license application](https://license.yealink.com/)
 * [Yealink support](https://support.yealink.com/en/portal/home)
-
----
-
-Related Articles
-
-[Configuring an AVAYA IP trunk with Telnyx](https://support.telnyx.com/en/articles/1130627-configuring-an-avaya-ip-trunk-with-telnyx)[Configuring a Vicidial IP trunk with Telnyx](https://support.telnyx.com/en/articles/1130632-configuring-a-vicidial-ip-trunk-with-telnyx)[Configuring Linphone with Telnyx](https://support.telnyx.com/en/articles/1130674-configuring-linphone-with-telnyx)[Polycom: Setup with Telnyx](https://support.telnyx.com/en/articles/5619617-polycom-setup-with-telnyx)[Flyingvoice: Telnyx Setup](https://support.telnyx.com/en/articles/5810663-flyingvoice-telnyx-setup)
-
-Did this answer your question?
-
-😞😐😃

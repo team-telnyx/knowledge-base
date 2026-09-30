@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130665-configuring-your-cisc
 title: "Configuring your Cisco SPA112/122 ATA"
 description: "In this guide you will learn to configure your Cisco SPA112 ATA with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: fb48173b31bccd2d3994f800ed0a16f3cdeaec415b6e07c45d4d815ae70d354c
+content_hash: 7e29c978ec30d10271349d2eb52d4b738f4fee2b65482944df7e2719b5bb87b5
 ---
 
 
@@ -233,13 +233,3 @@ Cisco's default settings (SIP T1 = 0.5 sec, RTP packet size 0.030 on most Sipura
 * [Dial Plan for Linksys ATAs](https://app.intercom.com/a/apps/ltcafuzd/articles/articles/5721953/show)
 
 ---
-
----
-
-Related Articles
-
-[Configuring a Cisco CUBE/CUCM IP Trunk](https://support.telnyx.com/en/articles/1130606-configuring-a-cisco-cube-cucm-ip-trunk)[Cisco: Configure a Cisco CME IP Trunk](https://support.telnyx.com/en/articles/1130612-cisco-configure-a-cisco-cme-ip-trunk)[Configuring a Cisco CME Credentials Trunk](https://support.telnyx.com/en/articles/1130668-configuring-a-cisco-cme-credentials-trunk)[Configuring a Cisco CUBE/CUCM SIP Trunk](https://support.telnyx.com/en/articles/1130673-configuring-a-cisco-cube-cucm-sip-trunk)[Cisco: 68xx/88xx Setup](https://support.telnyx.com/en/articles/5820309-cisco-68xx-88xx-setup)
-
-Did this answer your question?
-
-😞😐😃

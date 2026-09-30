@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/2964210-megaport-configuratio
 title: "Megaport Configuration with TELNYX"
 description: "In this article we will explain how to configure Megaport with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: d0bfcebb26f0f8f67bbcd1bf870f3e53c4f93d266da2afbbdb52c4fcfc8bc8b4
+content_hash: 7356d1dc105e753f4072fea0f68331726af8d9cef700a99ac52e087734bba0f7
 ---
 
 
@@ -103,13 +103,3 @@ Additionally, check out:
 * [Megaport documentation](https://docs.megaport.com/)
 * [Megaport support](https://docs.megaport.com/support/contact/)
 * [Megaport resource center](https://www.megaport.com/resources/)
-
----
-
-Related Articles
-
-[Configuring an AVAYA IP trunk with Telnyx](https://support.telnyx.com/en/articles/1130627-configuring-an-avaya-ip-trunk-with-telnyx)[Configuring a Vicidial IP trunk with Telnyx](https://support.telnyx.com/en/articles/1130632-configuring-a-vicidial-ip-trunk-with-telnyx)[Configuring Grandstream GXP16XX with Telnyx](https://support.telnyx.com/en/articles/1130660-configuring-grandstream-gxp16xx-with-telnyx)[Google VPC: Telnyx Integration](https://support.telnyx.com/en/articles/2239449-google-vpc-telnyx-integration)[Flyingvoice: Telnyx Setup](https://support.telnyx.com/en/articles/5810663-flyingvoice-telnyx-setup)
-
-Did this answer your question?
-
-😞😐😃

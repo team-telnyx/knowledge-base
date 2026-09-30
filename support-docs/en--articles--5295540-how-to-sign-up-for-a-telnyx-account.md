@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5295540-how-to-sign-up-for-a-
 title: "How to Sign Up for a Telnyx account"
 description: "This article will explain the steps to create your own Telnyx Portal… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 1888e61cdefed0e488a9e336c70a65e92d0188b678091a9f5040e44fb187c477
+content_hash: 57830d708e82c8c15ff9b2fa5ccc9b9b5652e3b06225ee63fb123a64eab1591e
 ---
 
 
@@ -136,13 +136,3 @@ Telnyx may provide free trial credit from time to time for certain products, how
 
 * If the login button is disabled, please verify that your browser is not blocking google scripts for recaptcha verification.
 * If you try to sign into your account and you receive the error "You cannot sign in as your identity verification was rejected" please send an email to [support@telnyx.com](mailto:support@telnyx.com) so they can assist you.
-
----
-
-Related Articles
-
-[Configuring Grandstream GXP16XX with Telnyx](https://support.telnyx.com/en/articles/1130660-configuring-grandstream-gxp16xx-with-telnyx)[Configuring Linphone with Telnyx](https://support.telnyx.com/en/articles/1130674-configuring-linphone-with-telnyx)[What is DTMF? and how to configure it on Telnyx](https://support.telnyx.com/en/articles/1130710-what-is-dtmf-and-how-to-configure-it-on-telnyx)[Megaport Configuration with TELNYX](https://support.telnyx.com/en/articles/2964210-megaport-configuration-with-telnyx)[Auth0 SSO Integration With Telnyx](https://support.telnyx.com/en/articles/5355953-auth0-sso-integration-with-telnyx)
-
-Did this answer your question?
-
-😞😐😃

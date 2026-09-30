@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3734973-venezuela-did-require
 title: "Venezuela DID Requirements"
 description: "Here you will find a detailed list of requirements for acquiring numbers in Venezuela. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 7cc2a3ba93308bec5c93684bc10594eaf114b6d074e419e39dd1502a2e106682
+content_hash: 2d768da13c8a53fc74bf39029cfd216b52e1365528f9a9851d7ce70f37d5936f
 ---
 
 
@@ -114,13 +114,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Bulgaria DID Requirements](https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements)[Ecuador DID Requirements](https://support.telnyx.com/en/articles/3506153-ecuador-did-requirements)[Colombia DID Requirements](https://support.telnyx.com/en/articles/5464069-colombia-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

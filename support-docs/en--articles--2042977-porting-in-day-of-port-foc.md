@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/2042977-porting-in-day-of-por
 title: "Porting In - Day of Port (FOC)"
 description: "In this article we will explain how to ensure your numbers are ready to go on the day of FOC! See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 0babffa2d692bed5dca61707549b1e5e20d4703ba65121827430270010ec6d41
+content_hash: e9ecfc969a5bde2e8366420a681bec83c9d7a749a7d15aa757745fd9b507a15d
 ---
 
 
@@ -37,13 +37,3 @@ If your port request is eligible for FastPort®, check out our article **[here](
 **Often, if you review your Customer Portal during the port process, you will see a note that states: " Not SMS Capable " beside your pending number. Please be advised that ALL US numbers are SMS Capable, and this status will during the activation of your port request.**
 
 If you have any porting related questions or issues please get in touch with the porting team at [porting@telnyx.com](mailto:porting@telnyx.com).
-
----
-
-Related Articles
-
-[Port-In Best Practices](https://support.telnyx.com/en/articles/2030770-port-in-best-practices)[Number Porting Rules and Guidelines](https://support.telnyx.com/en/articles/2086149-number-porting-rules-and-guidelines)[Port Out Tracking](https://support.telnyx.com/en/articles/2906030-port-out-tracking)[New Zealand Number Porting](https://support.telnyx.com/en/articles/3267206-new-zealand-number-porting)[Estonia Number Porting](https://support.telnyx.com/en/articles/5720521-estonia-number-porting)
-
-Did this answer your question?
-
-😞😐😃

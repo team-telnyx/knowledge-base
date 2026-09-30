@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4305158-api-keys-and-how-to-u
 title: "API Keys and How to Use Them"
 description: "In this article we will explain API keys and how to use them with both API v2 and API v1. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 97e515628a8ce56ff65bf3e353d558478b2568bcc9c8ac8851185863bc8cabde
+content_hash: d779bf33c2caae9be1f02ca06aca2b95a9dacd6fad20457c6fdfde02a95cb742
 ---
 
 
@@ -83,13 +83,3 @@ In your API request, please include two headers called:
 You can find more details on API v1 Tokens in our developer's docs [here](https://developers.telnyx.com/api) and our API v2 Key [here](https://developers.telnyx.com/api)
 
 ![Breaking Line](_images/8a45029f9df266eb.png)
-
----
-
-Related Articles
-
-[MMS Sending and Receiving](https://support.telnyx.com/en/articles/3102823-mms-sending-and-receiving)[Textable Setup Guide](https://support.telnyx.com/en/articles/3685327-textable-setup-guide)[How to Leverage Webhooks](https://support.telnyx.com/en/articles/4334722-how-to-leverage-webhooks)[Update Webhook Sign Key Guide](https://support.telnyx.com/en/articles/8370064-update-webhook-sign-key-guide)[Bot-to-Bot Support API: Ask Telnyx Knowledge Agent](https://support.telnyx.com/en/articles/15455646-bot-to-bot-support-api-ask-telnyx-knowledge-agent)
-
-Did this answer your question?
-
-😞😐😃

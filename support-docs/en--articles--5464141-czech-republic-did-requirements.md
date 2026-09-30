@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5464141-czech-republic-did-re
 title: "Czech Republic DID Requirements"
 description: "Understanding Czech Republic DID requirements: From personal to business identity verification details. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 7caeb41441546c4a012a8a9ffc05665785996c004dc28201b4d9f0fc70c31806
+content_hash: 524f22ee959d2124baeb3bff367a974a017c065f7541c9b96fdf423884d78670
 ---
 
 
@@ -113,13 +113,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Bulgaria DID Requirements](https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements)[Luxembourg DID Requirements](https://support.telnyx.com/en/articles/3739502-luxembourg-did-requirements)[Dominican Republic DID requirements](https://support.telnyx.com/en/articles/5464157-dominican-republic-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

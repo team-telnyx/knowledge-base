@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4305547-reporting-overview
 title: "Reporting: Overview"
 description: "In this article, I will describe the Reporting Feature on your Telnyx customer portal and what you can do there. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 68cda2fe0ceae3cedef016d7cf3d81c74ec4db8b258605564c526f3c0afbf6f2
+content_hash: 914737400d4b4d944d0fd05435aa5ab3da483555f246b957f7bfbebbe27a0c63
 ---
 
 
@@ -96,13 +96,3 @@ In this article, I will describe the Reporting Feature on your Telnyx customer p
   • "Weekly total calls in February"
 
 ![](_images/f12f763e9d2564c8.png)
-
----
-
-Related Articles
-
-[How to Download Reports at Telnyx](https://support.telnyx.com/en/articles/1130708-how-to-download-reports-at-telnyx)[Telnyx Dashboards](https://support.telnyx.com/en/articles/4307059-telnyx-dashboards)[Your Number Lookup Guide](https://support.telnyx.com/en/articles/4366901-your-number-lookup-guide)[Reporting: Detail Requests](https://support.telnyx.com/en/articles/4424926-reporting-detail-requests)[Surcharge for High Abandoned Call Rates](https://support.telnyx.com/en/articles/12805746-surcharge-for-high-abandoned-call-rates)
-
-Did this answer your question?
-
-😞😐😃

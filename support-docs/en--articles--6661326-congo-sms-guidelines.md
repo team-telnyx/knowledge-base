@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6661326-congo-sms-guidelines
 title: "Congo: SMS Guidelines"
 description: "SMS Guidelines for Congo including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Congo: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 4664eec3c60f6b096eea5ca40584cf1d90817d268531eb2a7e6ecfdd178cef06
+content_hash: ed2cf7ca9e189871d02cf44f2206ac202a94ec8dcd2029b93e06b5ffd1c287b1
 ---
 
 
@@ -35,13 +35,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Congo, DR: SMS Guidelines](https://support.telnyx.com/en/articles/6661342-congo-dr-sms-guidelines)[Cote d'Ivoire: SMS Guidelines](https://support.telnyx.com/en/articles/6665111-cote-d-ivoire-sms-guidelines)[Guinea: SMS Guidelines](https://support.telnyx.com/en/articles/6671488-guinea-sms-guidelines)[Rwanda: SMS Guidelines](https://support.telnyx.com/en/articles/6679407-rwanda-sms-guidelines)[Zambia: SMS Guidelines](https://support.telnyx.com/en/articles/6683501-zambia-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4967485-short-code-supported-
 title: "Short Code - Supported Carriers"
 description: "Here you will find a global list of carriers that can support short code messages. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: e6d5f36b6c5bbc94e8cf8597ec9c8a0cdc7e0ba565fa935dc0de72c2c652b0f4
+content_hash: bf00633959b44c510456be8145f920ac5ca33b0005f5fb7069ddc795e56ecb81
 ---
 
 
@@ -126,13 +126,3 @@ This list is subject to change and may be updated occasionally.
 ## What are short codes used for?
 
 Short codes refer to short numerical codes used to send and receive SMS and MMS messages. They're especially useful for businesses and organizations to conduct marketing campaigns, alerts, and two-factor authentication due to their memorability and capability to handle high message volumes.
-
----
-
-Related Articles
-
-[Supported Emergency Numbers](https://support.telnyx.com/en/articles/8797623-supported-emergency-numbers)
-
-Did this answer your question?
-
-😞😐😃

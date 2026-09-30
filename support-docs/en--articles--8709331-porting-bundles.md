@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8709331-porting-bundles
 title: "Porting + Bundles"
 description: "Learn how to pre-configure your porting order with Bundles. See Telnyx guidance and requirements Learn more about Porting + Bundles with Telnyx."
 scraped: 2026-07-08
-content_hash: 385eaf7ff1e177726482b7d66187a2172c6ec9888aee27bcc1f2fa79b74bc838
+content_hash: a9b85e070e543dd342316b09acffd2dfeca9f977b413a244c66c205deb4bad93
 ---
 
 
@@ -77,13 +77,3 @@ Here's how you can pre-configure your porting order with bundles:
 ## Using the Porting API
 
 You can follow [this developers guide](https://developers.telnyx.com/docs/numbers/porting/bundles-porting) to integrate with the porting API for pre-configuring bundles to port orders
-
----
-
-Related Articles
-
-[Porting Policy & Procedure](https://support.telnyx.com/en/articles/1130630-porting-policy-procedure)[Automating Ports With Programmatic API](https://support.telnyx.com/en/articles/5386351-automating-ports-with-programmatic-api)[Flyingvoice: Telnyx Setup](https://support.telnyx.com/en/articles/5810663-flyingvoice-telnyx-setup)[Porting away from Skype](https://support.telnyx.com/en/articles/10715399-porting-away-from-skype)[Twilio TwiML Conference on Telnyx](https://support.telnyx.com/en/articles/13389311-twilio-twiml-conference-on-telnyx)
-
-Did this answer your question?
-
-😞😐😃

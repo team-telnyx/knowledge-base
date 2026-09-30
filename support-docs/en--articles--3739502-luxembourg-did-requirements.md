@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3739502-luxembourg-did-requir
 title: "Luxembourg DID Requirements"
 description: "Here you will find detailed requirements to acquire Luxembourg DID numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 7d6b2ad1300e029eba00dd46e8b5da7937a1cd6bc3a65d78b289e2251cb4dc53
+content_hash: 842ea46c73416107a0332cac08283fbcf681ec8a9b6c1a82e1984ccc2ef254c8
 ---
 
 
@@ -119,13 +119,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Bulgaria DID Requirements](https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements)[Chile DID Requirements](https://support.telnyx.com/en/articles/5464057-chile-did-requirements)[Finland DID Requirements](https://support.telnyx.com/en/articles/5465874-finland-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

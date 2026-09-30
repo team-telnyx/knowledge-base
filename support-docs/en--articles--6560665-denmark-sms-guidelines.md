@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6560665-denmark-sms-guideline
 title: "Denmark: SMS Guidelines"
 description: "SMS Guidelines for Denmark including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Denmark: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 48cdbf4def4bebcb092bdfeb72356e6b6ce289ed8fd6a823015965f9562efcdf
+content_hash: 8746cc3b4d0e5499968bad99dec0985fc6d1b53f4f6ac071768c3d8427e36b43
 ---
 
 
@@ -35,13 +35,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on URL whitelisting kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Philippines: SMS Guidelines](https://support.telnyx.com/en/articles/6531682-philippines-sms-guidelines)[Norway: SMS Guidelines](https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines)[Iceland: SMS Guidelines](https://support.telnyx.com/en/articles/6560909-iceland-sms-guidelines)[China: SMS Guidelines](https://support.telnyx.com/en/articles/6601144-china-sms-guidelines)[Mali: SMS Guidelines](https://support.telnyx.com/en/articles/6675247-mali-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

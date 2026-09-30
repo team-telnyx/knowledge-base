@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/11421359-10dlc-for-chiropract
 title: "10DLC for Chiropractors"
 description: "How to fill in the 10DLC Registration for… See Telnyx guidance and requirements Learn more about 10DLC for Chiropractors with Telnyx."
 scraped: 2026-07-08
-content_hash: 54651f622c365df6722b1c021dfed1349e1958ce387be017a8f2734d21580362
+content_hash: daf56a448be206670dbd67ebc8c60247e014caee8321265342922f47f509d0fa
 ---
 
 
@@ -79,13 +79,3 @@ Affiliate marketing - No
 ​**Webhooks:**
 (You Can Leave These Fields Blank)
 ​
-
----
-
-Related Articles
-
-[Messaging - 10DLC Campaign Checklist](https://support.telnyx.com/en/articles/9038141-messaging-10dlc-campaign-checklist)[10DLC Campaign Compliance Requirements](https://support.telnyx.com/en/articles/9940291-10dlc-campaign-compliance-requirements)[Guide to 10DLC Message Flow Field](https://support.telnyx.com/en/articles/10562019-guide-to-10dlc-message-flow-field)[10DLC Keywords and Confirmation Messages](https://support.telnyx.com/en/articles/10645338-10dlc-keywords-and-confirmation-messages)[10DLC Opt in Form](https://support.telnyx.com/en/articles/10684260-10dlc-opt-in-form)
-
-Did this answer your question?
-
-😞😐😃

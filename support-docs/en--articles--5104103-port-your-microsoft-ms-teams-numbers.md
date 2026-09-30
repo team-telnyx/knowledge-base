@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5104103-port-your-microsoft-m
 title: "Port your Microsoft MS Teams Numbers"
 description: "In this article you will learn how you can port your virtual phone numbers from Microsoft MS… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 81f23e7201b23e98a505bd4b7157e237dfddaa74ef0e49ad8a63820575942a9f
+content_hash: 2cae59111a873baef43545ae9f2a84952957373c818ab911c26d98a703b7653e
 ---
 
 
@@ -59,13 +59,3 @@ Details we'll need from the Customer to be able to open a Ticket with Microsoft:
 * ID of the external connection the number should be assigned to
 * Numbers which the customer wants migrated over
 * If they want the number as "Calling User Assignment" or "First Party App Assignment"
-
----
-
-Related Articles
-
-[Automated Port Request Validation](https://support.telnyx.com/en/articles/1516776-automated-port-request-validation)[Port numbers away from Telnyx](https://support.telnyx.com/en/articles/2033789-port-numbers-away-from-telnyx)[Porting away from Bandwidth](https://support.telnyx.com/en/articles/3947875-porting-away-from-bandwidth)[Operator Connect Guide - Microsoft Teams](https://support.telnyx.com/en/articles/7260976-operator-connect-guide-microsoft-teams)[Porting Numbers Away from Aircall to Telnyx](https://support.telnyx.com/en/articles/14708128-porting-numbers-away-from-aircall-to-telnyx)
-
-Did this answer your question?
-
-😞😐😃

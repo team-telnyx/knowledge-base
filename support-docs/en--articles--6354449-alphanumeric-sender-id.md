@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6354449-alphanumeric-sender-i
 title: "Alphanumeric Sender ID"
 description: "Depending on the location, Alphanumeric Sender IDs can change. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: c8f125df80c7d80c747d1fe622728c052135b7de1ba7111eb78018f6f7905f0d
+content_hash: 885781b36775f6e3c0a8f0d8ce6a18cc641bd323ee7c94a1ddc4a63142b193b9
 ---
 
 
@@ -259,13 +259,3 @@ Please note that in order to request Alphanumeric Sender ID registration, your a
 If you would like to register an Alphanumeric Sender ID or have questions about the process, please reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com), mentioning the country or countries you wish to register in along with the estimated monthly volume and a brief description of your use case.
 
 Want to learn more about how to send Alphanumeric messages, check out this [article](https://support.telnyx.com/en/articles/4371498-sending-alphanumeric-sms-sender-id). For any other questions, please reach out to [support@telnyx.com](mailto:support@telnyx.com).
-
----
-
-Related Articles
-
-[Sending Alphanumeric SMS - Sender ID](https://support.telnyx.com/en/articles/4371498-sending-alphanumeric-sms-sender-id)[Romania: SMS Guidelines](https://support.telnyx.com/en/articles/6561262-romania-sms-guidelines)[Bulgaria: SMS Guidelines](https://support.telnyx.com/en/articles/6563862-bulgaria-sms-guidelines)[Iran: SMS Guidelines](https://support.telnyx.com/en/articles/6674403-iran-sms-guidelines)[Liberia: SMS Guidelines](https://support.telnyx.com/en/articles/6674974-liberia-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

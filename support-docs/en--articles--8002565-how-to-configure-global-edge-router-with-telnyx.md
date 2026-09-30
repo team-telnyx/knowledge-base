@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8002565-how-to-configure-glob
 title: "How to configure Global Edge Router with Telnyx"
 description: "Get access to your global edge network in minutes. See Telnyx guidance and requirements Learn more about How to configure Global Edge Router with Telnyx with."
 scraped: 2026-07-08
-content_hash: f2fd085c1621e356963d62d948471f2eb082d9010b8eb64952a0848446c360a5
+content_hash: ce91601db5384d00278aed31a647c15e225a8cec8b661acf8be96b984bb11222
 ---
 
 
@@ -76,13 +76,3 @@ If you have multiple, choose the Wireguard® Peer you would like to associate wi
 Using the Private Key in Step 5, paste your Wireguard® configuration to service your VM.
 
 Now you have configured a Global IP and are ready to use Global Edge Router from Telnyx to help keep your services online and quickly accessible.
-
----
-
-Related Articles
-
-[Telnyx Networking on Ubuntu](https://support.telnyx.com/en/articles/8104274-telnyx-networking-on-ubuntu)[Telnyx Networking on AWS VPC](https://support.telnyx.com/en/articles/8104309-telnyx-networking-on-aws-vpc)[Telnyx Networking on Azure Linux VMs](https://support.telnyx.com/en/articles/8104343-telnyx-networking-on-azure-linux-vms)[Intro to Telnyx Edge Router](https://support.telnyx.com/en/articles/8126141-intro-to-telnyx-edge-router)[Telnyx Networking on PfSense](https://support.telnyx.com/en/articles/8201852-telnyx-networking-on-pfsense)
-
-Did this answer your question?
-
-😞😐😃

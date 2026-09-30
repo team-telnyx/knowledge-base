@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3267535-puerto-rico-number-po
 title: "Puerto Rico Number Porting"
 description: "Here you will find all of the requirements for Puerto Rico number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 504b420951be9667264b6a6e9478b6740c99b6d4e39a2cd20343b80aba7a8f31
+content_hash: ed414ba046b4fa56b61aafdbd2514e27a2df5c5daa3f32ff654abfb4cbb1912b
 ---
 
 
@@ -55,13 +55,3 @@ Explore the essential [requirements for successful number porting](https://suppo
 ### **Best Practices for Porting Support in** Puerto Rico
 
 Examine best practices for effectively [contacting Telnyx's porting support](https://support.telnyx.com/en/articles/5820338-best-practices-for-contacting-porting) to facilitate clear communication and swift issue resolution in Puerto Rico.
-
----
-
-Related Articles
-
-[Canada Number Porting](https://support.telnyx.com/en/articles/3266430-canada-number-porting)[United States Number Porting](https://support.telnyx.com/en/articles/3267816-united-states-number-porting)[Norway Number Porting](https://support.telnyx.com/en/articles/5188563-norway-number-porting)[Albania Number Porting](https://support.telnyx.com/en/articles/5190443-albania-number-porting)[Turkey Number Porting](https://support.telnyx.com/en/articles/6138781-turkey-number-porting)
-
-Did this answer your question?
-
-😞😐😃

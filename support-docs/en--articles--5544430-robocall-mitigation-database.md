@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5544430-robocall-mitigation-d
 title: "Robocall Mitigation Database"
 description: "In this article we outline the SHAKEN/STIR order taking effect on September 28, 2021, See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: a3dbd07e137e53fdd153db793328c9e53ec5a0303a420f64adab82ebcfd5756c
+content_hash: 00fef25044a2712487afe826bd77688de813a8fa263b1ca7c1f605b1fe1e7a0a
 ---
 
 
@@ -59,13 +59,3 @@ For more detailed guidance, see the FCC’s Second Report and Order, paragraphs 
 
 It is advisable for Telnyx customers and other entities to consult legal counsel to determine if registering with the RMD is required for your entity. Please note that Telnyx has registered with the RMD to ensure uninterrupted service and compliance with FCC regulations.
 ​
-
----
-
-Related Articles
-
-[What is Telnyx?](https://support.telnyx.com/en/articles/1130637-what-is-telnyx)[STIR/SHAKEN With Telnyx](https://support.telnyx.com/en/articles/5402969-stir-shaken-with-telnyx)[Inbound Call Screening](https://support.telnyx.com/en/articles/8037040-inbound-call-screening)[Understanding the FCC’s Eighth Report and Order on Third-Party Authentication](https://support.telnyx.com/en/articles/10806916-understanding-the-fcc-s-eighth-report-and-order-on-third-party-authentication)[What is the U.S. Reassigned Numbers Database?](https://support.telnyx.com/en/articles/11358700-what-is-the-u-s-reassigned-numbers-database)
-
-Did this answer your question?
-
-😞😐😃

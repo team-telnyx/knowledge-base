@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3610162-prevent-telnyx-accoun
 title: "Prevent Telnyx Account Fraud"
 description: "In this article we will explain how to setup your account to prevent fraud. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 514f9bb2e3406e372d328414957d3faba498184cc8b3a98ae540dc23b7470ce1
+content_hash: f21b1765f9a5401d127b1d01d36d72bf361228edf9aec1e8a7dc9f7637183f47
 ---
 
 
@@ -110,13 +110,3 @@ Here is some further recommended reading below:
 ​
 ​
 ​
-
----
-
-Related Articles
-
-[How to Sign Up for a Telnyx account](https://support.telnyx.com/en/articles/5295540-how-to-sign-up-for-a-telnyx-account)[Telnyx Verify: 2FA made easy](https://support.telnyx.com/en/articles/5701653-telnyx-verify-2fa-made-easy)[Bring Campaigns to Telnyx](https://support.telnyx.com/en/articles/6339158-bring-campaigns-to-telnyx)[Chiro8000 and Telnyx Integration](https://support.telnyx.com/en/articles/7885470-chiro8000-and-telnyx-integration)[Telnyx + Vapi Integration](https://support.telnyx.com/en/articles/12538402-telnyx-vapi-integration)
-
-Did this answer your question?
-
-😞😐😃

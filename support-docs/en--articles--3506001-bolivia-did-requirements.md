@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3506001-bolivia-did-requireme
 title: "Bolivia DID Requirements"
 description: "List of requirements to acquire Bolivia numbers for use - Learn more here. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: ad19013b9a0bbc281c77752ba9ca65c3f150884f6f8368c13616290d81e08f75
+content_hash: 5cf2c43fe3eb172b2c6b04b6b6e6eee6b01e3432209873340074801c3a48f168
 ---
 
 
@@ -44,13 +44,3 @@ For **business identity** verification:
 For **address** verification:
 
 \* Address Worldwide (street, building number, postal code, city and country)
-
----
-
-Related Articles
-
-[Australia DID Requirements](https://support.telnyx.com/en/articles/3505912-australia-did-requirements)[Finland DID Requirements](https://support.telnyx.com/en/articles/5465874-finland-did-requirements)[Guadeloupe DID Requirements](https://support.telnyx.com/en/articles/13719972-guadeloupe-did-requirements)[Mayotte DID Requirements](https://support.telnyx.com/en/articles/13720003-mayotte-did-requirements)[Reunion DID Requirements](https://support.telnyx.com/en/articles/13720024-reunion-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

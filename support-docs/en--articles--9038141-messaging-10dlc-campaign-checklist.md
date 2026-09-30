@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/9038141-messaging-10dlc-campa
 title: "Messaging - 10DLC Campaign Checklist"
 description: "Telnyx Messaging - 10DLC Campaign Checklist. See Telnyx guidance and requirements Learn more about Messaging - 10DLC Campaign Checklist with Telnyx."
 scraped: 2026-07-08
-content_hash: 3f2c9b37f39faffaff31825bc4fbc352753139608c75bb2a8596d94f48bc08da
+content_hash: 452fa7c1d603bfb55e73a5cb7454f2768c2aa0654a8a9543307b45edae853df6
 ---
 
 
@@ -74,13 +74,3 @@ When creating new campaigns, please review the following Checklist:
   + Ex: We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information.
 
 More details at <https://support.telnyx.com/en/articles/6339152-how-to-create-a-10dlc-campaign>.
-
----
-
-Related Articles
-
-[10DLC Campaign Approval Best Practices](https://support.telnyx.com/en/articles/7127078-10dlc-campaign-approval-best-practices)[10DLC Campaign Compliance Requirements](https://support.telnyx.com/en/articles/9940291-10dlc-campaign-compliance-requirements)[10DLC Carrier Error Codes Explanations](https://support.telnyx.com/en/articles/10547022-10dlc-carrier-error-codes-explanations)[Guide to 10DLC Message Flow Field](https://support.telnyx.com/en/articles/10562019-guide-to-10dlc-message-flow-field)[10DLC Privacy Policy](https://support.telnyx.com/en/articles/10645583-10dlc-privacy-policy)
-
-Did this answer your question?
-
-😞😐😃

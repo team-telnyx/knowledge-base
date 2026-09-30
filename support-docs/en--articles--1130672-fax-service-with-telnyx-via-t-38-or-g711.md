@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130672-fax-service-with-teln
 title: "Fax service with Telnyx (via T.38 or G711)"
 description: "Learn more about setting up fax service with Telnyx using either T.38 or g711. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 942daef381f34056027c75b945d4aef8b6c35bdea0818e57e665938ab14acab5
+content_hash: b475fb8e9fea1fbd924af2f06f14d7d45d4f5dc495760b580b7f0d3642edc932
 ---
 
 
@@ -88,13 +88,3 @@ Generally speaking, most fax machines on the market today should allow you to mo
 **Please note that we do not support SRTP encryption when T.38 is enabled.**
 
 ##
-
----
-
-Related Articles
-
-[Configuring your Cisco SPA112/122 ATA](https://support.telnyx.com/en/articles/1130665-configuring-your-cisco-spa112-122-ata)[Telnyx SIP Response Codes](https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes)[Fax API - Error List](https://support.telnyx.com/en/articles/4967498-fax-api-error-list)[Grandstream HT802: Telnyx Setup](https://support.telnyx.com/en/articles/5725071-grandstream-ht802-telnyx-setup)[Flyingvoice: Telnyx Setup](https://support.telnyx.com/en/articles/5810663-flyingvoice-telnyx-setup)
-
-Did this answer your question?
-
-😞😐😃

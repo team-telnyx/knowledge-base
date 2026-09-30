@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/10715184-10dlc-unverified-bra
 title: "10DLC Unverified Brand"
 description: "A brand is always unverified for the same reason, either the legal company name, address, See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f648f47c5ea3437cf3f55620791c2f4363f1563426f0ddb8249ba348f03ef69a
+content_hash: 55b2832139c3a97c7145d4d4971127dedb7acaaf15a0652896a775b801e0bd6e
 ---
 
 
@@ -33,13 +33,3 @@ For non-US or Canada brands:
 Please enter the numeric portion of your VAT ID number. Automated VAT identification matching is currently optimized for the following list of countries. Croatia, Hungary, Ireland, Italy, Lithuania, Luxembourg, Latvia, Malta, Netherlands, Norway, Poland, Portugal, Romania, Sweden, Slovenia, Slovakia, Northern Ireland, United Arab Emirates, Australia, Belarus, Iceland, Malaysia, New Zealand, Saudi Arabia, Singapore, Taiwan If your country is NOT on the following list, please provide the primary corporation registration number or Tax ID number for your country and note the country of issuance.
 
 For a Publicly Traded Brand you must complete a 2fa email from Aegis with an email domain that matches the website and that is not a group alias (must go to an individual's email). For previously Verified Publicly Traded brands before this rule (somewhere in q4 of 2024 this took effect) the brand must complete the 2fa email before they can create a new campaign.
-
----
-
-Related Articles
-
-[How to create a 10DLC brand](https://support.telnyx.com/en/articles/5896911-how-to-create-a-10dlc-brand)[Short Code Brand and Content Provider Registration Process](https://support.telnyx.com/en/articles/10245615-short-code-brand-and-content-provider-registration-process)[10DLC Carrier Error Codes Explanations](https://support.telnyx.com/en/articles/10547022-10dlc-carrier-error-codes-explanations)[Guide to Sole Proprietor 10DLC Brand and Campaign Registration](https://support.telnyx.com/en/articles/13545282-guide-to-sole-proprietor-10dlc-brand-and-campaign-registration)[Compliance Catch-up: Why Toll-Free Verification Now Mirrors 10DLC](https://support.telnyx.com/en/articles/13765655-compliance-catch-up-why-toll-free-verification-now-mirrors-10dlc)
-
-Did this answer your question?
-
-😞😐😃

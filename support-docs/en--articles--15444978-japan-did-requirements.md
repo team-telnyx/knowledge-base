@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/15444978-japan-did-requiremen
 title: "Japan DID Requirements"
 description: "Here you will find all of the requirements for purchasing numbers in Japan. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 4c00fff85a3f7720bffc45d5e8dead8bd7220be919a90ef05806d3579252f8dd
+content_hash: 4f21ad23c935e20ed2620379ebe96f3ff4933a26361543aadb99f7ddf98f3003
 ---
 
 
@@ -85,13 +85,3 @@ For **business identity** verification:
 **Additional Information:**
 \* Certificates with an expiration date must be within the expiration date, and certificates without an expiration date must be within 3 months of the date of issue.
 \* Power of Attorney is not required if the address and name of the person in charge of the application match the registered name of the representative by the documents in the Company registered matters.
-
----
-
-Related Articles
-
-[Germany DID Requirements](https://support.telnyx.com/en/articles/1311450-germany-did-requirements)[Italy DID Requirements](https://support.telnyx.com/en/articles/1311462-italy-did-requirements)[Thailand DID Requirements](https://support.telnyx.com/en/articles/3739661-thailand-did-requirements)[Costa Rica DID Requirements](https://support.telnyx.com/en/articles/8487192-costa-rica-did-requirements)[Iraq DID Requirements](https://support.telnyx.com/en/articles/15445421-iraq-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

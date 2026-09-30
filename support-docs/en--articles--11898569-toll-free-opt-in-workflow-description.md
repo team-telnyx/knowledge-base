@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/11898569-toll-free-opt-in-wor
 title: "Toll Free Opt in Workflow Description"
 description: "1. See Telnyx guidance and requirements Learn more about Toll Free Opt in Workflow Description with Telnyx."
 scraped: 2026-07-08
-content_hash: 0135186e7b4fd205be673cc95b9ad6c8e30e89e905c085cd4157bf7efe3aabc3
+content_hash: 7171e6518c28025bb8732ad1953d2bdc91878ad61a15f416645c7dd2cfc7a9d1
 ---
 
 
@@ -69,13 +69,3 @@ An inbound message means that you do not initiate conversations with subscribers
 Template
 
 "Subscribers opt in by sending us the first text message. They find the number to text us at [location]."
-
----
-
-Related Articles
-
-[Regulatory Guidelines for US Short Code Marketing and Opt-in Procedures](https://support.telnyx.com/en/articles/9311566-regulatory-guidelines-for-us-short-code-marketing-and-opt-in-procedures)[Guide to 10DLC Message Flow Field](https://support.telnyx.com/en/articles/10562019-guide-to-10dlc-message-flow-field)[Toll Free Verification Request Guide](https://support.telnyx.com/en/articles/10729979-toll-free-verification-request-guide)[Compliance Catch-up: Why Toll-Free Verification Now Mirrors 10DLC](https://support.telnyx.com/en/articles/13765655-compliance-catch-up-why-toll-free-verification-now-mirrors-10dlc)[Toll-Free Carrier Rejections](https://support.telnyx.com/en/articles/15138019-toll-free-carrier-rejections)
-
-Did this answer your question?
-
-😞😐😃
