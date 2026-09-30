@@ -1,12 +1,14 @@
 ---
-source_url: "https://support.telnyx.com/en/articles/10523949-forwarding-sms-mms-automation-using-telnyx-flow"
 title: "Forwarding SMS/MMS Automation using Telnyx Flow"
-description: "Reference instructions for forwarding SMS and MMS with the deprecated Telnyx Flow product, including workflow setup and testing."
-scraped: "2026-09-15"
-modified_at: "2026-09-30T11:20:00Z"
-updated_at: "2026-09-30T11:20:00Z"
-content_hash: "47245a266062707f75ecdbbbf429d7822ac0b1c4120fdb62a84d8b73cbb719f8"
+summary: "Flow has been deprecated. This article is retained for reference and describes the deprecated Flow product."
+sources:
+- url: "https://support.telnyx.com/en/articles/10523949-forwarding-sms-mms-automation-using-telnyx-flow"
+updated_at: 2026-09-30T11:20:00Z
+tags: [support-docs]
+source_path: "support-docs/10523949-forwarding-sms-mms-automation-using-telnyx-flow.md"
+generated_by: incremental-support-docs-wiki
 ---
+<!-- generated_from=support-docs/10523949-forwarding-sms-mms-automation-using-telnyx-flow.md -->
 
 # Forwarding SMS/MMS Automation using Telnyx Flow
 
