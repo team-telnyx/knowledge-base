@@ -377,7 +377,7 @@ SMS Guidelines for Cote d'lvoire including MCC and Dial Code. Get more messaging
 
 SMS Guidelines for Cook Islands including MCC and Dial Code. Get more messaging details here.
 
-[Congo SMS Guidelines](https://support.telnyx.com/en/articles/6661342-congo-sms-guidelines)
+[Congo, DR: SMS Guidelines](https://support.telnyx.com/en/articles/6661342-congo-dr-sms-guidelines)
 
 SMS Guidelines for D.R.o.t.C. including MCC and Dial Code. Get more messaging details here.
 

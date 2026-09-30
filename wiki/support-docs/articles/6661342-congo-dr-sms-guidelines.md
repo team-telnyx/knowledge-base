@@ -1,8 +1,8 @@
 ---
-title: "Congo SMS Guidelines"
+title: "Congo, DR: SMS Guidelines"
 summary: "MCC: 630 ​Dial Code: 243 ​ Alphanumeric Sender IDs are supported. ​ ​The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be directly related to the message content."
 sources:
-- url: "https://support.telnyx.com/en/articles/6661342-congo-sms-guidelines"
+- url: "https://support.telnyx.com/en/articles/6661342-congo-dr-sms-guidelines"
 updated_at: 2026-07-16T13:47:42Z
 tags: [support-docs]
 source_path: "support-docs/en--articles--6661342-congo-sms-guidelines.md"
@@ -10,7 +10,7 @@ generated_by: incremental-support-docs-wiki
 ---
 <!-- generated_from=support-docs/en--articles--6661342-congo-sms-guidelines.md -->
 
-# Congo SMS Guidelines
+# Congo, DR: SMS Guidelines
 
 ## **SMS Guidelines for Democratic Republic of the Congo**
 
