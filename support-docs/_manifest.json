@@ -1,6 +1,6 @@
 {
   "scraped": "2026-07-08",
-  "pages_saved": 944,
+  "pages_saved": 945,
   "files": [
     "10523949-forwarding-sms-mms-automation-using-telnyx-flow.md",
     "1130719-what-does-the-tech-prefix-option-do.md",
@@ -254,6 +254,7 @@
     "en--articles--2026092301-identify-your-connection-in-the-first-sip-invite.md",
     "en--articles--2026092401-uac-call-transfer-ai-assistant-to-live-agent.md",
     "en--articles--2026092501-call-hold-comfort-noise-and-rtp-stream-generation.md",
+    "en--articles--2026093001-set-up-a-hosted-stir-shaken-certificate.md",
     "en--articles--2030667-i-received-a-port-out-notification.md",
     "en--articles--2030770-port-in-best-practices.md",
     "en--articles--2033789-port-numbers-away-from-telnyx.md",

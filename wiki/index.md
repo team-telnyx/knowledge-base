@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-09-30T06:11:30Z
+updated_at: 2026-09-30T16:47:17Z
 ---
 
 # Telnyx Knowledge Base
@@ -2094,3 +2094,5 @@ updated_at: 2026-09-30T06:11:30Z
 - [Rwanda DID Requirements](support-docs/articles/9961409-rwanda-did-requirements.md) — Requirements to acquire Rwanda numbers. See Telnyx guidance and requirements Learn more about Rwanda DID Requirements with Telnyx.
 
 - [Congo, DR: SMS Guidelines](support-docs/articles/6661342-congo-dr-sms-guidelines.md) — MCC: 630 ​Dial Code: 243 ​ Alphanumeric Sender IDs are supported. ​ ​The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be directly related to the message content.
+
+- [Set up a hosted STIR/SHAKEN certificate](support-docs/articles/2026093001-set-up-a-hosted-stir-shaken-certificate.md) — Use your own certificate to sign outbound calls through Telnyx’s hosted signing service.
