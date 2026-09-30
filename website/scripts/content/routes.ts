@@ -13,6 +13,7 @@ export const consolidatedArticles: Record<string, string> = {
   "4230755": "96934", // Retired rate limits guide → Rate Limits for Messaging
   "10646301": "6339152", // PR #51: Telnyx 10DLC Process → Create a 10DLC Campaign
   "5617538": "6339158", // PR #51: Shared Campaigns → Bring Campaigns to Telnyx
+  "8762970": "8797623", // Retired recovered duplicate → Supported Emergency Numbers
 };
 const oldCollections: Record<string, string> = {
   messaging: "133103", "voice-sip-trunking": "3968237", "numbers-porting": "3968222",
