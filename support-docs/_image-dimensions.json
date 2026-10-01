@@ -5782,5 +5782,93 @@
   "whatsapp-byon-inbound-connection.png": {
     "height": 1698,
     "width": 2906
+  },
+  "zoom-active-numbers.png": {
+    "height": 742,
+    "width": 1925
+  },
+  "zoom-assign-number.png": {
+    "height": 300,
+    "width": 615
+  },
+  "zoom-assigned-numbers.png": {
+    "height": 424,
+    "width": 2048
+  },
+  "zoom-associate-selected-number.png": {
+    "height": 502,
+    "width": 485
+  },
+  "zoom-authorize-telnyx.png": {
+    "height": 913,
+    "width": 974
+  },
+  "zoom-available-numbers.png": {
+    "height": 441,
+    "width": 484
+  },
+  "zoom-confirm-number-removal.png": {
+    "height": 225,
+    "width": 646
+  },
+  "zoom-confirm-unbind.png": {
+    "height": 184,
+    "width": 592
+  },
+  "zoom-create-integration.png": {
+    "height": 659,
+    "width": 1964
+  },
+  "zoom-disable-integration.png": {
+    "height": 874,
+    "width": 769
+  },
+  "zoom-integration-numbers-remove.png": {
+    "height": 565,
+    "width": 1953
+  },
+  "zoom-number-details-unbind.png": {
+    "height": 542,
+    "width": 768
+  },
+  "zoom-phone-numbers-menu.png": {
+    "height": 594,
+    "width": 307
+  },
+  "zoom-provider-exchange-menu.png": {
+    "height": 591,
+    "width": 293
+  },
+  "zoom-remove-integration.png": {
+    "height": 164,
+    "width": 331
+  },
+  "zoom-select-outbound-voice-profile.png": {
+    "height": 334,
+    "width": 495
+  },
+  "zoom-telnyx-login.png": {
+    "height": 716,
+    "width": 787
+  },
+  "zoom-telnyx-provider.png": {
+    "height": 390,
+    "width": 1988
+  },
+  "zoom-telnyx-signup.png": {
+    "height": 1192,
+    "width": 603
+  },
+  "zoom-unassigned-numbers.png": {
+    "height": 426,
+    "width": 2048
+  },
+  "stir-shaken-hosted-certificates.png": {
+    "height": 401,
+    "width": 1977
+  },
+  "stir-shaken-create-hosted-certificate.png": {
+    "height": 572,
+    "width": 1946
   }
 }

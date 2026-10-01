@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-10-01T19:21:09Z
+updated_at: 2026-10-01T19:27:57Z
 ---
 
 # Telnyx Knowledge Base
@@ -335,7 +335,7 @@ updated_at: 2026-10-01T19:21:09Z
 
 - [How to Configure SIP Attach using a UAC Connection](support-docs/articles/14805261-how-to-configure-sip-attach-using-a-uac-connection.md) — SIP Attach lets Telnyx register as a SIP endpoint on your existing PBX or voice system. See Telnyx guidance and requirements.
 
-- [Identify Your Connection in the First SIP INVITE \(X-Telnyx-Username\)](support-docs/articles/2026092301-identify-your-connection-in-the-first-sip-invite.md) — For credential-based SIP connections, we recommend including your connection's username in the first INVITE that your PBX or SBC sends to Telnyx.
+- [Identify Your Connection in the First SIP INVITE](support-docs/articles/2026092301-identify-your-connection-in-the-first-sip-invite.md) — How to identify a credential-based SIP connection early enough for correct authentication and AnchorSite® routing
 
 - [UAC Call Transfer: AI Assistant to Live Agent](support-docs/articles/2026092401-uac-call-transfer-ai-assistant-to-live-agent.md) — A UAC (User Agent Client) connection is used by Telnyx to register as a SIP endpoint with your PBX, the same way an IP phone or softphone would, and lets you route PBX calls on that extension to any type of Telnyx connection or application.
 
@@ -2096,6 +2096,10 @@ updated_at: 2026-10-01T19:21:09Z
 - [Congo, DR: SMS Guidelines](support-docs/articles/6661342-congo-dr-sms-guidelines.md) — MCC: 630 ​Dial Code: 243 ​ Alphanumeric Sender IDs are supported. ​ ​The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be directly related to the message content.
 
 - [Forwarding SMS/MMS Automation using Telnyx Flow](support-docs/articles/10523949-forwarding-sms-mms-automation-using-telnyx-flow.md) — Flow has been deprecated. This article is retained for reference and describes the deprecated Flow product.
+
+- [Connect Telnyx to Zoom Phone with Provider Exchange](support-docs/articles/2026092801-connect-telnyx-to-zoom-phone-with-provider-exchange.md) — Use Zoom Provider Exchange to connect your Telnyx account to Zoom Phone, associate Telnyx phone numbers with the integration, and assign those numbers to Zoom users. This guide also explains how to unassign numbers and remove the integration.
+
+- [Set up a hosted STIR/SHAKEN certificate](support-docs/articles/2026093001-set-up-a-hosted-stir-shaken-certificate.md) — Use your own certificate to sign outbound calls through Telnyx’s hosted signing service.
 
 - [What does the “Tech Prefix” option do?](support-docs/articles/1130719-what-does-the-tech-prefix-option-do.md) — A tech prefix is a numeric string that is prepended to the front of a number. ​ In your mission control portal go to the "Connections" header.
 
