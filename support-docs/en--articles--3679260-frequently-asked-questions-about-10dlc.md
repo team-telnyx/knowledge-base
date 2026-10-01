@@ -3,7 +3,9 @@ source_url: https://support.telnyx.com/en/articles/3679260-frequently-asked-ques
 title: "Frequently asked questions about 10DLC"
 description: "10DLC is the mandatory compliance framework for USA long-code SMS & MMS… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: a8052f9da2ee2b28f3a4c14095efd680be3d310ef20f0248a4e38cfef566552b
+content_hash: a65273693618ac3759f23d5e910a3ebb57fdba415349de578e8156a5ed0672f3
+updated_at: "2026-09-30T10:38:57Z"
+modified_at: "2026-09-30T10:38:57Z"
 ---
 
 
@@ -242,8 +244,8 @@ A message segment consists of up to 160 standard characters. An SMS with more ch
 1. **Standard SMS Limit**: A standard SMS using GSM-7 encoding can contain up to 160 characters. This is the maximum size that can fit within the 140-byte (1120 bits) payload of a standard SMS.
 2. **Segmentation for Longer Messages**: When an SMS exceeds 160 characters, it needs to be split into multiple segments. Each of these segments is sent as a separate SMS and then reassembled into a single message on the recipient's device.
 3. **User Data Header (UDH)**: To facilitate this reassembly, each segment of a multi-part SMS must contain a header, known as the User Data Header. The UDH includes information such as the total number of segments and the position of each segment within the original message. This is necessary so the receiving device knows how to piece the message back together in the correct order.
-4. **UDH Size and Its Impact**: The UDH typically takes up 7 bytes (56 bits) of the standard 140-byte SMS payload. This reduces the available space for the actual text of the message.
-5. **Reduced Character Count per Segment**: When the 7-byte UDH is accounted for, the remaining space in each SMS segment is reduced. For GSM-7 encoded messages, this leaves room for 153 characters per segment (instead of the full 160).
+4. **UDH Size and Its Impact**: The UDH typically takes up 6 bytes (48 bits) of the standard 140-byte SMS payload. This reduces the available space for the actual text of the message.
+5. **Reduced Character Count per Segment**: When the 6-byte UDH is accounted for, the remaining space in each SMS segment is reduced. For GSM-7 encoded messages, this leaves room for 153 characters per segment (instead of the full 160).
 
 So, in a multi-part message, each segment can only contain 153 characters due to the space required for the UDH. This is why, in practice, when you send a long SMS that needs to be segmented, each segment has a slightly reduced character limit.
 
