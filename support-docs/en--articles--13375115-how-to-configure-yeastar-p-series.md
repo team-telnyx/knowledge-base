@@ -3,9 +3,9 @@ source_url: https://support.telnyx.com/en/articles/13375115-how-to-configure-yea
 title: "How to configure Yeastar P-series"
 description: "Learn how to configure both a Yeastar P-Series IP or Credentials trunk to work with your Telnyx Mission Control Portal. See Telnyx guidance and requirements."
 scraped: 2026-09-28
-content_hash: 6a6b99d036cc127483726d64b4f1f93e3621e550266c41d320fd91334826bfd3
-updated_at: 2026-09-01T13:55:05Z
-modified_at: 2026-09-01T13:55:05Z
+content_hash: 16343bec96361df63e6430cdf582cdd5d85503b97a1c8fce4948e15bb7bb28b9
+updated_at: 2026-09-29T13:08:50Z
+modified_at: 2026-09-29T13:08:50Z
 ---
 
 # How to configure Yeastar P-series
@@ -77,7 +77,7 @@ Note: A register trunk uses a username/password combination (credentials) to aut
    ​  
    The parameters of the certified ITSP template are embedded. You don’t have to figure out Trunk Type, Transport, Hostname, Port, Domain.  
    ​  
-   However, if you need to change it you can refer to <https://sip.telnyx.com/> for information of Telnyx proxies, transport or port.
+   However, if you need to change it you can refer to <https://sip.telnyx.com/> for information on Telnyx SIP proxies, transport protocols, and ports.
 
 - Username: your Telnyx username.
 - Password: your Telnyx password.
@@ -114,8 +114,9 @@ DNS-NAPTR lets the PBX discover Telnyx's available SIP proxies automatically and
 ​
 
 **Hostname/IP:** Enter the Telnyx domain name or IP address.
+Refer to <https://sip.telnyx.com/> for information on Telnyx SIP proxies, transport protocols, and ports.
 
-**Port:** Enter the Telnyx SIP port.
+**Port:** Enter the Telnyx SIP port. When using DNS-NAPTR, set the port to 0 to automatically use the ports specified in the NAPTR/SRV records.
 
 **Domain:** Enter the domain in SIP URI of a specific header like From, To header same as Hostname/IP field.
 
