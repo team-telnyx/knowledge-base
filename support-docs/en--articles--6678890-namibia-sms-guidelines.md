@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6678890-namibia-sms-guideline
 title: "Namibia: SMS Guidelines"
 description: "SMS Guidelines for Namibia including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Namibia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 9ad5a9fb3f61d979d64814d7cc7a9193922d1d36a4cf279dc55c0b00b39f691f
+content_hash: fa86d0320cd7db572efa0271d12efe3fede630d851868a8bb7ff7c978ead114a
 ---
 
 
@@ -35,13 +35,3 @@ There are no restrictions with regards to content towards this destination.
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Poland: SMS Guidelines](https://support.telnyx.com/en/articles/6545167-poland-sms-guidelines)[Maldives: SMS Guidelines](https://support.telnyx.com/en/articles/6675222-maldives-sms-guidelines)[Montserrat: SMS Guidelines](https://support.telnyx.com/en/articles/6677968-montserrat-sms-guidelines)[Mozambique: SMS Guidelines](https://support.telnyx.com/en/articles/6677999-mozambique-sms-guidelines)[Reunion: SMS Guidelines](https://support.telnyx.com/en/articles/6679378-reunion-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

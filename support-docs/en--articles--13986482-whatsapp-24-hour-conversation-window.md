@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/13986482-whatsapp-24-hour-con
 title: "WhatsApp 24-Hour Conversation Window"
 description: "How the WhatsApp 24-hour conversation window works, what opens it, and what happens when it expires. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 2fe960b316229561d9e5c4d5e72ed3e97453f4146e10647d69e5a910dd51a413
+content_hash: b2f204eb4e92d8922b77662db18930f0a94a5d361e301a7ce925f01ab999943c
 ---
 
 
@@ -65,13 +65,3 @@ Each conversation is billed once when it opens. The conversation type determines
 * **Respond promptly** — The 24-hour window starts from the customer's message, not your reply. Delays eat into your free-form messaging time.
 * **Use templates strategically** — If you need to follow up after the window closes, have relevant templates pre-approved and ready.
 * **Monitor via webhooks** — Use delivery status webhooks to track whether messages succeeded or failed due to window expiration.
-
----
-
-Related Articles
-
-[What is WhatsApp Business Platform?](https://support.telnyx.com/en/articles/13986480-what-is-whatsapp-business-platform)[WhatsApp Message Types Explained](https://support.telnyx.com/en/articles/13986481-whatsapp-message-types-explained)[WhatsApp Pricing on Telnyx](https://support.telnyx.com/en/articles/13986484-whatsapp-pricing-on-telnyx)[WhatsApp FAQ](https://support.telnyx.com/en/articles/13986488-whatsapp-faq)[WhatsApp Troubleshooting Guide](https://support.telnyx.com/en/articles/13986489-whatsapp-troubleshooting-guide)
-
-Did this answer your question?
-
-😞😐😃

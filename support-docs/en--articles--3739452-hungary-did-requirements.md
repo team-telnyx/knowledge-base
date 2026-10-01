@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3739452-hungary-did-requireme
 title: "Hungary DID Requirements"
 description: "Here you will find detailed requirements for acquiring Hungary numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: c5bf7e764dc6ca0d3fccf50411f39b4e8e9c0f3cf5ea22149937aba94474b266
+content_hash: 7ad2bf9f431e50483ef0bfde1402f893a044dd485d17836eee44eb3f259eb682
 ---
 
 
@@ -118,13 +118,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Bulgaria DID Requirements](https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements)[Colombia DID Requirements](https://support.telnyx.com/en/articles/5464069-colombia-did-requirements)[Finland DID Requirements](https://support.telnyx.com/en/articles/5465874-finland-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

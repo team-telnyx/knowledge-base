@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130695-configuring-telnyx-si
 title: "Configuring Telnyx SIP Trunking with Avaya"
 description: "Learn how to configure Telnyx SIP Trunking with Avaya IP Office 10 and Avaya Session Border Controller for Enterprise… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 2afba1f11c3ca306f446f08fe6092fc329427530d6143f3ba2451c8dbf69e60f
+content_hash: d949ea368556bfcdd7c68c1e1118f791a6336791bd38a600d90c9af6285669bd
 ---
 
 
@@ -71,13 +71,3 @@ Additionally, check out:
 * [Avaya support](https://support.avaya.com/)
 * [Avaya documentation](https://support.avaya.com/documents/)
 * [Avaya's Telnyx-specific documentation](https://ipofficekb.avaya.com/businesspartner/ipoffice/mergedProjects/appnotes/2022/Telnyx_IPO11.pdf)
-
----
-
-Related Articles
-
-[Configuring an AVAYA IP trunk with Telnyx](https://support.telnyx.com/en/articles/1130627-configuring-an-avaya-ip-trunk-with-telnyx)[PBXes: Connecting a PBXes Trunk to Telnyx](https://support.telnyx.com/en/articles/5798240-pbxes-connecting-a-pbxes-trunk-to-telnyx)[Wildix: SIP Trunk Setup](https://support.telnyx.com/en/articles/5799830-wildix-sip-trunk-setup)[Grandstream GRP260x: SIP Trunk](https://support.telnyx.com/en/articles/6169513-grandstream-grp260x-sip-trunk)[Grandstream GXP1700: SIP Trunk](https://support.telnyx.com/en/articles/6184520-grandstream-gxp1700-sip-trunk)
-
-Did this answer your question?
-
-😞😐😃

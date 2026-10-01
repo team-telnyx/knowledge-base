@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3737163-vietnam-did-requireme
 title: "Vietnam DID Requirements"
 description: "Here you will find a detailed list of requirements to acquire Vietnam numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: d7bdf854f8eabc3df6bcabd3d2f22058d7f65a744af80c5637f8480036c8b73d
+content_hash: c445d6326c1d304e355ed15a9c866019b7c8f012a915a3209959356e8847dece
 ---
 
 
@@ -107,13 +107,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Bulgaria DID Requirements](https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Jamaica DID Requirements](https://support.telnyx.com/en/articles/5466658-jamaica-did-requirements)[Mexico DID Requirements](https://support.telnyx.com/en/articles/5466793-mexico-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/10245573-us-short-code-orderi
 title: "US Short Code Ordering Process"
 description: "How to order a Short Code via Telnyx in the… See Telnyx guidance and requirements Learn more about US Short Code Ordering Process with Telnyx."
 scraped: 2026-07-08
-content_hash: 9d57003059a9460ba3ad630ef4e0cda754216dfce3f6c755d1e1628125862564
+content_hash: 5516ef5b26bb6be7a249044d96ba5c4c412be4df2cf3ca656d95c5aecd843314
 ---
 
 
@@ -62,13 +62,3 @@ To migrate an existing Short Code you will need to:
 Once the the documents are approved and accepted it will take about 6 weeks to get final carrier approval, do testing and provisioning.
 
 For up to date forms please message us at [Shortcode@telnyx.com](mailto:Shortcode@telnyx.com).
-
----
-
-Related Articles
-
-[Uzbekistan: SMS Guidelines](https://support.telnyx.com/en/articles/6683454-uzbekistan-sms-guidelines)[Yemen: SMS Guidelines](https://support.telnyx.com/en/articles/6683484-yemen-sms-guidelines)[Standards for US Short Code Keywords: HELP, STOP, and Opt-In Confirmation](https://support.telnyx.com/en/articles/9311492-standards-for-us-short-code-keywords-help-stop-and-opt-in-confirmation)[Regulatory Guidelines for US Short Code Marketing and Opt-in Procedures](https://support.telnyx.com/en/articles/9311566-regulatory-guidelines-for-us-short-code-marketing-and-opt-in-procedures)[Short Code Brand and Content Provider Registration Process](https://support.telnyx.com/en/articles/10245615-short-code-brand-and-content-provider-registration-process)
-
-Did this answer your question?
-
-😞😐😃

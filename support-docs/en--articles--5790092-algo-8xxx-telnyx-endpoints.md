@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5790092-algo-8xxx-telnyx-endp
 title: "Algo 8xxx: Telnyx Endpoints"
 description: "Learn how to configure your Algo device and register Algo SIP endpoints with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 437d87a2130c38945e696689bb66721353b1ec01d10e713e3ad6d4ee3bd1e9d5
+content_hash: d892e79560a2182735df199b3eb08b56e046cfbe70395caf920ff48319b1d427
 ---
 
 
@@ -192,13 +192,3 @@ Additionally, check out:
 
 * [Algo user guides](https://www.algosolutions.com/resources/guides/)
 * [Algo device firmware updates](https://www.algosolutions.com/?s=firmware&v=7516fd43adaa)
-
----
-
-Related Articles
-
-[Panasonic KX-HDV: Telnyx setup](https://support.telnyx.com/en/articles/5814406-panasonic-kx-hdv-telnyx-setup)[Fanvil A32i: Telnyx Setup](https://support.telnyx.com/en/articles/6056428-fanvil-a32i-telnyx-setup)[MicroSIP: Setup with Telnyx](https://support.telnyx.com/en/articles/6133145-microsip-setup-with-telnyx)[Grandstream GXV3370](https://support.telnyx.com/en/articles/6187576-grandstream-gxv3370)[Fanvil XU Series: IP Phone](https://support.telnyx.com/en/articles/6210147-fanvil-xu-series-ip-phone)
-
-Did this answer your question?
-
-😞😐😃

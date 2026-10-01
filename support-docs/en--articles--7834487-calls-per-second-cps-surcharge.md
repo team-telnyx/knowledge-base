@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/7834487-calls-per-second-cps-
 title: "Calls per second (CPS) surcharge"
 description: "Understanding CPS surcharges, their impact, and how Telnyx manages high CPS rates. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 226c0b6842e768bbe0cc9077e7a48edda6f0b4001fe9d34720c3848e6362360d
+content_hash: 7627516dec9567c546425347cc913a15482d98977debc68a43441da6fcf2c554
 ---
 
 
@@ -112,13 +112,3 @@ For example, if the monthly 95th percentile peak CPS value is 163, the surcharge
 CPS surcharges appear on the monthly invoice as an **Outbound Calls-Per-Second Peak Usage Surcharge**.
 
 The invoice line item is based on the monthly 95th percentile outbound peak CPS value for SIP Trunking traffic.
-
----
-
-Related Articles
-
-[Sansay: SBC VSXi Setup](https://support.telnyx.com/en/articles/4301888-sansay-sbc-vsxi-setup)[PBXes: Connecting a PBXes Trunk to Telnyx](https://support.telnyx.com/en/articles/5798240-pbxes-connecting-a-pbxes-trunk-to-telnyx)[Surcharge for High Abandoned Call Rates](https://support.telnyx.com/en/articles/12805746-surcharge-for-high-abandoned-call-rates)[How to configure Yeastar P-series](https://support.telnyx.com/en/articles/13375115-how-to-configure-yeastar-p-series)[Calls Per Second (CPS) Limits](https://support.telnyx.com/en/articles/15668484-calls-per-second-cps-limits)
-
-Did this answer your question?
-
-😞😐😃

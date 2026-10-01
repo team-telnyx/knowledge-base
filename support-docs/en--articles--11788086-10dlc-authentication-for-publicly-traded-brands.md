@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/11788086-10dlc-authentication
 title: "10DLC Authentication for Publicly Traded Brands"
 description: "If you do not complete the Auth Plus process for Publicly Traded brands then no new campaigns will be able to be… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: b40807a25942ba935c2c16a17e0905aa94b190e04b58caa046273c5cfd7ae474
+content_hash: e66b5a90f2323cee3c51ff7f6700146bdf3ee831005acafbfcf6de896185787a
 ---
 
 
@@ -28,13 +28,3 @@ In order to get the brand authenticated, please reply to [10dlcquestions@telnyx.
 Once they submit this information, the brand will be authenticated. The email be from [noreply@auth.campaignregistry.com](mailto:noreply@auth.campaignregistry.com), TCR (local US text messaging regulator). Please note that they will have 7 days from the time they receive the 2FA email to complete the authentication. Should they fail to do so, we will need to resend the 2FA email. This is required by The Campaign Registry (TCR) in order to ensure that no service disruption occurs for this brand. This action needs to be completed by August 1st, 2025.
 
 For guidance on the required opt-in, opt-out, and help keywords and confirmation messages for your campaigns, see [10DLC Keywords and Confirmation Messages](https://support.telnyx.com/en/articles/10645338-10dlc-keywords-and-confirmation-messages).
-
----
-
-Related Articles
-
-[How to create a 10DLC brand](https://support.telnyx.com/en/articles/5896911-how-to-create-a-10dlc-brand)[How to create a 10DLC campaign](https://support.telnyx.com/en/articles/6339152-how-to-create-a-10dlc-campaign)[Telnyx 10DLC Process](https://support.telnyx.com/en/articles/6339152-how-to-create-a-10dlc-campaign)[10DLC Unverified Brand](https://support.telnyx.com/en/articles/10715184-10dlc-unverified-brand)[10DLC Campaign Suspended](https://support.telnyx.com/en/articles/10723378-10dlc-campaign-suspended)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6683454-uzbekistan-sms-guidel
 title: "Uzbekistan: SMS Guidelines"
 description: "SMS Guidelines for Uzbekistan including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Uzbekistan: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 0bd9f646ce1ada87c2064720abb9f8ea936e9eb1b1f12a4354d4b566d26d3275
+content_hash: 2eff3428a8f68ef7ca08cb738320cb13a41f91a34fdb9716a3ae5a630975b578
 ---
 
 
@@ -60,13 +60,3 @@ For more information on Alpha Sender ID registration kindly reach out to [alpha\
 ​
 
 ##
-
----
-
-Related Articles
-
-[Norway: SMS Guidelines](https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines)[Iraq: SMS Guidelines](https://support.telnyx.com/en/articles/6589557-iraq-sms-guidelines)[Azerbaijan: SMS Guidelines](https://support.telnyx.com/en/articles/6596144-azerbaijan-sms-guidelines)[Pakistan: SMS Guidelines](https://support.telnyx.com/en/articles/6679149-pakistan-sms-guidelines)[Palestinian Territory: SMS Guidelines](https://support.telnyx.com/en/articles/6679259-palestinian-territory-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

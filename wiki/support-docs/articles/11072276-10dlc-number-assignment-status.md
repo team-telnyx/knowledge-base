@@ -34,13 +34,3 @@ You can check a number assignments status by using
 6. If you still have deliverability issues then reach out to [support@telnyx.com](mailto:support@telnyx.com).
 
 ![](_images/804a9268cbc16073.png)
-
----
-
-Related Articles
-
-[10DLC Shared Campaigns](https://support.telnyx.com/en/articles/6339158-bring-campaigns-to-telnyx)[How to create a 10DLC campaign](https://support.telnyx.com/en/articles/6339152-how-to-create-a-10dlc-campaign)[Assigning DID to a 10DLC Campaign Fails](https://support.telnyx.com/en/articles/8269151-assigning-did-to-a-10dlc-campaign-fails)[Telnyx 10DLC Process](https://support.telnyx.com/en/articles/6339152-how-to-create-a-10dlc-campaign)[10DLC Campaign Suspended](https://support.telnyx.com/en/articles/10723378-10dlc-campaign-suspended)
-
-Did this answer your question?
-
-😞😐😃

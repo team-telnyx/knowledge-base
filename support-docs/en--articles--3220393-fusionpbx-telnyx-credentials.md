@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3220393-fusionpbx-telnyx-cred
 title: "FusionPBX: Telnyx Credentials"
 description: "Configure FusionPBX 4.4 Trunk credentials with Telnyx - It's fast and easy. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 4ac47c8948d549b9fc5c37bbd9d3460fe19ce5800916a32a7a94b5b6f727b43d
+content_hash: 54f05283d7c78cdf61efece80c433625cadbf017d04b9ecdea64565f5d4a5c80
 ---
 
 
@@ -274,13 +274,3 @@ Additionally, check out:
 * [FusionPBX support](https://www.fusionpbx.com/support)
 
 ---
-
----
-
-Related Articles
-
-[FreePBX Trunk Settings With Telnyx](https://support.telnyx.com/en/articles/1130620-freepbx-trunk-settings-with-telnyx)[Configuring a FreePBX V13 Credentials Trunk](https://support.telnyx.com/en/articles/1130648-configuring-a-freepbx-v13-credentials-trunk)[FreePBX V13: PJSIP Credentials](https://support.telnyx.com/en/articles/1277754-freepbx-v13-pjsip-credentials)[FreePBX V14: Credentials - ChanSIP](https://support.telnyx.com/en/articles/3284752-freepbx-v14-credentials-chansip)[FreePBX V15: Credentials - PJSIP](https://support.telnyx.com/en/articles/5619597-freepbx-v15-credentials-pjsip)
-
-Did this answer your question?
-
-😞😐😃

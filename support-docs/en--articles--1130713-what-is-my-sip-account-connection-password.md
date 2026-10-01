@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130713-what-is-my-sip-accoun
 title: "What is my SIP Account Connection password?"
 description: "When you add a new connection in the Telnyx Mission Control portal you will be able to input a username and password. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 70f478052f15fd77da0a497687dae100022508e97e7efba8f769237bcd1febb8
+content_hash: 4040f9349f5263463e932bd12ba4fb9d8c2711d8c5b46bee96ba339a51e6b800
 ---
 
 
@@ -32,13 +32,3 @@ Your SIP credentials are set at the SIP connection level in the Telnyx Portal. T
 3. Find the SIP connection and click the **pencil (edit) icon**
 4. Open the **Authentication and routing** tab
 5. Your username and password are displayed here, you can view, copy or update them at any time
-
----
-
-Related Articles
-
-[Configuring Grandstream GXP16XX with Telnyx](https://support.telnyx.com/en/articles/1130660-configuring-grandstream-gxp16xx-with-telnyx)[SIP Connection: Types](https://support.telnyx.com/en/articles/4245868-sip-connection-types)[SIP Connection: Settings](https://support.telnyx.com/en/articles/4351104-sip-connection-settings)[Yeastar S-Series: Telnyx SIP](https://support.telnyx.com/en/articles/5748952-yeastar-s-series-telnyx-sip)[How to configure Yeastar P-series](https://support.telnyx.com/en/articles/13375115-how-to-configure-yeastar-p-series)
-
-Did this answer your question?
-
-😞😐😃

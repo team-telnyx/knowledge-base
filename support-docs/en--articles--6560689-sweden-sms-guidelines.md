@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6560689-sweden-sms-guidelines
 title: "Sweden: SMS Guidelines"
 description: "Sending SMS to Sweden? See Telnyx guidance and requirements Learn more about Sweden: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 8124be6e1a1141b229c27f9169846a2ff7c04af19bd04d2022560a3b007a1cdb
+content_hash: 15ea824324e6d7e96a91c18f626a06ae10a187bf98e440038d05be85252ca824
 ---
 
 
@@ -35,13 +35,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on URL whitelisting kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Denmark: SMS Guidelines](https://support.telnyx.com/en/articles/6560665-denmark-sms-guidelines)[Finland: SMS Guidelines](https://support.telnyx.com/en/articles/6560706-finland-sms-guidelines)[Turkey: SMS Guidelines](https://support.telnyx.com/en/articles/6564056-turkey-sms-guidelines)[Saudi Arabia: SMS Guidelines](https://support.telnyx.com/en/articles/6680009-saudi-arabia-sms-guidelines)[Singapore: SMS Guidelines](https://support.telnyx.com/en/articles/6680103-singapore-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

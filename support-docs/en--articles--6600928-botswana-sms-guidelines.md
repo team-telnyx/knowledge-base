@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6600928-botswana-sms-guidelin
 title: "Botswana: SMS Guidelines"
 description: "Sending SMS to Botswana? See Telnyx guidance and requirements Learn more about Botswana: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 1da8f31b8c344504a86285deb6bccd863bf9cddc03ed9a74358e8e0f91083207
+content_hash: 9ca6fba8b6173a76708f18a8331b616535d91a35b34b7cb68e895ddb063fc238
 ---
 
 
@@ -31,13 +31,3 @@ The use of generic Alpha Sender IDs is not recommended as these can be rejected 
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Ukraine: SMS Guidelines](https://support.telnyx.com/en/articles/6563904-ukraine-sms-guidelines)[Benin: SMS Guidelines](https://support.telnyx.com/en/articles/6596235-benin-sms-guidelines)[Ethiopia: SMS Guidelines](https://support.telnyx.com/en/articles/6670465-ethiopia-sms-guidelines)[Kenya: SMS Guidelines](https://support.telnyx.com/en/articles/6674630-kenya-sms-guidelines)[Sudan: SMS Guidelines](https://support.telnyx.com/en/articles/6680225-sudan-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4307059-telnyx-dashboards
 title: "Telnyx Dashboards"
 description: "Here you will find an overview of Telnyx dashboards and how you can use them. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 32f96c67bebf13183c9b74b9ce5280d8189b82cc9e759c41a378acc6d0653f04
+content_hash: 9d4dbc0a8ce4d94374e5b38550fbdea41e37c4fde62603bec99fdc61a349a7bb
 ---
 
 
@@ -121,13 +121,3 @@ This graph illustrates the peak number of concurrent inbound channels for differ
 ![](_images/3267d9344db93437.png)
 
 We have updated the [Messaging Dashboard](https://portal.telnyx.com/#/messaging/reports/dashboard) to display usage and spend by country. Countries can be toggled by clicking their respective key in the chart legend.
-
----
-
-Related Articles
-
-[FreePBX Trunk Settings With Telnyx](https://support.telnyx.com/en/articles/1130620-freepbx-trunk-settings-with-telnyx)[What is Telnyx?](https://support.telnyx.com/en/articles/1130637-what-is-telnyx)[How to Download Reports at Telnyx](https://support.telnyx.com/en/articles/1130708-how-to-download-reports-at-telnyx)[Telnyx SIP Response Codes](https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes)[Telnyx + Vapi Integration](https://support.telnyx.com/en/articles/12538402-telnyx-vapi-integration)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5341506-lastpass-saml-identit
 title: "LastPass: SAML Identity Setup"
 description: "Learn how to set up LastPass SAML to utilize Telnyx Portal Single Sign-on capabilities. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 8fb5bf550c5bb983f0eaf401302633fbfd31d0ff124403abe36974275d69ad7c
+content_hash: 67242716f62a4d818bd32a2337e9e989f6ee55d0a4aa24433ab1cc3ffe59eacf
 ---
 
 
@@ -153,13 +153,3 @@ Additionally, check out:
 
 * [LastPass support and documentation](https://support.lastpass.com/s/?language=en_US)
 * [LastPass download](https://lastpass.com/misc_download2.php)
-
----
-
-Related Articles
-
-[OneLogin: SAML Identity Setup](https://support.telnyx.com/en/articles/5316578-onelogin-saml-identity-setup)[Okta: SAML Identity Setup](https://support.telnyx.com/en/articles/5335562-okta-saml-identity-setup)[Azure AD: SAML Identity Setup](https://support.telnyx.com/en/articles/5355800-azure-ad-saml-identity-setup)[Auth0 SSO Integration With Telnyx](https://support.telnyx.com/en/articles/5355953-auth0-sso-integration-with-telnyx)[GSuite SSO Integration With Telnyx](https://support.telnyx.com/en/articles/5361846-gsuite-sso-integration-with-telnyx)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8340760-bundles-bundle-pricin
 title: "Bundles & Bundle Pricing"
 description: "Discover Telnyx's bundle pricing. See Telnyx guidance and requirements Learn more about Bundles & Bundle Pricing with Telnyx."
 scraped: 2026-07-08
-content_hash: bde81232f56d57f4d47af0d8d9974ca54ffd1c56eb25fdbbc78b479a240c5a1f
+content_hash: 0bcf0edbfa979c4ef6e5f18da155ba31db0da6c4b84808812412032d9a3d33ce
 ---
 
 
@@ -56,13 +56,3 @@ Please note that bundle offers are currently limited to **Operator Connect** and
 After selecting your number, proceed to the External Voice Integrations section under the Voice tab in the left-side menu to associate your new bundle number with the desired External Voice Integration.
 
 Following these steps, you will be all set to make calls using your bundle.
-
----
-
-Related Articles
-
-[Call Forwarding](https://support.telnyx.com/en/articles/1130657-call-forwarding)[E911 Setup Guide](https://support.telnyx.com/en/articles/1130683-e911-setup-guide)[How do I test E911 service?](https://support.telnyx.com/en/articles/1130709-how-do-i-test-e911-service)[Telnyx Dashboards](https://support.telnyx.com/en/articles/4307059-telnyx-dashboards)[Telnyx SIP Response Codes](https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes)
-
-Did this answer your question?
-
-😞😐😃

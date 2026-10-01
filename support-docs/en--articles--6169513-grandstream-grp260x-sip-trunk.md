@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6169513-grandstream-grp260x-s
 title: "Grandstream GRP260x: SIP Trunk"
 description: "Learn how to configure a Telnyx SIP trunk on the Grandstream GRP260x Series IP… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: ee2ab10a3b5059edd8c19cb6ca4c4e81c8cb94a40cf9a220b9a0ca41028ccb2f
+content_hash: 6355ad15c586547be639a33f57b69db1db0d70a33c1bd3fd74f2bccb7ab9c633
 ---
 
 
@@ -146,13 +146,3 @@ Additionally you can check out:
 * [Grandstream FAQ](https://blog.grandstream.com/faq)
 * [Grandstream user forum](https://forums.grandstream.com/)
 * [Helpdesk](https://helpdesk.grandstream.com/)
-
----
-
-Related Articles
-
-[Grandstream UCM6xxx: SIP Trunks](https://support.telnyx.com/en/articles/5748258-grandstream-ucm6xxx-sip-trunks)[Grandstream GXP21XX](https://support.telnyx.com/en/articles/5819218-grandstream-gxp21xx)[Grandstream GRP2612: SIP Trunk](https://support.telnyx.com/en/articles/6184147-grandstream-grp2612-sip-trunk)[Grandstream GXP1700: SIP Trunk](https://support.telnyx.com/en/articles/6184520-grandstream-gxp1700-sip-trunk)[Grandstream GXV3370](https://support.telnyx.com/en/articles/6187576-grandstream-gxv3370)
-
-Did this answer your question?
-
-😞😐😃

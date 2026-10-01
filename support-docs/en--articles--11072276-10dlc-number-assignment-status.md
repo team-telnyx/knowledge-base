@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/11072276-10dlc-number-assignm
 title: "10DLC Number Assignment Status"
 description: "Having deliverability issues with a number recently assigned to an approved 10DLC campaign? See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 6b910e3132ebde3ae6d27cd7bb6182af2aa63c5277ead58ec194101a80b78584
+content_hash: bed43bc38b81f1e0454335a8a867529379d2209cb7fde57650df275a5b952188
 ---
 
 
@@ -36,13 +36,3 @@ You can check a number assignments status by using
 6. If you still have deliverability issues then reach out to [support@telnyx.com](mailto:support@telnyx.com).
 
 ![](_images/804a9268cbc16073.png)
-
----
-
-Related Articles
-
-[10DLC Shared Campaigns](https://support.telnyx.com/en/articles/6339158-bring-campaigns-to-telnyx)[How to create a 10DLC campaign](https://support.telnyx.com/en/articles/6339152-how-to-create-a-10dlc-campaign)[Assigning DID to a 10DLC Campaign Fails](https://support.telnyx.com/en/articles/8269151-assigning-did-to-a-10dlc-campaign-fails)[Telnyx 10DLC Process](https://support.telnyx.com/en/articles/6339152-how-to-create-a-10dlc-campaign)[10DLC Campaign Suspended](https://support.telnyx.com/en/articles/10723378-10dlc-campaign-suspended)
-
-Did this answer your question?
-
-😞😐😃

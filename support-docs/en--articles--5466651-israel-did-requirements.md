@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5466651-israel-did-requiremen
 title: "Israel DID Requirements"
 description: "Here you will find a list of detailed requirements for acquiring Israel numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 611d0464b87afed46fdb85957d7186e020cbd2568f5ef48bfd521320b7f93f9f
+content_hash: c5bf484479bbe7e129bafae1522be8115f2b06d1a9b5310d140c1cb2c27f9a8d
 ---
 
 
@@ -118,13 +118,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Bulgaria DID Requirements](https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements)[Chile DID Requirements](https://support.telnyx.com/en/articles/5464057-chile-did-requirements)[Finland DID Requirements](https://support.telnyx.com/en/articles/5465874-finland-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

@@ -58,13 +58,3 @@ You cannot update shared campaigns through the Telnyx portal. All brand and camp
 *Can I edit my campaign sharing request?*
 
 Once your organization has submitted a Shared Campaign by selecting Telnyx as the **upstream CNP**, and while the sharing status is in the PENDING state, your organization (as the downstream CNP) cannot rescind the sharing request nor change the upstream CNP.
-
----
-
-Related Articles
-
-[10DLC Shared Campaigns](https://support.telnyx.com/en/articles/6339158-bring-campaigns-to-telnyx)[Telnyx & 10DLC Compliance](https://support.telnyx.com/en/articles/5664840-telnyx-10dlc-compliance)[Flyingvoice: Telnyx Setup](https://support.telnyx.com/en/articles/5810663-flyingvoice-telnyx-setup)[Telnyx 10DLC Compliance Directory](https://support.telnyx.com/en/articles/6417677-telnyx-10dlc-compliance-directory)[Telnyx Messaging Error Codes](https://support.telnyx.com/en/articles/6505121-telnyx-messaging-error-codes)
-
-Did this answer your question?
-
-😞😐😃

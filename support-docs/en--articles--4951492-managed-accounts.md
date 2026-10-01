@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4951492-managed-accounts
 title: "Managed Accounts"
 description: "In this article we will explain managed (sub) accounts and how you can begin taking advantage of this feature. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 7c0c63344e5ef3bbbd4664a4d2e3982294f39e4811e885a9559dc43a97dbc364
+content_hash: c42695a58656cf1ddd42baf357ada174e5a45adf73ce2fc1453f37fdfb155b55
 ---
 
 
@@ -142,13 +142,3 @@ Instead, the current workaround is:
     ​
 
 ![Breaking Line](_images/682991ade0be9812.png)
-
----
-
-Related Articles
-
-[E911 Setup Guide](https://support.telnyx.com/en/articles/1130683-e911-setup-guide)[Get Started with Organizations](https://support.telnyx.com/en/articles/1189141-get-started-with-organizations)[SIM Data Limits & Notifications](https://support.telnyx.com/en/articles/3403998-sim-data-limits-notifications)[Prevent Telnyx Account Fraud](https://support.telnyx.com/en/articles/3610162-prevent-telnyx-account-fraud)[Invoice Overview](https://support.telnyx.com/en/articles/6987563-invoice-overview)
-
-Did this answer your question?
-
-😞😐😃

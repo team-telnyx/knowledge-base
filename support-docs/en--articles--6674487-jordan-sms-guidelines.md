@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6674487-jordan-sms-guidelines
 title: "Jordan: SMS Guidelines"
 description: "Sending SMS to Jordan? See Telnyx guidance and requirements Learn more about Jordan: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: fd4f5ce0933058c9ced7064888f77fd210580e1436486dee8d1b17dcd42c4d1c
+content_hash: b3ccfb4c7d5dc3c5fbf425f6a3fed256883262889f8d7dccb4e39612d3a350a8
 ---
 
 
@@ -62,13 +62,3 @@ For more information on Alpha Sender ID registration kindly reach out to [alpha\
 ​
 
 ##
-
----
-
-Related Articles
-
-[Greece: SMS Guidelines](https://support.telnyx.com/en/articles/6563817-greece-sms-guidelines)[Burundi: SMS Guidelines](https://support.telnyx.com/en/articles/6601042-burundi-sms-guidelines)[Malawi: SMS Guidelines](https://support.telnyx.com/en/articles/6675104-malawi-sms-guidelines)[Syria: SMS Guidelines](https://support.telnyx.com/en/articles/6680256-syria-sms-guidelines)[Tajikistan: SMS Guidelines](https://support.telnyx.com/en/articles/6683287-tajikistan-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

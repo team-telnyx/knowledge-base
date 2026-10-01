@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6133517-zoiper-communicator
 title: "Zoiper Communicator"
 description: "Maximize your online communication with the Zoiper Communicator IAX & SIP softphone, a free, multi-functional tool. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 1c04ab783463fcc518611538abbd3116033a3c1566649627e0b7f835b9bb0801
+content_hash: 8ffbf29a4da3e7a4feff835d3a1c0d66f263a73561d67ac9e600073c0052c6ef
 ---
 
 
@@ -105,13 +105,3 @@ Review our [getting started with guide](https://support.telnyx.com/en/articles/1
 Additionally, check out:
 
 * [Zoiper help](https://www.zoiper.com/en/support/questions)
-
----
-
-Related Articles
-
-[SIP URI Calling](https://support.telnyx.com/en/articles/2925713-sip-uri-calling)[Zoiper 5 Pro: Telnyx Setup](https://support.telnyx.com/en/articles/5717957-zoiper-5-pro-telnyx-setup)[Zoiper 3: Telnyx Setup (Mac)](https://support.telnyx.com/en/articles/5720999-zoiper-3-telnyx-setup-mac)[MicroSIP: Setup with Telnyx](https://support.telnyx.com/en/articles/6133145-microsip-setup-with-telnyx)[MS Teams: Call2Teams & Telnyx](https://support.telnyx.com/en/articles/6133589-ms-teams-call2teams-telnyx)
-
-Did this answer your question?
-
-😞😐😃

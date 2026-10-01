@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5720999-zoiper-3-telnyx-setup
 title: "Zoiper 3: Telnyx Setup (Mac)"
 description: "How to configure Zoiper 3 to work with the Telnyx Mission Control portal for a Mac OS operating system. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 82e79d59dcfaab1b1ace15fa50d6616a577b969ff3cc82dd646fe59e17406090
+content_hash: 2b97e594049acc8c431c0eee5773af13e2fefa5aeee7db1d4b3c6dfb468aef57
 ---
 
 
@@ -102,13 +102,3 @@ That's it, you've now completed the configuration of your Zoiper 3 softphone cli
 Review our [getting started guide](https://support.telnyx.com/en/articles/1176636-get-started-with-a-mission-control-account) to make sure your Telnyx Mission Control Portal account is set up correctly.
 
 Check out the [Zoiper 3](https://www.zoiper.com/en/support/home/article/34/Installation_%26_configuration_manuals_Zoiper_3) user guide.
-
----
-
-Related Articles
-
-[Configuring Bria Solo (a.k.a X-Lite)](https://support.telnyx.com/en/articles/1130645-configuring-bria-solo-a-k-a-x-lite)[Configuring Linphone with Telnyx](https://support.telnyx.com/en/articles/1130674-configuring-linphone-with-telnyx)[Zoiper 5 Pro: Telnyx Setup](https://support.telnyx.com/en/articles/5717957-zoiper-5-pro-telnyx-setup)[Zoiper 3: Telnyx Setup (Linux)](https://support.telnyx.com/en/articles/5721766-zoiper-3-telnyx-setup-linux)[Grandstream HT802: Telnyx Setup](https://support.telnyx.com/en/articles/5725071-grandstream-ht802-telnyx-setup)
-
-Did this answer your question?
-
-😞😐😃

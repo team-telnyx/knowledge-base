@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6680171-sri-lanka-sms-guideli
 title: "Sri Lanka: SMS Guidelines"
 description: "Sending SMS to Sri Lanka? See Telnyx guidance and requirements Learn more about Sri Lanka: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: e63ced4d95a3067fca0989d1861fd6c95cb220da29031db980836baa9b40a458
+content_hash: 0d3a3ad62c8d18b3f3ce49dc6c3bba8be11fcc7fcd0a33559b0bc9af87be42b4
 ---
 
 
@@ -63,13 +63,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Greece: SMS Guidelines](https://support.telnyx.com/en/articles/6563817-greece-sms-guidelines)[Turkey: SMS Guidelines](https://support.telnyx.com/en/articles/6564056-turkey-sms-guidelines)[Burundi: SMS Guidelines](https://support.telnyx.com/en/articles/6601042-burundi-sms-guidelines)[Jordan: SMS Guidelines](https://support.telnyx.com/en/articles/6674487-jordan-sms-guidelines)[Kyrgyzstan: SMS Guidelines](https://support.telnyx.com/en/articles/6674794-kyrgyzstan-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

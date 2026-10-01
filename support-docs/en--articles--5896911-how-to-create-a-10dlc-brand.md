@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5896911-how-to-create-a-10dlc
 title: "How to create a 10DLC brand"
 description: "Creating a brand is the first step to becoming compliant with 10DLC rules. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 24ce24f29ae0ad50ee8429b666d8436473df95655e27374ecd768b5954843800
+content_hash: 87c49a15a32e848be650f4901c70a3f4b8c06a1783d819d70e99d8d8a5ec07a9
 ---
 
 
@@ -105,13 +105,3 @@ The most likely cause of a brand not being verified is an error in the informati
 **Third-party vetting to enhance your brand**
 
 It's possible to achieve better commercial terms for your brand by submitting it for third-party vetting. Once you've created a brand following the steps in this guide, you'll see an option to request third-party verification in your brand settings in the Mission Control Portal.
-
----
-
-Related Articles
-
-[Register for 10DLC Messaging](https://support.telnyx.com/en/articles/6325731-register-for-10dlc-messaging)[How to create a 10DLC campaign](https://support.telnyx.com/en/articles/6339152-how-to-create-a-10dlc-campaign)[Telnyx 10DLC Compliance Directory](https://support.telnyx.com/en/articles/6417677-telnyx-10dlc-compliance-directory)[10DLC Mock Brands and Campaigns](https://support.telnyx.com/en/articles/12812898-10dlc-mock-brands-and-campaigns)[Guide to Sole Proprietor 10DLC Brand and Campaign Registration](https://support.telnyx.com/en/articles/13545282-guide-to-sole-proprietor-10dlc-brand-and-campaign-registration)
-
-Did this answer your question?
-
-😞😐😃

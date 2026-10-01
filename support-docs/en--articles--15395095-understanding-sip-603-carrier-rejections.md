@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/15395095-understanding-sip-60
 title: "Understanding SIP 603+ carrier rejections"
 description: "SIP 603+ is an industry shorthand for a standardized use of the SIP 603 Decline response when a call is blocked on an… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: ce6fad672c0115207c418a4a67dde28f35ff6f22f5c7ffe1f24497f85179375c
+content_hash: d2558de471bea41b45a69fc87a98836eaa155946c6051332ff80a00b449a8a5e
 ---
 
 
@@ -127,13 +127,3 @@ Include at least one recent examples when possible:
 Telnyx can help investigate and provide signaling evidence, but Telnyx cannot guarantee that a terminating carrier or analytics provider will complete a call, remove a label, or clear a number’s reputation.
 
 If a carrier or analytics provider blocks a call based on its own reputation or policy systems, remediation may require redress through that carrier, analytics vendor, or industry registration process.
-
----
-
-Related Articles
-
-[Telnyx - How to Handle Spam Scam Likely](https://support.telnyx.com/en/articles/4088988-telnyx-how-to-handle-spam-scam-likely)[SIP Connection: Fail-over and Retries](https://support.telnyx.com/en/articles/4320364-sip-connection-fail-over-and-retries)[SIP Connection: Inbound & Outbound Settings](https://support.telnyx.com/en/articles/4404448-sip-connection-inbound-outbound-settings)[Telnyx SIP Response Codes](https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes)[Understanding SIP PRACK Protocol](https://support.telnyx.com/en/articles/6902981-understanding-sip-prack-protocol)
-
-Did this answer your question?
-
-😞😐😃

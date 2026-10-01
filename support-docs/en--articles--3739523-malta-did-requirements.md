@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3739523-malta-did-requirement
 title: "Malta DID Requirements"
 description: "Here you will find a detailed list of requirements to acquire Malta numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: c2877655343a9975fc0f531920fa8593da79d2f61f341e7dc95aca61b1a66988
+content_hash: bbaf72f60e8e697af98459ebb3597acfdabce3e258d1b792a2af826c5e4bf5be
 ---
 
 
@@ -118,13 +118,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Bulgaria DID Requirements](https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements)[Colombia DID Requirements](https://support.telnyx.com/en/articles/5464069-colombia-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Mexico DID Requirements](https://support.telnyx.com/en/articles/5466793-mexico-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

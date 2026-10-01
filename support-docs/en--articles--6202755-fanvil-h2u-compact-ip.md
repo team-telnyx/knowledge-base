@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6202755-fanvil-h2u-compact-ip
 title: "Fanvil H2U: Compact IP"
 description: "Learn how to configure a Telnyx SIP trunk on the Fanvil H2U Compact IP… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 4aa4bbd3b66218fc9e7a7f9063586c2bfd57a4cbcf01c7b3f5cd1473994cd1e2
+content_hash: d8fb09f666b85ea2c39bc812099d0f6019af9959b2a241e52aed04388dab4148
 ---
 
 
@@ -133,13 +133,3 @@ Additionally you can check out:
 * [Fanvil training videos](https://www.fanvil.com/Support/trainingVideo.html)
 * [Fanvil support](https://www.fanvil.com/Support/ticket.html)
 * [Fanvil H2U firmware](https://www.fanvil.com/Support/download/id/122.html)
-
----
-
-Related Articles
-
-[Fanvil H3: Hotel IP](https://support.telnyx.com/en/articles/6202965-fanvil-h3-hotel-ip)[Fanvil H3W/H5W: WiFi IP](https://support.telnyx.com/en/articles/6203347-fanvil-h3w-h5w-wifi-ip)[Fanvil X2CP/X2C/X2P: Call Center IP](https://support.telnyx.com/en/articles/6206756-fanvil-x2cp-x2c-x2p-call-center-ip)[Fanvil V-Series: IP Phones](https://support.telnyx.com/en/articles/6209862-fanvil-v-series-ip-phones)[Fanvil X-Series: IP Phone](https://support.telnyx.com/en/articles/6209971-fanvil-x-series-ip-phone)
-
-Did this answer your question?
-
-😞😐😃

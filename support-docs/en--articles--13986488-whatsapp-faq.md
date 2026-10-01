@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/13986488-whatsapp-faq
 title: "WhatsApp FAQ"
 description: "Frequently asked questions about WhatsApp Business Platform on Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 3154493d577f0184d1eb3aada07d2d4a697e2aee678a15ce304768eccaf2ff21
+content_hash: 8d98e49b002b2475036e033cc8bf79d4d939174d89ef342238f13ffc8a710645
 ---
 
 
@@ -100,13 +100,3 @@ No. For WhatsApp sends, the messaging profile is automatically resolved from the
 ## What error code does WhatsApp use?
 
 WhatsApp errors typically return error code `40008`, which is a catch-all covering template issues (pending, rejected, paused, disabled) and delivery failures. The response body contains additional details from the Meta API.
-
----
-
-Related Articles
-
-[What is WhatsApp Business Platform?](https://support.telnyx.com/en/articles/13986480-what-is-whatsapp-business-platform)[WhatsApp Pricing on Telnyx](https://support.telnyx.com/en/articles/13986484-whatsapp-pricing-on-telnyx)[How to Set Up WhatsApp on Telnyx](https://support.telnyx.com/en/articles/13986485-how-to-set-up-whatsapp-on-telnyx)[WhatsApp Troubleshooting Guide](https://support.telnyx.com/en/articles/13986489-whatsapp-troubleshooting-guide)[Enabling WhatsApp Business Calling on Telnyx Numbers](https://support.telnyx.com/en/articles/14668631-enabling-whatsapp-business-calling-on-telnyx-numbers)
-
-Did this answer your question?
-
-😞😐😃

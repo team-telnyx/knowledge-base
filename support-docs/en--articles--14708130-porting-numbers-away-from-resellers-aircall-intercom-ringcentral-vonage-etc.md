@@ -1,9 +1,9 @@
 ---
 source_url: https://support.telnyx.com/en/articles/14708130-porting-numbers-away-from-resellers-aircall-intercom-ringcentral-vonage-etc
-title: "Porting Numbers Away from Resellers (Aircall, Intercom"
+title: "Porting Numbers Away from Resellers (Aircall, Intercom, RingCentral, Vonage, etc.)"
 description: "A complete guide to porting numbers from VoIP resellers — what a reseller is, how to find your underlying carrier, See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 2e82afada0f8eed11baa752dbeda97cbc1f2dfea59da8dd86fff66ab830732a8
+content_hash: 84b88bcd7415a86ed09d64d9e00f8a30f16996fad233fee02e9a2d045a1e9bee
 ---
 
 
@@ -99,13 +99,3 @@ The **losing carrier** (your current provider) determines whether a PIN is requi
 ## Need Help?
 
 Contact [porting@telnyx.com](mailto:porting@telnyx.com) with your port order number and we can help identify the exact rejection cause and guide you through resubmission.
-
----
-
-Related Articles
-
-[Port numbers to Telnyx](https://support.telnyx.com/en/articles/1130634-port-numbers-to-telnyx)[Port numbers away from Telnyx](https://support.telnyx.com/en/articles/2033789-port-numbers-away-from-telnyx)[Port Out PIN Protection](https://support.telnyx.com/en/articles/8006189-port-out-pin-protection)[Porting Numbers Away from Aircall to Telnyx](https://support.telnyx.com/en/articles/14708128-porting-numbers-away-from-aircall-to-telnyx)[Porting Numbers Away from Intercom to Telnyx](https://support.telnyx.com/en/articles/14708129-porting-numbers-away-from-intercom-to-telnyx)
-
-Did this answer your question?
-
-😞😐😃

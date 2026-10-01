@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6303467-ubiquiti-trunk-unifi-
 title: "Ubiquiti Trunk: Unifi Talk - IP Auth"
 description: "Learn how to configure a Telnyx Trunk with IP authentication with Ubiquiti Unifi Talk PBX. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 654f65a2304a024131c0ce642b246143505d42251bae5910a5bebcd3244f9d29
+content_hash: 9cab70200768f342e6ccc0a16f5eea958ac87b8e5da5bb89da58b59407fc55b9
 ---
 
 
@@ -193,13 +193,3 @@ Additionally, check out:
 * [UniFi Console quick-start guide](https://dl.ui.com/qig/udm-pro/#index)
 
 ---
-
----
-
-Related Articles
-
-[Configuring an Elastix 4 PBX IP Trunk](https://support.telnyx.com/en/articles/1130622-configuring-an-elastix-4-pbx-ip-trunk)[Asterisk: Configure an Asterisk IP trunk](https://support.telnyx.com/en/articles/1130628-asterisk-configure-an-asterisk-ip-trunk)[Elastix 5: FQDN Trunk Setup](https://support.telnyx.com/en/articles/3284033-elastix-5-fqdn-trunk-setup)[ScopTEL IP PBX](https://support.telnyx.com/en/articles/5803103-scoptel-ip-pbx)[Ubiquiti Trunk: Unifi Talk - Auth](https://support.telnyx.com/en/articles/6122586-ubiquiti-trunk-unifi-talk-auth)
-
-Did this answer your question?
-
-😞😐😃

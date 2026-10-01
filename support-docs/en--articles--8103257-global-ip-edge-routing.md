@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8103257-global-ip-edge-routin
 title: "Global IP & Edge Routing"
 description: "Step by step process on how to get started with Telnyx Networking via procurement of Global IPs and setting up Global… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 14cbe94a033607bd07880e7a1046376bfc49a3e0af042442f9f1069c98b79659
+content_hash: 2a0e196310131d0f5180820a88bbb54a5a4e85a9d0b8a8d7e520e30d87108302
 ---
 
 
@@ -52,13 +52,3 @@ Step by step process on how to get started with Telnyx Networking via procuremen
 ## **Step 8: Copy and paste WireGuard config to service VM, using the Private Key in Step 5**
 
 ![Wireguard interface for service VM. ](_images/70383a83726099b2.png)
-
----
-
-Related Articles
-
-[FreePBX V14: IP Trunk - ChanSIP](https://support.telnyx.com/en/articles/3284736-freepbx-v14-ip-trunk-chansip)[Positron IP Phone](https://support.telnyx.com/en/articles/5811761-positron-ip-phone)[How to configure Global Edge Router with Telnyx](https://support.telnyx.com/en/articles/8002565-how-to-configure-global-edge-router-with-telnyx)[Telnyx Networking on AWS VPC](https://support.telnyx.com/en/articles/8104309-telnyx-networking-on-aws-vpc)[Intro to Telnyx Edge Router](https://support.telnyx.com/en/articles/8126141-intro-to-telnyx-edge-router)
-
-Did this answer your question?
-
-😞😐😃

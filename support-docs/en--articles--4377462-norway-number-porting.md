@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4377462-norway-number-porting
 title: "Norway Number Porting"
 description: "A list of requirements for Norway number portability - Get key details here. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 6f66439e325cecc97a475c8ec20a207def5a8702a71f96633f0b93562d3caeb1
+content_hash: 154aef458e34d1020c71dff94ef696f1acad9a1d5412d1e9396dfaebddbb1548
 ---
 
 
@@ -30,13 +30,3 @@ A list of requirements for Norway number portability - Get key details here. See
 ## Norway Letter of Authorization
 
 Download LOA **[here](https://assets.ctfassets.net/taysl255dolk/6YYtHkPiDoOfhR8Vp3QxUz/3f7b77cf78ecdebe280c6c0226ac12ea/LoA_-_Telnyx_-_INTL.pdf)**.
-
----
-
-Related Articles
-
-[Belgium Number porting](https://support.telnyx.com/en/articles/3266421-belgium-number-porting)[Italy Number Porting](https://support.telnyx.com/en/articles/3267012-italy-number-porting)[Cyprus Number Porting](https://support.telnyx.com/en/articles/3267566-cyprus-number-porting)[Norway Number Porting](https://support.telnyx.com/en/articles/5188563-norway-number-porting)[Martinique Number Porting](https://support.telnyx.com/en/articles/5954733-martinique-number-porting)
-
-Did this answer your question?
-
-😞😐😃

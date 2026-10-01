@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6060646-gigaset-a690-as690
 title: "Gigaset A690/AS690"
 description: "Explore the versatility of the Gigaset A690 IP phone with its ability to make up to 3 parallel calls via internet or… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: a59259454cb4717d3302047d60566198e3e99b192af533249111d8bca732b38a
+content_hash: 9c62402a322c0c7f2d5e6da4b726aebcf89aeddd49708f0787f49dc5a5cc99fd
 ---
 
 
@@ -170,13 +170,3 @@ Additionally, check out:
 
 * [User documentation](https://gse.gigaset.com/fileadmin/gigaset/images/CustomerCare/Manuals/A6xx/A690IP-AS690IP/A31008-M2813-R601-1a-TE19_en_IM-East-INT.pdf)
 * [Gigaset service portal](https://service.gigaset.com/en/support/home)
-
----
-
-Related Articles
-
-[Grandstream DP752](https://support.telnyx.com/en/articles/5808368-grandstream-dp752)[Gigaset A510: Telnyx Setup](https://support.telnyx.com/en/articles/5815209-gigaset-a510-telnyx-setup)[Gigaset: Configuring the Gigaset DX800a](https://support.telnyx.com/en/articles/6167480-gigaset-configuring-the-gigaset-dx800a)[Fanvil H2U: Compact IP](https://support.telnyx.com/en/articles/6202755-fanvil-h2u-compact-ip)[Fanvil H5: Hotel IP](https://support.telnyx.com/en/articles/6203401-fanvil-h5-hotel-ip)
-
-Did this answer your question?
-
-😞😐😃

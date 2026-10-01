@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/15374685-telnyx-sip-trunking-
 title: "Telnyx SIP Trunking FIPS Support"
 description: "FIPS, or Federal Information Processing Standards, are U.S. See Telnyx guidance and requirements Learn more about Telnyx SIP Trunking FIPS Support with Telnyx."
 scraped: 2026-07-08
-content_hash: 8e7f9b56993b8fe2606624e2f6c80b7f030957bfb427c068fb1fe2b9fa8ac7c1
+content_hash: e767eacf18bf03752e3538769b7093cb888f60c8e462b6743b5a0540c6b4e8d3
 ---
 
 
@@ -111,13 +111,3 @@ If a SIP TLS connection fails after FIPS mode is enabled, check whether the cust
 Telnyx supports FIPS mode for SIP Trunking on supported SIP proxy infrastructure. The implementation uses Telnyx-managed current platform components with the OpenSSL FIPS module.
 
 This improves FIPS alignment for the SIP proxy cryptographic stack, while customers with formal FIPS obligations should still validate the full SIP path, especially SIP Digest authentication and customer-side equipment.
-
----
-
-Related Articles
-
-[Configuring Telnyx SIP Trunking with Avaya](https://support.telnyx.com/en/articles/1130695-configuring-telnyx-sip-trunking-with-avaya)[Wildix: SIP Trunk Setup](https://support.telnyx.com/en/articles/5799830-wildix-sip-trunk-setup)[Grandstream GRP260x: SIP Trunk](https://support.telnyx.com/en/articles/6169513-grandstream-grp260x-sip-trunk)[Grandstream GRP2612: SIP Trunk](https://support.telnyx.com/en/articles/6184147-grandstream-grp2612-sip-trunk)[Grandstream GXP1700: SIP Trunk](https://support.telnyx.com/en/articles/6184520-grandstream-gxp1700-sip-trunk)
-
-Did this answer your question?
-
-😞😐😃

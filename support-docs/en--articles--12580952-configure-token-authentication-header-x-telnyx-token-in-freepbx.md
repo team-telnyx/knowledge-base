@@ -1,9 +1,9 @@
 ---
 source_url: https://support.telnyx.com/en/articles/12580952-configure-token-authentication-header-x-telnyx-token-in-freepbx
-title: "Configure Token Authentication Header (X-Telnyx-Token) in"
+title: "Configure Token Authentication Header (X-Telnyx-Token) in FreePBX"
 description: "Add a Telnyx token-based authentication header to outbound SIP calls from your FreePBX PBX system. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f3c47f34626edf3edcdeadadd3caf0bea970e047cd00857c49527519aaabc3d3
+content_hash: ed6ee62d65c4c2b452b40f00fe8fee7d4324635fc3149efe307a339afc2fa8b6
 ---
 
 
@@ -125,13 +125,3 @@ To confirm the header is applied correctly:
 
 * [Telnyx SIP Connection Setup Guide](https://support.telnyx.com/en/articles/2602782-ip-authentication-with-tech-prefix)
 * [Telnyx Trunk with FreePBX V15 Configuration](https://support.telnyx.com/en/articles/5619595-freepbx-v15-ip-trunk-pjsip)
-
----
-
-Related Articles
-
-[Configuring a FreePBX V13 Credentials Trunk](https://support.telnyx.com/en/articles/1130648-configuring-a-freepbx-v13-credentials-trunk)[FreePBX V14: Credentials - ChanSIP](https://support.telnyx.com/en/articles/3284752-freepbx-v14-credentials-chansip)[Setting Up FreePBX V15 with Telnyx API](https://support.telnyx.com/en/articles/5464056-setting-up-freepbx-v15-with-telnyx-api)[FreePBX V15: IP Trunk - PJSIP](https://support.telnyx.com/en/articles/5619595-freepbx-v15-ip-trunk-pjsip)[Configure P-Charge-Info for Private PBX (Example: FreePBX)](https://support.telnyx.com/en/articles/12580765-configure-p-charge-info-for-private-pbx-example-freepbx)
-
-Did this answer your question?
-
-😞😐😃

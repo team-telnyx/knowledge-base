@@ -1,9 +1,9 @@
 ---
 source_url: https://support.telnyx.com/en/articles/9311492-standards-for-us-short-code-keywords-help-stop-and-opt-in-confirmation
-title: "Standards for US Short Code Keywords: HELP, STOP, and"
+title: "Standards for US Short Code Keywords: HELP, STOP, and Opt-In Confirmation"
 description: "Managing Autoresponses for US Short Codes. See Telnyx guidance and requirements Learn more about Standards for US Short Code Keywords: HELP, STOP, and with."
 scraped: 2026-07-08
-content_hash: 489d2501cf9bb0fd262d8c86074600bc5ad0da6e389742c399d7e817089208b9
+content_hash: e395e91380d30f222972316ff60074f55390d8827c82f37e3b910fc65d7219a0
 ---
 
 
@@ -68,13 +68,3 @@ Therefore, compliance with these standards does not fully safeguard against pote
 These legal stipulations could require you to offer more comprehensive opt-out mechanisms than a mere STOP reply. It is advisable to seek guidance from your legal advisors to ensure your procedures conform to all relevant laws and industry practices.
 
 For more questions please email us at [shortcode@telnyx.com](mailto:shortcode@telnyx.com)!
-
----
-
-Related Articles
-
-[SMS Opt-Out Keywords and Stop Words](https://support.telnyx.com/en/articles/1270091-sms-opt-out-keywords-and-stop-words)[Messaging - 10DLC Campaign Checklist](https://support.telnyx.com/en/articles/9038141-messaging-10dlc-campaign-checklist)[Regulatory Guidelines for US Short Code Marketing and Opt-in Procedures](https://support.telnyx.com/en/articles/9311566-regulatory-guidelines-for-us-short-code-marketing-and-opt-in-procedures)[US Short Code Ordering Process](https://support.telnyx.com/en/articles/10245573-us-short-code-ordering-process)[Forbidden Messaging Use Cases in the US and Canada (10DLC, Toll-Free, and Short Code)](https://support.telnyx.com/en/articles/14286763-forbidden-messaging-use-cases-in-the-us-and-canada-10dlc-toll-free-and-short-code)
-
-Did this answer your question?
-
-😞😐😃

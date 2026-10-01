@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4245868-sip-connection-types
 title: "SIP Connection: Types"
 description: "This article explains the different types of SIP Connections available in the Mission Control Portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 6156f3f85046b732c703ca068dc41b3fae4057bce010593b40c5599956e87b2b
+content_hash: 51eb8a8f8b9569e8693307e9cff95e107ea104cee4289d5f8217f31bd4fec877
 ---
 
 
@@ -114,13 +114,3 @@ Take a look at our [SIP Connections API](https://developers.telnyx.com/docs/voic
 To deactivate or disable your SIP Connection visit the SIP Connections page, select edit on your desired SIP Connection, and click the toggle under the "status" option. This will deactivate the SIP Connection which will mean inbound calls and outbound calls will not be processed. See this image below for reference.
 
 ![](_images/f448c72560f0ba39.png)
-
----
-
-Related Articles
-
-[SIP Connection Failover Guide (IP/FQDN-Based)](https://support.telnyx.com/en/articles/1176364-sip-connection-failover-guide-ip-fqdn-based)[SIP Connection: Settings](https://support.telnyx.com/en/articles/4351104-sip-connection-settings)[SIP Registration](https://support.telnyx.com/en/articles/4363904-sip-registration)[Guide to SIP AnchorSite® Settings](https://support.telnyx.com/en/articles/5271423-guide-to-sip-anchorsite-settings)[Yeastar S-Series: Telnyx SIP](https://support.telnyx.com/en/articles/5748952-yeastar-s-series-telnyx-sip)
-
-Did this answer your question?
-
-😞😐😃

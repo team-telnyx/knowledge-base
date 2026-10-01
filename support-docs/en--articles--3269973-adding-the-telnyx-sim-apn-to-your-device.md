@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3269973-adding-the-telnyx-sim
 title: "Adding the Telnyx SIM APN to your device"
 description: "In order to use the Telnyx SIM, you’ll need to add an APN to your device. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 38f101921c67f11184c3c8c1abadb115b7c40348727d8d405a1a858dd3c098ff
+content_hash: fa1f1b93a9fdbd1dd11cc50909824ff0da7661804c30ef93b481b2180249efcc
 ---
 
 
@@ -33,13 +33,3 @@ APN: `data00.telnyx`
 Leave all other fields unmodified (even if they are blank). Save your new APN and make sure it’s selected as the active one.
 
 Note that some devices may require a restart for the new settings to take effect.
-
----
-
-Related Articles
-
-[How to set up a Telnyx SIM Card](https://support.telnyx.com/en/articles/3269600-how-to-set-up-a-telnyx-sim-card)[SIM Setup and Configuration](https://support.telnyx.com/en/articles/4298710-sim-setup-and-configuration)[SIM Connectivity Logs](https://support.telnyx.com/en/articles/5666594-sim-connectivity-logs)[Using Telnyx SIM with Ubiquiti UniFi LTE Pro](https://support.telnyx.com/en/articles/10164784-using-telnyx-sim-with-ubiquiti-unifi-lte-pro)[Using Telnyx SIM with InRouter300 Series Cellular Routers](https://support.telnyx.com/en/articles/10511105-using-telnyx-sim-with-inrouter300-series-cellular-routers)
-
-Did this answer your question?
-
-😞😐😃

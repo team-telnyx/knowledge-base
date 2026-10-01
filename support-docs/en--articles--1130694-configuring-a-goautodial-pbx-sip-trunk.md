@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130694-configuring-a-goautod
 title: "Configuring a GoAutoDial PBX SIP Trunk"
 description: "In this article we will walk you through configuring a GoAutoDial PBX user/pass trunk with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: cc4b1974c55b5cd58aa1dd33851a805f3a5aad148dfff10d8a0320826eea301c
+content_hash: bd848bd3a2afad8424eb5f0f1c02c51a2739a3b982fbfa9b7aa5f9352fc85073
 ---
 
 
@@ -247,13 +247,3 @@ Additionally, you can check out:
 * [GOautodial github](https://goautodial.org/)
 * [GOautodial system structure](https://goautodial.org/projects/goautodialce/wiki/GOautodial_System_Structure)
 * [FAQ](https://goautodial.org/projects/goautodialce/wiki/FAQ)
-
----
-
-Related Articles
-
-[Asterisk: Configure an Asterisk IP trunk](https://support.telnyx.com/en/articles/1130628-asterisk-configure-an-asterisk-ip-trunk)[How to configure a Thirdlane PBX](https://support.telnyx.com/en/articles/1130631-how-to-configure-a-thirdlane-pbx)[Configuring a Vicidial IP trunk with Telnyx](https://support.telnyx.com/en/articles/1130632-configuring-a-vicidial-ip-trunk-with-telnyx)[Configuring a GOautodial PBX IP Trunk](https://support.telnyx.com/en/articles/1130649-configuring-a-goautodial-pbx-ip-trunk)[Configuring an Elastix 4 PBX Trunk](https://support.telnyx.com/en/articles/1130654-configuring-an-elastix-4-pbx-trunk)
-
-Did this answer your question?
-
-😞😐😃

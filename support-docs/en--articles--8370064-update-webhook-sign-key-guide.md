@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8370064-update-webhook-sign-k
 title: "Update Webhook Sign Key Guide"
 description: "This article explains how to rotate the public key that signs webhook events sent by Telnyx in API V2. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: c10c09f4ceaa3e18d312b2a4df5070a8f7d9d662938838bd4e099c81bfaf8450
+content_hash: 5b050ace7cb09a735733852e74d36e28ce2426156afb6c70a47c7b4a5c2a9577
 ---
 
 
@@ -95,13 +95,3 @@ Some important notes regarding public signing key rotation:
 
 1. Only 1 inactive key can be added to an organization (managed account). Subsequent requests to create a new inactive key will override the previous inactive key
 2. Activation of inactive keys is not immediate and can take up to 60 minutes to propagate across the entire account. There is a period of time that both (current and new) keys could be active at the same.
-
----
-
-Related Articles
-
-[SIM Reporting & Analytics](https://support.telnyx.com/en/articles/3679913-sim-reporting-analytics)[How to Leverage Webhooks](https://support.telnyx.com/en/articles/4334722-how-to-leverage-webhooks)[Telnyx Verify: 2FA made easy](https://support.telnyx.com/en/articles/5701653-telnyx-verify-2fa-made-easy)[Group Messaging - Bulk Sending MMS](https://support.telnyx.com/en/articles/8255134-group-messaging-bulk-sending-mms)[Bot-to-Bot Support API: Ask Telnyx Knowledge Agent](https://support.telnyx.com/en/articles/15455646-bot-to-bot-support-api-ask-telnyx-knowledge-agent)
-
-Did this answer your question?
-
-😞😐😃

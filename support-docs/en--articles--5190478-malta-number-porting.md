@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5190478-malta-number-porting
 title: "Malta Number Porting"
 description: "Here you will find a detailed list of requirements for Malta number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 17b40c60396e882062dcd760939481dead0cf2f49768aba126b706777a0361af
+content_hash: 4de72234d9e6953d68f0905d8415b67220f1f5d96dd8a1a8a50718e0fb783337
 ---
 
 
@@ -60,13 +60,3 @@ Explore the essential [requirements for successful number porting](https://suppo
 ### **Best Practices for Porting Support in** Malta
 
 Examine best practices for effectively [contacting Telnyx's porting support](https://support.telnyx.com/en/articles/5820338-best-practices-for-contacting-porting) to facilitate clear communication and swift issue resolution in Malta.
-
----
-
-Related Articles
-
-[Canada Number Porting](https://support.telnyx.com/en/articles/3266430-canada-number-porting)[United States Number Porting](https://support.telnyx.com/en/articles/3267816-united-states-number-porting)[Norway Number Porting](https://support.telnyx.com/en/articles/5188563-norway-number-porting)[Albania Number Porting](https://support.telnyx.com/en/articles/5190443-albania-number-porting)[Turkey Number Porting](https://support.telnyx.com/en/articles/6138781-turkey-number-porting)
-
-Did this answer your question?
-
-😞😐😃

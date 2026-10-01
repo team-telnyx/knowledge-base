@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5188563-norway-number-porting
 title: "Norway Number Porting"
 description: "Here you will find a detailed list of requirements for Norway number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: a2e678ebd396bf09f73a8dcc79fbcb9c401af7fd86cf67d9feb9e01a8136ed42
+content_hash: 9943392824d7bbbd2dd261fe27634bc93a67019ca6cbc1511cb0d6c0cfd69e83
 ---
 
 
@@ -62,13 +62,3 @@ Explore the essential [requirements for successful number porting](https://suppo
 ### **Best Practices for Porting Support in** Norway
 
 Examine best practices for effectively [contacting Telnyx's porting support](https://support.telnyx.com/en/articles/5820338-best-practices-for-contacting-porting) to facilitate clear communication and swift issue resolution in Norway.
-
----
-
-Related Articles
-
-[Canada Number Porting](https://support.telnyx.com/en/articles/3266430-canada-number-porting)[United States Number Porting](https://support.telnyx.com/en/articles/3267816-united-states-number-porting)[Albania Number Porting](https://support.telnyx.com/en/articles/5190443-albania-number-porting)[Malta Number Porting](https://support.telnyx.com/en/articles/5190478-malta-number-porting)[Turkey Number Porting](https://support.telnyx.com/en/articles/6138781-turkey-number-porting)
-
-Did this answer your question?
-
-😞😐😃

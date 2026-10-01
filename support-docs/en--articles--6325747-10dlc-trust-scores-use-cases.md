@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6325747-10dlc-trust-scores-us
 title: "10DLC: Trust Scores & Use Cases"
 description: "Master the intricacies of 10DLC messaging. See Telnyx guidance and requirements Learn more about 10DLC: Trust Scores & Use Cases with Telnyx."
 scraped: 2026-07-08
-content_hash: d6bd1ec81d473ca63ef7c249bc414517b46feea43b2132519727076e3bfa6773
+content_hash: dc5084c7bbeee642c336c9f291de1a8be7e2c1c910e460fd9396316a61a78278
 ---
 
 # 10DLC: Trust Scores & Use Cases
@@ -119,13 +119,3 @@ Approved vetting partners:
 | CampaignVerify | Political campaigns | Required for political use cases only |
 
 To request brand vetting, use the Brand API, which is documented [here>>](https://developers.telnyx.com/api/messaging/10dlc/create-brand-post). The vetting fee is $15 per submission.
-
----
-
-Related Articles
-
-[Frequently asked questions about 10DLC](https://support.telnyx.com/en/articles/3679260-frequently-asked-questions-about-10dlc)[10DLC Fees and Charges](https://support.telnyx.com/en/articles/5634625-10dlc-fees-and-charges)[Telnyx & 10DLC Compliance](https://support.telnyx.com/en/articles/5664840-telnyx-10dlc-compliance)[How to create a 10DLC campaign](https://support.telnyx.com/en/articles/6339152-how-to-create-a-10dlc-campaign)[Telnyx 10DLC Compliance Directory](https://support.telnyx.com/en/articles/6417677-telnyx-10dlc-compliance-directory)
-
-Did this answer your question?
-
-😞😐😃

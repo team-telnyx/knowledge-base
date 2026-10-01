@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/2925713-sip-uri-calling
 title: "SIP URI Calling"
 description: "This article demonstrates SIP URI functionality for making inbound calls to SIP Connection. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: ba9ec746f1800994db37cd4eed2e074882512c50c48b02b0f67ce5356b07554b
+content_hash: c4ec26a0038bba40f1a0c122658b2868224c8573e89eceb903df84c2fbe90a27
 ---
 
 
@@ -61,13 +61,3 @@ Set the `sip_uri_calling_preference` field to one of: `"disabled"`, `"unrestrict
 * SIP URI calls are billed at **$0.002 per minute**, charged to the owner of the connection that receives the call. This rate applies to any call originating from a source that Telnyx cannot identify.
 * If the source matches a Telnyx SIP Connection, the call is treated as an **On-Net call** and billed according to your Telnyx rate deck.
 * As a fraud-prevention measure against number spoofing, only SIP usernames beginning with a **non-numeric character** are considered valid.
-
----
-
-Related Articles
-
-[SIP Connection: Number Formats](https://support.telnyx.com/en/articles/1130706-sip-connection-number-formats)[SIP Registration](https://support.telnyx.com/en/articles/4363904-sip-registration)[Telnyx SIP Response Codes](https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes)[How Telnyx Handles SRV Records for SIP Calls](https://support.telnyx.com/en/articles/10666839-how-telnyx-handles-srv-records-for-sip-calls)[How to Configure SIP Attach using a UAC Connection](https://support.telnyx.com/en/articles/14805261-how-to-configure-sip-attach-using-a-uac-connection)
-
-Did this answer your question?
-
-😞😐😃

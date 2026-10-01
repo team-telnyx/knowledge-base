@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130634-port-numbers-to-telny
 title: "Port numbers to Telnyx"
 description: "Port your numbers to Telnyx with comprehensive guides and support, for a smooth transition to superior… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 05272672fd3a869894c57e52e526163cc1d70059dfd4476445e06869c897ebe4
+content_hash: 28be560cca752fe4f78efc318f7ce51dbc3f06c061053376e5b0edc5a31cab40
 ---
 
 
@@ -88,13 +88,3 @@ You can also click on the "View Details" for any port request to get additional 
 4. Add a Comment. Add additional information to a request or respond to a comment from Telnyx
 
 For updates on the status of a port request, please visit the [Port Numbers](https://portal.telnyx.com/#/app/numbers/port-numbers?status=both) page.
-
----
-
-Related Articles
-
-[International Number Porting - Required Documents](https://support.telnyx.com/en/articles/1130626-international-number-porting-required-documents)[Porting Policy & Procedure](https://support.telnyx.com/en/articles/1130630-porting-policy-procedure)[Port numbers away from Telnyx](https://support.telnyx.com/en/articles/2033789-port-numbers-away-from-telnyx)[Number Porting Rules and Guidelines](https://support.telnyx.com/en/articles/2086149-number-porting-rules-and-guidelines)[Porting Requirements](https://support.telnyx.com/en/articles/6460777-porting-requirements)
-
-Did this answer your question?
-
-😞😐😃

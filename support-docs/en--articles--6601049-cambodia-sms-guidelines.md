@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6601049-cambodia-sms-guidelin
 title: "Cambodia: SMS Guidelines"
 description: "Sending SMS to Cambodia? See Telnyx guidance and requirements Learn more about Cambodia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: b9d18f27affe5d81e8b5efae0a8da5aaabe1a1d3a35b09f6e80e58c4247d7af6
+content_hash: 3274eb1961e94993b570fecb0a6a41fb25049c10ce0e85817ffe00ae1c9c9d04
 ---
 
 
@@ -31,13 +31,3 @@ There are no restrictions with regards to content towards this destination.
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Lithuania: SMS Guidelines](https://support.telnyx.com/en/articles/6560973-lithuania-sms-guidelines)[Switzerland: SMS Guidelines](https://support.telnyx.com/en/articles/6561154-switzerland-sms-guidelines)[Slovenia: SMS Guidelines](https://support.telnyx.com/en/articles/6561195-slovenia-sms-guidelines)[Suriname: SMS Guidelines](https://support.telnyx.com/en/articles/6589563-suriname-sms-guidelines)[Bermuda: SMS Guidelines](https://support.telnyx.com/en/articles/6596251-bermuda-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

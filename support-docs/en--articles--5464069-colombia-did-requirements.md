@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5464069-colombia-did-requirem
 title: "Colombia DID Requirements"
 description: "Here you will find a detailed list of requirements to acquire numbers in Colombia. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: dcf96e9dfd6cdf5de0bdd5456fb282603806c4ff035c7cbbdc7b7eccc49e7218
+content_hash: a0e9f2d26e5e2f3a9150cfbf02fd5b0e62e256fe2ebeb56eab8cf47a47f2a134
 ---
 
 
@@ -112,13 +112,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Bulgaria DID Requirements](https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Jamaica DID Requirements](https://support.telnyx.com/en/articles/5466658-jamaica-did-requirements)[Mexico DID Requirements](https://support.telnyx.com/en/articles/5466793-mexico-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

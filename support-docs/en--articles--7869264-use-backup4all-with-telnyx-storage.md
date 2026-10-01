@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/7869264-use-backup4all-with-t
 title: "Use Backup4all with Telnyx Storage"
 description: "Learn how to set up Backup4all, a comprehensive backup software, with Telnyx Storage for automated and reliable data… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 4c685b6d3cb40d4a50dcd489116fa8916a241627f2aeb584099269166653879c
+content_hash: 241ee3a2e18a67170bfa8c525779a645089ffa8535ef72cf531f44c9503b2742
 ---
 
 
@@ -50,13 +50,3 @@ And that's all there is to it! You can continue the flow creating your backup jo
 
 For more information on how to use Backup4all, check out their [product resources here](https://www.backup4all.com/table-of-contents-help.html).
 ​
-
----
-
-Related Articles
-
-[Use Arq Backup with Telnyx Storage](https://support.telnyx.com/en/articles/7869213-use-arq-backup-with-telnyx-storage)[Use Duplicati with Telnyx Storage](https://support.telnyx.com/en/articles/7873510-use-duplicati-with-telnyx-storage)[Use Syncovery with Telnyx Storage](https://support.telnyx.com/en/articles/8047874-use-syncovery-with-telnyx-storage)[Use GoodSync with Telnyx Storage](https://support.telnyx.com/en/articles/8047898-use-goodsync-with-telnyx-storage)[Use NetDrive3 with Telnyx Storage](https://support.telnyx.com/en/articles/8048024-use-netdrive3-with-telnyx-storage)
-
-Did this answer your question?
-
-😞😐😃

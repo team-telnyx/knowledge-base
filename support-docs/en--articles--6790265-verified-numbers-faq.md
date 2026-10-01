@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6790265-verified-numbers-faq
 title: "Verified Numbers FAQ"
 description: "Secure your outbound calls. See Telnyx guidance and requirements Learn more about Verified Numbers FAQ with Telnyx."
 scraped: 2026-07-08
-content_hash: a4a018a51997db5c535a2208f7e7d9d27fe35f91d8c61328f5e4d0c7793ee5a8
+content_hash: f913a36e1a5159d5b008b1153483a18d1004dd8cefc7682370b0c21421d9cbc6
 ---
 
 
@@ -62,13 +62,3 @@ If the owner of the account adds a verified number, the number is available to b
 If a sub-user adds a verified number, the number should be available exclusively for that particular user only.
 
 Therefore, if you want to share the verified numbers across the organization, please ask the account admin user to verify the number.
-
----
-
-Related Articles
-
-[Introducing the Verify API](https://support.telnyx.com/en/articles/5367966-introducing-the-verify-api)[Telnyx Verify: 2FA made easy](https://support.telnyx.com/en/articles/5701653-telnyx-verify-2fa-made-easy)[Verified Numbers](https://support.telnyx.com/en/articles/6988813-verified-numbers)[How to Verify Phone Numbers behind an IVR](https://support.telnyx.com/en/articles/12386088-how-to-verify-phone-numbers-behind-an-ivr)[Twilio TwiML Conference on Telnyx](https://support.telnyx.com/en/articles/13389311-twilio-twiml-conference-on-telnyx)
-
-Did this answer your question?
-
-😞😐😃

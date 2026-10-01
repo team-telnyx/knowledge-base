@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6460777-porting-requirements
 title: "Porting Requirements"
 description: "Essential requirements for porting numbers to Telnyx, including LOA and invoice details. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: e2bf37445c032c5c6227bef0b9c02e6aa3a893c193cb432b6a42bef29d61376e
+content_hash: 220d6990dbf8a3d3b3b7f90301492b03594397c56fdb73780617dc60ad56b4c2
 ---
 
 
@@ -158,13 +158,3 @@ If you are porting numbers on behalf of your customers:
 ## Need Help?
 
 For questions about porting requirements or documentation, contact the porting team at [porting@telnyx.com](mailto:porting@telnyx.com).
-
----
-
-Related Articles
-
-[International Number Porting - Required Documents](https://support.telnyx.com/en/articles/1130626-international-number-porting-required-documents)[Porting Policy & Procedure](https://support.telnyx.com/en/articles/1130630-porting-policy-procedure)[Port-In Best Practices](https://support.telnyx.com/en/articles/2030770-port-in-best-practices)[Porting away from Twilio](https://support.telnyx.com/en/articles/3947850-porting-away-from-twilio)[Singapore Number Porting](https://support.telnyx.com/en/articles/7235002-singapore-number-porting)
-
-Did this answer your question?
-
-😞😐😃

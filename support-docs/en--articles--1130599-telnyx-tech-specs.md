@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130599-telnyx-tech-specs
 title: "Telnyx Tech Specs"
 description: "Here you will find out key tech specs at Telnyx and what they mean for our service. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: a7909fd9da64db0f973d0c0fd07d8a5b5b2365631813eccf5fbd43753fbcbc9f
+content_hash: 917ad561ceb614b414ab0bff1c6233c2e8f957b67d804ccf0d447b973ff31bcc
 ---
 
 
@@ -66,13 +66,3 @@ Please refer to our configuration guides [here](https://support.telnyx.com/en/co
 * Vicidial
 * Yealink
 * [Zoiper](https://support.telnyx.com/en/articles/6133517-zoiper-communicator)
-
----
-
-Related Articles
-
-[Telnyx & 10DLC Compliance](https://support.telnyx.com/en/articles/5664840-telnyx-10dlc-compliance)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6601004-burkina-faso-sms-guid
 title: "Burkina Faso: SMS Guidelines"
 description: "Sending SMS to Burkina Faso? See Telnyx guidance and requirements Learn more about Burkina Faso: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: ed3460baffb73b0f50b1d94273de4cdcba3bed9e75c207cd0bee38a333d5ec8c
+content_hash: 21625a135d1a3d4e9313cbdab076e7c8027453c6985a25c01bbb28d906b28e6f
 ---
 
 
@@ -31,13 +31,3 @@ There are no restrictions with regards to content towards this destination.
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Lithuania: SMS Guidelines](https://support.telnyx.com/en/articles/6560973-lithuania-sms-guidelines)[Switzerland: SMS Guidelines](https://support.telnyx.com/en/articles/6561154-switzerland-sms-guidelines)[Slovenia: SMS Guidelines](https://support.telnyx.com/en/articles/6561195-slovenia-sms-guidelines)[Suriname: SMS Guidelines](https://support.telnyx.com/en/articles/6589563-suriname-sms-guidelines)[Bermuda: SMS Guidelines](https://support.telnyx.com/en/articles/6596251-bermuda-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5728748-epygi-ip-pbx-telnyx-s
 title: "Epygi IP PBX: Telnyx Setup"
 description: "Learn how to configure the Epygi IP PBXs QX series with Telnyx and allowing QX users to make as well as receiving calls. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 718c133b064fc5c32e7a2083c9cea33bd8cebc40dc7f967a8ad512685e949b8b
+content_hash: ef25ad5bbbb587a1995f26f883fe81db423f3ce3b26c1f57d541ee60d14a357c
 ---
 
 
@@ -131,13 +131,3 @@ Additionally:
 * Visit Epygi's website: <https://www.epygi.com/about-us/>
 * [Epygi quick install guide](https://www.epygi.com/wp-content/uploads/2019/03/Install-Guide-20_500IPPBXs-v02.pdf)
 * [Epygi product warranty information](http://206.81.0.143/warranty/)
-
----
-
-Related Articles
-
-[Configuring an Elastix 4 PBX IP Trunk](https://support.telnyx.com/en/articles/1130622-configuring-an-elastix-4-pbx-ip-trunk)[How to configure a Thirdlane PBX](https://support.telnyx.com/en/articles/1130631-how-to-configure-a-thirdlane-pbx)[Positron IP PBX](https://support.telnyx.com/en/articles/5790910-positron-ip-pbx)[Synway UC-200: Telnyx Setup](https://support.telnyx.com/en/articles/5800399-synway-uc-200-telnyx-setup)[ScopTEL IP PBX](https://support.telnyx.com/en/articles/5803103-scoptel-ip-pbx)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6677968-montserrat-sms-guidel
 title: "Montserrat: SMS Guidelines"
 description: "SMS Guidelines for Montserrat including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Montserrat: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 3fd0547db68e91e0a81514ff47dc4079ff588d7420490ce64b86319d117e9e70
+content_hash: 1d1ff97c7e6350ce2bae03deff5653ca126e9e73d9bc8386fa36c4f536060c4d
 ---
 
 
@@ -31,13 +31,3 @@ There are no restrictions with regards to content towards this destination.
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Moldova: SMS Guidelines](https://support.telnyx.com/en/articles/6564053-moldova-sms-guidelines)[Djibouti: SMS Guidelines](https://support.telnyx.com/en/articles/6665699-djibouti-sms-guidelines)[Maldives: SMS Guidelines](https://support.telnyx.com/en/articles/6675222-maldives-sms-guidelines)[Namibia: SMS Guidelines](https://support.telnyx.com/en/articles/6678890-namibia-sms-guidelines)[Reunion: SMS Guidelines](https://support.telnyx.com/en/articles/6679378-reunion-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

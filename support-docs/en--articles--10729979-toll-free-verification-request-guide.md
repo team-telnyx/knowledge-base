@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/10729979-toll-free-verificati
 title: "Toll Free Verification Request Guide"
 description: "Toll Free Verification Request Process, Basic Criteria, Statuses, and Error… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: b5c132e0f2ec2dd4c9495654124e931cd995172b5c8542fb490df84c279c2b63
+content_hash: fd827fc8ab03a96fc34c919dbec6afd1c346bda423dfe2610e9b6a75c0c30184
 ---
 
 
@@ -316,13 +316,3 @@ Canadian Toll Free numbers must do all the above plus collect double opt in, whi
 |  |  |
 | --- | --- |
 | **Number Not Provisioned to Your Organization** | Not Eligible |
-
----
-
-Related Articles
-
-[Toll-Free Messaging](https://support.telnyx.com/en/articles/5353868-toll-free-messaging)[Toll-Free Opt-Out Words](https://support.telnyx.com/en/articles/6989758-toll-free-opt-out-words)[US / CA Toll Free Number Porting](https://support.telnyx.com/en/articles/8673249-us-ca-toll-free-number-porting)[How to Pick a Toll Free Use Case](https://support.telnyx.com/en/articles/12650709-how-to-pick-a-toll-free-use-case)[Toll-Free Carrier Rejections](https://support.telnyx.com/en/articles/15138019-toll-free-carrier-rejections)
-
-Did this answer your question?
-
-😞😐😃

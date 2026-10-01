@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6210147-fanvil-xu-series-ip-p
 title: "Fanvil XU Series: IP Phone"
 description: "Learn how to configure a Telnyx SIP trunk on the Fanvil X6U/X5U/X4U/X3U IP… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 5e50952a8b9c6eb39082cae3c01d37fb2a006cec204f05ecf9d3db63aafdaf42
+content_hash: 32691dad26fd70f6ad000bab092b00e611816c2a460e794c4fa538b95befa5fc
 ---
 
 
@@ -163,13 +163,3 @@ Additionally you can check out:
 * [Fanvil support](https://www.fanvil.com/Support/ticket.html)
 
 ---
-
----
-
-Related Articles
-
-[Fanvil H3: Hotel IP](https://support.telnyx.com/en/articles/6202965-fanvil-h3-hotel-ip)[Fanvil X2CP/X2C/X2P: Call Center IP](https://support.telnyx.com/en/articles/6206756-fanvil-x2cp-x2c-x2p-call-center-ip)[Fanvil X7 Series: IP Phones](https://support.telnyx.com/en/articles/6209215-fanvil-x7-series-ip-phones)[Fanvil V-Series: IP Phones](https://support.telnyx.com/en/articles/6209862-fanvil-v-series-ip-phones)[Fanvil X-Series: IP Phone](https://support.telnyx.com/en/articles/6209971-fanvil-x-series-ip-phone)
-
-Did this answer your question?
-
-😞😐😃

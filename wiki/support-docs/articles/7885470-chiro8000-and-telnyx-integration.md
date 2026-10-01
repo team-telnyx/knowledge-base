@@ -57,13 +57,3 @@ Image description: This is a screenshot of the number search tool which shows th
    ![Channel Limit section. ](_images/aba0ad7364636b09.png)
 
    Image description: This image shows the 3 limits you can set for your outbound voice profile: Channel limit, Max Destination Rate, and Enable Daily Spend Limit per Connection.
-
----
-
-Related Articles
-
-[Bring Campaigns to Telnyx](https://support.telnyx.com/en/articles/6339158-bring-campaigns-to-telnyx)[Telnyx Messaging Error Codes](https://support.telnyx.com/en/articles/6505121-telnyx-messaging-error-codes)[Easy Text Marketing and Telnyx Integration](https://support.telnyx.com/en/articles/6986625-easy-text-marketing-and-telnyx-integration)[Bulk Messaging with Sheets](https://support.telnyx.com/en/articles/8268223-bulk-messaging-with-sheets)[Telnyx 10DLC Process](https://support.telnyx.com/en/articles/6339152-how-to-create-a-10dlc-campaign)
-
-Did this answer your question?
-
-😞😐😃

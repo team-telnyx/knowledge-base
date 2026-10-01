@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/13117410-how-external-call-tr
 title: "How External Call Transfers Work"
 description: "The External Call Transfer scenario happens when your SIP endpoint receives an inbound call from PSTN through Telnyx… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 6dc654df5999436515f4571851fc8b2583ca4b201de704bce430f6203d4ee4a5
+content_hash: 7faa16fba02fff1745b282b320447c5a702afa8d7f64a5e81e90a09b1473720e
 ---
 
 
@@ -93,13 +93,3 @@ For the Dial request to be considered a bridge it should contain the following p
 ## TeXML <Dial> Command
 
 TeXML `<Dial>` instructs Telnyx to place a new outbound call and connect it to the existing inbound call. In that case the non-Telnyx origination number is allowed.
-
----
-
-Related Articles
-
-[Call Forwarding](https://support.telnyx.com/en/articles/1130657-call-forwarding)[SIP Connection: Fail-over and Retries](https://support.telnyx.com/en/articles/4320364-sip-connection-fail-over-and-retries)[SIP Connection: Inbound & Outbound Settings](https://support.telnyx.com/en/articles/4404448-sip-connection-inbound-outbound-settings)[Understanding SIP PRACK Protocol](https://support.telnyx.com/en/articles/6902981-understanding-sip-prack-protocol)[Telnyx + Vapi Integration](https://support.telnyx.com/en/articles/12538402-telnyx-vapi-integration)
-
-Did this answer your question?
-
-😞😐😃

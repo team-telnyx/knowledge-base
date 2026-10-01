@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5748258-grandstream-ucm6xxx-s
 title: "Grandstream UCM6xxx: SIP Trunks"
 description: "In this article, you'll learn how to configure SIP trunks in the Grandstream UCM 6xxx that are Telnyx-compatible. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: a709f212c6a3704b413c9ab62cc46c685d807684cdf66d68a59e46b8b9a712ea
+content_hash: d6a90f4e0909a97b0a044c95e7650b366610b2f79d2eea6b1e6e039d610436d2
 ---
 
 
@@ -253,13 +253,3 @@ Review our [getting started guide](https://support.telnyx.com/en/articles/117663
 Grandstream UCM62xx [technical documentation and user guide](https://www.grandstream.com/support/resources?title=UCM6200%20series&hsLang=en).
 
 UCM6xxx's [most current firmware](https://www.grandstream.com/support/firmware)
-
----
-
-Related Articles
-
-[Grandstream GXP21XX](https://support.telnyx.com/en/articles/5819218-grandstream-gxp21xx)[Grandstream GRP260x: SIP Trunk](https://support.telnyx.com/en/articles/6169513-grandstream-grp260x-sip-trunk)[Grandstream GRP2612: SIP Trunk](https://support.telnyx.com/en/articles/6184147-grandstream-grp2612-sip-trunk)[Grandstream GXP1700: SIP Trunk](https://support.telnyx.com/en/articles/6184520-grandstream-gxp1700-sip-trunk)[Grandstream GXV3370](https://support.telnyx.com/en/articles/6187576-grandstream-gxv3370)
-
-Did this answer your question?
-
-😞😐😃

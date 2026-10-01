@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3284164-elastix-5-credentials
 title: "Elastix 5: Credentials Trunk"
 description: "In this article we will explain how to configure an Elastix 5 Credentials Trunk. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: b9339e728d296b639aadc261fc48ddac8dd84175e78fb3c2776a028f8315f14c
+content_hash: 5800abacd81ece3cc87f5eba2237b6da7790a6193ad785a1b410a308d4213cdd
 ---
 
 
@@ -246,13 +246,3 @@ Additionally, you can check out:
 * [Elastix admin guide](https://www.3cx.com/docs/manual/)
 * [Elastix user guide](https://www.3cx.com/user-manual/)
 * [Elastix support](https://www.3cx.com/support/)
-
----
-
-Related Articles
-
-[Configuring a FreePBX V13 Credentials Trunk](https://support.telnyx.com/en/articles/1130648-configuring-a-freepbx-v13-credentials-trunk)[Configuring a Cisco CME Credentials Trunk](https://support.telnyx.com/en/articles/1130668-configuring-a-cisco-cme-credentials-trunk)[Elastix 5: FQDN Trunk Setup](https://support.telnyx.com/en/articles/3284033-elastix-5-fqdn-trunk-setup)[FreePBX V14: Credentials - ChanSIP](https://support.telnyx.com/en/articles/3284752-freepbx-v14-credentials-chansip)[FreePBX V15: IP Trunk - PJSIP](https://support.telnyx.com/en/articles/5619595-freepbx-v15-ip-trunk-pjsip)
-
-Did this answer your question?
-
-😞😐😃

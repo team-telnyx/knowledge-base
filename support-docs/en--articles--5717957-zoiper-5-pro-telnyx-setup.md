@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5717957-zoiper-5-pro-telnyx-s
 title: "Zoiper 5 Pro: Telnyx Setup"
 description: "How to configure Zoiper 5 with a pro license to work with the Telnyx Mission Control portal. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 093a0570a2046af223f23a79707d84815d17d7e2cefbab6e22ad501f3d4e1388
+content_hash: 6c94590306abaf5ae387c8bef1140d08cf2788aedfa1e330d380041c192f0ca9
 ---
 
 
@@ -195,13 +195,3 @@ If you are still getting a 403 error about an invalid caller id after setting up
 Review our [getting started guide](https://support.telnyx.com/en/articles/1176636-get-started-with-a-mission-control-account) to make sure your Telnyx Mission Control Portal account is set up correctly.
 
 Check out the [Zoiper 5](https://www.zoiper.com/pdf/User%20Guide%20Zoiper%205%20v.1.0.7.pdf) user guide.
-
----
-
-Related Articles
-
-[Configuring Linphone with Telnyx](https://support.telnyx.com/en/articles/1130674-configuring-linphone-with-telnyx)[Zoiper 3: Telnyx Setup (Mac)](https://support.telnyx.com/en/articles/5720999-zoiper-3-telnyx-setup-mac)[Zoiper 3: Telnyx Setup (Linux)](https://support.telnyx.com/en/articles/5721766-zoiper-3-telnyx-setup-linux)[MicroSIP: Setup with Telnyx](https://support.telnyx.com/en/articles/6133145-microsip-setup-with-telnyx)[Zoiper Communicator](https://support.telnyx.com/en/articles/6133517-zoiper-communicator)
-
-Did this answer your question?
-
-😞😐😃

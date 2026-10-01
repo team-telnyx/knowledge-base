@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3505912-australia-did-require
 title: "Australia DID Requirements"
 description: "Here you will find a detailed list of requirements to acquire Australia numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 394c534ab03807868330391f2e1fb24c57a52e8aba1af92269806f01416df022
+content_hash: 46e139ff53645391110721310f021afe1974701cfa9ed701169de00337cc2c83
 ---
 
 
@@ -135,13 +135,3 @@ Address in Australia (street, building number, postal code, city, and country)\*
 Copy of utility bill (no older than 3 months)
 
 ##
-
----
-
-Related Articles
-
-[Belgium DID Requirements](https://support.telnyx.com/en/articles/1311433-belgium-did-requirements)[Singapore DID Requirements](https://support.telnyx.com/en/articles/3739573-singapore-did-requirements)[Thailand DID Requirements](https://support.telnyx.com/en/articles/3739661-thailand-did-requirements)[Chile DID Requirements](https://support.telnyx.com/en/articles/5464057-chile-did-requirements)[Finland DID Requirements](https://support.telnyx.com/en/articles/5465874-finland-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

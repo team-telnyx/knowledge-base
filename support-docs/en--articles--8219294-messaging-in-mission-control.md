@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8219294-messaging-in-mission-
 title: "Messaging in Mission Control"
 description: "Set up your Telnyx Mission Control for messaging. See Telnyx guidance and requirements Learn more about Messaging in Mission Control with Telnyx."
 scraped: 2026-07-08
-content_hash: d7f01efae0adcec53ed25a030b52a1fc875e0efebf81366bf3d73c5e4f437c0d
+content_hash: 63cea48d1c467e860d8a53bdb813c1ef0f10df217051c14932d43ccb94683668
 ---
 
 
@@ -92,13 +92,3 @@ If you wish to increase your default sending rate, you will first need to obtain
 * Check [here](https://support.telnyx.com/en/articles/4371498-sending-alphanumeric-sms-sender-id) for Alphanumeric sending (only available outside the US and Canada)
 
 As always! Feel free to search our knowledge base or reach out to us via email, chat or telephone if you need additional assistance and/or have other questions.
-
----
-
-Related Articles
-
-[Get Started with a Mission Control Account](https://support.telnyx.com/en/articles/1176636-get-started-with-a-mission-control-account)[Short Message Peer-to-Peer Set-up Guide](https://support.telnyx.com/en/articles/1667062-short-message-peer-to-peer-set-up-guide)[Automated Replies for Messages using Zapier](https://support.telnyx.com/en/articles/3232529-automated-replies-for-messages-using-zapier)[Receiving SMS on your Telnyx number](https://support.telnyx.com/en/articles/4348981-receiving-sms-on-your-telnyx-number)[Telnyx Messaging Error Codes](https://support.telnyx.com/en/articles/6505121-telnyx-messaging-error-codes)
-
-Did this answer your question?
-
-😞😐😃

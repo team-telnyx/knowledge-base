@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4304898-sip-trunking-methods-
 title: "SIP Trunking - Methods/Requests & Responses"
 description: "Here we will explain different SIP trunking methods/requests and responses. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: e16cf3db090ad672d0669dc9c568db73a6dddc9d007b64b29a7b70d9edb922d4
+content_hash: e80e47c7f0604dc8b83ae2edc479433aafc0c60f01615cb1f4a7331f8a5b25d2
 ---
 
 
@@ -374,13 +374,3 @@ Telnyx's systems do not send SIP Options to our customers SIP Connections but Te
 We like to expand our knowledge across our website and you can view further information on SIP Responses [here](https://telnyx.com/resources/sip-response-codes-need-know-2-minutes) & SIP trunking explained [here](https://telnyx.com/resources/sip-trunking-explained).
 
 Looking to debug your SIP Call flows? Look no further than our own [debugging tool](https://support.telnyx.com/en/articles/4304872-telnyx-debugging-tools) available on your account.
-
----
-
-Related Articles
-
-[Configuring a Cisco CUBE/CUCM SIP Trunk](https://support.telnyx.com/en/articles/1130673-configuring-a-cisco-cube-cucm-sip-trunk)[SIP Registration](https://support.telnyx.com/en/articles/4363904-sip-registration)[Telnyx SIP Response Codes](https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes)[Wildix: SIP Trunk Setup](https://support.telnyx.com/en/articles/5799830-wildix-sip-trunk-setup)[Grandstream GRP260x: SIP Trunk](https://support.telnyx.com/en/articles/6169513-grandstream-grp260x-sip-trunk)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4453840-post-dial-delay-pdd
 title: "Post Dial Delay (PDD)"
 description: "In this article we will explain post dial delay (PDD) and some of its causes. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 657ee95e09e56122c2959f3298710a6316e72b6a346e91171213fb5a9d71f5b9
+content_hash: 5fb089ce8bb62dd2327815d18c33dacda1ff950e76f6200141ed51c8a022ed01
 ---
 
 
@@ -37,13 +37,3 @@ Most carriers within the telecommunications industry consider anything under 7 s
 ​
 
 At Telnyx, we partner with Tier 1 carriers and interconnects across the world. The better quality routes, the less likely there will be a delay. Our telephony operations team monitor and test our carriers and interconnects to ensure there are no underlying issues with call completion. Should you experience post dial delay over 7 seconds, please contact our support team ([support@telnyx.com](mailto:support@telnyx.com)) who can assist in verifying if there is an underlying issue and work with our internal teams to further optimize our routes and your experience.
-
----
-
-Related Articles
-
-[What is DTMF? and how to configure it on Telnyx](https://support.telnyx.com/en/articles/1130710-what-is-dtmf-and-how-to-configure-it-on-telnyx)[US Rural Call Completion](https://support.telnyx.com/en/articles/4096828-us-rural-call-completion)[SIP Connection: Fail-over and Retries](https://support.telnyx.com/en/articles/4320364-sip-connection-fail-over-and-retries)[US Local Call Completion](https://support.telnyx.com/en/articles/4378813-us-local-call-completion)[FreePBX V15 IP Trunk - ChanSIP Tutorial](https://support.telnyx.com/en/articles/5467232-freepbx-v15-ip-trunk-chansip-tutorial)
-
-Did this answer your question?
-
-😞😐😃

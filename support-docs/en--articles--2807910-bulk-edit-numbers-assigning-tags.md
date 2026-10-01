@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/2807910-bulk-edit-numbers-ass
 title: "Bulk Edit Numbers - Assigning tags"
 description: "Editing numbers should be easy, in this article we will explain how to assign tags in bulk. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 337ad59ff9c040474b474583f7523d315f4c43a0ac92ec59e731ee2834ca19ea
+content_hash: 638f7822aec5cbd638fe3c84068391219ac8b4eccacc126f00dadfe976087f9b
 ---
 
 
@@ -81,13 +81,3 @@ Write the tag name that you would like to remove from selected numbers and then 
 ![](_images/4e0b32cddb74060e.png)
 
 Now tag name "test-tag" is removed from selected numbers as shown in the screenshot on step 6.
-
----
-
-Related Articles
-
-[SIP Connection: Number Formats](https://support.telnyx.com/en/articles/1130706-sip-connection-number-formats)[Bulk Edit Numbers - Voice Settings](https://support.telnyx.com/en/articles/2807846-bulk-edit-numbers-voice-settings)[Bulk Edit Numbers - Emergency Services](https://support.telnyx.com/en/articles/2819213-bulk-edit-numbers-emergency-services)[Bulk Edit Numbers - Delete Numbers](https://support.telnyx.com/en/articles/2819236-bulk-edit-numbers-delete-numbers)[Bulk Edit Numbers - Messaging Profile](https://support.telnyx.com/en/articles/2819238-bulk-edit-numbers-messaging-profile)
-
-Did this answer your question?
-
-😞😐😃

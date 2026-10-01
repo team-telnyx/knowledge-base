@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3267206-new-zealand-number-po
 title: "New Zealand Number Porting"
 description: "Here you will find all of the requirements for New Zealand number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 8c73f92714578141a5d9f51e4db1a21377ac92db3cbd2d271a2b3eaf3480770e
+content_hash: 7a867b916e49421c0e68d1529399295ed14fbb28e10e6203878cfefead825edd
 ---
 
 
@@ -113,13 +113,3 @@ Monday to Friday through 2 time slots. 8 AM or 12 PM
 | Toll-Free | 10+ Business days |
 
 **Note:** These are typical processing times. Actual times may vary based on the losing carrier.
-
----
-
-Related Articles
-
-[Australia Number Porting](https://support.telnyx.com/en/articles/3266212-australia-number-porting)[Netherlands Number Porting](https://support.telnyx.com/en/articles/3267124-netherlands-number-porting)[United Kingdom Number Porting](https://support.telnyx.com/en/articles/3267693-united-kingdom-number-porting)[Singapore Number Porting](https://support.telnyx.com/en/articles/7235002-singapore-number-porting)[US / CA Toll Free Number Porting](https://support.telnyx.com/en/articles/8673249-us-ca-toll-free-number-porting)
-
-Did this answer your question?
-
-😞😐😃

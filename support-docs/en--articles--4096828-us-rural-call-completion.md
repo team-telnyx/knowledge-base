@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4096828-us-rural-call-complet
 title: "US Rural Call Completion"
 description: "Here we will explain common issues with rural call completion and how we help you avoid them. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 890714b11dac8c3c18ec9e1c584c9a19c1f36dca249d4c8d534f209ca61212d2
+content_hash: 6f710c3bdd30c43e7c6c17de6606e85cdf41851d5182610203340622bfa9a3f3
 ---
 
 
@@ -38,13 +38,3 @@ Providing the following details, will help our team in understanding the issue a
 * Date and time (including timezone) of the call during which the issues were experienced.
 * A description of any testing the rural carrier has already conducted with their customer to rule out local network or tandem issues or issues at the end-user premise.
 * Any contact information for a rural carrier representative that so Telnyx can contact in order to obtain more information, provide updates, or engage in trouble-shooting or cooperative testing.
-
----
-
-Related Articles
-
-[Port Request Rejected](https://support.telnyx.com/en/articles/1782930-port-request-rejected)[SIP Connection: Fail-over and Retries](https://support.telnyx.com/en/articles/4320364-sip-connection-fail-over-and-retries)[US Local Call Completion](https://support.telnyx.com/en/articles/4378813-us-local-call-completion)[Troubleshooting Call Completion](https://support.telnyx.com/en/articles/5025298-troubleshooting-call-completion)[PSTN Replacement / Local Calling with Telnyx](https://support.telnyx.com/en/articles/6622229-pstn-replacement-local-calling-with-telnyx)
-
-Did this answer your question?
-
-😞😐😃

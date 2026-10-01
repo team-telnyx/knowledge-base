@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5316578-onelogin-saml-identit
 title: "OneLogin: SAML Identity Setup"
 description: "This article will outline how to use OneLogin with Telnyx to facilitate Singe Sign-On capabilities. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 581471d5f9e535f2368a69687c14af7409bb531ccbe0a71a42b4b04511dc4b0d
+content_hash: 010170ac49a1e8cd29599a8b087b1e8c81c815fbfd363045a991aec7cfb02145
 ---
 
 
@@ -168,13 +168,3 @@ Additionally, check out:
 * [OneLogin videos](https://www.onelogin.com/resource-center#f:language=%5BEnglish%5D)
 
 ---
-
----
-
-Related Articles
-
-[Okta: SAML Identity Setup](https://support.telnyx.com/en/articles/5335562-okta-saml-identity-setup)[LastPass: SAML Identity Setup](https://support.telnyx.com/en/articles/5341506-lastpass-saml-identity-setup)[Azure AD: SAML Identity Setup](https://support.telnyx.com/en/articles/5355800-azure-ad-saml-identity-setup)[Auth0 SSO Integration With Telnyx](https://support.telnyx.com/en/articles/5355953-auth0-sso-integration-with-telnyx)[GSuite SSO Integration With Telnyx](https://support.telnyx.com/en/articles/5361846-gsuite-sso-integration-with-telnyx)
-
-Did this answer your question?
-
-😞😐😃

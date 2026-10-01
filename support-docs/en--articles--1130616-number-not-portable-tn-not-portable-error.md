@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130616-number-not-portable-t
 title: "Number Not Portable/TN Not Portable Error"
 description: "Get the specifics for Not Portable and TN Not Portable errors and decipher their meaning. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 87a1abebb1660ce5503a8cbf48c93ac77ab6c074b9c1306c7c7228566464ec66
+content_hash: 688487a6bbe0675afb057025edd547bd61568639ff6e5d88b5c2f1a6b11f2fe6
 ---
 
 
@@ -40,13 +40,3 @@ The "TN not portable" error is a catch-all error for a number of other errors. T
 To resolve this type of error it's best that you call your existing carrier and ask if there are any numbers on your account that may not be portable. They should be able to quickly identify any features or inactive numbers that might hold up a port request.
 
 If you have an inactive number you'll likely need to re-activate it first before a port out can continue.
-
----
-
-Related Articles
-
-[Porting Error Messages](https://support.telnyx.com/en/articles/1618776-porting-error-messages)[Australia Number Porting](https://support.telnyx.com/en/articles/3266212-australia-number-porting)[France Number Porting](https://support.telnyx.com/en/articles/3266956-france-number-porting)[New Zealand Number Porting](https://support.telnyx.com/en/articles/3267206-new-zealand-number-porting)[Singapore Number Porting](https://support.telnyx.com/en/articles/7235002-singapore-number-porting)
-
-Did this answer your question?
-
-😞😐😃

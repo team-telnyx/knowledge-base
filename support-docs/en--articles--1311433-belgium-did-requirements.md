@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1311433-belgium-did-requireme
 title: "Belgium DID Requirements"
 description: "Here you will find a detailed list of requirements to acquiring Belgium numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: db250e571cb81ce56ee8be8a8d95fea7eefc5fda07902fd7fb3f25e7dd022dca
+content_hash: 4d94af823d30674b9f0b9ca00586ffd9a1ab3b33b4d716cf11ab2d93131a79ad
 ---
 
 
@@ -162,13 +162,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Spain DID Requirements](https://support.telnyx.com/en/articles/1311073-spain-did-requirements)[France DID Requirements](https://support.telnyx.com/en/articles/1311445-france-did-requirements)[Chile DID Requirements](https://support.telnyx.com/en/articles/5464057-chile-did-requirements)[Colombia DID Requirements](https://support.telnyx.com/en/articles/5464069-colombia-did-requirements)[Poland DID Requirements](https://support.telnyx.com/en/articles/5466967-poland-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

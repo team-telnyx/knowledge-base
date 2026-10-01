@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4280610-how-to-setup-your-acc
 title: "How to setup your Account Settings"
 description: "This article entails the in-depth setup of Account settings on your Mission Control… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 18e2747605baf1f8fe87bc25500c6c3b64965888ccd746b016d455971a26fc45
+content_hash: 31b7b4288092e2261a6c8aa3f7b2c234cfdc036b3fec8550d4c3464f4b6ce9fb
 ---
 
 
@@ -105,13 +105,3 @@ This is your account verification id number, another option to use when reaching
 These codes are ephemeral and rotate every 3 minutes, also another option to use when reaching out to support.
 
 ##
-
----
-
-Related Articles
-
-[What is my SIP Account Connection password?](https://support.telnyx.com/en/articles/1130713-what-is-my-sip-account-connection-password)[Configuring Call Control/TeXML Applications - Voice API](https://support.telnyx.com/en/articles/4374050-configuring-call-control-texml-applications-voice-api)[How to Sign Up for a Telnyx account](https://support.telnyx.com/en/articles/5295540-how-to-sign-up-for-a-telnyx-account)[Zoiper 5 Pro: Telnyx Setup](https://support.telnyx.com/en/articles/5717957-zoiper-5-pro-telnyx-setup)[Grandstream HT802: Telnyx Setup](https://support.telnyx.com/en/articles/5725071-grandstream-ht802-telnyx-setup)
-
-Did this answer your question?
-
-😞😐😃

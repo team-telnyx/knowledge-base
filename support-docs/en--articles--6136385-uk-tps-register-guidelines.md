@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6136385-uk-tps-register-guide
 title: "UK TPS Register: Guidelines"
 description: "The TPS is a list of consumers who do not to receive unsolicited direct marketing calls. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 8a798961c704cd1d7b926726757a20993701385438822810b80f483578273bcf
+content_hash: 99894287cca5e750a243820121ec5af0f253e13f0edc444427284ba2faffecb4
 ---
 
 
@@ -70,13 +70,3 @@ As frequently as possible. Cleaning your data ensures anybody who is on either r
 **How to screen the TPS register:**
 
 Your organization would need a TPS license to screen the TPS register. There are different types of licenses (partial, annual) that your organization can choose from. More information about them can be found here: <https://corporate.tpsonline.org.uk/prices>
-
----
-
-Related Articles
-
-[Legal Update: Texas’s Mini-TCPA Now Applies to Texts](https://support.telnyx.com/en/articles/12141904-legal-update-texas-s-mini-tcpa-now-applies-to-texts)
-
-Did this answer your question?
-
-😞😐😃

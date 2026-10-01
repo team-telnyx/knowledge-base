@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/15138152-making-calls-with-br
 title: "Making Calls with Branded Calling"
 description: "Branded Calling helps the people you call recognize your outbound SIP trunking calls by showing approved brand… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f1b1138d9b58d82736ec9310f1630c2d194efcb23b5e8118c4b41672e1696913
+content_hash: 1ae9269a2038f8d9fd6d5edccd9d96692ee0b628bcc669832e294ab6ae246b52
 ---
 
 
@@ -239,13 +239,3 @@ No. Branded Calling is applied automatically based on the approved DIR and numbe
 ## What call information should I send Support if branding is not visible?
 
 Send the calling number, destination number, call date and time, the approved DIR name, and a brief description of what the recipient saw. Screenshots from the receiving device are helpful when available.
-
----
-
-Related Articles
-
-[Caller ID Number Policy](https://support.telnyx.com/en/articles/3546251-caller-id-number-policy)[Configuring Call Control/TeXML Applications - Voice API](https://support.telnyx.com/en/articles/4374050-configuring-call-control-texml-applications-voice-api)[SIP Connection: Inbound & Outbound Settings](https://support.telnyx.com/en/articles/4404448-sip-connection-inbound-outbound-settings)[Telnyx + Vapi Integration](https://support.telnyx.com/en/articles/12538402-telnyx-vapi-integration)[Calls Per Second (CPS) Limits](https://support.telnyx.com/en/articles/15668484-calls-per-second-cps-limits)
-
-Did this answer your question?
-
-😞😐😃

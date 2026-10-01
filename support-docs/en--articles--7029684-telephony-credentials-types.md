@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/7029684-telephony-credentials
 title: "Telephony Credentials: Types"
 description: "This article explains and describes how to setup and use SIP Connection Credentials, See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f3b17b194c20777fa37028cb8a614c408b47ab4f4514cff0cf5bcc2caf4af740
+content_hash: cbd771dc2ffb88a8bdf369a644310f3f427d64fcf12b3b24e25aca094a74934a
 ---
 
 
@@ -144,13 +144,3 @@ If you are testing using your SIP Connection Credentials or On-Demand Credential
 If you are testing using your JSON Web Token, set your Authentication to "Token" and enter your token under "Login Token" as below:
 
 ![](_images/a651eba78d7865a7.png)
-
----
-
-Related Articles
-
-[Configuring a FreePBX V13 Credentials Trunk](https://support.telnyx.com/en/articles/1130648-configuring-a-freepbx-v13-credentials-trunk)[SIP Connection: Number Formats](https://support.telnyx.com/en/articles/1130706-sip-connection-number-formats)[FreePBX V13: PJSIP Credentials](https://support.telnyx.com/en/articles/1277754-freepbx-v13-pjsip-credentials)[SIP Connection: Types](https://support.telnyx.com/en/articles/4245868-sip-connection-types)[SIP Connection: Settings](https://support.telnyx.com/en/articles/4351104-sip-connection-settings)
-
-Did this answer your question?
-
-😞😐😃

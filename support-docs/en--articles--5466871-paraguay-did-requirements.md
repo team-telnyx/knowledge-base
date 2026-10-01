@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5466871-paraguay-did-requirem
 title: "Paraguay DID Requirements"
 description: "Here you will find a list of detailed requirements for acquiring Paraguay numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: eb28c7b1bc4f3b1d3201f154d44bc8fec5ab4285bf82929bfee76e98c1834795
+content_hash: 0788c488b53167e23e0d09b4ec1a27216dab1482922c935d830b6ff22be4e0f0
 ---
 
 
@@ -108,13 +108,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Bulgaria DID Requirements](https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Indonesia DID Requirements](https://support.telnyx.com/en/articles/5466641-indonesia-did-requirements)[Mexico DID Requirements](https://support.telnyx.com/en/articles/5466793-mexico-did-requirements)[Uganda DID Requirements](https://support.telnyx.com/en/articles/5467084-uganda-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

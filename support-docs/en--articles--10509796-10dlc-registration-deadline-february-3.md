@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/10509796-10dlc-registration-d
 title: "10DLC Registration Deadline February 3"
 description: "TCR has enforces all SMS traffic to be registered with 10DLC by February 3 so starting February 4th unregistered SMS… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f0ba52f0d5594e2b190d52c8f19837f1b60e58221649fee06bf212d56b645a3b
+content_hash: 59290832ddb167e2ee97ac89036205bebc70b60ea12a480c053feae0dc85be56
 ---
 
 
@@ -33,13 +33,3 @@ What does it cost to register?
 [Please read article about Fees and Charges.](https://support.telnyx.com/en/articles/5634625-10dlc-fees-and-charges)
 ​
 If you still have questions about 10DLC check into our [Frequently Asked Questions article which you can find here.](https://support.telnyx.com/en/articles/3679260-frequently-asked-questions-about-10dlc#h_7411bcf43c)
-
----
-
-Related Articles
-
-[Frequently asked questions about 10DLC](https://support.telnyx.com/en/articles/3679260-frequently-asked-questions-about-10dlc)[10DLC Fees and Charges](https://support.telnyx.com/en/articles/5634625-10dlc-fees-and-charges)[How to create a 10DLC brand](https://support.telnyx.com/en/articles/5896911-how-to-create-a-10dlc-brand)[Register for 10DLC Messaging](https://support.telnyx.com/en/articles/6325731-register-for-10dlc-messaging)[Guide to Sole Proprietor 10DLC Brand and Campaign Registration](https://support.telnyx.com/en/articles/13545282-guide-to-sole-proprietor-10dlc-brand-and-campaign-registration)
-
-Did this answer your question?
-
-😞😐😃

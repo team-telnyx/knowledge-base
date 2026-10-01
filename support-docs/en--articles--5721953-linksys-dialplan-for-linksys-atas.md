@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5721953-linksys-dialplan-for-
 title: "Linksys: Dialplan for Linksys ATAs"
 description: "Master the Linksys dialplan digit sequences for ATAs. See Telnyx guidance and requirements Learn more about Linksys: Dialplan for Linksys ATAs with Telnyx."
 scraped: 2026-07-08
-content_hash: c9efcba2bda6a2dd8c951e38d195432299e5b93c48012ad988a913c3aefa4ac6
+content_hash: 1d921470f2cf009abbea22e0979c6a9566a3250aeb9c6070307b72f9f7a61378
 ---
 
 
@@ -49,13 +49,3 @@ Coming soon
 | ! (exclamation point) | You can use this character to prohibit a dial sequence.  For example the sequence **1900xxxxxxx!** will make the system reject any 1-900 number. |
 | S0 or L0 | Overrides the Short or Long inter-digit timer to 0 seconds.  For example: ​**<:1555>[2-9]xxxxxxS2** on a seven-digit local call, wait two seconds to see if any more digits are dialed - after the delay expires, prefix the number with local area code +1-555 and send it  ​**1[2-9]xx[2-9]xxxxxxS0** indicates, if +1-areacode-number is dialed as eleven digits, do not wait for additional dialed digits and send immediately. |
 | P# (where # is the duration of the pause in seconds) | Pauses # seconds. |
-
----
-
-Related Articles
-
-[How to configure a Thirdlane PBX](https://support.telnyx.com/en/articles/1130631-how-to-configure-a-thirdlane-pbx)[Configuring your Cisco SPA112/122 ATA](https://support.telnyx.com/en/articles/1130665-configuring-your-cisco-spa112-122-ata)[What is DTMF? and how to configure it on Telnyx](https://support.telnyx.com/en/articles/1130710-what-is-dtmf-and-how-to-configure-it-on-telnyx)[Oracle: Acme Packet SBC Setup](https://support.telnyx.com/en/articles/4194697-oracle-acme-packet-sbc-setup)[Flyingvoice: Telnyx Setup](https://support.telnyx.com/en/articles/5810663-flyingvoice-telnyx-setup)
-
-Did this answer your question?
-
-😞😐😃

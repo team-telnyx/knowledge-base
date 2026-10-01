@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8104309-telnyx-networking-on-
 title: "Telnyx Networking on AWS VPC"
 description: "A step-by-step process to deploy a Virtual Private Server (VPS) on Amazon AWS and configure Telnyx Edge Routing to it. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 2fc6e99c6b5cc4736be40b1b4f492f1fbc086cb2818c04484729184ef5d616d0
+content_hash: 42d7d4c035b2e1e4eb8d782d5ca870232b96f28b940a94f98a38cde8708fcb82
 ---
 
 
@@ -107,13 +107,3 @@ round-trip min/avg/max/stddev = 183.040/183.495/184.512/0.471 ms
 Congratulations! You have succesfully connected an AWS VPS instance to the Telnyx Edge Routing Network to the configured IP in your portal.
 
 If you have any further questions or would like to see more tutorials, feel free to reach out to our support team or our external Slack channel for help!
-
----
-
-Related Articles
-
-[Telnyx Networking on AWS Lightsail](https://support.telnyx.com/en/articles/8103288-telnyx-networking-on-aws-lightsail)[Telnyx Networking on Ubuntu](https://support.telnyx.com/en/articles/8104274-telnyx-networking-on-ubuntu)[Telnyx Networking on Azure Linux VMs](https://support.telnyx.com/en/articles/8104343-telnyx-networking-on-azure-linux-vms)[Telnyx Networking on Android/iOS](https://support.telnyx.com/en/articles/8104413-telnyx-networking-on-android-ios)[Telnyx Networking on Oracle VMs](https://support.telnyx.com/en/articles/8104436-telnyx-networking-on-oracle-vms)
-
-Did this answer your question?
-
-😞😐😃

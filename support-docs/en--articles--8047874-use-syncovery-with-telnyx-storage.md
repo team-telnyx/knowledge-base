@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8047874-use-syncovery-with-te
 title: "Use Syncovery with Telnyx Storage"
 description: "Explore how to configure Syncovery with Telnyx Storage for seamless file transfer, synchronization, See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 9f59e721dc1f311aa82d4f6bec70d40b591d3dc779001c96a65c45479270ab6f
+content_hash: c80a106e775081db735161d33398975f4f9762001bfaeadad0736f5af5ad03f8
 ---
 
 
@@ -87,13 +87,3 @@ Enjoy the convenience and reliability of Syncovery combined with the scalability
 
 For more information on Syncovery and its features, refer to the official [documentation](https://www.syncovery.com/category/documentation/).
 ​
-
----
-
-Related Articles
-
-[Use Backup4all with Telnyx Storage](https://support.telnyx.com/en/articles/7869264-use-backup4all-with-telnyx-storage)[Use Duplicati with Telnyx Storage](https://support.telnyx.com/en/articles/7873510-use-duplicati-with-telnyx-storage)[Use GoodSync with Telnyx Storage](https://support.telnyx.com/en/articles/8047898-use-goodsync-with-telnyx-storage)[Use ODrive with Telnyx Storage](https://support.telnyx.com/en/articles/8047956-use-odrive-with-telnyx-storage)[Use AirExplorer with Telnyx Storage](https://support.telnyx.com/en/articles/8048045-use-airexplorer-with-telnyx-storage)
-
-Did this answer your question?
-
-😞😐😃

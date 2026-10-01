@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5464041-brazil-did-requiremen
 title: "Brazil DID Requirements"
 description: "Here you will find a detailed list of requirements to acquire numbers in Brazil. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 298d7acb4941cbd96595d1c3baa2d379e97104e21f49c573f3ab0494455fbe6e
+content_hash: 3681daeea9337268897cfb99e19f2242aee630535739ac45d0ffa5586ba29a96
 ---
 
 
@@ -123,13 +123,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
 
 [Telnyx Power of Attorney Form.pdf](https://telnyx-48416ce2297b.intercom-attachments-1.com/i/o/ltcafuzd/1859337216/21ddf937c1ed603037e5b03ecb3e/Telnyx+Power+of+Attorney+Form.pdf?expires=1783507500&signature=dd689394a6dfc6f0d50e2c2ff43f09d3a958ed6e01a301e3234eebaf283e2418&req=dSgiH8p9moNeX%2FMW1HO4zYe4XAcs0tVI0%2B%2B0h8M1qOoeX3xOa7wB7e6XNxYA%0At%2Bh0zddal50%3D%0A)
-
----
-
-Related Articles
-
-[Bulgaria DID Requirements](https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Mexico DID Requirements](https://support.telnyx.com/en/articles/5466793-mexico-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)[Serbia DID Requirements](https://support.telnyx.com/en/articles/5467021-serbia-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

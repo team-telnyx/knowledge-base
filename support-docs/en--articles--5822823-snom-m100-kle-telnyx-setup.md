@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5822823-snom-m100-kle-telnyx-
 title: "Snom M100 KLE: Telnyx Setup"
 description: "Learn how to set up and configure your Snom M100 KLE base station and connect it to Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f823eef2d2ed72472cc6ef0fbac0efdbcd1a8579e7707bedd08ce6b4cdf99945
+content_hash: 3fe643968bdb567b8285ce75651f0d5bda7e05bb5b10c7328b6705406f1923da
 ---
 
 
@@ -144,13 +144,3 @@ Additionally, check out:
 * [Snom support](https://www.snomamericas.com/support/contact/)
 * [Snom service hub](https://service.snom.com/)
 * [Snom helpdesk](https://jira.snom.com/servicedesk/customer/user/login)
-
----
-
-Related Articles
-
-[Konftel 300Wx: Telnyx Setup](https://support.telnyx.com/en/articles/5807979-konftel-300wx-telnyx-setup)[Snom C520: Telnyx Setup](https://support.telnyx.com/en/articles/5815678-snom-c520-telnyx-setup)[Grandstream GXP: Telnyx Setup](https://support.telnyx.com/en/articles/5815720-grandstream-gxp-telnyx-setup)[Konftel 300IPx: Telnyx Setup](https://support.telnyx.com/en/articles/5822579-konftel-300ipx-telnyx-setup)[MicroSIP: Setup with Telnyx](https://support.telnyx.com/en/articles/6133145-microsip-setup-with-telnyx)
-
-Did this answer your question?
-
-😞😐😃

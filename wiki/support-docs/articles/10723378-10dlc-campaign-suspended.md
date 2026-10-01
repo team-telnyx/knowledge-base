@@ -187,13 +187,3 @@ For additional assistance, please contact:
 * Telnyx Support Portal: [Telnyx Help Center](https://support.telnyx.com/)
 * Email: [support@telnyx.com](mailto:support@telnyx.com)
 * If you are unsure if the campaign was ever approved please reach out to [10dlcquestions@telnyx.com](mailto:10dlcquestions@telnyx.com).
-
----
-
-Related Articles
-
-[10DLC Shared Campaigns](https://support.telnyx.com/en/articles/6339158-bring-campaigns-to-telnyx)[How to assign a number to a campaign](https://support.telnyx.com/en/articles/6325734-how-to-assign-a-number-to-a-campaign)[10DLC Campaign Approval Best Practices](https://support.telnyx.com/en/articles/7127078-10dlc-campaign-approval-best-practices)[10DLC Number Assignment Status](https://support.telnyx.com/en/articles/11072276-10dlc-number-assignment-status)[10DLC Mock Brands and Campaigns](https://support.telnyx.com/en/articles/12812898-10dlc-mock-brands-and-campaigns)
-
-Did this answer your question?
-
-😞😐😃

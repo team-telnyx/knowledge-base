@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/13720042-saint-martin-did-req
 title: "Saint Martin DID Requirements"
 description: "Here you will find a list of detailed requirements for acquiring Saint Martin numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 6ad2f843a181a27df2d33b5aa1cf31ffbbc4284796a3c11464c0792c12b01652
+content_hash: 9988b10c0070b7b347083db605b4a3a540b844d208637a9bd171f1b3b6f256a9
 ---
 
 
@@ -44,13 +44,3 @@ For **business identity** verification:
 For **address** verification:
 
 \* Address Worldwide (street, building number, postal code, city and country)
-
----
-
-Related Articles
-
-[Australia DID Requirements](https://support.telnyx.com/en/articles/3505912-australia-did-requirements)[Finland DID Requirements](https://support.telnyx.com/en/articles/5465874-finland-did-requirements)[Mayotte DID Requirements](https://support.telnyx.com/en/articles/13720003-mayotte-did-requirements)[Reunion DID Requirements](https://support.telnyx.com/en/articles/13720024-reunion-did-requirements)[Saint Barthélemy (Saint Barth) DID Requirements](https://support.telnyx.com/en/articles/13720035-saint-barthelemy-saint-barth-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

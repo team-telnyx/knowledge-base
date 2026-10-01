@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8268122-byoc-telnyx-genesys
 title: "BYOC: Telnyx & Genesys"
 description: "This guide provides instructions and technical details for the configuration of SIP trunk connectivity between Genesys… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: d02b6d471e95f4727263fc27a470b05fca21a20eafb42c4d1f7b85d37f5255d1
+content_hash: 977f4031e5f339de57e3db13c83bcc92ac45fd66f146ce2ac70eaed5fa26172c
 ---
 
 
@@ -187,13 +187,3 @@ You can also check "Session Info" on the next tab or export PCAP data on the "Ex
 ![Call Flow Debugging section. ](_images/ad2cb5bad031cb25.png)
 
 ## **Image 18 - PCAP Inspection**
-
----
-
-Related Articles
-
-[Yeastar S-Series: Telnyx SIP](https://support.telnyx.com/en/articles/5748952-yeastar-s-series-telnyx-sip)[PBXes: Connecting a PBXes Trunk to Telnyx](https://support.telnyx.com/en/articles/5798240-pbxes-connecting-a-pbxes-trunk-to-telnyx)[3CX: Configuring a 3CX V18 PBX](https://support.telnyx.com/en/articles/6161111-3cx-configuring-a-3cx-v18-pbx)[How to Configure a SIP Trunk](https://support.telnyx.com/en/articles/8096455-how-to-configure-a-sip-trunk)[Telnyx + Vapi Integration](https://support.telnyx.com/en/articles/12538402-telnyx-vapi-integration)
-
-Did this answer your question?
-
-😞😐😃

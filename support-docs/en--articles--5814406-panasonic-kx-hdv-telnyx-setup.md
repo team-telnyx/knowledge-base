@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5814406-panasonic-kx-hdv-teln
 title: "Panasonic KX-HDV: Telnyx setup"
 description: "Learn the steps to configure Panasonic KX-HDV and KX-TGP series IP Phones with Telnyx for optimal performance. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: dc7dad1f60ca570fbd17cc380175192ca019f453d1d9be3a8c23fb7d4c62b75c
+content_hash: 8d8937f01711c1326b414a693653321311a616f956a8d253e5a668b66aed1f55
 ---
 
 
@@ -150,13 +150,3 @@ Additionally, check out:
 * [Panasonic Support](https://na.panasonic.com/us/support/references/186?series=691&product=20636)
 
 ---
-
----
-
-Related Articles
-
-[Panasonic KX-TGP 550](https://support.telnyx.com/en/articles/5807663-panasonic-kx-tgp-550)[Flyingvoice: Telnyx Setup](https://support.telnyx.com/en/articles/5810663-flyingvoice-telnyx-setup)[Gigaset A510: Telnyx Setup](https://support.telnyx.com/en/articles/5815209-gigaset-a510-telnyx-setup)[Snom C520: Telnyx Setup](https://support.telnyx.com/en/articles/5815678-snom-c520-telnyx-setup)[Audiocodes 400HD](https://support.telnyx.com/en/articles/5819923-audiocodes-400hd)
-
-Did this answer your question?
-
-😞😐😃
