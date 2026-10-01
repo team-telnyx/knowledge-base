@@ -3,7 +3,7 @@ title: "International Numbers - Required Documents"
 summary: "You can find country-specific information in our International DID Requirements support section or in your portal here."
 sources:
 - url: "https://support.telnyx.com/en/articles/5469551-international-numbers-required-documents"
-updated_at: 2026-09-17T00:00:00Z
+updated_at: 2026-09-29T17:33:12Z
 tags: [support-docs]
 source_path: "support-docs/en--articles--5469551-international-numbers-required-documents.md"
 generated_by: incremental-support-docs-wiki
@@ -125,7 +125,7 @@ You can find country-specific information in our [International DID Requirements
 | New Zealand | 1, 4 | N/A | N/A | 1, 2, 3 | N/A |
 | Nicaragua | N/A | N/A | 1, 2, 4, 7, 9 (h) | N/A | N/A |
 | Nigeria | N/A | 1, 3, 7, 18 (f, h) | N/A | 1, 3, 7 | N/A |
-| Norway | 1, 4, 7, 9, 10, 13, 25 (f, af, ag) | N/A | N/A | 1, 2, 4, 7, (c, i, af) | N/A |
+| Norway | 1, 5, 7, 9, 10, 13, 25 (f, af, ag) | N/A | N/A | 1, 2, 4, 7, (c, i, af) | N/A |
 | Oman | N/A | N/A | N/A | 1, 4, 9, 13, 18, (d, f, g, h, u) | N/A |
 | Pakistan | 1, 3, 7, (h) | N/A | N/A | (h) | N/A |
 | Panama | 1, 2, 3 | N/A | N/A | 1, 3, 8, 13, (d, f) | N/A |
@@ -144,7 +144,7 @@ You can find country-specific information in our [International DID Requirements
 | Saint Barthélemy | 1, 2, 3 | N/A | N/A | N/A | N/A |
 | Saint Martin | 1, 2, 3 | N/A | N/A | N/A | N/A |
 | Serbia | 1, 4, 7, 9, 10, 13 (c, f, h, ai) | N/A | N/A | 1, 2, 3 | N/A |
-| Seychelles | 1, 3, (f) | N/A | N/A | N/A | N/A |
+| Seychelles | 1, 3, (f, h) | N/A | N/A | N/A | N/A |
 | Singapore | 1, 4, 7, 9, 10, 13, 18, (d, g) | 1, 4, 7, 9, 13, (g) | N/A | 1, 3 | N/A |
 | Slovakia | 1, 5, 7, 9, 13, (g) | N/A | N/A | 1, 3, 9, 16, (f) | N/A |
 | Slovenia | 1, 5, 7, 13 (f) | 1, 5, 7, 13 (f) | N/A | 1, 2, 3 | N/A |
