@@ -3,9 +3,10 @@ source_url: "https://support.telnyx.com/en/articles/5469551-international-number
 title: "International Numbers - Required Documents"
 description: "Review country-specific documents, registration conditions, and local dialing requirements for ordering international Telnyx numbers."
 scraped: "2026-09-17"
-modified_at: "2026-09-17T14:02:59Z"
+modified_at: "2026-09-29T17:33:12Z"
 collection_path: "2184183-important-to-note"
-content_hash: "84198b866a1cf70e5517c7739150a70cb65d08a73a170f88c23d690dcd5ffcd8"
+content_hash: "710de8efcfd00a9e8329caa3586c4c577b07e531b187898b9d93e80a2693ab7d"
+updated_at: "2026-09-29T17:33:12Z"
 ---
 
 # International Numbers - Required Documents
