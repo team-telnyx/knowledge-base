@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-10-01T19:22:55Z
+updated_at: 2026-10-01T19:25:20Z
 ---
 
 # Telnyx Knowledge Base
@@ -2098,3 +2098,5 @@ updated_at: 2026-10-01T19:22:55Z
 - [Forwarding SMS/MMS Automation using Telnyx Flow](support-docs/articles/10523949-forwarding-sms-mms-automation-using-telnyx-flow.md) — Flow has been deprecated. This article is retained for reference and describes the deprecated Flow product.
 
 - [Connect Telnyx to Zoom Phone with Provider Exchange](support-docs/articles/2026092801-connect-telnyx-to-zoom-phone-with-provider-exchange.md) — Use Zoom Provider Exchange to connect your Telnyx account to Zoom Phone, associate Telnyx phone numbers with the integration, and assign those numbers to Zoom users. This guide also explains how to unassign numbers and remove the integration.
+
+- [Set up a hosted STIR/SHAKEN certificate](support-docs/articles/2026093001-set-up-a-hosted-stir-shaken-certificate.md) — Use your own certificate to sign outbound calls through Telnyx’s hosted signing service.

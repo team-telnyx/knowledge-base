@@ -5862,5 +5862,13 @@
   "zoom-unassigned-numbers.png": {
     "height": 426,
     "width": 2048
+  },
+  "stir-shaken-hosted-certificates.png": {
+    "height": 401,
+    "width": 1977
+  },
+  "stir-shaken-create-hosted-certificate.png": {
+    "height": 572,
+    "width": 1946
   }
 }
