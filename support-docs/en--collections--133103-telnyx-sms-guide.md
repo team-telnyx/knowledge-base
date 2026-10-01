@@ -93,10 +93,6 @@ Assigning numbers to your campaign is the third step to becoming compliant with 
 
 In this article, we're breaking down shared campaigns, and showing you how to use them within your Telnyx account.
 
-[10DLC Shared Campaigns](https://support.telnyx.com/en/articles/5617538-10dlc-shared-campaigns)
-
-Register your campaigns directly with the Campaign Registry and import them to your Telnyx account.
-
 [Frequently asked questions about 10DLC](https://support.telnyx.com/en/articles/3679260-frequently-asked-questions-about-10dlc)
 
 10DLC is the mandatory compliance framework for USA long-code SMS & MMS traffic
@@ -136,10 +132,6 @@ How to fill out the CTA/Message Flow field in your 10dlc campaign registration
 [10DLC Privacy Policy](https://support.telnyx.com/en/articles/10645583-10dlc-privacy-policy)
 
 Required verbiage in your 10dlc privacy policy or on the opt in form
-
-[Telnyx 10DLC Process](https://support.telnyx.com/en/articles/10646301-telnyx-10dlc-process)
-
-Guide to the 10DLC Process for Outbound Texts in the US
 
 [10DLC Use Cases](https://support.telnyx.com/en/articles/10684248-10dlc-use-cases)
 
