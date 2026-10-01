@@ -3,7 +3,7 @@ title: "Forwarding SMS/MMS Automation using Telnyx Flow"
 summary: "Flow has been deprecated. This article is retained for reference and describes the deprecated Flow product."
 sources:
 - url: "https://support.telnyx.com/en/articles/10523949-forwarding-sms-mms-automation-using-telnyx-flow"
-updated_at: 2026-09-15T00:00:00Z
+updated_at: 2026-09-30T11:20:00Z
 tags: [support-docs]
 source_path: "support-docs/10523949-forwarding-sms-mms-automation-using-telnyx-flow.md"
 generated_by: incremental-support-docs-wiki
@@ -25,8 +25,8 @@ We'll cover the following scenario of Telnyx Flow implementation:
 For this tutorial, you will need to have these settings and resources in your Telnyx Account:
 
 - Telnyx Phone Number(s) must be enabled for messaging;
-- The said Phone Number must be assigned to an approved 10DLC Campaign. (Article: [Register for 10DLC](https://intercom.help/telnyx/en/articles/6325731-register-for-10dlc-messaging))
-- Create a dedicated Messaging Profile and assign the Telnyx numbers to the profile ( Article: [Messaging First Steps at Telnyx](https://intercom.help/telnyx/en/articles/3562059-setting-up-a-messaging-profile))
+- The said Phone Number must be assigned to an approved 10DLC Campaign. (Article: [Register for 10DLC](https://support.telnyx.com/en/articles/6325731-register-for-10dlc-messaging))
+- Create a dedicated Messaging Profile and assign the Telnyx numbers to the profile ( Article: [Messaging First Steps at Telnyx](https://support.telnyx.com/en/articles/3562059-setting-up-a-messaging-profile))
 
 
 ## **Creation and Set up of the Workflow**

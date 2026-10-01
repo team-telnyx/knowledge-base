@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-10-01T07:51:28Z
+updated_at: 2026-10-01T19:21:09Z
 ---
 
 # Telnyx Knowledge Base
