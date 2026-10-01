@@ -3,7 +3,9 @@ source_url: https://support.telnyx.com/en/articles/4567969-united-states-n11-cod
 title: "United States - N11 Codes"
 description: "In this guide we will explain N11 codes in the United States and their purpose. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 5666a3b0048bb1e3eaf1883592c39f734986445ce6703d5599b1a4fc1e9cc956
+content_hash: f66f09905fde13af7b757d5bb0ce75e1e597768d361990a7169df38bc61725cd
+updated_at: "2026-09-28T18:12:50Z"
+modified_at: "2026-09-28T18:12:50Z"
 ---
 
 
@@ -25,20 +27,21 @@ N11 codes are used to provide three-digit dialing access to special services.
 
 In the United States, the FCC administers N11 codes. The FCC recognizes 211, 311, 511, 711, 811 and 911 as nationally assigned, but has not disturbed other traditional uses.
 
-The table below summarizes N11 assignments, reservations, and traditional usage and what N11 assignments are supported for outbound dialing through Telnyx. We do not currently provide directory listing services at this time.
+The table below summarizes N11 assignments, reservations, and traditional usage and what N11 assignments are supported for outbound dialing through Telnyx. Telnyx supports outbound calls to 411 directory assistance but does not provide directory listing services.
 
-|  |  |  |
+| N11 Code | Description | Supported |
 | --- | --- | --- |
-| **N11 Code** | **Description** | **Supported** |
 | 211 | Community Information and Referral Services | No |
-| 311 | Non-Emergency Police and Other Governmental Services | No |
-| 411 | Local Directory Assistance | No |
-| 511 | Traffic and Transportation Information (US); Provision of Weather and Traveller Information Services (Canada) | No |
-| 611 | Repair Service |  |
+| 311 | Non-Emergency Police and Other Governmental Services | Yes |
+| 411 | Local Directory Assistance | Yes |
+| 511 | Traffic and Transportation Information (US); Provision of Weather and Traveller Information Services (Canada) | Yes |
+| 611 | Repair Service | Yes |
 | 711 | Telecommunications Relay Service (TRS) | Yes |
 | 811 | Access to One Call Services to Protect Pipeline and Utilities from Excavation Damage (US) | Yes |
 | 911 | Emergency | Yes |
 | [988](https://telnyx.com/resources/988-suicide-prevention-hotline) (call and text) | National Suicide Prevention Lifeline | Yes |
+
+**Billing:** Supported does not mean free of charge. Calls to services such as 411 directory assistance may incur per-call charges. Contact Telnyx Support to confirm the applicable rate for your account.
 
 ## N11 Outbound Calls (More Info)
 
