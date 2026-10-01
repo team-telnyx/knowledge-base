@@ -2094,19 +2094,3 @@ updated_at: 2026-09-30T06:11:30Z
 - [Rwanda DID Requirements](support-docs/articles/9961409-rwanda-did-requirements.md) — Requirements to acquire Rwanda numbers. See Telnyx guidance and requirements Learn more about Rwanda DID Requirements with Telnyx.
 
 - [Congo, DR: SMS Guidelines](support-docs/articles/6661342-congo-dr-sms-guidelines.md) — MCC: 630 ​Dial Code: 243 ​ Alphanumeric Sender IDs are supported. ​ ​The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be directly related to the message content.
-
-- [10DLC Campaign Compliance Guide](support-docs/articles/16256133-10dlc-campaign-compliance-guide.md) — This guide walks you through the entire 10DLC campaign process — from brand registration to sending your first message. Each section links to detailed articles for deeper dives. If you're new to 10DLC, start at Step 1.
-
-- [10DLC Keywords and Confirmation Messages](support-docs/articles/10645338-10dlc-keywords-and-confirmation-messages.md) — 10DLC Keywords and… See Telnyx guidance and requirements Learn more about 10DLC Keywords and Confirmation Messages with Telnyx.
-
-- [10DLC Campaign Suspended](support-docs/articles/10723378-10dlc-campaign-suspended.md) — 10DLC Campaign… See Telnyx guidance and requirements Learn more about 10DLC Campaign Suspended with Telnyx.
-
-- [10DLC Number Assignment Status](support-docs/articles/11072276-10dlc-number-assignment-status.md) — Having deliverability issues with a number recently assigned to an approved 10DLC campaign? See Telnyx guidance and requirements.
-
-- [10DLC Authentication for Publicly Traded Brands](support-docs/articles/11788086-10dlc-authentication-for-publicly-traded-brands.md) — If you do not complete the Auth Plus process for Publicly Traded brands then no new campaigns will be able to be… See Telnyx guidance and requirements.
-
-- [Bring Campaigns to Telnyx](support-docs/articles/6339158-bring-campaigns-to-telnyx.md) — In this article, we're breaking down shared campaigns, and showing you how to use them within your Telnyx account. See Telnyx guidance and requirements.
-
-- [Chiro8000 and Telnyx Integration](support-docs/articles/7885470-chiro8000-and-telnyx-integration.md) — Connecting the practice management software Chiro8000 with the text messaging capabilities of… See Telnyx guidance and requirements.
-
-- [Assigning DID to a 10DLC Campaign Fails](support-docs/articles/8269151-assigning-did-to-a-10dlc-campaign-fails.md) — Please reach out to 10dlcquestions@telnyx.com in the case of a 10DLC question or… See Telnyx guidance and requirements.
