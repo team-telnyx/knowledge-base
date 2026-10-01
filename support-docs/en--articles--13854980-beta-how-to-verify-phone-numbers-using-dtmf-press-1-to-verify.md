@@ -1,6 +1,6 @@
 ---
 source_url: https://support.telnyx.com/en/articles/13854980-beta-how-to-verify-phone-numbers-using-dtmf-press-1-to-verify
-title: "[BETA] How to Verify Phone Numbers Using DTMF (Press 1 to"
+title: "[BETA] How to Verify Phone Numbers Using DTMF (Press 1 to Verify)"
 description: "Telnyx now supports DTMF-based phone number verification, which allows you to verify phone numbers by simply pressing 1… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 46a9f7760595f5e68e47c762b21f29250e2f7703bc2f7b0f94e3effaf28c665f

@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-09-29T22:14:23Z
+updated_at: 2026-10-01T14:06:53Z
 ---
 
 # Telnyx Knowledge Base
@@ -339,7 +339,7 @@ updated_at: 2026-09-29T22:14:23Z
 
 - [UAC Call Transfer: AI Assistant to Live Agent](support-docs/articles/2026092401-uac-call-transfer-ai-assistant-to-live-agent.md) — A UAC (User Agent Client) connection is used by Telnyx to register as a SIP endpoint with your PBX, the same way an IP phone or softphone would, and lets you route PBX calls on that extension to any type of Telnyx connection or application.
 
-- [Configure Repeat Call Guard on Outbound Voice Profiles \(BETA\)](support-docs/articles/12580667-configure-repeat-call-guard-on-outbound-voice-profiles-beta.md) — Control how many times a destination number can be called within a specific time window. See Telnyx guidance and requirements.
+- [Configure Repeat Call Guard on Outbound Voice Profiles](support-docs/articles/12580667-configure-repeat-call-guard-on-outbound-voice-profiles-beta.md) — Control how many times a destination number can be called within a specific time window. See Telnyx guidance and requirements.
 
 - [Call Hold, Comfort Noise, and RTP Stream Generation](support-docs/articles/2026092501-call-hold-comfort-noise-and-rtp-stream-generation.md) — This article describes how Telnyx detects SIP call hold and handles RTP media, Music on Hold, comfort-noise packets, and opposite-leg media generation during hold states.
 
@@ -412,8 +412,6 @@ updated_at: 2026-09-29T22:14:23Z
 - [Best Practices for Contacting Porting](support-docs/articles/5820338-best-practices-for-contacting-porting.md) — Our AMER Porting team is available 7am - 7pm Central, Monday-Friday. Our EMEA Porting team is available 9am - 5pm CEST, Monday-Friday. All communications outside of that time will be resolved the following business day.
 
 - [Australia: SMS Guidelines](support-docs/articles/6531656-australia-sms-guidelines.md) — MCC: 505 ​Dial code: 61 ​ ​The Australian Communications and Media Authority (ACMA) has introduced new requirements for alphanumeric sender IDs under the Telecommunications (SMS Sender ID Register) Industry Standard 2025, effective from 1 July 2026.
-
-- [Congo SMS Guidelines](support-docs/articles/6661342-congo-sms-guidelines.md) — MCC: 630 ​Dial Code: 243 ​ Alphanumeric Sender IDs are supported. ​ ​The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be directly related to the message content.
 
 - [United Arab Emirates: SMS Guidelines](support-docs/articles/6683438-united-arab-emirates-sms-guidelines.md) — Information on Alphanumeric Sender ID registration: ​ Registration of Alphanumeric Senders towards UAE have been put on hold by the local operators until further notice.
 
@@ -931,7 +929,7 @@ updated_at: 2026-09-29T22:14:23Z
 
 - [Billing: Decimal Values Considered](support-docs/articles/3317613-billing-decimal-values-considered.md) — How many decimal values does Telnyx consider when billing? See Telnyx guidance and requirements Learn more about Billing: Decimal Values Considered with Telnyx.
 
-- [HIPAA, BAAs and the Conduit Exception\\*](support-docs/articles/3347891-hipaa-baas-and-the-conduit-exception.md) — In this article we will explain HIPAA, BAAs and the Conduit Exception and what they mean for you. See Telnyx guidance and requirements.
+- [HIPAA, BAAs and the Conduit Exception](support-docs/articles/3347891-hipaa-baas-and-the-conduit-exception.md) — In this article, we will explain HIPAA, BAAs, the Conduit Exception, and how Telnyx approaches BAA requests. This article describes how the Telnyx platform works and how Telnyx approaches BAA requests.
 
 - [Uruguay DID Requirements](support-docs/articles/3362891-uruguay-did-requirements.md) — Here you will find a detailed list of requirements to acquire Uruguay numbers. See Telnyx guidance and requirements.
 
@@ -2094,5 +2092,7 @@ updated_at: 2026-09-29T22:14:23Z
 - [Congo DID Requirements](support-docs/articles/9959375-congo-did-requirements.md) — Requirements to acquire Democratic Republic of the Congo numbers. See Telnyx guidance and requirements.
 
 - [Rwanda DID Requirements](support-docs/articles/9961409-rwanda-did-requirements.md) — Requirements to acquire Rwanda numbers. See Telnyx guidance and requirements Learn more about Rwanda DID Requirements with Telnyx.
+
+- [Congo, DR: SMS Guidelines](support-docs/articles/6661342-congo-dr-sms-guidelines.md) — MCC: 630 ​Dial Code: 243 ​ Alphanumeric Sender IDs are supported. ​ ​The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be directly related to the message content.
 
 - [Connect Telnyx to Zoom Phone with Provider Exchange](support-docs/articles/2026092801-connect-telnyx-to-zoom-phone-with-provider-exchange.md) — Use Zoom Provider Exchange to connect your Telnyx account to Zoom Phone, associate Telnyx phone numbers with the integration, and assign those numbers to Zoom users. This guide also explains how to unassign numbers and remove the integration.

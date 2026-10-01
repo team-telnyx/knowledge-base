@@ -1,6 +1,6 @@
 ---
 source_url: https://support.telnyx.com/en/articles/8683996-3cx-configuring-a-3cx-v20-pbx-20-0-update-5-build-20-0-5-551-march-2025-update
-title: "3CX: Configuring a 3CX V20 PBX 20.0 Update 5 (Build"
+title: "3CX: Configuring a 3CX V20 PBX 20.0 Update 5 (Build 20.0.5.551) (March 2025 Update)"
 description: "Learn how to configure a 3CX V20 PBX SIP Trunk (Calls & Messaging) with Telnyx using the Generic VoIP Provider Template… See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: b09e7800568307efa79da562d4e3297a3e4c7ad52528a1e3a28388171047ddd8

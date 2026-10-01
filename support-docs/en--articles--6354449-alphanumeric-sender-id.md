@@ -75,7 +75,7 @@ Below you can find a compilation of guidelines and restrictions by country that 
 | CO | [Colombia](https://support.telnyx.com/en/articles/6534652-colombia-sms-guidelines) | 57 | 732 | No, Sender ID will be changed to ensure delivery |
 | KM | [Comoros](https://support.telnyx.com/en/articles/6601152-comoros-sms-guidelines) | 269 | 654 | Yes, with registration |
 | CG | [Congo](https://support.telnyx.com/en/articles/6661326-congo-sms-guidelines) | 242 | 629 | Yes, with registration for Network MTN (62910) |
-| CD | [Congo, DR](https://support.telnyx.com/en/articles/6661342-congo-sms-guidelines) | 243 | 630 | Yes, with registration for Network Vodacom (63001) |
+| CD | [Congo, DR](https://support.telnyx.com/en/articles/6661342-congo-dr-sms-guidelines) | 243 | 630 | Yes, with registration for Network Vodacom (63001) |
 | CK | [Cook Islands](https://support.telnyx.com/en/articles/6661387-cook-islands-sms-guidelines) | 682 | 548 | Yes |
 | CR | [Costa Rica](https://support.telnyx.com/en/articles/6564226-costa-rica-sms-guidelines) | 506 | 712 | No, Sender ID will be changed to ensure delivery |
 | CI | [Cote d'Ivoire](https://support.telnyx.com/en/articles/6665111-cote-d-ivoire-sms-guidelines) | 225 | 612 | Yes, with registration for Network MTN (61205) |

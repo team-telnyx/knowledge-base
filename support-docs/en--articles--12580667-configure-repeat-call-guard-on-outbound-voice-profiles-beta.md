@@ -3,12 +3,12 @@ source_url: https://support.telnyx.com/en/articles/12580667-configure-repeat-cal
 title: "Configure Repeat Call Guard on Outbound Voice Profiles"
 description: "Control how many times a destination number can be called within a specific time window. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 5390afbf8e61e089abc4272235482e86fff7e7663d74233b73a3635da675d029
-updated_at: 2026-09-25T00:00:00Z
-modified_at: 2026-09-25T00:00:00Z
+content_hash: 72f999db075fdd576c72369518cf0b1d3c3f05f88f205a45d59341256d99fe14
+updated_at: 2026-09-29T10:14:41Z
+modified_at: 2026-09-29T10:14:41Z
 ---
 
-# Configure Repeat Call Guard on Outbound Voice Profiles (BETA)
+# Configure Repeat Call Guard on Outbound Voice Profiles
 
 Control how many times a destination number can be called within a specific time window. See Telnyx guidance and requirements.
 
