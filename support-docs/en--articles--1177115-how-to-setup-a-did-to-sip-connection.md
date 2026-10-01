@@ -3,7 +3,9 @@ source_url: https://support.telnyx.com/en/articles/1177115-how-to-setup-a-did-to
 title: "How To Setup A DID to SIP Connection"
 description: "This article explains how to assign a DID to a SIP Connection and expounds on the different DID features in Mission… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 9dee810fdc584ca1fac332b20e01c421f38f97dfe46a5fb803220431566191f9
+modified_at: "2026-09-30T11:20:00Z"
+updated_at: "2026-09-30T11:20:00Z"
+content_hash: "3c08df2db7bc5ff64b3dc87c793b940173ff8317f6d57e6d105e74c49f5d0b6d"
 ---
 
 
@@ -51,7 +53,7 @@ Follow these steps to assign a single DID to a SIP Connection on the PHONE NUMBE
 There are 7 different services we offer on DIDs and information on each can be found in the links below:
 
 * [e911](https://support.telnyx.com/en/articles/1130683-e911-setup-guide)
-* [Call Forwarding](https://intercom.help/telnyx/en/articles/2807944-bulk-edit-numbers-call-forwarding)
+* [Call Forwarding](https://support.telnyx.com/en/articles/2807944-bulk-edit-numbers-call-forwarding)
 * [Caller ID Name Listing](https://support.telnyx.com/en/articles/1130720-caller-id-outbound-vs-cnam)
 * [Caller ID Name (Incoming)](https://support.telnyx.com/en/articles/1130720-caller-id-outbound-vs-cnam)
 * [Inbound Call Recording](https://support.telnyx.com/en/articles/2807846-bulk-edit-numbers-voice-settings)
