@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-10-01T19:25:20Z
+updated_at: 2026-10-01T19:27:57Z
 ---
 
 # Telnyx Knowledge Base
@@ -2100,3 +2100,63 @@ updated_at: 2026-10-01T19:25:20Z
 - [Connect Telnyx to Zoom Phone with Provider Exchange](support-docs/articles/2026092801-connect-telnyx-to-zoom-phone-with-provider-exchange.md) — Use Zoom Provider Exchange to connect your Telnyx account to Zoom Phone, associate Telnyx phone numbers with the integration, and assign those numbers to Zoom users. This guide also explains how to unassign numbers and remove the integration.
 
 - [Set up a hosted STIR/SHAKEN certificate](support-docs/articles/2026093001-set-up-a-hosted-stir-shaken-certificate.md) — Use your own certificate to sign outbound calls through Telnyx’s hosted signing service.
+
+- [What does the “Tech Prefix” option do?](support-docs/articles/1130719-what-does-the-tech-prefix-option-do.md) — A tech prefix is a numeric string that is prepended to the front of a number. ​ In your mission control portal go to the "Connections" header.
+
+- [Pending Order Error](support-docs/articles/1130726-pending-order-error.md) — Learn About Pending Order Errors When Porting Numbers
+
+- [Custom Voicemail Greetings](support-docs/articles/15864441-custom-voicemail-greetings.md) — Custom voicemail greetings let you personalize what callers hear when they reach your voicemail on a Telnyx phone number. You can use the default text-to-speech greeting or create a custom TTS greeting with your own message.
+
+- [Upcoming TLS Certificate Changes for Telnyx SIP Proxies](support-docs/articles/15948276-upcoming-tls-certificate-changes-for-telnyx-sip-proxies.md) — During the remainder of 2026, we’ll be updating the TLS certificates used by our primary SIP proxy servers.
+
+- [Preventing duplicate emails with idempotency](support-docs/articles/16099891-preventing-duplicate-emails-with-idempotency.md) — Network timeouts can leave you unsure whether an email send succeeded. Add an Idempotency-Key header so you can safely retry the same logical send without creating a second message.
+
+- [How to use Telnyx AI Inference with OpenClaw](support-docs/articles/16220836-how-to-use-telnyx-ai-inference-with-openclaw.md) — The Telnyx provider is an external, Telnyx-maintained OpenClaw plugin. It uses the OpenAI-compatible Telnyx Chat Completions API, supports streaming, and can retrieve model information from the Telnyx model catalog.
+
+- [How to use Telnyx AI Inference with Hermes Agent](support-docs/articles/16221027-how-to-use-telnyx-ai-inference-with-hermes-agent.md) — The Telnyx integration is a vendor-maintained external Hermes model-provider plugin. It connects Hermes to the OpenAI-compatible Telnyx Chat Completions API, supports streaming and tool calling, and retrieves the models available to your Telnyx account.
+
+- [10DLC Campaign Compliance Guide](support-docs/articles/16256133-10dlc-campaign-compliance-guide.md) — This guide walks you through the entire 10DLC campaign process — from brand registration to sending your first message. Each section links to detailed articles for deeper dives. If you're new to 10DLC, start at Step 1.
+
+- [Toll-Free Submission Guide](support-docs/articles/16290008-toll-free-submission-guide.md) — Before starting this process, first check and make sure the Toll-Free number you want to verifiy for SMS is assigned to a messaging profile.
+
+- [Branded Calling display requirements](support-docs/articles/16296358-branded-calling-display-requirements.md) — Telnyx applies approved Branded Calling information to eligible outbound SIP trunking calls from approved phone numbers.
+
+- [WhatsApp: Documents accepted for Meta Business Verification](support-docs/articles/16300025-whatsapp-documents-accepted-for-meta-business-verification.md) — Meta Business Verification is separate from creating a WhatsApp Business Account (WABA) or registering a phone number.
+
+- [RCS Fees and Charges](support-docs/articles/16624343-rcs-fees-and-charges.md) — Telnyx RCS charges fall into three categories: onboarding fees, recurring agent fees, and messaging usage.\ ​\ ​Onboarding fees
+
+- [RCS API Onboarding Guide](support-docs/articles/16624885-rcs-api-onboarding-guide.md) — Use the Telnyx API to register, test, and launch a US RCS agent. For agents launching outside the United States, please use the RCS application form from the Mission Control Portal.\ ​\ ​Before you begin
+
+- [RCS Agent Submission Form — Field-by-Field Guide](support-docs/articles/16624919-rcs-agent-submission-form-field-by-field-guide.md) — You should use this guide if you want to launch an agent in a market other than the US. For US agents, please use the provisioning API - <https://developers.telnyx.com/docs/messaging/rcs/agent-registration
+
+- [Custom SIP X-Header Propagation on Telnyx](support-docs/articles/16666680-custom-sip-x-header-propagation-on-telnyx.md) — Custom SIP X-headers are used by many PBX systems and applications to pass metadata along with call signaling, trace IDs, session context, application-specific identifiers, and more.
+
+- [Bosnia and Herzegovina DID Requirements](support-docs/articles/16823820-bosnia-and-herzegovina-did-requirements.md) — In order to purchase a Bosnia and Herzegovina number you will need to provide the following:
+
+- [Bulk Edit Numbers - Call Forwarding](support-docs/articles/2807944-bulk-edit-numbers-call-forwarding.md) — Step 1 : Login to your Telnyx Mission Control account
+
+- [Bulk Edit Numbers - Caller ID \(inbound\)](support-docs/articles/2819215-bulk-edit-numbers-caller-id-inbound.md) — Step 1 : Login to your Telnyx Mission Control account.
+
+- [Migrate Your LRN Lookup API from v1 to v1.1](support-docs/articles/3078492-migrate-your-lrn-lookup-api-from-v1-to-v1-1.md) — We’ve released a new version of the LRN Lookup API (version 1.1), which is now able to return NPAC ten-digit numbers.
+
+- [India DID Requirements](support-docs/articles/3739465-india-did-requirements.md) — In order to purchase an India number you will need to provide the following: ​ ​
+
+- [Configuring Programmable Fax Applications](support-docs/articles/4394516-configuring-programmable-fax-applications.md) — This article describes the in-depth setup of Programmable Fax / Applications on your Mission Control Portal in order to send and receive faxes via our API.
+
+- [TLS and SRTP](support-docs/articles/4404575-tls-and-srtp.md) — When you make a call, it's the SIP protocol that contacts the receiving device, agrees on the nature of the call, and makes the connection. After that, another protocol carries the content RTP (Real-Time Protocol) of the call.
+
+- [Call Recording](support-docs/articles/5377454-call-recording.md) — Telnyx offers native cloud recording for inbound and outbound calling. This can be set up via the Telnyx Mission Control portal or programmatically with the Telnyx API.
+
+- [403 Restricted origination number D54](support-docs/articles/8008542-403-restricted-origination-number-d54.md) — This error code indicates that Telnyx has blocked an outbound call attempt to the PSTN because the origination number has a bad reputation.
+
+- [10DLC Privacy Policy & Terms and Conditions Best Practices](support-docs/articles/8159875-10dlc-privacy-policy-terms-and-conditions-best-practices.md) — When submitting a 10DLC Campaign for approval, per carrier code of conduct, the privacy policies and the terms and conditions must be found in a clear, conspicuous place next to where the phone number is entered by the consumer.
+
+- [Short Code Best Practices](support-docs/articles/8173789-short-code-best-practices.md) — In the United States, the CTIA serves as the governing body for text messaging programs, ensuring consumer protection against unwanted messages.
+
+- [T Mobile Special Business Review](support-docs/articles/8380587-t-mobile-special-business-review.md) — As of September 2023, T-Mobile currently imposes a 200K per day message cap on every 10DLC Brand sending Messaging traffic to its customers.
+
+- [New Mobile Charges for International Markets](support-docs/articles/9118675-new-mobile-charges-for-international-markets.md) — In order to account for changing market conditions, Telnyx is revising fees for Mobile Numbers, including Monthly Charges, SMS Prices and Inbound Per Minute Prices.
+
+- [Transition of Canadian Numbers to from Global Channel Billing US Zone to Zone B](support-docs/articles/9670281-transition-of-canadian-numbers-to-from-global-channel-billing-us-zone-to-zone-b.md) — There are a few steps to ensure a smooth transition to Zone B Channels.
+
+- [Rate Limits for Messaging](support-docs/articles/96934-rate-limits-for-messaging.md) — ​Important: Your account-specific messaging rate limits may differ from the default limits shown below. You can check your current limits in the Messagingsection of your Telnyx Portal.
