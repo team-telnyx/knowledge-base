@@ -465,6 +465,78 @@
         "text": "Example SDP of the media audio parameters in the SIP INVITE from the client",
         "reason": "Preserve existing SIP response troubleshooting link to the SRTP configuration example"
       }
+    ],
+    "2026092301": [
+      {
+        "text": "Identify Your Connection in the First SIP INVITE",
+        "id": "section-identify-your-connection-in-the-first-sip-invite-x-telnyx-username",
+        "reason": "Preserve section links from the previously published article"
+      },
+      {
+        "text": "Identify Your Connection in the First SIP INVITE",
+        "id": "identify-your-connection-in-the-first-sip-invite-x-telnyx-username",
+        "reason": "Preserve section links from the previously published article"
+      },
+      {
+        "text": "Why the first INVITE matters",
+        "id": "section-why-the-first-invite",
+        "reason": "Preserve section links from the previously published article"
+      },
+      {
+        "text": "Why the first INVITE matters",
+        "id": "why-the-first-invite",
+        "reason": "Preserve section links from the previously published article"
+      },
+      {
+        "text": "How to include the SIP username",
+        "id": "section-how-to-include-the-username",
+        "reason": "Preserve section links from the previously published article"
+      },
+      {
+        "text": "How to include the SIP username",
+        "id": "how-to-include-the-username",
+        "reason": "Preserve section links from the previously published article"
+      },
+      {
+        "text": "How to include the SIP username",
+        "id": "section-find-your-connection-username",
+        "reason": "Preserve section links from the previously published article"
+      },
+      {
+        "text": "How to include the SIP username",
+        "id": "find-your-connection-username",
+        "reason": "Preserve section links from the previously published article"
+      },
+      {
+        "text": "Troubleshooting",
+        "id": "section-ip-based-connections-on-shared-ips",
+        "reason": "Preserve section links from the previously published article"
+      },
+      {
+        "text": "Troubleshooting",
+        "id": "ip-based-connections-on-shared-ips",
+        "reason": "Preserve section links from the previously published article"
+      },
+      {
+        "text": "Important",
+        "id": "section-best-practices",
+        "reason": "Preserve section links from the previously published article"
+      },
+      {
+        "text": "Important",
+        "id": "best-practices",
+        "reason": "Preserve section links from the previously published article"
+      },
+      {
+        "text": "Overview",
+        "id": "section-summary",
+        "reason": "Preserve section links from the previously published article"
+      },
+      {
+        "text": "Overview",
+        "id": "summary",
+        "reason": "Preserve section links from the previously published article"
+      }
     ]
   }
 }
