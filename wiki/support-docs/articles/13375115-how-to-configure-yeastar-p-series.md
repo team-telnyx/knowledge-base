@@ -3,7 +3,7 @@ title: "How to configure Yeastar P-series"
 summary: "There are two types of SIP trunks you can configure:"
 sources:
 - url: "https://support.telnyx.com/en/articles/13375115-how-to-configure-yeastar-p-series"
-updated_at: 2026-09-01T13:55:05Z
+updated_at: 2026-09-29T13:08:50Z
 tags: [support-docs]
 source_path: "support-docs/en--articles--13375115-how-to-configure-yeastar-p-series.md"
 generated_by: incremental-support-docs-wiki
@@ -79,7 +79,7 @@ Note: A register trunk uses a username/password combination (credentials) to aut
    ​
    The parameters of the certified ITSP template are embedded. You don’t have to figure out Trunk Type, Transport, Hostname, Port, Domain.
    ​
-   However, if you need to change it you can refer to <https://sip.telnyx.com/> for information of Telnyx proxies, transport or port.
+   However, if you need to change it you can refer to <https://sip.telnyx.com/> for information on Telnyx SIP proxies, transport protocols, and ports.
 
 - Username: your Telnyx username.
 - Password: your Telnyx password.
@@ -116,8 +116,9 @@ DNS-NAPTR lets the PBX discover Telnyx's available SIP proxies automatically and
 ​
 
 **Hostname/IP:** Enter the Telnyx domain name or IP address.
+Refer to <https://sip.telnyx.com/> for information on Telnyx SIP proxies, transport protocols, and ports.
 
-**Port:** Enter the Telnyx SIP port.
+**Port:** Enter the Telnyx SIP port. When using DNS-NAPTR, set the port to 0 to automatically use the ports specified in the NAPTR/SRV records.
 
 **Domain:** Enter the domain in SIP URI of a specific header like From, To header same as Hostname/IP field.
 
