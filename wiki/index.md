@@ -339,7 +339,7 @@ updated_at: 2026-09-30T06:11:30Z
 
 - [UAC Call Transfer: AI Assistant to Live Agent](support-docs/articles/2026092401-uac-call-transfer-ai-assistant-to-live-agent.md) — A UAC (User Agent Client) connection is used by Telnyx to register as a SIP endpoint with your PBX, the same way an IP phone or softphone would, and lets you route PBX calls on that extension to any type of Telnyx connection or application.
 
-- [Configure Repeat Call Guard on Outbound Voice Profiles \(BETA\)](support-docs/articles/12580667-configure-repeat-call-guard-on-outbound-voice-profiles-beta.md) — Control how many times a destination number can be called within a specific time window. See Telnyx guidance and requirements.
+- [Configure Repeat Call Guard on Outbound Voice Profiles](support-docs/articles/12580667-configure-repeat-call-guard-on-outbound-voice-profiles-beta.md) — Control how many times a destination number can be called within a specific time window. See Telnyx guidance and requirements.
 
 - [Call Hold, Comfort Noise, and RTP Stream Generation](support-docs/articles/2026092501-call-hold-comfort-noise-and-rtp-stream-generation.md) — This article describes how Telnyx detects SIP call hold and handles RTP media, Music on Hold, comfort-noise packets, and opposite-leg media generation during hold states.
 
@@ -929,7 +929,7 @@ updated_at: 2026-09-30T06:11:30Z
 
 - [Billing: Decimal Values Considered](support-docs/articles/3317613-billing-decimal-values-considered.md) — How many decimal values does Telnyx consider when billing? See Telnyx guidance and requirements Learn more about Billing: Decimal Values Considered with Telnyx.
 
-- [HIPAA, BAAs and the Conduit Exception\\*](support-docs/articles/3347891-hipaa-baas-and-the-conduit-exception.md) — In this article we will explain HIPAA, BAAs and the Conduit Exception and what they mean for you. See Telnyx guidance and requirements.
+- [HIPAA, BAAs and the Conduit Exception](support-docs/articles/3347891-hipaa-baas-and-the-conduit-exception.md) — In this article, we will explain HIPAA, BAAs, the Conduit Exception, and how Telnyx approaches BAA requests. This article describes how the Telnyx platform works and how Telnyx approaches BAA requests.
 
 - [Uruguay DID Requirements](support-docs/articles/3362891-uruguay-did-requirements.md) — Here you will find a detailed list of requirements to acquire Uruguay numbers. See Telnyx guidance and requirements.
 

@@ -1,6 +1,6 @@
 ---
 source_url: https://support.telnyx.com/en/articles/3506159-estonia-number-requirements
-title: "Estonia Number Requirements"
+title: "Estonia DID Requirements"
 description: "Here you will find detailed requirements for acquiring numbers in Estonia. See Telnyx guidance and requirements."
 scraped: 2026-07-08
 content_hash: 83f78c1ffa811c5af80af661214b9d2be99d68300f33b66e85f0a859df5c143a
