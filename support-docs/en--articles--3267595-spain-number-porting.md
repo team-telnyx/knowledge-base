@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3267595-spain-number-porting
 title: "Spain Number Porting"
 description: "Here you will find a detailed list of requirements for Spain number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: cf15ed978230b546f8473ae24a710037a5024654701ea3d2c4eb4284eeb9011a
+content_hash: 53148ac8ed9d1278472f60f4eda3aecb40a986c91a24d2b52097d59117808e57
 ---
 
 
@@ -35,13 +35,3 @@ Here you will find a detailed list of requirements for Spain number portability.
 Download LOA **[here](https://assets.ctfassets.net/taysl255dolk/4mfyR6jMGb8TvN0p5GQOUZ/b98742b348ba0c623ffab3d99ba3db31/TELNYX_ES_LOA.pdf)**
 
 ###
-
----
-
-Related Articles
-
-[Australia Number Porting](https://support.telnyx.com/en/articles/3266212-australia-number-porting)[France Number Porting](https://support.telnyx.com/en/articles/3266956-france-number-porting)[Italy Number Porting](https://support.telnyx.com/en/articles/3267012-italy-number-porting)[Mexico Number Porting](https://support.telnyx.com/en/articles/3267101-mexico-number-porting)[Portugal Number porting](https://support.telnyx.com/en/articles/5120062-portugal-number-porting)
-
-Did this answer your question?
-
-😞😐😃

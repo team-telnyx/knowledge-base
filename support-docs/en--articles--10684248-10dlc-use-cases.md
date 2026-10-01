@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/10684248-10dlc-use-cases
 title: "10DLC Use Cases"
 description: "Standard 10DLC Use… See Telnyx guidance and requirements Learn more about 10DLC Use Cases with Telnyx."
 scraped: 2026-07-08
-content_hash: 1642b9aa15da6996121686960f14303b8ae52ce210e2da3f8d83db58714cc412
+content_hash: f69d64de1a946da9f22a6fe675dc48cac01d3a2013009c03998b62e80d6f933c
 ---
 
 
@@ -51,13 +51,3 @@ Special use cases may require carrier approval, additional vetting, and/or carry
 * **Sole Proprietor:** For individuals without an EIN. Limited to 1 active campaign and 1 number; the brand name may not contain Inc, LLC, Group, or Enterprise. See the [Sole Proprietor guide](https://support.telnyx.com/en/articles/13545282-guide-to-sole-proprietor-10dlc-brand-and-campaign-registration).
 * **Sweepstake:** Sweepstake-related messaging.
 * **UCaaS Low Volume / UCaaS High Volume:** Unified Communications-as-a-Service platform traffic.
-
----
-
-Related Articles
-
-[10DLC Fees and Charges](https://support.telnyx.com/en/articles/5634625-10dlc-fees-and-charges)[10DLC: Trust Scores & Use Cases](https://support.telnyx.com/en/articles/6325747-10dlc-trust-scores-use-cases)[How to create a 10DLC campaign](https://support.telnyx.com/en/articles/6339152-how-to-create-a-10dlc-campaign)[10DLC for Chiropractors](https://support.telnyx.com/en/articles/11421359-10dlc-for-chiropractors)[How to Pick a Toll Free Use Case](https://support.telnyx.com/en/articles/12650709-how-to-pick-a-toll-free-use-case)
-
-Did this answer your question?
-
-😞😐😃

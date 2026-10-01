@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1189141-get-started-with-orga
 title: "Get Started with Organizations"
 description: "This article explains how to create an organization so that you can delegate permissions to sub… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 3ece98c14ea2e3324035cd60d41a5c9d88b8d218e646667da097fcc6997158a4
+content_hash: 765f35c1ab8f1147f3bf99525c967544618fe334fad8b808fc8de7ce455592c6
 ---
 
 
@@ -244,13 +244,3 @@ Unfortunately you are unable to invite a member who already has an existing Teln
 ​
 
 ![Breaking line](_images/682991ade0be9812.png)
-
----
-
-Related Articles
-
-[Configuring a FreePBX V13 Credentials Trunk](https://support.telnyx.com/en/articles/1130648-configuring-a-freepbx-v13-credentials-trunk)[Managed Accounts](https://support.telnyx.com/en/articles/4951492-managed-accounts)[MS Teams: Call2Teams & Telnyx](https://support.telnyx.com/en/articles/6133589-ms-teams-call2teams-telnyx)[Verified Numbers FAQ](https://support.telnyx.com/en/articles/6790265-verified-numbers-faq)[Get Started with Telnyx Storage & Inference Guide](https://support.telnyx.com/en/articles/8344129-get-started-with-telnyx-storage-inference-guide)
-
-Did this answer your question?
-
-😞😐😃

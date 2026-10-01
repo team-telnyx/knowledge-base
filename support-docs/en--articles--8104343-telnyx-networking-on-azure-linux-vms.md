@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8104343-telnyx-networking-on-
 title: "Telnyx Networking on Azure Linux VMs"
 description: "Setup and deploy the Telnyx Networking product on Azure Linux Virtual… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 01e8955a7421ba2a09d9f2b0b2e90dab397506399e9058e5d57728e47b69d08c
+content_hash: fa86a186606a8b31e81847130d65717c828bffcec4e8e48b0160b36cfe6ec724
 ---
 
 
@@ -104,13 +104,3 @@ round-trip min/avg/max/stddev = 183.040/183.495/184.512/0.471 ms
 Congratulations! You have successfully connected an Azure Linux VM instance to the Telnyx Edge Routing Network to the configured IP in your portal.
 
 If you have any further questions or would like to see more tutorials, feel free to reach out to our support team or our external Slack channel for help!
-
----
-
-Related Articles
-
-[Telnyx Networking on AWS Lightsail](https://support.telnyx.com/en/articles/8103288-telnyx-networking-on-aws-lightsail)[Telnyx Networking on Ubuntu](https://support.telnyx.com/en/articles/8104274-telnyx-networking-on-ubuntu)[Telnyx Networking on AWS VPC](https://support.telnyx.com/en/articles/8104309-telnyx-networking-on-aws-vpc)[Telnyx Networking on Android/iOS](https://support.telnyx.com/en/articles/8104413-telnyx-networking-on-android-ios)[Telnyx Networking on Oracle VMs](https://support.telnyx.com/en/articles/8104436-telnyx-networking-on-oracle-vms)
-
-Did this answer your question?
-
-😞😐😃

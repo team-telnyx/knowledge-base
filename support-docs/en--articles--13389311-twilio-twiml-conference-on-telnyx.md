@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/13389311-twilio-twiml-confere
 title: "Twilio TwiML Conference on Telnyx"
 description: "Swap to Telnyx with your existing TwiML code and Twilio SDK. See Telnyx guidance and requirements Learn more about Twilio TwiML Conference on Telnyx with."
 scraped: 2026-07-08
-content_hash: 2178737e5745d2758ae38a15104dd3dfc7d8dcfb9cd5affdfc75f9ff872d1d5b
+content_hash: 2277ac1e4de100bb51108977ba8f3ab6f279ae06e4ec07858228b3a30d160b58
 ---
 
 
@@ -714,13 +714,3 @@ Grab your ngrok public URL and head back to the connection number you configured
 You’re now ready to host dynamic conference calls with your Ruby app. Grab some friends and give it a try!
 
 ## **​**
-
----
-
-Related Articles
-
-[FreePBX Trunk Settings With Telnyx](https://support.telnyx.com/en/articles/1130620-freepbx-trunk-settings-with-telnyx)[Does Telnyx support conference calls?](https://support.telnyx.com/en/articles/1130677-does-telnyx-support-conference-calls)[Auth0 SSO Integration With Telnyx](https://support.telnyx.com/en/articles/5355953-auth0-sso-integration-with-telnyx)[Telnyx Verify: 2FA made easy](https://support.telnyx.com/en/articles/5701653-telnyx-verify-2fa-made-easy)[Vtech VCS754: Telnyx Setup](https://support.telnyx.com/en/articles/5822901-vtech-vcs754-telnyx-setup)
-
-Did this answer your question?
-
-😞😐😃

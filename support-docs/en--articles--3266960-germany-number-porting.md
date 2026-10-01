@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3266960-germany-number-portin
 title: "Germany Number Porting"
 description: "Here you will find a detailed list of requirements for Germany number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 70268072127acd5897ccf0c242036ccef92ad73672f3b63b41749946fc288a20
+content_hash: 84a9942e98cf16497c0bcab0b72ee3aff4e4c5fb7bc9be9f9abc00672265feed
 ---
 
 
@@ -97,13 +97,3 @@ If there is a connection assigned to the DiD(s), you must ensure you have discus
 ## Porting out of Telnyx
 
 The gaining provider must submit a request by email to [porting.intl@telnyx.com](mailto:porting.intl@telnyx.com) providing the Standard German Porting Form (the same template required for porting into Telnyx). Once the request is received, Telnyx will create a Port out request in the end-user’s Portal. This request must be authorized within 4 business days by the end-user. Once the port out is authorized on the end-user’s end, Telnyx will approve the port out with the Gaining Provider.
-
----
-
-Related Articles
-
-[Australia Number Porting](https://support.telnyx.com/en/articles/3266212-australia-number-porting)[France Number Porting](https://support.telnyx.com/en/articles/3266956-france-number-porting)[Netherlands Number Porting](https://support.telnyx.com/en/articles/3267124-netherlands-number-porting)[Singapore Number Porting](https://support.telnyx.com/en/articles/7235002-singapore-number-porting)[US / CA Toll Free Number Porting](https://support.telnyx.com/en/articles/8673249-us-ca-toll-free-number-porting)
-
-Did this answer your question?
-
-😞😐😃

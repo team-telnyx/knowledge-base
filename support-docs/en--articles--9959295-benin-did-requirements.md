@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/9959295-benin-did-requirement
 title: "Benin DID Requirements"
 description: "Requirements to acquire Benin numbers. See Telnyx guidance and requirements Learn more about Benin DID Requirements with Telnyx."
 scraped: 2026-07-08
-content_hash: 236eb0d78331deb1e511acc7acda7cadcee27db41e46e2eadf966235117821d1
+content_hash: 0ddc69f175c802ed0775061024141cf344755bbccfa3fa97acc09a815551da8f
 ---
 
 
@@ -54,13 +54,3 @@ For address verification:
 \* Proof of address (dated within 3 months)
 
 Please note that once the documentation is received it will take approximately 72 hours to validate the information and activate the number for use.
-
----
-
-Related Articles
-
-[Congo DID Requirements](https://support.telnyx.com/en/articles/9959375-congo-did-requirements)[Rwanda DID Requirements](https://support.telnyx.com/en/articles/9961409-rwanda-did-requirements)[Zambia DID Requirements](https://support.telnyx.com/en/articles/10058901-zambia-did-requirements)[Kuwait DID Requirements](https://support.telnyx.com/en/articles/12640555-kuwait-did-requirements)[Guatemala DID Requirements](https://support.telnyx.com/en/articles/15397771-guatemala-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

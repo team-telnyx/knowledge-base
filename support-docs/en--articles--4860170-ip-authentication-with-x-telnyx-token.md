@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4860170-ip-authentication-wit
 title: "Ip Authentication with X-Telnyx-Token"
 description: "In this article we will explain IP authentication with X-Telnyx-Token and when to use them. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 74bfbb9914b72ad8ebfa9f6b1ce99e34b35d13c31d3e6d21491849a52632d56c
+content_hash: ca98a41c5eb5bbe96bac89b128cd1f414ebaf60b27139f23c90acf06223c6eae
 ---
 
 
@@ -44,13 +44,3 @@ You can instead use a custom string, if you'd prefer, but it must:
 * Contain only alphanumeric characters and dashes ("-")
 * Be between 12 and 48 characters
 * Be globally unique
-
----
-
-Related Articles
-
-[IP Authentication with Tech Prefix](https://support.telnyx.com/en/articles/2602782-ip-authentication-with-tech-prefix)[FreePBX V15: IP Trunk - PJSIP](https://support.telnyx.com/en/articles/5619595-freepbx-v15-ip-trunk-pjsip)[Fanvil H5: Hotel IP](https://support.telnyx.com/en/articles/6203401-fanvil-h5-hotel-ip)[Fanvil X-Series: IP Phone](https://support.telnyx.com/en/articles/6209971-fanvil-x-series-ip-phone)[Configure Token Authentication Header (X-Telnyx-Token) in FreePBX](https://support.telnyx.com/en/articles/12580952-configure-token-authentication-header-x-telnyx-token-in-freepbx)
-
-Did this answer your question?
-
-😞😐😃

@@ -27,62 +27,42 @@ For full details on setting up Requirement Groups, please refer to the [guide he
 ## **Local Numbers in Norway**
 
 For **business identity** verification:
-
-\* Name, last name of an authorized representative
-
-\* Contact phone number
-
-\* Contact e-mail
-
-\* Company Name
-
-\* Passport or ID copy of an authorized representative
-
-\* Local Business registration certificate
-
-\* Local Business Registration Number
+* Name, last name of an authorized representative
+* Contact phone number
+* Contact e-mail
+* Company Name
+* Passport or ID copy of an authorized representative
+* Local Business registration certificate
+* Local Business Registration Number
 
 For **address** verification:
-
-\* Address in Norway (street, building number, postal code, city, and country)
-
-\* Proof of address (dated within 3 months)
+* Address matching the DID area code (street, building number, postal code, city, and country)
+* Proof of address (dated within 3 months)
 
 Additional details:
-
-\* Business use required: Business use is required, private use is not allowed.
+* Business use required: Business use is required, private use is not allowed.
 
 ## **Toll-Free Numbers in Norway**
 
 For **personal identity** verification:
-
-\* Name, last name
-
-\* Date of Birth
-
-\* Contact phone number
-
-\* Local Passport or ID copy
+* Name, last name
+* Date of Birth
+* Contact phone number
+* Local Passport or ID copy
 
 For **business identity** verification:
-
-\* Name, last name of an authorized representative
-
-\* Company name
-
-\* Company ID
-
-\* Contact phone number
-
-\* Local company registration certificate
+* Name, last name of an authorized representative
+* Company name
+* Company ID
+* Contact phone number
+* Local company registration certificate
 
 For **address** verification:
-
-\* Address in Norway (street, building number, postal code, city, and country)  
-\* Proof of address (dated within 3 months)  
+* Address in Norway (street, building number, postal code, city, and country)  
+* Proof of address (dated within 3 months)  
 ​  
 Additional details:   
-\* End-users must be physically present in the country when purchasing numbers from that country
+* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **Identity Verification: What "Local" Means**
 

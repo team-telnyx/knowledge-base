@@ -142,7 +142,7 @@ You can find country-specific information in our [International DID Requirements
 | Saint Barthélemy | 1, 2, 3 | N/A | N/A | N/A | N/A |
 | Saint Martin | 1, 2, 3 | N/A | N/A | N/A | N/A |
 | Serbia | 1, 4, 7, 9, 10, 13 (c, f, h, ai) | N/A | N/A | 1, 2, 3 | N/A |
-| Seychelles | 1, 3, (f) | N/A | N/A | N/A | N/A |
+| Seychelles | 1, 3, (f, h) | N/A | N/A | N/A | N/A |
 | Singapore | 1, 4, 7, 9, 10, 13, 18, (d, g) | 1, 4, 7, 9, 13, (g) | N/A | 1, 3 | N/A |
 | Slovakia | 1, 5, 7, 9, 13, (g) | N/A | N/A | 1, 3, 9, 16, (f) | N/A |
 | Slovenia | 1, 5, 7, 13 (f) | 1, 5, 7, 13 (f) | N/A | 1, 2, 3 | N/A |

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4450150-faqs-about-mms-at-tel
 title: "FAQs about MMS at Telnyx"
 description: "Here you will find frequently asked questions about sending and receiving MMS, answered. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 9ff074e9d222aeaeefab4ef8a7b4f48bd3e2475aad3e16d893deda30e649308b
+content_hash: 9de76813ae98cc961f59cb3f39ba6cc9a40db56d8fee39d7dbcaf85d6e7c861d
 ---
 
 
@@ -103,13 +103,3 @@ This feature is a part of the [messaging profile setting](https://portal.telnyx.
 ## MMS Limitations and Future Solutions
 
 Currently, MMS messaging through Telnyx is only supported within the USA and Canada. For international multimedia messaging, we are actively exploring solutions to enhance our global reach. As a future-ready alternative, we are developing a Rich Communication Services (RCS) product, expected to enter beta testing by the end of year 2024 or early Q1 2025. RCS will provide a more versatile messaging experience with features beyond standard MMS, enabling richer multimedia content, improved interactivity, and support for a broader range of devices and carriers worldwide. Keep an eye out for this new capability to expand your messaging possibilities beyond traditional MMS.
-
----
-
-Related Articles
-
-[What is Telnyx?](https://support.telnyx.com/en/articles/1130637-what-is-telnyx)[MMS Sending and Receiving](https://support.telnyx.com/en/articles/3102823-mms-sending-and-receiving)[Telnyx Messaging Error Codes](https://support.telnyx.com/en/articles/6505121-telnyx-messaging-error-codes)[Group Messaging - Bulk Sending MMS](https://support.telnyx.com/en/articles/8255134-group-messaging-bulk-sending-mms)[WhatsApp FAQ](https://support.telnyx.com/en/articles/13986488-whatsapp-faq)
-
-Did this answer your question?
-
-😞😐😃

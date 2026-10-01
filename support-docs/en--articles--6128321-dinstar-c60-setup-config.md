@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6128321-dinstar-c60-setup-con
 title: "Dinstar C60: Setup & Config"
 description: "Learn how to set up and configure the Telco AC-211 SIP ATA in order to use it with your Telnyx account. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 8d359aa799a096ab962b3f498de707de20e6a347f98c5bb63ca19a4bae71130c
+content_hash: dde2801825952faf4f50ce7ba66cdefe5867d4e573147e30b35bafd43a330c95
 ---
 
 
@@ -117,13 +117,3 @@ Additionally, check out:
 * [Dinstar FAQs](https://www.dinstar.com/faq/)
 * Dinstar Wiki
 * [Dinstar contact and support](https://www.dinstar.com/contact-us/)
-
----
-
-Related Articles
-
-[Wildix: SIP Trunk Setup](https://support.telnyx.com/en/articles/5799830-wildix-sip-trunk-setup)[Flyingvoice: Telnyx Setup](https://support.telnyx.com/en/articles/5810663-flyingvoice-telnyx-setup)[Gigaset A510: Telnyx Setup](https://support.telnyx.com/en/articles/5815209-gigaset-a510-telnyx-setup)[Fanvil A32i: Telnyx Setup](https://support.telnyx.com/en/articles/6056428-fanvil-a32i-telnyx-setup)[Alcatel: SD601/SD602 SIP Door](https://support.telnyx.com/en/articles/6281943-alcatel-sd601-sd602-sip-door)
-
-Did this answer your question?
-
-😞😐😃

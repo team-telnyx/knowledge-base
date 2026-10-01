@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8588086-auto-generated-letter
 title: "Auto-generated Letter of Authorization (LOA)"
 description: "Learn more about using auto-generated LOA's to simplify your porting… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: e07babba9fa1c00e5977e8c398eb9b4beb9ca4d3b4def5f245e3d27659602161
+content_hash: d383885c2b0a74f387b5af7f41d2dcef351518fc7c843c587dcde995e53bf5b7
 ---
 
 
@@ -118,13 +118,3 @@ Once the template is saved, it will start to be automatically applied to your au
 You can create 1 or more templates. If you have multiple templates, the most recently created template will be used by default with the auto-generated LOA. Once the LOA has been generated, you may change the LOA template by using the `LOA Template` dropdown in the modal
 
 ![LOA template.](_images/864952ab5a25cb5c.png)
-
----
-
-Related Articles
-
-[Porting Policy & Procedure](https://support.telnyx.com/en/articles/1130630-porting-policy-procedure)[Porting Error Messages](https://support.telnyx.com/en/articles/1618776-porting-error-messages)[How to fill out an LOA](https://support.telnyx.com/en/articles/2034326-how-to-fill-out-an-loa)[Porting Requirements](https://support.telnyx.com/en/articles/6460777-porting-requirements)[LOA Template Download](https://support.telnyx.com/en/articles/8268276-loa-template-download)
-
-Did this answer your question?
-
-😞😐😃

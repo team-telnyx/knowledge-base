@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3154822-number-pooling
 title: "Number Pooling"
 description: "A description of the Number Pooling feature with Telnyx messaging services along with how to enable and use it. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f87cd3b8639b8b877ec5bde7fbe7539e03f4e873fb3883effadefb546e673887
+content_hash: 1b36f2bd6c4df0ab507092f6a78a8d4ccfecad80eb94b3c2102e95fcfd5db906
 ---
 
 
@@ -66,13 +66,3 @@ Example:
 * If I don’t have a 312 number in my pool it will automatically default to picking a random healthy number.
 
 Note: Geomatch currently only matches US area codes. It does not currently support matching based on country codes.
-
----
-
-Related Articles
-
-[Rate Limits for Messaging](https://support.telnyx.com/en/articles/96934-rate-limits-for-messaging)[Global Number Types](https://support.telnyx.com/en/articles/1458084-global-number-types)[Telnyx Messaging Error Codes](https://support.telnyx.com/en/articles/6505121-telnyx-messaging-error-codes)[Toll-Free Opt-Out Words](https://support.telnyx.com/en/articles/6989758-toll-free-opt-out-words)[SMS for Ported In Phone Numbers](https://support.telnyx.com/en/articles/7183887-sms-for-ported-in-phone-numbers)
-
-Did this answer your question?
-
-😞😐😃

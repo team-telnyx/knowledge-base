@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3231942-forwarding-sms-to-you
 title: "Forwarding SMS to Your Mobile Number"
 description: "Set up SMS forwarding from your Telnyx number to your mobile phone with… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: d24fdc801a0fea18759deda195635698b6e41638f30f9e0400198e2413a5c41e
+content_hash: e500d194c7df6f090482abf01b28d67997eebf0f62c032c87fc5a339748942b0
 ---
 
 
@@ -140,13 +140,3 @@ Once activated, your Zap will:
 * **Use a dedicated messaging profile** — Attach only one number to profiles used for Zapier to avoid unintended triggers
 * **Monitor your Zap** — Check Zapier's Task History to ensure messages are being forwarded successfully
 * **Use E.164 format** — Always include the country code (e.g., +1 for US) when entering phone numbers
-
----
-
-Related Articles
-
-[Automated Replies for Messages using Zapier](https://support.telnyx.com/en/articles/3232529-automated-replies-for-messages-using-zapier)[Zapier: Forward Texts to Email](https://support.telnyx.com/en/articles/3723768-zapier-forward-texts-to-email)[Receiving SMS on your Telnyx number](https://support.telnyx.com/en/articles/4348981-receiving-sms-on-your-telnyx-number)[SMS for Ported In Phone Numbers](https://support.telnyx.com/en/articles/7183887-sms-for-ported-in-phone-numbers)[How to Verify Phone Numbers behind an IVR](https://support.telnyx.com/en/articles/12386088-how-to-verify-phone-numbers-behind-an-ivr)
-
-Did this answer your question?
-
-😞😐😃

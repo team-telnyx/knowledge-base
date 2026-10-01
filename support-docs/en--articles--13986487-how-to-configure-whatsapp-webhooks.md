@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/13986487-how-to-configure-wha
 title: "How to Configure WhatsApp Webhooks"
 description: "Set up webhook endpoints to receive inbound WhatsApp messages and delivery status updates. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 3165ce048d08e449a328ce473f21437e7ae480a5538c6e42f26e248bbfc6b475
+content_hash: 1cfd7a359fd3c3ddf20a3f4044a342ef4f2ac49926415f05b65a6d5f6ed483e2
 ---
 
 
@@ -76,13 +76,3 @@ For development, you can use tools like [ngrok](https://ngrok.com) or [Hookdeck]
 ## Related Resources
 
 * [Receiving Webhooks Guide](https://developers.telnyx.com/docs/messaging/messages/receiving-webhooks)
-
----
-
-Related Articles
-
-[How to Leverage Webhooks](https://support.telnyx.com/en/articles/4334722-how-to-leverage-webhooks)[What is WhatsApp Business Platform?](https://support.telnyx.com/en/articles/13986480-what-is-whatsapp-business-platform)[How to Set Up WhatsApp on Telnyx](https://support.telnyx.com/en/articles/13986485-how-to-set-up-whatsapp-on-telnyx)[WhatsApp FAQ](https://support.telnyx.com/en/articles/13986488-whatsapp-faq)[WhatsApp Troubleshooting Guide](https://support.telnyx.com/en/articles/13986489-whatsapp-troubleshooting-guide)
-
-Did this answer your question?
-
-😞😐😃

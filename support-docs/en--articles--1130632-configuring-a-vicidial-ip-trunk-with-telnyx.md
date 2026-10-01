@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130632-configuring-a-vicidia
 title: "Configuring a Vicidial IP trunk with Telnyx"
 description: "In this article we will walk you through how configuring a Vicidial IP trunk at Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 571e092cc671b0ddd605cc1281e26d891dbd85c0d6033cefa49898d53fad873d
+content_hash: 596266a3993c1a0d5b20cef0d42f5877695e86553921e4bf485ce23aa60ac466
 ---
 
 
@@ -147,13 +147,3 @@ Additionally you can check out:
 * [Vicidial user manual](https://www.vicidial.org/download_survey.php) (free version. Additionally, there is a [paid version](http://www.vicidial.org/store.php#MANAGER) with higher resolution)
 
 ---
-
----
-
-Related Articles
-
-[Configuring a Cisco CUBE/CUCM IP Trunk](https://support.telnyx.com/en/articles/1130606-configuring-a-cisco-cube-cucm-ip-trunk)[Configuring an AVAYA IP trunk with Telnyx](https://support.telnyx.com/en/articles/1130627-configuring-an-avaya-ip-trunk-with-telnyx)[Asterisk: Configure an Asterisk IP trunk](https://support.telnyx.com/en/articles/1130628-asterisk-configure-an-asterisk-ip-trunk)[Configuring a GoAutoDial PBX SIP Trunk](https://support.telnyx.com/en/articles/1130694-configuring-a-goautodial-pbx-sip-trunk)[Vicidial: Configure Vicidial Credentials](https://support.telnyx.com/en/articles/1176353-vicidial-configure-vicidial-credentials)
-
-Did this answer your question?
-
-😞😐😃

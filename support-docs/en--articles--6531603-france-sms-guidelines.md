@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6531603-france-sms-guidelines
 title: "France: SMS Guidelines"
 description: "Sending SMS to France? See Telnyx guidance and requirements Learn more about France: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 498a9a733fece618c3fbdf2cd934b45cf040371b5ae2db8437449a05988fab6c
+content_hash: 3620d590d602ba7ddbe18652784c2af4904adfcae0da61b7730050fb19225b18
 ---
 
 
@@ -47,13 +47,3 @@ In an attempt to fight the increase in SMS Phishing and Fraud attempts, French o
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Turkey: SMS Guidelines](https://support.telnyx.com/en/articles/6564056-turkey-sms-guidelines)[Burundi: SMS Guidelines](https://support.telnyx.com/en/articles/6601042-burundi-sms-guidelines)[Jordan: SMS Guidelines](https://support.telnyx.com/en/articles/6674487-jordan-sms-guidelines)[Tunisia: SMS Guidelines](https://support.telnyx.com/en/articles/6683385-tunisia-sms-guidelines)[United Arab Emirates: SMS Guidelines](https://support.telnyx.com/en/articles/6683438-united-arab-emirates-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

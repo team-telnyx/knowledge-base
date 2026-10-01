@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130627-configuring-an-avaya-
 title: "Configuring an AVAYA IP trunk with Telnyx"
 description: "In this article we will walk you through configuring an AVAYA IP trunk with Telnyx so you can get started right away! See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 66bea0faf9b71da12ecb5cfd4b9ded9181d40b93e4422a7ad222edad8e5c9722
+content_hash: 5fe5396d6baa910e813c141e6bcf9496309bbf7b5fb833e2438f6d8486b676a8
 ---
 
 
@@ -127,13 +127,3 @@ Additionally, check out:
 * AVAYA SIP trunking - overview
 
 ---
-
----
-
-Related Articles
-
-[Configuring a Cisco CUBE/CUCM IP Trunk](https://support.telnyx.com/en/articles/1130606-configuring-a-cisco-cube-cucm-ip-trunk)[Configuring a Vicidial IP trunk with Telnyx](https://support.telnyx.com/en/articles/1130632-configuring-a-vicidial-ip-trunk-with-telnyx)[Configuring a Cisco CUBE/CUCM SIP Trunk](https://support.telnyx.com/en/articles/1130673-configuring-a-cisco-cube-cucm-sip-trunk)[Configuring Telnyx SIP Trunking with Avaya](https://support.telnyx.com/en/articles/1130695-configuring-telnyx-sip-trunking-with-avaya)[FreePBX V14: IP Trunk - ChanSIP](https://support.telnyx.com/en/articles/3284736-freepbx-v14-ip-trunk-chansip)
-
-Did this answer your question?
-
-😞😐😃

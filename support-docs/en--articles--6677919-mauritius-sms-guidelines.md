@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6677919-mauritius-sms-guideli
 title: "Mauritius: SMS Guidelines"
 description: "Specific SMS guidelines for Mauritius (MCC: 617, Dial Code: 230). See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 0904650f947ddbe919483d7ffe122dc297baefe7e712e61eb6d6b27fb4c3caf3
+content_hash: cb47c92b51136c1572671c0e536dac9f9e600a6d2fedb50c4c739216e5d5f34f
 ---
 
 
@@ -31,13 +31,3 @@ Religious, political or adult traffic is prohibited.
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://app.intercom.com/).
 
 ##
-
----
-
-Related Articles
-
-[Bahrain: SMS Guidelines](https://support.telnyx.com/en/articles/6596158-bahrain-sms-guidelines)[Indonesia: SMS Guidelines](https://support.telnyx.com/en/articles/6674396-indonesia-sms-guidelines)[Israel: SMS Guidelines](https://support.telnyx.com/en/articles/6674453-israel-sms-guidelines)[Nigeria: SMS Guidelines](https://support.telnyx.com/en/articles/6679084-nigeria-sms-guidelines)[Qatar: SMS Guidelines](https://support.telnyx.com/en/articles/6679369-qatar-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

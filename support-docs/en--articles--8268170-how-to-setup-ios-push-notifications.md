@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8268170-how-to-setup-ios-push
 title: "How to Setup iOS Push Notifications"
 description: "Resolve the CA error for your webhook URL. See Telnyx guidance and requirements Learn more about How to Setup iOS Push Notifications with Telnyx."
 scraped: 2026-07-08
-content_hash: 82f5445a802d5adcf8d1c85b4f62d223ee1807a51b53b48ce7c5ba2af3d83d2d
+content_hash: b7b437caedf0b8ab06faa8664fa1bad3da6a36ca0f74d62017dbf4c8cb6ea1ff
 ---
 
 
@@ -127,7 +127,3 @@ Note: After pasting the above content, Kindly check and remove any new line adde
 ![ios-select-pn](_images/5555a19d553557f1.png)
 
 That’s done. You can now go to your code and start implementing **PushKit** and **Callkit** using the **TelnyxRTC SDK** and receive VoIP push notifications into your iOS device.
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8047941-use-crossftp-with-tel
 title: "Use CrossFTP with Telnyx Storage"
 description: "Learn how to set up CrossFTP, a powerful FTP client, with Telnyx Storage for seamless file transfer and management. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 524e1ef580d538f6f8f1261e1aad74cec627ff3d9089bb496c25c23cae021eed
+content_hash: 3fb55a60e578f6b918baa003c9237dcc2f12aaf769080935110d4f94d63f5b81
 ---
 
 
@@ -68,13 +68,3 @@ And that’s all there is to it! We have successfully integrated CrossFTP to wor
 ## **Additional Resources**
 
 For more information, you can check out CrossFTP features [here.](https://www.crossftp.com/features.htm)
-
----
-
-Related Articles
-
-[Use Cyberduck with Telnyx Storage](https://support.telnyx.com/en/articles/6964207-use-cyberduck-with-telnyx-storage)[Use WinSCP with Telnyx Storage](https://support.telnyx.com/en/articles/7903390-use-winscp-with-telnyx-storage)[Use WebDrive with Telnyx Storage](https://support.telnyx.com/en/articles/8047969-use-webdrive-with-telnyx-storage)[Use NetDrive3 with Telnyx Storage](https://support.telnyx.com/en/articles/8048024-use-netdrive3-with-telnyx-storage)[Use AirExplorer with Telnyx Storage](https://support.telnyx.com/en/articles/8048045-use-airexplorer-with-telnyx-storage)
-
-Did this answer your question?
-
-😞😐😃

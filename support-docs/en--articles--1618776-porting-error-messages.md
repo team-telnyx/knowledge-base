@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1618776-porting-error-message
 title: "Porting Error Messages"
 description: "Learn more about the various error conditions that may occur with… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 1547d42f6fbe11b633229dd67273051411b7e9e2a97c5839e49d256f7c5fe865
+content_hash: 37996e5dd6b9606fdfbccb53bfd8caf4f376ba97fdbd2c3338dfd45f38991174
 ---
 
 
@@ -108,13 +108,3 @@ Telnyx cannot port one of the phone number specified because the rate center is 
 ## ZIP\_POSTAL\_CODE\_MISMATCH
 
 The zip or postal code specified in the port request did not match what the losing carrier has on file.
-
----
-
-Related Articles
-
-[BTN or ATN Mismatch Error](https://support.telnyx.com/en/articles/1130610-btn-or-atn-mismatch-error)[Porting Policy & Procedure](https://support.telnyx.com/en/articles/1130630-porting-policy-procedure)[Automated Port Request Validation](https://support.telnyx.com/en/articles/1516776-automated-port-request-validation)[Port numbers away from Telnyx](https://support.telnyx.com/en/articles/2033789-port-numbers-away-from-telnyx)[Port Request Statuses](https://support.telnyx.com/en/articles/3284588-port-request-statuses)
-
-Did this answer your question?
-
-😞😐😃

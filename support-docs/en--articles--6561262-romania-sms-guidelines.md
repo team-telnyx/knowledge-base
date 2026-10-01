@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6561262-romania-sms-guideline
 title: "Romania: SMS Guidelines"
 description: "Explore our comprehensive SMS guidelines for Romania (MCC: 226, Dial Code: See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 63d63fb1896bd52e635bbb8f9ec5edf2fa0fc185b9359639fc4674f851dadf45
+content_hash: 5d1c0995f9ebccc139b006320d6cd0acf1710955fccb04e802674d7654a8ca4c
 ---
 
 
@@ -37,13 +37,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on URL whitelisting kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Denmark: SMS Guidelines](https://support.telnyx.com/en/articles/6560665-denmark-sms-guidelines)[Norway: SMS Guidelines](https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines)[China: SMS Guidelines](https://support.telnyx.com/en/articles/6601144-china-sms-guidelines)[Iran: SMS Guidelines](https://support.telnyx.com/en/articles/6674403-iran-sms-guidelines)[Mali: SMS Guidelines](https://support.telnyx.com/en/articles/6675247-mali-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

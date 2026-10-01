@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5253876-configuring-telnyx-wi
 title: "Configuring Telnyx with Microsoft Teams Direct Routing"
 description: "Unlock seamless integration: Set up Microsoft Teams Direct Routing with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 1be03801953f1d269460483a947264b5655777cfcf345ad1bbb52f53b71d18bd
+content_hash: 87698ba2bb8224d255921ea9377dd66b77f7bfc57b8f4ad89c052d0f127e64a5
 ---
 
 
@@ -330,13 +330,3 @@ Additionally, check out:
 
 * [Microsoft Teams Direct Routing documentation](https://learn.microsoft.com/en-us/microsoftteams/direct-routing-plan)
 * [Microsoft support](https://support.microsoft.com/en-US)
-
----
-
-Related Articles
-
-[Skype: Set up Skype for Biz SIP Trunk](https://support.telnyx.com/en/articles/1130698-skype-set-up-skype-for-biz-sip-trunk)[MS Teams: Call2Teams & Telnyx](https://support.telnyx.com/en/articles/6133589-ms-teams-call2teams-telnyx)[TLS & SIP Warnings for Teams](https://support.telnyx.com/en/articles/7048813-tls-sip-warnings-for-teams)[Operator Connect Guide - Microsoft Teams](https://support.telnyx.com/en/articles/7260976-operator-connect-guide-microsoft-teams)[How to Configure a SIP Trunk](https://support.telnyx.com/en/articles/8096455-how-to-configure-a-sip-trunk)
-
-Did this answer your question?
-
-😞😐😃

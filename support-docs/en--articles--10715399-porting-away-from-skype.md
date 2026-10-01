@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/10715399-porting-away-from-sk
 title: "Porting away from Skype"
 description: "Navigate the Skype port out process with ease. See Telnyx guidance and requirements Learn more about Porting away from Skype with Telnyx."
 scraped: 2026-07-08
-content_hash: 0eaa5d64f012e269cfc92c25fabecd79113f27018437f0f68803e3a652c89aeb
+content_hash: 438e9a2198cd192c9c5d99b4fa2b6bc34fd5f5733ad35e853a8b39f5d50de9a3
 ---
 
 
@@ -89,13 +89,3 @@ If you need any assistance during the porting process, Telnyx’s support team i
 ## **Conclusion**
 
 Porting your number from Skype to Telnyx is a straightforward process when following these steps. By ensuring your Skype Number is eligible for porting and coordinating with Telnyx, you can seamlessly transfer your number and continue your service without interruption.
-
----
-
-Related Articles
-
-[Porting Policy & Procedure](https://support.telnyx.com/en/articles/1130630-porting-policy-procedure)[Skype: Set up Skype for Biz SIP Trunk](https://support.telnyx.com/en/articles/1130698-skype-set-up-skype-for-biz-sip-trunk)[Port numbers away from Telnyx](https://support.telnyx.com/en/articles/2033789-port-numbers-away-from-telnyx)[Porting away from Twilio](https://support.telnyx.com/en/articles/3947850-porting-away-from-twilio)[Port away from voip.ms](https://support.telnyx.com/en/articles/5595770-port-away-from-voip-ms)
-
-Did this answer your question?
-
-😞😐😃

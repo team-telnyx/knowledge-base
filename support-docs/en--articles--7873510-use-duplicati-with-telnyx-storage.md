@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/7873510-use-duplicati-with-te
 title: "Use Duplicati with Telnyx Storage"
 description: "Discover how to set up Duplicati, an open-source backup solution, with Telnyx Storage for secure and automated backup… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 0ece4b2015dbb019d32f29273f4722bfc5b3eaa64838a3bfbfc460e125fbeb0b
+content_hash: 9ef02c898e25da1dad7952b37596c4fbd79b7481ccf4fdd01d6da34aca302f71
 ---
 
 
@@ -62,13 +62,3 @@ And that's all there is to it! You can complete the other remaining steps for co
 ## **Additional Resources**
 
 For more information on how to use Duplicati, check out their [manuals here](https://duplicati.readthedocs.io/en/latest/).
-
----
-
-Related Articles
-
-[Use WAL-G with Telnyx Storage](https://support.telnyx.com/en/articles/6966381-use-wal-g-with-telnyx-storage)[Use Arq Backup with Telnyx Storage](https://support.telnyx.com/en/articles/7869213-use-arq-backup-with-telnyx-storage)[Use Backup4all with Telnyx Storage](https://support.telnyx.com/en/articles/7869264-use-backup4all-with-telnyx-storage)[Use Syncovery with Telnyx Storage](https://support.telnyx.com/en/articles/8047874-use-syncovery-with-telnyx-storage)[Use GoodSync with Telnyx Storage](https://support.telnyx.com/en/articles/8047898-use-goodsync-with-telnyx-storage)
-
-Did this answer your question?
-
-😞😐😃

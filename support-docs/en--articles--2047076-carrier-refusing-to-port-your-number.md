@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/2047076-carrier-refusing-to-p
 title: "Carrier Refusing to Port Your Number"
 description: "Porting a number away from your provider can sometimes be difficult, learn how to make it easier here. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: a6d6160ebadb7eb87c8497d436dab4b680d50838e8aa193a8eec7e2e93eeeb52
+content_hash: 4ef8ab217761c9e012c4345b573a70fba585b54e831a56c6c01026b8383fd3bd
 ---
 
 
@@ -37,13 +37,3 @@ Emailing a support team can sometime mean waiting days to get a response, and if
 ## **Ensure you know the FCC regulations around Number Porting**
 
 The [FCC have very detailed guidelines](https://www.fcc.gov/consumers/guides/porting-keeping-your-phone-number-when-you-change-providers) around number portability, so it is important that you familiarize yourself with them if you constantly run into issues when porting your numbers.
-
----
-
-Related Articles
-
-[Port numbers away from Telnyx](https://support.telnyx.com/en/articles/2033789-port-numbers-away-from-telnyx)[France Number Porting](https://support.telnyx.com/en/articles/3266956-france-number-porting)[Port Request Statuses](https://support.telnyx.com/en/articles/3284588-port-request-statuses)[Porting away from Bandwidth](https://support.telnyx.com/en/articles/3947875-porting-away-from-bandwidth)[Porting Numbers Away from Aircall to Telnyx](https://support.telnyx.com/en/articles/14708128-porting-numbers-away-from-aircall-to-telnyx)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6325731-register-for-10dlc-me
 title: "Register for 10DLC Messaging"
 description: "We break down all of the steps you need to complete in order to comply with 10DLC, and how Telnyx can help. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 07adfb32ad5a545a2aec3befe9bd11adddf13cda460341c6aa3389494c4f63f0
+content_hash: c998637d338cb9634db8c7079baebaf658e968a6426710c0a3bd5beda2066855
 ---
 
 # Register for 10DLC Messaging
@@ -100,13 +100,3 @@ After your numbers show an ASSIGNED status, you are ready to send 10DLC-complian
 | Carrier messaging fees | $0.003-$0.005/SMS | Per message |
 
 See [10DLC Fees and Charges](https://support.telnyx.com/en/articles/5634625-10dlc-fees-and-charges) for the complete fee schedule.
-
----
-
-Related Articles
-
-[Frequently asked questions about 10DLC](https://support.telnyx.com/en/articles/3679260-frequently-asked-questions-about-10dlc)[ISVs & 10DLC](https://support.telnyx.com/en/articles/5593977-isvs-10dlc)[Telnyx & 10DLC Compliance](https://support.telnyx.com/en/articles/5664840-telnyx-10dlc-compliance)[Telnyx 10DLC Compliance Directory](https://support.telnyx.com/en/articles/6417677-telnyx-10dlc-compliance-directory)[10DLC Mock Brands and Campaigns](https://support.telnyx.com/en/articles/12812898-10dlc-mock-brands-and-campaigns)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/12141904-legal-update-texas-s
 title: "Legal Update: Texas’s Mini-TCPA Now Applies to Texts"
 description: "Note: This document is for informational purposes only and is not intended to be, and should not be relied upon as, See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 3e2fcec2e07c0d9d97ec9f8ab463d753694b525b25af0cafae412d594fce5f46
+content_hash: f3b55c84d20e5b871c8be3717565994282c4515ad0f4239b34682124a8e4dc68
 ---
 
 
@@ -78,13 +78,3 @@ Texas Senate Bill 140 (“[SB 140](https://capitol.texas.gov/tlodocs/89R/billtex
 * Each violation is actionable with no cap, even if a consumer has already recovered for similar violations. This allows repeated lawsuits and exposes businesses to significant ongoing statutory damages.
 
 If your organization markets to Texas residents by phone or text or is based within Texas, review your outreach practices to ensure compliance. Carefully evaluate whether your business qualifies for exemptions or must register under SB 140. For additional guidance, you may reach out to **[regulatory@telnyx.com](mailto:regulatory@telnyx.com)**.
-
----
-
-Related Articles
-
-[10DLC Fees and Charges](https://support.telnyx.com/en/articles/5634625-10dlc-fees-and-charges)[Toll Free Verification Request Guide](https://support.telnyx.com/en/articles/10729979-toll-free-verification-request-guide)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5355800-azure-ad-saml-identit
 title: "Azure AD: SAML Identity Setup"
 description: "Learn how to set up Microsoft Azure Active Directory SAML to utilize Telnyx Portal Single Sign-on capabilities. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 740aff1a43c71a4218d6ee4f347aa75c5e78cf5c8ccae4a73fa0287b7ecc530c
+content_hash: c83b11caf7fe1b6b91ce1434dd386330a6b20b79bcacd987ab2f54ff8e079406
 ---
 
 
@@ -161,13 +161,3 @@ Additionally, check out:
 * [Microsoft support](https://support.microsoft.com/en-US)
 
 ---
-
----
-
-Related Articles
-
-[OneLogin: SAML Identity Setup](https://support.telnyx.com/en/articles/5316578-onelogin-saml-identity-setup)[Okta: SAML Identity Setup](https://support.telnyx.com/en/articles/5335562-okta-saml-identity-setup)[LastPass: SAML Identity Setup](https://support.telnyx.com/en/articles/5341506-lastpass-saml-identity-setup)[Auth0 SSO Integration With Telnyx](https://support.telnyx.com/en/articles/5355953-auth0-sso-integration-with-telnyx)[GSuite SSO Integration With Telnyx](https://support.telnyx.com/en/articles/5361846-gsuite-sso-integration-with-telnyx)
-
-Did this answer your question?
-
-😞😐😃

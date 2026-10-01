@@ -1,9 +1,9 @@
 ---
 source_url: https://support.telnyx.com/en/articles/9311566-regulatory-guidelines-for-us-short-code-marketing-and-opt-in-procedures
-title: "Regulatory Guidelines for US Short Code Marketing and"
+title: "Regulatory Guidelines for US Short Code Marketing and Opt-in Procedures"
 description: "Call To Action Guidelines for Short Codes. See Telnyx guidance and requirements Learn more about Regulatory Guidelines for US Short Code Marketing and with."
 scraped: 2026-07-08
-content_hash: d306c0738aa6058c47158f63582251be59935c05311286ec3cfb94607a4757d2
+content_hash: 1ddbf9c325fcb65088a687556d2a2900803174829449cb74e63fd8f14a728b39
 ---
 
 
@@ -50,13 +50,3 @@ Based on industry standards for short code services, be prepared for potential a
 Furthermore, your CTA may be subject to additional legal and regulatory requirements depending on the specifics of your text messaging campaign. It's advisable to consult with your legal counsel to address any compliance questions and understand how industry standards apply to your campaign.
 
 For more questions please email us at [shortcode@telnyx.com](mailto:shortcode@telnyx.com)!
-
----
-
-Related Articles
-
-[Armenia: SMS Guidelines](https://support.telnyx.com/en/articles/6592510-armenia-sms-guidelines)[Messaging - 10DLC Campaign Checklist](https://support.telnyx.com/en/articles/9038141-messaging-10dlc-campaign-checklist)[Standards for US Short Code Keywords: HELP, STOP, and Opt-In Confirmation](https://support.telnyx.com/en/articles/9311492-standards-for-us-short-code-keywords-help-stop-and-opt-in-confirmation)[US Short Code Ordering Process](https://support.telnyx.com/en/articles/10245573-us-short-code-ordering-process)[Short Code Compliance Quick Reference Guide](https://support.telnyx.com/en/articles/11385511-short-code-compliance-quick-reference-guide)
-
-Did this answer your question?
-
-😞😐😃

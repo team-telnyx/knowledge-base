@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130668-configuring-a-cisco-c
 title: "Configuring a Cisco CME Credentials Trunk"
 description: "In this article we will explain how you can configure a Cisco Call Manager Express User/Pass Trunk with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 6f178599aeb8ccbb3f197b4673b694938ff87948e8efa6d86cf8fb63fb204eb7
+content_hash: 0f85d289606994e8de289d62194756cea41a02be0e5f46d370f29ef493b29e1b
 ---
 
 
@@ -216,13 +216,3 @@ Additionally, check out:
 
 * [Cisco CME admin guide](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmeover.html)
 * [Cisco CME SIP trunking configuration example](https://www.cisco.com/c/en/us/support/docs/voice-unified-communications/unified-communications-manager-express/91535-cme-sip-trunking-config.html)
-
----
-
-Related Articles
-
-[Configuring a Cisco CUBE/CUCM IP Trunk](https://support.telnyx.com/en/articles/1130606-configuring-a-cisco-cube-cucm-ip-trunk)[Cisco: Configure a Cisco CME IP Trunk](https://support.telnyx.com/en/articles/1130612-cisco-configure-a-cisco-cme-ip-trunk)[Configuring an AVAYA IP trunk with Telnyx](https://support.telnyx.com/en/articles/1130627-configuring-an-avaya-ip-trunk-with-telnyx)[Configuring a Cisco CUBE/CUCM SIP Trunk](https://support.telnyx.com/en/articles/1130673-configuring-a-cisco-cube-cucm-sip-trunk)[FreeSWITCH: Credentials Trunk](https://support.telnyx.com/en/articles/1618801-freeswitch-credentials-trunk)
-
-Did this answer your question?
-
-😞😐😃

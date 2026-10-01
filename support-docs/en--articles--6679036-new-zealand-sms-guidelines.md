@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6679036-new-zealand-sms-guide
 title: "New Zealand: SMS Guidelines"
 description: "SMS Guidelines for New Zealand including MCC and Dial Code. See Telnyx guidance and requirements Learn more about New Zealand: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 8cf8ac10ac74e662456c3013c498a072c38e1d97af235140bbf2917e7c9d6e19
+content_hash: 67219866752d7dd211bd46aca3fb9dd3ab0544178df4fd084bc7280e190a9c17
 ---
 
 
@@ -45,13 +45,3 @@ Additional SMS resources for New Zealand:
 * [SMS compliance and regulations](https://telnyx.com/resources/how-to-ensure-compliance-with-sms-regulations)
   ​
   ​
-
----
-
-Related Articles
-
-[Andorra: SMS Guidelines](https://support.telnyx.com/en/articles/6563890-andorra-sms-guidelines)[Peru: SMS Guidelines](https://support.telnyx.com/en/articles/6564549-peru-sms-guidelines)[Paraguay: SMS Guidelines](https://support.telnyx.com/en/articles/6570320-paraguay-sms-guidelines)[Armenia: SMS Guidelines](https://support.telnyx.com/en/articles/6592510-armenia-sms-guidelines)[Cook Islands: SMS Guidelines](https://support.telnyx.com/en/articles/6661387-cook-islands-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

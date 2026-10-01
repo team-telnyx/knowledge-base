@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5954701-guadeloupe-number-por
 title: "Guadeloupe Number Porting"
 description: "Here you will find detailed requirements for Guadeloupe number portability. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: afc654a6398950beb51f1e936fc111de21f3f8c49a7c1073c9891a489f9001fb
+content_hash: b77129e3ecc868570c3775d19ebdc391c49fb72deb43fabc24cde17583b52fe6
 ---
 
 
@@ -28,13 +28,3 @@ Here you will find detailed requirements for Guadeloupe number portability. See 
 ## **Download LOA [here](https://assets.ctfassets.net/taysl255dolk/6YYtHkPiDoOfhR8Vp3QxUz/3f7b77cf78ecdebe280c6c0226ac12ea/LoA_-_Telnyx_-_INTL.pdf)**
 
 ​
-
----
-
-Related Articles
-
-[Martinique Number Porting](https://support.telnyx.com/en/articles/5954733-martinique-number-porting)[French Guiana Number Porting](https://support.telnyx.com/en/articles/13194814-french-guiana-number-porting)[Mayotte Number Porting](https://support.telnyx.com/en/articles/13194884-mayotte-number-porting)[Reunion Number Porting](https://support.telnyx.com/en/articles/13194922-reunion-number-porting)[Saint Barth and Saint Martin Number Porting](https://support.telnyx.com/en/articles/13194951-saint-barth-and-saint-martin-number-porting)
-
-Did this answer your question?
-
-😞😐😃

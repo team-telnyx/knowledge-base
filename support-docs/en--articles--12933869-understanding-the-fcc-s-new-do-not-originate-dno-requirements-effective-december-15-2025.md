@@ -1,9 +1,9 @@
 ---
 source_url: https://support.telnyx.com/en/articles/12933869-understanding-the-fcc-s-new-do-not-originate-dno-requirements-effective-december-15-2025
-title: "Understanding the FCC’s New Do-Not-Originate (DNO)"
+title: "Understanding the FCC’s New Do-Not-Originate (DNO) Requirements (Effective December 15, 2025)"
 description: "The Federal Communications Commission (FCC) has adopted new rules that expand the industry’s responsibilities around… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 8c00b9aa07357e8d25a598fbdf4427471e341bc0884ddfc96abd5d756eb2cad8
+content_hash: 467ad8e243d86bbe78917c40e572ebaba6018c1e59a89015d921227e4392f521
 ---
 
 
@@ -71,13 +71,3 @@ The FCC does *not* mandate a single centralized DNO list. Instead, providers mus
      ​
 
 Providers may also include additional categories, as long as the overall list remains “reasonable” as defined in the Order.
-
----
-
-Related Articles
-
-[How to configure a Thirdlane PBX](https://support.telnyx.com/en/articles/1130631-how-to-configure-a-thirdlane-pbx)[STIR/SHAKEN With Telnyx](https://support.telnyx.com/en/articles/5402969-stir-shaken-with-telnyx)[Robocall Mitigation Database](https://support.telnyx.com/en/articles/5544430-robocall-mitigation-database)[Understanding the FCC’s Eighth Report and Order on Third-Party Authentication](https://support.telnyx.com/en/articles/10806916-understanding-the-fcc-s-eighth-report-and-order-on-third-party-authentication)[Understanding SIP 603+ carrier rejections](https://support.telnyx.com/en/articles/15395095-understanding-sip-603-carrier-rejections)
-
-Did this answer your question?
-
-😞😐😃

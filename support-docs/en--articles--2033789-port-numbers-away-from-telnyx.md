@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/2033789-port-numbers-away-fro
 title: "Port numbers away from Telnyx"
 description: "Learn how to efficiently port numbers away from Telnyx with their detailed guides and tracking tools for a transparent… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 886437a2c35325fd79bd71f14e0c0b3135a0fef4bb7857741080c62d2dbf3bb1
+content_hash: a67c771375c690c91baf6caca56c2d2992514b6fedaefdcf8ad878f2666b367c
 ---
 
 
@@ -45,13 +45,3 @@ Once your carrier receives the port request they will contact Telnyx directly. O
 You can see more information regarding approving or rejecting a port out request in [Port Out Tracking](https://support.telnyx.com/en/articles/2906030-port-out-tracking)
 
 Unsure why you received a port out notification? Please see [Why did I receive a port-out notification?](https://support.telnyx.com/en/articles/2030667-i-received-a-port-out-notification)
-
----
-
-Related Articles
-
-[Port numbers to Telnyx](https://support.telnyx.com/en/articles/1130634-port-numbers-to-telnyx)[Porting away from Twilio](https://support.telnyx.com/en/articles/3947850-porting-away-from-twilio)[Porting away from Bandwidth](https://support.telnyx.com/en/articles/3947875-porting-away-from-bandwidth)[Porting Requirements](https://support.telnyx.com/en/articles/6460777-porting-requirements)[Porting away from Skype](https://support.telnyx.com/en/articles/10715399-porting-away-from-skype)
-
-Did this answer your question?
-
-😞😐😃

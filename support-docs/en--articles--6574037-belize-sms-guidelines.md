@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6574037-belize-sms-guidelines
 title: "Belize: SMS Guidelines"
 description: "SMS Guidelines for Belize including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Belize: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 97cdc657a899b15cc15bb6c691a9bf9e25d2c9e8621bb5aabadba7c66d2949de
+content_hash: 59c5726a4cd6a202b6d3b027807f7afd4cdbb02aa20cde8a042b243ec052e857
 ---
 
 
@@ -59,13 +59,3 @@ Please make sure to always refer to our [Acceptable Use Policy for Messaging](ht
 For more information on Alpha Sender ID registration kindly reach out to [alpha\_sender\_id@telnyx.com](mailto:alpha_sender_id@telnyx.com).
 
 ##
-
----
-
-Related Articles
-
-[Norway: SMS Guidelines](https://support.telnyx.com/en/articles/6560704-norway-sms-guidelines)[Azerbaijan: SMS Guidelines](https://support.telnyx.com/en/articles/6596144-azerbaijan-sms-guidelines)[Chad: SMS Guidelines](https://support.telnyx.com/en/articles/6601133-chad-sms-guidelines)[Pakistan: SMS Guidelines](https://support.telnyx.com/en/articles/6679149-pakistan-sms-guidelines)[Palestinian Territory: SMS Guidelines](https://support.telnyx.com/en/articles/6679259-palestinian-territory-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

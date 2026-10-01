@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3947850-porting-away-from-twi
 title: "Porting away from Twilio"
 description: "Navigate the voip.ms porting process with ease. See Telnyx guidance and requirements Learn more about Porting away from Twilio with Telnyx."
 scraped: 2026-07-08
-content_hash: 207585e88e50a87f9573b4dc0448869b1411062dd99e1e3c2c034e8fabd5dfc7
+content_hash: f41e03103a0f04d14f84ee621c3e14d0a82fc6d6afda1e81857df2ab97d22a44
 ---
 
 
@@ -45,13 +45,3 @@ Twilio handles toll-free port out requests themselves directly. When they receiv
 
 Twilio does not leverage BTNs (billing telephone numbers) or Account numbers. You can use any of the numbers that you are porting away from Twilio as the BTN and as the Account Number too.
 ​
-
----
-
-Related Articles
-
-[Porting Policy & Procedure](https://support.telnyx.com/en/articles/1130630-porting-policy-procedure)[Port numbers away from Telnyx](https://support.telnyx.com/en/articles/2033789-port-numbers-away-from-telnyx)[Porting away from Bandwidth](https://support.telnyx.com/en/articles/3947875-porting-away-from-bandwidth)[Porting Requirements](https://support.telnyx.com/en/articles/6460777-porting-requirements)[Porting away from Skype](https://support.telnyx.com/en/articles/10715399-porting-away-from-skype)
-
-Did this answer your question?
-
-😞😐😃

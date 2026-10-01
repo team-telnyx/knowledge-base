@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5810663-flyingvoice-telnyx-se
 title: "Flyingvoice: Telnyx Setup"
 description: "Learn how to set up and configure your Flyingvoice IP phone to work with… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 7db91b66d6820f525fc429ec49f5594d6d03ebf734821adbdce577c2bc5558f4
+content_hash: 3b6b88ccd7787d42901aa61a469b6a0b96c5940b277d9020bd79083b050ad9f6
 ---
 
 
@@ -184,13 +184,3 @@ Additionally, check out:
 * [Flyingvoice documentation, firmware, and other product detail](https://www.flyingvoice.com/download.html)
 * [Flyingvoice training videos](https://www.flyingvoice.com/training.html)
 * [Flyingvoice FAQs](https://www.flyingvoice.com/Faq/index.html) (includes support link)
-
----
-
-Related Articles
-
-[Gigaset A510: Telnyx Setup](https://support.telnyx.com/en/articles/5815209-gigaset-a510-telnyx-setup)[Snom C520: Telnyx Setup](https://support.telnyx.com/en/articles/5815678-snom-c520-telnyx-setup)[Grandstream GXP: Telnyx Setup](https://support.telnyx.com/en/articles/5815720-grandstream-gxp-telnyx-setup)[Audiocodes 400HD](https://support.telnyx.com/en/articles/5819923-audiocodes-400hd)[Fanvil A32i: Telnyx Setup](https://support.telnyx.com/en/articles/6056428-fanvil-a32i-telnyx-setup)
-
-Did this answer your question?
-
-😞😐😃

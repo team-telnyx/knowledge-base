@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5073043-the-rate-sheet-and-lr
 title: "The Rate Sheet and LRN explained"
 description: "Why a supposed Rate Sheet price may not match the actual call price or why the rate limit may trigger earlier than… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 969c476529b99eed7b5996b2f65d7793f2507c08dfdd062e01e98652645933b5
+content_hash: 14b4aecf835281c55879bd95169fba2978de10f5e733fb1a38d3fbfe63a73911
 ---
 
 
@@ -32,13 +32,3 @@ The LRN of a number can be found using the Lookup tool in the Mission Control Po
 For instance, numbers with the prefix +1 941 529 have an LRN beginning with +1 813 568. Since rates are based on the LRN, the applicable pricing is listed under the +1 813 568 destination prefix, not the original number.
 
 You can read more about how to use our Lookup tool [here](https://support.telnyx.com/en/articles/4366901-your-number-lookup-guide).
-
----
-
-Related Articles
-
-[Telnyx SIP Response Codes](https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes)[Updates to Global Conversational Rate Deck](https://support.telnyx.com/en/articles/6974437-updates-to-global-conversational-rate-deck)
-
-Did this answer your question?
-
-😞😐😃

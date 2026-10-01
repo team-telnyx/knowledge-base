@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1295514-grandstream-umc6202-a
 title: "Grandstream UMC6202: Auth Setup"
 description: "This article will provide you steps for configuring your Grandstream UMC6202 with Telnyx phone service using… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 3f9eb90f7a2bd3fb73ab47c25672912fb6143933e74edc57f45983b1a5687628
+content_hash: 45026d40c883a70859b2498b5455b6e51ac376a22b4d7af9e2f8c6251a891fa3
 ---
 
 
@@ -207,13 +207,3 @@ Additionally, you can check out:
 * [Grandstream firmware updates](https://www.grandstream.com/support/firmware)
 * How-to guides for [UCM6200 series](https://www.grandstream.com/support/resources?title=UCM6200%20series) and [UCM6510 series](https://www.grandstream.com/support/resources?title=UCM6510)
 * [Administrator's user manual](https://www.grandstream.com/hubfs/Product_Documentation/ucm62xx_usermanual.pdf)
-
----
-
-Related Articles
-
-[Grandstream: IP Auth Setup](https://support.telnyx.com/en/articles/2950523-grandstream-ip-auth-setup)[Grandstream UCM6xxx: SIP Trunks](https://support.telnyx.com/en/articles/5748258-grandstream-ucm6xxx-sip-trunks)[Grandstream GRP260x: SIP Trunk](https://support.telnyx.com/en/articles/6169513-grandstream-grp260x-sip-trunk)[Grandstream GXP1700: SIP Trunk](https://support.telnyx.com/en/articles/6184520-grandstream-gxp1700-sip-trunk)[Grandstream GXV3370](https://support.telnyx.com/en/articles/6187576-grandstream-gxv3370)
-
-Did this answer your question?
-
-😞😐😃

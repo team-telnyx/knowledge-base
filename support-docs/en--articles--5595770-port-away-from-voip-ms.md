@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5595770-port-away-from-voip-m
 title: "Port away from voip.ms"
 description: "Detailed steps to port away from voip.ms to Telnyx with key account information. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 07b7d8ac9dcfd71a76ae92fc494699a0ee884d00f823964f367a5f872f600bf5
+content_hash: b125ba9dae5e58e5012e25f464fa7e15759986d04f9420cea265020f251dc557
 ---
 
 
@@ -70,13 +70,3 @@ To request an expedite, please submit your port request and open a live chat wit
 ## Please note that expedites cannot guarantee same-day porting. We will do everything in our power to port orders as soon as possible but depending on the losing carrier this is not always possible.
 
 ## Please ensure that all information submitted in the port request is accurate. Rejections will cause delays. The expedite fee is still applicable even if we cannot provide same-day porting.
-
----
-
-Related Articles
-
-[Port numbers away from Telnyx](https://support.telnyx.com/en/articles/2033789-port-numbers-away-from-telnyx)[Porting away from Twilio](https://support.telnyx.com/en/articles/3947850-porting-away-from-twilio)[Porting away from Bandwidth](https://support.telnyx.com/en/articles/3947875-porting-away-from-bandwidth)[Porting away from Skype](https://support.telnyx.com/en/articles/10715399-porting-away-from-skype)[Porting Numbers Away from Aircall to Telnyx](https://support.telnyx.com/en/articles/14708128-porting-numbers-away-from-aircall-to-telnyx)
-
-Did this answer your question?
-
-😞😐😃

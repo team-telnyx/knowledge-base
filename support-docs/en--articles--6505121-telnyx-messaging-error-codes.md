@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6505121-telnyx-messaging-erro
 title: "Telnyx Messaging Error Codes"
 description: "This article provides a breakdown of the messaging error codes used by Telnyx and their meanings! See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 442e1de50aee9320b592e6a73351e7713e79393c20b218cf374961c9f64f922e
+content_hash: 5968f78112b70fef6cba8544791e9b19f29c986034a69b8e491943f0fe3429b6
 ---
 
 
@@ -322,13 +322,3 @@ These error codes indicate there was an issue when delivering the sent SMS using
 * **Solution**: Limit the amount of messages sent per minute by your campaign. Refer to Telnyx's FAQ to get a deeper understanding of the throughput limits based on your brand score.
 
 * [Frequently Asked Questions about 10DLC](https://support.telnyx.com/en/articles/3679260-frequently-asked-questions-about-10dlc)
-
----
-
-Related Articles
-
-[Frequently asked questions about 10DLC](https://support.telnyx.com/en/articles/3679260-frequently-asked-questions-about-10dlc)[Telnyx SIP Response Codes](https://support.telnyx.com/en/articles/4409457-telnyx-sip-response-codes)[Telnyx & 10DLC Compliance](https://support.telnyx.com/en/articles/5664840-telnyx-10dlc-compliance)[Telnyx 10DLC Compliance Directory](https://support.telnyx.com/en/articles/6417677-telnyx-10dlc-compliance-directory)[Chiro8000 and Telnyx Integration](https://support.telnyx.com/en/articles/7885470-chiro8000-and-telnyx-integration)
-
-Did this answer your question?
-
-😞😐😃

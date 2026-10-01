@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6534652-colombia-sms-guidelin
 title: "Colombia: SMS Guidelines"
 description: "SMS Guidelines for Colombia including MCC and Dial Code. See Telnyx guidance and requirements Learn more about Colombia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: fd10d4301ccf24e931eddb778d72e4a4ba94ca2e72a4abfb2bac9a6cac056e96
+content_hash: 5ae61848451704cd1a543860cb58387f908302572c364576195e73479f09e197
 ---
 
 
@@ -35,13 +35,3 @@ Adult content must be only sent to end-users of legal age if previously requeste
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Philippines: SMS Guidelines](https://support.telnyx.com/en/articles/6531682-philippines-sms-guidelines)[Congo: SMS Guidelines](https://support.telnyx.com/en/articles/6661326-congo-sms-guidelines)[Guinea-Bissau: SMS Guidelines](https://support.telnyx.com/en/articles/6671725-guinea-bissau-sms-guidelines)[Oman: SMS Guidelines](https://support.telnyx.com/en/articles/6679138-oman-sms-guidelines)[Rwanda: SMS Guidelines](https://support.telnyx.com/en/articles/6679407-rwanda-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

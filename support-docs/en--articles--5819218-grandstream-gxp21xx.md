@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5819218-grandstream-gxp21xx
 title: "Grandstream GXP21XX"
 description: "Learn how to set up and configure a Grandstream GXP21XX (2135, 2170) IP Phone and connect it to your Telnyx account. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 339063358281cef64940a594f51106147ae98d4fc70bc615ae925fdba4efdac0
+content_hash: b5816aa5a4e5e2a68a31d3854f8f67ebd74e082548259b4a0b3c5fcb4e775763
 ---
 
 
@@ -151,13 +151,3 @@ Review our [getting started with guide](https://support.telnyx.com/en/articles/1
 Additionally, check out:
 
 * [GXP21XX documentation](https://www.grandstream.com/hubfs/Product_Documentation/gxp21xx_administration_guide.pdf)
-
----
-
-Related Articles
-
-[Configuring Grandstream GXP16XX with Telnyx](https://support.telnyx.com/en/articles/1130660-configuring-grandstream-gxp16xx-with-telnyx)[Grandstream GXP: Telnyx Setup](https://support.telnyx.com/en/articles/5815720-grandstream-gxp-telnyx-setup)[Grandstream GRP260x: SIP Trunk](https://support.telnyx.com/en/articles/6169513-grandstream-grp260x-sip-trunk)[Grandstream GXP1700: SIP Trunk](https://support.telnyx.com/en/articles/6184520-grandstream-gxp1700-sip-trunk)[Grandstream GXV3370](https://support.telnyx.com/en/articles/6187576-grandstream-gxv3370)
-
-Did this answer your question?
-
-😞😐😃

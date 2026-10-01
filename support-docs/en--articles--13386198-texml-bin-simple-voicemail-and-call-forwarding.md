@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/13386198-texml-bin-simple-voi
 title: "TeXML Bin Simple Voicemail and Call Forwarding"
 description: "Get started quickly with Telnyx Programmable Voice and the TexML Bin feature. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: bb358a304d55f846c1dbebdd05b2d06eea44d159dee64d6b86c1a8357d0b6705
+content_hash: a48b99cab0aff231e16ea58b7281027bdb9b3a1110db887e75573a7e6d7dfad1
 ---
 
 
@@ -87,13 +87,3 @@ Test your application by:
 *Retrieving your voicemail*
 
 And that’s it! If you have any questions about this tutorial or any of our products, reach out to our support team through the chat in the bottom right-hand corner.
-
----
-
-Related Articles
-
-[Does Telnyx support conference calls?](https://support.telnyx.com/en/articles/1130677-does-telnyx-support-conference-calls)[TeXML and Telnyx Voice API compatibility](https://support.telnyx.com/en/articles/8118086-texml-and-telnyx-voice-api-compatibility)[Real-Time Transcription](https://support.telnyx.com/en/articles/8292490-real-time-transcription)[How External Call Transfers Work](https://support.telnyx.com/en/articles/13117410-how-external-call-transfers-work)[Twilio TwiML Conference on Telnyx](https://support.telnyx.com/en/articles/13389311-twilio-twiml-conference-on-telnyx)
-
-Did this answer your question?
-
-😞😐😃

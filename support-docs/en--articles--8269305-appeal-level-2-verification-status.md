@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8269305-appeal-level-2-verifi
 title: "Appeal Level 2 Verification Status"
 description: "Unlock Telnyx platform potential with Level 2 Verification. See Telnyx guidance and requirements Learn more about Appeal Level 2 Verification Status with."
 scraped: 2026-07-08
-content_hash: a46e2d53a787a5883502ce68461f8e6290fa2c558b0bf38a5312ab3120f57062
+content_hash: 833772a5a2c225a04e7502babc37ac126c89dec6136bb52f36f814e5ee02a9a5
 ---
 
 
@@ -72,13 +72,3 @@ If you have been denied L2 Verification and would like to appeal your verificati
 * Have you ensured your Telnyx account details match any payment methods used to make a payment? If you have not added a [payment method](https://portal.telnyx.com/#/app/account/billing), please do so now.
 
 Please send your appeal and responses to [kyc.verifications@telnyx.com](mailto:kyc.verifications@telnyx.com) and we will be happy to review. In some circumstances, our review team may require scanned documentation in order to verify your account.
-
----
-
-Related Articles
-
-[Account Verification](https://support.telnyx.com/en/articles/1130595-account-verification)[Introducing the Verify API](https://support.telnyx.com/en/articles/5367966-introducing-the-verify-api)[Telnyx Verify: 2FA made easy](https://support.telnyx.com/en/articles/5701653-telnyx-verify-2fa-made-easy)[Verified Numbers FAQ](https://support.telnyx.com/en/articles/6790265-verified-numbers-faq)[Verified Numbers](https://support.telnyx.com/en/articles/6988813-verified-numbers)
-
-Did this answer your question?
-
-😞😐😃

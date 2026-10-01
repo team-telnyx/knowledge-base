@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5467032-slovakia-did-requirem
 title: "Slovakia DID Requirements"
 description: "Here you will find a list of detailed requirements for acquiring Slovakia numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 29e93a56efa456990e4c6ae20fcd504ccad8c781321f1ec733580a4470267b18
+content_hash: 80c4fa956394e9f948da54c2dc2e7cc6b95fd124cea64864cdaafa2f0c3dd01c
 ---
 
 
@@ -100,13 +100,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Bulgaria DID Requirements](https://support.telnyx.com/en/articles/3506097-bulgaria-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Jamaica DID Requirements](https://support.telnyx.com/en/articles/5466658-jamaica-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)[Serbia DID Requirements](https://support.telnyx.com/en/articles/5467021-serbia-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

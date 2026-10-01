@@ -14,7 +14,8 @@ export function rewriteLegacyArticleLinks(body: string): string {
 
 const FEEDBACK_PROMPT = "Did this answer your question?";
 const EMOJI_REACTIONS = /^[\s😞😐😃]+$/u;
-const LINK_ONLY_LINE = /^\s*(\[[^\]]*\]\([^)]*\)\s*)+$/;
+// A scraped link label can contain bracketed text, such as "[BETA]".
+const LINK_ONLY_LINE = /^\s*(\[(?:[^\[\]]|\[[^\[\]]*\])*\]\([^)]*\)\s*)+$/;
 
 // Every scraped body ends with Intercom's feedback widget ("Did this answer
 // your question?" + emoji reactions), usually preceded by a plain-text

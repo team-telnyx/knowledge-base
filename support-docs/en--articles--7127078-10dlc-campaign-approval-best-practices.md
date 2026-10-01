@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/7127078-10dlc-campaign-approv
 title: "10DLC Campaign Approval Best Practices"
 description: "Follow these best practices to get your 10DLC campaigns approved for the vetting process. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 787e0968c9f64ea62994cd98a05f97ad3f2cc56c53dea6f130a99d03be65f28c
+content_hash: facd8c73611fd5d7bfc37ee015a8209c4bfab023897a67364a2621cb59110e90
 ---
 
 
@@ -47,13 +47,3 @@ To ensure your Campaigns are approved in this vetting process, please follow the
 ## What can I do if my campaigns are rejected?
 
 Someone from our team will reach out to you to help you fix your Campaign registration or re-submit a new Campaign.
-
----
-
-Related Articles
-
-[How to create a 10DLC campaign](https://support.telnyx.com/en/articles/6339152-how-to-create-a-10dlc-campaign)[Messaging - 10DLC Campaign Checklist](https://support.telnyx.com/en/articles/9038141-messaging-10dlc-campaign-checklist)[10DLC Campaign Compliance Requirements](https://support.telnyx.com/en/articles/9940291-10dlc-campaign-compliance-requirements)[10DLC Carrier Error Codes Explanations](https://support.telnyx.com/en/articles/10547022-10dlc-carrier-error-codes-explanations)[Guide to Sole Proprietor 10DLC Brand and Campaign Registration](https://support.telnyx.com/en/articles/13545282-guide-to-sole-proprietor-10dlc-brand-and-campaign-registration)
-
-Did this answer your question?
-
-😞😐😃

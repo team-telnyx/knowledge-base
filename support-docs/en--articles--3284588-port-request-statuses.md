@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3284588-port-request-statuses
 title: "Port Request Statuses"
 description: "Here you will find explanations of different Port Request statuses via API. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: b334b6b275900e7b374df31481407b799a9ac60ba6a1992283b6bf35de66c042
+content_hash: 88aadabc3f72e2067c059d437295c806c55b0e71e24abfb038167fd1befd49a1
 ---
 
 
@@ -63,13 +63,3 @@ This is the status of a port request once Telnyx receive the cancellation reques
 This is the status of a port request once Telnyx receive the confirmation of the cancellation of the port request from the losing carrier. When a port request is "cancelled" this means that Telnyx have received confirmation from the losing carrier. Generally, this means that the port is confirmed as cancelled on the losing carrier's side and they will not remove the number(s) from routing on/after the requested/confirmed porting date.
 
 ​
-
----
-
-Related Articles
-
-[Porting Policy & Procedure](https://support.telnyx.com/en/articles/1130630-porting-policy-procedure)[Automated Port Request Validation](https://support.telnyx.com/en/articles/1516776-automated-port-request-validation)[Port-In Best Practices](https://support.telnyx.com/en/articles/2030770-port-in-best-practices)[United Kingdom Number Porting](https://support.telnyx.com/en/articles/3267693-united-kingdom-number-porting)[US / CA Toll Free Number Porting](https://support.telnyx.com/en/articles/8673249-us-ca-toll-free-number-porting)
-
-Did this answer your question?
-
-😞😐😃

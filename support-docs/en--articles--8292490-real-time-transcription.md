@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8292490-real-time-transcripti
 title: "Real-Time Transcription"
 description: "Enable real-time transcription for calls with Telnyx. See Telnyx guidance and requirements Learn more about Real-Time Transcription with Telnyx."
 scraped: 2026-07-08
-content_hash: e72e01146ba2d5b54c28f2d8df89d985011e6f1237221f0fc5afbc1115e97ecc
+content_hash: 92e11595adc3f398c878f2b097a2f5ec263008fc53002426cba2cdbcf1268418
 ---
 
 
@@ -101,13 +101,3 @@ You have 2 options when it comes to the cost of Speech to Text. The Speech to Te
 ![A robot hand writing a transcription of a phone call.](_images/3b0cd8d893c4b8d9.png)
 
 ​
-
----
-
-Related Articles
-
-[What is Telnyx?](https://support.telnyx.com/en/articles/1130637-what-is-telnyx)[ElevateAI Proof-of-Concept Setup Guide](https://support.telnyx.com/en/articles/6837118-elevateai-proof-of-concept-setup-guide)[Key Configuration Notes for Noise Suppression](https://support.telnyx.com/en/articles/9260287-key-configuration-notes-for-noise-suppression)[TeXML Bin Simple Voicemail and Call Forwarding](https://support.telnyx.com/en/articles/13386198-texml-bin-simple-voicemail-and-call-forwarding)[Twilio TwiML Conference on Telnyx](https://support.telnyx.com/en/articles/13389311-twilio-twiml-conference-on-telnyx)
-
-Did this answer your question?
-
-😞😐😃

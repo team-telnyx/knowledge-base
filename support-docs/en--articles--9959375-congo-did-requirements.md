@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/9959375-congo-did-requirement
 title: "Congo DID Requirements"
 description: "Requirements to acquire Democratic Republic of the Congo numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: a89286eff779b779af98a0dde5ecd0856749e72bbdfa3dfdb5d16f39fe188ec4
+content_hash: ecdb3ec5aa05d1053d1930c74f2f72c5887c1035a289fa4ddf71baa1f2ec8162
 ---
 
 
@@ -50,13 +50,3 @@ For address verification:
 \* Proof of address (dated within 3 months)
 
 Please note that once the documentation is received it will take approximately 72 hours to validate the information and activate the number for use.
-
----
-
-Related Articles
-
-[Benin DID Requirements](https://support.telnyx.com/en/articles/9959295-benin-did-requirements)[Rwanda DID Requirements](https://support.telnyx.com/en/articles/9961409-rwanda-did-requirements)[Zambia DID Requirements](https://support.telnyx.com/en/articles/10058901-zambia-did-requirements)[Kuwait DID Requirements](https://support.telnyx.com/en/articles/12640555-kuwait-did-requirements)[Guatemala DID Requirements](https://support.telnyx.com/en/articles/15397771-guatemala-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

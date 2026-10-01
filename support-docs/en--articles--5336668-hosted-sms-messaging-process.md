@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5336668-hosted-sms-messaging-
 title: "Hosted SMS Messaging Process"
 description: "Learn how Telnyx streamlines hosted messaging transfers. See Telnyx guidance and requirements Learn more about Hosted SMS Messaging Process with Telnyx."
 scraped: 2026-07-08
-content_hash: 1c3d88996564f69f42b2d427af135aa253fba0b6e450ae1e913e52124b27163e
+content_hash: 90f8d09ad555a8b3402a8cb5d671b446e440aefd41a6f992a85d44964501dc1d
 ---
 
 
@@ -122,13 +122,3 @@ Once the order is complete you can view your inventory of hosted messaging numbe
 * <https://developers.telnyx.com/docs/messaging/messages/hosted-sms>
 * <https://telnyx.com/resources/hosted-messaging-telnyx>
 * <https://portal.telnyx.com/#/pricing/messaging>
-
----
-
-Related Articles
-
-[Porting away from Twilio](https://support.telnyx.com/en/articles/3947850-porting-away-from-twilio)[Telnyx Messaging Error Codes](https://support.telnyx.com/en/articles/6505121-telnyx-messaging-error-codes)[Verified Numbers FAQ](https://support.telnyx.com/en/articles/6790265-verified-numbers-faq)[SMS for Ported In Phone Numbers](https://support.telnyx.com/en/articles/7183887-sms-for-ported-in-phone-numbers)[US / CA Toll Free Number Porting](https://support.telnyx.com/en/articles/8673249-us-ca-toll-free-number-porting)
-
-Did this answer your question?
-
-😞😐😃

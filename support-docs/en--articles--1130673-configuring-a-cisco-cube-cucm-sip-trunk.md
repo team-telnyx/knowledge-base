@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130673-configuring-a-cisco-c
 title: "Configuring a Cisco CUBE/CUCM SIP Trunk"
 description: "Here we will walk you through configuring a Cisco CUBE/CUCM SIP user/pass trunk with Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 3f6d35ac37007822a0be176441a3cb653a9c9e2f81f37cd8ad729e87205cb3fa
+content_hash: b4591a0e46e3f57bcaf1d5766806595081af7d69d4b522ed2f24c07e7327a8fc
 ---
 
 
@@ -226,13 +226,3 @@ Review our [getting started with guide](https://support.telnyx.com/en/articles/1
 Additionally, check out:
 
 * [Cisco CUBE/CUCM integration documentation](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/117300-configure-cube-00.html)
-
----
-
-Related Articles
-
-[Configuring a Cisco CUBE/CUCM IP Trunk](https://support.telnyx.com/en/articles/1130606-configuring-a-cisco-cube-cucm-ip-trunk)[Cisco: Configure a Cisco CME IP Trunk](https://support.telnyx.com/en/articles/1130612-cisco-configure-a-cisco-cme-ip-trunk)[Configuring an AVAYA IP trunk with Telnyx](https://support.telnyx.com/en/articles/1130627-configuring-an-avaya-ip-trunk-with-telnyx)[Configuring a Cisco CME Credentials Trunk](https://support.telnyx.com/en/articles/1130668-configuring-a-cisco-cme-credentials-trunk)[Configuring a GoAutoDial PBX SIP Trunk](https://support.telnyx.com/en/articles/1130694-configuring-a-goautodial-pbx-sip-trunk)
-
-Did this answer your question?
-
-😞😐😃

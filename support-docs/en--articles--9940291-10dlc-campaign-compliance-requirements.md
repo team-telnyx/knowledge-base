@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/9940291-10dlc-campaign-compli
 title: "10DLC Campaign Compliance Requirements"
 description: "Requirements to get a 10DLC Campaign… See Telnyx guidance and requirements Learn more about 10DLC Campaign Compliance Requirements with Telnyx."
 scraped: 2026-07-08
-content_hash: 93cfb8acec35799dea359c45b373620d2a37db9d4b12700ef90e8bc7a3bb438a
+content_hash: 0d4a7b26318a40939a27bba44849d9a3073a612e546d32730d0af00b39a06482
 ---
 
 
@@ -302,13 +302,3 @@ when all programs operate on the same Short Code.
 4) Opt-In Confirmation: Messaging programs should send a single opt-in confirmation
 
 message displaying information to verify the Consumer’s enrollment, identify the program, and describe how to opt out. Additionally, opt-in messages must contain the program (brand) name or product description, customer care contact information, message frequency disclosure, “message and data rates may apply” disclosure (non-FTEU), and opt-out instructions (reply STOP to opt-out).
-
----
-
-Related Articles
-
-[10DLC Campaign Approval Best Practices](https://support.telnyx.com/en/articles/7127078-10dlc-campaign-approval-best-practices)[Messaging - 10DLC Campaign Checklist](https://support.telnyx.com/en/articles/9038141-messaging-10dlc-campaign-checklist)[10DLC Carrier Error Codes Explanations](https://support.telnyx.com/en/articles/10547022-10dlc-carrier-error-codes-explanations)[10DLC Privacy Policy](https://support.telnyx.com/en/articles/10645583-10dlc-privacy-policy)[Short Code Compliance Quick Reference Guide](https://support.telnyx.com/en/articles/11385511-short-code-compliance-quick-reference-guide)
-
-Did this answer your question?
-
-😞😐😃

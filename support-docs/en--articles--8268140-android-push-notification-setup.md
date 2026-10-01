@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8268140-android-push-notifica
 title: "Android Push Notification Setup"
 description: "Integrate Android push notifications with Telnyx's WebRTC SDK. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: b76e8e6abda45a6755788988251fa7ddf3bc92c99bc3199e5c774de92aff4044
+content_hash: 52ce9507052e8559bae80098f7a81d1eda90bfbb0c1cf6ed945db9470c245334
 ---
 
 
@@ -106,13 +106,3 @@ Once this class is created, remember to update your manifest and specify the new
 <https://firebase.google.com/docs/cloud-messaging/android/client#manifest>
 
 You are now ready to receive push notifications via Firebase Messaging Service.
-
----
-
-Related Articles
-
-[MicroSIP: Setup with Telnyx](https://support.telnyx.com/en/articles/6133145-microsip-setup-with-telnyx)[Grandstream Wave Lite (Android)](https://support.telnyx.com/en/articles/6184897-grandstream-wave-lite-android)[Grandstream GXV3370](https://support.telnyx.com/en/articles/6187576-grandstream-gxv3370)[Telephony Credentials: Types](https://support.telnyx.com/en/articles/7029684-telephony-credentials-types)[How to Setup iOS Push Notifications](https://support.telnyx.com/en/articles/8268170-how-to-setup-ios-push-notifications)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5800399-synway-uc-200-telnyx-
 title: "Synway UC-200: Telnyx Setup"
 description: "Discover the future of VoIP with Synway's UC-200. See Telnyx guidance and requirements Learn more about Synway UC-200: Telnyx Setup with Telnyx."
 scraped: 2026-07-08
-content_hash: f0c8d387b62d7159281ee84e30b6405e14416fb860a454fa65931f2e626aac3a
+content_hash: db538770e49cf0bbb67e7d279a3c79df4aae952bdaede5c6702348796176d6a1
 ---
 
 
@@ -171,13 +171,3 @@ Additionally, check out:
 * [Download drivers](https://wiki.synway.net/index.php/Drivers_Download)
 * [Demo and other tools](https://wiki.synway.net/index.php/Demos_&_Tools)
 * [Synway contact/support](https://www.synway.net/messagea/Product_Inquiry.html)
-
----
-
-Related Articles
-
-[Configuring an Elastix 4 PBX IP Trunk](https://support.telnyx.com/en/articles/1130622-configuring-an-elastix-4-pbx-ip-trunk)[How to configure a Thirdlane PBX](https://support.telnyx.com/en/articles/1130631-how-to-configure-a-thirdlane-pbx)[Configuring an Elastix 4 PBX Trunk](https://support.telnyx.com/en/articles/1130654-configuring-an-elastix-4-pbx-trunk)[Yeastar S-Series: Telnyx SIP](https://support.telnyx.com/en/articles/5748952-yeastar-s-series-telnyx-sip)[How to configure Yeastar P-series](https://support.telnyx.com/en/articles/13375115-how-to-configure-yeastar-p-series)
-
-Did this answer your question?
-
-😞😐😃

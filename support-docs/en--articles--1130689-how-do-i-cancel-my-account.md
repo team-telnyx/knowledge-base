@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130689-how-do-i-cancel-my-ac
 title: "How do I cancel my account"
 description: "Unfortunately things can change and you might need to cancel your account. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 14bd1bb9c24d28ff85dda954c96bc3ebf44bbad9788c1f5d7aad70a6b7e677ad
+content_hash: 4224a12ac227436224ac789e5a28d608316a010b09d13d7b29b4f2b2a0f75a9f
 ---
 
 
@@ -42,13 +42,3 @@ The **Security Passphrase** is not the account password used to login. You can f
 ## How do I un-cancel / re-enable my account
 
 To un-cancel or re-enable a cancelled account, please email [support@telnyx.com](mailto:support@telnyx.com) from the email address you'd like to activate again or if you are the organisation owner of a sub member who has been cancelled, please provide their email address.
-
----
-
-Related Articles
-
-[How do I test E911 service?](https://support.telnyx.com/en/articles/1130709-how-do-i-test-e911-service)[I Received a Port-Out Notification](https://support.telnyx.com/en/articles/2030667-i-received-a-port-out-notification)[How to setup your Account Settings](https://support.telnyx.com/en/articles/4280610-how-to-setup-your-account-settings)[How to Sign Up for a Telnyx account](https://support.telnyx.com/en/articles/5295540-how-to-sign-up-for-a-telnyx-account)[Telnyx Freemium Accounts](https://support.telnyx.com/en/articles/14327893-telnyx-freemium-accounts)
-
-Did this answer your question?
-
-😞😐😃

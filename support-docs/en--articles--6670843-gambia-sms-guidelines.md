@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6670843-gambia-sms-guidelines
 title: "Gambia: SMS Guidelines"
 description: "Sending SMS to Gambia? See Telnyx guidance and requirements Learn more about Gambia: SMS Guidelines with Telnyx."
 scraped: 2026-07-08
-content_hash: 3c380229445a8e793fdd9cc857072ba2496dcfb32e95966f9e3065b7a6d2cb95
+content_hash: b87d632bce3d446388de6f934c0fbb9a7294f6a1f5a7679eb87dee7752ced882
 ---
 
 
@@ -33,13 +33,3 @@ Religious, political or adult traffic is prohibited.
 Please make sure to always refer to our [Acceptable Use Policy for Messaging](https://support.telnyx.com/en/articles/1310359-acceptable-use-policy-for-messaging).
 
 ##
-
----
-
-Related Articles
-
-[Eritrea: SMS Guidelines](https://support.telnyx.com/en/articles/6670452-eritrea-sms-guidelines)[Kenya: SMS Guidelines](https://support.telnyx.com/en/articles/6674630-kenya-sms-guidelines)[Kuwait: SMS Guidelines](https://support.telnyx.com/en/articles/6674713-kuwait-sms-guidelines)[Singapore: SMS Guidelines](https://support.telnyx.com/en/articles/6680103-singapore-sms-guidelines)[Thailand: SMS Guidelines](https://support.telnyx.com/en/articles/6683302-thailand-sms-guidelines)
-
-Did this answer your question?
-
-😞😐😃

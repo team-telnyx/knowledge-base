@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/5464157-dominican-republic-di
 title: "Dominican Republic DID requirements"
 description: "Here you will find a list of detailed requirements for acquiring Dominican Republic numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 53ad26c8469379cbf9799781b80f12a92ffbc9efc61538fcb808d46447e640a3
+content_hash: 6a015cb2e1ff1c184ebe75686ddf0bd0bc1c5400f1a1e7f99397d4c6f971265b
 ---
 
 
@@ -80,13 +80,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Monaco DID Requirements](https://support.telnyx.com/en/articles/5466798-monaco-did-requirements)[Nicaragua DID Requirements](https://support.telnyx.com/en/articles/5466838-nicaragua-did-requirements)[Paraguay DID Requirements](https://support.telnyx.com/en/articles/5466871-paraguay-did-requirements)[Serbia DID Requirements](https://support.telnyx.com/en/articles/5467021-serbia-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

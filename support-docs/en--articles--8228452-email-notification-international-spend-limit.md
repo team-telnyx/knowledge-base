@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8228452-email-notification-in
 title: "Email Notification: International Spend Limit"
 description: "In this article we will explain why you may have received this email. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: cca6b730f56e7daac8c6b27f59f409689667bb80b156e2c0a5b906d1d6a03e6f
+content_hash: 8c71491d5aee7a686d2ed0d14ba7e42f1be9f94ebe1654d5d5360fb245820b4a
 ---
 
 
@@ -68,13 +68,3 @@ Please visit your reporting section and run a [usage report](https://portal.teln
 Consider running a [detail records report](https://portal.telnyx.com/#/app/reporting/detailed-records) to see what numbers are making the calls and to what destinations.
 
 You can then use some of those example numbers to check [call flows](https://portal.telnyx.com/#/app/next/debugging/sip-call-flow-tool) and determine the source IP addresses.
-
----
-
-Related Articles
-
-[Caller ID Number Policy](https://support.telnyx.com/en/articles/3546251-caller-id-number-policy)[Setting Up a Messaging Profile](https://support.telnyx.com/en/articles/3562059-setting-up-a-messaging-profile)[PSTN Replacement / Local Calling with Telnyx](https://support.telnyx.com/en/articles/6622229-pstn-replacement-local-calling-with-telnyx)[Verified Numbers FAQ](https://support.telnyx.com/en/articles/6790265-verified-numbers-faq)[Dialing Emergency Services](https://support.telnyx.com/en/articles/8712528-dialing-emergency-services)
-
-Did this answer your question?
-
-😞😐😃

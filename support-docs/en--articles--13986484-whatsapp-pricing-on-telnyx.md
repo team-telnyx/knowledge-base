@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/13986484-whatsapp-pricing-on-
 title: "WhatsApp Pricing on Telnyx"
 description: "How WhatsApp conversation-based billing works on Telnyx, including categories and billing types. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: c5c2d8afa84fa2f3c8ffc41d130ad99378188500be16a63f43d53f87f776535c
+content_hash: 1f023ad9a43a9da1b49fbc59c69cb007328b5a4a5dfe7a4fcbc3bbd483de26cf
 ---
 
 
@@ -69,13 +69,3 @@ You can track WhatsApp messaging costs in the Telnyx Portal under **Messaging �
 ## Related Resources
 
 * [Send WhatsApp Messages (API Guide)](https://developers.telnyx.com/docs/messaging/whatsapp/send-messages)
-
----
-
-Related Articles
-
-[What is WhatsApp Business Platform?](https://support.telnyx.com/en/articles/13986480-what-is-whatsapp-business-platform)[WhatsApp Message Types Explained](https://support.telnyx.com/en/articles/13986481-whatsapp-message-types-explained)[WhatsApp 24-Hour Conversation Window](https://support.telnyx.com/en/articles/13986482-whatsapp-24-hour-conversation-window)[How to Set Up WhatsApp on Telnyx](https://support.telnyx.com/en/articles/13986485-how-to-set-up-whatsapp-on-telnyx)[WhatsApp FAQ](https://support.telnyx.com/en/articles/13986488-whatsapp-faq)
-
-Did this answer your question?
-
-😞😐😃

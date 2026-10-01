@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/3506082-bosnia-herzegovina-di
 title: "Bosnia & Herzegovina DID Requirements"
 description: "Here you will find a detailed list of requirements to acquire Bosnia & Herzegovina numbers. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 05c16f37153d04bcc8f476e7268b81302ca17fd7118da40ddc6b6440cc54786c
+content_hash: 5001844de58be777bd060d58e40deb160b67505eb8fb3bc9ec24916e50791565
 ---
 
 
@@ -106,13 +106,3 @@ Looking for a DID provider that offers [SIP trunk connections](https://telnyx.co
 * Blog: [SIP vs DID](https://telnyx.com/resources/sip-did)
 
 Blog: [How to get a VoIP number](https://telnyx.com/resources/how-to-get-a-voip-number)
-
----
-
-Related Articles
-
-[Chile DID Requirements](https://support.telnyx.com/en/articles/5464057-chile-did-requirements)[Finland DID Requirements](https://support.telnyx.com/en/articles/5465874-finland-did-requirements)[Ghana DID requirements](https://support.telnyx.com/en/articles/5466525-ghana-did-requirements)[Portugal DID Requirements](https://support.telnyx.com/en/articles/5466980-portugal-did-requirements)[Serbia DID Requirements](https://support.telnyx.com/en/articles/5467021-serbia-did-requirements)
-
-Did this answer your question?
-
-😞😐😃

@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/10715715-phone-number-orderin
 title: "Phone Number Ordering Restrictions"
 description: "Get your account Verified to remove all restrictions on phone number ordering. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 2b12431fb031e0ce8377d07af5cb4896c19f274686dde559485ddf68fea370ad
+content_hash: 033a733f7eb334d96fa86cfed16634633feb2acf65d7c2436ea495dec43185fb
 ---
 
 
@@ -90,13 +90,3 @@ Ordering restrictions will be based on the account signup date and verification 
 ---
 
 **We appreciate your understanding as we implement these changes to maintain the security and integrity of our platform.**
-
----
-
-Related Articles
-
-[Account Verification](https://support.telnyx.com/en/articles/1130595-account-verification)[Search and Buy Numbers](https://support.telnyx.com/en/articles/4380325-search-and-buy-numbers)[Verified Numbers](https://support.telnyx.com/en/articles/6988813-verified-numbers)[SMS for Ported In Phone Numbers](https://support.telnyx.com/en/articles/7183887-sms-for-ported-in-phone-numbers)[[BETA] How to Verify Phone Numbers Using DTMF (Press 1 to Verify)](https://support.telnyx.com/en/articles/13854980-beta-how-to-verify-phone-numbers-using-dtmf-press-1-to-verify)
-
-Did this answer your question?
-
-😞😐😃

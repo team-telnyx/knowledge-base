@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/2602782-ip-authentication-wit
 title: "IP Authentication with Tech Prefix"
 description: "In this article we will explain IP authentication with tech prefixes and when to use them. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: cd05690eeabbd854c81b0efe7e0090cc22e67189bf22fae84924f68d55fe0e3f
+content_hash: b86220bec3c65d9c16f3bdaf3478d0afcc621f8d160eba37b6ee519c58abe3be
 ---
 
 
@@ -43,13 +43,3 @@ It is important to note that while connections can share the same IP address, th
 
 ​
 ​
-
----
-
-Related Articles
-
-[Configuring an Elastix 4 PBX IP Trunk](https://support.telnyx.com/en/articles/1130622-configuring-an-elastix-4-pbx-ip-trunk)[Configuring an AVAYA IP trunk with Telnyx](https://support.telnyx.com/en/articles/1130627-configuring-an-avaya-ip-trunk-with-telnyx)[Ip Authentication with X-Telnyx-Token](https://support.telnyx.com/en/articles/4860170-ip-authentication-with-x-telnyx-token)[FreePBX V15 IP Trunk - ChanSIP Tutorial](https://support.telnyx.com/en/articles/5467232-freepbx-v15-ip-trunk-chansip-tutorial)[FreePBX V15: IP Trunk - PJSIP](https://support.telnyx.com/en/articles/5619595-freepbx-v15-ip-trunk-pjsip)
-
-Did this answer your question?
-
-😞😐😃
