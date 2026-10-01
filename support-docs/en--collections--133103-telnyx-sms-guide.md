@@ -93,7 +93,7 @@ Assigning numbers to your campaign is the third step to becoming compliant with 
 
 In this article, we're breaking down shared campaigns, and showing you how to use them within your Telnyx account.
 
-[10DLC Shared Campaigns](https://support.telnyx.com/en/articles/5617538-10dlc-shared-campaigns)
+[10DLC Shared Campaigns](https://support.telnyx.com/en/articles/6339158-bring-campaigns-to-telnyx)
 
 Register your campaigns directly with the Campaign Registry and import them to your Telnyx account.
 
@@ -137,7 +137,7 @@ How to fill out the CTA/Message Flow field in your 10dlc campaign registration
 
 Required verbiage in your 10dlc privacy policy or on the opt in form
 
-[Telnyx 10DLC Process](https://support.telnyx.com/en/articles/10646301-telnyx-10dlc-process)
+[Telnyx 10DLC Process](https://support.telnyx.com/en/articles/6339152-how-to-create-a-10dlc-campaign)
 
 Guide to the 10DLC Process for Outbound Texts in the US
 
