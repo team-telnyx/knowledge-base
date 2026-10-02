@@ -27,6 +27,9 @@ The store keeps the complete routing inventory outside CloudFront Functions'
 - `/en`, `/en/`, `/en/index.html`, `/index.html` → HTTP 301 `/`.
 - Bare numeric article/collection IDs, old titles, and trailing slash variants →
   one HTTP 301 to the current canonical URL, on the same host.
+- `/en/articles/<slug>.md` and `/en/collections/<slug>.md` → pass through to
+  the origin where `.md` files are uploaded alongside HTML, served as
+  `text/markdown; charset=utf-8`.
 - PR 51 IDs 10646301 → 6339152 and 5617538 → 6339158.
 - Previous `/article/en--articles--ID-title`, `/article/ID-title`, and
   `/collection/ID-title` paths resolve by ID. Known former synthetic collection
