@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-10-01T19:27:57Z
+updated_at: 2026-10-02T06:58:09Z
 ---
 
 # Telnyx Knowledge Base
@@ -2160,3 +2160,7 @@ updated_at: 2026-10-01T19:27:57Z
 - [Transition of Canadian Numbers to from Global Channel Billing US Zone to Zone B](support-docs/articles/9670281-transition-of-canadian-numbers-to-from-global-channel-billing-us-zone-to-zone-b.md) — There are a few steps to ensure a smooth transition to Zone B Channels.
 
 - [Rate Limits for Messaging](support-docs/articles/96934-rate-limits-for-messaging.md) — ​Important: Your account-specific messaging rate limits may differ from the default limits shown below. You can check your current limits in the Messagingsection of your Telnyx Portal.
+
+- [Spain: SMS Guidelines](support-docs/articles/6545140-spain-sms-guidelines.md) — Sending SMS to Spain? Check out our comprehensive guidelines to ensure compliance in Spain.
+
+- [Austria: SMS Guidelines](support-docs/articles/6560660-austria-sms-guidelines.md) — SMS Guidelines for Austria including MCC and Dial Code. Get more messaging details here.
