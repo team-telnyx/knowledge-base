@@ -17,85 +17,87 @@ In order to purchase a Germany number you will need to provide the following:
 ## **Local Numbers in Germany**
 
 For **personal identity** verification:  
-\* Name, last name  
-\* Contact phone number  
-\* Local Copy of ID or Passport  
-\* Germany registration form (see attachment below)  
+* Name, last name  
+* Contact phone number  
+* Local Copy of ID or Passport  
+* Germany registration form (see attachment below)
+ 
 ​  
 ​For **business identity** verification:  
-\* Name, last name of an authorized representative
-
-\* Company name  
-\* Contact phone number
-
-\* Local Company Registration Certificate  
-\* Germany Company Registration Number  
-\* Germany registration form (see attachment below)
+* Name, last name of an authorized representative
+* Company name
+* Contact phone number
+* Local Company Registration Certificate  
+* Germany Company Registration Number  
+* Germany registration form (see attachment below)
 
 *The form should be fully signed and include the representative's name, surname, date, and company's stamp. If the stamp is not available, the company's name should be written by hand on the registration form.*  
 ​  
 ​For **address** verification:  
-\* Address matching the DID area code (street, building number, postal code, city, and country)  
-\* A copy of a utility bill (less than 3 months old)
+* Address matching the DID area code (street, building number, postal code, city, and country)  
+* A copy of a utility bill (less than 3 months old)
 
 Additional details:   
-\* End-users must be physically present in the country when purchasing numbers from that country  
-\* Only scanned documents are acceptable for German number registration.
+* End-users must be physically present in the country when purchasing numbers from that country  
+* Only scanned documents are acceptable for German number registration.
 
 ## **National Numbers in Germany**
 
 For **personal identity** verification:  
-\* Name, last name  
-\* Contact phone number  
-\* Local Copy of ID or Passport  
-\* Germany registration form (see attachment below)  
-​  
+* Name, last name  
+* Contact phone number  
+* Local Copy of ID or Passport  
+* Germany registration form (see attachment below)  
+
+​ 
 ​For **business identity** verification:  
-\* Name, last name of an authorized representative
-
-\* Company name  
-\* Contact phone number
-
-\* Local Passport or ID copy of an authorized representative  
-\* Local Company registration certificate  
-\* Germany Company Registration Number  
-\* Germany registration form (see attachment below)  
+* Name, last name of an authorized representative
+* Company name  
+* Contact phone number
+* Local Passport or ID copy of an authorized representative  
+* Local Company registration certificate  
+* Germany Company Registration Number  
+* Germany registration form (see attachment below)  
 ​
 
 *The form should be fully signed and include the representative's name, surname, date, and company stamp. If the stamp is not available, the company's name should be written by hand on the registration form.*
 
 For **address** verification:  
-\* Address in Germany matching the address in the PoA/ID (street, building number, postal code, city, and country)  
-\* Proof of address (dated within 3 months)
+* Address in Germany matching the address in the PoA/ID (street, building number, postal code, city, and country)  
+* Proof of address (dated within 3 months)
 
 Additional details:   
-\* End-users must be physically present in the country when purchasing numbers from that country  
-\* Only scanned documents are acceptable for German number registration.
+* End-users must be physically present in the country when purchasing numbers from that country  
+* Only scanned documents are acceptable for German number registration.
 
 ## **Toll-Free Numbers in Germany**
 
 For **business identity** verification:  
-\* Name, last name of an authorized representative  
-\* Company name  
-\* Contact phone number  
-\* Place of birth of an authorized representative  
-\* Local Passport or ID copy of an authorized representative  
-\* Signed LOI (dated within 1 month)  
-\* Power of attorney (*Please Note: This document will be provided by Telnyx)*  
-\* Local Company registration certificate  
-\* Germany Company Registration Number
+* Name, last name of an authorized representative  
+* Company name  
+* Contact phone number  
+* Place of birth of an authorized representative  
+* Local Passport or ID copy of an authorized representative  
+* Signed LOI (dated within 1 month)  
+* Power of attorney (*Please Note: This document will be provided by Telnyx)*  
+* Local Company registration certificate  
+* Germany Company Registration Number
+
 
 For **address** verification:  
-\* Address in Germany matching the Local Company registration certificate(street, building number, postal code, city and country)  
-\* Proof of address (dated within 3 months)
+* Address in Germany matching the Local Company registration certificate(street, building number, postal code, city and country)  
+* Proof of address (dated within 3 months)
 
 Additional details:   
-\* End-users must be physically present in the country when purchasing numbers from that country  
-\* Only scanned documents are acceptable for German number registration.  
-\* Service usage description in German  
-\* Marketing details in German
+* End-users must be physically present in the country when purchasing numbers from that country  
+* Only scanned documents are acceptable for German number registration.  
+* Service usage description in German  
+* Marketing details in German
 
 **\* Business use required:** Business use is required for Germany toll-free numbers, private use is not allowed.
+
+* German Registration Form Template: [Telnyx Germany Registration Form.pdf](https://github.com/user-attachments/files/32972910/Telnyx.Germany.Registration.Form.pdf)
+
 
 \*Once the documentation is received it will take approximately 72 hours to validate the information and activate the number for use.
 
