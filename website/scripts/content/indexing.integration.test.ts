@@ -7,7 +7,7 @@ test("unlisted imported articles retain indexing policy through content generati
     expect(article).toBeDefined();
     expect(article?.robots).toBe("noindex,nofollow");
   }
-  for (const id of ["8159875","10523949"]) {
+  for (const id of ["8159875"]) {
     const article = articles.find(a => a.slug.startsWith(id + "-"));
     expect(article).toBeDefined();
     expect(article?.robots).toBeUndefined();

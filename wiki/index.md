@@ -2095,8 +2095,6 @@ updated_at: 2026-10-02T06:58:09Z
 
 - [Congo, DR: SMS Guidelines](support-docs/articles/6661342-congo-dr-sms-guidelines.md) — MCC: 630 ​Dial Code: 243 ​ Alphanumeric Sender IDs are supported. ​ ​The use of generic Alpha Sender IDs is not recommended. Alpha Senders should be directly related to the message content.
 
-- [Forwarding SMS/MMS Automation using Telnyx Flow](support-docs/articles/10523949-forwarding-sms-mms-automation-using-telnyx-flow.md) — Flow has been deprecated. This article is retained for reference and describes the deprecated Flow product.
-
 - [Connect Telnyx to Zoom Phone with Provider Exchange](support-docs/articles/2026092801-connect-telnyx-to-zoom-phone-with-provider-exchange.md) — Use Zoom Provider Exchange to connect your Telnyx account to Zoom Phone, associate Telnyx phone numbers with the integration, and assign those numbers to Zoom users. This guide also explains how to unassign numbers and remove the integration.
 
 - [Set up a hosted STIR/SHAKEN certificate](support-docs/articles/2026093001-set-up-a-hosted-stir-shaken-certificate.md) — Use your own certificate to sign outbound calls through Telnyx’s hosted signing service.
