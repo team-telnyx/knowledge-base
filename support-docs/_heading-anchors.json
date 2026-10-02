@@ -29598,25 +29598,6 @@
       ],
       "collectionPath": "2462765-messaging-miscellaneous"
     },
-    "10523949": {
-      "id": "10523949",
-      "sourceUrl": "https://support.telnyx.com/en/articles/10523949-forwarding-sms-mms-automation-using-telnyx-flow",
-      "headings": [
-        {
-          "text": "Introduction",
-          "id": "h_b2b1c67bb9"
-        },
-        {
-          "text": "Creation and Set up of the Workflow",
-          "id": "h_e19ee48fe4"
-        },
-        {
-          "text": "Testing your Workflow",
-          "id": "h_b5775f45b9"
-        }
-      ],
-      "collectionPath": null
-    },
     "3078492": {
       "id": "3078492",
       "sourceUrl": "https://support.telnyx.com/en/articles/3078492-migrate-your-lrn-lookup-api-from-v1-to-v1-1",

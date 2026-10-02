@@ -5,7 +5,6 @@ summary: Comprehensive guide to Telnyx programmable messaging, covering messagin
   IDs, SMPP, forwarding and automation, opt-out management, deliverability best practices,
   error codes, hosted messaging, and third-party integrations.
 sources:
-- url: https://support.telnyx.com/en/articles/10523949-forwarding-sms-mms-automation-using-telnyx-flow
 - url: https://support.telnyx.com/en/articles/1130611-understand-telnyx-sms-mdr-report-log
 - url: https://support.telnyx.com/en/articles/1130617-sms-long-code-deliverability-best-practices
 - url: https://support.telnyx.com/en/articles/1270091-sms-opt-out-keywords-and-stop-words

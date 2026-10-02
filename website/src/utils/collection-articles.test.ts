@@ -20,5 +20,5 @@ test("counts the recovered Voice API and IoT collections", () => {
   const counts = collectionArticleCounts(collections, articles);
   expect(counts.get("133140-voice-api-essentials")).toBe(15);
   expect(counts.get("1895859-telnyx-global-iot-sims")).toBe(21);
-  expect(counts.get("133103-telnyx-sms-guide")).toBe(295);
+  expect(counts.get("133103-telnyx-sms-guide")).toBe(294);
 });

@@ -5,7 +5,6 @@ summary: Comprehensive guide to Telnyx programmable messaging, covering messagin
   IDs, SMPP, forwarding and automation, opt-out management, deliverability best practices,
   error codes, hosted messaging, and third-party integrations.
 sources:
-- url: https://support.telnyx.com/en/articles/10523949-forwarding-sms-mms-automation-using-telnyx-flow
 - url: https://support.telnyx.com/en/articles/1130611-understand-telnyx-sms-mdr-report-log
 - url: https://support.telnyx.com/en/articles/1130617-sms-long-code-deliverability-best-practices
 - url: https://support.telnyx.com/en/articles/1270091-sms-opt-out-keywords-and-stop-words
@@ -104,22 +103,6 @@ bind_transmitter, bind_transceiver, bind_receiver, unbind, submit_sm, deliver_sm
 - Toll-Free: 1,200 messages per number per minute
 
 ## SMS Forwarding and Automation
-
-### Forwarding with Telnyx Flow (No-Code)
-
-Set up SMS/MMS forwarding without code using [Telnyx Flow](https://flow.telnyx.com/):
-
-1. Log in at flow.telnyx.com and create a new workspace.
-2. Create a new workflow with a blank canvas.
-3. Add nodes: **Inbound Message** (trigger), **Switch** (logic), and two **Send Message** nodes (one for SMS, one for MMS).
-4. Configure the Switch node with condition groups:
-   - **SMS condition:** Input `{{message.received.type}}`, comparison "Equals", value "SMS"
-   - **MMS condition:** Input `{{message.received.type}}`, comparison "Equals", value "MMS"
-5. Connect each Switch output to its corresponding Send Message node.
-6. Configure Send Message nodes with the same Messaging Profile ID, inverted From/To variables, and custom text. MMS nodes also include Subject and Media URLs fields.
-7. Save and deploy the workflow.
-
-You can test workflows directly in Telnyx Flow using the "Run Workflow" button.
 
 ### Forwarding with Zapier
 
