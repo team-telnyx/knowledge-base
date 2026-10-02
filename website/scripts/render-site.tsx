@@ -79,6 +79,9 @@ export function renderSite(dist: string) {
       {"@type":"Article",headline:a.title,description,url:base+route,mainEntityOfPage:base+route,...(modified?{dateModified:modified}:{}),publisher:{"@type":"Organization",name:"Telnyx"}},
       {"@type":"BreadcrumbList",itemListElement:breadcrumbs.map((b,i)=>({"@type":"ListItem",position:i+1,...b}))}
     ]},false,a.robots);
+    // Also write a .md file so /en/articles/<slug>.md serves raw markdown.
+    const mdDest = path.join(dist, route.slice(1) + ".md");
+    fs.writeFileSync(mdDest, body);
     // Index the rendered article only, excluding navigation and related articles.
     const html = parse(fs.readFileSync(path.join(dist, route.slice(1)), "utf8"));
     let content = "", headings: string[] = [];
