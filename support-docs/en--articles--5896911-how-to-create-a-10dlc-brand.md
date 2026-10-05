@@ -90,7 +90,7 @@ Here is some additional advice when registering a Canadian brand:
 
 **Billing Details**
 
-There is a one-time, non-refundable cost of $4 for registering a brand. This is a pass-through fee applied by the Campaign Registry.
+There is a one-time, non-refundable cost of $4.50 for registering a brand. This is a pass-through fee applied by the Campaign Registry.
 
 *Reminder: The Campaign Registry is an independent organization that manages 10DLC brands and campaigns, working with mobile network operators.*
 

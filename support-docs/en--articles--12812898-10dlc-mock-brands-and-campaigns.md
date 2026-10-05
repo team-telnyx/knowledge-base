@@ -20,7 +20,7 @@ Telnyx provides APIs and services that you can use to send text messages. We als
 
 ## Creating a mock brand in the Mission Control Portal
 
-Once you're logged into the [Mission Control Portal](https://portal.telnyx.com), head to the [10DLC Brand](https://portal.telnyx.com/#/messaging-10dlc/brands) tab. From here, you can get started by selecting "Create brand". On the first form, there is a checkbox for "Create as a mock brand to test 10DLC." Select this option to create a mock brand. You should see a note after checking the mock brand checkbox, "The registration fee of $4.00 is not applicable for a mock brand."
+Once you're logged into the [Mission Control Portal](https://portal.telnyx.com), head to the [10DLC Brand](https://portal.telnyx.com/#/messaging-10dlc/brands) tab. From here, you can get started by selecting "Create brand". On the first form, there is a checkbox for "Create as a mock brand to test 10DLC." Select this option to create a mock brand. You should see a note after checking the mock brand checkbox, "The registration fee of $4.50 is not applicable for a mock brand."
 
 ## Creating a mock brand using the Telnyx API
 

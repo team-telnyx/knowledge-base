@@ -26,7 +26,7 @@ The process has three main steps:
 2. Create and register your Campaign (with compliant opt-in mechanism)
 3. Assign phone numbers to your campaign
 
-There is a one-time $4 brand registration fee and a $15 campaign verification fee. *Note: The $15 campaign verification fee is only charged when the campaign is sent downstream to the aggregator for carrier review. Reviews performed at the Telnyx level are not charged.*
+There is a one-time $4.50 brand registration fee and a $15 campaign verification fee. *Note: The $15 campaign verification fee is only charged when the campaign is sent downstream to the aggregator for campaign review. Reviews performed at the Telnyx level are not charged.*
 
 See [10DLC Fees and Charges](https://support.telnyx.com/en/articles/5634625-10dlc-fees-and-charges) for full pricing details.
 

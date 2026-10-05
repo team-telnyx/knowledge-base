@@ -38,7 +38,7 @@ Your Brand is your business identity registered with The Campaign Registry (TCR)
 
 **How to do it:** Follow our detailed guide — [How to Create a 10DLC Brand](https://support.telnyx.com/en/articles/5896911-how-to-create-a-10dlc-brand)
 
-**Cost:** $4 one-time brand registration fee (pass-through from TCR)
+**Cost:** $4.50 one-time brand registration fee (pass-through from TCR)
 
 **Sole Proprietor?** If you do not have an EIN, you can register as a Sole Proprietor. See our [Sole Proprietor Registration Guide](https://support.telnyx.com/en/articles/13545282-guide-to-sole-proprietor-10dlc-brand-and-campaign-registration).
 
@@ -98,7 +98,7 @@ After your numbers show an ASSIGNED status, you are ready to send 10DLC-complian
 |  |  |  |
 | --- | --- | --- |
 | Item | Cost | Frequency |
-| Brand Registration | $4 | One-time |
+| Brand Registration | $4.50 | One-time |
 | Campaign Vetting | $15 | Per submission |
 | Campaign Monthly Recurring Cost | $2-$30 | Monthly (varies by use case) |
 | Carrier messaging fees | $0.003-$0.005/SMS | Per message |
