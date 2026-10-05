@@ -143,7 +143,7 @@ Once your brand status shows as **Verified**, you can submit your messaging use 
 
 ## Step 5: Assign Numbers to Your Campaign
 
-After the carriers approve your campaign (typically **3–7 business days**), you must link your numbers to the campaign to avoid filtered traffic.
+After campaign review is complete (typically **2–3 business days**), you must link your numbers to the campaign to avoid filtered traffic. This review timeframe is not carrier-specific; carrier provisioning follows separately.
 
 1. Go to **Numbers** > **My Numbers**.
 2. Select the number(s) you wish to use.
@@ -158,7 +158,7 @@ The following fees are passed through from the carriers for Sole Proprietor regi
 
 | **Item** | **Estimated Fee** | **Frequency** |
 | --- | --- | --- |
-| **Brand Registration** | $4.00 | One-time |
+| **Brand Registration** | $4.50 | One-time |
 | **Campaign Vetting** | $15.00 | Per submission/resubmission |
 | **Monthly Maintenance** | $2.00 | Monthly |
 
