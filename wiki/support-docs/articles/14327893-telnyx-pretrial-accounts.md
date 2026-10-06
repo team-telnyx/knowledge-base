@@ -1,6 +1,6 @@
 ---
 title: "Telnyx Pretrial Accounts"
-summary: "A Pretrial account lets developers try Telnyx AI products — with no credit card, no payment setup, and no commitment. Sign up, get $25 in AI credits, and start building right away."
+summary: "A Pretrial account lets developers try Telnyx with no credit card, no payment setup, and no commitment. Sign up, get $25 in AI credits, and start building right away. Note: Telnyx Inference and AI Assistants require a Trial account or above."
 sources:
 - url: "https://support.telnyx.com/en/articles/14327893-telnyx-pretrial-accounts"
 updated_at: 2026-08-04T19:04:02Z
@@ -14,7 +14,7 @@ generated_by: incremental-support-docs-wiki
 
 ## What is a Pretrial Account?
 
-A Pretrial account lets developers try Telnyx AI products — with no credit card, no payment setup, and no commitment. Sign up, get $25 in AI credits, and start building right away.
+A Pretrial account lets developers try Telnyx with no credit card, no payment setup, and no commitment. Sign up, get $25 in AI credits, and start building right away. Note: Telnyx Inference and AI Assistants require a Trial account or above.
 
 ## New on Pretrial UX
 
@@ -34,20 +34,17 @@ More to come soon!
 
 ## What's Included
 
-- **$25 in AI credits** — covers usage across the entire Telnyx AI product suite
+- **$25 in AI credits** — covers usage across available Telnyx AI products (Inference and AI Assistants excluded; upgrade to Trial to access them)
 - **One US local phone number** — included at no cost
-- **Full access to AI products** — Telnyx Inference, AI Assistants, and more
 
 ## How the $25 AI Credit Works
-
-Your $25 credit is applied automatically as a discount on AI product usage. A few things to note:
 
 - The credit covers up to **$25 in total AI usage** plus one US local phone number.
 - You don't need to activate or redeem anything — it's already applied when you sign up.
 
 ## What's Available on Pretrial
 
-Pretrial accounts are designed for exploring Telnyx AI products. Other Telnyx products (Voice, Messaging, Networking, etc.) require a full account.
+Pretrial accounts are designed for exploring Telnyx AI products, but do not include access to Telnyx Inference or AI Assistants. To use those features, upgrade to a Trial account at [telnyx.com/upgrade](https://telnyx.com/upgrade). Other Telnyx products (Voice, Messaging, Networking, etc.) require a full account.
 
 If you try to use a non-AI product on a Pretrial account, the API call will typically return an error.
 
