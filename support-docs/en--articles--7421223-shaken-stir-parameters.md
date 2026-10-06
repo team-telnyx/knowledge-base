@@ -62,7 +62,7 @@ Identity headers are **not** sent over UDP to prevent fragmentation issues.
 | TN-Validation-Failed | Identity header verification failed as the certificate Telnyx received was deemed invalid. |
 | No-TN-Validation | No verification took place because the Identity header was not provided |
 | TN-Validation-Passed-B | Identity header verification is successful, and the caller has a B attestation |
-| TN-Validation-Passed-C | Identity header verification is successful, and the caller has a C attestation |
+| TN-Validation-Passed-C | Identity header verification is successful, and the caller has a C attestation. Note that calls that cross a TDM segment lose their STIR/SHAKEN data and are re-signed downstream with C attestation, so C alone doesn't indicate the call is illegitimate. |
 
 Below you can find a P-Asserted-Identity example:
 ​
@@ -70,5 +70,7 @@ Below you can find a P-Asserted-Identity example:
 ```
 P-Asserted-Identity:"John Doe"<sip:+18889809750@sip.telnyx.com;verstat=TN-Validation-Passed>
 ```
+
+**Reference:** [FCC-26-32A1 — Third-Party Authentication](https://docs.fcc.gov/public/attachments/FCC-26-32A1.pdf)
 
 For more information on the SHAKEN/STIR framework and how it works, please visit our [resource center](https://telnyx.com/resources).
