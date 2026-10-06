@@ -93,11 +93,13 @@ Telnyx analyzes the validity and existence of originating numbers to ensure comp
 
 Inbound Call Screening employs the SHAKEN/STIR attestation protocol to validate the authenticity of Caller ID information to help ensure the legitimacy of incoming calls.
 
-Inbound Call Screening will be applied to the following attestation levels:
+Number reputation (cross-referenced across Nomorobo, YouMail, and CallerAPI) is the primary gate for Inbound Call Screening. SHAKEN/STIR attestation is a secondary check that validates the cryptographic signature on the incoming call.
 
-* **Attestation C** - This is when the originating carrier cannot authenticate the Caller ID or the Caller ID has been identified as invalid.
-  Calls with C attestation are potentially suspicious and are subjected to Inbound Call Screening.
-* **Attestation Invalid** - This is when the SHAKEN/STIR attestation for a call is deemed invalid—possibly due to certificate problems or technical errors—and indicates a potential risk of spam or fraud.
+Inbound Call Screening will be applied to the following attestation condition:
+
+* **Attestation Invalid** - This is when the SHAKEN/STIR signature verification fails for a call (e.g., the PASSporT is forged, expired, or tampered with), or the attestation is otherwise deemed invalid due to certificate problems or technical errors. A failed signature indicates a potential risk of spam or fraud, and such calls are subjected to Inbound Call Screening.
+
+> **Note:** Attestation C alone is no longer a trigger for Inbound Call Screening. The FCC now requires all carriers to assign Attestation C to calls originating from TDM (time-division multiplexing) networks, so a C attestation is expected on a large volume of legitimate traffic and is not, by itself, an indicator of spam. The previous behavior of screening all Attestation C calls was removed per [TELBACK-433](https://linear.app/telnyx/issue/TELBACK-433/remove-shaken-stir-conditions-from-inbound-call-screening-logic).
 
 ### How can I treat unwanted inbound calls?
 
