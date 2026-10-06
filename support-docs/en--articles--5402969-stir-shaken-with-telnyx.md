@@ -43,7 +43,7 @@ There are three levels of Attestation within STIR/SHAKEN, signified by A, B and 
 
 **Partial Attestation (B)** means the provider knows the customer but may not know the number they are using. The call is legitimate but the provider is missing information that would classify the call as Full Attestation. If the number you are using with Telnyx was not bought on our portal, then you can expect this level of Attestation.
 
-**Gateway Attestation (C)** means that the origination provider cannot verify the customer *or* the phone number they are using, and thus has no way to verify if the traffic they see is legitimate. The call is still given a token to mark that it originated on the provider's network.
+**Gateway Attestation (C)** means that the origination provider cannot verify the customer *or* the phone number they are using, and thus has no way to verify if the traffic they see is legitimate. The call is still given a token to mark that it originated on the provider's network. Note that calls that cross a TDM segment lose their STIR/SHAKEN data and are re-signed downstream with C attestation, so C alone doesn't indicate the call is illegitimate.
 
 ​
 
@@ -90,5 +90,7 @@ Where customers receiving calls from other Telnyx customers and want to receive 
 The reason for this is to prevent packet fragmentation and call completion issues for customers since the Identity header is very large and as such only this transport protocol is supported.
 
 ![Breaking Line](_images/682991ade0be9812.png)
+
+**Reference:** [FCC-26-32A1 — Third-Party Authentication](https://docs.fcc.gov/public/attachments/FCC-26-32A1.pdf)
 
 ## If you have any further questions regarding the STIR/SHAKEN infrastructure and what it means, do not hesitate to reach out to [support@telnyx.com](mailto:support@telnyx.com)
