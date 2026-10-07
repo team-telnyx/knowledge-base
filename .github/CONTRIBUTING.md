@@ -26,7 +26,9 @@ Corrections from outside Telnyx are welcome. External PRs are limited by [extern
 
 ## Review
 
-All PRs — automated or hand-authored, internal or external — require approval from a maintainer.
+All PRs — automated or hand-authored, internal or external — require approval from a maintainer, with one exception:
+
+**Routine support-doc edits by Telnyx members merge automatically.** [auto-merge.yml](workflows/auto-merge.yml) squash-merges a PR once all of these hold: the author has write access to this repo (every Telnyx org member does) and the branch lives in this repo (not a fork), every changed path is under `support-docs/` or the generated `wiki/support-docs/` / `wiki/index.md` artifacts, the PR is not a draft, nobody has requested changes, and every other CI check is green. Add the `no-auto-merge` label to keep a PR open for discussion. PRs that touch anything else (`website/`, `scripts/`, workflows, schema, README) and all external contributions go through the usual code-owner review.
 
 ## Questions?
 
