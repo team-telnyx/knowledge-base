@@ -1,9 +1,12 @@
 # Checklist gate for routine support-doc edits by Telnyx members.
 #
 # A PR is squash-merged automatically when ALL of these hold:
-#   1. The author is an org MEMBER/OWNER/COLLABORATOR and the branch lives in
-#      this repo (no forks). Public contributions never reach the merge step:
-#      the job-level `if` skips them and fork PRs get no repo secrets anyway.
+#   1. The author has write access to this repo (every Telnyx org member does,
+#      via the all-github team) and the branch lives in this repo (no forks).
+#      Public contributions never reach the merge step: the job-level `if`
+#      skips fork PRs, outsiders only ever have read permission, and fork PRs
+#      get no repo secrets anyway. The event payload's author_association is
+#      NOT used: it reports CONTRIBUTOR for members with private membership.
 #   2. Every changed path is under ALLOWED_PREFIXES (support-docs/ plus the
 #      generated wiki artifacts the wiki CI requires alongside them).
 #   3. The PR is not a draft, has no `no-auto-merge` label and no human
@@ -43,7 +46,9 @@ jobs:
     name: Checklist gate
     runs-on: ubuntu-latest
     timeout-minutes: 40
-    if: github.event.pull_request.head.repo.full_name == github.repository
+    if: >
+      github.event.pull_request.draft == false &&
+      github.event.pull_request.head.repo.full_name == github.repository
     env:
       GH_TOKEN: ${{ github.token }}
       REPO: ${{ github.repository }}
@@ -51,15 +56,27 @@ jobs:
       HEAD_SHA: ${{ github.event.pull_request.head.sha }}
       BASE_REF: ${{ github.event.pull_request.base.ref }}
       OWN_CHECK_NAME: Checklist gate
+      AUTHOR: ${{ github.event.pull_request.user.login }}
     steps:
-      - name: DEBUG event payload (temporary)
+      - name: Check the author has write access
+        id: author
+        shell: bash
         run: |
-          echo "author_association=${{ github.event.pull_request.author_association }}"
-          echo "draft=${{ github.event.pull_request.draft }}"
-          echo "head_repo=${{ github.event.pull_request.head.repo.full_name }} repository=${{ github.repository }}"
-          echo "author=${{ github.event.pull_request.user.login }} type=${{ github.event.pull_request.user.type }}"
+          set -euo pipefail
+          # Outsiders on a public repo get "read"; bots get "none"; org members
+          # get "write" (all-github team) or higher.
+          PERM=$(gh api "repos/$REPO/collaborators/$AUTHOR/permission" --jq '.permission' 2>/dev/null || echo "none")
+          case "$PERM" in
+            admin|maintain|write)
+              echo "Author $AUTHOR has '$PERM' access — internal."
+              echo "proceed=true" >> "$GITHUB_OUTPUT" ;;
+            *)
+              echo "Author $AUTHOR has '$PERM' access — not auto-merging; a code owner reviews this PR."
+              echo "proceed=false" >> "$GITHUB_OUTPUT" ;;
+          esac
 
       - name: Checkout PR head
+        if: steps.author.outputs.proceed == 'true'
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           fetch-depth: 0
@@ -67,6 +84,7 @@ jobs:
 
       - name: Check changed paths
         id: paths
+        if: steps.author.outputs.proceed == 'true'
         shell: bash
         run: |
           set -euo pipefail

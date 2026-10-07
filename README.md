@@ -77,7 +77,7 @@ Hand edits to `wiki/` should be rare and treated as emergency fixes only, becaus
 1. `Incremental Support Docs Wiki Corpus` regenerates `_manifest.json`, detects changed files under `support-docs/**/*.md`, runs `scripts/incremental_support_docs_wiki.py`, and verifies the PR includes the required deterministic manifest and `wiki/` updates.
 2. `External Contribution Check` restricts external PRs to modifying existing files only (no adds, deletes, or renames).
 3. Maintainers review the source article changes and generated wiki changes together.
-4. `Auto-merge internal support-doc PRs` squash-merges the PR without waiting for a maintainer when it comes from a Telnyx member on an in-repo branch, only touches `support-docs/` and the generated `wiki/support-docs/` / `wiki/index.md` artifacts, and every other check is green. Label a PR `no-auto-merge` to opt out. See [CONTRIBUTING.md](.github/CONTRIBUTING.md#review).
+4. `Auto-merge internal support-doc PRs` squash-merges the PR without waiting for a maintainer when it comes from someone with write access (any Telnyx org member) on an in-repo branch, only touches `support-docs/` and the generated `wiki/support-docs/` / `wiki/index.md` artifacts, and every other check is green. Label a PR `no-auto-merge` to opt out. See [CONTRIBUTING.md](.github/CONTRIBUTING.md#review).
 
 The incremental wiki update intentionally does **not** run the full LLMWiki compiler. It keeps day-to-day article updates small and reviewable.
 
