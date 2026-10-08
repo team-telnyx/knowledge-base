@@ -23,15 +23,15 @@ Find answers to your questions about compliance, required actions, attestations,
 
 ## **What do I need to do to be SHAKEN/STIR compliant in Canada?**
 
-Simple! Nothing! Telnyx is taking care of all compliance requirements. Your outbound calls originating with Canadian CLI will receive appropriate signings from Telnyx’s Canadian partners.
+Simple! Nothing! Telnyx is taking care of all compliance requirements. Your outbound calls originating with Canadian CLI will receive appropriate signings from Telnyx's Canadian partners.
 
 ## **Are attestation definitions the same in Canada as in the US?**
 
 Yes, the attestation definitions we use in the US are applicable in Canada SHAKEN/STIR.
 
 * Full Attestation (A): The provider knows the customer, knows they have a right to use the originating number, and knows that the call originated on their network. For numbers purchased in the Telnyx portal, you should expect to receive an 'A Attestation'.
-* Partial Attestation (B): The provider knows the customer but the customer may be using another provider's phone number. The call is legitimate but the provider can’t fully attest because of missing information.
-* Gateway Attestation (C): The provider can’t verify the customer or the phone number and has no way of knowing whether the call is legitimate. The originating provider will still attest to the call in order to mark that the call originated on their network.
+* Partial Attestation (B): The provider knows the customer but the customer may be using another provider's phone number. The call is legitimate but the provider can't fully attest because of missing information.
+* Gateway Attestation (C): The provider can't verify the customer or the phone number and has no way of knowing whether the call is legitimate. The originating provider will still attest to the call in order to mark that the call originated on their network. Note that calls that cross a TDM segment lose their STIR/SHAKEN data and are re-signed downstream with C attestation, so C alone doesn't indicate the call is illegitimate.
 
 ## **What will my attestation be for Canadian SHAKEN/STIR?**
 
@@ -46,3 +46,5 @@ There is no additional charge for SHAKEN/ STIR services, so it will be free to a
 All calls originating on the Telnyx network with Canadian CLI will receive an attestation. There is no action required from the customer.
 
 The customer will not be notified of the attestation it receives from Telnyx, but customers should be able to predict the attestation level based on the requirements outlined in the above questions.
+
+**Reference:** [CRTC Telecom Decision 2021-267](https://crtc.gc.ca/eng/archive/2021/2021-267.htm)
