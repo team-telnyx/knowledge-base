@@ -99,7 +99,7 @@ Inbound Call Screening will be applied to the following attestation condition:
 
 * **Attestation Invalid** - This is when the SHAKEN/STIR signature verification fails for a call (e.g., the PASSporT is forged, expired, or tampered with), or the attestation is otherwise deemed invalid due to certificate problems or technical errors. A failed signature indicates a potential risk of spam or fraud, and such calls are subjected to Inbound Call Screening.
 
-> **Note:** Attestation C alone is no longer a trigger for Inbound Call Screening. The FCC now requires all carriers to assign Attestation C to calls originating from TDM (time-division multiplexing) networks, so a C attestation is expected on a large volume of legitimate traffic and is not, by itself, an indicator of spam. The previous behavior of screening all Attestation C calls was removed per [TELBACK-433](https://linear.app/telnyx/issue/TELBACK-433/remove-shaken-stir-conditions-from-inbound-call-screening-logic).
+> **Note:** Attestation C alone is no longer a trigger for Inbound Call Screening. The FCC now requires all carriers to assign Attestation C to calls originating from TDM (time-division multiplexing) networks, so a C attestation is expected on a large volume of legitimate traffic and is not, by itself, an indicator of spam.
 
 ### How can I treat unwanted inbound calls?
 
