@@ -1,12 +1,14 @@
 # Manually configure WhatsApp Calling with Telnyx
 
-This guide walks you through manually configuring the SIP connection for WhatsApp Calling in WhatsApp Manager. You will open your business phone number’s call settings and set its SIP server to the hostname associated with your Telnyx SIP or Programmable Voice application.
+This guide describes an alternative, manual method for connecting WhatsApp Calling to Telnyx for **user-initiated calls**, which are calls that WhatsApp users place to your business. You configure the SIP server in WhatsApp Manager, then configure your Telnyx application or SIP connection to receive those calls.
 
-The setup uses the format `<subdomain>.sip.telnyx.com`, where `<subdomain>` matches the subdomain already configured for your Telnyx application. Have that subdomain ready before following the steps below.
+For the automated setup through the **Telnyx Mission Control Portal (MCP)**, see [Enabling WhatsApp Business Calling on Telnyx and BYON Numbers](https://support.telnyx.com/en/articles/14668631-enabling-whatsapp-business-calling-on-telnyx-numbers). For the account and number setup steps, see [How to Set Up WhatsApp on Telnyx](https://support.telnyx.com/en/articles/13986485-how-to-set-up-whatsapp-on-telnyx).
+
+The manual setup uses the format `<subdomain>.sip.telnyx.com`, where `<subdomain>` matches the subdomain already configured for your Telnyx application or SIP connection. Have that subdomain ready before following the steps below.
 
 ## Before you begin
 
-Have access to your phone number in WhatsApp Manager, the subdomain configured for your Telnyx SIP or Programmable Voice application, and the Meta App ID for your WhatsApp integration. You will use that subdomain in the SIP server address.
+Have access to your phone number in WhatsApp Manager, the subdomain configured for your Telnyx Programmable Voice application or SIP connection, and the Meta App ID for your WhatsApp integration. You will use that subdomain in the SIP server address.
 
 ## 1. Open WhatsApp Manager
 
@@ -34,7 +36,7 @@ In **SIP server**, enter:
 <subdomain>.sip.telnyx.com
 ```
 
-Replace `<subdomain>` with the subdomain configured for your Telnyx SIP or Programmable Voice application. For example, if your configured subdomain is `support`, enter `support.sip.telnyx.com`.
+Replace `<subdomain>` with the subdomain configured for your Telnyx Programmable Voice application or SIP connection. For example, if your configured subdomain is `support`, enter `support.sip.telnyx.com`.
 
 Enter only the hostname, without `https://` or the angle brackets. The value `subdomain.sip.telnyx.com` in the screenshot is an example; replace it with your own hostname.
 
@@ -47,3 +49,18 @@ In **App ID**, enter the **Meta App ID** for the app used by your WhatsApp integ
 Check the App ID carefully before saving. As indicated in the dialog, **this field cannot be edited once saved**.
 
 Click **Save** to apply the change. Reopen the SIP connection settings and confirm that **SIP server** shows your intended hostname.
+
+## 6. Configure call handling
+
+Configure the Telnyx application or SIP connection associated with the subdomain you entered in step 4 to accept incoming SIP subdomain calls.
+
+1. In the **Telnyx Mission Control Portal**, open the relevant application or SIP connection.
+2. Go to **Connection Settings** → **Authentication and routing**.
+3. Set **Receive SIP Subdomain calls** to **From Anyone**.
+4. Save your changes.
+
+![Receive SIP Subdomain calls set to From Anyone in Telnyx connection settings](assets/whatsapp-calling-manual-setup/receive-sip-subdomain-calls.png)
+
+Select **From Anyone** so your application or SIP connection can receive WhatsApp calls from Meta. This setting accepts calls to the configured SIP subdomain, including anonymous calls.
+
+After saving, place a test call from WhatsApp to your business number. Confirm that it reaches the intended Telnyx application or SIP connection and that audio works in both directions.
