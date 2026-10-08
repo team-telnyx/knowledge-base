@@ -125,7 +125,7 @@ HD Voice allows the use of wideband audio codecs (when supported) to enhance the
 
 ### **Call Screening**
 
-This feature allows rejecting or flagging suspicious calls from PSTN. Calls are considered suspicious when the originating number has bad reputation or when the Shaken-Stir attestation level is either invalid or C.
+This feature allows rejecting or flagging suspicious calls from PSTN. Calls are considered suspicious when the originating number has bad reputation or when the SHAKEN/STIR signature verification fails (Invalid attestation).
 
 ### **CNAM**
 
