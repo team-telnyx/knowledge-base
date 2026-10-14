@@ -3,7 +3,9 @@ source_url: https://support.telnyx.com/en/articles/5595770-port-away-from-voip-m
 title: "Port away from voip.ms"
 description: "Detailed steps to port away from voip.ms to Telnyx with key account information. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: b125ba9dae5e58e5012e25f464fa7e15759986d04f9420cea265020f251dc557
+content_hash: "125f23d2a36f074e03badcd1703fe669e1155ba9738eafdb1b80fd446703bb4d"
+updated_at: "2026-10-14T16:16:11Z"
+modified_at: "2026-10-14T16:16:11Z"
 ---
 
 
@@ -63,7 +65,7 @@ Once you have retrieved this information, you will need to fill out a Letter of 
 | US | As little as 6 hours | As little as 6 business hours | No charge |
 | Toll-free | 1-2 days | Same day | No charge |
 
-To request an expedite, please submit your port request and open a live chat with our porting team. Live chat is located in the bottom-right corner of your screen when logged into your Telnyx account.
+To request an expedite, submit your port request and explain the request in the AI support chat in Mission Control Portal. Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket. Include your port order details.
 
 ## **Important:**
 

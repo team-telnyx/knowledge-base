@@ -3,7 +3,7 @@ title: "What does the “Tech Prefix” option do?"
 summary: "A tech prefix is a numeric string that is prepended to the front of a number. ​ In your mission control portal go to the \"Connections\" header."
 sources:
 - url: "https://support.telnyx.com/en/articles/1130719-what-does-the-tech-prefix-option-do"
-updated_at: 2026-09-15T00:00:00Z
+updated_at: 2026-10-14T16:16:11Z
 tags: [support-docs]
 source_path: "support-docs/1130719-what-does-the-tech-prefix-option-do.md"
 generated_by: incremental-support-docs-wiki
@@ -29,6 +29,8 @@ The tech prefix box is where you will enter 4 digits of your choice e.g. 1234.
 Press update once you have completed this and now your connection will segment traffic.
 
 ## Can't find what you're looking for? Click the chat bubble at your lower right hand corner and start a chat!
+
+Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket.
 
 ---
 

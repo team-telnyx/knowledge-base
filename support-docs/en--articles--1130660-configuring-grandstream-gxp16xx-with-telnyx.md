@@ -3,7 +3,9 @@ source_url: https://support.telnyx.com/en/articles/1130660-configuring-grandstre
 title: "Configuring Grandstream GXP16XX with Telnyx"
 description: "In this article we will explain how to configure Grandstream GXP1620/GXP1625 and GXP1630 with the Telnyx Mission… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 9c89c814f2cd9cdf43f26c2551ac414ce8714b77256341c947a0bb4cd5826428
+content_hash: "ef17ef7343a1007a32d3b9db69027f0a5fc970fac622d8a041447808c0adefe7"
+updated_at: "2026-10-14T16:16:11Z"
+modified_at: "2026-10-14T16:16:11Z"
 ---
 
 
@@ -156,3 +158,5 @@ Additionally, you can check out:
 ---
 
 ## Can't find what you're looking for? Click the chat bubble at your lower right hand corner and start a chat!
+
+Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket.

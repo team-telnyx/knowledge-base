@@ -3,9 +3,10 @@ source_url: "https://support.telnyx.com/en/articles/1130719-what-does-the-tech-p
 robots: "noindex,nofollow"
 title: "What does the “Tech Prefix” option do?"
 scraped: "2026-09-15"
-modified_at: "2018-08-01T16:33:26Z"
-content_hash: "4570f0208647c6f4c7e219547713800afd6f814e35486834740ec453f022389a"
+modified_at: "2026-10-14T16:16:11Z"
+content_hash: "a9c730312d6fa0a32b829d72b9e8bf3c3f024f5c5d6ca53f671d4959e6655287"
 description: "Learn what a SIP connection tech prefix does, where to enable it in the Telnyx portal, and how it helps distinguish call traffic."
+updated_at: "2026-10-14T16:16:11Z"
 ---
 
 # What does the “Tech Prefix” option do?
@@ -27,6 +28,8 @@ The tech prefix box is where you will enter 4 digits of your choice e.g. 1234.
 Press update once you have completed this and now your connection will segment traffic.
 
 ## Can't find what you're looking for? Click the chat bubble at your lower right hand corner and start a chat!
+
+Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket.
 
 ---
 

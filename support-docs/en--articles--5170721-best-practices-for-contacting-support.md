@@ -3,21 +3,22 @@ source_url: https://support.telnyx.com/en/articles/5170721-best-practices-for-co
 title: "Best Practices for Contacting Support"
 description: "Get 24/7 international support and learn how to report call, messaging, portal, See Telnyx guidance and requirements."
 scraped: 2026-09-28
-content_hash: 5ec4d5f8e49e69c5cc3ed363275cffc5ce35c008f8c45b358466dfddb96daafe
-updated_at: 2026-08-06T10:58:37Z
-modified_at: 2026-08-06T10:58:37Z
+content_hash: "74380c9b08369b81c87b46a85a02f3577f81f6731d681f25bfb4e9e1c95301a8"
+updated_at: "2026-10-14T16:16:11Z"
+modified_at: "2026-10-14T16:16:11Z"
 ---
 
 # Best Practices for Contacting Support
 
 # How to Contact Telnyx Network Operation Center
 
-**Chat:** click the "chat with us" link on the bottom of the left menu when signed into the Portal and the chat window will appear on the bottom right of the Mission Control Portal.  
+**Chat:** Open the chat in Mission Control Portal. Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket.
+
 ​**Phone:** at +18889809750 or any of the international numbers listed below.
 
-**Ticket:** Email us at [support@telnyx.com](mailto:support@telnyx.com).
+**Ticket:** Ask the AI agent in your chat to escalate your case. It will automatically create a support ticket for human assistance.
 
-At the beginning of your chat or email conversation, you will be provided a ticket number. If you wish to reference a previous chat or open ticket, please provide the ticket number that was given to you at the time of your conversation so that we can pick up right where we left off.
+When referring to an existing support ticket or a previous issue, include the ticket number in your chat so that the relevant case can be identified.
 
 ## When to Contact NOC
 
@@ -76,7 +77,7 @@ You can try the request [here](https://developers.telnyx.com). Additional inform
 
 If you experience an issue in the Portal, such as an unfamiliar error message, a screenshot of the error itself would always be appreciated. Alternatively, you can access the console window by using the “Inspect Element” tool in your browser. This is usually accessed by pressing F12 or right clicking in your browser and selecting “Inspect Element”.
 
-You can attach a screenshot to an open Intercom chat by clicking the paperclip icon on the right-hand side of the chat window. You are also welcome to email us a screenshot at [support@telnyx.com](mailto:support@telnyx.com).
+Share a screenshot in your AI support chat. If you need human assistance, ask the AI agent to escalate your case and create a support ticket, and include the screenshot with the issue details.
 
 If it is not possible for you to capture a screenshot, we would love a description of what you were trying to do in the Portal and how that compares to what you experienced. For example, information such as the URL of the page you are on, error messages you received, buttons you have clicked, text-boxes you have filled out, etc. are all very helpful in understanding the issue.
 
@@ -86,7 +87,7 @@ For more information read our bug reports process [here](https://support.telnyx.
 
 ## International Support Numbers
 
-If you have any other questions, please don’t hesitate to ask. The NOC can be reached by chat (by clicking the chat icon in the bottom right-hand side of the Portal), by email at [support@telnyx.com](mailto:support@telnyx.com), or by phone at:
+For help with any issue, start with the AI support chat in Mission Control Portal. If you need human assistance, ask the AI agent to escalate your case and automatically create a support ticket. Phone support is also available at:
 
 - Australia: +611800951077 or +61285318680
 - Estonia: +3726991435
@@ -107,7 +108,7 @@ If you have any other questions, please don’t hesitate to ask. The NOC can be 
 
 ## NOTES ABOUT CONTACTING NOC SUPPORT
 
-We receive feedback now and again where customer emails received at [support@telnyx.com](mailto:support@telnyx.com) go to spam. Based on our review, email providers are becoming more strict where domains without properly configured SPF / DMARC records are getting marked as spam.
+When replying to an existing support ticket by email, your message may be marked as spam. Email providers are becoming more strict about domains without properly configured SPF / DMARC records.
 
 There are other reasons where this can occur:
 

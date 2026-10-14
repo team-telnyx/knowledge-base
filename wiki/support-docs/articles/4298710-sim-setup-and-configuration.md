@@ -3,7 +3,7 @@ title: "SIM Setup and Configuration"
 summary: "This article will explain how to order a Telnyx SIM card and help with the configuration/setup process. See Telnyx guidance and requirements."
 sources:
 - url: "https://support.telnyx.com/en/articles/4298710-sim-setup-and-configuration"
-updated_at: 2026-07-08T00:00:00Z
+updated_at: 2026-10-14T16:16:11Z
 tags: [support-docs]
 source_path: "support-docs/en--articles--4298710-sim-setup-and-configuration.md"
 generated_by: incremental-support-docs-wiki
@@ -23,7 +23,9 @@ Our Wireless SIM cards allow your business to build and scale Internet of Things
 
 ## Ordering your SIM Card
 
-In your portal, navigate to the "Wireless" section to order a SIM. Note that it may take some time for your SIM card to arrive. Please reach out to [support@telnyx.com](mailto:support@telnyx.com) or our online chat to inquire about your order.
+In your portal, navigate to the "Wireless" section to order a SIM. Note that it may take some time for your SIM card to arrive. For help with your order:
+
+Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket.
 
 ## Configuring Your SIM Card
 

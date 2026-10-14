@@ -3,7 +3,7 @@ title: "How to Configure a SIP Trunk"
 summary: "Step-by-step guide on setting up a SIP Trunk with Telnyx using a compatible soft phone or system. See Telnyx guidance and requirements."
 sources:
 - url: "https://support.telnyx.com/en/articles/8096455-how-to-configure-a-sip-trunk"
-updated_at: 2026-07-08T00:00:00Z
+updated_at: 2026-10-14T16:16:11Z
 tags: [support-docs]
 source_path: "support-docs/en--articles--8096455-how-to-configure-a-sip-trunk.md"
 generated_by: incremental-support-docs-wiki
@@ -142,4 +142,4 @@ Start calling and receiving calls, the world is at your fingertips! Please remem
 
 We love to get your feedback on this tutorial. If you have any then please message [community@telnyx.com](mailto:community@telnyx.com) and include the link to the article you are referencing along with any concerns or comments.
 
-If you are stuck on any particular step then we would be happy to help, we have 24/7 world-class support available by phone at +18889809750 ext 2 or sending us an email at [support@telnyx.com](mailto:support@telnyx.com) or via chat by logging into your mission control portal account.
+If you are stuck on any particular step, open the AI support chat in your [Mission Control Portal](https://portal.telnyx.com/). Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket. Phone support is also available at +18889809750 ext 2.

@@ -3,7 +3,7 @@ title: "Messaging in Mission Control"
 summary: "Set up your Telnyx Mission Control for messaging. See Telnyx guidance and requirements Learn more about Messaging in Mission Control with Telnyx."
 sources:
 - url: "https://support.telnyx.com/en/articles/8219294-messaging-in-mission-control"
-updated_at: 2026-07-08T00:00:00Z
+updated_at: 2026-10-14T16:16:11Z
 tags: [support-docs]
 source_path: "support-docs/en--articles--8219294-messaging-in-mission-control.md"
 generated_by: incremental-support-docs-wiki
@@ -89,4 +89,6 @@ If you wish to increase your default sending rate, you will first need to obtain
 * If you are looking for SMPP instead, check [here](https://support.telnyx.com/en/articles/1667062-short-message-peer-to-peer-set-up-guide).
 * Check [here](https://support.telnyx.com/en/articles/4371498-sending-alphanumeric-sms-sender-id) for Alphanumeric sending (only available outside the US and Canada)
 
-As always! Feel free to search our knowledge base or reach out to us via email, chat or telephone if you need additional assistance and/or have other questions.
+Feel free to search our knowledge base for answers. For additional assistance or other questions:
+
+Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket.

@@ -3,9 +3,9 @@ source_url: https://support.telnyx.com/en/articles/3679260-frequently-asked-ques
 title: "Frequently asked questions about 10DLC"
 description: "10DLC is the mandatory compliance framework for USA long-code SMS & MMS… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: a65273693618ac3759f23d5e910a3ebb57fdba415349de578e8156a5ed0672f3
-updated_at: "2026-09-30T10:38:57Z"
-modified_at: "2026-09-30T10:38:57Z"
+content_hash: "e887dd13c15fa49bd3463c25b95b16652473a7843c3e1cc1c14489f1dd36527f"
+updated_at: "2026-10-14T16:16:11Z"
+modified_at: "2026-10-14T16:16:11Z"
 ---
 
 
@@ -362,4 +362,4 @@ Head to our [10DLC Fees and Charges](https://support.telnyx.com/en/articles/5634
 
 ### **I have another question or concern not covered in this document, where should I go?**
 
-If you have any other questions, you can chat to our support team 24/7 via your [Mission Control Portal](https://portal.telnyx.com/#/login/sign-in), or on our Contact Us page. If you have specific messaging compliance questions please reach out to [10dlcquestions@telnyx.com](mailto:10dlcquestions@telnyx.com).
+If you have any other questions, open the AI support chat in your [Mission Control Portal](https://portal.telnyx.com/#/login/sign-in). Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket. Mention any messaging compliance questions when requesting escalation.

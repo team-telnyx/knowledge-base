@@ -3,7 +3,9 @@ source_url: https://support.telnyx.com/en/articles/4283906-bug-reports-guide
 title: "Bug Reports Guide"
 description: "This article explains how to submit a bug report to the Telnyx support team. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 36aa38c1ebd51cc212eaa9765f4c25cc26252fb6dce65d99a744972e85614de1
+content_hash: "541857a67aaeb7bc98aab8ae96a187d04cd189991943636f5b314be3ff6d6f78"
+updated_at: "2026-10-14T16:16:11Z"
+modified_at: "2026-10-14T16:16:11Z"
 ---
 
 
@@ -32,7 +34,7 @@ At Telnyx, we're very much engineering focused. We're agile and iterate quickly,
 
 We're always grateful to our customers when it comes to identifying any and all [improvements](https://support.telnyx.com/en/articles/4283783-feature-requests), especially bugs!
 
-Let us know if you find any by contacting our support team by email **[support@telnyx.com](mailto:support@telnyx.com),** we're always quick on hand to bring this feedback to the attention of our engineers, in order to ensure a better customer experience.
+Let us know if you find any bugs by starting with the AI support chat in Mission Control Portal. Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket. Include details that will help our team investigate the issue.
 ​
 We always appreciate a detailed description of the bug, as well as any screenshots or videos you may have.
 
@@ -52,7 +54,7 @@ Don't forget! Our [mission control portal](https://portal.telnyx.com/#/login/sig
    1. If you see any red logs you can right click the whitespace and save the console logs.
 7. These files will be very useful to determine the cause!
 
-If the bug is mission critical (service affecting), please open a chat with ourselves in support and we will investigate it immediately.
+If the bug is mission critical (service affecting), explain the service impact and urgency in the AI support chat. Ask the AI agent to escalate your case and it will automatically create a support ticket.
 
 ## Security related bugs
 

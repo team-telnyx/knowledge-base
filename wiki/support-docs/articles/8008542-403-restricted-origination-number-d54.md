@@ -3,7 +3,7 @@ title: "403 Restricted origination number D54"
 summary: "This error code indicates that Telnyx has blocked an outbound call attempt to the PSTN because the origination number has a bad reputation."
 sources:
 - url: "https://support.telnyx.com/en/articles/8008542-403-restricted-origination-number-d54"
-updated_at: 2026-09-15T00:00:00Z
+updated_at: 2026-10-14T16:16:11Z
 tags: [support-docs]
 source_path: "support-docs/8008542-403-restricted-origination-number-d54.md"
 generated_by: incremental-support-docs-wiki
@@ -18,7 +18,7 @@ Telnyx has introduced this new security mechanism to combat unsolicited calls by
 
 The number reputation data is built by aggregating multiple data sources and it’s constantly being updated.
 
-If you believe your origination number has been incorrectly flagged please contact our support team via chat or email ([support@telnyx.com](mailto:support@telnyx.com)).
+If you believe your origination number has been incorrectly flagged, describe the issue in the AI support chat. Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket.
 
 ---
 

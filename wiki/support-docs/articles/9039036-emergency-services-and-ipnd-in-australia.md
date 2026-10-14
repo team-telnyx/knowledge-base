@@ -3,7 +3,7 @@ title: "Emergency Services and IPND in Australia"
 summary: "Learn more about emergency services and IPND in Australia. See Telnyx guidance and requirements Learn more about Emergency Services and IPND in Australia with."
 sources:
 - url: "https://support.telnyx.com/en/articles/9039036-emergency-services-and-ipnd-in-australia"
-updated_at: 2026-07-08T00:00:00Z
+updated_at: 2026-10-14T16:16:11Z
 tags: [support-docs]
 source_path: "support-docs/en--articles--9039036-emergency-services-and-ipnd-in-australia.md"
 generated_by: incremental-support-docs-wiki
@@ -45,4 +45,4 @@ Considering your contact data as listed in the IPND is used in emergency cases, 
 
 If the address you provided is not the physical address from where you are calling, please contact our support team with the appropriate contact name and telephone number.
 
-If you would like to view the state of your phone number in IPND, update your phone number in IPND, or opt out of directory listings for your phone number, please contact our support team at [support@telnyx.com](mailto:support@telnyx.com) or by using the chat function.
+If you would like to view the state of your phone number in IPND, update your phone number in IPND, or opt out of directory listings for your phone number, describe your request in the AI support chat. Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket.

@@ -3,7 +3,7 @@ title: "Intro to Telnyx Edge Router"
 summary: "Dive into the Telnyx Edge Router's functionalities and benefits. See Telnyx guidance and requirements."
 sources:
 - url: "https://support.telnyx.com/en/articles/8126141-intro-to-telnyx-edge-router"
-updated_at: 2026-07-08T00:00:00Z
+updated_at: 2026-10-14T16:16:11Z
 tags: [support-docs]
 source_path: "support-docs/en--articles--8126141-intro-to-telnyx-edge-router.md"
 generated_by: incremental-support-docs-wiki
@@ -156,6 +156,6 @@ One low Monthly Recurring Cost based on the maximum speed [bandwidth tier](https
 
 We love to get your feedback on this tutorial. If you have any then please message [community@telnyx.com](mailto:community@telnyx.com) and include the link to the article you are referencing along with any concerns or comments.
 
-If you are stuck on any particular step then we would be happy to help, we have 24/7 world-class support available by phone at +18889809750 ext 2 or sending us an email at [support@telnyx.com](mailto:support@telnyx.com) or via chat by clicking the chat bubble in the bottom right of your [Mission Control Portal](https://portal.telnyx.com/) account.
+If you are stuck on any particular step, open the AI support chat in your [Mission Control Portal](https://portal.telnyx.com/). Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket. Phone support is also available at +18889809750 ext 2.
 
 For discussion purposes you can also join us on slack at <https://joinslack.telnyx.com/>.

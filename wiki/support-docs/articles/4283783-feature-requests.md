@@ -3,7 +3,7 @@ title: "Feature Requests"
 summary: "This article explains how to submit a feature request within the Mission Control Portal. See Telnyx guidance and requirements."
 sources:
 - url: "https://support.telnyx.com/en/articles/4283783-feature-requests"
-updated_at: 2026-07-08T00:00:00Z
+updated_at: 2026-10-14T16:16:11Z
 tags: [support-docs]
 source_path: "support-docs/en--articles--4283783-feature-requests.md"
 generated_by: incremental-support-docs-wiki
@@ -55,4 +55,4 @@ That's it! You'll be notified VIA the email entered if any further developments 
 
 ## **Special Note**
 
-From time to time, our users may also provide improvement suggestions via chat or email. Know that Telnyx has in place a tight feedback loop, where our support team can tag your case as a feature request, allowing our product managers to be notified internally on your suggestions. This allows them the ability to review your case and potentially have the improvement included on our public product board!
+To submit an improvement suggestion, describe it in the AI support chat. Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket. Our support team can tag your ticket as a feature request so that our product managers can review the suggestion and potentially include it on our public product board.

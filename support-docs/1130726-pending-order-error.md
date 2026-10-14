@@ -3,9 +3,10 @@ source_url: "https://support.telnyx.com/en/articles/1130726-pending-order-error"
 robots: "noindex,nofollow"
 title: "Pending Order Error"
 scraped: "2026-09-15"
-modified_at: "2020-06-11T18:02:57Z"
-content_hash: "026ab2b363aeaf4647fb505441d9f696a3bfe57875fd45d78a1dcdd689985e27"
+modified_at: "2026-10-14T16:16:11Z"
+content_hash: "104dd74bba61f80c2e1d7efabc70a9a7bbf57bc4e600a4bf124399cd3d154ce4"
 description: "Understand pending order errors during US and Canadian number porting, common causes, and how to resolve a losing-carrier exception."
+updated_at: "2026-10-14T16:16:11Z"
 ---
 
 # Pending Order Error
@@ -42,7 +43,7 @@ Changes can take several weeks to clear out of the losing carrier's system. It i
 
 Your end customer may have initiated a port-out through another reseller or carrier without your knowledge. It is best to contact the end customer and verify that your customer is not porting numbers to another carrier.
 
-**Can't find what you're looking for? Click the chat bubble at your lower right hand corner and start a chat!**
+Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket.
 
 ---
 

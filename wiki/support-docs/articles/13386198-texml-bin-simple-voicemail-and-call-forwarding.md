@@ -3,7 +3,7 @@ title: "TeXML Bin Simple Voicemail and Call Forwarding"
 summary: "Get started quickly with Telnyx Programmable Voice and the TexML Bin feature. See Telnyx guidance and requirements."
 sources:
 - url: "https://support.telnyx.com/en/articles/13386198-texml-bin-simple-voicemail-and-call-forwarding"
-updated_at: 2026-07-08T00:00:00Z
+updated_at: 2026-10-14T16:16:11Z
 tags: [support-docs]
 source_path: "support-docs/en--articles--13386198-texml-bin-simple-voicemail-and-call-forwarding.md"
 generated_by: incremental-support-docs-wiki
@@ -84,4 +84,4 @@ Test your application by:
 
 *Retrieving your voicemail*
 
-And that’s it! If you have any questions about this tutorial or any of our products, reach out to our support team through the chat in the bottom right-hand corner.
+If you have any questions about this tutorial or any of our products, open the AI support chat in Mission Control Portal. Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket.
