@@ -3,9 +3,10 @@ source_url: "https://support.telnyx.com/en/articles/8008542-403-restricted-origi
 robots: "noindex,nofollow"
 title: "403 Restricted origination number D54"
 scraped: "2026-09-15"
-modified_at: "2023-06-17T09:41:55Z"
-content_hash: "28173e1459fe555554818e58023cdb7d8b0796c3330b086fbb349250df13c3b9"
+modified_at: "2026-10-14T16:16:11Z"
+content_hash: "e0925ebcf1a316ccc0099c08ff4d202e6f4244ea9c8b2397814470b2a953c10c"
 description: "Understand the 403 Restricted origination number D54 error, why number reputation can block calls, and how to contact support."
+updated_at: "2026-10-14T16:16:11Z"
 ---
 
 # 403 Restricted origination number D54
@@ -16,7 +17,7 @@ Telnyx has introduced this new security mechanism to combat unsolicited calls by
 
 The number reputation data is built by aggregating multiple data sources and it’s constantly being updated.
 
-If you believe your origination number has been incorrectly flagged please contact our support team via chat or email ([support@telnyx.com](mailto:support@telnyx.com)).
+If you believe your origination number has been incorrectly flagged, describe the issue in the AI support chat. Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket.
 
 ---
 

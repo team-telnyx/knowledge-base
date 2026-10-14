@@ -3,7 +3,7 @@ title: "Prevent Telnyx Account Fraud"
 summary: "In this article we will explain how to setup your account to prevent fraud. See Telnyx guidance and requirements."
 sources:
 - url: "https://support.telnyx.com/en/articles/3610162-prevent-telnyx-account-fraud"
-updated_at: 2026-07-08T00:00:00Z
+updated_at: 2026-10-14T16:16:11Z
 tags: [support-docs]
 source_path: "support-docs/en--articles--3610162-prevent-telnyx-account-fraud.md"
 generated_by: incremental-support-docs-wiki
@@ -87,9 +87,10 @@ And for international service plans, you'll see the ability to allow or disallow
 
 ## **How do I report abuse for Telnyx numbers?**
 
-You can report abuse to us via our website form [here](https://telnyx.com/report-abuse), by emailing **[abuse@telnyx.com](mailto:abuse@telnyx.com)** or through our chat widget:
+You can report abuse through our website form [here](https://telnyx.com/report-abuse) or by emailing **[abuse@telnyx.com](mailto:abuse@telnyx.com)**. If you need assistance with suspected account fraud:
 
-![](_images/603ed16dea7121eb.png)
+Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket.
+
 
 ## **What about spoofing, robocalling and STIR/SHAKEN?**
 

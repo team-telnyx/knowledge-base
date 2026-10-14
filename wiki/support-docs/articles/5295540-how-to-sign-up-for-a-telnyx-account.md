@@ -3,7 +3,7 @@ title: "How to Sign Up for a Telnyx account"
 summary: "This article will explain the steps to create your own Telnyx Portal… See Telnyx guidance and requirements."
 sources:
 - url: "https://support.telnyx.com/en/articles/5295540-how-to-sign-up-for-a-telnyx-account"
-updated_at: 2026-07-08T00:00:00Z
+updated_at: 2026-10-14T16:16:11Z
 tags: [support-docs]
 source_path: "support-docs/en--articles--5295540-how-to-sign-up-for-a-telnyx-account.md"
 generated_by: incremental-support-docs-wiki
@@ -17,7 +17,7 @@ This article will explain the steps to create your own Telnyx Portal… See Teln
 
 
 
-In this article, we will go over how you can create a Telnyx Mission Control Portal account, as well as some of our rules regarding allowed methods of sign-up. If at any point you encounter an issue during sign-up, feel free to contact us at [support@telnyx.com](mailto:support@telnyx.com) or through our live-chat and we will do our best to help.
+In this article, we will go over how you can create a Telnyx Mission Control Portal account, as well as some of our rules regarding allowed methods of sign-up. If you encounter an issue during sign-up, start with AI chat support. Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket.
 ​
 
 ---
@@ -133,4 +133,4 @@ Telnyx may provide free trial credit from time to time for certain products, how
 ## **NOTES**
 
 * If the login button is disabled, please verify that your browser is not blocking google scripts for recaptcha verification.
-* If you try to sign into your account and you receive the error "You cannot sign in as your identity verification was rejected" please send an email to [support@telnyx.com](mailto:support@telnyx.com) so they can assist you.
+* If you try to sign into your account and receive the error "You cannot sign in as your identity verification was rejected", describe the error in the AI support chat. If you need human assistance, ask the AI agent to escalate your case and automatically create a support ticket.

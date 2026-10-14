@@ -3,7 +3,9 @@ source_url: https://support.telnyx.com/en/articles/7205411-numbering-team-best-p
 title: "Numbering Team Best Practices"
 description: "Effective ways to engage with Telnyx's numbering team for number requests and updates. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 90d11e721ae0bcadd2c023c717bbd690d3ea48087c499e4476aa319bdf28ccd9
+content_hash: "58ea980e22f402adf01340b8dfad951b8a8dc9ef233c06bf873c435e781384dd"
+updated_at: "2026-10-14T16:16:11Z"
+modified_at: "2026-10-14T16:16:11Z"
 ---
 
 
@@ -41,10 +43,10 @@ From Monday to Friday, Telnyx's numbering team can be reached between 9am - 5pm 
 
 ## **How to Contact Telnyx's Numbering Team?**
 
-If you need to contact Telnyx's numbering team, you can do so in two ways:
+For numbering assistance, open the AI support chat in Mission Control Portal:
 
-* Click the chat icon on the bottom right of the screen when signed into the Portal. This will open a chat window where you can talk to a member of the team.
-* Send an email to **[numbering@telnyx.com](mailto:numbering@telnyx.com)**. One of the team members will get back to you as soon as possible.
+* Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket.
+* Include your order details when requesting assistance.
 
 ## **Requesting New Numbers?**
 
@@ -52,7 +54,7 @@ If you're unable to locate the desired number on **portal.telnyx.com**, please r
 
 ## **Need an Update on an Existing Order?**
 
-If you have an existing order and need an update, you can click on the chat icon on the bottom right of the screen when signed into the Portal. A member of the numbering team will be able to give you an update on your order status.
+If you have an existing order and need an update, open the AI support chat and include your order details. If you need human assistance, ask the AI agent to escalate your case and automatically create a support ticket.
 
 ## **What Support Method is Best?**
 
@@ -60,8 +62,8 @@ Depending on your specific need, different support methods may be more helpful. 
 
 **To request a new number,** it's best to use the numbering request form on the portal
 
-**If you need an update on an existing order**, use the chat function on the Portal.
+**If you need an update on an existing order**, start with the AI support chat in Mission Control Portal. Ask for escalation if human assistance is required.
 
-**If you have an urgent issue and need to expedite a ticket,** contact the numbering team by opening a new chat or by sending an email to **[numbering@telnyx.com](mailto:numbering@telnyx.com)** during work hours. While the team usually resolves tickets as soon as possible, they will do their best to assist you if you have an urgent need.
+**If you have an urgent issue and need to expedite a ticket,** explain the urgency in the AI support chat and ask the AI agent to escalate your case. It will automatically create a support ticket. Include your existing ticket number, if you have one.
 
 **Looking for document requirements for a specific country?** You can find the information you need by going to **support.telnyx.com** and then searching by country.

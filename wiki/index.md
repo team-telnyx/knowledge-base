@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-10-02T06:58:09Z
+updated_at: 2026-10-14T16:16:11Z
 ---
 
 # Telnyx Knowledge Base
@@ -393,7 +393,7 @@ updated_at: 2026-10-02T06:58:09Z
 
 - [SIP Connection: Settings](support-docs/articles/4351104-sip-connection-settings.md) — To access the settings of a connection, click the small edit icon on the far right of the desired connection at the SIP Trunking section under the Voice Suite in the Mission Control Portal.
 
-- [Best Practices for Contacting Support](support-docs/articles/5170721-best-practices-for-contacting-support.md) — Chat: click the "chat with us" link on the bottom of the left menu when signed into the Portal and the chat window will appear on the bottom right of the Mission Control Portal. ​Phone: at +18889809750 or any of the international numbers listed below.
+- [Best Practices for Contacting Support](support-docs/articles/5170721-best-practices-for-contacting-support.md) — Chat: Open the chat in Mission Control Portal. Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket.
 
 - [Albania DID Requirements](support-docs/articles/5463863-albania-did-requirements.md) — In order to purchase an Albanian number you will need to provide the following:
 
@@ -415,7 +415,7 @@ updated_at: 2026-10-02T06:58:09Z
 
 - [United Arab Emirates: SMS Guidelines](support-docs/articles/6683438-united-arab-emirates-sms-guidelines.md) — Information on Alphanumeric Sender ID registration: ​ Registration of Alphanumeric Senders towards UAE have been put on hold by the local operators until further notice.
 
-- [Mission Control Portal - AI Chat Support Assistant](support-docs/articles/8020222-mission-control-portal-ai-chat-support-assistant.md) — We are delighted to introduce our latest digital offering, designed to enhance your customer service experience, while providing more efficient and personalised support.
+- [Mission Control Portal - AI Chat Support Assistant](support-docs/articles/8020222-mission-control-portal-ai-chat-support-assistant.md) — The Telnyx AI Assistant is the first point of contact for support through chat in our Mission Control Portal. It can help with documentation and account troubleshooting. Human assistance is provided through support tickets created by the AI agent.
 
 - [Enabling WhatsApp Business Calling on Telnyx and BYON Numbers](support-docs/articles/14668631-enabling-whatsapp-business-calling-on-telnyx-numbers.md) — Enable WhatsApp Business Calling with a Telnyx number, or import your existing non-Telnyx WhatsApp number using Bring Your Own Number (BYON) to receive inbound WhatsApp voice calls through Telnyx.
 

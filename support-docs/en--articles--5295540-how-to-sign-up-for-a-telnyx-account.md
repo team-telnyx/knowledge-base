@@ -3,7 +3,9 @@ source_url: https://support.telnyx.com/en/articles/5295540-how-to-sign-up-for-a-
 title: "How to Sign Up for a Telnyx account"
 description: "This article will explain the steps to create your own Telnyx Portal… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 57830d708e82c8c15ff9b2fa5ccc9b9b5652e3b06225ee63fb123a64eab1591e
+content_hash: "1ca20ec807095ce222948c10e1d61a33ded5bf5ae3d5be12de3b0292abb0f3f2"
+updated_at: "2026-10-14T16:16:11Z"
+modified_at: "2026-10-14T16:16:11Z"
 ---
 
 
@@ -19,7 +21,7 @@ This article will explain the steps to create your own Telnyx Portal… See Teln
 
 
 
-In this article, we will go over how you can create a Telnyx Mission Control Portal account, as well as some of our rules regarding allowed methods of sign-up. If at any point you encounter an issue during sign-up, feel free to contact us at [support@telnyx.com](mailto:support@telnyx.com) or through our live-chat and we will do our best to help.
+In this article, we will go over how you can create a Telnyx Mission Control Portal account, as well as some of our rules regarding allowed methods of sign-up. If you encounter an issue during sign-up, start with AI chat support. Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket.
 ​
 
 ---
@@ -135,4 +137,4 @@ Telnyx may provide free trial credit from time to time for certain products, how
 ## **NOTES**
 
 * If the login button is disabled, please verify that your browser is not blocking google scripts for recaptcha verification.
-* If you try to sign into your account and you receive the error "You cannot sign in as your identity verification was rejected" please send an email to [support@telnyx.com](mailto:support@telnyx.com) so they can assist you.
+* If you try to sign into your account and receive the error "You cannot sign in as your identity verification was rejected", describe the error in the AI support chat. If you need human assistance, ask the AI agent to escalate your case and automatically create a support ticket.

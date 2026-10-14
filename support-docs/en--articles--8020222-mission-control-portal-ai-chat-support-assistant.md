@@ -3,16 +3,16 @@ source_url: https://support.telnyx.com/en/articles/8020222-mission-control-porta
 title: "Mission Control Portal - AI Chat Support Assistant"
 description: "Your new Telnyx AI Assistant here to help provide 24/7 support. See Telnyx guidance and requirements."
 scraped: 2026-09-28
-content_hash: d06216cefc44b24921b9e33b34ae68b1b40a5d637321bbe98513ce2a66a33718
-updated_at: 2026-07-15T11:26:50Z
-modified_at: 2026-07-15T11:26:50Z
+content_hash: "5ea85bd5d3095d946600b88beee6968cd269ac7ec6cded7038ac3a24999e84a6"
+updated_at: "2026-10-14T16:16:11Z"
+modified_at: "2026-10-14T16:16:11Z"
 ---
 
 # Mission Control Portal - AI Chat Support Assistant
 
 # Mission Control Portal - AI Chat Support Assistant
 
-We are delighted to introduce our latest digital offering, designed to enhance your customer service experience, while providing more efficient and personalised support. The advent of our new AI Assistant accessible through our [Mission Control Portal](https://portal.telnyx.com), marks another evolution in our service provision, complimenting our existing chat support service.
+The Telnyx AI Assistant is the first point of contact for support through chat in our [Mission Control Portal](https://portal.telnyx.com). It can help with documentation and account troubleshooting. Human assistance is provided through support tickets created by the AI agent.
 
 You can access the AI Assistant on the left hand side navigation bar, as seen in the image below. Simply click "Ask our AI Assistant" and the widget will pop up from the bottom right hand side of your mission control portal account.
 
@@ -28,13 +28,13 @@ It pulls from our **Support Center** (support.telnyx.com), **Developer Docs** (d
 
 Whether it’s a simple question or a more technical one, the Assistant uses our documentation and has read-only access to your portal account resources that can help troubleshoot.
 
-Get instant support anytime. And if the Assistant can’t solve it, you can still connect directly with a live agent from the widget or by clicking "**Chat with us**" on the left-hand side navigation.
+Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket.
 
 ![](_images/1bf4fdbf517004ba.png)
 
 ![](_images/9ba20d015d469710.png)
 
-If you select "Ask our AI Assistant" and once you have asked a question and the assistant has responded you will be given two buttons: **"Chat to Support"** or **"That helped"**. If you want to speak with an agent then select "Chat to Support". If the response resolved your question then you select "That helped". If you want to ask another question then simply type into the chat box and enter your next question.
+After the Assistant responds, you can ask another question by typing into the chat box. If you need human assistance, ask it to escalate your case and create a support ticket. Human support is provided through tickets, rather than within the chat.
 
 ## What can the AI Assistant cover?
 
@@ -53,7 +53,7 @@ Instead, the third and fourth question will result in a specific set of instruct
 
 Elaborating on and mentioning the specific Telnyx products will help guide our assistant to providing you with the right answer!
 
-In cases where the questions are considered to technical for the assistant to answer, you will be guided to our human support.
+If the Assistant cannot resolve your question, ask it to escalate your case. It will automatically create a support ticket for human review.
 
 **General Customer Support**
 
@@ -65,17 +65,17 @@ In cases where the questions are considered to technical for the assistant to an
 
 #### **Self-Service Support**
 
-- It's designed to provide first-level support. For more complex inquiries, our AI Assistant can guide you through the process of creating a support ticket or giving you the option to start a chat with our agents.
+- The Assistant provides first-level support. For issues requiring human assistance, ask it to escalate your case and it will automatically create a support ticket.
 
 #### **24/7 Availability**
 
-- Just like our Support team, our AI Assistant is available around the clock. However, as we're relying on a third party provider, it's possible it may experience degradation from time to time. We'll clearly display when the assistant is not performing at it's expected levels. It's important to note that while our AI assistant is highly capable, it's not currently designed to replace human interaction. Instead, it complements our human support team by handling more routine inquiries. However, Telnyx does have plans to continue to improve the assistant and user experience. The best way to provide feedback is by selecting the thumbs up and thumbs down buttons on a per message basis.
+- Our AI Assistant is available around the clock. However, as we rely on a third-party provider, it may experience degradation from time to time. We will clearly display when the Assistant is not performing at its expected levels. Human assistance is provided through support tickets created by the AI agent, rather than within the chat. The best way to provide feedback is by selecting the thumbs up and thumbs down buttons on a per-message basis.
 
 ## Limitations and Complementary Use
 
-While our AI Assistant is a powerful it may not be able to handle complex queries or requests that require human intervention. In such cases, we encourage you to use the "Chat to Support" feature to get in touch with our live support team but the goal is to continue to iterate.
+The AI Assistant may not be able to resolve every query or complete requests that require human intervention. Ask it to escalate your case and it will automatically create a support ticket for our team to review and follow up.
 
-Remember, our AI Assistant and our chat support system, work in synergy. They are designed to complement each other and ensure you receive efficient, accurate, and swift assistance whenever you need it. Conversation history is not stored in the widget at this time so if you refresh your portal or log out of your account, the conversation you had will not be retrieved.
+Chat conversations are handled by AI agents. Conversation history is not stored in the widget at this time, so if you refresh the Portal or log out of your account, the conversation will not be retrieved.
 
 ---
 
@@ -124,15 +124,15 @@ For example, an agent could:
 - Ask how to configure a Telnyx product or API.
 - Request relevant documentation for an implementation.
 - Investigate why an account resource is not behaving as expected.
-- Gather troubleshooting guidance before escalating an issue to a human operator or Telnyx Support.
+- Gather troubleshooting guidance before requesting human review through a support ticket.
 
-This helps AI agents operate more independently while still giving customers a clear path to human support when an issue requires further investigation.
+This helps AI agents operate more independently while still giving customers a path to human assistance through support tickets when an issue requires further investigation.
 
 ## Important considerations
 
 The A2A interface is intended to complement, not replace, the Telnyx Support team. Responses may occasionally be incomplete, incorrect, or based on outdated information. Customers should validate important guidance before making production changes.
 
-For complex issues, requests requiring account changes, or questions the Assistant cannot resolve, customers should contact Telnyx Support through Mission Control Portal or create a support ticket via support@telnyx.com, however the Assistant can also create one on your behalf if you request it.
+For complex issues, requests requiring account changes, or questions the Assistant cannot resolve, use the AI support chat in Mission Control Portal. Ask the AI agent to escalate your case and it will automatically create a support ticket.
 
 Requests made through A2A may be processed using the same artificial intelligence systems and subprocessors described in this article. Customers should avoid including unnecessary personal, confidential, or sensitive information in their requests.
 
@@ -145,4 +145,4 @@ Requests made through A2A may be processed using the same artificial intelligenc
 - You agree to have your data transferred to OpenAI, a subprocessor located in the United States, who assists in processing interactions with our AI Assistant and generating answers based on our publicly accessible documentation.
 - We retain personal data as long as necessary to provide our services or as required by law, rule or regulation.
 - Please note that our services involve automated decision-making, including the use of artificial intelligence to process interactions with our AI Assistant.
-- It is possible that our assistant may return incorrect our outdated information, please do not hesitate to contact a member of our support team to have your queries clarified.
+- Our Assistant may return incorrect or outdated information. If you need human assistance to clarify its guidance, ask it to escalate your case and it will automatically create a support ticket.

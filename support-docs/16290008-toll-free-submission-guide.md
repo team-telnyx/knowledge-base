@@ -3,16 +3,17 @@ source_url: "https://support.telnyx.com/en/articles/16290008-toll-free-submissio
 title: "Toll-Free Submission Guide"
 description: "Learn how to submit Toll-Free Verification in the Telnyx Portal, including required business details, messaging use cases, and opt-in documentation."
 scraped: "2026-09-15"
-modified_at: "2026-08-17T20:44:03Z"
+modified_at: "2026-10-14T16:16:11Z"
 collection_path: "3147004-10dlc-and-toll-free-text-messaging-compliance-guide"
-content_hash: "ed685fb328f88274c9ad6e6b78e9c988c33cb9dbb35fcf4d266be60cc5914f30"
+content_hash: "1b0ee7341e7d957949f442e85e20a1611b41cfbf6f6b892ab395076aa06cbbdd"
+updated_at: "2026-10-14T16:16:11Z"
 ---
 
 # Toll-Free Submission Guide
 
 Before starting this process, first check and make sure the Toll-Free number you want to verifiy for SMS is assigned to a messaging profile. This is the most common mistake prior to submitting and you will have to start the submission process over if the number is not assigned.
 
-(Note: If you are unable to assign the Toll-Free number to a messaging profile, the number will need to be provisioned. Please contact [support@telnyx.com](mailto:support@telnyx.com) if this is the case.)
+(Note: If you are unable to assign the Toll-Free number to a messaging profile, the number will need to be provisioned. Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket.)
 
 **Step 1. The Business Details page.**
 
@@ -110,7 +111,7 @@ After assigning a Toll-Free number. See image below.
 
 [![](_images/0d958b627f4774e35e6b08bef0cfe1362d59654697d84c9a9508b024b73eb80b.png)](/downloads/0d958b627f4774e3-e7d80e35-00c7-4650-8a4a-f06bdcf782af.png)
 
-(Note” If an error occurs here, “Toll-Free number not Provisioned.” This means that the number is not assigned to a messaging profile or it is still assigned to another carrier from a recent port or transfer of service prior to submission. If this error occurs please email [tfverifictaion@telnyx.com](mailto:tfverifictaion@telnyx.com) or [support@telnyx.com](mailto:support@telnyx.com) or open a chat via the Telnyx portal. Share a screenshot of the error and our team will escalate this issue to our messaging operations team.)
+(Note: If an error occurs here, "Toll-Free number not Provisioned," this means that the number is not assigned to a messaging profile or it is still assigned to another carrier from a recent port or transfer of service prior to submission. Start a chat with our AI support agent. If your issue requires human assistance, ask it to escalate your case and it will automatically create a support ticket. Share a screenshot of the error when requesting assistance.)
 
 Select next and move onto the next page Use-Case Details.
 
