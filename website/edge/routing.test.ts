@@ -33,6 +33,25 @@ test("the branded favicon asset bypasses the legacy root-icon redirect", async (
   expect(await context.routeRequest(original, async () => undefined)).toBe(original);
   expect((await route("/favicon.ico")).headers.location.value).toBe("/favicon.svg");
 });
+
+test("canonical article and collection .md URLs pass through to origin unchanged", async () => {
+  for (const [key, target] of Object.entries(registry)) {
+    if (key.startsWith("path:") || target.startsWith("https://")) continue;
+    const mdUri = target + ".md";
+    const result = await route(mdUri);
+    expect(result.uri).toBe(mdUri);
+  }
+  // Non-article .md paths are not intercepted either
+  const passthrough = request("/some-file.md");
+  expect(await context.routeRequest(passthrough, async () => undefined)).toBe(passthrough);
+});
+
+test("alias .md URLs keep redirecting to the HTML canonical", async () => {
+  const [kind, id] = Object.keys(registry).find(k => k.startsWith("article:"))!.split(":");
+  const alias = await route(`/en/${kind}s/${id}-old-title.md`);
+  expect(alias.statusCode).toBe(301);
+  expect(alias.headers.location.value).toBe(registry[`${kind}:${id}`]);
+});
 test("unregistered pages reach the origin without losing method, query or headers", async () => {
   for (const method of ["GET", "HEAD"]) {
     for (const uri of ["/en/articles/3739465-india-did-requirements", "/en/collections/99999999-new-collection", "/garbage"]) {

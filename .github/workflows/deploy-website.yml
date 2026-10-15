@@ -141,7 +141,12 @@ jobs:
           #    application/octet-stream for files without extensions.
           for prefix in en; do
             aws s3 cp --recursive ./website/dist/$prefix/ $BUCKET/$prefix/ \
+              --exclude '*.md' \
               --content-type 'text/html; charset=utf-8' \
+              --cache-control 'public, no-cache'
+            aws s3 cp --recursive ./website/dist/$prefix/ $BUCKET/$prefix/ \
+              --exclude '*' --include '*.md' \
+              --content-type 'text/markdown; charset=utf-8' \
               --cache-control 'public, no-cache'
           done
 
