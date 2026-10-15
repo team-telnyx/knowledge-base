@@ -40,34 +40,61 @@ After the Assistant responds, you can ask another question by typing into the ch
 
 ## What can the AI Assistant cover?
 
-We list example topics the AI Assistant can cover below, and you can see common questions in the placeholder text box. To get the best out of the assistant it is of course recommended to provide context when asking questions. Otherwise, a few keywords may not be specific enough to provide you the answer you may be looking for.
+The AI Assistant answers questions from our documentation and can look into your own account, read only, to find out why something is not working. The more specific you are, the better the answer. Name the product, describe what you expected and what happened, and include any identifier you have: a call ID, a porting order support key (SR_XXXX), a TCR campaign or brand ID, a SIM's ICCID, or an AI Assistant ID.
 
-Example Questions:
+#### **Product and Developer Questions**
 
-1. Hosted SMS?
-2. Making calls?
-3. How can I place an order for Hosted SMS?
-4. How do I make calls with Call Control Voice API?
+- How Telnyx products, APIs, SDKs, and configuration work, answered from the Support Center, Developer Docs, and telnyx.com. Ask for code snippets and the Assistant will include them.
+- Example: "How do I configure a webhook for inbound SMS?"
 
-The first and second question will likely match a reference article across our websites but not specifically give you an answer to the information you may need for setup and configuration.
+#### **Voice Call Troubleshooting**
 
-Instead, the third and fourth question will result in a specific set of instructions that can help you with the process on how to place an order for hosted SMS.
+- Diagnoses call failures, one-way or missing audio, dropped calls, and call quality issues, including calls that pass through queues, conferences, and transfers. It returns the likely root cause and recommended next steps.
+- Supply the call ID (RTC session ID, call session ID, call leg ID, or call control ID).
 
-Elaborating on and mentioning the specific Telnyx products will help guide our assistant to providing you with the right answer!
+#### **AI Assistants (Voice AI)**
 
-If the Assistant cannot resolve your question, ask it to escalate your case. It will automatically create a support ticket for human review.
+- Lists the AI Assistants on your account with their configuration, reviews one assistant in detail, or explains why an assistant behaved as it did on a specific conversation, including whether the cause is your configuration or the Telnyx platform.
+- Covers unexpected or empty replies, interruptions, tools that fail or never run, and knowledge-base documents that are not retrieved. Supply the conversation ID or call control ID of the affected conversation for the most specific answer.
 
-**General Customer Support**
+#### **Porting**
 
-- The assistant can provide answers to common questions about our services form our Support Center documentation.
+- Looks up your porting orders: status, FOC dates, carrier, rejection and exception details, required documents, portability, and activation status. Supply the porting order support key (SR_XXXX) or the phone number.
+- Also answers general porting questions, such as which documents are required to port numbers in a given country.
 
-#### **Developer Support**
+#### **10DLC Registration**
 
-- Developers can ask about our APIs, coding questions, SDKs, and much more. Our AI can provide code snippets (specify this in your question) and recommend relevant documentation.
+- Explains why a 10DLC campaign was declined and what to change before you resubmit, checks your opt-in website, and investigates brand failures and sole-proprietor verification. Supply the TCR campaign or brand ID.
+- Also helps you draft compliant campaign fields and explains 10DLC registration requirements.
 
-#### **Self-Service Support**
+#### **Wireless SIMs**
 
-- The Assistant provides first-level support. For issues requiring human assistance, ask it to escalate your case and it will automatically create a support ticket.
+- Diagnoses why a SIM has no data, cannot attach, keeps disconnecting, or fails while roaming, and whether the problem is on the device side or the network side.
+- Reports SIM state, data plan, SIM group, data limits, usage, current network registration, and whether VoLTE is enabled. Supply the ICCID, IMSI, MSISDN, or SIM ID.
+
+#### **Billing and Account Status**
+
+- Your current balance and available credit, commitment spend, promo credits, and the rates your account is actually on for a given service or country.
+- Why your account is blocked or limited, your identity verification status, and what is stopping an upgrade or signup, such as a verification code that never arrived.
+
+#### **Pricing and Number Coverage**
+
+- Current public list prices for Telnyx products, read live from our pricing data.
+- Which number types (local, toll-free, mobile, national) and features (voice, SMS, MMS, fax, emergency) Telnyx offers in a specific country, including whether recipients can reply to your messages.
+
+#### **Other Products**
+
+- For products not listed above, such as messaging profiles, the Assistant inspects your account configuration to find the cause. Coverage keeps growing, so ask even if your product is not named here.
+
+#### **Feature Requests and Portal Bugs**
+
+- Search, vote on, or file feature requests on our public Soundboard. Votes and requests are recorded against your own account.
+- Report a reproducible Mission Control Portal bug. Include the page URL, what you expected, what happened, and the steps to reproduce it. You will receive a tracking reference for the report.
+
+#### **Human Support**
+
+- If the Assistant cannot resolve your issue, or the issue needs a change only Telnyx can make, ask it to escalate your case. It will automatically create a support ticket and share the ticket number. Our team replies to the email address on your account.
+- Examples of requests that need a ticket: explaining a specific invoice charge, refunds, resetting verification attempts, and other account changes.
 
 #### **24/7 Availability**
 
@@ -87,17 +114,13 @@ In addition to accessing the AI Assistant through Mission Control Portal, custom
 
 ## What can customer agents do?
 
-The A2A integration currently supports two primary capabilities:
+Customer agents can use the same capabilities described in "What can the AI Assistant cover?" above: documentation questions, voice call, AI Assistant, porting, 10DLC, and wireless SIM troubleshooting, billing and account status lookups, public pricing and number coverage, feature requests, Mission Control Portal bug reports, and support tickets.
 
-**Ask documentation questions**
+The agent card (see below) lists each capability as a skill, with a description of what it covers and which identifiers to supply.
 
-Customer agents can ask questions about Telnyx products, APIs, features, configuration, and recommended setup. Responses are generated using information from the Telnyx Support Center, Developer Documentation, and main Telnyx website.
+When authenticated with a Telnyx API key, the Assistant has read only access to relevant resources within the associated Telnyx account. Responses are scoped to the authenticated account.
 
-**Troubleshoot account-specific issues**
-
-When authenticated with a Telnyx API key, customer agents can ask the Assistant to investigate issues using read only access to relevant resources within the associated Telnyx account. Responses are scoped to the authenticated account.
-
-The Assistant cannot make changes to an account, provision services, update configuration, or perform other write actions through the A2A interface.
+The Assistant cannot change your account configuration, provision services, or update resources through the A2A interface. The only actions it takes on your behalf are opening a support ticket, filing or voting on feature requests, and reporting Mission Control Portal bugs.
 
 ## Connecting through A2A
 
