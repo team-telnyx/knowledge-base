@@ -80,7 +80,7 @@ def validate_registry(routes, dist):
     root = Path(dist).resolve()
     canonical = set()
     for directory in ['en/articles', 'en/collections']:
-        canonical.update('/' + str(p.relative_to(root)) for p in (root / directory).glob('*') if p.is_file())
+        canonical.update('/' + str(p.relative_to(root)) for p in (root / directory).glob('*') if p.is_file() and p.suffix != '.md')
     if not canonical:
         raise ValueError('Release has no canonical pages')
     for key, target in routes.items():
