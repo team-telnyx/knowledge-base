@@ -86,7 +86,7 @@ The AI Assistant answers questions from our documentation and can look into your
 
 #### **Feature Requests and Portal Bugs**
 
-- Search, vote on, or file feature requests on our public Soundboard. Votes and requests are recorded against your own account.
+- Search, vote on, or file feature requests on our public [Soundboard](https://portal.telnyx.com/#/soundboard). Votes and requests are recorded against your own account.
 - Report a reproducible Mission Control Portal bug. Include the page URL, what you expected, what happened, and the steps to reproduce it. You will receive a tracking reference for the report.
 
 #### **Human Support**
@@ -113,8 +113,6 @@ In addition to accessing the AI Assistant through Mission Control Portal, custom
 ## What can customer agents do?
 
 Customer agents can use the same capabilities described in "What can the AI Assistant cover?" above: documentation questions, voice call, AI Assistant, porting, 10DLC, and wireless SIM troubleshooting, billing and account status lookups, public pricing and number coverage, feature requests, Mission Control Portal bug reports, and support tickets.
-
-The agent card (see below) lists each capability as a skill, with a description of what it covers and which identifiers to supply.
 
 When authenticated with a Telnyx API key, the Assistant has read only access to relevant resources within the associated Telnyx account. Responses are scoped to the authenticated account.
 
