@@ -73,6 +73,8 @@ for(const a of articles){const included=xml.includes(`<loc>${origin}/en/articles
 if(process.env.REQUIRE_CLEAN_LINKS === "true" && knownEditorialLinks.length) failures.push(`${knownEditorialLinks.length} retired-content links still need verified replacements`);
 // Verify .md files were generated for every article.
 for(const a of articles){const mdPath=path.join(dist,"en","articles",a.slug+".md");if(!fs.existsSync(mdPath))failures.push(`Missing .md file: /en/articles/${a.slug}.md`);}
+// Verify .md files were generated for every collection.
+for(const c of collections){const mdPath=path.join(dist,"en","collections",c.path+".md");if(!fs.existsSync(mdPath))failures.push(`Missing .md file: /en/collections/${c.path}.md`);}
 const summary={pages:routes.length,articles:articles.length,collections:collections.length,links:links.length,emptyCollections:collections.filter(c=>!counts.get(c.path)).length,jsBytes,jsGzipBytes,knownEditorialLinks,failures};
 fs.writeFileSync(path.resolve(dist, process.env.REQUIRE_CLEAN_LINKS === "true" ? "../dist-edge/verification-strict.json" : "../dist-edge/verification.json"),JSON.stringify(summary,null,2));
 console.log(JSON.stringify(summary,null,2));

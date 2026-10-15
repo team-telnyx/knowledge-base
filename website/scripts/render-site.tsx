@@ -7,6 +7,7 @@ import { Router } from "wouter";
 import { AppRoutes } from "../src/App";
 import { DefaultLayout } from "../src/layouts/DefaultLayout";
 import { articles, collections } from "../src/content/manifest";
+import type { Collection } from "../src/content/types";
 import { routeRegistry } from "./content/routes";
 const esc = (s: string) => s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
 const json = (v: unknown) => JSON.stringify(v).replace(/</g,"\\u003c");
@@ -63,10 +64,18 @@ export function renderSite(dist: string) {
   }
   page("/","Telnyx Support","Guides, troubleshooting, and answers for Telnyx messaging, voice, SIP trunking, phone numbers, IoT, AI assistants, and email.");
   const sitemap: {route: string; lastmod?: string}[] = [{route:"/"}];
+  const titleBySlug = new Map(articles.map(a => [a.slug, a.title]));
   for (const c of collections) {
     const route = "/en/collections/"+c.path;
     page(route,c.title,descriptionFor(c.description),undefined,{"@context":"https://schema.org","@type":"BreadcrumbList",itemListElement:trail(c.path).map((b,i)=>({"@type":"ListItem",position:i+1,...b}))});
     sitemap.push({route});
+    // Raw markdown twin of the collection page: title, description, and member links.
+    const subcollections = c.childCollectionPaths.map(p => byCollection.get(p)).filter((s): s is Collection => Boolean(s));
+    const lines = ["# "+c.title, ""];
+    if (c.description?.trim()) lines.push(c.description.trim(), "");
+    if (subcollections.length) lines.push("## Collections", "", ...subcollections.map(s => `- [${s.title}](/en/collections/${s.path}.md)`), "");
+    if (c.articleSlugs.length) lines.push("## Articles", "", ...c.articleSlugs.map(slug => `- [${titleBySlug.get(slug) ?? slug}](/en/articles/${slug}.md)`), "");
+    fs.writeFileSync(path.join(dist, route.slice(1) + ".md"), lines.join("\n"));
   }
   const searchIndex: SearchEntry[] = [];
   for (const a of articles) {
