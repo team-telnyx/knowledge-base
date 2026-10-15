@@ -90,6 +90,15 @@ class ReleaseTests(unittest.TestCase):
                 with self.subTest(invalid=invalid), self.assertRaises(ValueError):
                     release.validate_registry(invalid, temp)
 
+    def test_registry_ignores_markdown_siblings(self):
+        with tempfile.TemporaryDirectory() as temp:
+            page = Path(temp, 'en/articles/1-one')
+            page.parent.mkdir(parents=True)
+            page.write_text('<h1>One</h1>')
+            Path(temp, 'en/articles/1-one.md').write_text('# One')
+            valid = {'article:1': '/en/articles/1-one', release.EXTERNAL_KEY: release.EXTERNAL}
+            self.assertEqual(release.validate_registry(valid, temp), {'/en/articles/1-one'})
+
     def test_bootstrap_preflight_and_marker_only_after_verification(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
