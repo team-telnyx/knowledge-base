@@ -22,9 +22,14 @@ async function routeRequest(request, lookup) {
   }
   if (uri === '/en' || uri === '/en/' || uri === '/en/index.html' || uri === '/index.html') return redirect('/');
   if (uri === '/favicon.ico') return redirect('/favicon.svg');
-  // Article/collection .md requests pass through to the origin where .md
-  // files are uploaded alongside the extensionless HTML keys.
-  if (/^\/en\/(articles|collections)\/[^/]+\.md$/.test(uri)) return request;
+  // Canonical article and collection .md requests pass through to the origin,
+  // where .md files sit beside the extensionless HTML keys. Other .md forms take the normal path.
+  var mdCanonical = uri.match(/^(\/en\/(articles|collections)\/(\d+)-[A-Za-z0-9-]+)\.md$/);
+  if (mdCanonical) {
+    var mdTarget;
+    try { mdTarget = await lookup((mdCanonical[2] === 'articles' ? 'article:' : 'collection:') + mdCanonical[3]); } catch (_) { mdTarget = undefined; }
+    if (mdTarget === mdCanonical[1]) return request;
+  }
   if (uri === '/' || uri === '/llms.txt' || uri === '/robots.txt' || uri === '/sitemap.xml' || uri === '/favicon.svg' || /^\/(assets|_images|content)\//.test(uri) || /^\/[^/]+\.woff2?$/.test(uri)) return request;
   var normalized = uri.replace(/\/+$/, '');
   var match = normalized.match(/^\/en\/(articles|collections)\/(\d+)(?:-[^/]*)?$/);
