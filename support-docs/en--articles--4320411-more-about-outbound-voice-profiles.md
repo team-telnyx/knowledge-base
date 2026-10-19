@@ -81,6 +81,8 @@ The final options under Advanced settings pertain to our **Call Recording** feat
 
 This feature can Enable Call Recording for all outbound calls or only those outbound calls with a specific ANI (or from number). Then, there are some variables to choose from. You can choose between WAV and MP3 audio formats and you can choose between Single Channel (mono file with both, caller and callee on the same track) and Double Channel (stereo file with caller on one track and callee on the other track).
 
+When outbound recording is enabled, you can also turn on **Continue recording on hold** to keep recordings running during hold. This setting applies only to outbound recordings using this profile. For inbound calls, configure the preference on each number. See [Continue recording on hold](https://support.telnyx.com/en/articles/5377454-call-recording#continue-recording-on-hold) for setup instructions and saved-preference behavior.
+
 And the final thing you need to do is ensure that you hit that save button at the bottom of the page!
 
 ## Termination Endpoint

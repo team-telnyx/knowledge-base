@@ -43,6 +43,8 @@ Call recording is fully accessible via our API v1 where you can configure settin
 3. Turn on Call Recording.
 4. Select which audio file format you want .wav or .mp3.
 5. Select which audio file channel type you want single or dual channel.
+6. Optionally enable **Continue recording on hold**. See [Continue recording on hold](#continue-recording-on-hold) below.
+7. Save your changes.
 
 [![Recording of inbound calls section.](_images/5537f028541d06bb3bf3f0516c8d9f9d5928de3022c27d67bf36dd88f9f0073f.png)](/_images/5537f028541d06bb3bf3f0516c8d9f9d5928de3022c27d67bf36dd88f9f0073f.png)
 
@@ -62,8 +64,25 @@ If your DID is associated with Voice or TeXML applications, please do not enable
 4. Select if you want to enable call recording for all outbound calls or only those outbound calls with a specific ANI (or from number).
 5. Select which audio file format you want .wav or .mp3.
 6. Select which audio file channel type you want single or dual channel.
+7. Optionally enable **Continue recording on hold**. See [Continue recording on hold](#continue-recording-on-hold) below.
+8. Save your changes.
 
 To set up outbound call recording via the Telnyx API see our developer guide [here](https://developers.telnyx.com/api-reference/outbound-voice-profiles/list-outbound-voice-profiles)
+
+## Continue recording on hold
+
+Enable **Continue recording on hold** to keep an enabled call recording running while the call is on hold.
+
+Configure this separately for each direction:
+
+- **Inbound calls:** Open the number's **Voice → Services → Call Recording** settings. Enable **Record Inbound Calls**, then select **Continue recording on hold** and save.
+- **Outbound calls:** Open the **Outbound Voice Profile → Configuration** settings. Enable recording for all calls or selected caller numbers, then turn on **Continue recording on hold** and save.
+
+To continue recording on hold in both directions, enable the setting on the relevant numbers and Outbound Voice Profiles. The number setting applies to inbound recordings for that number; the profile setting applies to outbound recordings using that profile.
+
+The preference defaults to off and does not enable call recording by itself. Turning recording off retains the saved preference; the portal control remains disabled until recording is enabled again.
+
+For API configuration, the preference is `call_recording.record_continue_on_hold` on number voice settings and Outbound Voice Profiles. Use JSON `true` or `false`; omitting the field from a PATCH request preserves its saved value.
 
 ## How to download or delete your call recordings
 
