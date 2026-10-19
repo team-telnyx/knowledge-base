@@ -136,7 +136,7 @@ You can find country-specific information in our [International DID Requirements
 | Portugal | 1, 6, 7, 9, 10, 25 (f, y, af, ag) | 1, 4 | N/A | 1, 3 | N/A |
 | Puerto Rico | Not required | N/A | N/A | Not required | N/A |
 | Qatar | N/A | 1, 4, 7, 9, (c, f, ah) | N/A | (h) | N/A |
-| Reunion | 1, 2, 3 | N/A | N/A | 1, 2, 3 | N/A |
+| Reunion | 1, 2, 3 | N/A | N/A | 1 | N/A |
 | Romania | 1, 4, 7, (m, af) | 1, 3 | N/A | 1, 4, 7, (m, af) | N/A |
 | Russia | N/A | N/A | 1, 3, 7, 9, 13 (f, h, ae) | N/A | N/A |
 | Rwanda | 1, 3, 7, 9 (f) | N/A | N/A | N/A | N/A |
