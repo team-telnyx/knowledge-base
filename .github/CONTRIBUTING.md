@@ -27,20 +27,19 @@ Corrections from outside Telnyx are welcome. External PRs are limited by [extern
 ## Review
 
 All PRs — automated or hand-authored, internal or external — require maintainer
-approval. `Required CI` summarizes the conditional validation jobs and must pass
-once the [required-check ruleset is activated](../docs/cicd.md#activate-required-ci).
-The workflow alone does not enforce GitHub branch protection.
+approval. Check that `Required CI`, which summarizes the applicable validation
+jobs, has passed before merging.
 
 The [internal support-doc gate](workflows/auto-merge.yml) is in **dry-run mode**.
 It checks repository write access, an in-repository branch, allowed support/wiki
 paths, draft state, hold labels, review decisions, and other checks. It reports
-whether it would merge; it does not merge. Keep `DRY_RUN: "true"` until a separate
-reviewed rollout. The `no-auto-merge` label marks PRs that should remain manual.
+whether it would merge; it does not merge. The `no-auto-merge` label marks PRs
+that should remain manual.
 
 Generated PRs created using `GITHUB_TOKEN` require a maintainer to approve their
 workflow runs in GitHub. Approve those runs, inspect `Required CI`, and review the
 generated diff before merging. This workflow approval is separate from approving
-the PR itself. See [CI/CD operations](../docs/cicd.md).
+the PR itself.
 
 ## Questions?
 

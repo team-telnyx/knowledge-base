@@ -86,7 +86,7 @@ changes together.
 
 `Auto-merge internal support-doc PRs` currently runs with `DRY_RUN: "true"`. It
 reports eligibility but does **not** merge PRs. Maintainer approval is still
-required. Enabling automatic merging is a separate rollout.
+required.
 
 The incremental generator does not run the full LLMWiki compiler or rewrite
 existing synthesized pages. It maintains individual article projections under
@@ -97,20 +97,15 @@ renamed sources.
 
 The website deployment and incremental wiki workflows are independent:
 
-- `Deploy website` reconciles current `main` after acquiring its production lock.
-  All main pushes trigger it, including documentation changes, so a later queued
-  event cannot suppress the final content release. It tests and audits the build,
-  checks for a newer revision before publication, uploads content, updates routes,
-  invalidates CloudFront, and verifies live responses. A production mutation is
-  never cancelled to start another release.
+- `Deploy website` builds and validates current `main` on every push, then
+  publishes the support website and verifies live responses.
 - The incremental wiki workflow runs for its source/tooling inputs and opens a
   follow-up PR if generated artifacts have drifted. It does not commit directly
   to `main`. Normally the source PR already contains the generated changes.
 - GitHub-managed CodeQL also runs independently of these workflows.
 
-See [CI/CD operations](docs/cicd.md) for required-check activation, generated-PR
-approval, deployment evidence, and rollback. A successful website deployment does
-not imply the independent wiki workflow has succeeded.
+A successful website deployment does not imply the independent wiki workflow
+has succeeded.
 
 ### Adding a new support article
 
