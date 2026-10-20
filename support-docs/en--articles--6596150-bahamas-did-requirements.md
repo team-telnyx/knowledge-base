@@ -23,7 +23,7 @@ Here you will find a list of detailed requirements for acquiring Bahamas numbers
 
 In order to purchase a Bahamas number you will need to provide the following:
 
-## **National Numbers in** Bahamas
+## **Local Numbers in** Bahamas
 
 For **business identity** verification:
 * Name, last name of an authorized representative
