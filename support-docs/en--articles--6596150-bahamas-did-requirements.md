@@ -23,7 +23,7 @@ Here you will find a list of detailed requirements for acquiring Bahamas numbers
 
 In order to purchase a Bahamas number you will need to provide the following:
 
-## **National Numbers in** Bahamas
+## **Local Numbers in** Bahamas
 
 For **business identity** verification:
 * Name, last name of an authorized representative
@@ -36,5 +36,24 @@ For **business identity** verification:
 **Additional information:**
 
 **Business use required:** Business use is required, personal use is not allowed.
+
+
+## **Toll-Free Numbers in** Bahamas
+
+For **personal identity** verification:
+* Name, last name
+* Contact phone number
+* Recently signed LOI (Signed Within 1 month - see template below)
+
+For **business identity** verification:
+* Name, last name of an authorized representative
+* Company name
+* Contact phone number
+* Recently signed LOI (Signed Within 1 month - see template below)
+
+For **address** verification:
+* Address Worldwide (street, building number, postal code, city, and country)
+
+
 
 LOI Template: [loi_template.docx](https://github.com/user-attachments/files/33581342/loi_template.docx)
