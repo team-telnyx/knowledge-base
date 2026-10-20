@@ -2,6 +2,8 @@ name: Pull request CI
 
 on:
   pull_request:
+    # Retargeting stacked PRs changes their merge base without a synchronize event.
+    types: [opened, synchronize, reopened, edited, ready_for_review]
 
 permissions:
   contents: read

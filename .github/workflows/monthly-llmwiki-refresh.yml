@@ -204,11 +204,18 @@ jobs:
           python scripts/monthly_llmwiki_refresh.py remove-workspace-indexes \
             --wiki-root wiki | tee remove-workspace-indexes.json
 
+      - name: Restore deterministic source projections after workspace replacement
+        run: |
+          python scripts/regenerate_support_docs_manifest.py
+          python scripts/incremental_support_docs_wiki.py --reconcile
+          python scripts/validate_wiki.py
+
       - name: Build PR summary
         id: summary
         shell: bash
         run: |
           set -euo pipefail
+          git add support-docs/_manifest.json wiki
           SCRAPED_COUNT=$(find "${DEV_DOCS_SOURCES}" -name '*.md' | wc -l | tr -d ' ')
           {
             echo "## Summary"
@@ -226,10 +233,10 @@ jobs:
             echo
             echo "## Diff stat"
             echo '```'
-            git diff --stat -- wiki || true
+            git diff --cached --stat -- support-docs/_manifest.json wiki || true
             echo '```'
           } > pr-body.md
-          if git diff --quiet -- wiki; then
+          if git diff --cached --quiet -- support-docs/_manifest.json wiki; then
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
           else
             echo "has_changes=true" >> "$GITHUB_OUTPUT"
@@ -246,7 +253,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$BRANCH"
-          git add wiki
+          git add support-docs/_manifest.json wiki
           git commit -m "docs: monthly LLMWiki refresh"
           git push -u origin "$BRANCH"
           gh pr create \

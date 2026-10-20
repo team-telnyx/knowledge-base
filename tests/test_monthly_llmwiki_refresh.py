@@ -52,3 +52,42 @@ class MonthlyRefreshTests(unittest.TestCase):
         self.assertEqual(remove_workspace_indexes(self.root)['removed_count'], 2)
         self.assertTrue((self.root / 'index.md').exists())
         self.assertTrue((self.root / 'support-docs/page.md').exists())
+
+    def test_monthly_replacement_restores_projections_without_followup_drift(self):
+        import contextlib
+        import io
+        from unittest.mock import patch
+        from scripts.incremental_support_docs_wiki import main as project_articles
+
+        source = self.root / 'support-docs'
+        source.mkdir()
+        (source / 'one.md').write_text(
+            '---\nsource_url: https://support.telnyx.com/en/articles/1-one\n'
+            'updated_at: 2026-01-01T00:00:00Z\n---\n# One\n\nSource article text.\n'
+        )
+        wiki = self.root / 'wiki'
+        compiled = self.root / 'compiled'
+        workspace = compiled / 'support-docs'
+        workspace.mkdir(parents=True)
+        (workspace / 'index.md').write_text('- [Synthesis](synthesized.md) — Summary\n')
+        (workspace / 'synthesized.md').write_text('---\ntitle: Synthesis\n---\n# Synthesis\n')
+        old = wiki / 'support-docs/articles/stale.md'
+        old.parent.mkdir(parents=True)
+        old.write_text('old monthly workspace')
+
+        install_workspace('support-docs', compiled, wiki)
+        rebuild_root_index(wiki)
+        remove_workspace_indexes(wiki)
+        self.assertFalse(old.exists())
+        args = ['incremental_support_docs_wiki.py', '--source-root', str(source),
+                '--wiki-root', str(wiki), '--reconcile']
+        with patch('sys.argv', args), contextlib.redirect_stdout(io.StringIO()):
+            self.assertEqual(project_articles(), 0)
+        self.assertTrue((wiki / 'support-docs/articles/1-one.md').exists())
+        self.assertTrue((wiki / 'support-docs/synthesized.md').exists())
+        index = (wiki / 'index.md').read_text()
+        self.assertIn('(support-docs/synthesized.md)', index)
+        self.assertIn('(support-docs/articles/1-one.md)', index)
+        with patch('sys.argv', args + ['--fail-on-drift']), contextlib.redirect_stdout(io.StringIO()):
+            self.assertEqual(project_articles(), 0)
+        self.assertEqual((wiki / 'index.md').read_text(), index)

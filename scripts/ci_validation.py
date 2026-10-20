@@ -15,7 +15,8 @@ def classify(paths: list[str]) -> dict[str, bool]:
     # Workflow/action changes can alter any job. Run the full suite for these.
     infrastructure = any(p.startswith(('.github/workflows/', '.github/utils/')) for p in paths)
     support = infrastructure or any(
-        p.startswith('support-docs/') or p in {
+        p.startswith(('support-docs/', 'wiki/support-docs/articles/')) or p in {
+            'wiki/index.md',
             'scripts/incremental_support_docs_wiki.py',
             'scripts/detect_changed_support_docs.py',
             'scripts/prepare_support_doc_artifacts.sh',
