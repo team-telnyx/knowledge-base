@@ -1,166 +1,84 @@
 name: Incremental Support Docs Wiki Corpus
 
 on:
-  pull_request:
-    paths:
-      - "support-docs/**/*.md"
-      - "support-docs/_manifest.json"
-      - "scripts/regenerate_support_docs_manifest.py"
-      - "scripts/incremental_support_docs_wiki.py"
-      - "tests/test_regenerate_support_docs_manifest.py"
-      - ".github/workflows/incremental-support-docs-wiki.yml"
   push:
-    branches:
-      - main
+    branches: [main]
     paths:
-      - "support-docs/**/*.md"
-      - "support-docs/_manifest.json"
+      - "support-docs/**"
+      - "wiki/support-docs/articles/**"
+      - "wiki/index.md"
       - "scripts/regenerate_support_docs_manifest.py"
       - "scripts/incremental_support_docs_wiki.py"
-      - "tests/test_regenerate_support_docs_manifest.py"
+      - "scripts/detect_changed_support_docs.py"
+      - "scripts/prepare_support_doc_artifacts.sh"
+      - "tests/**"
       - ".github/workflows/incremental-support-docs-wiki.yml"
+      - ".github/workflows/validate-support-docs.yml"
   workflow_dispatch:
     inputs:
       base_ref:
-        description: "Base ref for changed-file detection"
-        required: false
-        default: ""
-      head_ref:
-        description: "Head ref for changed-file detection"
+        description: "Optional comparison base (all projections are reconciled regardless)"
         required: false
         default: ""
 
 permissions:
-  contents: write
-  pull-requests: write
+  contents: read
 
+# Each run reconciles the whole projection, so replacing an older pending run
+# cannot silently drop an article from the generated corpus.
 concurrency:
   group: incremental-support-docs-wiki-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
   incremental-support-docs-wiki:
-    name: Update changed support-doc wiki pages
+    name: Open generated support-doc artifacts PR
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           fetch-depth: 0
-
       - name: Set up Python
         uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
         with:
           python-version: "3.11"
-
-      - name: Detect changed support docs
-        id: changes
-        shell: bash
-        run: |
-          set -euo pipefail
-          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
-            BASE_SHA="${{ github.event.pull_request.base.sha }}"
-            HEAD_SHA="${{ github.event.pull_request.head.sha }}"
-          elif [[ "${{ github.event_name }}" == "workflow_dispatch" && -n "${{ inputs.base_ref }}" && -n "${{ inputs.head_ref }}" ]]; then
-            BASE_SHA="${{ inputs.base_ref }}"
-            HEAD_SHA="${{ inputs.head_ref }}"
-          else
-            BASE_SHA="${{ github.event.before }}"
-            HEAD_SHA="${{ github.sha }}"
-          fi
-
-          if [[ -z "$BASE_SHA" || "$BASE_SHA" == "0000000000000000000000000000000000000000" ]]; then
-            BASE_SHA="$(git rev-list --max-parents=0 "$HEAD_SHA")"
-          fi
-
-          git diff --name-only --diff-filter=ACMRTD "$BASE_SHA" "$HEAD_SHA" -- 'support-docs/**/*.md' > changed-support-docs.txt
-          COUNT=$(wc -l < changed-support-docs.txt | tr -d ' ')
-          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
-          echo "base_sha=$BASE_SHA" >> "$GITHUB_OUTPUT"
-          echo "head_sha=$HEAD_SHA" >> "$GITHUB_OUTPUT"
-          echo "Changed support-doc markdown files: $COUNT"
-          cat changed-support-docs.txt
-
       - name: Test support-doc generation scripts
         run: python -m unittest discover -s tests
-
-      - name: Regenerate support-docs manifest
-        run: python scripts/regenerate_support_docs_manifest.py
-
-      - name: Generate incremental wiki corpus updates
-        if: steps.changes.outputs.count != '0'
-        run: |
-          python scripts/incremental_support_docs_wiki.py \
-            --changed-files-file changed-support-docs.txt
-
-      - name: Validate generated markdown
-        if: steps.changes.outputs.count != '0'
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          import re
-          bad = []
-          for path in Path('wiki').rglob('*.md'):
-              text = path.read_text(encoding='utf-8')
-              if not text.startswith('---\n'):
-                  bad.append(f'{path}: missing frontmatter')
-              if '\n# ' not in text:
-                  bad.append(f'{path}: missing H1')
-          if bad:
-              raise SystemExit('\n'.join(bad))
-          PY
-
+      - name: Generate support-doc artifacts
+        env:
+          BASE_REF: ${{ inputs.base_ref || github.event.before }}
+          HEAD_REF: ${{ github.sha }}
+        run: bash scripts/prepare_support_doc_artifacts.sh
       - name: Open generated support-doc artifacts PR
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        shell: bash
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          if git diff --quiet -- support-docs/_manifest.json wiki/index.md wiki/support-docs/articles; then
+          if git diff --cached --quiet -- support-docs/_manifest.json wiki/index.md wiki/support-docs/articles; then
             echo "No generated support-doc artifact changes to publish."
             exit 0
           fi
-
           BRANCH="bot/incremental-support-docs-wiki-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$BRANCH"
-          git add support-docs/_manifest.json wiki/index.md wiki/support-docs/articles
           git commit -m "docs: update generated support-doc artifacts"
           git push -u origin "$BRANCH"
-
           {
-            echo "Generated support-doc manifest and incremental wiki corpus updates."
+            echo "Reconciles the generated support-doc manifest and article projections."
             echo
-            echo "- Source range: \`${{ steps.changes.outputs.base_sha }}..${{ steps.changes.outputs.head_sha }}\`"
-            echo "- Changed support-doc files: \`${{ steps.changes.outputs.count }}\`"
+            echo "Source commit: $GITHUB_SHA"
             echo
-            echo "## Diff stat"
+            echo "This PR uses GITHUB_TOKEN. A maintainer must approve its workflow run before required checks can complete."
+            echo
             echo '```'
-            git diff --stat origin/main...HEAD -- support-docs/_manifest.json wiki/index.md wiki/support-docs/articles
+            git show --stat --oneline HEAD
             echo '```'
           } > pr-body.md
-
-          gh pr create \
-            --base main \
-            --head "$BRANCH" \
-            --title "docs: update generated support-doc artifacts" \
-            --body-file pr-body.md
-
-      - name: Check PR includes generated support-doc artifacts
-        if: github.event_name == 'pull_request'
-        shell: bash
-        run: |
-          set -euo pipefail
-          if ! git diff --quiet -- support-docs/_manifest.json wiki/index.md wiki/support-docs/articles; then
-            echo "Generated support-doc artifact changes are required for this PR."
-            echo "Run locally:"
-            echo "  python scripts/regenerate_support_docs_manifest.py"
-            echo "  git diff --name-only ${{ steps.changes.outputs.base_sha }} ${{ steps.changes.outputs.head_sha }} -- 'support-docs/**/*.md' > changed-support-docs.txt"
-            echo "  python scripts/incremental_support_docs_wiki.py --changed-files-file changed-support-docs.txt"
-            echo "Then commit the generated manifest and wiki changes."
-            git diff --stat -- support-docs/_manifest.json wiki/index.md wiki/support-docs/articles
-            exit 1
-          fi
-          echo "Generated support-doc artifacts are up to date."
+          gh pr create --base main --head "$BRANCH" \
+            --title "docs: update generated support-doc artifacts" --body-file pr-body.md

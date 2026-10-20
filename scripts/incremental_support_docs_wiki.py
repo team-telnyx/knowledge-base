@@ -18,14 +18,12 @@ from __future__ import annotations
 import argparse
 import html
 import json
-import os
 import re
 import sys
 from dataclasses import dataclass
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Iterable
-from urllib.parse import urlsplit
 
 ARTICLE_URL_RE = re.compile(r"/articles/(?P<id>\d+)-(?P<slug>[a-zA-Z0-9\-]+)")
 FRONTMATTER_RE = re.compile(r"\A---\n(?P<meta>.*?)\n---\n(?P<body>.*)\Z", re.DOTALL)
@@ -138,7 +136,7 @@ def escape_yaml_scalar(value: str) -> str:
     return json.dumps(value, ensure_ascii=False)
 
 
-def parse_updated_at(meta: dict[str, str], source_path: Path, now: datetime) -> datetime:
+def parse_updated_at(meta: dict[str, str]) -> datetime:
     for key in ("updated_at", "scraped"):
         raw = meta.get(key)
         if not raw:
@@ -148,16 +146,15 @@ def parse_updated_at(meta: dict[str, str], source_path: Path, now: datetime) -> 
         except ValueError:
             continue
         return parsed.astimezone(UTC) if parsed.tzinfo else parsed.replace(tzinfo=UTC)
-    # In CI this reflects the checkout timestamp, so use NOW for actual update time.
-    _ = source_path
-    return now
+    # Missing source metadata must not make identical checkouts drift.
+    return datetime(1970, 1, 1, tzinfo=UTC)
 
 
 def iso_z(value: datetime) -> str:
     return value.astimezone(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
-def load_source_article(path: Path, source_root: Path, wiki_root: Path, output_subdir: Path, now: datetime) -> SourceArticle | None:
+def load_source_article(path: Path, source_root: Path, output_subdir: Path) -> SourceArticle | None:
     if path.name.startswith("_") or path.name in SKIP_PARTS or path.suffix != ".md":
         return None
     raw = path.read_text(encoding="utf-8")
@@ -178,7 +175,7 @@ def load_source_article(path: Path, source_root: Path, wiki_root: Path, output_s
         summary=summarize(cleaned, title),
         source_url=source_url,
         body=cleaned,
-        updated_at=parse_updated_at(meta, path, now),
+        updated_at=parse_updated_at(meta),
     )
 
 
@@ -205,13 +202,14 @@ def render_article(article: SourceArticle) -> str:
     return frontmatter + marker + body.rstrip() + "\n"
 
 
-def wiki_rel_for_deleted_support_doc(path: Path, source_root: Path, wiki_root: Path, output_subdir: Path) -> str | None:
-    # Prefer source URL from the prior commit if GitHub checked it out in the caller.
-    # If unavailable, derive from the filename stem, which preserves Intercom article IDs.
-    if path.suffix != ".md" or path.name.startswith("_"):
-        return None
-    slug = path.stem
-    return (output_subdir / f"{slug}.md").as_posix()
+def owned_pages(wiki_root: Path, output_subdir: Path) -> dict[str, list[str]]:
+    """Only remove pages explicitly owned by this generator; preserve synthesis."""
+    result: dict[str, list[str]] = {}
+    for path in sorted((wiki_root / output_subdir).rglob("*.md")):
+        meta, _ = parse_frontmatter(path.read_text(encoding="utf-8"))
+        if meta.get("generated_by") == "incremental-support-docs-wiki" and meta.get("source_path"):
+            result.setdefault(meta["source_path"], []).append(path.relative_to(wiki_root).as_posix())
+    return result
 
 
 def index_entry(article: SourceArticle) -> str:
@@ -226,7 +224,7 @@ def read_index(path: Path) -> list[str]:
     if path.exists():
         return path.read_text(encoding="utf-8").splitlines()
     path.parent.mkdir(parents=True, exist_ok=True)
-    return ["---", "title: Telnyx Knowledge Base", f"updated_at: {iso_z(datetime.now(UTC))}", "---", "", "# Telnyx Knowledge Base", ""]
+    return ["---", "title: Telnyx Knowledge Base", "updated_at: 1970-01-01T00:00:00Z", "---", "", "# Telnyx Knowledge Base", ""]
 
 
 def upsert_index_entry(index_path: Path, rel_link: str, line: str) -> bool:
@@ -247,7 +245,7 @@ def upsert_index_entry(index_path: Path, rel_link: str, line: str) -> bool:
         lines.append(line)
         changed = True
     if changed:
-        touch_index_updated_at(lines)
+        # Preserve the corpus snapshot date; wall-clock edits make CI drift.
         index_path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
     return changed
 
@@ -265,17 +263,9 @@ def remove_index_entry(index_path: Path, rel_link: str) -> bool:
             continue
         filtered.append(existing)
     if changed:
-        touch_index_updated_at(filtered)
+        # Preserve the corpus snapshot date; wall-clock edits make CI drift.
         index_path.write_text("\n".join(filtered).rstrip() + "\n", encoding="utf-8")
     return changed
-
-
-def touch_index_updated_at(lines: list[str]) -> None:
-    now = iso_z(datetime.now(UTC))
-    for i, line in enumerate(lines[:10]):
-        if line.startswith("updated_at:"):
-            lines[i] = f"updated_at: {now}"
-            return
 
 
 def normalize_changed_path(raw: str) -> str:
@@ -288,7 +278,7 @@ def iter_changed_files(args: argparse.Namespace) -> list[str]:
         values.extend(item.splitlines())
     if args.changed_files_file:
         values.extend(Path(args.changed_files_file).read_text(encoding="utf-8").splitlines())
-    if not values and not sys.stdin.isatty():
+    if not values and not args.reconcile and not sys.stdin.isatty():
         values.extend(sys.stdin.read().splitlines())
     return [normalize_changed_path(v) for v in values if normalize_changed_path(v)]
 
@@ -310,42 +300,65 @@ def main() -> int:
     parser.add_argument("--changed-file", action="append", help="Changed file path. May be passed multiple times.")
     parser.add_argument("--changed-files-file", help="File containing changed paths, one per line.")
     parser.add_argument("--fail-on-drift", action="store_true", help="Exit 2 if generated files differ from the checked-out tree.")
+    parser.add_argument("--reconcile", action="store_true", help="Rebuild all article projections and remove stale owned pages; preserve synthesized pages.")
     args = parser.parse_args()
 
-    changed_paths = support_doc_paths(iter_changed_files(args), args.source_root)
+    previous = owned_pages(args.wiki_root, args.output_subdir)
+    changed = iter_changed_files(args)
+    if args.reconcile:
+        changed.extend(previous)
+        changed.extend(path.as_posix() for path in args.source_root.rglob("*.md"))
+    changed_paths = support_doc_paths(changed, args.source_root)
     if not changed_paths:
         print(json.dumps({"changed_support_docs": 0, "written": 0, "removed": 0, "index_updates": 0}, indent=2))
         return 0
 
-    now = datetime.now(UTC)
     written: list[str] = []
     removed: list[str] = []
     index_updates = 0
     wiki_article_dir = args.wiki_root / args.output_subdir
     wiki_article_dir.mkdir(parents=True, exist_ok=True)
 
-    for rel_path in changed_paths:
-        source_path = Path(rel_path)
+    articles: dict[Path, SourceArticle | None] = {}
+    destinations: dict[str, Path] = {}
+    for source_path in changed_paths:
+        article = None
         if source_path.exists():
-            article = load_source_article(source_path, args.source_root, args.wiki_root, args.output_subdir, now)
-            if article is None:
-                continue
-            output_path = args.wiki_root / article.wiki_rel
-            rendered = render_article(article)
-            if not output_path.exists() or output_path.read_text(encoding="utf-8") != rendered:
-                output_path.write_text(rendered, encoding="utf-8")
-                written.append(output_path.as_posix())
-            if upsert_index_entry(args.wiki_root / "index.md", article.wiki_rel, index_entry(article)):
-                index_updates += 1
-        else:
-            wiki_rel = wiki_rel_for_deleted_support_doc(source_path, args.source_root, args.wiki_root, args.output_subdir)
-            if not wiki_rel:
+            article = load_source_article(source_path, args.source_root, args.output_subdir)
+        if article is not None:
+            if article.wiki_rel in destinations:
+                raise ValueError(f"Duplicate article destination {article.wiki_rel}: {destinations[article.wiki_rel]} and {source_path}")
+            destinations[article.wiki_rel] = source_path
+            existing = args.wiki_root / article.wiki_rel
+            if existing.exists():
+                meta, _ = parse_frontmatter(existing.read_text(encoding="utf-8"))
+                if meta.get("generated_by") != "incremental-support-docs-wiki":
+                    raise ValueError(f"Refusing to overwrite unowned page: {existing}")
+        articles[source_path] = article
+
+    # Remove all old mappings before writing: a renamed source may sort before
+    # its deleted path, and both can map to the same destination.
+    for source_path, article in articles.items():
+        # A rename is supplied as deletion + addition. Persisted source_path also
+        # finds old URL slugs and sources that ceased to be article pages.
+        for wiki_rel in previous.get(source_path.as_posix(), []):
+            if article is not None and wiki_rel == article.wiki_rel:
                 continue
             output_path = args.wiki_root / wiki_rel
             if output_path.exists():
                 output_path.unlink()
                 removed.append(output_path.as_posix())
             if remove_index_entry(args.wiki_root / "index.md", wiki_rel):
+                index_updates += 1
+
+    for article in articles.values():
+        if article is not None:
+            output_path = args.wiki_root / article.wiki_rel
+            rendered = render_article(article)
+            if not output_path.exists() or output_path.read_text(encoding="utf-8") != rendered:
+                output_path.write_text(rendered, encoding="utf-8")
+                written.append(output_path.as_posix())
+            if upsert_index_entry(args.wiki_root / "index.md", article.wiki_rel, index_entry(article)):
                 index_updates += 1
 
     summary = {
@@ -357,7 +370,7 @@ def main() -> int:
         "removed_files": removed,
     }
     print(json.dumps(summary, indent=2, sort_keys=True))
-    return 0
+    return 2 if args.fail_on_drift and (written or removed or index_updates) else 0
 
 
 if __name__ == "__main__":
