@@ -33,7 +33,7 @@ You can find country-specific information in our [International DID Requirements
 | Armenia | N/A | N/A | N/A | N/A | N/A |
 | Australia | 1, 4, 7 | N/A | [Please see requirements here](https://support.telnyx.com/en/articles/3505912-australia-number-requirements) | 1, 3, 7, 13 | 1, 3 |
 | Austria | 1, 5, 7, 9, 13, (g, af) | 1, 2, 4, 7, (g, af) | 1, 2, 4, 7, (af) | 1, 2, 4, 7, (af) | N/A |
-| Bahamas | 1, 3,(h) | N/A | N/A | 1, 3 (h) | N/A |
+| Bahamas | 1, 9, (c, h) | N/A | N/A | 1, 3 (h) | N/A |
 | Bahrain | N/A | N/A | N/A | N/A | N/A |
 | Bangladesh | 1, 4, 9, 10, 21 (y, ac) | 1, 3, 7, 9, 13 (f, h, ae) | 1, 3, 7, 9, 13 (f, h, ae) | N/A | N/A |
 | Barbados | 1, 2, 3 | N/A | N/A | (h) | N/A |
