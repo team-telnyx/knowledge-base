@@ -18,16 +18,16 @@ In order to purchase an India number you will need to provide the following:
 ​
 ​
 
-## **Local and Mobile Numbers in India**
+## **Mobile Numbers in India**
 
 For **personal identity** verification:
 - Name, last name
 - Company Link (Approved Company Group UUID)
 - End user Verification (link generated within portal)
 ​
-For **business identity** verification:
-- Name, last name
 
+For **business identity** verification:
+- Name, last name of an authorized representative
 - Certificate of Incorporation (CoI) / Registration Certificate
 - GST Registration Certificate
 - Company PAN Card
@@ -35,7 +35,6 @@ For **business identity** verification:
 - Power of Attorney
 - Board Resolution / Authorised Signatory Letter
 - India Service Area PIN
-
 - Authorised Signatory Verification (link generated within portal)
 
 ---

@@ -3,7 +3,6 @@ title: "Sending email in batches: limits, results, and safe retries"
 summary: "Send multiple messages with POST /v2/emailmessages/batch. Each item in the messages array is validated independently. Read the result of every item before deciding whether to retry."
 sources:
 - url: "https://support.telnyx.com/en/articles/16823821-sending-email-in-batches-limits-results-and-safe-retries"
-  content_hash: d88485d32ee11320e5e07b118bf209dc91d22dae0a1f4546ad6dea66ac116ba6
 updated_at: 2026-09-21T00:00:00Z
 tags: [support-docs]
 source_path: "support-docs/en--articles--16823821-sending-email-in-batches-limits-results-and-safe-retries.md"

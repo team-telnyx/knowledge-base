@@ -87,7 +87,7 @@ You can find country-specific information in our [International DID Requirements
 | Hong Kong | N/A | [Please see requirements here.](https://support.telnyx.com/en/articles/3739447-hong-kong-did-requirements) | N/A | 1, 3, 7, 18, (d, f) | N/A |
 | Hungary | 1, 2, 5, 7 | 1, 2, 4, 7 | N/A | 1, 2, 4, 7 | N/A |
 | Iceland | 1, 3 | N/A | N/A | 1, 3 | N/A |
-| India | [Please see requirements here.](https://support.telnyx.com/en/articles/3739465-india-did-requirements) | N/A | [Please see requirements here.](https://support.telnyx.com/en/articles/3739465-india-did-requirements) | N/A | N/A |
+| India | N/A | N/A | [Please see requirements here.](https://support.telnyx.com/en/articles/3739465-india-did-requirements) | N/A | N/A |
 | Indonesia | [Please see requirements here.](https://support.telnyx.com/en/articles/5466641-indonesia-did-requirements) | N/A | N/A | 1, 4, 7, 13 | N/A |
 | Ireland | 1, 2, 5, 7, 10, 18 | 1, 2, 4, 7, 10, 18 | 1, 4, 7, 9, 10, 18 (f) | 1, 2, 4, 7, 10, 18 | N/A |
 | Israel | 1, 3, 7, 9, 18 | 1, 3, 7, 9, 18 | 1, 3, 10 | 1, 2, 3 | N/A |
@@ -137,7 +137,7 @@ You can find country-specific information in our [International DID Requirements
 | Portugal | 1, 6, 7, 9, 10, 25 (f, y, af, ag) | 1, 4 | N/A | 1, 3 | N/A |
 | Puerto Rico | Not required | N/A | N/A | Not required | N/A |
 | Qatar | N/A | 1, 4, 7, 9, (c, f, ah) | N/A | (h) | N/A |
-| Reunion | 1, 2, 3 | N/A | N/A | 1, 2, 3 | N/A |
+| Reunion | 1, 2, 3 | N/A | N/A | 1 | N/A |
 | Romania | 1, 4, 7, (m, af) | 1, 3 | N/A | 1, 4, 7, (m, af) | N/A |
 | Russia | N/A | N/A | 1, 3, 7, 9, 13 (f, h, ae) | N/A | N/A |
 | Rwanda | 1, 3, 7, 9 (f) | N/A | N/A | N/A | N/A |

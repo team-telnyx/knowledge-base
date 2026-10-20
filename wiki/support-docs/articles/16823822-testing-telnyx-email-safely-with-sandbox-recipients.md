@@ -3,7 +3,6 @@ title: "Testing Telnyx Email safely with sandbox recipients"
 summary: "Use sandboxmode: true to test your integration without delivering real mail through the MTA. Sandbox sends are non-billable, consume no sending quota, and their outcomes are excluded from production deliverability statistics and reputation scoring."
 sources:
 - url: "https://support.telnyx.com/en/articles/16823822-testing-telnyx-email-safely-with-sandbox-recipients"
-  content_hash: fe27af2e9ec8a4388b10bc4408ab8289a08bc039e1d923ed53a72a3393578119
 updated_at: 2026-09-21T00:00:00Z
 tags: [support-docs]
 source_path: "support-docs/en--articles--16823822-testing-telnyx-email-safely-with-sandbox-recipients.md"
