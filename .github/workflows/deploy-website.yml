@@ -59,39 +59,45 @@ jobs:
           echo "RELEASE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
           echo "Selected main revision: $(git rev-parse HEAD)" >> "$GITHUB_STEP_SUMMARY"
 
+      - name: Select a previous verified release for rollback
+        if: inputs.rollback_run_id != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 website/scripts/deployment/select-rollback.py
+
       - name: Setup runner
+        if: inputs.rollback_run_id == ''
         uses: ./.github/utils/setup-runner
 
       - name: Test deployment logic without AWS
         run: python3 -m unittest discover -s website/scripts/deployment -p 'test_*.py'
 
       - name: Generate content manifest
+        if: inputs.rollback_run_id == ''
         working-directory: website
         run: bun run gen-content
 
       - name: Test website
+        if: inputs.rollback_run_id == ''
         working-directory: website
         run: bun test
 
       - name: Type check
+        if: inputs.rollback_run_id == ''
         working-directory: website
         run: bun run type-check
 
       - name: Build the website
+        if: inputs.rollback_run_id == ''
         working-directory: website
         env:
           BASE_PATH: "/"
         run: bun run build
 
       - name: Verify rendered pages and links
+        if: inputs.rollback_run_id == ''
         working-directory: website
         run: bun run verify:strict
-
-      - name: Select a previous verified release for rollback
-        if: inputs.rollback_run_id != ''
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: python3 website/scripts/deployment/select-rollback.py
 
       - name: Reject superseded build before production mutation
         if: inputs.rollback_run_id == ''
@@ -110,58 +116,9 @@ jobs:
           if [ -n "$ROLLBACK_RUN_ID" ]; then flags+=(--rollback); fi
           python3 website/scripts/deployment/release.py prepare "${flags[@]}"
 
-      - name: Deploy files to bucket
-        run: |
-          BUCKET=s3://support.telnyx.com
-
-          # 1) Content-hashed files first (long-lived, immutable), so the
-          #    HTML uploaded later never references assets missing from the
-          #    bucket.
-          for prefix in assets _images downloads; do
-            aws s3 sync ./website/dist/$prefix/ $BUCKET/$prefix/ \
-              --cache-control 'public, max-age=31536000, immutable'
-          done
-
-          # 2) Article bodies — mutable JSON, revalidated on every request.
-          aws s3 cp --recursive ./website/dist/content/ $BUCKET/content/ \
-            --cache-control 'public, no-cache'
-
-          # 3) Theme fonts (stable names, rarely change) get a day of cache.
-          aws s3 cp --recursive ./website/dist/ $BUCKET/ \
-            --exclude '*' \
-            --include '*.woff' \
-            --include '*.woff2' \
-            --cache-control 'public, max-age=86400'
-
-          # 4) Remaining root files (index.html, 404.html) — no-cache so a
-          #    deploy takes effect immediately.
-          aws s3 cp --recursive ./website/dist/ $BUCKET/ \
-            --exclude 'assets/*' \
-            --exclude '_images/*' \
-            --exclude 'downloads/*' \
-            --exclude 'content/*' \
-            --exclude 'en/*' \
-            --exclude '*.woff' \
-            --exclude '*.woff2' \
-            --cache-control 'public, no-cache'
-
-          # 5) Complete prerendered pages at exact, extensionless keys.
-          #    Upload separately because sync would guess
-          #    application/octet-stream for files without extensions.
-          for prefix in en; do
-            aws s3 cp --recursive ./website/dist/$prefix/ $BUCKET/$prefix/ \
-              --exclude '*.md' \
-              --content-type 'text/html; charset=utf-8' \
-              --cache-control 'public, no-cache'
-            aws s3 cp --recursive ./website/dist/$prefix/ $BUCKET/$prefix/ \
-              --exclude '*' --include '*.md' \
-              --content-type 'text/markdown; charset=utf-8' \
-              --cache-control 'public, no-cache'
-          done
-
       # Retain superseded objects for redirects and rollback; never delete their
       # targets during a routing transition. Cleanup is a separate reviewed task.
-      - name: Synchronize routes, invalidate, and verify release
+      - name: Upload content, synchronize routes, invalidate, and verify release
         run: |
           flags=()
           if [ -n "$ROLLBACK_RUN_ID" ]; then flags+=(--rollback); fi
