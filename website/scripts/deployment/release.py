@@ -272,10 +272,10 @@ def main():
     if args.phase == 'prepare':
         before = preflight(aws, arn, routes, dist, args.bootstrap, args.rollback)
         save(reports / 'before.json', before)
-        save(reports / 'release.json', {'store': arn, 'distribution': DISTRIBUTION, 'protocol': PROTOCOL, 'bootstrap': args.bootstrap, 'rollback': args.rollback, 'registry_sha256': hashlib.sha256(json.dumps(routes, sort_keys=True).encode()).hexdigest()})
+        save(reports / 'release.json', {'store': arn, 'distribution': DISTRIBUTION, 'protocol': PROTOCOL, 'bootstrap': args.bootstrap, 'rollback': args.rollback, 'source_sha': os.environ.get('RELEASE_SHA', ''), 'registry_sha256': hashlib.sha256(json.dumps(routes, sort_keys=True).encode()).hexdigest()})
         return
     metadata = json.loads((reports / 'release.json').read_text())
-    if metadata != {'store': arn, 'distribution': DISTRIBUTION, 'protocol': PROTOCOL, 'bootstrap': args.bootstrap, 'rollback': args.rollback, 'registry_sha256': hashlib.sha256(json.dumps(routes, sort_keys=True).encode()).hexdigest()}:
+    if metadata != {'store': arn, 'distribution': DISTRIBUTION, 'protocol': PROTOCOL, 'bootstrap': args.bootstrap, 'rollback': args.rollback, 'source_sha': os.environ.get('RELEASE_SHA', ''), 'registry_sha256': hashlib.sha256(json.dumps(routes, sort_keys=True).encode()).hexdigest()}:
         raise ValueError('Release/configuration changed after preflight')
     before = json.loads((reports / 'before.json').read_text())
     if read_store(aws, arn) != before:
@@ -288,7 +288,10 @@ def main():
         save(reports / 'http.json', verify(routes, canonical, args.bootstrap, dist))
         if READY not in desired:
             sync(aws, arn, desired, {**desired, READY: PROTOCOL})
-        save(reports / 'success.json', {'invalidation': invalidation, 'mode': 'bootstrap-ready-for-infra-activation' if args.bootstrap else 'release-verified'})
+        save(reports / 'success.json', {'invalidation': invalidation, 'source_sha': metadata['source_sha'], 'mode': 'bootstrap-ready-for-infra-activation' if args.bootstrap else 'release-verified'})
+        if os.environ.get('GITHUB_STEP_SUMMARY'):
+            with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
+                summary.write(f"\nVerified production release: `{metadata['source_sha']}`\n")
     except ConcurrentUpdate:
         save(reports / 'failure.json', {'routing_restored': False, 'reason': 'Concurrent writer detected; stopped without overwriting its changes.'})
         raise
