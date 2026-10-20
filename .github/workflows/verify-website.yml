@@ -1,11 +1,6 @@
 name: Verify website migration
 on:
-  pull_request:
-    paths:
-      - 'website/**'
-      - 'support-docs/**'
-      - '.github/workflows/verify-website.yml'
-      - '.github/workflows/deploy-website.yml'
+  workflow_call:
 permissions:
   contents: read
 jobs:
@@ -16,6 +11,7 @@ jobs:
       - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd
         with:
           fetch-depth: 0
+          persist-credentials: false
       - uses: ./.github/utils/setup-runner
       - name: Test deployment logic without AWS
         run: python3 -m unittest discover -s website/scripts/deployment -p 'test_*.py'

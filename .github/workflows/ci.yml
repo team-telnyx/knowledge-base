@@ -1,0 +1,75 @@
+name: Pull request CI
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pr-ci-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  changes:
+    name: Classify PR changes
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      website: ${{ steps.paths.outputs.website }}
+      support: ${{ steps.paths.outputs.support }}
+      corpus: ${{ steps.paths.outputs.corpus }}
+    steps:
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Classify changes from the PR merge base
+        id: paths
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: python3 scripts/ci_validation.py classify --base "$BASE_SHA" --head "$HEAD_SHA"
+
+  website:
+    needs: changes
+    if: needs.changes.outputs.website == 'true'
+    uses: ./.github/workflows/verify-website.yml
+
+  support:
+    needs: changes
+    if: needs.changes.outputs.support == 'true'
+    uses: ./.github/workflows/validate-support-docs.yml
+
+  corpus:
+    name: Validate wiki and tooling
+    needs: changes
+    if: needs.changes.outputs.corpus == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: '3.11'
+      - name: Test corpus tooling including monthly refresh
+        run: python -m unittest discover -s tests
+      - name: Validate committed wiki Markdown and index targets
+        run: python scripts/validate_wiki.py
+
+  required-ci:
+    name: Required CI
+    needs: [changes, website, support, corpus]
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd
+        with:
+          persist-credentials: false
+      - name: Require every applicable validation to succeed
+        env:
+          CI_NEEDS: ${{ toJSON(needs) }}
+        run: python3 scripts/ci_validation.py gate
