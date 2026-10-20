@@ -24,12 +24,20 @@ def select(run, destination=Path('website')):
         # Legacy releases built their event SHA; reconciled releases report the
         # actual source SHA, including releases which themselves were rollbacks.
         source_sha = success.get('source_sha', metadata['head_sha'])
-        if not re.fullmatch('[0-9a-f]{40}', source_sha):
+        if not isinstance(source_sha, str) or not re.fullmatch('[0-9a-f]{40}', source_sha):
             raise ValueError('Invalid release source SHA')
         for name in ['dist', 'dist-edge']:
             source = downloaded / name
             if not source.is_dir() or source.is_symlink() or any(p.is_symlink() for p in source.rglob('*')):
                 raise ValueError('Invalid release artifact')
+        # These directories are consumed unconditionally by upload_content.
+        # The current production build populates each (including images/downloads).
+        for name in ['assets', '_images', 'downloads', 'content', 'en']:
+            if not (downloaded / 'dist' / name).is_dir():
+                raise ValueError('Incomplete release artifact: missing directory ' + name)
+        for name in ['index.html', '404.html', 'content/search-index.json']:
+            if not (downloaded / 'dist' / name).is_file():
+                raise ValueError('Incomplete release artifact: missing file ' + name)
         # Validate generated data before replacing anything or acquiring AWS credentials.
         from release import validate_registry
         validate_registry(json.loads((downloaded / 'dist-edge/routes.json').read_text()), downloaded / 'dist')

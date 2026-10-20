@@ -168,6 +168,52 @@ class ReleaseTests(unittest.TestCase):
                 self.assertEqual(store.values, before)
                 invalidation.assert_called_once()
 
+    def test_partial_route_publication_and_failed_recovery_evidence(self):
+        for recovery_fails in [False, True]:
+            with self.subTest(recovery_fails=recovery_fails), tempfile.TemporaryDirectory() as temp:
+                root = Path(temp)
+                routes = {}
+                for i in range(51):
+                    page = root / f'dist/en/articles/{i}-new'
+                    page.parent.mkdir(parents=True, exist_ok=True)
+                    page.write_text('<h1>New</h1>')
+                    routes[f'article:{i}'] = f'/en/articles/{i}-new'
+                (root / 'dist-edge').mkdir()
+                (root / 'dist-edge/routes.json').write_text(json.dumps(routes))
+                before = {f'article:{i}': f'/en/articles/{i}-old' for i in range(51)}
+                before[release.READY] = release.PROTOCOL
+                store = Store(before)
+                updates = []
+                def call(service, operation, **kwargs):
+                    if operation == 'update-keys':
+                        updates.append(kwargs)
+                        if len(updates) == 2:
+                            raise RuntimeError('second publication batch failed')
+                        if recovery_fails and len(updates) > 2:
+                            raise RuntimeError('recovery batch failed')
+                    return store(service, operation, **kwargs)
+                with patch('release.configuration', return_value='arn'), patch('release.aws', side_effect=call), patch('release.__file__', str(root / 'scripts/deployment/release.py')), patch('release.preflight', return_value=before), patch('release.invalidate', return_value='invalidation'), patch('release.upload_content') as upload:
+                    with patch('sys.argv', ['release.py', 'prepare']):
+                        release.main()
+                    with patch('sys.argv', ['release.py', 'publish']), patch('release.verify') as verify:
+                        with self.assertRaises(RuntimeError):
+                            release.main()
+                        verify.assert_not_called()
+                    upload.assert_called_once()
+                self.assertEqual(len(updates), 3)
+                self.assertEqual(len(updates[0]['puts']), 50)
+                failure = json.loads((root / 'release-report/failure.json').read_text())
+                self.assertEqual(failure['routing_restored'], not recovery_fails)
+                self.assertFalse(failure['content_restored'])
+                self.assertIn('second publication batch failed', failure['reason'])
+                self.assertIn('rollback_run_id=', failure['action'])
+                self.assertFalse((root / 'release-report/success.json').exists())
+                if recovery_fails:
+                    self.assertEqual(failure['recovery_error'], 'recovery batch failed')
+                    self.assertNotEqual(store.values, before)
+                else:
+                    self.assertEqual(store.values, before)
+
     def test_upload_order_and_failure_stop(self):
         commands = []
         def run(args, **kwargs):
