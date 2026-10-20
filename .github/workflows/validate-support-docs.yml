@@ -11,10 +11,10 @@ jobs:
     name: Check generated support-doc artifacts
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout PR head
+      # Validate the merge result: a stale PR head can contain older sources.
+      - name: Checkout PR merge result
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
-          ref: ${{ github.event.pull_request.head.sha || github.sha }}
           fetch-depth: 0
           persist-credentials: false
       - name: Set up Python

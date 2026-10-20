@@ -42,6 +42,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
+          # Select current main after acquiring the workflow concurrency lock.
+          ref: main
           fetch-depth: 0
       - name: Set up Python
         uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
@@ -52,7 +54,7 @@ jobs:
       - name: Generate support-doc artifacts
         env:
           BASE_REF: ${{ inputs.base_ref || github.event.before }}
-          HEAD_REF: ${{ github.sha }}
+          HEAD_REF: HEAD
         run: bash scripts/prepare_support_doc_artifacts.sh
       - name: Open generated support-doc artifacts PR
         env:
@@ -63,6 +65,7 @@ jobs:
             echo "No generated support-doc artifact changes to publish."
             exit 0
           fi
+          SOURCE_SHA=$(git rev-parse HEAD)
           BRANCH="bot/incremental-support-docs-wiki-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -72,7 +75,7 @@ jobs:
           {
             echo "Reconciles the generated support-doc manifest and article projections."
             echo
-            echo "Source commit: $GITHUB_SHA"
+            echo "Source commit: $SOURCE_SHA"
             echo
             echo "This PR uses GITHUB_TOKEN. A maintainer must approve its workflow run before required checks can complete."
             echo

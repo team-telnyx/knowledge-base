@@ -71,3 +71,25 @@ class GitChangesTests(unittest.TestCase):
         subprocess.run(['bash', 'scripts/prepare_support_doc_artifacts.sh'], check=True, capture_output=True, env=env)
         self.assertIn('wiki/support-docs/articles/123-new.md', self.git('diff', '--cached', '--name-only'))
         self.assertEqual(self.git('diff', '--name-only'), '')
+
+    def test_generation_reads_merge_tree_not_stale_pr_head(self):
+        article = '---\nsource_url: https://support.telnyx.com/en/articles/1-base\n---\n# Base\n\n'
+        self.write('support-docs/base.md', article + 'Original main content.\n')
+        self.write('support-docs/_manifest.json', '{}')
+        for name in ('regenerate_support_docs_manifest.py', 'incremental_support_docs_wiki.py', 'detect_changed_support_docs.py', 'prepare_support_doc_artifacts.sh'):
+            Path('scripts').mkdir(exist_ok=True)
+            shutil.copy(Path(self.cwd) / 'scripts' / name, Path('scripts') / name)
+        initial = self.commit()
+        self.git('checkout', '-qb', 'feature')
+        self.write('support-docs/feature.md', '---\nsource_url: https://support.telnyx.com/en/articles/2-feature\n---\n# Feature\n')
+        head = self.commit()
+        self.git('checkout', '-qb', 'base', initial)
+        self.write('support-docs/base.md', article + 'Updated main content must be used for the projection.\n')
+        base = self.commit()
+        self.git('checkout', 'feature')
+        self.git('merge', '--no-edit', base)
+        env = dict(os.environ, BASE_REF=base, HEAD_REF=head, MERGE_BASE='true', PATH=str(Path(sys.executable).parent) + os.pathsep + os.environ['PATH'])
+        result = subprocess.run(['bash', 'scripts/prepare_support_doc_artifacts.sh'], check=True, text=True, capture_output=True, env=env)
+        self.assertIn('Changed support-doc markdown files: 1', result.stdout)
+        self.assertIn('Updated main content', Path('wiki/support-docs/articles/1-base.md').read_text())
+        self.assertTrue(Path('wiki/support-docs/articles/2-feature.md').exists())
