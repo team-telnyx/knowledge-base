@@ -1,0 +1,41 @@
+name: Validate support-doc artifacts
+
+on:
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Check generated support-doc artifacts
+    runs-on: ubuntu-latest
+    steps:
+      # Validate the merge result: a stale PR head can contain older sources.
+      - name: Checkout PR merge result
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
+        with:
+          python-version: "3.11"
+      - name: Test support-doc generation scripts
+        run: python -m unittest discover -s tests
+      - name: Generate support-doc artifacts
+        env:
+          BASE_REF: ${{ github.event.pull_request.base.sha }}
+          HEAD_REF: ${{ github.event.pull_request.head.sha || github.sha }}
+          MERGE_BASE: "true"
+        run: bash scripts/prepare_support_doc_artifacts.sh
+      - name: Check PR includes generated artifacts
+        run: |
+          if ! git diff --cached --quiet -- support-docs/_manifest.json wiki/index.md wiki/support-docs/articles; then
+            echo "Generated artifacts differ (including new files). Run:"
+            echo "  python scripts/regenerate_support_docs_manifest.py"
+            echo "  python scripts/incremental_support_docs_wiki.py --reconcile"
+            echo "Then commit the generated files."
+            git diff --cached --stat
+            exit 1
+          fi
