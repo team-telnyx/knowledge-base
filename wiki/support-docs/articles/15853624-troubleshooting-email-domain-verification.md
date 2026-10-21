@@ -3,7 +3,6 @@ title: "Troubleshooting email domain verification"
 summary: "If POST /v2/emaildomains/{domainid}/verify is not returning a verified status, the cause is almost always in the DNS records — either they have not finished propagating, or one of them does not exactly match what Telnyx expects."
 sources:
 - url: "https://support.telnyx.com/en/articles/15853624-troubleshooting-email-domain-verification"
-  content_hash: 1cddc5037a3fd6533b55f6e1c1c92e2cde800e191faa361f8bf1ebe867cfc9f7
 updated_at: 2026-09-21T00:00:00Z
 tags: [support-docs]
 source_path: "support-docs/15853624-troubleshooting-email-domain-verification.md"

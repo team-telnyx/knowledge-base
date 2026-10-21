@@ -3,7 +3,6 @@ title: "Getting started with Telnyx Email"
 summary: "Telnyx Email lets you send transactional and application email over a simple HTTP API, on the same platform you already use for voice and messaging."
 sources:
 - url: "https://support.telnyx.com/en/articles/15853622-getting-started-with-telnyx-email"
-  content_hash: ad38a6432569576f465bddcec699846a160f0b9cfbf329cc70843300f86ea2ca
 updated_at: 2026-09-21T00:00:00Z
 tags: [support-docs]
 source_path: "support-docs/15853622-getting-started-with-telnyx-email.md"

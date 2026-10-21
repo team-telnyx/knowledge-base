@@ -3,7 +3,6 @@ title: "Scheduling and cancelling an email send"
 summary: "Add scheduledat when Telnyx should accept an email now and queue it for a future time. This guide shows you how to schedule, confirm, reschedule, and cancel a send, and interpret terminal failures."
 sources:
 - url: "https://support.telnyx.com/en/articles/16099894-scheduling-and-cancelling-an-email-send"
-  content_hash: 573cfab2962a81a57ec0b2cb51cfb7cc26875e3951ba31b30385443ada24ee9e
 updated_at: 2026-09-21T00:00:00Z
 tags: [support-docs]
 source_path: "support-docs/16099894-scheduling-and-cancelling-an-email-send.md"

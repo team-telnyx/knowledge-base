@@ -17,28 +17,33 @@ Here you will find a list of detailed requirements for acquiring Reunion numbers
 
 
 
-## **DID Number Requirements for** Reunion
+## **DID Number Requirements for Reunion**
 
 In order to purchase a Reunion number you will need to provide the following:
 
-## **Local Numbers in** Reunion
+## **Local Numbers in Reunion**
 
 For **personal identity** verification:
-
-\* Name, last name
-
-\* Contact phone number
-
-\* Passport or ID copy
+* Name, last name
+* Contact phone number
+* Passport or ID copy
 
 For **business identity** verification:
-
-\* Company name
-
-\* Contact phone number
-
-\* Company registration certificate
+* Name, last name of an authorized representative
+* Company name
+* Contact phone number
+* Company registration certificate
 
 For **address** verification:
+* Address Worldwide (street, building number, postal code, city and country)
 
-\* Address Worldwide (street, building number, postal code, city and country)
+## **Toll-Free Numbers in Reunion**
+
+For **personal identity** verification:
+* Name, last name
+* Contact phone number
+
+For **business identity** verification:
+* Name, last name of an authorized representative
+* Company name
+* Contact phone number

@@ -3,7 +3,6 @@ title: "Understanding Telnyx Email errors and message size limits"
 summary: "Telnyx Email has two different kinds of errors: request errors returned immediately by the API and delivery errors produced after a message is accepted. Use this guide to tell them apart, read the right fields, and decide whether a retry is safe."
 sources:
 - url: "https://support.telnyx.com/en/articles/16099890-understanding-telnyx-email-errors-and-message-size-limits"
-  content_hash: f777cce2ff85a9ab0af2226d5f50b472d0f3b4781b7d38b145b085bc51c9261f
 updated_at: 2026-09-21T00:00:00Z
 tags: [support-docs]
 source_path: "support-docs/16099890-understanding-telnyx-email-errors-and-message-size-limits.md"

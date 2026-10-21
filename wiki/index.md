@@ -367,7 +367,7 @@ updated_at: 2026-10-14T16:16:11Z
 
 - [Forbidden Messaging Use Cases in the US and Canada \(10DLC, Toll-Free, and Short Code\)](support-docs/articles/14286763-forbidden-messaging-use-cases-in-the-us-and-canada-10dlc-toll-free-and-short-code.md) — Mobile carriers and industry guidelines (such as CTIA standards) restrict certain types of messaging traffic across the United States and Canada.
 
-- [Telnyx Pretrial Accounts](support-docs/articles/14327893-telnyx-pretrial-accounts.md) — A Pretrial account lets developers try Telnyx AI products — with no credit card, no payment setup, and no commitment. Sign up, get $25 in AI credits, and start building right away.
+- [Telnyx Pretrial Accounts](support-docs/articles/14327893-telnyx-pretrial-accounts.md) — A Pretrial account lets developers try Telnyx with no credit card, no payment setup, and no commitment. Sign up, get $25 in AI credits, and start building right away. Note: Telnyx Inference and AI Assistants require a Trial account or above.
 
 - [Number Porting Rules and Guidelines](support-docs/articles/2086149-number-porting-rules-and-guidelines.md) — Telnyx LLC (Telnyx) ports telephone numbers in accordance with applicable Regulatory Rules and Industry Guidelines.
 
@@ -2162,3 +2162,5 @@ updated_at: 2026-10-14T16:16:11Z
 - [Spain: SMS Guidelines](support-docs/articles/6545140-spain-sms-guidelines.md) — Sending SMS to Spain? Check out our comprehensive guidelines to ensure compliance in Spain.
 
 - [Austria: SMS Guidelines](support-docs/articles/6560660-austria-sms-guidelines.md) — SMS Guidelines for Austria including MCC and Dial Code. Get more messaging details here.
+
+- [Bahamas DID Requirements](support-docs/articles/6596150-bahamas-did-requirements.md) — Here you will find a list of detailed requirements for acquiring Bahamas numbers. See Telnyx guidance and requirements.

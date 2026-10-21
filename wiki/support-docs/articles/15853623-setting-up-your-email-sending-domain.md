@@ -3,7 +3,6 @@ title: "Setting up your email sending domain"
 summary: "Before Telnyx can send email for you, you need to prove you own the domain you send from and configure it so inbox providers trust your mail. You do that by adding a few DNS records."
 sources:
 - url: "https://support.telnyx.com/en/articles/15853623-setting-up-your-email-sending-domain"
-  content_hash: 93af3ab47b059aaef88900d2f026efb62bf5bd422ededc4ff5e5dd1ba59babcc
 updated_at: 2026-09-21T00:00:00Z
 tags: [support-docs]
 source_path: "support-docs/15853623-setting-up-your-email-sending-domain.md"
