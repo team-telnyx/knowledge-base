@@ -1,12 +1,12 @@
 # Contributing to the Telnyx Knowledge Base
 
-This repo is a **compiled LLM wiki** produced by an internal Telnyx ingestion pipeline that scrapes Telnyx's public documentation surfaces. It is **not** the authoring surface for Telnyx product docs.
+This repository contains the reviewed support documentation source, its published website, and a generated LLM wiki. Edit managed support articles under `support-docs/`; edit developer documentation in its upstream repository.
 
 Before opening a PR, check where the fix actually belongs.
 
 ## Where your change belongs
 
-**Upstream source is wrong.** Fix it on support.telnyx.com or developers.telnyx.com. The next sync picks up the change. This is the default path for any content correction.
+**Source is wrong.** For managed support articles, edit `support-docs/` here and include the generated manifest and incremental wiki updates. For developer documentation, fix the upstream source behind developers.telnyx.com; the monthly refresh incorporates that change.
 
 **Synthesis is wrong** (page misreads the source, broken cross-references, summary contradicts the source): open an issue here so a Telnyx maintainer can route the fix to the ingestion pipeline.
 
@@ -26,9 +26,20 @@ Corrections from outside Telnyx are welcome. External PRs are limited by [extern
 
 ## Review
 
-All PRs — automated or hand-authored, internal or external — require approval from a maintainer, with one exception:
+All PRs — automated or hand-authored, internal or external — require maintainer
+approval. Check that `Required CI`, which summarizes the applicable validation
+jobs, has passed before merging.
 
-**Routine support-doc edits by Telnyx members merge automatically.** [auto-merge.yml](workflows/auto-merge.yml) squash-merges a PR once all of these hold: the author has write access to this repo (every Telnyx org member does) and the branch lives in this repo (not a fork), every changed path is under `support-docs/` or the generated `wiki/support-docs/` / `wiki/index.md` artifacts, the PR is not a draft, nobody has requested changes, and every other CI check is green. Add the `no-auto-merge` label to keep a PR open for discussion. PRs that touch anything else (`website/`, `scripts/`, workflows, schema, README) and all external contributions go through the usual code-owner review.
+The [internal support-doc gate](workflows/auto-merge.yml) is in **dry-run mode**.
+It checks repository write access, an in-repository branch, allowed support/wiki
+paths, draft state, hold labels, review decisions, and other checks. It reports
+whether it would merge; it does not merge. The `no-auto-merge` label marks PRs
+that should remain manual.
+
+Generated PRs created using `GITHUB_TOKEN` require a maintainer to approve their
+workflow runs in GitHub. Approve those runs, inspect `Required CI`, and review the
+generated diff before merging. This workflow approval is separate from approving
+the PR itself.
 
 ## Questions?
 

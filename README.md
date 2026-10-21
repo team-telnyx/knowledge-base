@@ -72,19 +72,40 @@ Hand edits to `wiki/` should be rare and treated as emergency fixes only, becaus
 
 ## What happens when support content changes
 
-### Pull request touching `support-docs/**`
+### Pull requests
 
-1. `Incremental Support Docs Wiki Corpus` regenerates `_manifest.json`, detects changed files under `support-docs/**/*.md`, runs `scripts/incremental_support_docs_wiki.py`, and verifies the PR includes the required deterministic manifest and `wiki/` updates.
-2. `External Contribution Check` restricts external PRs to modifying existing files only (no adds, deletes, or renames).
-3. Maintainers review the source article changes and generated wiki changes together.
-4. `Auto-merge internal support-doc PRs` squash-merges the PR without waiting for a maintainer when it comes from someone with write access (any Telnyx org member) on an in-repo branch, only touches `support-docs/` and the generated `wiki/support-docs/` / `wiki/index.md` artifacts, and every other check is green. Label a PR `no-auto-merge` to opt out. See [CONTRIBUTING.md](.github/CONTRIBUTING.md#review).
+Every PR receives a `Required CI` result. The PR validation workflow selects
+website verification, support-artifact drift checks, and wiki/tooling validation
+from the changed paths. Documentation-only PRs still receive a result; a failed,
+cancelled, or unexpectedly skipped selected job fails the aggregate check.
 
-The incremental wiki update intentionally does **not** run the full LLMWiki compiler. It keeps day-to-day article updates small and reviewable.
+Support-source PRs must include the regenerated `_manifest.json` and incremental
+`wiki/` artifacts. External contributors may modify existing files only, as
+checked by `External Contribution Check`. Maintainers review source and generated
+changes together.
 
-### Merge to `main` touching `support-docs/**` or `website/**`
+`Auto-merge internal support-doc PRs` currently runs with `DRY_RUN: "true"`. It
+reports eligibility but does **not** merge PRs. Maintainer approval is still
+required.
 
-1. `Deploy website` builds the website from `support-docs/` and syncs it to `s3://support.telnyx.com/`.
-2. The incremental wiki workflow can commit deterministic `wiki/` updates on `main` when needed.
+The incremental generator does not run the full LLMWiki compiler or rewrite
+existing synthesized pages. It maintains individual article projections under
+`wiki/support-docs/articles/`, including removal of projections for deleted or
+renamed sources.
+
+### Merge to `main`
+
+The website deployment and incremental wiki workflows are independent:
+
+- `Deploy website` builds and validates current `main` on every push, then
+  publishes the support website and verifies live responses.
+- The incremental wiki workflow runs for its source/tooling inputs and opens a
+  follow-up PR if generated artifacts have drifted. It does not commit directly
+  to `main`. Normally the source PR already contains the generated changes.
+- GitHub-managed CodeQL also runs independently of these workflows.
+
+A successful website deployment does not imply the independent wiki workflow
+has succeeded.
 
 ### Adding a new support article
 
@@ -275,4 +296,4 @@ For managed support KB content, open PRs against `support-docs/` and include the
 
 For developer docs content, fix the upstream developer documentation source. The monthly LLMWiki refresh will scrape and compile it into the generated wiki.
 
-All PRs — automated or hand-authored — require maintainer approval before merging, except routine support-doc edits by Telnyx members, which the auto-merge workflow merges once CI is green (see [CONTRIBUTING.md](.github/CONTRIBUTING.md#review)).
+All PRs — automated or hand-authored — require maintainer approval before merging. The internal support-doc auto-merge gate is in dry-run mode (see [CONTRIBUTING.md](.github/CONTRIBUTING.md#review)).
