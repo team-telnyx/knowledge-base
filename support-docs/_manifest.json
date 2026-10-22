@@ -1,6 +1,6 @@
 {
   "scraped": "2026-07-08",
-  "pages_saved": 945,
+  "pages_saved": 946,
   "files": [
     "1130719-what-does-the-tech-prefix-option-do.md",
     "1130726-pending-order-error.md",
@@ -243,6 +243,7 @@
     "en--articles--1616935-freeswitch-ip-trunk-setup.md",
     "en--articles--1618776-porting-error-messages.md",
     "en--articles--1618801-freeswitch-credentials-trunk.md",
+    "en--articles--16300026-manually-configure-whatsapp-calling-with-telnyx.md",
     "en--articles--1667062-short-message-peer-to-peer-set-up-guide.md",
     "en--articles--16762076-workspaces.md",
     "en--articles--16823821-sending-email-in-batches-limits-results-and-safe-retries.md",
