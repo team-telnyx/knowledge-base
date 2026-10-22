@@ -20,18 +20,6 @@ Submit all data privacy requests through the official Telnyx form: <https://teln
 
 The form is the intake channel for GDPR, CCPA, and U.S. state privacy law requests. Submitting through it allows Telnyx to verify the validity of your request and process it in accordance with applicable law.
 
-## Standard acknowledgment
+## What happens after you submit
 
-When Telnyx receives a data privacy request, it responds with the following standard wording:
-
-> Hello,
->
-> Thank you for contacting Telnyx. In order for us confirm the validity of your request and process such request in accordance with applicable law, please complete the form found at the link set forth below: <https://telnyx.com/request-to-control-review-data>.
->
-> Thank you,
-
-Requests that cannot be processed as submitted receive this same wording, directing the requester to the form.
-
-## Response timeframe
-
-Per the [Telnyx Privacy Policy](https://support.telnyx.com/en/articles/4557103-telnyx-privacy-policy), Telnyx responds to GDPR and CCPA rights requests within one month.
+Telnyx reviews the request to confirm its validity and processes it in accordance with applicable law. You will receive a response within one month for GDPR and CCPA rights requests, as described in the [Telnyx Privacy Policy](https://support.telnyx.com/en/articles/4557103-telnyx-privacy-policy).
