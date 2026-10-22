@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-10-14T16:16:11Z
+updated_at: 2026-10-22T08:32:49Z
 ---
 
 # Telnyx Knowledge Base
@@ -2162,3 +2162,5 @@ updated_at: 2026-10-14T16:16:11Z
 - [Spain: SMS Guidelines](support-docs/articles/6545140-spain-sms-guidelines.md) — Sending SMS to Spain? Check out our comprehensive guidelines to ensure compliance in Spain.
 
 - [Austria: SMS Guidelines](support-docs/articles/6560660-austria-sms-guidelines.md) — SMS Guidelines for Austria including MCC and Dial Code. Get more messaging details here.
+
+- [Manually configure WhatsApp Calling with Telnyx](support-docs/articles/16300026-manually-configure-whatsapp-calling-with-telnyx.md) — This guide describes an alternative, manual method for connecting WhatsApp Calling to Telnyx for user-initiated calls, which are calls that WhatsApp users place to your business.
