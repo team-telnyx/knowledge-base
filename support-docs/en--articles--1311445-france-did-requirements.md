@@ -26,78 +26,88 @@ In order to purchase a France number you will need to provide the following:
 ## **Local Numbers in France**
 
 For **personal identity** verification:
-
-\* Name, last name
-
-\* Contact phone number
-\* Local Copy of ID or Passport
+* Name, last name
+* Contact phone number
+* Local Copy of ID or Passport
 
 For **business identity** verification:
-
-\* Name, last name an authorized representative
-
-\* Company name
-
-\* Contact phone number
-
-\* Local company registration certificate
+* Name, last name an authorized representative
+* Company name
+* Contact phone number
+* Local company registration certificate
 
 For **address** verification:
+* Address in France (street, building number, postal code, city, and country)
+* Proof of Address (dated within 3 months)
 
-\* Address in France (street, building number, postal code, city, and country)
-\* Proof of Address (dated within 3 months)
 ​
 Additional details:
-\* End-users must be physically present in the country when purchasing numbers from that country
+
+* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **National Numbers in France**
 
 For **personal identity** verification:
-
-\* Name, last name
-
-\* Contact phone number
-\* Local Passport or ID copy
+* Name, last name
+* Contact phone number
+* Local Passport or ID copy
 
 For **business identity** verification:
-
-\* Name, last name of an authorized representative
-
-\* Company name
-
-\* Contact phone number
-
-\* Local Company registration certificate
+* Name, last name of an authorized representative
+* Company name
+* Contact phone number
+* Local Company registration certificate
 
 For **address** verification:
-
-\* Address in France (street, building number, postal code, city, and country)
-\* Proof of Address (dated within 3 months)
+* Address in France (street, building number, postal code, city, and country)
+* Proof of Address (dated within 3 months)
 ​
+
 Additional details:
-\* End-users must be physically present in the country when purchasing numbers from that country
+
+* End-users must be physically present in the country when purchasing numbers from that country
+
+## **Mobile Numbers in France**
+
+For **personal identity** verification:
+* Name, last name
+* Contact phone number
+* Email Address
+
+For **business identity** verification:
+* Name, last name of an authorized representative
+* Company Legal Name
+* Company Commercial / Trading Name
+* Contact phone number
+* Email Address
+* SIRET Number
+* NAF Code
+
+For **address** verification:
+* Address in France (street, building number, postal code, city, and country)
+​
+
+Additional details:
+
+* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **Toll-Free Numbers in France**
 
 For **business identity** verification:
-
-\* Name, last name of an authorized representative
-
-\* Company name
-
-\* Contact phone number
-\* Local Company registration certificate
-
-\* Company Registration Number (SIREN number)
+* Name, last name of an authorized representative
+* Company name
+* Contact phone number
+* Local Company registration certificate
+* Company Registration Number (SIREN number)
 
 For **address** verification:
+* Address in France (street, building number, postal code, city, and country)
+* Proof of Address (dated within 3 months)
 
-\* Address in France (street, building number, postal code, city, and country)
-\* Proof of Address (dated within 3 months)
 
 Additional details:
-\* End-users must be physically present in the country when purchasing numbers from that country
-\*Business use required: Business use is required, private use is not allowed.
+* End-users must be physically present in the country when purchasing numbers from that country
+* Business use required: Business use is required, private use is not allowed.
 
 \*Please note that once the documentation is received it will take approximately 72 hours to validate the information and activate the number for use.
 
