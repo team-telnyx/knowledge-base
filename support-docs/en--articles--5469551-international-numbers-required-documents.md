@@ -71,7 +71,7 @@ You can find country-specific information in our [International DID Requirements
 | Estonia | 1, 4, 7, 9, 13, (g) | N/A | 1, 3 | 1, 2, 3 | N/A |
 | Ethiopia | N/A | N/A | N/A | 1, 3, (h) | N/A |
 | Finland | 1, 4, 7, 9, 10, 16 (c) | 1, 4, 7, 9, 10, 16 (c) | 1, 4, 9, 10 (f, j) | 1, 4, 9, 10 (f, j) | N/A |
-| France | 1, 4, 7, 13 (c, af) | 1, 4, 7, 9, (af) | N/A | 1, 4, 7, 25 (f, af) | N/A |
+| France | 1, 4, 7, 13 (c, af) | 1, 4, 7, 9, (af) | [Please see requirements here.](https://support.telnyx.com/en/articles/1311445-france-did-requirements) | 1, 4, 7, 25 (f, af) | N/A |
 | French Guiana | 1, 2, 3 | N/A | N/A | 1, 2, 3 | N/A |
 | Georgia | 1, 4, 7, 9, 10, 13 (c, f, h) | N/A | N/A | 1, 2, 3, 7, 8, 10 | N/A |
 | Germany | 1, 2, 5, 7, 8, 25 (b, c, af) | 1, 4, 7, 8, 13, 25 (b, c, af) | N/A | 1, 4, 7, 13, 14, 17, 18, 25 (d, f, g, h, p, q, af) | N/A |
