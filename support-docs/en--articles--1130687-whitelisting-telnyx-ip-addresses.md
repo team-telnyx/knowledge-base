@@ -39,20 +39,23 @@ Telnyx programmable services, including **TeXML**, **Fax**, **Messaging**, and *
 
 **Note:** These IPs also apply to **WebSocket stream connections**, which are typically initiated using the **Dial** and **Start Stream** APIs. WebSocket traffic leverages the same delivery infrastructure as webhooks.
 
-* **US**
+* **North America**
 
-  + CH1 (US-Central): 192.76.120.128/29
-  + DC2 (US-East): 192.76.120.136/29
-  + SV1 (US-West): 192.76.120.144/29
-* **Europe**
+  + CH1 (US-Central): 192.76.120.128/29, 64.16.239.40/31, 64.16.239.49/32, 64.16.239.50/32, 64.16.239.67/32, 64.16.239.72/32, 64.16.239.73/32
+  + DC2 (US-East): 192.76.120.136/29, 64.16.239.99/32, 64.16.239.100/32, 64.16.239.114/31
+  + SV1 (US-West): 192.76.120.144/29, 64.16.239.2/31, 64.16.239.83/32, 64.16.239.84/32
+  + TR1 (Toronto, CA): 192.76.120.160/29
+* **Europe, Middle East, Africa (EMEA)**
 
   + LD6 (London, UK): 185.246.41.0/29
   + FR5 (Frankfurt, DE): 185.246.41.8/29
   + AM6 (Amsterdam, NL): 185.246.41.16/29
+  + DX1 (Dubai, AE): 185.246.41.24/29
 * **Asia-Pacific (APAC)**
 
   + SY1 (Sydney): 103.115.244.0/29
   + SG1 (Singapore): 103.115.244.8/29
+  + MB2 (Mumbai): 103.115.244.32/29
 
 ---
 
@@ -66,6 +69,11 @@ Telnyx programmable services, including **TeXML**, **Fax**, **Messaging**, and *
   + DC2 - US East: 192.76.120.136/29
   + SV1 - US West: 192.76.120.144/29
   + TR1 - Toronto: 192.76.120.160/29
+* **Additional Egress IPs:**
+
+  + CH1 - US Central: 64.16.239.40/31, 64.16.239.49/32, 64.16.239.50/32, 64.16.239.67/32, 64.16.239.72/32, 64.16.239.73/32
+  + DC2 - US East: 64.16.239.99/32, 64.16.239.100/32, 64.16.239.114/31
+  + SV1 - US West: 64.16.239.2/31, 64.16.239.83/32, 64.16.239.84/32
 
 **EMEA (Europe, Middle East, Africa)**
 
@@ -74,6 +82,7 @@ Telnyx programmable services, including **TeXML**, **Fax**, **Messaging**, and *
   + LD6 - London: 185.246.41.0/29
   + FR5 - Frankfurt: 185.246.41.8/29
   + AM6 - Amsterdam: 185.246.41.16/29
+  + DX1 - Dubai: 185.246.41.24/29
 
 **APAC (Asia-Pacific)**
 
@@ -81,6 +90,7 @@ Telnyx programmable services, including **TeXML**, **Fax**, **Messaging**, and *
 
   + SY1 - Sydney: 103.115.244.0/29
   + SG1 - Singapore: 103.115.244.8/29
+  + MB2 - Mumbai: 103.115.244.32/29
 
 ---
 
