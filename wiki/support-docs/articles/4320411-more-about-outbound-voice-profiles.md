@@ -55,7 +55,9 @@ Under this section, you can view the connections or applications which you have 
 
 ## **Billing Method**
 
-At this time, the only billing method available is the "Rate Deck" option, which means Outbound calls are rated based on the destination number prefix. From this section, you may also download and view our rate deck and request custom rates.
+At this time, the only billing method available is the "Rate Deck" option, which means Outbound calls are rated based on the destination number prefix. From this section, you may also request custom rates.
+
+To view and download the current outbound voice rate deck, go to the [Voice Pricing](https://portal.telnyx.com/#/pricing/voice) page in the portal.
 
 ![](_images/dee58ceab061a746.png)
 
