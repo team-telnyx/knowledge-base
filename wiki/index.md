@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-10-22T18:49:39Z
+updated_at: 2026-10-26T11:47:36Z
 ---
 
 # Telnyx Knowledge Base
@@ -2166,3 +2166,5 @@ updated_at: 2026-10-22T18:49:39Z
 - [Manually configure WhatsApp Calling with Telnyx](support-docs/articles/16300026-manually-configure-whatsapp-calling-with-telnyx.md) — This guide describes an alternative, manual method for connecting WhatsApp Calling to Telnyx for user-initiated calls, which are calls that WhatsApp users place to your business.
 
 - [Submit a Data Subject Request \(DSR\) to Telnyx](support-docs/articles/2026102201-submit-a-data-subject-request-to-telnyx.md) — A Data Subject Request (DSR) is a request to exercise your privacy rights over personal data that Telnyx processes — for example access, correction, deletion (erasure), or a request that your personal data not be disclosed or re-disclosed (sometimes called a…
+
+- [How graduated volume pricing works for phone numbers](support-docs/articles/2026102601-how-graduated-volume-pricing-works-for-phone-numbers.md) — Phone number pricing at Telnyx uses graduated volume tiers. Each tier has its own rate, and each tier's rate applies only to the numbers that fall inside that tier. Reaching a higher tier doesn't reprice all of your numbers at the lower rate.
