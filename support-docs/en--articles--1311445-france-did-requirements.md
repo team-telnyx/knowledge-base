@@ -41,7 +41,7 @@ For **address** verification:
 * Proof of Address (dated within 3 months)
 
 ​
-Additional details:
+**Additional details:**
 
 * End-users must be physically present in the country when purchasing numbers from that country
 
@@ -63,33 +63,35 @@ For **address** verification:
 * Proof of Address (dated within 3 months)
 ​
 
-Additional details:
+**Additional details:**
 
 * End-users must be physically present in the country when purchasing numbers from that country
 
-## **Mobile Numbers in France**
+## **Multi-purpose Mobile Numbers in France**
 
 For **personal identity** verification:
 * Name, last name
 * Contact phone number
-* Email Address
+* Contact e-mail
+* Local Copy of ID or Passport
 
 For **business identity** verification:
-* Name, last name of an authorized representative
-* Company Legal Name
-* Company Commercial / Trading Name
+* Name, last name an authorized representative
+* Company name
+* Company Commercial/Trading Name
 * Contact phone number
-* Email Address
-* SIRET Number
+* Contact e-mail
+* Local company registration certificate
+* SIRET Code
 * NAF Code
 
 For **address** verification:
 * Address in France (street, building number, postal code, city, and country)
-​
+* Proof of Address (dated within 3 months)
 
-Additional details:
 
-* End-users must be physically present in the country when purchasing numbers from that country
+**Additional details:** 
+* End users must reside habitually or temporarily in metropolitan France, or have stable links involving frequent and significant presence there. Numbers will be withdrawn if this condition is no longer met.
 
 ## **Toll-Free Numbers in France**
 
@@ -105,9 +107,9 @@ For **address** verification:
 * Proof of Address (dated within 3 months)
 
 
-Additional details:
+**Additional details:**
 * End-users must be physically present in the country when purchasing numbers from that country
-* Business use required: Business use is required, private use is not allowed.
+* **Business use required:** Business use is required, private use is not allowed.
 
 \*Please note that once the documentation is received it will take approximately 72 hours to validate the information and activate the number for use.
 
