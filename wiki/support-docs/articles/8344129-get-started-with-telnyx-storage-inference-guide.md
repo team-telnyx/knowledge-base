@@ -164,7 +164,7 @@ Setting **max tokens** allows to generate the maximum number of tokens for the c
 This was the response:
 
 ```
-D15 and D16 are error codes indicating different issues with call termination. D15 relates to the outbound voice profile used with the SIP Connection being inactive. If the outbound voice profile is not active, customers are advised to go to their outbound voice profile section and ensure the status of the profile is active, and if it is, refresh the status by toggling it off and back on again. On the other hand, D16 indicates that the SIP Connection used to place the termination call is inactive. In these cases, customers should go to their SIP Connections page and ensure the status of the SIP Connection is active, and refresh the status if needed by toggling it off and back on again(SOURCES: https://storage.telnyx.com/my-bucket-2/telnyx-sip-responses.pdf).
+D15 and D16 are error codes indicating different issues with call termination. D15 relates to the outbound voice profile used with the SIP Connection being inactive. If the outbound voice profile is not active, customers are advised to go to their outbound voice profile section and ensure the status of the profile is active, and if it is, refresh the status by toggling it off and back on again. On the other hand, D16 indicates that the SIP Connection used to place the termination call is inactive. In these cases, customers should go to their SIP Connections page and ensure the status of the SIP Connection is active, and refresh the status if needed by toggling it off and back on again(SOURCES: https://us-central-1.telnyxcloudstorage.com/my-bucket-2/telnyx-sip-responses.pdf).
 ```
 
 ## Why would I want to embed and infer on my objects in my buckets?
