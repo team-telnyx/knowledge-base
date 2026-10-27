@@ -133,7 +133,7 @@ You can find country-specific information in our [International DID Requirements
 | Peru | 1, 5, 7, 9, 13, (c, f, g) | N/A | N/A | 1, 4, 7, 9, 13, (c, f, g) | 1, 2, 3 | N/A |
 | Philippines | 1, 3, 7 | N/A | 1, 3, 7 | 1, 3, 7 | N/A | N/A |
 | Poland | 1, 5, 7, 9 or 13, 18, (d, g, af) | N/A | 1, 2, 3 | 1, 2, 4, 7, 16, (af) | N/A | N/A |
-| Portugal | 1, 6, 7, 9, 10, 25 (f, y, af, ag) | 1, 4 | N/A | 1, 3 | N/A | N/A |
+| Portugal | 1, 6, 7, 9, 10, 25 (f, y, af, ag) | 1, 4 (f) | N/A | 1, 3 (f) | N/A | N/A |
 | Puerto Rico | Not required | N/A | N/A | Not required | N/A | N/A |
 | Qatar | N/A | 1, 4, 7, 9, (c, f, ah) | N/A | (h) | N/A | N/A |
 | Reunion | 1, 2, 3 | N/A | N/A | 1 | N/A | N/A |
