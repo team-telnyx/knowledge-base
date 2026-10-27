@@ -39,7 +39,7 @@ env:
   HOLD_LABEL: no-auto-merge
   CI_WAIT_MINUTES: "30"
   # Set to "true" to log the decision without merging (used while rolling out).
-  DRY_RUN: "true"
+  DRY_RUN: "false"
 
 jobs:
   gate-and-merge:
