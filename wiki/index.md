@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-10-26T11:47:36Z
+updated_at: 2026-10-27T10:05:02Z
 ---
 
 # Telnyx Knowledge Base
@@ -2105,7 +2105,7 @@ updated_at: 2026-10-26T11:47:36Z
 
 - [Custom Voicemail Greetings](support-docs/articles/15864441-custom-voicemail-greetings.md) — Custom voicemail greetings let you personalize what callers hear when they reach your voicemail on a Telnyx phone number. You can use the default text-to-speech greeting or create a custom TTS greeting with your own message.
 
-- [Upcoming TLS Certificate Changes for Telnyx SIP Proxies](support-docs/articles/15948276-upcoming-tls-certificate-changes-for-telnyx-sip-proxies.md) — During the remainder of 2026, we’ll be updating the TLS certificates used by our primary SIP proxy servers.
+- [Upcoming TLS Certificate Changes for Telnyx SIP Proxies](support-docs/articles/15948276-upcoming-tls-certificate-changes-for-telnyx-sip-proxies.md) — Schedule update — 27 October 2026   The TLS certificate migration dates and maintenance windows for the United States and Europe have changed. The revised dates are shown in bold in the Planned Schedule below, with the previous dates struck through.
 
 - [Preventing duplicate emails with idempotency](support-docs/articles/16099891-preventing-duplicate-emails-with-idempotency.md) — Network timeouts can leave you unsure whether an email send succeeded. Add an Idempotency-Key header so you can safely retry the same logical send without creating a second message.
 
