@@ -71,18 +71,30 @@ To set up outbound call recording via the Telnyx API see our developer guide [he
 
 ## Continue recording on hold
 
-Enable **Continue recording on hold** to keep an enabled call recording running while the call is on hold.
+By default, call recording pauses during hold and resumes when the call is taken off hold, excluding that hold time from the recording. If you want to include hold time, enable **Continue recording on hold**. This optional setting keeps recording active during hold and is off by default.
 
 Configure this separately for each direction:
 
 - **Inbound calls:** Open the number's **Voice → Services → Call Recording** settings. Enable **Record Inbound Calls**, then select **Continue recording on hold** and save.
+
+  [![Number settings showing the Call Recording section and Continue recording on hold checkbox.](_images/record-continue-on-hold-number.jpg)](/_images/record-continue-on-hold-number.jpg)
+
 - **Outbound calls:** Open the **Outbound Voice Profile → Configuration** settings. Enable recording for all calls or selected caller numbers, then turn on **Continue recording on hold** and save.
 
-To continue recording on hold in both directions, enable the setting on the relevant numbers and Outbound Voice Profiles. The number setting applies to inbound recordings for that number; the profile setting applies to outbound recordings using that profile.
+  [![Outbound Voice Profile settings showing recording options and the Continue recording on hold toggle.](_images/record-continue-on-hold-ovp.jpg)](/_images/record-continue-on-hold-ovp.jpg)
 
-The preference defaults to off and does not enable call recording by itself. Turning recording off retains the saved preference; the portal control remains disabled until recording is enabled again.
+Both screenshots show **Continue recording on hold** turned off, its default state. Enable it to include hold time in the recording.
 
-For API configuration, the preference is `call_recording.record_continue_on_hold` on number voice settings and Outbound Voice Profiles. Use JSON `true` or `false`; omitting the field from a PATCH request preserves its saved value.
+This preference does not enable call recording by itself. Turning recording off retains the saved preference; the portal control remains disabled until recording is enabled again.
+
+**Note:** Hold behavior can vary depending on your phone system and who puts the call on hold. Make a test call and try hold from both ends to confirm the recording behaves as expected.
+
+### Configure using the API
+
+For request parameters and examples, see the developer documentation:
+
+- **Inbound calls:** [Update a phone number with voice settings](https://developers.telnyx.com/api-reference/phone-number-configurations/update-a-phone-number-with-voice-settings).
+- **Outbound calls:** [Update an outbound voice profile](https://developers.telnyx.com/api-reference/outbound-voice-profiles/updates-an-existing-outbound-voice-profile).
 
 ## How to download or delete your call recordings
 
