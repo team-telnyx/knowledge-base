@@ -43,6 +43,8 @@ Call recording is fully accessible via our API v1 where you can configure settin
 3. Turn on Call Recording.
 4. Select which audio file format you want .wav or .mp3.
 5. Select which audio file channel type you want single or dual channel.
+6. Optionally enable **Continue recording on hold**. See [Continue recording on hold](#continue-recording-on-hold) below.
+7. Save your changes.
 
 [![Recording of inbound calls section.](_images/5537f028541d06bb3bf3f0516c8d9f9d5928de3022c27d67bf36dd88f9f0073f.png)](/_images/5537f028541d06bb3bf3f0516c8d9f9d5928de3022c27d67bf36dd88f9f0073f.png)
 
@@ -62,8 +64,37 @@ If your DID is associated with Voice or TeXML applications, please do not enable
 4. Select if you want to enable call recording for all outbound calls or only those outbound calls with a specific ANI (or from number).
 5. Select which audio file format you want .wav or .mp3.
 6. Select which audio file channel type you want single or dual channel.
+7. Optionally enable **Continue recording on hold**. See [Continue recording on hold](#continue-recording-on-hold) below.
+8. Save your changes.
 
 To set up outbound call recording via the Telnyx API see our developer guide [here](https://developers.telnyx.com/api-reference/outbound-voice-profiles/list-outbound-voice-profiles)
+
+## Continue recording on hold
+
+By default, call recording pauses during hold and resumes when the call is taken off hold, excluding that hold time from the recording. If you want to include hold time, enable **Continue recording on hold**. This optional setting keeps recording active during hold and is off by default.
+
+Configure this separately for each direction:
+
+- **Inbound calls:** Open the number's **Voice → Services → Call Recording** settings. Enable **Record Inbound Calls**, then select **Continue recording on hold** and save.
+
+  [![Number settings showing the Call Recording section and Continue recording on hold checkbox.](_images/record-continue-on-hold-number.jpg)](/_images/record-continue-on-hold-number.jpg)
+
+- **Outbound calls:** Open the **Outbound Voice Profile → Configuration** settings. Enable recording for all calls or selected caller numbers, then turn on **Continue recording on hold** and save.
+
+  [![Outbound Voice Profile settings showing recording options and the Continue recording on hold toggle.](_images/record-continue-on-hold-ovp.jpg)](/_images/record-continue-on-hold-ovp.jpg)
+
+Both screenshots show **Continue recording on hold** turned off, its default state. Enable it to include hold time in the recording.
+
+This preference does not enable call recording by itself. Turning recording off retains the saved preference; the portal control remains disabled until recording is enabled again.
+
+**Note:** Hold behavior can vary depending on your phone system and who puts the call on hold. Make a test call and try hold from both ends to confirm the recording behaves as expected.
+
+### Configure using the API
+
+For request parameters and examples, see the developer documentation:
+
+- **Inbound calls:** [Update a phone number with voice settings](https://developers.telnyx.com/api-reference/phone-number-configurations/update-a-phone-number-with-voice-settings).
+- **Outbound calls:** [Update an outbound voice profile](https://developers.telnyx.com/api-reference/outbound-voice-profiles/updates-an-existing-outbound-voice-profile).
 
 ## How to download or delete your call recordings
 
