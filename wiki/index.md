@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-10-27T10:05:02Z
+updated_at: 2026-10-28T15:40:00Z
 ---
 
 # Telnyx Knowledge Base
@@ -2163,7 +2163,7 @@ updated_at: 2026-10-27T10:05:02Z
 
 - [Austria: SMS Guidelines](support-docs/articles/6560660-austria-sms-guidelines.md) — SMS Guidelines for Austria including MCC and Dial Code. Get more messaging details here.
 
-- [Manually configure WhatsApp Calling with Telnyx](support-docs/articles/16300026-manually-configure-whatsapp-calling-with-telnyx.md) — This guide describes an alternative, manual method for connecting WhatsApp Calling to Telnyx for user-initiated calls, which are calls that WhatsApp users place to your business.
+- [Manually configure WhatsApp Calling with Telnyx](support-docs/articles/16300026-manually-configure-whatsapp-calling-with-telnyx.md) — This guide explains how to manually connect WhatsApp Calling to Telnyx. Configure the Meta SIP connection first, then follow the section for the call direction you need:
 
 - [Submit a Data Subject Request \(DSR\) to Telnyx](support-docs/articles/2026102201-submit-a-data-subject-request-to-telnyx.md) — A Data Subject Request (DSR) is a request to exercise your privacy rights over personal data that Telnyx processes — for example access, correction, deletion (erasure), or a request that your personal data not be disclosed or re-disclosed (sometimes called a…
 
