@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/4380325-search-and-buy-number
 title: "Search and Buy Numbers"
 description: "This article describes the process of obtaining phone numbers through Telnyx. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: b0c52f1ad427581939dc5e549a00f4de2c26200e9289e21d19852c661be1d904
+content_hash: 5cdfbe0161f1fb36ce6ab539db77bef6ed9197ec25d8b3b303a53564de7c1f39
 ---
 
 
@@ -134,6 +134,8 @@ We show you the **Upfront Cost** (one-time activation) and **Monthly Cost** (rec
 On the right, you'll see your **Order Summary** with the order total and the button to **Place Order**. The order total will be deducted from your balance.
 
 Orders are **final,** and we do not provide refunds if you purchased a number by mistake. Please make sure to review the order summary completely before proceeding.
+
+**Important: Non-Refundable Charges.** By purchasing phone numbers, you acknowledge that activation fees and prorated charges will apply immediately upon purchase. These charges are non-refundable, including if the numbers are subsequently released or canceled.
 
 ![](_images/54aa0ca03a20e924.png)
 
