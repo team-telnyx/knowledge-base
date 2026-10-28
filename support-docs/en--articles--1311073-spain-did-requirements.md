@@ -26,64 +26,66 @@ In order to purchase a Spain number you will need to provide the following:
 ## **Local, Toll-Free, and Shared-Cost Numbers in Spain**
 
 For **personal identity** verification:
-
-\* Name, last name
-
-\* Contact phone number
-
-\* Local Copy of ID or Passport
-
-\* Spanish National ID (DNI) or Foreigners' Identity Number(NIE)
+* Name, last name
+* Contact phone number
+* Local Copy of ID or Passport
+* Spanish National ID (DNI) or Foreigners' Identity Number(NIE)
 
 For **business identity** verification:
-
-\* Name, last name of an authorized representative
-
-\* Contact phone number
-
-\* Company name
-
-\* Local Company registration certificate
-
-\* CIF (Certificado de Identificacion Fiscal)
+* Name, last name of an authorized representative
+* Contact phone number
+* Company name
+* Local Company registration certificate
+* CIF (Certificado de Identificacion Fiscal)
 
 For **address** verification:
+* Address matching DID area code (street, building number, postal code, city, and country)
+* Proof of address (dated within 3 months)
 
-\* Address matching DID area code (street, building number, postal code, city, and country)
-
-\* Proof of address (dated within 3 months)
 ​
-Additional details:
-\* End-users must be physically present in the country when purchasing numbers from that country
+**Additional details:**
+
+* End-users must be physically present in the country when purchasing numbers from that country
+
+## **Local Commercial Numbers in Spain** 
+For **business identity** verification:
+* Name, last name of an authorized representative
+* Contact phone number
+* Company name
+* Local Company registration certificate
+* CIF (Certificado de Identificacion Fiscal)
+
+For **address** verification:
+* Address matching DID area code (street, building number, postal code, city, and country)
+* Proof of address (dated within 3 months)
+
+
+**Additional details:**
+
+* End-users must be physically present in the country when purchasing numbers from that country
+* **Business use required:** Business use is required for Spain local commercial numbers, private use is not allowed.
 
 ## **National Numbers in Spain**
 
 For **personal identity** verification:
-
-\* Name, last name
-
-\* Contact phone number
-
-\* Local Passport or ID copy
+* Name, last name
+* Contact phone number
+* Local Passport or ID copy
 
 For **business identity** verification:
-
-\* Name, last name of an authorized representative
-
-\* Contact phone number
-
-\* Company name
-
-\* Local Company registration certificate
+* Name, last name of an authorized representative
+* Contact phone number
+* Company name
+* Local Company registration certificate
 
 For **address** verification:
+* Address in Spain (street, building number, postal code, city and country)
+* Proof of address (dated within 3 months)
 
-\* Address in Spain (street, building number, postal code, city and country)
-
-\* Proof of address (dated within 3 months)
 ​
-Additional details:
-\* End-users must be physically present in the country when purchasing numbers from that country
+**Additional details:**
+
+* End-users must be physically present in the country when purchasing numbers from that country
 ​
 
 \*Please note that once the documentation is received, it will take approximately 72 hours to validate the information and activate the number for use.
