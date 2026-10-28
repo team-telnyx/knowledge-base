@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-10-14T16:16:11Z
+updated_at: 2026-10-27T10:05:02Z
 ---
 
 # Telnyx Knowledge Base
@@ -2105,7 +2105,7 @@ updated_at: 2026-10-14T16:16:11Z
 
 - [Custom Voicemail Greetings](support-docs/articles/15864441-custom-voicemail-greetings.md) — Custom voicemail greetings let you personalize what callers hear when they reach your voicemail on a Telnyx phone number. You can use the default text-to-speech greeting or create a custom TTS greeting with your own message.
 
-- [Upcoming TLS Certificate Changes for Telnyx SIP Proxies](support-docs/articles/15948276-upcoming-tls-certificate-changes-for-telnyx-sip-proxies.md) — During the remainder of 2026, we’ll be updating the TLS certificates used by our primary SIP proxy servers.
+- [Upcoming TLS Certificate Changes for Telnyx SIP Proxies](support-docs/articles/15948276-upcoming-tls-certificate-changes-for-telnyx-sip-proxies.md) — Schedule update — 27 October 2026   The TLS certificate migration dates and maintenance windows for the United States and Europe have changed. The revised dates are shown in bold in the Planned Schedule below, with the previous dates struck through.
 
 - [Preventing duplicate emails with idempotency](support-docs/articles/16099891-preventing-duplicate-emails-with-idempotency.md) — Network timeouts can leave you unsure whether an email send succeeded. Add an Idempotency-Key header so you can safely retry the same logical send without creating a second message.
 
@@ -2162,3 +2162,9 @@ updated_at: 2026-10-14T16:16:11Z
 - [Spain: SMS Guidelines](support-docs/articles/6545140-spain-sms-guidelines.md) — Sending SMS to Spain? Check out our comprehensive guidelines to ensure compliance in Spain.
 
 - [Austria: SMS Guidelines](support-docs/articles/6560660-austria-sms-guidelines.md) — SMS Guidelines for Austria including MCC and Dial Code. Get more messaging details here.
+
+- [Manually configure WhatsApp Calling with Telnyx](support-docs/articles/16300026-manually-configure-whatsapp-calling-with-telnyx.md) — This guide describes an alternative, manual method for connecting WhatsApp Calling to Telnyx for user-initiated calls, which are calls that WhatsApp users place to your business.
+
+- [Submit a Data Subject Request \(DSR\) to Telnyx](support-docs/articles/2026102201-submit-a-data-subject-request-to-telnyx.md) — A Data Subject Request (DSR) is a request to exercise your privacy rights over personal data that Telnyx processes — for example access, correction, deletion (erasure), or a request that your personal data not be disclosed or re-disclosed (sometimes called a…
+
+- [How graduated volume pricing works for phone numbers](support-docs/articles/2026102601-how-graduated-volume-pricing-works-for-phone-numbers.md) — Phone number pricing at Telnyx uses graduated volume tiers. Each tier has its own rate, and each tier's rate applies only to the numbers that fall inside that tier. Reaching a higher tier doesn't reprice all of your numbers at the lower rate.

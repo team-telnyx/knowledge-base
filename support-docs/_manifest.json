@@ -1,6 +1,6 @@
 {
   "scraped": "2026-07-08",
-  "pages_saved": 944,
+  "pages_saved": 948,
   "files": [
     "1130719-what-does-the-tech-prefix-option-do.md",
     "1130726-pending-order-error.md",
@@ -243,6 +243,7 @@
     "en--articles--1616935-freeswitch-ip-trunk-setup.md",
     "en--articles--1618776-porting-error-messages.md",
     "en--articles--1618801-freeswitch-credentials-trunk.md",
+    "en--articles--16300026-manually-configure-whatsapp-calling-with-telnyx.md",
     "en--articles--1667062-short-message-peer-to-peer-set-up-guide.md",
     "en--articles--16762076-workspaces.md",
     "en--articles--16823821-sending-email-in-batches-limits-results-and-safe-retries.md",
@@ -254,6 +255,8 @@
     "en--articles--2026092501-call-hold-comfort-noise-and-rtp-stream-generation.md",
     "en--articles--2026092801-connect-telnyx-to-zoom-phone-with-provider-exchange.md",
     "en--articles--2026093001-set-up-a-hosted-stir-shaken-certificate.md",
+    "en--articles--2026102201-submit-a-data-subject-request-to-telnyx.md",
+    "en--articles--2026102601-how-graduated-volume-pricing-works-for-phone-numbers.md",
     "en--articles--2030667-i-received-a-port-out-notification.md",
     "en--articles--2030770-port-in-best-practices.md",
     "en--articles--2033789-port-numbers-away-from-telnyx.md",
@@ -672,6 +675,7 @@
     "en--articles--6592538-aruba-sms-guidelines.md",
     "en--articles--6596144-azerbaijan-sms-guidelines.md",
     "en--articles--6596149-bahamas-sms-guidelines.md",
+    "en--articles--6596150-bahamas-did-requirements.md",
     "en--articles--6596158-bahrain-sms-guidelines.md",
     "en--articles--6596161-bangladesh-sms-guidelines.md",
     "en--articles--6596210-barbados-sms-guidelines.md",

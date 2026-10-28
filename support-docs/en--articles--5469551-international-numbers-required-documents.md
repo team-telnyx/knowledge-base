@@ -21,154 +21,154 @@ You can find country-specific information in our [International DID Requirements
 
 ## (Please note the letters in () indicate additional requirements/conditions)
 
-|  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| **Country** | **Local** | **National** | **Mobile** | **Toll-free** | **Shared-Cost** |
-| Albania | 1, 3, 9, 13 | N/A | N/A | 1, 3, 9, 13 | N/A |
-| Algeria | N/A | 1, 10, (g, o) | N/A | N/A | N/A |
-| Angola | 1, 2, 3 | N/A | N/A | N/A | N/A |
-| Anguilla | N/A | N/A | N/A | 1, 3, (f, h) | N/A |
-| Antigua And Barbuda | N/A | N/A | N/A | 1, 3, (f, h) | N/A |
-| Argentina | 1, 2, 3 | N/A | N/A | 1, 3 | 1, 2, 3 |
-| Armenia | N/A | N/A | N/A | N/A | N/A |
-| Australia | 1, 4, 7 | N/A | [Please see requirements here](https://support.telnyx.com/en/articles/3505912-australia-number-requirements) | 1, 3, 7, 13 | 1, 3 |
-| Austria | 1, 5, 7, 9, 13, (g, af) | 1, 2, 4, 7, (g, af) | 1, 2, 4, 7, (af) | 1, 2, 4, 7, (af) | N/A |
-| Bahamas | 1, 3,(h) | N/A | N/A | 1, 3 (h) | N/A |
-| Bahrain | N/A | N/A | N/A | N/A | N/A |
-| Bangladesh | 1, 4, 9, 10, 21 (y, ac) | 1, 3, 7, 9, 13 (f, h, ae) | 1, 3, 7, 9, 13 (f, h, ae) | N/A | N/A |
-| Barbados | 1, 2, 3 | N/A | N/A | (h) | N/A |
-| Belgium | 1, 5, 7, 9, 13, 16, (af) | N/A | 1, 4, 7, 9, 10, 13, 16, (af) | 1, 2, 4, 7 (j) | N/A |
-| Belize | 1, 2, 3 | N/A | N/A | 1, 2, 3 | N/A |
-| Benin | N/A | N/A | 1, 3, 7, 9, 10, 13 (f) | N/A | N/A |
-| Bermuda | N/A | N/A | N/A | 1, 2, 3 | N/A |
-| Bolivia | N/A | 1, 2, 3 | N/A | 1, 2, 3 | N/A |
-| Bosnia And Herzegovina | 1, 4, 7, 9, 10, 13 (c, f, h) | 1, 2, 3 | N/A | 1, 2, 3 | N/A |
-| Botswana | N/A | N/A | N/A | (m) | N/A |
-| Brazil | [Please see requirements here.](https://support.telnyx.com/en/articles/5464041-brazil-did-requirements) | 1, 4, 10, 13 (g, j, p) | [Please see requirements here.](https://support.telnyx.com/en/articles/5464041-brazil-did-requirements) | 1, 4, 10, 13 (g, j, p) | N/A |
-| British Virgin Islands | N/A | N/A | N/A | 1, 3, (h) | N/A |
-| Brunei | N/A | N/A | N/A | 1, 3, (h) | N/A |
-| Bulgaria | 1, 2, 5, 7 | N/A | N/A | 1, 3 | N/A |
-| Burkina Faso | 1, 3, 10, (m) | N/A | N/A | N/A | N/A |
-| Cambodia | N/A | N/A | N/A | 18, (d, h) | N/A |
-| Cameroon | 1, 2, 3, 7 10 | N/A | N/A | N/A | N/A |
-| Canada | Not required | N/A | N/A | Not required | N/A |
-| Cayman Islands | 1, 2, 3 (m) | N/A | N/A | 1, 2, 3 (h, m) | N/A |
-| Chile | 1, 3, 13 | 1, 2, 3, 10, (j) | N/A | 1, 3, 13 | 1, 2, 3, 10, (j) |
-| China | [Please see requirements here.](https://support.telnyx.com/en/articles/3506111-china-did-requirements) | N/A | N/A | N/A | [Please see requirements here.](https://support.telnyx.com/en/articles/3506111-china-did-requirements) |
-| Colombia | 1, 3 | N/A | N/A | 1, 2, 3 | N/A |
-| Costa Rica | N/A | 1, 3, 9, (f) | N/A | 1, 3, 7, 13, 17, (f, p) | N/A |
-| Croatia | 1, 5, 7, 9, 13, (f, g) | N/A | N/A | 1, 4, 9, 13, (g) | N/A |
-| Curacao | N/A | 1, 2, 3 | N/A | N/A | N/A |
-| Cyprus | 1, 2, 3, 7, (c) | 1, 2, 3, 7, (c) | N/A | 1, 2, 3, 7 | N/A |
-| Czech Republic | 1, 5, 7, (af) | N/A | N/A | 1, 2, 4, 7, (af) | N/A |
-| Democratic Republic of the Congo | N/A | N/A | 1, 3, 7, 10 | N/A | N/A |
-| Denmark | 1, 4, 7, 9, 10, 25 (f, af, ag) | N/A | 1, 3, 18, (d) | 1, 3 | N/A |
-| Dominica | N/A | N/A | N/A | (h) | N/A |
-| Dominican Republic | 1, 2, 3 | N/A | N/A | 1, 2, 3 | N/A |
-| Ecuador | N/A | N/A | 1, 3, 7, h | 1, 3, (h) | N/A |
-| Egypt | 1, 4, 7, 9, (c, f, ah) | N/A | N/A | 1, 3, (h) | N/A |
-| El Salvador | (u) | N/A | N/A | N/A | N/A |
-| Estonia | 1, 4, 7, 9, 13, (g) | N/A | 1, 3 | 1, 2, 3 | N/A |
-| Ethiopia | N/A | N/A | N/A | 1, 3, (h) | N/A |
-| Finland | 1, 4, 7, 9, 10, 16 (c) | 1, 4, 7, 9, 10, 16 (c) | 1, 4, 9, 10 (f, j) | 1, 4, 9, 10 (f, j) | N/A |
-| France | 1, 4, 7, 13 (c, af) | 1, 4, 7, 9, (af) | N/A | 1, 4, 7, 25 (f, af) | N/A |
-| French Guiana | 1, 2, 3 | N/A | N/A | 1, 2, 3 | N/A |
-| Georgia | 1, 4, 7, 9, 10, 13 (c, f, h) | N/A | N/A | 1, 2, 3, 7, 8, 10 | N/A |
-| Germany | 1, 2, 5, 7, 8, 25 (b, c, af) | 1, 4, 7, 8, 13, 25 (b, c, af) | N/A | 1, 4, 7, 13, 14, 17, 18, 25 (d, f, g, h, p, q, af) | N/A |
-| Ghana | N/A | 1, 3, 7, h | 1, 2, 3 | N/A | N/A |
-| Greece | 1, 5, 7, 9, 13, 16, (g, af) | N/A | N/A | N/A | N/A |
-| Grenada | (p, m) | N/A | N/A | (h) | N/A |
-| Guadeloupe | 1, 2, 3 | N/A | N/A | 1, 2, 3 | N/A |
-| Guam | N/A | N/A | N/A | N/A | N/A |
-| Guatemala | 1, 4, 7, 9, 13 (h,y) | N/A | N/A | N/A | N/A |
-| Guinea | N/A | N/A | N/A | N/A | N/A |
-| Honduras | 1, 4, 7, (h) | N/A | N/A | 1, 3, (h) | N/A |
-| Hong Kong | N/A | [Please see requirements here.](https://support.telnyx.com/en/articles/3739447-hong-kong-did-requirements) | N/A | 1, 3, 7, 18, (d, f) | N/A |
-| Hungary | 1, 2, 5, 7 | 1, 2, 4, 7 | N/A | 1, 2, 4, 7 | N/A |
-| Iceland | 1, 3 | N/A | N/A | 1, 3 | N/A |
-| India | N/A | N/A | [Please see requirements here.](https://support.telnyx.com/en/articles/3739465-india-did-requirements) | N/A | N/A |
-| Indonesia | [Please see requirements here.](https://support.telnyx.com/en/articles/5466641-indonesia-did-requirements) | N/A | N/A | 1, 4, 7, 13 | N/A |
-| Ireland | 1, 2, 5, 7, 10, 18 | 1, 2, 4, 7, 10, 18 | 1, 4, 7, 9, 10, 18 (f) | 1, 2, 4, 7, 10, 18 | N/A |
-| Israel | 1, 3, 7, 9, 18 | 1, 3, 7, 9, 18 | 1, 3, 10 | 1, 2, 3 | N/A |
-| Italy | [Please see requirements here.](https://support.telnyx.com/en/articles/1311462-italy-did-requirements) | N/A | N/A | [Please see requirements here.](https://support.telnyx.com/en/articles/1311462-italy-did-requirements) | N/A |
-| Iraq | 1, 4, 7, 9, (c, f, ah) | N/A | N/A | N/A | N/A |
-| Ivory Coast | 1, 3, (h, m) | N/A | N/A | N/A | N/A |
-| Jamaica | 3, (h) | N/A | N/A | 1, 3,(h) | N/A |
-| Japan | N/A | [Please see requirements here](https://support.telnyx.com/en/articles/15444978-japan-did-requirements) | N/A | N/A | N/A |
-| Jordan | 1, 2, 3 | N/A | N/A | (h) | N/A |
-| Kazakhstan | 1, 3, 7, (h) | N/A | N/A | N/A | N/A |
-| Kenya | 1, 3, 7, 18 (f) | N/A | 1, 3, 7 (f) | 1, 3, 7 (f) | N/A |
-| Kosovo | N/A | N/A | N/A | N/A | N/A |
-| Kuwait | 1, 9, 11, (b, c, f, g, h, o, u, ad, ah) | N/A | N/A | N/A | N/A |
-| Kyrgyzstan | 1, 3, 7, 9 | N/A | N/A | N/A | N/A |
-| Latvia | 1, 4, 7, 9, 13 (f, g, o) | N/A | 1, 3, 13, (h) | 1, 4 | N/A |
-| Lebanon | N/A | N/A | N/A | 1, 2, 3 | N/A |
-| Lithuania | 1, 4, 7, 9, 13, (g, m, o) | 1, 4, 7, 9, 13, (g, m, o) | 1, 2, 3 | 1, 4, 7, 9, (g) | N/A |
-| Luxembourg | 1, 4, 7, 9, 10, (f) | 1, 4, 14 | N/A | 1, 3, 17, (f) | N/A |
-| North Macedonia | 1, 4, 7, 9, 10, 13 (c, f, h) | N/A | N/A | 1, 2, 3 | N/A |
-| Madagascar | N/A | N/A | N/A | N/A | N/A |
-| Malaysia | 1, 4, 7, 13 (f) | 1, 4, 7, 9, 13 (c, f, h) | 1, 3, 7, 9, 13 (f, h) | 1, 4, 7 | N/A |
-| Malta | N/A | 1, 2, 4, 7, (af) | N/A | 1, 2, 4, 7, (af) | N/A |
-| Martinique | 1, 2, 3 | N/A | N/A | 1, 2, 3 | N/A |
-| Mauritius | N/A | N/A | N/A | 1, 2, 3 | N/A |
-| Mayotte | 1, 2, 3 | N/A | N/A | 1, 2, 3 | N/A |
-| Mexico | 1, 2, 3 | N/A | 1, 3 | 1, 2, 3 | N/A |
-| Moldova | N/A | N/A | N/A | 1, 3 | N/A |
-| Monaco | N/A | N/A | N/A | 1, 2, 3 | N/A |
-| Montenegro | 1, 4, 7, 9, 10, 13 (c, f, h) | N/A | N/A | N/A | N/A |
-| Morocco | 1, 2, 3 | N/A | N/A | 1, 2, 3 | N/A |
-| Mozambique | N/A | N/A | 1, 2, 3, 7 (h) | N/A | N/A |
-| Myanmar | 1, 3, 7, 9 (f, m) | N/A | N/A | 1, 3, 7, (f, m) | N/A |
-| Nepal | N/A | N/A | N/A | 1, 2, 3, 18 | N/A |
-| Netherlands | 1, 5, 7, 9, 13, (g) | 1, 4, (f) | 1, 3 | 1, 3, 9, 10, 18 (d, f) | N/A |
-| New Zealand | 1, 4 | N/A | N/A | 1, 2, 3 | N/A |
-| Nicaragua | N/A | N/A | 1, 2, 4, 7, 9 (h) | N/A | N/A |
-| Nigeria | N/A | 1, 3, 7, 18 (f, h) | N/A | 1, 3, 7 | N/A |
-| Norway | 1, 5, 7, 9, 10, 13, 25 (f, af, ag) | N/A | N/A | 1, 2, 4, 7, (c, i, af) | N/A |
-| Oman | N/A | N/A | N/A | 1, 4, 9, 13, 18, (d, f, g, h, u) | N/A |
-| Pakistan | 1, 3, 7, (h) | N/A | N/A | (h) | N/A |
-| Panama | 1, 2, 3 | N/A | N/A | 1, 3, 8, 13, (d, f) | N/A |
-| Papa New Guinea | N/A | N/A | N/A | 1, 3, 10 | N/A |
-| Paraguay | 1, 2, 3 | N/A | N/A | 1, 2, 3 (h) | N/A |
-| Peru | 1, 5, 7, 9, 13, (c, f, g) | N/A | N/A | 1, 4, 7, 9, 13, (c, f, g) | 1, 2, 3 |
-| Philippines | 1, 3, 7 | N/A | 1, 3, 7 | 1, 3, 7 | N/A |
-| Poland | 1, 5, 7, 9 or 13, 18, (d, g, af) | N/A | 1, 2, 3 | 1, 2, 4, 7, 16, (af) | N/A |
-| Portugal | 1, 6, 7, 9, 10, 25 (f, y, af, ag) | 1, 4 | N/A | 1, 3 | N/A |
-| Puerto Rico | Not required | N/A | N/A | Not required | N/A |
-| Qatar | N/A | 1, 4, 7, 9, (c, f, ah) | N/A | (h) | N/A |
-| Reunion | 1, 2, 3 | N/A | N/A | 1, 2, 3 | N/A |
-| Romania | 1, 4, 7, (m, af) | 1, 3 | N/A | 1, 4, 7, (m, af) | N/A |
-| Russia | N/A | N/A | 1, 3, 7, 9, 13 (f, h, ae) | N/A | N/A |
-| Rwanda | 1, 3, 7, 9 (f) | N/A | N/A | N/A | N/A |
-| Saint Barthélemy | 1, 2, 3 | N/A | N/A | N/A | N/A |
-| Saint Martin | 1, 2, 3 | N/A | N/A | N/A | N/A |
-| Serbia | 1, 4, 7, 9, 10, 13 (c, f, h, ai) | N/A | N/A | 1, 2, 3 | N/A |
-| Seychelles | 1, 3, (f, h) | N/A | N/A | N/A | N/A |
-| Singapore | 1, 4, 7, 9, 10, 13, 18, (d, g) | 1, 4, 7, 9, 13, (g) | N/A | 1, 3 | N/A |
-| Slovakia | 1, 5, 7, 9, 13, (g) | N/A | N/A | 1, 3, 9, 16, (f) | N/A |
-| Slovenia | 1, 5, 7, 13 (f) | 1, 5, 7, 13 (f) | N/A | 1, 2, 3 | N/A |
-| South Africa | 1, 5, 7, 9, 13, (e, g, m) | 1, 4, 7, 9, 13, (e, g) | 1, 2, 3, 7 | 1, 3, 7, 9, 13, (e, g, h) | N/A |
-| Spain | 1, 2, 5, 7, 16, (af) | 1, 2, 4, 7, (af) | N/A | 1, 2, 5, 7, 16, (af) | 1, 2, 5, 7, 16, (af) |
-| Sri Lanka | N/A | N/A | 18, (d, f, h, m) | 18, (d, h) | N/A |
-| Sudan | N/A | N/A | N/A | N/A | N/A |
-| Svalbard and Jan Mayen | N/A | N/A | N/A | N/A | N/A |
-| Sweden | 1, 6, 7, 9, 10, 13, 25 (f, ag) | 1, 4, 7, 9, 10, 13, 25 (f, af, ag) | 1, 2, 4, 7, (af) | 1, 4, 7, (af) | N/A |
-| Switzerland | 1, 5, 7, 9, 10, 13, 25 (f, af, ag) | N/A | N/A | 1, 3, 9, (f, j) | N/A |
-| Tanzania | N/A | N/A | N/A | 3, 7, 9, 13, (h, m, u) | N/A |
-| Thailand | 1, 3, 7, 9 (f) | 1, 3, 7, 9, 13, 18 (d, g) | 1, 3, 7, 9, 10, 13, 18 (f, h) | 1, 3, 7 (f) | N/A |
-| Trinidad And Tobago | (m, p) | N/A | N/A | (h) | N/A |
-| Tunisia | (m) | N/A | N/A | N/A | N/A |
-| Turks And Caicos Islands | N/A | N/A | N/A | (h) | N/A |
-| Uganda | 1, 3 | 1, 4, 7, 9, 13 | N/A | 1, 2, 3, 7, 10, (h) | N/A |
-| Ukraine | 1, 3, 7, 9, 13 (f, h, ae) | 1, 3, 7, 9, 13 (f, h, ae) | 1, 2, 3 | 1, 2, 3 | N/A |
-| United Kingdom | [Please see requirements here](https://support.telnyx.com/en/articles/1311457-united-kingdom-uk-did-requirements) | [Please see requirements here](https://support.telnyx.com/en/articles/1311457-united-kingdom-uk-did-requirements) | [Please see requirements here](https://support.telnyx.com/en/articles/1311457-united-kingdom-uk-did-requirements) | [Please see requirements here](https://support.telnyx.com/en/articles/1311457-united-kingdom-uk-did-requirements) | N/A |
-| United States | Not required | Not required | Not required | Not required | N/A |
-| Uruguay | N/A | N/A | N/A | 1, 3, 7, (h) | N/A |
-| Us Virgin Islands | Not required | N/A | N/A | Not required | N/A |
-| Uzbekistan | 1, 3, 7, h | N/A | N/A | N/A | N/A |
-| Vietnam | 1, 3, 9\*, 10, 13, (h) | N/A | N/A | 1, 3 | N/A |
-| Zambia | N/A | N/A | 1, 3, 4, 7, 10 (h) | N/A | N/A |
-| Zimbabwe | 1, 3 | N/A | N/A | N/A | N/A |
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| **Country** | **Local** | **National** | **Mobile** | **Toll-free** | **Shared-Cost** | **Multi-purpose** |
+| Albania | 1, 3, 9, 13 | N/A | N/A | 1, 3, 9, 13 | N/A | N/A |
+| Algeria | N/A | 1, 10, (g, o) | N/A | N/A | N/A | N/A |
+| Angola | 1, 2, 3 | N/A | N/A | N/A | N/A | N/A |
+| Anguilla | N/A | N/A | N/A | 1, 3, (f, h) | N/A | N/A |
+| Antigua And Barbuda | N/A | N/A | N/A | 1, 3, (f, h) | N/A | N/A |
+| Argentina | 1, 2, 3 | N/A | N/A | 1, 3 | 1, 2, 3 | N/A |
+| Armenia | N/A | N/A | N/A | N/A | N/A | N/A |
+| Australia | 1, 4, 7 | N/A | [Please see requirements here](https://support.telnyx.com/en/articles/3505912-australia-number-requirements) | 1, 3, 7, 13 | 1, 3 | N/A |
+| Austria | 1, 5, 7, 9, 13, (g, af) | 1, 2, 4, 7, (g, af) | 1, 2, 4, 7, (af) | 1, 2, 4, 7, (af) | N/A | N/A |
+| Bahamas | 1, 9, (c, h) | N/A | N/A | 1, 3 (h) | N/A | N/A |
+| Bahrain | N/A | N/A | N/A | N/A | N/A | N/A |
+| Bangladesh | 1, 4, 9, 10, 21 (y, ac) | 1, 3, 7, 9, 13 (f, h, ae) | 1, 3, 7, 9, 13 (f, h, ae) | N/A | N/A | N/A |
+| Barbados | 1, 2, 3 | N/A | N/A | (h) | N/A | N/A |
+| Belgium | 1, 5, 7, 9, 13, 16, (af) | N/A | 1, 4, 7, 9, 10, 13, 16, (af) | 1, 2, 4, 7 (j) | N/A | N/A |
+| Belize | 1, 2, 3 | N/A | N/A | 1, 2, 3 | N/A | N/A |
+| Benin | N/A | N/A | 1, 3, 7, 9, 10, 13 (f) | N/A | N/A | N/A |
+| Bermuda | N/A | N/A | N/A | 1, 2, 3 | N/A | N/A |
+| Bolivia | N/A | 1, 2, 3 | N/A | 1, 2, 3 | N/A | N/A |
+| Bosnia And Herzegovina | 1, 4, 7, 9, 10, 13 (c, f, h) | 1, 2, 3 | N/A | 1, 2, 3 | N/A | N/A |
+| Botswana | N/A | N/A | N/A | (m) | N/A | N/A |
+| Brazil | [Please see requirements here.](https://support.telnyx.com/en/articles/5464041-brazil-did-requirements) | 1, 4, 10, 13 (g, j, p) | [Please see requirements here.](https://support.telnyx.com/en/articles/5464041-brazil-did-requirements) | 1, 4, 10, 13 (g, j, p) | N/A | N/A |
+| British Virgin Islands | N/A | N/A | N/A | 1, 3, (h) | N/A | N/A |
+| Brunei | N/A | N/A | N/A | 1, 3, (h) | N/A | N/A |
+| Bulgaria | 1, 2, 5, 7 | N/A | N/A | 1, 3 | N/A | N/A |
+| Burkina Faso | 1, 3, 10, (m) | N/A | N/A | N/A | N/A | N/A |
+| Cambodia | N/A | N/A | N/A | 18, (d, h) | N/A | N/A |
+| Cameroon | 1, 2, 3, 7 10 | N/A | N/A | N/A | N/A | N/A |
+| Canada | Not required | N/A | N/A | Not required | N/A | N/A |
+| Cayman Islands | 1, 2, 3 (m) | N/A | N/A | 1, 2, 3 (h, m) | N/A | N/A |
+| Chile | 1, 3, 13 | 1, 2, 3, 10, (j) | N/A | 1, 3, 13 | 1, 2, 3, 10, (j) | N/A |
+| China | [Please see requirements here.](https://support.telnyx.com/en/articles/3506111-china-did-requirements) | N/A | N/A | N/A | [Please see requirements here.](https://support.telnyx.com/en/articles/3506111-china-did-requirements) | N/A |
+| Colombia | 1, 3 | N/A | N/A | 1, 2, 3 | N/A | N/A |
+| Costa Rica | N/A | 1, 3, 9, (f) | N/A | 1, 3, 7, 13, 17, (f, p) | N/A | N/A |
+| Croatia | 1, 5, 7, 9, 13, (f, g) | N/A | N/A | 1, 4, 9, 13, (g) | N/A | N/A |
+| Curacao | N/A | 1, 2, 3 | N/A | N/A | N/A | N/A |
+| Cyprus | 1, 2, 3, 7, (c) | 1, 2, 3, 7, (c) | N/A | 1, 2, 3, 7 | N/A | N/A |
+| Czech Republic | 1, 5, 7, (af) | N/A | N/A | 1, 2, 4, 7, (af) | N/A | N/A |
+| Democratic Republic of the Congo | N/A | N/A | 1, 3, 7, 10 | N/A | N/A | N/A |
+| Denmark | 1, 4, 7, 9, 10, 25 (f, af, ag) | N/A | 1, 3, 18, (d) | 1, 3 | N/A | N/A |
+| Dominica | N/A | N/A | N/A | (h) | N/A | N/A |
+| Dominican Republic | 1, 2, 3 | N/A | N/A | 1, 2, 3 | N/A | N/A |
+| Ecuador | N/A | N/A | 1, 3, 7, h | 1, 3, (h) | N/A | N/A |
+| Egypt | 1, 4, 7, 9, (c, f, ah) | N/A | N/A | 1, 3, (h) | N/A | N/A |
+| El Salvador | (u) | N/A | N/A | N/A | N/A | N/A |
+| Estonia | 1, 4, 7, 9, 13, (g) | N/A | 1, 3 | 1, 2, 3 | N/A | N/A |
+| Ethiopia | N/A | N/A | N/A | 1, 3, (h) | N/A | N/A |
+| Finland | 1, 4, 7, 9, 10, 16 (c) | 1, 4, 7, 9, 10, 16 (c) | 1, 4, 9, 10 (f, j) | 1, 4, 9, 10 (f, j) | N/A | N/A |
+| France | 1, 4, 7, 13 (c, af) | 1, 4, 7, 9, (af) | N/A | 1, 4, 7, 25 (f, af) | N/A |[Please see requirements here.](https://support.telnyx.com/en/articles/1311445-france-did-requirements)
+| French Guiana | 1, 2, 3 | N/A | N/A | 1, 2, 3 | N/A | N/A |
+| Georgia | 1, 4, 7, 9, 10, 13 (c, f, h) | N/A | N/A | 1, 2, 3, 7, 8, 10 | N/A | N/A |
+| Germany | 1, 2, 5, 7, 8, 25 (b, c, af) | 1, 4, 7, 8, 13, 25 (b, c, af) | N/A | 1, 4, 7, 13, 14, 17, 18, 25 (d, f, g, h, p, q, af) | N/A | N/A |
+| Ghana | N/A | 1, 3, 7, h | 1, 2, 3 | N/A | N/A | N/A |
+| Greece | 1, 5, 7, 9, 13, 16, (g, af) | N/A | N/A | N/A | N/A | N/A |
+| Grenada | (p, m) | N/A | N/A | (h) | N/A | N/A |
+| Guadeloupe | 1, 2, 3 | N/A | N/A | 1, 2, 3 | N/A | N/A |
+| Guam | N/A | N/A | N/A | N/A | N/A | N/A |
+| Guatemala | 1, 4, 7, 9, 13 (h,y) | N/A | N/A | N/A | N/A | N/A |
+| Guinea | N/A | N/A | N/A | N/A | N/A | N/A |
+| Honduras | 1, 4, 7, (h) | N/A | N/A | 1, 3, (h) | N/A | N/A |
+| Hong Kong | N/A | [Please see requirements here.](https://support.telnyx.com/en/articles/3739447-hong-kong-did-requirements) | N/A | 1, 3, 7, 18, (d, f) | N/A | N/A |
+| Hungary | 1, 2, 5, 7 | 1, 2, 4, 7 | N/A | 1, 2, 4, 7 | N/A | N/A |
+| Iceland | 1, 3 | N/A | N/A | 1, 3 | N/A | N/A |
+| India | N/A | N/A | [Please see requirements here.](https://support.telnyx.com/en/articles/3739465-india-did-requirements) | N/A | N/A | N/A |
+| Indonesia | [Please see requirements here.](https://support.telnyx.com/en/articles/5466641-indonesia-did-requirements) | N/A | N/A | 1, 4, 7, 13 | N/A | N/A |
+| Ireland | 1, 2, 5, 7, 10, 18 | 1, 2, 4, 7, 10, 18 | 1, 4, 7, 9, 10, 18 (f) | 1, 2, 4, 7, 10, 18 | N/A | N/A |
+| Israel | 1, 3, 7, 9, 18 | 1, 3, 7, 9, 18 | 1, 3, 10 | 1, 2, 3 | N/A | N/A |
+| Italy | [Please see requirements here.](https://support.telnyx.com/en/articles/1311462-italy-did-requirements) | N/A | N/A | [Please see requirements here.](https://support.telnyx.com/en/articles/1311462-italy-did-requirements) | N/A | N/A |
+| Iraq | 1, 4, 7, 9, (c, f, ah) | N/A | N/A | N/A | N/A | N/A |
+| Ivory Coast | 1, 3, (h, m) | N/A | N/A | N/A | N/A | N/A |
+| Jamaica | 3, (h) | N/A | N/A | 1, 3,(h) | N/A | N/A |
+| Japan | N/A | [Please see requirements here](https://support.telnyx.com/en/articles/15444978-japan-did-requirements) | N/A | N/A | N/A | N/A |
+| Jordan | 1, 2, 3 | N/A | N/A | (h) | N/A | N/A |
+| Kazakhstan | 1, 3, 7, (h) | N/A | N/A | N/A | N/A | N/A |
+| Kenya | 1, 3, 7, 18 (f) | N/A | 1, 3, 7 (f) | 1, 3, 7 (f) | N/A | N/A |
+| Kosovo | N/A | N/A | N/A | N/A | N/A | N/A |
+| Kuwait | 1, 9, 11, (b, c, f, g, h, o, u, ad, ah) | N/A | N/A | N/A | N/A | N/A |
+| Kyrgyzstan | 1, 3, 7, 9 | N/A | N/A | N/A | N/A | N/A |
+| Latvia | 1, 4, 7, 9, 13 (f, g, o) | N/A | 1, 3, 13, (h) | 1, 4 | N/A | N/A |
+| Lebanon | N/A | N/A | N/A | 1, 2, 3 | N/A | N/A |
+| Lithuania | 1, 4, 7, 9, 13, (g, m, o) | 1, 4, 7, 9, 13, (g, m, o) | 1, 2, 3 | 1, 4, 7, 9, (g) | N/A | N/A |
+| Luxembourg | 1, 4, 7, 9, 10, (f) | 1, 4, 14 | N/A | 1, 3, 17, (f) | N/A | N/A |
+| North Macedonia | 1, 4, 7, 9, 10, 13 (c, f, h) | N/A | N/A | 1, 2, 3 | N/A | N/A |
+| Madagascar | N/A | N/A | N/A | N/A | N/A | N/A |
+| Malaysia | 1, 4, 7, 13 (f) | 1, 4, 7, 9, 13 (c, f, h) | 1, 3, 7, 9, 13 (f, h) | 1, 4, 7 | N/A | N/A |
+| Malta | N/A | 1, 2, 4, 7, (af) | N/A | 1, 2, 4, 7, (af) | N/A | N/A |
+| Martinique | 1, 2, 3 | N/A | N/A | 1, 2, 3 | N/A | N/A |
+| Mauritius | N/A | N/A | N/A | 1, 2, 3 | N/A | N/A |
+| Mayotte | 1, 2, 3 | N/A | N/A | 1, 2, 3 | N/A | N/A |
+| Mexico | 1, 2, 3 | N/A | 1, 3 | 1, 2, 3 | N/A | N/A |
+| Moldova | N/A | N/A | N/A | 1, 3 | N/A | N/A |
+| Monaco | N/A | N/A | N/A | 1, 2, 3 | N/A | N/A |
+| Montenegro | 1, 4, 7, 9, 10, 13 (c, f, h) | N/A | N/A | N/A | N/A | N/A |
+| Morocco | 1, 2, 3 | N/A | N/A | 1, 2, 3 | N/A | N/A |
+| Mozambique | N/A | N/A | 1, 2, 3, 7 (h) | N/A | N/A | N/A |
+| Myanmar | 1, 3, 7, 9 (f, m) | N/A | N/A | 1, 3, 7, (f, m) | N/A | N/A |
+| Nepal | N/A | N/A | N/A | 1, 2, 3, 18 | N/A | N/A |
+| Netherlands | 1, 5, 7, 9, 13, (g) | 1, 4, (f) | 1, 3 | 1, 3, 9, 10, 18 (d, f) | N/A | N/A |
+| New Zealand | 1, 4 | N/A | N/A | 1, 2, 3 | N/A | N/A |
+| Nicaragua | N/A | N/A | 1, 2, 4, 7, 9 (h) | N/A | N/A | N/A |
+| Nigeria | N/A | 1, 3, 7, 18 (f, h) | N/A | 1, 3, 7 | N/A | N/A |
+| Norway | 1, 5, 7, 9, 10, 13, 25 (f, af, ag) | N/A | N/A | 1, 2, 4, 7, (c, i, af) | N/A | N/A |
+| Oman | N/A | N/A | N/A | 1, 4, 9, 13, 18, (d, f, g, h, u) | N/A | N/A |
+| Pakistan | 1, 3, 7, (h) | N/A | N/A | (h) | N/A | N/A |
+| Panama | 1, 2, 3 | N/A | N/A | 1, 3, 8, 13, (d, f) | N/A | N/A |
+| Papa New Guinea | N/A | N/A | N/A | 1, 3, 10 | N/A | N/A |
+| Paraguay | 1, 2, 3 | N/A | N/A | 1, 2, 3 (h) | N/A | N/A |
+| Peru | 1, 5, 7, 9, 13, (c, f, g) | N/A | N/A | 1, 4, 7, 9, 13, (c, f, g) | 1, 2, 3 | N/A |
+| Philippines | 1, 3, 7 | N/A | 1, 3, 7 | 1, 3, 7 | N/A | N/A |
+| Poland | 1, 5, 7, 9 or 13, 18, (d, g, af) | N/A | 1, 2, 3 | 1, 2, 4, 7, 16, (af) | N/A | N/A |
+| Portugal | 1, 6, 7, 9, 10, 25 (f, y, af, ag) | 1, 4 (f) | N/A | 1, 3 (f) | N/A | N/A |
+| Puerto Rico | Not required | N/A | N/A | Not required | N/A | N/A |
+| Qatar | N/A | 1, 4, 7, 9, (c, f, ah) | N/A | (h) | N/A | N/A |
+| Reunion | 1, 2, 3 | N/A | N/A | 1 | N/A | N/A |
+| Romania | 1, 4, 7, (m, af) | 1, 3 | N/A | 1, 4, 7, (m, af) | N/A | N/A |
+| Russia | N/A | N/A | 1, 3, 7, 9, 13 (f, h, ae) | N/A | N/A | N/A |
+| Rwanda | 1, 3, 7, 9 (f) | N/A | N/A | N/A | N/A | N/A |
+| Saint Barthélemy | 1, 2, 3 | N/A | N/A | N/A | N/A | N/A |
+| Saint Martin | 1, 2, 3 | N/A | N/A | N/A | N/A | N/A |
+| Serbia | 1, 4, 7, 9, 10, 13 (c, f, h, ai) | N/A | N/A | 1, 2, 3 | N/A | N/A |
+| Seychelles | 1, 3, (f, h) | N/A | N/A | N/A | N/A | N/A |
+| Singapore | 1, 4, 7, 9, 10, 13, 18, (d, g) | 1, 4, 7, 9, 13, (g) | N/A | 1, 3 | N/A | N/A |
+| Slovakia | 1, 5, 7, 9, 13, (g) | N/A | N/A | 1, 3, 9, 16, (f) | N/A | N/A |
+| Slovenia | 1, 5, 7, 13 (f) | 1, 5, 7, 13 (f) | N/A | 1, 2, 3 | N/A | N/A |
+| South Africa | 1, 5, 7, 9, 13, (e, g, m) | 1, 4, 7, 9, 13, (e, g) | 1, 2, 3, 7 | 1, 3, 7, 9, 13, (e, g, h) | N/A | N/A |
+| Spain | 1, 2, 5, 7, 16, (af) | 1, 2, 4, 7, (af) | N/A | 1, 2, 5, 7, 16, (af) | 1, 2, 5, 7, 16, (af) | N/A |
+| Sri Lanka | N/A | N/A | 18, (d, f, h, m) | 18, (d, h) | N/A | N/A |
+| Sudan | N/A | N/A | N/A | N/A | N/A | N/A |
+| Svalbard and Jan Mayen | N/A | N/A | N/A | N/A | N/A | N/A |
+| Sweden | 1, 6, 7, 9, 10, 13, 25 (f, ag) | 1, 4, 7, 9, 10, 13, 25 (f, af, ag) | 1, 2, 4, 7, (af) | 1, 4, 7, (af) | N/A | N/A |
+| Switzerland | 1, 5, 7, 9, 10, 13, 25 (f, af, ag) | N/A | N/A | 1, 3, 9, (f, j) | N/A | N/A |
+| Tanzania | N/A | N/A | N/A | 3, 7, 9, 13, (h, m, u) | N/A | N/A |
+| Thailand | 1, 3, 7, 9 (f) | 1, 3, 7, 9, 13, 18 (d, g) | 1, 3, 7, 9, 10, 13, 18 (f, h) | 1, 3, 7 (f) | N/A | N/A |
+| Trinidad And Tobago | (m, p) | N/A | N/A | (h) | N/A | N/A |
+| Tunisia | (m) | N/A | N/A | N/A | N/A | N/A |
+| Turks And Caicos Islands | N/A | N/A | N/A | (h) | N/A | N/A |
+| Uganda | 1, 3 | 1, 4, 7, 9, 13 | N/A | 1, 2, 3, 7, 10, (h) | N/A | N/A |
+| Ukraine | 1, 3, 7, 9, 13 (f, h, ae) | 1, 3, 7, 9, 13 (f, h, ae) | 1, 2, 3 | 1, 2, 3 | N/A | N/A |
+| United Kingdom | [Please see requirements here](https://support.telnyx.com/en/articles/1311457-united-kingdom-uk-did-requirements) | [Please see requirements here](https://support.telnyx.com/en/articles/1311457-united-kingdom-uk-did-requirements) | [Please see requirements here](https://support.telnyx.com/en/articles/1311457-united-kingdom-uk-did-requirements) | [Please see requirements here](https://support.telnyx.com/en/articles/1311457-united-kingdom-uk-did-requirements) | N/A | N/A |
+| United States | Not required | Not required | Not required | Not required | N/A | N/A |
+| Uruguay | N/A | N/A | N/A | 1, 3, 7, (h) | N/A | N/A |
+| Us Virgin Islands | Not required | N/A | N/A | Not required | N/A | N/A |
+| Uzbekistan | 1, 3, 7, h | N/A | N/A | N/A | N/A | N/A |
+| Vietnam | 1, 3, 9\*, 10, 13, (h) | N/A | N/A | 1, 3 | N/A | N/A |
+| Zambia | N/A | N/A | 1, 3, 4, 7, 10 (h) | N/A | N/A | N/A |
+| Zimbabwe | 1, 3 | N/A | N/A | N/A | N/A | N/A |
 
 **N/A** - We do not offer numbers/types right now.
 

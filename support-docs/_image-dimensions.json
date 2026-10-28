@@ -5838,5 +5838,21 @@
   "stir-shaken-create-hosted-certificate.png": {
     "height": 572,
     "width": 1946
+  },
+  "whatsapp-calling-manual-sip-server-example.png": {
+    "width": 815,
+    "height": 456
+  },
+  "whatsapp-calling-manual-sip-connection-settings.png": {
+    "width": 820,
+    "height": 454
+  },
+  "whatsapp-calling-manual-receive-sip-subdomain-calls.png": {
+    "width": 943,
+    "height": 253
+  },
+  "whatsapp-calling-manual-phone-number-call-settings.png": {
+    "width": 2025,
+    "height": 776
   }
 }

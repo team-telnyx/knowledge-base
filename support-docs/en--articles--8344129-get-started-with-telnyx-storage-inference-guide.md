@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/8344129-get-started-with-teln
 title: "Get Started with Telnyx Storage & Inference Guide"
 description: "This article provides you with a guide to setting up Telnyx Storage on your… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 9a48f7969299f49296b48a1f98f14cb29bfe4f49e5bf8fb3dc1627f5c6aad45e
+content_hash: 7476735e3cf499606d138598e61d29e11734d493628f90511598b58ff7f300d6
 ---
 
 
@@ -166,7 +166,7 @@ Setting **max tokens** allows to generate the maximum number of tokens for the c
 This was the response:
 
 ```
-D15 and D16 are error codes indicating different issues with call termination. D15 relates to the outbound voice profile used with the SIP Connection being inactive. If the outbound voice profile is not active, customers are advised to go to their outbound voice profile section and ensure the status of the profile is active, and if it is, refresh the status by toggling it off and back on again. On the other hand, D16 indicates that the SIP Connection used to place the termination call is inactive. In these cases, customers should go to their SIP Connections page and ensure the status of the SIP Connection is active, and refresh the status if needed by toggling it off and back on again(SOURCES: https://storage.telnyx.com/my-bucket-2/telnyx-sip-responses.pdf).
+D15 and D16 are error codes indicating different issues with call termination. D15 relates to the outbound voice profile used with the SIP Connection being inactive. If the outbound voice profile is not active, customers are advised to go to their outbound voice profile section and ensure the status of the profile is active, and if it is, refresh the status by toggling it off and back on again. On the other hand, D16 indicates that the SIP Connection used to place the termination call is inactive. In these cases, customers should go to their SIP Connections page and ensure the status of the SIP Connection is active, and refresh the status if needed by toggling it off and back on again(SOURCES: https://us-central-1.telnyxcloudstorage.com/my-bucket-2/telnyx-sip-responses.pdf).
 ```
 
 ## Why would I want to embed and infer on my objects in my buckets?

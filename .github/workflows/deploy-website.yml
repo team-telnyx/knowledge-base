@@ -11,11 +11,8 @@ on:
   push:
     branches:
       - main
-    paths:
-      - "website/**"
-      - "support-docs/**"
-      - ".github/workflows/deploy-website.yml"
-      - ".github/utils/setup-runner/**"
+    # Every main push reconciles production. A docs-only push may replace a
+    # pending deployment, so path-filtering here can strand an older release.
 
 # Serialize content upload, route writes, invalidation, verification and rollback.
 # Never cancel an in-flight release.
@@ -52,7 +49,15 @@ jobs:
 
       - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
         with:
+          # Resolve main only after acquiring the production concurrency lock.
+          # Event SHAs can arrive/run out of order.
+          ref: main
           fetch-depth: 0
+
+      - name: Record selected source revision
+        run: |
+          echo "RELEASE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+          echo "Selected main revision: $(git rev-parse HEAD)" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Setup runner
         uses: ./.github/utils/setup-runner
@@ -87,6 +92,10 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: python3 website/scripts/deployment/select-rollback.py
+
+      - name: Reject superseded build before production mutation
+        if: inputs.rollback_run_id == ''
+        run: python3 website/scripts/deployment/reconcile.py
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@e6de054238d6b7531b4efff3b6587d9aade6a06c # v6.2.3

@@ -1,9 +1,9 @@
 ---
 title: "Upcoming TLS Certificate Changes for Telnyx SIP Proxies"
-summary: "During the remainder of 2026, we’ll be updating the TLS certificates used by our primary SIP proxy servers."
+summary: "Schedule update — 27 October 2026   The TLS certificate migration dates and maintenance windows for the United States and Europe have changed. The revised dates are shown in bold in the Planned Schedule below, with the previous dates struck through."
 sources:
 - url: "https://support.telnyx.com/en/articles/15948276-upcoming-tls-certificate-changes-for-telnyx-sip-proxies"
-updated_at: 2026-09-15T00:00:00Z
+updated_at: 2026-10-27T10:02:49Z
 tags: [support-docs]
 source_path: "support-docs/15948276-upcoming-tls-certificate-changes-for-telnyx-sip-proxies.md"
 generated_by: incremental-support-docs-wiki
@@ -12,17 +12,22 @@ generated_by: incremental-support-docs-wiki
 
 # Upcoming TLS Certificate Changes for Telnyx SIP Proxies
 
+> **Schedule update — 27 October 2026**
+>
+> The TLS certificate migration dates and maintenance windows for the United States and Europe have changed. The revised dates are shown in bold in the Planned Schedule below, with the previous dates struck through.
+
 During the remainder of **2026**, we’ll be updating the TLS certificates used by our primary SIP proxy servers.
 
 ## **Planned Schedule**
 
-|  |  |
+| **Region / proxy** | **Planned migration** |
 | --- | --- |
-| **Region** | **Planned migration** |
 | Canada (sip.telnyx.ca) | September 4th 2026, 09:00 - 12:00 UTC |
 | Australia (sip.telnyx.com.au) | September 4th 2026, 09:00 - 12:00 UTC |
-| Europe (sip.telnyx.eu) | November 12th 2026, 17:00 - 19:00 UTC |
-| United States (sip.telnyx.com) | November 13th 2026, 09:00 - 12:00 UTC |
+| United States (sip.telnyx.com IP2 — 64.16.250.10) | ~~November 13th 2026, 09:00 - 12:00 UTC~~<br>**Monday, November 9th 2026, 09:00 - 12:00 UTC** |
+| United States (sip.telnyx.com IP1 — 192.76.120.10) | ~~November 13th 2026, 09:00 - 12:00 UTC~~<br>**Thursday, November 12th 2026, 09:00 - 12:00 UTC** |
+| Europe (sip.telnyx.eu IP2 — 185.246.41.141) | ~~November 12th 2026, 17:00 - 19:00 UTC~~<br>**Monday, November 16th 2026, 09:00 - 12:00 UTC** |
+| Europe (sip.telnyx.eu IP1 — 185.246.41.140) | ~~November 12th 2026, 17:00 - 19:00 UTC~~<br>**Thursday, November 19th 2026, 09:00 - 12:00 UTC** |
 
 This notification applies to customers using **SIP signaling** (including SIP Trunking and Programmable Voice SIP connections).
 

@@ -27,70 +27,46 @@ For full details on setting up Requirement Groups, please refer to the [guide he
 ## **Local Numbers in Portugal**
 
 For **business identity** verification:
-
-\* Name, last name of an authorized representative
-
-\* Contact phone number
-
-\* Contact e-mail
-
-\* Company Name
-
-\* NIF
-
-\* Local Business registration certificate
-
-\* Local Business Registration Number
+* Name, last name of an authorized representative
+* Contact phone number
+* Contact e-mail
+* Company Name
+* NIF
+* Local Business registration certificate
+* Local Business Registration Number
 
 For **address** verification:
+* Address matching the DID area code (street, building number, postal code, city, and country)
+* Proof of address (dated within 3 months)
 
-\* Address matching the DID area code (street, building number, postal code, city, and country)
-
-\* Proof of address (dated within 3 months)
-
-Additional details:
-
-\* Business use required: Business use is required, private use is not allowed.
+**Additional details:**
+* **Business use required**: Business use is required, private use is not allowed.
 
 ## **National Numbers in Portugal**
 
-For **personal identity** verification:
-
-\* Name, last name
-
-\* Contact phone number
-
 For **business identity** verification:
-
-\* Name, last name of an authorized representative
-
-\* Company name
-
-\* Contact phone number
+* Name, last name of an authorized representative
+* Contact phone number
+* Company name
 
 For **address** verification:
+* Address in Portugal (street, building number, postal code, city and country)
 
-\* Address in Portugal (street, building number, postal code, city and country)
+**Additional details:**
+* **Business use required**: Business use is required, private use is not allowed.
 
 ## **Toll-Free Numbers in Portugal**
 
-For **personal identity** verification:
-
-\* Name, last name
-
-\* Contact phone number
-
 For **business identity** verification:
-
-\* Name, last name
-
-\* Contact phone number
-
-\* Company name
+* Name, last name
+* Contact phone number
+* Company name
 
 For **address** verification:
+* Address worldwide (street, building number, postal code, city and country)
 
-\* Address worldwide (street, building number, postal code, city and country)
+**Additional details:**
+* **Business use required**: Business use is required, private use is not allowed.
 
 ## **Identity Verification: What "Local" Means**
 
