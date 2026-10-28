@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-10-27T10:05:02Z
+updated_at: 2026-10-28T10:15:10Z
 ---
 
 # Telnyx Knowledge Base
@@ -2168,3 +2168,5 @@ updated_at: 2026-10-27T10:05:02Z
 - [Submit a Data Subject Request \(DSR\) to Telnyx](support-docs/articles/2026102201-submit-a-data-subject-request-to-telnyx.md) — A Data Subject Request (DSR) is a request to exercise your privacy rights over personal data that Telnyx processes — for example access, correction, deletion (erasure), or a request that your personal data not be disclosed or re-disclosed (sometimes called a…
 
 - [How graduated volume pricing works for phone numbers](support-docs/articles/2026102601-how-graduated-volume-pricing-works-for-phone-numbers.md) — Phone number pricing at Telnyx uses graduated volume tiers. Each tier has its own rate, and each tier's rate applies only to the numbers that fall inside that tier. Reaching a higher tier doesn't reprice all of your numbers at the lower rate.
+
+- [Configure blind transfer confirmation](support-docs/articles/2026102801-configure-blind-transfer-confirmation.md) — A blind transfer redirects a caller or callee to another destination without speaking to that destination first. Confirm blind transfer applies to transfers initiated using SIP REFER.

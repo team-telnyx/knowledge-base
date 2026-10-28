@@ -1,3 +1,15 @@
+---
+title: "Configure blind transfer confirmation"
+summary: "A blind transfer redirects a caller or callee to another destination without speaking to that destination first. Confirm blind transfer applies to transfers initiated using SIP REFER."
+sources:
+- url: "https://support.telnyx.com/en/articles/2026102801-configure-blind-transfer-confirmation"
+updated_at: 2026-10-28T00:00:00Z
+tags: [support-docs]
+source_path: "support-docs/en--articles--2026102801-configure-blind-transfer-confirmation.md"
+generated_by: incremental-support-docs-wiki
+---
+<!-- generated_from=support-docs/en--articles--2026102801-configure-blind-transfer-confirmation.md -->
+
 # Configure blind transfer confirmation
 
 A blind transfer redirects a caller or callee to another destination without speaking to that destination first. **Confirm blind transfer** applies to transfers initiated using SIP REFER. When enabled, Telnyx waits for the transfer attempt's outcome before reporting success or failure to your phone system through SIP NOTIFY.
@@ -14,7 +26,7 @@ You need access to edit the SIP connection used by your phone system through the
 4. Select the checkbox to enable confirmation, or clear it to disable confirmation.
 5. Save your changes, then reopen the connection to confirm that the checkbox still shows your selection.
 
-![Advanced settings showing the Confirm blind transfer checkbox unchecked](assets/confirm-blind-transfer-advanced-settings.png)
+![Advanced settings showing the Confirm blind transfer checkbox unchecked](_images/confirm-blind-transfer-advanced-settings.png)
 
 The screenshot shows the location of the setting with confirmation **disabled**.
 
