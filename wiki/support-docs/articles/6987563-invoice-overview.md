@@ -92,7 +92,7 @@ If you want to know what the difference cost code descriptions are, such as:
 
 You can find a csv list of cost codes and their descriptions attached at the end of this article.
 
-If you have any queries or concerns regarding your invoice and any charges you receive, please reach out to [billing@telnyx.com](mailto:billing@telnyx.com) for assistance.
+If you have any queries or concerns regarding your invoice and any charges you receive, please reach out to [support@telnyx.com](mailto:support@telnyx.com) for assistance.
 
 ---
 
