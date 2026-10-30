@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130639-what-is-your-refund-p
 title: "What is your refund policy?"
 description: "Here we explain our refund policy and how to request one if necessary. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: ae0ee80a6d384b5cd272f65e81f54f93680ce423b246a60281bc112aa9bf0901
+content_hash: d54357392f8719ac6f50c8e91393be4ec7a0c30bd556836d860868fe70984c9d
 ---
 
 
@@ -23,7 +23,7 @@ Here we explain our refund policy and how to request one if necessary. See Telny
 
 Telnyx does not offer refunds for payments made using Bitcoin (BTC). Additionally, Telnyx is unable to refund payments that are 180 or more days old, regardless of the payment method used.
 
-Any funds left in your account that do not match the above criteria can be refunded. Simply send a request to [billing@telnyx.com](mailto:billing@telnyx.com) and we will be happy to take care of it.
+Any funds left in your account that do not match the above criteria can be refunded. Simply send a request to [support@telnyx.com](mailto:support@telnyx.com) and we will be happy to take care of it.
 
 ## Phone Number Purchases
 
