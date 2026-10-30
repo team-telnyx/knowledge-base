@@ -21,7 +21,7 @@ Here we explain our refund policy and how to request one if necessary. See Telny
 
 Telnyx does not offer refunds for payments made using Bitcoin (BTC). Additionally, Telnyx is unable to refund payments that are 180 or more days old, regardless of the payment method used.
 
-Any funds left in your account that do not match the above criteria can be refunded. Simply send a request to [billing@telnyx.com](mailto:billing@telnyx.com) and we will be happy to take care of it.
+Any funds left in your account that do not match the above criteria can be refunded. Simply send a request to [support@telnyx.com](mailto:support@telnyx.com) and we will be happy to take care of it.
 
 ## Phone Number Purchases
 

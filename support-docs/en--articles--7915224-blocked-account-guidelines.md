@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/7915224-blocked-account-guide
 title: "Blocked Account Guidelines"
 description: "Guidelines on identifying, resolving, and preventing blocked Telnyx accounts for users. See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: f6c41adffc040cfd2ac93273b4b212e4b62c6048a54bc7c363503f6fb76451d5
+content_hash: 2dd1b895c2f568ee2ccb7b6c2136afebd98068d457869b099f3fd35701de0289
 ---
 
 
@@ -37,7 +37,7 @@ K
    Ultimately if the decision is made to permanently part ways we may grant temporary access to port your phone numbers away. We will waive the port out fee for blocked accounts. Please message [porting@telnyx.com](mailto:porting@telnyx.com).
 5. ## Requesting a refund:
 
-   If we have decided to keep the block permanently and you have any unused funds in your account then you may request a refund by emailing [billing@telnyx.com](mailto:billing@telnyx.com).
+   If we have decided to keep the block permanently and you have any unused funds in your account then you may request a refund by emailing [support@telnyx.com](mailto:support@telnyx.com).
 6. ## Feedback and Suggestions:
 
    If you have any feedback or suggestions regarding the block review process or how blocking is implemented, you can send your thoughts to [community@telnyx.com](mailto:community@telnyx.com) with the subject line of “Feedback: [YOUR\_TELNYX\_ACCOUNT\_EMAIL] [YOUR\_TELNYX\_CHAT/TICKET\_ID] Blocked Account. In the body of your email please list your feedback on what and how the process can be improved. This is not a channel to appeal your account status and you may not receive any response. We value your input and strive to continually improve our services so we’d be happy to hear from you.
