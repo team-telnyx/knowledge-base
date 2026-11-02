@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/6987563-invoice-overview
 title: "Invoice Overview"
 description: "This article details the account invoices available for download on the Mission Control… See Telnyx guidance and requirements."
 scraped: 2026-07-08
-content_hash: 45c4f9237afbf23d39ba01f2f5dae1d49c64a694baf8c887b1bd4e97c5ed9dc6
+content_hash: a926da605a3d7d798c79f3527e50a619d87d51b337cc070473b1b1c296c1e07a
 ---
 
 
@@ -94,7 +94,7 @@ If you want to know what the difference cost code descriptions are, such as:
 
 You can find a csv list of cost codes and their descriptions attached at the end of this article.
 
-If you have any queries or concerns regarding your invoice and any charges you receive, please reach out to [billing@telnyx.com](mailto:billing@telnyx.com) for assistance.
+If you have any queries or concerns regarding your invoice and any charges you receive, please reach out to [support@telnyx.com](mailto:support@telnyx.com) for assistance.
 
 ---
 

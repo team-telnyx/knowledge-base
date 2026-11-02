@@ -23,7 +23,7 @@ You can find country-specific information in our [International DID Requirements
 
 |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- |
-| **Country** | **Local** | **National** | **Mobile** | **Toll-free** | **Shared-Cost** | **Multi-purpose** |
+| **Country** | **Local** | **National** | **Mobile** | **Toll-free** | **Shared-Cost** | **Multi-purpose/Commercial** |
 | Albania | 1, 3, 9, 13 | N/A | N/A | 1, 3, 9, 13 | N/A | N/A |
 | Algeria | N/A | 1, 10, (g, o) | N/A | N/A | N/A | N/A |
 | Angola | 1, 2, 3 | N/A | N/A | N/A | N/A | N/A |
@@ -148,7 +148,7 @@ You can find country-specific information in our [International DID Requirements
 | Slovakia | 1, 5, 7, 9, 13, (g) | N/A | N/A | 1, 3, 9, 16, (f) | N/A | N/A |
 | Slovenia | 1, 5, 7, 13 (f) | 1, 5, 7, 13 (f) | N/A | 1, 2, 3 | N/A | N/A |
 | South Africa | 1, 5, 7, 9, 13, (e, g, m) | 1, 4, 7, 9, 13, (e, g) | 1, 2, 3, 7 | 1, 3, 7, 9, 13, (e, g, h) | N/A | N/A |
-| Spain | 1, 2, 5, 7, 16, (af) | 1, 2, 4, 7, (af) | N/A | 1, 2, 5, 7, 16, (af) | 1, 2, 5, 7, 16, (af) | N/A |
+| Spain | 1, 2, 5, 7, 16, (af) | 1, 2, 4, 7, (af) | N/A | 1, 2, 5, 7, 16, (af) | 1, 2, 5, 7, 16, (af) | 1, 5, 7, 9, 16 (c, f, af) |
 | Sri Lanka | N/A | N/A | 18, (d, f, h, m) | 18, (d, h) | N/A | N/A |
 | Sudan | N/A | N/A | N/A | N/A | N/A | N/A |
 | Svalbard and Jan Mayen | N/A | N/A | N/A | N/A | N/A | N/A |

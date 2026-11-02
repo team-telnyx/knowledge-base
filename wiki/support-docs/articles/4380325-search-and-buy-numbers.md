@@ -133,6 +133,8 @@ On the right, you'll see your **Order Summary** with the order total and the but
 
 Orders are **final,** and we do not provide refunds if you purchased a number by mistake. Please make sure to review the order summary completely before proceeding.
 
+**Important: Non-Refundable Charges.** By purchasing phone numbers, you acknowledge that activation fees and prorated charges will apply immediately upon purchase. These charges are non-refundable, including if the numbers are subsequently released or canceled.
+
 ![](_images/54aa0ca03a20e924.png)
 
 We recommend only ordering up to **50 numbers** at a time through the cart. Orders over this amount may result in purchase failures (which you are not charged for) or Connections/Messaging Profiles not being assigned correctly. We're continuously working on improving the scale of our ordering and assignment system. If you'd like to bulk order more than 50 phone numbers, please contact our sales team.
