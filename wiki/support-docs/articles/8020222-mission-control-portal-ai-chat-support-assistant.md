@@ -208,6 +208,15 @@ Results come in pages of up to 100 tasks (`pageSize`, then `pageToken` from the 
 
 A2A 0.3 has no list method.
 
+## Asking without an API key
+
+Agents that don't have a Telnyx account, or don't need account data, can use the public Telnyx Assistant. It needs no API key and answers questions about Telnyx products and documentation, list prices, number coverage by country, platform status, and existing feature requests. It never sees account data and ignores any API key sent to it.
+
+- Endpoint: `https://api.telnyx.com/v2/support_agent/public/a2a`
+- Agent card: `https://telnyx.com/.well-known/agent-card.json`
+
+It works the same way as the Assistant above, with two differences: start each conversation without a `contextId` and reuse the one the first reply gives you, and it can't list tasks.
+
 ## Why use A2A?
 
 A2A support is designed for customers building AI agents that interact with Telnyx products and APIs. Instead of requiring a person to manually open Mission Control Portal whenever an automated system encounters an issue, the customer’s agent can query the Telnyx AI Assistant directly.
