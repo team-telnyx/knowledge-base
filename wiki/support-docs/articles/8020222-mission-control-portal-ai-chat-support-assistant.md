@@ -128,15 +128,94 @@ Customer agents can send requests to the following endpoint:
 
 Requests must:
 
-- Use the JSON-RPC 2.0 format.
-- Be authenticated using a valid Telnyx API key.
+- Use the JSON-RPC 2.0 format. The same endpoint accepts A2A 1.0 and A2A 0.3. A2A 1.0 callers send the `A2A-Version: 1.0` header, which an A2A SDK does for you.
+- Be authenticated using a valid Telnyx API key, sent as a bearer token: `Authorization: Bearer YOUR_TELNYX_API_KEY`. You can create a key under [API Keys](https://portal.telnyx.com/#/api-keys) in Mission Control Portal.
 - Include sufficient context for the Assistant to understand the product, resource, or issue being investigated.
 
 Agents can also discover the Assistant’s available capabilities through its publicly accessible agent card:
 
 `https://api.telnyx.com/v2/support_agent/support/a2a/.well-known/agent-card.json`
 
-The agent card does not require authentication and describes the skills and functionality currently supported by the Telnyx AI Assistant.
+The agent card does not require authentication and describes the skills and functionality currently supported by the Telnyx AI Assistant. Its `version` field changes when those capabilities change, so an agent can re-read the card from time to time to notice new skills.
+
+For the full integration guide, including request and response examples for both protocol versions, see [How to use the Telnyx Support Agent](https://telnyx.com/support-agent/runbooks/how-to-use-support-agent.md).
+
+## How an A2A request works
+
+The answer does not come back in the reply to your request, because an account investigation can take several minutes. Instead:
+
+1. Your agent sends its question (`message/send` on A2A 0.3, `SendMessage` on A2A 1.0) and gets back a task with an ID.
+2. Your agent checks the task (`tasks/get` on A2A 0.3, `GetTask` on A2A 1.0) about every 2 seconds until it finishes.
+3. The answer is in the finished task’s status message, at `status.message`.
+
+An example question on A2A 0.3:
+
+```json
+{
+  "jsonrpc": "2.0",
+  "id": "1",
+  "method": "message/send",
+  "params": {
+    "message": {
+      "role": "user",
+      "messageId": "b6f1e0c8-7a34-4d92-8c51-1f0a9d3e7b45",
+      "parts": [
+        {
+          "kind": "text",
+          "text": "Why was TCR campaign C1A2B3C declined, and what do I need to change before resubmitting?"
+        }
+      ]
+    },
+    "configuration": {
+      "blocking": false
+    }
+  }
+}
+```
+
+`"blocking": false` returns the task straight away instead of holding the connection open until the answer is ready. On A2A 1.0 the same setting is `"returnImmediately": true`.
+
+If your agent already has a task ID, it should keep checking that task rather than send the question again, because sending it again starts a second investigation. If a send failed before your agent got a task ID, resend it with the same `messageId`. The Assistant then points it to the original task instead of starting new work.
+
+## Following up in the same conversation
+
+The first reply includes a `contextId`. Send it on every follow-up message in the same conversation, with a new `messageId` each time. The Assistant then sees the earlier messages, and a support ticket opened from the conversation covers all of it.
+
+Without the `contextId`, each message starts a new conversation, so a follow-up such as “it is still failing” has nothing to refer to.
+
+Keep one issue per conversation. A new message in a conversation cancels a question in that conversation that is still being worked on, so send separate issues in separate conversations.
+
+## Listing your tasks (A2A 1.0)
+
+On A2A 1.0, your agent can list its tasks instead of keeping every task ID. The list covers every task your Telnyx organization has created, across all of its API keys, so tasks sent with a teammate’s key appear too. Other organizations’ tasks never appear.
+
+Tasks are listed newest first. You can narrow the list to:
+
+- one conversation (`contextId`);
+- one state, such as `TASK_STATE_COMPLETED` (`status`);
+- tasks updated at or after a given time (`statusTimestampAfter`).
+
+Results come in pages of up to 100 tasks (`pageSize`, then `pageToken` from the previous page). For example, with the `A2A-Version: 1.0` header:
+
+```json
+{
+  "jsonrpc": "2.0",
+  "id": "list-1",
+  "method": "ListTasks",
+  "params": { "pageSize": 20, "statusTimestampAfter": "2026-11-02T09:00:00Z" }
+}
+```
+
+A2A 0.3 has no list method.
+
+## Asking without an API key
+
+Agents that don't have a Telnyx account, or don't need account data, can use the public Telnyx Assistant. It needs no API key and answers questions about Telnyx products and documentation, list prices, number coverage by country, platform status, and existing feature requests. It never sees account data and ignores any API key sent to it.
+
+- Endpoint: `https://api.telnyx.com/v2/support_agent/public/a2a`
+- Agent card: `https://telnyx.com/.well-known/agent-card.json`
+
+It works the same way as the Assistant above, with two differences: start each conversation without a `contextId` and reuse the one the first reply gives you, and it can't list tasks.
 
 ## Why use A2A?
 
@@ -144,10 +223,11 @@ A2A support is designed for customers building AI agents that interact with Teln
 
 For example, an agent could:
 
-- Ask how to configure a Telnyx product or API.
-- Request relevant documentation for an implementation.
-- Investigate why an account resource is not behaving as expected.
-- Gather troubleshooting guidance before requesting human review through a support ticket.
+- Ask how to configure a Telnyx product or API, and get the relevant documentation and code snippets back.
+- Send the call ID of a failed call and get the likely root cause and next steps.
+- Ask why a 10DLC campaign was declined, fix the opt-in page, then ask in the same conversation what else to check before resubmitting.
+- Each morning, list the tasks updated since the day before to review the answers, or to resend any that failed (A2A 1.0).
+- Ask the Assistant to open a support ticket when the issue needs a change only Telnyx can make.
 
 This helps AI agents operate more independently while still giving customers a path to human assistance through support tickets when an issue requires further investigation.
 
