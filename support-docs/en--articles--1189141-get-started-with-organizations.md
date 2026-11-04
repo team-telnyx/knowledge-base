@@ -49,6 +49,8 @@ How can I add users to my account?
 
 Invitations are sent to invite people to join an organization**.** A user, that you want to send an invite to join your organization, must not be signed up with Telnyx already in order for them to be invited. Once the user accepts, they become a sub-member of your organisation.
 
+To invite someone who already has a Telnyx account, use [Workspaces](https://support.telnyx.com/en/articles/16762076-workspaces): they accept the invitation from their existing login and can switch between your organization and their own.
+
 ##
 
 ![](_images/4d130ca03fef62aa.png)
@@ -237,9 +239,13 @@ As for configurations, this is not possible. Once you have the port in requests 
 
 Note that if you have a SIP Connection on Account X and want to transfer it to Account Y, SIP Connections need to be unique in nature, so you will either need to setup expert authentication methods on the new SIP Connection on Account Y (so it's considered unique in our system) or remove the SIP Connection from Account X in order to be able to recreate it on Account Y.
 
-## How can I invite a member which is an existing telnyx user?
+## How can I invite a member who is an existing Telnyx user?
 
-Unfortunately you are unable to invite a member who already has an existing Telnyx account. The member would need to reach out to [support@telnyx.com](mailto:support@telnyx.com) and request that their account be cancelled and email freed up so you, as the organisation owner, can add them into your organisation.
+You can invite an existing Telnyx user as a workspace member with [Workspaces](https://support.telnyx.com/en/articles/16762076-workspaces). They keep their own account and use the workspace switcher in the Mission Control Portal to work in your organization. Their own account, billing, and resources stay separate from yours.
+
+Only primary accounts can accept workspace invitations. Legacy sub-users must first migrate to Workspaces, and manager accounts and managed accounts can't accept them.
+
+Legacy sub-member invitations still require an email address that isn't registered with Telnyx.
 
 ​
 

@@ -114,8 +114,8 @@ If your goal is to have **two environments (like production and staging)** for *
 
 Unfortunately:
 
-* A single Telnyx account **cannot belong to more than one organization**.
 * You **cannot split one organization** into multiple environments internally.
+* Each environment needs its own organization, with its own billing, resources, and API keys.
 
 Instead, the current workaround is:
 
@@ -125,6 +125,8 @@ Instead, the current workaround is:
   + One for staging or development
 * Each account will have a distinct organization, set of resources, and API keys.
 * This allows for full separation of environments, but **you must manage each login and billing independently**.
+
+**Tip:** With [Workspaces](https://support.telnyx.com/en/articles/16762076-workspaces), one person can access multiple organizations from a single login and switch between them in the Mission Control Portal. Workspaces isn't available for manager accounts or managed accounts.
 
 ---
 

@@ -537,6 +537,13 @@
         "id": "summary",
         "reason": "Preserve section links from the previously published article"
       }
+    ],
+    "1189141": [
+      {
+        "text": "How can I invite a member who is an existing Telnyx user?",
+        "id": "h_6210d2df91",
+        "reason": "Preserve existing section link after heading grammar fix"
+      }
     ]
   }
 }
