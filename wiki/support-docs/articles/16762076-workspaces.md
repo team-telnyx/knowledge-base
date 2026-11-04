@@ -66,6 +66,8 @@ To decline an invitation, click the **Take action** button in the email and sele
 
 > **Note:** You can only accept invitations addressed to the email associated with your Telnyx account. If you have multiple accounts, make sure you're signed in with the correct one.
 
+> **Note:** Only primary accounts can accept workspace invitations. Manager accounts and managed accounts can't join other organizations as workspace members, and legacy sub-users need to migrate first (see below).
+
 ## Migrating a legacy sub-user
 
 If you're currently a sub-user in an organization (not a primary account owner), you can migrate your account to the Workspaces model. Migration creates a primary account with your real email and converts your existing sub-user record into a workspace tenant.

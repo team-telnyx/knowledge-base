@@ -243,6 +243,8 @@ Note that if you have a SIP Connection on Account X and want to transfer it to A
 
 You can invite an existing Telnyx user as a workspace member with [Workspaces](https://support.telnyx.com/en/articles/16762076-workspaces). They keep their own account and use the workspace switcher in the Mission Control Portal to work in your organization. Their own account, billing, and resources stay separate from yours.
 
+Only primary accounts can accept workspace invitations. Legacy sub-users must first migrate to Workspaces, and manager accounts and managed accounts can't accept them.
+
 Legacy sub-member invitations still require an email address that isn't registered with Telnyx.
 
 ​
