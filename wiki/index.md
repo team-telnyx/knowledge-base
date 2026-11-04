@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-10-28T15:40:00Z
+updated_at: 2026-11-04T16:52:11Z
 ---
 
 # Telnyx Knowledge Base
@@ -2170,3 +2170,5 @@ updated_at: 2026-10-28T15:40:00Z
 - [How graduated volume pricing works for phone numbers](support-docs/articles/2026102601-how-graduated-volume-pricing-works-for-phone-numbers.md) — Phone number pricing at Telnyx uses graduated volume tiers. Each tier has its own rate, and each tier's rate applies only to the numbers that fall inside that tier. Reaching a higher tier doesn't reprice all of your numbers at the lower rate.
 
 - [Configure blind transfer confirmation](support-docs/articles/2026102801-configure-blind-transfer-confirmation.md) — A blind transfer redirects a caller or callee to another destination without speaking to that destination first. Confirm blind transfer applies to transfers initiated using SIP REFER.
+
+- [Choose caller ID for SIP call transfers](support-docs/articles/2026110401-choose-caller-id-for-sip-call-transfers.md) — Caller ID for Transfer Target controls which party’s phone number Telnyx sends to the destination when your phone system transfers a call using SIP REFER. Choose the person being transferred, or the person making the transfer.

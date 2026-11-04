@@ -5866,5 +5866,13 @@
   "whatsapp-calling-manual-phone-number-call-settings.png": {
     "width": 2025,
     "height": 776
+  },
+  "sip-transfer-caller-id-configuration.jpg": {
+    "height": 710,
+    "width": 1262
+  },
+  "sip-transfer-caller-id-options.jpg": {
+    "height": 710,
+    "width": 1262
   }
 }
