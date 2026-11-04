@@ -40,13 +40,13 @@ updated_at: 2026-06-11T11:45:24Z
 
 *Part 1 of 3 — see also: [Part 2](telnyx-platform-overview--part-2.md), [Part 3](telnyx-platform-overview--part-3.md)*
 
-Telnyx is a Communications Platform as a Service (CPaaS) provider founded in 2009 and based in Austin, Texas, offering voice, messaging, networking, AI inference, storage, and workflow automation through a globally distributed private IP network and robust APIs.
+Telnyx is a Communications Platform as a Service (CPaaS) provider founded in 2009 and based in Austin, Texas, offering voice, messaging, networking, AI inference, storage, and API-based workflow automation through a globally distributed private IP network and robust APIs.
 
 ## Company Overview
 
 Telnyx was founded in 2009 and is headquartered at 600 Congress Avenue, 14th Floor, Austin, TX 78701, with additional offices in Denver, Dublin, and Amsterdam, plus remote employees worldwide. As a cutting-edge CPaaS provider, Telnyx enables businesses to integrate real-time communication services—voice, messaging, and connectivity—into their applications and workflows via robust APIs.
 
-Telnyx distinguishes itself through its privately-owned, fully-meshed IP network, which delivers reduced latency, enhanced reliability, and industry-leading quality by not relying on third-party carriers for routing. The platform supports VoIP, SMS, MMS, video, SIP trunking, and network-related offerings, and has expanded to include AI-powered Inference, cloud Storage, and the Flow workflow automation tool.
+Telnyx distinguishes itself through its privately-owned, fully-meshed IP network, which delivers reduced latency, enhanced reliability, and industry-leading quality by not relying on third-party carriers for routing. The platform supports VoIP, SMS, MMS, video, SIP trunking, and network-related offerings, and has expanded to include AI-powered Inference, cloud Storage, and the Flow workflow automation tool (which sunset on July 3, 2026 — see [Flow Workflow Automation (Deprecated)](#flow-workflow-automation-deprecated) below).
 
 ## Core Products and Services
 
@@ -74,9 +74,9 @@ Telnyx Inference adds machine learning capabilities to communication workflows, 
 
 Telnyx Storage provides secure cloud-based media storage for call recordings, voicemails, video, and message attachments. It integrates tightly with communication services, supports compliance (GDPR, HIPAA), offers accessible APIs, and encrypts all stored media.
 
-### Flow Workflow Automation
+### Flow Workflow Automation (Deprecated)
 
-Telnyx Flow is a visual drag-and-drop builder for automated communication workflows, supporting multi-channel (voice, SMS, MMS, email), API integration, event-driven triggers, and custom notifications—without requiring extensive coding.
+Telnyx Flow sunset on **July 3, 2026**: workflows in Flow stop executing, inbound webhook events are no longer delivered to Flow, and Voice and Messaging applications pointing to Flow stop receiving inbound traffic. Build automated workflows directly with the Telnyx APIs, use the AI Assistants article, or use **n8n** as a visual workflow alternative.
 
 ## Global Network and Infrastructure
 

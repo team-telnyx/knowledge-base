@@ -3,7 +3,7 @@ source_url: https://support.telnyx.com/en/articles/1130637-what-is-telnyx
 title: "What is Telnyx?"
 description: "Wondering exactly what Telnyx is? See Telnyx guidance and requirements Learn more about What is Telnyx? with Telnyx."
 scraped: 2026-07-08
-content_hash: 69216bcd453a34ed042623a346d53cf2eda0c14744006651a1ac14a5293ae762
+content_hash: 1cb5adbdcf6ff1125a0b69b91df361d5fae8dff90fa0edfafdec16025bf633df
 ---
 
 
@@ -25,7 +25,7 @@ Telnyx is a cutting-edge Communications Platform as a Service (CPaaS) provider, 
 
 Telnyx distinguishes itself with its privately-owned IP network, delivering industry-leading quality, reduced latency, and enhanced reliability, as well as offering comprehensive security and flexibility for global communications.
 
-Beyond traditional CPaaS offerings like VoIP, SMS, and SIP trunking, Telnyx has expanded its product suite to include **AI-powered Inference**, **Storage** services, and a workflow automation tool called **Flow**. These enhancements open up new opportunities for businesses to optimise their communication operations and data handling in more innovative ways.
+Beyond traditional CPaaS offerings like VoIP, SMS, and SIP trunking, Telnyx has expanded its product suite to include **AI-powered Inference** and **Storage** services (its prior workflow automation tool, **Flow**, was sunset on July 3, 2026 — see [section 11](#11-telnyx-flow-deprecated) below). These enhancements open up new opportunities for businesses to optimise their communication operations and data handling in more innovative ways.
 
 ---
 
@@ -119,19 +119,15 @@ Telnyx **Storage** provides businesses with the ability to store and manage medi
 
 ---
 
-## **11. Telnyx Flow (Automated Communication Workflows)**
+## **11. Telnyx Flow (Deprecated)**
 
-**Telnyx Flow** is a visual builder that allows businesses to create automated workflows for their communication systems without the need for extensive coding. Flow integrates Telnyx services such as voice, messaging, and API calls into intuitive drag-and-drop workflows, enabling businesses to design complex communication processes such as IVR systems, messaging campaigns, or alert notifications.
+Telnyx Flow sunset on **July 3, 2026**. The visual workflow builder it provided is no longer available as a current product offering.
 
-**Key Features of Telnyx Flow:**
+**Migration options:**
 
-* **Drag-and-drop interface**: Create workflows visually without needing to write code.
-* **Multi-channel support**: Incorporate voice, SMS, MMS, email, and more into automated workflows.
-* **API integration**: Easily connect third-party systems and services to enhance communication automation.
-* **Event-driven triggers**: Automate responses based on predefined triggers such as inbound calls, messages, or other events.
-* **Custom notifications and alerts**: Build customized notification systems that handle customer interactions based on predefined logic.
-
-**Use Case Example**: An e-commerce business could use Flow to automate order confirmation messages via SMS, notify customers of shipping status through voice calls, and handle customer service requests via interactive voice responses (IVR), all without manual intervention.
+* Build automated workflows directly with **Telnyx APIs** — voice, messaging, and Chat Completions.
+* See the **AI Assistants article** for a faster, no-code route to automated conversational workflows.
+* Use **n8n** with the Telnyx AI node as a visual workflow alternative.
 
 ---
 
