@@ -16,7 +16,7 @@ In order to purchase a Denmark number you will need to provide the following:
 
 ## Mandatory Use of Requirement Groups: Denmark
 
-Starting **September 16, 2024**, **Requirement Groups** will be mandatory for ordering phone numbers in **Denmark (DK).**  
+Requirement Groups are required to order phone numbers in **Denmark (DK).**  
 ​
 
 Requirement Groups let you manage regulatory requirements by pre-filling necessary information once, allowing for reuse across multiple orders. This change aims to streamline compliance.  

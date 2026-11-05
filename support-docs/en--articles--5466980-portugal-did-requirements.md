@@ -16,7 +16,7 @@ In order to purchase a Portugal number you will need to provide the following:
 
 ## Mandatory Use of Requirement Groups: Portugal
 
-Starting **September 16, 2024**, **Requirement Groups** will be mandatory for ordering phone numbers in **Portugal (PT).**  
+Requirement Groups are required to order phone numbers in **Portugal (PT).**  
 ​
 
 Requirement Groups let you manage regulatory requirements by pre-filling necessary information once, allowing for reuse across multiple orders. This change aims to streamline compliance.  
