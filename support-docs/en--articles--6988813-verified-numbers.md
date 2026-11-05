@@ -21,11 +21,11 @@ Discover the benefits of verifying your phone number on Telnyx, ensuring the CLI
 
 ## **Introduction**
 
-Verified Numbers are phone numbers that have been confirmed to belong to the user and are authorized to display as the CLI on calls made through the Telnyx platform.
+Verified Numbers are phone numbers that have been confirmed to belong to the user and are authorized for use as the outbound caller ID (CLI) on calls made through the Telnyx platform.
 
 This verification process helps to ensure that the number being used as the CLI is accurate and belongs to the user, which can improve the caller's trustworthiness and professionalism.
 
-Verifying a phone number on Telnyx is a simple process that allows non-Telnyx numbers to display as the calling line identification (CLI) on calls made through the Telnyx platform.
+Verifying a phone number on Telnyx is a simple process that authorizes you to use a non-Telnyx number as your outbound caller ID (CLI) through Telnyx.
 
 This document provides a step-by-step guide to verifying a phone number on Telnyx.
 
@@ -39,13 +39,13 @@ Step-by-Step Guide:
    * If you choose SMS, a validation code will be sent to your non-Telnyx number via SMS.
    * If you choose Call, a voice call will be placed to your non-Telnyx number and an IVR will play the validation code twice.
 5. Enter the verification code and press the "Verify Number" button.
-6. Your number will now appear on the list of Verified Numbers and will be authorized to display as the CLI on calls made through the Telnyx platform.
+6. Your number will now appear on the list of Verified Numbers and will be authorized for use as your outbound caller ID (CLI) through Telnyx.
 
 ## Using a Non-Telnyx Number as the Caller ID for Outgoing Calls
 
 Using a phone number obtained from a different provider, not Telnyx, as the Caller ID for your outgoing calls is simple.
 
-A verified number is a phone number that has been confirmed to belong to the user and is authorized to display as the calling line identification (CLI) on calls made through the Telnyx platform.
+A verified number is a phone number that has been confirmed to belong to the user and is authorized for use as the outbound caller ID (CLI) on calls made through the Telnyx platform.
 
 This verification process helps to ensure that the number being used as the CLI is accurate and belongs to the user, which can improve the caller's trustworthiness and professionalism.
 
@@ -82,7 +82,9 @@ After entering the Verification Code, simply press the "Verify Number" button, a
 
 ![](_images/1a26a8a42dad7895.png)
 
-Once completed, your phone number will be verified and authorized to display as the calling line identification on calls made through the Telnyx platform.
+Once verification is complete, you are authorized to use the verified number as your outbound caller ID (CLI) through Telnyx.
+
+Verification does not guarantee CLI presentation. In some countries, including certain European destinations, presentation of verified third-party numbers is handled on a best-effort basis and remains subject to destination requirements and downstream carrier policies.
 
 **Verify Using DTMF (Press 1 to Verify)**
 
@@ -144,6 +146,8 @@ json
 For bulk verification examples and full details, see: [How to Verify Phone Numbers Using DTMF](https://support.telnyx.com/en/articles/13854980-beta-how-to-verify-phone-numbers-using-dtmf-press-1-to-verify)
 
 ## Notes
+
+Verification does not guarantee CLI presentation. In some countries, including certain European destinations, presentation of verified third-party numbers is handled on a best-effort basis and remains subject to destination requirements and downstream carrier policies.
 
 A call attempt using a non-Telnyx number that has not been verified will be rejected with a "**403 Unverified Caller Origination Number D51**" SIP error.
 
