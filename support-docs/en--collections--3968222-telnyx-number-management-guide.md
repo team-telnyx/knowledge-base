@@ -112,9 +112,6 @@ Here you will find a list of detailed requirements for acquiring Oman numbers.
 
 Here you will find a list of detailed requirements for acquiring Kazakhstan numbers.
 
-[Turkey DID Requirements](https://support.telnyx.com/en/articles/14489375-turkey-did-requirements)
-
-Here you will find a list of detailed requirements for acquiring Turkey numbers.
 
 [Guatemala DID Requirements](https://support.telnyx.com/en/articles/15397771-guatemala-did-requirements)
 
