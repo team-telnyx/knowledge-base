@@ -44,6 +44,37 @@ Below is a screenshot of an example call flow found using the Call Flow Tool.
 
 ![](_images/4082b4fbf4c2673c.png)
 
+### AI troubleshooting
+
+Use **AI troubleshooting** to help understand call failures, missing audio, dropped calls, and call-quality issues.
+
+1. Search for your call and select **Call Data Debugging**.
+2. Open a call with SIP messages visible in the **Flow** tab, then select **AI troubleshooting** beside the call flow.
+3. Wait for the response. Analysis may take a few minutes.
+4. Read the findings and recommended next steps. Drag the divider to widen the troubleshooting pane if needed.
+
+![AI troubleshooting button beside the SIP call flow](_images/taia-troubleshooting-entry.svg)
+
+*1. Start AI troubleshooting for the selected call.*
+
+![TAIA summary and call timeline alongside the SIP flow](_images/taia-troubleshooting-output.svg)
+
+*2. Read the summary and call timeline. Missing evidence can limit the answer; check uncertain conclusions against the call details.*
+
+#### Ask a follow-up question
+
+Enter a question below the response and select **Ask**. For example: “Which side ended the call?” or “What should I check next?” Press **Enter** to send or **Shift+Enter** to add a new line. Questions can contain up to 4,000 characters.
+
+![Follow-up question field below the TAIA response](_images/taia-troubleshooting-follow-up.svg)
+
+*3. Continue the conversation about the same call.*
+
+#### Return to your analysis
+
+You can close the call dialog or visit another portal page while the request runs. Reopen the same call to return to its conversation. Keep the portal tab open: refreshing or closing it clears the conversation. Signing out or switching accounts also clears it.
+
+If AI troubleshooting is not available on your account, continue using the call flow and session details.
+
 ## [Prog. Voice Call Flow Tool](https://portal.telnyx.com/#/debugging/call-control-texml-and-fax)
 
 The Programmatic Voice Call Flow Tool is much simpler, and can be used to view Call Control, TeXML or Fax API flows provided you can supply the Call Session ID of the call in question.
