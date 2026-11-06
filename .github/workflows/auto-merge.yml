@@ -211,7 +211,7 @@ jobs:
         if: steps.ci.outputs.proceed == 'true' && env.DRY_RUN != 'true'
         uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
         with:
-          app-id: ${{ vars.KB_AUTOMERGE_APP_ID }}
+          client-id: ${{ vars.KB_AUTOMERGE_CLIENT_ID }}
           private-key: ${{ secrets.KB_AUTOMERGE_APP_PRIVATE_KEY }}
           repositories: knowledge-base
 
@@ -231,6 +231,6 @@ jobs:
           fi
 
           SUMMARY="Auto-merged by the checklist gate: member PR, support-docs only, all checks green (head $HEAD_SHA)."
-          gh pr merge "$PR_NUMBER" --repo "$REPO" --squash --delete-branch --body "$SUMMARY"
+          gh pr merge "$PR_NUMBER" --repo "$REPO" --squash --delete-branch --admin --match-head-commit "$HEAD_SHA"--body "$SUMMARY"
           gh pr comment "$PR_NUMBER" --repo "$REPO" --body ":white_check_mark: $SUMMARY"
           echo "$SUMMARY"
