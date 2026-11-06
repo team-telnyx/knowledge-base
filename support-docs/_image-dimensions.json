@@ -5866,5 +5866,17 @@
   "whatsapp-calling-manual-phone-number-call-settings.png": {
     "width": 2025,
     "height": 776
+  },
+  "taia-troubleshooting-entry.svg": {
+    "height": 1000,
+    "width": 1600
+  },
+  "taia-troubleshooting-output.svg": {
+    "height": 1000,
+    "width": 1600
+  },
+  "taia-troubleshooting-follow-up.svg": {
+    "height": 1000,
+    "width": 1600
   }
 }
