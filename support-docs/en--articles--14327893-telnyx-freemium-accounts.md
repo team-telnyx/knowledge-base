@@ -1,7 +1,7 @@
 ---
 source_url: https://support.telnyx.com/en/articles/14327893-telnyx-pretrial-accounts
 title: "Telnyx Pretrial Accounts"
-description: "Learn how Telnyx Freemium accounts work, including the $25 AI credit, magic link sign-in, available products, See Telnyx guidance and requirements."
+description: "Learn how Telnyx Pretrial accounts work, including the $25 AI credit, magic link sign-in, available products, See Telnyx guidance and requirements."
 scraped: 2026-09-28
 content_hash: c9bee85634a68f7205e22d5a9536886933cd88a9f722fe404240297ecc59506d
 updated_at: 2026-08-04T19:04:02Z
