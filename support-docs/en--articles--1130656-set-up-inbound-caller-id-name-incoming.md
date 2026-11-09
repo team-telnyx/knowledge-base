@@ -1,37 +1,33 @@
 ---
 source_url: https://support.telnyx.com/en/articles/1130656-set-up-inbound-caller-id-name-incoming
 title: "Set up Inbound Caller ID Name (incoming)"
-description: "In this article we will walk you through setting up caller ID name for your numbers. See Telnyx guidance and requirements."
+description: "Set up inbound caller name lookup in Mission Control. Compare Off, Standard, and Enhanced and switch tiers for individual phone numbers."
 scraped: 2026-07-08
 content_hash: 2e2b816c26c893969b8795fec6e0eb0bc32efb9393270abf34cf82ffa1c465e5
 ---
 
-
-
-
-
-
-
 # Set up Inbound Caller ID Name (incoming)
 
-In this article we will walk you through setting up caller ID name for your numbers. See Telnyx guidance and requirements.
+Inbound caller name lookup uses the caller’s number to look up their name on incoming calls anchored in the US or Canada. When Telnyx finds a name, it includes it in the SIP INVITE to your connection. Outbound CNAM Listing is a separate setting for the name associated with your own number.
 
+## Guide to Configuring Inbound Caller ID Name
 
+1. Open [My Numbers](https://portal.telnyx.com/#/numbers/my-numbers) in Mission Control and edit the number you want to configure.
+2. Open the **Voice** tab and find **Inbound caller name lookup** under **Services**.
+3. Choose a lookup option.
 
+   ![Inbound caller name lookup menu showing Off, Standard, and Enhanced at $1.50 per month.](_images/1130656-inbound-cnam-options.png)
 
-This feature is located on the Real-Time Communications column in your [numbers section](https://portal.telnyx.com/#/app/numbers/my-numbers) of your Mission Control Portal account.
-​
-Enabling this feature on your DID will allow for Telnyx to DIP the CNAM databases, to determine if there is a name associated with the callers number on your inbound calls. If there is, we'll pass this along in our SIP INVITES to your connection.
-​
+   | Option | Lookup and monthly charge |
+   | --- | --- |
+   | **Off** | Disables lookup. No inbound CNAM monthly charge. |
+   | **Standard** | Uses standard caller name lookup at your existing rate. |
+   | **Enhanced** | Uses enhanced caller name lookup for $1.50 per month per enabled number. This replaces the Standard monthly charge. |
 
-## **Guide to Configuring Inbound Caller ID Name**
+4. Select **Save Changes**. To switch tiers or turn lookup off later, return to the same setting, select the option you want, and save.
 
-1. On the number you want to enable inbound CNAM, click on the business card icon.
+   ![Inbound caller name lookup with Enhanced selected and the monthly price displayed.](_images/1130656-inbound-cnam-enhanced.png)
 
-![](_images/855d4a661907cb0b.png)
+If your account still shows **Enable CNAM Caller ID lookup**, use that checkbox to turn Standard lookup on or off.
 
-2. Visit the section with **CNAM Caller ID Lookup** and toggle the option to enable the setting.
-
-![](_images/d62ca55dca4decc4.png)
-
-3. Accept the MRC (Monthly Recurring Charge) for this feature and click save changes at the bottom.
+For API configuration, see [Update a phone number with voice settings](https://developers.telnyx.com/api-reference/phone-number-configurations/update-a-phone-number-with-voice-settings).
