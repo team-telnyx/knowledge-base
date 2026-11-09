@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-10-28T15:40:00Z
+updated_at: 2026-11-09T17:08:47Z
 ---
 
 # Telnyx Knowledge Base
@@ -541,7 +541,7 @@ updated_at: 2026-10-28T15:40:00Z
 
 - [Can I resell your services?](support-docs/articles/1130655-can-i-resell-your-services.md) — Are you a reseller considering Telnyx? See Telnyx guidance and requirements Learn more about Can I resell your services? with Telnyx.
 
-- [Set up Inbound Caller ID Name \(incoming\)](support-docs/articles/1130656-set-up-inbound-caller-id-name-incoming.md) — In this article we will walk you through setting up caller ID name for your numbers. See Telnyx guidance and requirements.
+- [Set up Inbound Caller ID Name \(incoming\)](support-docs/articles/1130656-set-up-inbound-caller-id-name-incoming.md) — Inbound caller name lookup can add a caller’s name to calls you receive on a Telnyx number. The setting applies to eligible calls anchored in the US or Canada. Use Outbound CNAM Listing to manage the name associated with your own number on outgoing calls.
 
 - [Call Forwarding](support-docs/articles/1130657-call-forwarding.md) — In this article we will walk you through enabling call forwarding on your Telnyx account. See Telnyx guidance and requirements.
 
