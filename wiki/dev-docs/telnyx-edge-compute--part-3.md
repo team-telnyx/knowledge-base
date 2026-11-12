@@ -20,7 +20,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/runtime/index
 - url: https://developers.telnyx.com/docs/edge-compute/sqldb/index
 - url: https://developers.telnyx.com/docs/edge-compute/testing/index
-updated_at: 2026-06-11T10:27:59Z
+updated_at: 2026-11-12T18:08:07Z
 ---
 
 # Telnyx Edge Compute
@@ -37,6 +37,7 @@ The `telnyx-edge` CLI is the primary tool for deploying and managing Edge Comput
 
 | Command | Description |
 |---|---|
+| `telnyx-edge auth` | Authenticate the CLI and manage stored credentials |
 | `telnyx-edge auth login` | OAuth browser login |
 | `telnyx-edge auth api-key set KEY` | Set API key directly |
 | `telnyx-edge auth api-key clear` | Clear stored API key |
@@ -47,11 +48,17 @@ The `telnyx-edge` CLI is the primary tool for deploying and managing Edge Comput
 
 | Command | Description |
 |---|---|
-| `telnyx-edge new-func -l=LANG -n=NAME` | Create a new function |
-| `telnyx-edge ship` | Deploy from current directory |
+| `telnyx-edge new-func -l=LANG -n=NAME` | Scaffold a new function |
+| `telnyx-edge ship` | Build and deploy a function |
 | `telnyx-edge ship --from-dir=DIR` | Deploy from a specific directory |
-| `telnyx-edge delete-func NAME` | Permanently delete a function |
-| `telnyx-edge list` | List all functions in your organization |
+| `telnyx-edge ship status` | Show the latest ship outcome and failure details |
+| `telnyx-edge list` | List functions |
+| `telnyx-edge inspect` | Show function details |
+| `telnyx-edge revisions` | List immutable function revisions |
+| `telnyx-edge rollback` | Route traffic back to a prior revision |
+| `telnyx-edge deployments` | View deployment history |
+| `telnyx-edge reset-func` | Reset a failed function to `created` |
+| `telnyx-edge delete-func` | Delete a function |
 
 The `new-func` command supports languages: `python`, `go`, `quarkus`, `js`, `ts`.
 
@@ -59,17 +66,56 @@ The `new-func` command supports languages: `python`, `go`, `quarkus`, `js`, `ts`
 
 | Command | Description |
 |---|---|
+| `telnyx-edge secrets` | Manage organization-scoped secrets |
 | `telnyx-edge secrets add NAME "VALUE"` | Add an encrypted secret |
 | `telnyx-edge secrets list` | List secret names (values hidden) |
 | `telnyx-edge secrets delete NAME` | Delete a secret |
 
 Secrets are available as environment variables in your function at runtime.
 
+### Bindings
+
+| Command | Description |
+|---|---|
+| `telnyx-edge bindings` | Manage the organization-level Telnyx API binding |
+
+### Observability
+
+| Command | Description |
+|---|---|
+| `telnyx-edge logs` | Read runtime or invocation logs |
+| `telnyx-edge log-export` | Configure external log export |
+| `telnyx-edge metrics` | View function request and resource metrics |
+
+### Storage and Actors
+
+| Command | Description |
+|---|---|
+| `telnyx-edge storage` | Manage KV and SQL storage |
+| `telnyx-edge actors` | Inspect and manage Stateful Actor types |
+
+### Networking
+
+| Command | Description |
+|---|---|
+| `telnyx-edge domains` | Manage custom domains |
+| `telnyx-edge tunnel` | Create tunnels and run the tunnel process |
+| `telnyx-edge network route` | Manage the routes that send a subnet to a tunnel |
+
+### Local Development
+
+| Command | Description |
+|---|---|
+| `telnyx-edge dev` | Run a project locally |
+| `telnyx-edge types` | Generate TypeScript types from your manifest |
+
 ### System Commands
 
 | Command | Description |
 |---|---|
-| `telnyx-edge status` | Show CLI version, auth status, connectivity |
+| `telnyx-edge config` | View and change CLI preferences |
+| `telnyx-edge update` | Upgrade the installed CLI in place |
+| `telnyx-edge status` | Check CLI configuration and API connectivity |
 | `telnyx-edge --help` | General help |
 | `telnyx-edge COMMAND --help` | Command-specific help |
 

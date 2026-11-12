@@ -20,7 +20,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/runtime/index
 - url: https://developers.telnyx.com/docs/edge-compute/sqldb/index
 - url: https://developers.telnyx.com/docs/edge-compute/testing/index
-updated_at: 2026-06-11T10:27:59Z
+updated_at: 2026-11-12T18:08:07Z
 ---
 
 # Telnyx Edge Compute
@@ -72,7 +72,7 @@ Set internal timeouts shorter than the platform limit (e.g., 25 seconds) to leav
 
 ### Triggers
 
-Functions are invoked via **HTTP requests** (accessible at `https://{funcName}-{orgId}.telnyxcompute.com`) and **webhooks** (configure Telnyx services to call your function). Cron triggers are coming soon.
+Functions are invoked via **HTTP requests** (accessible at `https://{func-name}-{func-id-prefix}.telnyxcompute.com`) and **webhooks** (configure Telnyx services to call your function). Cron triggers are coming soon.
 
 ### Graceful Shutdown
 
