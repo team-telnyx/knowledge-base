@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-11-09T19:37:23Z
+updated_at: 2026-11-12T17:14:27Z
 ---
 
 # Telnyx Knowledge Base
@@ -2172,3 +2172,5 @@ updated_at: 2026-11-09T19:37:23Z
 - [Configure blind transfer confirmation](support-docs/articles/2026102801-configure-blind-transfer-confirmation.md) — A blind transfer redirects a caller or callee to another destination without speaking to that destination first. Confirm blind transfer applies to transfers initiated using SIP REFER.
 
 - [Video on SIP Trunking](support-docs/articles/2026110901-video-on-sip-trunking.md) — Telnyx SIP Trunking supports video on calls between compatible SIP endpoints, such as video phones and softphones. A SIP call can carry both audio and video.
+
+- [Telnyx Support for Microsoft Teams Government Clouds](support-docs/articles/2026111201-microsoft-teams-government-cloud-support.md) — Telnyx does not support Microsoft Teams calling through Operator Connect or Direct Routing for GCC High or Department of Defense (DoD) tenants.
