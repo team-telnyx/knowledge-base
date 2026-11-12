@@ -19,7 +19,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/iot-data-ingestion
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/real-time-media-pipeline
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/telecom-event-processor
-updated_at: 2026-06-11T10:26:49Z
+updated_at: 2026-11-12T18:08:02Z
 ---
 
 # Edge Compute Development Guide
@@ -94,22 +94,19 @@ Deploy to different environments using branches or tags. Map the `staging` branc
 
 ### Rollbacks
 
-Redeploy a previous Git commit:
+Every successful `telnyx-edge ship` produces an immutable revision. List a function's deploy history (newest first; the revision currently serving traffic is marked with `*`):
 
 ```
-git revert HEAD
-git push origin main
+telnyx-edge revisions list my-func
 ```
 
-Or checkout a specific commit and deploy:
+To roll back, retarget traffic to a previous revision — no rebuild, no re-upload:
 
 ```
-git checkout <previous-commit-sha>
-telnyx-edge ship
-git checkout main
+telnyx-edge rollback my-func a1b2c3d
 ```
 
-Version history and CLI rollback commands are coming soon.
+Rollback switches traffic across all clusters instantly and leaves your Git working tree untouched; the next `ship` deploys whatever is on disk as a new revision. The target revision must have reached `deploy_ok` — `revisions list` shows each revision's deploy status. To roll forward again, `ship` again or `rollback` to another healthy revision. See [Versions & Rollback](https://developers.telnyx.com/docs/edge-compute/configuration/versions).
 
 ### Health Checks
 

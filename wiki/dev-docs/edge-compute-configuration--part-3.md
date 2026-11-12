@@ -12,7 +12,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/routing
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/secrets
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/versions
-updated_at: 2026-06-11T10:26:17Z
+updated_at: 2026-11-12T18:08:02Z
 ---
 
 # Edge Compute Configuration
@@ -237,7 +237,7 @@ export async function handler(request) {
 Always use HTTPS when calling external services. Never hardcode secrets; use the secrets API instead:
 
 ```bash
-telnyx-edge secrets add API_KEY --value "sk-..."
+telnyx-edge secrets add API_KEY "sk-..."
 ```
 
 Then access in code:

@@ -12,7 +12,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/routing
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/secrets
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/versions
-updated_at: 2026-06-11T10:26:17Z
+updated_at: 2026-11-12T18:08:02Z
 ---
 
 # Edge Compute Configuration
@@ -238,7 +238,7 @@ The `telnyx-edge ship` command displays your function's live URL after successfu
 
 ### Custom Domains and Region Placement
 
-Custom domain support and region placement/pinning are both planned for future releases. These will allow you to map your own domains to Edge Compute functions and specify geographic regions where your functions should run for latency optimization or data residency requirements.
+Custom domains are available: declare your domain in `telnyx.toml`, register it with `telnyx-edge domains add`, verify ownership with a DNS TXT record (`telnyx-edge domains verify`), and upload a TLS certificate with `telnyx-edge domains cert upload` — you provide and renew the certificate yourself (PEM cert and private key). Manage existing domains with `telnyx-edge domains list` and `telnyx-edge domains delete`. See [Custom Domains](https://developers.telnyx.com/docs/edge-compute/custom-domains). Region placement/pinning remains planned for a future release — it will allow you to specify geographic regions where your functions should run for latency optimization or data residency requirements.
 
 ## Cron Triggers
 
