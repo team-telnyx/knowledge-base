@@ -20,7 +20,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/runtime/index
 - url: https://developers.telnyx.com/docs/edge-compute/sqldb/index
 - url: https://developers.telnyx.com/docs/edge-compute/testing/index
-updated_at: 2026-11-12T20:45:00Z
+updated_at: 2026-11-12T21:09:05Z
 ---
 
 # Telnyx Edge Compute
@@ -54,9 +54,9 @@ The `telnyx-edge` CLI is the primary tool for deploying and managing Edge Comput
 | `telnyx-edge ship status` | Show the latest ship outcome and failure details |
 | `telnyx-edge list` | List functions |
 | `telnyx-edge inspect` | Show function details |
-| `telnyx-edge revisions` | List immutable function revisions |
-| `telnyx-edge rollback` | Route traffic back to a prior revision |
-| `telnyx-edge deployments` | View deployment history |
+| `telnyx-edge revisions list NAME` | List immutable function revisions |
+| `telnyx-edge rollback NAME REVISION-ID` | Route traffic back to a prior revision |
+| `telnyx-edge deployments NAME` | View deployment history |
 | `telnyx-edge reset-func NAME` | Reset a failed function to `created` |
 | `telnyx-edge delete-func NAME` | Delete a function |
 
@@ -209,6 +209,8 @@ Contact [support@telnyx.com](mailto:support@telnyx.com) for higher enterprise li
 | Rate Limited | 429 | Too many requests or deployments |
 
 ### Storage Limits
+
+The limit values below are carried over from the original corpus snapshot and have not been re-verified against current platform limits.
 
 **KV Storage:**
 
