@@ -19,7 +19,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/iot-data-ingestion
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/real-time-media-pipeline
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/telecom-event-processor
-updated_at: 2026-06-11T10:26:49Z
+updated_at: 2026-11-12T20:45:00Z
 ---
 
 # Edge Compute Development Guide
@@ -185,7 +185,7 @@ curl http://localhost:8787/items/1
 curl -X DELETE http://localhost:8787/items/1
 ```
 
-Deploy with `telnyx-edge ship`. The API is live at `https://my-api-{orgId}.telnyxcompute.com`.
+Deploy with `telnyx-edge ship`. The API is live at `https://my-api-0198c2c5-8.telnyxcompute.com`.
 
 ### SMS Webhook Handler
 
@@ -229,7 +229,7 @@ Accepts query parameters `url` (required), `w` (width), `h` (height), and `q` (q
 Test after deploying:
 
 ```
-https://image-resizer-{orgId}.telnyxcompute.com/?url=https://example.com/photo.jpg&w=400&q=80
+https://image-resizer-0198c2c5-8.telnyxcompute.com/?url=https://example.com/photo.jpg&w=400&q=80
 ```
 
 ### Upcoming Tutorials

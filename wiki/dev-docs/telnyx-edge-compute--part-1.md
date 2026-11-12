@@ -20,7 +20,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/runtime/index
 - url: https://developers.telnyx.com/docs/edge-compute/sqldb/index
 - url: https://developers.telnyx.com/docs/edge-compute/testing/index
-updated_at: 2026-06-11T10:27:59Z
+updated_at: 2026-11-12T20:45:00Z
 ---
 
 # Telnyx Edge Compute
@@ -117,10 +117,10 @@ The CLI validates the function structure, checks authentication, packages files,
 
 ### Test the Function
 
-Functions are accessible at URLs following the pattern `https://{funcName}-{orgId}.telnyxcompute.com`:
+Functions are accessible at URLs following the pattern `https://{func-name}-{func-id-prefix}.telnyxcompute.com`, where `func-name` is the `func_name` from your `func.toml` and `func-id-prefix` is the first 10 characters of the function's `func_id` (stable across deploys):
 
 ```bash
-curl https://hello-world-abc123.telnyxcompute.com \
+curl https://hello-world-0198c2c5-8.telnyxcompute.com \
   -H "Content-Type: application/json" \
   -d '{"test": "data"}'
 ```

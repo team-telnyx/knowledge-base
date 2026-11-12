@@ -19,7 +19,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/iot-data-ingestion
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/real-time-media-pipeline
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/telecom-event-processor
-updated_at: 2026-06-11T10:26:49Z
+updated_at: 2026-11-12T20:45:00Z
 ---
 
 # Edge Compute Development Guide
@@ -119,7 +119,7 @@ Add a health check step after deployment to detect issues:
 - name: Health check
   run: |
     sleep 10
-    STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://my-function-abc123.telnyxcompute.com/health)
+    STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://my-function-0198c2c5-8.telnyxcompute.com/health)
     if [ "$STATUS" != "200" ]; then
       echo "Health check failed!"
       exit 1

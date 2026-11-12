@@ -20,7 +20,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/runtime/index
 - url: https://developers.telnyx.com/docs/edge-compute/sqldb/index
 - url: https://developers.telnyx.com/docs/edge-compute/testing/index
-updated_at: 2026-11-12T18:08:07Z
+updated_at: 2026-11-12T20:45:00Z
 ---
 
 # Telnyx Edge Compute
@@ -113,8 +113,8 @@ Bindings provide secure, auto-authenticated access to Telnyx platform services w
 | Fax | Send faxes | ✅ Available |
 | Verify | 2FA/verification | ✅ Available |
 | Cloud Storage | S3-compatible storage | ✅ Available |
-| KV | Key-value store | 🔜 Coming soon |
-| SQL DB | Serverless database | 🔜 Coming soon |
+| KV | Key-value store (`telnyx-edge storage kv`) | ✅ Available |
+| SQL DB | Serverless SQL database (`telnyx-edge storage sqldb`, CLI v0.3.0+) | ✅ Available |
 
 ### How Bindings Work
 
@@ -171,4 +171,4 @@ The binding proxy handles `api.telnyx.com` routes only; S3-compatible calls go d
 | Rotation | `bindings update` | Manual re-add |
 | Use case | Telnyx SDK/API integration | Database passwords, external API keys |
 
-Use bindings for Telnyx service access; use [secrets](telnyx-edge-compute-secrets-and-configuration.md) for third-party services or when you need multiple different credentials.
+Use bindings for Telnyx service access; use [secrets](edge-compute-configuration--part-2.md) for third-party services or when you need multiple different credentials.

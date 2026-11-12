@@ -12,7 +12,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/routing
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/secrets
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/versions
-updated_at: 2026-06-11T10:26:17Z
+updated_at: 2026-11-12T20:45:00Z
 ---
 
 # Edge Compute Configuration
@@ -202,36 +202,30 @@ After deploying a function with `telnyx-edge ship`, your function is automatical
 
 ### Public URL Patterns
 
-Every deployed function receives a unique public URL based on your function name and organization:
+Every deployed function receives a unique public URL based on your function name and function id:
 
 ```
-https://{funcName}-{orgId}.telnyxcompute.com
-```
-
-For development environments, URLs use the `.dev` subdomain:
-
-```
-https://{funcName}-{orgId}.dev.telnyxcompute.com
+https://{func-name}-{func-id-prefix}.telnyxcompute.com
 ```
 
 | Component | Description |
 |---|---|
-| `funcName` | The function name specified in your `func.toml` |
-| `orgId` | Your Telnyx organization identifier |
+| `func-name` | The `func_name` specified in your `func.toml` |
+| `func-id-prefix` | The first 10 characters of the function's `func_id` (stable across deploys) |
 
-For example, if your function is named `hello-world` and your organization ID is `abc123`, your production URL would be `https://hello-world-abc123.telnyxcompute.com`.
+For example, a function named `hello-world` with `func_id` `0198c2c5-8f1e-7a3d-9b21-6e4a0d5f1c88` is served at `https://hello-world-0198c2c5-8.telnyxcompute.com`.
 
 ### Accessing Deployed Functions
 
 ```bash
 # GET request
-curl https://my-function-abc123.telnyxcompute.com
+curl https://my-function-0198c2c5-8.telnyxcompute.com
 
 # POST request with JSON body
 curl -X POST \
   -H "Content-Type: application/json" \
   -d '{"name": "test"}' \
-  https://my-function-abc123.telnyxcompute.com
+  https://my-function-0198c2c5-8.telnyxcompute.com
 ```
 
 The `telnyx-edge ship` command displays your function's live URL after successful deployment.

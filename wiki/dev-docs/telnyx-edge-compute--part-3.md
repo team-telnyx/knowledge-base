@@ -20,7 +20,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/runtime/index
 - url: https://developers.telnyx.com/docs/edge-compute/sqldb/index
 - url: https://developers.telnyx.com/docs/edge-compute/testing/index
-updated_at: 2026-11-12T18:08:07Z
+updated_at: 2026-11-12T20:45:00Z
 ---
 
 # Telnyx Edge Compute
@@ -57,8 +57,8 @@ The `telnyx-edge` CLI is the primary tool for deploying and managing Edge Comput
 | `telnyx-edge revisions` | List immutable function revisions |
 | `telnyx-edge rollback` | Route traffic back to a prior revision |
 | `telnyx-edge deployments` | View deployment history |
-| `telnyx-edge reset-func` | Reset a failed function to `created` |
-| `telnyx-edge delete-func` | Delete a function |
+| `telnyx-edge reset-func NAME` | Reset a failed function to `created` |
+| `telnyx-edge delete-func NAME` | Delete a function |
 
 The `new-func` command supports languages: `python`, `go`, `quarkus`, `js`, `ts`.
 
@@ -78,6 +78,11 @@ Secrets are available as environment variables in your function at runtime.
 | Command | Description |
 |---|---|
 | `telnyx-edge bindings` | Manage the organization-level Telnyx API binding |
+| `telnyx-edge bindings create` | Provision the org credential — one per organization |
+| `telnyx-edge bindings get` | Show binding metadata |
+| `telnyx-edge bindings validate` | Check the credential works |
+| `telnyx-edge bindings update` | Regenerate — use if you suspect compromise |
+| `telnyx-edge bindings delete` | Remove it; functions lose automatic Telnyx API access |
 
 ### Observability
 
@@ -203,7 +208,7 @@ Contact [support@telnyx.com](mailto:support@telnyx.com) for higher enterprise li
 | Payload Too Large | 413 | Request/response body exceeded limit |
 | Rate Limited | 429 | Too many requests or deployments |
 
-### Storage Limits (Coming Soon)
+### Storage Limits
 
 **KV Storage:**
 
@@ -239,12 +244,12 @@ Edge Compute integrates with Telnyx services through bindings:
 - **Messaging API** — Send and receive SMS/MMS with custom logic
 - **AI APIs** — Transcription, inference, and embeddings at the edge
 - **Cloud Storage** — S3-compatible storage for files and media (see Cloud Storage exception above)
-- **KV** — Low-latency key-value storage for caching and session data (coming soon)
-- **SQL DB** — Serverless SQL database with SQLite compatibility (coming soon)
+- **KV** — Low-latency key-value storage for caching and session data (via `telnyx-edge storage kv`)
+- **SQL DB** — Serverless SQL database with SQLite compatibility (via `telnyx-edge storage sqldb`; the typed binding needs SDK ≥ 0.9.0)
 
 ## Observability
 
-Observability features (logs, metrics, tracing) are in development. They will let you monitor your Edge Compute functions with real-time logs, performance metrics, and request tracing.
+Runtime and invocation logs are available today: `telnyx-edge logs <function>` reads either stream (`--type runtime|invocations`, with `--tail` to follow new lines as they arrive), and `telnyx-edge log-export` sends them to an external sink. Request, latency, CPU, and memory metrics are available via `telnyx-edge metrics <function>` (`--since` bounds the window, up to 168h). Request tracing is not yet available.
 
 ## Testing
 
@@ -252,7 +257,7 @@ Testing tooling and staging environments are in development. Since Edge Compute 
 
 ## Network
 
-Private WireGuard-based mesh networking connecting your edge compute workloads, on-premise infrastructure, and cloud resources is planned for a future release.
+Point-to-point tunnels are available today — `telnyx-edge tunnel create` and `tunnel run` expose on-prem services to Edge Compute, with subnet routing via `telnyx-edge network route` (CLI v0.5.14+). The full private WireGuard-based mesh connecting edge workloads, on-prem infrastructure, and cloud resources remains planned for a future release.
 
 ## Common Workflows
 
