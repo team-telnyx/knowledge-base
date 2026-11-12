@@ -76,20 +76,20 @@ Define `test` and `deploy` jobs with a workflow that requires test to pass and f
 
 ### Environment Promotion
 
-Deploy to different environments using branches or tags. Map the `staging` branch to dev and the `main` branch or `v*` tags to production using separate API key secrets:
+There is no `--env` flag and no built-in environment promotion — `telnyx-edge ship` always deploys the function that `func.toml` names. To deploy different environments, keep one function directory per environment (each with its own `func.toml`), and map branches or tags to environments using separate API key secrets:
 
 ```yaml
 - name: Deploy to dev
   if: github.ref == 'refs/heads/staging'
   env:
     TELNYX_API_KEY: ${{ secrets.TELNYX_API_KEY_DEV }}
-  run: telnyx-edge ship --env dev
+  run: telnyx-edge ship --from-dir ./functions/my-func-dev
 
 - name: Deploy to production
   if: github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v')
   env:
     TELNYX_API_KEY: ${{ secrets.TELNYX_API_KEY_PRODUCTION }}
-  run: telnyx-edge ship --env prod
+  run: telnyx-edge ship --from-dir ./functions/my-func-prod
 ```
 
 ### Rollbacks
