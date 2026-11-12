@@ -19,7 +19,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/iot-data-ingestion
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/real-time-media-pipeline
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/telecom-event-processor
-updated_at: 2026-11-12T17:43:00Z
+updated_at: 2026-11-12T19:19:15Z
 ---
 
 # Edge Compute Development Guide
@@ -105,22 +105,30 @@ Because bindings are declared in `func.toml`, the two files can also point at pe
 
 ### Rollbacks
 
-Redeploy a previous Git commit:
+Redeploy a previous Git commit. To roll back staging, revert and push to `main` — the staging job redeploys on every merge to `main`:
 
 ```
 git revert HEAD
 git push origin main
 ```
 
-Or checkout a specific commit and deploy:
+Or check out a specific older commit and redeploy staging from it — the committed root `func.toml` is the staging config, so copy it into place explicitly:
 
 ```
-git checkout <previous-commit-sha>
+git checkout <previous-good-commit-sha>
+cp deploy/func.staging.toml func.toml
 telnyx-edge ship
 git checkout main
 ```
 
-Version history and CLI rollback commands are coming soon.
+To roll back production, push a new `v*` tag at the last known-good commit so the production job redeploys it. The production job copies `deploy/func.production.toml` into place itself, and pushing to `main` never touches production:
+
+```
+git tag -a v1.2.4 <previous-good-commit-sha>
+git push origin v1.2.4
+```
+
+(An older checkout that predates the two-config layout has no `deploy/` file to copy, so the `cp` step fails the run instead of silently shipping the wrong environment.) Version history and CLI rollback commands are coming soon.
 
 ### Health Checks
 
@@ -141,7 +149,7 @@ Add a health check step after deployment to detect issues:
 
 - **GitHub Actions**: Settings → Secrets and variables → Actions → New repository secret
 - **GitLab CI**: Settings → CI/CD → Variables (add as masked variable)
-- Use different API keys per environment with conditional expressions
+- Give each pipeline job its own API key secret, as in the staging and production jobs above; use separate API keys per account only when staging and production live in different Telnyx accounts
 
 ### Deployment Notifications
 
@@ -150,7 +158,7 @@ Integrate Slack notifications using `slackapi/slack-github-action` to report dep
 ### Best Practices
 
 - **Branch protection**: Require CI to pass and PR reviews before merging
-- **Deployment frequency**: Dev on feature branches, staging on merge to `staging`, production on merge to `main` or version tags
+- **Deployment frequency**: Dev on feature branches, staging on merge to `main`, production on `v*` tags
 - **Monitoring**: After deployment, monitor invocation metrics, error rates, response latency, and cold start frequency (see [Edge Compute Observability](edge-compute-observability.md))
 
 ### Troubleshooting
