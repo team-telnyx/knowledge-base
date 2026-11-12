@@ -12,7 +12,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/routing
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/secrets
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/versions
-updated_at: 2026-11-12T19:34:04Z
+updated_at: 2026-11-12T20:32:59Z
 ---
 
 # Edge Compute Configuration
@@ -27,7 +27,7 @@ Every `telnyx-edge ship` produces an immutable revision. List a function's deplo
 
 ### Current Deployment Model
 
-Today, `telnyx-edge ship` deploys your function as an atomic update. Each deployment fully replaces the previous version.
+Today, `telnyx-edge ship` atomically promotes a new immutable revision to be the function's live version; previous revisions remain available for `telnyx-edge rollback`.
 
 ### Current Rollback Strategy
 
