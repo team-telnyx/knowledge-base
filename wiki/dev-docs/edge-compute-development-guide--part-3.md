@@ -19,7 +19,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/iot-data-ingestion
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/real-time-media-pipeline
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/telecom-event-processor
-updated_at: 2026-11-12T19:34:04Z
+updated_at: 2026-11-12T19:41:26Z
 ---
 
 # Edge Compute Development Guide
@@ -67,7 +67,7 @@ jobs:
           telnyx-edge ship
 ```
 
-To run tests before deploying, add a separate `test` job that the `deploy` job depends on (`needs: test`), with an `if: github.ref == 'refs/heads/main'` guard so deploys only run on the main branch.
+To run tests before deploying, add a separate `test` job that the `deploy` job depends on (`needs: test`). Put a main-branch guard (`if: github.ref == 'refs/heads/main'`) on staging-only jobs; the production job fires on `v*` tags, so it must not be gated on the branch.
 
 ### GitLab CI
 
