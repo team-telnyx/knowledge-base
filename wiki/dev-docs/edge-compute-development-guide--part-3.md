@@ -19,7 +19,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/iot-data-ingestion
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/real-time-media-pipeline
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/telecom-event-processor
-updated_at: 2026-06-11T10:26:49Z
+updated_at: 2026-11-12T19:13:50Z
 ---
 
 # Edge Compute Development Guide
@@ -34,7 +34,7 @@ Automate Edge Compute deployments with CI/CD pipelines.
 
 ### Authentication
 
-CI/CD pipelines need a Telnyx API key with Edge Compute permissions. Create a deployment key in the [Telnyx Portal](https://portal.telnyx.com) and store it as a secret in your CI/CD platform — never commit API keys to your repository.
+CI/CD pipelines need a Telnyx API key with Edge Compute permissions. Create a deployment key in the [Telnyx Portal](https://portal.telnyx.com) and store it as a secret in your CI/CD platform — never commit API keys to your repository. The CLI does not read `TELNYX_API_KEY` from the environment on its own — the `telnyx-edge auth api-key set "$TELNYX_API_KEY"` step in each pipeline below handles CI authentication, persisting the key to `~/.telnyx-edge/config.toml` for the rest of the job.
 
 ### GitHub Actions
 
@@ -61,18 +61,20 @@ jobs:
       - name: Deploy function
         env:
           TELNYX_API_KEY: ${{ secrets.TELNYX_API_KEY }}
-        run: telnyx-edge ship
+        run: |
+          telnyx-edge auth api-key set "$TELNYX_API_KEY"
+          telnyx-edge ship
 ```
 
 To run tests before deploying, add a separate `test` job that the `deploy` job depends on (`needs: test`), with an `if: github.ref == 'refs/heads/main'` guard so deploys only run on the main branch.
 
 ### GitLab CI
 
-Use a two-stage pipeline (`test`, `deploy`) with the deploy stage restricted to the `main` branch. Download and install the CLI in the deploy script, and set `TELNYX_API_KEY` as a CI variable.
+Use a two-stage pipeline (`test`, `deploy`) with the deploy stage restricted to the `main` branch. Download and install the CLI in the deploy script, store the API key as a masked CI variable, and run `telnyx-edge auth api-key set "$TELNYX_API_KEY"` in the deploy script before `telnyx-edge ship`.
 
 ### CircleCI
 
-Define `test` and `deploy` jobs with a workflow that requires test to pass and filters to the `main` branch. Install the CLI in the deploy job and run `telnyx-edge ship`.
+Define `test` and `deploy` jobs with a workflow that requires test to pass and filters to the `main` branch. Install the CLI in the deploy job and run `telnyx-edge auth api-key set "$TELNYX_API_KEY"` before `telnyx-edge ship` to authenticate the deploy.
 
 ### Environment Promotion
 
