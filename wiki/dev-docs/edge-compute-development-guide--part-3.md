@@ -19,7 +19,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/iot-data-ingestion
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/real-time-media-pipeline
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/telecom-event-processor
-updated_at: 2026-11-12T19:19:15Z
+updated_at: 2026-11-12T19:34:04Z
 ---
 
 # Edge Compute Development Guide
@@ -38,7 +38,7 @@ CI/CD pipelines need a Telnyx API key with Edge Compute permissions. Create a de
 
 ### GitHub Actions
 
-Deploy on every push to `main`:
+Deploy on every push to `main` and `v*` tag:
 
 ```yaml
 # .github/workflows/deploy.yml
@@ -47,6 +47,7 @@ name: Deploy Edge Function
 on:
   push:
     branches: [main]
+    tags: ['v*']
 
 jobs:
   deploy:
@@ -78,7 +79,7 @@ Define `test` and `deploy` jobs with a workflow that requires test to pass and f
 
 ### Staging and production
 
-There is no environment flag and no environment promotion: `telnyx-edge ship` always deploys the function that `func.toml` names. Environments are separate functions — for example `my-api-staging` and `my-api` — each with its own URL and bindings. Register each environment's function once with `telnyx-edge new-func -l=ts -n=my-api-staging` (the CLI creates the function and writes its `func_id` into that directory's `func.toml` — a one-time setup step, not a CI step), then check in both `deploy/func.staging.toml` and `deploy/func.production.toml` and have each pipeline job copy the matching one over the root `func.toml` before shipping (the checked-in root `func.toml` is the staging config — the default for local and manual `telnyx-edge ship` runs). Also add `tags: ['v*']` to `on.push` alongside `branches: [main]`; with only `branches: [main]`, the production job's tag condition never matches and only staging ever deploys. Each job authenticates by running `telnyx-edge auth api-key set "$TELNYX_API_KEY"` before `telnyx-edge ship` — the CLI does not read `TELNYX_API_KEY` from the environment (CI runners are ephemeral, so the stored key's on-disk config is acceptable):
+There is no environment flag and no environment promotion: `telnyx-edge ship` always deploys the function that `func.toml` names. Environments are separate functions — for example `my-api-staging` and `my-api` — each with its own URL, bindings, and revision history. Register each environment's function once with `telnyx-edge new-func -l=ts -n=my-api-staging` (the CLI creates the function and writes its `func_id` into that directory's `func.toml` — a one-time setup step, not a CI step), then check in both `deploy/func.staging.toml` and `deploy/func.production.toml` and have each pipeline job copy the matching one over the root `func.toml` before shipping (the checked-in root `func.toml` is the staging config — the default for local and manual `telnyx-edge ship` runs). The workflow triggers on `main` and `v*` tags (the `on:` block in the GitHub Actions example above); with only `branches: [main]`, the production job's tag condition would never match and only staging would ever deploy. Each job authenticates by running `telnyx-edge auth api-key set "$TELNYX_API_KEY"` before `telnyx-edge ship` — the CLI does not read `TELNYX_API_KEY` from the environment (CI runners are ephemeral, so the stored key's on-disk config is acceptable):
 
 ```yaml
 # .github/workflows/deploy.yml — staging on main, production on v* tags
@@ -105,30 +106,21 @@ Because bindings are declared in `func.toml`, the two files can also point at pe
 
 ### Rollbacks
 
-Redeploy a previous Git commit. To roll back staging, revert and push to `main` — the staging job redeploys on every merge to `main`:
+Every `telnyx-edge ship` produces an immutable revision. To see a function's deploy history (newest first):
 
 ```
-git revert HEAD
-git push origin main
+telnyx-edge revisions list my-func
 ```
 
-Or check out a specific older commit and redeploy staging from it — the committed root `func.toml` is the staging config, so copy it into place explicitly:
+To roll back — production or staging — retarget traffic to a previous revision (instant; no rebuild, no re-upload):
 
 ```
-git checkout <previous-good-commit-sha>
-cp deploy/func.staging.toml func.toml
-telnyx-edge ship
-git checkout main
+telnyx-edge rollback my-func a1b2c3d
 ```
 
-To roll back production, push a new `v*` tag at the last known-good commit so the production job redeploys it. The production job copies `deploy/func.production.toml` into place itself, and pushing to `main` never touches production:
+Rollback switches traffic to the chosen revision immediately and leaves your Git working tree untouched; to roll forward again, `ship` again or `rollback` to another revision. (`telnyx-edge deployments my-func` lists the same function's deploy events.)
 
-```
-git tag -a v1.2.4 <previous-good-commit-sha>
-git push origin v1.2.4
-```
-
-(An older checkout that predates the two-config layout has no `deploy/` file to copy, so the `cp` step fails the run instead of silently shipping the wrong environment.) Version history and CLI rollback commands are coming soon.
+Git-based redeploys also work for code changes — `git revert` plus a push to `main` for staging, or a new `v*` tag for production — but they re-upload and re-validate instead of instantly restoring traffic.
 
 ### Health Checks
 
@@ -158,7 +150,7 @@ Integrate Slack notifications using `slackapi/slack-github-action` to report dep
 ### Best Practices
 
 - **Branch protection**: Require CI to pass and PR reviews before merging
-- **Deployment frequency**: Dev on feature branches, staging on merge to `main`, production on `v*` tags
+- **Deployment frequency**: Dev on feature branches, staging on merge to `main`, production on `v*` version tags
 - **Monitoring**: After deployment, monitor invocation metrics, error rates, response latency, and cold start frequency (see [Edge Compute Observability](edge-compute-observability.md))
 
 ### Troubleshooting
