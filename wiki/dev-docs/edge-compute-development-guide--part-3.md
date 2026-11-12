@@ -34,7 +34,7 @@ Automate Edge Compute deployments with CI/CD pipelines.
 
 ### Authentication
 
-CI/CD pipelines need a Telnyx API key with Edge Compute permissions. Create a deployment key in the [Telnyx Portal](https://portal.telnyx.com) and store it as a secret in your CI/CD platform — never commit API keys to your repository.
+CI/CD pipelines need a Telnyx API key with Edge Compute permissions. Create a deployment key in the [Telnyx Portal](https://portal.telnyx.com) and store it as a secret in your CI/CD platform — never commit API keys to your repository. The CLI does not read `TELNYX_API_KEY` from the environment — each pipeline job must run `telnyx-edge auth api-key set "$TELNYX_API_KEY"` before `telnyx-edge ship`.
 
 ### GitHub Actions
 
@@ -61,22 +61,24 @@ jobs:
       - name: Deploy function
         env:
           TELNYX_API_KEY: ${{ secrets.TELNYX_API_KEY }}
-        run: telnyx-edge ship
+        run: |
+          telnyx-edge auth api-key set "$TELNYX_API_KEY"
+          telnyx-edge ship
 ```
 
 To run tests before deploying, add a separate `test` job that the `deploy` job depends on (`needs: test`), with an `if: github.ref == 'refs/heads/main'` guard so deploys only run on the main branch.
 
 ### GitLab CI
 
-Use a two-stage pipeline (`test`, `deploy`) with the deploy stage restricted to the `main` branch. Download and install the CLI in the deploy script, and set `TELNYX_API_KEY` as a CI variable.
+Use a two-stage pipeline (`test`, `deploy`) with the deploy stage restricted to the `main` branch. Download and install the CLI in the deploy script, set `TELNYX_API_KEY` as a CI variable, and run `telnyx-edge auth api-key set "$TELNYX_API_KEY"` before `telnyx-edge ship`.
 
 ### CircleCI
 
-Define `test` and `deploy` jobs with a workflow that requires test to pass and filters to the `main` branch. Install the CLI in the deploy job and run `telnyx-edge ship`.
+Define `test` and `deploy` jobs with a workflow that requires test to pass and filters to the `main` branch. Install the CLI in the deploy job and run `telnyx-edge auth api-key set "$TELNYX_API_KEY"` before `telnyx-edge ship`.
 
 ### Staging and production
 
-There is no environment flag and no environment promotion: `telnyx-edge ship` always deploys the function that `func.toml` names. Environments are separate functions — for example `my-api-staging` and `my-api` — each with its own URL, secrets bindings, and revision history. Register each environment's function once with `telnyx-edge new-func -l=ts -n=my-api-staging` (the CLI creates the function and writes its `func_id` into that directory's `func.toml` — a one-time setup step, not a CI step), then keep both `func.toml` files in the repo and have each pipeline job copy the matching one into place before shipping:
+There is no environment flag and no environment promotion: `telnyx-edge ship` always deploys the function that `func.toml` names. Environments are separate functions — for example `my-api-staging` and `my-api` — each with its own URL and bindings. Register each environment's function once with `telnyx-edge new-func -l=ts -n=my-api-staging` (the CLI creates the function and writes its `func_id` into that directory's `func.toml` — a one-time setup step, not a CI step), then check in both `deploy/func.staging.toml` and `deploy/func.production.toml` and have each pipeline job copy the matching one over the root `func.toml` before shipping (the checked-in root `func.toml` is the staging config — the default for local and manual `telnyx-edge ship` runs). Also add `tags: ['v*']` to `on.push` alongside `branches: [main]`; with only `branches: [main]`, the production job's tag condition never matches and only staging ever deploys. Each job authenticates by running `telnyx-edge auth api-key set "$TELNYX_API_KEY"` before `telnyx-edge ship` — the CLI does not read `TELNYX_API_KEY` from the environment (CI runners are ephemeral, so the stored key's on-disk config is acceptable):
 
 ```yaml
 # .github/workflows/deploy.yml — staging on main, production on v* tags
@@ -95,10 +97,11 @@ There is no environment flag and no environment promotion: `telnyx-edge ship` al
     TELNYX_API_KEY: ${{ secrets.TELNYX_API_KEY_PRODUCTION }}
   run: |
     telnyx-edge auth api-key set "$TELNYX_API_KEY"
+    cp deploy/func.production.toml func.toml
     telnyx-edge ship
 ```
 
-Because bindings are declared in `func.toml`, the two files can also point at per-environment resources — for example a separate [KV](kv--part-1.md) namespace id per environment. If staging and production live in different Telnyx accounts, store one API key secret per account and reference the right one in each job, as above. Alternatively, keep one function directory per environment and ship each with `telnyx-edge ship --from-dir <path>`.
+Because bindings are declared in `func.toml`, the two files can also point at per-environment resources — for example a separate [KV](kv--part-1.md) namespace id per environment. If staging and production live in different Telnyx accounts, store one API key secret per account and reference the right one in each job, as above. Alternatively, keep one function directory per environment and ship each with `telnyx-edge ship --from-dir=<path>`. Set `timeout-minutes` on each job so a stalled upload fails the job quickly instead of hanging the runner until the default six-hour job timeout.
 
 ### Rollbacks
 
@@ -163,7 +166,7 @@ Framework auto-detection and adapters for popular web frameworks are in developm
 ## Related Resources
 
 - [Edge Compute Quickstart](edge-compute-quickstart.md) — Deploy your first function
-- [Edge Compute CLI Reference](edge-compute-cli-reference.md) — Full command documentation
+- [Edge Compute CLI Reference](telnyx-edge-compute--part-3.md) — Full command documentation
 - [Edge Compute Examples](edge-compute-examples.md) — Code snippets and patterns
 - [Edge Compute Observability](edge-compute-observability.md) — Monitor deployments
 - [Edge Compute Runtime](edge-compute-runtime.md) — Execution environment details
