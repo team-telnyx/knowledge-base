@@ -19,7 +19,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/iot-data-ingestion
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/real-time-media-pipeline
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/telecom-event-processor
-updated_at: 2026-06-11T10:26:49Z
+updated_at: 2026-11-12T17:43:00Z
 ---
 
 # Edge Compute Development Guide
@@ -74,23 +74,31 @@ Use a two-stage pipeline (`test`, `deploy`) with the deploy stage restricted to 
 
 Define `test` and `deploy` jobs with a workflow that requires test to pass and filters to the `main` branch. Install the CLI in the deploy job and run `telnyx-edge ship`.
 
-### Environment Promotion
+### Staging and production
 
-Deploy to different environments using branches or tags. Map the `staging` branch to dev and the `main` branch or `v*` tags to production using separate API key secrets:
+There is no environment flag and no environment promotion: `telnyx-edge ship` always deploys the function that `func.toml` names. Environments are separate functions — for example `my-api-staging` and `my-api` — each with its own URL, secrets bindings, and revision history. Register each environment's function once with `telnyx-edge new-func -l=ts -n=my-api-staging` (the CLI creates the function and writes its `func_id` into that directory's `func.toml` — a one-time setup step, not a CI step), then keep both `func.toml` files in the repo and have each pipeline job copy the matching one into place before shipping:
 
 ```yaml
-- name: Deploy to dev
-  if: github.ref == 'refs/heads/staging'
+# .github/workflows/deploy.yml — staging on main, production on v* tags
+- name: Ship the staging function
+  if: github.ref == 'refs/heads/main'
   env:
-    TELNYX_API_KEY: ${{ secrets.TELNYX_API_KEY_DEV }}
-  run: telnyx-edge ship --env dev
+    TELNYX_API_KEY: ${{ secrets.TELNYX_API_KEY_STAGING }}
+  run: |
+    telnyx-edge auth api-key set "$TELNYX_API_KEY"
+    cp deploy/func.staging.toml func.toml
+    telnyx-edge ship
 
-- name: Deploy to production
-  if: github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v')
+- name: Ship the production function
+  if: startsWith(github.ref, 'refs/tags/v')
   env:
     TELNYX_API_KEY: ${{ secrets.TELNYX_API_KEY_PRODUCTION }}
-  run: telnyx-edge ship --env prod
+  run: |
+    telnyx-edge auth api-key set "$TELNYX_API_KEY"
+    telnyx-edge ship
 ```
+
+Because bindings are declared in `func.toml`, the two files can also point at per-environment resources — for example a separate [KV](kv--part-1.md) namespace id per environment. If staging and production live in different Telnyx accounts, store one API key secret per account and reference the right one in each job, as above. Alternatively, keep one function directory per environment and ship each with `telnyx-edge ship --from-dir <path>`.
 
 ### Rollbacks
 
