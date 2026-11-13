@@ -12,7 +12,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/routing
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/secrets
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/versions
-updated_at: 2026-11-12T18:08:02Z
+updated_at: 2026-11-13T09:36:13Z
 ---
 
 # Edge Compute Configuration
@@ -23,29 +23,23 @@ Covers all aspects of configuring Telnyx Edge Compute functions, including the f
 
 ## Versions and Deployments
 
-Version history and rollback commands are planned for a future release. Version management will let you track deployments, roll back to previous versions, and implement gradual rollout strategies.
+Every `telnyx-edge ship` produces an immutable revision. List a function's deploy history with `telnyx-edge revisions list <function-name>` (or `telnyx-edge deployments <function-name>`) and roll back to a previous revision with `telnyx-edge rollback <function-name> <revision-id>`, which retargets traffic instantly — no rebuild, no re-upload.
 
 ### Current Deployment Model
 
-Today, `telnyx-edge ship` deploys your function as an atomic update. Each deployment fully replaces the previous version.
+Today, `telnyx-edge ship` atomically promotes a new immutable revision to be the function's live version; previous revisions remain available for `telnyx-edge rollback`.
 
 ### Current Rollback Strategy
 
-Until rollback commands are available, use Git:
+Roll back with `telnyx-edge rollback <function-name> <revision-id>`:
 
 ```bash
-# Revert to previous commit
-git revert HEAD
-telnyx-edge ship
+# See deploy history, then retarget traffic to a revision
+telnyx-edge revisions list my-func
+telnyx-edge rollback my-func a1b2c3d
 ```
 
-Or checkout a specific version:
-
-```bash
-git log --oneline
-git checkout abc123 .
-telnyx-edge ship
-```
+Traffic retargets to the chosen revision instantly and your Git working tree is untouched; the next `ship` deploys what is on disk as a new revision. Git-based redeploys (revert the commit, then `telnyx-edge ship`) also work for code changes but do not instantly restore traffic.
 
 ## Configuration Best Practices
 

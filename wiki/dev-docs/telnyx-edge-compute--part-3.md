@@ -20,7 +20,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/runtime/index
 - url: https://developers.telnyx.com/docs/edge-compute/sqldb/index
 - url: https://developers.telnyx.com/docs/edge-compute/testing/index
-updated_at: 2026-06-11T10:27:59Z
+updated_at: 2026-11-12T20:32:59Z
 ---
 
 # Telnyx Edge Compute
@@ -43,6 +43,8 @@ The `telnyx-edge` CLI is the primary tool for deploying and managing Edge Comput
 | `telnyx-edge auth status` | Check authentication status |
 | `telnyx-edge auth logout` | Clear stored credentials |
 
+The CLI does not read `TELNYX_API_KEY` from the environment; CLI authentication is `telnyx-edge auth api-key set KEY` (persisted to the CLI config, one key per runner) or `telnyx-edge auth login` (OAuth browser login).
+
 ### Function Management
 
 | Command | Description |
@@ -52,6 +54,9 @@ The `telnyx-edge` CLI is the primary tool for deploying and managing Edge Comput
 | `telnyx-edge ship --from-dir=DIR` | Deploy from a specific directory |
 | `telnyx-edge delete-func NAME` | Permanently delete a function |
 | `telnyx-edge list` | List all functions in your organization |
+| `telnyx-edge revisions list NAME` | List a function's deployed revisions, newest first (deploy status; serving revision marked with *) |
+| `telnyx-edge deployments NAME` | Show a function's deploy history, including why deploys failed |
+| `telnyx-edge rollback NAME REVISION-ID` | Instantly retarget traffic to a previously deployed revision |
 
 The `new-func` command supports languages: `python`, `go`, `quarkus`, `js`, `ts`.
 
