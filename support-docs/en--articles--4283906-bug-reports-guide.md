@@ -70,7 +70,15 @@ Telnyx welcomes responsible security research on our products and infrastructure
 
 ## Scope
 
-**In scope:** Telnyx-owned web applications, APIs, and infrastructure, including `portal.telnyx.com`, `api.telnyx.com`, and other `*.telnyx.com` properties.
+**In scope:** Telnyx-owned production web applications, APIs, and infrastructure on the following domains only:
+
+- `telnyx.com` and `www.telnyx.com`
+- `portal.telnyx.com`
+- `api.telnyx.com` and regional API endpoints (`api.telnyx.eu`, `api.telnyx.com.au`, `api.telnyx.ca`, `api.telnyx.me`)
+- `api-mtls.telnyx.com`
+- `sip.telnyx.com` and regional SIP endpoints (`sip.telnyx.eu`, `sip.telnyx.com.au`, `sip.telnyx.ca`, `sip.telnyx.me`, `sip.telnyx.asia`)
+- `sms.telnyx.com`, `video.telnyx.com`, `pbx.telnyx.com`, `webrtc.telnyx.com`
+- `flow.telnyx.com`
 
 **Out of scope:** Third-party services and integrations, physical security, social engineering against employees, and denial-of-service testing.
 
