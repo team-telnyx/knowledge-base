@@ -21,7 +21,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/runtime/index
 - url: https://developers.telnyx.com/docs/edge-compute/sqldb/index
 - url: https://developers.telnyx.com/docs/edge-compute/testing/index
-updated_at: 2026-11-13T09:35:02Z
+updated_at: 2026-11-13T10:05:10Z
 ---
 
 # Telnyx Edge Compute
@@ -51,11 +51,11 @@ The CLI does not read `TELNYX_API_KEY` from the environment; CLI authentication 
 
 | Command | Description |
 |---|---|
-| `telnyx-edge new-func -l=LANG -n=NAME` | Scaffold a new function |
+| `telnyx-edge new-func -l LANG -n NAME` | Scaffold a new function |
 | `telnyx-edge ship` | Build and deploy a function |
 | `telnyx-edge ship --from-dir=DIR` | Deploy from a specific directory |
 | `telnyx-edge ship status` | Show the latest ship outcome and failure details |
-| `telnyx-edge list` | List all functions in your organization |
+| `telnyx-edge list` | List all functions in your organization, with each function's invoke URL |
 | `telnyx-edge inspect` | Show function details |
 | `telnyx-edge revisions list NAME` | List a function's deployed revisions, newest first (deploy status; serving revision marked with *) |
 | `telnyx-edge rollback NAME REVISION-ID` | Instantly retarget traffic to a previously deployed revision |
@@ -112,7 +112,7 @@ Syntax and version floors per the live [CLI reference](https://developers.telnyx
 | `telnyx-edge domains list` | List all custom domains for your organization |
 | `telnyx-edge domains add api.example.com FUNCTION-ID` | Map a customer-owned hostname to a function |
 | `telnyx-edge domains verify api.example.com` | Verify domain ownership via DNS TXT record |
-| `telnyx-edge domains cert upload api.example.com --cert <cert-file> --key <key-file>` | Upload your own TLS certificate |
+| `telnyx-edge domains cert upload api.example.com --cert CERT-FILE --key KEY-FILE` | Upload your own TLS certificate |
 | `telnyx-edge domains delete api.example.com` | Remove a custom domain mapping |
 | `telnyx-edge tunnel` | Create tunnels and run the tunnel process |
 | `telnyx-edge network route` | Manage the routes that send a subnet to a tunnel |
@@ -257,7 +257,7 @@ Edge Compute integrates with Telnyx services through bindings:
 - **AI APIs** — Transcription, inference, and embeddings at the edge
 - **Cloud Storage** — S3-compatible storage for files and media (see Cloud Storage exception above)
 - **KV** — Low-latency key-value storage for caching and session data (via `telnyx-edge storage kv`)
-- **SQL DB** — Serverless SQL database with SQLite compatibility (via `telnyx-edge storage sqldb`; the typed binding needs SDK ≥ 0.9.0, per the live [CLI reference](https://developers.telnyx.com/docs/edge-compute/reference/cli))
+- **SQL DB** — Serverless SQL database with SQLite compatibility (via `telnyx-edge storage sqldb`; the typed binding needs SDK ≥ 0.9.0 — the first release exporting `SqlDatabase`, per the [SQL Databases quick start](https://developers.telnyx.com/docs/edge-compute/sqldb/quick-start))
 
 ## Observability
 
@@ -277,7 +277,7 @@ Point-to-point tunnels are available today — `telnyx-edge tunnel create` and `
 
 ```bash
 telnyx-edge auth login
-telnyx-edge new-func -l=python -n=my-first-function
+telnyx-edge new-func -l python -n my-first-function
 cd my-first-function
 # ... edit your code ...
 telnyx-edge ship

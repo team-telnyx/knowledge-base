@@ -12,7 +12,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/routing
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/secrets
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/versions
-updated_at: 2026-11-13T10:04:08Z
+updated_at: 2026-11-13T10:05:10Z
 ---
 
 # Edge Compute Configuration
@@ -124,7 +124,7 @@ telnyx-edge secrets add DATABASE_PASSWORD "new-secure-password"
 telnyx-edge ship
 
 # 3. Verify the function works with new credentials
-curl --max-time 10 https://your-function-{func-id-prefix}.telnyxcompute.com/health
+curl -fsS --max-time 10 https://your-function-{func-id-prefix}.telnyxcompute.com/health
 ```
 
 If verification fails, roll back: re-add the previous value with `telnyx-edge secrets add DATABASE_PASSWORD "<previous value>"` and redeploy with `telnyx-edge ship`.
