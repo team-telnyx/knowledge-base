@@ -21,7 +21,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/runtime/index
 - url: https://developers.telnyx.com/docs/edge-compute/sqldb/index
 - url: https://developers.telnyx.com/docs/edge-compute/testing/index
-updated_at: 2026-11-13T08:02:23Z
+updated_at: 2026-11-13T08:58:53Z
 ---
 
 # Telnyx Edge Compute
@@ -142,23 +142,19 @@ Each function has a `func.toml`:
 [edge_compute]
 func_id = "<func_id>"
 func_name = "my-webhook"
-language = "python"
 
 [env_vars]
 LOG_LEVEL = "info"
 API_ENDPOINT = "https://api.example.com"
-
-[build]
-entry_point = "main.py"
 ```
 
 | Field | Description | Required |
 |---|---|---|
 | `func_id` | Function UUID, written by `new-func` when it registers the function server-side; what `ship` deploys | Yes |
 | `func_name` | Function name (used in URL) | Yes |
-| `language` | Runtime language | Yes |
 | `[env_vars]` | Environment variables | No |
-| `[build]` | Build configuration | No |
+
+There is no `language` key or build block in the manifest — the runtime comes from the project files the scaffold creates (`telnyx-edge new-func -l <lang>`).
 
 ## Limits and Quotas
 
