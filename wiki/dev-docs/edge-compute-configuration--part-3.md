@@ -12,7 +12,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/routing
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/secrets
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/versions
-updated_at: 2026-11-12T20:32:59Z
+updated_at: 2026-11-13T09:36:47Z
 ---
 
 # Edge Compute Configuration
@@ -23,7 +23,7 @@ Covers all aspects of configuring Telnyx Edge Compute functions, including the f
 
 ## Versions and Deployments
 
-Every `telnyx-edge ship` produces an immutable revision. List a function's deploy history with `telnyx-edge revisions list <function-name>` (or `telnyx-edge deployments <function-name>`) and roll back to a previous revision with `telnyx-edge rollback <function-name> <revision-id>`, which retargets traffic instantly — no rebuild, no re-upload.
+Every `telnyx-edge ship` produces an immutable revision. List a function's deploy history (newest first; the revision currently serving traffic is marked with `*`) with `telnyx-edge revisions list <function-name>` (or `telnyx-edge deployments <function-name>`) and roll back to a previous revision with `telnyx-edge rollback <function-name> <revision-id>`, which retargets traffic instantly — no rebuild, no re-upload.
 
 ### Current Deployment Model
 
@@ -39,7 +39,7 @@ telnyx-edge revisions list my-func
 telnyx-edge rollback my-func a1b2c3d
 ```
 
-Traffic retargets to the chosen revision instantly and your Git working tree is untouched; the next `ship` deploys what is on disk as a new revision. Git-based redeploys (revert the commit, then `telnyx-edge ship`) also work for code changes but do not instantly restore traffic.
+Traffic retargets to the chosen revision instantly and your Git working tree is untouched; the next `ship` deploys what is on disk as a new revision. The target revision must have reached `deploy_ok` — `revisions list` shows each revision's deploy status. Git-based redeploys (revert the commit, then `telnyx-edge ship`) also work for code changes but do not instantly restore traffic.
 
 ## Configuration Best Practices
 
@@ -231,7 +231,7 @@ export async function handler(request) {
 Always use HTTPS when calling external services. Never hardcode secrets; use the secrets API instead:
 
 ```bash
-telnyx-edge secrets add API_KEY --value "sk-..."
+telnyx-edge secrets add API_KEY "sk-..."
 ```
 
 Then access in code:
