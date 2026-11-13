@@ -19,7 +19,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/iot-data-ingestion
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/real-time-media-pipeline
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/telecom-event-processor
-updated_at: 2026-11-13T09:36:13Z
+updated_at: 2026-11-13T10:13:33Z
 ---
 
 # Edge Compute Development Guide
@@ -34,7 +34,7 @@ Automate Edge Compute deployments with CI/CD pipelines.
 
 ### Authentication
 
-CI/CD pipelines need a Telnyx API key with Edge Compute permissions. Create a deployment key in the [Telnyx Portal](https://portal.telnyx.com) and store it as a secret in your CI/CD platform — never commit API keys to your repository. The CLI does not read `TELNYX_API_KEY` from the environment — each pipeline job must run `telnyx-edge auth api-key set "$TELNYX_API_KEY"` before `telnyx-edge ship`.
+CI/CD pipelines need a Telnyx API key with Edge Compute permissions. Create a deployment key in the [Telnyx Portal](https://portal.telnyx.com) and store it as a secret in your CI/CD platform — never commit API keys to your repository. The CLI does not read `TELNYX_API_KEY` from the environment — each pipeline job must run `telnyx-edge auth api-key set "$TELNYX_API_KEY"` before `telnyx-edge ship`, which persists the key to `~/.telnyx-edge/config.toml` for the rest of the job.
 
 ### GitHub Actions
 
