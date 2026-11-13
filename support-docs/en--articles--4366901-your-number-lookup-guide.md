@@ -25,12 +25,6 @@ The Telnyx Number Lookup API helps you know the details behind every phone numbe
 
 ---
 
-## Who it affects: All Users who use Org Permissions
-
-Organization Admins can now administer the Phone Number Details Lookup permission. This will grant sub-organization user accounts access to the Number Lookup Interface and underlying API.
-
----
-
 ## **Prerequisites**
 
 Before using Number Lookup, ensure you have:
@@ -49,13 +43,15 @@ Before using Number Lookup, ensure you have:
    ​
 2. Navigate to <https://portal.telnyx.com/#/lookup>
    ​
-3. Enter the phone number and select a **Lookup Type**:
+3. Enter the phone number and select one or more **Lookup Types**:
    ​
 
-   * **None:** Basic info (LRN only).
-   * **Carrier:** Adds carrier details.
-   * **Caller Name:** Adds CNAM.
-   * **Both:** Returns all available data.
+   * **Carrier:** Adds carrier details (MCC/MNC).
+   * **Caller Name:** Adds caller ID name (CNAM).
+   * **Caller Identity:** Adds the number owner's name, postal address, and line and identity details.
+   * **Enhanced Caller Name:** Adds an expanded caller-name data set.
+
+   You can select more than one type. Selecting none returns basic routing info (LRN only).
      ​
 4. Click **Lookup Number**.
    ​
@@ -76,6 +72,8 @@ Before using Number Lookup, ensure you have:
 | Local Routing Number (LRN) | $0.0015 per query |
 | MCC/MNC (Carrier Codes) | $0.0025 per query (mobile only) |
 | CNAM (Caller ID Name) | $0.003 per query |
+| Enhanced Caller Name | $0.02 per query |
+| Caller Identity | $0.044 per query |
 | Inbound CNAM | $0.40 per number/month |
 | Outbound CNAM Listing | Free |
 
@@ -114,7 +112,7 @@ View your rates at [Telco Pricing](https://portal.telnyx.com/#/pricing/telco). F
 
 **Limitations**
 
-* **Access:** Restricted to Organization Owners only (no sub-accounts).
+* **Access:** Organization owners have access by default. Sub-accounts can be granted access through the **Phone Number Details Lookup** organization permission — see [Get Started with Organizations](https://support.telnyx.com/en/articles/1189141-get-started-with-organizations). After the permission is granted or changed, allow a short time for it to take effect.
 * **US Toll-Free:** Resporg ID is not returned.
 
 ---
@@ -127,4 +125,4 @@ View your rates at [Telco Pricing](https://portal.telnyx.com/#/pricing/telco). F
 | Number Lookup unavailable | Zero/negative balance | [Add funds](https://portal.telnyx.com/#/app/billing/add-credit) |
 | LRN data incomplete | NPAC User not enabled | Enable in Account Settings |
 | 401 Unauthorized | Invalid API key | Verify key and header format |
-| Sub-user access denied | Owner-only feature | Use org owner credentials |
+| Sub-user access denied | Missing Number Lookup permission | Ask your org owner to grant the **Phone Number Details Lookup** permission |
