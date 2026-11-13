@@ -20,7 +20,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/runtime/index
 - url: https://developers.telnyx.com/docs/edge-compute/sqldb/index
 - url: https://developers.telnyx.com/docs/edge-compute/testing/index
-updated_at: 2026-11-12T20:45:00Z
+updated_at: 2026-11-13T08:02:23Z
 ---
 
 # Telnyx Edge Compute
@@ -115,6 +115,8 @@ Bindings provide secure, auto-authenticated access to Telnyx platform services w
 | Cloud Storage | S3-compatible storage | ✅ Available |
 | KV | Key-value store (`telnyx-edge storage kv`) | ✅ Available |
 | SQL DB | Serverless SQL database (`telnyx-edge storage sqldb`, CLI v0.3.0+) | ✅ Available |
+
+CLI commands and version floors above are per the live [CLI reference](https://developers.telnyx.com/docs/edge-compute/reference/cli), as of CLI v0.5.14.
 
 ### How Bindings Work
 

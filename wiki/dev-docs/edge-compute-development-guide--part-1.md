@@ -19,7 +19,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/iot-data-ingestion
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/real-time-media-pipeline
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/telecom-event-processor
-updated_at: 2026-11-13T07:33:12Z
+updated_at: 2026-11-13T08:02:23Z
 ---
 
 # Edge Compute Development Guide
@@ -194,7 +194,7 @@ Deploy with `telnyx-edge ship`. The API is live at `https://my-api-{func-id-pref
 Process incoming SMS messages and respond automatically based on keywords. Requires a Telnyx account with a phone number configured for SMS.
 
 ```
-telnyx-edge new-func -l=javascript -n=sms-handler
+telnyx-edge new-func -l=js -n=sms-handler
 cd sms-handler
 ```
 

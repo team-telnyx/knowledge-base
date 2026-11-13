@@ -19,7 +19,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/iot-data-ingestion
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/real-time-media-pipeline
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/telecom-event-processor
-updated_at: 2026-11-13T07:33:12Z
+updated_at: 2026-11-13T08:02:23Z
 ---
 
 # Edge Compute Development Guide
@@ -140,7 +140,7 @@ Integrate Slack notifications using `slackapi/slack-github-action` to report dep
 
 - **Branch protection**: Require CI to pass and PR reviews before merging
 - **Deployment frequency**: Dev on feature branches, staging on merge to `staging`, production on merge to `main` or version tags
-- **Monitoring**: After deployment, monitor invocation metrics, error rates, response latency, and cold start frequency (see [Edge Compute Observability](edge-compute-observability.md))
+- **Monitoring**: After deployment, monitor invocation metrics, error rates, response latency, and cold start frequency (see [Edge Compute Observability](telnyx-edge-compute--part-3.md))
 
 ### Troubleshooting
 
@@ -154,9 +154,9 @@ Framework auto-detection and adapters for popular web frameworks are in developm
 
 ## Related Resources
 
-- [Edge Compute Quickstart](edge-compute-quickstart.md) — Deploy your first function
-- [Edge Compute CLI Reference](edge-compute-cli-reference.md) — Full command documentation
-- [Edge Compute Examples](edge-compute-examples.md) — Code snippets and patterns
-- [Edge Compute Observability](edge-compute-observability.md) — Monitor deployments
-- [Edge Compute Runtime](edge-compute-runtime.md) — Execution environment details
-- [Edge Compute Limits](edge-compute-limits.md) — Platform resource limits
+- [Edge Compute Quickstart](telnyx-edge-compute--part-1.md) — Deploy your first function
+- [Edge Compute CLI Reference](telnyx-edge-compute--part-3.md) — Full command documentation
+- [Edge Compute Examples](edge-compute-development-guide--part-1.md) — Code snippets and patterns
+- [Edge Compute Observability](telnyx-edge-compute--part-3.md) — Monitor deployments
+- [Edge Compute Runtime](telnyx-edge-compute--part-2.md) — Execution environment details
+- [Edge Compute Limits](telnyx-edge-compute--part-3.md) — Platform resource limits

@@ -12,7 +12,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/routing
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/secrets
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/versions
-updated_at: 2026-11-13T07:33:12Z
+updated_at: 2026-11-13T08:02:23Z
 ---
 
 # Edge Compute Configuration
@@ -124,8 +124,10 @@ telnyx-edge secrets add DATABASE_PASSWORD "new-secure-password"
 telnyx-edge ship
 
 # 3. Verify the function works with new credentials
-curl https://your-function-{func-id-prefix}.telnyxcompute.com/health
+curl --max-time 10 https://your-function-{func-id-prefix}.telnyxcompute.com/health
 ```
+
+If verification fails, roll back: re-add the previous value with `telnyx-edge secrets add DATABASE_PASSWORD "<previous value>"` and redeploy with `telnyx-edge ship`.
 
 Rotate monthly for security compliance, after suspected credential compromise, after team member offboarding, or when third-party services rotate their keys.
 
@@ -215,16 +217,16 @@ https://{func-name}-{func-id-prefix}.telnyxcompute.com
 
 For example, a function named `hello-world` with `func_id` `0198c2c5-8f1e-7a3d-9b21-6e4a0d5f1c88` is served at `https://hello-world-0198c2c5-8.telnyxcompute.com`.
 
-The pattern — including the 10-character prefix rule — is documented on Telnyx's [Routes & Domains](https://developers.telnyx.com/docs/edge-compute/configuration/routing.md) page. You don't need to construct the URL by hand: `telnyx-edge ship` prints the exact invoke URL after a successful deploy, and `telnyx-edge list` shows the invoke URL for every function in your organization.
+The pattern — including the 10-character prefix rule — is documented on Telnyx's [Routes & Domains](https://developers.telnyx.com/docs/edge-compute/configuration/routing) page. You don't need to construct the URL by hand: `telnyx-edge list` shows the invoke URL for every function in your organization.
 
 ### Accessing Deployed Functions
 
 ```bash
 # GET request
-curl https://{func-name}-{func-id-prefix}.telnyxcompute.com
+curl --max-time 10 https://{func-name}-{func-id-prefix}.telnyxcompute.com
 
 # POST request with JSON body
-curl -X POST \
+curl --max-time 10 -X POST \
   -H "Content-Type: application/json" \
   -d '{"name": "test"}' \
   https://{func-name}-{func-id-prefix}.telnyxcompute.com
@@ -253,5 +255,5 @@ jobs:
   trigger:
     runs-on: ubuntu-latest
     steps:
-      - run: curl -X POST https://my-func-org123.telnyxcompute.com/cron
+      - run: curl -fsS --max-time 10 -X POST https://{func-name}-{func-id-prefix}.telnyxcompute.com/cron
 ```

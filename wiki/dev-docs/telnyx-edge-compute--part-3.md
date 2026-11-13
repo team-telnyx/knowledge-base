@@ -6,6 +6,7 @@ summary: Telnyx Edge Compute is a serverless platform for deploying code across 
   runtimes (Python, Go, Node.js, Java/Quarkus, TypeScript) and integrate directly
   with Telnyx Voice, Messaging, AI, and Storage services.
 sources:
+- url: https://developers.telnyx.com/docs/edge-compute/custom-domains
 - url: https://developers.telnyx.com/docs/edge-compute/network/index
 - url: https://developers.telnyx.com/docs/edge-compute/observability/index
 - url: https://developers.telnyx.com/docs/edge-compute/overview/index
@@ -20,7 +21,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/runtime/index
 - url: https://developers.telnyx.com/docs/edge-compute/sqldb/index
 - url: https://developers.telnyx.com/docs/edge-compute/testing/index
-updated_at: 2026-11-13T07:33:12Z
+updated_at: 2026-11-13T08:02:23Z
 ---
 
 # Telnyx Edge Compute
@@ -31,7 +32,7 @@ Telnyx Edge Compute is a serverless platform for deploying code across Telnyx's 
 
 ## CLI Reference
 
-The `telnyx-edge` CLI is the primary tool for deploying and managing Edge Compute functions.
+The `telnyx-edge` CLI is the primary tool for deploying and managing Edge Compute functions; the reference below is as of CLI v0.5.14.
 
 ### Authentication Commands
 
@@ -92,6 +93,8 @@ Secrets are available as environment variables in your function at runtime.
 | `telnyx-edge log-export` | Configure external log export |
 | `telnyx-edge metrics FUNCTION` | View function request and resource metrics (`--since`, default `24h`, max `168h`; CLI v0.5.2+) |
 
+Syntax and version floors per the live [CLI reference](https://developers.telnyx.com/docs/edge-compute/reference/cli), as of CLI v0.5.14.
+
 ### Storage and Actors
 
 | Command | Description |
@@ -105,14 +108,14 @@ Secrets are available as environment variables in your function at runtime.
 |---|---|
 | `telnyx-edge domains` | Manage custom domains for a function |
 | `telnyx-edge domains list` | List all custom domains for your organization |
-| `telnyx-edge domains add api.example.com <function_id>` | Map a customer-owned hostname to a function |
+| `telnyx-edge domains add api.example.com FUNCTION-ID` | Map a customer-owned hostname to a function |
 | `telnyx-edge domains verify api.example.com` | Verify domain ownership via DNS TXT record |
 | `telnyx-edge domains cert upload api.example.com --cert <cert-file> --key <key-file>` | Upload your own TLS certificate |
 | `telnyx-edge domains delete api.example.com` | Remove a custom domain mapping |
 | `telnyx-edge tunnel` | Create tunnels and run the tunnel process |
 | `telnyx-edge network route` | Manage the routes that send a subnet to a tunnel |
 
-After adding a hostname, verify domain ownership and upload your own TLS certificate before serving HTTPS traffic — custom domain support is available; see the [Custom Domains guide](https://developers.telnyx.com/docs/edge-compute/custom-domains.md) for DNS and certificate setup.
+After adding a hostname, verify domain ownership and upload your own TLS certificate before serving HTTPS traffic — custom domain support is available; see the [Custom Domains guide](https://developers.telnyx.com/docs/edge-compute/custom-domains) for DNS and certificate setup. Subcommand syntax per the live [CLI reference](https://developers.telnyx.com/docs/edge-compute/reference/cli).
 
 ### Local Development
 
@@ -137,6 +140,7 @@ Each function has a `func.toml`:
 
 ```toml
 [edge_compute]
+func_id = "<func_id>"
 func_name = "my-webhook"
 language = "python"
 
@@ -150,6 +154,7 @@ entry_point = "main.py"
 
 | Field | Description | Required |
 |---|---|---|
+| `func_id` | Function UUID, written by `new-func` when it registers the function server-side; what `ship` deploys | Yes |
 | `func_name` | Function name (used in URL) | Yes |
 | `language` | Runtime language | Yes |
 | `[env_vars]` | Environment variables | No |
@@ -254,7 +259,7 @@ Edge Compute integrates with Telnyx services through bindings:
 - **AI APIs** — Transcription, inference, and embeddings at the edge
 - **Cloud Storage** — S3-compatible storage for files and media (see Cloud Storage exception above)
 - **KV** — Low-latency key-value storage for caching and session data (via `telnyx-edge storage kv`)
-- **SQL DB** — Serverless SQL database with SQLite compatibility (via `telnyx-edge storage sqldb`; the typed binding needs SDK ≥ 0.9.0)
+- **SQL DB** — Serverless SQL database with SQLite compatibility (via `telnyx-edge storage sqldb`; the typed binding needs SDK ≥ 0.9.0, per the live [CLI reference](https://developers.telnyx.com/docs/edge-compute/reference/cli))
 
 ## Observability
 
@@ -266,7 +271,7 @@ Testing tooling and staging environments are in development. Since Edge Compute 
 
 ## Network
 
-Point-to-point tunnels are available today — `telnyx-edge tunnel create` and `tunnel run` expose on-prem services to Edge Compute, with subnet routing via `telnyx-edge network route` (CLI v0.5.14+). The full private WireGuard-based mesh connecting edge workloads, on-prem infrastructure, and cloud resources remains planned for a future release.
+Point-to-point tunnels are available today — `telnyx-edge tunnel create` and `tunnel run` expose on-prem services to Edge Compute, with subnet routing via `telnyx-edge network route` (CLI v0.5.14+, per the live [CLI reference](https://developers.telnyx.com/docs/edge-compute/reference/cli)). The full private WireGuard-based mesh connecting edge workloads, on-prem infrastructure, and cloud resources remains planned for a future release.
 
 ## Common Workflows
 
