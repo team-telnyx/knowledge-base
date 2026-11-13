@@ -19,7 +19,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/iot-data-ingestion
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/real-time-media-pipeline
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/telecom-event-processor
-updated_at: 2026-06-11T10:26:49Z
+updated_at: 2026-11-12T20:32:59Z
 ---
 
 # Edge Compute Development Guide
@@ -34,11 +34,11 @@ Automate Edge Compute deployments with CI/CD pipelines.
 
 ### Authentication
 
-CI/CD pipelines need a Telnyx API key with Edge Compute permissions. Create a deployment key in the [Telnyx Portal](https://portal.telnyx.com) and store it as a secret in your CI/CD platform — never commit API keys to your repository.
+CI/CD pipelines need a Telnyx API key with Edge Compute permissions. Create a deployment key in the [Telnyx Portal](https://portal.telnyx.com) and store it as a secret in your CI/CD platform — never commit API keys to your repository. The CLI does not read `TELNYX_API_KEY` from the environment — each pipeline job must run `telnyx-edge auth api-key set "$TELNYX_API_KEY"` before `telnyx-edge ship`.
 
 ### GitHub Actions
 
-Deploy on every push to `main`:
+Deploys on every push to `main`; tag pushes also trigger this workflow (that trigger is what fires the production job in the staging and production flow below):
 
 ```yaml
 # .github/workflows/deploy.yml
@@ -47,6 +47,7 @@ name: Deploy Edge Function
 on:
   push:
     branches: [main]
+    tags: ['v*']
 
 jobs:
   deploy:
@@ -59,57 +60,69 @@ jobs:
           sudo mv telnyx-edge /usr/local/bin/
           echo "$HOME/.telnyx/bin" >> $GITHUB_PATH
       - name: Deploy function
+        if: github.ref == 'refs/heads/main'
         env:
           TELNYX_API_KEY: ${{ secrets.TELNYX_API_KEY }}
-        run: telnyx-edge ship
+        run: |
+          telnyx-edge auth api-key set "$TELNYX_API_KEY"
+          telnyx-edge ship
 ```
 
-To run tests before deploying, add a separate `test` job that the `deploy` job depends on (`needs: test`), with an `if: github.ref == 'refs/heads/main'` guard so deploys only run on the main branch.
+This baseline example assumes a single environment. For separate staging and production functions, use the two jobs in the staging and production section below — they replace the Deploy function job, not add to it (otherwise a `main` push would deploy twice, and a tag push would ship the staging config under the production key).
+
+To run tests before deploying, add a separate `test` job that the `deploy` job depends on (`needs: test`). Put a main-branch guard (`if: github.ref == 'refs/heads/main'`) on staging-only jobs; the production job fires on `v*` tags, so it must not be gated on the branch. Keep the shared `test` job itself ungated — if `test` is guarded on the branch, a `v*` tag push skips it, and every job that `needs: test` (including production) is skipped with it.
 
 ### GitLab CI
 
-Use a two-stage pipeline (`test`, `deploy`) with the deploy stage restricted to the `main` branch. Download and install the CLI in the deploy script, and set `TELNYX_API_KEY` as a CI variable.
+Use a two-stage pipeline (`test`, `deploy`) with the deploy stage restricted to the `main` branch. Download and install the CLI in the deploy script, set `TELNYX_API_KEY` as a CI variable, and run `telnyx-edge auth api-key set "$TELNYX_API_KEY"` before `telnyx-edge ship`.
 
 ### CircleCI
 
-Define `test` and `deploy` jobs with a workflow that requires test to pass and filters to the `main` branch. Install the CLI in the deploy job and run `telnyx-edge ship`.
+Define `test` and `deploy` jobs with a workflow that requires test to pass and filters to the `main` branch. Install the CLI in the deploy job and run `telnyx-edge auth api-key set "$TELNYX_API_KEY"` before `telnyx-edge ship`.
 
-### Environment Promotion
+### Staging and production
 
-Deploy to different environments using branches or tags. Map the `staging` branch to dev and the `main` branch or `v*` tags to production using separate API key secrets:
+There is no environment flag and no environment promotion: `telnyx-edge ship` always deploys the function that `func.toml` names. Environments are separate functions — for example `my-api-staging` and `my-api` — each with its own URL, bindings, and revision history. Register each environment's function once with `telnyx-edge new-func -l=ts -n=my-api-staging` (the CLI creates the function and writes its `func_id` into that directory's `func.toml` — a one-time setup step, not a CI step). The committed root `func.toml` is the staging config — one file, one source of truth, doubling as the default for local and manual `telnyx-edge ship` runs — and only the production job overwrites it with `cp deploy/func.production.toml func.toml`, so the staging and production configurations can never drift. The workflow triggers on `main` and `v*` tags (the `on:` block in the GitHub Actions example above); with only `branches: [main]`, the production job's tag condition would never match and only staging would ever deploy. These two steps replace the baseline example's Deploy function job — they are not added alongside it. Each job authenticates by running `telnyx-edge auth api-key set "$TELNYX_API_KEY"` before `telnyx-edge ship` — the CLI does not read `TELNYX_API_KEY` from the environment. Hosted CI runners are ephemeral, so the key's on-disk config lasts only for the job; on self-hosted or persistent runners, provision the key per job from that job's secret and clear it afterwards (`telnyx-edge auth api-key clear`) — the CLI has no stdin or config-file auth option:
 
 ```yaml
-- name: Deploy to dev
-  if: github.ref == 'refs/heads/staging'
+# .github/workflows/deploy.yml — staging on main, production on v* tags
+- name: Ship the staging function
+  if: github.ref == 'refs/heads/main'
   env:
-    TELNYX_API_KEY: ${{ secrets.TELNYX_API_KEY_DEV }}
-  run: telnyx-edge ship --env dev
+    TELNYX_API_KEY: ${{ secrets.TELNYX_API_KEY_STAGING }}
+  run: |
+    telnyx-edge auth api-key set "$TELNYX_API_KEY"
+    telnyx-edge ship
 
-- name: Deploy to production
-  if: github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v')
+- name: Ship the production function
+  if: startsWith(github.ref, 'refs/tags/v')
   env:
     TELNYX_API_KEY: ${{ secrets.TELNYX_API_KEY_PRODUCTION }}
-  run: telnyx-edge ship --env prod
+  run: |
+    telnyx-edge auth api-key set "$TELNYX_API_KEY"
+    cp deploy/func.production.toml func.toml
+    telnyx-edge ship
 ```
+
+Because bindings are declared in `func.toml`, both configs can also point at per-environment resources — for example a separate [KV](kv--part-1.md) namespace id per environment. If staging and production live in different Telnyx accounts, store one API key secret per account and reference the right one in each job, as above. Alternatively, keep one function directory per environment and ship each with `telnyx-edge ship --from-dir=<path>`. Set `timeout-minutes` on each job so a stalled upload fails the job quickly instead of hanging the runner until the default six-hour job timeout.
 
 ### Rollbacks
 
-Redeploy a previous Git commit:
+Every `telnyx-edge ship` produces an immutable revision. To see a function's deploy history (newest first):
 
 ```
-git revert HEAD
-git push origin main
+telnyx-edge revisions list my-func
 ```
 
-Or checkout a specific commit and deploy:
+To roll back — production or staging — retarget traffic to a previous revision (instant; no rebuild, no re-upload):
 
 ```
-git checkout <previous-commit-sha>
-telnyx-edge ship
-git checkout main
+telnyx-edge rollback my-func a1b2c3d
 ```
 
-Version history and CLI rollback commands are coming soon.
+Rollback switches traffic to the chosen revision immediately and leaves your Git working tree untouched; to roll forward again, `ship` again or `rollback` to another revision. (`telnyx-edge deployments my-func` lists the same function's deploy events.)
+
+Git-based redeploys also work for code changes — `git revert` plus a push to `main` for staging, or a new `v*` tag for production — but they re-upload and re-validate instead of instantly restoring traffic.
 
 ### Health Checks
 
@@ -130,7 +143,7 @@ Add a health check step after deployment to detect issues:
 
 - **GitHub Actions**: Settings → Secrets and variables → Actions → New repository secret
 - **GitLab CI**: Settings → CI/CD → Variables (add as masked variable)
-- Use different API keys per environment with conditional expressions
+- Give each pipeline job its own API key secret, as in the staging and production jobs above; use separate API keys per account only when staging and production live in different Telnyx accounts
 
 ### Deployment Notifications
 
@@ -139,8 +152,8 @@ Integrate Slack notifications using `slackapi/slack-github-action` to report dep
 ### Best Practices
 
 - **Branch protection**: Require CI to pass and PR reviews before merging
-- **Deployment frequency**: Dev on feature branches, staging on merge to `staging`, production on merge to `main` or version tags
-- **Monitoring**: After deployment, monitor invocation metrics, error rates, response latency, and cold start frequency (see [Edge Compute Observability](edge-compute-observability.md))
+- **Deployment frequency**: Dev on feature branches, staging on merge to `main`, production on `v*` version tags
+- **Monitoring**: After deployment, monitor invocation metrics, error rates, response latency, and cold start frequency (see [Edge Compute Observability](edge-compute-configuration--part-3.md))
 
 ### Troubleshooting
 
@@ -154,9 +167,9 @@ Framework auto-detection and adapters for popular web frameworks are in developm
 
 ## Related Resources
 
-- [Edge Compute Quickstart](edge-compute-quickstart.md) — Deploy your first function
-- [Edge Compute CLI Reference](edge-compute-cli-reference.md) — Full command documentation
-- [Edge Compute Examples](edge-compute-examples.md) — Code snippets and patterns
-- [Edge Compute Observability](edge-compute-observability.md) — Monitor deployments
-- [Edge Compute Runtime](edge-compute-runtime.md) — Execution environment details
-- [Edge Compute Limits](edge-compute-limits.md) — Platform resource limits
+- [Edge Compute Quickstart](telnyx-edge-compute--part-1.md) — Deploy your first function
+- [Edge Compute CLI Reference](telnyx-edge-compute--part-3.md) — Full command documentation
+- [Edge Compute Examples](edge-compute-development-guide--part-2.md) — Code snippets and patterns
+- [Edge Compute Observability](edge-compute-configuration--part-3.md) — Monitor deployments
+- [Edge Compute Runtime](telnyx-edge-compute--part-2.md) — Execution environment details
+- [Edge Compute Limits](telnyx-edge-compute--part-3.md) — Platform resource limits
