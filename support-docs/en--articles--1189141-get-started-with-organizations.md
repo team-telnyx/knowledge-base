@@ -157,6 +157,10 @@ Manage call recording settings giving them the ability to create, read, update a
 
 ![](_images/43f0984664170800.png)
 
+## Number Lookup Permissions
+
+Grant sub-accounts access to Number Lookup. The **Phone Number Details Lookup** permission lets sub-members use the [Number Lookup](https://portal.telnyx.com/#/app/lookup) page in the portal and the underlying Number Lookup API to retrieve carrier, caller name (CNAM), and portability (LRN) details for phone numbers. The organization owner has this access by default. After you grant or change the permission, allow a short time for it to take effect for the sub-account.
+
 ---
 
 ## Example Permissions
@@ -193,8 +197,7 @@ Whilst we try to cover and provide as many permission sets to as many features a
    3. Notifications
 3. [Advanced Features](https://portal.telnyx.com/#/app/advanced-features)
 4. [Debugging Tools](https://portal.telnyx.com/#/app/debugging/sip-call-flow-tool)
-5. [Number Lookup](https://portal.telnyx.com/#/app/lookup)
-6. [Telnyx Storage](https://support.telnyx.com/en/articles/8344129-get-started-with-telnyx-storage-guide#h_3a1098a2f9)
+5. [Telnyx Storage](https://support.telnyx.com/en/articles/8344129-get-started-with-telnyx-storage-guide#h_3a1098a2f9)
 
 Sub members **do not** have access to the **verification** or **single sign on** pages as these can only ever required/configurable by the organisation owner. If a sub member attempts to paste the url of these links into the webpage, they will be met with an error.
 
