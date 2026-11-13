@@ -241,9 +241,9 @@ Wondering if Telnyx provides hardware? Here we will answer that question and wha
 
 Here we explain the types of equipment that Telnyx uses for our network.
 
-[Telnyx Freemium Accounts](https://support.telnyx.com/en/articles/14327893-telnyx-freemium-accounts)
+[Telnyx Pretrial Accounts](https://support.telnyx.com/en/articles/14327893-telnyx-freemium-accounts)
 
-Learn how Telnyx Freemium accounts work, including the $25 AI credit, magic link sign-in, available products, how to upgrade to a full account, and common billing questions.
+Learn how Telnyx Pretrial accounts work, including the $25 AI credit, magic link sign-in, available products, how to upgrade to a full account, and common billing questions.
 
 [## Telnyx Support Best Practices](https://support.telnyx.com/en/collections/1513313-telnyx-support-best-practices)
 
