@@ -20,7 +20,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/runtime/index
 - url: https://developers.telnyx.com/docs/edge-compute/sqldb/index
 - url: https://developers.telnyx.com/docs/edge-compute/testing/index
-updated_at: 2026-06-11T10:27:59Z
+updated_at: 2026-11-13T08:02:23Z
 ---
 
 # Telnyx Edge Compute
@@ -72,7 +72,7 @@ Set internal timeouts shorter than the platform limit (e.g., 25 seconds) to leav
 
 ### Triggers
 
-Functions are invoked via **HTTP requests** (accessible at `https://{funcName}-{orgId}.telnyxcompute.com`) and **webhooks** (configure Telnyx services to call your function). Cron triggers are coming soon.
+Functions are invoked via **HTTP requests** (accessible at `https://{func-name}-{func-id-prefix}.telnyxcompute.com`) and **webhooks** (configure Telnyx services to call your function). Cron triggers are coming soon.
 
 ### Graceful Shutdown
 
@@ -113,8 +113,10 @@ Bindings provide secure, auto-authenticated access to Telnyx platform services w
 | Fax | Send faxes | ✅ Available |
 | Verify | 2FA/verification | ✅ Available |
 | Cloud Storage | S3-compatible storage | ✅ Available |
-| KV | Key-value store | 🔜 Coming soon |
-| SQL DB | Serverless database | 🔜 Coming soon |
+| KV | Key-value store (`telnyx-edge storage kv`) | ✅ Available |
+| SQL DB | Serverless SQL database (`telnyx-edge storage sqldb`, CLI v0.3.0+) | ✅ Available |
+
+CLI commands and version floors above are per the live [CLI reference](https://developers.telnyx.com/docs/edge-compute/reference/cli), as of CLI v0.5.14.
 
 ### How Bindings Work
 
@@ -171,4 +173,4 @@ The binding proxy handles `api.telnyx.com` routes only; S3-compatible calls go d
 | Rotation | `bindings update` | Manual re-add |
 | Use case | Telnyx SDK/API integration | Database passwords, external API keys |
 
-Use bindings for Telnyx service access; use [secrets](telnyx-edge-compute-secrets-and-configuration.md) for third-party services or when you need multiple different credentials.
+Use bindings for Telnyx service access; use [secrets](edge-compute-configuration--part-2.md) for third-party services or when you need multiple different credentials.

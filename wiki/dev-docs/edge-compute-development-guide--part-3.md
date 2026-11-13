@@ -19,7 +19,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/iot-data-ingestion
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/real-time-media-pipeline
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/telecom-event-processor
-updated_at: 2026-11-13T10:13:33Z
+updated_at: 2026-11-13T10:28:47Z
 ---
 
 # Edge Compute Development Guide
@@ -131,12 +131,16 @@ Add a health check step after deployment to detect issues:
 ```yaml
 - name: Health check
   run: |
-    sleep 10
-    STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://my-function-abc123.telnyxcompute.com/health)
-    if [ "$STATUS" != "200" ]; then
-      echo "Health check failed!"
-      exit 1
-    fi
+    for i in $(seq 1 10); do
+      STATUS=$(curl -s --max-time 10 -o /dev/null -w "%{http_code}" https://{func-name}-{func-id-prefix}.telnyxcompute.com/health/readiness)
+      if [ "$STATUS" = "200" ]; then
+        echo "Health check passed (attempt $i)"
+        exit 0
+      fi
+      sleep 5
+    done
+    echo "Health check failed after 10 attempts (last status: $STATUS)"
+    exit 1
 ```
 
 ### Secrets Management
@@ -153,7 +157,7 @@ Integrate Slack notifications using `slackapi/slack-github-action` to report dep
 
 - **Branch protection**: Require CI to pass and PR reviews before merging
 - **Deployment frequency**: Dev on feature branches, staging on merge to `main`, production on `v*` version tags
-- **Monitoring**: After deployment, monitor invocation metrics, error rates, response latency, and cold start frequency (see [Edge Compute Observability](edge-compute-configuration--part-3.md))
+- **Monitoring**: After deployment, monitor invocation metrics, error rates, response latency, and cold start frequency (see [Edge Compute Observability](telnyx-edge-compute--part-3.md))
 
 ### Troubleshooting
 
@@ -170,6 +174,6 @@ Framework auto-detection and adapters for popular web frameworks are in developm
 - [Edge Compute Quickstart](telnyx-edge-compute--part-1.md) — Deploy your first function
 - [Edge Compute CLI Reference](telnyx-edge-compute--part-3.md) — Full command documentation
 - [Edge Compute Examples](edge-compute-development-guide--part-2.md) — Code snippets and patterns
-- [Edge Compute Observability](edge-compute-configuration--part-3.md) — Monitor deployments
+- [Edge Compute Observability](telnyx-edge-compute--part-3.md) — Monitor deployments
 - [Edge Compute Runtime](telnyx-edge-compute--part-2.md) — Execution environment details
 - [Edge Compute Limits](telnyx-edge-compute--part-3.md) — Platform resource limits

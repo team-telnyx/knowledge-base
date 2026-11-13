@@ -19,7 +19,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/iot-data-ingestion
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/real-time-media-pipeline
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/telecom-event-processor
-updated_at: 2026-11-12T18:11:20Z
+updated_at: 2026-11-13T10:04:08Z
 ---
 
 # Edge Compute Development Guide
@@ -195,7 +195,7 @@ curl http://localhost:8080/items/1
 curl -X DELETE http://localhost:8080/items/1
 ```
 
-Deploy with `telnyx-edge ship`. The API is live at `https://my-api-{orgId}.telnyxcompute.com`.
+Deploy with `telnyx-edge ship`. The API is live at `https://my-api-{func-id-prefix}.telnyxcompute.com`.
 
 ### SMS Webhook Handler
 
@@ -204,7 +204,7 @@ Deploy with `telnyx-edge ship`. The API is live at `https://my-api-{orgId}.telny
 Process incoming SMS messages and respond automatically based on keywords. Requires a Telnyx account with a phone number configured for SMS.
 
 ```
-telnyx-edge new-func -l=javascript -n=sms-handler
+telnyx-edge new-func -l=js -n=sms-handler
 cd sms-handler
 ```
 
@@ -239,7 +239,7 @@ Accepts query parameters `url` (required), `w` (width), `h` (height), and `q` (q
 Test after deploying:
 
 ```
-https://image-resizer-{orgId}.telnyxcompute.com/?url=https://example.com/photo.jpg&w=400&q=80
+https://image-resizer-{func-id-prefix}.telnyxcompute.com/?url=https://example.com/photo.jpg&w=400&q=80
 ```
 
 ### Upcoming Tutorials

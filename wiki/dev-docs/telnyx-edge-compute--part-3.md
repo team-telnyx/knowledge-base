@@ -6,6 +6,7 @@ summary: Telnyx Edge Compute is a serverless platform for deploying code across 
   runtimes (Python, Go, Node.js, Java/Quarkus, TypeScript) and integrate directly
   with Telnyx Voice, Messaging, AI, and Storage services.
 sources:
+- url: https://developers.telnyx.com/docs/edge-compute/custom-domains
 - url: https://developers.telnyx.com/docs/edge-compute/network/index
 - url: https://developers.telnyx.com/docs/edge-compute/observability/index
 - url: https://developers.telnyx.com/docs/edge-compute/overview/index
@@ -20,7 +21,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/runtime/index
 - url: https://developers.telnyx.com/docs/edge-compute/sqldb/index
 - url: https://developers.telnyx.com/docs/edge-compute/testing/index
-updated_at: 2026-11-12T20:32:59Z
+updated_at: 2026-11-13T10:05:10Z
 ---
 
 # Telnyx Edge Compute
@@ -31,12 +32,13 @@ Telnyx Edge Compute is a serverless platform for deploying code across Telnyx's 
 
 ## CLI Reference
 
-The `telnyx-edge` CLI is the primary tool for deploying and managing Edge Compute functions.
+The `telnyx-edge` CLI is the primary tool for deploying and managing Edge Compute functions; the reference below is as of CLI v0.5.14.
 
 ### Authentication Commands
 
 | Command | Description |
 |---|---|
+| `telnyx-edge auth` | Authenticate the CLI and manage stored credentials |
 | `telnyx-edge auth login` | OAuth browser login |
 | `telnyx-edge auth api-key set KEY` | Set API key directly |
 | `telnyx-edge auth api-key clear` | Clear stored API key |
@@ -49,14 +51,17 @@ The CLI does not read `TELNYX_API_KEY` from the environment; CLI authentication 
 
 | Command | Description |
 |---|---|
-| `telnyx-edge new-func -l=LANG -n=NAME` | Create a new function |
-| `telnyx-edge ship` | Deploy from current directory |
+| `telnyx-edge new-func -l LANG -n NAME` | Scaffold a new function |
+| `telnyx-edge ship` | Build and deploy a function |
 | `telnyx-edge ship --from-dir=DIR` | Deploy from a specific directory |
-| `telnyx-edge delete-func NAME` | Permanently delete a function |
-| `telnyx-edge list` | List all functions in your organization |
+| `telnyx-edge ship status` | Show the latest ship outcome and failure details |
+| `telnyx-edge list` | List all functions in your organization, with each function's invoke URL |
+| `telnyx-edge inspect` | Show function details |
 | `telnyx-edge revisions list NAME` | List a function's deployed revisions, newest first (deploy status; serving revision marked with *) |
-| `telnyx-edge deployments NAME` | Show a function's deploy history, including why deploys failed |
 | `telnyx-edge rollback NAME REVISION-ID` | Instantly retarget traffic to a previously deployed revision |
+| `telnyx-edge deployments NAME` | Show a function's deploy history, including why deploys failed |
+| `telnyx-edge reset-func NAME` | Reset a failed function to `created` |
+| `telnyx-edge delete-func NAME` | Permanently delete a function |
 
 The `new-func` command supports languages: `python`, `go`, `quarkus`, `js`, `ts`.
 
@@ -64,17 +69,70 @@ The `new-func` command supports languages: `python`, `go`, `quarkus`, `js`, `ts`
 
 | Command | Description |
 |---|---|
+| `telnyx-edge secrets` | Manage organization-scoped secrets |
 | `telnyx-edge secrets add NAME "VALUE"` | Add an encrypted secret |
 | `telnyx-edge secrets list` | List secret names (values hidden) |
 | `telnyx-edge secrets delete NAME` | Delete a secret |
 
 Secrets are available as environment variables in your function at runtime.
 
+### Bindings
+
+| Command | Description |
+|---|---|
+| `telnyx-edge bindings` | Manage the organization-level Telnyx API binding |
+| `telnyx-edge bindings create` | Provision the org credential — one per organization |
+| `telnyx-edge bindings get` | Show binding metadata |
+| `telnyx-edge bindings validate` | Check the credential works |
+| `telnyx-edge bindings update` | Regenerate — use if you suspect compromise |
+| `telnyx-edge bindings delete` | Remove it; functions lose automatic Telnyx API access |
+
+### Observability
+
+| Command | Description |
+|---|---|
+| `telnyx-edge logs FUNCTION` | Read runtime or invocation logs (`--since`, `--type`, `--tail`; CLI v0.5.1+, `--tail` v0.5.3+) |
+| `telnyx-edge log-export` | Configure external log export |
+| `telnyx-edge metrics FUNCTION` | View function request and resource metrics (`--since`, default `24h`, max `168h`; CLI v0.5.2+) |
+
+Syntax and version floors per the live [CLI reference](https://developers.telnyx.com/docs/edge-compute/reference/cli), as of CLI v0.5.14.
+
+### Storage and Actors
+
+| Command | Description |
+|---|---|
+| `telnyx-edge storage` | Manage KV and SQL storage |
+| `telnyx-edge actors` | Inspect and manage Stateful Actor types |
+
+### Networking
+
+| Command | Description |
+|---|---|
+| `telnyx-edge domains` | Manage custom domains for a function |
+| `telnyx-edge domains list` | List all custom domains for your organization |
+| `telnyx-edge domains add api.example.com FUNCTION-ID` | Map a customer-owned hostname to a function |
+| `telnyx-edge domains verify api.example.com` | Verify domain ownership via DNS TXT record |
+| `telnyx-edge domains cert upload api.example.com --cert CERT-FILE --key KEY-FILE` | Upload your own TLS certificate |
+| `telnyx-edge domains delete api.example.com` | Remove a custom domain mapping |
+| `telnyx-edge tunnel` | Create tunnels and run the tunnel process |
+| `telnyx-edge network route` | Manage the routes that send a subnet to a tunnel |
+
+After adding a hostname, verify domain ownership and upload your own TLS certificate before serving HTTPS traffic — custom domain support is available; see the [Custom Domains guide](https://developers.telnyx.com/docs/edge-compute/custom-domains) for DNS and certificate setup. Subcommand syntax per the live [CLI reference](https://developers.telnyx.com/docs/edge-compute/reference/cli).
+
+### Local Development
+
+| Command | Description |
+|---|---|
+| `telnyx-edge dev` | Run a project locally |
+| `telnyx-edge types` | Generate TypeScript types from your manifest |
+
 ### System Commands
 
 | Command | Description |
 |---|---|
-| `telnyx-edge status` | Show CLI version, auth status, connectivity |
+| `telnyx-edge config` | View and change CLI preferences |
+| `telnyx-edge update` | Upgrade the installed CLI in place |
+| `telnyx-edge status` | Check CLI configuration and API connectivity |
 | `telnyx-edge --help` | General help |
 | `telnyx-edge COMMAND --help` | Command-specific help |
 
@@ -84,23 +142,21 @@ Each function has a `func.toml`:
 
 ```toml
 [edge_compute]
+func_id = "<func_id>"
 func_name = "my-webhook"
-language = "python"
 
 [env_vars]
 LOG_LEVEL = "info"
 API_ENDPOINT = "https://api.example.com"
-
-[build]
-entry_point = "main.py"
 ```
 
 | Field | Description | Required |
 |---|---|---|
+| `func_id` | Function UUID, written by `new-func` when it registers the function server-side; what `ship` deploys | Yes |
 | `func_name` | Function name (used in URL) | Yes |
-| `language` | Runtime language | Yes |
 | `[env_vars]` | Environment variables | No |
-| `[build]` | Build configuration | No |
+
+There is no `language` key or build block in the manifest — the runtime comes from the project files the scaffold creates (`telnyx-edge new-func -l <lang>`).
 
 ## Limits and Quotas
 
@@ -162,7 +218,9 @@ Contact [support@telnyx.com](mailto:support@telnyx.com) for higher enterprise li
 | Payload Too Large | 413 | Request/response body exceeded limit |
 | Rate Limited | 429 | Too many requests or deployments |
 
-### Storage Limits (Coming Soon)
+### Storage Limits
+
+These values have not been verified against current platform limits.
 
 **KV Storage:**
 
@@ -198,12 +256,12 @@ Edge Compute integrates with Telnyx services through bindings:
 - **Messaging API** — Send and receive SMS/MMS with custom logic
 - **AI APIs** — Transcription, inference, and embeddings at the edge
 - **Cloud Storage** — S3-compatible storage for files and media (see Cloud Storage exception above)
-- **KV** — Low-latency key-value storage for caching and session data (coming soon)
-- **SQL DB** — Serverless SQL database with SQLite compatibility (coming soon)
+- **KV** — Low-latency key-value storage for caching and session data (via `telnyx-edge storage kv`)
+- **SQL DB** — Serverless SQL database with SQLite compatibility (via `telnyx-edge storage sqldb`; the typed binding needs SDK ≥ 0.9.0 — the first release exporting `SqlDatabase`, per the [SQL Databases quick start](https://developers.telnyx.com/docs/edge-compute/sqldb/quick-start))
 
 ## Observability
 
-Observability features (logs, metrics, tracing) are in development. They will let you monitor your Edge Compute functions with real-time logs, performance metrics, and request tracing.
+Runtime and invocation logs are available today: `telnyx-edge logs <function>` reads either stream (`--type runtime|invocations`, with `--tail` to follow new lines as they arrive), and `telnyx-edge log-export` sends them to an external sink. Request, latency, CPU, and memory metrics are available via `telnyx-edge metrics <function>` (`--since` bounds the window, up to 168h). Request tracing is not yet available.
 
 ## Testing
 
@@ -211,7 +269,7 @@ Testing tooling and staging environments are in development. Since Edge Compute 
 
 ## Network
 
-Private WireGuard-based mesh networking connecting your edge compute workloads, on-premise infrastructure, and cloud resources is planned for a future release.
+Point-to-point tunnels are available today — `telnyx-edge tunnel create` and `tunnel run` expose on-prem services to Edge Compute, with subnet routing via `telnyx-edge network route` (CLI v0.5.14+, per the live [CLI reference](https://developers.telnyx.com/docs/edge-compute/reference/cli)). The full private WireGuard-based mesh connecting edge workloads, on-prem infrastructure, and cloud resources remains planned for a future release.
 
 ## Common Workflows
 
@@ -219,7 +277,7 @@ Private WireGuard-based mesh networking connecting your edge compute workloads, 
 
 ```bash
 telnyx-edge auth login
-telnyx-edge new-func -l=python -n=my-first-function
+telnyx-edge new-func -l python -n my-first-function
 cd my-first-function
 # ... edit your code ...
 telnyx-edge ship
