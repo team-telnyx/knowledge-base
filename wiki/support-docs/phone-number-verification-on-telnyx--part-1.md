@@ -13,7 +13,7 @@ sources:
 - url: https://support.telnyx.com/en/articles/5701653-telnyx-verify-2fa-made-easy
 - url: https://support.telnyx.com/en/articles/6790265-verified-numbers-faq
 - url: https://support.telnyx.com/en/articles/6988813-verified-numbers
-updated_at: 2026-06-11T11:43:04Z
+updated_at: 2026-11-06T12:31:07Z
 ---
 
 # Phone Number Verification on Telnyx
@@ -24,7 +24,7 @@ Telnyx offers multiple verification features: Verified Numbers let you confirm o
 
 ## Verified Numbers (Caller ID Verification)
 
-A Verified Number is a phone number that has not been ported to Telnyx but whose owner has authenticated ownership through the Mission Control Portal. Once verified, the number is authorized to display as the calling line identification (CLI) on outbound calls made through the Telnyx platform (SIP Trunking and Programmable Voice). This applies to voice services only, not SMS.
+A Verified Number is a phone number that has not been ported to Telnyx but whose owner has authenticated ownership through the Mission Control Portal. Once verified, the number is authorized for use as the outbound caller ID (CLI) on calls made through the Telnyx platform (SIP Trunking and Programmable Voice). This applies to voice services only, not SMS. Verification does not guarantee CLI presentation. In some countries, including certain European destinations, presentation of verified third-party numbers is handled on a best-effort basis and remains subject to destination requirements and downstream carrier policies.
 
 After February 15, 2023, Telnyx users cannot make calls from unverified, non-Telnyx numbers. A call attempt using an unverified non-Telnyx number will be rejected with a **403 Unverified Caller Origination Number D51** SIP error.
 

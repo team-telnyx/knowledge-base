@@ -45,6 +45,8 @@ The `telnyx-edge` CLI is the primary tool for deploying and managing Edge Comput
 | `telnyx-edge auth status` | Check authentication status |
 | `telnyx-edge auth logout` | Clear stored credentials |
 
+The CLI does not read `TELNYX_API_KEY` from the environment; CLI authentication is `telnyx-edge auth api-key set KEY` (persisted to the CLI config, one key per runner) or `telnyx-edge auth login` (OAuth browser login).
+
 ### Function Management
 
 | Command | Description |
@@ -53,13 +55,13 @@ The `telnyx-edge` CLI is the primary tool for deploying and managing Edge Comput
 | `telnyx-edge ship` | Build and deploy a function |
 | `telnyx-edge ship --from-dir=DIR` | Deploy from a specific directory |
 | `telnyx-edge ship status` | Show the latest ship outcome and failure details |
-| `telnyx-edge list` | List functions |
+| `telnyx-edge list` | List all functions in your organization |
 | `telnyx-edge inspect` | Show function details |
-| `telnyx-edge revisions list NAME` | List immutable function revisions |
-| `telnyx-edge rollback NAME REVISION-ID` | Route traffic back to a prior revision |
-| `telnyx-edge deployments NAME` | View deployment history |
+| `telnyx-edge revisions list NAME` | List a function's deployed revisions, newest first (deploy status; serving revision marked with *) |
+| `telnyx-edge rollback NAME REVISION-ID` | Instantly retarget traffic to a previously deployed revision |
+| `telnyx-edge deployments NAME` | Show a function's deploy history, including why deploys failed |
 | `telnyx-edge reset-func NAME` | Reset a failed function to `created` |
-| `telnyx-edge delete-func NAME` | Delete a function |
+| `telnyx-edge delete-func NAME` | Permanently delete a function |
 
 The `new-func` command supports languages: `python`, `go`, `quarkus`, `js`, `ts`.
 
