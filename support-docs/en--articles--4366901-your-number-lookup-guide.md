@@ -25,12 +25,6 @@ The Telnyx Number Lookup API helps you know the details behind every phone numbe
 
 ---
 
-## Who it affects: All Users who use Org Permissions
-
-Organization Admins can now administer the Phone Number Details Lookup permission. This will grant sub-organization user accounts access to the Number Lookup Interface and underlying API.
-
----
-
 ## **Prerequisites**
 
 Before using Number Lookup, ensure you have:
