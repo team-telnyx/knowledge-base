@@ -20,7 +20,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/runtime/index
 - url: https://developers.telnyx.com/docs/edge-compute/sqldb/index
 - url: https://developers.telnyx.com/docs/edge-compute/testing/index
-updated_at: 2026-11-12T21:09:05Z
+updated_at: 2026-11-13T07:33:12Z
 ---
 
 # Telnyx Edge Compute
@@ -88,9 +88,9 @@ Secrets are available as environment variables in your function at runtime.
 
 | Command | Description |
 |---|---|
-| `telnyx-edge logs` | Read runtime or invocation logs |
+| `telnyx-edge logs FUNCTION` | Read runtime or invocation logs (`--since`, `--type`, `--tail`; CLI v0.5.1+, `--tail` v0.5.3+) |
 | `telnyx-edge log-export` | Configure external log export |
-| `telnyx-edge metrics` | View function request and resource metrics |
+| `telnyx-edge metrics FUNCTION` | View function request and resource metrics (`--since`, default `24h`, max `168h`; CLI v0.5.2+) |
 
 ### Storage and Actors
 
@@ -103,9 +103,16 @@ Secrets are available as environment variables in your function at runtime.
 
 | Command | Description |
 |---|---|
-| `telnyx-edge domains` | Manage custom domains |
+| `telnyx-edge domains` | Manage custom domains for a function |
+| `telnyx-edge domains list` | List all custom domains for your organization |
+| `telnyx-edge domains add api.example.com <function_id>` | Map a customer-owned hostname to a function |
+| `telnyx-edge domains verify api.example.com` | Verify domain ownership via DNS TXT record |
+| `telnyx-edge domains cert upload api.example.com --cert <cert-file> --key <key-file>` | Upload your own TLS certificate |
+| `telnyx-edge domains delete api.example.com` | Remove a custom domain mapping |
 | `telnyx-edge tunnel` | Create tunnels and run the tunnel process |
 | `telnyx-edge network route` | Manage the routes that send a subnet to a tunnel |
+
+After adding a hostname, verify domain ownership and upload your own TLS certificate before serving HTTPS traffic — custom domain support is available; see the [Custom Domains guide](https://developers.telnyx.com/docs/edge-compute/custom-domains.md) for DNS and certificate setup.
 
 ### Local Development
 
@@ -210,7 +217,7 @@ Contact [support@telnyx.com](mailto:support@telnyx.com) for higher enterprise li
 
 ### Storage Limits
 
-The limit values below are carried over from the original corpus snapshot and have not been re-verified against current platform limits.
+These values have not been verified against current platform limits.
 
 **KV Storage:**
 

@@ -20,7 +20,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/runtime/index
 - url: https://developers.telnyx.com/docs/edge-compute/sqldb/index
 - url: https://developers.telnyx.com/docs/edge-compute/testing/index
-updated_at: 2026-11-12T20:45:00Z
+updated_at: 2026-11-13T07:33:12Z
 ---
 
 # Telnyx Edge Compute
@@ -117,7 +117,7 @@ The CLI validates the function structure, checks authentication, packages files,
 
 ### Test the Function
 
-Functions are accessible at URLs following the pattern `https://{func-name}-{func-id-prefix}.telnyxcompute.com`, where `func-name` is the `func_name` from your `func.toml` and `func-id-prefix` is the first 10 characters of the function's `func_id` (stable across deploys):
+Functions are accessible at URLs following the pattern `https://{func-name}-{func-id-prefix}.telnyxcompute.com`, where `func-name` is the `func_name` from your `func.toml` and `func-id-prefix` is the first 10 characters of the function's `func_id` (stable across deploys — the [Routes & Domains](https://developers.telnyx.com/docs/edge-compute/configuration/routing.md) documentation specifies this pattern; `telnyx-edge ship` prints the exact URL after deploy):
 
 ```bash
 curl https://hello-world-0198c2c5-8.telnyxcompute.com \
@@ -135,7 +135,7 @@ Every Edge Compute function consists of three components:
 
 ```toml
 [edge_compute]
-func_id = "func-abc123def456"
+func_id = "0198c2c5-8f1e-7a3d-9b21-6e4a0d5f1c88"
 func_name = "hello-world"
 
 [env_vars]

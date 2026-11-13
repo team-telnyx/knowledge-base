@@ -12,7 +12,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/routing
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/secrets
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/versions
-updated_at: 2026-11-12T20:45:00Z
+updated_at: 2026-11-13T07:33:12Z
 ---
 
 # Edge Compute Configuration
@@ -124,7 +124,7 @@ telnyx-edge secrets add DATABASE_PASSWORD "new-secure-password"
 telnyx-edge ship
 
 # 3. Verify the function works with new credentials
-curl https://your-function.telnyxcompute.com/health
+curl https://your-function-{func-id-prefix}.telnyxcompute.com/health
 ```
 
 Rotate monthly for security compliance, after suspected credential compromise, after team member offboarding, or when third-party services rotate their keys.
@@ -215,17 +215,19 @@ https://{func-name}-{func-id-prefix}.telnyxcompute.com
 
 For example, a function named `hello-world` with `func_id` `0198c2c5-8f1e-7a3d-9b21-6e4a0d5f1c88` is served at `https://hello-world-0198c2c5-8.telnyxcompute.com`.
 
+The pattern — including the 10-character prefix rule — is documented on Telnyx's [Routes & Domains](https://developers.telnyx.com/docs/edge-compute/configuration/routing.md) page. You don't need to construct the URL by hand: `telnyx-edge ship` prints the exact invoke URL after a successful deploy, and `telnyx-edge list` shows the invoke URL for every function in your organization.
+
 ### Accessing Deployed Functions
 
 ```bash
 # GET request
-curl https://my-function-0198c2c5-8.telnyxcompute.com
+curl https://{func-name}-{func-id-prefix}.telnyxcompute.com
 
 # POST request with JSON body
 curl -X POST \
   -H "Content-Type: application/json" \
   -d '{"name": "test"}' \
-  https://my-function-0198c2c5-8.telnyxcompute.com
+  https://{func-name}-{func-id-prefix}.telnyxcompute.com
 ```
 
 The `telnyx-edge ship` command displays your function's live URL after successful deployment.
