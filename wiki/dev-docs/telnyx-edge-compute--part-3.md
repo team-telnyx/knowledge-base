@@ -21,7 +21,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/runtime/index
 - url: https://developers.telnyx.com/docs/edge-compute/sqldb/index
 - url: https://developers.telnyx.com/docs/edge-compute/testing/index
-updated_at: 2026-11-13T08:58:53Z
+updated_at: 2026-11-13T09:35:02Z
 ---
 
 # Telnyx Edge Compute
