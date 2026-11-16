@@ -41,7 +41,27 @@ This requires compatibility checks and, if necessary, fallback options to a suit
 
 ## General Conditions for HD Voice Support
 
-The call must use a carrier route listed under [Local calling coverage](#local-calling-coverage). The PSTN endpoint must support a wideband codec available on that route. Mobile calls also require a compatible device and access to the carrier’s HD Voice service, typically over LTE or 5G.
+The call must be destined or originated from one of the following supported carriers:
+
+US carriers;
+
+* AT&T
+* T-Mobile
+* Verizon
+
+Germany carriers;
+
+* Outbox
+
+Austria carriers;
+
+* Yuutel
+
+Australia;
+
+* All Major carriers
+
+The call must be destined or originated on a mobile phone device that supports wideband codecs and is registered on a local 5G/LTE network.
 
 Within the Telnyx portal, your SIP connection must have one of the following wideband codecs enabled: OPUS, G.722, or AMR-WB. Additionally, the SIP device involved in the call must also support the selected codec.
 
@@ -71,7 +91,27 @@ This means experiencing conversations with utmost clarity, even in challenging n
 
 For inbound calls to have HD voice support, the following conditions must be met:
 
-The incoming call must originate from a compatible endpoint on a supported local carrier route and reach an HD Voice-enabled Telnyx number.
+The incoming call must originate on an AMR-WB-enabled device located in at least 4G/LTE coverage area from one of the following carriers:
+
+US carriers;
+
+* AT&T
+* T-Mobile
+* Verizon
+
+Germany carriers;
+
+* Outbox
+
+Austria carriers;
+
+* Yuutel
+
+Australia;
+
+* All Major carriers
+
+The call must be routed to a Telnyx number with the HD voice feature enabled.
 
 HD Voice feature can be enabled on the *Number Voice* settings as depicted below:
 
@@ -85,7 +125,7 @@ Customers can also search for HD Numbers in the [Buy Numbers](https://portal.tel
 
 ![](_images/cb855811981dddaf.png)
 
-The call must be routed to a SIP Connection configured with AMR-WB, G.722, or Opus HD voice codecs.
+The call must be routed to a SIP Connection configured with AMR-WB, G722, or Opus HD voice codecs.
 ​
 You can configure SIP Connection codecs in the *SIP Trunking* > *SIP Connections* > *Inbound* configuration > *Expert Settings*:
 
@@ -95,30 +135,18 @@ The SIP device receiving the call must support one of the above-mentioned codecs
 
 For outbound calls to have HD voice support, the following conditions must be met:
 
-The SIP device initiating the call must use one of the following codecs: AMR-WB, G.722, or Opus.
+The SIP device initiating the call must use one of the following codecs: AMR-WB, G722, or Opus.
 
-The destination endpoint and local carrier route must support a compatible wideband codec.
+The call must be received on an AMR-WB-enabled device located in at least 4G/LTE coverage area from the list above.
 
 The Telnyx number used to make the outbound call must have HD Voice-enabled (also applied to CLI override)
 ​
 
 Instructions on how to enable a Telnyx number with HD voice can be found [here](https://docs.google.com/document/d/1qBMtyraDDdZzCb7ED1GNeoK8jU9bIkeZOEW2qJk3z7s/edit#bookmark=id.ok6q60t9lgbx).
 
-## Local calling coverage
+## Geographic Availability
 
-HD Voice is supported for inbound and outbound local calls on the carrier routes below. The codecs in this table apply to the carrier leg. Your SIP endpoint can use a compatible wideband codec configured on your SIP connection.
-
-| Country | Supported carrier | Wideband codecs on the carrier leg |
-| --- | --- | --- |
-| Australia | Over the Wire | G.722 |
-| Austria | Yuutel | AMR-WB, G.722 |
-| Germany | Outbox | AMR-WB, G.722 |
-| Netherlands | SpeakUp | G.722 |
-| United States | AT&T | AMR-WB, G.722 |
-| United States | T-Mobile | AMR-WB |
-| United States | Verizon | AMR-WB |
-
-HD Voice availability depends on the specific number, route, and endpoint. If the call negotiates a narrowband codec on either leg, the audio will be narrowband.
+HD Voice is available on eligible local calls in Australia, Austria, Germany, the Netherlands, and the United States.
 
 ## Risks and Considerations
 
@@ -128,13 +156,35 @@ While the conditions specified significantly increase the likelihood of HD audio
 
 **I see a yellow banner above the toggle to enable the feature "This number is not HD Voice capable"?**
 
-The banner indicates that the selected number is ineligible for HD Voice. Eligibility varies by number and number type. Check the HD Voice feature filter when searching for numbers in Mission Control.
+This banner will appear for International, toll-free, and also some +1 US longcode numbers that are not currently supported.
+
+Currently, this feature is only supported on +1 US longcode numbers. However, there are some cases where the feature cannot currently be enabled on specific +1 area codes but will be in the near future as the product offering expands.
+
+Please use the feature toggle in the number buy section of Mission Control to find numbers that are HD-Voice compatible at this time.
 
 ![](_images/9ef1f5f0a13f1d2a.png)
 
 **What carriers support HD Voice?**
 
-See [Local calling coverage](#local-calling-coverage) for supported routes and carrier codecs.
+All calls in these regions that meet the conditions will have HD Voice.
+
+* US carriers;
+
+  + AT&T
+  + T-Mobile
+  + Verizon
+
+  Germany carriers;
+
+  + Outbox
+
+  Austria carriers;
+
+  + Yuutel
+
+  Australia;
+
+  + All Major Carriers
 
 **Are there any recommended SIP devices that are best suited for the HD Voice feature?**
 
@@ -160,9 +210,9 @@ HD Voice codecs have variable bit rates, but a high-speed internet connection is
 
 Yes.
 
-**Can I use HD Voice outside the United States?**
+**Will international numbers have the capability to use the HD Voice feature in the future or will it always be restricted to US numbers?**
 
-Yes. See [Local calling coverage](#local-calling-coverage) for supported countries and carrier routes.
+We are expanding our support outside the US and more countries will be added to the list as they come online for HD voice.
 
 **How can customers check if their mobile device supports wideband codecs?**
 
