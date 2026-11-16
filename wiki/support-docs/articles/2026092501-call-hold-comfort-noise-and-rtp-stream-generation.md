@@ -1,9 +1,9 @@
 ---
 title: "Call Hold, Comfort Noise, and RTP Stream Generation"
-summary: "This article describes how Telnyx detects SIP call hold and handles RTP media, Music on Hold, comfort-noise packets, and opposite-leg media generation during hold states."
+summary: "This article describes how Telnyx detects SIP call hold and handles RTP media, Music on Hold, comfort-noise packets, and RTP generation toward the other party during hold or gaps in audio."
 sources:
 - url: "https://support.telnyx.com/en/articles/2026092501-call-hold-comfort-noise-and-rtp-stream-generation"
-updated_at: 2026-09-25T18:25:59Z
+updated_at: 2026-11-16T17:58:49Z
 tags: [support-docs]
 source_path: "support-docs/en--articles--2026092501-call-hold-comfort-noise-and-rtp-stream-generation.md"
 generated_by: incremental-support-docs-wiki
@@ -12,7 +12,7 @@ generated_by: incremental-support-docs-wiki
 
 # Call Hold, Comfort Noise, and RTP Stream Generation
 
-This article describes how Telnyx detects SIP call hold and handles RTP media, Music on Hold, comfort-noise packets, and opposite-leg media generation during hold states.
+This article describes how Telnyx detects SIP call hold and handles RTP media, Music on Hold, comfort-noise packets, and RTP generation toward the other party during hold or gaps in audio.
 
 ## Valid Hold Signaling
 
@@ -55,9 +55,11 @@ The SIP Connection setting **Generate Comfort Noise** is available in the Missio
 
 ![Generate comfort noise enabled in the SIP Connection Advanced Settings](_images/call-hold-generate-comfort-noise.png)
 
-When this setting is disabled, Telnyx accepts the hold re-INVITE and responds with `200 OK`, but **does not generate a silent RTP stream** toward the opposite leg. The far side may terminate the leg if it enforces RTP timeout. This is especially common with termination carriers.
+When this setting and **Generate RTP on comfort-noise packets** are both disabled, Telnyx accepts the hold re-INVITE and responds with `200 OK`, but **does not generate a silent RTP stream** toward the opposite leg. The far side may terminate the leg if it enforces RTP timeout. This is especially common with termination carriers.
 
 ### When Generate Comfort Noise is disabled
+
+This table assumes **Generate RTP on comfort-noise packets** is also disabled.
 
 | Media sent by your endpoint | Media sent to the opposite leg | RTP timeout risk |
 | --- | --- | --- |
@@ -72,17 +74,44 @@ Telnyx does **not** recognize a call as being on hold when the user stops sendin
 - Does not send a re-INVITE at all; or
 - Sends a re-INVITE containing `a=sendrecv` (which is not a hold signal).
 
-In this situation, Telnyx does **not** generate a silent RTP stream toward the opposite leg. The far side may terminate that leg if it enforces RTP timeout. This is especially common with termination carriers.
+Without **Generate RTP on comfort-noise packets** enabled, Telnyx does not generate a silent RTP stream toward the opposite leg in this situation. The far side may terminate that leg if it enforces RTP timeout. Sending CN packets (payload type 13) keeps the user's media leg active, but does not by itself provide a continuous audio RTP stream to the other party.
 
-If the user sends RTP Comfort Noise packets (payload type 13) without a valid hold re-INVITE, Telnyx does not enforce RTP timeout on the user's leg, but still does not generate a silent RTP stream toward the opposite leg.
+## Connection Setting: Generate RTP on comfort-noise packets
 
-If the user cannot configure their SIP devices to send a valid recognized hold request to Telnyx and is experiencing RTP timeouts enforced by the opposite side, Telnyx can enable an experimental setting that generates a silent RTP stream **only** upon receiving RTP Comfort Noise packets (payload type 13).
+Enable **Generate RTP on comfort-noise packets** to keep RTP flowing toward the other party during comfort noise or gaps in audio. This helps prevent the other party from ending the call because of an RTP timeout, including when your endpoint does not signal hold.
 
-This experimental setting is not exposed through the Telnyx Mission Control Portal or API. To request it, contact Telnyx Support with your account ID or connection ID and reference "comfort noise generation on CN packet receipt and no hold request."
+**A SIP hold request is not required.** Despite the setting's name, RTP generation is not limited to receiving CN packets: it also covers gaps when your endpoint stops sending audio. Normal audio, including Music on Hold, continues to be bridged when present.
+
+This is separate from **Generate Comfort Noise**, which controls media generation during a recognized hold:
+
+| Setting | API field | Default | Purpose |
+| --- | --- | --- | --- |
+| Generate Comfort Noise | `default_on_hold_comfort_noise_enabled` | Enabled | Generate RTP during a recognized SIP hold. |
+| Generate RTP on comfort-noise packets | `bridge_generate_comfort_noise_on_cn` | Disabled | Keep RTP flowing during CN or gaps in audio, without requiring SIP hold signaling. |
+
+### Configure in Mission Control
+
+1. Open **Voice → SIP Trunking → SIP Connections** and select your connection.
+2. Open **Configuration → Advanced Settings**.
+3. Check **Generate RTP on comfort-noise packets** and save the connection.
+
+### Configure through the API
+
+Set `bridge_generate_comfort_noise_on_cn` to `true` in the update request for your credential, IP, FQDN, or UAC connection. For example, the JSON body for `PATCH /v2/credential_connections/{connection_id}` is:
+
+```json
+{
+  "bridge_generate_comfort_noise_on_cn": true
+}
+```
+
+Set the field to `false` to disable this behavior. This setting can be managed through the portal or API; it no longer requires a support-only configuration.
 
 ## Quick Reference
 
 ### Valid hold request
+
+This table assumes **Generate RTP on comfort-noise packets** is disabled. When it is enabled, RTP generation during CN or gaps in audio does not depend on the **Generate Comfort Noise** setting.
 
 | Media sent by your endpoint | Generate Comfort Noise | Media sent to the opposite leg | RTP timeout risk |
 | --- | --- | --- | --- |
@@ -94,10 +123,17 @@ This experimental setting is not exposed through the Telnyx Mission Control Port
 
 ### No valid hold request
 
-| Signaling when your endpoint stops media | Media sent to the opposite leg | RTP timeout risk |
+The following applies when no hold re-INVITE is sent, or when a re-INVITE uses `a=sendrecv`:
+
+| Media sent by your endpoint | Generate RTP on comfort-noise packets | Media sent to the opposite leg |
 | --- | --- | --- |
-| No re-INVITE | No media generated | Yes |
-| re-INVITE with `a=sendrecv` | No media generated | Yes |
+| CN packets (PT 13) | Disabled | No audio RTP generated |
+| CN packets (PT 13) | Enabled | Telnyx-generated RTP |
+| No RTP | Disabled | No media generated |
+| No RTP | Enabled | Telnyx-generated RTP |
+| Normal audio or Music on Hold | Enabled or disabled | Your audio is bridged |
+
+Generated RTP helps prevent an opposite-leg RTP timeout; it does not signal hold or replace normal audio from your endpoint.
 
 RTP timeout risk in these tables refers to the opposite leg.
 
