@@ -98,7 +98,7 @@ Below you can find a compilation of guidelines and restrictions by country that 
 | FO | [Faroe Islands](https://support.telnyx.com/en/articles/6670775-faroe-islands-sms-guidelines) | 298 | 288 | Yes |
 | FJ | [Fiji](https://support.telnyx.com/en/articles/6670784-fiji-sms-guidelines) | 679 | 542 | Yes |
 | FI | [Finland](https://support.telnyx.com/en/articles/6560706-finland-sms-guidelines) | 358 | 244 | Yes |
-| FR | [France](https://support.telnyx.com/en/articles/6531603-france-sms-guidelines) | 33 | 208 | Yes |
+| FR | [France](https://support.telnyx.com/en/articles/6531603-france-sms-guidelines) | 33 | 208 | Yes, with registration |
 | GF | [French Guyana](https://support.telnyx.com/en/articles/6670802-french-guyana-sms-guidelines) | 594 | 742 | Yes |
 | PF | [French Polynesia](https://support.telnyx.com/en/articles/6670819-french-polynesia-sms-guidelines) | 689 | 547 | Yes |
 | GA | [Gabon](https://support.telnyx.com/en/articles/6670834-gabon-sms-guidelines) | 241 | 628 | Yes, with registration |
