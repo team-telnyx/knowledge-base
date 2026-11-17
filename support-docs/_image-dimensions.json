@@ -5878,5 +5878,13 @@
   "taia-troubleshooting-follow-up.svg": {
     "height": 1000,
     "width": 1600
+  },
+  "sip-transfer-caller-id-configuration.jpg": {
+    "height": 710,
+    "width": 1262
+  },
+  "sip-transfer-caller-id-options.jpg": {
+    "height": 710,
+    "width": 1262
   }
 }

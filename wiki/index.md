@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-11-16T17:58:26Z
+updated_at: 2026-11-17T16:06:32Z
 ---
 
 # Telnyx Knowledge Base
@@ -2174,3 +2174,5 @@ updated_at: 2026-11-16T17:58:26Z
 - [Video on SIP Trunking](support-docs/articles/2026110901-video-on-sip-trunking.md) — Telnyx SIP Trunking supports video on calls between compatible SIP endpoints, such as video phones and softphones. A SIP call can carry both audio and video.
 
 - [Telnyx Support for Microsoft Teams Government Clouds](support-docs/articles/2026111201-microsoft-teams-government-cloud-support.md) — Telnyx does not support Microsoft Teams calling through Operator Connect or Direct Routing for GCC High or Department of Defense (DoD) tenants.
+
+- [Choose caller ID for SIP call transfers](support-docs/articles/2026110401-choose-caller-id-for-sip-call-transfers.md) — Caller ID for Transfer Target controls which party’s phone number Telnyx sends to the destination when your phone system transfers a call using SIP REFER. Choose the person being transferred, or the person making the transfer.
