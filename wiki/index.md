@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-11-04T16:52:11Z
+updated_at: 2026-11-17T16:06:32Z
 ---
 
 # Telnyx Knowledge Base
@@ -230,9 +230,9 @@ updated_at: 2026-11-04T16:52:11Z
 - [Telnyx Platform Guide \(part 2\)](support-docs/telnyx-platform-guide--part-2.md) — A comprehensive reference for the Telnyx communications platform, covering account management, SIP trunking, voice calling, phone number provisioning and porting, messaging, webhooks, device configuration, regulatory compliance, and troubleshooting — synthesised from official Telnyx documentation.
 - [Telnyx Platform Guide \(part 3\)](support-docs/telnyx-platform-guide--part-3.md) — A comprehensive reference for the Telnyx communications platform, covering account management, SIP trunking, voice calling, phone number provisioning and porting, messaging, webhooks, device configuration, regulatory compliance, and troubleshooting — synthesised from official Telnyx documentation.
 - [Telnyx Platform Guide \(part 4\)](support-docs/telnyx-platform-guide--part-4.md) — A comprehensive reference for the Telnyx communications platform, covering account management, SIP trunking, voice calling, phone number provisioning and porting, messaging, webhooks, device configuration, regulatory compliance, and troubleshooting — synthesised from official Telnyx documentation.
-- [Telnyx Platform Overview \(part 1\)](support-docs/telnyx-platform-overview--part-1.md) — Telnyx is a Communications Platform as a Service (CPaaS) provider founded in 2009 and based in Austin, Texas, offering voice, messaging, networking, AI inference, storage, and workflow automation through a globally distributed private IP network and robust APIs.
-- [Telnyx Platform Overview \(part 2\)](support-docs/telnyx-platform-overview--part-2.md) — Telnyx is a Communications Platform as a Service (CPaaS) provider founded in 2009 and based in Austin, Texas, offering voice, messaging, networking, AI inference, storage, and workflow automation through a globally distributed private IP network and robust APIs.
-- [Telnyx Platform Overview \(part 3\)](support-docs/telnyx-platform-overview--part-3.md) — Telnyx is a Communications Platform as a Service (CPaaS) provider founded in 2009 and based in Austin, Texas, offering voice, messaging, networking, AI inference, storage, and workflow automation through a globally distributed private IP network and robust APIs.
+- [Telnyx Platform Overview \(part 1\)](support-docs/telnyx-platform-overview--part-1.md) — Telnyx is a Communications Platform as a Service (CPaaS) provider founded in 2009 and based in Austin, Texas, offering voice, messaging, networking, AI inference, storage, and API-based workflow automation through a globally distributed private IP network and robust APIs.
+- [Telnyx Platform Overview \(part 2\)](support-docs/telnyx-platform-overview--part-2.md) — Telnyx is a Communications Platform as a Service (CPaaS) provider founded in 2009 and based in Austin, Texas, offering voice, messaging, networking, AI inference, storage, and API-based workflow automation through a globally distributed private IP network and robust APIs.
+- [Telnyx Platform Overview \(part 3\)](support-docs/telnyx-platform-overview--part-3.md) — Telnyx is a Communications Platform as a Service (CPaaS) provider founded in 2009 and based in Austin, Texas, offering voice, messaging, networking, AI inference, storage, and API-based workflow automation through a globally distributed private IP network and robust APIs.
 - [Telnyx Platform Reference \(part 1\)](dev-docs/telnyx-platform-reference--part-1.md) — A comprehensive reference for the Telnyx platform, covering AI, API, and telecom glossaries, the Number Lookup service, and the Telnyx Verify API including its quickstart, verification methods, custom templates, DTMF confirmation, webhooks, security best practices, and rate limiting for fraud prevention.
 - [Telnyx Platform Reference \(part 2\)](dev-docs/telnyx-platform-reference--part-2.md) — A comprehensive reference for the Telnyx platform, covering AI, API, and telecom glossaries, the Number Lookup service, and the Telnyx Verify API including its quickstart, verification methods, custom templates, DTMF confirmation, webhooks, security best practices, and rate limiting for fraud prevention.
 - [Telnyx Platform Reference \(part 3\)](dev-docs/telnyx-platform-reference--part-3.md) — A comprehensive reference for the Telnyx platform, covering AI, API, and telecom glossaries, the Number Lookup service, and the Telnyx Verify API including its quickstart, verification methods, custom templates, DTMF confirmation, webhooks, security best practices, and rate limiting for fraud prevention.
@@ -341,7 +341,7 @@ updated_at: 2026-11-04T16:52:11Z
 
 - [Configure Repeat Call Guard on Outbound Voice Profiles](support-docs/articles/12580667-configure-repeat-call-guard-on-outbound-voice-profiles-beta.md) — Control how many times a destination number can be called within a specific time window. See Telnyx guidance and requirements.
 
-- [Call Hold, Comfort Noise, and RTP Stream Generation](support-docs/articles/2026092501-call-hold-comfort-noise-and-rtp-stream-generation.md) — This article describes how Telnyx detects SIP call hold and handles RTP media, Music on Hold, comfort-noise packets, and opposite-leg media generation during hold states.
+- [Call Hold, Comfort Noise, and RTP Stream Generation](support-docs/articles/2026092501-call-hold-comfort-noise-and-rtp-stream-generation.md) — This article describes how Telnyx detects SIP call hold and handles RTP media, Music on Hold, comfort-noise packets, and RTP generation toward the other party during hold or gaps in audio.
 
 - [Estonia DID Requirements](support-docs/articles/3506159-estonia-number-requirements.md) — Here you will find detailed requirements for acquiring numbers in Estonia. See Telnyx guidance and requirements.
 
@@ -2170,5 +2170,9 @@ updated_at: 2026-11-04T16:52:11Z
 - [How graduated volume pricing works for phone numbers](support-docs/articles/2026102601-how-graduated-volume-pricing-works-for-phone-numbers.md) — Phone number pricing at Telnyx uses graduated volume tiers. Each tier has its own rate, and each tier's rate applies only to the numbers that fall inside that tier. Reaching a higher tier doesn't reprice all of your numbers at the lower rate.
 
 - [Configure blind transfer confirmation](support-docs/articles/2026102801-configure-blind-transfer-confirmation.md) — A blind transfer redirects a caller or callee to another destination without speaking to that destination first. Confirm blind transfer applies to transfers initiated using SIP REFER.
+
+- [Video on SIP Trunking](support-docs/articles/2026110901-video-on-sip-trunking.md) — Telnyx SIP Trunking supports video on calls between compatible SIP endpoints, such as video phones and softphones. A SIP call can carry both audio and video.
+
+- [Telnyx Support for Microsoft Teams Government Clouds](support-docs/articles/2026111201-microsoft-teams-government-cloud-support.md) — Telnyx does not support Microsoft Teams calling through Operator Connect or Direct Routing for GCC High or Department of Defense (DoD) tenants.
 
 - [Choose caller ID for SIP call transfers](support-docs/articles/2026110401-choose-caller-id-for-sip-call-transfers.md) — Caller ID for Transfer Target controls which party’s phone number Telnyx sends to the destination when your phone system transfers a call using SIP REFER. Choose the person being transferred, or the person making the transfer.

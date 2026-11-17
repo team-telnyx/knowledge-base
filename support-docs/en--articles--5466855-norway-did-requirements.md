@@ -16,7 +16,7 @@ In order to purchase a Norway number you will need to provide the following:
 
 ## Mandatory Use of Requirement Groups: Norway
 
-Starting **September 16, 2024**, **Requirement Groups** will be mandatory for ordering phone numbers in **Norway (NO).**  
+Requirement Groups are required to order phone numbers in **Norway (NO).**  
 ​
 
 Requirement Groups let you manage regulatory requirements by pre-filling necessary information once, allowing for reuse across multiple orders. This change aims to streamline compliance.  

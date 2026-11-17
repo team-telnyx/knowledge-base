@@ -6,6 +6,7 @@ summary: Telnyx Edge Compute is a serverless platform for deploying code across 
   runtimes (Python, Go, Node.js, Java/Quarkus, TypeScript) and integrate directly
   with Telnyx Voice, Messaging, AI, and Storage services.
 sources:
+- url: https://developers.telnyx.com/docs/edge-compute/configuration/routing
 - url: https://developers.telnyx.com/docs/edge-compute/network/index
 - url: https://developers.telnyx.com/docs/edge-compute/observability/index
 - url: https://developers.telnyx.com/docs/edge-compute/overview/index
@@ -20,7 +21,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/runtime/index
 - url: https://developers.telnyx.com/docs/edge-compute/sqldb/index
 - url: https://developers.telnyx.com/docs/edge-compute/testing/index
-updated_at: 2026-06-11T10:27:59Z
+updated_at: 2026-11-13T08:02:23Z
 ---
 
 # Telnyx Edge Compute
@@ -117,10 +118,10 @@ The CLI validates the function structure, checks authentication, packages files,
 
 ### Test the Function
 
-Functions are accessible at URLs following the pattern `https://{funcName}-{orgId}.telnyxcompute.com`:
+Functions are accessible at URLs following the pattern `https://{func-name}-{func-id-prefix}.telnyxcompute.com`; the URL components and the prefix rule are documented in [Routing and Domains](edge-compute-configuration--part-2.md) and on Telnyx's [Routes & Domains](https://developers.telnyx.com/docs/edge-compute/configuration/routing) page. `telnyx-edge ship` prints the exact URL after deploy:
 
 ```bash
-curl https://hello-world-abc123.telnyxcompute.com \
+curl https://hello-world-0198c2c5-8.telnyxcompute.com \
   -H "Content-Type: application/json" \
   -d '{"test": "data"}'
 ```
@@ -135,7 +136,7 @@ Every Edge Compute function consists of three components:
 
 ```toml
 [edge_compute]
-func_id = "func-abc123def456"
+func_id = "0198c2c5-8f1e-7a3d-9b21-6e4a0d5f1c88"
 func_name = "hello-world"
 
 [env_vars]

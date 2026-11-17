@@ -144,7 +144,7 @@ Instructions on how to enable a Telnyx number with HD voice can be found [here](
 
 ## Geographic Availability
 
-This feature is restricted to numbers in the coverage area list above.
+HD Voice is available on eligible local calls in Australia, Austria, Germany, the Netherlands, and the United States.
 
 ## Risks and Considerations
 

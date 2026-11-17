@@ -40,7 +40,7 @@ updated_at: 2026-06-11T11:45:24Z
 
 *Part 2 of 3 — see also: [Part 1](telnyx-platform-overview--part-1.md), [Part 3](telnyx-platform-overview--part-3.md)*
 
-Telnyx is a Communications Platform as a Service (CPaaS) provider founded in 2009 and based in Austin, Texas, offering voice, messaging, networking, AI inference, storage, and workflow automation through a globally distributed private IP network and robust APIs.
+Telnyx is a Communications Platform as a Service (CPaaS) provider founded in 2009 and based in Austin, Texas, offering voice, messaging, networking, AI inference, storage, and API-based workflow automation through a globally distributed private IP network and robust APIs.
 
 ## Voice Protocols and Configuration
 

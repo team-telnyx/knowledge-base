@@ -12,7 +12,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/routing
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/secrets
 - url: https://developers.telnyx.com/docs/edge-compute/configuration/versions
-updated_at: 2026-06-11T10:26:17Z
+updated_at: 2026-11-13T08:02:23Z
 ---
 
 # Edge Compute Configuration
@@ -40,7 +40,7 @@ Define environment variables in your `func.toml` under the `[env_vars]` section:
 
 ```toml
 [edge_compute]
-func_id = "your-function-id"
+func_id = "<func_id>"
 func_name = "my-function"
 
 [env_vars]

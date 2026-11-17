@@ -13,10 +13,8 @@ sources:
 - url: https://support.telnyx.com/en/articles/4374050-configuring-call-control-texml-applications-voice-api
 - url: https://support.telnyx.com/en/articles/8118086-texml-and-telnyx-voice-api-compatibility
 - url: https://support.telnyx.com/en/articles/8292490-real-time-transcription
-- url: https://support.telnyx.com/en/articles/9413928-telnyx-flow
 - url: https://support.telnyx.com/en/collections/133140-voice-api-essentials
 - url: https://support.telnyx.com/en/collections/17907095-texml-tutorials
-- url: https://support.telnyx.com/en/collections/9526270-telnyx-flow
 updated_at: 2026-06-11T11:40:11Z
 ---
 

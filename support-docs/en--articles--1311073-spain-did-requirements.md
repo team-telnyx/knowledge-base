@@ -56,7 +56,7 @@ For **business identity** verification:
 * CIF (Certificado de Identificacion Fiscal)
 
 For **address** verification:
-* Address matching DID area code (street, building number, postal code, city, and country)
+* Address in Spain (street, building number, postal code, city, and country)
 * Proof of address (dated within 3 months)
 
 
