@@ -27,117 +27,80 @@ For full details on setting up Requirement Groups, please refer to the [guide he
 ## **Local Numbers in Sweden**
 
 For **business identity** verification:
-
-\* Name, last name of an authorized representative
-
-\* Contact phone number
-
-\* Contact e-mail
-
-\* Company Name
-
-\* Passport or ID copy of an authorized representative
-
-\* Business registration certificate
-
-\* Business Registration Number
+* Name, last name of an authorized representative
+* Contact phone number
+* Contact e-mail
+* Company Name
+* Passport or ID copy of an authorized representative
+* Business registration certificate
+* Business Registration Number
 
 For **address** verification:
+* Address matching the DID area code (street, building number, postal code, city, and country)
+* Proof of address (dated within 3 months)
 
-\* Address matching the DID area code (street, building number, postal code, city, and country)
-
-\* Proof of address (dated within 3 months)
-
-Additional details:
-
-\* End-users must be physically present in the country when purchasing numbers from that country
-
-\* Business use required: Business use is required, private use is not allowed.
+**Additional details:**
+* End-users must be physically present in the country when purchasing numbers from that country
+* **Business use required:** Business use is required, private use is not allowed.
 
 ## **National Numbers in Sweden**
 
 For **business identity** verification:
-
-\* Name, last name of an authorized representative
-
-\* Contact phone number
-
-\* Contact e-mail
-
-\* Company Name
-
-\* Passport or ID copy of an authorized representative
-
-\* Local Business registration certificate
-
-\* Local Business Registration Number
+* Name, last name of an authorized representative
+* Contact phone number
+* Contact e-mail
+* Company Name
+* Passport or ID copy of an authorized representative
+* Local Business registration certificate
+* Local Business Registration Number
 
 For **address** verification:
+* Address in Sweden (street, building number, postal code, city and country)
+* Proof of Address (dated within 3 months)
 
-\* Address in Sweden (street, building number, postal code, city and country)
-
-\* Proof of Address (dated within 3 months)
-
-Additional details:
-
-\* End-users must be physically present in the country when purchasing numbers from that country
-
-\* Business use required: Business use is required, private use is not allowed.
+**Additional details:**
+* End-users must be physically present in the country when purchasing numbers from that country
+* **Business use required:** Business use is required, private use is not allowed.
 
 ## **Mobile Numbers in Sweden**
 
 For **personal identity** verification:
-
-\* Name, last name
-
-\* Contact phone number
-
-\* Local Passport or ID copy
+* Name, last name
+* Contact phone number
+* Local Passport or ID copy
 
 For **business identity** verification:
-
-\* Name, last name of an authorized representative
-
-\* Company name
-
-\* Contact phone number
-
-\* Local Company incorporation certificate
+* Name, last name of an authorized representative
+* Company name
+* Contact phone number
+* Local Company incorporation certificate
 
 For **address** verification:
+* Address in Sweden (street, building number, postal code, city and country)
+* Proof of Address (dated within 3 months)  
 
-\* Address in Sweden (street, building number, postal code, city and country)
-
-\* Proof of Address (dated within 3 months)  
-​  
-Additional details:  
-\* End-users must be physically present in the country when purchasing numbers from that country
+**Additional details:**  
+* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **Toll-Free Numbers in Sweden**
 
 For **personal identity** verification:
-
-\* Name, last name
-
-\* Contact phone number  
-\* Local Passport or ID copy
+* Name, last name
+* Contact phone number  
+* Local Passport or ID copy
 
 For **business identity** verification:
-
-\* Name, last name
-
-\* Contact phone number
-
-\* Company name  
-\* Local Company incorporation certificate
+* Name, last name of an authorized representative
+* Contact phone number
+* Company name  
+* Local Company incorporation certificate
 
 For **address** verification:
+* Address in Sweden (street, building number, postal code, city and country)  
+* Proof of Address (dated within 3 months)  
 
-\* Address in Sweden (street, building number, postal code, city and country)  
-\* Proof of Address (dated within 3 months)  
-​  
-Additional details:  
-\* End-users must be physically present in the country when purchasing numbers from that country
+**Additional details:**  
+* End-users must be physically present in the country when purchasing numbers from that country
 
 ## **Identity Verification: What "Local" Means**
 
