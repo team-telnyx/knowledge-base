@@ -27,52 +27,26 @@ In order to purchase a Vietnam number you will need to provide the following:
 
 For **personal identity** verification:
 
-\* Name, last name
-
-\* Contact phone number
-
-\* Passport or ID copy
-
-\*Utility Bill, not older than 3 months
+* Name, last name
+* Contact phone number
+* Passport or ID copy
 
 ​
 For **business identity** verification:
-\* Name, last name of an authorized representative
-\* Contact phone number
-\* Contact e-mail
-\* Company name
-\* Passport or ID copy of an authorized representative
-\* Company registration certificate
-\* Signed LOI (dated within 1 month)
+* Name, last name of an authorized representative
+* Contact phone number
+* Contact e-mail
+* Company name
+* Passport or ID copy of an authorized representative
+* Company registration certificate
+* Signed LOI (dated within 1 month)
 
-\*Utility Bill, not older than 3 months
-
-​
-​
-​
-For **address** verification:
-\* Address worldwide (street, building number, postal code, city, and country)
-
-## **Toll-Free Numbers in Vietnam**
-
-For **personal identity** verification:
-
-\* Name, last name
-
-\* Contact e-mail
-
-For **business identity** verification:
-
-\* Company name
-
-\* Contact e-mail
 
 For **address** verification:
+* Address worldwide (street, building number, postal code, city, and country)
+* Utility Bill, not older than 3 months
 
-\* Address Worldwide (street, building number, postal code, city and country)
 
-**Additional Information:**
-\* Calling card usage not permitted: The number may not be used to offer calling card services.
 
 \*Please note that once the documentation is received it will take approximately 72 hours to validate the information and activate the number for use.
 
