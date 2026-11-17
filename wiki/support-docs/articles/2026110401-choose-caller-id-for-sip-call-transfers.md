@@ -66,9 +66,3 @@ For example, use **From Transferee** when a representative needs the customer’
 ## Scope and troubleshooting
 
 The phone system must send a valid SIP REFER within the active call. This setting chooses between the parties in that call; it does not let you enter an arbitrary caller ID number for a new, unrelated call.
-
-The selection controls the **caller ID number**, not the display name or CNAM. When testing, check the received number separately from any displayed name.
-
-If the field is missing, confirm that the connection is a Credential, IP, or FQDN connection and that the feature is enabled for it. Contact Telnyx Support if you need help checking availability.
-
-If the destination receives an unexpected number, confirm that you saved the setting on the connection handling the original call and that the phone system used SIP REFER. A separate outbound call followed by a bridge or a phone-system-managed forwarding flow does not use this SIP REFER setting. The destination’s provider or phone system can also affect how the received number is displayed.
