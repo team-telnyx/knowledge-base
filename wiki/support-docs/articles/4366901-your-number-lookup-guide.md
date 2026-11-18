@@ -23,6 +23,12 @@ The Telnyx Number Lookup API helps you know the details behind every phone numbe
 
 ---
 
+## Who it affects: All Users who use Org Permissions
+
+Organization Admins can now administer the Phone Number Details Lookup permission. This will grant sub-organization user accounts access to the Number Lookup Interface and underlying API.
+
+---
+
 ## **Prerequisites**
 
 Before using Number Lookup, ensure you have:
@@ -68,8 +74,11 @@ Before using Number Lookup, ensure you have:
 | Local Routing Number (LRN) | $0.0015 per query |
 | MCC/MNC (Carrier Codes) | $0.0025 per query (mobile only) |
 | CNAM (Caller ID Name) | $0.003 per query |
-| Inbound CNAM | $0.40 per number/month |
+| Inbound CNAM (Standard) | $0.40 per number/month at standard list pricing |
+| Inbound CNAM (Enhanced) | $1.50 per enabled number/month |
 | Outbound CNAM Listing | Free |
+
+Inbound CNAM is configured per phone number for incoming calls. For tier selection and billing details, see [Set up Inbound Caller ID Name](https://support.telnyx.com/en/articles/1130656-set-up-inbound-caller-id-name-incoming).
 
 ##
 

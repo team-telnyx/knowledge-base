@@ -5886,5 +5886,13 @@
   "sip-transfer-caller-id-options.jpg": {
     "height": 710,
     "width": 1262
+  },
+  "1130656-inbound-cnam-enhanced.png": {
+    "width": 396,
+    "height": 150
+  },
+  "1130656-inbound-cnam-options.png": {
+    "width": 396,
+    "height": 215
   }
 }

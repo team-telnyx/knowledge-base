@@ -35,21 +35,7 @@ By default, Telnyx will provide the CLI (Calling Line Identification) number for
 
 ### Inbound Caller ID Name
 
-Inbound Caller ID Name will allow you to have the name of the individual calling appear on your phone when receiving calls. You can activate this feature instantly via the Mission Control portal.
-
-To set up outbound Caller ID Override you can do the following:
-
-1. Under **Real-Time Communications** on the left side bar, click on **My Numbers** tab under **Numbers** section. And click on **Pencil** icon in front of the number you wish to make the changes.
-
-   ![](_images/27c8ab1517f194d0.png)
-2. Go to voice section of the number
-
-   ![](_images/1eb609e14ddc4e0f.png)
-3. You may then toggle on/off the **CNAM Listing** option to enable the feature and and then define the CNAM in the box. Once the CNAM text is defined, you may save the changes.
-
-   ![](_images/a059d15adbffecc6.png)
-
-***Standard pricing for inbound caller ID name is $0.40/mo for each number - subject to change***
+Inbound caller name lookup can add the caller’s name to incoming calls. Configure it per number in Mission Control. For setup steps and pricing, see [Set up Inbound Caller ID Name](https://support.telnyx.com/en/articles/1130656-set-up-inbound-caller-id-name-incoming).
 
 ## Outbound Caller ID Number
 
