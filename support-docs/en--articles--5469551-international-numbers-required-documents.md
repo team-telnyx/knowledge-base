@@ -148,7 +148,7 @@ You can find country-specific information in our [International DID Requirements
 | Slovakia | 1, 5, 7, 9, 13, (g) | N/A | N/A | 1, 3, 9, 16, (f) | N/A | N/A |
 | Slovenia | 1, 5, 7, 13 (f) | 1, 5, 7, 13 (f) | N/A | 1, 2, 3 | N/A | N/A |
 | South Africa | 1, 5, 7, 9, 13, (e, g, m) | 1, 4, 7, 9, 13, (e, g) | 1, 2, 3, 7 | 1, 3, 7, 9, 13, (e, g, h) | N/A | N/A |
-| Spain | 1, 2, 5, 7, 16, (af) | 1, 2, 4, 7, (af) | N/A | 1, 2, 5, 7, 16, (af) | 1, 2, 5, 7, 16, (af) | 1, 5, 7, 9, 16 (c, f, af) |
+| Spain | 1, 2, 5, 7, 16, (af) | 1, 2, 4, 7, (af) | N/A | 1, 2, 5, 7, 16, (af) | 1, 2, 5, 7, 16, (af) | 1, 4, 7, 9, 16 (c, f, af) |
 | Sri Lanka | N/A | N/A | 18, (d, f, h, m) | 18, (d, h) | N/A | N/A |
 | Sudan | N/A | N/A | N/A | N/A | N/A | N/A |
 | Svalbard and Jan Mayen | N/A | N/A | N/A | N/A | N/A | N/A |
@@ -166,7 +166,7 @@ You can find country-specific information in our [International DID Requirements
 | Uruguay | N/A | N/A | N/A | 1, 3, 7, (h) | N/A | N/A |
 | Us Virgin Islands | Not required | N/A | N/A | Not required | N/A | N/A |
 | Uzbekistan | 1, 3, 7, h | N/A | N/A | N/A | N/A | N/A |
-| Vietnam | 1, 3, 9\*, 10, 13, (h) | N/A | N/A | 1, 3 | N/A | N/A |
+| Vietnam | 1, 3, 9\*, 10, 13, (h) | N/A | N/A | N/A | N/A | N/A |
 | Zambia | N/A | N/A | 1, 3, 4, 7, 10 (h) | N/A | N/A | N/A |
 | Zimbabwe | 1, 3 | N/A | N/A | N/A | N/A | N/A |
 

@@ -26,9 +26,10 @@ To ensure optimal performance of your Telnyx services, please whitelist the foll
 
 ## SIP Signaling and Media Servers
 
-If your network uses a firewall or ACL, add both our media and SIP signaling IP addresses to your firewall’s whitelist.
+If your network uses a firewall or access control list (ACL), allow the Telnyx SIP signaling and media IP addresses listed on the SIP Info page.
 
-For the most up-to-date IP addresses, refer to: [Telnyx IP Addresses](https://sip.telnyx.com).
+- [SIP signaling addresses and regional FQDNs](https://sip.telnyx.com/)
+- [Media IP ranges and RTP ports](https://sip.telnyx.com/#media)
 
 ---
 
@@ -91,38 +92,3 @@ Telnyx programmable services, including **TeXML**, **Fax**, **Messaging**, and *
   + SY1 - Sydney: 103.115.244.0/29
   + SG1 - Singapore: 103.115.244.8/29
   + MB2 - Mumbai: 103.115.244.32/29
-
----
-
-## Media IP Addresses
-
-To ensure uninterrupted media delivery, whitelist the following media IP ranges:
-
-* **36.255.198.128/25**
-* **50.114.136.128/25**
-* **50.114.144.0/21**
-* **64.16.226.0/24**
-* **64.16.227.0/24**
-* **64.16.228.0/24**
-* **64.16.229.0/24**
-* **64.16.230.0/24**
-* **64.16.248.0/24**
-* **64.16.249.0/24**
-* **103.115.244.128/25**
-* **185.246.41.128/25**
-
----
-
-## Region-Specific SIP FQDNs and IP Addresses
-
-For location-specific SIP connections, whitelist the following FQDNs and IPs:
-
-|  |  |  |  |
-| --- | --- | --- | --- |
-| Region | FQDN | Primary IP Address | Secondary IP Address |
-| US | sip.telnyx.com | 192.76.120.10 | 64.16.250.10 |
-| Europe | sip.telnyx.eu | 185.246.41.140 | 185.246.41.141 |
-| Australia | sip.telnyx.com.au | 103.115.244.145 | 103.115.244.146 |
-| Canada | sip.telnyx.ca | 192.76.120.31 | 64.16.250.13 |
-
-For the latest and most accurate IP address information, visit [Telnyx IP Addresses](https://sip.telnyx.com).

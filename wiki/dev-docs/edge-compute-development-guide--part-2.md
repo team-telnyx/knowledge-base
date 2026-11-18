@@ -19,7 +19,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/iot-data-ingestion
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/real-time-media-pipeline
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/telecom-event-processor
-updated_at: 2026-06-11T10:26:49Z
+updated_at: 2026-11-12T18:08:02Z
 ---
 
 # Edge Compute Development Guide
@@ -62,7 +62,7 @@ Secrets are injected as environment variables but stored encrypted. Use them for
 
 ### KV Read/Write
 
-**Coming Soon** — KV storage access via the Telnyx API (`/v2/storage/kvs/{kvId}/keys/{key}`). Use `GET` to read and `PUT` to write values with optional TTL. Store the KV store ID and API key as environment variables.
+KV storage is available. Create a namespace with `telnyx-edge storage kv create --name my-cache`, then declare it in `func.toml` under `[storage.kv.<NAME>]` with the namespace `id`; the function reads and writes it through the injected `env.<NAME>` binding — `.get(key)`, `.put(key, value, { expirationTtl })`, `.delete(key)` — so your code holds no API key (binding is TypeScript-only, requires `@telnyx/edge-runtime` ≥ 0.2.2). See [KV](https://developers.telnyx.com/docs/edge-compute/kv).
 
 ### Cron Trigger
 

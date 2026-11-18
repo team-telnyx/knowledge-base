@@ -6,11 +6,8 @@ scraped: 2026-07-08
 content_hash: 49cfe09aa860e7d3c7f41601fb8d5caedd170d48e9d47a7880534a04bc6b78fb
 ---
 
-
-
-
-
-
+> [!WARNING]
+> **This article is outdated.** For current 10DLC campaign compliance and submission guidance — including opt-in/consent requirements, message-flow templates, and sample messages — start here: **[10DLC Campaign Compliance Guide](https://support.telnyx.com/en/articles/16256133-10dlc-campaign-compliance-guide)**.
 
 # ISVs & 10DLC
 

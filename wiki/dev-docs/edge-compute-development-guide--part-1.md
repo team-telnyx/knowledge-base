@@ -19,7 +19,7 @@ sources:
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/iot-data-ingestion
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/real-time-media-pipeline
 - url: https://developers.telnyx.com/docs/edge-compute/frameworks/telecom-event-processor
-updated_at: 2026-06-11T10:26:49Z
+updated_at: 2026-11-13T10:04:08Z
 ---
 
 # Edge Compute Development Guide
@@ -72,8 +72,10 @@ app = func.handle
 ```
 
 ```
-uvicorn app:app --port 8080
+uvicorn app:app --port 8080 --interface asgi3 --lifespan off
 ```
+
+The `--interface asgi3` and `--lifespan off` flags are required: `handle` is a bound method, so uvicorn's ASGI interface auto-detection misclassifies it, and the wrapper does not implement ASGI lifespan events.
 
 Alternatively, write a test script that directly invokes the handler via the ASGI interface.
 
@@ -101,11 +103,13 @@ func main() {
 ./mvnw test
 ```
 
-**JavaScript** — Use `telnyx-edge dev` to run a local dev server:
+**JavaScript** — The scaffold's `index.js` is a Node.js `node:http` server. Run it directly:
 
 ```
-telnyx-edge dev
+node index.js
 ```
+
+`telnyx-edge dev` is for umbrella `telnyx.toml` projects (Stateful Actors local development), not for single-function `func.toml` projects.
 
 ### Environment Variables and Secrets
 
@@ -174,18 +178,24 @@ telnyx-edge new-func -l=python -n=my-api
 cd my-api
 ```
 
-The handler routes by path and method (`GET /items`, `POST /items`, `GET /items/{id}`, `DELETE /items/{id}`), parses JSON bodies with validation, and returns proper HTTP status codes. Test locally with `telnyx-edge dev` and curl:
+The handler routes by path and method (`GET /items`, `POST /items`, `GET /items/{id}`, `DELETE /items/{id}`), parses JSON bodies with validation, and returns proper HTTP status codes. Test locally with the Python ASGI wrapper and uvicorn (create `app.py` as shown in Running Locally by Language above):
 
 ```
-curl -X POST http://localhost:8787/items \
+uvicorn app:app --port 8080 --interface asgi3 --lifespan off
+```
+
+Then curl the local server:
+
+```
+curl -X POST http://localhost:8080/items \
   -H "Content-Type: application/json" \
   -d '{"name": "Test Item"}'
-curl http://localhost:8787/items
-curl http://localhost:8787/items/1
-curl -X DELETE http://localhost:8787/items/1
+curl http://localhost:8080/items
+curl http://localhost:8080/items/1
+curl -X DELETE http://localhost:8080/items/1
 ```
 
-Deploy with `telnyx-edge ship`. The API is live at `https://my-api-{orgId}.telnyxcompute.com`.
+Deploy with `telnyx-edge ship`. The API is live at `https://my-api-{func-id-prefix}.telnyxcompute.com`.
 
 ### SMS Webhook Handler
 
@@ -194,7 +204,7 @@ Deploy with `telnyx-edge ship`. The API is live at `https://my-api-{orgId}.telny
 Process incoming SMS messages and respond automatically based on keywords. Requires a Telnyx account with a phone number configured for SMS.
 
 ```
-telnyx-edge new-func -l=javascript -n=sms-handler
+telnyx-edge new-func -l=js -n=sms-handler
 cd sms-handler
 ```
 
@@ -229,7 +239,7 @@ Accepts query parameters `url` (required), `w` (width), `h` (height), and `q` (q
 Test after deploying:
 
 ```
-https://image-resizer-{orgId}.telnyxcompute.com/?url=https://example.com/photo.jpg&w=400&q=80
+https://image-resizer-{func-id-prefix}.telnyxcompute.com/?url=https://example.com/photo.jpg&w=400&q=80
 ```
 
 ### Upcoming Tutorials
