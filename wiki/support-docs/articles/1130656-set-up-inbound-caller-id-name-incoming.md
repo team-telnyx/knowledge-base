@@ -31,15 +31,15 @@ Inbound caller name lookup can add a caller’s name to calls you receive on a T
 ## Guide to Configuring Inbound Caller ID Name
 
 1. Open [My Numbers](https://portal.telnyx.com/#/numbers/my-numbers) in Mission Control and edit the number you want to configure.
-2. Open the **Voice** tab and find **Inbound caller name lookup** under **Services**.
+2. Open the **Voice** tab and find **Enable CNAM Caller ID lookup** under **Services**.
 3. Choose a lookup option.
 
-   ![Inbound caller name lookup menu showing Off, Standard, and Enhanced at $1.50 per month.](_images/1130656-inbound-cnam-options.png)
+   ![Enable CNAM Caller ID lookup menu showing Off, Standard, and Enhanced at $1.50 per month.](_images/1130656-inbound-cnam-options.png)
 
 4. Select **Save Changes**. To switch tiers or turn lookup off later, return to the same setting, select the option you want, and save.
 
-   ![Inbound caller name lookup with Enhanced selected and the monthly price displayed.](_images/1130656-inbound-cnam-enhanced.png)
+   ![Enable CNAM Caller ID lookup with Enhanced selected and the monthly price displayed.](_images/1130656-inbound-cnam-enhanced.png)
 
-If your account still shows **Enable CNAM Caller ID lookup**, use that checkbox to turn Standard lookup on or off.
+If the setting appears as a checkbox, select it to turn Standard lookup on or clear it to turn lookup off.
 
 For API configuration, see [Update a phone number with voice settings](https://developers.telnyx.com/api-reference/phone-number-configurations/update-a-phone-number-with-voice-settings).
