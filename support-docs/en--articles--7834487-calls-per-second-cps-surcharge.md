@@ -34,6 +34,15 @@ Telnyx uses CPS in two related but separate ways:
 * **Real-time Outbound CPS limits** — Protect the network by limiting excessive outbound SIP call attempts in real time.
 * **Monthly Outbound Peak CPS surcharge** — Applies charges for sustained or recurring high outbound CPS usage based on the customer’s monthly 95th percentile peak CPS value.
 
+## **Upcoming change: Programmable Voice and Programmable Fax**
+
+Starting **December 1, 2026**, the Calls per second (CPS) surcharge will also apply to outbound traffic from:
+
+* **Programmable Voice** — Voice API and TeXML
+* **Programmable Fax**
+
+Until then, the surcharge applies only to SIP Trunking traffic, as described in the rest of this article.
+
 ## **Real-time Outbound CPS Limits**
 
 Real-time Outbound CPS limits are applied by traffic source, not by account. Standard SIP Trunking traffic is limited to **20 CPS per source IP address or SIP username** by default.
@@ -52,7 +61,7 @@ The Monthly Outbound Peak CPS represents the highest number of outbound SIP Trun
 
 The following traffic is excluded from the surcharge calculation:
 
-* Programmable Voice / Call Control traffic
+* Programmable Voice / Call Control traffic (until December 1, 2026)
 * Telnyx internal retry attempts
 * SIP Trunking attempts blocked by CPS limits
 
