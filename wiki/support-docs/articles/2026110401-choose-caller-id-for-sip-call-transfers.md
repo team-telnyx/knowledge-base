@@ -43,7 +43,7 @@ The setting belongs to a SIP connection and applies to both inbound and outbound
 
 ## Inbound example
 
-An external caller **A** calls your phone system **B** through Telnyx. Your phone system **B** transfers **A** to destination **C**.
+An external caller **A** calls your phone system **B** through Telnyx. To transfer **A** to destination **C**, phone system **B** sends a **valid SIP REFER to Telnyx on the active call**.
 
 | Selection | Caller ID number sent to C |
 | --- | --- |
@@ -54,7 +54,7 @@ Choose **From Transferee** when the destination needs to identify the original c
 
 ## Outbound example
 
-Your phone system **A** calls customer **B** through Telnyx. Your phone system **A** then transfers **B** to your representative **C**.
+Your phone system **A** calls customer **B** through Telnyx. To transfer **B** to your representative **C**, phone system **A** sends a **valid SIP REFER to Telnyx on the active call**.
 
 | Selection | Caller ID number sent to C |
 | --- | --- |
