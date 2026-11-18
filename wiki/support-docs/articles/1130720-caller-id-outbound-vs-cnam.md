@@ -33,7 +33,19 @@ By default, Telnyx will provide the CLI (Calling Line Identification) number for
 
 ### Inbound Caller ID Name
 
-Inbound caller name lookup can add the caller’s name to incoming calls. Configure it per number in Mission Control. For setup steps and pricing, see [Set up Inbound Caller ID Name](https://support.telnyx.com/en/articles/1130656-set-up-inbound-caller-id-name-incoming).
+Inbound caller name lookup can add the caller’s name to incoming calls. In Mission Control, open **My Numbers**, edit the receiving number, then go to **Voice → Services → Enable CNAM Caller ID lookup**.
+
+- **Off** turns off the lookup.
+- **Standard** uses traditional CNAM databases at your existing rate.
+- **Enhanced** can find a person or business name for more US caller numbers and can return longer, mixed-case names. It costs **$1.50 per enabled number per month** and replaces the Standard monthly charge.
+
+![Enable CNAM Caller ID lookup menu showing Off, Standard, and Enhanced at $1.50 per month.](_images/1130656-inbound-cnam-options.png)
+
+Select the tier and choose **Save Changes**.
+
+![Enable CNAM Caller ID lookup with Enhanced selected and the monthly price displayed.](_images/1130656-inbound-cnam-enhanced.png)
+
+For eligibility and call handling details, see [Set up Inbound Caller ID Name](https://support.telnyx.com/en/articles/1130656-set-up-inbound-caller-id-name-incoming).
 
 ## Outbound Caller ID Number
 
@@ -97,7 +109,7 @@ In Canada, there is no national CNAM database. Instead, the CNAM information is 
 ## **SPECIAL NOTES**
 
 * When enabling CNAM Listing on Telnyx owned numbers, In most cases **CNAM values get pushed to the database in the first 12 - 24 hours but can take up to 72 hours.**
-* CNAM supports up to 15 alphanumeric characters and blanks spaces.
+* Outbound CNAM Listing supports up to 15 characters, including letters, numbers, and spaces.
   ​
 * CNAM is not currently supported on our **toll free** or **international** numbers.
 
