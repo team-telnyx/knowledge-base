@@ -103,3 +103,29 @@ This feature is a part of the [messaging profile setting](https://portal.telnyx.
 ## MMS Limitations and Future Solutions
 
 Currently, MMS messaging through Telnyx is only supported within the USA and Canada. For international multimedia messaging, we are actively exploring solutions to enhance our global reach. As a future-ready alternative, we are developing a Rich Communication Services (RCS) product, expected to enter beta testing by the end of year 2024 or early Q1 2025. RCS will provide a more versatile messaging experience with features beyond standard MMS, enabling richer multimedia content, improved interactivity, and support for a broader range of devices and carriers worldwide. Keep an eye out for this new capability to expand your messaging possibilities beyond traditional MMS.
+
+## **Why are MMS videos and GIFs displayed as file attachments on iOS 27?**
+
+Some iPhones running **iOS 27** may display MMS videos and GIFs as file attachments instead of showing an inline preview in the Messages app.
+
+This appears to be related to how iOS 27 handles MMS media rendering, particularly for messages received from unknown senders. The MMS may be successfully delivered to the device even when the media preview is not displayed correctly.
+
+**Recommended workarounds:**
+
+**1. Disable Filter Unknown Senders**
+
+On the affected iPhone, navigate to **Settings > Messages** (or Settings > Apps > Messages, depending on the device) and disable **Filter Unknown Senders** to check whether this resolves the display issue.
+
+**2. Customize the attachment filename**
+
+If you're hosting the video file on your own server or CDN, you can configure the following HTTP response header:
+
+```http
+Content-Disposition: inline; filename="Tap-To-Watch.mp4"
+```
+
+Use a filename of no more than 20 characters, containing only letters, numbers, hyphens (`-`), underscores (`_`), and periods (`.`).
+
+This may allow affected iPhones to display a recognizable filename, such as `Tap-To-Watch.mp4`, instead of a generic attachment name like `m1234.mp4`.
+
+**Important:** These workarounds do not guarantee that inline previews will be restored. The issue appears to be related to iOS 27 Messages rendering rather than MMS delivery. Apple has not publicly confirmed a fix for this specific behavior.
