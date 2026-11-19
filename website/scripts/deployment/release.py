@@ -30,6 +30,9 @@ class ConcurrentUpdate(RuntimeError):
 def save(path, value):
     Path(path).parent.mkdir(parents=True, exist_ok=True)
     Path(path).write_text(json.dumps(value, indent=2) + '\n')
+    if Path(path).name == 'failure.json' and os.environ.get('GITHUB_STEP_SUMMARY'):
+        with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
+            summary.write('\nProduction recovery required. ' + value.get('action', '') + '\n')
 
 
 def aws(service, operation, **kwargs):
@@ -258,6 +261,38 @@ def restore_routes(call, arn, before, desired):
     sync(call, arn, current, before, allow_remove=True)
 
 
+def upload_content(dist, run=subprocess.run):
+    """Publish immutable assets first, then mutable content. Never delete old keys."""
+    bucket = 's3://' + BUCKET
+    def upload(operation, source, destination, *flags):
+        run(['aws', 's3', operation, str(source), destination, *flags], check=True)
+    for prefix in ['assets', '_images', 'downloads']:
+        upload('sync', dist / prefix, bucket + '/' + prefix + '/',
+               '--cache-control', 'public, max-age=31536000, immutable')
+    upload('cp', dist / 'content', bucket + '/content/', '--recursive',
+           '--cache-control', 'public, no-cache')
+    upload('cp', dist, bucket + '/', '--recursive', '--exclude', '*',
+           '--include', '*.woff', '--include', '*.woff2',
+           '--cache-control', 'public, max-age=86400')
+    exclusions = [flag for pattern in ['assets/*', '_images/*', 'downloads/*', 'content/*', 'en/*', '*.woff', '*.woff2']
+                  for flag in ['--exclude', pattern]]
+    upload('cp', dist, bucket + '/', '--recursive', *exclusions,
+           '--cache-control', 'public, no-cache')
+    for flags, content_type in [(['--exclude', '*.md'], 'text/html; charset=utf-8'),
+                                (['--exclude', '*', '--include', '*.md'], 'text/markdown; charset=utf-8')]:
+        upload('cp', dist / 'en', bucket + '/en/', '--recursive', *flags,
+               '--content-type', content_type, '--cache-control', 'public, no-cache')
+
+
+def recovery_action():
+    return ('Mutable production content may be partially overwritten. Restore ALL content and routes '
+            'by dispatching Deploy website on main with rollback_run_id=<prior successful verified run ID>. '
+            'For example: gh workflow run deploy-website.yml --ref main '
+            '-f rollback_run_id=<RUN_ID>. Inspect the recovery run verification and success.json; '
+            'restored routes alone do not restore content. If its artifact has expired, recover from '
+            'a retained verified release before resuming publication.')
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('phase', choices=['prepare', 'publish'])
@@ -272,10 +307,10 @@ def main():
     if args.phase == 'prepare':
         before = preflight(aws, arn, routes, dist, args.bootstrap, args.rollback)
         save(reports / 'before.json', before)
-        save(reports / 'release.json', {'store': arn, 'distribution': DISTRIBUTION, 'protocol': PROTOCOL, 'bootstrap': args.bootstrap, 'rollback': args.rollback, 'source_sha': os.environ.get('RELEASE_SHA', ''), 'registry_sha256': hashlib.sha256(json.dumps(routes, sort_keys=True).encode()).hexdigest()})
+        save(reports / 'release.json', {'store': arn, 'distribution': DISTRIBUTION, 'protocol': PROTOCOL, 'bootstrap': args.bootstrap, 'rollback': args.rollback, 'source_sha': os.environ.get('ROLLBACK_SOURCE_SHA') if args.rollback else os.environ.get('RELEASE_SHA', ''), 'execution_sha': os.environ.get('RELEASE_SHA', ''), 'registry_sha256': hashlib.sha256(json.dumps(routes, sort_keys=True).encode()).hexdigest()})
         return
     metadata = json.loads((reports / 'release.json').read_text())
-    if metadata != {'store': arn, 'distribution': DISTRIBUTION, 'protocol': PROTOCOL, 'bootstrap': args.bootstrap, 'rollback': args.rollback, 'source_sha': os.environ.get('RELEASE_SHA', ''), 'registry_sha256': hashlib.sha256(json.dumps(routes, sort_keys=True).encode()).hexdigest()}:
+    if metadata != {'store': arn, 'distribution': DISTRIBUTION, 'protocol': PROTOCOL, 'bootstrap': args.bootstrap, 'rollback': args.rollback, 'source_sha': os.environ.get('ROLLBACK_SOURCE_SHA') if args.rollback else os.environ.get('RELEASE_SHA', ''), 'execution_sha': os.environ.get('RELEASE_SHA', ''), 'registry_sha256': hashlib.sha256(json.dumps(routes, sort_keys=True).encode()).hexdigest()}:
         raise ValueError('Release/configuration changed after preflight')
     before = json.loads((reports / 'before.json').read_text())
     if read_store(aws, arn) != before:
@@ -283,6 +318,7 @@ def main():
     try:
         # Preserve the readiness marker during routine updates; bootstrap writes it last.
         desired = {**routes, **({READY: PROTOCOL} if READY in before else {})}
+        upload_content(dist)
         sync(aws, arn, before, desired, args.rollback)
         invalidation = invalidate(aws)
         save(reports / 'http.json', verify(routes, canonical, args.bootstrap, dist))
@@ -293,17 +329,17 @@ def main():
             with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
                 summary.write(f"\nVerified production release: `{metadata['source_sha']}`\n")
     except ConcurrentUpdate:
-        save(reports / 'failure.json', {'routing_restored': False, 'reason': 'Concurrent writer detected; stopped without overwriting its changes.'})
+        save(reports / 'failure.json', {'routing_restored': False, 'reason': 'Concurrent writer detected; stopped without overwriting its changes.', 'content_restored': False, 'action': recovery_action()})
         raise
     except Exception as error:
-        # Content uploads retain old objects; recover routing even after a partial batch.
+        # Stable keys may already be overwritten. Route recovery is only partial recovery.
         try:
             restore_routes(aws, arn, before, {**desired, READY: PROTOCOL})
             invalidate(aws)
         except Exception as recovery_error:
-            save(reports / 'failure.json', {'routing_restored': False, 'reason': str(error), 'recovery_error': str(recovery_error), 'action': 'Inspect store/content and recover the prior verified release; automatic recovery did not complete.'})
+            save(reports / 'failure.json', {'routing_restored': False, 'reason': str(error), 'recovery_error': str(recovery_error), 'content_restored': False, 'action': recovery_action()})
             raise RuntimeError('Publication and automatic recovery failed; inspect release-report/failure.json') from recovery_error
-        save(reports / 'failure.json', {'routing_restored': True, 'content_rollback': 'Rerun workflow with the prior successful release run ID to restore overwritten content.'})
+        save(reports / 'failure.json', {'routing_restored': True, 'content_restored': False, 'reason': str(error), 'action': recovery_action()})
         raise
 
 

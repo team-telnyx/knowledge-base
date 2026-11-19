@@ -127,7 +127,7 @@ class ReleaseTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 release.preflight(call, 'arn', routes, root / 'dist', True, False)
             active = False
-            with patch('release.configuration', return_value='arn'), patch('release.aws', side_effect=call), patch('release.__file__', str(root / 'scripts/deployment/release.py')), patch('release.invalidate', return_value='invalidation'):
+            with patch('release.configuration', return_value='arn'), patch('release.aws', side_effect=call), patch('release.__file__', str(root / 'scripts/deployment/release.py')), patch('release.invalidate', return_value='invalidation'), patch('release.upload_content'):
                 with patch('sys.argv', ['release.py', 'prepare', '--bootstrap']):
                     release.main()
                 with patch('sys.argv', ['release.py', 'publish', '--bootstrap']), patch('release.verify', side_effect=RuntimeError('bad HTTP')):
@@ -141,6 +141,93 @@ class ReleaseTests(unittest.TestCase):
                 with patch('sys.argv', ['release.py', 'publish', '--bootstrap']), patch('release.verify', side_effect=verified):
                     release.main()
                 self.assertEqual(store.values, {**routes, release.READY: release.PROTOCOL})
+
+    def test_partial_upload_failure_records_full_recovery_requirement(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            page = root / 'dist/en/articles/1-one'
+            page.parent.mkdir(parents=True)
+            page.write_text('<h1>One</h1>')
+            routes = {'article:1': '/en/articles/1-one'}
+            (root / 'dist-edge').mkdir()
+            (root / 'dist-edge/routes.json').write_text(json.dumps(routes))
+            before = {**routes, release.READY: release.PROTOCOL}
+            store = Store(before)
+            with patch('release.configuration', return_value='arn'), patch('release.aws', side_effect=store), patch('release.__file__', str(root / 'scripts/deployment/release.py')), patch('release.preflight', return_value=before), patch('release.invalidate', return_value='invalidation') as invalidation:
+                with patch('sys.argv', ['release.py', 'prepare']):
+                    release.main()
+                with patch('sys.argv', ['release.py', 'publish']), patch('release.upload_content', side_effect=RuntimeError('partial S3 upload')), patch('release.verify') as verify:
+                    with self.assertRaisesRegex(RuntimeError, 'partial S3 upload'):
+                        release.main()
+                    verify.assert_not_called()
+                failure = json.loads((root / 'release-report/failure.json').read_text())
+                self.assertTrue(failure['routing_restored'])
+                self.assertFalse(failure['content_restored'])
+                self.assertIn('rollback_run_id=', failure['action'])
+                self.assertFalse((root / 'release-report/success.json').exists())
+                self.assertEqual(store.values, before)
+                invalidation.assert_called_once()
+
+    def test_partial_route_publication_and_failed_recovery_evidence(self):
+        for recovery_fails in [False, True]:
+            with self.subTest(recovery_fails=recovery_fails), tempfile.TemporaryDirectory() as temp:
+                root = Path(temp)
+                routes = {}
+                for i in range(51):
+                    page = root / f'dist/en/articles/{i}-new'
+                    page.parent.mkdir(parents=True, exist_ok=True)
+                    page.write_text('<h1>New</h1>')
+                    routes[f'article:{i}'] = f'/en/articles/{i}-new'
+                (root / 'dist-edge').mkdir()
+                (root / 'dist-edge/routes.json').write_text(json.dumps(routes))
+                before = {f'article:{i}': f'/en/articles/{i}-old' for i in range(51)}
+                before[release.READY] = release.PROTOCOL
+                store = Store(before)
+                updates = []
+                def call(service, operation, **kwargs):
+                    if operation == 'update-keys':
+                        updates.append(kwargs)
+                        if len(updates) == 2:
+                            raise RuntimeError('second publication batch failed')
+                        if recovery_fails and len(updates) > 2:
+                            raise RuntimeError('recovery batch failed')
+                    return store(service, operation, **kwargs)
+                with patch('release.configuration', return_value='arn'), patch('release.aws', side_effect=call), patch('release.__file__', str(root / 'scripts/deployment/release.py')), patch('release.preflight', return_value=before), patch('release.invalidate', return_value='invalidation'), patch('release.upload_content') as upload:
+                    with patch('sys.argv', ['release.py', 'prepare']):
+                        release.main()
+                    with patch('sys.argv', ['release.py', 'publish']), patch('release.verify') as verify:
+                        with self.assertRaises(RuntimeError):
+                            release.main()
+                        verify.assert_not_called()
+                    upload.assert_called_once()
+                self.assertEqual(len(updates), 3)
+                self.assertEqual(len(updates[0]['puts']), 50)
+                failure = json.loads((root / 'release-report/failure.json').read_text())
+                self.assertEqual(failure['routing_restored'], not recovery_fails)
+                self.assertFalse(failure['content_restored'])
+                self.assertIn('second publication batch failed', failure['reason'])
+                self.assertIn('rollback_run_id=', failure['action'])
+                self.assertFalse((root / 'release-report/success.json').exists())
+                if recovery_fails:
+                    self.assertEqual(failure['recovery_error'], 'recovery batch failed')
+                    self.assertNotEqual(store.values, before)
+                else:
+                    self.assertEqual(store.values, before)
+
+    def test_upload_order_and_failure_stop(self):
+        commands = []
+        def run(args, **kwargs):
+            self.assertTrue(kwargs['check'])
+            commands.append(args)
+        release.upload_content(Path('/dist'), run)
+        self.assertEqual([c[3] for c in commands[:4]], ['/dist/assets', '/dist/_images', '/dist/downloads', '/dist/content'])
+        self.assertIn('text/html; charset=utf-8', commands[-2])
+        self.assertIn('text/markdown; charset=utf-8', commands[-1])
+        self.assertTrue(all('--delete' not in c for c in commands))
+        def fail(args, **kwargs):
+            raise RuntimeError('upload failed')
+        with self.assertRaisesRegex(RuntimeError, 'upload failed'):
+            release.upload_content(Path('/dist'), fail)
 
     def test_wrong_distribution_and_store_rejected(self):
         for env in [{}, {'CLOUDFRONT_DISTRIBUTION_ID': 'OTHER'}, {'CLOUDFRONT_DISTRIBUTION_ID': release.DISTRIBUTION, 'CLOUDFRONT_KVS_ARN': 'arn:aws:cloudfront::000000000000:key-value-store/x'}]:
