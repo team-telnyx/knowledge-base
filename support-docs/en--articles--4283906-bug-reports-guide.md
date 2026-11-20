@@ -60,8 +60,6 @@ If the bug is mission critical (service affecting), explain the service impact a
 
 If you believe you have found a security vulnerability, please report it to **security@telnyx.com** rather than general support.
 
-Telnyx welcomes responsible security research on our products and infrastructure. We value reports that demonstrate real security impact and follow the guidelines below.
-
 ## Telnyx Vulnerability Disclosure Program
 
 ## Overview
@@ -70,7 +68,15 @@ Telnyx welcomes responsible security research on our products and infrastructure
 
 ## Scope
 
-**In scope:** Telnyx-owned web applications, APIs, and infrastructure, including `portal.telnyx.com`, `api.telnyx.com`, and other `*.telnyx.com` properties.
+**In scope:** Telnyx-owned production web applications, APIs, and infrastructure on the following hostnames only. Subdomains and hosts not listed below are out of scope:
+
+- `telnyx.com` and `www.telnyx.com`
+- `portal.telnyx.com`
+- `api.telnyx.com` and regional API endpoints (`api.telnyx.eu`, `api.telnyx.com.au`, `api.telnyx.ca`, `api.telnyx.me`)
+- `api-mtls.telnyx.com`
+- `sip.telnyx.com` and regional SIP endpoints (`sip.telnyx.eu`, `sip.telnyx.com.au`, `sip.telnyx.ca`, `sip.telnyx.me`, `sip.telnyx.asia`)
+- `sms.telnyx.com`, `video.telnyx.com`, `pbx.telnyx.com`, `webrtc.telnyx.com`
+- `flow.telnyx.com`
 
 **Out of scope:** Third-party services and integrations, physical security, social engineering against employees, and denial-of-service testing.
 
@@ -86,15 +92,15 @@ We want to hear about vulnerabilities with **demonstrated, real-world security i
 
 ## What Doesn’t Qualify
 
-Reports are likely to be declined if they describe:
+The following are not eligible unless combined with another issue to show real security impact:
 
 * Configuration hardening suggestions or best-practice recommendations without a working exploit
 * Informational findings with no demonstrated security impact, such as version disclosure, missing headers, or cookie attributes
-* Issues requiring unlikely user interaction or only affecting the reporter’s own session
+* Issues that require unrealistic victim interaction, or that only affect the reporter’s own session (for example, self-XSS)
 * Automated scanner output without manual validation and a clear proof of concept
 * Telecom service abuse, carrier routing, or call quality issues
 
-This list is not exhaustive. Telnyx reserves the right to determine whether any reported issue constitutes a valid security vulnerability.
+This list is not exhaustive. Telnyx reserves the right to determine whether any reported issue constitutes a valid submission to our vulnerability program.
 
 ## Report Requirements
 
@@ -119,7 +125,7 @@ Researchers must follow these rules:
 
 ## Rewards
 
-Telnyx may offer rewards for qualifying reports at our sole discretion, based on severity, exploitability, and impact.
+Reports that meet the scope, rules, and requirements above may be eligible for a reward at Telnyx’s sole discretion, based on severity, exploitability, and impact.
 
 Informational findings and out-of-scope reports are not eligible for rewards.
 
@@ -133,5 +139,5 @@ Send security reports to **security@telnyx.com** with the subject:
 
 Telnyx will not pursue legal action against researchers who act in good faith, follow this policy, and report findings to Telnyx before any public disclosure.
 
-*Last updated: May 2026 · Questions? security@telnyx.com*
+*Last updated: November 2026 · Questions? security@telnyx.com*
 ​
