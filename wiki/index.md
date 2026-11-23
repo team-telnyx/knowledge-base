@@ -1,6 +1,6 @@
 ---
 title: Telnyx Knowledge Base
-updated_at: 2026-11-18T10:44:37Z
+updated_at: 2026-11-23T08:56:41Z
 ---
 
 # Telnyx Knowledge Base
@@ -2176,3 +2176,5 @@ updated_at: 2026-11-18T10:44:37Z
 - [Telnyx Support for Microsoft Teams Government Clouds](support-docs/articles/2026111201-microsoft-teams-government-cloud-support.md) — Telnyx does not support Microsoft Teams calling through Operator Connect or Direct Routing for GCC High or Department of Defense (DoD) tenants.
 
 - [Choose caller ID for SIP call transfers](support-docs/articles/2026110401-choose-caller-id-for-sip-call-transfers.md) — Caller ID for Transfer Target controls which party’s phone number Telnyx sends to the destination when your phone system transfers a call using SIP REFER. Choose the person being transferred, or the person making the transfer.
+
+- [Tellvo.app: iPhone SIP Softphone Setup](support-docs/articles/2026112301-tellvo-app-iphone-setup.md) — Use Tellvo.app on your iPhone to make and receive voice calls through a Telnyx Credentials SIP Connection. This guide covers Telnyx account preparation, the app's Telnyx preset, and checks for registration and calling.
