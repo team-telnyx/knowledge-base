@@ -28,29 +28,60 @@ Use Tellvo.app on your iPhone to make and receive voice calls through a Telnyx C
 
 TLS protects SIP signaling; SRTP protects audio. Selecting TLS alone does not enable media encryption.
 
-## 2. Open the Telnyx preset
+## 2. Add your SIP account in Tellvo.app
 
-1. Open [Tellvo.app's Telnyx setup guide](https://tellvo.app/setup/telnyx) on your iPhone and tap **Open in Tellvo.app**. If viewing the guide on a computer, scan its QR code with your iPhone.
-2. The preset opens a new line with the Telnyx server settings filled in. If prompted to install the app first, return to the guide and open the preset again after installation.
-3. Enter the SIP username and password from your Telnyx connection.
-4. Confirm that the line registers. Tellvo documents a green status dot for a registered line; tap the line's status for diagnostic information if registration fails.
+### Open the account setup
 
-### Manual configuration
+Open Tellvo.app. On the **Welcome to Tellvo.app** screen, tap **Continue**.
 
-Alternatively, in Tellvo.app select **Dialer → + → Add Line** and enter these settings. They match the vendor's documented Telnyx preset.
+<img src="_images/tellvo-welcome.png" alt="Tellvo.app welcome screen with the Continue button." width="390" height="844" />
 
-| Setting | Value |
+On **Add Your SIP Account**, tap **Add Account Manually**. This opens the account form, where you can select the built-in Telnyx preset.
+
+<img src="_images/tellvo-add-sip-account.png" alt="Add Your SIP Account prompt with Add Account Manually below the computer and QR setup options." width="390" height="844" />
+
+### Select the Telnyx preset
+
+On **New Account**, tap **Use Preset**. The empty form initially shows placeholder values and **UDP · 5060**; selecting Telnyx fills in the provider settings.
+
+<img src="_images/tellvo-new-account.png" alt="Empty New Account form with Use Preset, Name, Server, Username, Password, and Advanced fields." width="390" height="844" />
+
+Under **Providers**, tap **Telnyx**.
+
+<img src="_images/tellvo-presets.png" alt="Presets provider list with Telnyx between sipgate and Twilio." width="390" height="844" />
+
+### Enter your connection credentials
+
+The form now shows the Telnyx provider card, **Name: Telnyx**, **Server: sip.telnyx.com**, and **Advanced: TLS · 5061**.
+
+1. Leave **Name** as `Telnyx`, or enter a label that helps you identify the line.
+2. Keep **Server** as `sip.telnyx.com`, unless your deployment uses a regional SIP hostname.
+3. Enter your Telnyx SIP Connection's **Username** and **Password** from **Authentication and Routing** in Mission Control. The light-gray `1001` is a placeholder, not a username to copy.
+4. Review **Advanced** using the settings below, then return to **New Account** and tap **Save**.
+
+<img src="_images/tellvo-telnyx-preset.png" alt="Telnyx preset applied: sip.telnyx.com server, empty SIP credential fields, and TLS port 5061 in Advanced." width="390" height="844" />
+
+You can also open [Tellvo.app's Telnyx setup guide](https://tellvo.app/setup/telnyx) on your iPhone and tap **Open in Tellvo.app** to start with the preset. If viewing that guide on a computer, scan its QR code with your iPhone. If installation is required first, open the preset link again afterward.
+
+### Review Advanced settings
+
+The screenshot below shows the **initial manual defaults before applying the Telnyx preset**: UDP, port 5060, Encryption Off, and a 600-second registration interval. For the TLS configuration in this guide, use the values in the table instead.
+
+<img src="_images/tellvo-advanced-defaults.png" alt="Advanced settings before the Telnyx preset: UDP, port 5060, Encryption Off, and Re-register Every set to 600 seconds." width="390" height="844" />
+
+| Field | Telnyx configuration |
 | --- | --- |
-| SIP server | `sip.telnyx.com` |
 | Transport | TLS |
 | Port | `5061` |
-| Username | Your Telnyx SIP Connection username |
-| Password | Your Telnyx SIP Connection password |
-| Registration interval | 180 seconds |
-| Audio codecs | Opus, G.722, G.711 µ-law (PCMU), G.711 A-law (PCMA) |
-| Media encryption | SRTP when offered by the server |
+| Encryption | Use the Telnyx preset's SRTP setting; the vendor documents SRTP when offered by the server. Do not leave encryption Off for this setup. |
+| Re-register Every, s | `180` |
+| Codecs | Opus, G.722, PCMU (G.711 µ-law), PCMA (G.711 A-law) |
 
-If your deployment uses a regional SIP hostname, use the appropriate hostname from [Telnyx technical specifications](https://support.telnyx.com/en/articles/1130599-telnyx-tech-specs). Keep the hostname rather than replacing it with an IP address.
+For manual setup without a preset, enter the same server and SIP credentials on **New Account**, then configure these Advanced values. Keep the preset's remaining settings unless your deployment requires an override; the additional fields include **Auth Username**, **Registrar**, **Outbound Proxy**, and **STUN Server**.
+
+For a regional SIP hostname, use the appropriate hostname from [Telnyx technical specifications](https://support.telnyx.com/en/articles/1130599-telnyx-tech-specs). Keep the hostname rather than replacing it with an IP address.
+
+After saving, confirm that the line registers. Tellvo documents a green status dot for a registered line; tap the line's status for diagnostic information if registration fails.
 
 ## 3. Verify calling
 
