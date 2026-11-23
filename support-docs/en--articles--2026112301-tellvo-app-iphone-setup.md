@@ -100,5 +100,3 @@ Registration confirms that the line can authenticate; test calling separately:
 | Incoming calls do not reach the app | Confirm that the called Telnyx number is assigned to this connection, the line is registered, and the inbound transport and media settings match. Test with the app open first. |
 | Calls ring only while the app is open | Check Tellvo's background-ringing eligibility and app settings, and the iPhone's notification and Focus settings. |
 | Audio is missing in one direction | Review firewall/NAT behavior and SIP ALG on your router, compare Wi-Fi with cellular data, and check media-encryption compatibility. TLS registration alone does not verify the audio path. |
-
-For app-specific setup and diagnostics, use [Tellvo's Telnyx guide](https://tellvo.app/setup/telnyx). For Telnyx routing or call failures, provide Telnyx Support with the call time, direction, and SIP error or Call-ID when available. Do not share SIP passwords in screenshots or support messages.
