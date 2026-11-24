@@ -116,9 +116,30 @@ These fields configure how Telnyx registers with your external PBX.
 | **Outbound proxy** | No | SIP proxy for routing outbound requests through an intermediary, if required. |
 | **Expiration (sec)** | No | Requested registration expiry in seconds. Your PBX may negotiate a different expiry, so this is not an exact refresh schedule. |
 | **Transport** | No | UDP, TCP, or TLS. **Must match your PBX configuration.** |
+| **Secure media** | No | Auto, Always, or Never. Controls media encryption for calls from Telnyx to your PBX. See Secure Media below. |
 | **User-Agent** | No | Optional custom SIP User-Agent for requests to your PBX. Up to 256 characters. See Custom User-Agent Header below for availability, validation, and API reset instructions. |
 
 Click Next.
+
+## Secure Media
+
+When available for your account, **Secure media** appears under **UAC Settings → External UAC settings**. Select the option that matches your PBX's media configuration, then save the connection.
+
+| Option | With TLS signaling | With UDP or TCP signaling |
+| --- | --- | --- |
+| **Auto** (default) | SRTP required | Plain RTP |
+| **Always** | SRTP required | SRTP required |
+| **Never** | Plain RTP | Plain RTP |
+
+**Auto** keeps the existing transport-based behavior. Choose **Always** when your PBX requires encrypted media. Choose **Never** when your PBX requires plain RTP, including when it uses TLS for SIP signaling.
+
+This control applies to calls **from Telnyx to your PBX**. It does not change the **Transport** setting or media behavior for calls from your PBX to Telnyx. TLS can protect signaling while **Never** keeps media unencrypted.
+
+To return to transport-based behavior, select **Auto**. If the control is not visible, contact Telnyx Support to check availability for your account.
+
+After saving, allow time for the configuration to propagate and place a new test call. Confirm audio in both directions. A successful registration alone does not confirm media compatibility. If calls fail or audio is missing, check that your PBX supports the chosen mode and that the media ports are reachable.
+
+For API configuration and the `external_uac_settings.secure_media` field, see [UAC connection media settings](https://developers.telnyx.com/docs/voice/uac-connections#media-encryption-toward-the-pbx).
 
 ## Custom User-Agent Header
 
