@@ -3,7 +3,7 @@ title: "Tellvo.app: iPhone SIP Softphone Setup"
 summary: "Use Tellvo.app on your iPhone to make and receive voice calls through a Telnyx Credentials SIP Connection. This guide covers Telnyx account preparation, the app's Telnyx preset, and checks for registration and calling."
 sources:
 - url: "https://support.telnyx.com/en/articles/2026112301-tellvo-app-iphone-setup"
-updated_at: 2026-11-23T00:00:00Z
+updated_at: 2026-11-24T00:00:00Z
 tags: [support-docs]
 source_path: "support-docs/en--articles--2026112301-tellvo-app-iphone-setup.md"
 generated_by: incremental-support-docs-wiki
@@ -29,7 +29,7 @@ Use Tellvo.app on your iPhone to make and receive voice calls through a Telnyx C
 4. In **My Numbers**, select your voice-capable number and assign it to this SIP Connection for incoming calls.
 5. For encrypted incoming calls, configure the connection's inbound SIP transport as **TLS** and **Encrypted Media** as **SRTP**. See [Does Telnyx encrypt communication?](https://support.telnyx.com/en/articles/1130711-does-telnyx-encrypt-communication).
 
-TLS protects SIP signaling; SRTP protects audio. Selecting TLS alone does not enable media encryption.
+TLS protects SIP signaling; SRTP protects audio. Use the Telnyx preset to configure the app, and enable SRTP on the Telnyx connection for encrypted incoming audio.
 
 ## 2. Add your SIP account in Tellvo.app
 
@@ -68,23 +68,27 @@ You can also open [Tellvo.app's Telnyx setup guide](https://tellvo.app/setup/tel
 
 ### Review Advanced settings
 
-The screenshot below shows the **initial manual defaults before applying the Telnyx preset**: UDP, port 5060, Encryption Off, and a 600-second registration interval. For the TLS configuration in this guide, use the values in the table instead.
-
-<img src="_images/tellvo-advanced-defaults.png" alt="Advanced settings before the Telnyx preset: UDP, port 5060, Encryption Off, and Re-register Every set to 600 seconds." width="390" height="844" />
+With the **Telnyx** preset selected, open **Advanced** and check the settings below. If you still see UDP, port 5060, or a 600-second registration interval, return to **New Account → Use Preset → Telnyx** before continuing.
 
 | Field | Telnyx configuration |
 | --- | --- |
 | Transport | TLS |
 | Port | `5061` |
-| Encryption | Use the Telnyx preset's SRTP setting; the vendor documents SRTP when offered by the server. Do not leave encryption Off for this setup. |
+| Encryption | Keep the value applied by the Telnyx preset, which uses SRTP when offered by the server. |
 | Re-register Every, s | `180` |
 | Codecs | Opus, G.722, PCMU (G.711 µ-law), PCMA (G.711 A-law) |
 
-For manual setup without a preset, enter the same server and SIP credentials on **New Account**, then configure these Advanced values. Keep the preset's remaining settings unless your deployment requires an override; the additional fields include **Auth Username**, **Registrar**, **Outbound Proxy**, and **STUN Server**.
+Keep the preset's remaining settings unless your deployment requires an override. The additional fields include **Auth Username**, **Registrar**, **Outbound Proxy**, and **STUN Server**.
 
 For a regional SIP hostname, use the appropriate hostname from [Telnyx technical specifications](https://support.telnyx.com/en/articles/1130599-telnyx-tech-specs). Keep the hostname rather than replacing it with an IP address.
 
-After saving, confirm that the line registers. Tellvo documents a green status dot for a registered line; tap the line's status for diagnostic information if registration fails.
+### Save and confirm registration
+
+1. Return to **New Account** and tap **Save** after entering both SIP credentials.
+2. Check the line's status dot. A **green** dot indicates that the line has registered, according to Tellvo's setup guide.
+3. If the dot remains gray or red, tap the status in the line's header to see the server response. Check the SIP username, password, and server before trying again.
+
+A green registration indicator confirms registration only. Use the call checks below to verify incoming calls, outgoing calls, and audio.
 
 ## 3. Verify calling
 
