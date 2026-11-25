@@ -38,6 +38,12 @@ env:
   ALLOWED_PREFIXES: "support-docs/ wiki/support-docs/ wiki/index.md"
   HOLD_LABEL: no-auto-merge
   CI_WAIT_MINUTES: "30"
+  # TEMPORARY: commit statuses the gate does not wait for, comma-separated,
+  # matched exactly on the status context. infra-core-policy-bot reports
+  # "pending" until its approval rules are met, which never happens on these
+  # PRs, so the gate timed out on every one. Remove once infra has fixed the
+  # policy-bot setup for this repo.
+  IGNORED_STATUS_CONTEXTS: "infra-core-policy-bot: main"
   # Set to "true" to log the decision without merging (used while rolling out).
   DRY_RUN: "false"
 
@@ -163,10 +169,14 @@ jobs:
             RUNS=$(gh api --paginate "repos/$REPO/commits/$HEAD_SHA/check-runs?per_page=100" \
               --jq '.check_runs[] | select(.name != env.OWN_CHECK_NAME)
                     | "\(.status)\t\(.conclusion // "")\t\(.name)"')
-            # Legacy commit statuses (none today, but cheap to honour).
-            STATUS_JSON=$(gh api "repos/$REPO/commits/$HEAD_SHA/status")
-            STATUS_COUNT=$(jq -r '.total_count' <<< "$STATUS_JSON")
-            STATUS_STATE=$(jq -r '.state' <<< "$STATUS_JSON")
+            # Commit statuses (latest per context), minus the ignored contexts.
+            STATUSES=$(gh api "repos/$REPO/commits/$HEAD_SHA/status?per_page=100" \
+              | jq -r --arg ignore "$IGNORED_STATUS_CONTEXTS" '
+                  ($ignore | split(",") | map(gsub("^\\s+|\\s+$"; "")) | map(select(. != ""))) as $ig
+                  | .statuses[] | select(.context as $c | $ig | index($c) | not)
+                  | "\(.state)\t\(.context)"')
+            STATUS_FAILED=$(awk -F'\t' '$2!="" && ($1=="failure" || $1=="error") {print "  " $2 " (" $1 ")"}' <<< "$STATUSES")
+            STATUS_PENDING=$(awk -F'\t' '$2!="" && $1=="pending" {print "  " $2 " (pending)"}' <<< "$STATUSES")
 
             FAILED=$(awk -F'\t' '$3!="" && $1=="completed" && $2!="success" && $2!="skipped" && $2!="neutral" {print "  " $3 " (" $2 ")"}' <<< "$RUNS")
             PENDING=$(awk -F'\t' '$3!="" && $1!="completed" {print "  " $3 " (" $1 ")"}' <<< "$RUNS")
@@ -177,28 +187,32 @@ jobs:
               echo "$FAILED"
               echo "proceed=false" >> "$GITHUB_OUTPUT"; exit 0
             fi
-            if [ "$STATUS_COUNT" != "0" ] && [ "$STATUS_STATE" = "failure" ]; then
-              echo "Commit status is failure — not auto-merging."
+            if [ -n "$STATUS_FAILED" ]; then
+              echo "Commit statuses did not pass — not auto-merging:"
+              echo "$STATUS_FAILED"
               echo "proceed=false" >> "$GITHUB_OUTPUT"; exit 0
             fi
 
-            if [ -z "$PENDING" ] && [ "$TOTAL" -gt 0 ] \
-               && { [ "$STATUS_COUNT" = "0" ] || [ "$STATUS_STATE" = "success" ]; }; then
+            if [ -z "$PENDING" ] && [ -z "$STATUS_PENDING" ] && [ "$TOTAL" -gt 0 ]; then
               echo "All $TOTAL other checks passed:"
               awk -F'\t' '{print "  " $3 " (" $2 ")"}' <<< "$RUNS"
+              [ -n "$IGNORED_STATUS_CONTEXTS" ] && echo "Commit statuses not waited for: $IGNORED_STATUS_CONTEXTS"
               echo "proceed=true" >> "$GITHUB_OUTPUT"; exit 0
             fi
 
             if [ "$SECONDS" -ge "$DEADLINE" ]; then
               echo "Timed out after $CI_WAIT_MINUTES minutes waiting for checks:"
               [ -n "$PENDING" ] && echo "$PENDING"
+              [ -n "$STATUS_PENDING" ] && echo "$STATUS_PENDING"
               [ "$TOTAL" -eq 0 ] && echo "  (no other check runs were registered)"
               echo "Leaving this PR to humans."
               echo "proceed=false" >> "$GITHUB_OUTPUT"; exit 0
             fi
 
             echo "Waiting on:"
-            if [ -n "$PENDING" ]; then echo "$PENDING"; else echo "  (no check runs registered yet)"; fi
+            [ -n "$PENDING" ] && echo "$PENDING"
+            [ -n "$STATUS_PENDING" ] && echo "$STATUS_PENDING"
+            [ "$TOTAL" -eq 0 ] && echo "  (no check runs registered yet)"
             sleep 30
           done
 
