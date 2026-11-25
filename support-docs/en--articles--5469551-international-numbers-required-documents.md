@@ -168,7 +168,7 @@ You can find country-specific information in our [International DID Requirements
 | Uzbekistan | 1, 3, 7, h | N/A | N/A | N/A | N/A | N/A |
 | Vietnam | 1, 3, 9\*, 10, 13, (h) | N/A | N/A | N/A | N/A | N/A |
 | Zambia | N/A | N/A | 1, 3, 4, 7, 10 (h) | N/A | N/A | N/A |
-| Zimbabwe | 1, 3 | N/A | N/A | N/A | N/A | N/A |
+| Zimbabwe | 1, 3, 9 (f) | N/A | N/A | N/A | N/A | N/A |
 
 **N/A** - We do not offer numbers/types right now.
 
