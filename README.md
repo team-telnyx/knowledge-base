@@ -74,7 +74,7 @@ Hand edits to `wiki/` should be rare and treated as emergency fixes only, becaus
 
 ### Pull request touching `support-docs/**`
 
-1. `Incremental Support Docs Wiki Corpus` regenerates `_manifest.json`, detects changed files under `support-docs/**/*.md`, runs `scripts/incremental_support_docs_wiki.py`, and verifies the PR includes the required deterministic manifest and `wiki/` updates.
+1. `Incremental Support Docs Wiki Corpus` regenerates `_manifest.json`, detects changed files under `support-docs/**/*.md`, runs `scripts/incremental_support_docs_wiki.py`, and checks the PR includes the required deterministic manifest and `wiki/` updates. If they are missing on a PR from a branch in this repo, the `kb-automerge` app commits them to the PR branch and the checks re-run on that commit; PRs from forks fail with instructions to generate them locally.
 2. `External Contribution Check` restricts external PRs to modifying existing files only (no adds, deletes, or renames).
 3. Maintainers review the source article changes and generated wiki changes together.
 4. `Auto-merge internal support-doc PRs` squash-merges the PR without waiting for a maintainer when it comes from someone with write access (any Telnyx org member) on an in-repo branch, only touches `support-docs/` and the generated `wiki/support-docs/` / `wiki/index.md` artifacts, and every other check is green. To opt out, open the PR as a draft: it is not auto-merged while it is a draft, and marking it ready for review starts the auto-merge check. See [CONTRIBUTING.md](.github/CONTRIBUTING.md#review).
