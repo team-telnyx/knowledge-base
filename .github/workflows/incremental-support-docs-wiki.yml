@@ -47,6 +47,10 @@ jobs:
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           fetch-depth: 0
+          # Same-repo PRs are built on the PR head rather than the merge commit,
+          # so the generated files can be committed straight back to the branch.
+          # Fork PRs and other events keep the default ref.
+          ref: ${{ (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository) && github.event.pull_request.head.sha || '' }}
 
       - name: Set up Python
         uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
@@ -73,7 +77,10 @@ jobs:
             BASE_SHA="$(git rev-list --max-parents=0 "$HEAD_SHA")"
           fi
 
-          git diff --name-only --diff-filter=ACMRTD "$BASE_SHA" "$HEAD_SHA" -- 'support-docs/**/*.md' > changed-support-docs.txt
+          # ':(glob)' makes '**/' also match zero directories. Without it git
+          # only matches files in subdirectories, and the support docs live
+          # directly in support-docs/.
+          git diff --name-only --diff-filter=ACMRTD "$BASE_SHA" "$HEAD_SHA" -- ':(glob)support-docs/**/*.md' > changed-support-docs.txt
           COUNT=$(wc -l < changed-support-docs.txt | tr -d ' ')
           echo "count=$COUNT" >> "$GITHUB_OUTPUT"
           echo "base_sha=$BASE_SHA" >> "$GITHUB_OUTPUT"
@@ -148,19 +155,107 @@ jobs:
             --title "docs: update generated support-doc artifacts" \
             --body-file pr-body.md
 
+      # On PRs the generated files must travel with the doc change. For PRs from
+      # a branch in this repo the kb-automerge app commits them to the PR branch,
+      # so editors never have to run the generators themselves. The app token is
+      # used (not GITHUB_TOKEN) because pushes made with GITHUB_TOKEN do not
+      # trigger workflows, which would leave the new head commit without checks.
+      # Fork PRs get no secrets, so they still fail with instructions.
       - name: Check PR includes generated support-doc artifacts
+        id: artifacts
         if: github.event_name == 'pull_request'
+        shell: bash
+        env:
+          SAME_REPO: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
+        run: |
+          set -euo pipefail
+          # `git status` rather than `git diff` so new, untracked wiki pages count.
+          STALE=$(git status --porcelain -- support-docs/_manifest.json wiki/index.md wiki/support-docs/articles)
+          if [[ -z "$STALE" ]]; then
+            echo "Generated support-doc artifacts are up to date."
+            echo "action=none" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "Generated support-doc artifacts are missing or out of date:"
+          echo "$STALE"
+
+          if [[ "$SAME_REPO" != "true" ]]; then
+            echo "PR comes from a fork, so they cannot be committed automatically."
+            echo "action=fail" >> "$GITHUB_OUTPUT"
+          elif [[ "$(git log -1 --format=%an)" == *"[bot]" ]]; then
+            # The head commit is already a bot commit and the output still
+            # differs: the generators are not reproducing their own output.
+            # Stop here instead of pushing a new commit on every run.
+            echo "The head commit was made by a bot and the artifacts are still stale; not committing again."
+            echo "action=fail" >> "$GITHUB_OUTPUT"
+          else
+            echo "action=commit" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Minted only after the generator scripts have run, and limited to
+      # contents access, so PR-supplied code never runs with this token.
+      - name: Mint token to commit generated artifacts
+        id: app-token
+        if: steps.artifacts.outputs.action == 'commit'
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        with:
+          client-id: ${{ vars.KB_AUTOMERGE_CLIENT_ID }}
+          private-key: ${{ secrets.KB_AUTOMERGE_APP_PRIVATE_KEY }}
+          repositories: knowledge-base
+          permission-contents: write
+
+      - name: Commit generated support-doc artifacts to the PR branch
+        if: steps.artifacts.outputs.action == 'commit'
+        shell: bash
+        env:
+          APP_TOKEN: ${{ steps.app-token.outputs.token }}
+          APP_SLUG: ${{ steps.app-token.outputs.app-slug }}
+          REPO: ${{ github.repository }}
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -euo pipefail
+          # If the branch moved since this run started, the newer push has its
+          # own run of this workflow; leave it to that one.
+          REMOTE_SHA=$(git ls-remote origin "refs/heads/$HEAD_REF" | cut -f1)
+          if [[ "$REMOTE_SHA" != "$HEAD_SHA" ]]; then
+            echo "Branch $HEAD_REF is now at ${REMOTE_SHA:-<deleted>}, not $HEAD_SHA — skipping."
+            exit 0
+          fi
+
+          git config user.name "${APP_SLUG}[bot]"
+          git config user.email "${APP_SLUG}[bot]@users.noreply.github.com"
+          git add -- support-docs/_manifest.json wiki/index.md wiki/support-docs/articles
+          git commit -m "docs: update generated support-doc artifacts"
+          # The empty extraheader drops the GITHUB_TOKEN credential that
+          # actions/checkout configured, so the push authenticates as the app.
+          git -c "http.https://github.com/.extraheader=" push \
+            "https://x-access-token:${APP_TOKEN}@github.com/${REPO}.git" \
+            "HEAD:refs/heads/${HEAD_REF}"
+
+          MSG="Committed the generated manifest and wiki updates to $HEAD_REF as $(git rev-parse --short HEAD). Checks re-run on that commit."
+          echo "::notice::$MSG"
+          {
+            echo "$MSG"
+            echo
+            echo "If you work on this branch locally, run \`git pull\` before your next push."
+            echo
+            echo '```'
+            git show --stat --format= HEAD
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Fail when generated artifacts cannot be committed automatically
+        if: steps.artifacts.outputs.action == 'fail'
         shell: bash
         run: |
           set -euo pipefail
-          if ! git diff --quiet -- support-docs/_manifest.json wiki/index.md wiki/support-docs/articles; then
-            echo "Generated support-doc artifact changes are required for this PR."
-            echo "Run locally:"
-            echo "  python scripts/regenerate_support_docs_manifest.py"
-            echo "  git diff --name-only ${{ steps.changes.outputs.base_sha }} ${{ steps.changes.outputs.head_sha }} -- 'support-docs/**/*.md' > changed-support-docs.txt"
-            echo "  python scripts/incremental_support_docs_wiki.py --changed-files-file changed-support-docs.txt"
-            echo "Then commit the generated manifest and wiki changes."
-            git diff --stat -- support-docs/_manifest.json wiki/index.md wiki/support-docs/articles
-            exit 1
-          fi
-          echo "Generated support-doc artifacts are up to date."
+          echo "Generated support-doc artifact changes are required for this PR."
+          echo "Run locally:"
+          echo "  python scripts/regenerate_support_docs_manifest.py"
+          echo "  git diff --name-only --diff-filter=ACMRTD ${{ steps.changes.outputs.base_sha }} ${{ steps.changes.outputs.head_sha }} -- ':(glob)support-docs/**/*.md' > changed-support-docs.txt"
+          echo "  python scripts/incremental_support_docs_wiki.py --changed-files-file changed-support-docs.txt"
+          echo "Then commit the generated manifest and wiki changes."
+          git status --short -- support-docs/_manifest.json wiki/index.md wiki/support-docs/articles
+          exit 1
