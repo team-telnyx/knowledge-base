@@ -3,10 +3,10 @@ source_url: "https://support.telnyx.com/en/articles/5469551-international-number
 title: "International Numbers - Required Documents"
 description: "Review country-specific documents, registration conditions, and local dialing requirements for ordering international Telnyx numbers."
 scraped: "2026-09-17"
-modified_at: "2026-09-29T17:33:12Z"
+modified_at: "2026-11-24 T13:51:12Z"
 collection_path: "2184183-important-to-note"
 content_hash: "710de8efcfd00a9e8329caa3586c4c577b07e531b187898b9d93e80a2693ab7d"
-updated_at: "2026-09-29T17:33:12Z"
+updated_at: "2026-11-24 T13:51:12Z"
 ---
 
 # International Numbers - Required Documents
@@ -92,7 +92,6 @@ You can find country-specific information in our [International DID Requirements
 | Israel | 1, 3, 7, 9, 18 | 1, 3, 7, 9, 18 | 1, 3, 10 | 1, 2, 3 | N/A | N/A |
 | Italy | [Please see requirements here.](https://support.telnyx.com/en/articles/1311462-italy-did-requirements) | N/A | N/A | [Please see requirements here.](https://support.telnyx.com/en/articles/1311462-italy-did-requirements) | N/A | N/A |
 | Iraq | 1, 4, 7, 9, (c, f, ah) | N/A | N/A | N/A | N/A | N/A |
-| Ivory Coast | 1, 3, (h, m) | N/A | N/A | N/A | N/A | N/A |
 | Jamaica | 3, (h) | N/A | N/A | 1, 3,(h) | N/A | N/A |
 | Japan | N/A | [Please see requirements here](https://support.telnyx.com/en/articles/15444978-japan-did-requirements) | N/A | N/A | N/A | N/A |
 | Jordan | 1, 2, 3 | N/A | N/A | (h) | N/A | N/A |
