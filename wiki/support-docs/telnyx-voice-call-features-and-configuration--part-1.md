@@ -76,7 +76,7 @@ Outbound CNAM lets you register a Caller ID Name for your number. To set it up, 
 
 **Important notes:**
 - CNAM values on Telnyx-owned numbers typically push to the database within 12–24 hours but can take up to 72 hours. Numbers belonging to underlying carriers can take 3–5 working days.
-- CNAM supports up to 15 alphanumeric characters and blank spaces.
+- Outbound CNAM Listing supports up to 15 characters, including letters, numbers, and spaces.
 - CNAM is not supported on toll-free or international numbers.
 - Wireless carriers generally do not use the industry-wide CNAM service, so CNAM may not display on mobile devices.
 - Display of CNAM ultimately depends on the receiving carrier. Use the [Your Number Lookup Guide](your-number-lookup-guide.md) to verify when CNAM has been updated.
