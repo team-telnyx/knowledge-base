@@ -94,7 +94,7 @@ The CPS surcharge is based on the **95th percentile peak CPS** calculated per cu
 
 Example: 95th percentile peak CPS of 163 → (5 × $0) + (20 × $12) + (138 × $16) = $2,448.
 
-CPS surcharges apply only to SIP trunking traffic (not programmable voice). Monitor your patterns using the [Outbound Peak CPS dashboard](https://portal.telnyx.com/#/app/reports/dashboard).
+CPS surcharges apply to SIP trunking traffic today; starting December 1, 2026 they also apply to outbound Programmable Voice (Voice API and TeXML) and Programmable Fax traffic. Monitor your patterns using the [Outbound Peak CPS dashboard](https://portal.telnyx.com/#/app/reports/dashboard).
 
 ## CLI and CLD Validation
 
