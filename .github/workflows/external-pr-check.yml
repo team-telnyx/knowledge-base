@@ -4,6 +4,11 @@ on:
   pull_request_target:
     types: [opened, synchronize]
 
+# This runs on pull_request_target against fork code, so keep the token
+# read-only and never persist it into the checked-out repo (SEC-1893).
+permissions:
+  contents: read
+
 jobs:
   check-external-contributions:
     runs-on: ubuntu-latest
@@ -18,6 +23,7 @@ jobs:
         with:
           fetch-depth: 0
           ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
 
       - name: Fetch base branch
         run: git fetch origin ${{ github.event.pull_request.base.ref }}
