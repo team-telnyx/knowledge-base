@@ -276,3 +276,5 @@ For managed support KB content, open PRs against `support-docs/` and include the
 For developer docs content, fix the upstream developer documentation source. The monthly LLMWiki refresh will scrape and compile it into the generated wiki.
 
 All PRs — automated or hand-authored — require maintainer approval before merging, except routine support-doc edits by Telnyx members, which the auto-merge workflow merges once CI is green (see [CONTRIBUTING.md](.github/CONTRIBUTING.md#review)).
+
+<!-- SEC-1893 external-pr-check test, do not merge -->
